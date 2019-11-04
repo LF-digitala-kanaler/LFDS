@@ -1,0 +1,115 @@
+
+
+:root {
+  --font-family-sans-serif: "Intro Cond", Arial, "Helvetica Neue", sans-serif;
+  --font-family-serif: "LF Rubrik", Georgia, "Times New Roman", Times, serif;
+  --font-family-base: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  --font-weight-bold: 700;
+  --font-weight-normal: normal;
+
+  --color-body: #515151;
+  --color-white: #fff;
+  --color-navy: #00427a;
+  --color-blue: #005aa0; 
+  --color-gray: #747578;
+  --color-smoke: #F3F3F3;
+  --color-black: #222;
+  --color-red: #E30613;
+
+  --color-border: #e5e5e5;
+
+  --baseline: 1.375;
+  --baseline-font-size: 1rem;
+  
+  --spacing-unit: 1rem;
+  --spacing-xs: calc(0.5 * var(--spacing-unit));
+  --spacing-sm: calc(0.75 * var(--spacing-unit));
+  --spacing-md: calc(1.25 * var(--spacing-unit));
+  --spacing-lg: calc(2 * var(--spacing-unit));
+
+
+  --spacing-vertical--1: calc(1 * var(--baseline) * 1rem);
+  --spacing-vertical--2: calc(2 * var(--baseline) * 1rem);
+  --spacing-vertical--3: calc(3 * var(--baseline) * 1rem);
+
+  --breakpoint-1: 48rem;
+  --breakpoint-2: 62rem;
+  --breakpoint-3: 75rem;
+  
+}
+
+
+/*  Rhythm unit 22px/ */
+/* @media (min-width: 30em) {
+  :root {
+    /* a value of 3 used here to exaggerate the changes so you can see it in the demo below */
+    /* --baseline: 3;
+  } */
+/* } */ 
+
+@font-face {
+  font-family: 'Intro Cond';
+  src:
+    url('../../../static/fonts/introcond-regular-fixed.woff2') format('woff2'),
+    url('../../../static/fonts/introcond-regular-fixed.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Intro Cond';
+  src:
+    url('../../../static/fonts/introcond-bold-fixed.woff2') format('woff2'),
+    url('../../../static/fonts/introcond-bold-fixed.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LF Rubrik';
+  src:
+    url('../../../static/fonts/LFRubrik-Regular.woff2') format('woff2'),
+    url('../../../static/fonts/LFRubrik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+ font-family: var(--font-family-base);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  line-height: var(--baseline);
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: var(--spacing-vertical--1);
+}
+
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}

@@ -1,0 +1,21 @@
+:root {
+  --wrapper-width: 71.625em;
+  --wrapper-spacing: 5%;
+}
+
+.Wrapper {
+  max-width: var(--wrapper-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--wrapper-spacing);
+  padding-right: var(--wrapper-spacing);
+}
+
+.Wrapper--dark {
+  background-color: red;
+}
+@media (min-width: var(--breakpoint-1)) { 
+    :root {
+      --wrapper-spacing: 10%;
+    }
+}

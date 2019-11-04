@@ -1,0 +1,27 @@
+:root {
+  --tabs-color: var(--color-black);
+  --tabs-background: rgba(0,0,0,.03);
+  
+}
+
+.Tabs__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Tabs__item {
+  margin-left: 2px;
+}
+
+.Tabs__link { 
+  padding: calc(var(--spacing-vertical--1) / 2) var(--spacing-vertical--1);
+  text-decoration: none;
+  color: var(--tabs-color);
+  background-color: var(--tabs-background);
+  font-size: 1.25rem;
+  font-family: var(--font-family-sans-serif);
+  display: block;
+  cursor:pointer;
+}

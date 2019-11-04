@@ -1,0 +1,41 @@
+:root {
+  --header-max-width: 90rem;
+  --header-spacing: 0 1.25rem;
+  --header-background: var(--color-white);
+  --header-width: var(--wrapper-width);
+  --header-border-color: var(--color-smoke);
+}
+
+.Header {
+  background-color: var(--header-background);
+  padding: var(--header-spacing);
+  border-bottom: 2px solid var(--header-border-color);
+  position: relative;
+  z-index: 2;
+  display: flex;
+}
+
+.Header__wrapper {
+  max-width: var(--header-width);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header__title {
+  margin-top: var(--spacing-unit);
+  color: var(--color-navy);
+  font-family: var(--font-family-sans-serif);
+  font-weight: var(--font-weight-bold);
+  font-size: 1.4375rem;
+  line-height: 1.1875;
+  text-decoration: none;
+}
+
+.Header__headline {
+  color: var(--color-gray);
+  font-weight: normal;
+  font-size: 1.1875rem;
+  margin: 0;
+}

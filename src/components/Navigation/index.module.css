@@ -1,0 +1,25 @@
+:root {
+  --navigation-spacing: 1.8125rem 2rem;
+  --navigation-color: var(--color-body);
+  --navigation-active: var(--color-red);
+  --navigation-active-background: var(--color-smoke);
+}
+
+.Navigation__list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.Navigation__link {
+  color: var(--navigation-color);
+  text-decoration: none;
+  padding: var(--navigation-spacing);
+  display: block;
+}
+
+.is__active {
+  font-weight: bold;
+  background-color: var(--navigation-active-background);
+  box-shadow: 0 2px 0 0 var(--navigation-active);
+}

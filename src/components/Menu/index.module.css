@@ -1,0 +1,83 @@
+:root {
+    --menu-color: var(--color-body);
+    --menu-border: 2px solid var(--wireframe-color);
+    --menu-width: 18.5rem;
+    --menu-spacing: var(--spacing-unit);
+    --menu-trigger-width: 12px;
+    --menu-trigger-height: 10px;
+}
+
+.Menu {
+    background-color: var(--color-white);
+    width: var(--menu-width);
+    border-right: 2px solid var(--color-border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 5.125rem;
+    overflow-y: auto;
+}
+ 
+.Menu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu__item {
+    position: relative;
+}
+
+.Menu__item--active .Menu__sub{
+    display: block;
+}
+
+.Menu__link {
+    padding: var(--menu-spacing);
+    font-size: var(--menu-font-size);
+    color: var(--menu-color);
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.Menu__trigger {
+    right: 0;
+    top: 0;
+    border: 0;
+    padding: calc(var(--spacing-lg) - calc(var(--menu-trigger-height)/2)) calc(var(--spacing-lg) - calc(var(--menu-trigger-width)/2));
+    position: absolute;
+    background-position: 50% 50%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGRlZnM+PHBhdGggaWQ9ImEiIGQ9Ik02IDMuNDE0TDEuNzA3IDcuNzA3LjI5MyA2LjI5MyA2IC41ODZsNS43MDcgNS43MDctMS40MTQgMS40MTR6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTS00LTdoMjB2MjBILTR6Ii8+PHVzZSBmaWxsPSIjMjIyIiB4bGluazpocmVmPSIjYSIgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMCA4KSIvPjwvZz48L3N2Zz4=");
+    cursor: pointer;
+}
+.Menu__trigger:hover {
+    background-color: var(--color-smoke);
+}
+.Menu__item--active  .Menu__trigger  { 
+    transform: rotate(180deg);
+}
+.Menu__sub {
+    border-bottom: 1px solid var(--color-border);
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.Menu__sub .Menu__link {
+    border: 0;
+    padding: var(--spacing-sm)  var(--spacing-lg);
+
+}
+.Menu__sub .Menu__link:after {
+    background-image: none;
+}
+.Menu__sub .Menu__link--active {
+     background-color: var(--color-smoke);
+     color: #000;
+}
