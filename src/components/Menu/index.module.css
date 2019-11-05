@@ -1,7 +1,7 @@
 :root {
     --menu-color: var(--color-body);
     --menu-border: 2px solid var(--wireframe-color);
-    --menu-width: 18.5rem;
+    --menu-width: 272px;
     --menu-spacing: var(--spacing-unit);
     --menu-trigger-width: 12px;
     --menu-trigger-height: 10px;

@@ -11,7 +11,7 @@ const TabsWrapper = ({tabs}) => {
           <Tab key={index} className={style.Tabs__link}>{tab.name}</Tab>
         ))}
       </TabList>
-      <TabPanels>
+      <TabPanels className={style.Tabs__panel}>
         {tabs.map((tab, index) => (
           <TabPanel key={index}>{tab.content}</TabPanel>
         ))}

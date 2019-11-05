@@ -1,8 +1,4 @@
 {
-  "start": {
-    "title": "Welcome",
-    "href": "/"
-  },
   "components": {
     "title": "Components",
     "href": "components"

@@ -25,20 +25,12 @@ export const ComponentPageTemplate = ({
 }) => (
   
   <>
-  
-  <Wrapper tag="div" >
-    <Grid>
-       <Cell width={2}> <Menu categories={componentList} location={location}  /></Cell>
-       <Cell width={8}>
-          <Heading tag={1} text={title} align={"center"} />
-          <Preamble text={intro} tag="p" color="blue" />
-          {category != null && <TabsWrapper tabs={tabs} /> }
-          
-       </Cell>
-    </Grid>
-  </Wrapper>
-    
-
+    <Menu categories={componentList} location={location}  />
+    <Wrapper tag="div">
+      <Heading tag={1} text={title} align={"left"} />
+      <Preamble text={intro} tag="p" align={"left"} />
+    </Wrapper>
+    {category != null && <TabsWrapper tabs={tabs} /> }
     <section className="section">
       <div className="container">
         
