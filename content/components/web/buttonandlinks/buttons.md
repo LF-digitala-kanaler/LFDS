@@ -2,7 +2,7 @@
 template: ComponentPage
 category: Button and links
 title: Buttons
-intro: Button with tabsdw
+intro: Button with tabs
 status: Published
 date: '2018-05-25'
 excerpt: 'Noooooo, they ruined it!'
