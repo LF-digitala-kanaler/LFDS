@@ -2304,7 +2304,7 @@ babel-preset-gatsby@^0.2.20:
     babel-plugin-macros "^2.6.1"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
 
-babel-runtime@^6.26.0, babel-runtime@^6.5.0:
+babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -12008,13 +12008,6 @@ react-hot-loader@^4.12.15, react-hot-loader@^4.8.0:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
     source-map "^0.7.3"
-
-react-iframe-resizer-super@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/react-iframe-resizer-super/-/react-iframe-resizer-super-0.2.2.tgz#6838b52f1bdc85f004b71090aaca7fde8f26da1d"
-  integrity sha512-iWPEkYsNjQYi7ZEy1IBoJUIjTV47De8RhSbxxtAP2YUcYEArS6GKxIAAyl2gexM65ahXW9+NUP6hPFIxO0Du8A==
-  dependencies:
-    babel-runtime "^6.5.0"
 
 react-immutable-proptypes@^2.1.0:
   version "2.1.0"

@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
 import Menu from '../components/Menu';
-import { Grid, Cell } from "styled-css-grid"; 
 import Wrapper from '../components/Wrapper'
 import _ from 'lodash';
 import Heading from '../components/Heading'
