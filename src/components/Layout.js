@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Footer from './Footer'
 
-
+// import 'lfui/dist/lf.css';
 import 'modern-normalize/modern-normalize.css'
 import "../components/_base/index.css"
 
@@ -74,6 +74,7 @@ export default ({ children, meta, title }) => {
             <>
               <Header title={data.site.siteMetadata.title} headline={data.site.siteMetadata.headline} />
               {children}
+
             </>
 
             <Footer />

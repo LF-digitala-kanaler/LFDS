@@ -10,6 +10,9 @@ import _ from 'lodash';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
+import Preview from '../components/Preview';
+
+
 // TODO only import whats needed from lodash
 
 // Export Template for use in CMS preview
@@ -29,6 +32,7 @@ export const ComponentPageTemplate = ({
     <Wrapper tag="div">
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
+      <Preview />
     </Wrapper>
     {category != null && <TabsWrapper tabs={tabs} /> }
     <section className="section">
