@@ -6,7 +6,7 @@ module.exports = {
     title: 'LFUI',
     headline: 'Länsförsäkringar User Interface',
     description: 'Länsförsäkringar User Interface`',
-    siteUrl: 'https://1dkflred-1d5f56.netlify.com/'
+    siteUrl: 'https://lfui-blackwell-9ff8ba.netlify.com/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
