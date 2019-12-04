@@ -1,9 +1,9 @@
 import React from "react"
 import Frame from 'react-frame-component';
-// import css from '!!raw-loader!lfui/dist/lf.css'; 
+import css from '!!raw-loader!lfui/dist/lf.css'; 
 import Preview from '../Preview';
 import Actions from '../Actions'
-let src="http://www.aftonbladet.se"
+let src="http://www.lf.se"
 
 
 
@@ -34,7 +34,7 @@ class ComponentExample extends React.Component {
             head={
               
               <style>
-                
+                {css}
                 {'body{background-color:'+this.state.backgroundColor+'}'}
               </style>
             }
