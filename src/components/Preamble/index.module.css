@@ -1,20 +1,29 @@
+
+
 :root {
   --color-preamble: var(--color-black);
 }
 
 .Preamble {
   color: var(--color-preamble);
-  font-size: 24px;
-  font-family: var(--font-family-sans-serif);
-  text-align: center;
+  font-size: 1.5rem;
   line-height: 1.25;
+
+  @media (--medium-viewport) { 
+    width: 74.7%;
+  }
+  
 }
+
 .Preamble--blue {
   --color-preamble: var(--color-blue);
 }
+
 .Preamble--left {
   text-align: left;
 }
+
 .Preamble--center {
   text-align: center;
 }
+

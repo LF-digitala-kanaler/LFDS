@@ -1,41 +1,95 @@
 :root {
-  --header-max-width: 90rem;
-  --header-spacing: 0 1.25rem;
+  
   --header-background: var(--color-white);
   --header-width: var(--wrapper-width);
-  --header-border-color: var(--color-smoke);
+  --header-border-color: var(--color-border);
 }
 
 .Header {
   background-color: var(--header-background);
-  padding: var(--header-spacing);
-  border-bottom: 2px solid var(--header-border-color);
+  box-shadow: 0 2px 0 0 var(--header-border-color);
+  margin-bottom: var(--spacing-vertical--3);
   position: relative;
-  z-index: 2;
-  display: flex;
+  z-index: 3;
+  
+  @media (--small-viewport-down) {
+    display: flex;
+    flex-direction: column-reverse;
+   
+  }
+  @media (--small-viewport) {
+    position: sticky;
+    top: 0;
+  }
+  
 }
 
 .Header__wrapper {
   max-width: var(--header-width);
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-between;
+  
+  
+  @media (--small-viewport) { 
+    justify-content: flex-end;
+  }
 }
+
+.Header__wrapper--last {
+  justify-content: space-between;
+ 
+
+  @media (--medium-viewport) {  
+    position: relative;
+    
+  }
+  
+  
+}
+
+.Header__container {
+  display: flex;
+
+  @media (--small-viewport) {  
+    position: relative;
+  }
+}
+
+.Header__container--last {
+  justify-content: space-between;
+  border-bottom: 2px solid var(--header-border-color);
+   @media (--small-viewport) { 
+     border-top: 2px solid var(--header-border-color);
+     border-bottom: 0;
+   }
+}
+
 
 .Header__title {
-  margin-top: var(--spacing-unit);
-  color: var(--color-navy);
-  font-family: var(--font-family-sans-serif);
-  font-weight: var(--font-weight-bold);
-  font-size: 1.4375rem;
-  line-height: 1.1875;
+  width: var(--sidebar-width);
+  padding-left: 1.125rem;
+  position: absolute;
+  align-items: center;
   text-decoration: none;
+  color: var(--color-black);
+  display: flex;
+  
+  @media (--small-viewport-down) {
+    top:12px;
+    left: 48px;
+  }
+
+  @media (--small-viewport) { 
+    height: 100%;
+  }
+
 }
 
-.Header__headline {
-  color: var(--color-gray);
-  font-weight: normal;
-  font-size: 1.1875rem;
-  margin: 0;
+.Header__headline { 
+  letter-spacing: 1rem;
+  line-height: 1;
+  margin-left: var(--spacing-xxlg);
+  margin-top: 0.25rem;
 }

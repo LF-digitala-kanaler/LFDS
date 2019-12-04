@@ -3,16 +3,29 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Footer from './Footer'
+import Header from './Header'
 
 // import 'lfui/dist/lf.css';
 import 'modern-normalize/modern-normalize.css'
 import "../components/_base/index.css"
 
 
-import Header from './Header'
 
-export default ({ children, meta, title }) => {
+
+
+ 
+export default ({ 
+  
+  children, 
+  meta, 
+  title,
+  breadcrumb,
+  menu
+  }) => {
+
+  
   return (
+    
     <StaticQuery
       query={graphql`
         query IndexLayoutQuery {
@@ -45,11 +58,12 @@ export default ({ children, meta, title }) => {
         }
       `}
       render={data => {
-        const { siteTitle, googleTrackingId } =
+        const { siteTitle, googleTrackingId,  } =
             data.settingsYaml || {}
-          
-
+       
+        
         return (
+          
           <Fragment>
             <Helmet
               defaultTitle={siteTitle}
@@ -71,13 +85,16 @@ export default ({ children, meta, title }) => {
 
             {/* <Nav subNav={subNav} /> */}
 
-            <>
-              <Header title={data.site.siteMetadata.title} headline={data.site.siteMetadata.headline} />
+           
+              <Header 
+                title={data.site.siteMetadata.title} 
+                breadcrumb={breadcrumb}
+                menu={menu}
+              />
+              
               {children}
-
-            </>
-
-            <Footer />
+              <Footer />            
+            
           </Fragment>
         )
       }}

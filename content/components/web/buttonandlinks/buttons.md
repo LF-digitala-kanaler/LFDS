@@ -2,7 +2,8 @@
 template: ComponentPage
 category: Button and links
 title: Buttons
-intro: Button with tabs
+intro: Used primarily as an explanation of terms and difficult words in inline text. When the user clicks/hovers a word with a popover tooltip a small popover appears in which explanatory text is displayed.
+
 status: Published
 date: '2018-05-25'
 excerpt: 'Noooooo, they ruined it!'

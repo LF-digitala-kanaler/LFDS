@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import style from './index.module.css';
 import cx from 'classnames'
 
+
 export const Heading = ({text, tag, align}) => {
   const Htag = `h${tag}`
 

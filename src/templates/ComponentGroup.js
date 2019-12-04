@@ -1,40 +1,33 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
-import Menu from '../components/Menu';
-import { Grid, Cell } from "styled-css-grid"; 
 import Wrapper from '../components/Wrapper'
 import _ from 'lodash';
+import Heading from '../components/Heading'
+import Preamble from '../components/Preamble';
 
 // TODO only import whats needed from lodash
 
 // Export Template for use in CMS preview
 export const ComponentGroupTemplate = ({
-
-  body,
-  componentList,
-  location
+  title,
+  intro,
 
 }) => (
    
   <>
   
-  <Wrapper tag="div" >
-    <Grid>
-       <Cell width={2}> <Menu categories={componentList} location={location}  /></Cell>
-       <Cell width={8}> <Content source={body} />
-        Group page
-       </Cell>
-    </Grid>
-  </Wrapper>
+  <Wrapper tag="div">
+      <Heading tag={1} text={title} align={"left"} />
+      <Preamble text={intro} tag="p" align={"left"} />
+   </Wrapper>
     
 
    
   </>
 )
-const ComponentGroup = ({ data: { page, allPages } }) => {
+const ComponentGroup = ({ data: { page, allPages }, location }) => {
 
   // Get all created components  
   const components = {
@@ -47,19 +40,31 @@ const ComponentGroup = ({ data: { page, allPages } }) => {
   }
   
   // Sort and arrange them in categories 
-  const componetsList = _(components.categories)
+  const componentNavigation = _(components.categories)
   .chain()
   .groupBy('frontmatter.category')
   .map((value, key) => ({ category: key , component: value}))
   .value()
-  console.log('componetsList', componetsList)
+  
+  const menu = {
+    items: componentNavigation,
+    location: location
+  }
 
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
+      componentNavigation={componentNavigation} 
+      menu={menu}
     >
-      <ComponentGroupTemplate {...page} {...page.frontmatter} body={page.html} componentList={componetsList} />
+      <ComponentGroupTemplate 
+        {...page} 
+        {...page.frontmatter} 
+        title={page.frontmatter.title}
+        intro={page.frontmatter.intro}
+        componentNavigation={componentNavigation} 
+      />
     </Layout>
   )
 }

@@ -1,0 +1,31 @@
+:root {
+  --breadcrumb-spacing: var(--spacing-sm) 0;
+
+}
+
+.Breadcrumb {
+  display: none;
+
+  @media (--small-viewport) { 
+    list-style-type: none;
+    display: flex;
+    padding: var(--breadcrumb-spacing);
+  }
+}
+
+.Breadcrumb__item:not(:last-child) {
+  @media (--small-viewport) { 
+    &:after {
+      content: '/';
+      margin-right: var(--spacing-xs);
+      margin-left: var(--spacing-xs);
+    }
+  }
+  
+}
+.Breadcrumb__link {
+  @media (--small-viewport) { 
+    text-decoration: none;
+    color: var(--color-black);
+  }
+}

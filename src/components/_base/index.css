@@ -1,8 +1,13 @@
 
 
+@custom-media --small-viewport (width > 48rem);
+@custom-media --small-viewport-down (width < 48rem);
+@custom-media --medium-viewport (width > 61.375rem); /* wrapper width */
+@custom-media --large-viewport (width > 75rem);
+@custom-media --large-viewport-down (width < 75rem);
+@custom-media --xlarge-viewport (width > 96.875rem);
+@custom-media --xlarge-viewport-down (width < 96.875rem);
 :root {
-  --font-family-sans-serif: "Intro Cond", Arial, "Helvetica Neue", sans-serif;
-  --font-family-serif: "LF Rubrik", Georgia, "Times New Roman", Times, serif;
   --font-family-base: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   --font-weight-bold: 700;
@@ -16,18 +21,20 @@
   --color-smoke: #F3F3F3;
   --color-black: #222;
   --color-red: #E30613;
+  --color-shadow: #e5e5e5;
 
-  --color-border: #e5e5e5;
+  --color-border: var(--color-shadow);
 
-  --baseline: 1.375;
+  --baseline: 1.31;
   --baseline-font-size: 1rem;
   
   --spacing-unit: 1rem;
   --spacing-xs: calc(0.5 * var(--spacing-unit));
   --spacing-sm: calc(0.75 * var(--spacing-unit));
   --spacing-md: calc(1.25 * var(--spacing-unit));
-  --spacing-lg: calc(2 * var(--spacing-unit));
-
+  --spacing-lg: calc(1.5 * var(--spacing-unit));
+  --spacing-xlg: calc(1.75 * var(--spacing-unit));
+  --spacing-xxlg: calc(2 * var(--spacing-unit));
 
   --spacing-vertical--1: calc(1 * var(--baseline) * 1rem);
   --spacing-vertical--2: calc(2 * var(--baseline) * 1rem);
@@ -37,7 +44,9 @@
   --breakpoint-2: 62rem;
   --breakpoint-3: 75rem;
   
+  --sidebar-width: 17.375rem;
 }
+
 
 
 /*  Rhythm unit 22px/ */
@@ -48,135 +57,44 @@
   } */
 /* } */ 
 
-@font-face {
-  font-family: 'Intro Cond';
-  src:
-    url('../../../static/fonts/introcond-regular-fixed.woff2') format('woff2'),
-    url('../../../static/fonts/introcond-regular-fixed.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Intro Cond';
-  src:
-    url('../../../static/fonts/introcond-bold-fixed.woff2') format('woff2'),
-    url('../../../static/fonts/introcond-bold-fixed.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'LF Rubrik';
-  src:
-    url('../../../static/fonts/LFRubrik-Regular.woff2') format('woff2'),
-    url('../../../static/fonts/LFRubrik-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 html {
- font-family: var(--font-family-base);
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   height: 100%;
-  
 }
 body {
+  font-size: 100%;
   margin: 0;
+  font-family: var(--font-family-base);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   line-height: var(--baseline);
+  background-color: var(--color-smoke);
+
+  
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--color-border);;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
+  font-weight: normal;
 }
+
 p {
   margin-top: 0;
   margin-bottom: var(--spacing-vertical--1);
 }
-
-
-.tab-list {
-  border-bottom: 1px solid #ccc;
-  padding-left: 0;
+/* fix for gatsby/ react router div */
+#___gatsby,
+div[role="group"][tabindex] {
+  height: 100%;
 }
 
-.tab-list-item {
-  display: inline-block;
-  list-style: none;
-  margin-bottom: -1px;
-  padding: 0.5rem 0.75rem;
-}
-
-.tab-list-active {
-  background-color: white;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
-}
-
-.react-resizable {
-  position: relative;
-}
-.react-resizable-handle {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  box-sizing: border-box;
-  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+');
-  background-position: bottom right;
-  padding: 0 3px 3px 0;
-}
-.react-resizable-handle-sw {
-  bottom: 0;
-  left: 0;
-  cursor: sw-resize;
-  transform: rotate(90deg);
-}
-.react-resizable-handle-se {
-  bottom: 0;
-  right: 0;
-  cursor: se-resize;
-}
-.react-resizable-handle-nw {
-  top: 0;
-  left: 0;
-  cursor: nw-resize;
-  transform: rotate(180deg);
-}
-.react-resizable-handle-ne {
-  top: 0;
-  right: 0;
-  cursor: ne-resize;
-  transform: rotate(270deg);
-}
-.react-resizable-handle-w,
-.react-resizable-handle-e {
-  top: 50%;
-  margin-top: -10px;
-  cursor: ew-resize;
-}
-.react-resizable-handle-w {
-  left: 0;
-  transform: rotate(135deg);
-}
-.react-resizable-handle-e {
-  right: 0;
-  transform: rotate(315deg);
-}
-.react-resizable-handle-n,
-.react-resizable-handle-s {
-  left: 50%;
-  margin-left: -10px;
-  cursor: ns-resize;
-}
-.react-resizable-handle-n {
-  top: 0;
-  transform: rotate(225deg);
-}
-.react-resizable-handle-s {
-  bottom: 0;
-  transform: rotate(45deg);
-}
+/* styling for common markdown  */

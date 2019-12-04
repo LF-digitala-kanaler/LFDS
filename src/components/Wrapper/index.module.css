@@ -1,6 +1,6 @@
 :root {
-  --wrapper-width: 71.625em;
-  --wrapper-spacing: 5%;
+  --wrapper-width: 61.375em; /* If this is changed change --medium-viewport in _base/index.css too */
+  --wrapper-spacing: var(--spacing-unit);
 }
 
 .Wrapper {
@@ -9,13 +9,9 @@
   margin-right: auto;
   padding-left: var(--wrapper-spacing);
   padding-right: var(--wrapper-spacing);
-}
-
-.Wrapper--dark {
-  background-color: red;
-}
-@media (min-width: var(--breakpoint-1)) { 
-    :root {
-      --wrapper-spacing: 10%;
-    }
+  
+  @media (--medium-viewport) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

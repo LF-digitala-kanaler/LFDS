@@ -1,5 +1,5 @@
 ---
-template: ComponentPage
+template: ComponentGroup
 title: Supportive Micro
 intro: >-
   Intro

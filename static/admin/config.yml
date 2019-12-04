@@ -139,7 +139,7 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-  - name: componentsWeb
+  - name: component-page
     label: Components
     editor:
       preview: true
@@ -152,7 +152,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: 'select'
         options: ['', 'Navigations', 'Button and links', 'Page Content', 'Micro Interaction']
       - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: string }
+      - { label: Intro, name: intro, widget: text }
       - label: 'Status'
         name: 'status'
         widget: 'select'
@@ -160,7 +160,6 @@ collections: # A list of collections the CMS should be able to edit
         default: 'Published'
       - { label: Date / Order, name: date, widget: date }
       
-      - { label: Excerpt, name: excerpt, widget: text }
       - name: 'tabs'
         label: 'Tabs'
         label_singular: 'Tab'
@@ -168,7 +167,8 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
-         
+      
+        
   - name: 'settings'
     label: 'Settings'
     delete: false # Prevent users from deleting documents in this collection

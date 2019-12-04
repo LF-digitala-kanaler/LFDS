@@ -2,9 +2,8 @@ import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 import Marked from 'react-markdown'
 import PropTypes from 'prop-types'
-import Image from './Image'
-
-import './Content.css'
+import Image from '../Image'
+import './index.css'
 
 const encodeMarkdownURIs = (source = '') => {
   const markdownLinkRegex = /\[(.+)\]\((.+)(".+)\)/g
@@ -83,11 +82,13 @@ const Content = ({ source, src, className = '' }) => {
 
   return (
     <Marked
+      
       className={`Content ${className}`}
       source={encodeMarkdownURIs(source)}
       renderers={{
         image: MyImage,
-        html: HtmlBlock
+        html: HtmlBlock,
+        root:'article'
       }}
     />
   )

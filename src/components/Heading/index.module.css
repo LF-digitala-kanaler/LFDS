@@ -1,32 +1,32 @@
 
-:root {
-  
-}
-
 .Heading {
-  font-family: var(--font-family-serif);
   font-weight: var(--font-weight-normal);
-  color: var(--color-blue);
-}
-.Heading--1 {
-  font-size: 60px;
-  margin-bottom: var(--spacing-vertical--1);
 }
 
-.Heading--2 {
+.Heading--1 {
+  font-size: 3.75rem;
+  margin-bottom: var(--spacing-vertical--1);
+  line-height: 1;
+  font-size: 3.75rem;
+}
+
+/* .Heading--2 {
   font-size: 50px;
    margin-bottom: var(--spacing-vertical--1);
 }
+
 .Heading--4 {
   color: #333;
   font-family: arial;
   font-size: 23px;
   font-weight: bold;
 }
+
 .Heading--left {
   text-align: left;
 }
+
 .Heading--center {
   text-align: center;
-}
+} */
 

@@ -10,6 +10,7 @@ export default class MenuItem extends React.Component {
   state = {
     open: false
   };
+
   componentDidMount() {
     const {item} = this.props;
     const categoryUrl = this.removeTrailingSlash(item.component[0].fields.slug);
@@ -42,12 +43,12 @@ export default class MenuItem extends React.Component {
     });
   };  
 
-  getNavLinkClass = (path) => {
+  // getNavLinkClass = (path) => {
      
-    return this.props.location.pathname.includes(path)
-      ? style["Menu__item--active"]
-      : ''
-  };
+  //   return this.props.location.pathname.includes(path)
+  //     ? style["Menu__item--active"]
+  //     : ''
+  // };
 
   render() {
     
@@ -57,13 +58,13 @@ export default class MenuItem extends React.Component {
     
     let className = cx({
         Menu__item: true,
-        'Menu__item--active': this.getNavLinkClass(categoryUrl),
         'Menu__item--active': this.state.open,
         '' : !this.state.open
       });
     
     return( 
       <>
+      
         {hasCategory ? (
           
           <li key={item.component[0].fields.slug} className={className} >

@@ -1,5 +1,5 @@
 ---
-template: ComponentPage
+template: ComponentGroup
 title: Typography
 intro: >-
   Intro

@@ -1,0 +1,10 @@
+.Logotype {
+  width: 2rem;
+  height: 2rem;
+  max-width: 100%;
+  
+  @media (--small-viewport) { 
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

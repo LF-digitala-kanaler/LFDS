@@ -46,78 +46,22 @@ exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
   }
   actions.replaceWebpackConfig(newConfig)
 }
-
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
-
-  return graphql(`
-    {
-      allMarkdownRemark(limit: 1000) {
-        edges {
-          node {
-            id
-            frontmatter {
-              template
-              title
-            }
-            fields {
-              slug
-              contentType
-            }
-          }
-        }
-      }
-    }
-  `).then(result => {
-    if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()))
-      return Promise.reject(result.errors)
-    }
-
-    const mdFiles = result.data.allMarkdownRemark.edges
-
-    const contentTypes = _.groupBy(mdFiles, 'node.fields.contentType')
-
-    _.each(contentTypes, (pages, contentType) => {
-      const pagesToCreate = pages.filter(page =>
-        // get pages with template field
-        _.get(page, `node.frontmatter.template`)
-      )
-      if (!pagesToCreate.length) return console.log(`Skipping ${contentType}`)
-
-      console.log(`Creating ${pagesToCreate.length} ${contentType}`)
-
-      pagesToCreate.forEach((page, index) => {
-        const id = page.node.id
-        createPage({
-          // page slug set in md frontmatter
-          path: page.node.fields.slug,
-          component: path.resolve(
-            `src/templates/${String(page.node.frontmatter.template)}.js`
-          ),
-          // additional data can be passed via context
-          context: {
-            id
-          }
-        })
-      })
-    })
-  })
-}
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createContentDigest, createNodeId }) => {
+  const { createNodeField, createNode } = actions
 
   // convert frontmatter images
   fmImagesToRelative(node)
 
+  // create pages for our examples from LFUI-components
+
+  
   // Create smart slugs
   // https://github.com/Vagr9K/gatsby-advanced-starter/blob/master/gatsby-node.js
 
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent)
     const parsedFilePath = path.parse(fileNode.relativePath)
-
+    
     let slug = createFilePath({ node, getNode, basePath: `content` })
     
     if (
@@ -140,7 +84,112 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value: parsedFilePath.dir
     })
   }
+  // setup html file nodes
+  if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {
+    const value = createFilePath({ node, getNode })
+    const nodeContent = await loadNodeContent(node);
+    
+    const htmlNodeContent = {
+      content: nodeContent,
+      name: node.name,
+      slug: `example${value}`
+    }
+    const htmlNodeMeta = {
+      id: createNodeId(`html-${node.id}`),
+      parent: node.id,
+      internal: {
+        type: 'HTMLContent',
+        mediaType: 'text/html',
+        content: JSON.stringify(htmlNodeContent),
+        contentDigest: createContentDigest(htmlNodeContent),
+      },
+    }
+    const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta);
+    createNode(htmlNode);
+    
+  }
+}
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions
+
+  return graphql(`
+    {
+      docs: allMarkdownRemark(limit: 1000) {
+        edges {
+          node {
+            id
+            frontmatter {
+              template
+              title
+            }
+            fields {
+              slug
+              contentType
+            }
+          }
+        }
+      }
+      examples: allHtmlContent {
+        edges {
+          node {
+            name
+            content
+            slug
+            
+          }
+        }
+      }
+    }
+
+  `).then(result => {
+    
+    if (result.errors) {
+      result.errors.forEach(e => console.error(e.toString()))
+      return Promise.reject(result.errors)
+    }
+      // create pages from md files
+      const mdFiles = result.data.docs.edges
+      const contentTypes = _.groupBy(mdFiles, 'node.fields.contentType')
+
+      _.each(contentTypes, (pages, contentType) => {
+        const pagesToCreate = pages.filter(page =>
+        // get pages with template field
+          _.get(page, `node.frontmatter.template`)
+        )
+        if (!pagesToCreate.length) return console.log(`Skipping ${contentType}`)
+
+        console.log(`Creating ${pagesToCreate.length} ${contentType}`)
+
+        pagesToCreate.forEach((page, index) => {
+          const id = page.node.id
+          createPage({
+            // page slug set in md frontmatter
+            path: page.node.fields.slug,
+            component: path.resolve(
+              `src/templates/${String(page.node.frontmatter.template)}.js`
+            ),
+            // additional data can be passed via context
+            context: {
+              id
+            }
+          })
+        })
+      });
+      // create example code pages
+      result.data.examples.edges.forEach(({ node }) => {
+        console.log(node)
+        createPage({
+          path: node.name,
+          component: path.resolve(__dirname, 'src/templates/Iframe.js'),
+          context: {
+            name: node.name,
+          }
+        })
+      })
+
+  })
 }
 
-// Random fix for https://github.com/gatsbyjs/gatsby/issues/5700
-module.exports.resolvableExtensions = () => ['.json']
+
+// // Random fix for https://github.com/gatsbyjs/gatsby/issues/5700
+// module.exports.resolvableExtensions = () => ['.json']

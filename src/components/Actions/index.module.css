@@ -1,0 +1,40 @@
+
+.Actions {
+  position: absolute;
+  right: var(--spacing-md);
+  top: calc(-1*var(--spacing-vertical--2));
+}
+.Actions__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+}
+.Actions__item {
+  margin-left: var(--spacing-md);
+}
+
+.Actions__button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Actions__circle {
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  width: 22px;
+  height: 22px;
+  text-indent: -999em;
+  background-color: var( --color-white);
+}
+
+.Actions__circle--grey {
+   background-color: var( --color-body);
+}
+
+.Actions__icon {
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,10 +1,18 @@
 :root {
     --menu-color: var(--color-body);
     --menu-border: 2px solid var(--wireframe-color);
-    --menu-width: 272px;
+    --menu-width: var(--sidebar-width);
     --menu-spacing: var(--spacing-unit);
     --menu-trigger-width: 12px;
     --menu-trigger-height: 10px;
+    --menu-offset: 7.5625rem;
+    --menu-overlay: rgba(34,34,34, 0.69);
+    --menu-active: var(--color-red);
+    --menu-active-background: var(--color-smoke);
+
+    @media (--small-viewport) { 
+       --menu-offset: 7.75rem;
+    }
 }
 
 .Menu {
@@ -12,13 +20,27 @@
     width: var(--menu-width);
     border-right: 2px solid var(--color-border);
     position: fixed;
-    top: 0;
+    top: var(--menu-offset);
     left: 0;
     height: 100%;
-    padding-top: 5.125rem;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 3;
+    transform: translateX(-100%);
+    transition: 0.4s transform cubic-bezier(.4,0,.2,1);
+    visability: hidden;
+   
+    @media (--xlarge-viewport) { 
+        visability: visible;
+        transform: translateX(0);
+    }
+
 }
- 
+ .Menu--isOpen {
+    transform: translateX(0);
+    visability: visible; 
+ }
+
 .Menu__list {
     list-style-type: none;
     margin: 0;
@@ -29,10 +51,41 @@
     position: relative;
 }
 
+.Menu__overlay {
+   display: none;
+
+    @media (--xlarge-viewport-down) { 
+        display: block;
+        background-color: rgba(0,0,0,.3);
+        position: fixed;
+        top: var(--menu-offset);
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        visability: hidden;
+        opacity: 0;
+        transition: opacity .3s cubic-bezier(.4,0,.2,1);
+        pointer-events: none;
+        z-index: -1;
+    }
+}
+.Menu__overlay--isVisible {
+    @media (--xlarge-viewport-down) { 
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        background-color: var(--menu-overlay);
+    }
+    
+}
+
 .Menu__item--active .Menu__sub{
     display: block;
 }
-
+.Menu__item--active > .Menu__link:not(.Menu__link--active) {
+    color: var(--color-black);
+}
 .Menu__link {
     padding: var(--menu-spacing);
     font-size: var(--menu-font-size);
@@ -45,11 +98,17 @@
     border-bottom: 1px solid var(--color-border);
 }
 
+.Menu__link--active {
+    background-color: var(--menu-active-background);
+    box-shadow: inset 2px 0 0 0 var(--menu-active);
+    
+}
+
 .Menu__trigger {
     right: 0;
     top: 0;
     border: 0;
-    padding: calc(var(--spacing-lg) - calc(var(--menu-trigger-height)/2)) calc(var(--spacing-lg) - calc(var(--menu-trigger-width)/2));
+    padding: calc(var(--spacing-xxlg) - calc(var(--menu-trigger-height)/2)) calc(var(--spacing-xxlg) - calc(var(--menu-trigger-width)/2));
     position: absolute;
     background-position: 50% 50%;
     background-color: transparent;
@@ -71,13 +130,9 @@
 }
 .Menu__sub .Menu__link {
     border: 0;
-    padding: var(--spacing-sm)  var(--spacing-lg);
+    padding: var(--spacing-sm)  var(--spacing-xxlg);
 
 }
 .Menu__sub .Menu__link:after {
     background-image: none;
-}
-.Menu__sub .Menu__link--active {
-     background-color: var(--color-smoke);
-     color: #000;
 }

@@ -1,5 +1,5 @@
 ---
-template: ComponentGroup
+template: HomePage
 slug: components
 title: Components Page
 

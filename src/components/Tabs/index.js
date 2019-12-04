@@ -1,19 +1,23 @@
 import React from 'react'
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs"
 import style from './index.module.css'
-
+import Wrapper from '../Wrapper'
+import Content from '../Content'
 const TabsWrapper = ({tabs}) => {
-  console.log('tabs',tabs)
   return (
-    <Tabs>
+    <Tabs className={style.Tabs}>
       <TabList className={style.Tabs__list}>
         {tabs.map((tab, index) => (
           <Tab key={index} className={style.Tabs__link}>{tab.name}</Tab>
         ))}
       </TabList>
-      <TabPanels className={style.Tabs__panel}>
+      <TabPanels className={style.Tabs__panels}>
         {tabs.map((tab, index) => (
-          <TabPanel key={index}>{tab.content}</TabPanel>
+          <TabPanel className={style.Tabs__panel} key={index}>
+            <Wrapper tag="div">
+             <Content source={tab.content} />
+            </Wrapper>
+          </TabPanel>
         ))}
       </TabPanels>
     </Tabs> 

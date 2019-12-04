@@ -1,10 +1,28 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import MenuItem from './MenuItem';
 import style from './index.module.css';
 import { Location } from '@reach/router';
-export default class Menu extends React.Component {
- 
-  renderMenuItems = (nav, loc) =>
+import MenuToggle from '../MenuToggle';
+import cx from 'classnames'
+
+
+
+
+const Menu = ({items}) => {
+
+  const [isOpen, setOpen] = useState(false);
+  
+
+  const handleOnClick = () => {
+    setOpen(!isOpen)
+    
+  }
+
+  const handleOverlayClick = () => {
+    setOpen(false)
+  }
+
+  const renderMenuItems = (nav, loc) =>
     nav.map((item, index) => {
       
       return (
@@ -16,23 +34,33 @@ export default class Menu extends React.Component {
           />
       );
     });
-
-  render() {
-          return (
-            <Location>
-              {({ location }) => {
-                
-                return (
-                <nav className={style.Menu}>
-                  <ul className={style.Menu__list}>
-                    {this.renderMenuItems(this.props.categories, location)}
-                  </ul>
-                </nav>
-                )
-             }}
-          </Location>
-          );
-        
    
-  }
+    const handleMediaQueryChange = (matches) => {
+      console.log(matches)
+    }
+   
+    
+
+    return (
+      <React.Fragment>
+        
+          <MenuToggle isOpen={isOpen} onClick={handleOnClick} />
+          <div onClick={handleOverlayClick} className={cx(style.Menu__overlay, (isOpen ? style['Menu__overlay--isVisible'] : '' ))} />
+          <Location>
+            {({ location }) => {
+              return (
+              <nav  className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
+                <ul className={style.Menu__list}>
+                  {renderMenuItems(items, location)}
+                </ul>
+              </nav>
+              )
+          }}
+        </Location>
+      
+      </React.Fragment>
+    );
+  
 }
+
+export default Menu;

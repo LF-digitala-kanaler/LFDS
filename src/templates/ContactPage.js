@@ -3,8 +3,7 @@ import { MapPin, Smartphone, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import Header from '../components/Header'
-import FormSimpleAjax from '../components/FormSimpleAjax'
-import Content from '../components/Content'
+import Content from '../components/Content/'
 import Layout from '../components/Layout'
 
 // Export Template for use in CMS preview
@@ -54,7 +53,7 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
+          
         </div>
       </div>
     </section>

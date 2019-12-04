@@ -1,4 +1,4 @@
-const postcssPresetEnv = require('postcss-preset-env')
+
 const { PATH_PREFIX = '/' } = process.env;
 module.exports = {
   pathPrefix: PATH_PREFIX,
@@ -69,11 +69,12 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/components`,
-        name: 'components',
+        path: `./node_modules/lfui/html`,
+        name: 'componentExample',
         
       }
     },
+    `gatsby-plugin-remove-trailing-slashes`,
     // images
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
@@ -102,11 +103,14 @@ module.exports = {
       options: {
         postCssPlugins: [
           require(`postcss-preset-env`)({
+            
             browsers: '> 0.5%, last 2 versions, ie 11',
             features: {
-              'nesting-rules': true
-            }
-          })
+              'nesting-rules': true,
+              'postcss-custom-media': true
+            },
+            stage: 1 }),
+          
         ]
       }
     },
@@ -128,6 +132,8 @@ module.exports = {
         enableIdentityWidget: true
       }
     },
+   
+    
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }

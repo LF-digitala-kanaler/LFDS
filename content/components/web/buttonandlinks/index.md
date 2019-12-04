@@ -1,5 +1,5 @@
 ---
-template: ComponentPage
+template: ComponentGroup
 title: Links group page
 intro: >-
   Intro

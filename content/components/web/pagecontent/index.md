@@ -1,5 +1,5 @@
 ---
-template: ComponentPage
+template: ComponentGroup
 title: Page Content
 intro: >-
   Intro
