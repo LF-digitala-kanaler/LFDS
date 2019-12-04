@@ -67,7 +67,7 @@
   },
   "devDependencies": {
     "del-cli": "^2.0.0",
-    "lfui": "git+http://LF-digitala-kanaler/LFUI-components.git",
+    "lfui": "git+https://LF-digitala-kanaler/LFUI-components.git",
     "postcss-nested": "^4.2.0",
     "prettier": "^1.16.1"
   }
