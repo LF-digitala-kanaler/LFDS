@@ -42,12 +42,12 @@ const ComponentPage = ({
   }) => {
   
   //console.log(currentDirectory, 'location', allComponentExample.edges, 'file')
-  let currentDirectory = location.href.replace(/\/$/, '').split('/').pop();
-  const componentExample = {
-    examples: allComponentExample.hasOwnProperty('edges')
-      ? allComponentExample.edges.filter(exemple => exemple.node.relativeDirectory === currentDirectory)
-      : false
-  }
+  // let currentDirectory = location.href.replace(/\/$/, '').split('/').pop();
+  // const componentExample = {
+  //   examples: allComponentExample.hasOwnProperty('edges')
+  //     ? allComponentExample.edges.filter(exemple => exemple.node.relativeDirectory === currentDirectory)
+  //     : false
+  // }
 
    // get All examples
 
