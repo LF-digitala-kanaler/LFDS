@@ -3,6 +3,7 @@ template: ComponentPage
 category: Motions
 title: Animations
 intro: Animations preamble
+previewImage: ''
 excerpt: >-
   This is placeholder text
 tabs:

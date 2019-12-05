@@ -62,11 +62,6 @@ collections: # A list of collections the CMS should be able to edi
               widget: text,
               required: false,
             }
-          - label: Social Media Card
-            name: socialMediaCard
-            widget: object
-            fields:
-              - { label: Image, name: image, widget: image, required: false }
           - {
               label: Google Analytics Tracking Id,
               name: googleTrackingId,

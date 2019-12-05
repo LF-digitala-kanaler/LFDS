@@ -3,6 +3,7 @@ template: ComponentPage
 category: Supportive Microinteractions
 title: Popover Tooltip
 intro: Popover Tooltip preamble
+previewImage: ''
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

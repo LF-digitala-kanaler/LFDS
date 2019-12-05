@@ -3,6 +3,7 @@ template: ComponentPage
 category: Data Visualisering
 title: Graphs and Charts
 intro: Graphs and Charts preamble
+previewImage: ''
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
