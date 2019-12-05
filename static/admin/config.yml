@@ -10,7 +10,7 @@ public_folder: /img
 collections: # A list of collections the CMS should be able to edi
 
 
-  - name: componentGroup
+  - name: component-group
     label: Component Groups
     editor:
       preview: true
@@ -18,14 +18,14 @@ collections: # A list of collections the CMS should be able to edi
     files:
       - file: "content/components/web/buttonandlinks/index.md"
         label: Button and Links
-        name: component-group
+        name: component-group1
         fields:
           - { label: Template, name: template, widget: hidden, default: ComponentGroup }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
       - file: "content/components/web/datavisualization/index.md"
-        label: Button and Links
-        name: component-group
+        label: Data Visualization
+        name: component-group2
         fields:
           - { label: Template, name: template, widget: hidden, default: ComponentGroup }
           - { label: Title, name: title, widget: string }
