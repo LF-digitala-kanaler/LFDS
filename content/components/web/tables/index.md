@@ -1,7 +1,6 @@
 ---
 template: ComponentGroup
-title: Motions
+title: Tables
 intro: Intro
-slug: components/web/motions/
 
 ---

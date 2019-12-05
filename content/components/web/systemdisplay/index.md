@@ -1,7 +1,6 @@
 ---
 template: ComponentGroup
-title: Tables
+title: System Display
 intro: Intro
-slug: components/web/tables/
 
 ---
