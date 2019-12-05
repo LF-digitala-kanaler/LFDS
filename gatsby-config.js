@@ -66,14 +66,14 @@ module.exports = {
         name: 'pages'
       }
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/node_modules/lfui/html`,
-    //     name: 'componentExample',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/node_modules/lfui/html`,
+        name: 'componentExample',
         
-    //   }
-    // },
+      }
+    },
     `gatsby-plugin-remove-trailing-slashes`,
     // images
     'gatsby-plugin-sharp',
@@ -85,15 +85,27 @@ module.exports = {
         plugins: [
           // gatsby-remark-relative-images must
           // go before gatsby-remark-images
-          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-relative-images',
+            options: {
+              name: 'uploads',
+            },
+          },
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 800,
-              linkImagesToOriginal: false
-            }
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048,
+            },
           },
-          `gatsby-remark-responsive-iframe`
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static',
+            },
+          },
         ]
       }
     },

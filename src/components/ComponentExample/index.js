@@ -1,6 +1,6 @@
 import React from "react"
 import Frame from 'react-frame-component';
-// import css from '!!raw-loader!lfui/dist/lf.css'; 
+import css from '!!raw-loader!lfui/dist/lf.css'; 
 import Preview from '../Preview';
 import Actions from '../Actions'
 let src="http://www.lf.se"
@@ -23,18 +23,18 @@ class ComponentExample extends React.Component {
     }
 
     render () {
-  
+      console.log(this.state.backgroundColor)
       return (
         <React.Fragment>
           
           <Preview>
             <Actions white={this.handleSetBackgroundToWhite} gray={this.handleSetBackgroundToGray} />
             <Frame
-            // src={src}
+            src={src}
             head={
               
               <style>
-               
+                {css}
                 {'body{background-color:'+this.state.backgroundColor+'}'}
               </style>
             }

@@ -9,3 +9,13 @@ const IframeTemplate = ({ data }) => {
 
 export default IframeTemplate
 
+export const pageQuery = graphql`
+  query HTMLPage($name: String!) {
+    htmlContent(name: { eq: $name }) {
+      id
+      name
+      content
+      slug
+    }
+  }
+`
