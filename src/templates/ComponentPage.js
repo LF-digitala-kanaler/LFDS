@@ -125,14 +125,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allComponentExample: allFile(filter: {sourceInstanceName: {eq: "componentExample"}}) {
-        edges {
-          node {
-            relativeDirectory
-            sourceInstanceName
-          }
-        }
-      }
+   
     allPages: allMarkdownRemark(
       filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
       sort: { order: ASC, fields: [frontmatter___title] }
