@@ -3,11 +3,10 @@ template: ComponentPage
 category: Button and links
 title: Links
 intro: Links preamble
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
+status: Published
+date: 2019-12-05T14:34:59.978Z
+previewImage:
+  image: /img/2019-03.jpg
 tabs:
   - content: content code
     name: Code
@@ -16,3 +15,4 @@ tabs:
   - content: content code
     name: Code
 ---
+
