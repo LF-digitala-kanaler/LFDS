@@ -34,7 +34,7 @@ class ComponentExample extends React.Component {
             head={
               
               <style>
-                {css}
+               
                 {'body{background-color:'+this.state.backgroundColor+'}'}
               </style>
             }

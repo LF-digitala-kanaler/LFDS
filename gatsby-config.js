@@ -66,14 +66,14 @@ module.exports = {
         name: 'pages'
       }
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/node_modules/lfui/html`,
-        name: 'componentExample',
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/node_modules/lfui/html`,
+    //     name: 'componentExample',
         
-      }
-    },
+    //   }
+    // },
     `gatsby-plugin-remove-trailing-slashes`,
     // images
     'gatsby-plugin-sharp',

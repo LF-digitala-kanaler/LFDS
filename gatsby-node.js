@@ -85,29 +85,29 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
     })
   }
   // setup html file nodes
-  if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {
-    const value = createFilePath({ node, getNode })
-    const nodeContent = await loadNodeContent(node);
+  // if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {
+  //   const value = createFilePath({ node, getNode })
+  //   const nodeContent = await loadNodeContent(node);
     
-    const htmlNodeContent = {
-      content: nodeContent,
-      name: node.name,
-      slug: `example${value}`
-    }
-    const htmlNodeMeta = {
-      id: createNodeId(`html-${node.id}`),
-      parent: node.id,
-      internal: {
-        type: 'HTMLContent',
-        mediaType: 'text/html',
-        content: JSON.stringify(htmlNodeContent),
-        contentDigest: createContentDigest(htmlNodeContent),
-      },
-    }
-    const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta);
-    createNode(htmlNode);
+  //   const htmlNodeContent = {
+  //     content: nodeContent,
+  //     name: node.name,
+  //     slug: `example${value}`
+  //   }
+  //   const htmlNodeMeta = {
+  //     id: createNodeId(`html-${node.id}`),
+  //     parent: node.id,
+  //     internal: {
+  //       type: 'HTMLContent',
+  //       mediaType: 'text/html',
+  //       content: JSON.stringify(htmlNodeContent),
+  //       contentDigest: createContentDigest(htmlNodeContent),
+  //     },
+  //   }
+  //   const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta);
+  //   createNode(htmlNode);
     
-  }
+  // }
 }
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -126,16 +126,6 @@ exports.createPages = ({ actions, graphql }) => {
               slug
               contentType
             }
-          }
-        }
-      }
-      examples: allHtmlContent {
-        edges {
-          node {
-            name
-            content
-            slug
-            
           }
         }
       }
@@ -176,16 +166,16 @@ exports.createPages = ({ actions, graphql }) => {
         })
       });
       // create example code pages
-      result.data.examples.edges.forEach(({ node }) => {
-        console.log(node)
-        createPage({
-          path: node.name,
-          component: path.resolve(__dirname, 'src/templates/Iframe.js'),
-          context: {
-            name: node.name,
-          }
-        })
-      })
+      // result.data.examples.edges.forEach(({ node }) => {
+      //   console.log(node)
+      //   createPage({
+      //     path: node.name,
+      //     component: path.resolve(__dirname, 'src/templates/Iframe.js'),
+      //     context: {
+      //       name: node.name,
+      //     }
+      //   })
+      // })
 
   })
 }
