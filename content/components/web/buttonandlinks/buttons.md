@@ -8,7 +8,7 @@ intro: >-
   appears in which explanatory text is displayed.
 status: Published
 date: '2018-05-25'
-previewImage: /img/screenshot-2019-12-03-at-16.45.42.png
+previewImage: /img/apps.jpg
 tabs:
   - content: >-
       ## How to use
