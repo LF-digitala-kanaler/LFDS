@@ -2,11 +2,13 @@
 template: ComponentPage
 category: Button and Links
 title: Buttons
-intro: Used primarily as an explanation of terms and difficult words in inline text. When the user clicks/hovers a word with a popover tooltip a small popover appears in which explanatory text is displayed.
-previewImage: ''
+intro: >-
+  Used primarily as an explanation of terms and difficult words in inline text.
+  When the user clicks/hovers a word with a popover tooltip a small popover
+  appears in which explanatory text is displayed.
 status: Published
 date: '2018-05-25'
-excerpt: 'Noooooo, they ruined it!'
+previewImage: /img/screenshot-2019-12-03-at-16.45.42.png
 tabs:
   - content: >-
       ## How to use
@@ -19,9 +21,6 @@ tabs:
 
 
       <button type="button" class="btn btn-primary">Do this</button>
-
-
-      
     name: Design
   - content: 'I''m a code monkey yes i am, yes i am!'
     name: Code
