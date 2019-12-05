@@ -1,6 +1,5 @@
 ---
 template: ComponentGroup
-category: Navigations
 title: Button and Links
 intro: Intro
 status: Published

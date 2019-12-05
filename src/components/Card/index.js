@@ -12,9 +12,7 @@ const Card = ({title, url, image, text}) => {
     <Link to={url} >
       <p>{title}</p>
       <p>{text}</p>
-      <Image resolutions="large"
-        src={image}
-        alt={"image.alt"}
+      <Image imageInfo={image}
         />
      
     </Link>
