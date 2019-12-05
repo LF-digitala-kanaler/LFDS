@@ -28,7 +28,7 @@ export const ComponentPageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
       <ComponentExample componentExample={componentExample} component={location} />
     </Wrapper>
-    {category != null && <TabsWrapper tabs={tabs} /> }
+    {tabs != null && <TabsWrapper tabs={tabs} /> }
    
 
   </>
@@ -118,7 +118,7 @@ export const pageQuery = graphql`
         intro
         template
         category
-        
+        previewImage
         tabs{
           name
           content

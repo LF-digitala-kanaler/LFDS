@@ -23,7 +23,7 @@ class ComponentExample extends React.Component {
     }
 
     render () {
-      console.log(this.state.backgroundColor)
+  
       return (
         <React.Fragment>
           

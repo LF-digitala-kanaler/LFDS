@@ -6,14 +6,15 @@ import Wrapper from '../components/Wrapper'
 import _ from 'lodash';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
-
+import CardList from '../components/CardList';
 // TODO only import whats needed from lodash
 
 // Export Template for use in CMS preview
 export const ComponentGroupTemplate = ({
   title,
   intro,
-
+  componentsLinks
+  
 }) => (
    
   <>
@@ -21,8 +22,11 @@ export const ComponentGroupTemplate = ({
   <Wrapper tag="div">
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
+      {componentsLinks  &&  <CardList list={componentsLinks} /> }
+      
    </Wrapper>
-    
+
+
 
    
   </>
@@ -38,8 +42,9 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
       : false
       
   }
+  // Get compontents from this group
   const componentsInGroup = {
-    categories: allPages.hasOwnProperty('edges')
+    links: allPages.hasOwnProperty('edges')
       ? allPages.edges.filter(category => {
         if(category.node.frontmatter.category === page.frontmatter.title) {
           return {  ...category.node}
@@ -47,7 +52,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
       })
       : false   
   }
-  console.log(componentsInGroup.categories, 'dw')
+  const componentsLinks = componentsInGroup.links;
   // Sort and arrange them in categories 
   const componentNavigation = _(components.categories)
   .chain()
@@ -55,7 +60,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
   .map((value, key) => ({ category: key , component: value}))
   .value()
   
-  // Get compontents from this group
+  
   
   
   const menu = {
@@ -76,6 +81,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         componentNavigation={componentNavigation} 
+        componentsLinks={componentsLinks}
       />
     </Layout>
   )

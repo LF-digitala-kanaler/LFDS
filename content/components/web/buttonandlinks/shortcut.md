@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Button and links
+category: Button and Links
 title: Shortcut
 intro: Shortcut preamble
 previewImage: ''

@@ -29,11 +29,7 @@ collections: # A list of collections the CMS should be able to edi
         options: ['Published', 'Featured', 'Draft']
         default: 'Published'
       - { label: Date / Order, name: date, widget: date }
-      - label: Preview Image
-        name: previewImage
-        widget: object
-        fields:
-          - { label: Image, name: image, widget: image, required: false }
+      - { name: previewImage, label: previewImage, widget: image, required: false }
       - name: 'tabs'
         label: 'Tabs'
         label_singular: 'Tab'
