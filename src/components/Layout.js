@@ -10,10 +10,6 @@ import 'modern-normalize/modern-normalize.css'
 import "../components/_base/index.css"
 
 
-
-
-
- 
 export default ({ 
   
   children, 
@@ -40,21 +36,7 @@ export default ({
             siteDescription
             googleTrackingId
           }
-          allPosts: allMarkdownRemark(
-            filter: { fields: { contentType: { eq: "postCategories" } } }
-            sort: { order: DESC, fields: [frontmatter___date] }
-          ) {
-            edges {
-              node {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  title
-                }
-              }
-            }
-          }
+          
         }
       `}
       render={data => {

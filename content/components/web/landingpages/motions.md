@@ -2,6 +2,6 @@
 template: ComponentGroup
 title: Motions
 intro: Intro
-slug: components/web/motions.md
+slug: components/web/motions/
 
 ---

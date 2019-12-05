@@ -76,7 +76,7 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
       name: 'slug',
       value: slug
     })
-
+  
     // Add contentType to node.fields
     createNodeField({
       node,
@@ -160,7 +160,7 @@ exports.createPages = ({ actions, graphql }) => {
 
         console.log(`Creating ${pagesToCreate.length} ${contentType}`)
 
-        pagesToCreate.forEach((page, index) => {
+        pagesToCreate.forEach((page) => {
           const id = page.node.id
           createPage({
             // page slug set in md frontmatter
@@ -170,7 +170,8 @@ exports.createPages = ({ actions, graphql }) => {
             ),
             // additional data can be passed via context
             context: {
-              id
+              id,
+              slug: page.node.fields.slug
             }
           })
         })

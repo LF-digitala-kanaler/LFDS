@@ -2,6 +2,6 @@
 template: ComponentGroup
 title: Forms
 intro: Intro
-slug: components/web/forms.md
+slug: components/web/forms/
 
 ---

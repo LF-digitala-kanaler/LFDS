@@ -2,7 +2,7 @@
 template: ComponentGroup
 title: Button and Links
 intro: Intro
-slug: components/web/buttonandlinks.md
+slug: components/web/buttonandlinks/
 
 ---
 
