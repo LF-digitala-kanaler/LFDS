@@ -42,11 +42,11 @@
     "re-resizable": "^6.1.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-feather": "^2.0.3",
     "react-frame-component": "^4.1.1",
     "react-helmet": "^5.2.0",
     "react-markdown": "^4.2.2",
     "react-responsive": "^8.0.1",
+    
     "styled-components": "^4.4.1",
     "styled-css-grid": "^1.2.1"
   },
@@ -67,8 +67,9 @@
   },
   "devDependencies": {
     "del-cli": "^2.0.0",
-    "lfui": "git+https://LF-digitala-kanaler/LFUI-components.git",
+    "lfui": "git+https://github.com/LF-digitala-kanaler/LFUI-components.git",
     "postcss-nested": "^4.2.0",
-    "prettier": "^1.16.1"
+    "prettier": "^1.16.1",
+    "react-use": "^13.10.1"
   }
 }

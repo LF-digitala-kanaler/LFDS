@@ -5,7 +5,7 @@
     --menu-spacing: var(--spacing-unit);
     --menu-trigger-width: 12px;
     --menu-trigger-height: 10px;
-    --menu-offset: 7.5625rem;
+    --menu-offset: 7.0625rem;
     --menu-overlay: rgba(34,34,34, 0.69);
     --menu-active: var(--color-red);
     --menu-active-background: var(--color-smoke);
@@ -30,10 +30,10 @@
     transition: 0.4s transform cubic-bezier(.4,0,.2,1);
     visability: hidden;
    
-    @media (--xlarge-viewport) { 
+    /* @media (--xlarge-viewport) { 
         visability: visible;
         transform: translateX(0);
-    }
+    } */
 
 }
  .Menu--isOpen {

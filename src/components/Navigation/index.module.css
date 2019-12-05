@@ -50,7 +50,7 @@
 }
 
 .is__active {
-  font-weight: bold;
+  color: var(--color-black);
   background-color: var(--navigation-active-background);
   box-shadow: 0 2px 0 0 var(--navigation-active);
 }

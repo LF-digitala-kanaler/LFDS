@@ -28,7 +28,7 @@ export const ComponentGroupTemplate = ({
   </>
 )
 const ComponentGroup = ({ data: { page, allPages }, location }) => {
-
+  
   // Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')
@@ -38,13 +38,25 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
       : false
       
   }
-  
+  const componentsInGroup = {
+    categories: allPages.hasOwnProperty('edges')
+      ? allPages.edges.filter(category => {
+        if(category.node.frontmatter.category === page.frontmatter.title) {
+          return {  ...category.node}
+        }
+      })
+      : false   
+  }
+  console.log(componentsInGroup.categories, 'dw')
   // Sort and arrange them in categories 
   const componentNavigation = _(components.categories)
   .chain()
   .groupBy('frontmatter.category')
   .map((value, key) => ({ category: key , component: value}))
   .value()
+  
+  // Get compontents from this group
+  
   
   const menu = {
     items: componentNavigation,
@@ -75,14 +87,13 @@ export const pageQuery = graphql`
   query ComponentGroup($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
-      html
       frontmatter {
         title
-        template
+        intro
         slug
       }
     }
-  
+    
     allPages: allMarkdownRemark(
       filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
       sort: { order: ASC, fields: [frontmatter___title] }
@@ -93,6 +104,7 @@ export const pageQuery = graphql`
           frontmatter {
             category
             title
+            previewImage
           }
           fields {
             slug
