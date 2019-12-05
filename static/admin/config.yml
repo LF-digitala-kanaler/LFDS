@@ -8,40 +8,25 @@ media_folder: static/img
 public_folder: /img
 
 collections: # A list of collections the CMS should be able to edi
-  - name: component-group
-    label: Component Groups
-    editor:
-      preview: true
-    folder: content/components/web/landingpages
-    
-    create: false
-    fields:
-      - { label: Template, name: template, widget: hidden, default: ComponentGroup }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-    
-
 
   - name: component-page
     label: Components
     editor:
       preview: true
     folder: content/components/web/buttonandlinks
+    
     create: true # Allow users to create new documents in this collection
+    filter: {field: "template", value: "ComponentPage"}
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ComponentPage }
+
+      - {label: "Is this a group page?", name: "groupPage", widget: "select", options: ["ComponentPage", "ComponentGroup"]}
+      - { label: Template, name: template, widget: hidden, default: ComponentPage, value: ComponentPage }
       - label: 'Category'
         name: 'category'
         widget: 'select'
         options: ['', 'Navigations', 'Button and Links', 'Page Content', 'Micro Interaction']
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - label: 'Status'
-        name: 'status'
-        widget: 'select'
-        options: ['Published', 'Featured', 'Draft']
-        default: 'Published'
-      - { label: Date / Order, name: date, widget: date }
       - { name: previewImage, label: previewImage, widget: image, required: false }
       - name: 'tabs'
         label: 'Tabs'
@@ -50,8 +35,20 @@ collections: # A list of collections the CMS should be able to edi
         fields:
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
-      
-        
+
+
+  - name: component-group
+    label: Component Group
+    editor:
+      preview: true
+    folder: content/components/web/buttonandlinks
+    filter: {field: "template", value: "ComponentGroup"}
+    fields: 
+      - { label: Template, name: template, widget: hidden, default: ComponentGroup, value: ComponentGroup }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+
+
   - name: 'settings'
     label: 'Settings'
     delete: false # Prevent users from deleting documents in this collection
