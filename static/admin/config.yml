@@ -8,6 +8,30 @@ media_folder: static/img
 public_folder: /img
 
 collections: # A list of collections the CMS should be able to edi
+
+
+  - name: componentGroup
+    label: Component Groups
+    editor:
+      preview: true
+    create: false
+    files:
+      - file: "content/components/web/buttonandlinks/index.md"
+        label: Button and Links
+        name: component-group
+        fields:
+          - { label: Template, name: template, widget: hidden, default: ComponentGroup }
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
+      - file: "content/components/web/datavisualization/index.md"
+        label: Button and Links
+        name: component-group
+        fields:
+          - { label: Template, name: template, widget: hidden, default: ComponentGroup }
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
+
+
   - name: component-page
     label: Components
     editor:

@@ -18,17 +18,12 @@ export const ComponentGroupTemplate = ({
 }) => (
    
   <>
-  
   <Wrapper tag="div">
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <CardList list={componentsLinks} />
+      { componentsLinks && <CardList list={componentsLinks} /> }
       
    </Wrapper>
-
-
-
-   
   </>
 )
 const ComponentGroup = ({ data: { page, allPages }, location }) => {
