@@ -1,12 +1,15 @@
 ---
 template: ComponentPage
-category: Button and links
+category: Button and Links
 title: Buttons
-intro: Used primarily as an explanation of terms and difficult words in inline text. When the user clicks/hovers a word with a popover tooltip a small popover appears in which explanatory text is displayed.
-
+intro: >-
+  Used primarily as an explanation of terms and difficult words in inline text.
+  When the user clicks/hovers a word with a popover tooltip a small popover
+  appears in which explanatory text is displayed.
 status: Published
 date: '2018-05-25'
-excerpt: 'Noooooo, they ruined it!'
+previewImage:
+  image: /img/2019-03.jpg
 tabs:
   - content: >-
       ## How to use
