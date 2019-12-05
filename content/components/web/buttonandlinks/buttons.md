@@ -5,7 +5,7 @@ title: Buttons
 intro: >-
   Used primarily as an explanation of terms and difficult words in inline text.
   When the user clicks/hovers a word with a popover tooltip a small popover
-  appears in which explanatory text is displayed.
+  appears in which explanatory text is displayed.ceacea
 status: Published
 date: '2018-05-25'
 previewImage:
