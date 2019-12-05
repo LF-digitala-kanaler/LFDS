@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Image from '../Image';
 
 
 
@@ -11,7 +12,11 @@ const Card = ({title, url, image, text}) => {
     <Link to={url} >
       <p>{title}</p>
       <p>{text}</p>
-      <img src={image} alt="" />
+      <Image resolutions="large"
+        src={image}
+        alt={"image.alt"}
+        />
+     
     </Link>
   );
 }

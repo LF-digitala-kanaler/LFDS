@@ -22,7 +22,7 @@ export const ComponentGroupTemplate = ({
   <Wrapper tag="div">
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      {componentsLinks  &&  <CardList list={componentsLinks} /> }
+      <CardList list={componentsLinks} />
       
    </Wrapper>
 
