@@ -1,12 +1,10 @@
 ---
 template: ComponentGroup
-title: Button and Links
-intro: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
-meta:
-  description: test meta description
-  title: test meta title
+category: Button and Links
+title: Links group page
+intro: Intro
+status: Published
+date: 2019-12-05T16:13:14.025Z
+previewImage: /img/screenshot-2019-12-03-at-16.45.42.png
 ---
+
