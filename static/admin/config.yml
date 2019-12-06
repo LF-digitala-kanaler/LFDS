@@ -13,13 +13,13 @@ collections: # A list of collections the CMS should be able to edi
     label: Components
     editor:
       preview: true
-    folder: content/components/web/buttonandlinks
+    folder: content/components/web/
     
     create: true # Allow users to create new documents in this collection
     filter: {field: "template", value: "ComponentPage"}
     fields: # The fields each document in this collection have
 
-      - {label: "Is this a group page?", name: "groupPage", widget: "select", options: ["ComponentPage", "ComponentGroup"]}
+      
       - { label: Template, name: template, widget: hidden, default: ComponentPage, value: ComponentPage }
       - label: 'Category'
         name: 'category'
@@ -41,7 +41,7 @@ collections: # A list of collections the CMS should be able to edi
     label: Component Group
     editor:
       preview: true
-    folder: content/components/web/buttonandlinks
+    folder: content/components/web/
     filter: {field: "template", value: "ComponentGroup"}
     fields: 
       - { label: Template, name: template, widget: hidden, default: ComponentGroup, value: ComponentGroup }
