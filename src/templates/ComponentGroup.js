@@ -7,21 +7,24 @@ import _ from 'lodash';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
+import Content from '../components/Content/index.js';
 // TODO only import whats needed from lodash
 
 // Export Template for use in CMS preview
 export const ComponentGroupTemplate = ({
   title,
   intro,
+  content,
   componentsLinks
   
 }) => (
    
   <>
-  <Wrapper tag="div" menu="true">
+  <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       { componentsLinks && <CardList list={componentsLinks} /> } 
+      <Content source={content} />
    </Wrapper>
   </>
 )
