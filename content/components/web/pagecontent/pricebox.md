@@ -2,22 +2,15 @@
 template: ComponentPage
 category: Page Content
 title: Price Box
-intro: Price Box preamble
+intro: >-
+  The Price-box component displays the price/cost in a sidebar (desktop)/at the
+  bottom of the screen (mobile) in flows where the user can purchase/sign-up for
+  something. The price is updated as the user makes various choices in the main
+  flow.
 previewImage: ''
 tabs:
-  - content: content code
-    name: Code
   - content: >-
-      ## What?
-
-
-      The Price-box component displays the price/cost in a sidebar (desktop)/at
-      the bottom of the screen (mobile) in flows where the user can
-      purchase/sign-up for something. The price is updated as the user makes
-      various choices in the main flow.
-
-
-      ## How to use? 
+      ## How to use?
 
 
       The pricebox changes placement between desktop and mobile views.
@@ -66,6 +59,8 @@ tabs:
       As price box, value box and callout all are various ways of highlighting
       information you should avoid mixing them in one view.
     name: Design
+  - content: content code
+    name: Code
   - content: content code
     name: Code
 ---
