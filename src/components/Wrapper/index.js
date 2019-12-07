@@ -1,11 +1,13 @@
 import React from 'react'
-import styles from './index.module.css';
+import style from './index.module.css';
+import cx from 'classnames'
 
 
-const Wrapper = ({tag, children}) => {
+const Wrapper = ({tag, menu, children}) => {
+  console.log(menu, 'mneu')
   let Tag = tag;
   return (
-    <Tag className={styles.Wrapper}>
+    <Tag className={cx(style.Wrapper, (menu ? style['Wrapper--push'] : '' ))}>
       {children}
     </Tag>
   );

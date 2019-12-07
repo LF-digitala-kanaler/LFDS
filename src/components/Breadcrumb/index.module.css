@@ -10,7 +10,12 @@
     list-style-type: none;
     display: flex;
     padding: var(--breadcrumb-spacing);
+    margin-left: var(--spacing-md)
   }
+  @media (--medium-viewport) { 
+    margin-left: 0;
+  }
+
 }
 
 .Breadcrumb__item:not(:last-child) {

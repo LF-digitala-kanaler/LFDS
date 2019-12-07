@@ -15,15 +15,14 @@ export const ComponentPageTemplate = ({
   intro,
   componentExample,
   location,
-  tabs,
-  category
+  tabs
 
 }) => (
   
   <>
 
     
-    <Wrapper tag="div">
+    <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <ComponentExample componentExample={componentExample} component={location} />

@@ -2,11 +2,13 @@
 
 @custom-media --small-viewport (width > 48rem);
 @custom-media --small-viewport-down (width < 48rem);
-@custom-media --medium-viewport (width > 61.375rem); /* wrapper width */
+@custom-media --medium-viewport (width > 61.375rem); 
 @custom-media --large-viewport (width > 75rem);
 @custom-media --large-viewport-down (width < 75rem);
-@custom-media --xlarge-viewport (width > 96.875rem);
-@custom-media --xlarge-viewport-down (width < 96.875rem);
+@custom-media --xlarge-viewport (width > 81.25rem);
+@custom-media --xlarge-viewport-down (width < 81.25rem);
+@custom-media --xxlarge-viewport (width > 96.875rem);
+@custom-media --xxlarge-viewport-down (width < 96.875rem);
 :root {
   --font-family-base: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
@@ -73,9 +75,8 @@ body {
   height: 100%;
   line-height: var(--baseline);
   background-color: var(--color-smoke);
-
-  
 }
+
 iframe {
   width: 100%;
   height: 100%;

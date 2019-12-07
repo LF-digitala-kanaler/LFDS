@@ -1,78 +1,125 @@
 :root {
-  --menuToggle: var(--spacing-sm) var(--spacing-md);
+  --menuToggle--spacing: var(--spacing-sm) var(--spacing-md);
   --menuToggle-path-background: var(--color-body);
   --menuToggle-path-width: 1.5rem;
   --menuToggle-path-height: 3px;
-  --menuToggle-path-offset: calc(4px + var(--menuToggle-path-height));
   --menuToggle-active-background: var(--color-smoke);
-
-   
+  
+  @media (--small-viewport) { 
+    --menuToggle--spacing: var(--spacing-sm) var(--spacing-md) var(--spacing-sm) var(--spacing-lg);
+  }
 }
 
 .MenuToggle {
   background: none;
   border: 0;
   font-size: 0.5rem;
-  padding: var(--spacing-sm) var(--spacing-md);
+  padding: var(--menuToggle--spacing);
   cursor: pointer;
   font-family: var(--font-family-base);
   -webkit-appearance: none;
-  
-  
+  outline: none;
+  position: relative;
 
-   @media (--small-viewport) { 
-      height: 100%;
-      /* border-right: 2px solid var(--color-border); */
-      display: flex;
-      align-items: center;
-      width: calc(var(--sidebar-width) / 2);
-      font-size: var(--baseline-font-size);
-     
-   }
+  &:after {
+    content:'';
+  }
 
-   @media (--xlarge-viewport) { 
-     position: absolute;
-     width: var(--sidebar-width);
-   }
+  @media (--small-viewport) { 
+    border-right: 2px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    width: calc(var(--sidebar-width) / 2);
+    font-size: var(--baseline-font-size); 
+    margin-left: 2px;
+  }
+
+  @media (--medium-viewport) { 
+    position: absolute;
+    width: calc(var(--sidebar-width) - 2px);
+    height: 100%;
+  }
 }
 .MenuToggle--isActive {
-  background: var(--menuToggle-active-background);
+  &:after {
+    background: var(--menuToggle-active-background);
+    position: absolute;
+    width: 2.5rem;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  }
+
+  @media (--small-viewport) { 
+    &:after {
+      width: 2.5rem;
+      left: 16px;
+    }
+  }
+  
 }
+
+.MenuToggle__inner {
+  position: relative;
+  width: var(--menuToggle-path-width);
+  height: 18px;
+}
+
 
 .MenuToggle__path {
   height: var(--menuToggle-path-height);
   background-color: var(--menuToggle-path-background);
   width: var(--menuToggle-path-width);
-  position: relative;
+  position: absolute;
   display: block;
-  margin-top: var(--menuToggle-path-offset);
-  &:after,
-  &:before {
-    content: '';
-    width: 100%;
-    height:var(--menuToggle-path-height);
-    background-color: inherit;
-    transition: 0.4s;
-    position: absolute;
-    left: 0;
+  left: 0;
+  transition: .2s ease-in-out;
+  
+  &:nth-child(1){
+    top: 0;
   }
-  &:before {
-    top: -7px;
+  &:nth-child(2) {
+    top: 7px;
   }
-  &:after {
-    bottom: -7px;
+  &:nth-child(3) {
+    top: 7px;
   }
-  @media (--small-viewport) { 
-    margin-top: 0;
+  &:nth-child(4) {
+    top: 14px;
   }
 }
+
+.MenuToggle--isActive .MenuToggle__path{
+ 
+  &:nth-child(1){
+    top: 0px;
+    width: 0%;
+    left: 50%;
+  }
+  &:nth-child(2) {
+    top:7px;
+    transform: rotate(45deg);
+  }
+  &:nth-child(3) {
+    top: 7px;
+    transform: rotate(-45deg);
+  }
+  &:nth-child(4) {
+    top: 7px;
+    width: 0%;
+    left: 50%;
+  }
+}
+
 .MenuToggle__text {
-  margin-top: var(--spacing-sm);
+  margin-top: 4px;
   display: block;
 
   
   @media (--small-viewport) { 
-    margin-left: var(--spacing-xs);
+    margin-left: var(--spacing-sm);
     margin-top: 0;
   }
 }

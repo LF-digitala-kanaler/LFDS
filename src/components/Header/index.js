@@ -16,7 +16,7 @@ const Header = ({ title, breadcrumb, menu }) => {
   return(
   <header className={style.Header}>
     <div className={style.Header__container}>
-      <Link to='/' className={style.Header__title}>
+      <Link to='/' className={cx(style.Header__title,(menu ? style['Header__title--offset'] : " "))}>
         <Logotype />
         <span className={style.Header__headline}>{title}</span>
       </Link>

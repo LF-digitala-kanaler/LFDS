@@ -14,7 +14,7 @@ const TabsWrapper = ({tabs}) => {
       <TabPanels className={style.Tabs__panels}>
         {tabs.map((tab, index) => (
           <TabPanel className={style.Tabs__panel} key={index}>
-            <Wrapper tag="div">
+            <Wrapper menu={true} tag="div">
              <Content source={tab.content} />
             </Wrapper>
           </TabPanel>

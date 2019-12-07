@@ -6,16 +6,20 @@ import MenuToggle from '../MenuToggle';
 import cx from 'classnames'
 import {useLockBodyScroll, useToggle} from 'react-use';
 import { createBreakpoint } from "react-use";
+import AnimationContainer from '../../utils/AnimationCointainer';
 
-// TODO change breakpoint handling
 
-const useBreakpoint = createBreakpoint();
+
+const useBreakpoint = createBreakpoint({ M: 982, S:768});
+
 
 const Menu = ({items}) => {
   const breakpoint = useBreakpoint();
+  
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);
   const [locked, toggleLocked] = useToggle(false)
+  
   useLockBodyScroll(locked);
   
   
@@ -49,10 +53,12 @@ const Menu = ({items}) => {
     });
     return (
       <React.Fragment>
-        
+          
           {
-            breakpoint === 'laptopL'  ? (
-              <MenuToggle isOpen={isOpenDesktop} onClick={handleOnClickDesktop} />
+            breakpoint === 'M'  ? (
+              <AnimationContainer show={isOpenDesktop}>
+                <MenuToggle isOpen={isOpenDesktop} onClick={handleOnClickDesktop} />
+              </AnimationContainer>
             ) : (
               <MenuToggle isOpen={isOpen} onClick={handleOnClick} />
             )
@@ -65,18 +71,22 @@ const Menu = ({items}) => {
               
               return ( 
                 <React.Fragment>
-                 { breakpoint === 'laptopL'  ? (
+                 { breakpoint === 'M'  ? (
+                <AnimationContainer show={isOpenDesktop}>
                 <nav  className={cx(style.Menu, (isOpenDesktop ? style['Menu--isOpen'] : '' ))}>
                   <ul className={style.Menu__list}>
                     {renderMenuItems(items, location)}
                   </ul>
                 </nav>
+                </AnimationContainer>
                 ) : (
-                  <nav  className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
-                    <ul className={style.Menu__list}>
-                      {renderMenuItems(items, location)}
-                    </ul>
-                  </nav>
+                  
+                    <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
+                      <ul className={style.Menu__list}>
+                        {renderMenuItems(items, location)}
+                      </ul>
+                    </nav>
+                  
                 ) 
                 } 
                 </React.Fragment>
@@ -90,4 +100,3 @@ const Menu = ({items}) => {
 }
 
 export default Menu;
-

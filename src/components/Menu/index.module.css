@@ -11,7 +11,7 @@
     --menu-active-background: var(--color-smoke);
 
     @media (--small-viewport) { 
-       --menu-offset: 7.75rem;
+       --menu-offset: 7.9rem;
     }
 }
 
@@ -29,16 +29,11 @@
     transform: translateX(-100%);
     transition: 0.4s transform cubic-bezier(.4,0,.2,1);
     visability: hidden;
-   
-    /* @media (--xlarge-viewport) { 
-        visability: visible;
-        transform: translateX(0);
-    } */
 
 }
  .Menu--isOpen {
     transform: translateX(0);
-    visability: visible; 
+    visability: visible;transition: 0.4s transform cubic-bezier(.4,0,.2,1);
  }
 
 .Menu__list {

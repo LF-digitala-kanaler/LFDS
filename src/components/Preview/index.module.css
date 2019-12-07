@@ -15,7 +15,7 @@
     border: 1px solid #e1e3e6;
     cursor: col-resize;
     bottom: 0;
-    right: -5px;
+    right: 5px;
     width: 23px;
     background-color: #fff;
     z-index: 2;
