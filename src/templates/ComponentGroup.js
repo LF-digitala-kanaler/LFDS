@@ -7,7 +7,7 @@ import _ from 'lodash';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
-import Content from '../components/Content/index.js';
+import Content from '../components/Content/';
 // TODO only import whats needed from lodash
 
 // Export Template for use in CMS preview
@@ -24,12 +24,12 @@ export const ComponentGroupTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       { componentsLinks && <CardList list={componentsLinks} /> } 
-      <Content source={content} />
-   </Wrapper>
+      <Content source={content} />   
+      </Wrapper>
   </>
 )
 const ComponentGroup = ({ data: { page, allPages }, location }) => {
-  
+  console.log(page, 'page')
   // Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')
@@ -79,6 +79,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
         intro={page.frontmatter.intro}
         componentNavigation={componentNavigation} 
         componentsLinks={componentsLinks}
+        content={page.frontmatter.content}
       />
     </Layout>
   )
@@ -94,6 +95,7 @@ export const pageQuery = graphql`
         title
         intro
         slug
+        content
       }
     }
     
