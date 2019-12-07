@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Category'
         name: 'category'
         widget: 'select'
-        options: ['', 'Navigations', 'Button and Links', 'Page Content', 'Micro Interaction']
+        options: ['Button and Links', 'Data Visualization', 'Forms', 'Motions', 'Navigations', 'Page content', 'Supportive Micro Interaction', 'System Display', 'Tables', 'Typography']
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { name: previewImage, label: previewImage, widget: image, required: false }
