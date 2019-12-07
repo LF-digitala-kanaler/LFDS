@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Page content
+category: Page Content
 title: Price Box
 intro: Price Box preamble
 previewImage: ''
