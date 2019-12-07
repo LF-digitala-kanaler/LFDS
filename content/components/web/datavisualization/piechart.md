@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Data Visualisering
+category: Data Visualization
 title: Pie Chart
 intro: Pie Chart preamble
 previewImage: ''

@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Data Visualisering
+category: Data Visualization
 title: Graphs and Charts
 intro: Graphs and Charts preamble
 previewImage: ''

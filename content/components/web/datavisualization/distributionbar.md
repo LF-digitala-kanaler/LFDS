@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Data Visualisering
+category: Data Visualization
 title: Distribution bar
 intro: Distribution preamble
 previewImage: ''

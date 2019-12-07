@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Supportive Microinteractions
+category: Supportive Micro Interactions
 title: Popover Tooltip
 intro: Popover Tooltip preamble
 previewImage: ''
