@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Micro Interaction
+category: System Display
 title: Alert
 intro: Alert preamble
 previewImage: /img/screenshot-2019-11-30-at-17.09.19.png
