@@ -1,12 +1,10 @@
 ---
 template: ComponentPage
-category: Page content
+category: Page Content
 title: Price Box
 intro: Price Box preamble
 previewImage: ''
 tabs:
-  - content: content code
-    name: Code
   - content: >-
       ## What?
 
@@ -66,6 +64,8 @@ tabs:
       As price box, value box and callout all are various ways of highlighting
       information you should avoid mixing them in one view.
     name: Design
+  - content: content code
+    name: Code
   - content: content code
     name: Code
 ---
