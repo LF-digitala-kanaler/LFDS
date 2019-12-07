@@ -6,5 +6,9 @@ intro: >
   information in comparison to normal body text. As price box, value box and
   callout all are various ways of highlighting information you should avoid
   mixing them in one view.
+content: >-
+  Note that several of the components in this section actually are set ways of
+  combining other components, and perhaps wouldn’t be considered components if
+  created today. For legacy reasons they are kept as components though.
 ---
 
