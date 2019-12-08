@@ -39,7 +39,6 @@ const ComponentPage = ({
   location,
   
   }) => {
-  console.log('aaaa', page.frontmatter.backgroundColor)
   let currentDirectory = location.href.replace(/\/$/, '').split('/').pop();
   
   const componentExample = {
@@ -47,7 +46,6 @@ const ComponentPage = ({
       ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
       : false
   }
-  console.log(componentExample.examples,'ex')
   //Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')

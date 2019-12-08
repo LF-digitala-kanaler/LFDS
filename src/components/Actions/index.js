@@ -5,7 +5,7 @@ import cx from 'classnames';
 
 
 
-const Actions = ({grey,white}) => {
+const Actions = ({grey,white, toggleCode}) => {
 
   
   return (
@@ -18,7 +18,7 @@ const Actions = ({grey,white}) => {
           <button className={cx(style.Actions__button, style.Actions__circle)} onClick={white}>White background</button>
         </li>
         <li className={style.Actions__item}>
-          <button className={style.Actions__button}>
+          <button className={style.Actions__button} onClick={toggleCode}>
               <svg className={style.Actions__icon} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="26" height="16"><defs><path id="a" d="M5.5 6.225l-6.293 6.293-1.414-1.414L5.5 3.396l7.707 7.708-1.414 1.414z"/></defs><defs><use xlinkHref="#a"/><use id="b" xlinkHref="#a"/></defs><g fill="none" fillRule="evenodd"><path d="M-11-8h32v32h-32z"/><use fill="#515151" transform="rotate(-90 5 8.457)" xlinkHref="#a"/><g><path d="M5-8h32v32H5z"/><use fill="#515151" transform="matrix(0 -1 -1 0 29.457 13.457)" xlinkHref="#b"/></g></g></svg>
           </button>
         </li>

@@ -1,6 +1,6 @@
 .Preview {
   position: relative;
-  margin-bottom: var(--spacing-vertical--3);
+  /* margin-bottom: var(--spacing-vertical--3); */
   margin-top: var(--spacing-vertical--3);
 }
 
@@ -8,13 +8,13 @@
   display: none;
 
   @media (--medium-viewport) {
-    min-height: 240px;
-    position: absolute;
     
+    position: absolute;
+    height: calc(100% - 5px);
     transition: border .3s ease;
     border: 1px solid #e1e3e6;
     cursor: col-resize;
-    bottom: 0;
+    top: 0;
     right: 5px;
     width: 23px;
     background-color: #fff;
@@ -28,5 +28,6 @@
 
 .Preview__box {
   width: 100%;
-  height: 240px;
+  height: 100%;
+  min-height: 240px;
 }

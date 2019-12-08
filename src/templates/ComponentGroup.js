@@ -29,7 +29,6 @@ export const ComponentGroupTemplate = ({
   </>
 )
 const ComponentGroup = ({ data: { page, allPages }, location }) => {
-  console.log(page, 'page')
   // Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')

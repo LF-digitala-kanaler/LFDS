@@ -8,7 +8,7 @@ intro: >-
   something. The price is updated as the user makes various choices in the main
   flow.
 previewImage: ''
-backgroundColor: Grey
+backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
       ## How to use?

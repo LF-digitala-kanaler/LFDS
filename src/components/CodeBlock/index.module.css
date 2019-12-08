@@ -1,0 +1,16 @@
+:root {
+  --codeBlock-background: var(--color-white);
+  --codeBlock-spacing: var(--spacing-lg);
+}
+
+.CodeBlock {
+  margin: 0;
+  background-color: var(--codeBlock-background);
+  border: 2px solid var(--color-border);
+  
+}
+.CodeBlock__code {
+  padding: var(--codeBlock-spacing);
+  display: block;
+  font-family: var( --font-family-base);
+}

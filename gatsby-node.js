@@ -158,8 +158,6 @@ exports.createPages = ({ actions, graphql }) => {
         )
         if (!pagesToCreate.length) return console.log(`Skipping ${contentType}`)
 
-        console.log(`Creating ${pagesToCreate.length} ${contentType}`)
-
         pagesToCreate.forEach((page) => {
           const id = page.node.id
           createPage({
