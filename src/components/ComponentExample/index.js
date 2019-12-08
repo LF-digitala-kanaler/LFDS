@@ -1,52 +1,58 @@
-import React from "react"
+import React, { useState }  from 'react';
 import Frame from 'react-frame-component';
 import css from '!!raw-loader!lfui/dist/lf.css'; 
 import Preview from '../Preview';
 import Actions from '../Actions'
-let src="http://www.lf.se"
+import HtmlBlock from '../Content';
 
 
 
-class ComponentExample extends React.Component {
-    state = {
-      backgroundColor: '#fff'
-    }
-    handleSetBackgroundToWhite = () => {
-      this.setState({
-        backgroundColor: '#fff'
-      });
-    }
-    handleSetBackgroundToGray = () => {
-      this.setState({
-        backgroundColor: '#f3f3f3'
-      });
-    }
+const ComponentExample = ({variants, background}) => {
+  console.log(background.value,'back')
+  
+  const [backgroundColor, setBackground] = useState('#fff');
+  const [code, setCode] = useState(variants[0].node.content);
 
-    render () {
-      console.log(this.state.backgroundColor)
+  const handleSetBackgroundToWhite = () => {
+    setBackground('#fff');
+  }
+
+  const handleSetBackgroundToGrey = () => {
+    setBackground('#f3f3f3');
+  }
+  const navigation = (variants) =>
+    variants.map((item) => {
+      console.log(item, 'faga')
       return (
-        <React.Fragment>
-          
+        <li key={item.node.id}>{item.node.name}</li>
+      );
+    });
+ 
+  return (
+    <React.Fragment>
+      
+         {navigation(variants)}
           <Preview>
-            <Actions white={this.handleSetBackgroundToWhite} gray={this.handleSetBackgroundToGray} />
+            <Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} />
             <Frame
-            src={src}
+            
             head={
               
               <style>
                 {css}
-                {'body{background-color:'+this.state.backgroundColor+'}'}
+                
+                {'body{padding:16px 38px 16px 16px; background-color:'+backgroundColor+'}'}
               </style>
             }
           
             >
-
+            <HtmlBlock source={code} />
             </Frame>
           </Preview>
         </React.Fragment>
-      )
-  }
-};
+  )
+}
+
 
 
 export default ComponentExample;

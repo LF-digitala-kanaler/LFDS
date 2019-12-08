@@ -2574,10 +2574,10 @@ bootstrap@4.0.0:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0.tgz#ceb03842c145fcc1b9b4e15da2a05656ba68469a"
   integrity sha512-gulJE5dGFo6Q61V/whS6VM4WIyrlydXfCgkE+Gxe5hjrJ8rXLLZlALq7zq2RPhOc45PSwQpJkrTnc2KgD6cvmA==
 
-bootstrap@^4.3.1:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.4.1.tgz#8582960eea0c5cd2bede84d8b0baf3789c3e8b01"
-  integrity sha512-tbx5cHubwE6e2ZG7nqM3g/FZ5PQEDMWmMGNrCUBVRPHXTJaH7CBDdsLeu3eCh3B1tzAxTnAbtmrzvWEvT2NNEA==
+bootstrap@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+  integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
 
 bowser@^1.7.3:
   version "1.9.4"
@@ -8610,11 +8610,11 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-"lfui@git+https://github.com/LF-digitala-kanaler/LFUI-components.git":
+"lfui@git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git":
   version "0.0.1"
-  resolved "git+https://github.com/LF-digitala-kanaler/LFUI-components.git#05b15733898391caba43efddf2ecfc35b24cdb81"
+  resolved "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#a0e8329328ea95e05e972d5f321002c49221f4ce"
   dependencies:
-    bootstrap "^4.3.1"
+    bootstrap "4.3.1"
     eonasdan-bootstrap-datetimepicker "https://github.com/LF-digitala-kanaler/bootstrap-datetimepicker/tarball/release/4.17.52"
     jquery "^3.4.1"
     popper.js "1.14.7"

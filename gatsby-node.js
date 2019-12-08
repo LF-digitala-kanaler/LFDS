@@ -86,13 +86,13 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
   }
   // setup html file nodes
   if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {
-    const value = createFilePath({ node, getNode })
     const nodeContent = await loadNodeContent(node);
-    
+
     const htmlNodeContent = {
       content: nodeContent,
       name: node.name,
-      slug: `example${value}`
+      slug: `example/${node.name}`,
+      relativeDirectory: node.dir
     }
     const htmlNodeMeta = {
       id: createNodeId(`html-${node.id}`),
@@ -177,7 +177,6 @@ exports.createPages = ({ actions, graphql }) => {
       });
       // create example code pages
       result.data.examples.edges.forEach(({ node }) => {
-        console.log(node)
         createPage({
           path: node.name,
           component: path.resolve(__dirname, 'src/templates/Iframe.js'),

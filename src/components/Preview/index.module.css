@@ -8,7 +8,7 @@
   display: none;
 
   @media (--medium-viewport) {
-    height: 240px;
+    min-height: 240px;
     position: absolute;
     
     transition: border .3s ease;

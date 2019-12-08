@@ -1,7 +1,6 @@
 ---
 template: ComponentGroup
-title: Data V
+title: Data Visualization
 intro: Intro
-slug: components/web/datavisualzation/
 
 ---

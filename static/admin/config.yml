@@ -28,6 +28,12 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { name: previewImage, label: previewImage, widget: image, required: false }
+      - label: 'Background'
+        name: 'backgroundColor'
+        widget: 'select'
+        options: 
+          - { label: "White", value: "#fff" }
+          - { label: "Grey", value: "#f3f3f3" }
       - name: 'tabs'
         label: 'Tabs'
         label_singular: 'Tab'

@@ -110,6 +110,7 @@ export const pageQuery = graphql`
             category
             title
             previewImage
+            
           }
           fields {
             slug

@@ -14,7 +14,7 @@ export const ComponentPageTemplate = ({
   title,
   intro,
   componentExample,
-  location,
+  backgroundColor,
   tabs
 
 }) => (
@@ -25,7 +25,7 @@ export const ComponentPageTemplate = ({
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <ComponentExample componentExample={componentExample} component={location} />
+      {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}  />}
     </Wrapper>
     {tabs != null && <TabsWrapper tabs={tabs} /> }
    
@@ -39,20 +39,16 @@ const ComponentPage = ({
   location,
   
   }) => {
+  console.log('aaaa', page.frontmatter.backgroundColor)
+  let currentDirectory = location.href.replace(/\/$/, '').split('/').pop();
   
-  //console.log(currentDirectory, 'location', allComponentExample.edges, 'file')
-  //let currentDirectory = location.href.replace(/\/$/, '').split('/').pop();
-  // const componentExample = {
-  //   examples: allComponentExample.hasOwnProperty('edges')
-  //     ? allComponentExample.edges.filter(exemple => exemple.node.relativeDirectory === currentDirectory)
-  //     : false
-  // }
-
-   // get All examples
-
-  //  const ltest = _(componentExample.examples)
-  //  console.log(componentExample.examples, 'he');
-  // Get all created components  
+  const componentExample = {
+    examples: allComponentExample.hasOwnProperty('edges')
+      ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
+      : false
+  }
+  console.log(componentExample.examples,'ex')
+  //Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')
       ? allPages.edges.map(category => {
@@ -94,7 +90,8 @@ const ComponentPage = ({
         tabs={page.frontmatter.tabs}
         category={page.frontmatter.category}
         componentNavigation={componentNavigation} 
-        componentExample={ComponentExample} 
+        componentExample={componentExample.examples}
+        backgroundColor={page.frontmatter.backgroundColor}
       />
     </Layout>
   )
@@ -112,19 +109,31 @@ export const pageQuery = graphql`
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html
+      
       frontmatter {
         title
         intro
         template
         category
         previewImage
+        backgroundColor
         tabs{
           name
           content
         }
       }
     }
-   
+    allComponentExample: allHtmlContent{
+        edges {
+          node {
+            slug
+            id
+            name
+            content
+            relativeDirectory
+          }
+        }
+      }
     allPages: allMarkdownRemark(
       filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
       sort: { order: ASC, fields: [frontmatter___title] }
@@ -135,6 +144,7 @@ export const pageQuery = graphql`
           frontmatter {
             category
             title
+            
           }
           fields {
             slug

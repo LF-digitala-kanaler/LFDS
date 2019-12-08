@@ -5,14 +5,14 @@ import cx from 'classnames';
 
 
 
-const Actions = ({gray,white}) => {
+const Actions = ({grey,white}) => {
 
   
   return (
     <div className={style.Actions}>
       <ul className={style.Actions__list}>
         <li className={style.Actions__item}>
-          <button className={cx(style.Actions__button, style.Actions__circle, style['Actions__circle--grey'])} onClick={gray}>Gray background</button>
+          <button className={cx(style.Actions__button, style.Actions__circle, style['Actions__circle--grey'])} onClick={grey}>Grey background</button>
         </li>
         <li className={style.Actions__item}>
           <button className={cx(style.Actions__button, style.Actions__circle)} onClick={white}>White background</button>

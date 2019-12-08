@@ -1,10 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-const IframeTemplate = ({ data }) => {
-  const post = data.htmlContent
+const IframeTemplate = ({ children }) => {
 
-  return <div dangerouslySetInnerHTML={{ __html: post.content }} />
+return <div>{children}</div>
 }
 
 export default IframeTemplate
