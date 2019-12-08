@@ -19,6 +19,7 @@
   border: 0;
   background-color: transparent;
   cursor: pointer;
+  padding:0;
 }
 
 .Actions__circle {
@@ -26,6 +27,8 @@
   border: 2px solid var(--color-border);
   width: 22px;
   height: 22px;
+  display:block;
+  
   text-indent: -999em;
   background-color: var( --color-white);
 }

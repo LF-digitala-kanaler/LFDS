@@ -20,7 +20,7 @@ const ComponentExample = ({variants, background}) => {
 
   const toggleCode = () => {
     setSource(!source)
-    console.log(source)
+    
   }
   const handleSetBackgroundToWhite = () => {
     setBackground('#fff');
@@ -69,7 +69,7 @@ const ComponentExample = ({variants, background}) => {
                 <style>
                   {css}
                   
-                  {' body{padding:16px 38px 16px 16px; background-color:'+backgroundColor+'}'}
+                  {' body{padding:16px; background-color:'+backgroundColor+'} '}
                 </style>
               }
             >

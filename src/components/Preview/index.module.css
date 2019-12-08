@@ -2,6 +2,10 @@
   position: relative;
   /* margin-bottom: var(--spacing-vertical--3); */
   margin-top: var(--spacing-vertical--3);
+
+  @media (--large-viewport) { 
+    max-width: calc(100% - 40px);
+  }
 }
 
 .Preview__resize {
@@ -15,7 +19,7 @@
     border: 1px solid #e1e3e6;
     cursor: col-resize;
     top: 0;
-    right: 5px;
+    right: -15px;
     width: 23px;
     background-color: #fff;
     z-index: 2;
