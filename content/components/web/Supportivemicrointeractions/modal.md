@@ -1,14 +1,10 @@
 ---
 template: ComponentPage
-category: Supportive Micro Interactions
+category: Supportive Micro Interaction
 title: Modal
 intro: Modal preamble
 previewImage: ''
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
+backgroundColor: '#fff'
 tabs:
   - content: content code
     name: Code
@@ -17,3 +13,4 @@ tabs:
   - content: content code
     name: Code
 ---
+
