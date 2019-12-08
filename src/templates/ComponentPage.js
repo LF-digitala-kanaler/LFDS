@@ -15,6 +15,7 @@ export const ComponentPageTemplate = ({
   intro,
   componentExample,
   backgroundColor,
+  
   tabs
 
 }) => (
@@ -36,16 +37,20 @@ export const ComponentPageTemplate = ({
 
 const ComponentPage = ({ 
   data: { page, allPages, allComponentExample },
-  location,
+  location,currentDirectory
   
-  }) => {
-  let currentDirectory = location.href.replace(/\/$/, '').split('/').pop();
+  },) => {
+  // window is not avalible during gatsby build 
+  if(typeof window !== `undefined`) {
+    currentDirectory = location.href.split('/').filter(Boolean).pop();
+   }
+   
+   const componentExample = {
+      examples: allComponentExample.hasOwnProperty('edges')
+        ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
+        : false
+    }
   
-  const componentExample = {
-    examples: allComponentExample.hasOwnProperty('edges')
-      ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
-      : false
-  }
   //Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')
@@ -90,6 +95,7 @@ const ComponentPage = ({
         componentNavigation={componentNavigation} 
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
+        currentDirectory={currentDirectory}
       />
     </Layout>
   )

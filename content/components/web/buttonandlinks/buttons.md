@@ -6,9 +6,8 @@ intro: >-
   Used primarily as an explanation of terms and difficult words in inline text.
   When the user clicks/hovers a word with a popover tooltip a small popover
   appears in which explanatory text is displayed.
-status: Published
-date: '2018-05-25'
-previewImage: /img/apps.jpg
+previewImage: ''
+backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
       ## How to use

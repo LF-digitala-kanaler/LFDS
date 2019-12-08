@@ -74,7 +74,7 @@ module.exports = {
         
       }
     },
-    `gatsby-plugin-remove-trailing-slashes`,
+   
     // images
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',

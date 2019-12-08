@@ -1,11 +1,15 @@
 ---
 template: ComponentPage
 category: Motions
-title: Animations
-intro: Animations preamble
+title: Animation
+intro: Animation preamble
 previewImage: ''
+backgroundColor: '#f3f3f3'
 excerpt: >-
-  This is placeholder text
+  This is placeholder text that our web designers put here to make sure words
+  appear properly on your website. This text is going to be replaced once the
+  website is completed. You are currently reading text that is written in
+  English, not any other language.
 tabs:
   - content: content code
     name: Code
