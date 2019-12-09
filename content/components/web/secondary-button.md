@@ -8,6 +8,7 @@ intro: >-
   view.
 
   Append btn-arrow or btn-arrow-left to any button class/type to add the arrow.
+description: ok text här
 previewImage: /img/secondary.svg
 backgroundColor: '#fff'
 tabs:
@@ -36,10 +37,6 @@ tabs:
 
 
       _Exempel: Default, small and bigger_
-
-
-      ![Bigger, Default, smaller](/img/ex-secondary.svg "exempel Bigger,
-      Default, smaller")
 
 
       ## Secondary button with arrow
