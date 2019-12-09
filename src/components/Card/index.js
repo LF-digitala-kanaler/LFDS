@@ -13,8 +13,7 @@ const Card = ({title, url, image, description}) => {
       <p>{title}</p>
       <p>{description}</p>
       <Image imageInfo={{
-        image: image,
-        alt: title,
+        image: image
       }}
         />
      
