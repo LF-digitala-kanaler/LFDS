@@ -12,7 +12,7 @@ tabs:
       ## How to use
 
 
-      Primary button
+      ### Primary button
 
 
       Används primärt för att komma till eller fortsätta i formulär. FInns i ett
@@ -24,7 +24,7 @@ tabs:
       Exempel: Default, small and bigger
 
 
-      Primary button with an arrow
+      ### Primary button with an arrow
 
 
 
@@ -36,7 +36,7 @@ tabs:
 
 
 
-      Buttons with Double row
+      ### Buttons with Double row
 
 
 
@@ -57,9 +57,7 @@ tabs:
 
 
 
-      Primär med BankID icon
-
-
+      ### Primär med BankID icon
 
 
       If a service require the user to use BankID to complete the service, a
@@ -72,14 +70,8 @@ tabs:
       verify your identity
 
 
-
-
       Sign (Signering) - You need to sign using BankID at the end of the
       service.
-
-
-
-
 
 
       Legitimera och signera skjuter upp en modal med en signeringsmodul.
