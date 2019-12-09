@@ -13,14 +13,12 @@ description: >-
 backgroundColor: '#fff'
 tabs:
   - content: >-
-      ## How to use:
+      ## How to use
 
 
       Används max en per block (helst per sida) och ska ta mig dit som är mitt
       huvudsakliga syfte. Finns endast med pil. Kan användas på samma sida som
       Primär knapp. 
-
-
 
 
       ### Länk i listor
@@ -30,30 +28,18 @@ tabs:
       köpflöde eller till den primära produktsidan till artikelsidan. 
 
 
+      ## Please consider
 
 
-      ## To consider:
-
-
-      Använd helst inte 2 primärlänkar bredvid eller efter varandra.
-
-
-
-
-      ## Vision:
-
-
-
-
-      ## Exempel:
-
-
-      Visa några kontakter men skicka dem till primära sidan för
-      kontaktpersoner:
+      * Använd helst inte 2 primärlänkar bredvid eller efter varandra.
     name: Design
   - content: HEj
     name: Code
   - content: hej
     name: Copy
+  - content: >-
+      Visa några kontakter men skicka dem till primära sidan för
+      kontaktpersoner.
+    name: Exempel
 ---
 
