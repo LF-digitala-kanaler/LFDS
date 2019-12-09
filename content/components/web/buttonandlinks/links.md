@@ -22,14 +22,19 @@ tabs:
       ett stycke.
 
 
-      ### Länk under stycke
+      ### Länk i text
+
+
+      Primärt använder alltid länkar under stycke ett textstycke för att främja
+      läsbarheten och skapa ett lugn i läsningen. Länkar listas under stycket.
+      Är det flera länkar skapar vi en länklista.
 
 
       Vi föredrar att länkarna samlas under ett textstycke för att inte störa
       läsflödet med massa länkar.
 
 
-      ### Länk i text
+      #### I textstycke
 
 
       Ny definition är att vi kan länka direkt i en text, här är två specifika
@@ -43,32 +48,30 @@ tabs:
       * Där vi pratar om en annan produkt som denna produkt/tillägg ingår i.
 
 
-      ### Länk i punktlista
+      #### Länk i punktlista
 
 
       I en punktlista där det ingår som ett steg i ett moment, och vi vill att
       de ska nu göra detta action innan nästa punkt.
 
 
-      ### Länk i relation till andra
+      #### Länk i relation till andra
 
 
       Sekundär länken fungerar väldigt bra tillsammans med primär knapp och
       primär länk.
 
 
-      ### Länk i lista
+      ### Länk listor
 
 
       Ngn text plus länk
 
 
-
-
       ## Please consider
 
 
-      *
+      \*
     name: Design
   - content: content code
     name: Code
