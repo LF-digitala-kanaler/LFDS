@@ -51,5 +51,7 @@ tabs:
       Visa några kontakter men skicka dem till primära sidan för
       kontaktpersoner:
     name: Design
+  - content: HEj
+    name: Code
 ---
 
