@@ -14,16 +14,25 @@ tabs:
       about what has/will happened/happen in that step.
 
 
-      On entering the detail view, the current step is expanded (backend should
-      provide which step which is current, and of course there can only be one
-      active state). The rest are collapsed. To expand a card you can click
-      anywhere on the card. To collapse a card you can click on the part above
-      the divider line (or also on Stäng in mobile view). Interacting with one
-      card won’t affect any of the surrounding card statewise. E.g. You could
-      open all cards if you wish.
+      Each step can have one of the following three states, each with their own
+      visual style; done, current and upcoming. On entering the detail view, the
+      current step is expanded (backend should provide which step which is
+      current, and of course there can only be one current step). The rest are
+      collapsed.
 
 
-      > There can be only one - Highlander
+      To expand a card you can click anywhere on the card. To collapse a card
+      you can click on the part above the divider line (or also on Stäng in
+      mobile view). Interacting with one card won’t affect any of the
+      surrounding cards (that is, a user can have all cards expanded at once if
+      they wish to).
+
+
+      In some cases all future states of the timeline might not be known, in
+      that case you can add a wavy line in the timeline with a help text to
+      inform the user that the following steps below are dependent on things
+      which aren't known yet (such as choices made by the user or the results of
+      an investigation).
     name: Design
 ---
 
