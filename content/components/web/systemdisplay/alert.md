@@ -75,38 +75,30 @@ tabs:
       but staying on the same page.
 
 
-
-
-      Modifiers
+      ### Modifiers
 
 
       There are several modifiers available for the alerts, with corresponding
       styling for all four all versions.
 
 
-
-
-      Alert with close-x
+      #### Alert with close-x
 
 
       If you want the alert to be closeable by the user, use an X (code-only
       component ‘close’) in the far right of the alert.
 
 
-
-
-      Alert with button
+      #### Alert with button
 
 
       If you need to put a button inside the alert, there is a special version
-      of the secondary buttons for this. Use the btn-outline-warning class for
-      your button. The button should be placed on the right hand side of the
-      alert. 
+      of the [secondary buttons](../../buttonandlinks/knapp-i-alerts/) for this.
+      Use the btn-outline-warning class for your button. The button should be
+      placed on the right hand side of the alert. 
 
 
-
-
-      Full page width
+      #### Full page width
 
 
       For important information the alert can be displayed over the full
@@ -116,13 +108,23 @@ tabs:
       phone number”)
 
 
-
-
-      Link 
+      #### Link 
 
 
       As the text should be kept short, create a new page and link to it from
       the alert if you can’t get all your information across on one line.
+
+
+      ## Please consider
+
+
+      * Don’t confuse alerts (striped background) with [“glasspinnar”/modifier
+      shortcut ](../../buttonandlinks/shortcut/)(monocolor background and
+      arrow) 
+
+      * The close component should never be used together with a button inside
+      an alert. The button replaces the cross as it has the same functionality
+      (even if the user gets redirected).
     name: Design
   - content: >-
       <table class="Table">
@@ -161,7 +163,18 @@ tabs:
 
       <td class="text-nowrap">1.45</td></tr></tbody></table>
     name: Code
-  - content: content
-    name: Content
+  - content: >-
+
+
+      ## Please consider
+
+
+      * Don’t confuse alerts (striped background) with [“glasspinnar”/modifier
+      shortcut ](../../buttonandlinks/shortcut/)(monocolor background and
+      arrow) 
+
+      * Do NOT write a warning like this: “This is the header and the body text
+      just continues without a separator”.
+    name: Copy
 ---
 
