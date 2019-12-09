@@ -12,6 +12,9 @@ previewImage: /img/secondary.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
+      ## How to use
+
+
       The outlined variant btn-secondary is best suited for less
       important/secondary actions, without any restriction to how many an
       application may include in a view.
@@ -31,7 +34,7 @@ tabs:
       * With icon at left
 
 
-      ## Secondary button
+      ### Secondary button
 
 
       Används oftast då vi har flera knappar på en sida, till exempel formulär
@@ -44,7 +47,7 @@ tabs:
       ha samma höjd. Bigger används inte så ofta.
 
 
-      ## Secondary button with arrow
+      ### Secondary button with arrow
 
 
       Används för att ta dig till en annan sida eller in i en tjänst. Kan också
@@ -54,7 +57,7 @@ tabs:
       utbildningsprogram används även en pil till vänster.
 
 
-      ## Secondary with icon
+      ### Secondary with icon
 
 
       Sekundär knapp med ikon används i formulär eller köptjänster. Det finns 2
@@ -63,7 +66,7 @@ tabs:
       för att lägga till en lika dan modul, som persondata eller adresser.
 
 
-      ## Knapp i mobil-vy
+      ### Knapp i mobil-vy
 
 
       I regel används knappar explosive vy i mobilen, det vill säga att de tar
@@ -71,7 +74,12 @@ tabs:
       regeln om så önskas, då tex det finns två knappar som får plats på ytan.
 
 
-      ##
+      ## Please consider
+
+
+      * Never use disabled buttons
+
+      * In köptjänster use tha small version
     name: Design
   - content: hej
     name: Code
