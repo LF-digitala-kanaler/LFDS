@@ -7,7 +7,7 @@ description: Extern länk använder vi när länken tar mig till en annan webbsi
 backgroundColor: '#fff'
 tabs:
   - content: >-
-      How to use
+      ## How to use
 
 
       Extern länk används när du tar användaren till en annan sida utanför det
@@ -28,9 +28,7 @@ tabs:
       en länklista.
 
 
-
-
-      Please consider
+      ## Please consider
     name: Design
 ---
 
