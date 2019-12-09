@@ -25,7 +25,8 @@ tabs:
 
 
       Använd gärna en primär länk innan de sekundära länkarna. Ska gå till
-      köpflöde eller till den primära produktsidan till artikelsidan. 
+      köpflöde eller till den primära produktsidan till artikelsidan. Läs mer om
+      [länklistor](#)
 
 
       ## Please consider
@@ -33,7 +34,7 @@ tabs:
 
       * Använd helst inte 2 primärlänkar bredvid eller efter varandra.
     name: Design
-  - content: HEj
+  - content: Hej
     name: Code
   - content: hej
     name: Copy
