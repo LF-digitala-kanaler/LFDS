@@ -13,7 +13,7 @@ tabs:
   - content: >-
       De finns i olika färger för att passa till varje färg. Används endast då
       man måste godkänna att man sätt informationen som Cookies eller som Ring
-      mig funktion.
+      mig funktion. 
 
 
       ## Please consider:
@@ -26,7 +26,8 @@ tabs:
       * Ska bara användas för tex Cockie godkännande eller direkt action som
       “Ring upp mig”.
 
-      * Läs mer under Alerts
+
+      Read more under [Alerts](/components/web/systemdisplay/alert/)
     name: Design
 ---
 
