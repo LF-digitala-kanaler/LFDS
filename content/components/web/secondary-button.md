@@ -42,22 +42,39 @@ tabs:
 
 
 
-      ## Secondary button with icon
-
-
-      Används för att ta dig till en annan sida eller in i en tjänst. Kan också
-      användas för att bläddra i sökresultat eller slideshow/e-utbildning. Kan
-      även användas utan ramlinjen.
-
-
-
-
       ## Secondary button with arrow
 
 
       Används för att ta dig till en annan sida eller in i en tjänst. Kan också
       användas för att bläddra i sökresultat eller slideshow/e-utbildning. Kan
-      även användas utan ramlinjen.
+      även användas utan ramlinjen runt då det blir för boxigt med ramen. När
+      man bläddrar i sökresultat eller bläddrar mellan sidor i en digital
+      utbildningsprogram används även en pil till vänster.
+
+
+
+
+      ## Secondary with icon
+
+
+      Sekundär knapp med ikon används i formulär eller köptjänster. Det finns 2
+      vanligt förekommande användningsområden som är Bifoga och Lägg till.
+      Bifoga används för att bifoga filer eller bilder. Lägg till används ofta
+      för att lägga till en lika dan modul, som persondata eller adresser.
+
+
+
+
+      ## Knapp i mobil vy/xs
+
+
+      I regel används knappar explosive, att de tar hela ytan, för att vara
+      lättare att klicka på i mobilen. Man kan i vissa fall frångå regeln om så
+      önskas.
+
+
+
+
 
 
 
