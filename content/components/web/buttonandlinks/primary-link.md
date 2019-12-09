@@ -13,7 +13,7 @@ description: >-
 backgroundColor: '#fff'
 tabs:
   - content: >-
-      ## How to use:
+      ## How to use
 
 
       Används max en per block (helst per sida) och ska ta mig dit som är mitt
@@ -21,39 +21,26 @@ tabs:
       Primär knapp. 
 
 
-
-
       ### Länk i listor
 
 
       Använd gärna en primär länk innan de sekundära länkarna. Ska gå till
-      köpflöde eller till den primära produktsidan till artikelsidan. 
+      köpflöde eller till den primära produktsidan till artikelsidan. Läs mer om
+      [länklistor](#)
 
 
+      ## Please consider
 
 
-      ## To consider:
-
-
-      Använd helst inte 2 primärlänkar bredvid eller efter varandra.
-
-
-
-
-      ## Vision:
-
-
-
-
-      ## Exempel:
-
-
-      Visa några kontakter men skicka dem till primära sidan för
-      kontaktpersoner:
+      * Använd helst inte 2 primärlänkar bredvid eller efter varandra.
     name: Design
-  - content: HEj
+  - content: Hej
     name: Code
   - content: hej
     name: Copy
+  - content: >-
+      Visa några kontakter men skicka dem till primära sidan för
+      kontaktpersoner.
+    name: Exempel
 ---
 
