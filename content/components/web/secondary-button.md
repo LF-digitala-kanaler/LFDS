@@ -85,7 +85,7 @@ tabs:
     name: Design
   - content: hej
     name: Code
-  - content: hej
+  - content: hej hej
     name: Content
   - content: hej
     name: Exemple
