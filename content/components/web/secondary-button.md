@@ -83,5 +83,11 @@ tabs:
 
       ##
     name: Design
+  - content: hej
+    name: Code
+  - content: hej
+    name: Content
+  - content: hej
+    name: Exemple
 ---
 
