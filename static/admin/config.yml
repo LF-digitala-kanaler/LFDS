@@ -33,6 +33,7 @@ collections: # A list of collections the CMS should be able to edi
         name: 'backgroundColor'
         widget: 'select'
         options: 
+          - { label: "Default", value: "#fff" }
           - { label: "White", value: "#fff" }
           - { label: "Grey", value: "#f3f3f3" }
       - name: 'tabs'

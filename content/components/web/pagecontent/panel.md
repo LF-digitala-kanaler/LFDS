@@ -5,7 +5,7 @@ title: Panel
 intro: >-
   Panels are our standard containers when we want to “box in” content. When
   panels are used the whole page is usually divided into different panels.
-backgroundColor: '#f3f3f3'
+backgroundColor: ''
 tabs:
   - content: >-
       ## How to use

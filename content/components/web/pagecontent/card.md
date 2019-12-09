@@ -4,7 +4,7 @@ category: Page Content
 title: Card
 intro: 'The card component is used to inform users about related products or content. '
 previewImage: ''
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
