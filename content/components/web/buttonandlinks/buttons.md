@@ -12,7 +12,7 @@ previewImage: /img/primary-2.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
-      ## **How to use**
+      ## How to use
 
 
       **Finns i 4 olika versioner**
