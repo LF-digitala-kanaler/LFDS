@@ -39,6 +39,10 @@ tabs:
       _Exempel: Default, small and bigger_
 
 
+      ![Default, small and bigger](/img/ex-secondary.svg "Default, small and
+      bigger")
+
+
       ## Secondary button with arrow
 
 
