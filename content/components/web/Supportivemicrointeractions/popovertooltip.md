@@ -44,6 +44,16 @@ tabs:
 
       * Use a separate "[Läs mer](collapse/)" button in proximity to the input
       field and move the information there.
+
+
+      ## Vision
+
+
+      A not yet implemented vision for the component is to have a “dictionary”
+      in a database and an on/off-switch for editors. If the editor turns on the
+      dictionary on a page all words which could need explanation (=are in the
+      dictionary) are automatically given a pop-over tooltip on their first
+      occurrence on the page.
     name: Design
   - content: content code
     name: Code
