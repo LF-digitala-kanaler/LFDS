@@ -42,8 +42,8 @@ tabs:
       * Put the word in the input field description and use the popover-tooltip
       on it there
 
-      * Use a separate "[Läs mer](collapse/)" button in proximity to the input
-      field and move the information there.
+      * Use a separate "[Läs mer](../collapse/)" button in proximity to the
+      input field and move the information there.
 
 
       ## Vision
