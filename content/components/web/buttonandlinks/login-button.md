@@ -2,16 +2,12 @@
 template: ComponentPage
 category: Button and Links
 title: Login button
-intro: >
+intro: |-
 
-  För att stödja att vi bara får ha en primär knapp på en sida och vi alltid
-  vill ha Logga in tydligt i toppen, så valde vi att ge Logga in en egen unik
-  färg. 
-description: >-
+  Logga in och Logga ut har en specifik knapp och unik färg.
+description: |-
 
-  För att stödja att vi bara får ha en primär knapp på en sida och vi alltid
-  vill ha Logga in tydligt i toppen, så valde vi att ge Logga in en egen unik
-  färg. 
+  Logga in och Logga ut har en specifik knapp och unik färg.
 backgroundColor: '#fff'
 tabs:
   - content: >-
