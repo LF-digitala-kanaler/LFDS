@@ -10,15 +10,15 @@ content: >-
   Page content contains the following components:
 
 
-  * Price box
+  * [Price box](pricebox/)
 
-  * Value box
+  * [Value box](valuebox/)
 
-  * Callout
+  * [Callout](callout/)
 
-  * Card
+  * [Card](card/)
 
-  * Panel
+  * [Panel](panel/)
 
 
   Note that several of the components in this section actually are set ways of
