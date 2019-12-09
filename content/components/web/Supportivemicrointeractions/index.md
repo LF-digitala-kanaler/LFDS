@@ -34,15 +34,5 @@ content: >-
   material it should be put on a separate page, preferably on
   lansforsakringar.se (but use your judgement if somewhere else is more
   appropriate in your specific case).
-
-
-  ## All supportive microinteractions
-
-
-  * Popover tooltip
-
-  * [Collapse](collapse/)
-
-  * [Modal](collapse/)
 ---
 
