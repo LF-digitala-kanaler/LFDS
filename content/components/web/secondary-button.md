@@ -24,16 +24,12 @@ tabs:
 
 
 
-      ### Secondary button
-
-
+      ## Secondary button
 
 
       Används oftast då vi har flera knappar på en sida, till exempel formulär
       eller sidor med redan en primär knapp. Finns i default, small eller
       bigger. 
-
-
 
 
       Small används oftast i köptjänster eller formulär för att få plats i olika
@@ -47,22 +43,12 @@ tabs:
       Bigger används inte så ofta.
 
 
-
-
       Exempel: Default, small and bigger
 
 
 
 
-
-
-
-
       ## Secondary button with an arrow
-
-
-
-
 
 
       Används för att ta dig till en annan sida eller in i en tjänst. Kan också
