@@ -20,15 +20,14 @@ content: >-
   modal appears in which explanatory text is displayed.
 
 
-  ****[**Collapse**](collapse/)**:** Lets the user expand the current page and
-  displays examples or a longer explanation which support the user in performing
-  their task. This is the most common way of showing Read more in relation to
-  forms.
+  **Collapse:** Lets the user expand the current page and displays examples or a
+  longer explanation which support the user in performing their task. This is
+  the most common way of showing Read more in relation to forms.
 
 
-  ****[**Modal**](modal/)**:** Modals are triggered by the user clicking a
-  button. They are used in a “Read more”-context when we provide more background
-  information when we want to help the user make an informed decision.
+  **Modal:** Modals are triggered by the user clicking a button. They are used
+  in a “Read more”-context when we provide more background information when we
+  want to help the user make an informed decision.
 
 
   **Separate page** (not a component): If the read more-section is editorial
@@ -42,10 +41,8 @@ content: >-
 
   * Popover tooltip
 
-  * Collapse
+  * [Collapse](collapse/)
 
-  * Modal
-
-  * Close
+  * [Modal](collapse/)
 ---
 
