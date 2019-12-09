@@ -3,6 +3,7 @@ import CMS from 'netlify-cms-app'
 import "../components/_base/index.css"
 import {ComponentPageTemplate} from '../templates/ComponentPage'
 import {ComponentGroupTemplate} from '../templates/ComponentGroup'
+import { LandingPageTemplate } from '../templates/LandingPage'
 // import ComponentPagePreview from './preview-templates/ComponentPreview'
 
 
@@ -25,6 +26,9 @@ CMS.registerPreviewTemplate('component-page', ({ entry }) => (
 
 CMS.registerPreviewTemplate('component-group', ({ entry }) => (
   <ComponentGroupTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
+  <LandingPageTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
 // CMS.registerPreviewTemplate('component-page', ComponentPagePreview)
 

@@ -1,0 +1,20 @@
+.Card {
+  text-decoration: none;
+  color: var(--color-black);
+  margin-bottom: var(--spacing-vertical--1);
+}
+
+.Card__wrapper {
+  width: 100%;
+  display: flex;
+}
+
+
+.Card__title {
+  font-size: 2rem;
+  line-height: 1.13;
+  margin-bottom: var(--spacing-vertical--05);
+}
+.Card__image {
+  margin-right: var(--spacing-lg);
+}

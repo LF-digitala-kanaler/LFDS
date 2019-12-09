@@ -96,7 +96,7 @@
 .Menu__link--active {
     background-color: var(--menu-active-background);
     box-shadow: inset 2px 0 0 0 var(--menu-active);
-    
+    color: var(--color-black);
 }
 
 .Menu__trigger {

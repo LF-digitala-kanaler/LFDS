@@ -55,8 +55,20 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: ComponentGroup, value: ComponentGroup }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'content', widget: 'markdown', hint: 'WIll be shown below component list' }
+      - { label: 'Content', name: 'content', widget: 'markdown', hint: 'WIll be shown below component list', required: false }
 
+  - name: landing-page
+    label: Landing Page
+    editor:
+      preview: true
+    file: content/components/web/index.md
+   
+    fields: 
+      - { label: Template, name: template, widget: hidden, default: landingPage, value: LandingPage }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: 'Content', name: 'content', widget: 'markdown', hint: 'WIll be shown below component list', required: false }
+  
   - name: 'settings'
     label: 'Settings'
     delete: false # Prevent users from deleting documents in this collection

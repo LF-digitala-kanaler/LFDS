@@ -1,5 +1,5 @@
 :root {
-  --wrapper-width: 61.375em; /* If this is changed change --medium-viewport in _base/index.css too */
+  --wrapper-width: 64em; 
   --wrapper-spacing: var(--spacing-unit);
 }
 

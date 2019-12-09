@@ -2,7 +2,7 @@
 
 @custom-media --small-viewport (width > 48rem);
 @custom-media --small-viewport-down (width < 48rem);
-@custom-media --medium-viewport (width > 61.375rem); 
+@custom-media --medium-viewport (width > 64rem); 
 @custom-media --large-viewport (width > 75rem);
 @custom-media --large-viewport-down (width < 75rem);
 @custom-media --xlarge-viewport (width > 81.25rem);
@@ -38,6 +38,7 @@
   --spacing-xlg: calc(1.75 * var(--spacing-unit));
   --spacing-xxlg: calc(2 * var(--spacing-unit));
 
+  --spacing-vertical--05: calc(0.5 * var(--baseline) * 1rem);
   --spacing-vertical--1: calc(1 * var(--baseline) * 1rem);
   --spacing-vertical--2: calc(2 * var(--baseline) * 1rem);
   --spacing-vertical--3: calc(3 * var(--baseline) * 1rem);
