@@ -9,6 +9,8 @@
   margin-right: auto;
   padding-left: var(--wrapper-spacing);
   padding-right: var(--wrapper-spacing);
+  display: flex;
+  flex-direction: column;
   
   @media (--medium-viewport) {
     padding-left: 0;
