@@ -27,6 +27,7 @@ collections: # A list of collections the CMS should be able to edi
         options: ['Button and Links', 'Data Visualization', 'Forms', 'Motions', 'Navigations', 'Page Content', 'Supportive Micro Interaction', 'System Display', 'Tables', 'Typography']
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: Komponent beskrivning, name: description, widget: text, hint: Will be shown on Component Group page}
       - { name: previewImage, label: previewImage, widget: image, required: false }
       - label: 'Background'
         name: 'backgroundColor'

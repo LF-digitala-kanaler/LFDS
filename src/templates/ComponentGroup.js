@@ -57,8 +57,6 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
   .value()
   
   
-  
-  
   const menu = {
     items: componentNavigation,
     location: location
@@ -109,7 +107,7 @@ export const pageQuery = graphql`
             category
             title
             previewImage
-            
+            description
           }
           fields {
             slug

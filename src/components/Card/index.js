@@ -5,13 +5,13 @@ import Image from '../Image';
 
 
 
-const Card = ({title, url, image, text}) => {
+const Card = ({title, url, image, description}) => {
 
    
   return (
     <Link to={url} >
       <p>{title}</p>
-      <p>{text}</p>
+      <p>{description}</p>
       <Image imageInfo={{
         image: image,
         alt: title,
