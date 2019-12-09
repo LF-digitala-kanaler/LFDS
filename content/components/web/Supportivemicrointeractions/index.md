@@ -15,22 +15,23 @@ content: >-
   four ways of providing “Read more”-information are:
 
 
-  Pop-over tooltip: Used primarily as an explanation of terms and difficult
+  **Pop-over tooltip**: Used primarily as an explanation of terms and difficult
   words. When the user clicks/hovers a word with a pop-over tooltip a small
   modal appears in which explanatory text is displayed.
 
 
-  [Collapse](collapse/): Lets the user expand the current page and displays
-  examples or a longer explanation which support the user in performing their
-  task. This is the most common way of showing Read more in relation to forms.
+  ****[**Collapse**](collapse/)**:** Lets the user expand the current page and
+  displays examples or a longer explanation which support the user in performing
+  their task. This is the most common way of showing Read more in relation to
+  forms.
 
 
-  [Modal](modal/): Modals are triggered by the user clicking a button. They are
-  used in a “Read more”-context when we provide more background information when
-  we want to help the user make an informed decision.
+  ****[**Modal**](modal/)**:** Modals are triggered by the user clicking a
+  button. They are used in a “Read more”-context when we provide more background
+  information when we want to help the user make an informed decision.
 
 
-  Separate page (not a component): If the read more-section is editorial
+  **Separate page** (not a component): If the read more-section is editorial
   material it should be put on a separate page, preferably on
   lansforsakringar.se (but use your judgement if somewhere else is more
   appropriate in your specific case).
