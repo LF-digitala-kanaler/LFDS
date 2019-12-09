@@ -22,8 +22,6 @@ tabs:
       ett stycke.
 
 
-
-
       ### Länk under stycke
 
 
@@ -31,27 +29,25 @@ tabs:
       läsflödet med massa länkar.
 
 
-
-
       ### Länk i text
 
 
-      Ny definition är att vi kan länka i en text vid två specifika tillfällen
-      passar det extra bra. 
+      Ny definition är att vi kan länka direkt i en text vid två specifika
+      tillfällen passar det extra bra:
 
 
-      I paneler där en mindre mängd text skrivs ut kan det vara en fördel att
+      * I paneler där en mindre mängd text skrivs ut kan det vara en fördel att
       länka 1-3 ord i texten för att ta mig direkt till det vi pratar om. Vi
       länkar aldrig i en ingress.
 
-
-      Pratar om en annan produkt som denna produkt/tillägg ingår i
-
-
-      I en punktlista där det ingår ett steg moment, och vi vill att de ska nu
-      göra detta action innan nästa punkt.
+      * Där vi pratar om en annan produkt som denna produkt/tillägg ingår i.
 
 
+      ### Länk i punktlista
+
+
+      I en punktlista där det ingår som ett steg i ett moment, och vi vill att
+      de ska nu göra detta action innan nästa punkt.
 
 
       ### Länk i relation till andra
@@ -59,8 +55,6 @@ tabs:
 
       Sekundär länken fungerar väldigt bra tillsammans med primär knapp och
       primär länk.
-
-
 
 
       ### Länk i lista
@@ -72,6 +66,9 @@ tabs:
 
 
       ## Please consider
+
+
+      *
     name: Design
   - content: content code
     name: Code
