@@ -20,9 +20,9 @@ content: >-
   modal appears in which explanatory text is displayed.
 
 
-  Collapse: Lets the user expand the current page and displays examples or a
-  longer explanation which support the user in performing their task. This is
-  the most common way of showing Read more in relation to forms.
+  [Collapse](collapse/): Lets the user expand the current page and displays
+  examples or a longer explanation which support the user in performing their
+  task. This is the most common way of showing Read more in relation to forms.
 
 
   Modal: Modals are triggered by the user clicking a button. They are used in a
