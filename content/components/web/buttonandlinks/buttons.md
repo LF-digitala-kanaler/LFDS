@@ -1,13 +1,12 @@
 ---
 template: ComponentPage
 category: Button and Links
-title: Buttons
+title: Primary button
 intro: >-
-  Used primarily as an explanation of terms and difficult words in inline text.
-  When the user clicks/hovers a word with a popover tooltip a small popover
-  appears in which explanatory text is displayed.
+  Används max en per block (helst per sida) och ska ta mig dit som är mitt
+  huvudsakliga syfte. Finns med och utan pil och tvåradig samt BankID.
 previewImage: /img/primary.svg
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
