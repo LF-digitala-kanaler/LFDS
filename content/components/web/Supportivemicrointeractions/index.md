@@ -25,9 +25,9 @@ content: >-
   task. This is the most common way of showing Read more in relation to forms.
 
 
-  Modal: Modals are triggered by the user clicking a button. They are used in a
-  “Read more”-context when we provide more background information when we want
-  to help the user make an informed decision.
+  [Modal](modal/): Modals are triggered by the user clicking a button. They are
+  used in a “Read more”-context when we provide more background information when
+  we want to help the user make an informed decision.
 
 
   Separate page (not a component): If the read more-section is editorial
