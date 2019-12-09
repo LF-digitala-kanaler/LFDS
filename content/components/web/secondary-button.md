@@ -22,8 +22,6 @@ tabs:
       * With icon at left
 
 
-
-
       ## Secondary button
 
 
@@ -54,8 +52,6 @@ tabs:
       utbildningsprogram används även en pil till vänster.
 
 
-
-
       ## Secondary with icon
 
 
@@ -65,20 +61,12 @@ tabs:
       för att lägga till en lika dan modul, som persondata eller adresser.
 
 
+      ## Knapp i mobil-vy
 
 
-      ## Knapp i mobil vy/xs
-
-
-      I regel används knappar explosive, att de tar hela ytan, för att vara
-      lättare att klicka på i mobilen. Man kan i vissa fall frångå regeln om så
-      önskas.
-
-
-
-
-
-
+      I regel används knappar explosive vy i mobilen, det vill säga att de tar
+      hela ytan, för att vara lättare att klicka på. Man kan i vissa fall frångå
+      regeln om så önskas, då tex det finns två knappar som får plats på ytan.
 
 
       ##
