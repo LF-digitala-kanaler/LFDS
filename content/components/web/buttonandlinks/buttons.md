@@ -9,6 +9,20 @@ previewImage: /img/primary-2.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
+      **Finns i 4 olika versioner**
+
+
+      * Default, bigger or smaller
+
+      * With an arrow
+
+      * Double row
+
+      * BankID icon
+
+
+
+
       ## Primary button
 
 
