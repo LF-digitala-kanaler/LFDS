@@ -5,7 +5,7 @@ title: Shortcut
 intro: Shortcut preamble
 description: oki
 previewImage: ''
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: content design
     name: Design
