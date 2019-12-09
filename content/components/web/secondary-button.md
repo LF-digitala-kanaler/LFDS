@@ -37,9 +37,11 @@ tabs:
       ha samma höjd. Bigger används inte så ofta.
 
 
-      Exempel: Default, small and bigger
+      _Exempel: Default, small and bigger_
 
 
+      ![Bigger, Default, smaller](/img/ex-secondary.svg "exempel Bigger,
+      Default, smaller")
 
 
       ## Secondary button with arrow
