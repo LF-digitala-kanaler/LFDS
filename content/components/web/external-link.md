@@ -11,20 +11,19 @@ tabs:
 
 
       Extern länk används när du tar användaren till en annan sida utanför det
-      kontext du är i. I Mina sidor länkar vi till Länsförsäkringar.se med en
-      extern länkikon.
+      kontext du är i. Till exempel så länkar vi i Mina sidor till
+      Länsförsäkringar.se med en extern länkikon. 
 
 
-      I köptjänsterna länkar vi alla länkar med extern ikon som öppnar nytt
-      fönster och lämnar fönstret som du är i genom att öppna länkarna i nytt
-      fönster.
+      I köptjänsterna länkar vi alla länkar med extern ikon som länkar ut ur
+      formuläret och öppnar dem i ett nytt fönster. 
 
 
       Det som kan vara svårt är sedan på vilken sida som ikonen ska vara, men
       det är egentligen lätt.
 
 
-      > Extern länk ikon ska alltid placeras efter länken om inte länken ingår i
+      Extern länk ikon ska alltid placeras efter länken om inte länken ingår i
       en länklista.
 
 
