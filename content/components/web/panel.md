@@ -41,5 +41,7 @@ tabs:
       You always need to involve our art directors, but when designing a page
       with many panels that sweet sweet AD love is extra needed.
     name: Design
+  - content: 'Coding is more than a skill, it is a thrill!'
+    name: Code
 ---
 
