@@ -36,6 +36,8 @@ tabs:
       ha samma höjd. Bigger används inte så ofta.
 
 
+      ![](/img/ex-secondary.svg)
+
 
       ## Secondary button with arrow
 
