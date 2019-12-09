@@ -29,5 +29,11 @@ tabs:
 
       ## Please consider
     name: Design
+  - content: Hej
+    name: Code
+  - content: Hej
+    name: Copy
+  - content: hej
+    name: Exemple
 ---
 
