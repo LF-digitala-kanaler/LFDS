@@ -33,14 +33,8 @@ tabs:
 
 
       Small används oftast i köptjänster eller formulär för att få plats i olika
-      kontext.
-
-
-      Default används ofta bredvid primär knapp eller inputfält för att ha samma
-      höjd.
-
-
-      Bigger används inte så ofta.
+      kontext. Default används ofta bredvid primär knapp eller inputfält för att
+      ha samma höjd. Bigger används inte så ofta.
 
 
       Exempel: Default, small and bigger
@@ -48,12 +42,27 @@ tabs:
 
 
 
-      ## Secondary button with an arrow
+      ## Secondary button with icon
 
 
       Används för att ta dig till en annan sida eller in i en tjänst. Kan också
       användas för att bläddra i sökresultat eller slideshow/e-utbildning. Kan
-      även användas utan ramlinjen
+      även användas utan ramlinjen.
+
+
+
+
+      ## Secondary button with arrow
+
+
+      Används för att ta dig till en annan sida eller in i en tjänst. Kan också
+      användas för att bläddra i sökresultat eller slideshow/e-utbildning. Kan
+      även användas utan ramlinjen.
+
+
+
+
+      ##
     name: Design
 ---
 
