@@ -83,6 +83,11 @@ tabs:
 
 
       ## Please consider
+
+
+      * Never use 2 primary buttons on one page
+
+      * Never use disabled buttons
     name: Design
   - content: 'I''m a code monkey yes i am, yes i am!'
     name: Code
