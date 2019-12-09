@@ -1,15 +1,20 @@
 ---
 template: ComponentPage
 category: Button and Links
-title: Links
-intro: Links preamble
+title: Secondary link
+intro: >-
+  Kan användas flera i samma block. Kan användas bredvid eller under en primär
+  eller en sekundär länk. Finns med ikon, externikon och som lista. 
+description: >-
+  Kan användas flera i samma block. Kan användas bredvid eller under en primär
+  eller en sekundär länk. Finns med ikon, externikon och som lista. 
 previewImage: ''
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
-  - content: content code
-    name: Code
   - content: content design
     name: Design
+  - content: content code
+    name: Code
   - content: content code
     name: Code
 ---
