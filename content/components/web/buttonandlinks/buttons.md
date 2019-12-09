@@ -9,10 +9,7 @@ previewImage: /img/primary-2.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
-      ## How to use
-
-
-      ### Primary button
+      ## Primary button
 
 
       Används primärt för att komma till eller fortsätta i formulär. FInns i ett
@@ -24,9 +21,7 @@ tabs:
       Exempel: Default, small and bigger
 
 
-      ### Primary button with an arrow
-
-
+      ## Primary button with an arrow
 
 
       Use the primary button with an arrow for primary links. As a rule of
@@ -34,11 +29,7 @@ tabs:
       service, we also use the arrow to get to the next step in the service.
 
 
-
-
-      ### Buttons with Double row
-
-
+      ## Buttons with Double row
 
 
       Are only used in Köptjänster and the button's text should convey what will
@@ -49,15 +40,11 @@ tabs:
       how to achieve this.
 
 
-
-
       Använd samma eller liknande terminologi genom tjänsterna. Se copy för
       exempel.
 
 
-
-
-      ### Primär med BankID icon
+      ## Primär med BankID icon
 
 
       If a service require the user to use BankID to complete the service, a
