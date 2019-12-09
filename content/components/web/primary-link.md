@@ -53,5 +53,7 @@ tabs:
     name: Design
   - content: HEj
     name: Code
+  - content: hej
+    name: Copy
 ---
 
