@@ -32,8 +32,8 @@ tabs:
       ### Länk i text
 
 
-      Ny definition är att vi kan länka direkt i en text vid två specifika
-      tillfällen passar det extra bra:
+      Ny definition är att vi kan länka direkt i en text, här är två specifika
+      tillfällen där det passar extra bra:
 
 
       * I paneler där en mindre mängd text skrivs ut kan det vara en fördel att
