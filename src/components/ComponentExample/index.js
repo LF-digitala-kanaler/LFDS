@@ -6,7 +6,7 @@ import Preview from '../Preview';
 import Actions from '../Actions'
 import HtmlBlock from '../Content';
 import CodeBlock from '../CodeBlock';
-
+import ComponentNavigation from '../ComponentNavigation';
 
 
 const ComponentExample = ({variants, background}) => {
@@ -29,16 +29,10 @@ const ComponentExample = ({variants, background}) => {
   const handleSetBackgroundToGrey = () => {
     setBackground('#f3f3f3');
   }
-  const loadCode = (variant) => {
+  const handleChildClick = (variant) => {
     setCode(variant)
   }
-  const navigation = (variants) =>
   
-    variants.map((item) => {
-      return (
-        <li key={item.node.id} onClick={ () =>loadCode(item.node.content)}>{item.node.name}</li>
-      );
-    });
 
   const handleResize = () => {
     console.log(iframeRef.current.node.contentDocument.body.scrollHeight)
@@ -56,7 +50,7 @@ const ComponentExample = ({variants, background}) => {
 
   return (
     <React.Fragment>
-         {navigation(variants)}
+        <ComponentNavigation variants={variants}  onChildClick={handleChildClick} />
           <Preview>
             <Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} />
             <Frame

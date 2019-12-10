@@ -1,5 +1,5 @@
 :root {
-  --wrapper-width: 64em; 
+  --wrapper-width: var(--content-width); 
   --wrapper-spacing: var(--spacing-unit);
 }
 
@@ -17,7 +17,6 @@
     padding-right: 0;
   }
 }
-
 
 .Wrapper--push {
   @media (--medium-viewport) { 

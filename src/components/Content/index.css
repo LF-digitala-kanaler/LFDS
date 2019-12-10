@@ -1,5 +1,10 @@
-/* markdown styling */
+/* Netlify wysiwyg styling*/
 
+.Content {
+  @media (--medium-viewport) { 
+    max-width: var(--content-width--small);
+  }
+}
 .Content h2{
   font-size: 2.5rem;
   line-height: 1;
@@ -14,4 +19,10 @@
   font-size: 1.5rem;
   line-height: 1;
   margin-bottom: var(--spacing-vertical--1);
+}
+
+
+.Content blockquote p {
+  color: var(--color-gray);
+  font-size: 1.75rem;
 }

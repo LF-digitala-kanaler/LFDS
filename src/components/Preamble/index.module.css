@@ -10,7 +10,7 @@
   line-height: 1.25;
   margin-bottom: var(--spacing-vertical--3);
   @media (--medium-viewport) { 
-    width: 74.7%;
+    max-width: var(--content-width--small);
   }
   
 }

@@ -28,12 +28,13 @@
     z-index: 3;
     transform: translateX(-100%);
     transition: 0.4s transform cubic-bezier(.4,0,.2,1);
-    visability: hidden;
+    visibility: hidden;
 
 }
  .Menu--isOpen {
     transform: translateX(0);
-    visability: visible;transition: 0.4s transform cubic-bezier(.4,0,.2,1);
+    visibility: visible;
+    transition: 0.4s transform cubic-bezier(.4,0,.2,1);
  }
 
 .Menu__list {
@@ -58,7 +59,7 @@
         width: 100%;
         height: 100%;
         z-index: 2;
-        visability: hidden;
+        visibility: hidden;
         opacity: 0;
         transition: opacity .3s cubic-bezier(.4,0,.2,1);
         pointer-events: none;

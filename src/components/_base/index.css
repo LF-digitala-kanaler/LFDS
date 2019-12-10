@@ -48,6 +48,9 @@
   --breakpoint-3: 75rem;
   
   --sidebar-width: 17.375rem;
+
+  --content-width: 64rem; 
+  --content-width--small: 47.3125rem; 
 }
 
 
@@ -107,3 +110,4 @@ div[role="group"][tabindex] {
 .bg-white {
   background-color: var(--color-white);
 }
+
