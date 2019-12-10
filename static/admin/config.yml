@@ -14,7 +14,7 @@ collections: # A list of collections the CMS should be able to edi
     editor:
       preview: true
     folder: content/components/web/
-    
+    path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     filter: {field: "template", value: "ComponentPage"}
     fields: # The fields each document in this collection have
@@ -24,10 +24,20 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Category'
         name: 'category'
         widget: 'select'
-        options: ['Button and Links', 'Data Visualization', 'Forms', 'Motions', 'Navigations', 'Page Content', 'Supportive Micro Interaction', 'System Display', 'Tables', 'Typography']
+        options: 
+        - { label: "Button and Links", value: "buttonandlinks" }
+        - { label: "Data Visualization", value: "datavisualization" }
+        - { label: "Forms", value: "forms" }
+        - { label: "Motions", value: "motions" }
+        - { label: "Navigations", value: "navigations" }
+        - { label: "Page Content", value: "pagecontent" }
+        - { label: "Supportive Micro Interaction", value: "supportivemicrointeraction" }
+        - { label: "System Display", value: "systemdisplay" }
+        - { label: "Tables", value: "tables" }
+        - { label: "Typography", value: "pypography" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: Komponent beskrivning, name: description, widget: text, hint: Will be shown on Component Group page}
+      - { label: Component Description, name: description, widget: text, hint: Will be shown on Component Group page}
       - { name: previewImage, label: previewImage, widget: image, required: false }
       - label: 'Background'
         name: 'backgroundColor'
@@ -57,17 +67,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: 'content', widget: 'markdown', hint: 'WIll be shown below component list', required: false }
 
-  - name: landing-page
-    label: Landing Page
-    editor:
-      preview: true
-    file: content/components/web/index.md
-   
-    fields: 
-      - { label: Template, name: template, widget: hidden, default: landingPage, value: LandingPage }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'content', widget: 'markdown', hint: 'WIll be shown below component list', required: false }
+  
   
   - name: 'settings'
     label: 'Settings'
@@ -94,4 +94,5 @@ collections: # A list of collections the CMS should be able to edi
               widget: string,
               required: false,
             }
+  
   

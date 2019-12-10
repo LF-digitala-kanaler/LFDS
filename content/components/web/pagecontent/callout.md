@@ -6,7 +6,7 @@ intro: >-
   The callout is used to highlight information which we want the user to notice
   in relation to a chunk of text. 
 previewImage: ''
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
