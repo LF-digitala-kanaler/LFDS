@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Data Visualization
+category: forms
 title: Testos
 intro: testar
 description: testar
