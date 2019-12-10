@@ -1,7 +1,7 @@
 .Card {
   text-decoration: none;
   color: var(--color-black);
-  margin-bottom: var(--spacing-vertical--1);
+  margin-bottom: var(--spacing-vertical--2);
 }
 
 .Card__wrapper {

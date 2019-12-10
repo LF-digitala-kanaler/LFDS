@@ -16,6 +16,7 @@ export default ({
   meta, 
   title,
   breadcrumb,
+  backgroundClass,
   menu
   }) => {
 
@@ -40,9 +41,9 @@ export default ({
         }
       `}
       render={data => {
-        const { siteTitle, googleTrackingId,  } =
+        const { siteTitle, googleTrackingId  } =
             data.settingsYaml || {}
-       
+       console.log('backgroundClass', backgroundClass)
         
         return (
           
@@ -50,7 +51,10 @@ export default ({
             <Helmet
               defaultTitle={siteTitle}
               titleTemplate={`%s | ${siteTitle}`}
-            >
+              bodyAttributes={{
+                class: backgroundClass
+              }}
+            > 
               {title}
               <link href="" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="" />

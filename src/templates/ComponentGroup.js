@@ -29,6 +29,7 @@ export const ComponentGroupTemplate = ({
   </>
 )
 const ComponentGroup = ({ data: { page, allPages }, location }) => {
+  console.log('egege', page.frontmatter.background)
   // Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')
@@ -68,6 +69,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
       title={page.frontmatter.title || false}
       componentNavigation={componentNavigation} 
       menu={menu}
+      backgroundClass={page.frontmatter.background}
     >
       <ComponentGroupTemplate 
         {...page} 
@@ -93,6 +95,7 @@ export const pageQuery = graphql`
         intro
         slug
         content
+        background
       }
     }
     

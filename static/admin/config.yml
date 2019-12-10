@@ -61,7 +61,9 @@ collections: # A list of collections the CMS should be able to edi
       preview: true
     folder: content/components/web/
     filter: {field: "template", value: "ComponentGroup"}
+    background:
     fields: 
+      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
       - { label: Template, name: template, widget: hidden, default: ComponentGroup, value: ComponentGroup }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }

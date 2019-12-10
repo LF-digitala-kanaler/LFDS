@@ -1,6 +1,7 @@
 ---
 template: ComponentGroup
 title: Supportive Microinteractions
+background: bg-white
 intro: >-
   The supportive microinteraction section includes components which the user can
   interact with in one way or the other in support of the main flow. The main

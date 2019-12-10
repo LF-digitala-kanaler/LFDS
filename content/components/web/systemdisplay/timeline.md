@@ -8,6 +8,9 @@ intro: >-
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
+      ## How to use
+
+
       The timeline typically displays an errand from start to finish (although a
       reversed timeline for "latest activity in your account" can easily be
       imagined). Each activity in the timeline can be expanded to read more
