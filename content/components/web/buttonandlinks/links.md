@@ -48,36 +48,69 @@ tabs:
       * Där vi pratar om en annan produkt som denna produkt/tillägg ingår i.
 
 
-      #### Länk i punktlista
+
+
+      #### Punktlista
 
 
       I en punktlista där det ingår som ett steg i ett moment, och vi vill att
-      de ska nu göra detta action innan nästa punkt.
+      de ska nu göra detta action innan nästa punk, då avslutar vi punkten med
+      länken.
 
 
-      #### Länk i relation till andra
+
+
+      #### Relation till andra
 
 
       Sekundär länken fungerar väldigt bra tillsammans med primär knapp och
       primär länk.
 
 
-      ### Länk listor
 
 
-      Ngn text plus länk
+      #### Listor
 
 
-      ### Länk med ikoner
+      Länklistor används med fördel med en ikon till vänster så det blir som en
+      punkt till varje länk. Vi använder tex ofta pdf ikonen till vänster i
+      listor med villkor. Om vi blandar villkorslistor med andra länkar som
+      personuppgiftslagen så använder vi en extern länk ikon som kompliment till
+      vänster.
+
+
 
 
       #### Extern länkikon
 
 
+      Extern länk används när du tar användaren till en annan sida utanför det
+      kontext du är i. Till exempel så länkar vi i Mina sidor till
+      Länsförsäkringar.se med en extern länkikon.
+
+
+      I köptjänsterna länkar vi alla länkar med extern ikon som länkar ut ur
+      formuläret och öppnar dem i ett nytt fönster.
+
+
+      Det som kan vara svårt är sedan på vilken sida som ikonen ska vara, men
+      det är egentligen lätt.
+
+
+      Extern länk ikon ska alltid placeras efter länken om inte länken ingår i
+      en länklista.
+
+
+
+
       ## Please consider
 
 
-      \*
+      * Använd ikon till vänster i listor
+
+      * Använd tillräktlig space imellan länkar så att man kan klicka i mobilen
+      med pekpingret utan att klicka på fel länk. Regeln är 20 px mellan varje
+      länk.
     name: Design
   - content: content code
     name: Code
