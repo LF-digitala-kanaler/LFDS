@@ -48,8 +48,6 @@ tabs:
       * Där vi pratar om en annan produkt som denna produkt/tillägg ingår i.
 
 
-
-
       ### Punktlista
 
 
@@ -58,15 +56,11 @@ tabs:
       länken.
 
 
-
-
       ### Relation till andra
 
 
       Sekundär länken fungerar väldigt bra tillsammans med primär knapp och
       primär länk.
-
-
 
 
       ### Listor
@@ -79,6 +73,11 @@ tabs:
       vänster.
 
 
+      Man kan använda alltid börja med en primär länk i en länklista för att
+      förtydliga sammanlänkad produkt eller köptjänst. Tex på en artikelsida om
+      Trafikförsäkring skapar vi en primär länk tillbaka till produktsidan
+      bilförsäkring tillsammans med andra länkar om hel och halvförsäkkring och
+      gröna kortet vid resa med bil som sekundära länkar.
 
 
       ### Extern länkikon
@@ -99,8 +98,6 @@ tabs:
 
       Extern länk ikon ska alltid placeras efter länken om inte länken ingår i
       en länklista.
-
-
 
 
       ## Please consider
