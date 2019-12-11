@@ -34,7 +34,7 @@ tabs:
       läsflödet med massa länkar.
 
 
-      #### I textstycke
+      ### I textstycke
 
 
       Ny definition är att vi kan länka direkt i en text, här är två specifika
@@ -50,7 +50,7 @@ tabs:
 
 
 
-      #### Punktlista
+      ### Punktlista
 
 
       I en punktlista där det ingår som ett steg i ett moment, och vi vill att
@@ -60,7 +60,7 @@ tabs:
 
 
 
-      #### Relation till andra
+      ### Relation till andra
 
 
       Sekundär länken fungerar väldigt bra tillsammans med primär knapp och
@@ -69,7 +69,7 @@ tabs:
 
 
 
-      #### Listor
+      ### Listor
 
 
       Länklistor används med fördel med en ikon till vänster så det blir som en
@@ -81,7 +81,7 @@ tabs:
 
 
 
-      #### Extern länkikon
+      ### Extern länkikon
 
 
       Extern länk används när du tar användaren till en annan sida utanför det
