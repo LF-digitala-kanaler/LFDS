@@ -25,7 +25,7 @@ const Card = ({title, url, image, description}) => {
         </div>
         <div className={style.Card__body}> 
           <h2 className={style.Card__title}>{title}</h2>
-          <p className={style.Card__text}>{description}</p>
+          <p className={style.Card__description}>{description}</p>
         </div>
       </article>
      

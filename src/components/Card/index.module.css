@@ -9,7 +9,6 @@
   display: flex;
 }
 
-
 .Card__title {
   font-size: 2rem;
   line-height: 1.13;
@@ -17,4 +16,11 @@
 }
 .Card__image {
   margin-right: var(--spacing-lg);
+}
+
+.Card__description {
+  @media (--small-viewport) { 
+    max-width: 33rem;
+  }
+  
 }
