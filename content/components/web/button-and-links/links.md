@@ -8,7 +8,7 @@ intro: >-
 description: >-
   Kan användas flera i samma block. Kan användas bredvid eller under en primär
   eller en sekundär länk. Finns med ikon, externikon och som lista. 
-previewImage: /img/secondary-link.svg
+previewImage: /img/link-secondary.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-

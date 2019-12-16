@@ -8,6 +8,7 @@ intro: |-
 description: |-
 
   Logga in och Logga ut har en specifik knapp och unik färg.
+previewImage: /img/button-login.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-

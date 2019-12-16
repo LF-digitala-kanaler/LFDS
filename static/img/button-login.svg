@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>login button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Gladdesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sidlayout-Component-landing" transform="translate(-1132.000000, -1307.000000)">
+            <g id="login-button" transform="translate(1132.000000, 1307.000000)">
+                <g id="Group">
+                    <g id="Organisms/Callout/Smaller-Copy-2">
+                        <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
+                        <g id="Group-3" transform="translate(26.883817, 22.000000)">
+                            <rect id="Rectangle" fill="#DCDDDE" x="0.116182573" y="37" width="111" height="6"></rect>
+                            <rect id="Rectangle-Copy" fill="#DCDDDE" x="0.116182573" y="54" width="179" height="2"></rect>
+                            <rect id="Rectangle-Copy-3" fill="#DCDDDE" x="0.116182573" y="64" width="179" height="2"></rect>
+                            <rect id="Rectangle-Copy-5" fill="#DCDDDE" x="0.116182573" y="74" width="48" height="2"></rect>
+                            <rect id="Rectangle-Copy-2" fill="#007DB0" x="93.1161826" y="0" width="86" height="17"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
