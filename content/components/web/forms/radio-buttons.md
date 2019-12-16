@@ -15,8 +15,9 @@ tabs:
       ## How (and when) to use
 
 
-      There are several components in LFUI based on radio button behaviour
-      (choose one and only one option), all with their specific behaviour:
+      There are several components in LFUI based on standard radio button
+      behaviour (choose one and only one option), all with their specific
+      behaviour:
 
 
       * **Styled radio buttons** are used when you want to use radio buttons in
