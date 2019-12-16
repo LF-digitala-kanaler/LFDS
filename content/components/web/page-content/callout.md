@@ -2,12 +2,14 @@
 template: ComponentPage
 category: Page Content
 title: Callout
+description: >-
+  The callout is used to highlight information which we want the user to notice
+  in relation to a chunk of text. 
+previewImage: /img/callout.svg
 intro: >-
   The callout is used to highlight information which we want the user to notice
   in relation to a chunk of text. 
-previewImage: ''
 backgroundColor: '#fff'
-blockquote: ''
 tabs:
   - content: >-
       ## How to use
