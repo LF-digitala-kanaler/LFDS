@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Button and Links
+category: buttonandlinks
 title: Primary button
 intro: >-
   Används max en per block (helst per sida) och ska ta mig dit som är mitt
