@@ -6,16 +6,26 @@ intro: >-
   Lets the user expand the current page and displays examples or a longer
   explanation which support the user in performing their task. This is the most
   common way of showing Read more in relation to forms.
+description: >-
+  Lets the user expand the current page and displays examples or a longer
+  explanation which support the user in performing their task. This is the most
+  common way of showing Read more in relation to forms.
 previewImage: ''
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
+      ![](/img/button-primary.svg)
+
+
       ## How to use
 
 
       The collapse-components standard placement is below a text block or input
       field, and contains a more detailed/thorough explanation of what was said
       before (text block) or help in what to enter (form).
+
+
+      ![](/img/button-login.svg)
 
 
       There are two visual variants of the component; one which expands with
