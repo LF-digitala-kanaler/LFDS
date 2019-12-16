@@ -8,6 +8,7 @@ intro: >-
 description: >-
   Om du behöver en knapp i alertsen, striped or not. Använd då de knappar som
   gjorts för detta ändamål. 
+previewImage: /img/button-in-alert.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
