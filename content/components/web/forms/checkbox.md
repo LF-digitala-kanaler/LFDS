@@ -1,9 +1,9 @@
 ---
 template: ComponentPage
-category: forms
+category: Forms
 title: Checkbox
-intro: Här kommer text
 description: Här kommer text
+intro: Här kommer text
 backgroundColor: '#fff'
 ---
 
