@@ -8,5 +8,11 @@ intro: >-
   component dressed in a Länsförsäkringar styling.
 description: Your standard web component dressed in a Länsförsäkringar styling.
 backgroundColor: '#fff'
+tabs:
+  - content: >-
+      Our checkbox follows standard web behaviour - it is used when the user has
+      do to a choice and isn't limited to only one. Not much more to say
+      designwise.
+    name: Design
 ---
 
