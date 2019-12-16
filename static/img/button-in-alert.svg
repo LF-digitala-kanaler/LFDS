@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>button in alert</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Gladdesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sidlayout-Component-landing" transform="translate(-427.000000, -818.000000)">
+            <g id="button-in-alert" transform="translate(427.000000, 818.000000)">
+                <g id="Group">
+                    <g id="Organisms/Callout/Smaller-Copy-2" fill="#FFFFFF" stroke="#F3F3F3" stroke-width="2">
+                        <rect id="Background" x="1" y="1" width="238" height="118"></rect>
+                    </g>
+                    <g id="Group-3" transform="translate(28.000000, 21.000000)">
+                        <rect id="Rectangle-Copy" fill="#DCDDDE" x="0" y="41" width="181" height="2"></rect>
+                        <rect id="Rectangle-Copy-3" fill="#DCDDDE" x="0" y="53" width="181" height="2"></rect>
+                        <rect id="Rectangle-Copy-6" fill="#DCDDDE" x="0" y="65" width="181" height="2"></rect>
+                        <rect id="Rectangle-Copy-5" fill="#DCDDDE" x="0" y="77" width="50" height="2"></rect>
+                        <rect id="Rectangle-Copy-2" fill="#E5EFF7" x="0" y="0" width="181" height="29"></rect>
+                        <rect id="Rectangle-Copy-2" stroke="#005AA0" stroke-width="2" fill="#E5EFF7" x="89" y="6" width="86" height="17"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
