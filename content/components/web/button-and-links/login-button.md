@@ -21,6 +21,11 @@ tabs:
       alla digitala kanaler på webben. (Ej i Appen)
 
 
+      Färgen på logga in blå är #007DB0.
+
+
+
+
       ## Please consider
 
 
