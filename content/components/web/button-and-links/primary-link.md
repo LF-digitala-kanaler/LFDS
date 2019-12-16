@@ -10,6 +10,7 @@ description: >-
   Används max en per block (helst per sida) och ska ta mig dit som är mitt
   huvudsakliga syfte. Finns endast med pil. Primär länk ställer vi alltid under
   ett stycke. 
+previewImage: /img/primary-link.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
