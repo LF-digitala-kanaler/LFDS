@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Button and Links
+category: buttonandlinks
 title: Shortcut
 intro: >-
   The shortcut is preferably used at the top of a page to draw the users
