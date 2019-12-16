@@ -54,15 +54,40 @@ tabs:
       ### Button group
 
 
-      text text text
+      The button group is our primary look for radio buttons. There are two
+      versions of button groups, described below. Both follow our standard
+      styling and behaviour for form items when it comes to colours, active
+      states, validation and more.
 
 
+      **Please note**: Although we generally discourage from disabled states in
+      LFUI, there are disabled states in the button group as prior choices can
+      lead to options being unavailable due to business rules. A good example is
+      in purchase flows where choosing the payment "Faktura" disables the time
+      frequency "Månad".
+
+
+      #### Standard button group
+
+
+      All choices should have the same size, based on the size the largest
+      choice has after padding has been added. This is the main option when the
+      button labels have short copy or if there are only two options.
+
+
+      #### Stretched button group
+
+
+      This option fills the whole container it is included in. The various
+      options get the same size, but in this case based on an even distribution
+      of the total size. Only use the stretched button group if you have three
+      options in a larger container (rule of thumb, larger than 260 px).
+
+
+      In mobile, the options get stacked on top of each other.
 
 
       ### Radio cards
-
-
-      text text text
     name: Design
 ---
 

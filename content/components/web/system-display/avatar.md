@@ -5,7 +5,10 @@ title: Avatar
 intro: >-
   Avatars are used to give a visual representations of the various parties
   involved in a conversation.
-previewImage: ''
+description: >-
+  Avatars are used to give a visual representations of the various parties
+  involved in a conversation.
+previewImage: /img/avatar.svg
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
