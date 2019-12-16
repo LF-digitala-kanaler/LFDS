@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Forms
+category: forms
 title: Radio buttons
 intro: >-
   We have several types of radio buttons in LFUI, all with their specific use
@@ -88,6 +88,36 @@ tabs:
 
 
       ### Radio cards
+
+
+      Radio cards are our most visual way of showing options and should only be
+      used once per flow.  There are two main versions of radio cards, with one
+      (the larger one) being used in purchase flows to distinguish between
+      versions of the insurance (or other product) and the other one as a more
+      visually pleasing way of a choice which affects the rest of the flow.
+
+
+      #### Radio card for selecting products
+
+
+      Our original implementation of the radio card is a visual highlight of the
+      primary choice a user has to do in a flow. Thus far it has only been used
+      in purchase flows, showing the various versions of the insurance (or other
+      product) which they can choose from. A selected option "grows" a bit in
+      height to become oversized in comparison with the not-selected options.
+
+
+      In theory the card can be populated as you wish, but in practice a
+      standard has evolved for how it is used in purchase flows. In purchase
+      flows, the card consists of a header with a radio button in front of it, a
+      short description and some of the USPs for that option with a footer
+      consisting of an optional "read more"-button to the left and the the price
+      of that option to the right. The content of the cards should be chosen as
+      to help the user in choosing between the options they have.
+
+
+      In smaller devices/screens, the boxes are piled on top of each other,
+      spanning across the full width.
     name: Design
 ---
 
