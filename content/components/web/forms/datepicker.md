@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
-category: forms
+category: Forms
 title: Datepicker
-intro: Datepicker preamble
-description: efopwdfkj
+description: Datepicker preamble
 previewImage: ''
+intro: Datepicker preamble
 backgroundColor: '#f3f3f3'
 tabs:
   - content: content code
