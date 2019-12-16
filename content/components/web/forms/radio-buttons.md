@@ -117,7 +117,23 @@ tabs:
 
 
       In smaller devices/screens, the boxes are piled on top of each other,
-      spanning across the full width.
+      spanning across the full width. 
+
+
+      #### Radio card for primary choice
+
+
+      A second implementation of the radio card has evolved which can be seen as
+      a meeting between visual shortcuts and the original radio card. This
+      version of the radio card is used for primary choices in a flow, the most
+      common being as a filter in longer lists of funds or stocks (such as
+      [Fondlistan](https://www.lansforsakringar.se/privat/bank/spara/fondkurser/?shortcut=1)).
+      Another implementation is in lists with many options, such as
+      [Skadeanmälan](https://ext-web.lansforsakringar.se/skadeanmalan/).
+
+
+      Visually the card is dominated by an icon. The icon is complemented by a
+      radio button in the top left corner and a label below the icon.
     name: Design
 ---
 
