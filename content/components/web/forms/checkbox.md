@@ -10,6 +10,9 @@ description: Your standard web component dressed in a Länsförsäkringar stylin
 backgroundColor: '#fff'
 tabs:
   - content: >-
+      ## How to use
+
+
       Our checkbox follows standard web behaviour - it is used when the user has
       do to a choice and isn't limited to only one. Not much more to say
       designwise.
