@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Button and Links
+category: buttonandlinks
 title: Alerts button
 intro: >-
   Om du behöver en knapp i alertsen, striped or not. Använd då de knappar som
