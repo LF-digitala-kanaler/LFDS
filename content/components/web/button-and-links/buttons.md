@@ -8,7 +8,7 @@ intro: >-
 description: >-
   Används max en per block (helst per sida) och ska ta mig dit som är mitt
   huvudsakliga syfte. Finns med och utan pil och tvåradig samt BankID.
-previewImage: /img/primary-2.svg
+previewImage: /img/button-primary.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
