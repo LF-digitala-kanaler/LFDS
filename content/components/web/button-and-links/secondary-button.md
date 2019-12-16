@@ -3,10 +3,10 @@ template: ComponentPage
 category: Button and Links
 title: Button Secondary
 intro: >-
-  The outlined variant btn-secondary is best suited for less important/secondary
+  A outlined variant of button is best suited for less important/secondary
   actions.
 description: >-
-  The outlined variant btn-secondary is best suited for less important/secondary
+  A outlined variant of button is best suited for less important/secondary
   actions.
 previewImage: /img/button-secondary.svg
 backgroundColor: '#fff'
