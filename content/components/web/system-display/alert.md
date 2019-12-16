@@ -97,18 +97,18 @@ tabs:
 
       If you need to put a button inside the alert, there is a special version
       of the [secondary buttons](../../buttonandlinks/knapp-i-alerts/) for this.
-      Use the btn-outline-warning class for your button. The button should be
-      placed on the right hand side of the alert. 
+      Use the outlined button in the same color as your alert. The button should
+      be placed on the right hand side of the alert. 
 
 
       #### Full page width
 
 
       For important information the alert can be displayed over the full
-      webpage. Typical examples of this cookie information and if we have any
-      general messages (like “Our telephone provider has problems so you can’t
-      call us right now” or “Are you affected by the forest fire, call us at
-      phone number”)
+      webpage. Typical examples of this  are "cookie information" and if we have
+      any general messages (like “Our telephone provider has problems so you
+      can’t call us right now” or “Are you affected by the forest fire, call us
+      at phone number”)
 
 
       #### Link
