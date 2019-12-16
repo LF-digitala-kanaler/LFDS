@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Button and Links
+category: buttonandlinks
 title: Secondary link
 intro: >-
   Kan användas flera i samma block. Kan användas bredvid eller under en primär
