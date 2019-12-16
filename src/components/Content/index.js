@@ -47,7 +47,6 @@ const MyImage = ({ nodeKey, src, title, alt }) => {
       resolutions="medium"
       lazy={false}
       src={decodedSrc}
-      title={title}
     />
   )
 }

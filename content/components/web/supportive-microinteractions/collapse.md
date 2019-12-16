@@ -14,8 +14,6 @@ previewImage: ''
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
-      ![](/img/button-primary.svg)
-
 
       ## How to use
 
@@ -25,7 +23,6 @@ tabs:
       before (text block) or help in what to enter (form).
 
 
-      ![](/img/button-login.svg)
 
 
       There are two visual variants of the component; one which expands with
