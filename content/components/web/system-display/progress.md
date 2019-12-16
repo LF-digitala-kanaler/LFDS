@@ -8,8 +8,7 @@ intro: >-
   preferred.
 description: >-
   The progress bar helps the user in understanding how much of a flow has been
-  completed if there is much to do in the flow. For shorter flows, pagination is
-  preferred.
+  completed if there is much to do in the flow.
 previewImage: /img/proggress-bar.svg
 backgroundColor: '#f3f3f3'
 tabs:
