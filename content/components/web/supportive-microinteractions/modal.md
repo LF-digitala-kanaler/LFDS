@@ -8,7 +8,8 @@ description: >-
 previewImage: /img/modal.svg
 intro: >-
   Modals are triggered by the user clicking a button. They have two use cases;
-  in a “Read more”-context and signing stuff.
+  in a “Read more”-context, signing stuff and server messages as "This
+  registrationnumber are a moped, want to change form?".
 backgroundColor: '#fff'
 tabs:
   - content: >-
@@ -33,6 +34,10 @@ tabs:
       A modal is not intended to take up the full width and height of a page,
       even less so forcing the user to scroll to read its entirety. In that
       case, a separate page might be a better choice. 
+
+
+      A modal is usually used to display visual a comparison between different
+      states for exempel full and half insurance whats included.
 
 
       ## Please consider
