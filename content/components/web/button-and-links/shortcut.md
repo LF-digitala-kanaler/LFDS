@@ -26,6 +26,9 @@ tabs:
       Note that in all variations of the shortcut the text is always bold. 
 
 
+      Shortcuts har en 2 pixlar skugga i underkant för att ge den en klickbar
+
+
       ### Default white
 
 
@@ -53,7 +56,7 @@ tabs:
 
 
       Det finns en tvåradig variation av shortcut. Används med en regular text
-      under den feta texten. Har använts i val av företag i inloggat. men även i
+      under den feta texten. Har använts i val av företag i inloggat, även i
       inloggat på översikter som pensionssidan.
     name: Design
   - content: content copy
