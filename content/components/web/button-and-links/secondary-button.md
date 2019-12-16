@@ -8,7 +8,7 @@ intro: >-
 description: >-
   The outlined variant btn-secondary is best suited for less important/secondary
   actions.
-previewImage: /img/secondary.svg
+previewImage: /img/button-secondary.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
