@@ -4,7 +4,7 @@ category: Button and Links
 title: Button Alerts
 intro: >-
   Om du behöver en knapp i alertsen, striped or not. Använd då de knappar som
-  gjorts för detta ändamål. 
+  gjorts för detta ändamål. t
 description: >-
   Om du behöver en knapp i alertsen, striped or not. Använd då de knappar som
   gjorts för detta ändamål. 
