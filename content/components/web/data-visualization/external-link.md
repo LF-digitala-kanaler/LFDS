@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: datavisualization
+category: Data Visualization
 title: External link
 intro: Extern länk använder vi när länken tar mig till en annan webbsida.
 description: Extern länk använder vi när länken tar mig till en annan webbsida.
