@@ -88,9 +88,6 @@ tabs:
 
 
       ### Radio cards
-
-
-      text text text
     name: Design
 ---
 
