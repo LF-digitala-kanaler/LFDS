@@ -6,6 +6,7 @@
   display: flex;
   list-style-type: none;
   padding-left: 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .ComponentNavigation__button {
@@ -13,6 +14,7 @@
   border: 0;
   padding: var(--spacing-xs) var(--spacing-md);
   outline: 0;
+  cursor: pointer;
 }
 
 .ComponentNavigation__button--isActive {

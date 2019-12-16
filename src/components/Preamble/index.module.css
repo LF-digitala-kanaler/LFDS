@@ -8,7 +8,7 @@
   color: var(--color-preamble);
   font-size: 1.5rem;
   line-height: 1.25;
-  margin-bottom: var(--spacing-vertical--3);
+  margin-bottom: var(--spacing-vertical--1);
   @media (--medium-viewport) { 
     max-width: var(--content-width--small);
   }

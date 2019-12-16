@@ -32,7 +32,6 @@
 
 .Tabs__panels {
   background-color: var(--color-white);
-  padding-top: var(--spacing-vertical--2);
 }
 
 .Tabs__panel {

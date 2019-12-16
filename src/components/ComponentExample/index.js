@@ -1,5 +1,4 @@
 import React, { useState, useEffect }  from 'react';
-import ReactDOM from 'react-dom';
 import Frame from 'react-frame-component';
 import css from '!!raw-loader!lfui/dist/lf.css'; 
 import Preview from '../Preview';
@@ -7,7 +6,7 @@ import Actions from '../Actions'
 import HtmlBlock from '../Content';
 import CodeBlock from '../CodeBlock';
 import ComponentNavigation from '../ComponentNavigation';
-
+import { Grid, Cell } from "styled-css-grid";
 
 const ComponentExample = ({variants, background}) => {
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
@@ -50,9 +49,13 @@ const ComponentExample = ({variants, background}) => {
 
   return (
     <React.Fragment>
-        <ComponentNavigation variants={variants} onChildClick={handleChildClick} />
+        <Grid columns={2} justifyContent="space-around">
+          <Cell middle><ComponentNavigation variants={variants} onChildClick={handleChildClick} /></Cell>
+          <Cell middle><Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} /></Cell>
+        </Grid>
+       
+        
           <Preview>
-            <Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} />
             <Frame
               style={{
                 height,

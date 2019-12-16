@@ -1,10 +1,8 @@
 .Preview {
   position: relative;
-  /* margin-bottom: var(--spacing-vertical--3); */
-  margin-top: var(--spacing-vertical--3);
-
+  
   @media (--large-viewport) { 
-    max-width: calc(100% - 40px);
+    max-width: calc(100% - 20px);
   }
 }
 
@@ -16,7 +14,7 @@
     position: absolute;
     height: calc(100% - 5px);
     transition: border .3s ease;
-    border: 1px solid #e1e3e6;
+    border: 2px solid #e1e3e6;
     cursor: col-resize;
     top: 0;
     right: -15px;

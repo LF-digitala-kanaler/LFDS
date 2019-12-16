@@ -1,8 +1,6 @@
 
 .Actions {
-  position: absolute;
-  right: var(--spacing-md);
-  top: calc(-1*var(--spacing-vertical--2));
+  
 }
 .Actions__list {
   display: flex;
@@ -27,8 +25,7 @@
   border: 2px solid var(--color-border);
   width: 22px;
   height: 22px;
-  display:block;
-  
+  display:block; 
   text-indent: -999em;
   background-color: var( --color-white);
 }
