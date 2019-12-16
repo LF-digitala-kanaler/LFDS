@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
-category: Forms
+category: forms
 title: Slider
+intro: Slider preamble
 description: Slider preamble
 previewImage: ''
-intro: Slider preamble
 backgroundColor: '#f3f3f3'
 tabs:
   - content: content code
