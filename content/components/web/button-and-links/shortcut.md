@@ -49,7 +49,7 @@ tabs:
       obligatoriska pilen till vänster. Gäller alla variationer.
 
 
-      ### Två radig med ikon
+      ### Two row with icon
 
 
       Det finns en tvåradig variation av shortcut. Används med en regular text
