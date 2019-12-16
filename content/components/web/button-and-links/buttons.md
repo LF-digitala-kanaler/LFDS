@@ -1,7 +1,7 @@
 ---
 template: ComponentPage
 category: Button and Links
-title: Button primary
+title: Button Primary
 intro: >-
   Används max en per block (helst per sida) och ska ta mig dit som är mitt
   huvudsakliga syfte. Finns med och utan pil och tvåradig samt BankID.
