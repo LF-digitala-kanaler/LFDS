@@ -28,12 +28,12 @@
     z-index: 3;
     transform: translateX(-100%);
     transition: 0.4s transform cubic-bezier(.4,0,.2,1);
-    visibility: hidden;
+    
 
 }
  .Menu--isOpen {
     transform: translateX(0);
-    visibility: visible;
+    
     transition: 0.4s transform cubic-bezier(.4,0,.2,1);
  }
 

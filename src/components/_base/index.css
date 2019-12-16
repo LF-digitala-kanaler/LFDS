@@ -24,6 +24,7 @@
   --color-black: #222;
   --color-red: #E30613;
   --color-shadow: #e5e5e5;
+  --color-yellow: #faf4d4;
 
   --color-border: var(--color-shadow);
 
@@ -51,6 +52,8 @@
 
   --content-width: 64rem; 
   --content-width--small: 47.3125rem; 
+
+  --hedader-height: 7.75rem;
 }
 
 
@@ -79,6 +82,11 @@ body {
   height: 100%;
   line-height: var(--baseline);
   background-color: var(--color-smoke);
+  
+  @media (--small-viewport) {
+    /* fixed header */
+    padding-top: calc(var(--hedader-height) + var(--spacing-vertical--2));
+  }
 }
 
 iframe {
@@ -111,3 +119,6 @@ div[role="group"][tabindex] {
   background-color: var(--color-white);
 }
 
+::selection { 
+  background: var(--color-yellow); 
+}

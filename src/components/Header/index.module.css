@@ -18,8 +18,9 @@
    
   }
   @media (--small-viewport) {
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
   }
   
 }
@@ -30,7 +31,6 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  
   
   @media (--small-viewport) { 
     justify-content: flex-end;
