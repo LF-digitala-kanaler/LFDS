@@ -2,10 +2,13 @@
 template: ComponentPage
 category: Supportive Microinteractions
 title: Modal
+description: >-
+  Modals are triggered by the user clicking a button. They have two use cases;
+  in a “Read more”-context and signing stuff.
+previewImage: /img/modal.svg
 intro: >-
   Modals are triggered by the user clicking a button. They have two use cases;
   in a “Read more”-context and signing stuff.
-previewImage: ''
 backgroundColor: '#fff'
 tabs:
   - content: >-
