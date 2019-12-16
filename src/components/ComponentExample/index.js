@@ -10,9 +10,9 @@ import ComponentNavigation from '../ComponentNavigation';
 
 
 const ComponentExample = ({variants, background}) => {
-  
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
   const [code, setCode] = useState(variants[0].node.content);
+  
   const [source, setSource] = useState(false);
   const [height, setHeight] = useState(240);
   const iframeRef =  React.createRef();
@@ -50,7 +50,7 @@ const ComponentExample = ({variants, background}) => {
 
   return (
     <React.Fragment>
-        <ComponentNavigation variants={variants}  onChildClick={handleChildClick} />
+        <ComponentNavigation variants={variants} onChildClick={handleChildClick} />
           <Preview>
             <Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} />
             <Frame

@@ -3,7 +3,7 @@ background: '#fff'
 template: ComponentGroup
 title: Typography
 intro: Intro
-Blockquote:
+blockquote:
   author: Dieter
   text: Hej jag heter Dieter
 ---

@@ -15,7 +15,7 @@ import Content from '../components/Content/';
 export const ComponentGroupTemplate = ({
   title,
   intro,
-  blockquote,
+
   content,
   componentsLinks
   
@@ -26,7 +26,7 @@ export const ComponentGroupTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       { componentsLinks && <CardList list={componentsLinks} /> }
-      <Blockquote text={blockquote} />
+      {/* <Blockquote text={blockquote} /> */}
       <Content source={content} />   
       </Wrapper>
   </>
@@ -70,7 +70,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-      blockquote={page.frontmatter.blockquote}
+      
       componentNavigation={componentNavigation} 
       menu={menu}
       backgroundClass={page.frontmatter.background}
@@ -80,7 +80,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
         {...page.frontmatter} 
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        blockquote={page.frontmatter.blockquote}
+        
         componentNavigation={componentNavigation} 
         componentsLinks={componentsLinks}
         content={page.frontmatter.content}
@@ -101,7 +101,7 @@ export const pageQuery = graphql`
         slug
         content
         background
-        blockquote
+        
       }
     }
     

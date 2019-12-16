@@ -1,15 +1,23 @@
 import React, {useState} from 'react';
 import style from './index.module.css';
+import cx from 'classnames'
+
 
 const ComponentNavigation = ({variants, onChildClick}) => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(variants[0].node.id);
   
-  const handleClick = (variants) => {
+  const handleClick = (variants, active) => {
+    setActive(active)
     onChildClick(variants)
   }
 
   const listItem = variants.map((item) =>
-      <li className={style.ComponentNavigation_item} key={item.node.id} ><button onClick={() => handleClick(item.node.content)} className={style.ComponentNavigation__button}>{item.node.name}</button></li>
+      <li className={style.ComponentNavigation_item} key={item.node.id} >
+        <button
+          onClick={() => handleClick(item.node.content, item.node.id)} 
+          className={cx(style.ComponentNavigation__button, (active === item.node.id ? style['ComponentNavigation__button--isActive'] : '' ))}>{item.node.name}
+        </button>
+      </li>
   );
   return(
     <nav className={style.ComponentNavigation}>
