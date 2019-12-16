@@ -28,8 +28,8 @@ tabs:
       * A similar function are used as shortcuts in the app for the startpage to
       come.
     name: Design
-  - content: content code
-    name: Code
+  - content: content
+    name: Copy
   - content: content code
     name: Code
 ---
