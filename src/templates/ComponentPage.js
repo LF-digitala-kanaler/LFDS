@@ -122,6 +122,7 @@ export const pageQuery = graphql`
         previewImage
         description
         backgroundColor
+        
         tabs{
           name
           content

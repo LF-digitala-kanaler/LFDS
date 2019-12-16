@@ -7,6 +7,7 @@ import _ from 'lodash';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
+import Blockquote from '../components/Blockquote';
 import Content from '../components/Content/';
 // TODO only import whats needed from lodash
 
@@ -14,6 +15,7 @@ import Content from '../components/Content/';
 export const ComponentGroupTemplate = ({
   title,
   intro,
+  blockquote,
   content,
   componentsLinks
   
@@ -23,13 +25,14 @@ export const ComponentGroupTemplate = ({
   <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      { componentsLinks && <CardList list={componentsLinks} /> } 
+      { componentsLinks && <CardList list={componentsLinks} /> }
+      <Blockquote text={blockquote} />
       <Content source={content} />   
       </Wrapper>
   </>
 )
 const ComponentGroup = ({ data: { page, allPages }, location }) => {
-  console.log('egege', page.frontmatter.background)
+  console.log('egege', page.frontmatter.blockquote)
   // Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')
@@ -67,6 +70,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
+      blockquote={page.frontmatter.blockquote}
       componentNavigation={componentNavigation} 
       menu={menu}
       backgroundClass={page.frontmatter.background}
@@ -76,6 +80,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
         {...page.frontmatter} 
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
+        blockquote={page.frontmatter.blockquote}
         componentNavigation={componentNavigation} 
         componentsLinks={componentsLinks}
         content={page.frontmatter.content}
@@ -96,6 +101,7 @@ export const pageQuery = graphql`
         slug
         content
         background
+        blockquote
       }
     }
     

@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: forms
+category: Forms
 title: Radio buttons
 intro: >-
   We have several types of radio buttons in LFUI, all with their specific use

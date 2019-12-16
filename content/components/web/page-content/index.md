@@ -1,6 +1,7 @@
 ---
 template: ComponentGroup
 title: Page Content
+background: bg-white
 intro: >-
   The page content section contains components which are used in-page to display
   information in comparison to normal body text. As price box, value box and

@@ -7,6 +7,7 @@ intro: >-
   in relation to a chunk of text. 
 previewImage: ''
 backgroundColor: '#fff'
+blockquote: ''
 tabs:
   - content: >-
       ## How to use
