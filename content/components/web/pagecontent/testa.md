@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: pagecontent
+category: Data Visualization
 title: testa
 intro: teatea
 description: teatae
