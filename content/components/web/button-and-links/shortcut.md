@@ -27,6 +27,7 @@ tabs:
 
 
       Shortcuts har en 2 pixlar skugga i underkant för att ge den en klickbar
+      känsla.
 
 
       ### Default white
