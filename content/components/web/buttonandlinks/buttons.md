@@ -90,7 +90,7 @@ tabs:
       * Never use disabled buttons
     name: Design
   - content: 'I''m a code monkey yes i am, yes i am!'
-    name: Code
+    name: Copy
   - content: content code
     name: Code
 ---
