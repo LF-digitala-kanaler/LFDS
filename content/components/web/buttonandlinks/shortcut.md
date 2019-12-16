@@ -50,8 +50,8 @@ tabs:
 
       ### Två radig med ikon
     name: Design
-  - content: content code
-    name: Code
+  - content: content copy
+    name: Copy
   - content: content code
     name: Code
 ---
