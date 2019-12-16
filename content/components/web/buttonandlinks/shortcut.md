@@ -8,7 +8,7 @@ intro: >-
 description: >-
   The shortcut is preferably used at the top of a page to draw the users
   attention to another page or section.
-previewImage: ''
+previewImage: /img/shortcut.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
