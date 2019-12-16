@@ -25,16 +25,16 @@ collections: # A list of collections the CMS should be able to edi
         name: 'category'
         widget: 'select'
         options: 
-        - { label: "Button and Links", value: "buttonandlinks" }
-        - { label: "Data Visualization", value: "datavisualization" }
-        - { label: "Forms", value: "forms" }
-        - { label: "Motions", value: "motions" }
-        - { label: "Navigations", value: "navigations" }
-        - { label: "Page Content", value: "pagecontent" }
-        - { label: "Supportive Micro Interaction", value: "supportivemicrointeraction" }
-        - { label: "System Display", value: "systemdisplay" }
-        - { label: "Tables", value: "tables" }
-        - { label: "Typography", value: "pypography" }
+        - { label: "Button and Links", value: "Button and Links" }
+        - { label: "Data Visualization", value: "Data Visualization" }
+        - { label: "Forms", value: "Forms" }
+        - { label: "Motions", value: "Motions" }
+        - { label: "Navigations", value: "Navigations" }
+        - { label: "Page Content", value: "Page Content" }
+        - { label: "Supportive Microinteractions", value: "Supportive Microinteractions" }
+        - { label: "System Display", value: "System Display" }
+        - { label: "Tables", value: "Tables" }
+        - { label: "Typography", value: "Typography" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: Component Description, name: description, widget: text, hint: Will be shown on Component Group page}

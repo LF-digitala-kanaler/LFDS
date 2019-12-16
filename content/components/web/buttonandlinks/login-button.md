@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: buttonandlinks
+category: Button and Links
 title: Login button
 intro: |-
 

@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Supportive Micro Interaction
+category: Supportive Microinteractions
 title: Popover Tooltip
 intro: >-
   Used primarily as an explanation of terms and difficult words in inline text.

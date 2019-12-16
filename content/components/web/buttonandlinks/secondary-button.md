@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: buttonandlinks
+category: Button and Links
 title: Secondary button
 intro: >-
   The outlined variant btn-secondary is best suited for less important/secondary

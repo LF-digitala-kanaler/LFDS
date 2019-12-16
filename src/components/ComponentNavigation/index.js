@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './index.module.css';
 
 const ComponentNavigation = ({variants, onChildClick}) => {
+  const [active, setActive] = useState(false);
   
   const handleClick = (variants) => {
     onChildClick(variants)

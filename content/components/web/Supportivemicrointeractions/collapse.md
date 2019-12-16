@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Supportive Micro Interaction
+category: Supportive Microinteractions
 title: Collapse
 intro: >-
   Lets the user expand the current page and displays examples or a longer

@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: Supportive Micro Interaction
+category: Supportive Microinteractions
 title: Modal
 intro: >-
   Modals are triggered by the user clicking a button. They have two use cases;
