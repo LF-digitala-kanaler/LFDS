@@ -1,7 +1,7 @@
 ---
 template: ComponentPage
 category: Button and Links
-title: Login button
+title: Button Login
 intro: |-
 
   Logga in och Logga ut har en specifik knapp och unik färg.

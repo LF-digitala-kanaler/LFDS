@@ -1,14 +1,14 @@
 ---
 template: ComponentPage
 category: Button and Links
-title: Secondary link
+title: Link Secondary
 intro: >-
   Kan användas flera i samma block. Kan användas bredvid eller under en primär
   eller en sekundär länk. Finns med ikon, externikon och som lista. 
 description: >-
   Kan användas flera i samma block. Kan användas bredvid eller under en primär
   eller en sekundär länk. Finns med ikon, externikon och som lista. 
-previewImage: ''
+previewImage: /img/secondary-link.svg
 backgroundColor: '#fff'
 tabs:
   - content: >-
