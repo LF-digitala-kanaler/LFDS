@@ -9,7 +9,7 @@ description: >-
   Alerts are used to provide (contextual) messages for typical user actions and
   for important communication from Länsförsäkringar of a non-commercial nature.
 previewImage: /img/alert.svg
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
