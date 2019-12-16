@@ -2,6 +2,10 @@
 template: ComponentPage
 category: Page Content
 title: Panel
+description: >-
+  Panels are our standard containers when we want to “box in” content. When
+  panels are used the whole page is usually divided into different panels.
+previewImage: /img/panel.svg
 intro: >-
   Panels are our standard containers when we want to “box in” content. When
   panels are used the whole page is usually divided into different panels.

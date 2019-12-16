@@ -2,13 +2,13 @@
 template: ComponentPage
 category: System Display
 title: Alert
-intro: >-
-  Alerts are used to provide (contextual) messages for typical user actions and
-  for important communication from Länsförsäkringar of a non-commercial nature.
 description: >-
   Alerts are used to provide (contextual) messages for typical user actions and
   for important communication from Länsförsäkringar of a non-commercial nature.
 previewImage: /img/alert.svg
+intro: >-
+  Alerts are used to provide (contextual) messages for typical user actions and
+  for important communication from Länsförsäkringar of a non-commercial nature.
 backgroundColor: '#fff'
 tabs:
   - content: >-

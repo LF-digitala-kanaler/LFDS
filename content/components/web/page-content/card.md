@@ -2,8 +2,9 @@
 template: ComponentPage
 category: Page Content
 title: Card
+description: 'The card component is used to inform users about related products or content. '
+previewImage: /img/card.svg
 intro: 'The card component is used to inform users about related products or content. '
-previewImage: ''
 backgroundColor: '#fff'
 tabs:
   - content: >-

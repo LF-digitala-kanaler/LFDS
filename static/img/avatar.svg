@@ -9,16 +9,15 @@
                 <g id="Group">
                     <g id="Organisms/Callout/Smaller-Copy-2">
                         <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
-                        <g id="Group-3" transform="translate(92.883817, 25.000000)" fill="#DCDDDE">
+                        <g id="Group-3" transform="translate(77.000000, 37.000000)" fill="#DCDDDE">
                             <rect id="Rectangle" x="0.116182573" y="0" width="54" height="6"></rect>
                             <rect id="Rectangle-Copy" x="0.116182573" y="17" width="116" height="2"></rect>
                             <rect id="Rectangle-Copy-3" x="0.116182573" y="27" width="116" height="2"></rect>
                             <rect id="Rectangle-Copy-4" x="0.116182573" y="37" width="116" height="2"></rect>
-                            <rect id="Rectangle-Copy-3" x="0.116182573" y="46" width="116" height="2"></rect>
-                            <rect id="Rectangle-Copy-4" x="0.116182573" y="56" width="116" height="2"></rect>
-                            <rect id="Rectangle-Copy-5" x="0.116182573" y="66" width="33" height="2"></rect>
+                            <rect id="Rectangle-Copy-3" x="0.116182573" y="47" width="116" height="2"></rect>
+                            <rect id="Rectangle-Copy-5" x="0.116182573" y="57" width="33" height="2"></rect>
                         </g>
-                        <circle id="Oval" stroke="#005AA0" stroke-width="2" cx="48.8838174" cy="46" r="20"></circle>
+                        <circle id="Oval" stroke="#005AA0" stroke-width="2" cx="56.8838174" cy="39" r="12"></circle>
                     </g>
                 </g>
             </g>
