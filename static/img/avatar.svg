@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>avatar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Gladdesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sidlayout-Component-landing-System-display" transform="translate(-426.000000, -650.000000)">
+            <g id="avatar" transform="translate(426.000000, 650.000000)">
+                <g id="Group">
+                    <g id="Organisms/Callout/Smaller-Copy-2">
+                        <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
+                        <g id="Group-3" transform="translate(92.883817, 25.000000)" fill="#DCDDDE">
+                            <rect id="Rectangle" x="0.116182573" y="0" width="54" height="6"></rect>
+                            <rect id="Rectangle-Copy" x="0.116182573" y="17" width="116" height="2"></rect>
+                            <rect id="Rectangle-Copy-3" x="0.116182573" y="27" width="116" height="2"></rect>
+                            <rect id="Rectangle-Copy-4" x="0.116182573" y="37" width="116" height="2"></rect>
+                            <rect id="Rectangle-Copy-3" x="0.116182573" y="46" width="116" height="2"></rect>
+                            <rect id="Rectangle-Copy-4" x="0.116182573" y="56" width="116" height="2"></rect>
+                            <rect id="Rectangle-Copy-5" x="0.116182573" y="66" width="33" height="2"></rect>
+                        </g>
+                        <circle id="Oval" stroke="#005AA0" stroke-width="2" cx="48.8838174" cy="46" r="20"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
