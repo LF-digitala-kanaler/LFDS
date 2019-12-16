@@ -23,7 +23,10 @@ tabs:
       ## Please consider
 
 
-      Avatars are currently only in use in secure messages.
+      * Avatars are currently only in use in secure messages.
+
+      * A similar function are used as shortcuts in the app for the startpage to
+      come.
     name: Design
   - content: content code
     name: Code
