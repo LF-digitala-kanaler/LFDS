@@ -5,6 +5,10 @@ title: Timeline
 intro: >-
   The timeline component is an interactive way for the user to follow the
   progress of an (ongoing) errand, such as a damage claim or loan application.
+description: >-
+  The timeline component is an interactive way for the user to follow the
+  progress of an (ongoing) errand, such as a damage claim or loan application.
+previewImage: /img/timeline.svg
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
