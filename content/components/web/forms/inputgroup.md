@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: forms
+category: Forms
 title: Input Group
 intro: Input Group preamble
 description: What up? Put your hand up!

@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: forms
+category: Forms
 title: Upload
 intro: Upload preamble
 description: Are you loaded?

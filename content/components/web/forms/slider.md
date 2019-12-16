@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-category: forms
+category: Forms
 title: Slider
 intro: Slider preamble
 description: Slider preamble
