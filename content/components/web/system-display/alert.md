@@ -5,6 +5,9 @@ title: Alert
 intro: >-
   Alerts are used to provide (contextual) messages for typical user actions and
   for important communication from Länsförsäkringar of a non-commercial nature.
+description: >-
+  Alerts are used to provide (contextual) messages for typical user actions and
+  for important communication from Länsförsäkringar of a non-commercial nature.
 previewImage: ''
 backgroundColor: '#f3f3f3'
 tabs:
@@ -13,10 +16,10 @@ tabs:
 
 
       All alerts are contextual system messages for typical user actions and
-      notifications.An inline-heading can be set in the beginning of alerts
-      (alert-heading) to give the user a heads-up of it’s content. The heading
-      should always be separated from the content with some form of punctation
-      (i.e. .,!?- ). Never use line breaks inside the alerts.
+      notifications. An inline-heading can be set in the beginning of alerts to
+      give the user a heads-up of it’s content. The heading should always be
+      separated from the content with some form of punctation (i.e. .,!?- ).
+      Never use line breaks inside the alerts.
 
 
       The alert should be shown as local as possible, without having to be
@@ -108,7 +111,7 @@ tabs:
       phone number”)
 
 
-      #### Link 
+      #### Link
 
 
       As the text should be kept short, create a new page and link to it from
