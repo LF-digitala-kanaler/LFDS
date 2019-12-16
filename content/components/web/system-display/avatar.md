@@ -2,13 +2,13 @@
 template: ComponentPage
 category: System Display
 title: Avatar
-intro: >-
-  Avatars are used to give a visual representations of the various parties
-  involved in a conversation.
 description: >-
   Avatars are used to give a visual representations of the various parties
   involved in a conversation.
 previewImage: /img/avatar.svg
+intro: >-
+  Avatars are used to give a visual representations of the various parties
+  involved in a conversation.
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
@@ -17,16 +17,19 @@ tabs:
 
       Use the avatar to identify a user or other person-like object (i.e.
       business or service desk). The avatar may feature an image or just the
-      users initials. Länsförsäkringar are identified by the logo.
+      users initials. Länsförsäkringar are identified by the symbol in logo.
 
 
       ## Please consider
 
 
-      Avatars are currently only in use in secure messages.
+      * Avatars are currently only in use in secure messages.
+
+      * A similar function are used as shortcuts in the app for the startpage to
+      come.
     name: Design
-  - content: content code
-    name: Code
+  - content: content
+    name: Copy
   - content: content code
     name: Code
 ---

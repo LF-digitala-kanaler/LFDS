@@ -2,15 +2,15 @@
 template: ComponentPage
 category: Supportive Microinteractions
 title: Collapse
-intro: >-
-  Lets the user expand the current page and displays examples or a longer
-  explanation which support the user in performing their task. This is the most
-  common way of showing Read more in relation to forms.
 description: >-
   Lets the user expand the current page and displays examples or a longer
   explanation which support the user in performing their task. This is the most
   common way of showing Read more in relation to forms.
-previewImage: ''
+previewImage: /img/collapse.svg
+intro: >-
+  Lets the user expand the current page and displays examples or a longer
+  explanation which support the user in performing their task. This is the most
+  common way of showing Read more in relation to forms.
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-

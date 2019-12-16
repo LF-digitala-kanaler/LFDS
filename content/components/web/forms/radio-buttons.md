@@ -2,21 +2,22 @@
 template: ComponentPage
 category: Forms
 title: Radio buttons
+description: >-
+  There are three types of radio buttons in LFUI; standard radio buttons, button
+  groups and radio cards.
 intro: >-
   We have several types of radio buttons in LFUI, all with their specific use
   cases. There are LF-styled "normal" radio buttons, button groups and radio
   cards.
-description: >-
-  There are three types of radio buttons in LFUI; standard radio buttons, button
-  groups and radio cards.
 backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How (and when) to use
 
 
-      There are several components in LFUI based on radio button behaviour
-      (choose one and only one option), all with their specific behaviour:
+      There are several components in LFUI based on standard radio button
+      behaviour (choose one and only one option), all with their specific
+      behaviour:
 
 
       * **Styled radio buttons** are used when you want to use radio buttons in
@@ -88,6 +89,52 @@ tabs:
 
 
       ### Radio cards
+
+
+      Radio cards are our most visual way of showing options and should only be
+      used once per flow.  There are two main versions of radio cards, with one
+      (the larger one) being used in purchase flows to distinguish between
+      versions of the insurance (or other product) and the other one as a more
+      visually pleasing way of a choice which affects the rest of the flow.
+
+
+      #### Radio card for selecting products
+
+
+      Our original implementation of the radio card is a visual highlight of the
+      primary choice a user has to do in a flow. Thus far it has only been used
+      in purchase flows, showing the various versions of the insurance (or other
+      product) which they can choose from. A selected option "grows" a bit in
+      height to become oversized in comparison with the not-selected options.
+
+
+      In theory the card can be populated as you wish, but in practice a
+      standard has evolved for how it is used in purchase flows. In purchase
+      flows, the card consists of a header with a radio button in front of it, a
+      short description and some of the USPs for that option with a footer
+      consisting of an optional "read more"-button to the left and the the price
+      of that option to the right. The content of the cards should be chosen as
+      to help the user in choosing between the options they have.
+
+
+      In smaller devices/screens, the boxes are piled on top of each other,
+      spanning across the full width. 
+
+
+      #### Radio card for primary choice
+
+
+      A second implementation of the radio card has evolved which can be seen as
+      a meeting between visual shortcuts and the original radio card. This
+      version of the radio card is used for primary choices in a flow, the most
+      common being as a filter in longer lists of funds or stocks (such as
+      [Fondlistan](https://www.lansforsakringar.se/privat/bank/spara/fondkurser/?shortcut=1)).
+      Another implementation is in lists with many options, such as
+      [Skadeanmälan](https://ext-web.lansforsakringar.se/skadeanmalan/).
+
+
+      Visually the card is dominated by an icon. The icon is complemented by a
+      radio button in the top left corner and a label below the icon.
     name: Design
 ---
 
