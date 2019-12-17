@@ -9,8 +9,5 @@ const CodeBlock = ({children}) => {
 
   );
 }
-  
-
-
 
 export default CodeBlock

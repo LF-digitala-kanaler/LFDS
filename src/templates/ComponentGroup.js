@@ -80,7 +80,6 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
         {...page.frontmatter} 
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        
         componentNavigation={componentNavigation} 
         componentsLinks={componentsLinks}
         content={page.frontmatter.content}
@@ -101,7 +100,7 @@ export const pageQuery = graphql`
         slug
         content
         background
-        
+        blockquote
       }
     }
     

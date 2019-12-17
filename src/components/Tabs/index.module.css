@@ -1,7 +1,7 @@
 :root {
-  --tabs-color: var(--color-black);
+  --tabs-color: var(--color-body);
   --tabs-background: var(--color-shadow);
-  --tabs-active-color: var(--color-blue);
+  --tabs-active-color: var(--color-black);
   --tabs-active-background: var(--color-white);
   
 }
@@ -51,7 +51,6 @@
   line-height: var(--baseline);
 
   &[aria-selected="true"] {
-    font-weight: var(--font-weight-bold);
     background-color: var(--tabs-active-background);
     color: var(--tabs-active-color);
   }
