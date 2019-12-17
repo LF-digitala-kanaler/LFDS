@@ -67,7 +67,8 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: ComponentGroup, value: ComponentGroup }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'content', widget: 'markdown', hint: 'Will be shown below component list', required: false }
+      - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false }
+      - { label: 'Content', name: 'contentAbove', widget: 'markdown', hint: 'Will be shown above component list', required: false }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'

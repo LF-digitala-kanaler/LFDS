@@ -26,13 +26,3 @@
   margin-bottom: var(--spacing-vertical--1);
   margin-top: var(--spacing-vertical--3);
 }
-
-.Content blockquote p {
-  color: var(--color-gray);
-  font-size: 1.75rem;
-  text-align: center;
-  line-height: 1.21;
-  @media (--medium-viewport) { 
-    max-width: 22.25rem;
-  }
-}

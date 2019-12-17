@@ -15,8 +15,9 @@ import Content from '../components/Content/';
 export const ComponentGroupTemplate = ({
   title,
   intro,
-
-  content,
+  blockquote,
+  contentAbove,
+  contentBelow,
   componentsLinks
   
 }) => (
@@ -25,14 +26,14 @@ export const ComponentGroupTemplate = ({
   <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
+      <Content source={contentAbove} />   
       { componentsLinks && <CardList list={componentsLinks} /> }
-      {/* <Blockquote text={blockquote} /> */}
-      <Content source={content} />   
+      <Content source={contentBelow} />
+      {blockquote && <Blockquote text={blockquote.text} author={blockquote.author} />}
       </Wrapper>
   </>
 )
 const ComponentGroup = ({ data: { page, allPages }, location }) => {
-  console.log('egege', page.frontmatter.blockquote)
   // Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')
@@ -80,9 +81,11 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
         {...page.frontmatter} 
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
+        blockquote={page.frontmatter.blockquote}
         componentNavigation={componentNavigation} 
         componentsLinks={componentsLinks}
-        content={page.frontmatter.content}
+        contentAbove={page.frontmatter.contentAbove}
+        contentBelow={page.frontmatter.contentBelow}
       />
     </Layout>
   )
@@ -98,9 +101,13 @@ export const pageQuery = graphql`
         title
         intro
         slug
-        content
+        contentBelow
+        contentAbove
         background
-        blockquote
+        blockquote {
+          text
+          author
+        }
       }
     }
     

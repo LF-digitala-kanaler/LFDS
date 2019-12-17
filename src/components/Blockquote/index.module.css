@@ -1,0 +1,20 @@
+::root {
+  --blockquote-color: var(--color-gray);
+}
+
+.Blockquote {
+  color: var(--color-gray);
+  font-size: 1.75rem;
+  text-align: center;
+  line-height: 1.21;
+  margin: 0 auto;
+  @media (--medium-viewport) { 
+    max-width: 22.25rem;
+  }
+}
+.Blockquote__icon {
+  margin-bottom: var(--spacing-vertical--1);
+}
+.Blockquote__author {
+  font-size: 0.75rem;
+}
