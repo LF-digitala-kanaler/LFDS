@@ -14,7 +14,7 @@ import Content from '../components/Content/';
 export const LandingPageTemplate = ({
   title,
   intro,
-  content,
+  contentAbove,
   componentsLinks
   
 }) => (
@@ -24,7 +24,7 @@ export const LandingPageTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       { componentsLinks && <CardList list={componentsLinks} /> } 
-      <Content source={content} />  
+      <Content source={contentAbove} />  
       </Wrapper>
   </>
 )
@@ -76,7 +76,7 @@ const LandingPage = ({ data: { page, allPages }, location }) => {
         intro={page.frontmatter.intro}
         componentNavigation={componentNavigation} 
         componentsLinks={componentsLinks}
-        content={page.frontmatter.content}
+        content={page.frontmatter.contentAbove}
       />
     </Layout>
   )
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        content
+        contentAbove
       }
     }
     

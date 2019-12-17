@@ -29,7 +29,7 @@ export const ComponentGroupTemplate = ({
       <Content source={contentAbove} />   
       { componentsLinks && <CardList list={componentsLinks} /> }
       <Content source={contentBelow} />
-      {blockquote && <Blockquote text={blockquote.text} author={blockquote.author} />}
+      { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
       </Wrapper>
   </>
 )
