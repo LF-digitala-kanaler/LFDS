@@ -130,6 +130,27 @@ tabs:
       (even if the user gets redirected).
     name: Design
   - content: >-
+      ## På svenska
+
+
+
+
+      ## In english
+
+
+
+
+      ## Please consider
+
+
+      * Don’t confuse alerts (striped background) with [“glasspinnar”/modifier
+      shortcut ](../../buttonandlinks/shortcut/)(monocolor background and
+      arrow) 
+
+      * Do NOT write a warning like this: “This is the header and the body text
+      just continues without a separator”.
+    name: Copy
+  - content: >-
       <table class="Table">
 
       <tbody><tr><th>Property</th><th>Value</th></tr><tr>
@@ -166,18 +187,5 @@ tabs:
 
       <td class="text-nowrap">1.45</td></tr></tbody></table>
     name: Code
-  - content: >-
-
-
-      ## Please consider
-
-
-      * Don’t confuse alerts (striped background) with [“glasspinnar”/modifier
-      shortcut ](../../buttonandlinks/shortcut/)(monocolor background and
-      arrow) 
-
-      * Do NOT write a warning like this: “This is the header and the body text
-      just continues without a separator”.
-    name: Copy
 ---
 
