@@ -1,6 +1,7 @@
 import React from 'react'
 import CMS from 'netlify-cms-app'
 import "../components/_base/index.css"
+import "./cms.css"
 import {ComponentPageTemplate} from '../templates/ComponentPage'
 import {ComponentGroupTemplate} from '../templates/ComponentGroup'
 import { LandingPageTemplate } from '../templates/LandingPage'

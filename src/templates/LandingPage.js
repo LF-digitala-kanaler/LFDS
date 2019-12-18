@@ -4,28 +4,28 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
 import _ from 'lodash';
+import Blockquote from '../components/Blockquote';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
-import Content from '../components/Content/';
 // TODO only import whats needed from lodash
 
 // Export Template for use in CMS preview
 export const LandingPageTemplate = ({
   title,
   intro,
-  contentAbove,
+  blockquote,
   componentsLinks
   
 }) => (
    
   <>
-  <Wrapper tag="div" menu={true}>
+    <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       { componentsLinks && <CardList list={componentsLinks} /> } 
-      <Content source={contentAbove} />  
-      </Wrapper>
+      { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
+    </Wrapper>
   </>
 )
 const LandingPage = ({ data: { page, allPages }, location }) => {
@@ -66,7 +66,8 @@ const LandingPage = ({ data: { page, allPages }, location }) => {
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-      componentNavigation={componentNavigation} 
+      componentNavigation={componentNavigation}
+      backgroundClass={page.frontmatter.background}
       menu={menu}
     >
       <LandingPageTemplate 
@@ -76,7 +77,7 @@ const LandingPage = ({ data: { page, allPages }, location }) => {
         intro={page.frontmatter.intro}
         componentNavigation={componentNavigation} 
         componentsLinks={componentsLinks}
-        content={page.frontmatter.contentAbove}
+        blockquote={page.frontmatter.blockquote}
       />
     </Layout>
   )
@@ -91,7 +92,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        contentAbove
+        background
       }
     }
     

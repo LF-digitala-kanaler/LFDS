@@ -1,11 +1,7 @@
 ---
 template: LandingPage
 title: components
-intro: 'Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke. här guidar vi dig kring hur du kommer igång som en copy, UX, AD eller frontend utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter eller hittar vidare länkar till vår Brand portal Röda rummet.'
-subtitle: ' '
-meta:
-  description: This is a meta description.
-  title: LFUI
+intro: 'The page content section contains components which are used in-page to display information in comparison to normal body text. As price box, value box and callout all are various ways of highlighting information you should avoid mixing them in one view.'
 ---
 body
 

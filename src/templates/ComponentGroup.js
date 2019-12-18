@@ -71,7 +71,6 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-      
       componentNavigation={componentNavigation} 
       menu={menu}
       backgroundClass={page.frontmatter.background}
@@ -101,6 +100,7 @@ export const pageQuery = graphql`
         title
         intro
         slug
+        previewImage
         contentBelow
         contentAbove
         background
