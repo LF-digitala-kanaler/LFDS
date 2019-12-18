@@ -25,7 +25,7 @@ const Header = ({ title, breadcrumb, menu }) => {
       </div> 
     </div>
     <div className={cx(style.Header__container, style['Header__container--last'])}>
-      {menu  &&  <Menu items={menu.items} location={menu.location}    /> }
+      {menu  &&  <Menu   /> }
       <div className={cx(style.Header__wrapper, style['Header__wrapper--last'])}>
         {breadcrumb  && <Breadcrumb  location={breadcrumb}  /> }
         <Search />

@@ -7,6 +7,8 @@ import cx from 'classnames'
 import {useLockBodyScroll, useToggle} from 'react-use';
 import { createBreakpoint } from "react-use";
 import AnimationContainer from '../../utils/AnimationCointainer';
+import { useStaticQuery, graphql } from "gatsby"
+import _ from 'lodash';
 
 
 
@@ -14,15 +16,49 @@ const useBreakpoint = createBreakpoint({ M: 982, S:768});
 
 
 const Menu = ({items}) => {
+  const data = useStaticQuery(graphql`
+    query HeaderQuery {
+    allPages: allMarkdownRemark(
+      filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
+      sort: { order: ASC, fields: [frontmatter___title] }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            category
+            title
+            previewImage
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+    }
+  `)
+  //Get all created components  
+  const components = {
+    categories: data.allPages.hasOwnProperty('edges')
+      ? data.allPages.edges.map(category => {
+          return {  ...category.node}
+        })
+      : false
+  }
+   // Sort and arrange them in categories 
+  const componentNavigation = _(components.categories)
+  .chain()
+  .groupBy('frontmatter.category')
+  .map((value, key) => ({ category: key , component: value}))
+  .value()
+
   const breakpoint = useBreakpoint();
-  
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);
   const [locked, toggleLocked] = useToggle(false)
   
   useLockBodyScroll(locked);
-  
-  
 
   const handleOnClick = () => {
     setOpen(!isOpen)
@@ -73,9 +109,9 @@ const Menu = ({items}) => {
                 <React.Fragment>
                  { breakpoint === 'M'  ? (
                 <AnimationContainer show={isOpenDesktop}>
-                <nav  className={cx(style.Menu, (isOpenDesktop ? style['Menu--isOpen'] : '' ))}>
+                <nav className={cx(style.Menu, (isOpenDesktop ? style['Menu--isOpen'] : '' ))}>
                   <ul className={style.Menu__list}>
-                    {renderMenuItems(items, location)}
+                    {renderMenuItems(componentNavigation, location)}
                   </ul>
                 </nav>
                 </AnimationContainer>
@@ -83,7 +119,7 @@ const Menu = ({items}) => {
                   
                     <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
                       <ul className={style.Menu__list}>
-                        {renderMenuItems(items, location)}
+                        {renderMenuItems(componentNavigation, location)}
                       </ul>
                     </nav>
                   

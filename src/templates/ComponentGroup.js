@@ -33,16 +33,8 @@ export const ComponentGroupTemplate = ({
       </Wrapper>
   </>
 )
-const ComponentGroup = ({ data: { page, allPages }, location }) => {
-  // Get all created components  
-  const components = {
-    categories: allPages.hasOwnProperty('edges')
-      ? allPages.edges.map(category => {
-          return {  ...category.node}
-        })
-      : false
-      
-  }
+const ComponentGroup = ({ data: { page, allPages } }) => {
+  
   // Get compontents from this group
   const componentsInGroup = {
     links: allPages.hasOwnProperty('edges')
@@ -53,26 +45,12 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
       })
       : false   
   }
-  const componentsLinks = componentsInGroup.links;
-  // Sort and arrange them in categories 
-  const componentNavigation = _(components.categories)
-  .chain()
-  .groupBy('frontmatter.category')
-  .map((value, key) => ({ category: key , component: value}))
-  .value()
-  
-  
-  const menu = {
-    items: componentNavigation,
-    location: location
-  }
-
+ 
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-      componentNavigation={componentNavigation} 
-      menu={menu}
+      menu={true}
       backgroundClass={page.frontmatter.background}
     >
       <ComponentGroupTemplate 
@@ -81,8 +59,7 @@ const ComponentGroup = ({ data: { page, allPages }, location }) => {
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
-        componentNavigation={componentNavigation} 
-        componentsLinks={componentsLinks}
+        componentsLinks={componentsInGroup.links}
         contentAbove={page.frontmatter.contentAbove}
         contentBelow={page.frontmatter.contentBelow}
       />

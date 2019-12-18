@@ -73,8 +73,8 @@ collections: # A list of collections the CMS should be able to edi
         name: 'blockquote'
         widget: 'object'
         fields: 
-          - {label: "Text", name: "blockquoteText", widget: "text", required: false}
-          - {label: "Author", name: "blockquoteAuthor", widget: "string", required: false}
+          - {label: "Text", name: "text", widget: "text", required: false}
+          - {label: "Author", name: "author", widget: "string", required: false}
   - name: 'landingPage'
     label: 'Landing page'
     files:
@@ -90,8 +90,8 @@ collections: # A list of collections the CMS should be able to edi
             name: 'blockquote'
             widget: 'object'
             fields: 
-              - {label: "Text", name: "blockquoteText", widget: "text", required: false}
-              - {label: "Author", name: "blockquoteAuthor", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "text", required: false}
+              - {label: "Author", name: "author", widget: "string", required: false}
 
 
   - name: 'settings'

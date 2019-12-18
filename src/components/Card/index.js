@@ -2,17 +2,18 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Image from '../Image';
 import style from './index.module.css';
+import cx from 'classnames'
 
 
 
 
-const Card = ({title, url, image, description}) => {
+const Card = ({title, url, image, description, grid}) => {
   
   
    
   return (
     <Link className={style.Card} to={url} >
-      <article className={style.Card__wrapper}>
+      <article className={cx(!grid ? style.Card__wrapper : '' )}>
         <div className={style.Card__image}>
           {
             image ?
@@ -24,7 +25,7 @@ const Card = ({title, url, image, description}) => {
           
         </div>
         <div className={style.Card__body}> 
-          <h2 className={style.Card__title}>{title}</h2>
+          <h2 className={cx(style.Card__title, (grid ? style['Card__title--small'] : '' ))}>{title}</h2>
           <p className={style.Card__description}>{description}</p>
         </div>
       </article>

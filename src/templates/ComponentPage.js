@@ -36,8 +36,9 @@ export const ComponentPageTemplate = ({
 
 
 const ComponentPage = ({ 
-  data: { page, allPages, allComponentExample },
-  location,currentDirectory
+  data: { page, allComponentExample },
+  location,
+  currentDirectory
   
   },) => {
   // window is not avalible during gatsby build 
@@ -51,20 +52,7 @@ const ComponentPage = ({
         : false
     }
   
-  //Get all created components  
-  const components = {
-    categories: allPages.hasOwnProperty('edges')
-      ? allPages.edges.map(category => {
-          return {  ...category.node}
-        })
-      : false
-  }
-   // Sort and arrange them in categories 
-  const componentNavigation = _(components.categories)
-  .chain()
-  .groupBy('frontmatter.category')
-  .map((value, key) => ({ category: key , component: value}))
-  .value()
+  
 
   const breadcrumb = {
     category: page.frontmatter.category,
@@ -72,10 +60,10 @@ const ComponentPage = ({
     location: location
   }
 
-  const menu = {
-    items: componentNavigation,
-    location: location
-  }
+  // const menu = {
+  //   items: componentNavigation,
+  //   location: location
+  // }
  
 
   return (
@@ -83,7 +71,7 @@ const ComponentPage = ({
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
-      menu={menu}
+      menu={true}
     >
       <ComponentPageTemplate 
         {...page} 
@@ -92,7 +80,7 @@ const ComponentPage = ({
         intro={page.frontmatter.intro}
         tabs={page.frontmatter.tabs}
         category={page.frontmatter.category}
-        componentNavigation={componentNavigation} 
+        
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
@@ -140,40 +128,6 @@ export const pageQuery = graphql`
           }
         }
       }
-    allPages: allMarkdownRemark(
-      filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
-      sort: { order: ASC, fields: [frontmatter___title] }
-    ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            category
-            title
-            
-          }
-          fields {
-            slug
-          }
-        }
-        
-        next {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
-        previous {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
-      }
-    }
+    
   }
 `
