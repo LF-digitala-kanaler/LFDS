@@ -1,13 +1,15 @@
 ---
 template: LandingPage
 title: components
-intro: 'Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke. här guidar vi dig kring hur du kommer igång som en copy, UX, AD eller frontend utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter eller hittar vidare länkar till vår Brand portal Röda rummet.'
-subtitle: ' '
-meta:
-  description: This is a meta description.
-  title: LFUI
+intro: >-
+  Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke.
+  här guidar vi dig kring hur du kommer igång som en copy, UX, AD eller frontend
+  utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter eller hittar
+  vidare länkar till vår Brand portal Röda rummet.
+blockquote:
+  blockquoteAuthor: Dieter Rams
+  blockquoteText: >-
+    Having small touches of colour makes it more colourful than having the whole
+    thing in colour.
 ---
-body
-
-
 
