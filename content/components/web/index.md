@@ -1,6 +1,6 @@
 ---
 template: LandingPage
-background: '#fff'
+background: 'bg-white'
 title: components
 intro: >-
   The page content section contains components which are used in-page to display
