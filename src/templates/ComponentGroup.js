@@ -25,9 +25,9 @@ export const ComponentGroupTemplate = ({
   <Wrapper tag="div" menu={true} narrow={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <Content source={contentAbove} />   
+      <Content className="content" content={contentAbove} />   
       { componentsLinks && <CardList list={componentsLinks} /> }
-      <Content source={contentBelow} />
+      <Content className="content" content={contentBelow} />
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
   </Wrapper>
   </>

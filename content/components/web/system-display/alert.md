@@ -11,7 +11,7 @@ intro: >-
   for important communication from Länsförsäkringar of a non-commercial nature.
 backgroundColor: '#fff'
 tabs:
-  - content: >-
+  - body: >-
       ## How to use
 
 

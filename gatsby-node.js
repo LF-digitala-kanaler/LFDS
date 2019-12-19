@@ -46,69 +46,7 @@ exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
   }
   actions.replaceWebpackConfig(newConfig)
 }
-exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createContentDigest, createNodeId }) => {
-  const { createNodeField, createNode } = actions
 
-  // convert frontmatter images
-  fmImagesToRelative(node)
-
-  // create pages for our examples from LFUI-components
-
-  
-  // Create smart slugs
-  // https://github.com/Vagr9K/gatsby-advanced-starter/blob/master/gatsby-node.js
-
-  if (node.internal.type === 'MarkdownRemark') {
-    const fileNode = getNode(node.parent)
-    const parsedFilePath = path.parse(fileNode.relativePath)
-    
-    let slug = createFilePath({ node, getNode, basePath: `content` })
-    
-    if (
-      // home page gets root slug
-      parsedFilePath.name === 'home' &&
-      parsedFilePath.dir === 'pages'
-    ) {
-      slug = `/`
-    } 
-    createNodeField({
-      node,
-      name: 'slug',
-      value: slug
-    })
-  
-    // Add contentType to node.fields
-    createNodeField({
-      node,
-      name: 'contentType',
-      value: parsedFilePath.dir
-    })
-  }
-  // setup html file nodes
-  if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {
-    const nodeContent = await loadNodeContent(node);
-
-    const htmlNodeContent = {
-      content: nodeContent,
-      name: node.name,
-      slug: `example/${node.name}`,
-      relativeDirectory: node.dir
-    }
-    const htmlNodeMeta = {
-      id: createNodeId(`html-${node.id}`),
-      parent: node.id,
-      internal: {
-        type: 'HTMLContent',
-        mediaType: 'text/html',
-        content: JSON.stringify(htmlNodeContent),
-        contentDigest: createContentDigest(htmlNodeContent),
-      },
-    }
-    const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta);
-    createNode(htmlNode);
-    
-  }
-}
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
@@ -187,6 +125,66 @@ exports.createPages = ({ actions, graphql }) => {
   })
 }
 
+exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createContentDigest, createNodeId }) => {
+  const { createNodeField, createNode } = actions
 
-// // Random fix for https://github.com/gatsbyjs/gatsby/issues/5700
-// module.exports.resolvableExtensions = () => ['.json']
+  // convert frontmatter images
+  fmImagesToRelative(node)
+
+  // create pages for our examples from LFUI-components
+
+  
+  // Create smart slugs
+  // https://github.com/Vagr9K/gatsby-advanced-starter/blob/master/gatsby-node.js
+
+  if (node.internal.type === 'MarkdownRemark') {
+    const fileNode = getNode(node.parent)
+    const parsedFilePath = path.parse(fileNode.relativePath)
+    
+    let slug = createFilePath({ node, getNode, basePath: `content` })
+    
+    if (
+      // home page gets root slug
+      parsedFilePath.name === 'home' &&
+      parsedFilePath.dir === 'pages'
+    ) {
+      slug = `/`
+    } 
+    createNodeField({
+      node,
+      name: 'slug',
+      value: slug
+    })
+  
+    // Add contentType to node.fields
+    createNodeField({
+      node,
+      name: 'contentType',
+      value: parsedFilePath.dir
+    })
+  }
+  // setup html file nodes
+  if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {
+    const nodeContent = await loadNodeContent(node);
+
+    const htmlNodeContent = {
+      content: nodeContent,
+      name: node.name,
+      slug: `example/${node.name}`,
+      relativeDirectory: node.dir
+    }
+    const htmlNodeMeta = {
+      id: createNodeId(`html-${node.id}`),
+      parent: node.id,
+      internal: {
+        type: 'HTMLContent',
+        mediaType: 'text/html',
+        content: JSON.stringify(htmlNodeContent),
+        contentDigest: createContentDigest(htmlNodeContent),
+      },
+    }
+    const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta);
+    createNode(htmlNode);
+    
+  }
+}
