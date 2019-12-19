@@ -52,7 +52,7 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'list'
         fields:
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
-          - { label: 'Content', name: 'body', widget: 'markdown' }
+          - { label: 'Content', name: 'content', widget: 'markdown' }
 
 
   - name: component-group
