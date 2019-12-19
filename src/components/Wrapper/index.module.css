@@ -1,5 +1,6 @@
 :root {
-  --wrapper-width: var(--content-width); 
+  --wrapper-width: var(--content-width);
+  --wrapper-width--narrow: var(--content-width--narrow); 
   --wrapper-spacing: var(--spacing-unit);
 }
 
@@ -30,4 +31,11 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.Wrapper--narrow {
+  @media (--xlarge-viewport) { 
+    max-width: var(--wrapper-width--narrow);
+  }
+  
 }

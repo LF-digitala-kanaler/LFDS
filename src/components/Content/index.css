@@ -2,7 +2,7 @@
 
 .Content {
   @media (--medium-viewport) { 
-    max-width: var(--content-width--small);
+    max-width: var(--content-width--narrow);
   }
 }
 

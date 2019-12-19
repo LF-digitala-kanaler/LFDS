@@ -13,11 +13,13 @@ const parentDirectory = (url) => {
 const Breadcrumb = ({location}) => {
   return (
     <div className={style.Breadcrumb}>
-      <li className={style.Breadcrumb__item}>
-        <Link  className={style.Breadcrumb__link} to={parentDirectory(location.location.pathname)}>
-          {location.category}
-        </Link>
-      </li>
+      {location.category &&
+        <li className={style.Breadcrumb__item}>
+          <Link  className={style.Breadcrumb__link} to={parentDirectory(location.location.pathname)}>
+            {location.category}
+          </Link>
+        </li>
+      }
       <li className={style.Breadcrumb__item}>
         <Link className={style.Breadcrumb__link} to={location.location.pathname}>
           {location.title}

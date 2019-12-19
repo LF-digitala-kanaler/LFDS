@@ -3,10 +3,10 @@ import style from './index.module.css';
 import cx from 'classnames'
 
 
-const Wrapper = ({tag, menu, children}) => {
+const Wrapper = ({tag, menu, children, narrow}) => {
   let Tag = tag;
   return (
-    <Tag className={cx(style.Wrapper, (menu ? style['Wrapper--push'] : '' ))}>
+    <Tag className={cx(style.Wrapper, (menu ? style['Wrapper--push'] : '' ), (narrow ? style['Wrapper--narrow'] : '' ))}>
       {children}
     </Tag>
   );

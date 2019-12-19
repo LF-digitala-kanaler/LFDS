@@ -3,7 +3,6 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
-import _ from 'lodash';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
@@ -23,17 +22,17 @@ export const ComponentGroupTemplate = ({
 }) => (
    
   <>
-  <Wrapper tag="div" menu={true}>
+  <Wrapper tag="div" menu={true} narrow={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <Content source={contentAbove} />   
       { componentsLinks && <CardList list={componentsLinks} /> }
       <Content source={contentBelow} />
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
-      </Wrapper>
+  </Wrapper>
   </>
 )
-const ComponentGroup = ({ data: { page, allPages } }) => {
+const ComponentGroup = ({ data: { page, allPages },location }) => {
   
   // Get compontents from this group
   const componentsInGroup = {
@@ -45,12 +44,19 @@ const ComponentGroup = ({ data: { page, allPages } }) => {
       })
       : false   
   }
- 
+  
+  const breadcrumb = {
+    
+    title: page.frontmatter.title,
+    location: location
+  }
+
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
       menu={true}
+      breadcrumb={breadcrumb}
       backgroundClass={page.frontmatter.background}
     >
       <ComponentGroupTemplate 

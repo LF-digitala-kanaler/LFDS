@@ -4,7 +4,7 @@
     --menu-width: var(--sidebar-width);
     --menu-spacing: var(--spacing-unit);
     --menu-trigger-width: 12px;
-    --menu-trigger-height: 10px;
+    --menu-trigger-height:12px;
     --menu-offset: 7.0625rem;
     --menu-overlay: rgba(34,34,34, 0.69);
     --menu-active: var(--color-red);
@@ -111,10 +111,19 @@
     background-repeat: no-repeat;
     background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGRlZnM+PHBhdGggaWQ9ImEiIGQ9Ik02IDMuNDE0TDEuNzA3IDcuNzA3LjI5MyA2LjI5MyA2IC41ODZsNS43MDcgNS43MDctMS40MTQgMS40MTR6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTS00LTdoMjB2MjBILTR6Ii8+PHVzZSBmaWxsPSIjMjIyIiB4bGluazpocmVmPSIjYSIgdHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMCA4KSIvPjwvZz48L3N2Zz4=");
     cursor: pointer;
+    
 }
-.Menu__trigger:hover {
+
+.Menu__trigger:hover,
+.Menu__trigger:focus  {
     background-color: var(--color-smoke);
+    
 }
+.Menu__trigger:focus {
+    outline: 0;
+    /* set focus styling */
+}
+
 .Menu__item--active  .Menu__trigger  { 
     transform: rotate(180deg);
 }

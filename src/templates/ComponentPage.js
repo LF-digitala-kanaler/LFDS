@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
-import _ from 'lodash';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
@@ -15,14 +14,11 @@ export const ComponentPageTemplate = ({
   intro,
   componentExample,
   backgroundColor,
-  
   tabs
 
 }) => (
   
-  <>
-
-    
+  <> 
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
@@ -51,20 +47,12 @@ const ComponentPage = ({
         ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
         : false
     }
-  
-  
 
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
     location: location
   }
-
-  // const menu = {
-  //   items: componentNavigation,
-  //   location: location
-  // }
- 
 
   return (
     <Layout
@@ -80,7 +68,6 @@ const ComponentPage = ({
         intro={page.frontmatter.intro}
         tabs={page.frontmatter.tabs}
         category={page.frontmatter.category}
-        
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}

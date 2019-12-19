@@ -18,7 +18,7 @@ export const LandingPageTemplate = ({
 }) => (
    
   <>
-    <Wrapper tag="div" menu={true}>
+    <Wrapper tag="div" menu={true} narrow={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <CardGrid list={componentCategories}  /> 
