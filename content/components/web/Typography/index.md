@@ -3,6 +3,7 @@ background: '#fff'
 template: ComponentGroup
 title: Typography
 intro: Intro
+contentBelow: '![](/img/avatar.svg)'
 blockquote:
   author: John Doe
   text: >-
