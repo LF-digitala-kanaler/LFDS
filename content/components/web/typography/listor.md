@@ -1,7 +1,7 @@
 ---
 template: ComponentPage
 category: Typography
-title: Listor
+title: Lists
 description: 'Används för att lista upp små texter i punkter eller i sifferordning. '
 intro: 'Används för att lista upp små texter i punkter eller i sifferordning. '
 backgroundColor: '#fff'
