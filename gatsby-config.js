@@ -95,9 +95,7 @@ module.exports = {
           // go before gatsby-remark-images
           {
             resolve: 'gatsby-remark-relative-images',
-            options: {
-              name: 'uploads',
-            },
+           
           },
           {
             resolve: 'gatsby-remark-images',
