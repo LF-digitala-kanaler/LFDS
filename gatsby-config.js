@@ -50,16 +50,22 @@ module.exports = {
         icon: `${__dirname}/static/images/logo.svg` // This path is relative to the root of the site.
       }
     },
+    // {
+    //   // keep as first gatsby-source-filesystem plugin for gatsby image support
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/static/img`,
+    //     name: 'uploads',
+    //   },
+    // },
+    // Add static assets before markdown files
     {
-      // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/img`,
-        name: 'uploads',
-      },
+        path: `${__dirname}/static/images`,
+        name: 'images'
+      }
     },
-    // Add static assets before markdown files
-    
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -67,13 +73,7 @@ module.exports = {
         name: 'pages'
       }
     },
-     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/static/images`,
-        name: 'images',
-      },
-    },
+     
     {
       resolve: 'gatsby-source-filesystem',
       options: {
