@@ -1,5 +1,6 @@
 ---
 background: bg-white
+previewImage: /img/checbox.svg
 template: ComponentGroup
 title: Forms
 intro: Intro
