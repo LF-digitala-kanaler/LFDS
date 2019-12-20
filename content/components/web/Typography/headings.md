@@ -2,19 +2,16 @@
 template: ComponentPage
 category: Typography
 title: Headings
-intro: Headings preamble
+description: Hur använder vi rubriker och vila rubriker finns?
 previewImage: ''
-backgroundColor: '#f3f3f3'
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
+intro: Hur använder vi rubriker och vila rubriker finns?
+backgroundColor: '#fff'
 tabs:
-  - content: content code
-    name: Code
-  - content: content design
+  - content: How to use
     name: Design
+  - content: content copy
+    name: Copy
   - content: content code
     name: Code
 ---
+
