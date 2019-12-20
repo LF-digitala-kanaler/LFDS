@@ -2,9 +2,9 @@
 template: ComponentPage
 category: Typography
 title: Headings
-description: Hur använder vi rubriker och vila rubriker finns?
+description: Hur använder vi rubriker och vilka rubriker finns?
 previewImage: ''
-intro: Hur använder vi rubriker och vila rubriker finns?
+intro: Hur använder vi rubriker och vilka rubriker finns?
 backgroundColor: '#fff'
 tabs:
   - content: How to use
