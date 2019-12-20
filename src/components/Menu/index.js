@@ -28,7 +28,7 @@ const Menu = ({items}) => {
           frontmatter {
             category
             title
-            previewImage
+           
           }
           fields {
             slug
