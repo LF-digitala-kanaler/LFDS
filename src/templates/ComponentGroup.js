@@ -8,7 +8,8 @@ import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
 import Blockquote from '../components/Blockquote';
 import Content from '../components/Content/';
-// TODO only import whats needed from lodash
+import _ from 'lodash';
+
 
 // Export Template for use in CMS preview
 export const ComponentGroupTemplate = ({
@@ -44,18 +45,36 @@ const ComponentGroup = ({ data: { page, allPages },location }) => {
       })
       : false   
   }
+  // Get all created components  
+  const components = {
+    categories: allPages.hasOwnProperty('edges')
+      ? allPages.edges.map(category => {
+          return {  ...category.node}
+        })
+      : false
+      
+  }
   
-  const breadcrumb = {
-    
+  const componentsLinks = componentsInGroup.links;
+  // Sort and arrange them in categories 
+  const componentNavigation = _(components.categories)
+  .chain()
+  .groupBy('frontmatter.category')
+  .map((value, key) => ({ category: key , component: value}))
+  .value()
+  
+  const breadcrumb = {  
     title: page.frontmatter.title,
     location: location
   }
 
+  
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-      menu={true}
+      componentNavigation={componentNavigation} 
+      menu={componentNavigation}
       breadcrumb={breadcrumb}
       backgroundClass={page.frontmatter.background}
     >
@@ -65,7 +84,8 @@ const ComponentGroup = ({ data: { page, allPages },location }) => {
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
-        componentsLinks={componentsInGroup.links}
+        componentNavigation={componentNavigation} 
+        componentsLinks={componentsLinks}
         contentAbove={page.frontmatter.contentAbove}
         contentBelow={page.frontmatter.contentBelow}
       />
@@ -76,7 +96,10 @@ const ComponentGroup = ({ data: { page, allPages },location }) => {
 export default ComponentGroup
 
 export const pageQuery = graphql`
+  
+  
   query ComponentGroup($id: String!) {
+    
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       frontmatter {
@@ -93,7 +116,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    
+
     allPages: allMarkdownRemark(
       filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
       sort: { order: ASC, fields: [frontmatter___title] }
@@ -113,5 +136,6 @@ export const pageQuery = graphql`
         }
       }
     }
+    
   }
 `

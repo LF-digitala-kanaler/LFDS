@@ -47,9 +47,9 @@ exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
   actions.replaceWebpackConfig(newConfig)
 }
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
-
+  
   return graphql(`
     {
       docs: allMarkdownRemark(limit: 1000) {

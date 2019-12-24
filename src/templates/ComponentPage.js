@@ -6,7 +6,7 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
-// TODO only import whats needed from lodash
+import _ from 'lodash';
 
 // Export Template for use in CMS preview
 export const ComponentPageTemplate = ({
@@ -32,34 +32,50 @@ export const ComponentPageTemplate = ({
 
 
 const ComponentPage = ({ 
-  data: { page, allComponentExample },
+  data: { page,allPages, allComponentExample },
   location,
   currentDirectory
   
   },) => {
+  
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
    
    const componentExample = {
-      examples: allComponentExample.hasOwnProperty('edges')
-        ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
-        : false
-    }
+    examples: allComponentExample.hasOwnProperty('edges')
+      ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
+      : false
+  }
+  
+  //Get all created components  
+  const components = {
+    categories: allPages.hasOwnProperty('edges')
+      ? allPages.edges.map(category => {
+          return {  ...category.node}
+        })
+      : false
+  }
+   // Sort and arrange them in categories 
+  const componentNavigation = _(components.categories)
+  .chain()
+  .groupBy('frontmatter.category')
+  .map((value, key) => ({ category: key , component: value}))
+  .value()
 
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
     location: location
   }
-
+  
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
-      menu={true}
+      menu={componentNavigation}
     >
       <ComponentPageTemplate 
         {...page} 
@@ -67,6 +83,7 @@ const ComponentPage = ({
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         tabs={page.frontmatter.tabs}
+        componentNavigation={componentNavigation} 
         category={page.frontmatter.category}
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
@@ -115,6 +132,40 @@ export const pageQuery = graphql`
           }
         }
       }
-    
+    allPages: allMarkdownRemark(
+      filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
+      sort: { order: ASC, fields: [frontmatter___title] }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            category
+            title
+            
+          }
+          fields {
+            slug
+          }
+        }
+        
+        next {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+        previous {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
   }
 `

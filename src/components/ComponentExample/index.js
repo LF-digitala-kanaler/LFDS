@@ -3,7 +3,7 @@ import Frame from 'react-frame-component';
 import css from '!!raw-loader!lfui/dist/lf.css'; 
 import Preview from '../Preview';
 import Actions from '../Actions'
-import HtmlBlock from '../Content';
+import Content from '../Content';
 import CodeBlock from '../CodeBlock';
 import ComponentNavigation from '../ComponentNavigation';
 import { Grid, Cell } from "styled-css-grid";
@@ -70,7 +70,7 @@ const ComponentExample = ({variants, background}) => {
                 </style>
               }
             >
-            <HtmlBlock source={code} />
+            <Content source={code} />
             </Frame>
           </Preview>
           {

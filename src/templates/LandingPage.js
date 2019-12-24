@@ -6,7 +6,8 @@ import Blockquote from '../components/Blockquote';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardGrid from '../components/CardGrid';
-// TODO only import whats needed from lodash
+import _ from 'lodash';
+
 
 // Export Template for use in CMS preview
 export const LandingPageTemplate = ({
@@ -26,32 +27,47 @@ export const LandingPageTemplate = ({
     </Wrapper>
   </>
 )
-const LandingPage = ({ data: { page, allPages } }) => {
-
+const LandingPage = ({ data: { page, allPages, allGroups } }) => {
+   currentDirectory = location.href.split('/').filter(Boolean).pop();
+  console.log('current',currentDirectory)
   
   // Get all component categoriies  
 
   const componentCategories = {
+    categories: allGroups.hasOwnProperty('edges')
+      ? allGroups.edges.map(category => {
+          return {  ...category.node}
+        })
+      : false
+  }
+  //Get all created components  
+  const components = {
     categories: allPages.hasOwnProperty('edges')
       ? allPages.edges.map(category => {
           return {  ...category.node}
         })
       : false
   }
-  
+   // Sort and arrange them in categories 
+  const componentNavigation = _(components.categories)
+  .chain()
+  .groupBy('frontmatter.category')
+  .map((value, key) => ({ category: key , component: value}))
+  .value()
   
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
       backgroundClass={page.frontmatter.background}
-      menu={true}
+      menu={componentNavigation}
     >
       <LandingPageTemplate 
         {...page} 
         {...page.frontmatter} 
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
+        componentNavigation={componentNavigation} 
         blockquote={page.frontmatter.blockquote}
         componentCategories={componentCategories.categories}
       />
@@ -76,7 +92,7 @@ export const pageQuery = graphql`
       }
     }
     
-    allPages: allMarkdownRemark(
+    allGroups: allMarkdownRemark(
       filter: {frontmatter: {
         template: {
           eq: "ComponentGroup"
@@ -95,6 +111,38 @@ export const pageQuery = graphql`
           }
           fields {
             slug
+          }
+        }
+      }
+    }
+    allPages: allMarkdownRemark{
+      edges {
+        node {
+          id
+          frontmatter {
+            category
+            title
+            
+          }
+          fields {
+            slug
+          }
+        }
+        
+        next {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+        previous {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
           }
         }
       }

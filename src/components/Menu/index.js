@@ -7,7 +7,6 @@ import cx from 'classnames'
 import {useLockBodyScroll, useToggle} from 'react-use';
 import { createBreakpoint } from "react-use";
 import AnimationContainer from '../../utils/AnimationCointainer';
-import { useStaticQuery, graphql } from "gatsby"
 import _ from 'lodash';
 
 
@@ -16,42 +15,6 @@ const useBreakpoint = createBreakpoint({ M: 982, S:768});
 
 
 const Menu = ({items}) => {
-  const data = useStaticQuery(graphql`
-    query HeaderQuery {
-    allPages: allMarkdownRemark(
-      filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
-      sort: { order: ASC, fields: [frontmatter___title] }
-    ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            category
-            title
-           
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-    }
-  `)
-  //Get all created components  
-  const components = {
-    categories: data.allPages.hasOwnProperty('edges')
-      ? data.allPages.edges.map(category => {
-          return {  ...category.node}
-        })
-      : false
-  }
-   // Sort and arrange them in categories 
-  const componentNavigation = _(components.categories)
-  .chain()
-  .groupBy('frontmatter.category')
-  .map((value, key) => ({ category: key , component: value}))
-  .value()
 
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
@@ -111,7 +74,7 @@ const Menu = ({items}) => {
                 <AnimationContainer show={isOpenDesktop}>
                 <nav className={cx(style.Menu, (isOpenDesktop ? style['Menu--isOpen'] : '' ))}>
                   <ul className={style.Menu__list}>
-                    {renderMenuItems(componentNavigation, location)}
+                    {renderMenuItems(items, location)}
                   </ul>
                 </nav>
                 </AnimationContainer>
@@ -119,7 +82,7 @@ const Menu = ({items}) => {
                   
                     <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
                       <ul className={style.Menu__list}>
-                        {renderMenuItems(componentNavigation, location)}
+                        {renderMenuItems(items, location)}
                       </ul>
                     </nav>
                   

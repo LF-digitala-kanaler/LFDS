@@ -50,6 +50,7 @@ module.exports = {
         icon: `${__dirname}/static/images/logo.svg` // This path is relative to the root of the site.
       }
     },
+    
     // {
     //   // keep as first gatsby-source-filesystem plugin for gatsby image support
     //   resolve: 'gatsby-source-filesystem',
@@ -82,11 +83,9 @@ module.exports = {
         
       }
     },
-   
     // images
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -134,15 +133,7 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: 'gatsby-plugin-nprogress',
-      options: {
-        // Setting a color is optional.
-        color: 'white',
-        // Disable the loading spinner.
-        showSpinner: false
-      }
-    },
+    
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-netlify-cms',
@@ -152,7 +143,20 @@ module.exports = {
         enableIdentityWidget: true
       }
     },
-   
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+          typeName: "GitHub",
+          fieldName: "github",
+          url: "https://api.github.com/graphql",
+          // HTTP headers
+          headers: {
+            // Learn about environment variables: https://gatsby.dev/env-vars
+            Authorization: `Bearer 970a34d72e11df57dbc7b55b3f6f170cd22c765d`
+          },
+        
+        },
+    },
     
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]

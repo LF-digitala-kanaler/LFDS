@@ -38,6 +38,7 @@ export default ({
             googleTrackingId
           }
           
+          
         }
       `}
       render={data => {
@@ -67,9 +68,6 @@ export default ({
               {...meta}
               {...data.settingsYaml}
             />
-
-
-            {/* <Nav subNav={subNav} /> */}
 
            
               <Header 
