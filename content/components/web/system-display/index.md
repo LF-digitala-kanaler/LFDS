@@ -1,7 +1,8 @@
 ---
+background: bg-white
+previewImage: /img/alert.svg
 template: ComponentGroup
 title: System Display
-background: bg-white
 intro: >-
   The system display section describes components which communicate the status
   of the systems (either frontend or backend) the user interacts with or general

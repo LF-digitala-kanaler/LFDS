@@ -1,7 +1,7 @@
 ---
+background: bg-white
 template: LandingPage
-background: 'bg-white'
-title: components
+title: Components
 intro: >-
   The page content section contains components which are used in-page to display
   information in comparison to normal body text. As price box, value box and
