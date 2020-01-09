@@ -18,18 +18,20 @@ tabs:
 
       Use an input field when you want the user to enter some information freely
       (use another [form](../) option if they only can select from a set number
-      of options)
+      of options). The input field has two companion elements, the label and
+      help text (see the [forms landing page](../) for a description of them).
 
 
-
-
-      "Standard"
+      There are several variations of input field, described below.
 
 
       ### Variations
 
 
-      Textarea
+      One-line (Standard)
+
+
+      Several lines (Textarea)
 
 
       Password
