@@ -1,10 +1,14 @@
 ---
 template: ComponentPage
 category: Forms
-title: Input Group
-intro: Input Group preamble
-description: What up? Put your hand up!
+title: Input field
+description: >-
+  Input fields are fields in which the user can enter text of some type (be it
+  letters or numbers).
 previewImage: ''
+intro: >-
+  Input fields are fields in which the user can enter text of some type (be it
+  letters or numbers). This section describes 
 backgroundColor: '#f3f3f3'
 tabs:
   - content: content code
