@@ -146,6 +146,7 @@ export const pageQuery = graphql`
           }
           fields {
             slug
+            parent
           }
         }
         

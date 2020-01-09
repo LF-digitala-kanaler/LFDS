@@ -1,6 +1,6 @@
 import React from 'react';
 
-import navigation from '../../data/navigation.json';
+import navigation from '../../data/navigation';
 import NavigationItem from './NavigationItem.js';
 import styles from './index.module.css';
 export default class Navigation extends React.Component {

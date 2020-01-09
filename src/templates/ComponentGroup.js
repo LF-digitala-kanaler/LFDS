@@ -45,6 +45,7 @@ const ComponentGroup = ({ data: { page, allPages },location }) => {
       })
       : false   
   }
+  
   // Get all created components  
   const components = {
     categories: allPages.hasOwnProperty('edges')

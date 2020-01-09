@@ -1,21 +1,81 @@
 import React, { useState }  from 'react';
 import MenuItem from './MenuItem';
 import style from './index.module.css';
+import navigation from '../../data/navigation';
 import { Location } from '@reach/router';
 import MenuToggle from '../MenuToggle';
 import cx from 'classnames'
 import {useLockBodyScroll, useToggle} from 'react-use';
 import { createBreakpoint } from "react-use";
 import AnimationContainer from '../../utils/AnimationCointainer';
+import { useStaticQuery, graphql } from "gatsby"
 import _ from 'lodash';
-
+import { globalHistory as history } from '@reach/router'
 
 
 const useBreakpoint = createBreakpoint({ M: 982, S:768});
 
 
-const Menu = ({items}) => {
+const Menu = ({}) => {
+  const { location, navigate } = history
+  const data = useStaticQuery(graphql`
 
+    query Meny{
+      allPages: allMarkdownRemark(
+        sort: { order: ASC, fields: [frontmatter___title] }
+      ){
+      
+        edges {
+          node {
+            id
+            
+            frontmatter {
+              title
+              category
+            }
+            fields {
+              slug
+              parent
+            }
+          }
+        }
+     
+    }
+   } 
+  `)
+  //Get all created components 
+
+  // const na = data.allPages.edges.filter(category => {
+  //   category.node.fields.slug.includes(location.pathname)
+  //   return {  ...category.node}
+  // }) 
+  // const filterItems = (category, query) => {
+  //   return category.node.fields.slug.filter(el => el.toLowerCase().indexOf(query.toLowerCase()) !== -1)
+  // }
+  // const test = filterItems(data.allPages.edges, location.pathname)
+  //console.log('nav', test)
+  const components = {
+    categories: data.allPages.hasOwnProperty('edges')
+      ? data.allPages.edges.map(category => {
+         
+         
+            return {  ...category.node}
+         
+        })
+      : false
+  }
+   // Sort and arrange them in categories 
+  
+  const componentNavigation = _(components.categories)
+  
+  .chain()
+  .groupBy('frontmatter.category')
+  .map((value, key) => ({ category: key , component: value}))
+  .value()
+  
+  
+  
+  
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);
@@ -74,7 +134,7 @@ const Menu = ({items}) => {
                 <AnimationContainer show={isOpenDesktop}>
                 <nav className={cx(style.Menu, (isOpenDesktop ? style['Menu--isOpen'] : '' ))}>
                   <ul className={style.Menu__list}>
-                    {renderMenuItems(items, location)}
+                    {renderMenuItems(componentNavigation, location)}
                   </ul>
                 </nav>
                 </AnimationContainer>
@@ -82,7 +142,7 @@ const Menu = ({items}) => {
                   
                     <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
                       <ul className={style.Menu__list}>
-                        {renderMenuItems(items, location)}
+                        {renderMenuItems(componentNavigation, location)}
                       </ul>
                     </nav>
                   

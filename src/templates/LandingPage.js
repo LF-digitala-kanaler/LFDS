@@ -27,9 +27,7 @@ export const LandingPageTemplate = ({
     </Wrapper>
   </>
 )
-const LandingPage = ({ data: { page, allPages, allGroups } }) => {
-   currentDirectory = location.href.split('/').filter(Boolean).pop();
-  console.log('current',currentDirectory)
+const LandingPage = ({ data: { page, allGroups } }) => {
   
   // Get all component categoriies  
 
@@ -40,34 +38,21 @@ const LandingPage = ({ data: { page, allPages, allGroups } }) => {
         })
       : false
   }
-  //Get all created components  
-  const components = {
-    categories: allPages.hasOwnProperty('edges')
-      ? allPages.edges.map(category => {
-          return {  ...category.node}
-        })
-      : false
-  }
-   // Sort and arrange them in categories 
-  const componentNavigation = _(components.categories)
-  .chain()
-  .groupBy('frontmatter.category')
-  .map((value, key) => ({ category: key , component: value}))
-  .value()
+  
+  
   
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
       backgroundClass={page.frontmatter.background}
-      menu={componentNavigation}
+      menu={true}
     >
       <LandingPageTemplate 
         {...page} 
         {...page.frontmatter} 
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        componentNavigation={componentNavigation} 
         blockquote={page.frontmatter.blockquote}
         componentCategories={componentCategories.categories}
       />
@@ -111,38 +96,6 @@ export const pageQuery = graphql`
           }
           fields {
             slug
-          }
-        }
-      }
-    }
-    allPages: allMarkdownRemark{
-      edges {
-        node {
-          id
-          frontmatter {
-            category
-            title
-            
-          }
-          fields {
-            slug
-          }
-        }
-        
-        next {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
-        previous {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
           }
         }
       }

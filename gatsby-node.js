@@ -162,6 +162,11 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
       name: 'contentType',
       value: parsedFilePath.dir
     })
+    createNodeField({
+      node,
+      name: `parent`,
+      value: fileNode.relativeDirectory,
+    })
   }
   // setup html file nodes
   if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {

@@ -8,7 +8,7 @@ import Logotype from '../Logotype'
 import Breadcrumb from '../Breadcrumb'
 import Search from '../Search';
 import cx from 'classnames';
-
+// import ToggleSwitch from '../ToggleSwitch';
 
 const Header = ({ title, breadcrumb, menu }) => {
 //  add exception if no meny
@@ -20,13 +20,16 @@ const Header = ({ title, breadcrumb, menu }) => {
         <Logotype />
         <span className={style.Header__headline}>{title}</span>
       </Link>
+      
       <div className={style.Header__wrapper}>
         <Navigation />
       </div> 
     </div>
     <div className={cx(style.Header__container, style['Header__container--last'])}>
-      {menu  &&  <Menu items={menu}     /> }
+     
+      {menu  &&  <Menu items={menu.items} location={menu.location}    /> }
       <div className={cx(style.Header__wrapper, style['Header__wrapper--last'])}>
+         {/* <ToggleSwitch /> */}
         {breadcrumb  && <Breadcrumb  location={breadcrumb}  /> }
         <Search />
       </div> 
@@ -46,3 +49,5 @@ Header.defaultProps = {
 }
 
 export default Header
+
+

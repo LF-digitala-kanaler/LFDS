@@ -44,7 +44,7 @@ export default ({
       render={data => {
         const { siteTitle, googleTrackingId  } =
             data.settingsYaml || {}
-       console.log('backgroundClass', backgroundClass)
+       
         
         return (
           
