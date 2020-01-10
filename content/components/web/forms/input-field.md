@@ -22,16 +22,34 @@ tabs:
       help text (see the [forms landing page](../) for a description of them).
 
 
-      There are several variations of input field, described below.
-
-
       ### Variations
 
 
-      One-line (Standard)
+      There are several variations of input fields, each is described below.
 
 
-      Several lines (Textarea)
+      #### One-lined
+
+
+      The one-lined input field is the most commonly used input type and is used
+      when you want a specific input from the user (such as e-mail, a value or
+      subject). Depending on context and amount of space available you can put
+      either one or two one-lined input fields on a row by using **_the grid_**.
+      If you place two input fields on the same row they should have the same
+      size. See images below for an example.
+
+
+      A one-lined input field on a row
+
+
+
+
+      Two one-lined input fields on a row
+
+
+
+
+      #### Several lines (Textarea)
 
 
       Password
