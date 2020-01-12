@@ -1,84 +1,49 @@
-import React from 'react';
+import React, { useState, useEffect }  from 'react';
 import style from './index.module.css';
 import MenuLink from './MenuLink';
 import classNames from 'classnames/bind';
 
 let cx = classNames.bind(style);
-
-export default class MenuItem extends React.Component {
-  
-  state = {
-    open: false
-  };
-
-  componentDidMount() {
-    const {item} = this.props;
-    const categoryUrl = this.removeTrailingSlash(item.component[0].fields.slug);
-     if (this.props.location.pathname.match(categoryUrl)) {
-       this.setState({
-          open: true
-        });  
-     }
     
-  }
+const MenuItem = ({item, location}) => {
+  useEffect(() => {
+    item.childLink.forEach(function(active){
+      if(active.node.fields.slug.match(location.pathname)) {
+        setOpen(!open)
+      }
+    })
 
-  toggleSubMenu = () => {
-    this.setState({
-      open: !this.state.open
-    });
+  }, []);
+
+  const [open, setOpen] = useState(false);
+  
+  const className = cx({
+    Menu__item: true,
+    'Menu__item--active': open,
+    '' : !open
+  });
+
+  const toggleSubMenu = () => {
+    setOpen(!open)
   };
   
-  removeTrailingSlash = (url) => {
-    let stripTrailingSlash = url.slice(0, -1);
-    let to = stripTrailingSlash.lastIndexOf('/');
-        to = to === -1 ? stripTrailingSlash.length : to + 1;
-     return stripTrailingSlash = stripTrailingSlash.substring(0, to); 
-  }
-
-  renderSubMenuItems = (items) => {
+  const renderSubMenuItems = (items) => {
     return items.map((item) => {
       return (
-        <li className={style.Menu__item} key={item.id}><MenuLink title={item.frontmatter.title} path={item.fields.slug} /></li>
+        <li className={style.Menu__item} key={item.node.id}><MenuLink title={item.node.frontmatter.title} path={item.node.fields.slug} /></li>
       );
     });
   };  
 
-  // getNavLinkClass = (path) => {
-     
-  //   return this.props.location.pathname.includes(path)
-  //     ? style["Menu__item--active"]
-  //     : ''
-  // };
+  return( 
+    <li key={item.childLink[0].node.id} className={className} >
+      <MenuLink parent path={item.childLink[0].node.fields.contentType} title={item.parentLink.replace(/-/g, ' ')} collapse={toggleSubMenu} />
+      <ul className={style.Menu__sub} >
+        {renderSubMenuItems(item.childLink)}
+      </ul>
+    </li>
+  )
 
-  render() {
-    
-    const {item} = this.props;
-    const hasCategory = !(item.category === 'null');
-    const categoryUrl = this.removeTrailingSlash(item.component[0].fields.slug);
-    
-    let className = cx({
-        Menu__item: true,
-        'Menu__item--active': this.state.open,
-        '' : !this.state.open
-      });
-    
-    return( 
-      <>
-      
-        {hasCategory ? (
-          
-          <li key={item.component[0].fields.slug} className={className} >
-            <MenuLink parent path={categoryUrl} title={item.category}  collapse={this.toggleSubMenu} />
-            <ul className={style.Menu__sub} >
-              {this.renderSubMenuItems(item.component)}
-            </ul>
-          </li>
-        ) : (
-          null 
-        )}   
-      </>
-    ) 
-  }
 }
 
-
+export default MenuItem;

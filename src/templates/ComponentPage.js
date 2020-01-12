@@ -6,7 +6,6 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
-import _ from 'lodash';
 
 // Export Template for use in CMS preview
 export const ComponentPageTemplate = ({
@@ -47,22 +46,9 @@ const ComponentPage = ({
     examples: allComponentExample.hasOwnProperty('edges')
       ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
       : false
-  }
+   }
   
-  //Get all created components  
-  const components = {
-    categories: allPages.hasOwnProperty('edges')
-      ? allPages.edges.map(category => {
-          return {  ...category.node}
-        })
-      : false
-  }
-   // Sort and arrange them in categories 
-  const componentNavigation = _(components.categories)
-  .chain()
-  .groupBy('frontmatter.category')
-  .map((value, key) => ({ category: key , component: value}))
-  .value()
+  
 
   const breadcrumb = {
     category: page.frontmatter.category,
@@ -75,7 +61,7 @@ const ComponentPage = ({
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
-      menu={componentNavigation}
+      menu={true}
     >
       <ComponentPageTemplate 
         {...page} 
@@ -83,7 +69,6 @@ const ComponentPage = ({
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         tabs={page.frontmatter.tabs}
-        componentNavigation={componentNavigation} 
         category={page.frontmatter.category}
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}

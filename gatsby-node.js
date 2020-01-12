@@ -165,7 +165,7 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
     createNodeField({
       node,
       name: `parent`,
-      value: fileNode.relativeDirectory,
+      value: (parsedFilePath.dir.split("/").pop()).replace(/([A-Z])/g, ' $1')
     })
   }
   // setup html file nodes

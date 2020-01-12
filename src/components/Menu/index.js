@@ -1,7 +1,6 @@
 import React, { useState }  from 'react';
 import MenuItem from './MenuItem';
 import style from './index.module.css';
-import navigation from '../../data/navigation';
 import { Location } from '@reach/router';
 import MenuToggle from '../MenuToggle';
 import cx from 'classnames'
@@ -10,72 +9,60 @@ import { createBreakpoint } from "react-use";
 import AnimationContainer from '../../utils/AnimationCointainer';
 import { useStaticQuery, graphql } from "gatsby"
 import _ from 'lodash';
-import { globalHistory as history } from '@reach/router'
+import { globalHistory } from "@reach/router"
 
 
-const useBreakpoint = createBreakpoint({ M: 982, S:768});
 
+const Menu = ({currentDirectory}) => {
 
-const Menu = ({}) => {
-  const { location, navigate } = history
+  
   const data = useStaticQuery(graphql`
-
-    query Meny{
-      allPages: allMarkdownRemark(
-        sort: { order: ASC, fields: [frontmatter___title] }
-      ){
-      
-        edges {
-          node {
-            id
-            
-            frontmatter {
-              title
-              category
-            }
-            fields {
-              slug
-              parent
+      query Menu {
+        allPages: allMarkdownRemark(
+          filter: { fileAbsolutePath: {regex : "/^((?!index).)*$/"} },
+        ){ 
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+                category
+              }
+              fields {
+                slug
+                contentType
+                parent
+              }
             }
           }
         }
-     
-    }
-   } 
-  `)
-  //Get all created components 
+      }
+    `)
+  
+  const location = globalHistory.location.pathname
+  const useBreakpoint = createBreakpoint({ M: 982, S:768});
 
-  // const na = data.allPages.edges.filter(category => {
-  //   category.node.fields.slug.includes(location.pathname)
-  //   return {  ...category.node}
-  // }) 
-  // const filterItems = (category, query) => {
-  //   return category.node.fields.slug.filter(el => el.toLowerCase().indexOf(query.toLowerCase()) !== -1)
-  // }
-  // const test = filterItems(data.allPages.edges, location.pathname)
-  //console.log('nav', test)
-  const components = {
-    categories: data.allPages.hasOwnProperty('edges')
-      ? data.allPages.edges.map(category => {
-         
-         
-            return {  ...category.node}
-         
-        })
+  if(typeof window !== `undefined`) {
+    currentDirectory = location.split('/');
+    currentDirectory  = currentDirectory.slice(1, 3).join('/') + '/';
+  }
+  
+  
+  const navigationItems = {
+    items: data.allPages.hasOwnProperty('edges')
+      ? data.allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-   // Sort and arrange them in categories 
+
+  const navigationStructure = _(navigationItems.items)
   
-  const componentNavigation = _(components.categories)
   
   .chain()
-  .groupBy('frontmatter.category')
-  .map((value, key) => ({ category: key , component: value}))
+  .groupBy('node.fields.parent')
+  .map((value, key) => ({ parentLink: key,  childLink: value}))
   .value()
-  
-  
-  
-  
+  const navigationStructureSorted = _.orderBy(navigationStructure, [item => item.parentLink.toLowerCase()], ['asc']);
+
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);
@@ -123,7 +110,7 @@ const Menu = ({}) => {
             )
             
           } 
-          <div onClick={handleOverlayClick} className={cx(style.Menu__overlay, (isOpen ? style['Menu__overlay--isVisible'] : '' ))} />
+          <div  onClick={handleOverlayClick} className={cx(style.Menu__overlay, (isOpen ? style['Menu__overlay--isVisible'] : '' ))} />
           
           <Location>
             {({ location }) => {
@@ -134,7 +121,7 @@ const Menu = ({}) => {
                 <AnimationContainer show={isOpenDesktop}>
                 <nav className={cx(style.Menu, (isOpenDesktop ? style['Menu--isOpen'] : '' ))}>
                   <ul className={style.Menu__list}>
-                    {renderMenuItems(componentNavigation, location)}
+                    {renderMenuItems(navigationStructureSorted, location)}
                   </ul>
                 </nav>
                 </AnimationContainer>
@@ -142,7 +129,7 @@ const Menu = ({}) => {
                   
                     <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
                       <ul className={style.Menu__list}>
-                        {renderMenuItems(componentNavigation, location)}
+                        {renderMenuItems(navigationStructureSorted, location)}
                       </ul>
                     </nav>
                   

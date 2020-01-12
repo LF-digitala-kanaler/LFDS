@@ -8,7 +8,6 @@ import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
 import Blockquote from '../components/Blockquote';
 import Content from '../components/Content/';
-import _ from 'lodash';
 
 
 // Export Template for use in CMS preview
@@ -46,23 +45,9 @@ const ComponentGroup = ({ data: { page, allPages },location }) => {
       : false   
   }
   
-  // Get all created components  
-  const components = {
-    categories: allPages.hasOwnProperty('edges')
-      ? allPages.edges.map(category => {
-          return {  ...category.node}
-        })
-      : false
-      
-  }
   
   const componentsLinks = componentsInGroup.links;
   // Sort and arrange them in categories 
-  const componentNavigation = _(components.categories)
-  .chain()
-  .groupBy('frontmatter.category')
-  .map((value, key) => ({ category: key , component: value}))
-  .value()
   
   const breadcrumb = {  
     title: page.frontmatter.title,
@@ -74,8 +59,7 @@ const ComponentGroup = ({ data: { page, allPages },location }) => {
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-      componentNavigation={componentNavigation} 
-      menu={componentNavigation}
+      menu={true}
       breadcrumb={breadcrumb}
       backgroundClass={page.frontmatter.background}
     >
@@ -85,7 +69,6 @@ const ComponentGroup = ({ data: { page, allPages },location }) => {
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
-        componentNavigation={componentNavigation} 
         componentsLinks={componentsLinks}
         contentAbove={page.frontmatter.contentAbove}
         contentBelow={page.frontmatter.contentBelow}

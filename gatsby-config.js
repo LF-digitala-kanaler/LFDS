@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: 'https://lfui-blackwell-9ff8ba.netlify.com/'
   },
   plugins: [
+
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
