@@ -110,7 +110,7 @@ const Menu = ({currentDirectory}) => {
             )
             
           } 
-          <div  onClick={handleOverlayClick} className={cx(style.Menu__overlay, (isOpen ? style['Menu__overlay--isVisible'] : '' ))} />
+          <div role="button" tabIndex={0} onClick={handleOverlayClick} onKeyDown={handleOverlayClick} className={cx(style.Menu__overlay, (isOpen ? style['Menu__overlay--isVisible'] : '' ))} />
           
           <Location>
             {({ location }) => {

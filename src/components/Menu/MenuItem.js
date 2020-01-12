@@ -4,18 +4,19 @@ import MenuLink from './MenuLink';
 import classNames from 'classnames/bind';
 
 let cx = classNames.bind(style);
-    
+  
 const MenuItem = ({item, location}) => {
+  const [open, setOpen] = useState(false);  
   useEffect(() => {
     item.childLink.forEach(function(active){
       if(active.node.fields.slug.match(location.pathname)) {
-        setOpen(!open)
+        setOpen(true)
       }
     })
 
-  }, []);
+  }, [item, location]);
 
-  const [open, setOpen] = useState(false);
+  
   
   const className = cx({
     Menu__item: true,

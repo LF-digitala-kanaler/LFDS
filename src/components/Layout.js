@@ -42,7 +42,7 @@ export default ({
         }
       `}
       render={data => {
-        const { siteTitle, googleTrackingId  } =
+        const { siteTitle  } =     //googleTrackingId
             data.settingsYaml || {}
        
         

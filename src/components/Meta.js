@@ -22,7 +22,7 @@ export default class Meta extends Component {
       url,
       description,
       absoluteImageUrl = '',
-      noindex,
+      // noindex,
       canonicalLink,
       siteTitle,
       googleTrackingId

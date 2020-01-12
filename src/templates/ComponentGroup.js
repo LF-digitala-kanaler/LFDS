@@ -41,6 +41,10 @@ const ComponentGroup = ({ data: { page, allPages },location }) => {
         if(category.node.frontmatter.category === page.frontmatter.title) {
           return {  ...category.node}
         }
+
+        else {
+          return null;
+        }
       })
       : false   
   }

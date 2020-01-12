@@ -41,14 +41,11 @@ class Image extends React.Component {
 
   render() {
     let {
-      background,
       resolutions = '1000x',
       className = '',
       src,
       secSet = '',
       fullSrc,
-      smallSrc,
-      onClick,
       title = '',
       alt = '',
       lazy = true
@@ -58,11 +55,7 @@ class Image extends React.Component {
       fullImage = !isUploadcare || !lazy
 
     /* create source set for images */
-    if (isUploadcare) {
-      secSet = this.imageSizes.map(size => {
-        return `${src}-/progressive/yes/-/format/auto/-/preview/${size}x${size}/-/quality/lightest/${size}.jpg ${size}w`
-      })
-    }
+    
 
     fullSrc = `${src}${
       isUploadcare
@@ -71,13 +64,7 @@ class Image extends React.Component {
           '/'
         : ''
     }`
-    smallSrc = `${src}${
-      isUploadcare ? '-/progressive/yes/-/format/auto/-/resize/10x/' : ''
-    }`
-
-    let style = {}
-    
-
+   
     return (
       <Fragment>
         
@@ -88,7 +75,6 @@ class Image extends React.Component {
                 src={fullSrc}
                 srcSet={secSet}
                 sizes={'100vw'}
-                onClick={onClick}
                 title={title}
                 alt={alt}
               />
