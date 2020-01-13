@@ -8,13 +8,16 @@ let cx = classNames.bind(style);
 const MenuItem = ({item, location}) => {
   const [open, setOpen] = useState(false);  
   useEffect(() => {
-    item.childLink.forEach(function(active){
-      if(active.node.fields.slug.match(location.pathname)) {
+    const url = location.pathname.split('/');
+    
+    item.childLink.filter(function(active){
+     
+      if(active.node.fields.slug.match(location.pathname) && url.length > 4) {
         setOpen(true)
       }
     })
 
-  }, [item, location]);
+  }, []);
 
   
   
