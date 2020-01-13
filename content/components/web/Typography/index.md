@@ -4,7 +4,7 @@ template: ComponentGroup
 title: Typography
 intro: Intro
 contentBelow: '![aef](/img/avatar.svg "faefea")'
-contentAbove: '![](/img/apps.jpg)'
+contentAbove: Bild kan det vara här
 blockquote:
   author: John Doe
   text: >-
