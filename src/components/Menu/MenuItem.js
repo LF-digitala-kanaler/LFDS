@@ -8,16 +8,18 @@ let cx = classNames.bind(style);
 const MenuItem = ({item, location}) => {
   const [open, setOpen] = useState(false);  
   useEffect(() => {
-    const url = location.pathname.split('/');
+    let url = location.pathname.replace(/\/$/, "");
+        url = location.pathname.split('/');
+        url.pop()
     
-    item.childLink.filter(function(active){
-     
-      if(active.node.fields.slug.match(location.pathname) && url.length > 4) {
+    item.childLink.filter((active, ) => {
+      if(active.node.fields.slug.match(location.pathname) && url.length >= 3) {
         setOpen(true)
-      }
-    })
+      } 
+      return null
+    },)
 
-  }, []);
+  }, [item, location]);
 
   
   
