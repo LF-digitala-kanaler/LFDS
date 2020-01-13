@@ -34,7 +34,7 @@ tabs:
       The one-lined input field is the most commonly used input type and is used
       when you want a specific input from the user (such as e-mail, a value or
       subject). Depending on context and amount of space available you can put
-      either one or two one-lined input fields on a row by using _**the grid**_.
+      either one or two one-lined input fields on a row by using **_the grid_**.
       If you place two input fields on the same row they should have the same
       size. See images below for an example.
 
@@ -49,7 +49,9 @@ tabs:
       Two one-lined input fields on a row
 
 
-      **_BILD HÄR_**
+      ![Two one-lined input fields on a row with extra
+      content](/img/two-one-lined-on-a-row.png "Two one-lined input fields on a
+      row")
 
 
       #### Several lines (Textarea)
