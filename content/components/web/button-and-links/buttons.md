@@ -94,7 +94,7 @@ tabs:
   - content: content code
     name: Code
   - content: |-
-      ## hej
+      ## Olika exempel
 
       ![](/img/one-lined-input-field.png)
     name: Exemple
