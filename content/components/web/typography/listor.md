@@ -21,5 +21,7 @@ tabs:
 
       * Only have 3-5 points in one list.
     name: Design
+  - content: text
+    name: Code
 ---
 
