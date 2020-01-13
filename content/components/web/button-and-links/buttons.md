@@ -2,13 +2,13 @@
 template: ComponentPage
 category: Button and Links
 title: Button Primary
-intro: >-
-  Används max en per block (helst per sida) och ska ta mig dit som är mitt
-  huvudsakliga syfte. Finns med och utan pil och tvåradig samt BankID.
 description: >-
   Används max en per block (helst per sida) och ska ta mig dit som är mitt
   huvudsakliga syfte. Finns med och utan pil och tvåradig samt BankID.
 previewImage: /img/button-primary.svg
+intro: >-
+  Används max en per block (helst per sida) och ska ta mig dit som är mitt
+  huvudsakliga syfte. Finns med och utan pil och tvåradig samt BankID.
 backgroundColor: '#fff'
 tabs:
   - content: >-
@@ -93,5 +93,7 @@ tabs:
     name: Copy
   - content: content code
     name: Code
+  - content: '![](/img/two-one-lined-on-a-row.png)'
+    name: Exemple
 ---
 
