@@ -21,8 +21,6 @@ const MenuItem = ({item, location}) => {
 
   }, [item, location]);
 
-  
-  
   const className = cx({
     Menu__item: true,
     'Menu__item--active': open,

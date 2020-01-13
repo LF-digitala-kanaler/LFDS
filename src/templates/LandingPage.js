@@ -6,7 +6,7 @@ import Blockquote from '../components/Blockquote';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardGrid from '../components/CardGrid';
-
+import ChangeLog from '../components/ChangeLog'
 
 // Export Template for use in CMS preview
 export const LandingPageTemplate = ({
@@ -23,6 +23,7 @@ export const LandingPageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
       <CardGrid list={componentCategories}  /> 
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
+      <ChangeLog />
     </Wrapper>
   </>
 )
