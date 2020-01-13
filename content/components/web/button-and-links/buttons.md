@@ -93,7 +93,10 @@ tabs:
     name: Copy
   - content: content code
     name: Code
-  - content: '## hej'
+  - content: |-
+      ## hej
+
+      ![](/img/one-lined-input-field.png)
     name: Exemple
 ---
 
