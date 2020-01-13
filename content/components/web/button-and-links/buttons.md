@@ -93,7 +93,10 @@ tabs:
     name: Copy
   - content: content code
     name: Code
-  - content: '![](/img/two-one-lined-on-a-row.png)'
+  - content: |-
+      ## hej
+
+      ![](/img/two-one-lined-on-a-row.png)
     name: Exemple
 ---
 
