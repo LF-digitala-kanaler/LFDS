@@ -25,7 +25,6 @@ tabs:
       you should take into account).
 
 
-      LFUI has a fully styled dropdown, which makes it technically complex. 
 
 
       Versioner:
@@ -49,7 +48,15 @@ tabs:
       is on a mobile or tablet their devices' native select functionality should
       be used for accessibility reasons. It is important that the custom select
       functionality is disabled and instead use the default native select
-      element when the user is not using the desktop application.
+      element when the user is not using the desktop application. 
+
+
+      ## Styling
+
+
+      The LFUI-styling of the dropdown goes beyond standard styling, which makes
+      it technically complex and your developer friends need to code the
+      dropdown in a somewhat different manner than they are used to.
     name: Design
 ---
 
