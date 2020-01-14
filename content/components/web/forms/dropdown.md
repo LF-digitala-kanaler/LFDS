@@ -14,7 +14,7 @@ tabs:
 
 
       A dropdown provides the user with a number of options from which they are
-      to choose one or several just like [radio buttons](../radio-buttons) and
+      to choose one or several, just like [radio buttons](../radio-buttons) and
       [checkboxes](../checkbox). That means that you as a designer need to
       decide whether to use a dropdown or radio buttons/checkboxes. As a simple
       rule of thumb, use radio buttons/checkboxes if you a have five or fewer
@@ -25,12 +25,29 @@ tabs:
       you should take into account).
 
 
+      We have three main variations of dropdowns, with some common traits:
+
+
+      * There are versions for both a white backdrop and a grey backdrop.
+
+      * They expand upward if the clicked on when and the dropdown won't fit
+      downwards.
+
+      * The max height is ten items, if there are more a scrollbar is added.
+
+
+      ### Variations
+
+
 
 
       Versioner:
 
 
       Vanlig dropdown
+
+
+      \-mod
 
 
       Multi-select\
