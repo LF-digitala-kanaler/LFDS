@@ -25,7 +25,7 @@ tabs:
       you should take into account).
 
 
-      We have three main variations of dropdowns, with some common traits:
+      We have two main variations of dropdowns, with some common traits:
 
 
       * There are versions for both a white backdrop and a grey backdrop.
@@ -35,34 +35,62 @@ tabs:
 
       * The max height is ten items, if there are more a scrollbar is added.
 
-      * Short secondary text can be added to help the user make their choice
-      (this should primarily be used to show price for different options). See
-      picture below for an example:
-        ![Example of a dropdown with price added as secondary text](/img/dropdown-secondary-text.png "Example of a dropdown with price added as secondary text")
+      * You can choose to add (non-selectable) headings to your dropdown, using
+      "option group".
+
+      * A short secondary text can be added to help the user make their choice
+      (this should primarily be used to show price for different options). This
+      text is in a smaller typeface and grey. See picture below for an example:
+
+
+      ![Example of a dropdown with price added as secondary
+      text](/img/dropdown-secondary-text.png "Example of a dropdown with price
+      added as secondary text")
+
 
       ### Variations
 
 
-      #### "Standard" dropdown (select one)
+      #### Select (only) one option
 
 
+      The standard version, which pretty much follows the common traits. The
+      only thing to add that this version works like a radio button in that it
+      only allows the user to select one option. If you want users to be able to
+      choose several options, please use a multi-select dropbox instead.
 
 
-      Versioner:
+      #### Multi-select 
 
 
-      Vanlig dropdown
+      In this version the user can select several options, which means it works
+      like checkboxes. Note that the user doesn't have to choose multiple
+      options. 
 
 
-      \-mod
+      ##### Modifiers
 
 
-      Multi-select\
+      To further customize the  dropdown to your needs you can use one (or both)
+      of the modifiers:
 
-      -modifier: two levels
+
+      **Select all** - Adds an option with select all on top of the actual
+      options.
 
 
-      option groups
+      **Two levels** - Gives you the option to indent some of the options in
+      such a way that you create a hierarchy. If the user selects an option on
+      the top level all items below are selected as well.
+
+
+      This image gives an example of both select all and two levels added to a
+      multi-select dropdown:
+
+
+      ![Multi-select dropdown with both modifiers
+      active](/img/dropdown-select-all-and-subheadings.png "Multi-select
+      dropdown with both modifiers active")
 
 
       ## Please consider
