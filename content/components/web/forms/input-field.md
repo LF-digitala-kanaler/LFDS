@@ -28,25 +28,25 @@ tabs:
       There are several variations of input fields, each is described below.
 
 
-      #### One-lined
+      #### One-lined text input
 
 
-      The one-lined input field is the most commonly used input type and is used
-      when you want a specific input from the user (such as e-mail, a value or
-      subject). Depending on context and amount of space available you can put
-      either one or two one-lined input fields on a row by using **_the grid_**.
-      If you place two input fields on the same row they should have the same
-      size. See images below for an example.
+      The one-lined text input field is the most commonly used input type and is
+      used when you want a specific input from the user (such as e-mail, a value
+      or subject). Depending on context and amount of space available you can
+      put either one or two one-lined input fields on a row by using _**the
+      grid**_. If you place two input fields on the same row they should have
+      the same size. See images below for an example.
 
 
-      A one-lined input field on a row
+      A one-lined text input field on a row
 
 
       ![Example of an input field](/img/one-lined-input-field.png "A one-lined
       input field")
 
 
-      Two one-lined input fields on a row
+      Two one-lined text input fields on a row
 
 
       ![Two one-lined input fields on a row with extra
@@ -54,10 +54,23 @@ tabs:
       row")
 
 
-      #### Several lines (Textarea)
+      #### Text input with several lines (Textarea)
 
 
-      Datepicker
+      If you need a text input field which spans several rows you should use the
+      textarea-component. It is typically (perhaps exclusively) used for message
+      text when the user can write a message to us. Although we set a height
+      when the textarea the user can change the height of the textarea within
+      its column as is web standard - we have however disabled horisontal
+      resizing.
+
+
+      #### Datepicker
+
+
+      Although technically a form of input field as well, the datepicker is
+      treated as a separate component. [Go here](../datepicker) to read about
+      it.
 
 
       Password
