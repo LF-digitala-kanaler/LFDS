@@ -34,8 +34,8 @@ tabs:
       The one-lined text input field is the most commonly used input type and is
       used when you want a specific input from the user (such as e-mail, a value
       or subject). Depending on context and amount of space available you can
-      put either one or two one-lined input fields on a row by using _**the
-      grid**_. If you place two input fields on the same row they should have
+      put either one or two one-lined input fields on a row by using **_the
+      grid_**. If you place two input fields on the same row they should have
       the same size. See images below for an example.
 
 
@@ -54,6 +54,42 @@ tabs:
       row")
 
 
+      ##### Modifiers
+
+
+      The one-lined text input has several modifiers, all described below.
+
+
+      **Datepicker** - Although a form of input field as well from a user
+      perspective, the datepicker is treated as a separate component. [Go
+      here](../datepicker) to read about it.
+
+
+      **Password** - If an input field contains a password or other sensitive
+      data the please use the password modifier. It follows web standards and
+      translates characters into asterisks as they are entered.
+
+
+      **Prefix** - If you need to put a label of sorts prior to the actual input
+      area you can add the modifier "prefix". It might be usable in a context
+      where the user has to enter a twitter handle or URL, but no actual uses of
+      prefix with text are known at time of writing. It is however a technical
+      prerequisite for the more common "prefix as image". 
+
+
+      **Prefix as image** - A version of prefix where the text has been replaced
+      with an image. The most common usage is relation to motor insurances and
+      when users are asked to provide the number plate of the vehicle they want
+      to insure/make a claim on.
+
+
+      **Suffix** - Adds a label to the end of the input field, most commonly the
+      unit (e.g. "kr", "years" and "m2"). 
+
+
+      \sqrt{b^2 - 4ac} \over 2a$
+
+
       #### Text input with several lines (Textarea)
 
 
@@ -63,26 +99,6 @@ tabs:
       when the textarea the user can change the height of the textarea within
       its column as is web standard - we have however disabled horisontal
       resizing.
-
-
-      #### Datepicker
-
-
-      Although technically a form of input field as well, the datepicker is
-      treated as a separate component. [Go here](../datepicker) to read about
-      it.
-
-
-      Password
-
-
-      Prefix
-
-
-      Prefix as image
-
-
-      Suffix
     name: Design
   - content: content code
     name: Code
