@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from 'react';
+import React, { useState, useLayoutEffect}  from 'react';
 import style from './index.module.css';
 import MenuLink from './MenuLink';
 import classNames from 'classnames/bind';
@@ -7,7 +7,7 @@ let cx = classNames.bind(style);
   
 const MenuItem = ({item, location}) => {
   const [open, setOpen] = useState(false);  
-  useEffect(() => {
+  useLayoutEffect(() => {
     let url = location.pathname.replace(/\/$/, "");
         url = location.pathname.split('/');
         url.pop()
@@ -20,6 +20,8 @@ const MenuItem = ({item, location}) => {
     },)
 
   }, [item, location]);
+
+  
 
   const className = cx({
     Menu__item: true,
@@ -38,16 +40,22 @@ const MenuItem = ({item, location}) => {
       );
     });
   };  
-
+  
+  const hasCategory = !(item.parentLink === 'null');
   return( 
-    <li key={item.childLink[0].node.id} className={className} >
-      <MenuLink parent path={item.childLink[0].node.fields.contentType} title={item.parentLink.replace(/-/g, ' ')} collapse={toggleSubMenu} />
-      <ul className={style.Menu__sub} >
-        {renderSubMenuItems(item.childLink)}
-      </ul>
-    </li>
+    hasCategory ? (
+      <li key={item.childLink[0].node.id} className={className} >
+        <MenuLink parent path={item.childLink[0].node.fields.contentType} title={item.parentLink.replace(/-/g, ' ')} collapse={toggleSubMenu} />
+        <ul className={style.Menu__sub} >
+          {renderSubMenuItems(item.childLink)}
+        </ul>
+      </li>
+     ) : (
+      <>{renderSubMenuItems(item.childLink)}</>
   )
-
+  )
 }
 
 export default MenuItem;
+
+

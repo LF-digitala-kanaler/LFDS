@@ -60,7 +60,6 @@ export default ({
               <link href="" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="" />
               <meta name="robots" content="noindex" />
-              {/* Add font link tags here */}
             </Helmet>
 
             <Meta
@@ -69,7 +68,7 @@ export default ({
               {...data.settingsYaml}
             />
 
-           
+            
               <Header 
                 title={data.site.siteMetadata.title} 
                 breadcrumb={breadcrumb}

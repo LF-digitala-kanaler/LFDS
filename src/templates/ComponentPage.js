@@ -31,7 +31,7 @@ export const ComponentPageTemplate = ({
 
 
 const ComponentPage = ({ 
-  data: { page,allPages, allComponentExample },
+  data: { page, allComponentExample },
   location,
   currentDirectory
   
@@ -117,41 +117,6 @@ export const pageQuery = graphql`
           }
         }
       }
-    allPages: allMarkdownRemark(
-      filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
-      sort: { order: ASC, fields: [frontmatter___title] }
-    ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            category
-            title
-            
-          }
-          fields {
-            slug
-            parent
-          }
-        }
-        
-        next {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
-        previous {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
-      }
-    }
+    
   }
 `

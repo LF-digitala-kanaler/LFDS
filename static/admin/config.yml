@@ -24,6 +24,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Category'
         name: 'category'
         widget: 'select'
+        create: true 
         options: 
         - { label: "Button and Links", value: "Button and Links" }
         - { label: "Data Visualization", value: "Data Visualization" }
@@ -54,7 +55,48 @@ collections: # A list of collections the CMS should be able to edi
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
 
-
+  - name: design-page
+    label: Design@LF
+    editor:
+      preview: true
+    folder: content/design/
+    path: '{{category}}/{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: DesignPage, value: DesignPage }
+      - label: 'Category'
+        name: 'category'
+        widget: 'select'
+        options: 
+        - { label: "Getting Started", value: "Getting Started" }
+        - { label: "Brand Identity", value: "Brand Identity" }
+        - { label: "Design Principles", value: "Design Principles" }
+        - { label: "Process", value: "Process" }
+        - { label: "Accessibility", value: "Accessibility" }
+        - { label: "User Testing", value: "User Testing" }
+        - { label: "Motion", value: "Motion" }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      
+  - name: VisualIdentity-page
+    label: Visual Identity
+    editor:
+      preview: true
+    folder: content/visual-identity/
+    path: '{{category}}/{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: VisualIdentityPage, value: VisualIdentityPage }
+      - label: 'Category'
+        name: 'category'
+        widget: 'select'
+        options: 
+        - { label: "Typography", value: "Typography" }
+        - { label: "Graphic elements", value: "Graphic elements" }
+        - { label: "Design dimensions", value: "Design dimensions" }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+       
   - name: component-group
     label: Component Group
     editor:
@@ -93,7 +135,18 @@ collections: # A list of collections the CMS should be able to edi
               - {label: "Text", name: "text", widget: "text", required: false}
               - {label: "Author", name: "author", widget: "string", required: false}
 
-
+  - name: 'changelog'
+    label: 'Change Log'
+    files:
+      - name: 'changelog-page'
+        label: 'Changelog'
+        file: 'content/about/whatsNew/changelog.md'
+        fields: 
+          - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+          - { label: Template, name: template, widget: hidden, default: Changelog, value: Changelog }
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
+  
   - name: 'settings'
     label: 'Settings'
     delete: false # Prevent users from deleting documents in this collection

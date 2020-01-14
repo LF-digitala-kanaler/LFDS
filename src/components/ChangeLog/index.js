@@ -1,9 +1,6 @@
-import React from 'react';
+import React from './node_modules/react';
 import style from './index.module.css';
-import { useStaticQuery, graphql } from "gatsby"
-import _ from 'lodash';
-
-
+import { useStaticQuery, graphql } from "./node_modules/gatsby"
 
 const ChangeLog = ({}) => {
 

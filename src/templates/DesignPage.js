@@ -5,79 +5,69 @@ import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 
-
 // Export Template for use in CMS preview
-export const ChangelogPageTemplate = ({
+export const DesignPageTemplate = ({
   title,
   intro
-  
+
 }) => (
-   
-  <>
-  <Wrapper tag="div" menu={true} narrow={true}>
+  
+  <> 
+    <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-  </Wrapper>
+    </Wrapper>
   </>
 )
-const ChangelogPage = ({ data: { page, log }, location } ) => {
-  console.log(log)
-  const breadcrumb = { 
+const DesignPage = ({ 
+  data: { page },
+  location,
+
+  },) => {
+
+  const breadcrumb = {
+    category: page.frontmatter.category,
     title: page.frontmatter.title,
     location: location
   }
-
+  
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
-      backgroundClass={page.frontmatter.background}
       menu={true}
     >
-      <ChangelogPageTemplate 
+      <DesignPageTemplate 
         {...page} 
-        {...page.frontmatter} 
+        {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
+        category={page.frontmatter.category}
       />
     </Layout>
   )
 }
 
-export default ChangelogPage
+export default DesignPage
+
+
+// Get data from GraphiQL
 
 export const pageQuery = graphql`
+
   
-  
-  query ChangelogPage($id: String!) {
+  query DesignPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      html
+      
       frontmatter {
         title
         intro
-        background
+        template
+        category     
       }
     }
-    log: github {
-     organization(login: "LF-digitala-kanaler") {
-        repository(name: "LFUI") {
-          releases(last: 60, orderBy: {
-            field: CREATED_AT
-            direction: DESC
-          }) {
-            edges {
-              node {
-                name
-                descriptionHTML
-                publishedAt
-                shortDescriptionHTML(limit:100)
-              }
-            }
-          }
-        }
-      }
-    }
-    
   }
 `

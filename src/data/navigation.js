@@ -1,4 +1,10 @@
 const navigation = {
+  "design": {
+    title: "Design@LF",
+    href: "design",
+    id: 53567
+    
+  },
   "components/web": {
     title: "Components",
     href: "components/web",
@@ -11,14 +17,20 @@ const navigation = {
   //   id: 44567
     
   // },
-  "guidelines": {
-    title: "Guidelines",
-    href: "guidelines",
+  "visualidentity": {
+    title: "Visual Identity",
+    href: "visual-identity",
     id: 43567
     
   },
+  "patterns": {
+    title: "Patterns",
+    href: "patterns",
+    id: 23567
+    
+  },
   "about": {
-    title: "About LFUI",
+    title: "About",
     href: "about",
     id: 9456
   }

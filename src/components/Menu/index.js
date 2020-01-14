@@ -44,8 +44,11 @@ const Menu = ({currentDirectory}) => {
 
   if(typeof window !== `undefined`) {
     currentDirectory = location.split('/');
-    currentDirectory  = currentDirectory.slice(1, 3).join('/') + '/';
+    currentDirectory = currentDirectory.filter(item => item);
+    currentDirectory  = currentDirectory.slice(0, 1).join('/');
+    
   }
+  
   
   
   const navigationItems = {
@@ -58,11 +61,11 @@ const Menu = ({currentDirectory}) => {
   
   
   .chain()
-  .groupBy('node.fields.parent')
+  .groupBy('node.frontmatter.category')
   .map((value, key) => ({ parentLink: key,  childLink: value}))
   .value()
   const navigationStructureSorted = _.orderBy(navigationStructure, [item => item.parentLink.toLowerCase()], ['asc']);
-
+  console.log(navigationStructureSorted)
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);

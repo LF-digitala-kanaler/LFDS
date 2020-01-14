@@ -4,7 +4,11 @@ import "../components/_base/index.css"
 import "./cms.css"
 import {ComponentPageTemplate} from '../templates/ComponentPage'
 import {ComponentGroupTemplate} from '../templates/ComponentGroup'
+import { ChangelogPageTemplate } from '../templates/Changelog'
 import { LandingPageTemplate } from '../templates/LandingPage'
+import { DesignPageTemplate } from '../templates/DesignPage'
+import { VisualIdentityPageTemplate } from '../templates/VisualIdentityPage'
+
 // import ComponentPagePreview from './preview-templates/ComponentPreview'
 
 
@@ -30,6 +34,15 @@ CMS.registerPreviewTemplate('component-group', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
   <LandingPageTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
+  <ChangelogPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('design-page', ({ entry }) => (
+  <DesignPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('visualIdentity-page', ({ entry }) => (
+  <VisualIdentityPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
 // CMS.registerPreviewTemplate('component-page', ComponentPagePreview)
 
