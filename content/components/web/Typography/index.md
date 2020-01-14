@@ -3,8 +3,8 @@ background: '#fff'
 template: ComponentGroup
 title: Typography
 intro: Intro
-contentBelow: '![aef](/img/avatar.svg "faefea")'
-contentAbove: '![](/img/apps.jpg)'
+contentBelow: Bild kan det vara här oxå
+contentAbove: Bild kan det vara här
 blockquote:
   author: John Doe
   text: >-

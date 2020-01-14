@@ -2,14 +2,10 @@
 template: ComponentPage
 category: Navigations
 title: Pagination
+description: Paginering är en form av stegräknare. Vilket steg är jag på i köptjänster.
+previewImage: /img/pagination.svg
 intro: Pagination preamble
-previewImage: ''
 backgroundColor: '#f3f3f3'
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
 tabs:
   - content: content code
     name: Code
@@ -18,3 +14,4 @@ tabs:
   - content: content code
     name: Code
 ---
+
