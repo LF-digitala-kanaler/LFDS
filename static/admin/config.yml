@@ -67,6 +67,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Category'
         name: 'category'
         widget: 'select'
+        required: false
         options: 
         - { label: "Getting Started", value: "Getting Started" }
         - { label: "Brand Identity", value: "Brand Identity" }
@@ -90,6 +91,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Category'
         name: 'category'
         widget: 'select'
+        required: false
         options: 
         - { label: "Typography", value: "Typography" }
         - { label: "Graphic elements", value: "Graphic elements" }
