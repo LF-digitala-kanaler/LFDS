@@ -135,6 +135,13 @@ tabs:
 
       Visually the card is dominated by an icon. The icon is complemented by a
       radio button in the top left corner and a label below the icon.
+
+
+      ## Please consider
+
+
+      If you have more than five options you are probably better off using a
+      [dropdown](../dropdown).
     name: Design
 ---
 
