@@ -35,8 +35,15 @@ tabs:
 
       * The max height is ten items, if there are more a scrollbar is added.
 
+      * Short secondary text can be added to help the user make their choice
+      (this should primarily be used to show price for different options). See
+      picture below for an example:
+        ![Example of a dropdown with price added as secondary text](/img/dropdown-secondary-text.png "Example of a dropdown with price added as secondary text")
 
       ### Variations
+
+
+      #### "Standard" dropdown (select one)
 
 
 
