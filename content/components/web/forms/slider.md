@@ -75,6 +75,18 @@ tabs:
       possible use case for this is in planning when to withdraw money from a
       pension, and to see how the available amount changes depending on the
       number of years a withdrawal is done for.
+
+
+      All modifiers available for the regular slider are also available for the
+      interval slider.
+
+
+      ## Please consider
+
+
+      Although a great component when used correctly, there are more
+      accessibility challenges than with most other web components, so don't
+      overuse it! And please use the adjacent input field!
     name: Design
   - content: |-
       content code
