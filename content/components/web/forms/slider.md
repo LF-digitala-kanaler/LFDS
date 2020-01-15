@@ -26,7 +26,7 @@ tabs:
       ### Modifiers
 
 
-      There are four modifiers available for the slider (they also work for the
+      There are three modifiers available for the slider (they also work for the
       interval variation of the slider):
 
 
@@ -46,25 +46,35 @@ tabs:
       #### Labels
 
 
-      In many cases you might want to add labels to your slider which indicate
-      minimum and maximal values which can be chosen from. This
+      In many cases you might want to add labels next to your slider, for
+      example to indicate minimum and maximal values which can be chosen from.
+      This modifier does that for you! You can even choose to add a label on
+      only one side if that is your best option.
 
 
-      två varianter: \
-
-      ett intervall
-
-
-      modifiers: med inputruta (starkt rekommenderat)
+      If you're tight on space the **distribution label** might be your main
+      option. It adds the values over the top of the slider with arrows pointing
+      to the start and end of the slider.
 
 
-      labels
+      #### Slider on different background colours
 
 
-      pointer-labels
+      The default slider only works on a white background, but there is a
+      version for a grey background as well. If needed, the code section also
+      includes instructions on how to create versions for other background
+      colours.
 
 
-      grå bakgrund
+      ### Variation: Interval slider
+
+
+      If you need the user the select an interval rather than a specific value
+      this is the variation for you. Instead of having one slider it has two,
+      and the value between is what is in focus and highlighted designwise. A
+      possible use case for this is in planning when to withdraw money from a
+      pension, and to see how the available amount changes depending on the
+      number of years a withdrawal is done for.
     name: Design
   - content: |-
       content code
