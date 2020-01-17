@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="437px" height="72px" viewBox="0 0 437 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Ex-secondary</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Ex-secondary" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="437" height="72"></rect>
+        <g id="Button/Secondary/_default" transform="translate(173.000000, 14.000000)">
+            <rect id="bg" stroke="#00427A" stroke-width="2" x="1" y="1" width="128" height="38"></rect>
+            <text id="action" font-family="IntroCond-Bold, Intro Cond" font-size="18" font-style="condensed" font-weight="bold" line-spacing="18" fill="#00427A">
+                <tspan x="14" y="30">Take me there</tspan>
+            </text>
+        </g>
+        <g id="Button/Secondary/Bigger" transform="translate(10.000000, 14.000000)">
+            <rect id="bg" stroke="#00427A" stroke-width="2" x="1" y="1" width="148" height="42"></rect>
+            <text id="action" font-family="IntroCond-Bold, Intro Cond" font-size="20" font-style="condensed" font-weight="bold" line-spacing="20" fill="#00427A">
+                <tspan x="18" y="29">Take me there</tspan>
+            </text>
+        </g>
+        <g id="Button/Secondary/Smaller/" transform="translate(316.000000, 14.000000)">
+            <path d="M1,1 L1,31 L110,31 L110,1 L1,1 Z" id="bg" stroke="#00427A" stroke-width="2"></path>
+            <text id="action" font-family="IntroCond-Bold, Intro Cond" font-size="16" font-style="condensed" font-weight="bold" line-spacing="16" fill="#00427A">
+                <tspan x="10" y="24">Take me there</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
