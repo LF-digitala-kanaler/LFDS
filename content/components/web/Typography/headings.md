@@ -8,6 +8,9 @@ intro: Hur använder vi rubriker och vilka rubriker finns?
 backgroundColor: '#fff'
 tabs:
   - content: >-
+      imageWithBackground /img/apps.jpg
+
+
       ## How to use
 
 
