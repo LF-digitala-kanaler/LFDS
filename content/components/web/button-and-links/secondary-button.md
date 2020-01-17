@@ -2,13 +2,13 @@
 template: ComponentPage
 category: Button and Links
 title: Button Secondary
-intro: >-
-  A outlined variant of button is best suited for less important/secondary
-  actions.
 description: >-
   A outlined variant of button is best suited for less important/secondary
   actions.
 previewImage: /img/button-secondary.svg
+intro: >-
+  A outlined variant of button is best suited for less important/secondary
+  actions.
 backgroundColor: '#fff'
 tabs:
   - content: >-
@@ -45,6 +45,10 @@ tabs:
       Small används oftast i köptjänster eller formulär för att få plats i olika
       kontext. Default används ofta bredvid primär knapp eller inputfält för att
       ha samma höjd. Bigger används inte så ofta.
+
+
+      ![Alla olika storlekar på secondary button](/img/ex-secondary.svg
+      "Diffrent sizes")
 
 
       ### Secondary button with arrow
