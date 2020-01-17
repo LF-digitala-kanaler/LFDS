@@ -93,10 +93,7 @@ tabs:
     name: Copy
   - content: content code
     name: Code
-  - content: |-
-      ## Olika exempel
-
-      ![](/img/one-lined-input-field.png)
+  - content: '## Olika exempel'
     name: Exemple
 ---
 
