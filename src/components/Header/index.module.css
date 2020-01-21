@@ -1,7 +1,7 @@
 :root {
   
   --header-background: var(--color-white);
-  --header-width: var(--wrapper-width);
+  --header-width: var(--content-width);
   --header-border-color: var(--color-border);
 }
 
@@ -12,12 +12,12 @@
   position: relative;
   z-index: 3;
   
-  @media (--small-viewport-down) {
+  @media (--medium-viewport-down) {
     display: flex;
     flex-direction: column-reverse;
    
   }
-  @media (--small-viewport) {
+  @media (--medium-viewport) {
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,39 +32,29 @@
   margin-right: auto;
   display: flex;
   
-  @media (--small-viewport) { 
-    justify-content: flex-end;
-  }
+ 
   @media (--medium-viewport) { 
-    margin-left: calc(var(--sidebar-width) + var(--spacing-xxlg));;
-  }
-  @media (--xlarge-viewport) { 
-    justify-content: flex-end;
-    max-width: var(--header-width);
-  }
-  @media (--xxlarge-viewport) { 
-    margin-left: auto;
+    margin-left: calc(26% + var(--spacing-xxlg));
     margin-right: auto;
-   
+    max-width: var(--header-width);
+   justify-content: flex-end;
   }
+
+  
 }
 
 .Header__wrapper--last {
   justify-content: space-between;
  
-
-  @media (--medium-viewport) {  
+  @media (--large-viewport) {  
     position: relative;
-    
   }
-  
-  
 }
 
 .Header__container {
   display: flex;
 
-  @media (--small-viewport) {  
+  @media (--medium-viewport) {  
     position: relative;
   }
 }
@@ -72,7 +62,7 @@
 .Header__container--last {
   justify-content: space-between;
   border-bottom: 2px solid var(--header-border-color);
-   @media (--small-viewport) { 
+   @media (--medium-viewport) { 
       border-top: 2px solid var(--header-border-color);
       border-bottom: 0;
       min-height: 3rem;
@@ -89,17 +79,17 @@
   color: var(--color-black);
   display: flex;
   
-  @media (--small-viewport-down) {
+  @media (--medium-viewport-down) {
     top:12px;
   }
 
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     height: 100%;
   }
 
 }
 .Header__title--offset {
-  @media (--small-viewport-down) {
+  @media (--medium-viewport-down) {
     left: 48px;
   }
 }

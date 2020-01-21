@@ -6,6 +6,7 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
+import { Location } from "@reach/router";
 
 // Export Template for use in CMS preview
 export const ComponentPageTemplate = ({
@@ -18,12 +19,19 @@ export const ComponentPageTemplate = ({
 }) => (
   
   <> 
-    <Wrapper tag="div" menu={true}>
+    <Wrapper tag="div" menu={true} narrow={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}  />}
     </Wrapper>
-    {tabs != null && <TabsWrapper tabs={tabs} /> }
+    {
+      tabs != null && 
+      <Location>
+        {({ location, navigate }) => (
+          <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
+        )}
+      </Location>
+    }
    
 
   </>
@@ -47,8 +55,6 @@ const ComponentPage = ({
       ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
       : false
    }
-  
-  
 
   const breadcrumb = {
     category: page.frontmatter.category,

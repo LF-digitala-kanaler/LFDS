@@ -40,7 +40,7 @@ const Menu = ({currentDirectory}) => {
     `)
   
   const location = globalHistory.location.pathname
-  const useBreakpoint = createBreakpoint({ M: 982, S:768});
+  const useBreakpoint = createBreakpoint({ M: 1024, S: 768});
 
   if(typeof window !== `undefined`) {
     currentDirectory = location.split('/');
@@ -65,7 +65,6 @@ const Menu = ({currentDirectory}) => {
   .map((value, key) => ({ parentLink: key,  childLink: value}))
   .value()
   const navigationStructureSorted = _.orderBy(navigationStructure, [item => item.parentLink.toLowerCase()], ['asc']);
-  console.log(navigationStructureSorted)
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);

@@ -1,28 +1,61 @@
 /* Netlify wysiwyg styling*/
 
-.Content {
+/* .Content {
   @media (--medium-viewport) { 
     max-width: var(--content-width--narrow);
   }
-}
+} */
 
 .Content h2{
   font-size: 2.5rem;
   line-height: 1;
-  margin-bottom: var(--spacing-vertical--1);
-  margin-top: var(--spacing-vertical--3);
+  margin-bottom: var(--spacing-vertical--05);
+  margin-top: var(--spacing-vertical--2);
 }
 
 .Content h3{
   font-size: 2rem;
   line-height: 1;
-  margin-bottom: var(--spacing-vertical--1);
-  margin-top: var(--spacing-vertical--3);
+  margin-bottom: var(--spacing-vertical--05);
+  margin-top: var(--spacing-vertical--2);
 }
 
 .Content h4{
   font-size: 1.5rem;
   line-height: 1;
+  margin-bottom: var(--spacing-vertical--05);
+  margin-top: var(--spacing-vertical--2);
+}
+.Content h5{
+  font-size: 1rem;
+  line-height: 1;
   margin-bottom: var(--spacing-vertical--1);
   margin-top: var(--spacing-vertical--3);
 }
+
+.Content--Image {
+  max-width: 100%;
+}
+
+.Content a {
+  color: var(--color-black);
+}
+
+
+
+.Content ul {
+  list-style-type: none;
+}
+.Content ul li::before {
+  content: "\2022";  
+  color: var(--color-red); 
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+  vertical-align: bottom;
+}
+  

@@ -1,30 +1,87 @@
 .Card {
   text-decoration: none;
   color: var(--color-black);
-  margin-bottom: var(--spacing-vertical--2);
+  display: block;
+  padding: 16px;
+  transition: box-shadow 0.3s ease-in;
+  
+  @media (--medium-viewport) { 
+    &:hover {
+      box-shadow: inset var(--color-smoke) 0 0 0 3px;
+    }
+  }
+}
+
+.Card--list {
+  @media (--medium-viewport) { 
+    &:hover {
+      box-shadow: inset var(--color-smoke) 0 0 0 2px;
+    }
+  }
 }
 
 .Card__wrapper {
   width: 100%;
   display: flex;
+  
 }
 
 .Card__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.13;
   margin-bottom: var(--spacing-vertical--05);
+  text-align: left;
+
+  @media (--medium-viewport) { 
+    font-size: 2rem;
+  }
 }
 .Card__title--small {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: var(--spacing-vertical--05);
+  @media (--large-viewport) { 
+    font-size: 1.5rem;
+  }
 }
+
 .Card__image {
-  margin-right: var(--spacing-lg);
+  margin: 0;
+}
+
+.Card__object {
+  width: 100%;
+  max-width: 100%;
+}
+
+.Card__image--spacing {
+    margin-right: var(--spacing-lg);
 }
 
 .Card__description {
+  
   @media (--small-viewport) { 
     max-width: 33rem;
   }
   
+}
+
+.Card--list .Card__image {
+  @media (--small-viewport-down) { 
+    width: 33%;
+  }
+  
+}
+.Card--list  .Card__object {
+  width: auto;
+  max-width: none;
+  @media (--medium-viewport-down) { 
+    width: 100%;
+    max-width: 100%;
+  }
+} 
+
+.Card__body {
+  @media (--small-viewport-down) { 
+    width: 66%;
+  }
 }

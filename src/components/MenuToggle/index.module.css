@@ -5,10 +5,10 @@
   --menuToggle-path-height: 3px;
   --menuToggle-active-background: var(--color-smoke);
   
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     --menuToggle--spacing: var(--spacing-sm) var(--spacing-md) var(--spacing-sm) var(--spacing-lg);
   }
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     --menuToggle-path-height: 2px;
   }
 }
@@ -28,24 +28,23 @@
     content:'';
   }
 
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     border-right: 2px solid var(--color-border);
     display: flex;
     align-items: center;
-    width: calc(var(--sidebar-width) / 2);
+    width: calc(var(--sidebar-width) - 2px);
     font-size: var(--baseline-font-size); 
     margin-left: 2px;
-  }
-
-  @media (--medium-viewport) { 
     position: absolute;
-    width: calc(var(--sidebar-width) - 2px);
     height: 100%;
   }
+   @media (--large-viewport) { 
+      
+   }
 }
 .MenuToggle--isActive {
   
-  @media (--small-viewport-down) { 
+  @media (--medium-viewport-down) { 
     &:after {
       background: var(--menuToggle-active-background);
       position: absolute;
@@ -57,7 +56,7 @@
       width: 100%;
     }
 
-    @media (--small-viewport) { 
+    @media (--medium-viewport) { 
       &:after {
         width: 2.5rem;
         left: 16px;
@@ -123,7 +122,7 @@
   display: block;
 
   
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     margin-left: var(--spacing-sm);
     margin-top: 0;
   }

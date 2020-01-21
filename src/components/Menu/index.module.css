@@ -10,8 +10,8 @@
     --menu-active: var(--color-red);
     --menu-active-background: var(--color-smoke);
 
-    @media (--small-viewport) { 
-       --menu-offset: 7.9rem;
+    @media (--medium-viewport) { 
+       --menu-offset: calc(7.9rem + 1px);
     }
 }
 
