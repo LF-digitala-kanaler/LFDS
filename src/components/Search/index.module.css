@@ -10,7 +10,7 @@
   margin-top: 2px;
   display: block;
 
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
      margin-left: var(--spacing-xs);
     
   }
@@ -23,7 +23,7 @@
   font-size: 0.5rem;
   color: var(--color-black);
 
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     display: flex;
     align-items: center;
     font-size: var(--baseline-font-size);

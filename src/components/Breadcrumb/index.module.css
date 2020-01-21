@@ -6,20 +6,17 @@
 .Breadcrumb {
   display: none;
 
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     list-style-type: none;
     display: flex;
     padding: var(--breadcrumb-spacing);
-    margin-left: var(--spacing-md)
+    
   }
-  @media (--medium-viewport) { 
-    margin-left: 0;
-  }
-
+ 
 }
 
 .Breadcrumb__item:not(:last-child) {
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     &:after {
       content: '/';
       margin-right: var(--spacing-xs);
@@ -29,8 +26,9 @@
   
 }
 .Breadcrumb__link {
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     text-decoration: none;
     color: var(--color-black);
+    text-transform: capitalize;
   }
 }

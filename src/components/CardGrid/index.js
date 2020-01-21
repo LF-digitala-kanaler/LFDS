@@ -1,14 +1,22 @@
 import React from 'react';
 import Card from '../Card';
-import { Grid, Cell } from "styled-css-grid";
+import style from './index.module.css';
 
 const CardGrid = ({list}) => {
 
   const cardItems = list.map((item) => 
-    <Cell key={item.id}><Card grid={true}  title={item.frontmatter.title} url={item.fields.slug.replace(/\/$/, "")} image={item.frontmatter.previewImage}  /></Cell>
+    <div className={style.CardGrid__item}>
+      <Card 
+        grid={true}  
+        title={item.frontmatter.title} 
+        url={item.fields.slug.replace(/\/$/, "")} 
+        image={item.frontmatter.previewImage}  
+      />
+    </div>
   );
+  
   return (
-    <Grid columns={3} gap="44px">{cardItems}</Grid>
+    <div className={style.CardGrid}>{cardItems}</div>
   )
 }
 

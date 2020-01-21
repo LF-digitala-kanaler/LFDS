@@ -2,9 +2,11 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
-
 const cssLoaderRe = /\/css-loader\//
 const targetFile = `.module.css`
+
+
+
 const processRule = rule => {
   if (rule.oneOf) {
     return {
@@ -127,7 +129,7 @@ exports.createPages = async ({ actions, graphql }) => {
 
 exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createContentDigest, createNodeId }) => {
   const { createNodeField, createNode } = actions
-
+  
   // convert frontmatter images
   fmImagesToRelative(node)
 
@@ -167,6 +169,7 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
       name: `parent`,
       value: (parsedFilePath.dir.split("/").pop()).replace(/([A-Z])/g, ' $1')
     })
+    
   }
   // setup html file nodes
   if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {

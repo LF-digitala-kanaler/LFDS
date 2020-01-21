@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import PropTypes from 'prop-types'
 
 
 class Image extends React.Component {
@@ -74,7 +73,7 @@ class Image extends React.Component {
                 className={`${className}`}
                 src={fullSrc}
                 srcSet={secSet}
-                sizes={'100vw'}
+                // sizes={'100vw'}
                 title={title}
                 alt={alt}
               />
@@ -86,8 +85,6 @@ class Image extends React.Component {
   }
 }
 
-Image.propTypes = {
-  alt: PropTypes.string.isRequired
-}
+
 
 export default Image

@@ -40,7 +40,7 @@
 }
 
 .Tabs__link { 
-  padding: calc(var(--spacing-vertical--1) / 2) var(--spacing-vertical--1);
+  padding: calc(var(--spacing-vertical--1) / 2) var(--spacing-xxlg);
   text-decoration: none;
   border: 0;
   color: var(--tabs-color);

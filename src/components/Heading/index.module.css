@@ -1,13 +1,20 @@
 
+:root {
+  
+}
 .Heading {
   font-weight: var(--font-weight-normal);
 }
 
 .Heading--1 {
-  font-size: 3.75rem;
+   /* @media (--medium-viewport) { 
+  --minFontSize: 1.5rem;
+  --maxFontSize: 3.75rem;
+  --scaler: 10vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize)); */
+  font-size: 3.75em;
   margin-bottom: var(--spacing-vertical--1);
   line-height: 1;
-  font-size: 3.75rem;
 }
 
 /* .Heading--2 {

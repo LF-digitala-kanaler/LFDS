@@ -2,11 +2,12 @@
 
 @custom-media --small-viewport (width > 48rem);
 @custom-media --small-viewport-down (width < 48rem);
-@custom-media --medium-viewport (width > 64rem); 
-@custom-media --large-viewport (width > 75rem);
-@custom-media --large-viewport-down (width < 75rem);
-@custom-media --xlarge-viewport (width > 81.25rem);
-@custom-media --xlarge-viewport-down (width < 81.25rem);
+@custom-media --medium-viewport (width >= 64rem); 
+@custom-media --medium-viewport-down (width < 64rem); 
+@custom-media --large-viewport (width > 70rem);
+@custom-media --large-viewport-down (width < 70rem);
+@custom-media --xlarge-viewport (width > 83.75rem);
+@custom-media --xlarge-viewport-down (width < 83.75rem);
 @custom-media --xxlarge-viewport (width > 96.875rem);
 @custom-media --xxlarge-viewport-down (width < 96.875rem);
 :root {
@@ -28,7 +29,7 @@
 
   --color-border: var(--color-shadow);
 
-  --baseline: 1.31;
+  --baseline: 1.3152;
   --baseline-font-size: 1rem;
   
   --spacing-unit: 1rem;
@@ -42,7 +43,9 @@
   --spacing-vertical--05: calc(0.5 * var(--baseline) * 1rem);
   --spacing-vertical--1: calc(1 * var(--baseline) * 1rem);
   --spacing-vertical--2: calc(2 * var(--baseline) * 1rem);
+  --spacing-vertical--25: calc(2.5 * var(--baseline) * 1rem);
   --spacing-vertical--3: calc(3 * var(--baseline) * 1rem);
+
 
   --breakpoint-1: 48rem;
   --breakpoint-2: 62rem;
@@ -50,10 +53,10 @@
   
   --sidebar-width: 17.375rem;
 
-  --content-width: 64rem; 
-  --content-width--narrow: 47.3125rem; 
+  --content-width: 60.625rem; 
+  --content-width--narrow: 47.5rem; 
 
-  --hedader-height: 7.75rem;
+  --header-height: 7.75rem;
 }
 
 
@@ -79,13 +82,12 @@ body {
   font-family: var(--font-family-base);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
   line-height: var(--baseline);
   background-color: var(--color-smoke);
-  
-  @media (--small-viewport) {
+  min-height: 100vh;
+  @media (--medium-viewport) {
     /* fixed header */
-    padding-top: calc(var(--hedader-height) + var(--spacing-vertical--2));
+    padding-top: calc(var(--header-height) + var(--spacing-vertical--2));
   }
 }
 
@@ -103,6 +105,7 @@ h1,h2,h3,h4,h5,h6 {
 p {
   margin-top: 0;
   margin-bottom: var(--spacing-vertical--1);
+  line-height: var(--baseline);
 }
 button {
   -webkit-appearance: none;
@@ -111,6 +114,13 @@ button {
 #___gatsby,
 div[role="group"][tabindex] {
   height: 100%;
+  min-height: 100vh;
+  display:flex; 
+  flex-direction:column;
+
+   @media (--medium-viewport) { 
+     min-height: calc(100vh - (var(--header-height) + var(--spacing-vertical--2)));
+   }
 }
 
 /* white background class  */

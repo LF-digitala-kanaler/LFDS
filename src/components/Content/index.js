@@ -25,7 +25,7 @@ const withContentImages = source => {
       images[i],
       ReactDOMServer.renderToStaticMarkup(
         <PreviewCompatibleImage
-          resolutions="medium"
+          resolutions="large"
           className="Content--Image"
           lazy={false}
           src={src ? src[1] : null}
@@ -44,7 +44,7 @@ const MyImage = ({ nodeKey, src, title, alt }) => {
   return (
     <PreviewCompatibleImage
       className="Content--Image markdown-preview"
-      resolutions="medium"
+      resolutions="large"
       lazy={false}
       src={decodedSrc}
     />
@@ -64,6 +64,8 @@ const HtmlBlock = ({ value }) => {
 }
 
 const Content = ({ source, src, className = '' }) => {
+
+  
   // accepts either html or markdown
   source = source || src || ''
   if (source.match(/^</)) {

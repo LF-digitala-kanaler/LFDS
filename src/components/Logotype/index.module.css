@@ -3,7 +3,7 @@
   height: 2rem;
   max-width: 100%;
   
-  @media (--small-viewport) { 
+  @media (--medium-viewport) { 
     width: 2.5rem;
     height: 2.5rem;
   }

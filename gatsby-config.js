@@ -85,8 +85,7 @@ module.exports = {
       }
     },
     // images
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -108,6 +107,8 @@ module.exports = {
               maxWidth: 2048,
             },
           },
+          
+          'gatsby-remark-autolink-headers',
           {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
@@ -117,7 +118,8 @@ module.exports = {
         ]
       }
     },
-
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
