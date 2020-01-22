@@ -25,14 +25,22 @@
     height: 100%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    z-index: 3;
+    z-index: 1300;
     transform: translateX(-100%);
     transition: 0.4s transform cubic-bezier(.4,0,.2,1);
-
+    overflow-x: hidden;
+    padding-bottom: 120px;
      @media (--medium-viewport) { 
-        bottom: 0;
-        padding-bottom: 6px;
+        padding-bottom: 190px;
     }
+}
+
+.Menu::-webkit-scrollbar { 
+  @media (--medium-viewport-down) {
+    width: 0 !important;
+    height: 0;
+    display: none;
+  }
 }
 
 .Menu--isOpen {
@@ -44,7 +52,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+} 
 
 .Menu__item {
     position: relative;
@@ -67,6 +75,7 @@
         transition: opacity .3s cubic-bezier(.4,0,.2,1);
         pointer-events: none;
         z-index: -1;
+        touch-action: none;
     }
 }
 .Menu__overlay--isVisible {

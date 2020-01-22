@@ -4,7 +4,7 @@ import style from './index.module.css';
 import { Location } from '@reach/router';
 import MenuToggle from '../MenuToggle';
 import cx from 'classnames'
-import {useLockBodyScroll, useToggle} from 'react-use';
+import { useToggle} from 'react-use';
 import { createBreakpoint } from "react-use";
 import AnimationContainer from '../../utils/AnimationCointainer';
 import { useStaticQuery, graphql } from "gatsby"
@@ -68,13 +68,13 @@ const Menu = ({currentDirectory}) => {
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);
-  const [locked, toggleLocked] = useToggle(false)
+
   
-  useLockBodyScroll(locked);
+
 
   const handleOnClick = () => {
     setOpen(!isOpen)
-    toggleLocked()
+    document.body.style.overflow = 'hidden';
      
   }
   const handleOnClickDesktop = () => {
@@ -83,7 +83,7 @@ const Menu = ({currentDirectory}) => {
   
   const handleOverlayClick = () => {
     setOpen(false)
-    toggleLocked()
+    document.body.style.overflow = 'unset';
      
   }
 
@@ -130,9 +130,11 @@ const Menu = ({currentDirectory}) => {
                 ) : (
                   
                     <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
-                      <ul className={style.Menu__list}>
-                        {renderMenuItems(navigationStructureSorted, location)}
-                      </ul>
+                       
+                        <ul className={style.Menu__list}>
+                          {renderMenuItems(navigationStructureSorted, location)}
+                        </ul>
+                      
                     </nav>
                   
                 ) 
