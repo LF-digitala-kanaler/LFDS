@@ -10,9 +10,9 @@ import Search from '../Search';
 import cx from 'classnames';
 // import ToggleSwitch from '../ToggleSwitch';
 
-const Header = ({ title, breadcrumb, menu }) => {
+const Header = ({ title, breadcrumb, menu, location }) => {
 //  add exception if no meny
-  
+  console.log(location, 'head')
   return(
   <header className={style.Header}>
     <div className={style.Header__container}>

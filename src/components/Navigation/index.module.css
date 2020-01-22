@@ -1,5 +1,5 @@
 :root {
-  --navigation-spacing: var(--spacing-unit) 0;
+  --navigation-spacing: var(--spacing-unit);
   --navigation-color: var(--color-body);
   --navigation-active: var(--color-red);
   --navigation-active-background: var(--color-smoke);
@@ -21,13 +21,27 @@
   margin: 0;
   position: relative;
   z-index: 1;
-  padding-left: 0;
   
-
+  
   @media (--medium-viewport-down) {
     align-items: stretch;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    padding-left: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    padding-bottom: 2px;
   }
 
+}
+.Navigation__list::-webkit-scrollbar { 
+  @media (--medium-viewport-down) {
+    width: 0 !important;
+    height: 0;
+    display: none;
+  }
 }
 
 .Navigation__item {

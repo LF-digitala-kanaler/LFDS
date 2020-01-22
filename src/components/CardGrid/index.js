@@ -5,7 +5,7 @@ import style from './index.module.css';
 const CardGrid = ({list}) => {
 
   const cardItems = list.map((item) => 
-    <div className={style.CardGrid__item}>
+    <div className={style.CardGrid__item} key={item.frontmatter.title}>
       <Card 
         grid={true}  
         title={item.frontmatter.title} 
@@ -14,7 +14,6 @@ const CardGrid = ({list}) => {
       />
     </div>
   );
-  
   return (
     <div className={style.CardGrid}>{cardItems}</div>
   )
