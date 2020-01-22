@@ -5,7 +5,7 @@
     --menu-spacing: var(--spacing-unit);
     --menu-trigger-width: 12px;
     --menu-trigger-height:12px;
-    --menu-offset: 7.0625rem;
+    --menu-offset: calc(7.0625rem + 1px);
     --menu-overlay: rgba(34,34,34, 0.69);
     --menu-active: var(--color-red);
     --menu-active-background: var(--color-smoke);
@@ -28,14 +28,17 @@
     z-index: 3;
     transform: translateX(-100%);
     transition: 0.4s transform cubic-bezier(.4,0,.2,1);
-    
 
+     @media (--medium-viewport) { 
+        bottom: 0;
+        padding-bottom: 6px;
+    }
 }
- .Menu--isOpen {
+
+.Menu--isOpen {
     transform: translateX(0);
-    
     transition: 0.4s transform cubic-bezier(.4,0,.2,1);
- }
+}
 
 .Menu__list {
     list-style-type: none;
