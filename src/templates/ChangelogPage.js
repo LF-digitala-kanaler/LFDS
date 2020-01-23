@@ -59,25 +59,28 @@ export const pageQuery = graphql`
         background
       }
     }
-    log: github {
-     organization(login: "LF-digitala-kanaler") {
-        repository(name: "LFUI") {
-          releases(last: 60, orderBy: {
-            field: CREATED_AT
-            direction: DESC
-          }) {
-            edges {
-              node {
-                name
-                descriptionHTML
-                publishedAt
-                shortDescriptionHTML(limit:100)
-              }
-            }
-          }
-        }
-      }
-    }
+    
     
   }
 `
+
+
+// log: github {
+//      organization(login: "LF-digitala-kanaler") {
+//         repository(name: "LFUI") {
+//           releases(last: 60, orderBy: {
+//             field: CREATED_AT
+//             direction: DESC
+//           }) {
+//             edges {
+//               node {
+//                 name
+//                 descriptionHTML
+//                 publishedAt
+//                 shortDescriptionHTML(limit:100)
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
