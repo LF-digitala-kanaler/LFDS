@@ -1,6 +1,6 @@
 ---
 background: bg-white
-template: LandingPage
+template: ComponentLandingPage
 title: Components
 intro: >-
   The page content section contains components which are used in-page to display

@@ -2,7 +2,7 @@
     --menu-color: var(--color-body);
     --menu-border: 2px solid var(--wireframe-color);
     --menu-width: var(--sidebar-width);
-    --menu-spacing: var(--spacing-unit);
+    --menu-spacing: var(--spacing-unit) var(--spacing-unit) calc(var(--spacing-unit) - 1px);
     --menu-trigger-width: 12px;
     --menu-trigger-height:12px;
     --menu-offset: calc(7.0625rem + 1px);
@@ -126,7 +126,7 @@
     cursor: pointer;
     
 }
-
+.Menu__item--active  .Menu__trigger,
 .Menu__trigger:hover,
 .Menu__trigger:focus  {
     background-color: var(--color-smoke);

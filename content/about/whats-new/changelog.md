@@ -1,8 +1,5 @@
 ---
-template: Changelog
+template: ChangelogPage
 title: Changelog
 intro: ''
-meta:
-  description: This is a meta description.
-  title: LFUI
 ---

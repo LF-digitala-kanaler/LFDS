@@ -10,7 +10,6 @@
   
 }
 .CodeBlock__code {
-  padding: var(--codeBlock-spacing);
   display: block;
   font-family: var( --font-family-base);
   white-space: pre-wrap;

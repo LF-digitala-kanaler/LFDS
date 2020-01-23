@@ -18,20 +18,18 @@
   margin-left: var(--spacing-md);
   margin-right: var(--spacing-md);
   @media (--medium-viewport) { 
-    margin-left: calc(var(--sidebar-width) + var(--spacing-xxlg));
+    margin-left: calc(26% + var(--spacing-xxlg));
     margin-right: var(--spacing-xxlg);
   }
   @media (--xlarge-viewport) { 
     max-width: var(--wrapper-width);
   }
-  @media (--xxlarge-viewport) { 
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
 }
 
 .Tabs__panels {
   background-color: var(--color-white);
+  padding-bottom: var(--spacing-vertical--3);
 }
 
 .Tabs__panel {

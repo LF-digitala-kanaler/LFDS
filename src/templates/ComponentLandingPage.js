@@ -6,10 +6,11 @@ import Blockquote from '../components/Blockquote';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardGrid from '../components/CardGrid';
+import Changelog from '../components/Changelog';
 
 
 // Export Template for use in CMS preview
-export const LandingPageTemplate = ({
+export const ComponentLandingPageTemplate = ({
   title,
   intro,
   blockquote,
@@ -22,11 +23,12 @@ export const LandingPageTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <CardGrid list={componentCategories}  /> 
+       <Changelog />
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
   </>
 )
-const LandingPage = ({ data: { page, allGroups } }) => {
+const ComponentLandingPage = ({ data: { page, allGroups } }) => {
   
   // Get all component categoriies  
 
@@ -47,7 +49,7 @@ const LandingPage = ({ data: { page, allGroups } }) => {
       backgroundClass={page.frontmatter.background}
       menu={true}
     >
-      <LandingPageTemplate 
+      <ComponentLandingPageTemplate 
         {...page} 
         {...page.frontmatter} 
         title={page.frontmatter.title}
@@ -59,10 +61,10 @@ const LandingPage = ({ data: { page, allGroups } }) => {
   )
 }
 
-export default LandingPage
+export default ComponentLandingPage
 
 export const pageQuery = graphql`
-  query LandingPage($id: String!) {
+  query ComponentLandingPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       frontmatter {

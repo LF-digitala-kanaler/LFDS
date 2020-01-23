@@ -7,7 +7,7 @@
   font-size: 1.75rem;
   text-align: center;
   line-height: 1.21;
-  margin: 0 auto;
+  margin: var(--spacing-vertical--3) auto ;
   @media (--small-viewport) { 
     max-width: 22.25rem;
   }

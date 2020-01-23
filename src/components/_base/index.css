@@ -16,6 +16,9 @@
   --font-weight-bold: 700;
   --font-weight-normal: normal;
 
+  --font-size-small: 0.875rem;
+
+  
   --color-body: #515151;
   --color-white: #fff;
   --color-navy: #00427a;
@@ -123,7 +126,6 @@ div[role="group"][tabindex] {
    }
 }
 
-/* white background class  */
 
 .bg-white {
   background-color: var(--color-white);
@@ -132,3 +134,4 @@ div[role="group"][tabindex] {
 ::selection { 
   background: var(--color-yellow); 
 }
+

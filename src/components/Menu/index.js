@@ -4,7 +4,6 @@ import style from './index.module.css';
 import { Location } from '@reach/router';
 import MenuToggle from '../MenuToggle';
 import cx from 'classnames'
-import { useToggle} from 'react-use';
 import { createBreakpoint } from "react-use";
 import AnimationContainer from '../../utils/AnimationCointainer';
 import { useStaticQuery, graphql } from "gatsby"

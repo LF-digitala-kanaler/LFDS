@@ -2,10 +2,15 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import _get from 'lodash/get'
-
+import Wrapper from '../components/Wrapper'
+import Heading from '../components/Heading'
 import Layout from '../components/Layout'
 
+const center = {
+  marginTop: '100px'
+}
 export default ({ children }) => (
+  
   <StaticQuery
     query={graphql`
       query NotFoundPageQuery {
@@ -15,24 +20,18 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <Layout>
+      
+      <Layout
+        backgroundClass={'bg-white'}
+      >
         <Helmet>
           <title>404 – Page Not Found</title>
         </Helmet>
-        <section className="section thick">
-          <div className="container skinny taCenter">
-            <p>
-             
-            </p>
-            <h1>404 - Page Not Found</h1>
-            <p>
-              We can't find the page you are looking for!
-              <br />
-              Head back to{' '}
-              <Link to="/">{_get(data, 'globalSettings.siteTitle')}</Link>
-            </p>
+        <Wrapper tag="div" menu={true} >
+          <div style={center}>
+            <Heading tag={1} text={"Does not compute…"} align={"center"} />
           </div>
-        </section>
+        </Wrapper>
       </Layout>
     )}
   />

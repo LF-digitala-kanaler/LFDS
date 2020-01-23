@@ -21,7 +21,7 @@ export const ChangelogPageTemplate = ({
   </>
 )
 const ChangelogPage = ({ data: { page, log }, location } ) => {
-  console.log(log)
+
   const breadcrumb = { 
     title: page.frontmatter.title,
     location: location

@@ -7,7 +7,7 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
 import Blockquote from '../components/Blockquote';
-import Content from '../components/Content/';
+import Content from '../components/Content';
 
 
 // Export Template for use in CMS preview
@@ -28,6 +28,7 @@ export const ComponentGroupTemplate = ({
       <Content className="content" source={contentAbove} />   
       { componentsLinks && <CardList list={componentsLinks} /> }
       <Content className="content" source={contentBelow} />
+     
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
   </Wrapper>
   </>

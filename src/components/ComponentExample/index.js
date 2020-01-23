@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from 'react';
+import React, { useState, useEffect,useLayoutEffect }  from 'react';
 import Frame from 'react-frame-component';
 import css from '!!raw-loader!lfui/dist/lf.css'; 
 import Preview from '../Preview';
@@ -7,6 +7,7 @@ import Content from '../Content';
 import CodeBlock from '../CodeBlock';
 import ComponentNavigation from '../ComponentNavigation';
 import { Grid, Cell } from "styled-css-grid";
+
 
 const ComponentExample = ({variants, background}) => {
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
@@ -21,6 +22,7 @@ const ComponentExample = ({variants, background}) => {
     setSource(!source)
     
   }
+
   const handleSetBackgroundToWhite = () => {
     setBackground('#fff');
   }
@@ -28,8 +30,11 @@ const ComponentExample = ({variants, background}) => {
   const handleSetBackgroundToGrey = () => {
     setBackground('#f3f3f3');
   }
+
   const handleChildClick = (variant) => {
     setCode(variant)
+   
+
   }
   
 
@@ -45,7 +50,7 @@ const ComponentExample = ({variants, background}) => {
 	}
 
   useEffect(() => handleResize(iframeRef));
-
+  
 
   return (
     <React.Fragment>
@@ -53,8 +58,10 @@ const ComponentExample = ({variants, background}) => {
           <Cell middle><ComponentNavigation variants={variants} onChildClick={handleChildClick} /></Cell>
           <Cell middle><Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} /></Cell>
         </Grid>
-       
-        
+          {
+            source &&
+            <CodeBlock code={`${code}`} />
+          }
           <Preview>
             <Frame
               style={{
@@ -73,10 +80,7 @@ const ComponentExample = ({variants, background}) => {
             <Content source={code} />
             </Frame>
           </Preview>
-          {
-            source &&
-            <CodeBlock>{code}</CodeBlock>
-          }
+          
          
         </React.Fragment>
   )
