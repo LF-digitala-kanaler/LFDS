@@ -98,7 +98,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Design dimensions", value: "Design dimensions" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      
+
   - name: patterns-page
     label: Patterns
     editor:
@@ -118,6 +118,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Design dimensions", value: "Design dimensions" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: 'Content', name: 'content', widget: 'markdown',  required: false }
     
   - name: component-group
     label: Component Group
