@@ -7,10 +7,7 @@
   margin: 0;
   background-color: var(--codeBlock-background);
   border: 2px solid var(--color-border);
-  
-}
-.CodeBlock__code {
-  display: block;
-  font-family: var( --font-family-base);
-  white-space: pre-wrap;
+  border-width: 2px 2px 0 2px;
+  font-size: 14px;
+  padding-left: var(--spacing-xs);
 }
