@@ -172,7 +172,7 @@ collections: # A list of collections the CMS should be able to edi
         file: 'content/components/web/index.md'
         fields: 
           - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
-          - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
+          - { label: Template, name: template, widget: hidden, default: ComponentLandingPage, value: ComponentLandingPage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - label: 'Blockquote'
@@ -181,6 +181,7 @@ collections: # A list of collections the CMS should be able to edi
             fields: 
               - {label: "Text", name: "text", widget: "text", required: false}
               - {label: "Author", name: "author", widget: "string", required: false}
+              
       - name: patterns-landing-page
         label: Patterns Landing Page
         editor:
@@ -199,6 +200,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
+    
 
       
           

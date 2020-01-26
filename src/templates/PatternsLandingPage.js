@@ -39,7 +39,7 @@ const PatternsLandingPage = ({
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         category={page.frontmatter.category}
-        contentAbove={page.frontmatter.content}
+        body={page.html}
       />
     </Layout>
   )
