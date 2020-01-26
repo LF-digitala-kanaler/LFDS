@@ -5,6 +5,7 @@ import style from './index.module.css';
 const CardGrid = ({list}) => {
 
   const cardItems = list.map((item) => 
+    
     <div className={style.CardGrid__item} key={item.frontmatter.title}>
       <Card 
         grid={true}  

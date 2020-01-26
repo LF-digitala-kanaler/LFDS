@@ -39,9 +39,9 @@ const Changelog = () => {
       const event = new Date(date);
       return typeof event == "object" ? event.toLocaleDateString("sv-SE") : "";
     }
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    
     const versions  = latestVersions.map(item => {
-      return <Accordion key={item.name} title={item.name} date={formatDate(item.publishedAt)} text={item.descriptionHTML} />
+      return <Accordion key={item.name} title={item.name} dateTime={formatDate(item.publishedAt)} text={item.descriptionHTML} />
     })
    
       return (

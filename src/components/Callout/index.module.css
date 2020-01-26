@@ -1,0 +1,33 @@
+:root {
+  --callout-background: var(--color-background-light);
+  --callout-border: 2px solid var(--color-border);
+  --callout-highlight: var(--color-red);
+  --callout-spacing: var(--spacing-xlg);
+  --callout-icon-height: 1.25rem;
+}
+
+.Callout {
+  background-color: var(--callout-background);
+  border: var(--callout-border);
+  position: relative;
+  padding: var(--callout-spacing);
+  
+  &::before {
+    content: '';
+    height: 2px;
+    width:calc(100% - (var(--spacing-xlg) * 2));
+    position: absolute;
+    top: -2px;
+    background-color: var(--callout-highlight);
+  }
+}
+
+.Callout__icon {
+  position: absolute;
+  top: calc(-1 * (var(--callout-icon-height)));
+  right: calc(var(--spacing-unit) + (var(--callout-spacing)))
+}
+
+.Callout__text {
+  margin-bottom: 0;
+}

@@ -23,12 +23,12 @@
   --color-white: #fff;
   --color-navy: #00427a;
   --color-blue: #005aa0; 
-  --color-gray: #747578;
   --color-smoke: #F3F3F3;
   --color-black: #222;
   --color-red: #E30613;
   --color-shadow: #e5e5e5;
   --color-yellow: #faf4d4;
+  --color-background-light: #fafafa;
 
   --color-border: var(--color-shadow);
 
@@ -71,8 +71,6 @@
     /* --baseline: 3;
   } */
 /* } */ 
-
-
 
 html {
   -ms-text-size-adjust: 100%;

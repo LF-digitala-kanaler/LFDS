@@ -6,7 +6,7 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 
 // Export Template for use in CMS preview
-export const VisualIdentityPageTemplate = ({
+export const DesignLandingPageTemplate = ({
   title,
   intro
 
@@ -19,26 +19,20 @@ export const VisualIdentityPageTemplate = ({
     </Wrapper>
   </>
 )
-const VisualIdentityPage = ({ 
-  data: { page },
-  location,
+const DesignLandingPage = ({ 
+  data: { page }
 
   },) => {
 
-  const breadcrumb = {
-    category: page.frontmatter.category,
-    title: page.frontmatter.title,
-    location: location
-  }
+  
   
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-      breadcrumb={breadcrumb}
       menu={true}
     >
-      <VisualIdentityPageTemplate 
+      <DesignLandingPageTemplate 
         {...page} 
         {...page.frontmatter}
         title={page.frontmatter.title}
@@ -49,7 +43,7 @@ const VisualIdentityPage = ({
   )
 }
 
-export default VisualIdentityPage
+export default DesignLandingPage
 
 
 // Get data from GraphiQL
@@ -57,7 +51,7 @@ export default VisualIdentityPage
 export const pageQuery = graphql`
 
   
-  query VisualIdentityPage($id: String!) {
+  query DesignLandingPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html

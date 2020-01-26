@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link, StaticQuery, graphql } from 'gatsby'
-import _get from 'lodash/get'
+import { StaticQuery, graphql } from 'gatsby'
+
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Layout from '../components/Layout'
@@ -9,7 +9,7 @@ import Layout from '../components/Layout'
 const center = {
   marginTop: '100px'
 }
-export default ({ children }) => (
+export default () => (
   
   <StaticQuery
     query={graphql`

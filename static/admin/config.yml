@@ -54,7 +54,28 @@ collections: # A list of collections the CMS should be able to edi
         fields:
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
-
+  
+  - name: component-group
+    label: Component Group
+    editor:
+      preview: true
+    folder: content/components/web/
+    filter: {field: "template", value: "ComponentGroup"}
+    fields: 
+      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+      - { name: previewImage, label: previewImage, widget: image, required: false }
+      - { label: Template, name: template, widget: hidden, default: ComponentGroup, value: ComponentGroup }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false }
+      - { label: 'Content', name: 'contentAbove', widget: 'markdown', hint: 'Will be shown above component list', required: false }
+      - label: 'Blockquote'
+        name: 'blockquote'
+        widget: 'object'
+        fields: 
+          - {label: "Text", name: "text", widget: "text", required: false}
+          - {label: "Author", name: "author", widget: "string", required: false}
+  
   - name: design-page
     label: Design@LF
     editor:
@@ -99,15 +120,16 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
 
-  - name: patterns-page
-    label: Patterns
+  
+  
+  - name: patterns-group
+    label: Patterns Group Page
     editor:
       preview: true
     folder: content/patterns/
-    path: '{{category}}/{{slug}}'
-    create: true # Allow users to create new documents in this collection
+    filter: {field: "template", value: "PatternLandingPage"}
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: PatternPage, value: PatternPage }
+      - { label: Template, name: template, widget: hidden, default: PatternLandingPage, value: PatternLandingPage }
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -118,31 +140,32 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Design dimensions", value: "Design dimensions" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'content', widget: 'markdown',  required: false }
-    
-  - name: component-group
-    label: Component Group
+      - { label: 'Content', name: 'body', widget: 'markdown',  required: false } 
+
+  - name: patterns-page
+    label: Patterns Page
+    create: true # Allow users to create new documents in this collection
     editor:
       preview: true
-    folder: content/components/web/
-    filter: {field: "template", value: "ComponentGroup"}
-    fields: 
-      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
-      - { name: previewImage, label: previewImage, widget: image, required: false }
-      - { label: Template, name: template, widget: hidden, default: ComponentGroup, value: ComponentGroup }
+    folder: content/patterns/
+    path: '{{category}}/{{slug}}'
+    filter: {field: "template", value: "ArticlePage"}
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
+      - label: 'Category'
+        name: 'category'
+        widget: 'select'
+        required: false
+        options: 
+        - { label: "Typography", value: "Typography" }
+        - { label: "Graphic elements", value: "Graphic elements" }
+        - { label: "Design dimensions", value: "Design dimensions" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false }
-      - { label: 'Content', name: 'contentAbove', widget: 'markdown', hint: 'Will be shown above component list', required: false }
-      - label: 'Blockquote'
-        name: 'blockquote'
-        widget: 'object'
-        fields: 
-          - {label: "Text", name: "text", widget: "text", required: false}
-          - {label: "Author", name: "author", widget: "string", required: false}
-          
+      - { label: 'Content', name: 'body', widget: 'markdown',  required: false } 
+
   - name: 'componentlandingPage'
-    label: 'Component Landing page'
+    label: 'Landing pages'
     files:
       - name: 'component-landing-page'
         label: 'Component Landing Page'
@@ -158,6 +181,28 @@ collections: # A list of collections the CMS should be able to edi
             fields: 
               - {label: "Text", name: "text", widget: "text", required: false}
               - {label: "Author", name: "author", widget: "string", required: false}
+      - name: patterns-landing-page
+        label: Patterns Landing Page
+        editor:
+          preview: true
+        file: 'content/patterns/index.md'
+        fields: # The fields each document in this collection have
+          - { label: Template, name: template, widget: hidden, default: PatternLandingPage, value: PatternLandingPage }
+          - label: 'Category'
+            name: 'category'
+            widget: 'select'
+            required: false
+            options: 
+            - { label: "Typography", value: "Typography" }
+            - { label: "Graphic elements", value: "Graphic elements" }
+            - { label: "Design dimensions", value: "Design dimensions" }
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
+          - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
+
+      
+          
+ 
 
   - name: 'changelog'
     label: 'Change Log'

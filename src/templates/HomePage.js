@@ -11,6 +11,8 @@ export const HomePageTemplate = ({ title, intro, body }) => (
   <Wrapper tag="section">
     <Heading tag={1} text={title} align={"center"} />
     <Preamble text={intro} tag="p" color="blue" />
+    
+    
     <Content source={body} />  
   </Wrapper>
 )
@@ -18,7 +20,9 @@ export const HomePageTemplate = ({ title, intro, body }) => (
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
+
     <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
+
   </Layout>
 )
 

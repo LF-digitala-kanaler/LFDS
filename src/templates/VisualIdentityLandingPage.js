@@ -4,55 +4,47 @@ import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
-import Content from '../components/Content';
 
 // Export Template for use in CMS preview
-export const PatternsPageTemplate = ({
+export const VisualIdentityLandingPageTemplate = ({
   title,
-  intro,
-  content
+  intro
+
 }) => (
   
   <> 
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <Content className="content" source={content} />   
     </Wrapper>
   </>
 )
-const PatternsPage = ({ 
+const VisualIdentityLandingPage = ({ 
   data: { page },
-  location,
+  
 
   },) => {
 
-  const breadcrumb = {
-    category: page.frontmatter.category,
-    title: page.frontmatter.title,
-    location: location
-  }
+  
   
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-      breadcrumb={breadcrumb}
       menu={true}
     >
-      <PatternsPageTemplate 
+      <VisualIdentityLandingPageTemplate 
         {...page} 
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         category={page.frontmatter.category}
-        contentAbove={page.frontmatter.content}
       />
     </Layout>
   )
 }
 
-export default PatternsPage
+export default VisualIdentityLandingPage
 
 
 // Get data from GraphiQL
@@ -60,7 +52,7 @@ export default PatternsPage
 export const pageQuery = graphql`
 
   
-  query PatternsPage($id: String!) {
+  query VisualIdentityLandingPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html
@@ -69,8 +61,7 @@ export const pageQuery = graphql`
         title
         intro
         template
-        category
-        content
+        category     
       }
     }
   }
