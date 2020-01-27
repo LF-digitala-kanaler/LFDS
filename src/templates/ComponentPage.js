@@ -7,7 +7,7 @@ import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
 import { Location } from "@reach/router";
-import isFrontmatterMarkdownNode from "../../plugins/gatsby-transformer-remark-frontmatter";
+
 // Export Template for use in CMS preview
 export const ComponentPageTemplate = ({
   title,
@@ -47,7 +47,7 @@ const ComponentPage = ({
   currentDirectory
   
   },) => {
-  console.log(isFrontmatterMarkdownNode, 'ge')
+  
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
@@ -78,7 +78,7 @@ const ComponentPage = ({
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={isFrontmatterMarkdownNode && page.fields.frontmattermd.tabs}
+        tabs={page.frontmatter.tabs}
         category={page.frontmatter.category}
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
