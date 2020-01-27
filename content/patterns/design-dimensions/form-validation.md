@@ -8,7 +8,7 @@ intro: >-
   error. As the user starts to correct errors they get immediate feedback on
   their progress.
 ---
-The rules for form validation are based on a combination of academic research and our own user testing. Our review of academic research on form validation found that there are two general patterns which outperform others when user experience, completion time and amount of errors. When these two patterns were tested on LFUI-styled design we found that users preferred and expected the following pattern:
+The rules for form validation are based on a combination of academic research and our own user testing. Our review of academic research on form validation found that there are two general patterns which outperform others when user experience, completion time and amount of errors. When these two patterns were tested on LFUI-styled design we found that users preferred and expected the following pattern (also see [Technical implementation](#technical-implementation) below if you're a developer):
 
 1. Let the users fill out the form without interrupting them with error messages. \
    * Exception: if the field has a specific length (e.g. "personnummer", "registreringsnummer") and the user enters more characters than is expected.
@@ -17,9 +17,11 @@ The rules for form validation are based on a combination of academic research an
 4. As the user starts to correct the error it is controlled live, which means we can provide the user with positive feedback as soon as they've corrected the error.\
    * If a required field has been left blank the error message is removed as soon as the user starts entering text/data into the field. From there on validation follows the general pattern.
 
-jj
+# HÄR SKA DET SEN LIGGA ETT FULLT FUNGERANDE EXEMPEL PÅ VALIDERING MED ALLA STEG
 
 ## Technical implementation
+
+As the technical implementation of form validation differs a bit from how the users experience the validation, make sure to read the following if you're a developer.
 
 * Specific field validation is controlled/fired when the user leaves the input (onBlur). The validation is not "live" on each change to the value to avoid interrupting and distracting the user with an error stating the value is faulty before the user has had a chance to fill it out completely.
 * When going back to a validated field with an error, validation is then controlled "live" on each change to the value. This is to give a positive interaction to the user upon filling the form out correctly.
