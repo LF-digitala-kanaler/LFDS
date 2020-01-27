@@ -10,6 +10,7 @@ import { DesignLandingPageTemplate } from '../templates/DesignLandingPage'
 import { VisualIdentityLandingPageTemplate } from '../templates/VisualIdentityLandingPage'
 import { PatternsLandingPageTemplate } from '../templates/PatternsLandingPage'
 import Callout from '../components/Callout'
+import Changelog from '../components/Changelog'
 
 CMS.registerPreviewTemplate('component-page', ({ entry }) => (
   <ComponentPageTemplate componentNavigation={null} {...entry.toJS().data} />
@@ -19,7 +20,7 @@ CMS.registerPreviewTemplate('component-group', ({ entry }) => (
   <ComponentGroupTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('component-landing-page', ({ entry }) => (
-  <ComponentLandingPageTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+  <ComponentLandingPageTemplate componentsLinks={null} componentNavigation={null}  {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
   <ChangelogPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />

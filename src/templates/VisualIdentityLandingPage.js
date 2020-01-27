@@ -4,11 +4,13 @@ import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
+import Content from '../components/Content';
 
 // Export Template for use in CMS preview
 export const VisualIdentityLandingPageTemplate = ({
   title,
-  intro
+  intro,
+  body
 
 }) => (
   
@@ -16,6 +18,7 @@ export const VisualIdentityLandingPageTemplate = ({
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
+      <Content className="content" source={body} />
     </Wrapper>
   </>
 )
@@ -39,6 +42,7 @@ const VisualIdentityLandingPage = ({
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         category={page.frontmatter.category}
+        body={page.html}
       />
     </Layout>
   )

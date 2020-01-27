@@ -14,16 +14,18 @@ export const ComponentLandingPageTemplate = ({
   title,
   intro,
   blockquote,
-  componentCategories
+  componentCategories = [],
+
   
 }) => (
    
   <>
+  
     <Wrapper tag="div" menu={true} narrow={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <CardGrid list={componentCategories}  /> 
-       <Changelog />
+      {/* <Changelog />  */}
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
   </>
@@ -56,6 +58,7 @@ const ComponentLandingPage = ({ data: { page, allGroups } }) => {
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
         componentCategories={componentCategories.categories}
+
       />
     </Layout>
   )

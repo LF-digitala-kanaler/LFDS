@@ -18,7 +18,6 @@ collections: # A list of collections the CMS should be able to edi
     create: true # Allow users to create new documents in this collection
     filter: {field: "template", value: "ComponentPage"}
     fields: # The fields each document in this collection have
-
       
       - { label: Template, name: template, widget: hidden, default: ComponentPage, value: ComponentPage }
       - label: 'Category'
@@ -76,7 +75,7 @@ collections: # A list of collections the CMS should be able to edi
           - {label: "Text", name: "text", widget: "text", required: false}
           - {label: "Author", name: "author", widget: "string", required: false}
   
-  - name: design-page
+  - name: Design-page
     label: Design@LF
     editor:
       preview: true
@@ -84,7 +83,7 @@ collections: # A list of collections the CMS should be able to edi
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: DesignPage, value: DesignPage }
+      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -99,6 +98,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Motion", value: "Motion" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
       
   - name: VisualIdentity-page
     label: Visual Identity
@@ -119,7 +119,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Design dimensions", value: "Design dimensions" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-
+      - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
   
   
   - name: patterns-group
@@ -164,7 +164,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: 'body', widget: 'markdown',  required: false } 
 
-  - name: 'componentlandingPage'
+  - name: 'landingPage'
     label: 'Landing pages'
     files:
       - name: 'component-landing-page'
@@ -189,18 +189,33 @@ collections: # A list of collections the CMS should be able to edi
         file: 'content/patterns/index.md'
         fields: # The fields each document in this collection have
           - { label: Template, name: template, widget: hidden, default: PatternLandingPage, value: PatternLandingPage }
-          - label: 'Category'
-            name: 'category'
-            widget: 'select'
-            required: false
-            options: 
-            - { label: "Typography", value: "Typography" }
-            - { label: "Graphic elements", value: "Graphic elements" }
-            - { label: "Design dimensions", value: "Design dimensions" }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
-    
+
+      - name: design-landing-page
+        label: Design Landing Page
+        editor:
+          preview: true
+        file: 'content/design/index.md'
+        fields: # The fields each document in this collection have
+          - { label: Template, name: template, widget: hidden, default: DesignLandingPage, value: DesignLandingPage }
+            
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
+          - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
+      
+      - name: VisualIdentity-landing-page
+        label: Visual Identity Landing Page
+        editor:
+          preview: true
+        file: 'content/visual-identity/index.md'
+        fields: # The fields each document in this collection have
+          - { label: Template, name: template, widget: hidden, default: VisualIdentityLandingPage, value: VisualIdentityLandingPage }
+            
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
+          - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
 
       
           
