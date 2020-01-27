@@ -40,7 +40,7 @@ const ArticlePage = ({
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         category={page.frontmatter.category}
-        
+        body={page.html}
       />
     </Layout>
   )
