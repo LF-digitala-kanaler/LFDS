@@ -66,6 +66,7 @@ exports.createPages = async ({ actions, graphql }) => {
             fields {
               slug
               contentType
+              
             }
           }
         }

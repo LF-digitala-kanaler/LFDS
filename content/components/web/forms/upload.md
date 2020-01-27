@@ -59,7 +59,7 @@ tabs:
         ![Image of older version of file upload still available in EPI](/img/old-file-upload.png "Image of older version of file upload still available in EPI")
     name: Design
   - content: content code
-    name: Code
+    name: Copy
   - content: content code
     name: Code
 ---
