@@ -3,9 +3,9 @@ template: ComponentPage
 category: Motions
 title: Spinner
 intro: Spinner preamble
-previewImage: ''
+previewImage: /img/alert.svg
 backgroundColor: '#f3f3f3'
-description: ''
+description: 'dee'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

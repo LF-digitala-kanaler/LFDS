@@ -113,9 +113,9 @@ module.exports = {
             // default: { blacklist: [] }
             options: {
               // frontmatter fields to exclude, including all others
-              //blacklist: ['phone']
+              blacklist: ['template','previewImage','description','category','excerpt','backgroundColor', 'intro']
               // frontmatter fields to include, excluding all others
-              // whitelist: ['markdownField']
+              //whitelist: ['tabs']
             }
           },
           {

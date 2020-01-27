@@ -3,7 +3,7 @@ template: ComponentPage
 category: Data Visualization
 title: Graphs and Charts
 intro: Graphs and Charts preamble
-previewImage: ''
+previewImage: /img/panel.svg
 backgroundColor: '#f3f3f3'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words

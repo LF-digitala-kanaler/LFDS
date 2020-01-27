@@ -9,9 +9,10 @@ previewImage: /img/panel.svg
 intro: >-
   Panels are our standard containers when we want to “box in” content. When
   panels are used the whole page is usually divided into different panels.
-backgroundColor: ''
+backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
+      
       ## How to use
 
 
@@ -45,7 +46,9 @@ tabs:
       You always need to involve our art directors, but when designing a page
       with many panels that sweet sweet AD love is extra needed.
     name: Design
-  - content: 'Coding is more than a skill, it is a thrill!'
+
+  - content:  >-
+      Coding is more than a skill, it is a thrill
     name: Code
 ---
 

@@ -3,7 +3,7 @@ template: ComponentPage
 category: Typography
 title: Paragraph
 description: Brödtext
-previewImage: ''
+previewImage: /img/panel.svg
 intro: Paragraph preamble
 backgroundColor: '#f3f3f3'
 tabs:

@@ -5,7 +5,7 @@ title: Input field
 description: >-
   Input fields are fields in which the user can enter text of some type (be it
   letters or numbers).
-previewImage: ''
+previewImage: /img/panel.svg
 intro: >-
   Input fields are fields in which the user can enter text of some type (be it
   letters or numbers). This section describes the styling of input fields and

@@ -13,12 +13,14 @@ const index_1 = require("./index");
 const node_field_map = {};
 const node_remaining_fields = {};
 const destructureFrontmatter = (frontmatter) => {
+    
     return {
         schema: objectSchema(frontmatter),
         values: objectValues(frontmatter),
     };
 };
 const objectSchema = (obj) => {
+    
     if (Array.isArray(obj)) {
         return obj.map(objectSchema);
     }

@@ -3,7 +3,7 @@ template: ComponentPage
 category: Forms
 title: Slider
 description: A slider provides a visual way of providing a value.
-previewImage: ''
+previewImage: /img/panel.svg
 intro: >-
   A slider provides a more visual way of providing a value and should preferably
   be used in conjunction with other content which is dynamically changed based
