@@ -11,6 +11,7 @@
   line-height: 1;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
+  position: relative;
 }
 
 .Content h3{
@@ -18,6 +19,7 @@
   line-height: 1;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
+  position: relative;
 }
 
 .Content h4{
@@ -42,11 +44,10 @@
   color: var(--color-black);
 }
 
-
-
 .Content ul {
   list-style-type: none;
 }
+
 .Content ul li::before {
   content: "\2022";  
   color: var(--color-red); 

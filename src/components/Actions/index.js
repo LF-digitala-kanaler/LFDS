@@ -3,11 +3,8 @@ import style from './index.module.css';
 import cx from 'classnames';
 
 
-
-
 const Actions = ({grey,white, toggleCode}) => {
 
-  
   return (
     <div className={style.Actions}>
       <ul className={style.Actions__list}>

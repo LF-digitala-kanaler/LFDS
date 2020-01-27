@@ -3,7 +3,12 @@ import ReactDOMServer from 'react-dom/server'
 import Marked from 'react-markdown'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../Image'
+import showdown from 'showdown'
 import './index.css'
+
+
+// mardown outside of body in netlifycms will not be turned in ti html and then we cant add anchor links to those headings
+const  converter = new showdown.Converter()
 
 const encodeMarkdownURIs = (source = '') => {
   const markdownLinkRegex = /\[(.+)\]\((.+)(".+)\)/g
@@ -74,7 +79,7 @@ const Content = ({ source, src, className = '' }) => {
     return (
       <div
         className={`Content ${className}`}
-        dangerouslySetInnerHTML={{ __html: source }}
+        dangerouslySetInnerHTML={{ __html: converter.makeHtml(source)}}
       />
     )
   }
@@ -83,7 +88,7 @@ const Content = ({ source, src, className = '' }) => {
     <Marked
       
       className={`Content ${className}`}
-      source={encodeMarkdownURIs(source)}
+      source={source}
       renderers={{
         image: MyImage,
         html: HtmlBlock,
