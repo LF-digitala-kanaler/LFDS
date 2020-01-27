@@ -17,7 +17,7 @@ The rules for form validation are based on a combination of academic research an
 4. As the user starts to correct the error it is controlled live, which means we can provide the user with positive feedback as soon as they've corrected the error.\
    * If a required field has been left blank the error message is removed as soon as the user starts entering text/data into the field. From there on validation follows the general pattern.
 
-
+jj
 
 ## Technical implementation
 
