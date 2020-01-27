@@ -42,7 +42,7 @@ tabs:
       "unvalidated" to our "validated and ok"-colours.
 
 
-      ### Please note
+      ## Please note
 
 
       * Unfortunately the handling of the error messages can't be built
@@ -55,6 +55,7 @@ tabs:
       * There exists an old version of the upload component, which still is
       available in EPI-forms. New forms should use the pattern described on this
       page, but for reference here is an image of the old version:
+        ![Image of older version of file upload still available in EPI](/img/old-file-upload.png "Image of older version of file upload still available in EPI")
     name: Design
   - content: content code
     name: Code
