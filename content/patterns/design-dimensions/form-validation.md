@@ -19,7 +19,7 @@ The rules for form validation are based on a combination of academic research an
 
 
 
-## Technical description
+## Technical implementation
 
 * Specific field validation is controlled/fired when the user leaves the input (onBlur). The validation is not "live" on each change to the value to avoid interrupting and distracting the user with an error stating the value is faulty before the user has had a chance to fill it out completely.
 * When going back to a validated field with an error, validation is then controlled "live" on each change to the value. This is to give a positive interaction to the user upon filling the form out correctly.
