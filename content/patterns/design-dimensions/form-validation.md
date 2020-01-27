@@ -12,7 +12,7 @@ The rules for form validation are based on a combination of academic research an
 
 1. Let the users fill out the form without interrupting them with error messages. \
    * Exception: if the field has a specific length (e.g. "personnummer", "registreringsnummer") and the user enters more characters than is expected.
-2. When the user submits the form any potential error messages are shown to them. This includes warnings if a required field has been left blank.
+2. When the user submits the form any potential error messages are shown to them. This includes warnings if a [required field](../required-fields/) has been left blank.
 3. The user is automatically scrolled to the topmost error (if several, otherwise the error). Again, including blank required fields.
 4. As the user starts to correct the error it is controlled live, which means we can provide the user with positive feedback as soon as they've corrected the error.\
    * If a required field has been left blank the error message is removed as soon as the user starts entering text/data into the field. From there on validation follows the general pattern.
