@@ -49,6 +49,7 @@
     "react-responsive": "^8.0.1",
     "react-syntax-highlighter": "^12.2.1",
     "remark-html": "^10.0.0",
+    "showdown": "^1.9.1",
     "styled-components": "^4.4.1",
     "styled-css-grid": "^1.2.1"
   },
