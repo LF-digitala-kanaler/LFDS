@@ -4,9 +4,9 @@ category: Design dimensions
 title: Form validation
 intro: >-
   Initial form validation at Länsförsäkringar is done as the user submits a form
-  page. If there are any errors the user is automatically scrolled to topmost
-  error. As the user starts to correct errors they get immediate feedback on
-  their progress.
+  page. If there are any errors the user is automatically scrolled to the
+  topmost error. As the user starts to correct errors they get immediate
+  feedback on their progress.
 ---
 The rules for form validation are based on a combination of academic research and our own user testing. Our review of academic research on form validation found that there are two general patterns which outperform others when user experience, completion time and amount of errors. When these two patterns were tested on LFUI-styled design we found that users preferred and expected the following pattern (also see [Technical implementation](#technical-implementation) below if you're a developer):
 
