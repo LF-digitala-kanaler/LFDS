@@ -4,7 +4,8 @@ const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 const cssLoaderRe = /\/css-loader\//
 const targetFile = `.module.css`
-
+const remark = require('remark');
+const remarkHTML = require('remark-html');
 
 
 const processRule = rule => {
@@ -169,7 +170,25 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
       name: `parent`,
       value: (parsedFilePath.dir.split("/").pop()).replace(/([A-Z])/g, ' $1')
     })
-    
+    if (node.frontmatter.tabs) {
+
+      const tabs = node.frontmatter.tabs;
+        if (tabs) {
+          const value = tabs.map(event =>
+            remark()
+            .use(remarkHTML)
+            .processSync(event.content)
+            .toString()
+          )
+
+          createNodeField({
+            name: `markdown`,
+            node,
+            value
+          });
+        }
+     
+    }
   }
   // setup html file nodes
   if (node.internal.type === `File` && node.internal.mediaType === `text/html`) {

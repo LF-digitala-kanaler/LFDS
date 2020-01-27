@@ -11,7 +11,7 @@ intro: >-
   huvudsakliga syfte. Finns med och utan pil och tvåradig samt BankID.
 backgroundColor: '#fff'
 tabs:
-  - content: >-
+  - content: |
       ## How to use
 
 

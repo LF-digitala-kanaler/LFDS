@@ -15,6 +15,7 @@
   font-size: 3.75em;
   margin-bottom: var(--spacing-vertical--1);
   line-height: 1;
+  margin-top:var(--spacing-vertical--2);
 }
 
 /* .Heading--2 {
