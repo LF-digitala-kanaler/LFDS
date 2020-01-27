@@ -47,7 +47,7 @@ const ComponentPage = ({
   currentDirectory
   
   },) => {
-  
+  console.log(page)
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
@@ -65,6 +65,7 @@ const ComponentPage = ({
     location: location
   }
   
+  
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -77,7 +78,7 @@ const ComponentPage = ({
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={page.frontmatter.tabs}
+        tabs={page.fields.frontmattermd.tabs}
         category={page.frontmatter.category}
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
@@ -113,7 +114,20 @@ export const pageQuery = graphql`
           name
           content
         }
+        
       }
+      fields {
+          frontmattermd {
+            tabs {
+              content {
+                html
+              }
+              name {
+                rawMarkdownBody
+              }
+            }
+          }
+        }
     }
     allComponentExample: allHtmlContent{
         edges {

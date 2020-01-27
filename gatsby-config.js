@@ -108,8 +108,22 @@ module.exports = {
               maxWidth: 2048,
             },
           },
-          
-          'gatsby-remark-autolink-headers',
+          {
+            resolve: 'gatsby-transformer-remark-frontmatter',
+            // default: { blacklist: [] }
+            options: {
+              // frontmatter fields to exclude, including all others
+              //blacklist: ['phone']
+              // frontmatter fields to include, excluding all others
+              // whitelist: ['markdownField']
+            }
+          },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `140`,
+            },
+          },
           {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
