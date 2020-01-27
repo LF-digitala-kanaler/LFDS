@@ -18,9 +18,9 @@ tabs:
       flow when using the Upload-component is:
 
 
-      1. The user is presented with a [secondary
-      button](https://lfui-beta-aedd0a.netlify.com/components/web/button-and-links/secondary-button/)
-      with an attachment icon and the copy "Bifoga fil".
+      1. The user is presented with a [secondary button
+      ](../../button-and-links/secondary-button/)with an attachment icon and the
+      copy "Bifoga fil".
 
       2. When the user clicks the button a system dialog for selecting a file
       appears. If the user wants (and knows how to) they can select several
