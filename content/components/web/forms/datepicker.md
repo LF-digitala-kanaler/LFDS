@@ -2,12 +2,12 @@
 template: ComponentPage
 category: Forms
 title: Datepicker
+description: The datepicker is the input field used when a date is the expected input.
+previewImage: /img/datepicker.svg
 intro: >-
   The datepicker is the input field used when a date is the expected input. It
   is designed so that the user can either choose the date from a calendar or
   enter it manually.
-description: The datepicker is the input field used when a date is the expected input.
-previewImage: /img/panel.svg
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
