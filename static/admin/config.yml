@@ -54,26 +54,6 @@ collections: # A list of collections the CMS should be able to edi
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
   
-  - name: component-group
-    label: Component Group
-    editor:
-      preview: true
-    folder: content/components/web/
-    filter: {field: "template", value: "ComponentGroup"}
-    fields: 
-      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
-      - { name: previewImage, label: previewImage, widget: image, required: false }
-      - { label: Template, name: template, widget: hidden, default: ComponentGroup, value: ComponentGroup }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false }
-      - { label: 'Content', name: 'contentAbove', widget: 'markdown', hint: 'Will be shown above component list', required: false }
-      - label: 'Blockquote'
-        name: 'blockquote'
-        widget: 'object'
-        fields: 
-          - {label: "Text", name: "text", widget: "text", required: false}
-          - {label: "Author", name: "author", widget: "string", required: false}
   
   - name: Design-page
     label: Design@LF
@@ -122,7 +102,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
   
   
-  - name: patterns-group
+  - name: patterns-group-page
     label: Patterns Group Page
     editor:
       preview: true
@@ -164,62 +144,48 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: 'body', widget: 'markdown',  required: false } 
 
-  - name: 'landingPage'
-    label: 'Landing pages'
-    files:
-      - name: 'component-landing-page'
-        label: 'Component Landing Page'
-        file: 'content/components/web/index.md'
+
+  - name: 'landing-page'
+    label: 'Landing Pages'
+    folder: content/
+    filter: {field: "template", value: "LandingPage"}
+    fields: 
+      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+      - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - label: 'Blockquote'
+        name: 'blockquote'
+        widget: 'object'
         fields: 
-          - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
-          - { label: Template, name: template, widget: hidden, default: ComponentLandingPage, value: ComponentLandingPage }
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
-          - label: 'Blockquote'
-            name: 'blockquote'
-            widget: 'object'
-            fields: 
-              - {label: "Text", name: "text", widget: "text", required: false}
-              - {label: "Author", name: "author", widget: "string", required: false}
-              
-      - name: patterns-landing-page
-        label: Patterns Landing Page
-        editor:
-          preview: true
-        file: 'content/patterns/index.md'
-        fields: # The fields each document in this collection have
-          - { label: Template, name: template, widget: hidden, default: PatternLandingPage, value: PatternLandingPage }
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
-          - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
+          - {label: "Text", name: "text", widget: "text", required: false}
+          - {label: "Author", name: "author", widget: "string", required: false}
+  
+  - name: group-page
+    label: Group Page
+    editor:
+      preview: true
+    folder: content/
+    filter: {field: "template", value: "GroupPage"}
+    fields: 
+      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+      - { name: previewImage, label: previewImage, widget: image, required: false }
+      - { label: Template, name: template, widget: hidden, default: GroupPage, value: GroupPage }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false }
+      - { label: 'Content', name: 'contentAbove', widget: 'markdown', hint: 'Will be shown above component list', required: false }
+      - label: 'Blockquote'
+        name: 'blockquote'
+        widget: 'object'
+        fields: 
+          - {label: "Text", name: "text", widget: "text", required: false}
+          - {label: "Author", name: "author", widget: "string", required: false}           
+    
 
-      - name: design-landing-page
-        label: Design Landing Page
-        editor:
-          preview: true
-        file: 'content/design/index.md'
-        fields: # The fields each document in this collection have
-          - { label: Template, name: template, widget: hidden, default: DesignLandingPage, value: DesignLandingPage }
-            
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
-          - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
+     
       
-      - name: VisualIdentity-landing-page
-        label: Visual Identity Landing Page
-        editor:
-          preview: true
-        file: 'content/visual-identity/index.md'
-        fields: # The fields each document in this collection have
-          - { label: Template, name: template, widget: hidden, default: VisualIdentityLandingPage, value: VisualIdentityLandingPage }
-            
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
-          - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
-
-      
-          
- 
+   
 
   - name: 'changelog'
     label: 'Change Log'

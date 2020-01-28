@@ -48,8 +48,6 @@ const Menu = ({currentDirectory}) => {
     
   }
   
-  
-  
   const navigationItems = {
     items: data.allPages.hasOwnProperty('edges')
       ? data.allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
@@ -57,12 +55,12 @@ const Menu = ({currentDirectory}) => {
   }
 
   const navigationStructure = _(navigationItems.items)
-  
-  
   .chain()
   .groupBy('node.frontmatter.category')
   .map((value, key) => ({ parentLink: key,  childLink: value}))
   .value()
+
+
   const navigationStructureSorted = _.orderBy(navigationStructure, [item => item.parentLink.toLowerCase()], ['asc']);
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);

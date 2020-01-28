@@ -1,5 +1,5 @@
 ---
-background: '#fff'
+background: bg-white
 template: ComponentGroup
 title: Typography
 intro: Intro

@@ -3,12 +3,11 @@ import CMS from 'netlify-cms-app'
 import "../components/_base/index.css"
 import "./cms.css"
 import {ComponentPageTemplate} from '../templates/ComponentPage'
-import {ComponentGroupTemplate} from '../templates/ComponentGroup'
+import {GroupPageTemplate} from '../templates/GroupPage'
 import { ChangelogPageTemplate } from '../templates/ChangelogPage'
-import { ComponentLandingPageTemplate } from '../templates/ComponentLandingPage'
+import { LandingPageTemplate } from '../templates/LandingPage'
 import { DesignLandingPageTemplate } from '../templates/DesignLandingPage'
 import { VisualIdentityLandingPageTemplate } from '../templates/VisualIdentityLandingPage'
-import { PatternsLandingPageTemplate } from '../templates/PatternsLandingPage'
 import Callout from '../components/Callout'
 import Changelog from '../components/Changelog'
 
@@ -16,11 +15,11 @@ CMS.registerPreviewTemplate('component-page', ({ entry }) => (
   <ComponentPageTemplate componentNavigation={null} {...entry.toJS().data} />
 ))
 
-CMS.registerPreviewTemplate('component-group', ({ entry }) => (
-  <ComponentGroupTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+CMS.registerPreviewTemplate('group-page', ({ entry }) => (
+  <GroupPageTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('component-landing-page', ({ entry }) => (
-  <ComponentLandingPageTemplate componentsLinks={null} componentNavigation={null}  {...entry.toJS().data} />
+CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
+  <LandingPageTemplate componentsLinks={null} componentNavigation={null}  {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
   <ChangelogPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
@@ -31,9 +30,7 @@ CMS.registerPreviewTemplate('design-page', ({ entry }) => (
 CMS.registerPreviewTemplate('visualIdentity-page', ({ entry }) => (
   <VisualIdentityLandingPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('patterns-landing-page', ({ entry }) => (
-  <PatternsLandingPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
-))
+
 
 
 

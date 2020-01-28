@@ -1,5 +1,5 @@
 ---
-template: PatternsLandingPage
+template: LandingPage
 title: Patterns
 intro:
   Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke.

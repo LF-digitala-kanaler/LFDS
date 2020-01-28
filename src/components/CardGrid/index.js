@@ -3,15 +3,14 @@ import Card from '../Card';
 import style from './index.module.css';
 
 const CardGrid = ({list}) => {
-
+  
   const cardItems = list.map((item) => 
-    
-    <div className={style.CardGrid__item} key={item.frontmatter.title}>
+    <div className={style.CardGrid__item} key={item.node.id}>
       <Card 
         grid={true}  
-        title={item.frontmatter.title} 
-        url={item.fields.slug.replace(/\/$/, "")} 
-        image={item.frontmatter.previewImage}  
+        title={item.node.frontmatter.category} 
+        url={item.node.fields.slug.replace(/\/$/, "")} 
+        image={item.node.frontmatter.previewImage}  
       />
     </div>
   );
