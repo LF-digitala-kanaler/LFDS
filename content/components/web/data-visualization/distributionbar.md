@@ -3,7 +3,7 @@ template: ComponentPage
 category: Data Visualization
 title: Distribution bar
 description: Distribution preamble
-previewImage: /img/panel.svg
+previewImage: /img/distribution-bar.svg
 intro: Distribution preamble
 backgroundColor: '#f3f3f3'
 tabs:
