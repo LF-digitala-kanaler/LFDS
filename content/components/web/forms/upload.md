@@ -2,9 +2,8 @@
 template: ComponentPage
 category: Forms
 title: Upload
-description: >-
-  Use this component if you want to let your user upload a file to us.
-previewImage: /img/panel.svg
+description: Use this component if you want to let your user upload a file to us.
+previewImage: /img/upload.svg
 intro: >-
   Use this component if you want to let your user upload a file to us, for
   example as part of an injury claim or a secure message.
