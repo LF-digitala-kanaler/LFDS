@@ -11,7 +11,7 @@ import Content from '../components/Content';
 
 
 // Export Template for use in CMS preview
-export const GroupPageTemplate = ({
+export const CategoryOverviewTemplate = ({
   title,
   intro,
   blockquote,
@@ -33,7 +33,7 @@ export const GroupPageTemplate = ({
   </Wrapper>
   </>
 )
-const GroupPage = ({ data: { page, allPages },location }) => {
+const CategoryOverviewPage = ({ data: { page, allPages },location }) => {
   
   // Get compontents from this group
   const componentsInGroup = {
@@ -68,7 +68,7 @@ const GroupPage = ({ data: { page, allPages },location }) => {
       breadcrumb={breadcrumb}
       backgroundClass={page.frontmatter.background}
     >
-      <GroupPageTemplate 
+      <categoryOverviewTemplate 
         {...page} 
         {...page.frontmatter} 
         title={page.frontmatter.title}
@@ -82,12 +82,12 @@ const GroupPage = ({ data: { page, allPages },location }) => {
   )
 }
 
-export default GroupPage
+export default CategoryOverviewPage
 
 export const pageQuery = graphql`
   
   
-  query GroupPage($id: String!) {
+  query CategoryOverviewPage($id: String!) {
     
     page: markdownRemark(id: { eq: $id }) {
       ...Meta

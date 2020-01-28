@@ -137,9 +137,10 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options: 
-        - { label: "Typography", value: "Typography" }
-        - { label: "Graphic elements", value: "Graphic elements" }
-        - { label: "Design dimensions", value: "Design dimensions" }
+        - { label: "App", value: "App" }
+        - { label: "Public web (lf.se)", value: "Public web (lf.se)" }
+        - { label: "General patterns", value: "General patterns" }
+        - { label: "My pages (Mina sidor)", value: "My pages (Mina sidor)" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: 'body', widget: 'markdown',  required: false } 
@@ -161,16 +162,16 @@ collections: # A list of collections the CMS should be able to edi
           - {label: "Text", name: "text", widget: "text", required: false}
           - {label: "Author", name: "author", widget: "string", required: false}
   
-  - name: group-page
+  - name: categoryOverview-page
     label: Group Page
     editor:
       preview: true
     folder: content/
-    filter: {field: "template", value: "GroupPage"}
+    filter: {field: "template", value: "categoryOverview"}
     fields: 
       - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
       - { name: previewImage, label: previewImage, widget: image, required: false }
-      - { label: Template, name: template, widget: hidden, default: GroupPage, value: GroupPage }
+      - { label: Template, name: template, widget: hidden, default: categoryOverview, value: categoryOverview }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false }
