@@ -3,7 +3,7 @@ template: ComponentPage
 category: Typography
 title: Preamble
 description: Ingresstext
-previewImage: ''
+previewImage: /img/panel.svg
 intro: Preamble preamble
 backgroundColor: '#f3f3f3'
 tabs:

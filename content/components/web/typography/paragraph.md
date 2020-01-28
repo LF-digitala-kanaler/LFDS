@@ -14,4 +14,3 @@ tabs:
   - content: content code
     name: Code
 ---
-
