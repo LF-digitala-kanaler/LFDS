@@ -5,6 +5,7 @@ title: Dropdown
 description: >-
   The dropdown provides the user with given options in a list which expands over
   the webpage when the user clicks on the container.
+previewImage: /img/dropdown.svg
 intro: >-
   The dropdown provides the user with given options in a list which expands over
   the webpage when the user clicks on the container.
