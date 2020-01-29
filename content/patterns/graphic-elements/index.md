@@ -1,5 +1,5 @@
 ---
-template: PatternsLandingPage
+template: CategoryOverview
 category: Graphic elements
 title: Test
 intro: testfae

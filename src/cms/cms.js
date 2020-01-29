@@ -6,10 +6,7 @@ import {ComponentPageTemplate} from '../templates/ComponentPage'
 import {CategoryOverviewTemplate} from '../templates/CategoryOverview'
 import { ChangelogPageTemplate } from '../templates/ChangelogPage'
 import { LandingPageTemplate } from '../templates/LandingPage'
-import { DesignLandingPageTemplate } from '../templates/DesignLandingPage'
-import { VisualIdentityLandingPageTemplate } from '../templates/VisualIdentityLandingPage'
 import Callout from '../components/Callout'
-import Changelog from '../components/Changelog'
 
 CMS.registerPreviewTemplate('component-page', ({ entry }) => (
   <ComponentPageTemplate componentNavigation={null} {...entry.toJS().data} />
@@ -24,12 +21,8 @@ CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
 CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
   <ChangelogPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('design-page', ({ entry }) => (
-  <DesignLandingPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
-))
-CMS.registerPreviewTemplate('visualIdentity-page', ({ entry }) => (
-  <VisualIdentityLandingPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
-))
+
+
 
 
 
