@@ -80,72 +80,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
       
-  - name: VisualIdentity-page
-    label: Visual Identity
-    editor:
-      preview: true
-    folder: content/visual-identity/
-    path: '{{category}}/{{slug}}'
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: VisualIdentityPage, value: VisualIdentityPage }
-      - label: 'Category'
-        name: 'category'
-        widget: 'select'
-        required: false
-        options: 
-        - { label: "Typography", value: "Typography" }
-        - { label: "Graphic elements", value: "Graphic elements" }
-        - { label: "Design dimensions", value: "Design dimensions" }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
-  
-  
-  - name: patterns-group-page
-    label: Patterns Group Page
-    editor:
-      preview: true
-    folder: content/patterns/
-    filter: {field: "template", value: "PatternLandingPage"}
-    fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: PatternLandingPage, value: PatternLandingPage }
-      - label: 'Category'
-        name: 'category'
-        widget: 'select'
-        required: false
-        options: 
-        - { label: "Typography", value: "Typography" }
-        - { label: "Graphic elements", value: "Graphic elements" }
-        - { label: "Design dimensions", value: "Design dimensions" }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'body', widget: 'markdown',  required: false } 
-
-  - name: patterns-page
-    label: Patterns Page
-    create: true # Allow users to create new documents in this collection
-    editor:
-      preview: true
-    folder: content/patterns/
-    path: '{{category}}/{{slug}}'
-    filter: {field: "template", value: "ArticlePage"}
-    fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
-      - label: 'Category'
-        name: 'category'
-        widget: 'select'
-        required: false
-        options: 
-        - { label: "App", value: "App" }
-        - { label: "Public web (lf.se)", value: "Public web (lf.se)" }
-        - { label: "General patterns", value: "General patterns" }
-        - { label: "My pages (Mina sidor)", value: "My pages (Mina sidor)" }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'body', widget: 'markdown',  required: false } 
-
-
+ 
   - name: 'landing-page'
     label: 'Landing Pages'
     folder: content/
@@ -163,15 +98,15 @@ collections: # A list of collections the CMS should be able to edi
           - {label: "Author", name: "author", widget: "string", required: false}
   
   - name: categoryOverview-page
-    label: Group Page
+    label: Category Overview
     editor:
       preview: true
     folder: content/
-    filter: {field: "template", value: "categoryOverview"}
+    filter: {field: "template", value: "CategoryOverview"}
     fields: 
       - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
       - { name: previewImage, label: previewImage, widget: image, required: false }
-      - { label: Template, name: template, widget: hidden, default: categoryOverview, value: categoryOverview }
+      - { label: Template, name: template, widget: hidden, default: CategoryOverview, value: CategoryOverview }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false }

@@ -1,8 +1,10 @@
 ---
 background: bg-white
 previewImage: /img/nav.svg
-template: ComponentGroup
+template: CategoryOverview
 title: Navigations
 intro: Intro
 ---
+
+body
 

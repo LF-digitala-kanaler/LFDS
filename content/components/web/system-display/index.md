@@ -1,7 +1,7 @@
 ---
 background: bg-white
 previewImage: /img/alert.svg
-template: ComponentGroup
+template: CategoryOverview
 title: System Display
 intro: >-
   The system display section describes components which communicate the status

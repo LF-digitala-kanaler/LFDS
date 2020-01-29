@@ -1,6 +1,6 @@
 ---
 background: bg-white
-template: ComponentGroup
+template: CategoryOverview
 title: Typography
 intro: Intro
 contentBelow: Bild kan det vara här oxå

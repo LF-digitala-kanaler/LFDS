@@ -1,7 +1,7 @@
 ---
 background: bg-white
 previewImage: /img/checbox.svg
-template: ComponentGroup
+template: CategoryOverview
 title: Forms
 intro: >-
   Forms and form components are used when we want the user to submit some kind

@@ -1,7 +1,7 @@
 ---
 background: bg-white
 previewImage: /img/collapse.svg
-template: ComponentGroup
+template: CategoryOverview
 title: Supportive Microinteractions
 intro: >-
   The supportive microinteraction section includes components which the user can

@@ -1,7 +1,7 @@
 ---
 background: bg-white
 previewImage: /img/button-primary.svg
-template: ComponentGroup
+template: CategoryOverview
 title: Button and Links
 intro: >-
   Buttons and links allow users to take an action, make a choices, with a single
