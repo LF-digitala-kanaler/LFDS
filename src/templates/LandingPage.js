@@ -15,42 +15,42 @@ export const LandingPageTemplate = ({
   title,
   intro,
   blockquote,
-  componentCategories = [],
+  categories = [],
 
   
 }) => (
    
   <>
-  
     <Wrapper tag="div" menu={true} narrow={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      { componentCategories && <CardGrid list={componentCategories}  /> }
+      <CardGrid list={categories}  />
       {/* <Changelog />  */}
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
   </>
 )
-const LandingPage = ({ data: { page, allGroups },currentDirectory, location }) => {
+const LandingPage = ({ data: { page, allPages },currentDirectory, location }) => {
   
   
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
-  // get all children pages 
+
   const children = {
-    items: allGroups.hasOwnProperty('edges')
-      ? allGroups.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
+    items: allPages.hasOwnProperty('edges')
+      ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
 
+  
   const groups = _(children.items)
   .chain()
-  .uniqBy('node.frontmatter.category')
-  .orderBy('node.frontmatter.category',['asc'])
+  .groupBy('node.frontmatter.category')
+  .map((value, key) => ({ category: key,  link: value}))
   .value()
-  
-  
+
+  const groupsSorted = _.orderBy(groups, [item => item.category.toLowerCase()], ['asc']);
   
   return (
     <Layout
@@ -65,7 +65,7 @@ const LandingPage = ({ data: { page, allGroups },currentDirectory, location }) =
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
-        componentCategories={groups}
+        categories={groupsSorted}
 
       />
     </Layout>
@@ -89,7 +89,7 @@ export const pageQuery = graphql`
       }
     }
     
-    allGroups: allMarkdownRemark(
+    allPages: allMarkdownRemark(
       filter: { fileAbsolutePath: {regex : "/^((?!index).)*$/"} },
       sort: { order: ASC, fields: [frontmatter___title] }
     ) {

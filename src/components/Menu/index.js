@@ -98,7 +98,6 @@ const Menu = ({currentDirectory}) => {
     });
     return (
       <React.Fragment>
-          
           {
             breakpoint === 'M'  ? (
               <AnimationContainer show={isOpenDesktop}>
@@ -107,7 +106,6 @@ const Menu = ({currentDirectory}) => {
             ) : (
               <MenuToggle isOpen={isOpen} onClick={handleOnClick} />
             )
-            
           } 
           <div role="button" tabIndex={0} onClick={handleOverlayClick} onKeyDown={handleOverlayClick} className={cx(style.Menu__overlay, (isOpen ? style['Menu__overlay--isVisible'] : '' ))} />
           
@@ -127,11 +125,9 @@ const Menu = ({currentDirectory}) => {
                 ) : (
                   
                     <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
-                       
                         <ul className={style.Menu__list}>
                           {renderMenuItems(navigationStructureSorted, location)}
                         </ul>
-                      
                     </nav>
                   
                 ) 

@@ -36,7 +36,7 @@ const MenuItem = ({item, location}) => {
   const renderSubMenuItems = (items) => {
     return items.map((item) => {
       return (
-        <li className={style.Menu__item} key={item.node.id}><MenuLink title={item.node.frontmatter.title} path={item.node.fields.slug} /></li>
+        <li className={style.Menu__item} key={item.node.id}><MenuLink title={item.node.frontmatter.title} path={'/'+item.node.fields.slug} /></li>
       );
     });
   };  

@@ -8,7 +8,7 @@ import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
 import Blockquote from '../components/Blockquote';
 import Content from '../components/Content';
-
+import _ from 'lodash';
 
 // Export Template for use in CMS preview
 export const CategoryOverviewTemplate = ({
@@ -33,13 +33,24 @@ export const CategoryOverviewTemplate = ({
   </Wrapper>
   </>
 )
-const CategoryOverviewPage = ({ data: { page, allPages },location }) => {
+const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirectory}) => {
   
+
+  if(typeof window !== `undefined`) {
+    currentDirectory = location.href.split('/').filter(Boolean).pop();
+   }
+
+  // const children = {
+  //   items: allPages.hasOwnProperty('edges')
+  //     ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
+  //     : false
+  // }
+  // console.log(children)
   // Get compontents from this group
   const componentsInGroup = {
     links: allPages.hasOwnProperty('edges')
       ? allPages.edges.filter(category => {
-        if(category.node.frontmatter.category === page.frontmatter.title) {
+        if(category.node.fields.contentType.includes(currentDirectory)) {
           return {  ...category.node}
         }
 
@@ -52,6 +63,8 @@ const CategoryOverviewPage = ({ data: { page, allPages },location }) => {
   
   
   const componentsLinks = componentsInGroup.links;
+
+  console.log(componentsLinks)
   // Sort and arrange them in categories 
   
   const breadcrumb = {  
@@ -68,7 +81,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location }) => {
       breadcrumb={breadcrumb}
       backgroundClass={page.frontmatter.background}
     >
-      <categoryOverviewTemplate 
+      <CategoryOverviewTemplate 
         {...page} 
         {...page.frontmatter} 
         title={page.frontmatter.title}
@@ -107,7 +120,7 @@ export const pageQuery = graphql`
     }
 
     allPages: allMarkdownRemark(
-      filter: { fileAbsolutePath: {regex : "\//components/web/"} } 
+      filter: { fileAbsolutePath: {regex : "/^((?!index).)*$/"} },
       sort: { order: ASC, fields: [frontmatter___title] }
     ) {
       edges {
@@ -121,6 +134,7 @@ export const pageQuery = graphql`
           }
           fields {
             slug
+            contentType
           }
         }
       }
