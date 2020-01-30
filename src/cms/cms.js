@@ -9,7 +9,7 @@ import { LandingPageTemplate } from '../templates/LandingPage'
 import Callout from '../components/Callout'
 
 CMS.registerPreviewTemplate('component-page', ({ entry }) => (
-  <ComponentPageTemplate componentNavigation={null} {...entry.toJS().data} />
+  <ComponentPageTemplate  componentNavigation={null} {...entry.toJS().data} />
 ))
 
 CMS.registerPreviewTemplate('categoryOverview-page', ({ entry }) => (
@@ -62,6 +62,6 @@ CMS.registerEditorComponent({
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
   toPreview: function(obj) {
-   return <Callout title={obj.title} text={obj.text} />
+   return `<div>${obj.title}</div>`
   }
 });

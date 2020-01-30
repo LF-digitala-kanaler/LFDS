@@ -27,15 +27,11 @@ export const ComponentPageTemplate = ({
       {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}  />}
     </Wrapper>
     
-    {
-      (tabs != null) && 
       <Location>
         {({ location, navigate }) => (
           <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
         )}
       </Location>
-    }
-   
 
   </>
 )
@@ -47,7 +43,7 @@ const ComponentPage = ({
   currentDirectory
   
   },) => {
- 
+    
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();

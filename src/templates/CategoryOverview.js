@@ -17,7 +17,7 @@ export const CategoryOverviewTemplate = ({
   blockquote,
   contentAbove,
   contentBelow,
-  componentsLinks
+  categoryPages
   
 }) => (
    
@@ -26,7 +26,7 @@ export const CategoryOverviewTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <Content className="content" source={contentAbove} />   
-      { componentsLinks && <CardList list={componentsLinks} /> }
+      { categoryPages && <CardList list={categoryPages} /> }
       <Content className="content" source={contentBelow} />
      
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
@@ -34,26 +34,18 @@ export const CategoryOverviewTemplate = ({
   </>
 )
 const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirectory}) => {
-  
 
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
 
-  // const children = {
-  //   items: allPages.hasOwnProperty('edges')
-  //     ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
-  //     : false
-  // }
-  // console.log(children)
-  // Get compontents from this group
-  const componentsInGroup = {
+
+  const children = {
     links: allPages.hasOwnProperty('edges')
       ? allPages.edges.filter(category => {
         if(category.node.fields.contentType.includes(currentDirectory)) {
           return {  ...category.node}
         }
-
         else {
           return null;
         }
@@ -62,9 +54,9 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
   }
   
   
-  const componentsLinks = componentsInGroup.links;
+  
 
-  console.log(componentsLinks)
+
   // Sort and arrange them in categories 
   
   const breadcrumb = {  
@@ -87,7 +79,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
-        componentsLinks={componentsLinks}
+        categoryPages={children.links}
         contentAbove={page.frontmatter.contentAbove}
         contentBelow={page.frontmatter.contentBelow}
       />
