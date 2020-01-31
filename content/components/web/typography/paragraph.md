@@ -7,10 +7,14 @@ previewImage: /img/panel.svg
 intro: Paragraph preamble
 backgroundColor: '#f3f3f3'
 tabs:
-  - content: content code
+  - content: |-
+      [object Object]
+
+      content code
     name: Design
   - content: content design
     name: Copy
   - content: content code
     name: Code
 ---
+
