@@ -8,9 +8,11 @@ intro: Paragraph preamble
 backgroundColor: '#f3f3f3'
 tabs:
   - content: |-
-      [object Object]
+      \[object Object]
 
       content code
+
+      {{< callout efafeafae feafefea >}}
     name: Design
   - content: |-
       [object Object]
