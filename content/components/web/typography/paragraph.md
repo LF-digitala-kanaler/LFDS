@@ -12,7 +12,12 @@ tabs:
 
       content code
     name: Design
-  - content: content design
+  - content: |-
+      [object Object]
+
+      \[object Object]
+
+      content design
     name: Copy
   - content: content code
     name: Code
