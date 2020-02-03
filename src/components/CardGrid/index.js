@@ -5,9 +5,9 @@ import style from './index.module.css';
 const CardGrid = ({list}) => {
    
   const cardItems = list.map((item, index) => {
-      console.log(item)
-      if(item.category != "null") {
-        console.log(item)
+      
+      if(item.category !== "null") {
+        
         return(
           <div className={style.CardGrid__item} key={index}>
             <Card 

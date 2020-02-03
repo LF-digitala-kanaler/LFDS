@@ -4,14 +4,14 @@ import style from './index.module.css'
 import Wrapper from '../Wrapper'
 import Content from '../Content'
 
-const TabsWrapper = ({tabs, location, navigate, tabsCMS}) => {
-  
+const TabsWrapper = ({tabs, location, navigate}) => {
+  console.log('tabs', tabs)
  
  // need to send in different values to make the component work in the cms
   const filterTabName = tabs.map(item =>{
-    if(item.name.rawMarkdownBody){
-      return item.name.rawMarkdownBody
-    }
+    // if(item.name.rawMarkdownBody){
+    //   return item.name.rawMarkdownBody
+    // }
     return item.name
   })
     
@@ -31,12 +31,12 @@ const TabsWrapper = ({tabs, location, navigate, tabsCMS}) => {
       </TabList>
       <TabPanels className={style.Tabs__panels}>
         {tabs.map((tab, index) => {
-          
+         
           return (
             
             <TabPanel className={style.Tabs__panel} key={index}>
               <Wrapper menu={true} tag="div" narrow={true}>
-              { tab.content.html ?  <Content source={tab.content.html } /> : <Content source={tab.content} /> }
+              <Content source={tab.content} /> 
               </Wrapper>
             </TabPanel>
           )

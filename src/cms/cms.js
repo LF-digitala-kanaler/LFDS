@@ -6,10 +6,35 @@ import {ComponentPageTemplate} from '../templates/ComponentPage'
 import {CategoryOverviewTemplate} from '../templates/CategoryOverview'
 import { ChangelogPageTemplate } from '../templates/ChangelogPage'
 import { LandingPageTemplate } from '../templates/LandingPage'
-import Callout from '../components/Callout'
+import { ArticlePageTemplate } from '../templates/ArticlePage'
+
+
+
+// CMS.registerPreviewTemplate('component-page', ({ entry }) => {
+//     console.log(entry.toJS().data,'data')
+//     const value = entry.toJS().data.tabs.map(function(event) {
+          
+          
+//           return {
+//             name: event.name,
+//             content: markdownProcessor.processSync(event.content).toString()
+//           } 
+          
+
+//         })
+   
+  
+//   return <ComponentPageTemplate 
+//           description={entry.getIn(['data', 'description'])} 
+//           category={entry.getIn(['data', 'category'])}
+//           tabs={value} 
+//           backgroundColor={entry.getIn(['data', 'backgroundColor'])}
+          
+//         />
+// })
 
 CMS.registerPreviewTemplate('component-page', ({ entry }) => (
-  <ComponentPageTemplate  componentNavigation={null} {...entry.toJS().data} />
+  <ComponentPageTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
 
 CMS.registerPreviewTemplate('categoryOverview-page', ({ entry }) => (
@@ -18,6 +43,9 @@ CMS.registerPreviewTemplate('categoryOverview-page', ({ entry }) => (
 CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
   <LandingPageTemplate componentsLinks={null} componentNavigation={null}  {...entry.toJS().data} />
 ))
+CMS.registerPreviewTemplate('article-page', ({ entry }) => (
+  <ArticlePageTemplate   {...entry.toJS().data} />
+))
 CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
   <ChangelogPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
@@ -25,43 +53,45 @@ CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
 
 
 
-
-
 CMS.registerEditorComponent({
-  // Internal id of the component
-  id: "callout",
-  // Visible label
-  label: "Callout",
-  // Fields the user need to fill out when adding an instance of the component
+  
+  label: 'Image with background',
+  id: 'imageWithBackground',
+  fromBlock: match => 
+    
+    match && {
+      image: match[2],
+      alt: match[1],
+      type: match[4]
+      
+    },
+    
+  toBlock: ({ alt, image, type }) =>
+   `![${alt || ''}](${image || ''}${type ? ` "${type.replace(/"/g, '\\"')}"` : ''})`,
+  // eslint-disable-next-line react/display-name
+  toPreview: async ({ alt, image, type, title}, getAsset) => {
+
+    const src = await getAsset(image);
+  
+    return  <img src={src || ''} alt={alt || ''} class={title || ''}  />;
+  }, 
+  pattern: /^!\[(.*)\]\((.*?)(\s"(.*)")?\)$/,
   fields: [
     {
-      name: 'title', 
-      label: 'Title', 
-      widget: 'string'
+      label: 'Image',
+      name: 'image',
+      widget: 'image',
     },
     {
-      name: 'text', 
-      label: 'Text', 
-      widget: 'string'
+      label: 'Alt Text',
+      name: 'alt',
+    },
+    {
+      label: "Type",
+      name: "type",
+      wdiget: 'hidden',
+      default: 'Content--ImageBackground'
     }
   ],
-  // Pattern to identify a block as being an instance of this component,
-  
-  pattern:  /<Callout title="(\S+)" text="(\S+)"><\/Callout>/g,
-  // Function to extract data elements from the regexp match
-  fromBlock: function(match) {
-    return {
-      title: match[1],
-      text: match[2],
-    };
-  },
-  // Function to create a text block from an instance of this component
-  toBlock: function(obj) {
-    return  <Callout title={obj.title} text={obj.text} />
-  },
-  // Preview output for this component. Can either be a string or a React component
-  // (component gives better render performance)
-  toPreview: function(obj) {
-   return `<div>${obj.title}</div>`
-  }
+
 });

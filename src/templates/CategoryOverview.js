@@ -8,7 +8,6 @@ import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
 import Blockquote from '../components/Blockquote';
 import Content from '../components/Content';
-import _ from 'lodash';
 
 // Export Template for use in CMS preview
 export const CategoryOverviewTemplate = ({

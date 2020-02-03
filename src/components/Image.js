@@ -72,9 +72,7 @@ class Image extends React.Component {
               <img
                 className={`${className}`}
                 src={fullSrc}
-                srcSet={secSet}
-                // sizes={'100vw'}
-                title={title}
+                
                 alt={alt}
               />
             

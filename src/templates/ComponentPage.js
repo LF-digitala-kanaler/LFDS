@@ -48,7 +48,7 @@ const ComponentPage = ({
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
-   
+  
    const componentExample = {
     examples: allComponentExample.hasOwnProperty('edges')
       ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
@@ -74,7 +74,7 @@ const ComponentPage = ({
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={page.fields.frontmattermd.tabs}
+        tabs={page.frontmatter.tabs}
         category={page.frontmatter.category}
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
@@ -104,7 +104,7 @@ export const pageQuery = graphql`
         category
         previewImage
         description
-        backgroundColor
+        background
         
         tabs{
           name
@@ -113,6 +113,9 @@ export const pageQuery = graphql`
         
       }
       fields {
+        
+         
+       
           frontmattermd {
             tabs {
               content {
@@ -139,3 +142,9 @@ export const pageQuery = graphql`
     
   }
 `
+
+
+//  tabsMD {
+//             content
+//             name
+//           }

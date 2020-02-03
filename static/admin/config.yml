@@ -55,15 +55,19 @@ collections: # A list of collections the CMS should be able to edi
           - { label: 'Content', name: 'content', widget: 'markdown' }
   
   
-  - name: Design-page
+  - name: article-page
     label: Design@LF
-    editor:
-      preview: true
     folder: content/design/
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
+      - label: 'Background'
+        name: 'background'
+        widget: 'select'
+        options: 
+          - { label: "White", value: "bg-white" }
+          - { label: "Grey", value: "" }
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -78,7 +82,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Motion", value: "Motion" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'body', widget: 'markdown',  required: false }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false }
       
  
   - name: 'landing-page'

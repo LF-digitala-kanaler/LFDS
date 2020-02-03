@@ -2,12 +2,11 @@ import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 import Marked from 'react-markdown'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../Image'
+import Image from '../Image'
 
 import './index.css'
 
 
-// mardown outside of body in netlifycms will not be turned in ti html and then we cant add anchor links to those headings
 
 const encodeMarkdownURIs = (source = '') => {
   const markdownLinkRegex = /\[(.+)\]\((.+)(".+)\)/g
@@ -20,17 +19,17 @@ const encodeMarkdownURIs = (source = '') => {
 
 const withContentImages = source => {
   const images = source.match(/<img(.*?)\\?>/gim)
-
+  
   for (let i in images) {
     const src = /src="(.*?)"/g.exec(images[i]),
       alt = /alt="(.*?)"/g.exec(images[i]),
-      title = /title="(.*?)"/g.exec(images[i])
+      title = /title="(.*?)"/g.exec(images[i]),
     source = source.replace(
       images[i],
       ReactDOMServer.renderToStaticMarkup(
-        <PreviewCompatibleImage
-          resolutions="large"
-          className="Content--Image"
+        <Image
+          resolutions="medium"
+          className={`Content--image`}
           lazy={false}
           src={src ? src[1] : null}
           alt={alt ? alt[1] : null}
@@ -43,14 +42,17 @@ const withContentImages = source => {
   return source
 }
 
-const MyImage = ({ nodeKey, src, title, alt }) => {
+const MyImage = ({ nodeKey, src,  alt, title, type}) => {
   const decodedSrc = decodeURI(src)
+ 
   return (
-    <PreviewCompatibleImage
-      className="Content--Image markdown-preview"
-      resolutions="large"
+    <Image
+      className={`Content--Iframe ${title}`}
+      resolutions="medium"
       lazy={false}
       src={decodedSrc}
+      alt={alt}
+      title={title}
     />
   )
 }

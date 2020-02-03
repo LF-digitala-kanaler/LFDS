@@ -1,7 +1,5 @@
 
-const { PATH_PREFIX = '/' } = process.env;
 module.exports = {
-  pathPrefix: PATH_PREFIX,
   siteMetadata: {
     title: 'LFUI',
     headline: 'Länsförsäkringar User Interface',
@@ -27,11 +25,7 @@ module.exports = {
             urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
             handler: `staleWhileRevalidate`
           },
-          {
-            // uploadcare
-            urlPattern: /^https:\/\/ucarecdn.com\/[-a-zA-Z0-9@:%_\+.~#?&//=]*?\/10x\//,
-            handler: `staleWhileRevalidate`
-          }
+          
         ],
         skipWaiting: true,
         clientsClaim: true
@@ -51,15 +45,7 @@ module.exports = {
         icon: `${__dirname}/static/images/favicon.svg` // This path is relative to the root of the site.
       }
     },
-    
-    // {
-    //   // keep as first gatsby-source-filesystem plugin for gatsby image support
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/static/img`,
-    //     name: 'uploads',
-    //   },
-    // },
+   
     // Add static assets before markdown files
     {
       resolve: 'gatsby-source-filesystem',
@@ -105,7 +91,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 2048,
+              maxWidth: 800,
             },
           },
           {
