@@ -13,3 +13,5 @@ intro: >-
 ![tjena](/img/apps.jpg)
 
 ![test](/img/alert.svg "Content--ImageBackground")
+
+![alt text](/img/avatar.svg)
