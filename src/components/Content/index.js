@@ -31,7 +31,7 @@ const withContentImages = source => {
       images[i],
       ReactDOMServer.renderToStaticMarkup(
         <Image
-          className={`Content--image ${title[1]}`}
+          className={`Content--image ${title[i]}`}
           src={src ? src[1] : null}
           alt={alt ? alt[1] : null}
         />
