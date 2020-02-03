@@ -8,10 +8,6 @@ intro: >-
   utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter eller hittar
   vidare länkar till vår Brand portal Röda rummet.
 ---
-![test](/img/alert.svg "Content--ImageBackground")
+![alt](/img/alert.svg "Content--ImageBackground")
 
-![tjena](/img/apps.jpg)
-
-![test](/img/alert.svg "Content--ImageBackground")
-
-![alt text](/img/avatar.svg)
+![test](/img/avatar.svg "Content--ImageBackground")
