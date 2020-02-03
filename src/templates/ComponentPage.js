@@ -19,6 +19,8 @@ export const ComponentPageTemplate = ({
 }) => (
   
   <> 
+
+  {console.log(React.version)}
     <Wrapper tag="div" menu={true} narrow={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
@@ -43,7 +45,7 @@ const ComponentPage = ({
   currentDirectory
   
   },) => {
-   console.log(page.frontmatter.category) 
+  
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
