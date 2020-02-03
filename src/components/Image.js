@@ -22,62 +22,32 @@ class Image extends React.Component {
   ] // image sizes used for image source sets
 
   
-  checkIsUploadcare(src) {
-    return typeof src === 'string' && src.includes('ucarecdn.com')
-  }
-
-  getResolutionString(res) {
-    /* add resolutions options for inline images */
-    if (res === 'small') {
-      res = '800x'
-    } else if (res === 'medium') {
-      res = '1000x'
-    } else if (res === 'large') {
-      res = '2000x'
-    }
-    return res
-  }
+ 
 
   render() {
     let {
-      resolutions = '1000x',
+      
       className = '',
       src,
-      secSet = '',
-      fullSrc,
       title = '',
       alt = '',
-      lazy = true
+      
     } = this.props
 
-    const isUploadcare = this.checkIsUploadcare(src),
-      fullImage = !isUploadcare || !lazy
-
-    /* create source set for images */
-    
-
-    fullSrc = `${src}${
-      isUploadcare
-        ? '-/progressive/yes/-/format/auto/-/resize/' +
-          this.getResolutionString(resolutions) +
-          '/'
-        : ''
-    }`
+   
    
     return (
       <Fragment>
-        
-        {fullImage && (
           <Fragment>
               <img
                 className={`${className}`}
-                src={fullSrc}
-                
+                src={src}
+                title={title}
                 alt={alt}
               />
             
           </Fragment>
-        )}
+       
       </Fragment>
     )
   }

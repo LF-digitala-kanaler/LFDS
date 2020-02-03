@@ -17,40 +17,38 @@ const encodeMarkdownURIs = (source = '') => {
   })
 }
 
-// const withContentImages = source => {
-//   const images = source.match(/<img(.*?)\\?>/gim)
+const withContentImages = source => {
   
-//   for (let i in images) {
-//     const src = /src="(.*?)"/g.exec(images[i]),
-//       alt = /alt="(.*?)"/g.exec(images[i]),
-//       title = /title="(.*?)"/g.exec(images[i]),
-      
-//     source = source.replace(
-//       images[i],
-//       ReactDOMServer.renderToStaticMarkup(
-//         <Image
-//           resolutions="medium"
-//           className={`Content--image ${title}`}
-//           lazy={false}
-//           src={src ? src[1] : null}
-//           alt={alt ? alt[1] : null}
-         
-//         />
-//       )
-//     )
-//   }
+  const images = source.match(/<img(.*?)\\?>/gim)
+  
+  for (let i in images) {
+   
+    const src = /src="(.*?)"/g.exec(images[i]),
+        alt = /alt="(.*?)"/g.exec(images[i]),
+        title = /title="(.*?)"/g.exec(images[i])
+    
+    source = source.replace(
+      images[i],
+      ReactDOMServer.renderToStaticMarkup(
+        <Image
+          className={`Content--image ${title[1]}`}
+          src={src ? src[1] : null}
+          alt={alt ? alt[1] : null}
+        />
+      )
+    )
+  }
 
-//   return source
-// }
+  return source
+}
 
 const MyImage = ({ nodeKey, src,  alt, title, type}) => {
+
   const decodedSrc = decodeURI(src)
   console.log(type, title)
   return (
     <Image
-      className={`Content--Iframe ${title}`}
-      resolutions="medium"
-      lazy={false}
+      className={`Content--Image ${title}`}
       src={decodedSrc}
       alt={alt}
       title={title}
@@ -76,7 +74,7 @@ const Content = ({ source, src, className = '' }) => {
   // accepts either html or markdown
   source = source || src || ''
   if (source.match(/^</)) {
-    // source = withContentImages(source)
+    source = withContentImages(source)
 
     return (
       <div
@@ -90,11 +88,10 @@ const Content = ({ source, src, className = '' }) => {
     <Marked
       
       className={`Content ${className}`}
-      source={source}
+      source={encodeMarkdownURIs(source)}
       renderers={{
         image: MyImage,
-        html: HtmlBlock,
-        root:'article'
+        html: HtmlBlock
       }}
     />
   )

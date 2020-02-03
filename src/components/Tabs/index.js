@@ -5,7 +5,7 @@ import Wrapper from '../Wrapper'
 import Content from '../Content'
 
 const TabsWrapper = ({tabs, location, navigate}) => {
-  console.log('tabs', tabs)
+ 
  
  // need to send in different values to make the component work in the cms
   const filterTabName = tabs.map(item =>{

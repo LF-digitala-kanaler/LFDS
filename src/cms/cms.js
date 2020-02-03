@@ -66,8 +66,8 @@ CMS.registerEditorComponent({
       
     },
     
-  toBlock: ({ alt, image, type }) =>
-   `![${alt || ''}](${image || ''}${type ? ` "${type.replace(/"/g, '\\"')}"` : ''})`,
+  toBlock: ({ alt, image, title }) =>
+   `![${alt || ''}](${image || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
   // eslint-disable-next-line react/display-name
   toPreview: async ({ alt, image, type, title}, getAsset) => {
 
