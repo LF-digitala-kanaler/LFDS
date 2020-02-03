@@ -26,9 +26,10 @@ const withContentImages = source => {
     const src = /src="(.*?)"/g.exec(images[i]),
         alt = /alt="(.*?)"/g.exec(images[i]),
         title = /title="(.*?)"/g.exec(images[i])
-    
+    console.log(title)
     source = source.replace(
       images[i],
+      
       ReactDOMServer.renderToStaticMarkup(
         <Image
           className={`Content--image ${title ? title[1] : ''}`}

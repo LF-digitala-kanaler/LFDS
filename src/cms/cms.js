@@ -69,7 +69,7 @@ CMS.registerEditorComponent({
   toBlock: ({ alt, image, title }) =>
    `![${alt || ''}](${image || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
   // eslint-disable-next-line react/display-name
-  toPreview: async ({ alt, image, type, title}, getAsset) => {
+  toPreview: async ({ alt, image, title}, getAsset) => {
 
     const src = await getAsset(image);
   
@@ -88,7 +88,7 @@ CMS.registerEditorComponent({
     },
     {
       label: "Type",
-      name: "type",
+      name: "title",
       widget: 'hidden',
       default: 'Content--ImageBackground'
     }
