@@ -10,4 +10,4 @@ intro: >-
 ---
 ![test](/img/alert.svg "Content--ImageBackground")
 
-
+![test](/img/alert.svg)
