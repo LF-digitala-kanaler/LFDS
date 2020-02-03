@@ -65,21 +65,24 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Background'
         name: 'background'
         widget: 'select'
+        required: false
         options: 
           - { label: "White", value: "bg-white" }
           - { label: "Grey", value: "" }
+       
       - label: 'Category'
         name: 'category'
         widget: 'select'
         required: false
         options: 
-        - { label: "Getting Started", value: "Getting Started" }
-        - { label: "Brand Identity", value: "Brand Identity" }
-        - { label: "Design Principles", value: "Design Principles" }
-        - { label: "Process", value: "Process" }
-        - { label: "Accessibility", value: "Accessibility" }
-        - { label: "User Testing", value: "User Testing" }
-        - { label: "Motion", value: "Motion" }
+          - { label: "Getting Started", value: "Getting Started" }
+          - { label: "Brand Identity", value: "Brand Identity" }
+          - { label: "Design Principles", value: "Design Principles" }
+          - { label: "Process", value: "Process" }
+          - { label: "Accessibility", value: "Accessibility" }
+          - { label: "User Testing", value: "User Testing" }
+          - { label: "Motion", value: "Motion" }
+        
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }

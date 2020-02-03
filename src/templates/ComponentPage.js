@@ -43,7 +43,7 @@ const ComponentPage = ({
   currentDirectory
   
   },) => {
-    
+   console.log(page.frontmatter.category) 
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();

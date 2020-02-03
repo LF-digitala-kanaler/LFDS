@@ -44,7 +44,7 @@ CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
   <LandingPageTemplate componentsLinks={null} componentNavigation={null}  {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('article-page', ({ entry }) => (
-  <ArticlePageTemplate   {...entry.toJS().data} />
+  <ArticlePageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
   <ChangelogPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
@@ -89,7 +89,7 @@ CMS.registerEditorComponent({
     {
       label: "Type",
       name: "type",
-      wdiget: 'hidden',
+      widget: 'hidden',
       default: 'Content--ImageBackground'
     }
   ],
