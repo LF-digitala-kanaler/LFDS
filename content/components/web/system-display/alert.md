@@ -151,41 +151,134 @@ tabs:
       just continues without a separator”.
     name: Copy
   - content: >-
-      <table class="Table">
+      ### Info
 
-      <tbody><tr><th>Property</th><th>Value</th></tr><tr>
 
-      <td class="text-nowrap">background-color</td>
+      | Property                   |
+      Value                                          |
 
-      <td class="text-nowrap"><dt class="distribution-title"
-      style="background-color: #fbd5d6"></dt>#fbd5d6</td></tr><tr>
+      | -------------------------- |
+      ---------------------------------------------- |
 
-      <td class="text-nowrap">border-color (and stripes)</td>
+      | background-color           |
+      \#e5eff7                                       |
 
-      <td class="text-nowrap"><dt class="distribution-title"
-      style="background-color: #fbcbd2"></dt>#fbcbd2</td></tr><tr>
+      | border-color (and stripes) |
+      \#d7e9f7                                       |
 
-      <td class="text-nowrap">border-width</td>
+      | border-width               |
+      2px                                            |
 
-      <td class="text-nowrap"> 2px</td></tr><tr>
+      | color                      |
+      2px                                            |
 
-      <td class="text-nowrap">color</td>
+      | font-family                | Arial, "Helvetica Neue", Helvetica,
+      sans-serif |
 
-      <td class="text-nowrap"><dt class="distribution-title"
-      style="background-color: #ad1015"></dt>#ad1015</td></tr><tr>
+      | font-size                  |
+      1rem                                           |
 
-      <td class="text-nowrap">font-family</td>
+      | line-height                |
+      1.45                                           |
 
-      <td class="text-nowrap">Arial, "Helvetica Neue", Helvetica,
-      sans-serif</td></tr><tr>
 
-      <td class="text-nowrap">font-size</td>
 
-      <td class="text-nowrap">1rem</td></tr><tr>
 
-      <td class="text-nowrap">line-height</td>
+      ### Success
 
-      <td class="text-nowrap">1.45</td></tr></tbody></table>
+
+      | Property                   |
+      Value                                          |
+
+      | -------------------------- |
+      ---------------------------------------------- |
+
+      | background-color           |
+      \#e5eff7                                       |
+
+      | border-color (and stripes) |
+      \#d7e9f7                                       |
+
+      | border-width               |
+      2px                                            |
+
+      | color                      |
+      2px                                            |
+
+      | font-family                | Arial, "Helvetica Neue", Helvetica,
+      sans-serif |
+
+      | font-size                  |
+      1rem                                           |
+
+      | line-height                |
+      1.45                                           |
+
+
+
+
+      ### Warning
+
+
+      | Property                   |
+      Value                                          |
+
+      | -------------------------- |
+      ---------------------------------------------- |
+
+      | background-color           |
+      \#e5eff7                                       |
+
+      | border-color (and stripes) |
+      \#d7e9f7                                       |
+
+      | border-width               |
+      2px                                            |
+
+      | color                      |
+      2px                                            |
+
+      | font-family                | Arial, "Helvetica Neue", Helvetica,
+      sans-serif |
+
+      | font-size                  |
+      1rem                                           |
+
+      | line-height                |
+      1.45                                           |
+
+
+
+
+      ### Danger
+
+
+      | Property                   |
+      Value                                          |
+
+      | -------------------------- |
+      ---------------------------------------------- |
+
+      | background-color           |
+      \#e5eff7                                       |
+
+      | border-color (and stripes) |
+      \#d7e9f7                                       |
+
+      | border-width               |
+      2px                                            |
+
+      | color                      |
+      2px                                            |
+
+      | font-family                | Arial, "Helvetica Neue", Helvetica,
+      sans-serif |
+
+      | font-size                  |
+      1rem                                           |
+
+      | line-height                |
+      1.45                                           |
     name: Code
 ---
 
