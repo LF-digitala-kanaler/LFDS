@@ -15,13 +15,15 @@ const TabsWrapper = ({tabs, location, navigate}) => {
     return item.name
   })
     
-  const index = filterTabName.indexOf(location.search.substr(1));
+  // const index = filterTabName.indexOf(location.search.substr(1));
 
-  const onTabsChange = index =>
-    navigate(location.pathname + `?${filterTabName[index]}`, { replace: false });
+  // const onTabsChange = index =>
   
+  //   navigate(location.pathname + `?${filterTabName[index]}`, { replace: false });
+  //onChange={onTabsChange}
+  //index={index === -1 ? 0 : index}
   return (
-    <Tabs index={index === -1 ? 0 : index} onChange={onTabsChange} className={style.Tabs}>
+    <Tabs   className={style.Tabs}>
       <TabList className={style.Tabs__list}>
         {
           filterTabName.map((tab, index) => {

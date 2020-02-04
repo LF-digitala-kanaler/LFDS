@@ -60,4 +60,26 @@
   text-align: center;
   vertical-align: bottom;
 }
+
+.Content table th{
   
+  border: 0;
+  text-align: left;
+  background-color: var(--color-smoke);
+}
+.Content table th {
+  padding: 8px 4px;
+}
+.Content table  td {
+  padding: 6px 4px;
+  width: 50%;
+  text-align: left;
+}
+.Content table{
+  width: 100%;
+  border: 0;
+  border-collapse: collapse;
+}
+.Content table tr:nth-child(even) {
+  background: var(--color-background-light)
+}

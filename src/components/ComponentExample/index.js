@@ -1,6 +1,9 @@
 import React, { useState, useEffect }  from 'react';
 import Frame from 'react-frame-component';
 import css from '!!raw-loader!lfui/dist/lf.css'; 
+import js from '!!raw-loader!lfui/dist/lf.js'; 
+import svg from '!!raw-loader!lfui/dist/icons.svg'; 
+
 import Preview from '../Preview';
 import Actions from '../Actions'
 import Content from '../Content';
@@ -59,8 +62,11 @@ const ComponentExample = ({variants, background}) => {
           <Cell middle><Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} /></Cell>
         </Grid>
           {
+            
             source &&
             <CodeBlock code={`${code}`} />
+           
+            
           }
           <Preview>
             <Frame
@@ -70,14 +76,21 @@ const ComponentExample = ({variants, background}) => {
               ref={iframeRef}
               onLoad={() => handleResize(iframeRef)}
               head={
+                <>
+                <script>
+                  {js}
+                </script>
                 <style>
                   {css}
                   
                   {' body{padding:16px; background-color:'+backgroundColor+'} '}
                 </style>
+                </>
               }
             >
             <Content source={code} />
+            <Content source={svg} />
+           
             </Frame>
           </Preview>
           

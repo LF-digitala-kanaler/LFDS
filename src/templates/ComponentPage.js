@@ -50,13 +50,18 @@ const ComponentPage = ({
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
-  
+  const toKebabCase = str =>
+    str &&
+    str
+      .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+      .map(x => x.toLowerCase())
+      .join('-');
    const componentExample = {
     examples: allComponentExample.hasOwnProperty('edges')
-      ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
+      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory)
       : false
    }
-
+  console.log(allComponentExample , currentDirectory)
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,

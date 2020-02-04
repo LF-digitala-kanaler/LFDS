@@ -10,7 +10,7 @@ import Preamble from '../components/Preamble'
 export const HomePageTemplate = ({ title, intro, body }) => (
   <Wrapper tag="section">
     <Heading tag={1} text={title} align={"center"} />
-    <Preamble text={intro} tag="p" color="blue" />
+    <Preamble text={intro} tag="p"  />
     
     
     <Content source={body} />  
