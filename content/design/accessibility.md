@@ -10,4 +10,4 @@ intro: >-
 ---
 <figure class="Image Image--background"><img src="/img/alert.svg" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-<figure class="Image none"><img src="/img/avatar.svg" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image--border"><img src="/img/avatar.svg" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>

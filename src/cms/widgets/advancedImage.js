@@ -10,7 +10,7 @@ const AdvancedImage = {
       widget: "select",
       default: "none",
       options: [
-        { label: "None", value: "none" },
+        { label: "None", value: "Image--border" },
         { label: "With background", value: "Image--background" },
       ],
     },
