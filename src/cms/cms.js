@@ -7,7 +7,9 @@ import {CategoryOverviewTemplate} from '../templates/CategoryOverview'
 import { ChangelogPageTemplate } from '../templates/ChangelogPage'
 import { LandingPageTemplate } from '../templates/LandingPage'
 import { ArticlePageTemplate } from '../templates/ArticlePage'
+import AdvancedImageComponent from "./widgets/advancedImageComponent"
 
+CMS.registerEditorComponent(AdvancedImageComponent)
 
 
 // CMS.registerPreviewTemplate('component-page', ({ entry }) => {
@@ -53,45 +55,3 @@ CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
 
 
 
-CMS.registerEditorComponent({
-  
-  label: 'Image with background',
-  id: 'imageWithBackground',
-  fromBlock: match => 
-    
-    match && {
-      image: match[2],
-      alt: match[1],
-      type: match[4]
-      
-    },
-    
-  toBlock: ({ alt, image, title }) =>
-   `![${alt || ''}](${image || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
-  // eslint-disable-next-line react/display-name
-  toPreview: async ({ alt, image, title}, getAsset) => {
-
-    const src = await getAsset(image);
-  
-    return  <img src={src || ''} alt={alt || ''} class={title || ''}  />;
-  }, 
-  pattern: /^!\[(.*)\]\((.*?)(\s"(.*)")?\)$/,
-  fields: [
-    {
-      label: 'Image',
-      name: 'image',
-      widget: 'image',
-    },
-    {
-      label: 'Alt Text',
-      name: 'alt',
-    },
-    {
-      label: "Type",
-      name: "title",
-      widget: 'hidden',
-      default: 'Content--ImageBackground'
-    }
-  ],
-
-});

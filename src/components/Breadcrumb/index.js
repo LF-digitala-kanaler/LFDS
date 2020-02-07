@@ -4,15 +4,11 @@ import { Link } from 'gatsby';
 
 
 const parentDirectory = (url) => {
-  if (url.charAt(url.length - 1) === "/") {
-     url = url.substr(0, url.length - 1);
-  
   return url.substring(0, url.lastIndexOf('/'));
-  }
 }
 
 const Breadcrumb = ({location}) => {
-  
+  console.log(location.location.pathname.split('/')[2], 'item')
   return (
     <div className={style.Breadcrumb}>
       

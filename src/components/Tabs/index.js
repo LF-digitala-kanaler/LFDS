@@ -6,7 +6,7 @@ import Content from '../Content'
 
 const TabsWrapper = ({tabs, location, navigate}) => {
  
- 
+ console.log(location, navigate)
  // need to send in different values to make the component work in the cms
   const filterTabName = tabs.map(item =>{
     // if(item.name.rawMarkdownBody){
@@ -15,15 +15,15 @@ const TabsWrapper = ({tabs, location, navigate}) => {
     return item.name
   })
     
-  // const index = filterTabName.indexOf(location.search.substr(1));
-
-  // const onTabsChange = index =>
+  const index = filterTabName.indexOf(location.search.substr(1));
   
-  //   navigate(location.pathname + `?${filterTabName[index]}`, { replace: false });
-  //onChange={onTabsChange}
-  //index={index === -1 ? 0 : index}
+  const onTabsChange = index => 
+    navigate( `?${filterTabName[index]}`, { replace: false });
+  
   return (
-    <Tabs   className={style.Tabs}>
+
+  
+      <Tabs index={index === -1 ? 0 : index} onChange={onTabsChange} className={style.Tabs} >
       <TabList className={style.Tabs__list}>
         {
           filterTabName.map((tab, index) => {
@@ -45,6 +45,9 @@ const TabsWrapper = ({tabs, location, navigate}) => {
         })}
       </TabPanels>
     </Tabs> 
+      
+  
+    
   );
 }
 

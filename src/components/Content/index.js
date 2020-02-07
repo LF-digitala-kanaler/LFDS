@@ -17,42 +17,40 @@ const encodeMarkdownURIs = (source = '') => {
   })
 }
 
-const withContentImages = source => {
+// const withContentImages = source => {
   
-  const images = source.match(/<img(.*?)\\?>/gim)
+//   const images = source.match(/<img(.*?)\\?>/gim)
   
-  for (let i in images) {
+//   for (let i in images) {
    
-    const src = /src="(.*?)"/g.exec(images[i]),
-        alt = /alt="(.*?)"/g.exec(images[i]),
-        title = /title="(.*?)"/g.exec(images[i])
-    console.log(title)
-    source = source.replace(
-      images[i],
+//     const src = /src="(.*?)"/g.exec(images[i]),
+//         alt = /alt="(.*?)"/g.exec(images[i]),
+    
+//     source = source.replace(
+//       images[i],
       
-      ReactDOMServer.renderToStaticMarkup(
-        <Image
-          className={`Content--image ${title ? title[1] : ''}`}
-          src={src ? src[1] : null}
-          alt={alt ? alt[1] : null}
-        />
-      )
-    )
-  }
+//       ReactDOMServer.renderToStaticMarkup(
+//         <Image
+//           className={`Content--image}`}
+//           src={src ? src[1] : null}
+//           alt={alt ? alt[1] : null}
+//         />
+//       )
+//     )
+//   }
 
-  return source
-}
+//   return source
+// }
 
-const MyImage = ({ nodeKey, src,  alt, title, type}) => {
+const MyImage = ({ nodeKey, src,  alt}) => {
 
   const decodedSrc = decodeURI(src)
-  console.log(type, title)
+  
   return (
     <Image
-      className={`Content--Image ${title}`}
+      className={`Content--Imag`}
       src={decodedSrc}
       alt={alt}
-      title={title}
     />
   )
 }
@@ -71,11 +69,11 @@ const HtmlBlock = ({ value }) => {
 
 const Content = ({ source, src, className = '' }) => {
 
-  
+  console.log(source, className)
   // accepts either html or markdown
   source = source || src || ''
   if (source.match(/^</)) {
-    source = withContentImages(source)
+    // source = withContentImages(source)
 
     return (
       <div

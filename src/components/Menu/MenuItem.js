@@ -12,7 +12,7 @@ const MenuItem = ({item, location}) => {
         url = location.pathname.split('/');
         url.pop()
     
-    item.childLink.filter((active, ) => {
+    item.childLink.filter((active) => {
       if(active.node.fields.slug.match(location.pathname) && url.length >= 3) {
         setOpen(true)
       } 
@@ -21,7 +21,11 @@ const MenuItem = ({item, location}) => {
 
   }, [item, location]);
 
-  
+  const stripTrailingSlash = (str) => {
+    return str.endsWith('/') ?
+        str.slice(0, -1) :
+        str;
+};
 
   const className = cx({
     Menu__item: true,
@@ -34,9 +38,10 @@ const MenuItem = ({item, location}) => {
   };
   
   const renderSubMenuItems = (items) => {
+    console.log(items)
     return items.map((item) => {
       return (
-        <li className={style.Menu__item} key={item.node.id}><MenuLink title={item.node.frontmatter.title} path={'/'+item.node.fields.slug} /></li>
+        <li className={style.Menu__item} key={item.node.id}><MenuLink title={item.node.frontmatter.title} path={'/'+ (stripTrailingSlash(item.node.fields.slug))} /></li>
       );
     });
   };  

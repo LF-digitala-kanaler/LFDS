@@ -17,7 +17,7 @@ export const ArticlePageTemplate = ({
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <Content className="content" source={body} />   
+      <Content source={body} />   
     </Wrapper>
   </>
 )
@@ -37,7 +37,7 @@ const ArticlePage = ({
       <ArticlePageTemplate 
         {...page} 
         {...page.frontmatter}
-        body={page.html}
+        html={page.markdownRemark}
       />
     </Layout>
   )

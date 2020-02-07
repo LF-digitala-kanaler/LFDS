@@ -30,10 +30,5 @@ const ComponentNavigation = ({variants, onChildClick}) => {
   
 
 }
-  
-
-  
-    
-
 
 export default ComponentNavigation

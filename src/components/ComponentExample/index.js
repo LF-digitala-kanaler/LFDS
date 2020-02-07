@@ -62,11 +62,8 @@ const ComponentExample = ({variants, background}) => {
           <Cell middle><Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} /></Cell>
         </Grid>
           {
-            
             source &&
             <CodeBlock code={`${code}`} />
-           
-            
           }
           <Preview>
             <Frame

@@ -61,7 +61,12 @@ const Menu = ({currentDirectory}) => {
   .value()
 
 
-  const navigationStructureSorted = _.orderBy(navigationStructure, [item => item.parentLink.toLowerCase()], ['asc']);
+  const navigationStructureSorted = _.orderBy(navigationStructure, [(item) => {
+    const nestedObj = _.get(item, 'childLink');
+    item['childLink'] = _.orderBy(nestedObj,'node.frontmatter.title','asc');
+      return [item.parentLink, item['childLink']];
+    }], 'asc', 'asc');
+  
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);

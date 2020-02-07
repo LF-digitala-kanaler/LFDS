@@ -7,6 +7,7 @@ import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
 import { Location } from "@reach/router";
+import { navigate } from '@reach/router'
 
 // Export Template for use in CMS preview
 export const ComponentPageTemplate = ({
@@ -30,7 +31,7 @@ export const ComponentPageTemplate = ({
     </Wrapper>
     
       <Location>
-        {({ location, navigate }) => (
+        {({ location }) => (
           <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
         )}
       </Location>
@@ -58,16 +59,16 @@ const ComponentPage = ({
       .join('-');
    const componentExample = {
     examples: allComponentExample.hasOwnProperty('edges')
-      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory)
+      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory.split('?')[0])
       : false
    }
-  console.log(allComponentExample , currentDirectory)
+  console.log(currentDirectory)
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
     location: location
   }
-  
+  console.log(breadcrumb)
   
   return (
     <Layout
