@@ -10,4 +10,6 @@ intro: >-
 ---
 ![alt](/img/alert.svg "Content--ImageBackground")
 
+<figure class="advanced-image left"><img src="/img/apps.jpg" alt="ffesfse"><figcaption><div class="caption">aefeafae</div></figcaption></figure>
+
 ![test](/img/avatar.svg "Content--ImageBackground")
