@@ -7,13 +7,23 @@ previewImage: /img/panel.svg
 intro: Preamble preamble
 backgroundColor: '#f3f3f3'
 tabs:
-  - content: | 
+  - content: >-
+      <figure class="Image none"><img src="/img/one-lined-input-field.png"
+      alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
+      <figure class="Image Image--background"><img src="/img/ex-secondary.svg"
+      alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
       content code
     name: Code
-  - content: | 
+  - content: |
       content design
     name: Design
-  - content: |  
+  - content: |
       content code
     name: Code
 ---
