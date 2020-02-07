@@ -18,6 +18,7 @@ export const ArticlePageTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <Content source={body} />   
+     
     </Wrapper>
   </>
 )
@@ -25,7 +26,7 @@ const ArticlePage = ({
   data: { page }
 
   },) => {
-
+    console.log(page, 'page')
 
   return (
     <Layout
@@ -37,7 +38,7 @@ const ArticlePage = ({
       <ArticlePageTemplate 
         {...page} 
         {...page.frontmatter}
-        html={page.markdownRemark}
+        body={page.html}
       />
     </Layout>
   )

@@ -7,9 +7,11 @@ import {CategoryOverviewTemplate} from '../templates/CategoryOverview'
 import { ChangelogPageTemplate } from '../templates/ChangelogPage'
 import { LandingPageTemplate } from '../templates/LandingPage'
 import { ArticlePageTemplate } from '../templates/ArticlePage'
-import AdvancedImageComponent from "./widgets/advancedImageComponent"
+import AdvancedImage from "./widgets/advancedImage"
+import Callout from "./widgets/callout"
 
-CMS.registerEditorComponent(AdvancedImageComponent)
+CMS.registerEditorComponent(AdvancedImage)
+CMS.registerEditorComponent(Callout)
 
 
 // CMS.registerPreviewTemplate('component-page', ({ entry }) => {

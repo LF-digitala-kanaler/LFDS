@@ -1,4 +1,4 @@
-const AdvancedImageComponent = {
+const AdvancedImage = {
   id: "advancedImage",
   label: "Advanced Image",
   fields: [
@@ -30,4 +30,4 @@ const AdvancedImageComponent = {
   },
 }
 
-export default AdvancedImageComponent
+export default AdvancedImage

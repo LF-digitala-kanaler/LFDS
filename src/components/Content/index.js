@@ -48,7 +48,7 @@ const MyImage = ({ nodeKey, src,  alt}) => {
   
   return (
     <Image
-      className={`Content--Imag`}
+      className={`Content--Image`}
       src={decodedSrc}
       alt={alt}
     />
@@ -69,7 +69,7 @@ const HtmlBlock = ({ value }) => {
 
 const Content = ({ source, src, className = '' }) => {
 
-  console.log(source, className)
+  console.log(source,src, 'soruce')
   // accepts either html or markdown
   source = source || src || ''
   if (source.match(/^</)) {
