@@ -11,7 +11,7 @@ const AdvancedImage = {
       default: "none",
       options: [
         { label: "None", value: "none" },
-        { label: "Background", value: "Image--background" },
+        { label: "With background", value: "Image--background" },
       ],
     },
     { name: "caption", label: "Caption", widget: "string", default: "" },
