@@ -26,24 +26,13 @@ tabs:
       ### LFUI color scales
 
 
-      In LFUI version 5.3.0 these colors are not 100% WCAG AA-approved, and are
-      most likely bound to change.
+      _In LFUI version 5.3.0 these colors are not 100% WCAG AA-approved, and are
+      most likely bound to change._
 
 
-
-
-      D3 allows the use of color scales which can be iterated through and bound
-      to data. LFUI provides a few scales to choose from that will color your
-      visual data according to the visual profile of LF.
-
-
-
-
-      The color scales are Ordinal Scales, and iterated through like other data.
-      Copy the arrays below assign them to your colorScale variable. In the
-      examples below you can see it in use.
-
-
+      LFUI provides a few scales to choose from that will color your visual data
+      according to the visual profile of Länsförsäkringar. The visual identity
+      set a prefereble.
 
 
       Disabled / not selected / inactive#
