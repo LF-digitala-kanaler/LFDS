@@ -115,17 +115,15 @@ tabs:
       ## Så skriver vi
 
 
-      **Label:** Välj x (Till exempel Välj belopp)
+      **Label:** Välj x (Till exempel Välj belopp) alternativt bara det man
+      väljer (till exempel Belopp)
 
 
       **Förvald text i dropdown:** Välj
 
 
-
-
-      A short secondary text can be added to help the user make their choice
-      (this should primarily be used to show price for different options). This
-      text is in a smaller typeface and grey. See picture below for an example:
+      Den sekundära texten kan användas för att hjälpa användaren göra sitt val.
+      Kan till exempel visa pris för olika val. Förkortningar ok.
     name: Copy
 ---
 
