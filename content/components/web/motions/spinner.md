@@ -1,21 +1,38 @@
 ---
 template: ComponentPage
-category: Motions
+category: System Display
 title: Spinner
-intro: Spinner preamble
+description: >-
+  The spinner is used to show that the system is loading/fetching data and that
+  the response isn't instantaneous.
 previewImage: /img/alert.svg
+intro: >-
+  The spinner is used to show that the system is loading/fetching data and that
+  the response isn't instantaneous.
 backgroundColor: '#f3f3f3'
-description: 'dee'
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
 tabs:
-  - content: content code
-    name: Code
-  - content: content design
+  - content: |-
+      ## How to use
+
+
+
+      ### Versions
+
+
+
+      ### Modifiers
+
+
+
+      ## Please note
+
+      Only works on white background
+
+      Spinner in button
+
+      Lazy loader
     name: Design
   - content: content code
     name: Code
 ---
+
