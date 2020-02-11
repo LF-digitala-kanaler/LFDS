@@ -14,10 +14,11 @@
   display: block;
 
   @media (--medium-viewport) { 
-     margin-left: var(--spacing-xs);
+     margin-right: var(--spacing-xs);
     
   }
 }
+
 
 .Search__button {
   background-color: transparent;
@@ -27,6 +28,8 @@
   font-size: 0.5rem;
   color: var(--color-black);
   outline: 0;
+  margin-left: var(--spacing-md);
+  
   @media (--medium-viewport) { 
     display: flex;
     align-items: center;
@@ -34,6 +37,8 @@
   }
   
 } 
+
+
 .Search__button--isActive {
   background-color: var(--search-active-background);
 
@@ -42,12 +47,18 @@
   display: none;
 }
 .Search__field {
-  border-width: 0 0 2px 0;
-  border-bottom: 2px solid var(--color-blue);
+  border: 0;
+  padding: 0;
   color: var(--color-black);
   outline: 0;
+  width: 0;
+  box-shadow: 0 2px 0 0  var(--color-blue);
+  transition: width .4s ease;
+  
 }
-
+.Search__field--isVisible {
+  width: 200px;
+}
 .Search__list {
   background-color: var(--color-white);
   position: absolute;
