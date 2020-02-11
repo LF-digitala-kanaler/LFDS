@@ -16,8 +16,23 @@ tabs:
 
 
       Our pagination is one of the components which have gone through the most
-      design iterations and discussions. Please refer to Design rationale below
-      for why this particular design has triumphed over alternatives.
+      design iterations and discussions. Please refer to [Design
+      rationale](#design-rationale) below for why this particular design has
+      triumphed over alternatives.
+
+
+      Layoutwise the pagination is really simple: the number of pages available
+      is listed with a visible number for each page. The styling of the
+      numbering depends on where in the flow the user is:
+
+
+      * **Previous pages** have a white background with a blue text. By default
+      the page number is clickable and lets the user return to that specific
+      page. On hover the number is underlined.
+
+      * The **current page** has a blue background with a white text.
+
+      * **Upcoming pages** have a white background and grey text.
 
 
 
