@@ -93,7 +93,7 @@ tabs:
       ## Så skriver vi
 
 
-      ### Primärknapp
+      ### Primary button
 
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
@@ -106,7 +106,7 @@ tabs:
       * Gå vidare
 
 
-      ### Primärknapp med pil
+      ### Primary button with arrow
 
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
@@ -117,7 +117,7 @@ tabs:
       * Köp bilförsäkring
 
 
-      ### Knapp med två rader
+      ### Buttons with double row
 
 
       Knappen används bara I köptjänster och ska förklara vad som händer när jag
@@ -129,7 +129,7 @@ tabs:
       * Gå vidare\
         och godkänn 
 
-      ### Primärknapp med BankID-ikon
+      ### Primary with BankID icon
 
 
       #### Legitimering direkt
@@ -173,7 +173,7 @@ tabs:
 
 
       **Text i knapp:** Ansök om autogiro direkt
-    name: Copy
+    name: Copy (SE)
   - content: content code
     name: Code
   - content: '## Olika exempel'
