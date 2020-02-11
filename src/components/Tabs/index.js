@@ -6,12 +6,12 @@ import Content from '../Content'
 
 const TabsWrapper = ({tabs, location, navigate}) => {
  
- console.log(location, navigate)
+ 
  // need to send in different values to make the component work in the cms
   const filterTabName = tabs.map(item =>{
-    // if(item.name.rawMarkdownBody){
-    //   return item.name.rawMarkdownBody
-    // }
+    if(item.name.rawMarkdownBody){
+      return item.name.rawMarkdownBody
+    }
     return item.name
   })
     
@@ -38,7 +38,7 @@ const TabsWrapper = ({tabs, location, navigate}) => {
             
             <TabPanel className={style.Tabs__panel} key={index}>
               <Wrapper menu={true} tag="div" narrow={true}>
-              <Content source={tab.content} /> 
+              { tab.content.html ?  <Content source={tab.content.html } /> : <Content source={tab.content} /> }
               </Wrapper>
             </TabPanel>
           )
@@ -52,3 +52,4 @@ const TabsWrapper = ({tabs, location, navigate}) => {
 }
 
 export default TabsWrapper
+

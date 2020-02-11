@@ -150,3 +150,9 @@ figure {
 .Image--background img {
   padding: var(--spacing-xxlg);
 }
+.active {
+  background: red;
+}
+.selected {
+  background: green;
+}

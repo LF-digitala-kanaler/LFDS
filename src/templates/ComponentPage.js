@@ -59,10 +59,10 @@ const ComponentPage = ({
       .join('-');
    const componentExample = {
     examples: allComponentExample.hasOwnProperty('edges')
-      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory.split('?')[0])
+      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory)
       : false
    }
-  console.log(currentDirectory)
+  
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
@@ -82,7 +82,7 @@ const ComponentPage = ({
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={page.frontmatter.tabs}
+        tabs={page.fields.frontmattermd.tabs}
         category={page.frontmatter.category}
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}

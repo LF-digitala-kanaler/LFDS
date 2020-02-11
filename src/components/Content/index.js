@@ -69,7 +69,7 @@ const HtmlBlock = ({ value }) => {
 
 const Content = ({ source, src, className = '' }) => {
 
-  console.log(source,src, 'soruce')
+  
   // accepts either html or markdown
   source = source || src || ''
   if (source.match(/^</)) {
