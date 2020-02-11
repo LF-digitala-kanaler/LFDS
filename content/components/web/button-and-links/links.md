@@ -2,13 +2,13 @@
 template: ComponentPage
 category: Button and Links
 title: Link Secondary
-intro: >-
-  Kan användas flera i samma block. Kan användas bredvid eller under en primär
-  eller en sekundär länk. Finns med ikon, externikon och som lista. 
 description: >-
   Kan användas flera i samma block. Kan användas bredvid eller under en primär
   eller en sekundär länk. Finns med ikon, externikon och som lista. 
 previewImage: /img/link-secondary.svg
+intro: >-
+  Kan användas flera i samma block. Kan användas bredvid eller under en primär
+  eller en sekundär länk. Finns med ikon, externikon och som lista. 
 backgroundColor: '#fff'
 tabs:
   - content: >-
@@ -111,8 +111,13 @@ tabs:
     name: Design
   - content: content code
     name: Code
-  - content: content code
-    name: Code
+  - content: >-
+      ## Så skriver vi
+
+
+      Länkarna ska beskriva var användaren hamna och ska kunna stå ensamma.
+      Undvik "Läs mer" och "Klicka här".
+    name: Copy
   - content: Primär länk först sedan sekundär länk.
     name: Exempel
 ---
