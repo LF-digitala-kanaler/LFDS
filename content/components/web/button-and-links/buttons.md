@@ -173,7 +173,7 @@ tabs:
 
 
       **Text i knapp:** Ansök om autogiro direkt
-    name: Copy (SE)
+    name: Copy
   - content: content code
     name: Code
   - content: '## Olika exempel'
