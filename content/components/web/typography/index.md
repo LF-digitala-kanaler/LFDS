@@ -1,16 +1,15 @@
 ---
 background: bg-white
+previewImage: /img/headings.svg
 template: CategoryOverview
 title: Typography
-intro: Intro
-contentBelow: Bild kan det vara här oxå
-contentAbove: Bild kan det vara här
+intro: >-
+  This page gathers the different typographic details in LFUI, including lists
+  of different kinds and other utilties related to text.
+contentBelow: ''
+contentAbove: ''
 blockquote:
-  author: John Doe
-  text: >-
-    For 50 years, WWF has been protecting the future of nature. The world's
-    leading conservation organization, WWF works in 100 countries and is
-    supported by 1.2 million members in the United States and close to 5 million
-    globally.
+  author: Dieter Rams
+  text: 'Nothing works without details. They are everything, the baseline of quality.'
 ---
 

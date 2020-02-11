@@ -3,7 +3,7 @@ template: ComponentPage
 category: Typography
 title: Headings
 description: Hur använder vi rubriker och vilka rubriker finns?
-previewImage: /img/panel.svg
+previewImage: /img/headings.svg
 intro: Hur använder vi rubriker och vilka rubriker finns?
 backgroundColor: '#fff'
 tabs:
@@ -30,3 +30,4 @@ tabs:
   - content: content code
     name: Code
 ---
+

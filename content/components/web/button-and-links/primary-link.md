@@ -2,15 +2,15 @@
 template: ComponentPage
 category: Button and Links
 title: Link Primary
-intro: >-
-  Används max en per block (helst per sida) och ska ta mig dit som är mitt
-  huvudsakliga syfte. Finns endast med pil. Primär länk ställer vi alltid under
-  ett stycke. 
 description: >-
   Används max en per block (helst per sida) och ska ta mig dit som är mitt
   huvudsakliga syfte. Finns endast med pil. Primär länk ställer vi alltid under
   ett stycke. 
 previewImage: /img/link-primary.svg
+intro: >-
+  Används max en per block (helst per sida) och ska ta mig dit som är mitt
+  huvudsakliga syfte. Finns endast med pil. Primär länk ställer vi alltid under
+  ett stycke. 
 backgroundColor: '#fff'
 tabs:
   - content: >-
@@ -37,7 +37,20 @@ tabs:
     name: Design
   - content: Hej
     name: Code
-  - content: hej
+  - content: >-
+      ## Så skriver vi
+
+
+      Länken ska beskriva var användaren hamnar och ska kunna stå ensam. Undvik
+      "Läs mer" och "Klicka här". Produktnamn kan gärna vara med vid länk till
+      köptjänst både för tillgänglighet (och SEO om den ligger på publik
+      webbplats).
+
+
+      **Text (exempel):** Köp bilförsäkring
+
+
+      **Text (exempel):** Se pris och ansök
     name: Copy
   - content: >-
       Visa några kontakter men skicka dem till primära sidan för

@@ -3,6 +3,7 @@ template: ComponentPage
 category: Typography
 title: Lists
 description: 'Används för att lista upp små texter i punkter eller i sifferordning. '
+previewImage: /img/lists.svg
 intro: 'Används för att lista upp små texter i punkter eller i sifferordning. '
 backgroundColor: '#fff'
 tabs:
