@@ -196,7 +196,44 @@ tabs:
       its column as is web standard - we have however disabled horisontal
       resizing.
     name: Code
-  - content: content code
-    name: Code
+  - content: >-
+      ## Så skriver vi
+
+
+      Vi skriver så kort som möjligt och skriver inte ut det som är uppenbart.
+      Håll det kort och skriv inte ut onödiga ord som inte behövs för att förstå
+      vad som ska fyllas i. Hjälptext används bara om det inte går att beskriva
+      enkelt nog i labeln. 
+
+
+      #### Vanliga labels
+
+
+      **Text:** Personnummer
+
+
+      Placeholder: ÅÅMMDD-NNNN (visst är det så?)
+
+
+      Hjälptext (Länk): Så behandlar v personuppgifter
+
+
+      **Text**: Namn
+
+
+      **Text:** Telefonnummer
+
+
+      **Text:** E-post
+
+
+      **Text:** Bekräfta e-post
+
+
+      **Text:** Betalsätt
+
+
+      **Text:** Jag vill betala varje
+    name: Copy
 ---
 
