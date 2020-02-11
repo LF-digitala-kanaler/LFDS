@@ -2,17 +2,23 @@
 template: ComponentPage
 category: Data Visualization
 title: Distribution bar
-description: 'The distribution bar illustrates how different values relate to one another. '
+description: >-
+  The distribution bar and bar graphs are used to compare how different values
+  relate to one another or/and to track changes over time. 
 previewImage: /img/distribution-bar.svg
-intro: 'The distribution bar illustrates how different values relate to one another. '
+intro: >-
+  The distribution bar and bar graphs are used to compare how different values
+  relate to one another or/and to track changes over time. 
 backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
 
 
-      The distribution bar is great for illustrating how different values relate
-      to one another. 
+      The distribution bar and bar graphs are used to compare how different
+      values relate to one another or/and to track changes over time. However,
+      when trying to measure change over time, bar graphs are best when the
+      changes are larger.
 
 
       You can have the text of procent in the bar or in top of the bar. A
@@ -21,16 +27,12 @@ tabs:
       course) to make sure the value fits.
 
 
-
-
       ### Colors
 
 
       Colors are automatically set in a repeating sequence of navy, blue, sky
       and baby. You can also use the colors set for graphs that we have made for
       16 different levels.
-
-
 
 
       ### Pointer separator
@@ -43,8 +45,6 @@ tabs:
 
       Try to not to use the arrow at small values, as the arrow has a width
       around 10px and might disrupt the accuracy of the bar.
-
-
 
 
       ## Please consider:
