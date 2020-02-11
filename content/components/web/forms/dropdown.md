@@ -111,5 +111,21 @@ tabs:
       it technically complex and your developer friends need to code the
       dropdown in a somewhat different manner than they are used to.
     name: Design
+  - content: >-
+      ## Så skriver vi
+
+
+      **Label:** Välj x (Till exempel Välj belopp)
+
+
+      **Förvald text i dropdown:** Välj
+
+
+
+
+      A short secondary text can be added to help the user make their choice
+      (this should primarily be used to show price for different options). This
+      text is in a smaller typeface and grey. See picture below for an example:
+    name: Copy
 ---
 
