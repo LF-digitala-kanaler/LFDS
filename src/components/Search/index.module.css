@@ -29,7 +29,7 @@
   color: var(--color-black);
   outline: 0;
   margin-left: var(--spacing-md);
-  
+  cursor: pointer;
   @media (--medium-viewport) { 
     display: flex;
     align-items: center;
