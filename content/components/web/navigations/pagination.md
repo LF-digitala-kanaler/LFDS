@@ -12,6 +12,8 @@ intro: >-
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
+
+
       ## How to use
 
 
@@ -70,6 +72,19 @@ tabs:
       been tested in both qualitative and quantitive tests. To the surprise of
       many the scaled down version in use has outperformed the more descriptive
       versions in all tests.
+
+
+      ![Example of a pagination which was a/b-tested against the current one and
+      lost](/img/pagination-failed-ab.png "Example of a pagination which was
+      a/b-tested against the current one and lost")
+
+
+
+
+      ![Old sketch of pagination which was less preferred than the current
+      pagination in usability test](/img/pagination-old.png "Old sketch of
+      pagination which was less preferred than the current pagination in
+      usability test")
     name: Design
   - content: content code
     name: Code
