@@ -99,13 +99,16 @@ tabs:
 
 
       Texten i knapparna ska beskriva vad som händer när användaren klickar på
-      knappen. En uppmaning. 
+      knappen. En uppmaning. Några exempel:
 
 
-      Exempel: Bifoga fil
+      **Text Bifoga fil:** Bifoga fil
 
 
-      Exempel:
+      **Text lägg till bild:** Lägg till
+
+
+      **Text snabbguide:** Starta guiden
     name: Copy
 ---
 
