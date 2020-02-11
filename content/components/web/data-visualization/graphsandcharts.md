@@ -30,16 +30,20 @@ tabs:
 
       LFUI provides a few scales to choose from that will color your visual data
       according to the visual profile of Länsförsäkringar. The visual identity
-      set a prefereble scale of blue or red. Below we have set diffrens set to
-      make it the same for att graphs.
+      set a prefereble scale of blue or red. Below we have set different set to
+      make it the same for all graphs.
 
 
-      Color sets
+      #### Color sets
 
 
-      * Blue colors - 10 pcs
+      Here are the latest sets of colors to use. We are going to update the
+      colors to set colors furder apart from 
 
-      * Red colors - 10 pcs
+
+      * Blue colors - 10 colors
+
+      * Red colors - 10 colors
 
       * Blue to red - 16 colors
 
