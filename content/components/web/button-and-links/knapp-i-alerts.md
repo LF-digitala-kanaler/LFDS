@@ -41,7 +41,19 @@ tabs:
 
       Read more under [Alerts](/components/web/systemdisplay/alert/)
     name: Design
-  - content: hej hej
+  - content: >-
+      ## Så skriver vi
+
+
+      ### Button Alerts
+
+
+      De här knappen används som ett godkännande. I Cookie-knappen skriver vi:
+      ”Jag förstår”
+
+
+      När det används som Direct action (som kvittosidan på hemförsäkring):
+      ”Ring upp mig”
     name: Copy
 ---
 
