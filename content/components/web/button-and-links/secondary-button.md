@@ -91,5 +91,7 @@ tabs:
     name: Content
   - content: hej
     name: Exemple
+  - content: hej
+    name: Copy
 ---
 
