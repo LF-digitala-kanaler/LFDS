@@ -90,7 +90,7 @@ tabs:
       * Never use disabled buttons
     name: Design
   - content: >-
-      ## How to write
+      ## Så skriver vi
 
 
       ### Primary button
@@ -117,14 +117,11 @@ tabs:
       * Köp bilförsäkring
 
 
-      ## Buttons with Double Row
+      ### Buttons with double row
 
 
       Knappen används bara I köptjänster och ska förklara vad som händer när jag
-      trycker och även vad jag ska göra i nästa steg. 
-
-
-      ### Exempel
+      trycker och även vad jag ska göra i nästa steg. Exempel:
 
 
       * Gå vidare \
@@ -132,49 +129,50 @@ tabs:
       * Gå vidare\
         och godkänn 
 
-      ## Primary with bankID icon
+      ### Primary with BankID icon
 
 
-      ### Legitimering - direkt 
+      #### Legitimering direkt
 
 
-      Text i knappen:
+      När BankID-legitimeringen sker för att identifiera användaren använder vi
+      begreppet "legitimera". 
 
 
-      * Legitimera dig
+      **Text i knapp**: Legitimera dig
 
 
-      ### Förvarnar om signering i slutet
+      #### BankID behövs senare
 
 
-      Text bredvid knapp:
+      Om en legitimering eller signering behövs senare i flödet vill vi förvarna
+      användaren om att BankID kommer att behövas. 
 
 
-      * Du kommer att behöva BankID
+      **Text bredvid knappen:** Du kommer att behöva BankID
 
 
-      Text i knapp:
-
-
-      * Gå vidare
+      **Text i knapp:** Gå vidare
 
 
       #### Steget där du signerar
 
 
-      Text i knapp:
+      När BankID-signering används för att godkänna använder vi begreppet
+      Signera och/eller godkänn.
 
 
-      * Signera och godkänn
+      **Text i knapp**: Signera och godkänn
 
 
-      ### Autogiro på kvittosida
+      ### Primärknapp med autogiro
 
 
-      Text i knapp:
+      På kvittosidan i köptjänster finns ibland en primärknapp med länk till
+      digital ansökan om autogiro.
 
 
-      * Ansök om autogiro direkt
+      **Text i knapp:** Ansök om autogiro direkt
     name: Copy
   - content: content code
     name: Code

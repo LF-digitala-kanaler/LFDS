@@ -91,5 +91,24 @@ tabs:
     name: Content
   - content: hej
     name: Exemple
+  - content: >-
+      ## Skriv så här
+
+
+      ### Secondary button
+
+
+      Texten i knapparna ska beskriva vad som händer när användaren klickar på
+      knappen. En uppmaning. Några exempel:
+
+
+      **Text Bifoga fil:** Bifoga fil
+
+
+      **Text lägg till bild:** Lägg till
+
+
+      **Text snabbguide:** Starta guiden
+    name: Copy
 ---
 
