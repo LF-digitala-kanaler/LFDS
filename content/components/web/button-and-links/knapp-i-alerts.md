@@ -48,12 +48,14 @@ tabs:
       ### Button Alerts
 
 
-      De här knappen används som ett godkännande. I Cookie-knappen skriver vi:
-      ”Jag förstår”
+      De här knappen används som ett godkännande. Används idag för
+      Cookie-godkännande och till exempel på på kvittosidan för hemförsäkring. 
 
 
-      När det används som Direct action (som kvittosidan på hemförsäkring):
-      ”Ring upp mig”
-    name: Copy
+      **Text i cookie-knapp:** Jag förstår
+
+
+      **Text som direct action (exempel):** Ring upp mig
+    name: Copy (SE)
 ---
 
