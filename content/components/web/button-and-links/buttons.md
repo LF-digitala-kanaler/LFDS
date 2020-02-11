@@ -117,14 +117,11 @@ tabs:
       * Köp bilförsäkring
 
 
-      ## Buttons with Double Row
+      ### Buttons with Double Row
 
 
       Knappen används bara I köptjänster och ska förklara vad som händer när jag
-      trycker och även vad jag ska göra i nästa steg. 
-
-
-      ### Exempel
+      trycker och även vad jag ska göra i nästa steg. Exempel:
 
 
       * Gå vidare \
@@ -132,31 +129,17 @@ tabs:
       * Gå vidare\
         och godkänn 
 
-      ## Primary with bankID icon
+      ### Primary with bankID icon
 
 
-      ### Legitimering - direkt 
+      När legitimering sker direkt vid knapptryck är texten i knappen:
+      Legitimera dig
 
 
-      Text i knappen:
+      När vi förvarnar om att BankID behövs senare skriver vi text bredvid
+      knappen: Du kommer att behöva BankID. På\
 
-
-      * Legitimera dig
-
-
-      ### Förvarnar om signering i slutet
-
-
-      Text bredvid knapp:
-
-
-      * Du kommer att behöva BankID
-
-
-      Text i knapp:
-
-
-      * Gå vidare
+      **Text i knapp:** Gå vidare
 
 
       #### Steget där du signerar
