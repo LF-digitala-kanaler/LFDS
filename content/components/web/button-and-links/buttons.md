@@ -93,7 +93,7 @@ tabs:
       ## How to write
 
 
-      ### Primary button
+      ### Primärknapp
 
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
@@ -106,7 +106,7 @@ tabs:
       * Gå vidare
 
 
-      ### Primary button with arrow
+      ### Primärknapp med pil
 
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
@@ -117,7 +117,7 @@ tabs:
       * Köp bilförsäkring
 
 
-      ### Buttons with Double Row
+      ### Knapp med två rader
 
 
       Knappen används bara I köptjänster och ska förklara vad som händer när jag
@@ -129,15 +129,28 @@ tabs:
       * Gå vidare\
         och godkänn 
 
-      ### Primary with bankID icon
+      ### Primärknapp med BankID-ikon
 
 
-      När legitimering sker direkt vid knapptryck är texten i knappen:
-      Legitimera dig
+      #### Legitimering direkt
 
 
-      När vi förvarnar om att BankID behövs senare skriver vi text bredvid
-      knappen: Du kommer att behöva BankID. På\
+      När BankID-legitimeringen sker för att identifiera användaren använder vi
+      begreppet "legitimera". 
+
+
+      **Text i knapp**: Legitimera dig
+
+
+      #### BankID behövs senare
+
+
+      Om en legitimering eller signering behövs senare i flödet vill vi förvarna
+      användaren om att BankID kommer att behövas. 
+
+
+      **Text bredvid knappen:** Du kommer att behöva BankID
+
 
       **Text i knapp:** Gå vidare
 
@@ -145,19 +158,21 @@ tabs:
       #### Steget där du signerar
 
 
-      Text i knapp:
+      När BankID-signering används för att godkänna använder vi begreppet
+      Signera och/eller godkänn.
 
 
-      * Signera och godkänn
+      **Text i knapp**: Signera och godkänn
 
 
-      ### Autogiro på kvittosida
+      ### Primärknapp med autogiro
 
 
-      Text i knapp:
+      På kvittosidan i köptjänster finns ibland en primärknapp med länk till
+      digital ansökan om autogiro.
 
 
-      * Ansök om autogiro direkt
+      **Text i knapp:** Ansök om autogiro direkt
     name: Copy
   - content: content code
     name: Code
