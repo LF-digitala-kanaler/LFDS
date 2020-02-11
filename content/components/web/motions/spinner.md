@@ -33,28 +33,24 @@ tabs:
       background to look good (for code reasons).
 
 
-      Primär
-
-
-      För inte vit bakgrund
+      For other backgrounds than white we have a version with the red colour and
+      negative space completing the circle. This version is however rarely used
+      as a stand-alone (but it forms the basis for spinner in a button).
 
 
       ### Modifiers
 
 
-      Storlekar
+      Both versions of the spinner come in three sizes; default, small and extra
+      small. As the naming suggests, default is the standard and the other two
+      should be used only if the default is too large for your context.
 
 
       ## Please note
 
 
-      Only works on white background
-
-
-      Spinner in button
-
-
-      Lazy loader
+      * The spinner is the loader to be used in a main field, and there are
+      loader versions for buttons and panels.
     name: Design
   - content: content code
     name: Code
