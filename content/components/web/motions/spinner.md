@@ -21,7 +21,8 @@ tabs:
       at button with spinner ([primary](../button-and-links/buttons) /
       [secondary](../button-and-links/secondary-button)) if you want a loading
       state upon the user submitting data or [panel with lazy
-      load](../page-content/panel) if the data being loaded is in a panel. 
+      load](../page-content/panel#modifiers) if the data being loaded is in a
+      panel. 
 
 
       ### Versions
