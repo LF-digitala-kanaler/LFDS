@@ -2,13 +2,13 @@
 template: ComponentPage
 category: Button and Links
 title: Button Login
-intro: |-
-
-  Logga in och Logga ut har en specifik knapp och unik färg.
 description: |-
 
   Logga in och Logga ut har en specifik knapp och unik färg.
 previewImage: /img/button-login.svg
+intro: |-
+
+  Logga in och Logga ut har en specifik knapp och unik färg.
 backgroundColor: '#fff'
 tabs:
   - content: >-
@@ -33,5 +33,19 @@ tabs:
 
       * Får endast användas med texten "Logga in" eller "Logga ut"
     name: Design
+  - content: >-
+      ## Så skriver vi
+
+
+      Knappen får endast användas med texterna "Logga in" eller "Logga ut”.
+
+
+      **Text:** Logga in eller Logga ut
+
+
+      Behöver man skriva annat än något av dessa, måste en annan knapp eller
+      länk användas. Då kan vi till exempel skriva: "Logga in på
+      lansforsakringar.se" eller "Logga in på Mina sidor".
+    name: Copy (SE)
 ---
 
