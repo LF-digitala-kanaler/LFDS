@@ -23,7 +23,7 @@ tabs:
 
 
 
-      ### LFUI color scales
+      ### Setting color scales
 
 
       _In LFUI version 5.3.0 these colors are not 100% WCAG AA-approved, and are
@@ -32,7 +32,18 @@ tabs:
 
       LFUI provides a few scales to choose from that will color your visual data
       according to the visual profile of Länsförsäkringar. The visual identity
-      set a prefereble.
+      set a prefereble scale of blue or red. Below we have set diffrens set to
+      make it the same for att graphs.
+
+
+      Color sets
+
+
+      * Blue colors 10 pcs
+
+      * Red colors 10 pcs
+
+      * Blue to read 16 colors
 
 
       Disabled / not selected / inactive#
