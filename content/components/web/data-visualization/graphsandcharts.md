@@ -28,11 +28,105 @@ tabs:
       recommended.
 
 
-      ### Setting color scales
 
 
-      _In LFUI version 5.3.0 these colors are not 100% WCAG AA-approved, and are
-      most likely bound to change._
+      ### Type of graph
+
+
+      There are different kind of graphs to use, here comes some way of thinking
+      wen to use them:
+
+
+
+
+      #### . . . a Line graph
+
+
+      Line graphs are used to track changes over short and long periods of time.
+      When smaller changes exist, line graphs are better to use than bar graphs.
+      Line graphs can also be used to compare changes over the same period of
+      time for more than one group.
+
+
+
+
+      #### . . . a Pie Chart.
+
+
+
+
+      Pie charts are best to use when you are trying to compare parts of a
+      whole. They do not show changes over time.
+
+
+
+
+      #### . . . a Bar Graph.
+
+
+
+
+      Bar graphs are used to compare things between different groups or to track
+      changes over time. However, when trying to measure change over time, bar
+      graphs are best when the changes are larger.
+
+
+
+
+      #### . . . an Area Graph.
+
+
+
+
+      Area graphs are very similar to line graphs. They can be used to track
+      changes over time for one or more groups. Area graphs are good to use when
+      you are tracking the changes in two or more related groups that make up
+      one whole category (for example public and private groups).
+
+
+
+
+      #### . . . an X-Y Plot.
+
+
+
+
+      X-Y plots are used to determine relationships between the two different
+      things. The x-axis is used to measure one event (or variable) and the
+      y-axis is used to measure the other. If both variables increase at the
+      same time, they have a positive relationship. If one variable decreases
+      while the other increases, they have a negative relationship. Sometimes
+      the variables don't follow any pattern and have no relationship.
+
+
+      ### The different parts 
+
+
+      #### Legends
+
+
+      Important to each graphical element is a legend describing the visual
+      data. The legends should be 16x16 pixels, with text in Arial that
+      describes the legend.
+
+
+      Position-wise, they should be in close relation to the graph itself.
+      Prefereble on the right or under the graph.
+
+
+
+
+      #### Interactivity
+
+
+      If the graph/chart has interactivity attached to it. Click on the legends
+      to highlight the different parts in the graph. Even the text of the legend
+      should be clickable.
+
+
+
+
+      #### Color
 
 
       LFUI provides a few scales to choose from that will color your visual data
@@ -41,10 +135,7 @@ tabs:
       make it the same for all graphs.
 
 
-      #### Color sets
-
-
-      We are going to update the colors for better accessibility.
+      We are going to update the colors for better accessibility. \[2019-12-01]
 
 
       Here are the latest sets of colors to use:
@@ -86,26 +177,7 @@ tabs:
 
 
 
-      #### Legends
-
-
-      Important to each graphical element is a legend describing the visual
-      data. The legends should be 16x16 pixels, with text in Arial that
-      describes the legend.
-
-
-      Position-wise, they should be in close relation to the graph itself.
-      Prefereble on the right or under the graph.
-
-
-
-
-      #### Interactivity
-
-
-      If the graph/chart has interactivity attached to it. Click on the legends
-      to highlight the different parts in the graph. Even the text of the legend
-      should be clickable.
+      ####
     name: Design
   - content: content code
     name: Copy
