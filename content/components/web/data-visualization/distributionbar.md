@@ -36,21 +36,23 @@ tabs:
       ### Pointer separator
 
 
-      Further customisation can be made by adding the
-      distribution-value-with-pointer-class to a distribution-value to have the
-      separator in the shape of an arrow. This can be used for values that are
-      growing, or are expected to grow.
+      You can use pointer separators with an arrow thats points out the
+      different separators. This can be used for values that are growing, or are
+      expected to grow.
 
 
-      NOTE: A styling recommendation is to not show the arrow at small values,
-      as the arrow has a width around 10px and might disrupt the accuracy of the
-      bar.
+      Try to not to use the arrow at small values, as the arrow has a width
+      around 10px and might disrupt the accuracy of the bar.
 
 
-      Also do note that perfect styling for the arrow is not possible for the
-      third (or distribution-sky) distribution-value, as the striped pattern can
-      not be applied to the border. Should you need the arrow on your third
-      value, overwrite it with a manual color (see above section).
+
+
+      ## Please consider:
+
+
+      * Users have a hard time understanding procent
+
+      * Have only been used in pension "bekväm pension"
     name: Design
   - content: content copy
     name: Copy
