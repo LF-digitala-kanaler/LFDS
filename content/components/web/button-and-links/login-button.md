@@ -46,6 +46,6 @@ tabs:
       Behöver man skriva annat än något av dessa, måste en annan knapp eller
       länk användas. Då kan vi till exempel skriva: "Logga in på
       lansforsakringar.se" eller "Logga in på Mina sidor".
-    name: Copy (SE)
+    name: Copy
 ---
 
