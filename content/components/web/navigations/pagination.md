@@ -35,6 +35,9 @@ tabs:
       * **Upcoming pages** have a white background and grey text.
 
 
+      In responsive mode for small screens the pagination is full row width.
+
+
       **Counting:** When we determine number of pages included in the numbering
       we count the number of pages from the start of the service, including the
       receipt if such exists. We do however not include any intermediary pages
