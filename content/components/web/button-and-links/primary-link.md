@@ -46,7 +46,7 @@ tabs:
 
       Länken ska beskriva var användaren hamnar och ska kunna stå ensam. Undvik
       "Läs mer" och "Klicka här". Produktnamn kan gärna vara med vid länk till
-      köptjänst.
+      köptjänst både för tillgänglighet och SEO.
 
 
       **Text (exempel):** Köp bilförsäkring
