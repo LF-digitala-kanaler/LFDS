@@ -12,7 +12,6 @@ intro: >-
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
-      
       ## How to use
 
 
@@ -22,22 +21,37 @@ tabs:
       frequent examples include test, tables and forms.
 
 
-      Panels have several versions, with the two main ones being always open and
-      collapsible/expandable. The collapsible in turn can be either collapsed or
-      expanded by default. There are no set rules for when to use collapsed or
-      expanded, but a rule of thumb is to use have the cards with the
-      prioritised information expanded by default and the ones with secondary
-      collapsed. 
+      ### Versions
 
 
-      If a card fetches information from a backend system there is a version of
-      the panel which has a lazy load function which allows for the data to
+      Panels have two main versions; always open and collapsible/expandable.
+      There are no set rules for when to use collapsed or expanded, but a rule
+      of thumb is to have cards with prioritised information expanded by default
+      and the ones with secondary information collapsed. 
+
+
+      ### Modifiers
+
+
+      Our panels have several modifiers, but only one which exists for both
+      always open and collapsible/expandable panels, namely "load more". The
+      "load more" is to be used when you have a panel with lots of possible data
+      (like a transaction list), and it isn't feasible or desirable to show all
+      data at once.
+
+
+      **Modifiers for collapsible panels**
+
+
+      Collapsible have a few additional modifiers:
+
+
+      * Collapsible cards can be either collapsed or expanded by default. 
+
+      * If a card fetches information from a backend system there is a version
+      of the panel which has a _lazy load_ function which allows for the data to
       first be fetched if/when a user expands that specific panel. Great for
-      backend systems which are in need to be replaced.
-
-
-      If you’re working with a page with lots of possible data (lika a
-      transaction list) you’ll probably want to use the load more modifier.
+      slow backend systems!
 
 
       ## Please consider
@@ -46,9 +60,7 @@ tabs:
       You always need to involve our art directors, but when designing a page
       with many panels that sweet sweet AD love is extra needed.
     name: Design
-
-  - content:  >-
-      Coding is more than a skill, it is a thrill
+  - content: 'Coding is more than a skill, it is a thrill'
     name: Code
 ---
 
