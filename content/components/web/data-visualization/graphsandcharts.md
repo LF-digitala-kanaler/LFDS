@@ -65,12 +65,12 @@ tabs:
 
 
 
-      ### Accessibility
+      #### Accessibility
 
 
 
 
-      ### Legends
+      #### Legends
 
 
       Important to each graphical element is a legend describing the visual
@@ -84,7 +84,7 @@ tabs:
 
 
 
-      ### Interactivity
+      #### Interactivity
 
 
       If the graph/chart has interactivity attached to it. Click on the legends
