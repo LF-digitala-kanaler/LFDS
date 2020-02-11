@@ -2,13 +2,13 @@
 template: ComponentPage
 category: Button and Links
 title: Shortcut
-intro: >-
-  The shortcut is preferably used at the top of a page to draw the users
-  attention to another page or section.
 description: >-
   The shortcut is preferably used at the top of a page to draw the users
   attention to another page or section.
 previewImage: /img/shortcut.svg
+intro: >-
+  The shortcut is preferably used at the top of a page to draw the users
+  attention to another page or section.
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
@@ -60,7 +60,16 @@ tabs:
       under den feta texten. Har använts i val av företag i inloggat, även i
       inloggat på översikter som pensionssidan.
     name: Design
-  - content: content copy
+  - content: >-
+      ## Så skriver vi
+
+
+      Det första ordet i glasspinnen är ofta i fetstil följt av "-" och sedan
+      texten. Avsluta med punkt. 
+
+
+      **Text (exempel):** Kundkännedom - Vänligen vara på frågorna för att kunna
+      fortsätta använda appen. (ta exempel från Mina sidor)
     name: Copy
   - content: >-
       ## How to use
