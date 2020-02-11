@@ -31,8 +31,8 @@ tabs:
 
 
       Colors are automatically set in a repeating sequence of navy, blue, sky
-      and baby. You can also use the colors set for graphs that we have made for
-      16 different levels.
+      and baby. You can also use the pre deffined colors set under [graphs and
+      charts](/data-visualization/graphsandcharts).
 
 
       ### Pointer separator
