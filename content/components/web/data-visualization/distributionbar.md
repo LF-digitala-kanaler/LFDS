@@ -12,34 +12,23 @@ tabs:
 
 
       The distribution bar is great for illustrating how different values relate
-      to one another. Colors are automatically set in a repeating sequence of
-      navy, blue, sky and baby.
+      to one another. 
 
 
-      NOTE: A styling recommendation is to not show the percentage value inside
-      a distribution-value unless the width is at least 5% or above (depending
-      on your parent width, of course) to make sure the value fits.
-
-
-      If the bar needs extra margin on top because of using labels use the class
-      distribution-bar-labeled after distribution-bar.
+      You can have the text of procent in the bar or in top of the bar. A
+      recommendation is to not show the percentage value inside the bar unless
+      the width is at least 5% or above (depending on your parent width, of
+      course) to make sure the value fits.
 
 
 
 
-      ### Manually selecting colors
+      ### Colors
 
 
-      The colors can also be set manually using modifiers to the distribution-x
-      class, where x is a color suffix. LFUI ships with the suffixes -red,
-      -blue, -navy, -baby, -sky, -green-stripes, -yellow-stripes and
-      -red-stripes.
-
-
-      If you wish to create additional, two mixins are supplied and ready to be
-      used, where distribution-color-value() is for a non-striped background
-      color, and distribution-color-value-striped() for a striped background
-      (the $striped variable is for the $pattern-diagonal-stripes-mixin).
+      Colors are automatically set in a repeating sequence of navy, blue, sky
+      and baby. You can also use the colors set for graphs that we have made for
+      16 different levels.
 
 
 
