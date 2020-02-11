@@ -44,8 +44,10 @@ tabs:
       #### Color sets
 
 
-      Here are the latest sets of colors to use. We are going to update the
-      colors to set colors furder apart from 
+      We are going to update the colors for better accessibility.
+
+
+      Here are the latest sets of colors to use:
 
 
       * Blue colors - 10 colors
@@ -66,6 +68,20 @@ tabs:
 
 
       #### Accessibility
+
+
+      Charts, graphs and maps use visuals to convey complex images to users. But
+      since they are images, these media provide serious accessibility issues to
+      colorblind users and users of screen readers. 
+
+
+      Generally speaking an ALT tag cannot do justice to a complex chart. One
+      way to describe a chart is to provide both a text summary and a properly
+      coded data table near the chart.
+
+
+      This serves multiple audiences because a chart can show trends, but a
+      table can provide exact data for those who are interested.
 
 
 
