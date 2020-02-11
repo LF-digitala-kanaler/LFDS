@@ -2,13 +2,13 @@
 template: ComponentPage
 category: Button and Links
 title: Button Alerts
-intro: >-
-  Om du behöver en knapp i alertsen, striped or not. Använd då de knappar som
-  gjorts för detta ändamål.
 description: >-
   Om du behöver en knapp i alertsen, striped or not. Använd då de knappar som
   gjorts för detta ändamål. 
 previewImage: /img/button-in-alert.svg
+intro: >-
+  Om du behöver en knapp i alertsen, striped or not. Använd då de knappar som
+  gjorts för detta ändamål.
 backgroundColor: '#fff'
 tabs:
   - content: >-
@@ -41,5 +41,7 @@ tabs:
 
       Read more under [Alerts](/components/web/systemdisplay/alert/)
     name: Design
+  - content: hej hej
+    name: Copy
 ---
 
