@@ -90,15 +90,15 @@ tabs:
       * Never use disabled buttons
     name: Design
   - content: >-
-      ## Primary button
+      ## How to write
+
+
+      ### Primary button
 
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
       uppmaning. Används ofta i en enklare tjänst där knappen beskriver
-      nästkommande steg. 
-
-
-      ### Exempel
+      nästkommande steg. Exempel:
 
 
       * Skicka
@@ -106,15 +106,12 @@ tabs:
       * Gå vidare
 
 
-      ## Primary button with arrow
+      ### Primary button with arrow
 
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
       uppmaning. När man byter sida eller kanal/tjänst med knappen kan det vara
-      bra att förklara vad man kommer till.
-
-
-      ### Exempel
+      bra att förklara vad man kommer till. Exempel:
 
 
       * Köp bilförsäkring
@@ -130,12 +127,12 @@ tabs:
       ### Exempel
 
 
-      * Gå vidare\
+      * Gå vidare \
         och välj försäkring
       * Gå vidare\
         och godkänn 
 
-      ## Primär med bankID-ikon
+      ## Primary with bankID icon
 
 
       ### Legitimering - direkt 
