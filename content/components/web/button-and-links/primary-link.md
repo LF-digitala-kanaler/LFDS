@@ -37,10 +37,22 @@ tabs:
     name: Design
   - content: Hej
     name: Code
-  - content: |-
+  - content: >-
       ## Så skriver vi
 
-      Primärlänk med pil
+
+      ### Primärlänk med pil
+
+
+      Länken ska beskriva var användaren hamnar och ska kunna stå ensam. Undvik
+      "Läs mer" och "Klicka här". Produktnamn kan gärna vara med vid länk till
+      köptjänst.
+
+
+      **Text (exempel):** Köp bilförsäkring
+
+
+      **Text (exempel):** Se pris och ansök
     name: Copy
   - content: >-
       Visa några kontakter men skicka dem till primära sidan för
