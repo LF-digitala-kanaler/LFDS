@@ -122,8 +122,9 @@ tabs:
       **Förvald text i dropdown:** Välj
 
 
-      Den sekundära texten kan användas för att hjälpa användaren göra sitt val.
-      Kan till exempel visa pris för olika val. Förkortningar ok.
+      Den sekundära texten i dropdown kan användas för att hjälpa användaren
+      göra sitt val. Kan till exempel visa pris för olika val. Förkortningar ok.
+      Till exempel: 250 kr/år
     name: Copy
 ---
 
