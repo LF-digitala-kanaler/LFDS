@@ -115,7 +115,7 @@ tabs:
       ## Så skriver vi
 
 
-      **Label:** Välj x (Till exempel Välj belopp) alternativt bara det man
+      **Label:** Välj x (till exempel Välj belopp) alternativt bara det man
       väljer (till exempel Belopp)
 
 
