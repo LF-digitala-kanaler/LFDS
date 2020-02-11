@@ -21,6 +21,13 @@ tabs:
       small amounts of data that could be conveyed succinctly in a sentence.
 
 
+      Drawing and presenting data visually in graphs, charts, diagrams or even
+      maps are powerful tools which help the user understand and comprehend the
+      data more intuitively. When dealing with shares, funds, money and other
+      more or less "complicated" bank matters, visualizing the data is often
+      recommended.
+
+
       ### Setting color scales
 
 
@@ -54,6 +61,35 @@ tabs:
       * Map - 15 colors
 
       * Disabled / not selected / inactive color is grey #d9d9d9 (smoke).
+
+
+
+
+      ### Accessibility
+
+
+
+
+      ### Legends
+
+
+      Important to each graphical element is a legend describing the visual
+      data. The legends should be 16x16 pixels, with text in Arial that
+      describes the legend.
+
+
+      Position-wise, they should be in close relation to the graph itself.
+      Prefereble on the right or under the graph.
+
+
+
+
+      ### Interactivity
+
+
+      If the graph/chart has interactivity attached to it. Click on the legends
+      to highlight the different parts in the graph. Even the text of the legend
+      should be clickable.
     name: Design
   - content: content code
     name: Copy
