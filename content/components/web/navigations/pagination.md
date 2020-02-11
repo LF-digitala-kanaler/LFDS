@@ -71,7 +71,14 @@ tabs:
       Over the years a number of alternative design, all more descriptive have
       been tested in both qualitative and quantitive tests. To the surprise of
       many the scaled down version in use has outperformed the more descriptive
-      versions in all tests.
+      versions in all tests. Below are two examples of alternative versions
+      which have been tested, and failed.
+
+
+      **a/b-tested version**\
+
+      The version below was used in an a/b-test during autumn 2019 and resulted
+      in a lower conversion rate than the pagination in use.
 
 
       ![Example of a pagination which was a/b-tested against the current one and
@@ -79,6 +86,12 @@ tabs:
       a/b-tested against the current one and lost")
 
 
+      **Qualitative**\
+
+      When the current version of pagination was designed there was a lot of
+      discussion in the design team as whether to use it or a more explanatory
+      version. Both versions were brought to user tests and a majority of the
+      users preferred the scaled down version, although they understood both. 
 
 
       ![Old sketch of pagination which was less preferred than the current
