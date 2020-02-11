@@ -90,7 +90,7 @@ tabs:
       * Never use disabled buttons
     name: Design
   - content: >-
-      ## How to write
+      ## Så skriver vi
 
 
       ### Primärknapp
