@@ -3,9 +3,11 @@ background: bg-white
 previewImage: /img/headings.svg
 template: CategoryOverview
 title: Typography
-intro: Intro
-contentBelow: Bild kan det vara här oxå
-contentAbove: Bild kan det vara här
+intro: >-
+  This page gathers the different typographic details in LFUI, including lists
+  of different kinds and other utilties related to text.
+contentBelow: ''
+contentAbove: ''
 blockquote:
   author: Dieter Rams
   text: 'Nothing works without details. They are everything, the baseline of quality.'
