@@ -38,6 +38,7 @@
 
 .Content img {
   max-width: 100%;
+  margin-bottom: var(--spacing-vertical--1);
 }
 
 .Content a {
