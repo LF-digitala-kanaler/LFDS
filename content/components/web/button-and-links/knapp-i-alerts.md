@@ -56,6 +56,6 @@ tabs:
 
 
       **Text som direct action (exempel):** Ring upp mig
-    name: Copy (SE)
+    name: Copy
 ---
 
