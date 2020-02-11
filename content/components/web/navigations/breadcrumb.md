@@ -1,7 +1,7 @@
 ---
 template: ComponentPage
 category: Navigations
-title: Breadcrumb
+title: Breadcrumbs
 description: >-
   Breadcrumbs lets the user get a sense of where they are in your application
   and offers a way back up the site tree.
