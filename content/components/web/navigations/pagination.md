@@ -12,6 +12,8 @@ intro: >-
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
+
+
       ## How to use
 
 
@@ -88,8 +90,9 @@ tabs:
 
       When the current version of pagination was designed there was a lot of
       discussion in the design team as whether to use it or a more explanatory
-      version. Both versions were brought to user tests and a majority of the
-      users preferred the scaled down version, although they understood both. 
+      version. A number of sketches of different alternatives were tested, and
+      the current design was chosen as the winner after a number of discussions
+      and user tests. 
 
 
       ![Old sketch of pagination which was less preferred than the current
@@ -101,6 +104,12 @@ tabs:
       <figure class="Image Image--background"><img
       src="/img/pagination-old-w-colour.png" alt="Old version of pagination
       which didn't pass through user testing"><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
+      <figure class="Image Image--background"><img
+      src="/img/pagination-old-number-and-label.png" alt="Old sketch of
+      pagination with step number and label"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
     name: Design
   - content: content code
