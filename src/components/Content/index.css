@@ -98,7 +98,7 @@
   border: var(--callout-border);
   position: relative;
   padding: var(--callout-spacing);
-  
+  margin-top: var(--spacing-vertical--2);
   &::before {
     content: '';
     height: 2px;
@@ -130,11 +130,13 @@ figure {
 .Image--border {
   text-align: center;
   margin-bottom: var(--spacing-vertical--2);
+  
 }
 
 .Image--border img{
   border: 2px solid var(--color-border);
-  display: inline-block; 
+  display: inline-block;
+  padding: var(--spacing-xxlg);
 }
 
 .Image--border img {
