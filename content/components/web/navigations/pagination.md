@@ -79,7 +79,7 @@ tabs:
       in a lower conversion rate than the pagination in use.
 
 
-      <figure class="ImageImage--background"><img
+      <figure class="Image Image--background"><img
       src="/img/pagination-failed-ab.jpg" alt="Example of a pagination which was
       a/b-tested against the current one and lost"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
