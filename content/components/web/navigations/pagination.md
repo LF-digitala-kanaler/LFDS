@@ -12,8 +12,6 @@ intro: >-
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
-
-
       ## How to use
 
 
@@ -98,6 +96,12 @@ tabs:
       pagination in usability test](/img/pagination-old.png "Old sketch of
       pagination which was less preferred than the current pagination in
       usability test")
+
+
+      <figure class="Image Image--background"><img
+      src="/img/pagination-old-w-colour.png" alt="Old version of pagination
+      which didn't pass through user testing"><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
     name: Design
   - content: content code
     name: Code
