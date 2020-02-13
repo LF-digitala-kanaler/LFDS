@@ -1,6 +1,6 @@
 const AdvancedImage = {
   id: "advancedImage",
-  label: "Advanced Image",
+  label: "LFUI Image",
   fields: [
     { name: "image", label: "Image", widget: "image" },
     { name: "alt", label: "Alt text", widget: "string", default: "" },
@@ -10,8 +10,8 @@ const AdvancedImage = {
       widget: "select",
       default: "none",
       options: [
-        { label: "None", value: "Image--border" },
-        { label: "With background", value: "Image--background" },
+        { label: "Full width", value: "Image--border" },
+        { label: "Smaller Image", value: "Image--background" },
       ],
     },
     { name: "caption", label: "Caption", widget: "string", default: "" },
