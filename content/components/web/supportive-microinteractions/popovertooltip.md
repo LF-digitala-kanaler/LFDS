@@ -35,9 +35,6 @@ tabs:
       popover or that they user can copy text if the wish to do so.
 
 
-      ## Please consider
-
-
       <div class="Callout"><div class="Callout__icon"></div><p
       class="Callout__text"><strong>Never use the popover-tooltip on a label! 
       </strong>A popover-tooltip is used on inline text to describe words in the
