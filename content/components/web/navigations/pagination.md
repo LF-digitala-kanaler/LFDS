@@ -106,7 +106,7 @@ tabs:
       class="Image__caption"></div></figcaption></figure>
 
 
-      <figure class="Image Image--background"><img
+      <figure class="Image  Image--border"><img
       src="/img/pagination-old-number-and-label.jpg" alt="Old sketch of
       pagination with step number and label"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
