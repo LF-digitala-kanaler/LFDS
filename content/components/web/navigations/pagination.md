@@ -40,18 +40,18 @@ tabs:
       In responsive mode for small screens the pagination is full row width.
 
 
-      **Counting:** When we determine number of pages included in the numbering
-      we count the number of pages from the start of the service, including the
-      receipt if such exists. We do however not include any intermediary pages
-      in which the user submits initial data needed for the service (this as
-      there are often many ways to enter such a service, and the most common way
-      is usually as part of a product page on lansforsakringar.se).
+      When we determine number of pages included in the numbering we count the
+      number of pages from the start of the service, including the receipt if
+      such exists. We do however not include any intermediary pages in which the
+      user submits initial data needed for the service (this as there are often
+      many ways to enter such a service, and the most common way is usually as
+      part of a product page on lansforsakringar.se).
 
 
-      **Displaying:** Although we number the receipt page we do not show the
-      pagination on the receipt page. This is as a pagination here wouldn't
-      provide any value to the user, as they've finished the flow and wouldn't
-      be able to go backwards in the flow as the data has been submitted.
+      Although we number the receipt page we do not show the pagination on the
+      receipt page. This is as a pagination here wouldn't provide any value to
+      the user, as they've finished the flow and wouldn't be able to go
+      backwards in the flow as the data has been submitted.
 
 
       ### Modifier
@@ -71,7 +71,14 @@ tabs:
       Over the years a number of alternative design, all more descriptive have
       been tested in both qualitative and quantitive tests. To the surprise of
       many the scaled down version in use has outperformed the more descriptive
-      versions in all tests.
+      versions in all tests. Below are two examples of alternative versions
+      which have been tested, and failed.
+
+
+      **a/b-tested version**\
+
+      The version below was used in an a/b-test during autumn 2019 and resulted
+      in a lower conversion rate than the pagination in use.
 
 
       ![Example of a pagination which was a/b-tested against the current one and
@@ -79,12 +86,31 @@ tabs:
       a/b-tested against the current one and lost")
 
 
+      **Qualitative**\
+
+      When the current version of pagination was designed there was a lot of
+      discussion in the design team as whether to use it or a more explanatory
+      version. A number of sketches of different alternatives were tested, and
+      the current design was chosen as the winner after a number of discussions
+      and user tests. 
 
 
       ![Old sketch of pagination which was less preferred than the current
       pagination in usability test](/img/pagination-old.png "Old sketch of
       pagination which was less preferred than the current pagination in
       usability test")
+
+
+      <figure class="Image Image--background"><img
+      src="/img/pagination-old-w-colour.png" alt="Old version of pagination
+      which didn't pass through user testing"><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
+      <figure class="Image Image--background"><img
+      src="/img/pagination-old-number-and-label.png" alt="Old sketch of
+      pagination with step number and label"><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
     name: Design
   - content: content code
     name: Code

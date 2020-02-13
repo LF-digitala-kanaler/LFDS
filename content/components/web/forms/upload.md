@@ -58,7 +58,10 @@ tabs:
       page, but for reference here is an image of the old version:
         ![Image of older version of file upload still available in EPI](/img/old-file-upload.png "Image of older version of file upload still available in EPI")
     name: Design
-  - content: content code
+  - content: |-
+      ## Så skriver vi
+
+      **Text:** Bifoga fil
     name: Copy
   - content: content code
     name: Code

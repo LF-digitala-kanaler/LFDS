@@ -28,46 +28,78 @@ tabs:
       recommended.
 
 
-      ### Setting color scales
 
 
-      _In LFUI version 5.3.0 these colors are not 100% WCAG AA-approved, and are
-      most likely bound to change._
+      ### Type of graph
 
 
-      LFUI provides a few scales to choose from that will color your visual data
-      according to the visual profile of Länsförsäkringar. The visual identity
-      set a prefereble scale of blue or red. Below we have set different set to
-      make it the same for all graphs.
-
-
-      #### Color sets
-
-
-      Here are the latest sets of colors to use. We are going to update the
-      colors to set colors furder apart from 
-
-
-      * Blue colors - 10 colors
-
-      * Red colors - 10 colors
-
-      * Blue to red - 16 colors
-
-      * Red to blue - 16 colors
-
-      * Hybrid - 4 colors
-
-      * Map - 15 colors
-
-      * Disabled / not selected / inactive color is grey #d9d9d9 (smoke).
+      There are different kind of graphs to use, here comes some way of thinking
+      wen to use them:
 
 
 
 
-      #### Accessibility
+      #### . . . a Line graph
 
 
+      Line graphs are used to track changes over short and long periods of time.
+      When smaller changes exist, line graphs are better to use than bar graphs.
+      Line graphs can also be used to compare changes over the same period of
+      time for more than one group.
+
+
+
+
+      #### . . . a Pie Chart.
+
+
+
+
+      Pie charts are best to use when you are trying to compare parts of a
+      whole. They do not show changes over time.
+
+
+
+
+      #### . . . a Bar Graph.
+
+
+
+
+      Bar graphs are used to compare things between different groups or to track
+      changes over time. However, when trying to measure change over time, bar
+      graphs are best when the changes are larger.
+
+
+
+
+      #### . . . an Area Graph.
+
+
+
+
+      Area graphs are very similar to line graphs. They can be used to track
+      changes over time for one or more groups. Area graphs are good to use when
+      you are tracking the changes in two or more related groups that make up
+      one whole category (for example public and private groups).
+
+
+
+
+      #### . . . an X-Y Plot.
+
+
+
+
+      X-Y plots are used to determine relationships between the two different
+      things. The x-axis is used to measure one event (or variable) and the
+      y-axis is used to measure the other. If both variables increase at the
+      same time, they have a positive relationship. If one variable decreases
+      while the other increases, they have a negative relationship. Sometimes
+      the variables don't follow any pattern and have no relationship.
+
+
+      ### The different parts 
 
 
       #### Legends
@@ -90,6 +122,62 @@ tabs:
       If the graph/chart has interactivity attached to it. Click on the legends
       to highlight the different parts in the graph. Even the text of the legend
       should be clickable.
+
+
+
+
+      #### Color
+
+
+      LFUI provides a few scales to choose from that will color your visual data
+      according to the visual profile of Länsförsäkringar. The visual identity
+      set a prefereble scale of blue or red. Below we have set different set to
+      make it the same for all graphs.
+
+
+      We are going to update the colors for better accessibility. \[2019-12-01]
+
+
+      Here are the latest sets of colors to use:
+
+
+      * Blue colors - 10 colors
+
+      * Red colors - 10 colors
+
+      * Blue to red - 16 colors
+
+      * Red to blue - 16 colors
+
+      * Hybrid - 4 colors
+
+      * Map - 15 colors
+
+      * Disabled / not selected / inactive color is grey #d9d9d9 (smoke).
+
+
+
+
+      #### Accessibility
+
+
+      Charts, graphs and maps use visuals to convey complex images to users. But
+      since they are images, these media provide serious accessibility issues to
+      colorblind users and users of screen readers. 
+
+
+      Generally speaking an ALT tag cannot do justice to a complex chart. One
+      way to describe a chart is to provide both a text summary and a properly
+      coded data table near the chart.
+
+
+      This serves multiple audiences because a chart can show trends, but a
+      table can provide exact data for those who are interested.
+
+
+
+
+      ####
     name: Design
   - content: content code
     name: Copy
