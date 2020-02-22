@@ -51,7 +51,7 @@ const ComponentExample = ({variants, background}) => {
     if (
       iframeRef.current &&
       iframeRef.current.node.contentDocument &&
-      iframeRef.current.node.contentDocument.body.scrollHeight > 240
+      iframeRef.current.node.contentDocument.body.scrollHeight > 280
     ) {
       setHeight(iframeRef.current.node.contentDocument.body.scrollHeight);
     }
