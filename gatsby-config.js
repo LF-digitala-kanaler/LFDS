@@ -200,7 +200,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array
       options: {
-        mergeSecurityHeaders: true
+        mergeSecurityHeaders: false
       }
     }
     
