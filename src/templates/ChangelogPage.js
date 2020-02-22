@@ -4,12 +4,17 @@ import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
-
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs"
+import { navigate } from "@reach/router";
+import tabStyle from '../components/Tabs/index.module.css';
 
 // Export Template for use in CMS preview
 export const ChangelogPageTemplate = ({
   title,
-  intro
+  intro,
+  components,
+  index,
+  onTabsChange
   
 }) => (
    
@@ -18,15 +23,49 @@ export const ChangelogPageTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
   </Wrapper>
+      <Tabs index={index === -1 ? 0 : index} onChange={onTabsChange} className={tabStyle.Tabs} >
+      <TabList className={tabStyle.Tabs__list}>
+        <Tab  className={tabStyle.Tabs__link}>Components</Tab>
+      </TabList>
+      <TabPanels className={tabStyle.Tabs__panels}>
+        {/* Get component release list from github */}
+        <TabPanel className={tabStyle.Tabs__panel} >
+          <Wrapper menu={true} tag="div" narrow={true}>
+            <div className="Content">
+            {
+              components.map(item => {
+                return (
+                  <div key={item.node.id}>
+                    <h2>{item.node.tagName}</h2>
+                    <div
+                      dangerouslySetInnerHTML={{ __html: item.node.descriptionHTML }} />
+                    
+                  </div>
+                )
+              })
+            }
+            </div>
+          </Wrapper>
+        </TabPanel>
+      </TabPanels>
+    </Tabs> 
+      
+  
   </>
 )
-const ChangelogPage = ({ data: { page, log }, location } ) => {
 
+
+
+
+const ChangelogPage = ({ data: { page, log }, location } ) => {
   const breadcrumb = { 
     title: page.frontmatter.title,
     location: location
   }
-
+  const tabs = ["Components",];
+  const index = tabs.indexOf(location.search.substr(1));
+  const onTabsChange = index =>
+    navigate(`?${tabs[index]}`, { replace: false });
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -38,8 +77,11 @@ const ChangelogPage = ({ data: { page, log }, location } ) => {
       <ChangelogPageTemplate 
         {...page} 
         {...page.frontmatter} 
+        index={index}
+        onTabsChange={onTabsChange}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
+        components={log.organization.repository.releases.edges}
       />
     </Layout>
   )
@@ -68,10 +110,8 @@ export const pageQuery = graphql`
           }) {
             edges {
               node {
-                name
+                tagName
                 descriptionHTML
-                publishedAt
-                shortDescriptionHTML(limit:100)
               }
             }
           }

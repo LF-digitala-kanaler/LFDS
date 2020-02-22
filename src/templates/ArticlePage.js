@@ -26,7 +26,7 @@ const ArticlePage = ({
   data: { page }
 
   },) => {
-    console.log(page, 'page')
+   
 
   return (
     <Layout

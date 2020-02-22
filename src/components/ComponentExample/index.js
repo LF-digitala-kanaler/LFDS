@@ -1,8 +1,5 @@
 import React, { useState, useEffect }  from 'react';
 import Frame from 'react-frame-component';
-import css from '!!raw-loader!lfui/dist/lf.css'; 
-import js from '!!raw-loader!lfui/dist/lf.js'; 
-import svg from '!!raw-loader!lfui/dist/icons.svg'; 
 
 import Preview from '../Preview';
 import Actions from '../Actions'
@@ -11,23 +8,21 @@ import CodeBlock from '../CodeBlock';
 import ComponentNavigation from '../ComponentNavigation';
 import { Grid, Cell } from "styled-css-grid";
 
-
 const ComponentExample = ({variants, background}) => {
-  const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
+  const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is set in Netlify, use that value 
+  const [url, setUrl] = useState(0);
   const [code, setCode] = useState(variants[0].node.content);
   
   const [source, setSource] = useState(false);
   const [height, setHeight] = useState(240);
   const iframeRef =  React.createRef();
   
-
   const toggleCode = () => {
-    setSource(!source)
-    
+    setSource(!source) 
   }
 
   const handleSetBackgroundToWhite = () => {
-    setBackground('#fff');
+    setBackground('#ffffff');
   }
 
   const handleSetBackgroundToGrey = () => {
@@ -35,14 +30,24 @@ const ComponentExample = ({variants, background}) => {
   }
 
   const handleChildClick = (variant) => {
-    setCode(variant)
-   
-
+    setUrl(variant.slug)
+    setCode(variant.content)
   }
-  
-
-  const handleResize = () => {
-    console.log(iframeRef.current.node.contentDocument.body.scrollHeight)
+  const contentDidMount = () => {
+    
+    if(url === 0) {
+      setUrl(variants[0].node.slug);
+    }else {
+      setUrl(url)
+    } 
+  }
+  const contentDidUpdate= () => {
+    console.log(backgroundColor)
+    
+  }
+  const handleResize = (variant) => {
+   
+    
     if (
       iframeRef.current &&
       iframeRef.current.node.contentDocument &&
@@ -52,8 +57,6 @@ const ComponentExample = ({variants, background}) => {
     }
 	}
 
-  useEffect(() => handleResize(iframeRef));
-  
 
   return (
     <React.Fragment>
@@ -66,32 +69,28 @@ const ComponentExample = ({variants, background}) => {
             <CodeBlock code={`${code}`} />
           }
           <Preview>
+           
             <Frame
               style={{
                 height,
+                backgroundColor: backgroundColor
               }}
+              
               ref={iframeRef}
-              onLoad={() => handleResize(iframeRef)}
+              src={`/${url}`}
+              contentDidMount={() => contentDidMount(iframeRef)}
+              // contentDidUpdate={() => contentDidUpdate(iframeRef)}
               head={
                 <>
-                <script>
-                  {js}
-                </script>
-                <style>
-                  {css}
-                  
-                  {' body{padding:16px; background-color:'+backgroundColor+'} '}
-                </style>
+                  <style>
+                    {' body{background-color:'+backgroundColor+'} '}
+                  </style>
                 </>
               }
+              
             >
-            <Content source={code} />
-            <Content source={svg} />
-           
             </Frame>
           </Preview>
-          
-         
         </React.Fragment>
   )
 }

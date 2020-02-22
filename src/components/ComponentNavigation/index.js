@@ -17,7 +17,7 @@ const ComponentNavigation = ({variants, onChildClick}) => {
   const listItem = variants.map((item) =>
       <li className={style.ComponentNavigation_item} key={item.node.id} >
         <button
-          onClick={() => handleClick(item.node.content, item.node.id)} 
+          onClick={() => handleClick(item.node, item.node.id)} 
           className={cx(style.ComponentNavigation__button, (active === item.node.id ? style['ComponentNavigation__button--isActive'] : '' ))}>{camel2title(item.node.name)}
         </button>
       </li>

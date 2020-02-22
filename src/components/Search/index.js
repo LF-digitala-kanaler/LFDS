@@ -1,5 +1,5 @@
 import React, {  useState, useRef} from 'react'
-import { Link, navigate } from 'gatsby'
+import { Link } from 'gatsby'
 import style from './index.module.css';
 import cx from 'classnames'
 import { ArrowNavigation, useArrowNavigation } from 'react-arrow-navigation'

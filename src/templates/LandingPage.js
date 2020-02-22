@@ -6,7 +6,6 @@ import Blockquote from '../components/Blockquote';
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardGrid from '../components/CardGrid';
-import Changelog from '../components/Changelog';
 import _ from 'lodash';
 
 

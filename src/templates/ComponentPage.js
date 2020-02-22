@@ -68,7 +68,7 @@ const ComponentPage = ({
     title: page.frontmatter.title,
     location: location
   }
-  console.log(breadcrumb)
+  
   
   return (
     <Layout

@@ -20,11 +20,11 @@
 
 2.  Install dependencies
 
- `yarn install`
+ `yarn install` or `npm install`
 
 3.  Run the development server
 
-`yarn start`
+`gatsby develop`
 
 If you are adding or editing content locally in the CMS, a couple of things to note:
 
