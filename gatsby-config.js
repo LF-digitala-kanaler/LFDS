@@ -197,12 +197,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array
-      options: {
-        mergeSecurityHeaders: false
-      }
-    }
-    
+    'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }
