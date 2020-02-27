@@ -26,6 +26,9 @@ tabs:
       makes it a better choice. 
 
 
+      <figure class="Image Image--background"><img
+      src="/img/responsive-button.jpg" alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
 
 
       ## Versions
@@ -33,7 +36,7 @@ tabs:
 
       We have three main versions of buttons, but other versions exist as part
       of another example (such as in
-      [alerts](../system-display/alert#alert-with-button)):
+      [alerts](../../system-display/alert#alert-with-button)):
 
 
       * Primary button
@@ -46,15 +49,7 @@ tabs:
       ### Primary buttons
 
 
-
-
-      ##  
-
-
-
-
-
-
+      ## 
 
 
       Primary
