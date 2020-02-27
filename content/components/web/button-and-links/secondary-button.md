@@ -33,6 +33,8 @@ tabs:
 
       * With icon at left
 
+      * SPinner
+
 
       ### Secondary button
 
