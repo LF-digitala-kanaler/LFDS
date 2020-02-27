@@ -26,6 +26,11 @@ tabs:
       makes it a better choice. 
 
 
+      <figure class="Image none"><img src="/img/responsive-button.jpg"
+      alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
       ### Versions
 
 
