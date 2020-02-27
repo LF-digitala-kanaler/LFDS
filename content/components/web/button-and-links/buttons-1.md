@@ -9,32 +9,73 @@ intro: >-
   Buttons are used as a part of a flow, and is the component which the user
   clicks to make progress in said flow.
 tabs:
-  - content: |-
-      # How to use 
+  - content: >-
+      # How to use
 
-      (responsivitet)
+
+      Buttons are in their essence a form of link which helps the user through a
+      specific flow, typical examples are progressing to the next page or
+      submitting something. They are also used as a way of entering a specific
+      flow. Through their visual presence they give the users queues on what
+      expected actions exist.
+
+
+      ## Versions
+
+
+      We have three main versions of buttons, but other versions exist as part
+      of another example (such as in
+      [alerts](/components/web/system-display/alert#modifiers)):
+
+
+      * Primary button
+
+      * Secondary button
+
+      * Log in button
+
+
+
+
+      ##  
+
+
+
+
+
 
       Tre versioner
 
+
       Primary
+
 
       modifier: two rows
 
+
       Secondary
+
 
       modifier: with icon
 
+
       Log in
+
 
       Modifiers (gäller ej log in???)
 
+
       Small, normal, large
+
 
       Med pil
 
+
       BankID 
 
+
       Please consider
+
 
       Design rationale - disabled buttons
     name: Design
