@@ -20,6 +20,14 @@ tabs:
       expected actions exist.
 
 
+      The responsive rules for our buttons transform them the full row-width in
+      smaller screens. This should be your default design, but feel free to put
+      two buttons next to each other even in smaller screens if the context
+      makes it a better choice. 
+
+
+
+
       ## Versions
 
 
@@ -47,7 +55,6 @@ tabs:
 
 
 
-      Tre versioner
 
 
       Primary
