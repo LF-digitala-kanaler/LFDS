@@ -25,7 +25,7 @@ tabs:
 
       We have three main versions of buttons, but other versions exist as part
       of another example (such as in
-      [alerts](/components/web/system-display/alert#modifiers)):
+      [alerts](../../system-display/alert#alert-with-button)):
 
 
       * Primary button
@@ -33,6 +33,9 @@ tabs:
       * Secondary button
 
       * Log in button
+
+
+      ### Primary buttons
 
 
 
