@@ -10,7 +10,7 @@ intro: >-
   clicks to make progress in said flow.
 tabs:
   - content: >-
-      # How to use
+      ## How to use
 
 
       Buttons are in their essence a form of link which helps the user through a
@@ -26,17 +26,12 @@ tabs:
       makes it a better choice. 
 
 
-      <figure class="Image Image--background"><img
-      src="/img/responsive-button.jpg" alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
-
-
-      ## Versions
+      ### Versions
 
 
       We have three main versions of buttons, but other versions exist as part
       of another example (such as in
-      [alerts](../../system-display/alert#alert-with-button)):
+      [alerts](../system-display/alert#alert-with-button)):
 
 
       * Primary button
@@ -46,7 +41,7 @@ tabs:
       * Log in button
 
 
-      ### Primary buttons
+      #### Primary buttons
 
 
       ## 
