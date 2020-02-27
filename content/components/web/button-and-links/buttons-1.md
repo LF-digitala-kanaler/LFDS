@@ -27,8 +27,9 @@ tabs:
 
 
       <figure class="Image none"><img src="/img/responsive-button.jpg"
-      alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      alt="Example of button in desktop and responsive
+      web-states"><figcaption><div class="Example of button in desktop and
+      responsive web-states"></div></figcaption></figure>
 
 
       ### Versions
