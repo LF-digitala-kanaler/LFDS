@@ -28,15 +28,15 @@ tabs:
 
       <figure class="Image Image--background"><img
       src="/img/responsive-button.jpg" alt="Example of button in desktop and
-      responsive web-states"><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      responsive web-states"><figcaption><div class="Example of button in
+      desktop and responsive web-states"></div></figcaption></figure>
 
 
       ### Versions
 
 
       We have three main versions of buttons, but other versions exist as part
-      of another example (such as in
+      of another component (such as in
       [alerts](../system-display/alert#alert-with-button)):
 
 
