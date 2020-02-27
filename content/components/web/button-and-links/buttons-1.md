@@ -26,10 +26,10 @@ tabs:
       makes it a better choice. 
 
 
-      <figure class="Image none"><img src="/img/responsive-button.jpg"
-      alt="Example of button in desktop and responsive
-      web-states"><figcaption><div class="Example of button in desktop and
-      responsive web-states"></div></figcaption></figure>
+      <figure class="Image Image--background"><img
+      src="/img/responsive-button.jpg" alt="Example of button in desktop and
+      responsive web-states"><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
 
 
       ### Versions
