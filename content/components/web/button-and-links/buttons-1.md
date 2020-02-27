@@ -33,7 +33,7 @@ tabs:
 
       We have three main versions of buttons, but other versions exist as part
       of another example (such as in
-      [alerts](../../system-display/alert#alert-with-button)):
+      [alerts](../system-display/alert#alert-with-button)):
 
 
       * Primary button
