@@ -62,22 +62,50 @@ tabs:
       buttons secondary.
 
 
+      ##### Modifier for primary buttons
+
+
+      On top of the general modifiers for buttons, the primary button has a
+      distinct modifier not available for the other types of buttons:
+      **two-rowed button**. The two-rowed button is used in flows where the user
+      buys/signs up for something (_köptjänster_). The two-rowed button is used
+      to continue between pages. Both rows have text in them, with the first one
+      being in a larger font. The first row signals what will happen ("Gå
+      vidare", "Godkänn") and the second gives more detail ("Ange uppgifter",
+      "Köp försäkring").
+
+
+      #### Secondary buttons
+
+
+      Perhaps the secondary button would be better named as "standard button".
+      This is the button to use when you want a button and it isn't primary. You
+      may use how many secondary buttons as you wish in a view (in theory you
+      can even combine them with a primary button, although this only has been
+      applied in internal systems thus far).
+
+
+      ##### Modifier for secondary buttons
+
+
+      On top of the general modifiers for buttons, the secondary button has a
+      distinct modifier not available for the other types of buttons: **button
+      with icon**. The icon is added to the left of the button text. Typical
+      examples of use of this modifier is with a clip for attaching files or a
+      plus for adding items (like another fund or employee), but it has also
+      been used for a more decorative purposes (like after selecting items in
+      [Fondkurser](https://www.lansforsakringar.se/stockholm/privat/bank/spara/fondkurser/?shortcut=1&ids=F00000VHUM)).
+
+
+      #### Log in button
 
 
 
 
 
 
-      Primary
 
 
-      modifier: two rows
-
-
-      Secondary
-
-
-      modifier: with icon
 
 
       Log in
