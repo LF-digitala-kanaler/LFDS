@@ -32,6 +32,11 @@ tabs:
       desktop and responsive web-states"></div></figcaption></figure>
 
 
+      Button copy should make it clear what happens after clicking it, meaning
+      copy like "Next" or "Proceed" shouldn't be used. Read more under the
+      [copy-tab](?Copy).
+
+
       ### Versions
 
 
@@ -50,7 +55,17 @@ tabs:
       #### Primary buttons
 
 
-      ## 
+      As their name suggests, primary buttons are used to identify the most
+      likely action the user might take in a specific view. As nothing is
+      primary if several things are primary you should limit the use to one per
+      section (even better if you can keep it to one per page) - make any other
+      buttons secondary.
+
+
+
+
+
+
 
 
       Primary
@@ -74,7 +89,9 @@ tabs:
       Small, normal, large
 
 
-      Med pil
+      Med pil -  As a rule of thumb, the arrow is appended to the button if it
+      takes you to another service, but without the arrow if it is an action
+      within the same service.
 
 
       BankID 
@@ -84,6 +101,19 @@ tabs:
 
 
       Design rationale - disabled buttons
+
+
+      Do not use disabled buttons.
+
+
+
+
+      Instead of a disabled button, make the button clickable and give the user
+      a message on why it does not function, and what the user is needed to do
+      in order to make it function. If the button is never intended to function,
+      do not include the button at all to begin with.
     name: Design
+  - content: Funkade länken?
+    name: Copy
 ---
 
