@@ -37,6 +37,13 @@ tabs:
       [copy-tab](?Copy).
 
 
+      <div class="Callout"><div class="Callout__icon"></div><p
+      class="Callout__text"><strong>Don't use disabled buttons! </strong>For
+      accessibility reasons LFUI strongly discourages from using disabled
+      buttons. Please read more in "Design rationale" at the bottom of the page
+      to learn more.</p></div>
+
+
       ### Versions
 
 
@@ -144,7 +151,7 @@ tabs:
 
       * With an arrow
 
-      * With a spinner
+      * With loading state
 
 
       #### Size variations
@@ -157,7 +164,7 @@ tabs:
 
       * The smaller button is used where space is more limited, as in forms or
       in the [radio
-      card](https://lfui-beta-aedd0a.netlify.com/components/web/forms/radio-buttons#radio-card-for-selecting-products).
+      card](../forms/radio-buttons#radio-card-for-selecting-products).
 
       * The larger is used when we want to give extra attention to the button,
       like in campaigns.
@@ -172,25 +179,36 @@ tabs:
       #### With an arrow
 
 
+      If the user enters a new service (which normally renders a change in the
+      visual framework) this is conveyed by using a version of our buttons with
+      an arrow appended on the right side of the button and text of the button
+      is aligned to the left.
 
 
+      #### With loading state
 
 
-      Med pil -  As a rule of thumb, the arrow is appended to the button if it
-      takes you to another service, but without the arrow if it is an action
-      within the same service.
+      A modifier which we wish we didn't need to have. Add a loading state to
+      your button if you expect that the user might have to wait for a response
+      (like the next page) after clicking on the button. The loading state is
+      our [spinner ](../system-display/spinner)adapted to buttons.
 
 
-      Spinner
+      ## Please consider
 
 
-      Please consider
+      We don't use buttons which are disabled by default in LFUI. However rare
+      use cases exist in which the user's choices lead to options being
+      unavailable which can be identified by the selection (usually not a
+      button) becoming disabled. Read more on why in Design rationale.
 
 
-      Design rationale - disabled buttons
+      ## Design rationale
 
 
-      Do not use disabled buttons.
+      \- disabled buttons
+
+
 
 
       Instead of a disabled button, make the button clickable and give the user
