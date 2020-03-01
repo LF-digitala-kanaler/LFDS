@@ -78,11 +78,11 @@ tabs:
       försäkring").
 
 
-      **With BankID-icon** is used as part of our pattern for notifying users of
-      the need to identify themselves or sign with BankID. The modifier adds a
-      white BankID-icon to the left of the text in the button. Note that the
-      pattern states that you also should add an explanatory text on why we need
-      BankID next to the button.
+      **With BankID-icon** is used as part of our [pattern for using
+      BankID](https://lfui-beta-aedd0a.netlify.com/patterns/general-patterns).
+      The modifier adds a white BankID-icon to the left of the text in the
+      button. Note that the pattern states that you also should add an
+      explanatory text on why we need BankID next to the button.
 
 
       #### Secondary buttons
@@ -136,13 +136,44 @@ tabs:
       ### Modifiers
 
 
-      On top of the specific modifiers for primary and secondary buttons
+      On top of the specific modifiers for primary and secondary buttons there
+      are three modifiers which are available for all three types of buttons:
 
 
-      Modifiers (gäller ej log in???)
+      * Size variations
+
+      * With an arrow
+
+      * With a spinner
 
 
-      Small, normal, large
+      #### Size variations
+
+
+      Our buttons come in three sizes: default, smaller and larger. 
+
+
+      * The default is as the name suggests the default version.
+
+      * The smaller button is used where space is more limited, as in forms or
+      in the [radio
+      card](https://lfui-beta-aedd0a.netlify.com/components/web/forms/radio-buttons#radio-card-for-selecting-products).
+
+      * The larger is used when we want to give extra attention to the button,
+      like in campaigns.
+
+
+      <figure class="Image Image--background"><img src="/img/button-sizes.png"
+      alt="Image showing the three sizes of buttons in LFUI"><figcaption><div
+      class="Image__caption">Image showing the three sizes of buttons in
+      LFUI</div></figcaption></figure>
+
+
+      #### With an arrow
+
+
+
+
 
 
       Med pil -  As a rule of thumb, the arrow is appended to the button if it
