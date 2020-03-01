@@ -91,9 +91,10 @@ tabs:
       On top of the general modifiers for buttons, the secondary button has a
       distinct modifier not available for the other types of buttons: **button
       with icon**. The icon is added to the left of the button text. Typical
-      examples of use of this modifier is with a clip for attaching files or a
-      plus for adding items (like another fund or employee), but it has also
-      been used for a more decorative purposes (like after selecting items in
+      examples of use of this modifier in line with web standards) are with a
+      clip for attaching files or a plus for adding items (like another fund or
+      employee), but it has also been used for a more decorative purposes (like
+      after selecting items in
       [Fondkurser](https://www.lansforsakringar.se/stockholm/privat/bank/spara/fondkurser/?shortcut=1&ids=F00000VHUM)).
 
 
