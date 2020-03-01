@@ -116,15 +116,15 @@ tabs:
       "Logga in" (or "Logga ut" if in a logged in-view).
 
 
+      <div class="Callout"><div class="Callout__icon"></div><p
+      class="Callout__text"><strong>Only for logging in/out </strong>This button
+      should never be used for any other purposes than signing in or
+      out-purposes!</p></div>
 
 
+      ### Modifiers
 
 
-
-
-
-
-      Log in
 
 
       Modifiers (gäller ej log in???)
@@ -148,8 +148,6 @@ tabs:
 
 
       Do not use disabled buttons.
-
-
 
 
       Instead of a disabled button, make the button clickable and give the user
