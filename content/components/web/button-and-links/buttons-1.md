@@ -65,14 +65,24 @@ tabs:
       ##### Modifier for primary buttons
 
 
-      On top of the general modifiers for buttons, the primary button has a
-      distinct modifier not available for the other types of buttons:
-      **two-rowed button**. The two-rowed button is used in flows where the user
-      buys/signs up for something (_köptjänster_). The two-rowed button is used
-      to continue between pages. Both rows have text in them, with the first one
-      being in a larger font. The first row signals what will happen ("Gå
-      vidare", "Godkänn") and the second gives more detail ("Ange uppgifter",
-      "Köp försäkring").
+      On top of the general modifiers for buttons, the primary button has two
+      distinct modifiers not available for the other types of buttons: two-rowed
+      button and with BankID-icon. 
+
+
+      **The two-rowed button** is used in flows where the user buys/signs up for
+      something (_köptjänster_). The two-rowed button is used to continue
+      between pages. Both rows have text in them, with the first one being in a
+      larger font. The first row signals what will happen ("Gå vidare",
+      "Godkänn") and the second gives more detail ("Ange uppgifter", "Köp
+      försäkring").
+
+
+      **With BankID-icon** is used as part of our pattern for notifying users of
+      the need to identify themselves or sign with BankID. The modifier adds a
+      white BankID-icon to the left of the text in the button. Note that the
+      pattern states that you also should add an explanatory text on why we need
+      BankID next to the button.
 
 
       #### Secondary buttons
@@ -118,14 +128,15 @@ tabs:
 
 
       <div class="Callout"><div class="Callout__icon"></div><p
-      class="Callout__text"><strong>Only for logging in/out </strong>This button
-      should never be used for any other purposes than signing in or
+      class="Callout__text"><strong>Only for logging in/out! </strong>This
+      button should never be used for any other purposes than signing in or
       out-purposes!</p></div>
 
 
       ### Modifiers
 
 
+      On top of the specific modifiers for primary and secondary buttons
 
 
       Modifiers (gäller ej log in???)
@@ -139,7 +150,7 @@ tabs:
       within the same service.
 
 
-      BankID 
+      Spinner
 
 
       Please consider
