@@ -171,9 +171,9 @@ tabs:
 
 
       <figure class="Image Image__background"><img src="/img/button-sizes.jpg"
-      alt="Image showing the three sizes of buttons in LFUI"><figcaption><div
-      class="Image__caption">Image showing the three sizes of buttons in
-      LFUI</div></figcaption></figure>
+      srcset="/img/button-sizes.jpg 2x" alt="Image showing the three sizes of
+      buttons in LFUI"><figcaption><div class="Image__caption">Image showing the
+      three sizes of buttons in LFUI</div></figcaption></figure>
 
 
       #### With an arrow
