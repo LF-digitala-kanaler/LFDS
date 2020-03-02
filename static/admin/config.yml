@@ -55,7 +55,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: 'Content', name: 'content', widget: 'markdown' }
   
   
-  - name: article-page
+  - name: design-page
     label: Design@LF
     folder: content/design/
     path: '{{category}}/{{slug}}'
@@ -86,8 +86,34 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
-      
-  - name: article-page
+
+  - name: patterns-page
+    label: Patterns
+    folder: content/patterns/
+    path: '{{category}}/{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
+      - label: 'Background'
+        name: 'background'
+        widget: 'select'
+        required: false
+        options: 
+          - { label: "White", value: "bg-white" }
+          - { label: "Grey", value: "" }
+       
+      - label: 'Category'
+        name: 'category'
+        widget: 'select'
+        required: false
+        options: 
+          - { label: "General Patterns", value: "General Patterns" }
+        
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false }
+
+  - name: visual-identity-page
     label: Visual Identity
     folder: content/visual-identity/
     path: '{{category}}/{{slug}}'
@@ -118,54 +144,22 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
-
-  - name: article-page
-    label: Patterns
-    folder: content/patterns/
-    path: '{{category}}/{{slug}}'
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
-      - label: 'Background'
-        name: 'background'
-        widget: 'select'
-        required: false
-        options: 
-          - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }
-       
-      - label: 'Category'
-        name: 'category'
-        widget: 'select'
-        required: false
-        options: 
-          - { label: "General Patterns", value: "General Patterns" }
-          - { label: "Brand Identity", value: "Brand Identity" }
-          - { label: "Design Principles", value: "Design Principles" }
-          - { label: "Process", value: "Process" }
-          - { label: "Accessibility", value: "Accessibility" }
-          - { label: "User Testing", value: "User Testing" }
-          - { label: "Motion", value: "Motion" }
-        
+    
+  - name: 'landing-page'
+    label: 'Landing Pages'
+    folder: content/
+    filter: {field: "template", value: "LandingPage"}
+    fields: 
+      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+      - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false }
-    
-  # - name: 'landing-page'
-  #   label: 'Landing Pages'
-  #   folder: content/
-  #   filter: {field: "template", value: "LandingPage"}
-  #   fields: 
-  #     - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
-  #     - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
-  #     - { label: Title, name: title, widget: string }
-  #     - { label: Intro, name: intro, widget: text }
-  #     - label: 'Blockquote'
-  #       name: 'blockquote'
-  #       widget: 'object'
-  #       fields: 
-  #         - {label: "Text", name: "text", widget: "text", required: false}
-  #         - {label: "Author", name: "author", widget: "string", required: false}
+      - label: 'Blockquote'
+        name: 'blockquote'
+        widget: 'object'
+        fields: 
+          - {label: "Text", name: "text", widget: "text", required: false}
+          - {label: "Author", name: "author", widget: "string", required: false}
   
   - name: categoryOverview-page
     label: Category Overview

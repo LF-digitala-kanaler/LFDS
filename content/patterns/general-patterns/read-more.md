@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: Design dimensions
+category: General Patterns
 title: Read more
 intro: >-
   This page describes the four different ways we have of providing additional

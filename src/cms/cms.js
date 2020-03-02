@@ -47,7 +47,13 @@ CMS.registerPreviewTemplate('categoryOverview-page', ({ entry }) => (
 CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
   <LandingPageTemplate componentsLinks={null} componentNavigation={null}  {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('article-page', ({ entry }) => (
+CMS.registerPreviewTemplate('design-page', ({ entry }) => (
+  <ArticlePageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('patterns-page', ({ entry }) => (
+  <ArticlePageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('visual-identity-page', ({ entry }) => (
   <ArticlePageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
