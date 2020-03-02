@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect }  from 'react';
 import Frame from 'react-frame-component';
-import css from '!!raw-loader!lfui/dist/lf.css'; 
-import svg from '!!raw-loader!lfui/dist/icons.svg'; 
+import css from '!!raw-loader!lfui-components/dist/lf.css'; 
+import svg from '!!raw-loader!lfui-components/dist/icons.svg'; 
 import Preview from '../Preview';
 import Actions from '../Actions'
 import Content from '../Content';
@@ -16,7 +16,6 @@ import $ from 'jquery'
 const ComponentExample = ({variants, background}) => {
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
   const [code, setCode] = useState(variants[0].node.content);
-  const [script, setScript] = useState(false);
   const [source, setSource] = useState(false);
   const [height, setHeight] = useState(240);
   const iframeRef =  React.createRef();
@@ -58,7 +57,7 @@ const ComponentExample = ({variants, background}) => {
 
       let script2= document.createElement('script');
 			script2.type= 'text/javascript'; 
-			script2.src= '/test.js'; 
+			script2.src= '/docs.js'; 
 			body.appendChild(script2);
 			script2.parentNode.removeChild(script2);
      
@@ -131,7 +130,7 @@ const ComponentExample = ({variants, background}) => {
                     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
                     crossorigin="anonymous"></script>
                     <script  id="script" type="text/javascript" src="/lf.js"></script>
-                    <script  id="script2" type="text/javascript" src="/test.js"></script>
+                    <script  id="script2" type="text/javascript" src="/docs.js"></script>
                   </body>
                 </html>`}
               head={

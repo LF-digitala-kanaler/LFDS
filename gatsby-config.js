@@ -66,7 +66,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/node_modules/lfui/dist/html`,
+        path: `${__dirname}/node_modules/lfui-components/dist/html`,
         name: 'componentExample',
         
       }

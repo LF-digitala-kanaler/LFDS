@@ -1,5 +1,5 @@
 {
-  "name": "lfui",
+  "name": "lfui-web",
   "HomePage": "",
   "description": "",
   "version": "1.0.0",
@@ -12,6 +12,7 @@
     "@reach/tabs": "^0.8.0",
     "babel-plugin-prismjs": "^2.0.1",
     "babel-preset-gatsby": "^0.2.27",
+    "copy-files-from-to": "^2.3.0",
     "dangerously-set-html-content": "^1.0.3",
     "date-fns": "^2.9.0",
     "dom-form-serializer": "^1.0.7",
@@ -58,21 +59,27 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "start": "npm run clean && npm run develop",
-    "start-m": "gatsby develop -H 0.0.0.0 -p 8000",
-    "build": "npm run clean && gatsby build",
+    "start": "copy-files-from-to npm run clean && npm run develop",
+    "start-m": "copy-files-from-to gatsby develop -H 0.0.0.0 -p 8000",
+    "build": "copy-files-from-to npm run clean && gatsby build",
     "develop": "gatsby develop",
     "clean": "rm -rf .cache public",
-    "serve": "gatsby serve",
+    "serve": "copy-files-from-to gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "del-cli": "^3.0.0",
     "gatsby-plugin-remove-trailing-slashes": "^2.1.21",
-    "lfui": "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git",
+    "lfui-components": "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git",
     "postcss-nested": "^4.2.0",
     "prettier": "^1.16.1",
     "react-use": "^13.10.1"
-  }
+  },
+  "copyFiles": [
+    {
+      "from": "node_modules/lfui/dist/docs.js",
+      "to": "static/docs.js"
+    }
+  ]
 }
