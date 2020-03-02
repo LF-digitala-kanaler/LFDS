@@ -79,7 +79,7 @@ tabs:
       in a lower conversion rate than the pagination in use.
 
 
-      <figure class="Image Image--background"><img
+      <figure class="Image Image__background"><img
       src="/img/pagination-failed-ab.jpg" alt="Example of a pagination which was
       a/b-tested against the current one and lost"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
@@ -94,19 +94,19 @@ tabs:
       and user tests. 
 
 
-      <figure class="Image Image--border"><img src="/img/pagination-old.jpg"
+      <figure class="Image Image__border"><img src="/img/pagination-old.jpg"
       alt="Old version of pagination which didn't pass through user
       testing"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
-      <figure class="Image Image--background"><img
+      <figure class="Image Image__background"><img
       src="/img/pagination-old-w-colour.jpg" alt="Old version of pagination
       which didn't pass through user testing"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
-      <figure class="Image  Image--border"><img
+      <figure class="Image  Image__border"><img
       src="/img/pagination-old-number-and-label.jpg" alt="Old sketch of
       pagination with step number and label"><figcaption><div
       class="Image__caption"></div></figcaption></figure>

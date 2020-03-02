@@ -8,7 +8,7 @@ intro: Preamble preamble
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
-      <figure class="Image Image--background"><img src="/img/apps.jpg"
+      <figure class="Image__background"><img src="/img/apps.jpg"
       alt="test"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
@@ -22,7 +22,7 @@ tabs:
       class="Image__caption"></div></figcaption></figure>
 
 
-      <figure class="Image Image--background"><img src="/img/ex-secondary.svg"
+      <figure class="Image Image__background"><img src="/img/ex-secondary.svg"
       alt=""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 

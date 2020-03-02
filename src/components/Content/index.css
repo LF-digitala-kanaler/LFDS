@@ -131,29 +131,31 @@ figure {
   margin: 0;
 }
 
-.Image--border {
+.Image__border {
   text-align: center;
   margin-bottom: var(--spacing-vertical--2);
   
 }
 
-.Image--border img{
+.Image__border img{
   border: 2px solid var(--color-border);
   display: inline-block;
   padding: var(--spacing-xxlg);
 }
 
-.Image--border img {
+.Image__border img {
   display: inline-block; 
 }
 
-.Image--background {
+.Image__background {
   background: var(--color-smoke);
   text-align: center;
   margin-bottom: var(--spacing-vertical--2);
+  margin-top: var(--spacing-vertical--2);
+  position: relative;
 }
 
-.Image--background img {
+.Image__background img {
   padding: var(--spacing-xxlg);
 }
 .active {

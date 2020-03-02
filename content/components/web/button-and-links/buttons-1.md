@@ -26,7 +26,7 @@ tabs:
       makes it a better choice. 
 
 
-      <figure class="Image Image--background"><img
+      <figure class="Image Image__background"><img
       src="/img/responsive-button.jpg" alt="Example of button in desktop and
       responsive web-states"><figcaption><div class="Example of button in
       desktop and responsive web-states"></div></figcaption></figure>
@@ -170,7 +170,7 @@ tabs:
       like in campaigns.
 
 
-      <figure class="Image Image--background"><img src="/img/button-sizes.png"
+      <figure class="Image Image__background"><img src="/img/button-sizes.png"
       alt="Image showing the three sizes of buttons in LFUI"><figcaption><div
       class="Image__caption">Image showing the three sizes of buttons in
       LFUI</div></figcaption></figure>
