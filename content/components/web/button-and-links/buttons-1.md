@@ -27,9 +27,10 @@ tabs:
 
 
       <figure class="Image Image__background"><img
-      src="/img/responsive-button.jpg" alt="Example of button in desktop and
-      responsive web-states"><figcaption><div class="Example of button in
-      desktop and responsive web-states"></div></figcaption></figure>
+      src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x"
+      alt="Example of button in desktop and responsive
+      web-states"><figcaption><div class="Image__caption">Example of button in
+      desktop and responsive web-states</div></figcaption></figure>
 
 
       Button copy should make it clear what happens after clicking it, meaning
@@ -171,9 +172,9 @@ tabs:
 
 
       <figure class="Image Image__background"><img src="/img/button-sizes.jpg"
-      srcset="/img/button-sizes.jpg 2x" alt="Image showing the three sizes of
-      buttons in LFUI"><figcaption><div class="Image__caption">Image showing the
-      three sizes of buttons in LFUI</div></figcaption></figure>
+      srcset="/img/button-sizes.jpg 2x" alt="/img/button-sizes.jpg
+      2x""><figcaption><div class="Image__caption">Image showing the three sizes
+      of buttons in LFUI</div></figcaption></figure>
 
 
       #### With an arrow
