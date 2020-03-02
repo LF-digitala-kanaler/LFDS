@@ -137,8 +137,57 @@ const ComponentExample = ({variants, background}) => {
                 <>
 
                 <style>
-                  {css}
                   
+                  {
+                    `
+                    @font-face {
+                      font-family: 'LF Rubrik';
+                      src:
+                        url('/fonts/lf-rubrik.woff2') format('woff2'),
+                        url('/fonts/lf-rubrik.woff') format('woff');
+                      font-weight: normal;
+                      font-style: normal;
+                      font-kerning: normal;
+                    }
+
+                    @font-face {
+                      font-family: 'Intro Cond';
+                      src:
+                        url('/fonts/intro-cond-regular.woff2') format('woff2'),
+                        url('/fonts/intro-cond-regularwoff') format('woff');
+                      font-weight: normal;
+                      font-style: normal;
+                    }
+
+                    @font-face {
+                      font-family: 'Intro Cond';
+                      src:
+                        url('/fonts/intro-cond-regular-italic.woff2') format('woff2'),
+                        url('/fonts/intro-cond-regular-italic.woff') format('woff');
+                      font-weight: normal;
+                      font-style: italic;
+                    }
+
+                    @font-face {
+                      font-family: 'Intro Cond';
+                      src:
+                        url('/fonts/intro-cond-bold.woff2') format('woff2'),
+                        url('/fonts/intro-cond-bold.woff') format('woff');
+                      font-weight: bold;
+                      font-style: normal;
+                    }
+
+                    @font-face {
+                      font-family: 'Intro Cond';
+                      src:
+                        url('/fonts/intro-cond-bold-italic.woff2') format('woff2'),
+                        url('/fonts/intro-cond-bold-italic.woff') format('woff');
+                      font-weight: bold;
+                      font-style: italic;
+                    }
+                    `
+                  }
+                  {css}
                   {' body{padding:16px; background-color:'+backgroundColor+'} '}
                 </style>
                 </>
