@@ -170,7 +170,7 @@ tabs:
       like in campaigns.
 
 
-      <figure class="Image Image__background"><img src="/img/button-sizes.png"
+      <figure class="Image Image__background"><img src="/img/button-sizes.jpg"
       alt="Image showing the three sizes of buttons in LFUI"><figcaption><div
       class="Image__caption">Image showing the three sizes of buttons in
       LFUI</div></figcaption></figure>
@@ -207,8 +207,6 @@ tabs:
 
 
       \- disabled buttons
-
-
 
 
       Instead of a disabled button, make the button clickable and give the user
