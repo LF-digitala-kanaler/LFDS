@@ -151,8 +151,13 @@ figure {
   background: var(--color-smoke);
   text-align: center;
   margin-bottom: var(--spacing-vertical--2);
-  margin-top: var(--spacing-vertical--2);
+  margin-top: var(--spacing-vertical--3);
   position: relative;
+}
+
+.Image__caption {
+  position: absolute;
+  top: calc(-1.5 * var(--spacing-vertical--1));
 }
 
 .Image__background img {
