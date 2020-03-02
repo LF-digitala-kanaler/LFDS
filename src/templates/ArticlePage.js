@@ -18,7 +18,6 @@ export const ArticlePageTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <Content source={body} />   
-     
     </Wrapper>
   </>
 )
