@@ -1,43 +1,56 @@
-import React from 'react'
+import React, {  useEffect, useState } from 'react';
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs"
 import style from './index.module.css'
 import Wrapper from '../Wrapper'
 import Content from '../Content'
 
 const TabsWrapper = ({tabs, location, navigate}) => {
- 
- 
- // need to send in different values to make the component work in the cms
-  
-  const filterTabName = tabs.map(item => {
-    return(
-       item.name
-    )
+ const [tabName, setTabName] = useState([]);
+ const [tabContent, setTabContent] = useState([]); 
+ const [index, setTabIndex] = useState(0)
+ useEffect(() => {
+    
+    setTabName(tabs.map(item => {
+      return ((item.name?.rawMarkdownBody || item.name))
+    }))
+    setTabContent(tabs.map(item => {
+      return ((item.content?.html || item.content))
+    }))
    
-  })
-  console.log(filterTabName, 'itt')
-  const index = filterTabName.indexOf(location.search.substr(1));
-  
+    
+  },[]);
+  // Needed for the cms to update the tabs
+  useEffect(() => {
+    setTabName(tabs.map(item => {
+      return ((item.name?.rawMarkdownBody || item.name))
+    }))
+    setTabContent(tabs.map(item => {
+      return ((item.content?.html || item.content))
+    }))
+  },[tabs]);
+  useEffect(() => {
+    setTabIndex(tabName.indexOf(location.search.substr(1)))
+    
+  });
+
   const onTabsChange = index => 
-    navigate( `?${filterTabName[index]}`, { replace: false });
+    navigate( `?${tabName[index]}`, { replace: false });
   
   return (
-
-  
     <Tabs index={index === -1 ? 0 : index} onChange={onTabsChange} className={style.Tabs} >
       <TabList className={style.Tabs__list}>
         {
-          filterTabName.map((tab, index) => {
+          tabName.map((tab, index) => {
             return <Tab key={index} className={style.Tabs__link}>{tab}</Tab>
           })
         }
       </TabList>
       <TabPanels className={style.Tabs__panels}>
-        {tabs.map((tab, index) => {
+        {tabContent.map((tab, index) => {
           return (
             <TabPanel className={style.Tabs__panel} key={index}>
               <Wrapper menu={true} tag="div" narrow={true}>
-              { tab === 'undefined' ?  <Content source={tab.content.html } /> : <Content source={tab.content} /> }
+              <Content source={tab} />
               </Wrapper>
             </TabPanel>
           )

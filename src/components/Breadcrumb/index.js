@@ -8,7 +8,7 @@ const parentDirectory = (url) => {
 }
 
 const Breadcrumb = ({location}) => {
-  console.log(location.location.pathname.split('/')[2], 'item')
+
   return (
     <div className={style.Breadcrumb}>
       

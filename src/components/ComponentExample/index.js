@@ -85,7 +85,7 @@ const ComponentExample = ({variants, background}) => {
   //useEffect(() => handleResize(iframeRef));
   
   const handleResize = () => {
-    console.log(iframeRef.current.node.contentDocument.body.scrollHeight)
+    
     if (
       iframeRef.current &&
       iframeRef.current.node.contentDocument &&

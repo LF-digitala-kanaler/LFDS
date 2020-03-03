@@ -51,7 +51,7 @@ const ComponentPage = ({
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
-  console.log('current', currentDirectory)
+  
   const toKebabCase = str =>
     str &&
     str
@@ -63,7 +63,7 @@ const ComponentPage = ({
       ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
       : false
    }
-  console.log(componentExample.examples,'fefe')
+  
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
