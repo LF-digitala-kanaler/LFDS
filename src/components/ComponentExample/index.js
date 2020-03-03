@@ -194,6 +194,7 @@ const ComponentExample = ({variants, background}) => {
               }
             >
             <Content source={`${code}`}  />
+            
             <Content source={svg} />
             
             </Frame>

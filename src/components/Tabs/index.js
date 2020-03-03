@@ -8,14 +8,14 @@ const TabsWrapper = ({tabs, location, navigate}) => {
  
  
  // need to send in different values to make the component work in the cms
- console.log(tabs, 'tabs')
+  
   const filterTabName = tabs.map(item => {
-    if(item.name.rawMarkdownBody){
-      return item.name.rawMarkdownBody
-    }
-    return item.name
+    return(
+       item.name
+    )
+   
   })
-    
+  console.log(filterTabName, 'itt')
   const index = filterTabName.indexOf(location.search.substr(1));
   
   const onTabsChange = index => 
@@ -37,7 +37,7 @@ const TabsWrapper = ({tabs, location, navigate}) => {
           return (
             <TabPanel className={style.Tabs__panel} key={index}>
               <Wrapper menu={true} tag="div" narrow={true}>
-              { tab.content.html ?  <Content source={tab.content.html } /> : <Content source={tab.content} /> }
+              { tab === 'undefined' ?  <Content source={tab.content.html } /> : <Content source={tab.content} /> }
               </Wrapper>
             </TabPanel>
           )

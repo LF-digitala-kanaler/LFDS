@@ -38,7 +38,7 @@ CMS.registerEditorComponent(Callout)
 // })
 
 CMS.registerPreviewTemplate('component-page', ({ entry }) => (
-  <ComponentPageTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+  <ComponentPageTemplate componentExample={null} componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
 
 CMS.registerPreviewTemplate('categoryOverview-page', ({ entry }) => (
