@@ -26,6 +26,7 @@ const Menu = ({currentDirectory}) => {
               frontmatter {
                 title
                 category
+                priority
               }
               fields {
                 slug
@@ -45,7 +46,6 @@ const Menu = ({currentDirectory}) => {
     currentDirectory = location.split('/');
     currentDirectory = currentDirectory.filter(item => item);
     currentDirectory  = currentDirectory.slice(0, 1).join('/');
-    
   }
   
   const navigationItems = {
@@ -53,26 +53,22 @@ const Menu = ({currentDirectory}) => {
       ? data.allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-
+  
   const navigationStructure = _(navigationItems.items)
   .chain()
   .groupBy('node.frontmatter.category')
   .map((value, key) => ({ parentLink: key,  childLink: value}))
   .value()
-
-
+  
   const navigationStructureSorted = _.orderBy(navigationStructure, [(item) => {
     const nestedObj = _.get(item, 'childLink');
-    item['childLink'] = _.orderBy(nestedObj,'node.frontmatter.title','asc');
+    item['childLink'] = _.orderBy(nestedObj,['node.frontmatter.priority', 'node.frontmatter.title'],['asc', 'asc']);
       return [item.parentLink, item['childLink']];
     }], 'asc', 'asc');
-  
+  console.log(navigationStructureSorted);
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);
-
-  
-
 
   const handleOnClick = () => {
     setOpen(!isOpen)
@@ -86,7 +82,6 @@ const Menu = ({currentDirectory}) => {
   const handleOverlayClick = () => {
     setOpen(false)
     document.body.style.overflow = 'unset';
-     
   }
 
   const renderMenuItems = (nav, loc) =>

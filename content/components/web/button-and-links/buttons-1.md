@@ -9,6 +9,7 @@ description: >-
 intro: >-
   Buttons are used as a part of a flow, and is the component which the user
   clicks to make progress in said flow.
+priority: '2'
 tabs:
   - content: >-
       ## How to use

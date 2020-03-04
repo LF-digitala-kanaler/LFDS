@@ -10,32 +10,13 @@ import { ArticlePageTemplate } from '../templates/ArticlePage'
 import AdvancedImage from "./widgets/advancedImage"
 import Callout from "./widgets/callout"
 
+
+
+
 CMS.registerEditorComponent(AdvancedImage)
 CMS.registerEditorComponent(Callout)
 
 
-// CMS.registerPreviewTemplate('component-page', ({ entry }) => {
-//     console.log(entry.toJS().data,'data')
-//     const value = entry.toJS().data.tabs.map(function(event) {
-          
-          
-//           return {
-//             name: event.name,
-//             content: markdownProcessor.processSync(event.content).toString()
-//           } 
-          
-
-//         })
-   
-  
-//   return <ComponentPageTemplate 
-//           description={entry.getIn(['data', 'description'])} 
-//           category={entry.getIn(['data', 'category'])}
-//           tabs={value} 
-//           backgroundColor={entry.getIn(['data', 'backgroundColor'])}
-          
-//         />
-// })
 
 CMS.registerPreviewTemplate('component-page', ({ entry }) => (
   <ComponentPageTemplate componentExample={null} componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />

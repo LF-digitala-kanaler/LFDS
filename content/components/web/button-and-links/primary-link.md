@@ -2,6 +2,7 @@
 template: ComponentPage
 category: Button and Links
 title: Link Primary
+priority: '1'
 description: >-
   Används max en per block (helst per sida) och ska ta mig dit som är mitt
   huvudsakliga syfte. Finns endast med pil. Primär länk ställer vi alltid under

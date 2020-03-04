@@ -19,6 +19,15 @@ collections: # A list of collections the CMS should be able to edi
     filter: {field: "template", value: "ComponentPage"}
     fields: # The fields each document in this collection have
       
+      - label: "Priority"
+        name: "priority"
+        widget: "number"
+        valueType: "int"
+        min: 1
+        max: 100
+        required: false
+        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure']
+     
       - { label: Template, name: template, widget: hidden, default: ComponentPage, value: ComponentPage }
       - label: 'Category'
         name: 'category'
@@ -39,6 +48,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Component Description, name: description, widget: text, hint: Will be shown on Component Group page}
       - { name: previewImage, label: previewImage, widget: image, required: false }
       - { label: Intro, name: intro, widget: text }
+      
       - label: 'Background'
         name: 'backgroundColor'
         widget: 'select'
@@ -46,6 +56,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "White", value: "#fff" }
           - { label: "Grey", value: "#f3f3f3" }
         required: false
+      
       - label: 'Status'
         name: 'status'
         widget: 'select'
@@ -61,8 +72,8 @@ collections: # A list of collections the CMS should be able to edi
         fields:
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
-  
-  
+    
+    
   - name: design-page
     label: Design@LF
     folder: content/design/
@@ -94,6 +105,15 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
+      
+      - label: "Priority"
+        name: "priority"
+        widget: "number"
+        valueType: "int"
+        min: 1
+        max: 100
+        required: false
+        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure']
 
   - name: patterns-page
     label: Patterns
@@ -156,6 +176,7 @@ collections: # A list of collections the CMS should be able to edi
   - name: 'landing-page'
     label: 'Landing Pages'
     folder: content/
+    path: 'content/{{slug}}/index'
     filter: {field: "template", value: "LandingPage"}
     fields: 
       - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
@@ -174,6 +195,7 @@ collections: # A list of collections the CMS should be able to edi
     editor:
       preview: true
     folder: content/
+    path: 'content/{{slug}}/{{slug}}/index'
     filter: {field: "template", value: "CategoryOverview"}
     fields: 
       - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }

@@ -28,14 +28,14 @@ export const ComponentPageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
-      {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}  />}
+      {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}   />}
     </Wrapper>
     
-      <Location>
-        {({ location }) => (
-          <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
-        )}
-      </Location>
+    <Location>
+      {({ location }) => (
+        <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
+      )}
+    </Location>
 
   </>
 )
@@ -50,15 +50,20 @@ const ComponentPage = ({
   
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
-    currentDirectory = location.href.split('/').filter(Boolean).pop();
+    currentDirectory = location.pathname.split('/').filter(Boolean).pop();
    }
-  
+  const toKebabCase = str =>
+    str &&
+    str
+      .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+      .map(x => x.toLowerCase())
+      .join('-');
    const componentExample = {
     examples: allComponentExample.hasOwnProperty('edges')
-      ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
+      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory.split('/').pop())
       : false
    }
-  
+  console.log(allComponentExample , currentDirectory)
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
@@ -84,6 +89,7 @@ const ComponentPage = ({
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
         status={page.frontmatter.status}
+        priority={page.frontmatter.priority}
       />
     </Layout>
   )
@@ -118,9 +124,7 @@ export const pageQuery = graphql`
         
       }
       fields {
-        
-         
-       
+
           frontmattermd {
             tabs {
               content {
@@ -148,8 +152,3 @@ export const pageQuery = graphql`
   }
 `
 
-
-//  tabsMD {
-//             content
-//             name
-//           }

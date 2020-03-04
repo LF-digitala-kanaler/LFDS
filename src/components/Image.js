@@ -29,7 +29,6 @@ class Image extends React.Component {
       
       className = '',
       src,
-      srcset = '',
       title = '',
       alt = '',
       
