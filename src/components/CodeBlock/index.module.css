@@ -9,5 +9,8 @@
   border: 2px solid var(--color-border);
   border-width: 2px 2px 0 2px;
   font-size: 14px;
-  padding-left: var(--spacing-xs);
+}
+.CodeBlock pre {
+  margin: 0!important;
+  padding: 20px !important;
 }
