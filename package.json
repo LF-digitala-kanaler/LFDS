@@ -46,7 +46,6 @@
     "prop-types": "^15.6.2",
     "re-resizable": "^6.1.0",
     "react": "^16.11.0",
-    "react-arrow-navigation": "^1.0.1",
     "react-dom": "^16.11.0",
     "react-frame-component": "^4.1.1",
     "react-helmet": "^5.2.0",

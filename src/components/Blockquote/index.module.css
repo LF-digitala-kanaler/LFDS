@@ -1,4 +1,4 @@
-::root {
+:root {
   --blockquote-color: var(--color-gray);
 }
 
@@ -6,7 +6,7 @@
   color: var(--color-gray);
   font-size: 1.75rem;
   text-align: center;
-  line-height: 1.21;
+  line-height: 1;
   margin: var(--spacing-vertical--3) auto ;
   @media (--small-viewport) { 
     max-width: 22.25rem;

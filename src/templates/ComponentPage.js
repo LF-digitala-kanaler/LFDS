@@ -8,14 +8,15 @@ import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
 import { Location } from "@reach/router";
 import { navigate } from '@reach/router'
-
+import Badge from '../components/Badge';
 // Export Template for use in CMS preview
 export const ComponentPageTemplate = ({
   title,
   intro,
   componentExample,
   backgroundColor,
-  tabs
+  tabs,
+  status
 
 }) => (
   
@@ -23,7 +24,7 @@ export const ComponentPageTemplate = ({
 
   
     <Wrapper tag="div" menu={true} narrow={true}>
-      <Heading tag={1} text={title} align={"left"} />
+      <Heading tag={1} text={title} align={"left"}> { status && <Badge status={status} />}</Heading>
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
@@ -52,12 +53,6 @@ const ComponentPage = ({
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
   
-  const toKebabCase = str =>
-    str &&
-    str
-      .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-      .map(x => x.toLowerCase())
-      .join('-');
    const componentExample = {
     examples: allComponentExample.hasOwnProperty('edges')
       ? allComponentExample.edges.filter(exemple => (exemple.node.relativeDirectory.split("/").pop()).toLowerCase() === currentDirectory)
@@ -88,6 +83,7 @@ const ComponentPage = ({
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
+        status={page.frontmatter.status}
       />
     </Layout>
   )
@@ -114,7 +110,7 @@ export const pageQuery = graphql`
         previewImage
         description
         background
-        
+        status
         tabs{
           name
           content

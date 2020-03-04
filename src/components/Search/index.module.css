@@ -1,6 +1,7 @@
 :root {
   --search-spacing: var(--spacing-sm) var(--spacing-md);
   --search-active-background: var(--color-smoke);
+  --search-height: 2.875rem;
 }
 
 .Search {
@@ -9,6 +10,7 @@
   position: relative;
   margin-left: auto;
 }
+
 .Search__text {
   margin-top: 2px;
   display: block;
@@ -18,7 +20,6 @@
     
   }
 }
-
 
 .Search__button {
   background-color: transparent;
@@ -30,6 +31,8 @@
   outline: 0;
   margin-left: var(--spacing-md);
   cursor: pointer;
+  min-height: var(--search-height);
+
   @media (--medium-viewport) { 
     display: flex;
     align-items: center;
@@ -85,7 +88,7 @@
   display: block;
 }
 .Search__link--focused{
-  background-color: var(--color-background-light);
+  background-color: var(--color-smoke);
   color: var(--color-black);
   
 }
