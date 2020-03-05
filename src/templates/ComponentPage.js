@@ -63,7 +63,7 @@ const ComponentPage = ({
       ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory.split('/').pop())
       : false
    }
-  console.log(allComponentExample , currentDirectory)
+  
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
