@@ -6,8 +6,7 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
-import { Location } from "@reach/router";
-import { navigate } from '@reach/router'
+import { Location, navigate, globalHistory} from "@reach/router";
 import Badge from '../components/Badge';
 // Export Template for use in CMS preview
 export const ComponentPageTemplate = ({
@@ -50,8 +49,11 @@ const ComponentPage = ({
   
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
-    currentDirectory = location.pathname.split('/').filter(Boolean).pop();
+    const path = globalHistory.location.pathname
+    currentDirectory = path.split('/').filter(Boolean).pop();
    }
+
+
   const toKebabCase = str =>
     str &&
     str
@@ -60,7 +62,7 @@ const ComponentPage = ({
       .join('-');
    const componentExample = {
     examples: allComponentExample.hasOwnProperty('edges')
-      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory.split('/').pop())
+      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory)
       : false
    }
   
