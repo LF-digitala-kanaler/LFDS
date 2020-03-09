@@ -35,7 +35,7 @@ export const ComponentPageTemplate = ({
     </Wrapper>
     <Wrapper tag="div" menu={true}>
       {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}   />}
-      <ComponentAllVersions version={currentDirectory} />
+      {/* <ComponentAllVersions version={currentDirectory} /> */}
     </Wrapper>
      
     <Location>

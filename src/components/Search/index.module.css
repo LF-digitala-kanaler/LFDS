@@ -70,7 +70,7 @@
   width: 100%;
   border: 2px solid var(--color-border);
   border-width: 0 2px 2px 2px;
-  display: none;
+  padding-left:0;
 }
 
 .Search__list--isVisible {
