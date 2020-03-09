@@ -1,0 +1,21 @@
+
+.ComponentVersion {
+  position: absolute; 
+  top: 2.6rem;
+  right: 0;
+}
+
+.ComponentVersion__list {
+
+}
+
+.ComponentVersion__icon {
+  margin-left: 4px;
+}
+
+.ComponentVersion__link {
+  text-decoration: none;
+  color: var(--color-body);
+  margin-right: var(--spacing-sm);
+}
+

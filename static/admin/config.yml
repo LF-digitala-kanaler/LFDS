@@ -254,5 +254,11 @@ collections: # A list of collections the CMS should be able to edi
               widget: string,
               required: false,
             }
+          - {
+              label: Old LFUI Url,
+              name: oldSiteUrl,
+              widget: string,
+              required: false,
+            }
   
   

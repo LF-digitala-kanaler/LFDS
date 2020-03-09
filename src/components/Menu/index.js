@@ -65,7 +65,7 @@ const Menu = ({currentDirectory}) => {
     item['childLink'] = _.orderBy(nestedObj,['node.frontmatter.priority', 'node.frontmatter.title'],['asc', 'asc']);
       return [item.parentLink, item['childLink']];
     }], 'asc', 'asc');
-  console.log(navigationStructureSorted);
+
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
   const [isOpenDesktop, setOpenDesktop] = useState(true);

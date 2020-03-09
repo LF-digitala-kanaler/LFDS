@@ -8,6 +8,8 @@ import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
 import { Location, navigate, globalHistory} from "@reach/router";
 import Badge from '../components/Badge';
+import {ComponentVersion, ComponentAllVersions} from '../components/ComponentVersion';
+
 // Export Template for use in CMS preview
 export const ComponentPageTemplate = ({
   title,
@@ -15,27 +17,33 @@ export const ComponentPageTemplate = ({
   componentExample,
   backgroundColor,
   tabs,
-  status
+  status,
+  currentDirectory
 
 }) => (
   
   <> 
 
   
-    <Wrapper tag="div" menu={true} narrow={true}>
+    <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"}> { status && <Badge status={status} />}</Heading>
+      <ComponentVersion version={currentDirectory} />
+    </Wrapper>
+    <Wrapper tag="div" menu={true} narrow={true}>
       <Preamble text={intro} tag="p" align={"left"} />
+      
     </Wrapper>
     <Wrapper tag="div" menu={true}>
       {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}   />}
+      <ComponentAllVersions version={currentDirectory} />
     </Wrapper>
-    
+     
     <Location>
       {({ location }) => (
         <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
       )}
     </Location>
-
+   
   </>
 )
 
@@ -71,7 +79,6 @@ const ComponentPage = ({
     title: page.frontmatter.title,
     location: location
   }
-  
   
   return (
     <Layout

@@ -14,7 +14,6 @@ import $ from 'jquery'
 
 
 const ComponentExample = ({variants, background}) => {
-  console.log(variants)
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
   const [code, setCode] = useState(variants[0].node.content);
   const [source, setSource] = useState(false);

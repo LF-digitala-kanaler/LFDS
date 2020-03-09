@@ -6,7 +6,7 @@
 
 .Wrapper {
   max-width: var(--wrapper-width);
-  
+  position: relative;
   padding-left: var(--wrapper-spacing);
   padding-right: var(--wrapper-spacing);
   display: flex;
