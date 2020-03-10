@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "alert",
+      "component": "Alert",
       "vanilla": {
         "new": false,
         "deprectated": false,
@@ -9,11 +9,11 @@
       }
     },
     {
-      "component": "breadcrumb",
+      "component": "Shortcut",
       "vanilla": {
         "new": false,
         "deprectated": false,
-        "changedInVersion":[ "6.4.0", "6.3.0"]
+        "changedInVersion":[ "3.3.0"]
       }
     }
   ]

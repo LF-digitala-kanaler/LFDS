@@ -20,7 +20,9 @@ const ComponentExample = ({variants, background}) => {
   const [height, setHeight] = useState(240);
   const iframeRef =  React.createRef();
   
-
+  const hidden = {
+    display: 'none'
+  }
   const toggleCode = () => {
     setSource(!source)
     
@@ -194,9 +196,9 @@ const ComponentExample = ({variants, background}) => {
               }
             >
             <Content source={`${code}`}  />
-            
-            <Content source={svg} />
-            
+            <div style={hidden}>
+              <Content  source={svg} />
+            </div>
             </Frame>
           </Preview>
           

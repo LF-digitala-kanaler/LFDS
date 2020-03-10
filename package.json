@@ -86,5 +86,8 @@
       "from": "node_modules/lfui-components/dist/data/componentsStatus.json",
       "to": "src/data/componentsStatus.json"
     }
-  ]
+  ],
+  "copyFilesSettings": {
+    "whenFileExists": "overwrite"
+  }
 }
