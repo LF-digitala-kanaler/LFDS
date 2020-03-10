@@ -188,7 +188,7 @@ const ComponentExample = ({variants, background}) => {
                     `
                   }
                   {css}
-                  {' body{padding:16px; background-color:'+backgroundColor+'} '}
+                  {' body{padding:16px; overflow-y: hidden; background-color:'+backgroundColor+'} '}
                 </style>
                 </>
               }
