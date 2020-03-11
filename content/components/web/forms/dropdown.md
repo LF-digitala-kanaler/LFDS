@@ -44,9 +44,10 @@ tabs:
       text is in a smaller typeface and grey. See picture below for an example:
 
 
-      ![Example of a dropdown with price added as secondary
-      text](/img/dropdown-secondary-text.png "Example of a dropdown with price
-      added as secondary text")
+      <figure class="Image none"><img src="/img/dropdown-secondary-text.jpg"
+      srcset="/img/dropdown-secondary-text.jpg 2x" alt="Example of a dropdown
+      with price added as secondary text"><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
 
 
       ### Variations
@@ -61,7 +62,7 @@ tabs:
       choose several options, please use a multi-select dropbox instead.
 
 
-      #### Multi-select 
+      #### Multi-select
 
 
       In this version the user can select several options, which means it works
