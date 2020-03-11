@@ -48,7 +48,7 @@ tabs:
       srcset="/img/dropdown-secondary-text.jpg 2x" alt="Example of a dropdown
       with price added as secondary text"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
-
+      
 
       ### Variations
 
