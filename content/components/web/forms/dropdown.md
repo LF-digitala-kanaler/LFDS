@@ -44,11 +44,11 @@ tabs:
       text is in a smaller typeface and grey. See picture below for an example:
 
 
-      <figure class="Image none"><img src="/img/dropdown-secondary-text.jpg"
-      srcset="/img/dropdown-secondary-text.jpg 2x" alt="Example of a dropdown
-      with price added as secondary text"><figcaption><div
+      <figure class="Image Image__background"><img
+      src="/img/dropdown-secondary-text.jpg"
+      srcset="/img/dropdown-secondary-text.jpg 2x" alt=""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
-      
+
 
       ### Variations
 
