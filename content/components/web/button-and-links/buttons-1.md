@@ -223,13 +223,7 @@ tabs:
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
       uppmaning. Används ofta i en enklare tjänst där knappen beskriver
-      nästkommande steg. Exempel:
-
-
-      Skicka
-
-
-      Gå vidare
+      nästkommande steg. Exempel: Skicka, Gå vidare
 
 
       ## Primary button with arrow
@@ -237,20 +231,15 @@ tabs:
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
       uppmaning. När man byter sida eller kanal/tjänst med knappen kan det vara
-      bra att förklara vad man kommer till. Exempel:
-
-
-      Köp bilförsäkring
+      bra att förklara vad man kommer till. Exempel: Köp bilförsäkring
 
 
       ## Buttons with double row
 
 
       Knappen används bara i köptjänster och ska förklara vad som händer när jag
-      trycker och även vad jag ska göra i nästa steg. Exempel:
-
-
-      Gå vidare \ och välj försäkring
+      trycker och även vad jag ska göra i nästa steg. Exempel: Gå vidare \ och
+      välj försäkring
 
 
       Gå vidare\ och godkänn
