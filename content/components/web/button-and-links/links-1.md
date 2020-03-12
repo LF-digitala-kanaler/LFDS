@@ -53,6 +53,15 @@ tabs:
       #### Regular links
 
 
+      Our regular link follows web standards closely, being blue with and
+      underlined. On hover it changes colour to a darker shade of blue.
+      Depending on in which context it is used there are some aspects to
+      consider.
+
+
+      ##### External links
+
+
 
 
       sekundär
@@ -62,6 +71,12 @@ tabs:
 
 
       \- i lista
+
+
+      \- i text
+
+
+      \- i kombo med knapp
     name: Design
 ---
 
