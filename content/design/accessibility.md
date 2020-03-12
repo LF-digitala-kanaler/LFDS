@@ -1,7 +1,6 @@
 ---
 template: ArticlePage
 background: bg-white
-category: Accessibility
 title: Accessibility
 intro: >-
   Vi har valt att ha en webb för alla. Vi är kundägda och alla människor ska
