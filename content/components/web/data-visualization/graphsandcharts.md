@@ -100,6 +100,12 @@ tabs:
       corresponding to the geographical entities represented on the map. 
 
 
+      <figure class="Image Image__background"><img
+      src="/img/exempel-graph-cart.png" srcset="/img/exempel-graph-cart.png 2x"
+      alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
       ### The different parts
 
 
