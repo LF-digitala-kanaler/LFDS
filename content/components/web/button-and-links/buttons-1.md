@@ -305,10 +305,7 @@ tabs:
       \----------
 
 
-      ## Så skriver vi
-
-
-      ### Button Alerts
+      ## Button alerts
 
 
       De här knappen används som ett godkännande. Används idag för
@@ -321,9 +318,15 @@ tabs:
       **Text som direct action (exempel):** Ring upp mig
 
 
-
-
       \_\_\_\_\_\_\_\_\_\_
+
+
+      ## Link secondary
+
+
+      Länkarna ska beskriva var användaren hamna och ska kunna stå ensamma.
+      Undvik "Läs mer" och "Klicka här". Kan med fördel vara fler ord (max 7) ur
+      SEO-synpunkt om de ligger på publik webbplats.
     name: Copy
   - content: test
     name: Code
