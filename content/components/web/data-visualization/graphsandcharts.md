@@ -71,6 +71,12 @@ tabs:
       graphs are best when the changes are larger.
 
 
+      <figure class="Image Image__background"><img
+      src="/img/exempel-graph-bar.png" srcset="/img/exempel-graph-bar.png 2x"
+      alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
       #### . . . an Area Graph.
 
 
