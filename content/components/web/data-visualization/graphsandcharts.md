@@ -28,15 +28,11 @@ tabs:
       recommended.
 
 
-
-
       ### Type of graph
 
 
       There are different kind of graphs to use, here comes some way of thinking
       wen to use them:
-
-
 
 
       #### . . . a Line graph
@@ -48,22 +44,19 @@ tabs:
       time for more than one group.
 
 
-
-
       #### . . . a Pie Chart.
-
-
 
 
       Pie charts are best to use when you are trying to compare parts of a
       whole. They do not show changes over time.
 
 
+      <figure class="Image Image__border"><img src="/img/exempel-graph-pie.png"
+      srcset="/img/exempel-graph-pie.png 2x" alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
 
 
       #### . . . a Bar Graph.
-
-
 
 
       Bar graphs are used to compare things between different groups or to track
@@ -71,11 +64,7 @@ tabs:
       graphs are best when the changes are larger.
 
 
-
-
       #### . . . an Area Graph.
-
-
 
 
       Area graphs are very similar to line graphs. They can be used to track
@@ -84,11 +73,7 @@ tabs:
       one whole category (for example public and private groups).
 
 
-
-
       #### . . . an X-Y Plot.
-
-
 
 
       X-Y plots are used to determine relationships between the two different
@@ -99,7 +84,16 @@ tabs:
       the variables don't follow any pattern and have no relationship.
 
 
-      ### The different parts 
+      #### . . . a Map Chart.
+
+
+      Use a map if you have data with a geographical component. Maps can shade
+      areas in proportion to mapped values, allowing for visual pop-out of
+      high-value areas. Data for map charts must contain geographical names
+      corresponding to the geographical entities represented on the map. 
+
+
+      ### The different parts
 
 
       #### Legends
@@ -114,16 +108,12 @@ tabs:
       Prefereble on the right or under the graph.
 
 
-
-
       #### Interactivity
 
 
       If the graph/chart has interactivity attached to it. Click on the legends
       to highlight the different parts in the graph. Even the text of the legend
       should be clickable.
-
-
 
 
       #### Color
@@ -156,8 +146,6 @@ tabs:
       * Disabled / not selected / inactive color is grey #d9d9d9 (smoke).
 
 
-
-
       #### Accessibility
 
 
@@ -175,13 +163,13 @@ tabs:
       table can provide exact data for those who are interested.
 
 
-
-
       ####
     name: Design
   - content: content code
     name: Copy
   - content: content code
     name: Code
+  - content: Text...
+    name: Exempel
 ---
 
