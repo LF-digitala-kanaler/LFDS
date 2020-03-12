@@ -113,16 +113,23 @@ tabs:
       visual experience.
 
 
-      ###### 
+      ##### Paired with a button
 
 
-      sekundär
+      A common usage of the regular link is as a secondary option in a flow. In
+      this case the link contrasts a primary button. Depending on what the link
+      does, it is either placed to the far left in height with the primary
+      button (for "backwards"-functionality) or just prior the primary button
+      (for "cancel"-functionality). The image below shows one of the rare cases
+      where both options exist.
 
 
-      \- i text
-
-
-      \- i kombo med knapp
+      <figure class="Image Image__background"><img
+      src="/img/skärmavbild-2020-03-12-kl.-17.46.51.png"
+      srcset="/img/skärmavbild-2020-03-12-kl.-17.46.51.png 2x" alt="Regular
+      links next to a primary button in a flow where both "backwards" and
+      "cancel"-options exist."><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
     name: Design
 ---
 
