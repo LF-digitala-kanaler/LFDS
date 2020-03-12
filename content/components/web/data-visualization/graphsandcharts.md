@@ -44,12 +44,6 @@ tabs:
       time for more than one group.
 
 
-      <figure class="Image Image__background"><img
-      src="/img/exempel-graph-linje.png" srcset="/img/exempel-graph-linje.png
-      2x" alt="/img/exempel-graph-linje.png 2x""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
-
-
       #### . . . a Pie Chart.
 
 
@@ -83,6 +77,12 @@ tabs:
       changes over time for one or more groups. Area graphs are good to use when
       you are tracking the changes in two or more related groups that make up
       one whole category (for example public and private groups).
+
+
+      <figure class="Image Image__border"><img
+      src="/img/exempel-graph-linje.png" srcset="/img/exempel-graph-linje.png
+      2x" alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
 
 
       #### . . . an X-Y Plot.
