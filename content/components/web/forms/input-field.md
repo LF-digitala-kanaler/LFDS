@@ -294,7 +294,7 @@ tabs:
       **Text:** Har du barn som bor hemma?
 
 
-      **Text:**
+      **Text:** Typ av konto
     name: Copy
 ---
 
