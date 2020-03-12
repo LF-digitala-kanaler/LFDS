@@ -321,7 +321,7 @@ tabs:
       \_\_\_\_\_\_\_\_\_\_
 
 
-      ## Link secondary
+      ## Link secondary - Flyttas till links
 
 
       Länkarna ska beskriva var användaren hamna och ska kunna stå ensamma.
