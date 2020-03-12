@@ -59,6 +59,22 @@ tabs:
       consider.
 
 
+      ##### Link list
+
+
+      If we have several links which we want to group together, they are placed
+      in a link list. The link list exist in two versions:
+
+
+      * Without icons - for links within the system.
+
+      * With icons - for lists with documents. The icons identify which kind of
+      file or link it is. A typical example is when we want to present terms and
+      "förköpsinformation" in a purchase flow. If this version is used all links
+      should have an icon (please see [external links in
+      lists](#external-links-in-lists) as well).
+
+
       ##### External links
 
 
@@ -83,9 +99,6 @@ tabs:
 
 
       sekundär
-
-
-      \- externlänksikon
 
 
       \- i lista
