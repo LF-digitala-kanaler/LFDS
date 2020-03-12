@@ -218,77 +218,152 @@ tabs:
       Hjälptext (Länk): Så behandlar vi personuppgifter
 
 
+      Valideringstext: Fyll i personnummer
+
+
       **Text**: Namn
+
+
+      Valideringstext: Fyll i namn
 
 
       **Text:** Telefonnummer
 
 
+      Placeholder: 070-1231234
+
+
+      Valideringstext: Fyll i telefonnummer
+
+
       **Text:** E-post
 
-       **Text:** Bekräfta e-post
 
-      **Text:** Adress
+      Placeholder: namn@mejladress.se
+
+
+      Valideringstext: Fyll i e-posadressen
+
+
+      **Text:** Bekräfta e-post\
+
+      Placeholder: namn@mejladress.se
+
+
+      Valideringstext: Bekräfta e-postadressen
+
+
+      **Text:** Adress\
+
+      Placeholder: Kungsgatan 1
+
+
+      Valideringstext: Fyll i gatuadressen
 
 
       **Text:** Betalsätt
 
 
+      Valideringstext: Välj betalsätt
+
+
       **Text:** Jag vill betala varje
+
+
+      Valideringstext: Välj ett alternativ
 
 
       **Text:** Person-/organisationsnummer
 
 
+      Placeholder: 19800101-0101
+
+
+      Valideringstext: Fyll i person- eller organisationsnummer
+
+
       **Text:** Företag/organisation
+
+
+      Valideringstext: Företags- eller organisationsnamn
 
 
       **Text:** Registreringsnummer
 
 
-      **Text:** Försäkringen ska börja gälla
+      Placeholder: ABC123
+
+
+      Valideringstext: Fyll i registreringsnummer
 
 
       **Text:** Betalsätt
 
 
+      Valideringstext: Välj ett betalsätt
+
+
       **Text:** Skicka e-fakturan till
+
+
+      Valideringstext: Fyll i faktureringsadress
 
 
       **Text:** Jag vill betala varje
 
 
+      Valideringstext: Välj ett alternativ
+
+
       **Text:** Fyll i kontaktuppgifter
+
+
+      Valideringstext: Fyll i kontaktuppgifterna
 
 
       **Text:** Pris på bostaden
 
 
+      Valideringstext: Fyll i priset på bostaden
+
+
       **Text:** Månadsinkomst innan skatt
 
 
+      Valideringstext: Fyll i inkomst per månad innan skatt
+
+
       **Text:** Tänkt bostadspris
+
+
+      Valideringstext: Fyll i det tänkta priset för bostaden
+
+
+      Placeholder: 1 000 000
 
 
       **Text:** Kontantinsats
 
 
-      **Text:** Tänkt bostadspris
+      Valideringstext: Fyll i beloppet för kontantinsatsen
 
 
       **Text:** Uppskattad driftskostnad per månad
 
 
+      Placeholder: 10 000
+
+
       **Text:** Vad ligger bostaden
+
+
+      Placeholder: postadress (om det är det?)
 
 
       **Text:** Månadsinkomst innan skatt
 
 
       **Text:** Inkomst i utlänsk valuta
-
-
-      **Text:** Har du andra lån eller krediter?
 
 
       **Text:** Har du barn som bor hemma?
