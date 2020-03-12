@@ -201,9 +201,9 @@ tabs:
 
 
       Vi skriver så kort som möjligt och skriver inte ut det som är uppenbart.
-      Håll det kort och skriv inte ut onödiga ord som inte behövs för att förstå
-      vad som ska fyllas i. Hjälptext används bara om det inte går att beskriva
-      enkelt nog i labeln. 
+      Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska
+      fyllas i. Hjälptext används bara om det inte går att beskriva enkelt nog i
+      labeln. 
 
 
       #### Vanliga labels
