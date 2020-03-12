@@ -215,7 +215,7 @@ tabs:
       Placeholder: ÅÅMMDD-NNNN (visst är det så?)
 
 
-      Hjälptext (Länk): Så behandlar v personuppgifter
+      Hjälptext (Länk): Så behandlar vi personuppgifter
 
 
       **Text**: Namn
