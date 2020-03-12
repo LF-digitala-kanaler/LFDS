@@ -191,7 +191,10 @@ tabs:
     name: Design
   - content: content code
     name: Copy
-  - content: content code
+  - content: |-
+      # Så skriver vi
+
+      I grafer får vi använda förkortningar för t.ex.
     name: Code
   - content: Text...
     name: Exempel
