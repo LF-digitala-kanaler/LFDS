@@ -89,7 +89,7 @@ tabs:
 
 
       **With BankID-icon** is used as part of our [pattern for using
-      BankID](./patterns/general-patterns/bank-id). The modifier adds a white
+      BankID](/patterns/general-patterns/bank-id). The modifier adds a white
       BankID-icon to the left of the text in the button. Note that the pattern
       states that you also should add an explanatory text on why we need BankID
       next to the button.
