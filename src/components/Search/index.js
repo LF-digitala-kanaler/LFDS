@@ -111,7 +111,6 @@ const Search = () => {
             aria-label="Search"
             autoComplete="off"
             onChange={search}
-           
             ref={inputRef}
           />
         
