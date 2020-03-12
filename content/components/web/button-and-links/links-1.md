@@ -6,7 +6,6 @@ backgroundColor: '#fff'
 description: >-
   Links are used when we want to guide the user away from the current page, as
   we expect them to want information which isn't part of the current flow.
-previewImage: ''
 intro: >-
   Links are used when we want to guide the user away from the current page, as
   we expect them to want information which isn't part of the current flow.
@@ -61,7 +60,5 @@ tabs:
 
       \- i lista
     name: Design
-  - content: content code
-    name: Code
 ---
 
