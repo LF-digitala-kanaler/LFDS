@@ -89,10 +89,10 @@ tabs:
 
 
       **With BankID-icon** is used as part of our [pattern for using
-      BankID](https://lfui-beta-aedd0a.netlify.com/patterns/general-patterns).
-      The modifier adds a white BankID-icon to the left of the text in the
-      button. Note that the pattern states that you also should add an
-      explanatory text on why we need BankID next to the button.
+      BankID](./patterns/general-patterns/bank-id). The modifier adds a white
+      BankID-icon to the left of the text in the button. Note that the pattern
+      states that you also should add an explanatory text on why we need BankID
+      next to the button.
 
 
       #### Secondary buttons
@@ -226,8 +226,6 @@ tabs:
       nästkommande steg. Exempel:
 
 
-
-
       Skicka
 
 
@@ -242,8 +240,6 @@ tabs:
       bra att förklara vad man kommer till. Exempel:
 
 
-
-
       Köp bilförsäkring
 
 
@@ -252,8 +248,6 @@ tabs:
 
       Knappen används bara I köptjänster och ska förklara vad som händer när jag
       trycker och även vad jag ska göra i nästa steg. Exempel:
-
-
 
 
       Gå vidare \ och välj försäkring
@@ -272,11 +266,7 @@ tabs:
       begreppet "legitimera".
 
 
-
-
       Text i knapp: Legitimera dig
-
-
 
 
       BankID behövs senare
@@ -286,16 +276,10 @@ tabs:
       användaren om att BankID kommer att behövas.
 
 
-
-
       Text bredvid knappen: Du kommer att behöva BankID
 
 
-
-
       Text i knapp: Gå vidare
-
-
 
 
       Steget där du signerar
@@ -305,11 +289,7 @@ tabs:
       Signera och/eller godkänn.
 
 
-
-
       Text i knapp: Signera och godkänn
-
-
 
 
       Primärknapp med autogiro
@@ -319,12 +299,26 @@ tabs:
       digital ansökan om autogiro.
 
 
-
-
       Text i knapp: Ansök om autogiro direkt
 
 
       \----------
+
+
+      ## Så skriver vi
+
+
+      ### Button Alerts
+
+
+      De här knappen används som ett godkännande. Används idag för
+      Cookie-godkännande och till exempel på på kvittosidan för hemförsäkring. 
+
+
+      **Text i cookie-knapp:** Jag förstår
+
+
+      **Text som direct action (exempel):** Ring upp mig
     name: Copy
   - content: test
     name: Code
