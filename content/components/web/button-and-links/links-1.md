@@ -59,6 +59,16 @@ tabs:
       consider.
 
 
+      ##### In text
+
+
+      If you want to include a link in in a block text, you may do so but do it
+      with caution. Links in text is good from an SEO-perspective but bad from a
+      accesibility-perspective. If you want to include a link inline keep the
+      paragraph it is in as short as possible. If you have several links you
+      want to add, you should consider a [link list](#link-list) instead.
+
+
       ##### Link list
 
 
@@ -99,9 +109,6 @@ tabs:
 
 
       sekundär
-
-
-      \- i lista
 
 
       \- i text
