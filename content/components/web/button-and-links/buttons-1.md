@@ -349,7 +349,19 @@ tabs:
       \----
 
 
-      ##
+      ## Button primary
+
+
+      Länken ska beskriva var användaren hamnar och ska kunna stå ensam. Undvik
+      "Läs mer" och "Klicka här". Produktnamn kan gärna vara med vid länk till
+      köptjänst både för tillgänglighet (och SEO om den ligger på publik
+      webbplats).
+
+
+      **Text (exempel):** Köp bilförsäkring
+
+
+      **Text (exempel):** Se pris och ansök
     name: Copy
   - content: test
     name: Code
