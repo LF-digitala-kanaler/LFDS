@@ -59,7 +59,7 @@ tabs:
       consider.
 
 
-      ##### In text
+      ##### Inline in text
 
 
       If you want to include a link in in a block text, you may do so but do it
@@ -70,6 +70,11 @@ tabs:
 
 
       ###### In a bullet list
+
+
+      If you want to use a link in a bullet list, make sure to formulate the
+      content is such a way that you can put the link at the end of the bullet
+      point.
 
 
       ##### Link list
