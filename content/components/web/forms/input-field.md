@@ -226,8 +226,9 @@ tabs:
 
       **Text:** E-post
 
+       **Text:** Bekräfta e-post
 
-      **Text:** Bekräfta e-post
+      **Text:** Adress
 
 
       **Text:** Betalsätt
