@@ -25,5 +25,18 @@ tabs:
       If you have more than five options you are probably better off using a
       [multi-select dropdown](../dropdown).
     name: Design
+  - content: |-
+      ## Så skriver vi
+
+      Vanligtvis godkännande-texter.
+
+      Exempel (@Lollo skriv standardtext för godkännande här)
+
+      Valideringstext för ej vald obligatorisk checkbox:
+
+      För att \[det man gör i tjänsten] måste du \[verbet som labeln har].
+
+      Till exempel: För att köpa bilförsäkring måste du godkänna villkoren.
+    name: Copy
 ---
 
