@@ -23,7 +23,10 @@ tabs:
       ### Versions
 
 
-      We have two main versions of links; primary and secondary. 
+      We have two versions of links; primary and regular. However, headings can
+      also be links (especially on [cards](../../page-content/card)) - this use
+      case is described under [Headings in
+      Typography.](../../typography/headings)
 
 
       #### Primary links
@@ -33,11 +36,12 @@ tabs:
       emphasis on. Examples include repeating a [primary
       button](../buttons-1#primary-buttons) further down in the page (a pattern
       which can often be seen on lansforsakringar.se) or as part of a [call
-      out](../../page-content/callout).
+      out](../../page-content/callout). 
 
 
       As they are primary there can only be one primary link per block (and
-      preferably page).
+      preferably page). Layout-wise the primary link is rather "heavy" with an
+      arrow after the text, meaning it should be used sparsely. 
 
 
       <div class="Callout"><div class="Callout__icon"></div><p
@@ -45,6 +49,9 @@ tabs:
       show a link in a page you might want to use a primary button instead to
       give extra emphasis to the link, especially at the top of pages. The
       further down you are, the better it is to use link-styling.</p></div>
+
+
+      #### Regular links
 
 
 
