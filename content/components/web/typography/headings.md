@@ -2,21 +2,22 @@
 template: ComponentPage
 category: Typography
 title: Headings
-description: Hur använder vi rubriker och vilka rubriker finns?
+description: We have to types of headlines - LF Rubrik and Intro Cond Bold.
 previewImage: /img/headings.svg
-intro: Hur använder vi rubriker och vilka rubriker finns?
+intro: We have to types of headlines - LF Rubrik and Intro Cond Bold.
 backgroundColor: '#fff'
 tabs:
-  - content: |
+  - content: >-
       imageWithBackground /img/apps.jpg
 
 
       ## How to use
 
 
-      Det finns två typer av rubriker; en i typsnittet LF Rubrik och en i Intro
-      Cond Bold. LF Rubrik används som en H1a och ska vara den största rubriken
-      på en sida. H1 används bara en gång på sidan, det är regeln. Intro Cond
+      We have to types of headlines - LF Rubrik and Intro Cond Bold. LF Rubrik
+      are only used as a H1 and should always be the biggest headline on a page.
+      The H1 används bara en gång på sidan, det är regeln. Intro Cond
+
       Bold, används i alla andra rubrikstorlekar från H2-H6.
 
 
