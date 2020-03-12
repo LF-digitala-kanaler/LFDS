@@ -232,7 +232,7 @@ tabs:
       Gå vidare
 
 
-      Primary button with arrow
+      ## Primary button with arrow
 
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
@@ -243,10 +243,10 @@ tabs:
       Köp bilförsäkring
 
 
-      Buttons with double row
+      ## Buttons with double row
 
 
-      Knappen används bara I köptjänster och ska förklara vad som händer när jag
+      Knappen används bara i köptjänster och ska förklara vad som händer när jag
       trycker och även vad jag ska göra i nästa steg. Exempel:
 
 
@@ -256,53 +256,50 @@ tabs:
       Gå vidare\ och godkänn
 
 
-      Primary with BankID icon
+      ## Primary with BankID icon
 
 
-      Legitimering direkt
+      ### Legitimering direkt
 
 
       När BankID-legitimeringen sker för att identifiera användaren använder vi
       begreppet "legitimera".
 
 
-      Text i knapp: Legitimera dig
+      **Text i knapp:** Legitimera dig
 
 
-      BankID behövs senare
+      ### BankID behövs senare
 
 
       Om en legitimering eller signering behövs senare i flödet vill vi förvarna
       användaren om att BankID kommer att behövas.
 
 
-      Text bredvid knappen: Du kommer att behöva BankID
+      **Text bredvid knappen:** Du kommer att behöva BankID
 
 
-      Text i knapp: Gå vidare
+      **Text i knapp:** Gå vidare
 
 
-      Steget där du signerar
+      ### Steget där du signerar
 
 
       När BankID-signering används för att godkänna använder vi begreppet
       Signera och/eller godkänn.
 
 
-      Text i knapp: Signera och godkänn
+      **Text i knapp:** Signera och godkänn
 
 
-      Primärknapp med autogiro
+      ## Primärknapp med autogiro
 
 
       På kvittosidan i köptjänster finns ibland en primärknapp med länk till
       digital ansökan om autogiro.
 
 
-      Text i knapp: Ansök om autogiro direkt
-
-
-      \----------
+      **Text i knapp:** Ansök om autogiro direkt
 
 
       ## Button alerts
@@ -318,18 +315,12 @@ tabs:
       **Text som direct action (exempel):** Ring upp mig
 
 
-      \_\_\_\_\_\_\_\_\_\_
-
-
-      ## Link secondary - Flyttas till links
+      ## Link secondary
 
 
       Länkarna ska beskriva var användaren hamna och ska kunna stå ensamma.
-      Undvik "Läs mer" och "Klicka här". Kan med fördel vara fler ord (max 7) ur
-      SEO-synpunkt om de ligger på publik webbplats.
-
-
-      - - -
+      Undvik "Läs mer" och "Klicka här" ensamt. Kan med fördel vara fler ord
+      (max 7) ur SEO-synpunkt om de ligger på publik webbplats.
 
 
       ## Button login
@@ -344,24 +335,6 @@ tabs:
       Behöver man skriva annat än något av dessa, måste en annan knapp eller
       länk användas. Då kan vi till exempel skriva: "Logga in på
       lansforsakringar.se" eller "Logga in på Mina sidor".
-
-
-      \----
-
-
-      ## Link primary - flyttas till Link sen
-
-
-      Länken ska beskriva var användaren hamnar och ska kunna stå ensam. Undvik
-      "Läs mer" och "Klicka här". Produktnamn kan gärna vara med vid länk till
-      köptjänst både för tillgänglighet (och SEO om den ligger på publik
-      webbplats).
-
-
-      **Text (exempel):** Köp bilförsäkring
-
-
-      **Text (exempel):** Se pris och ansök
     name: Copy
   - content: test
     name: Code
