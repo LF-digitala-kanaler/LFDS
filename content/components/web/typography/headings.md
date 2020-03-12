@@ -2,29 +2,31 @@
 template: ComponentPage
 category: Typography
 title: Headings
-description: We have to types of headlines - LF Rubrik and Intro Cond Bold.
+description: We have two types of headlines - LF Rubrik and Intro Cond Bold.
 previewImage: /img/headings.svg
-intro: We have to types of headlines - LF Rubrik and Intro Cond Bold.
+intro: We have two types of headlines - LF Rubrik and Intro Cond Bold.
 backgroundColor: '#fff'
 tabs:
   - content: >-
-      imageWithBackground /img/apps.jpg
-
-
       ## How to use
 
 
-      We have to types of headlines - LF Rubrik and Intro Cond Bold. LF Rubrik
-      are only used as a H1 and should always be the biggest headline on a page.
-      The H1 används bara en gång på sidan, det är regeln. Intro Cond
-
-      Bold, används i alla andra rubrikstorlekar från H2-H6.
+      We have two types of typography in headlines - LF Rubrik and Intro Cond
+      Bold. 
 
 
-      Display H1-H6
+      ### LF Rubrik - Display H1-H4
 
 
-      ### Header test
+      LF Rubrik are only used as a H1 and should always be the biggest headline
+      on the page. The H1 should only be used one time per page. 
+
+
+      ### Intro Cond Bold - H1-H6
+
+
+      The rest of the headlines you should use Intro Cond Bold. It can be used
+      in all sizes from H1-H6.
     name: Design
   - content: content copy
     name: Copy
