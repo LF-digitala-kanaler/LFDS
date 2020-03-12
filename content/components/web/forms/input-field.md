@@ -64,8 +64,8 @@ tabs:
       ##### Datepicker
 
       Although a form of input field as well from a user perspective, the
-      datepicker is treated as a separate component. [Go here](../forms/datepicker) to
-      read about it.
+      datepicker is treated as a separate component. [Go
+      here](../forms/datepicker) to read about it.
 
       ##### Password
 
@@ -234,6 +234,66 @@ tabs:
 
 
       **Text:** Jag vill betala varje
+
+
+      **Text:** Person-/organisationsnummer
+
+
+      **Text:** Företag/organisation
+
+
+      **Text:** Registreringsnummer
+
+
+      **Text:** Försäkringen ska börja gälla
+
+
+      **Text:** Betalsätt
+
+
+      **Text:** Skicka e-fakturan till
+
+
+      **Text:** Jag vill betala varje
+
+
+      **Text:** Fyll i kontaktuppgifter
+
+
+      **Text:** Pris på bostaden
+
+
+      **Text:** Månadsinkomst innan skatt
+
+
+      **Text:** Tänkt bostadspris
+
+
+      **Text:** Kontantinsats
+
+
+      **Text:** Tänkt bostadspris
+
+
+      **Text:** Uppskattad driftskostnad per månad
+
+
+      **Text:** Vad ligger bostaden
+
+
+      **Text:** Månadsinkomst innan skatt
+
+
+      **Text:** Inkomst i utlänsk valuta
+
+
+      **Text:** Har du andra lån eller krediter?
+
+
+      **Text:** Har du barn som bor hemma?
+
+
+      **Text:**
     name: Copy
 ---
 
