@@ -6,7 +6,7 @@ title: Links
 description: >-
   Links are used when we want to guide the user away from the current page, as
   we expect them to want information which isn't part of the current flow.
-previewImage: /img/link-primary.svg
+previewImage: ''
 intro: >-
   Links are used when we want to guide the user away from the current page, as
   we expect them to want information which isn't part of the current flow.
