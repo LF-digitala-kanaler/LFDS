@@ -33,19 +33,7 @@ tabs:
 
       * Får endast användas med texten "Logga in" eller "Logga ut"
     name: Design
-  - content: >-
-      ## Så skriver vi
-
-
-      Knappen får endast användas med texterna "Logga in" eller "Logga ut”.
-
-
-      **Text:** Logga in eller Logga ut
-
-
-      Behöver man skriva annat än något av dessa, måste en annan knapp eller
-      länk användas. Då kan vi till exempel skriva: "Logga in på
-      lansforsakringar.se" eller "Logga in på Mina sidor".
+  - content: '## Info flyttad till ny struktur'
     name: Copy
 ---
 
