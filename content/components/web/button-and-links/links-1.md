@@ -1,5 +1,5 @@
 ---
-priority: ''
+priority: 2
 template: ComponentPage
 category: Button and Links
 title: Links
