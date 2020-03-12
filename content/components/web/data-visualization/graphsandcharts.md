@@ -51,8 +51,9 @@ tabs:
       whole. They do not show changes over time.
 
 
-      <figure class="Image Image__border"><img src="/img/exempel-graph-pie.png"
-      srcset="/img/exempel-graph-pie.png 2x" alt=""><figcaption><div
+      <figure class="Image Image__background"><img
+      src="/img/exempel-graph-pie.png" srcset="/img/exempel-graph-pie.png 2x"
+      alt=""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
