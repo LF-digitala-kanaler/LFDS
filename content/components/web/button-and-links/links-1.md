@@ -2,13 +2,13 @@
 template: ComponentPage
 category: Button and Links
 title: Links
-backgroundColor: '#fff'
 description: >-
   Links are used when we want to guide the user away from the current page, as
   we expect them to want information which isn't part of the current flow.
 intro: >-
   Links are used when we want to guide the user away from the current page, as
   we expect them to want information which isn't part of the current flow.
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
@@ -47,9 +47,6 @@ tabs:
       further down you are, the better it is to use link-styling.</p></div>
 
 
-
-
-      primär
 
 
       sekundär
