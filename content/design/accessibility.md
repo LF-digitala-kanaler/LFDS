@@ -101,3 +101,7 @@ Jobbar mot checklista webbtillgänglighet för copy/redaktörer
 ### Test-ansvarig för varje kanal
 
 Jobbar mot checklista webbtillgänglighet för testare. Ansvarar för att uppdatera testfall kring tillgänglighet för att säkerställa kvalité i vår utveckling.
+
+## Ekonomi
+
+All nyutveckling ska utvecklas för webbtillgänglighet, det är en del av de icke funktionella kraven. Ingen extra kostnad - en del av arbetet.
