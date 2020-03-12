@@ -24,9 +24,8 @@ tabs:
 
 
       We have two versions of links; primary and regular. However, headings can
-      also be links (especially on [cards](../../page-content/card)) - this use
-      case is described under [Headings in
-      Typography.](../../typography/headings)
+      also be links (especially on [cards](../page-content/card)) - this use
+      case is described under [Headings in Typography.](../typography/headings)
 
 
       #### Primary links
@@ -34,9 +33,9 @@ tabs:
 
       Primary links are used for highlighting a link which you want to put extra
       emphasis on. Examples include repeating a [primary
-      button](../buttons-1#primary-buttons) further down in the page (a pattern
+      button](buttons-1#primary-buttons) further down in the page (a pattern
       which can often be seen on lansforsakringar.se) or as part of a [call
-      out](../../page-content/callout). 
+      out](../page-content/callout). 
 
 
       As they are primary there can only be one primary link per block (and
