@@ -62,6 +62,24 @@ tabs:
       ##### External links
 
 
+      If your link leads away from the context you're in the link should be
+      amended with an external link icon. This includes changing technical
+      environment within Länsförsäkringar's world (like a link in Mina Sidor or
+      a purchase flow leading to lansforsakringar.se ). The icon should come
+      after the link text and links should open in a new tab/window (depending
+      on the user's browser settings).
+
+
+      ###### External links in lists
+
+
+      An exception to the above way of handling external links is when they are
+      in a list. As the other links have icons in front of them, the external
+      links also have the icon in front of the text to create a more coherent
+      visual experience.
+
+
+      ###### 
 
 
       sekundär
