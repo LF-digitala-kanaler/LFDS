@@ -191,10 +191,12 @@ tabs:
     name: Design
   - content: content code
     name: Copy
-  - content: |-
+  - content: >-
       # Så skriver vi
 
-      I grafer får vi använda förkortningar för t.ex.
+
+      I grafer får vi använda förkortningar, till skillnad från löptext. Vi
+      skriver till exempel tkr för tusen kronor.
     name: Code
   - content: Text...
     name: Exempel
