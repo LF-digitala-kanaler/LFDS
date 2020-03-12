@@ -1,5 +1,4 @@
 ---
-
 template: ComponentPage
 category: Button and Links
 title: Links
@@ -7,7 +6,7 @@ backgroundColor: '#fff'
 description: >-
   Links are used when we want to guide the user away from the current page, as
   we expect them to want information which isn't part of the current flow.
-previewImage: /img/link-primary.svg
+previewImage: ''
 intro: >-
   Links are used when we want to guide the user away from the current page, as
   we expect them to want information which isn't part of the current flow.
@@ -42,6 +41,11 @@ tabs:
       preferably page).
 
 
+      <div class="Callout"><div class="Callout__icon"></div><p
+      class="Callout__text"><strong>Link or button? </strong>The first time you
+      show a link in a page you might want to use a primary button instead to
+      give extra emphasis to the link, especially at the top of pages. The
+      further down you are, the better it is to use link-styling.</p></div>
 
 
 
