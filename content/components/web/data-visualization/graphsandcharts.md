@@ -44,6 +44,12 @@ tabs:
       time for more than one group.
 
 
+      <figure class="Image Image__background"><img
+      src="/img/exempel-graph-linje.png" srcset="/img/exempel-graph-linje.png
+      2x" alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
       #### . . . a Pie Chart.
 
 
