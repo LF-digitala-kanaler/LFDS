@@ -351,10 +351,17 @@ tabs:
       **Text:** Uppskattad driftskostnad per månad
 
 
+      Valideringstext: Fyll i den uppskattade driftkostnaden
+
+
       Placeholder: 10 000
 
 
-      **Text:** Vad ligger bostaden
+      **Text:** Var ligger bostaden
+
+
+      Valideringstext: Fyll i postadress för bostaden (eller är det län,
+      kommun?)
 
 
       Placeholder: postadress (om det är det?)
@@ -363,13 +370,22 @@ tabs:
       **Text:** Månadsinkomst innan skatt
 
 
+      Valideringstext: Fyll i din inkomst innan skatt
+
+
       **Text:** Inkomst i utlänsk valuta
+
+
+      Valideringstext: Fyll i din inkomst i utlänsk valuta
 
 
       **Text:** Har du barn som bor hemma?
 
 
       **Text:** Typ av konto
+
+
+      Valideringstext: Fyll i typ av konto
     name: Copy
 ---
 
