@@ -1,15 +1,15 @@
 ---
+priority: '2'
 template: ComponentPage
 category: Button and Links
 title: Buttons
-status: New
 description: >-
   Buttons are used as a part of a flow, and is the component which the user
   clicks to make progress in said flow.
 intro: >-
   Buttons are used as a part of a flow, and is the component which the user
   clicks to make progress in said flow.
-priority: '2'
+status: New
 tabs:
   - content: >-
       ## How to use
@@ -217,9 +217,116 @@ tabs:
       in order to make it function. If the button is never intended to function,
       do not include the button at all to begin with.
     name: Design
-  - content: Funkade länken?
+  - content: >-
+      Primary button
+
+
+      Ska beskriva vad som händer när användaren klickar på knappen. En
+      uppmaning. Används ofta i en enklare tjänst där knappen beskriver
+      nästkommande steg. Exempel:
+
+
+
+
+      Skicka
+
+
+      Gå vidare
+
+
+      Primary button with arrow
+
+
+      Ska beskriva vad som händer när användaren klickar på knappen. En
+      uppmaning. När man byter sida eller kanal/tjänst med knappen kan det vara
+      bra att förklara vad man kommer till. Exempel:
+
+
+
+
+      Köp bilförsäkring
+
+
+      Buttons with double row
+
+
+      Knappen används bara I köptjänster och ska förklara vad som händer när jag
+      trycker och även vad jag ska göra i nästa steg. Exempel:
+
+
+
+
+      Gå vidare \ och välj försäkring
+
+
+      Gå vidare\ och godkänn
+
+
+      Primary with BankID icon
+
+
+      Legitimering direkt
+
+
+      När BankID-legitimeringen sker för att identifiera användaren använder vi
+      begreppet "legitimera".
+
+
+
+
+      Text i knapp: Legitimera dig
+
+
+
+
+      BankID behövs senare
+
+
+      Om en legitimering eller signering behövs senare i flödet vill vi förvarna
+      användaren om att BankID kommer att behövas.
+
+
+
+
+      Text bredvid knappen: Du kommer att behöva BankID
+
+
+
+
+      Text i knapp: Gå vidare
+
+
+
+
+      Steget där du signerar
+
+
+      När BankID-signering används för att godkänna använder vi begreppet
+      Signera och/eller godkänn.
+
+
+
+
+      Text i knapp: Signera och godkänn
+
+
+
+
+      Primärknapp med autogiro
+
+
+      På kvittosidan i köptjänster finns ibland en primärknapp med länk till
+      digital ansökan om autogiro.
+
+
+
+
+      Text i knapp: Ansök om autogiro direkt
+
+
+      \----------
     name: Copy
-  - name: Code
-    content: test
+  - content: test
+    name: Code
 ---
 
