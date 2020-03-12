@@ -349,7 +349,7 @@ tabs:
       \----
 
 
-      ## Button primary
+      ## Link primary - flyttas till Link sen
 
 
       Länken ska beskriva var användaren hamnar och ska kunna stå ensam. Undvik
