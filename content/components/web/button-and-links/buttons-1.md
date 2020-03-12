@@ -218,7 +218,7 @@ tabs:
       do not include the button at all to begin with.
     name: Design
   - content: >-
-      Primary button
+      ## Primary button
 
 
       Ska beskriva vad som händer när användaren klickar på knappen. En
@@ -349,18 +349,7 @@ tabs:
       \----
 
 
-      ## Så skriver vi
-
-
-      Knappen får endast användas med texterna "Logga in" eller "Logga ut”.
-
-
-      **Text:** Logga in eller Logga ut
-
-
-      Behöver man skriva annat än något av dessa, måste en annan knapp eller
-      länk användas. Då kan vi till exempel skriva: "Logga in på
-      lansforsakringar.se" eller "Logga in på Mina sidor".
+      ##
     name: Copy
   - content: test
     name: Code
