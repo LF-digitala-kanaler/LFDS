@@ -10,13 +10,11 @@ intro: >-
 ---
 ## Webbtillgänglighets direktivet
 
-Från och med 2025 kommer vi som Bank och försäkringsbolag ha krav på oss att följa reglerna att som samhällsviktig tjänst måste vi följa WCAG 2.1 AA. Så vi måste minst från och med nu följa de riktlinjerna så vi är redo.
+Från och med 2025 kommer vi som Bank och försäkringsbolag ha krav på oss att följa reglerna att som samhällsviktig tjänst måste vi följa WCAG 2.1 AA. Vi ska:
 
-### Vår approach är
-
-* att göra så bra vi kan med det vi vet nu
+* göra så bra vi kan med det vi vet nu
 * hjälpa varandra att bli lite bättre varje dag.
-* se framåt inte bakåt - allt vi gör nu ska vara så bra vi kan
+* se framåt inte bakåt - all nyutveckling gör vi bra
 
 Alla måste bli lite bättre i alla våra yrkesroller från UX, AD, copy, kravare, utvecklare och test.
 
@@ -29,13 +27,9 @@ Det ska vara enkelt att göra rätt. Vi skapar checklistor för att skapa stolth
 * Utvecklare 
 * Testare
 
-
-
 På så sätt skapar vi relevanta listor för varje grupp och kan tydligare förtydliga vad vi menar. Varje punkt kan återkomma i de olika checklistorna men de har samma nummer så den förklaras i samma kontext.
 
 [Till förklaring av checklistor](#)
-
-
 
 ## Roller och ansvar kring tillgänglighet
 
@@ -53,25 +47,17 @@ Ser till att vi återkommande gör användningstester på kundgrupper med funkti
 
 Säkerställer att våra komponenter är granskade och tillgängliga även i kod i vårt komponentbibliotek. Övergripande ansvar för riktlinjer för utvecklare.
 
-
-
 ### LFUI -ansvarig
 
 Ansvarar för att komponenterna följer riktlinjer och kontrast i sketch biblioteket.
-
-
 
 ### Designansvarig
 
 Övergripande ansvar för riktlinjer för ADs.
 
-
-
 ### UX-ansvarig
 
 Övergripande ansvar för riktlinjer för UX.
-
-
 
 ### Copy-ansvarig
 
