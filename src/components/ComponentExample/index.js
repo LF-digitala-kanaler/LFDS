@@ -25,7 +25,6 @@ const ComponentExample = ({variants, background}) => {
   }
   const toggleCode = () => {
     setSource(!source)
-    
   }
 
   const handleSetBackgroundToWhite = () => {
@@ -84,7 +83,6 @@ const ComponentExample = ({variants, background}) => {
       }
     }
   )
-  //useEffect(() => handleResize(iframeRef));
   
   const handleResize = () => {
     
@@ -97,13 +95,11 @@ const ComponentExample = ({variants, background}) => {
     }
 	}
 
-  //useEffect(() => handleResize(iframeRef));
   
-
   return (
     <React.Fragment>
         <Grid columns={2} justifyContent="space-around">
-          <Cell middle><ComponentNavigation variants={variants} onChildClick={handleChildClick} /></Cell>
+          <Cell middle>{ variants.length > 1 && <ComponentNavigation variants={variants} onChildClick={handleChildClick} /> }</Cell>
           <Cell middle><Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} /></Cell>
         </Grid>
           {

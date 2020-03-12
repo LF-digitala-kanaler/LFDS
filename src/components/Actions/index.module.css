@@ -1,6 +1,6 @@
 
 .Actions {
-  
+  margin-bottom: var(--spacing-vertical--05);
 }
 .Actions__list {
   display: flex;

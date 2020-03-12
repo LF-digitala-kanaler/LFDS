@@ -61,7 +61,6 @@ const ComponentPage = ({
     currentDirectory = path.split('/').filter(Boolean).pop();
    }
 
-
   const toKebabCase = str =>
     str &&
     str
@@ -73,7 +72,8 @@ const ComponentPage = ({
       ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory)
       : false
    }
-  console.log(page.frontmatter.backgroundColor)
+    
+
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,

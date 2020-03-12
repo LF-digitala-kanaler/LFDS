@@ -64,7 +64,7 @@ tabs:
       ##### Datepicker
 
       Although a form of input field as well from a user perspective, the
-      datepicker is treated as a separate component. [Go here](../datepicker) to
+      datepicker is treated as a separate component. [Go here](../forms/datepicker) to
       read about it.
 
       ##### Password
