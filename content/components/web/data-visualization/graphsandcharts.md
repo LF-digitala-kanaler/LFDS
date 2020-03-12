@@ -46,7 +46,7 @@ tabs:
 
       <figure class="Image Image__background"><img
       src="/img/exempel-graph-linje.png" srcset="/img/exempel-graph-linje.png
-      2x" alt=""><figcaption><div
+      2x" alt="/img/exempel-graph-linje.png 2x""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
@@ -57,10 +57,9 @@ tabs:
       whole. They do not show changes over time.
 
 
-      <figure class="Image Image__background"><img
-      src="/img/exempel-graph-pie.png" srcset="/img/exempel-graph-pie.png 2x"
-      alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__border"><img src="/img/exempel-graph-pie.png"
+      srcset="/img/exempel-graph-pie.png 2x" alt="/img/exempel-graph-pie.png
+      2x""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       #### . . . a Bar Graph.
@@ -73,7 +72,7 @@ tabs:
 
       <figure class="Image Image__background"><img
       src="/img/exempel-graph-bar.png" srcset="/img/exempel-graph-bar.png 2x"
-      alt=""><figcaption><div
+      alt="/img/exempel-graph-bar.png 2x""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
@@ -108,7 +107,7 @@ tabs:
 
       <figure class="Image Image__background"><img
       src="/img/exempel-graph-cart.png" srcset="/img/exempel-graph-cart.png 2x"
-      alt=""><figcaption><div
+      alt="/img/exempel-graph-cart.png 2x""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
