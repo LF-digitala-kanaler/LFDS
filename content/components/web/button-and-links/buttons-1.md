@@ -327,6 +327,23 @@ tabs:
       Länkarna ska beskriva var användaren hamna och ska kunna stå ensamma.
       Undvik "Läs mer" och "Klicka här". Kan med fördel vara fler ord (max 7) ur
       SEO-synpunkt om de ligger på publik webbplats.
+
+
+      ___
+
+
+      ## Button login
+
+
+      Knappen får endast användas med texterna "Logga in" eller "Logga ut”.
+
+
+      **Text:** Logga in eller Logga ut
+
+
+      Behöver man skriva annat än något av dessa, måste en annan knapp eller
+      länk användas. Då kan vi till exempel skriva: "Logga in på
+      lansforsakringar.se" eller "Logga in på Mina sidor".
     name: Copy
   - content: test
     name: Code
