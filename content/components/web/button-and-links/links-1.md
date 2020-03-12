@@ -125,8 +125,8 @@ tabs:
 
 
       <figure class="Image Image__background"><img
-      src="/img/skärmavbild-2020-03-12-kl.-17.46.51.png"
-      srcset="/img/skärmavbild-2020-03-12-kl.-17.46.51.png 2x" alt="Regular
+      src="/img/skärmavbild-2020-03-12-kl.-18.00.19.png"
+      srcset="/img/skärmavbild-2020-03-12-kl.-18.00.19.png 2x" alt="Regular
       links next to a primary button in a flow where both "backwards" and
       "cancel"-options exist."><figcaption><div
       class="Image__caption"></div></figcaption></figure>
