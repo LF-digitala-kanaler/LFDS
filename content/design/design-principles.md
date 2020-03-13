@@ -1,10 +1,65 @@
 ---
 template: ArticlePage
 title: Design Principles
-intro: 'Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke. här guidar vi dig kring hur du kommer igång som en copy, UX, AD eller frontend utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter eller hittar vidare länkar till vår Brand portal Röda rummet.'
-meta:
-  description: This is a meta description.
-  title: LFUI
-priority: "1"
+intro: >-
+  De är till för att vi ska ha några gemensam riktning - hur vi designar för
+  Länsförsäkringar.
+priority: '1'
 ---
-body
+Övergripande målbild:
+
+ “Hjälp mig göra det jag kom för att göra”
+
+
+
+
+
+1.  Upplevelsen är utformad för den kanal jag valt
+
+
+
+
+
+2. Varje sida har ett primärt syfte
+
+
+
+
+
+3. Handling och funktion före information
+
+
+
+
+
+4. Alla hittar rätt på olika sätt
+
+
+
+
+
+5. Styrkan i det personliga och lokala återspeglas i det digitala
+
+
+
+
+
+6. Relevanta, men få, erbjudanden i en naturlig kontext
+
+
+
+
+
+7. Möt mig utifrån det ni vet eller borde veta om mig
+
+
+
+
+
+8. Jag känner att jag är på Länsförsäkringar
+
+
+
+
+
+9. Personalisering är alltid kundens val
