@@ -30,9 +30,9 @@ tabs:
 
       <figure class="Image Image__background"><img
       src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x"
-      alt="Example of button in desktop and responsive
-      web-states"><figcaption><div class="Image__caption">Example of button in
-      desktop and responsive web-states</div></figcaption></figure>
+      alt="/img/responsive-button.jpg 2x""><figcaption><div
+      class="Image__caption">Example of button in desktop and responsive
+      web-states</div></figcaption></figure>
 
 
       Button copy should make it clear what happens after clicking it, meaning
@@ -175,8 +175,8 @@ tabs:
 
       <figure class="Image Image__background"><img src="/img/button-sizes.jpg"
       srcset="/img/button-sizes.jpg 2x" alt="/img/button-sizes.jpg
-      2x""><figcaption><div class="Image__caption">Image showing the three sizes
-      of buttons in LFUI</div></figcaption></figure>
+      2x""><figcaption><div class="Image__caption">/img/button-sizes.jpg
+      2x"</div></figcaption></figure>
 
 
       #### With an arrow
@@ -207,6 +207,13 @@ tabs:
 
 
       ## Design rationale
+
+
+      In designing our general patterns for [form
+      validation](/patterns/general-patterns/form-validation) and [required
+      fields](/patterns/general-patterns/required-fields) we have been informed
+      by academic research as well as our own user testing (we have even had a
+      bachelor thesis looking at our error message handling!).
 
 
       \- disabled buttons
