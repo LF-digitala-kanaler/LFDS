@@ -85,6 +85,7 @@ collections: # A list of collections the CMS should be able to edi
         name: 'background'
         widget: 'select'
         required: false
+        hint: ['Background for component example ( gray is default)']
         options: 
           - { label: "White", value: "bg-white" }
           - { label: "Grey", value: "" }

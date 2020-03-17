@@ -9,13 +9,14 @@ import { LandingPageTemplate } from '../templates/LandingPage'
 import { ArticlePageTemplate } from '../templates/ArticlePage'
 import AdvancedImage from "./widgets/advancedImage"
 import Callout from "./widgets/callout"
+import ColorWidget from "./widgets/color"
 
 
 
 
 CMS.registerEditorComponent(AdvancedImage)
 CMS.registerEditorComponent(Callout)
-
+CMS.registerEditorComponent(ColorWidget)
 
 
 CMS.registerPreviewTemplate('component-page', ({ entry }) => (
