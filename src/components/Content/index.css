@@ -169,3 +169,37 @@ figure {
 .selected {
   background: green;
 }
+
+/* Color widget */
+
+.Colors {
+  display: flex;
+  margin: 0 -1rem;
+}
+
+.Colors__item {
+  margin: 0 1rem;
+  flex: 1;
+}
+
+.Colors__primary {
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  padding-bottom: var(--spacing-vertical--1);
+}
+
+.Colors__primary .Colors__background {
+  height: 6rem;
+}
+
+.Content .Colors__title {
+  margin-top: var(--spacing-vertical--1);
+}
+
+.Colors__text {
+  margin: 0;
+}
+
+.Colors__text span {
+  padding-right: var(--spacing-md)
+}

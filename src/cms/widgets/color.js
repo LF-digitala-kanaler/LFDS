@@ -19,7 +19,7 @@ const ColorWidget = {
       },
     ]}
   ],
-  pattern: /^<article class="Colors__item (.*)"><div class="Colors__background" style={background-color:"${item.hex}">(.*)<\/div><h3>(.*)<\/h3><p>RGB (.*)<\/p><p>HEX (.*)<\/p><\/article>/,
+  pattern: /^<article class="Colors__item (.*)" style="border-color:${item.hex}"><div class="Colors__background" style={background-color:"${item.hex}">(.*)<\/div><h3 class="Colors__title">(.*)<\/h3><p class="Colors__text"><span>RGB<\/span> (.*)<\/p><p class="Colors__text"><span>HEX<\/span> (.*)<\/p><\/article>/,
   fromBlock: match => {
     return {
       id: match[1]
@@ -30,7 +30,7 @@ const ColorWidget = {
     if (obj.color && obj.color.length > 0) {
       
       const list = obj.color.map((item) => (
-        `<article class="Colors__item ${item.type}"><div class="Colors__background" style="background-color:${item.hex}"></div><h3>${item.name}</h3><p>RGB ${item.rgb}</p><p>HEX ${item.hex}</p></article>`
+        `<article class="Colors__item ${item.type}" style="border-color:${item.hex}"><div class="Colors__background" style="background-color:${item.hex}"></div><h3 class="Colors__title">${item.name}</h3><p class="Colors__text"><span>RGB<\span> ${item.rgb}</p><p class="Colors__text"><span>HEX<\span> ${item.hex}</p></article>`
       ))
       return (
         `<div class="Colors">${list}</div>`
@@ -39,7 +39,7 @@ const ColorWidget = {
   },
   toPreview: function (obj) {
     obj.color.map((item) => (
-      `<article class="Colors__item ${item.type}"><div class="Colors__background" style={background-color:${item.hex}"></div><h3>${item.name}</h3><p>RGB ${item.rgb}</p><p>HEX ${item.hex}</p></article>`
+      `<article class="Colors__item ${item.type}" style="border-color:${item.hex}"><div class="Colors__background" style={background-color:${item.hex}"></div><h3 class="Colors__title">${item.name}</h3><p class="Colors__text"><span>RGB<\span> ${item.rgb}</p><p class="Colors__text"><span>HEX<\span> ${item.hex}</p></article>`
     ))
   }
 }
