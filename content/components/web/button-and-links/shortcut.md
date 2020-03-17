@@ -15,6 +15,31 @@ tabs:
       ## How to use
 
 
+      Shortcuts are used to highlight alternative actions from the current flow
+      which we think are important for the user. They are either of a more
+      alerting nature or navigational, and each design only corresponds to one
+      of these two uses. For both use cases the shortcut takes the user into
+      another flow than the one they came from. To highlight this all versions
+      of shortcuts include an forward pointing arrow to the right.
+
+
+      Shortcuts are normally spanning the whole row, but one exception exists in
+      Navigation page shortcuts.
+
+
+      ## Versions
+
+
+      Versioner: en och två rader
+
+
+
+
+      ##### Navigation page shortcuts
+
+
+
+
       Används mestadels i inloggade sidor för att lyfta fram kundens främsta
       frustrationer. Vad ska kunden göra härnäst som "vi kunde inte dra en
       räkning", "du måste fylla i frågorna i kundkännedom" till "ett erbjudande
@@ -59,6 +84,9 @@ tabs:
       Det finns en tvåradig variation av shortcut. Används med en regular text
       under den feta texten. Har använts i val av företag i inloggat, även i
       inloggat på översikter som pensionssidan.
+
+
+      ## Den nya från ÖS
     name: Design
   - content: >-
       ## Så skriver vi
