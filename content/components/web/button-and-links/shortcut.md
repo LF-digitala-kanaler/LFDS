@@ -24,13 +24,32 @@ tabs:
 
 
       Shortcuts are normally spanning the whole row, but one exception exists in
-      Navigation page shortcuts.
+      [Navigation page shortcuts](#navigation-page-shortcuts).
 
 
       ## Versions
 
 
-      Versioner: en och två rader
+      There are two main versions of the shortcut; one-lined and two-lined.
+
+
+      ### One-lined shortcut
+
+
+      The default one-lined shortcut is used for navigational purposes and is
+      white with blue text. 
+
+
+      #### Modifiers
+
+
+      Two modifiers exist for the one-lined shortcuts; "glasspinne" and with
+      icon. 
+
+
+      ##### Glasspinne
+
+
 
 
 
