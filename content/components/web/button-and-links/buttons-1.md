@@ -30,9 +30,9 @@ tabs:
 
       <figure class="Image Image__background"><img
       src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x"
-      alt="Example of button in desktop and responsive
-      web-states"><figcaption><div class="Image__caption">Example of button in
-      desktop and responsive web-states</div></figcaption></figure>
+      alt="/img/responsive-button.jpg 2x""><figcaption><div
+      class="Image__caption">Example of button in desktop and responsive
+      web-states</div></figcaption></figure>
 
 
       Button copy should make it clear what happens after clicking it, meaning
@@ -89,7 +89,7 @@ tabs:
 
 
       **With BankID-icon** is used as part of our [pattern for using
-      BankID](./patterns/general-patterns/bank-id). The modifier adds a white
+      BankID](/patterns/general-patterns/bank-id). The modifier adds a white
       BankID-icon to the left of the text in the button. Note that the pattern
       states that you also should add an explanatory text on why we need BankID
       next to the button.
@@ -175,8 +175,8 @@ tabs:
 
       <figure class="Image Image__background"><img src="/img/button-sizes.jpg"
       srcset="/img/button-sizes.jpg 2x" alt="/img/button-sizes.jpg
-      2x""><figcaption><div class="Image__caption">Image showing the three sizes
-      of buttons in LFUI</div></figcaption></figure>
+      2x""><figcaption><div class="Image__caption">/img/button-sizes.jpg
+      2x"</div></figcaption></figure>
 
 
       #### With an arrow
@@ -209,15 +209,34 @@ tabs:
       ## Design rationale
 
 
-      \- disabled buttons
+      As the question of **disabled buttons** is one which regularly pops up,
+      our design rationale from discouraging from the user of disabled buttons
+      can be found below.
 
 
-      Instead of a disabled button, make the button clickable and give the user
-      a message on why it does not function, and what the user is needed to do
-      in order to make it function. If the button is never intended to function,
-      do not include the button at all to begin with.
+      In designing our general patterns for [form
+      validation](/patterns/general-patterns/form-validation) and [required
+      fields](/patterns/general-patterns/required-fields) we have been informed
+      by academic research as well as our own user testing (we have even had a
+      bachelor thesis looking at our error message handling!). What we found is
+      that as disabled buttons can't give users feedback on what is missing for
+      them to become enabled it is from a user perspective much better to have
+      buttons which are enabled and on click can give users feedback on what has
+      to be corrected before they can progress in the flow. For users who have
+      missed some part of a form, a disabled button forces the user to search
+      for the error themselves (leading to longer completion times and
+      frustration). In comparison an enabled button can provide an error message
+      and in our pattern also auto-scrolls the user to the (first) error, making
+      the completion of the form an easier task.    
+
+
+      If you are designing a button which is never meant to be enabled, you
+      shouldn't have the button there at all.
     name: Design
   - content: >-
+      # Så skriver vi
+
+
       ## Primary button
 
 

@@ -48,7 +48,7 @@ tabs:
       developers are aware!
     name: Design
   - content: content code
-    name: Code
+    name: Copy
   - content: content code
     name: Code
 ---

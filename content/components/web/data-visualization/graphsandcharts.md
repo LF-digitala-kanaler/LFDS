@@ -44,6 +44,11 @@ tabs:
       time for more than one group.
 
 
+      <figure class="Image Image__border"><img src="/img/exempel-graph-line.jpg"
+      srcset="/img/exempel-graph-line.jpg 2x" alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
       #### . . . a Pie Chart.
 
 
@@ -51,9 +56,9 @@ tabs:
       whole. They do not show changes over time.
 
 
-      <figure class="Image Image__border"><img src="/img/exempel-graph-pie.png"
-      srcset="/img/exempel-graph-pie.png 2x" alt="/img/exempel-graph-pie.png
-      2x""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__border"><img src="/img/exempel-graph-pie.jpg"
+      srcset="/img/exempel-graph-pie.jpg 2x" alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
 
 
       #### . . . a Bar Graph.
@@ -65,8 +70,8 @@ tabs:
 
 
       <figure class="Image Image__background"><img
-      src="/img/exempel-graph-bar.png" srcset="/img/exempel-graph-bar.png 2x"
-      alt="/img/exempel-graph-bar.png 2x""><figcaption><div
+      src="/img/exempel-graph-bar.jpg" srcset="/img/exempel-graph-bar.jpg 2x"
+      alt=""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
@@ -79,9 +84,9 @@ tabs:
       one whole category (for example public and private groups).
 
 
-      <figure class="Image Image__border"><img
-      src="/img/exempel-graph-linje.png" srcset="/img/exempel-graph-linje.png
-      2x" alt=""><figcaption><div
+      <figure class="Image Image__border"><img src="/img/exempel-graph-area.jpg"
+      srcset="/img/exempel-graph-area.jpg 2x" alt="Exemple Area Chart here in
+      "Fondlistan""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
@@ -96,6 +101,8 @@ tabs:
       the variables don't follow any pattern and have no relationship.
 
 
+
+
       #### . . . a Map Chart.
 
 
@@ -105,9 +112,8 @@ tabs:
       corresponding to the geographical entities represented on the map. 
 
 
-      <figure class="Image Image__background"><img
-      src="/img/exempel-graph-cart.png" srcset="/img/exempel-graph-cart.png 2x"
-      alt="/img/exempel-graph-cart.png 2x""><figcaption><div
+      <figure class="Image Image__border"><img src="/img/exempel-graph-map.jpg"
+      srcset="/img/exempel-graph-map.jpg 2x" alt=""><figcaption><div
       class="Image__caption"></div></figcaption></figure>
 
 
@@ -185,7 +191,12 @@ tabs:
     name: Design
   - content: content code
     name: Copy
-  - content: content code
+  - content: >-
+      # Så skriver vi
+
+
+      I grafer får vi använda förkortningar, till skillnad från löptext. Vi
+      skriver till exempel tkr för tusen kronor.
     name: Code
   - content: Text...
     name: Exempel

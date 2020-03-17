@@ -201,9 +201,9 @@ tabs:
 
 
       Vi skriver så kort som möjligt och skriver inte ut det som är uppenbart.
-      Håll det kort och skriv inte ut onödiga ord som inte behövs för att förstå
-      vad som ska fyllas i. Hjälptext används bara om det inte går att beskriva
-      enkelt nog i labeln. 
+      Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska
+      fyllas i. Hjälptext används bara om det inte går att beskriva enkelt nog i
+      labeln. 
 
 
       #### Vanliga labels
@@ -218,83 +218,174 @@ tabs:
       Hjälptext (Länk): Så behandlar vi personuppgifter
 
 
+      Valideringstext: Fyll i personnummer
+
+
       **Text**: Namn
+
+
+      Valideringstext: Fyll i namn
 
 
       **Text:** Telefonnummer
 
 
+      Placeholder: 070-1231234
+
+
+      Valideringstext: Fyll i telefonnummer
+
+
       **Text:** E-post
 
-       **Text:** Bekräfta e-post
 
-      **Text:** Adress
+      Placeholder: namn@mejladress.se
+
+
+      Valideringstext: Fyll i e-posadressen
+
+
+      **Text:** Bekräfta e-post\
+
+      Placeholder: namn@mejladress.se
+
+
+      Valideringstext: Bekräfta e-postadressen
+
+
+      **Text:** Adress\
+
+      Placeholder: Kungsgatan 1
+
+
+      Valideringstext: Fyll i gatuadressen
 
 
       **Text:** Betalsätt
 
 
+      Valideringstext: Välj betalsätt
+
+
       **Text:** Jag vill betala varje
+
+
+      Valideringstext: Välj ett alternativ
 
 
       **Text:** Person-/organisationsnummer
 
 
+      Placeholder: 19800101-0101
+
+
+      Valideringstext: Fyll i person- eller organisationsnummer
+
+
       **Text:** Företag/organisation
+
+
+      Valideringstext: Företags- eller organisationsnamn
 
 
       **Text:** Registreringsnummer
 
 
-      **Text:** Försäkringen ska börja gälla
+      Placeholder: ABC123
+
+
+      Valideringstext: Fyll i registreringsnummer
 
 
       **Text:** Betalsätt
 
 
+      Valideringstext: Välj ett betalsätt
+
+
       **Text:** Skicka e-fakturan till
+
+
+      Valideringstext: Fyll i faktureringsadress
 
 
       **Text:** Jag vill betala varje
 
 
+      Valideringstext: Välj ett alternativ
+
+
       **Text:** Fyll i kontaktuppgifter
+
+
+      Valideringstext: Fyll i kontaktuppgifterna
 
 
       **Text:** Pris på bostaden
 
 
+      Valideringstext: Fyll i priset på bostaden
+
+
       **Text:** Månadsinkomst innan skatt
 
 
+      Valideringstext: Fyll i inkomst per månad innan skatt
+
+
       **Text:** Tänkt bostadspris
+
+
+      Valideringstext: Fyll i det tänkta priset för bostaden
+
+
+      Placeholder: 1 000 000
 
 
       **Text:** Kontantinsats
 
 
-      **Text:** Tänkt bostadspris
+      Valideringstext: Fyll i beloppet för kontantinsatsen
 
 
       **Text:** Uppskattad driftskostnad per månad
 
 
-      **Text:** Vad ligger bostaden
+      Valideringstext: Fyll i den uppskattade driftkostnaden
+
+
+      Placeholder: 10 000
+
+
+      **Text:** Var ligger bostaden
+
+
+      Valideringstext: Fyll i postadress för bostaden (eller är det län,
+      kommun?)
+
+
+      Placeholder: postadress (om det är det?)
 
 
       **Text:** Månadsinkomst innan skatt
 
 
+      Valideringstext: Fyll i din inkomst innan skatt
+
+
       **Text:** Inkomst i utlänsk valuta
 
 
-      **Text:** Har du andra lån eller krediter?
+      Valideringstext: Fyll i din inkomst i utlänsk valuta
 
 
       **Text:** Har du barn som bor hemma?
 
 
       **Text:** Typ av konto
+
+
+      Valideringstext: Fyll i typ av konto
     name: Copy
 ---
 
