@@ -20,13 +20,14 @@ const AdvancedImage = {
   fromBlock(match) {
     return {
       image: match[2],
-      alt: match[3],
+      image2: match[2],
+      alt: match[4],
       type: match[1],
-      caption: match[4],
+      caption: match[5],
     }
   },
   toBlock(obj) {
-    return `<figure class="Image ${obj.type}"><img src="${obj.image}" srcset="${obj.image} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
+    return `<figure class="Image ${obj.type}"><img src="${obj.image}" srcset="${obj.image2} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
   },
 }
 

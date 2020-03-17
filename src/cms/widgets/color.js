@@ -12,9 +12,9 @@ const ColorWidget = {
         widget: "select",
         default: "none",
         options: [
-          { label: "Primary", value: "Colors__primary" },
-          { label: "Complimentary", value: "Colors__complimentary" },
-          { label: "Special", value: "Colors_special" },
+          { label: "Primary", value: "Colors__item--primary" },
+          { label: "Complimentary", value: "Colors__item--complimentary" },
+          { label: "Special", value: "Colors__item--special" },
         ],
       },
     ]}
@@ -22,7 +22,7 @@ const ColorWidget = {
   pattern: /^<article class="Colors__item (.*)" style="border-color:${item.hex}"><div class="Colors__background" style={background-color:"${item.hex}">(.*)<\/div><h3 class="Colors__title">(.*)<\/h3><p class="Colors__text"><span>RGB<\/span> (.*)<\/p><p class="Colors__text"><span>HEX<\/span> (.*)<\/p><\/article>/,
   fromBlock: match => {
     return {
-      id: match[1]
+      id: match[1].split(',')
     }
   },
   toBlock(obj) {
@@ -30,7 +30,7 @@ const ColorWidget = {
     if (obj.color && obj.color.length > 0) {
       
       const list = obj.color.map((item) => (
-        `<article class="Colors__item ${item.type}" style="border-color:${item.hex}"><div class="Colors__background" style="background-color:${item.hex}"></div><h3 class="Colors__title">${item.name}</h3><p class="Colors__text"><span>RGB<\span> ${item.rgb}</p><p class="Colors__text"><span>HEX<\span> ${item.hex}</p></article>`
+        `<article class="Colors__item ${item.type}" style="border-color:${item.hex}"><div class="Colors__background" style="background-color:${item.hex}"></div><h3 class="Colors__title">${item.name}</h3><p class="Colors__text"><span>RGB</span> ${item.rgb}</p><p class="Colors__text"><span>HEX</span> ${item.hex}</p></article>`
       ))
       return (
         `<div class="Colors">${list}</div>`
@@ -39,7 +39,7 @@ const ColorWidget = {
   },
   toPreview: function (obj) {
     obj.color.map((item) => (
-      `<article class="Colors__item ${item.type}" style="border-color:${item.hex}"><div class="Colors__background" style={background-color:${item.hex}"></div><h3 class="Colors__title">${item.name}</h3><p class="Colors__text"><span>RGB<\span> ${item.rgb}</p><p class="Colors__text"><span>HEX<\span> ${item.hex}</p></article>`
+      `<article class="Colors__item ${item.type}" style="border-color:${item.hex}"><div class="Colors__background" style={background-color:${item.hex}"></div><h3 class="Colors__title">${item.name}</h3><p class="Colors__text"><span>RGB</span> ${item.rgb}</p><p class="Colors__text"><span>HEX</span> ${item.hex}</p></article>`
     ))
   }
 }
