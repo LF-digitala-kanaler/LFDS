@@ -1,5 +1,6 @@
 ---
 template: ArticlePage
+background: bg-white
 title: Colors
 intro: >-
   Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke.
