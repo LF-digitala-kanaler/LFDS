@@ -16,7 +16,7 @@ intro: >-
 
 We strive to design with a consistent color balance. A lot of white, blue as a primary color and red as an accent color.
 
-<figure class="Image Image__border"><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption">/img/colors.jpg 2x"</div></figcaption></figure>
+<figure class="Image Image__border"><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Complimentary colors
 
