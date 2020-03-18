@@ -175,30 +175,53 @@ figure {
 .Colors {
   display: flex;
   flex-wrap: wrap;
-  margin: var(--spacing-vertical--1) -1rem var(--spacing-vertical--3) -1rem;
+  margin: var(--spacing-vertical--1) -1rem var(--spacing-vertical--2) -1rem;
 }
 
 .Colors__item {
-  margin: 0 2rem;
-  border-width: 0 0 2px 0;
-  border-style: solid;
-  padding-bottom: var(--spacing-vertical--1);
+  padding: 0 1rem;
   margin-bottom: var(--spacing-vertical--3);
 }
 
-.Color__primary { 
+.Colors__item--primary {
+  width: 100%;
+  @media (--xsmall-viewport) { 
+   width: 50%;
+  }
+}
+
+.Colors__item--complimentary {
   width: 50%;
+  @media (--small-viewport) { 
+   width: 25%;
+  }
 }
-.Colors__complimentary {
-  
-  width: 25%;
+
+.Colors__item--special {
+  width: 50%;
+  @media (--small-viewport) { 
+   width: 25%;
+  }
 }
+
+.Colors__primary,
+.Colors__complimentary,
+.Colors__special {
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  padding-bottom: var(--spacing-vertical--1);
+}
+
 .Colors__primary .Colors__background {
-  height: 6rem;
+  padding-top: 26.375%;
 }
 
 .Colors__complimentary .Colors__background {
   height: 3rem;
+}
+
+.Colors__special .Colors__background {
+  height: 1.5rem;
 }
 
 .Content .Colors__title {
@@ -206,7 +229,12 @@ figure {
 }
 
 .Content .Colors__complimentary .Colors__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-top: var(--spacing-vertical--05);
+}
+
+.Content .Colors__special .Colors__title {
+  font-size: 1.25rem;
   margin-top: var(--spacing-vertical--05);
 }
 
