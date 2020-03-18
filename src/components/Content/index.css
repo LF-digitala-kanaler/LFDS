@@ -175,26 +175,29 @@ figure {
 .Colors {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -2rem;
+  margin: var(--spacing-vertical--1) -1rem var(--spacing-vertical--3) -1rem;
 }
 
 .Colors__item {
   margin: 0 2rem;
-  width: calc(50% - 4rem);
   border-width: 0 0 2px 0;
   border-style: solid;
   padding-bottom: var(--spacing-vertical--1);
+  margin-bottom: var(--spacing-vertical--3);
 }
 
-.Colors__item--complimentary {
-  margin-bottom: var(--spacing-vertical--3);
-  width: calc(25% - 4rem);
+.Color__primary { 
+  width: 50%;
 }
-.Colors__item--primary .Colors__background {
+.Colors__complimentary {
+  
+  width: 25%;
+}
+.Colors__primary .Colors__background {
   height: 6rem;
 }
 
-.Colors__item--complimentary .Colors__background {
+.Colors__complimentary .Colors__background {
   height: 3rem;
 }
 
@@ -202,7 +205,7 @@ figure {
   margin-top: var(--spacing-vertical--1);
 }
 
-.Content .Colors__item--complimentary .Colors__title {
+.Content .Colors__complimentary .Colors__title {
   font-size: 2rem;
   margin-top: var(--spacing-vertical--05);
 }
