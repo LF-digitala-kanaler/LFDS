@@ -1,30 +1,45 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Content from '../components/Content'
-import Layout from '../components/Layout'
+import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
-import Preamble from '../components/Preamble'
+import Preamble from '../components/Preamble';
 
-// Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, intro, body }) => (
-  <Wrapper tag="section">
-    <Heading tag={1} text={title} align={"center"} />
-    <Preamble text={intro} tag="p"  />
-    
-    
-    <Content source={body} />  
-  </Wrapper>
+
+export const HomePageTemplate = ({
+  title,
+  intro,
+  backgroundColor
+}) => (
+  
+  <> 
+    <Wrapper tag="div">
+      <Heading tag={1} text={title} align={"center"} />
+      <Preamble text={intro} tag="p" align={"center"} /> 
+    </Wrapper>
+  </>
 )
+const HomePage = ({ 
+  data: { page }
 
-// Export Default HomePage for front-end
-const HomePage = ({ data: { page } }) => (
-  <Layout meta={page.frontmatter.meta || false}>
+  },) => {
+   
 
-    <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
-
-  </Layout>
-)
+  return (
+    <Layout
+      meta={page.frontmatter.meta || false}
+      title={page.frontmatter.title || false}
+      backgroundClass={page.frontmatter.background}
+    >
+      <HomePageTemplate 
+        {...page} 
+        {...page.frontmatter}
+        
+        body={page.html}
+      />
+    </Layout>
+  )
+}
 
 export default HomePage
 
@@ -39,8 +54,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        subtitle
         intro
+        background
       }
     }
   }

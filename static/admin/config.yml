@@ -56,14 +56,6 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "White", value: "#fff" }
           - { label: "Grey", value: "#f3f3f3" }
         required: false
-      
-      - label: 'Status'
-        name: 'status'
-        widget: 'select'
-        options: 
-          - { label: "New", value: "new" }
-          - { label: "Deprecated", value: "deprecated" }
-        required: false
 
       - name: 'tabs'
         label: 'Tabs'
@@ -213,11 +205,6 @@ collections: # A list of collections the CMS should be able to edi
           - {label: "Text", name: "text", widget: "text", required: false}
           - {label: "Author", name: "author", widget: "string", required: false}           
     
-
-     
-      
-   
-
   - name: 'changelog'
     label: 'Change Log'
     files:
@@ -230,6 +217,28 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
   
+  - name: 'homepage'
+    label: 'Home Page'
+    files:
+      - name: 'home-page'
+        label: 'Home Page'
+        file: 'content/pages/home.md'
+        fields: 
+          - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+          - { label: Template, name: template, widget: hidden, default: HomePage, value: HomePage }
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
+          - name: 'shortcuts'
+            label: 'Shortcuts'
+            label_singular: 'Shortcut'
+            widget: 'list'
+            fields:
+              - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Use a svg image' }
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Text', name: 'text', widget: 'string' }
+              - { label: 'Link', name: 'link', widget: 'string' }
+          - { label: Full width Image, name: fullWidthImage, widget: 'image' }
+
   - name: 'settings'
     label: 'Settings'
     delete: false # Prevent users from deleting documents in this collection

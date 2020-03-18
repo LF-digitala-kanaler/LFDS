@@ -2,6 +2,7 @@ import React from 'react'
 import CMS from 'netlify-cms-app'
 import "../components/_base/index.css"
 import "./cms.css"
+import { HomePageTemplate } from '../templates/HomePage'
 import {ComponentPageTemplate} from '../templates/ComponentPage'
 import {CategoryOverviewTemplate} from '../templates/CategoryOverview'
 import { ChangelogPageTemplate } from '../templates/ChangelogPage'
@@ -18,11 +19,13 @@ CMS.registerEditorComponent(AdvancedImage)
 CMS.registerEditorComponent(Callout)
 CMS.registerEditorComponent(ColorWidget)
 
+CMS.registerPreviewTemplate('home-page', ({ entry }) => (
+  <HomePageTemplate  {...entry.toJS().data} />
+))
 
 CMS.registerPreviewTemplate('component-page', ({ entry }) => (
   <ComponentPageTemplate componentExample={null} componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
-
 CMS.registerPreviewTemplate('categoryOverview-page', ({ entry }) => (
   <CategoryOverviewTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
