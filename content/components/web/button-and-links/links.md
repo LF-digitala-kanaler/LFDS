@@ -1,116 +1,136 @@
 ---
 template: ComponentPage
 category: Button and Links
-title: Link Secondary
+title: Links
 description: >-
-  Kan användas flera i samma block. Kan användas bredvid eller under en primär
-  eller en sekundär länk. Finns med ikon, externikon och som lista. 
-previewImage: /img/link-secondary.svg
+  Links are used when we want to guide the user away from the current page, as
+  we expect them to want information which isn't part of the current flow.
 intro: >-
-  Kan användas flera i samma block. Kan användas bredvid eller under en primär
-  eller en sekundär länk. Finns med ikon, externikon och som lista. 
+  Links are used when we want to guide the user away from the current page, as
+  we expect them to want information which isn't part of the current flow.
 backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
 
 
-      Sekundär länkar kan egentligen användas lite hur som helst och när som
-      helst. Kan användas flera i samma block. Kan användas bredvid eller under
-      en primär eller en sekundär länk. Finns med vissa ikoner och som listor.
-      Länkar ställer vi oftas under ett stycke. Vi försöker inte länka direkt i
-      ett stycke.
+      Links is the main way of helping users find information which isn't
+      included in the current page/view. Examples of where links can lead are
+      another page on our webpage, a pdf with more info or a link to an external
+      webpage. 
 
 
-      ### Länk i text
+      ### Versions
 
 
-      Primärt använder alltid länkar under stycke ett textstycke för att främja
-      läsbarheten och skapa ett lugn i läsningen. Länkar listas under stycket.
-      Är det flera länkar skapar vi en länklista.
+      We have two versions of links; primary and regular. However, headings can
+      also be links (especially on [cards](../page-content/card)) - this use
+      case is described under [Headings in Typography.](../typography/headings)
 
 
-      Vi föredrar att länkarna samlas under ett textstycke för att inte störa
-      läsflödet med massa länkar.
+      #### Primary links
 
 
-      ### I textstycke
+      Primary links are used for highlighting a link which you want to put extra
+      emphasis on. Examples include repeating a [primary
+      button](buttons#primary-buttons) further down in the page (a pattern
+      which can often be seen on lansforsakringar.se) or as part of a [call
+      out](../page-content/callout). 
 
 
-      Ny definition är att vi kan länka direkt i en text, här är två specifika
-      tillfällen där det passar extra bra:
+      As they are primary there can only be one primary link per block (and
+      preferably page). Layout-wise the primary link is rather "heavy" with an
+      arrow after the text, meaning it should be used sparsely. 
 
 
-      * I paneler där en mindre mängd text skrivs ut kan det vara en fördel att
-      länka 1-3 ord i texten för att ta mig direkt till det vi pratar om. Vi
-      länkar aldrig i en ingress.
-
-      * Där vi pratar om en annan produkt som denna produkt/tillägg ingår i.
-
-
-      ### Punktlista
+      <div class="Callout"><div class="Callout__icon"></div><p
+      class="Callout__text"><strong>Link or button? </strong>The first time you
+      show a link in a page you might want to use a primary button instead to
+      give extra emphasis to the link, especially at the top of pages. The
+      further down you are, the better it is to use link-styling.</p></div>
 
 
-      I en punktlista där det ingår som ett steg i ett moment, och vi vill att
-      de ska nu göra detta action innan nästa punk, då avslutar vi punkten med
-      länken.
+      #### Regular links
 
 
-      ### Relation till andra
+      Our regular link follows web standards closely, being blue with and
+      underlined. On hover it changes colour to a darker shade of blue.
+      Depending on in which context it is used there are some aspects to
+      consider.
 
 
-      Sekundär länken fungerar väldigt bra tillsammans med primär knapp och
-      primär länk.
+      ##### Inline in text
 
 
-      ### Listor
+      If you want to include a link in in a block text, you may do so but do it
+      with caution. Links in text is good from an SEO-perspective but bad from a
+      accesibility-perspective. If you want to include a link inline keep the
+      paragraph it is in as short as possible. If you have several links you
+      want to add, you should consider a [link list](#link-list) instead.
 
 
-      Länklistor används med fördel med en ikon till vänster så det blir som en
-      punkt till varje länk. Vi använder tex ofta pdf ikonen till vänster i
-      listor med villkor. Om vi blandar villkorslistor med andra länkar som
-      personuppgiftslagen så använder vi en extern länk ikon som kompliment till
-      vänster.
+      ###### In a bullet list
 
 
-      Man kan använda alltid börja med en primär länk i en länklista för att
-      förtydliga sammanlänkad produkt eller köptjänst. Tex på en artikelsida om
-      Trafikförsäkring skapar vi en primär länk tillbaka till produktsidan
-      bilförsäkring tillsammans med andra länkar om hel och halvförsäkkring och
-      gröna kortet vid resa med bil som sekundära länkar.
+      If you want to use a link in a bullet list, make sure to formulate the
+      content is such a way that you can put the link at the end of the bullet
+      point.
 
 
-      ### Extern länkikon
+      ##### Link list
 
 
-      Extern länk används när du tar användaren till en annan sida utanför det
-      kontext du är i. Till exempel så länkar vi i Mina sidor till
-      Länsförsäkringar.se med en extern länkikon.
+      If we have several links which we want to group together, they are placed
+      in a link list. The link list exist in two versions:
 
 
-      I köptjänsterna länkar vi alla länkar med extern ikon som länkar ut ur
-      formuläret och öppnar dem i ett nytt fönster.
+      * Without icons - for links within the system.
+
+      * With icons - for lists with documents. The icons identify which kind of
+      file or link it is. A typical example is when we want to present terms and
+      "förköpsinformation" in a purchase flow. If this version is used all links
+      should have an icon (please see [external links in
+      lists](#external-links-in-lists) as well).
 
 
-      Det som kan vara svårt är sedan på vilken sida som ikonen ska vara, men
-      det är egentligen lätt.
+      ##### External links
 
 
-      Extern länk ikon ska alltid placeras efter länken om inte länken ingår i
-      en länklista.
+      If your link leads away from the context you're in the link should be
+      amended with an external link icon. This includes changing technical
+      environment within Länsförsäkringar's world (like a link in Mina Sidor or
+      a purchase flow leading to lansforsakringar.se ). The icon should come
+      after the link text and links should open in a new tab/window (depending
+      on the user's browser settings).
 
 
-      ## Please consider
+      ###### External links in lists
 
 
-      * Använd ikon till vänster i listor
+      An exception to the above way of handling external links is when they are
+      in a list. As the other links have icons in front of them, the external
+      links also have the icon in front of the text to create a more coherent
+      visual experience.
 
-      * Använd tillräktlig space imellan länkar så att man kan klicka i mobilen
-      med pekpingret utan att klicka på fel länk. Regeln är 20 px mellan varje
-      länk.
+
+      ##### Paired with a button
+
+
+      A common usage of the regular link is as a secondary option in a flow. In
+      this case the link contrasts a primary button. Depending on what the link
+      does, it is either placed to the far left in height with the primary
+      button (for "backwards"-functionality) or just prior the primary button
+      (for "cancel"-functionality). The image below shows one of the rare cases
+      where both options exist.
+
+
+      <figure class="Image Image__background"><img
+      src="/img/skärmavbild-2020-03-12-kl.-18.00.19.png"
+      srcset="/img/skärmavbild-2020-03-12-kl.-18.00.19.png 2x" alt="Regular
+      links next to a primary button in a flow where both "backwards" and
+      "cancel"-options exist."><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
     name: Design
-  - content: content code
-    name: Code
   - content: >-
       ## Så skriver vi
 
@@ -119,7 +139,5 @@ tabs:
       Undvik "Läs mer" och "Klicka här". Kan med fördel vara fler ord (max 7) ur
       SEO-synpunkt om de ligger på publik webbplats.
     name: Copy
-  - content: Primär länk först sedan sekundär länk.
-    name: Exempel
 ---
 
