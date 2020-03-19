@@ -10,7 +10,7 @@ intro: >-
   Input fields are fields in which the user can enter text of some type (be it
   letters or numbers). This section describes the styling of input fields and
   the various versions which exist.
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
