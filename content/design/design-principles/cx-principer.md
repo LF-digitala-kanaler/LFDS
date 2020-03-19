@@ -1,7 +1,6 @@
 ---
 template: ArticlePage
 background: bg-white
-category: Design Principles
 title: CX-Principer
 intro: intro
 ---
