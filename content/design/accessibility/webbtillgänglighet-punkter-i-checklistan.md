@@ -84,7 +84,7 @@ Testa kontrasten: https://webaim.org/resources/contrastchecker/
 
 Färger är mycket användbara för att förhöja användbarhet och estetik. Men vissa användare kan inte uppfatta färgskillnader, till exempel på grund av färgblindhet eller för att de använder en monokrom skärm eller skärmläsare. Använd gärna färger, men låt inte färgskillnader vara det enda sättet att urskilja information utan komplettera med exempelvis text, mönster eller någon annan visuell indikation. Starka färgen kan även ta fokus från det.
 
-1.09 - Popup-funktioner ska kunna hanteras och stängas av alla
+### 1.09 - Popup-funktioner ska kunna hanteras och stängas av alla
 
 Innehåll, till exempel popup-rutor, som dyker upp vid tangentbordsfokus eller när användaren svävar med muspekaren över ett visst objekt ska kunna uppfattas och hanteras av alla – även av användare som har förstorat sidan eller tar längre tid på sig att komma till innehållet. Det är särskilt viktigt att innehållet enkelt kan tas bort eller stängas.
 
@@ -92,7 +92,7 @@ Det kan till exempel gälla undermenyer, inforutor (tooltips) och icke-modala po
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/158-popup-funktioner-ska-kunna-hanteras-och-stangas-av-alla/
 
-1.10 - Hjälp användaren hitta rätt vid sökningar
+### 1.10 - Hjälp användaren hitta rätt vid sökningar
 
 Underlätta för användarna genom att ge dem förslag på sökord när de utför en sökning på en webbplats. Funktionen ger bättre sökträffar, underlättar för vissa personer med skrivsvårigheter samt kan spara tid och förenkla för alla användare. Ge förslagen dynamiskt om möjligt.
 
@@ -102,7 +102,7 @@ Läs mer:
 
  https://webbriktlinjer.se/riktlinjer/112-ordforslag/
 
-1.11 - Undvik text i bilder
+### 1.11 - Undvik text i bilder
 
 Om det används, ha samma alt-text som text i bilden. Skärmläsare kan inte läsa upp texter som finns i en bild.
 
@@ -110,7 +110,7 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/128-anvand-text-inte-bilder-for-att-visa-text/
 
-1.12 - Använd alt-text på bilder som har ett syfte
+### 1.12 - Använd alt-text på bilder som har ett syfte
 
 Alla bilder som existerar för mer än bara dekoration behöver ha en alternativ text. Ett exempel på det kan vara grafer eller diagram. Ett tips är att beskriva texten som i ett telefonsamtal.
 
@@ -118,15 +118,15 @@ Om användaren av någon anledning inte kan se bilden till exempel på grund av 
 
 Om ett CMS används går det att underlätta för redaktörerna genom att göra alternativ textfältet för bilden obligatoriskt. 
 
-1.13 - Dekorativa bilder behöver ingen alt-text
+### 1.13 - Dekorativa bilder behöver ingen alt-text
 
 Dekorativa bilder behöver inte ha någon alternativ text då de enbart existerar för dekoration och inte för att förmedla någonting till användaren. För att sidan fortfarande ska validera krävs dock en alt-tagg på bilden. Dock är det okej att lämna den tom.  
 
-1.14 - Om bilden är länkad, beskriv vart länken går som alt-text
+### 1.14 - Om bilden är länkad, beskriv vart länken går som alt-text
 
 Om bilden eller ikonen är länkad ska bilden kompletteras med en beskrivning i alt-text.
 
-1.15 - Låt användarna navigera på det sätt som den är mest bekväm med
+### 1.15 - Låt användarna navigera på det sätt som den är mest bekväm med
 
 Erbjud flera olika navigeringsstöd på webbplatsen.
 
@@ -134,7 +134,7 @@ Utgå från användarnas behov och webbplatsens komplexitet när ni väljer navi
 
 Erbjud en sökfunktion. Huvudmeny, in-page-navigering, stöd för tabb-navigering och navigera vidare i sidan. Vissa stödfunktioner navigerar endast via länkar eller rubriker, kan vara bra att tänka på. Stöd att navigera till innehållet efter sökning eller navigering om jag tabbar så jag slipper tabba igenom menyn
 
-1.16 - Använd inte enbart färg för att förmedla information
+### 1.16 - Använd inte enbart färg för att förmedla information
 
 Komplettera färgskillnader:
 
@@ -154,13 +154,13 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/124-inte-bara-farg/
 
-1.17 - Använd tillräckliga kontraster i komponenter och grafik
+### 1.17 - Använd tillräckliga kontraster i komponenter och grafik
 
 Säkerställ att komponenter i gränssnittet och informationsbärande grafik har tillräckliga kontraster. Använd god kontrast för informationsbärande delas av illustrationer och annat grafiskt innehåll, så långt det är rimligt.
 
 Kontrastvärdet ska vara minst 3:1.
 
-1.18 - Markera tydligt vilket fält eller element som är i fokus
+### 1.18 - Markera tydligt vilket fält eller element som är i fokus
 
 Den som navigerar med till exempel tab-tangenten behöver få veta var tangentbordets fokus ligger. Standard markeringen är ofta en tunn streckad linje som är svår att se, särskilt om omgivningen är spräcklig eller på annat sätt gör den streckade linjen mindre uppenbar.
 
@@ -170,7 +170,7 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/140-markera-element-i-fokus/
 
-1.19 - Utför inga oväntade förändringar vid fokusering
+### 1.19 - Utför inga oväntade förändringar vid fokusering
 
 Utför ändringar när användaren har anledning att förvänta sig dem. Till exempel, användaren klickar på en länk till en extern sida och en ny tabb med länken öppnas i browsern.
 
