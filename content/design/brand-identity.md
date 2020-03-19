@@ -8,13 +8,13 @@ intro: >-
 
   Det är något vi värnar om tillsammans.
 ---
+<figure class="Image Image__background"><img src="/img/lf-symbol.png" srcset="/img/lf-symbol.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbolagen. Här presenterar vi en fördjupning av det digitala varumärket. Allt kring varumärket generellt finner du under Röda rummet som är våran varumärkesportal.
 
 [A short version of our Visual Identity](https://lfui-beta-aedd0a.netlify.com/visual-identity)
 
 [The Brandportal](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)
-
-<figure class="Image Image__border"><img src="/img/lf-symbol.png" srcset="/img/lf-symbol.png 2x" alt="/img/lf-symbol.png 2x""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Kontakter varumärkes frågor
 
