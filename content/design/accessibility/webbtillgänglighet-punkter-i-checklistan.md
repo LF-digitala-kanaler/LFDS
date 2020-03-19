@@ -7,11 +7,9 @@ intro: >-
   Här går vi igenom punkt för punkt vad de betyder för Länsförsäkringar att
   följa checklistorna.
 ---
-LFUI Webbtillgänglighet
+## Layout och bilder
 
-Layout och bilder
-
-1.01 - Placera innehållet i en meningsfull och tydlig hierarki 
+### 1.01 - Placera innehållet i en meningsfull och tydlig hierarki 
 
 Tänk på att placera innehållet i en logisk ordning och följd så att användaren får lätt att följa flödet. Försök inte fylla alla ytor. Se till att det finns en tydlig hierarki där element inte tävlar om uppmärksamhet så att användaren kan lätt scanna igenom innehållet och naturligt dras till viktig information och interaktioner. Undvik att sprida ut innehållet över hela sidan.
 
@@ -19,7 +17,7 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
 
-1.02 - Var konsekvent i navigation, struktur och utformning 
+### 1.02 - Var konsekvent i navigation, struktur och utformning 
 
 Tänk på att följa en struktur för hur sidorna ska vara uppbyggda. Alla sidor behöver inte se likadana ut men det är bra om dem följer samma struktur. Liknande funktioner ska utföras på samma sätt oavsett var på webbplatsen man befinner sig. En del användare memorerar strukturen för att förstå innehållet och hur funktioner fungerar. Samma gäller för benämning på knappar. Inte Skicka på en sida och Sänd på en annan sida. Eller att en spara-ikon ska se likadan ut på hela webbplatsen.
 
@@ -29,7 +27,7 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/29-var-konsekvent-i-navigation-struktur-och-utformning/
 
-1.03 - Se till att allt innehåll presenteras rätt oavsett skärmens riktning
+### 1.03 - Se till att allt innehåll presenteras rätt oavsett skärmens riktning
 
 För designers
 
@@ -43,7 +41,7 @@ Se till och testa även att läsordningen är logisk i dokument som inte är htm
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/153-fungerar-oavsett-skarmens-riktning/#utdrag-fran-wcag-standarden
 
-1.04 - All viktig information ska vara tillgänglig för alla användare
+### 1.04 - All viktig information ska vara tillgänglig för alla användare
 
 Att gömma viktig information i en pdf skapar sämre sökbarhet och gör att användaren får svårt att få en överblick. Hitta en balans mellan vad du måste visa på webben och vad man ska kunna ladda ner för att skriva ut.
 
@@ -51,27 +49,24 @@ Det är bra om så mycket som möjligt av texten finns på webben att läsa men 
 
 Undvik endast lägga text i nedladdningsbara filer.
 
-1.05 - Skapa en flexibel layout som fungerar vid förstoring eller liten skärm
+### 1.05 - Skapa en flexibel layout som fungerar vid förstoring eller liten skärm
 
 En skärm eller ett fönster ska kunna vara så smal som 320 pixlar utan att innehållet behöver scrollas i sidled.
 
-Undvik horisontell scrollning ner till 320 pixlars bredd
-
-Använd i första hand responsiv design
-
-Gör en anpassad mobilversion om responsiv design är inte är möjligt
-
-Även dokument som inte är webbsidor bör kunna presenteras i begränsad bred
+* Undvik horisontell scrollning ner till 320 pixlars bredd
+* Använd i första hand responsiv design
+* Gör en anpassad mobilversion om responsiv design är inte är möjligt
+* Även dokument som inte är webbsidor bör kunna presenteras i begränsad bred
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/91-skapa-en-flexibel-layout/
 
-1.06 - Erbjud flera kontaktvägar
+### 1.06 - Erbjud flera kontaktvägar
 
 Ge användarna friheten att själv välja en kontaktväg de är bekväma med. Alla kanske kan inte ringa, medan andra kanske har svårt att skriva. Ha alltid med telefon, och e-postadress i kontaktrutor så långt som det är möjligt. I vissa speciella fall där endast ett kontaktsätt är möjligt, fundera på hur du kan lösa kontaktbehovet på annat sätt. Till exempel besvara på de allra vanligaste frågorna. 
 
 Undvik till exempel att  bara ha telefonnummer. 
 
-1.07 - Designen ska klara kontrast nivå 5.0
+### 1.07 - Designen ska klara kontrast nivå 5.0
 
 Kontrast varierar beroende på storlek på texter eller ikoner. Gör design som går att zooma för dem som behöver se ännu bättre. Våra bibliotek ska följa dessa rekommendationer, om inte så kontakta ansvarig LFUI.
 
@@ -85,7 +80,7 @@ Lita inte blint på automatisk granskning av kontraster
 
 Testa kontrasten: https://webaim.org/resources/contrastchecker/
 
-1.08 - Var försiktig med starka färger, spara på den röda
+### 1.08 - Var försiktig med starka färger, spara på den röda
 
 Färger är mycket användbara för att förhöja användbarhet och estetik. Men vissa användare kan inte uppfatta färgskillnader, till exempel på grund av färgblindhet eller för att de använder en monokrom skärm eller skärmläsare. Använd gärna färger, men låt inte färgskillnader vara det enda sättet att urskilja information utan komplettera med exempelvis text, mönster eller någon annan visuell indikation. Starka färgen kan även ta fokus från det.
 
