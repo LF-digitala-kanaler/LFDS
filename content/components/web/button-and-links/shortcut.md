@@ -82,9 +82,9 @@ tabs:
       ##### One-lined shortcut
 
 
-      The default one-lined shortcut is used for navigational purposes and is
-      white with blue bold text. Its relative size is somewhat bigger than the
-      other versions.
+      The one-lined shortcut is used for navigational purposes and is white with
+      blue bold text. Its relative size is somewhat bigger than the other
+      versions.
 
 
       ##### Multiple-lined shortcut
