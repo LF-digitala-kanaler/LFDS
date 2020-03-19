@@ -50,13 +50,17 @@ tabs:
       ##### Glasspinne
 
 
+      "Glasspinne" is the shortcut we use when we want to alert users to an
+      action they need/are recommended to take (but probably isn't not why they
+      arrived at the page). They use the same colors with the same meaning as
+      regular [alerts](../system-display/alert), meaning that they are available
+      in all four colours - however it is (almost) exclusively the blue neutral
+      one which is in use.
 
 
 
 
       ##### Navigation page shortcuts
-
-
 
 
       Används mestadels i inloggade sidor för att lyfta fram kundens främsta
