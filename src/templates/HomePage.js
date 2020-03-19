@@ -3,17 +3,18 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
-import Preamble from '../components/Preamble';
+import Preamble from '../components/Preamble'
 import Shortcut from '../components/Shortcut'
-import { Grid, Cell } from "styled-css-grid";
+import { Grid, Cell } from "styled-css-grid"
 import FullWidthBackground from '../components/FullWidthBackground'
-
+import Content from '../components/Content'
 
 export const HomePageTemplate = ({
   title,
   intro,
   shortcuts,
-  fullWidthImage
+  fullWidthImage,
+  body
 }) => (
   
   <> 
@@ -29,7 +30,7 @@ export const HomePageTemplate = ({
         }
       </Grid>
     </Wrapper>
-    {fullWidthImage && <FullWidthBackground image={fullWidthImage.image} content={fullWidthImage.content}>test</FullWidthBackground>}
+    {fullWidthImage && <FullWidthBackground image={fullWidthImage.image}><Content source={body} /> </FullWidthBackground>}
   </>
 )
 const HomePage = ({ 
@@ -75,10 +76,7 @@ export const pageQuery = graphql`
           text
           link
         }
-        fullWidthImage {
-          image
-          content
-        }
+        fullWidthImage
       }
     }
     

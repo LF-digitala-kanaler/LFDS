@@ -1,4 +1,26 @@
 .FullWidthBackground {
-  padding-top: 33.1%;
   width: 100%;
+  position: relative;
+}
+
+.FullWidthBackground::after {
+  content: '';
+  padding-top: 33.1%;
+  display: block;
+}
+
+.FullWidthBackground__container {
+  max-width: var(--content-width--wide);
+  margin: 0 auto;
+  position: relative;
+}
+
+.FullWidthBackground__content {
+  background-color: var(--color-white);
+  padding: var(--spacing-md);
+  position: absolute;
+  top: var(--spacing-xxlg);
+  right: var(--spacing-xxlg);
+  max-width: 23.75rem;
+
 }
