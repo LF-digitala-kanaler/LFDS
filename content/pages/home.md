@@ -22,4 +22,6 @@ shortcuts:
     title: Visual guidelines
 fullWidthImage: /img/halsa_omkladningsrum.webp
 ---
+##### New designer at Länsförsäkringar?
 
+We will get you started in no time. Here you will find guides and tips if you work with design, code or copy.
