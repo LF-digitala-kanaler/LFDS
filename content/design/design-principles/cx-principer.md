@@ -4,8 +4,8 @@ background: bg-white
 category: Design Principles
 title: CX-Principer
 intro: >-
-  Vi strävar efter en optimal kundupplevelse i balans med vår vilja att driva
-  tillväxt och lönsam affär.
+  Vad är CX-principer och vad ska det leda till....Vi strävar efter en optimal
+  kundupplevelse i balans med vår vilja att driva tillväxt och lönsam affär.
 ---
 ## Våra tre CX-principer
 
