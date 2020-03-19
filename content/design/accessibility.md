@@ -8,17 +8,19 @@ intro: >-
   en samhällsviktig tjänst med produkter inom bank, försäkring och pension som
   fokus.
 ---
-<figure class="Image Image__background"><img src="/img/wcag.png" srcset="/img/wcag.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
 ## Webbtillgänglighets direktivet
 
-Från och med 2025 kommer vi som Bank och försäkringsbolag ha krav på oss att följa reglerna att som samhällsviktig tjänst måste vi följa WCAG 2.1 AA. Vi ska:
+Från och med 2025 kommer vi som Bank och försäkringsbolag ha krav på oss att följa reglerna att som samhällsviktig tjänst måste vi följa WCAG 2.1 AA. 
+
+Vi ska:
 
 * göra så bra vi kan med det vi vet nu
 * hjälpa varandra att bli lite bättre varje dag.
 * se framåt inte bakåt - all nyutveckling gör vi bra
 
 Alla måste bli lite bättre i alla våra yrkesroller från UX, AD, copy, kravare, utvecklare och test.
+
+<figure class="Image Image__border"><img src="/img/wcag.png" srcset="/img/wcag.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Checklistor
 
