@@ -1,5 +1,6 @@
 ---
 template: ArticlePage
+background: bg-white
 title: Brand
 intro: >-
   Länsförsäkringar är ett av Sveriges mest kända varumärken. Vår symbol ritades
