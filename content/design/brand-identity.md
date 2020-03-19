@@ -14,6 +14,8 @@ Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbol
 
 [The Brandportal](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)
 
+<figure class="Image Image__border"><img src="/img/lf-symbol.png" srcset="/img/lf-symbol.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 ### Kontakter varumärkes frågor
 
 Varumärkesansvarig är Pär Hjärtström.
