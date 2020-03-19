@@ -12,13 +12,13 @@ Detta uppnås genom att konkretisera och komplettera relevanta delar av Marknads
 
 ## Våra tre CX-principer
 
-Vi strävar efter en optimal kundupplevelse i balans med vår vilja att driva tillväxt och lönsam affär.
-
 1. Som kund vill jag **mötas utifrån just mina behov** och känna mig trygg med att jag har rätt produkter
 2. Som kund vill jag **enkelt kunna göra det jag kom för att göra** oavsett hur jag väljer att ha kontakt med Länsförsäkringar
 3. Som kund vill jag **ha en relevant dialog som proaktivt hjälper mig** när det behövs
 
-### Beskrivning
+> Vi strävar efter en optimal kundupplevelse i balans med vår vilja att driva tillväxt och lönsam affär.
+
+### En och en...
 
 #### Som kund vill jag mötas utifrån just mina behov och känna mig trygg med att jag har rätt produkter
 
