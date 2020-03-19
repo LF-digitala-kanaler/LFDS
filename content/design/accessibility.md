@@ -29,11 +29,11 @@ Det ska vara enkelt att göra rätt. Vi skapar checklistor för att skapa stolth
 * Utvecklare 
 * Testare
 
-<figure class="Image Image__border"><img src="/img/wcag.png" srcset="/img/wcag.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
 På så sätt skapar vi relevanta listor för varje grupp och kan tydligare förtydliga vad vi menar. Varje punkt kan återkomma i de olika checklistorna men de har samma nummer så den förklaras i samma kontext.
 
 [Till förklaring av checklistor](https://lfui-beta-aedd0a.netlify.com/design/accessibility/webbtillg%C3%A4nglighet-punkter-i-checklistan)
+
+<figure class="Image Image__background"><img src="/img/wcag.png" srcset="/img/wcag.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Roller & ansvar
 
