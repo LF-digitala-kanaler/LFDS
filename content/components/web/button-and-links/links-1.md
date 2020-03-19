@@ -131,5 +131,13 @@ tabs:
       "cancel"-options exist."><figcaption><div
       class="Image__caption"></div></figcaption></figure>
     name: Design
+  - content: >-
+      ## Så skriver vi
+
+
+      Länkarna ska beskriva var användaren hamna och ska kunna stå ensamma.
+      Undvik "Läs mer" och "Klicka här". Kan med fördel vara fler ord (max 7) ur
+      SEO-synpunkt om de ligger på publik webbplats.
+    name: Copy
 ---
 

@@ -257,8 +257,8 @@ tabs:
 
 
       Knappen används bara i köptjänster och ska förklara vad som händer när jag
-      trycker och även vad jag ska göra i nästa steg. Exempel: "Gå vidare
-      \[radbryt] och välj försäkring" eller "Gå vidare \[radbryt] och godkänn"
+      trycker och även vad jag ska göra i nästa steg. _Exempel: "Gå vidare
+      \[radbryt] Välj försäkring" eller "Gå vidare \[radbryt] Godkänn"_
 
 
       ## Primary with BankID icon
