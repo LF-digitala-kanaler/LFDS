@@ -20,7 +20,8 @@ export const HomePageTemplate = ({
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
       <Grid columns={3} gap="64px">
-        {
+        
+        { shortcuts &&
           shortcuts.map(item => {
             return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon} text={item.text} path={item.link} /></Cell>
           })
