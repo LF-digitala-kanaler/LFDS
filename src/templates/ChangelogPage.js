@@ -19,7 +19,7 @@ export const ChangelogPageTemplate = ({
 }) => (
    
   <>
-  <Wrapper tag="div" menu={true} narrow={true}>
+  <Wrapper tag="div" menu={true} narrow>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
   </Wrapper>
@@ -30,7 +30,7 @@ export const ChangelogPageTemplate = ({
       <TabPanels className={tabStyle.Tabs__panels}>
         {/* Get component release list from github */}
         <TabPanel className={tabStyle.Tabs__panel} >
-          <Wrapper menu={true} tag="div" narrow={true}>
+          <Wrapper menu={true} tag="div" narrow>
             <div className="Content">
             {
               components.map(item => {

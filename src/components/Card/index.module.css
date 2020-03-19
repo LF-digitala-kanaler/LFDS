@@ -2,7 +2,7 @@
   text-decoration: none;
   color: var(--color-black);
   display: block;
-  padding: 16px;
+  padding: var(--spacing-unit);
   transition: box-shadow 0.2s ease-in;
   
   @media (--medium-viewport) { 

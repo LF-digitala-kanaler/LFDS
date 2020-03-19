@@ -12,9 +12,6 @@ import AdvancedImage from "./widgets/advancedImage"
 import Callout from "./widgets/callout"
 import ColorWidget from "./widgets/color"
 
-
-
-
 CMS.registerEditorComponent(AdvancedImage)
 CMS.registerEditorComponent(Callout)
 CMS.registerEditorComponent(ColorWidget)

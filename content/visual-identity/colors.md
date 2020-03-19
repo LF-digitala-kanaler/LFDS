@@ -3,10 +3,9 @@ template: ArticlePage
 background: bg-white
 title: Colors
 intro: >-
-  Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke.
-  här guidar vi dig kring hur du kommer igång som en copy, UX, AD eller frontend
-  utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter eller hittar
-  vidare länkar till vår Brand portal Röda rummet.
+  Our primary colors are blue, red and white. This color combination is very
+  recognisable for our customers. It's important that we use our colors
+  consequently.
 ---
 ## Primary Colors
 
@@ -16,7 +15,7 @@ intro: >-
 
 We strive to design with a consistent color balance. A lot of white, blue as a primary color and red as an accent color.
 
-<figure class="Image Image__border"><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption">/img/colors.jpg 2x"</div></figcaption></figure>
+<figure class="Image Image__border"><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Complimentary colors
 

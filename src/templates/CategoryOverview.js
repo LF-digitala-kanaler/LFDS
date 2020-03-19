@@ -21,7 +21,7 @@ export const CategoryOverviewTemplate = ({
 }) => (
    
   <>
-  <Wrapper tag="div" menu={true} narrow={true}>
+  <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <Content className="content" source={contentAbove} />   
@@ -51,10 +51,6 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
       })
       : false   
   }
-  
-  
-  
-
 
   // Sort and arrange them in categories 
   

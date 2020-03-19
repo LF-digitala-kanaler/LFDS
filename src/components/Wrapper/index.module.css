@@ -1,6 +1,7 @@
 :root {
   --wrapper-width: var(--content-width);
-  --wrapper-width--narrow: var(--content-width--narrow); 
+  --wrapper-width--narrow: var(--content-width--narrow);
+  --wrapper-width--wide: var(--content-width--wide); 
   --wrapper-spacing: var(--spacing-unit);
 }
 
@@ -40,6 +41,12 @@
 .Wrapper--narrow {
   @media (--large-viewport) { 
     max-width: var(--wrapper-width--narrow);
+  }
+}
+
+.Wrapper--wide {
+  @media (--large-viewport) { 
+    max-width: var(--wrapper-width--wide);
   }
   
 }

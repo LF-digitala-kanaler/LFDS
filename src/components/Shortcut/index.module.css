@@ -1,0 +1,29 @@
+.Shortcut {
+  
+}
+
+.Shortcut__link {
+  text-decoration: none;
+  color: var(--color-black);
+  text-align: center;
+  display: block;
+  transition: box-shadow 0.2s ease-in;
+  padding: calc(2 * var(--spacing-xxlg)) var(--spacing-xlg);
+
+  @media (--medium-viewport) { 
+    &:hover {
+      box-shadow: inset var(--color-smoke) 0 0 0 3px;
+    }
+  }
+}
+
+.Shortcut__icon {
+  margin-bottom: var(--spacing-vertical--1);
+}
+.Shortcut__title {
+  display: block;
+}
+
+.Shortcut__text {
+  margin: 0;
+}
