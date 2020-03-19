@@ -20,22 +20,24 @@ Vi ska:
 
 Alla måste bli lite bättre i alla våra yrkesroller från UX, AD, copy, kravare, utvecklare och test.
 
-<figure class="Image Image__border"><img src="/img/wcag.png" srcset="/img/wcag.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
 ### Checklistor
 
 Det ska vara enkelt att göra rätt. Vi skapar checklistor för att skapa stolthet kring att vi följer WCAG. För att göra det tydligare och enklare vad varje roll har för ansvar så har vi sammanställt 4 checklistor:
 
 * Designers
-* UX copy/webredaktörer
+* [UX copy/webredaktörer](https://www.dropbox.com/s/pg540cweojvrk4d/Checklista-WCAG-copyred.pdf?dl=0)
 * Utvecklare 
 * Testare
 
+<figure class="Image Image__border"><img src="/img/wcag.png" srcset="/img/wcag.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 På så sätt skapar vi relevanta listor för varje grupp och kan tydligare förtydliga vad vi menar. Varje punkt kan återkomma i de olika checklistorna men de har samma nummer så den förklaras i samma kontext.
 
-[Till förklaring av checklistor](#)
+[Till förklaring av checklistor](https://lfui-beta-aedd0a.netlify.com/design/accessibility/webbtillg%C3%A4nglighet-punkter-i-checklistan)
 
-## Roller och ansvar kring tillgänglighet
+## Roller & ansvar
+
+För att inte ansvaret ska ligga på en utan på alla så har vi förtydligat här vad de olika rollerna har för ansvar i att följa WCAG 2.1 AA.
 
 ### Lead accessibility
 
