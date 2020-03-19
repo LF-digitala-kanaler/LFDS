@@ -1,7 +1,7 @@
 ---
 template: ComponentPage
 category: Button and Links
-title: Shortcut
+title: Shortcuts
 description: >-
   The shortcut is preferably used at the top of a page to draw the users
   attention to another page or section.
@@ -23,8 +23,10 @@ tabs:
       of shortcuts include a right-aligned forward pointing arrow.
 
 
-      Shortcuts are normally spanning the whole row, but one exception exists in
-      [Navigation page shortcuts](#navigation-page-shortcuts).
+      Shortcuts are normally spanning the whole row, except for [multiple-lined
+      shortcuts](#multiple-lined-shortcut) which may have two next to each
+      other. They also feature a 2px shadow on the bottom to highlight their
+      clickability.
 
 
       ## Versions
@@ -36,7 +38,7 @@ tabs:
       * **Alerting** (more known as "**Glasspinne**"), which are used to
       highlight important actions which the user needs to act on.
 
-      * **Navigational** shortcuts exist in three different styles, but all with
+      * **Navigational** shortcuts exist in two different styles, but all with
       the main purpose of highlighting alternative ways forward from the current
       view.
 
@@ -53,7 +55,7 @@ tabs:
       regular [alerts](../system-display/alert), meaning that they are available
       in all four colours - however it is (almost) exclusively the blue neutral
       one which is in use. "Glasspinnar" are always just one row high, meaning
-      the text should be kept short and snappy.
+      the text should be kept short and snappy. The text is written in bold.
 
 
       The main usage of the "glasspinne" is on the landning page of Mina Sidor
@@ -70,91 +72,63 @@ tabs:
       #### Navigational shortcuts
 
 
-      The are three different types of navigational shortcuts, but these types
-      are mainly aesthetic as they all do the same thing - they help the user to
+      The are two different types of navigational shortcuts, but these types are
+      mainly aesthetic as they both do the same thing - they help the user to
       navigate in alternative patterns than the main purpose of the page they
-      are on. The main difference between the three types are how many rows they
-      span, and how the design has been adapted for this.
+      are on. The main difference between the types are how many rows they span,
+      and how the design has been adapted for this.
 
 
       ##### One-lined shortcut
 
 
-      The default one-lined shortcut is used for navigational purposes and is
-      white with blue text. 
+      The one-lined shortcut is used for navigational purposes and is white with
+      blue bold text. Its relative size is somewhat bigger than the other
+      versions.
 
 
-      ##### Two-lined shortcut
+      ##### Multiple-lined shortcut
 
 
+      Multiple-lined shortcuts consists of a header row (larger type, bold)
+      which communicates the main action and a textarea below to give more
+      detail. The textarea can span one or several row and has two possible
+      layouts:
 
 
-      #### Modifiers
+      * **Blue text in Intro Cond**; used when you wish to add extra details in
+      short form, e.g. the organisational number in the company switcher in Mina
+      Sidor (with the company name being the header).
+
+      * **Black text in Arial**; used when you want to add a descriptive text.
+      An example of this in use is on navigational pages on lansforsakringar.se
+      ([example](https://www.lansforsakringar.se/stockholm/privat/forsakring/fordonsforsakring/)).
 
 
-      Two modifiers exist for the one-lined shortcuts; "glasspinne" and with
-      icon. 
+      #### Landing page shortcuts
 
 
-      ##### 
+      Our landing pages often feature a special version of the shortcut which in
+      its desktop-mode looks more like a large button than the other shortcuts
+      (in its responsive mode it is very similar to the [one-lined
+      shortcut](#one-lined-shortcut) however). The main area of the shortcut
+      features a large icon, and below the icon a few (preferably only one)
+      words describe what the shortcut leads to.
 
 
-      ##### With icon
+      This is used on the landing pages of
+      [lansforsakringar.se](https://www.lansforsakringar.se/) and Mina Sidor as
+      well as the [Om oss](https://www.lansforsakringar.se/privat/om-oss/)
+      (about us)-section of lansforsakringar.se.
 
 
-      If you wish to you can add an icon to your shortcut
+      ### Modifier
 
 
-      ##### Navigation page shortcuts
-
-
-      Används mestadels i inloggade sidor för att lyfta fram kundens främsta
-      frustrationer. Vad ska kunden göra härnäst som "vi kunde inte dra en
-      räkning", "du måste fylla i frågorna i kundkännedom" till "ett erbjudande
-      om helförsäkring när vagnskadegaranti löpt ut". En typ av snabblänk direkt
-      till området det gäller. Den används med eller utan ikon till vänster men
-      alltid en pil till höger.
-
-
-      Note that in all variations of the shortcut the text is always bold. 
-
-
-      Shortcuts har en 2 pixlar skugga i underkant för att ge den en klickbar
-      känsla.
-
-
-      ### Default white
-
-
-      The default shortcut is somewhat bigger than its variations, and always
-      white. 
-
-
-      ### Known as Glasspinne
-
-
-      The shortcut modifier-important is decorated with a background color to
-      make it stand out. These are also called "glasspinnar" by LF terminology.
-      The variations come in the same styles as Alerts but not striped and are
-      used by appending the class, for example, .shortcut-info-ice.
-
-
-      ### With icon
-
-
-      Shortcuts kan användas med ikon till vänster om texten förutom den
-      obligatoriska pilen till vänster. Gäller alla variationer.
-
-
-      ### Two row with icon
-
-
-      Det finns en tvåradig variation av shortcut. Används med en regular text
-      under den feta texten. Har använts i val av företag i inloggat, även i
-      inloggat på översikter som pensionssidan.
-
-
-      ## Den nya från ÖS
+      One modifier exists for shortcuts and it is available for "glasspinnar"
+      and navigational shortcuts; you can opt to put an icon in your shortcut.
+      If so it is placed to the left of the text in the shortcut. Just make sure
+      that you're consistent if you have several shortcuts grouped together.
     name: Design
   - content: >-
       ## Så skriver vi

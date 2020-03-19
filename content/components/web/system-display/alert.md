@@ -121,9 +121,8 @@ tabs:
       ## Please consider
 
 
-      * Don’t confuse alerts (striped background) with [“glasspinnar”/modifier
-      shortcut ](../../buttonandlinks/shortcut/)(monocolor background and
-      arrow) 
+      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut
+      ](../buttonandlinks/shortcut/)(monocolor background and arrow) 
 
       * The close component should never be used together with a button inside
       an alert. The button replaces the cross as it has the same functionality
