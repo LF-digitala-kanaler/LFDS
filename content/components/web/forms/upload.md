@@ -10,6 +10,11 @@ intro: >-
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
+      <figure class="Image none"><img src="undefined" srcset="undefined 2x"
+      alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
+
+
       ## How to use
 
 

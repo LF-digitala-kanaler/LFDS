@@ -20,7 +20,7 @@ tabs:
       alerting nature or navigational, and each design only corresponds to one
       of these two uses. For both use cases the shortcut takes the user into
       another flow than the one they came from. To highlight this all versions
-      of shortcuts include an forward pointing arrow to the right.
+      of shortcuts include a right-aligned forward pointing arrow.
 
 
       Shortcuts are normally spanning the whole row, but one exception exists in
@@ -30,14 +30,63 @@ tabs:
       ## Versions
 
 
-      There are two main versions of the shortcut; one-lined and two-lined.
+      There are three main versions of the shortcut:
 
 
-      ### One-lined shortcut
+      * **Alerting** (more known as "**Glasspinne**"), which are used to
+      highlight important actions which the user needs to act on.
+
+      * **Navigational** shortcuts exist in three different styles, but all with
+      the main purpose of highlighting alternative ways forward from the current
+      view.
+
+      * **Landing page** shortcuts are only used on landing pages and are used
+      for helping users find the most common tasks/pages.
+
+
+      #### Glasspinne
+
+
+      "Glasspinne" is the shortcut we use when we want to alert users to an
+      action they need/are recommended to take (but probably isn't not why they
+      arrived at the page). They use the same colors with the same meaning as
+      regular [alerts](../system-display/alert), meaning that they are available
+      in all four colours - however it is (almost) exclusively the blue neutral
+      one which is in use. "Glasspinnar" are always just one row high, meaning
+      the text should be kept short and snappy.
+
+
+      The main usage of the "glasspinne" is on the landning page of Mina Sidor
+      where we use it for things like asking the customer to fill out our their
+      "kundkännedomsfrågor" and providing relevant offers ("your car turns 3
+      years old, you might want to change type of insurance").
+
+
+      _Trivia: The name comes from the need for a name to describe them with and
+      someone thinking they resembled ice cream sticks (which is what
+      "glasspinne" means in Swedish)._ 
+
+
+      #### Navigational shortcuts
+
+
+      The are three different types of navigational shortcuts, but these types
+      are mainly aesthetic as they all do the same thing - they help the user to
+      navigate in alternative patterns than the main purpose of the page they
+      are on. The main difference between the three types are how many rows they
+      span, and how the design has been adapted for this.
+
+
+      ##### One-lined shortcut
 
 
       The default one-lined shortcut is used for navigational purposes and is
       white with blue text. 
+
+
+      ##### Two-lined shortcut
+
+
 
 
       #### Modifiers
@@ -47,16 +96,16 @@ tabs:
       icon. 
 
 
-      ##### Glasspinne
+      ##### 
 
 
+      ##### With icon
 
 
+      If you wish to you can add an icon to your shortcut
 
 
       ##### Navigation page shortcuts
-
-
 
 
       Används mestadels i inloggade sidor för att lyfta fram kundens främsta
