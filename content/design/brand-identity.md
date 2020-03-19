@@ -14,14 +14,12 @@ Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbol
 
 [The Brandportal](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)
 
-<figure class="Image Image__border"><img src="/img/lf-symbol.png" srcset="/img/lf-symbol.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__border"><img src="/img/lf-symbol.png" srcset="/img/lf-symbol.png 2x" alt="/img/lf-symbol.png 2x""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Kontakter varumärkes frågor
 
-Varumärkesansvarig är Pär Hjärtström.
-
-Digitala Designansvarig är Liza Hansson.
-
+Varumärkesansvarig är Pär Hjärtström.\
+Digitala Designansvarig är Liza Hansson.\
 Liza och Pär träffas återkommande för att synka mellan print och webb.
 
 ### Introduktion
