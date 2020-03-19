@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './index.module.css';
 
-const FullWidthBackground = ({ image, children }) => {
+const FullWidthBackground = ({ image, content }) => {
   const inlineStyle= {
     backgroundImage: `url(${image})`,
     backgroundSize: 'cover'
@@ -11,10 +11,9 @@ const FullWidthBackground = ({ image, children }) => {
           className={style.FullWidthBackground}
           style={inlineStyle}
         >
-        {children}
+        {content}
         </div>
   )
 }
-
 
 export default FullWidthBackground
