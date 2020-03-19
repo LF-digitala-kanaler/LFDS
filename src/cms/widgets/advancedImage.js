@@ -8,10 +8,10 @@ const AdvancedImage = {
       name: "type",
       label: "Type",
       widget: "select",
-      default: "none",
+      default: "Image__border",
       options: [
-        { label: "Full width", value: "Image__border" },
-        { label: "Smaller Image", value: "Image__background" },
+        { label: "With border", value: "Image__border" },
+        { label: "With background", value: "Image__background" },
       ],
     },
     { name: "caption", label: "Caption", widget: "string", default: "" },
