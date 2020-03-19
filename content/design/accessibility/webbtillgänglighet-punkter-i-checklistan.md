@@ -15,8 +15,6 @@ Layout och bilder
 
 Tänk på att placera innehållet i en logisk ordning och följd så att användaren får lätt att följa flödet. Försök inte fylla alla ytor. Se till att det finns en tydlig hierarki där element inte tävlar om uppmärksamhet så att användaren kan lätt scanna igenom innehållet och naturligt dras till viktig information och interaktioner. Undvik att sprida ut innehållet över hela sidan.
 
-
-
 Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
@@ -25,11 +23,7 @@ https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
 
 Tänk på att följa en struktur för hur sidorna ska vara uppbyggda. Alla sidor behöver inte se likadana ut men det är bra om dem följer samma struktur. Liknande funktioner ska utföras på samma sätt oavsett var på webbplatsen man befinner sig. En del användare memorerar strukturen för att förstå innehållet och hur funktioner fungerar. Samma gäller för benämning på knappar. Inte Skicka på en sida och Sänd på en annan sida. Eller att en spara-ikon ska se likadan ut på hela webbplatsen.
 
-
-
 Undvik att strukturen på innehåll förändras från sida till sida, eller att en funktion fungerar olika på olika delar av webbplatsen. Detta kan leda till att vissa av våra användare kan få svårt att hänga med i strukturen och tolka innehållet. 
-
-
 
 Läs mer:
 
@@ -41,8 +35,6 @@ För designers
 
 Alla människor har inte möjlighet att vrida på sin skärm. Vissa måste välja ett läge (stående eller liggande) och alltid använda detta, exempelvis med skärmen fast monterad på en rullstol. Skapa därför en design så att innehåll och funktioner är tillgängliga oavsett skärmens riktning. Då kan var och en välja det läge de föredrar
 
-
-
 Hur man testar.
 
 Testa läsordningen genom att granska en sida av varje sidtyp med några skärmar i olika storlek och genom att lyssna igenom innehållet med en skärmläsare.
@@ -51,17 +43,11 @@ Se till och testa även att läsordningen är logisk i dokument som inte är htm
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/153-fungerar-oavsett-skarmens-riktning/#utdrag-fran-wcag-standarden
 
-
-
 1.04 - All viktig information ska vara tillgänglig för alla användare
 
 Att gömma viktig information i en pdf skapar sämre sökbarhet och gör att användaren får svårt att få en överblick. Hitta en balans mellan vad du måste visa på webben och vad man ska kunna ladda ner för att skriva ut.
 
-
-
 Det är bra om så mycket som möjligt av texten finns på webben att läsa men se till att dela upp det i relevanta sidor.
-
-
 
 Undvik endast lägga text i nedladdningsbara filer.
 
@@ -77,11 +63,7 @@ Gör en anpassad mobilversion om responsiv design är inte är möjligt
 
 Även dokument som inte är webbsidor bör kunna presenteras i begränsad bred
 
-
-
 Läs mer: https://webbriktlinjer.se/riktlinjer/91-skapa-en-flexibel-layout/
-
-
 
 1.06 - Erbjud flera kontaktvägar
 
@@ -101,11 +83,7 @@ Lita inte blint på automatisk granskning av kontraster
 
 Överträffa gärna gränsvärdena för kontrast
 
-
-
 Testa kontrasten: https://webaim.org/resources/contrastchecker/
-
-
 
 1.08 - Var försiktig med starka färger, spara på den röda
 
@@ -115,11 +93,7 @@ Färger är mycket användbara för att förhöja användbarhet och estetik. Men
 
 Innehåll, till exempel popup-rutor, som dyker upp vid tangentbordsfokus eller när användaren svävar med muspekaren över ett visst objekt ska kunna uppfattas och hanteras av alla – även av användare som har förstorat sidan eller tar längre tid på sig att komma till innehållet. Det är särskilt viktigt att innehållet enkelt kan tas bort eller stängas.
 
-
-
 Det kan till exempel gälla undermenyer, inforutor (tooltips) och icke-modala popup-fönster. 
-
-
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/158-popup-funktioner-ska-kunna-hanteras-och-stangas-av-alla/
 
@@ -127,13 +101,7 @@ Läs mer: https://webbriktlinjer.se/riktlinjer/158-popup-funktioner-ska-kunna-ha
 
 Underlätta för användarna genom att ge dem förslag på sökord när de utför en sökning på en webbplats. Funktionen ger bättre sökträffar, underlättar för vissa personer med skrivsvårigheter samt kan spara tid och förenkla för alla användare. Ge förslagen dynamiskt om möjligt.
 
-
-
 Av effektivitets- och prestandaskäl är det ofta bra att vänta tills användaren matat in två-tre tecken eller har slutat skriva innan förslagen på sökord presenteras.
-
-
-
-
 
 Läs mer:
 
@@ -142,8 +110,6 @@ Läs mer:
 1.11 - Undvik text i bilder
 
 Om det används, ha samma alt-text som text i bilden. Skärmläsare kan inte läsa upp texter som finns i en bild.
-
-
 
 Läs mer:
 
@@ -154,8 +120,6 @@ https://webbriktlinjer.se/riktlinjer/128-anvand-text-inte-bilder-for-att-visa-te
 Alla bilder som existerar för mer än bara dekoration behöver ha en alternativ text. Ett exempel på det kan vara grafer eller diagram. Ett tips är att beskriva texten som i ett telefonsamtal.
 
 Om användaren av någon anledning inte kan se bilden till exempel på grund av dålig anslutning, fel i länken till bilden eller att man använder en skärmläsare ska man fortfarande kunna förstå vad bilden vill förmedla.
-
-
 
 Om ett CMS används går det att underlätta för redaktörerna genom att göra alternativ textfältet för bilden obligatoriskt. 
 
@@ -191,8 +155,6 @@ med semantisk kodning.
 
 Var särskilt försiktig med färgerna grön, röd och brun. Många personer med färgblindhet har svårt att särskilja dessa.
 
-
-
 Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/124-inte-bara-farg/
@@ -201,33 +163,21 @@ https://webbriktlinjer.se/riktlinjer/124-inte-bara-farg/
 
 Säkerställ att komponenter i gränssnittet och informationsbärande grafik har tillräckliga kontraster. Använd god kontrast för informationsbärande delas av illustrationer och annat grafiskt innehåll, så långt det är rimligt.
 
-
-
 Kontrastvärdet ska vara minst 3:1.
-
-
 
 1.18 - Markera tydligt vilket fält eller element som är i fokus
 
 Den som navigerar med till exempel tab-tangenten behöver få veta var tangentbordets fokus ligger. Standard markeringen är ofta en tunn streckad linje som är svår att se, särskilt om omgivningen är spräcklig eller på annat sätt gör den streckade linjen mindre uppenbar.
 
-
-
 Gör markeringen tydlig, till exempel med en CSS-regel. 
-
-
 
 Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/140-markera-element-i-fokus/
 
-
-
 1.19 - Utför inga oväntade förändringar vid fokusering
 
 Utför ändringar när användaren har anledning att förvänta sig dem. Till exempel, användaren klickar på en länk till en extern sida och en ny tabb med länken öppnas i browsern.
-
-
 
 Läs mer:
 
@@ -236,8 +186,6 @@ https://webbriktlinjer.se/riktlinjer/143-utfor-inga-ovantade-forandringar-vid-fo
 1.20 - Erbjud alternativ till mer komplexa fingerrörelser
 
 Alla personer kan inte hantera komplexa rörelser på en pekskärm. Detta gäller till exempel att svajpa (swipe) och gester som kräver flera fingrar (multi-touch) såsom dra isär och nyp ihop. Det kan bero på motoriska eller kognitiva begränsningar, vilket hjälpmedel en användare har eller användarens brist på kunskap om gränssnittet. Komplettera därför alltid sådana med enklare interaktion såsom klick, dubbelklick eller tryck, såvida inte rörelsen är avgörande för funktionaliteten.
-
-
 
 Läs mer:
 
@@ -249,8 +197,6 @@ Användare har många olika strategier för att navigera i digitala system. En p
 
 Erbjud därför fler sätt att navigera. 
 
-
-
 Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/32-erbjud-besokaren-alternativa-orienteringsstod/
@@ -259,11 +205,7 @@ https://webbriktlinjer.se/riktlinjer/32-erbjud-besokaren-alternativa-orientering
 
 Tabeller kan vara svåra att tolka – både för användare med skärmläsare och för andra. Låt html-koden uttrycka vad tabellens olika delar innehåller, och hur de hänger ihop. På så vis blir tabellen tillgänglig för alla. Använd till exempel th-element för att ange vilka celler som är rad- och kolumnrubriker.
 
-
-
 En explicit koppling mellan rubrikceller och dataceller gör att skärmläsare kan läsa upp den tillhörande rubriken före innehållet i varje datacell. På så sätt slipper användarna memorera tabellstrukturen. Detta är särskilt bra för tabeller med många kolumner, eller med flera rubriknivåer. Attributet scope på ett th-element anger för vilka dataceller rubriken gäller.
-
-
 
 Läs mer: 
 
@@ -271,15 +213,9 @@ https://webbriktlinjer.se/riktlinjer/98-anvand-tabellrubriker-for-att-hjalpa-anv
 
 https://webaim.org/techniques/tables/data
 
-
-
 Tips och tricks: https://www.w3.org/WAI/tutorials/tables/tips/
 
-
-
 1.23 - Testa att ikoner förklaras??
-
-
 
 Text/innehåll
 
@@ -290,8 +226,6 @@ Text ska skrivas enkelt, kort och tydligt. Texten ska förstås av alla. Vänste
 Men fördel kan du skapa en checklista eller punktlista eller tabell för att bryta upp texten.
 
 Använd mellanrubriker och citat för att locka användaren vidare.
-
-
 
 Undvik:
 
@@ -311,67 +245,35 @@ Låt alltid löptexten vara vänsterjusterad, det vill säga texten ska ha en ra
 
 Vänsterställ även texten i vänstermenyer eller andra vertikala menyer. Då blir det lättare för användarna att skumma igenom menyposterna, eftersom blicken kan vandra längs menyns vänsterkant
 
-
-
 2.03 - Bryt av stora textstycken med grafiska element, grafer, ikoner och bilder
 
-
-
 2.04 - Bryt av stora textstycken med en checklista, punktlista eller tabell
-
-
 
 2.05 - Använd mellanrubriker och citat för att dela upp innehåll och locka användaren vidare
 
 Undvik versala rubriker. Om de måste användas så ska de vara ett-två ord max. Helt versala rubriker och texter försämrar läsbarheten helt enkelt för att vi inte är vana vid det (utom när det används för speciella syften, till exempel för varningstext som ”SVAG IS” eller i förkortningar som ”CIO” och ”EU”).
 
-
-
 2.06 - Skriv en titel (page title) som speglar rubriken på sidan
-
-
 
 2.07 - Använd rätt H-element och hierarki för att organisera innehåll
 
 Rubriker kommunicerar hur innehållet är uppbyggt på en sida. Browsers, plugins och hjälpmedel använder dem till att navigera. Strukturera rubriker efter deras nivå. Den viktigaste rubriken är en H1 och den minst viktiga är en H6. Att hoppa över en nivå kan vara missledande för vissa hjälpmedel så se till att en H1 följs av en H2 och inte en H4 till exempel. Det är okej att hoppa över en nivå då en sida är indelad i sektioner(se bild). 
 
-
-
-
-
- 
-
 Copr/red:
-
-
-
-
-
-
 
 2.08 - Undvik beskriva riktningar för att hänvisa användare
 
-
-
 2.09 - Undvik beskriva färger för att hänvisa användare
 
-
-
 2.10 - Använd kortare ord undvik sammansatta ord och när det är möjligt
-
-
 
 2.11 - Markera ord sparsamt
 
 I vårt grafiska maner kan man markera rubriken i H1an med något enstaka rött ord. Lyft fram det ord som ger mest mening. Använd inte röda markeringar någon annanstans 
 
-
-
 Man kan även markera något ord i text som man vill highlighta, då använder du samma text färg som övriga texten men använder fetstil för att markera nyckelord i en text. 
 
 Undvik kursiv text
-
-
 
 Stryk aldrig under text som inte är länkad, eftersom det kan leda användarna att felaktigt tro att texten är en länk.
 
@@ -380,8 +282,6 @@ Stryk aldrig under text som inte är länkad, eftersom det kan leda användarna 
 stycken och ord
 
 Många användare, till exempel dyslektiker och personer med nedsatt syn, behöver kunna påverka avståndet mellan stycken, rader, ord och tecken för att lättare kunna läsa. Gör det därför möjligt för användaren att påverka avstånden utan att innehåll eller funktionalitet krockar eller gömmer sig bakom annat innehåll.
-
-
 
 Användaren ska ha möjlighet att öka avstånd åtminstone upp till följande relativa gränsvärden:
 
@@ -392,10 +292,6 @@ Teckenavstånd ska kunna ökas minst 0,12 gånger teckensnittets storlek.
 Avståndet mellan ord ska kunna ökas minst 0,16 gånger teckensnittets storlek.
 
 Avståndet mellan stycken ska kunna ökas minst 2 gånger teckensnittets storlek.
-
-
-
-
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/
 
@@ -409,8 +305,6 @@ Kontrastvärdet kan mätas med hjälp av programvara.
 
 Många personer med nedsatt syn behöver kunna förstora text för att kunna läsa den. Därför ska det vara möjligt att förstora texten till åtminstone dubbel höjd och bredd utan att nya problem uppstår, till exempel att delar av texten hamnar bakom en bild eller krockar med annan text.
 
-
-
 Det finns några “best practise” att tänka på: 
 
 Använd relativa enheter. Undvik px för texter
@@ -419,37 +313,25 @@ Använd inte små textstorlekar
 
 Skapa generöst med avstånd mellan kolumner
 
-
-
 Läs mer: 
 
 https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/
-
-
 
 2.15 - Se till att nedladdningsbara dokument har tydliga filnamn
 
 Se till att dokument du länkar till har så tydliga filnamn att man förstår av filnamnet vad dokumentet innehåller. Använd inte interna arbetsnamn som filnamn. Undvik att döpa dokument efter artikelnummer, diarienummer, blankettnummer eller liknande. Om artikel- eller blankettnumren är kända hos användarna bör de dock vara en del av filnamnet.
 
-
-
-
-
 Läs mer här:
 
 https://webbriktlinjer.se/riktlinjer/9-ge-dokument-tydliga-filnamn/
-
-
 
 2.16 - Se till att nedladdningsbara dokument är taggade och har korrekt struktur
 
 När du skapar en tillgänglig pdf bör du göra så mycket som möjligt i originaldokumentet, till exempel i Microsoft Word eller Adobe Indesign, i annat fall måste du komplettera med inställningar i Acrobat Professional. Här är några grundläggande riktlinjer:
 
-
-
 Filen ska vara försedd med kodade taggar i ett taggträd . I Word gör du det genom att välja ”Visa taggar för dokumentstruktur”. Du kan göra det efter konverteringen genom att välja ”Lägg till taggar i dokumentet” i Acrobat.
 
-Tagga rubriker med rubriknivåer (<H1>, <H2>), tabeller (<table>), tabellrubriker (<TH>), kolumner (<TR>), punktlistor (<L>) och innehållsförteckning (<TOC>).
+Tagga rubriker med rubriknivåer (H1, H2), tabeller (table), tabellrubriker (TH), kolumner (TR), punktlistor (L) och innehållsförteckning (TOC).
 
 Förse bilder, diagram och bildbaserade figurer med alternativtexter.
 
@@ -463,17 +345,9 @@ Se till att kopiering av dokumentet är tillåtet. Det gör du under säkerhetsi
 
 Om filen blivit onödigt stor efter de tillagda inställningarna, kan du välja att komprimera den senare
 
-
-
 Läs mer: 
 
 https://webbriktlinjer.se/riktlinjer/88-publicera-i-forsta-hand-dokument-i-html/
-
-
-
-
-
-
 
 Klickbara ytor - knappar och länkar
 
@@ -481,25 +355,13 @@ Klickbara ytor - knappar och länkar
 
 Använd aktiva/klickbara knappar och komplettera med felmeddelande som förtydligar vad användaren behöver göra/fylla i. Se till att användaren inte missar obligatoriska fält genom att automatiskt scrolla till det första fältet som behöver rättas. 
 
-
-
 Använd inte utgråade/ej klickbara knappar när det kan vara svårt att få användaren att förstå varför knappen inte går att klicka på.
 
-
-
 Undantag då en oaktiv knapp kan användas är då den oaktiva knappen presenteras tillsammans med aktiva knappar. Ett exempel är valet av faktura som betalsätt i en köptjänst. Knappen för “Månadsvis” är inte valbart men är fortfarande synlig eftersom knappen går att välja om användaren väljer “Autogiro”. 
-
-
-
-
-
-
 
 3.02 - Sätt knappar i sitt sammanhang 
 
 Sätt knappen i nära relation till dess kontext, så att användaren förstår relationen mellan informationen och knappen. 
-
-
 
 Visa exempel
 
@@ -533,8 +395,6 @@ Använd gärna färger, men låt inte färgskillnader vara det enda sättet att 
 
 Gör inrw länktexter eller knapp texter för långa. Knappar ska max innehålla 2-3 ord. Det finns även en dubbelradig knapp som kan användas vid behöv.. Men att föredra är att föra om ux/texten innan så det fungerar skriva kortare. Exempel: ”Så renoverar du ditt badrum med rätt tätskikt”. (45 tecken)
 
-
-
 3.07 -  Gör länkar, klickbara ytor och menyer användbara för alla
 
 Användarna behöver lätt kunna förstå vad som är klickbart. Se därför till att markera samma typ av länkar på samma sätt över hela webbplatsen. 
@@ -549,27 +409,19 @@ Gör en enda länk (ett A-element) av ikon och text i en sammansatt länk
 
 Gör ikoner som är en del av navigeringen klickbara. När du kombinerar text och bildelement i till exempel menyalternativ bör både texten och bilden vara klickbar.
 
-
-
 Läs mer: https://webbriktlinjer.se/riktlinjer/34-gor-lankar-och-klickbara-ytor-enkla-att-anvanda-for-alla/
 
 3.08 - Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter
 
 Se till att text som är synlig på knappar och andra gränssnittskontroller också finns i, och överensstämmer med, den maskinläsbara etikett som representerar kontrollen i exempelvis program för röststyrning.
 
-
-
 Den som använder röststyrning säger vanligtvis det som står på en knapp för att använda knappen. Detta fungerar om det som står på knappen motsvarar den maskinläsbara texten. Upplevelsen för seende som använder skärmläsare blir också bättre om uppläst text matchar det som visas på skärmen.
-
-
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/162-mojliggor-roststyrning-av-knappar-och-kontroller/
 
 3.09 - Gör det möjligt att ångra klick
 
 Möjligheten att ångra ett påbörjat klick är värdefull därför att den minskar risken för att aktivera funktioner av misstag. Vem som helst kan råka trycka vid fel plats eller tillfälle, och det är extra lätt hänt för personer med vissa funktionsnedsättningar (exempelvis begränsad motorisk kontroll eller synnedsättning).
-
-
 
 Läs mer: 
 
@@ -579,11 +431,7 @@ https://webbriktlinjer.se/riktlinjer/161-gor-det-mojligt-att-angra-klick/
 
 När användaren interagerar med en knapp som leder till att en ny interaktion visas, placera alltid den nya interaktionen nedanför eller bredvid den ursprungliga interaktionen. Den ny interaktionen bör direkt följa tidigare interaktionen i tabbordningen. 
 
-
-
    Exempel, svar “ja” på en fråga i formuläret leder till att ett fritextfält visas. Fritextfältet bör då placeras i kontext med “ja” knappen och efter den i tabbordningen.
-
-
 
 Formulär
 
@@ -591,37 +439,25 @@ Formulär
 
 Skriv tydliga och informativa fältetiketter.  Koppla ihop fältetiketten och inmatningsfältet så att även etiketten blir klickbar. Placera fältetiketterna där användarna lätt ser dem. Skriv utförliga instruktioner före formuläret, när sådana behövs. Undvik att göra lösningen beroende av title-attribut och placeholder-texter.
 
-
-
 Varje fält ska ha en label. Om designen inte innehåller en label får utvecklaren lägga till en dold label som skärmläsare kan läsa. 
-
-
 
 Läs mer: 
 
 https://webbriktlinjer.se/riktlinjer/61-skriv-tydliga-och-berattande-rubriker/
 
-
-
 4.02 - Skriv tydliga felmeddelanden
 
 När användaren inte fyller i fält såsom vi önskar eller glömmer att fylla i ett fält, ska vi påminna eller vägleda dem med en enkel, positiv, konstruktiv validering. 
 
-
-
 Exempel:
 
 Användaren fyller i 9 siffror för ett personnummer, validera med “Personnumret behöver innehålla 10 eller 12 siffror”.
-
-
 
 Användaren glömmer att fylla i telefonnummer. Validera med “Vänligen ange ett telefonnummer”
 
 4.03 - Skapa stora, klickbara ytor
 
 Tänk på att skapa en större klickyta för att förenkla för användaren att klicka på exempelvis en checkruta eller radioknapp. Ett medelmått för pekfingret är 44 x 44 px. Undvik att begära finmotorik. 
-
-
 
 Vid användning av till exempel checkboxes eller radioboxes ska man kunna klicka på hela ytan inte bara funktionen. Ge tillräckligt med yta så man kan klicka på objektet även med pekfinger.
 
@@ -631,11 +467,7 @@ Undvik att tränga ihop ifyllbara fält med klickbara ytor.
 
 Vid viktiga transaktioner som till exempel gäller juridik, ekonomi eller hälsa kan konsekvenserna av fel bli stora och besvärliga för alla inblandade. Därför behöver system som används för viktiga transaktioner hjälpa användare att undvika och rätta till misstag.
 
-
-
 Undvik att skapa interaktioner där användaren inte kan ångra, korrigera eller bekräfta klick.
-
-
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/150-ge-mojlighet-att-angra-korrigera-eller-bekrafta-viktiga-transaktioner/
 
@@ -655,29 +487,19 @@ Undvik att prata om 10 eller 12 siffror. Visa istället med formateringen ååå
 
 Användaren ska kunna navigera logiskt via alla interaktiva element på en sida, från vänster till höger, uppifrån och ner. Det är viktigt att fokus-ordningen är logisk i förhållande till hur innehållet presenteras på skärm eller i skärmläsare. Om fokus flyttar till ett oväntat element kan det vara mycket förvirrande, och orsaka fel. Tänk på att ha en logisk och korrekt html-struktur. Undvik att använda tabindex större än 1 i koden. 
 
-
-
 Läs mer: https://webbriktlinjer.se/riktlinjer/136-gor-en-logisk-tab-ordning/
 
 4.08 - Märk upp vanliga formulärfält i koden
 
 Hjälp dina användare att fylla i inmatningsfält genom att i koden ange vilken typ av innehåll som förväntas. Då kan webbläsare eller hjälpmedel ibland automatiskt föreslå inmatning (baserat på till exempel tidigare inmatning i fält av samma typ) i vanliga formulärfält (såsom gatu- och postadress). Systemet kan också ytterligare hjälpa användaren genom att presentera fältet på ett sätt (till exempel med en symbol) som användaren känner igen.
 
-
-
 Det är bra för alla användare, men kanske framför allt för personer med vissa kognitiva och motoriska funktionsnedsättningar. Det underlättar också för användare som inte behärskar språket så bra. Använd även attributet autocomplete på inmatningsfält.
 
-
-
 Läs mer: https://webbriktlinjer.se/riktlinjer/154-mark-upp-vanliga-formularfalt-i-koden/
-
-
 
 4.09 - Visa vart och beskriv fel i formulär tydligt, uppge vad som saknas
 
 Hjälp dina användare när det blir fel. Det måste vara tydligt för användaren var felet finns och felet behöver beskrivas med text. Välformulerade felmeddelanden ger användarna möjlighet att fylla i så felfria data som möjligt i formulären. De minskar också risken för att användarna ska bli irriterade när systemet inte förstår eller kan tolka den felaktigt inmatade informationen.
-
-
 
 Skriv inte  att fältet är obligatoriskt, förklara istället vad som behövs i fältet för att göra klart fältet.
 
@@ -691,8 +513,6 @@ Spara det som inte är fel.
 
 Felmeddelande ska vara vid fältet och vi scrollar upp användaren till första felmeddelandet som har en avvikande färg.
 
-
-
 Läs mer: https://webbriktlinjer.se/riktlinjer/2-ge-begripliga-felmeddelanden/
 
 Video & animering
@@ -701,23 +521,15 @@ Video & animering
 
 Komplettera text med videos och rörligt material för dem som har svårt att läsa text. Glöm inte att använda ljud för dem som inte ser. Texta alla filmer för icke hörande men även för personer i miljöer där ljud inte passar.
 
-
-
 5.02 - Ge användaren möjlighet att pausa, stänga av eller sänka ljud
 
 Det ska alltid vara möjligt att pausa, stoppa eller sänka sådant ljud som spelas upp automatiskt. Användare som lyssnar på en sida med hjälp av skärmläsare kanske inte kan uppfatta innehållet alls om det samtidigt spelas upp andra ljud. Användare med nedsatt förmåga att fokusera eller filtrera bort intryck kan också få svårt att använda en tjänst om det inte går att stänga av ljud. Därför ska det alltid vara möjligt att pausa, stoppa eller sänka sådant ljud som spelas upp automatiskt.
 
-
-
 Undvik att spela upp ljud eller video automatiskt.
-
-
 
 Användare som använder sig av skärmläsare eller har nedsatt förmåga att fokusera eller filtrera bort intryck. 
 
 https://webbriktlinjer.se/riktlinjer/125-kunna-pausa-ljud/
-
-
 
 5.03 - Använd animationer sparsamt 
 
@@ -733,15 +545,11 @@ Listor
 
 6.04 - Sätt punkt efter sista punkten om punktlistan är en uppräkning.
 
-
-
 Kod & script
 
 7.01 - Skapa kortkommandon med varsamhet
 
 Kortkommandon kan göra att det går snabbare att navigera på webbplatsen, men de bör användas med försiktighet. 
-
-
 
 Det finns en risk att webbplatsens kortkommandon förväxlas med kortkommandon som användarens webbläsare, operativsystem eller hjälpmedel erbjuder. Kortkommandon som bara består av ett tecken kan dessutom orsaka problem för personer som använder röststyrning eller råkar klicka på fel tangent, exempelvis på grund av skakningar i händerna.
 
@@ -753,17 +561,11 @@ Informera om vilka kortkommandon ni erbjuder.
 
 Gör det möjligt att stänga av eller byta ut kortkommandon som bara består av ett tecken.
 
-
-
 Läs mer: https://webbriktlinjer.se/riktlinjer/68-skapa-snabbkommandon-for-viktiga-funktioner/
 
 7.02 - Erbjud möjlighet att hoppa förbi återkommande innehåll
 
 För användare som lyssnar igenom en sida med skärmläsare, eller som tabbar sig fram med tangentbord eller någon typ av hjälpmedel tar det lång tid att komma förbi till exempel en meny. När samma innehåll dessutom upprepas på flera sidor kräver navigationen betydande ansträngning, och för vissa användare även smärta, om samma rörelse måste upprepas om och om igen. Därför ska det alltid finnas möjlighet att hoppa förbi sådant upprepat innehåll.
-
-
-
-
 
 Skapa genvägar för att hoppa över delar i strukturen till exempel menyn, för att komma direkt till sidans innehåll.
 
@@ -775,11 +577,7 @@ Använd strukturelement som main, aside, header, footer och nav för att definie
 
 R68. Skapa snabbkommandon vid behov.
 
-
-
 Läs mer: https://webbriktlinjer.se/riktlinjer/75-gruppera-och-skapa-mojlighet-att-hoppa-forbi-delar-pa-sidorna/
-
-
 
 7.03 - Erbjud möjlighet att backa
 
@@ -788,8 +586,6 @@ Tillbakaknappen ska alltid fungera. Gör du SPA-app får detta lösas programmat
 7.04 - Följ standarder
 
 Struktur är allt när man presenterar innehåll genom hjälpmedel. Giltig och semantisk HTML gör organisationen av innehållet presentabel på ett meningsfullt sätt. CSS, skriven för tillgänglighet, gör webbplatsens innehåll lättare att konsumera för alla. Korrekt CSS kan också användas för att tillhandahålla extra information för skärmläsare som inte syns på webbsidan.
-
- 
 
 Använd HTML5.
 
@@ -813,25 +609,17 @@ Betona innehåll med elementet em och inte bara kursivering, eftersom det inte g
 
 Använd WAI-ARIA för sådant som inte går att uttrycka med vanlig html.
 
-
-
 7.05 - Se till att koden validerar
 
 För att underlätta för utvecklare att följa standarder finns det olika hjälpmedel som kan vara bra att känna till. 
-
-
 
 Validering av kod
 
 Att validera koden hjälper dig att hitta fel som kan vara svåra att hitta själv. Det kan handla om att det finns ID’n med värden som inte är unika, fält som saknar labels, fel i html-koden.
 
-
-
 Här kan du validera din sida via url. Om du vill validera en lokal sida kan du alltid klistra in kod alternativt ladda ner ett plugin i browsern som kan göra detta
 
 https://validator.w3.org/
-
-
 
 Validera tillgänglighet
 
@@ -841,21 +629,13 @@ Kontrollera att era mallar för funktioner, tjänster och stilmallar validerar i
 
 Försök att automatisera en regelbunden kod validering, eller gör validering till en rutinåtgärd vid all förändring av webbplatsens kod. Det är lätt hänt att tidigare korrekt kod går sönder. Det kan till exempel hända när ni uppdaterar ett tilläggsprogram, när ni infogar en videospelare i ett blogginlägg eller när någon gör ett inlägg i ett kommentarssystem.
 
-
-
 Läs mer: https://webbriktlinjer.se/riktlinjer/84-se-till-att-koden-validerar/
-
-
 
 7.06 - Se till att page speed är bra
 
 En del av användbarheten är ju att sidan fungerar som den ska. Att kunderna förväntar sig att sidan laddat in inom 3 sekunder så den fungerar att navigera på. Vissa bilder kan laddas in allt efter som men i det stora hela blir det svårt för användaren om innehållet ständigt förändras för att mer och mer innehåll laddas in allteftersom och de klick jag planerat klicka på byter plats.
 
-
-
 Extra svårt blir det för de personer med synskada, då jag redan har svårt att se och jag kanske inte förstår att innehållet inte har laddats in.
-
-
 
 Riktlinjer för pagespeed är xxxx sekunder
 
@@ -869,19 +649,13 @@ Forskning har visat att användare av datorsystem tappar koncentrationen om de f
 
 10 sekunders svarstid har användaren svårt att vara uppmärksam och vill göra något annat under tiden.
 
-
-
 Testa din sida här:
 
 Pagespeed insights: https://developers.google.com/speed/pagespeed/insights/
 
-
-
 https://developers.google.com/speed/pagespeed/insights/?hl=sv&url=lf.se
 
 https://webbriktlinjer.se/riktlinjer/54-optimera-webbplatsen-for-basta-prestanda/
-
-
 
 7.07 - Utveckla systemet så att det går att hantera med enbart tangentbordet
 
@@ -899,11 +673,7 @@ Se till att de som använder tekniska hjälpmedel som exempelvis skärmläsare o
 
 Ange med hjälp av attributen role eller aria-live var viktiga meddelanden kan förekomma, så får hjälpmedel kännedom om dessa och kan presentera dem för användaren vid ett lämpligt tillfälle.
 
-
-
 Berörda användare riskerar annars att missa varningar, upplysningar och felmeddelanden.
-
-
 
 Läs mer: 
 
@@ -917,33 +687,11 @@ Följ de webbriktlinjer som är tillämpbara även i appar
 
 Följ respektive plattforms egna riktlinjer för tillgänglighet
 
-
-
 Guidlines för iOS: https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/
-
-
-
-	
 
 Guidelines för Android:
 
 https://developer.android.com/guide/topics/ui/accessibility
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Regressionstest tillgänglighet
 
