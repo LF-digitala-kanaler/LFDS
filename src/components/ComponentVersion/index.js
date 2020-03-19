@@ -1,6 +1,5 @@
 import React from "react"
 import style from './index.module.css';
-import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from "gatsby"
 import _ from 'lodash';
 import componentsStatus from '../../data/componentsStatus.json'

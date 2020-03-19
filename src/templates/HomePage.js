@@ -12,7 +12,8 @@ import FullWidthBackground from '../components/FullWidthBackground'
 export const HomePageTemplate = ({
   title,
   intro,
-  shortcuts
+  shortcuts,
+  fullWidthImage
 }) => (
   
   <> 
@@ -28,14 +29,13 @@ export const HomePageTemplate = ({
         }
       </Grid>
     </Wrapper>
-    {/* <FullWidthBackground>test</FullWidthBackground> */}
+    <FullWidthBackground image={fullWidthImage.image} cotnent={fullWidthImage.content}>test</FullWidthBackground>
   </>
 )
 const HomePage = ({ 
   data: { page }
 
   },) => {
-  console.log(page)
 
   return (
     <Layout
@@ -47,6 +47,7 @@ const HomePage = ({
         {...page} 
         {...page.frontmatter}
         shortcuts={page.frontmatter.shortcuts}
+        fullWidthImage={page.frontmatter.fullWidthImage}
         body={page.html}
       />
     </Layout>
@@ -74,7 +75,10 @@ export const pageQuery = graphql`
           text
           link
         }
-        fullWidthImage
+        fullWidthImage {
+          image
+          content
+        }
       }
     }
     

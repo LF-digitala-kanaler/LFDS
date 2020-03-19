@@ -20,6 +20,10 @@ shortcuts:
     link: /visual-identity
     text: 'What you see is what you get. Color, Typo, icons and such.'
     title: Visual guidelines
-fullWidthImage: /img/colors.jpg
+fullWidthImage: 
+  image: /img/halsa_omkladningsrum.webp
+  content: >-
+    Having small touches of colour makes it more colourful than having the whole
+    thing in colour.
 ---
 

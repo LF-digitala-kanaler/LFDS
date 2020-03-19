@@ -1,37 +1,18 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
-import BackgroundImage from 'gatsby-background-image'
+import style from './index.module.css';
 
-const FullWidthBackground = ({ className, children }) => {
-  const { desktop, small } = useStaticQuery(
-    graphql`
-      query {
-        desktop: file(relativePath: { eq: "static/img/panel.svg" }) {
-          childImageSharp {
-            fluid(quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-        
-      }
-    `
-  )
-  const imageData = desktop.childImageSharp.fluid
-  
-  return (
-    
-      <BackgroundImage
-        Tag="section"
-        className={className}
-        fluid={imageData}      
-        id="adfullscreenbg"
-        role="img"
-        preserveStackingContext={true}
-      >
+const FullWidthBackground = ({ image, children }) => {
+  const inlineStyle= {
+    backgroundImage: `url(${image})`,
+    backgroundSize: 'cover'
+  }
+  return (  
+       <div
+          className={style.FullWidthBackground}
+          style={inlineStyle}
+        >
         {children}
-      </BackgroundImage>
-    
+        </div>
   )
 }
 
