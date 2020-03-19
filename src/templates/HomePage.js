@@ -29,7 +29,7 @@ export const HomePageTemplate = ({
         }
       </Grid>
     </Wrapper>
-    <FullWidthBackground image={fullWidthImage.image} cotnent={fullWidthImage.content}>test</FullWidthBackground>
+    {fullWidthImage.iamge && <FullWidthBackground image={fullWidthImage.image} cotnent={fullWidthImage.content}>test</FullWidthBackground>}
   </>
 )
 const HomePage = ({ 
