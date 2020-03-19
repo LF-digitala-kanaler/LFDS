@@ -209,11 +209,18 @@ tabs:
       #### Vanliga labels
 
 
-      **Text:** Personnummer
+      ###### Personnummer
 
 
-      Placeholder: ÅÅMMDD-NNNN (visst är det så?)
+      <figure class="Image Image__background"><img
+      src="/img/skärmavbild-2020-03-19-kl.-09.29.20.png"
+      srcset="/img/skärmavbild-2020-03-19-kl.-09.29.20.png 2x" alt="Exempel på
+      ett korrekt formaterat personnummersfält (inklusive länk till info om
+      personuppgifter)"><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
 
+
+      Placeholder: ÅÅMMDD-NNNN (visst är det så?)\
 
       Hjälptext (Länk): Så behandlar vi personuppgifter
 
@@ -221,7 +228,7 @@ tabs:
       Valideringstext: Fyll i personnummer
 
 
-      **Text**: Namn
+      ###### Namn
 
 
       Valideringstext: Fyll i namn
