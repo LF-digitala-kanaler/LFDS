@@ -15,7 +15,7 @@
   }
 }
 .Content h2{
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.1667;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
@@ -50,14 +50,14 @@
   }
 }
 .Content h5{
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.333;
   font-weight: bold;
-  margin-bottom: var(--spacing-vertical--05);
+  margin-bottom: calc( var(--spacing-vertical--05) / 2);
   margin-top: var(--spacing-vertical--1);
 
   @media (--small-viewport) { 
-    fobnt-size: 1rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -132,7 +132,7 @@
   &::before {
     content: '';
     width: 2px;
-    height:calc(100% - (var(--spacing-xlg) * 2));
+    height:calc(100% - (var(--spacing-lg) * 2));
     position: absolute;
     left: -2px;
     background-color: var(--callout-highlight);
