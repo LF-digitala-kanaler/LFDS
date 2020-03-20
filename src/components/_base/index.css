@@ -16,6 +16,7 @@
   --font-weight-bold: 700;
   --font-weight-normal: normal;
 
+  --font-size-large: 1.125rem;
   --font-size-normal: 1rem;
   --font-size-small: 0.875rem;
 
@@ -62,6 +63,7 @@
   --content-width--wide: 78.5rem;
 
   --header-height: 7.75rem;
+
 }
 
 
