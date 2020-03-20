@@ -240,6 +240,14 @@ collections: # A list of collections the CMS should be able to edi
               
           - { label: 'Full width image', name: fullWidthImage, widget: 'image' }
           - { label: 'Content', name: body, widget: 'markdown',  required: false }
+
+          - label: "Related Links"
+            name: "relatedLinks"
+            collapsed: false
+            widget: "list"
+            fields:
+              - {label: Link, name: link, widget: string }
+             
          
 
   - name: 'settings'

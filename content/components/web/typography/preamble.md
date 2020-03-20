@@ -13,7 +13,7 @@ tabs:
       class="Image__caption"></div></figcaption></figure>
 
 
-      <div class="Callout"><div class="Callout__icon"></div><p
+      <div class="Callout"><p
       class="Callout__text"><strong>test </strong>test</p></div>
 
 

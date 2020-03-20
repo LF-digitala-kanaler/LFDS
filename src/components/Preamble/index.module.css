@@ -6,17 +6,18 @@
 
 .Preamble {
   color: var(--color-preamble);
-  font-size: 1.5rem;
-  line-height: 1.25;
+  font-size: 1.125rem;
+  line-height: 1.333;
   margin-bottom: var(--spacing-vertical--2);
+  
+  @media (--small-viewport) { 
+    font-size: 1.5rem;
+  }
+
   @media (--medium-viewport) { 
     max-width: var(--content-width--narrow);
   }
   
-}
-
-.Preamble--blue {
-  --color-preamble: var(--color-blue);
 }
 
 .Preamble--left {

@@ -40,8 +40,8 @@ tabs:
       [copy-tab](?Copy).
 
 
-      <div class="Callout"><div class="Callout__icon"></div><p
-      class="Callout__text"><strong>Don't use disabled buttons! </strong>For
+      <div class="Callout"><strong class="Callout__title">Don't use disabled buttons! </strong><p
+      class="Callout__text">For
       accessibility reasons LFUI strongly discourages from using disabled
       buttons. Please read more in "Design rationale" at the bottom of the page
       to learn more.</p></div>
@@ -137,7 +137,7 @@ tabs:
       "Logga in" (or "Logga ut" if in a logged in-view).
 
 
-      <div class="Callout"><div class="Callout__icon"></div><p
+      <div class="Callout"><p
       class="Callout__text"><strong>Only for logging in/out! </strong>This
       button should never be used for any other purposes than signing in or
       out-purposes!</p></div>

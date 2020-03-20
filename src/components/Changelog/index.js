@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import style from './index.module.css';
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Accordion from '../Accordion';
 
 const Changelog = () => {
+
 
   
   const data = useStaticQuery(graphql`
@@ -45,13 +46,15 @@ const Changelog = () => {
     })
    
       return (
+        <>
         
         <div className={style.Changelog}>
           <h4 className={style.Changelog__title}>Latest Updates</h4>
           {versions}
            <Link className={style.Changelog__link} to='about/whats-new/changelog' >View complete Changelog</Link>
         </div>
-        
+       
+        </>
       )
   
 }

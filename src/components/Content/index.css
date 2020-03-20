@@ -6,34 +6,59 @@
   }
 } */
 
+.Content p {
+  font-size: var(--font-size-small);
+  line-height: 1.429;
+  @media (--small-viewport) { 
+    font-size: var(--font-size-large);
+    line-height: 1.333;
+  }
+}
 .Content h2{
   font-size: 2.5rem;
-  line-height: 1;
+  line-height: 1.1667;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
   position: relative;
+
+  @media (--small-viewport) { 
+    font-size: 3rem;
+  }
 }
 
 .Content h3{
-  font-size: 2rem;
-  line-height: 1;
+  font-size: 1.5rem;
+  line-height: 1.333;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
   position: relative;
+
+  @media (--small-viewport) { 
+    font-size: 2.5rem;
+  
+  }
 }
 
 .Content h4{
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 1.25rem;
+  line-height: 1.333;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
+
+  @media (--small-viewport) { 
+    font-size: 1.5rem;
+  }
 }
 .Content h5{
-  font-size: 1rem;
-  line-height: 1;
+  font-size: 1.125rem;
+  line-height: 1.333;
   font-weight: bold;
-  margin-bottom: 0;
+  margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--1);
+
+  @media (--small-viewport) { 
+    fobnt-size: 1rem;
+  }
 }
 
 .Content img {
@@ -53,16 +78,17 @@
   margin-bottom: var(--spacing-vertical--05)
 }
 .Content ul li::before {
-  content: "\2022";  
-  color: var(--color-red); 
+  content: "\0025A0";  
+  color: var(--color-blue); 
   font-weight: bold;
   display: inline-block; 
   width: 1em; 
   margin-left: -1em;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1;
-  text-align: center;
-  vertical-align: bottom;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: -18px;
 }
 
 .Content table th{
@@ -92,8 +118,8 @@
 :root {
   --callout-background: var(--color-background-light);
   --callout-border: 2px solid var(--color-border);
-  --callout-highlight: var(--color-red);
-  --callout-spacing: var(--spacing-xlg);
+  --callout-highlight: var(--color-blue);
+  --callout-spacing: var(--spacing-lg);
   --callout-icon-height: 1.25rem;
 }
 /* callout widget */
@@ -105,21 +131,18 @@
   margin-top: var(--spacing-vertical--2);
   &::before {
     content: '';
-    height: 2px;
-    width:calc(100% - (var(--spacing-xlg) * 2));
+    width: 2px;
+    height:calc(100% - (var(--spacing-xlg) * 2));
     position: absolute;
-    top: -2px;
+    left: -2px;
     background-color: var(--callout-highlight);
   }
 }
 
-.Callout__icon {
-  position: absolute;
-  width: 28px;
-  height: 20px;
-  top: calc(-1 * (var(--callout-icon-height)));
-  right: calc(var(--spacing-unit) + (var(--callout-spacing)));
-  background-image: url("data:image/svg+xml,%3Csvg width='28' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.236 0c3.018 0 3.82.422 3.86 2.76l.001.194v3.304l.007.244c.041.674.294.864 1.249.882l.166.002c.49 0 1.09-.005 1.779-.015l1.272-.021.104-.012a5.29 5.29 0 01.406-.023l.217-.003h1.002l-.001.003.2-.003c.264-.008.604.011.998.081.6.106 1.195.309 1.757.633 1.66.958 2.67 2.752 2.743 5.434l.004.313V20l-26-.001V20H0L.002 6.053c.172-2.65 1.78-4.01 4.429-3.747.344.035.588.213.75.442.074.106.121.21.158.32.04.12.065.247.085.396.018.128.031.278.042.453l.019.384c.016.434.021.854.022 1.634V6.4c0 .803.105.962 1.194.984l.992.006c.615 0 .667-.059.665-.574l-.003-.416V2.954C8.355 1.01 9.59 0 12.236 0zM26 16l-24-.001v2L26 18v-2zM13.347 1.992l-1.488.013c-1.168.031-1.456.229-1.498.775l-.006.174V6.4c0 2.265-.807 2.987-3.316 2.987-2.447 0-3.531-.926-3.531-2.987L3.504 5.24c-.002-.3-.007-.533-.014-.756l-.008-.202-.057.005c-.893.097-1.306.611-1.41 1.66L2 6.118v7.881h14.655v-1.758c0-1.156.234-2.11.662-2.86l.202.005c-2.223 0-3.343-1.023-3.418-2.92l-.004-.208V2.954c0-.865.167-.962-.75-.962zm9.372 7.319l-2.035.038a2.602 2.602 0 00-.738.214c-.769.353-1.24 1.07-1.287 2.443l-.004.235V14H26v-.226c0-2.162-.662-3.389-1.747-4.015a3.353 3.353 0 00-1.534-.447z' fill='%23E30613' fillRule='evenodd'/%3E%3C/svg%3E");
+.Callout__title {
+  color: var(--color-blue);
+  margin-bottom: 5px;
+  display: block;
 }
 
 .Callout__text {

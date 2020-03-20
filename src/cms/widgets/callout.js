@@ -5,7 +5,7 @@ const Callout = {
     { name: "title", label: "Title", widget: "string" },
     { name: "text", label: "Text", widget: "string"},
   ],
-  pattern: /^<div class="Callout"><div class="Callout__icon"><\/div><p class="Callout__text"><strong>(.*) <\/strong>(.*)<\/p><\/div>/,
+  pattern: /^<div class="Callout"><strong class="Callout__title">(.*) <\/strong><p class="Callout__text">(.*)<\/p><\/div>/,
   fromBlock(match) {
     return {
       title: match[1],
@@ -13,7 +13,7 @@ const Callout = {
     }
   },
   toBlock(obj) {
-    return `<div class="Callout"><div class="Callout__icon"><\/div><p class="Callout__text"><strong>${obj.title} </strong>${obj.text}</p></div>`
+    return `<div class="Callout"><strong class="Callout__title">${obj.title} </strong><p class="Callout__text">${obj.text}</p></div>`
   },
 }
 

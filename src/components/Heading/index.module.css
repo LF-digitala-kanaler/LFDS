@@ -7,15 +7,13 @@
 }
 
 .Heading--1 {
-   /* @media (--medium-viewport) { 
-  --minFontSize: 1.5rem;
-  --maxFontSize: 3.75rem;
-  --scaler: 10vw;
-  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize)); */
-  font-size: 3.75em;
+  font-size: 2.5em;
   margin-bottom: var(--spacing-vertical--1);
-  line-height: 1;
+  line-height: 1.3;
   margin-top:var(--spacing-vertical--2);
+  @media (--small-viewport) { 
+    font-size: 3.75em;
+  }
 }
 
 /* .Heading--2 {

@@ -21,6 +21,8 @@ shortcuts:
     text: 'What you see is what you get. Color, Typo, icons and such.'
     title: Visual guidelines
 fullWidthImage: /img/halsa_omkladningsrum.webp
+relatedLinks: 
+  - link: test
 ---
 ##### New designer at Länsförsäkringar?
 

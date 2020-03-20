@@ -8,13 +8,14 @@ import Shortcut from '../components/Shortcut'
 import { Grid, Cell } from "styled-css-grid"
 import FullWidthBackground from '../components/FullWidthBackground'
 import Content from '../components/Content'
-
+import Changelog from '../components/Changelog' 
 export const HomePageTemplate = ({
   title,
   intro,
   shortcuts,
   fullWidthImage,
-  body
+  body,
+  relatedLinks
 }) => (
   
   <> 
@@ -30,7 +31,13 @@ export const HomePageTemplate = ({
         }
       </Grid>
     </Wrapper>
-    {fullWidthImage && <FullWidthBackground image={fullWidthImage.image}><Content source={body} /> </FullWidthBackground>}
+    {fullWidthImage && <FullWidthBackground image={fullWidthImage}><Content source={body} /> </FullWidthBackground>}
+    <Wrapper wide tag="div">
+      <Grid columns={2} gap="64px">
+        {/* <Cell><Changelog /></Cell> */}
+        <Cell></Cell>
+      </Grid>
+    </Wrapper>
   </>
 )
 const HomePage = ({ 
@@ -49,6 +56,7 @@ const HomePage = ({
         {...page.frontmatter}
         shortcuts={page.frontmatter.shortcuts}
         fullWidthImage={page.frontmatter.fullWidthImage}
+        relatedLinks={page.frontmatter.relatedLinks}
         body={page.html}
       />
     </Layout>
@@ -74,6 +82,9 @@ export const pageQuery = graphql`
           icon
           title
           text
+          link
+        }
+        relatedLinks {
           link
         }
         fullWidthImage

@@ -35,9 +35,9 @@ tabs:
       popover or that they user can copy text if the wish to do so.
 
 
-      <div class="Callout"><div class="Callout__icon"></div><p
-      class="Callout__text"><strong>Never use the popover-tooltip on a label! 
-      </strong>A popover-tooltip is used on inline text to describe words in the
+      <div class="Callout"><strong class="Callout__title">Never use the popover-tooltip on a label! 
+      </strong><p
+      class="Callout__text">A popover-tooltip is used on inline text to describe words in the
       flow of a document without breaking said flow. If you wish to describe
       words used in label you could eitherPut the word in the input field
       description and use the popover-tooltip on it thereUse a separate "Läs

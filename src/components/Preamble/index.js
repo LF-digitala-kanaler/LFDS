@@ -4,11 +4,11 @@ import cx from 'classnames'
 import style from './index.module.css'
 
 
-const Preamble = ({text, tag, color, align}) => {
+const Preamble = ({text, tag, align}) => {
   let Tag = tag;
 
   return (
-    <Tag className={cx(style.Preamble, style['Preamble--' + color], style['Preamble--' + align])}>
+    <Tag className={cx(style.Preamble, style['Preamble--' + align])}>
       {text}
     </Tag>
   );
