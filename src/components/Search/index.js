@@ -1,26 +1,46 @@
 import React, {  useState, useRef} from 'react'
-import { Link } from 'gatsby'
+import { Link, navigate } from 'gatsby'
 import style from './index.module.css';
 import cx from 'classnames'
 import { ArrowNavigation, useArrowNavigation } from 'react-arrow-navigation'
+import {useKeyPressEvent, useClickAway} from 'react-use';
 
 // Search component
 
+// set focus on input when search is open
 const UseFocus = () => {
 	const htmlElRef = useRef(null)
 	const setFocus = () => {htmlElRef.current &&  htmlElRef.current.focus()}
 
 	return [ htmlElRef,  setFocus ] 
 }
+
 const Search = () => {
   const [query, setQuery] = useState('');
   const [isSearchVisible, setIsSearchVisible] = useState(false);  
   const [results, setResults] = useState([]);
+  const [focused, setFocused] = useState(1);
   const [inputRef, setInputFocus] = UseFocus()
+  const containerRef = useRef(null);
+  // Open search and focus input
   const handleClick = () => {
     setIsSearchVisible(!isSearchVisible)
     setInputFocus()
   }
+  // Reset search to default
+  const reset = () => {
+    setIsSearchVisible(false)
+    setResults([])
+    inputRef.current.value="";
+  } 
+  //empty search on esc
+  useKeyPressEvent('Escape', () => (reset()));
+  
+  // close search click outside
+  useClickAway(containerRef, () => {
+    reset()
+  });
+
   const SearchButton = () => {
       return (
         <button className={cx(style.Search__button, (isSearchVisible ? style['Search__button--isActive'] : '' ))} onClick={handleClick}>
@@ -31,10 +51,12 @@ const Search = () => {
   }
   const ListItem = ({title, url, xIndex, yIndex}) => {
     const { selected, active } = useArrowNavigation(xIndex, yIndex)
-   
+    const keydown = (index) => navigate(results[index].url)
+      
     return (
       <Link 
         to={url} 
+        onKeyDown={useKeyPressEvent('Enter', () => (selected && keydown(yIndex)))}
         className={cx(style.Search__link, selected && active ? style['Search__link--focused'] : '')}
       >
         {title}
@@ -43,7 +65,9 @@ const Search = () => {
   }
 
   const ResultList = () => {
+    
     if (results.length > 0) {
+      
       return(
        
         results.map((page, i) => (
@@ -54,6 +78,7 @@ const Search = () => {
               index={i} 
               xIndex={0} 
               yIndex={i}  
+              
             />
           </div>
         ))
@@ -74,13 +99,12 @@ const Search = () => {
       var results = []
       // search the indexed fields
       Object.keys(index).forEach(idx => {
-
         results.push(...index[idx].values.search(query)) // more search options at https://github.com/nextapps-de/flexsearch#index.search
       })
 
       // find the unique ids of the nodes
       results = Array.from(new Set(results))
-
+      
       // return the corresponding nodes in the store
       var nodes = store
         .filter(node => (results.includes(node.id) ? node : null))
@@ -101,10 +125,11 @@ const Search = () => {
       setQuery(query)
       
     }
+    
   }
   return (
-      <div className={style.Search}>
-         <ArrowNavigation >
+      <div className={style.Search} ref={containerRef}>
+         <ArrowNavigation>
           <input
             className={cx(style.Search__field, (isSearchVisible ? style['Search__field--isVisible'] : ''))}
             type="text"
@@ -112,6 +137,7 @@ const Search = () => {
             autoComplete="off"
             onChange={search}
             ref={inputRef}
+            
           />
         
           <div className={cx(style.Search__list, (results.length > 0 ? style['Search__list--isVisible'] : null))}>

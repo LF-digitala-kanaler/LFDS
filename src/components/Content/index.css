@@ -10,8 +10,8 @@
   font-size: var(--font-size-small);
   line-height: 1.429;
   @media (--small-viewport) { 
-    font-size: var(--font-size-large);
-    line-height: 1.333;
+    font-size: var(--font-size-normal);
+    line-height: 1.3125;
   }
 }
 .Content h2{
@@ -22,7 +22,7 @@
   position: relative;
 
   @media (--small-viewport) { 
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 }
 
@@ -34,7 +34,7 @@
   position: relative;
 
   @media (--small-viewport) { 
-    font-size: 2.5rem;
+    font-size: 2rem;
   
   }
 }
@@ -49,16 +49,23 @@
     font-size: 1.5rem;
   }
 }
-.Content h5{
+.Content h5 {
   font-size: 1rem;
   line-height: 1.333;
-  font-weight: bold;
   margin-bottom: calc( var(--spacing-vertical--05) / 2);
   margin-top: var(--spacing-vertical--1);
 
   @media (--small-viewport) { 
-    font-size: 1.125rem;
+    font-size: 1.25rem;
   }
+}
+.Content h6 {
+  font-size: 1rem;
+  line-height: 1.333;
+  text-transform: uppercase;
+  margin-bottom: calc( var(--spacing-vertical--05) / 2);
+  margin-top: var(--spacing-vertical--1);
+
 }
 
 .Content img {
