@@ -7,7 +7,7 @@ previewImage: /img/upload.svg
 intro: >-
   Use this component if you want to let your user upload a file to us, for
   example as part of an injury claim or a secure message.
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       <figure class="Image none"><img src="undefined" srcset="undefined 2x"
