@@ -9,7 +9,7 @@ previewImage: /img/avatar.svg
 intro: >-
   Avatars are used to give a visual representations of the various parties
   involved in a conversation.
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
