@@ -8,7 +8,7 @@ intro: >-
   The datepicker is the input field used when a date is the expected input. It
   is designed so that the user can either choose the date from a calendar or
   enter it manually.
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

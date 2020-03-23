@@ -8,7 +8,7 @@ intro: >-
   A slider provides a more visual way of providing a value and should preferably
   be used in conjunction with other content which is dynamically changed based
   on the value provided through the slider.
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

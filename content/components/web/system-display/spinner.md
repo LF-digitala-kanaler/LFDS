@@ -9,7 +9,7 @@ previewImage: /img/alert.svg
 intro: >-
   The spinner is used to show that the system is loading/fetching data and that
   the response isn't instantaneous.
-backgroundColor: '#f3f3f3'
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
