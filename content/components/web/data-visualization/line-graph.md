@@ -17,5 +17,7 @@ backgroundColor: '#fff'
 tabs:
   - content: qwe
     name: Design
+  - content: asd
+    name: Code
 ---
 
