@@ -123,7 +123,6 @@ export const pageQuery = graphql`
         previewImage
         description
         backgroundColor
-        status
         tabs{
           name
           content
