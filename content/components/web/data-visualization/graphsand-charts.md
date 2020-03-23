@@ -44,9 +44,7 @@ tabs:
       time for more than one group.
 
 
-      <figure class="Image Image__border"><img src="/img/exempel-graph-line.jpg"
-      srcset="/img/exempel-graph-line.jpg 2x" alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      More about line graph
 
 
       #### . . . a Pie Chart.
@@ -56,9 +54,8 @@ tabs:
       whole. They do not show changes over time.
 
 
-      <figure class="Image Image__border"><img src="/img/exempel-graph-pie.jpg"
-      srcset="/img/exempel-graph-pie.jpg 2x" alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      [More about Pie
+      Chart](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/piechart)
 
 
       #### . . . a Bar Graph.
@@ -69,10 +66,7 @@ tabs:
       graphs are best when the changes are larger.
 
 
-      <figure class="Image Image__background"><img
-      src="/img/exempel-graph-bar.jpg" srcset="/img/exempel-graph-bar.jpg 2x"
-      alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      More about Bar Graph
 
 
       #### . . . an Area Graph.
@@ -84,10 +78,7 @@ tabs:
       one whole category (for example public and private groups).
 
 
-      <figure class="Image Image__border"><img src="/img/exempel-graph-area.jpg"
-      srcset="/img/exempel-graph-area.jpg 2x" alt="Exemple Area Chart here in
-      "Fondlistan""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      More about Area Graph
 
 
       #### . . . an X-Y Plot.
@@ -101,6 +92,7 @@ tabs:
       the variables don't follow any pattern and have no relationship.
 
 
+      More about X-Y Plot
 
 
       #### . . . a Map Chart.
@@ -112,9 +104,7 @@ tabs:
       corresponding to the geographical entities represented on the map. 
 
 
-      <figure class="Image Image__border"><img src="/img/exempel-graph-map.jpg"
-      srcset="/img/exempel-graph-map.jpg 2x" alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      More about Map Chart
 
 
       ### The different parts

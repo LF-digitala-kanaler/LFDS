@@ -9,7 +9,6 @@ description: >-
 intro: >-
   Buttons are used as a part of a flow, and is the component which the user
   clicks to make progress in said flow.
-status: New
 tabs:
   - content: >-
       ## How to use
@@ -40,11 +39,10 @@ tabs:
       [copy-tab](?Copy).
 
 
-      <div class="Callout"><strong class="Callout__title">Don't use disabled buttons! </strong><p
-      class="Callout__text">For
-      accessibility reasons LFUI strongly discourages from using disabled
-      buttons. Please read more in "Design rationale" at the bottom of the page
-      to learn more.</p></div>
+      <div class="Callout"><strong class="Callout__title">Don't use disabled
+      buttons! </strong><p class="Callout__text">For accessibility reasons LFUI
+      strongly discourages from using disabled buttons. Please read more in
+      "Design rationale" at the bottom of the page to learn more.</p></div>
 
 
       ### Versions
@@ -137,10 +135,9 @@ tabs:
       "Logga in" (or "Logga ut" if in a logged in-view).
 
 
-      <div class="Callout"><p
-      class="Callout__text"><strong>Only for logging in/out! </strong>This
-      button should never be used for any other purposes than signing in or
-      out-purposes!</p></div>
+      <div class="Callout"><p class="Callout__text"><strong>Only for logging
+      in/out! </strong>This button should never be used for any other purposes
+      than signing in or out-purposes!</p></div>
 
 
       ### Modifiers
@@ -174,9 +171,8 @@ tabs:
 
 
       <figure class="Image Image__background"><img src="/img/button-sizes.jpg"
-      srcset="/img/button-sizes.jpg 2x" alt="/img/button-sizes.jpg
-      2x""><figcaption><div class="Image__caption">/img/button-sizes.jpg
-      2x"</div></figcaption></figure>
+      srcset="/img/button-sizes.jpg 2x" alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
 
 
       #### With an arrow
