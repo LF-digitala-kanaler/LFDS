@@ -17,7 +17,7 @@ const ComponentExample = ({variants, background}) => {
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
   const [code, setCode] = useState(variants[0].node.content);
   const [source, setSource] = useState(false);
-  const [height, setHeight] = useState(240);
+  const [height, setHeight] = useState(300);
   const iframeRef =  React.createRef();
   
   const hidden = {
@@ -89,7 +89,7 @@ const ComponentExample = ({variants, background}) => {
     if (
       iframeRef.current &&
       iframeRef.current.node.contentDocument &&
-      iframeRef.current.node.contentDocument.body.scrollHeight > 240
+      iframeRef.current.node.contentDocument.body.scrollHeight > 300
     ) {
       setHeight(iframeRef.current.node.contentDocument.body.scrollHeight);
     }
