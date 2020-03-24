@@ -2,14 +2,97 @@
 template: ComponentPage
 category: Navigations
 title: Navbar
-description: 'En version av toppmenyn, kan användas blå eller vit version'
+description: The navbar is the foundation for the various menus used at Länsförsäkringar.
 previewImage: /img/navbar.svg
-intro: Bavbar preamble
+intro: >-
+  The navbar is the foundation for the various menus used at Länsförsäkringar.
+  As each channel/system has its own need from a menu it is however always
+  modified for that environment.
 backgroundColor: '#f3f3f3'
 tabs:
-  - content: content code
-    name: Code
-  - content: content design
+  - content: >-
+      ## How to use
+
+
+      The navbar differs from our other components in that it is a foundation to
+      build on, rather than a set design. If you're designing on a system level
+      and need a new menu, use the navbar as your starting point and then adapt
+      it to what suits your environment.
+
+
+      ### Versions
+
+
+      We have two versions of our navbar; blue and white. Technically you could
+      use any colour combination you want, but using other colours than blue and
+      white should only be done as a last resort.
+
+
+      #### Blue navbar
+
+
+      The blue navbar should only be used for customer-facing
+      systems/applications, and when in use it should be the main menu.
+
+
+      #### White navbar
+
+
+      The white navbar is used as a secondary menu (like the "personal menu" on
+      Mina Sidor) or in internal systems.
+
+
+      ### Modifiers
+
+
+      A number of modifiers exist for the navbar, and except for direction they
+      are all on/off, meaning that you can combine them freely.
+
+
+      #### Direction
+
+
+      Your navbar can be either vertical or horizontal. Which one to choose
+      depends on the rest of your layout and preferred behaviour of your menu:
+
+
+      * Horizontal: Good for either very small applications or large ones. Small
+      one applications lets you click the link and you're there. In large
+      application/sites the horizontal menu serves well as the basis for a mega
+      menu (like on [lansforsakringar.se](https://www.lansforsakringar.se)).
+
+      * Vertical: Great for responsive views and for mid-sizes applications. It
+      lets the users either find their way to a category page and navigate
+      within the content or to dig deeper by clicking the chevron on the right
+      hand side of the text. The vertical menu is always placed on the left hand
+      side.
+
+
+      #### Logotype
+
+
+      If you wish, you can add a logotype in the first part of the menu.
+
+
+      #### Icons
+
+
+      The menu items may have an icon in front of them. If you choose to use
+      icons, have an icon in front of every item on that level.
+
+
+      #### Size
+
+
+      There are three sizes available for the navbar; standard, small and extra
+      small. They can all be used, but recommended usage is as follows:
+
+
+      * Normal size with horizontal direction
+
+      * Small size with vertical direction
+
+      * Extra small for pop-out menus
     name: Design
   - content: content code
     name: Code
