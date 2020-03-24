@@ -30,7 +30,6 @@ export const ComponentPageTemplate = ({
     </Wrapper>
     <Wrapper tag="div" menu={true} narrow>
       <Preamble text={intro} tag="p" align={"left"} />
-      
     </Wrapper>
     <Wrapper tag="div" menu={true}>
       {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}   />}

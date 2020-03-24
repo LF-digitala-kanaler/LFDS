@@ -50,3 +50,9 @@
   }
   
 }
+.Wrapper--tight {
+  @media (--large-viewport) { 
+    max-width: var(--content-width--tight);
+  }
+  
+}

@@ -49,7 +49,7 @@ const TabsWrapper = ({tabs, location, navigate}) => {
         {tabContent.map((tab, index) => {
           return (
             <TabPanel className={style.Tabs__panel} key={index}>
-              <Wrapper menu={true} tag="div" narrow>
+              <Wrapper menu={true} tag="div" tight>
               <Content source={tab} />
               </Wrapper>
             </TabPanel>
