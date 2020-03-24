@@ -74,16 +74,25 @@ tabs:
       If you wish, you can add a logotype in the first part of the menu.
 
 
+      #### Icons
 
 
+      The menu items may have an icon in front of them. If you choose to use
+      icons, have an icon in front of every item on that level.
 
 
+      #### Size
 
 
-      ikon framför text på items
+      There are three sizes available for the navbar; standard, small and extra
+      small. They can all be used, but recommended usage is as follows:
 
 
-      storlekar: normal, small, xs
+      * Normal size with horizontal direction
+
+      * Small size with vertical direction
+
+      * Extra small for pop-out menus
     name: Design
   - content: content code
     name: Code
