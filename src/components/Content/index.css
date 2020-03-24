@@ -11,7 +11,7 @@
   line-height: 1.429;
   @media (--small-viewport) { 
     font-size: var(--font-size-normal);
-    line-height: 1.3125;
+    line-height: 1.375;
   }
 }
 .Content h2{
@@ -144,9 +144,7 @@
     left: -2px;
     background-color: var(--callout-highlight);
   }
-  @media (--large-viewport) { 
-    width: var(--content-width--narrow);
-  }
+ 
 }
 
 .Callout__title {
