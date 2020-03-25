@@ -345,15 +345,16 @@ tabs:
       change  size and type. 
 
 
-      ### Types
-
-
       ```html
 
       <button type="button" class="btn *">Do this</button>
 
+      <a href="#" role="button" class="btn *">Do this</a>
 
       ```
+
+
+      ### Types
 
 
       #### Primary 
@@ -369,7 +370,7 @@ tabs:
       ##### Modifiers
 
 
-      ###### The two-rowed button
+      ###### The two-rowed button 
 
 
       ```
@@ -395,8 +396,6 @@ tabs:
       </button>
 
       ```
-
-
 
 
 
