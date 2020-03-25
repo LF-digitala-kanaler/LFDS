@@ -338,6 +338,96 @@ tabs:
       lansforsakringar.se" eller "Logga in på Mina sidor".
     name: Copy
   - content: >-
+      ## How to use
+
+
+      All our buttons share the same base html but you have the option to
+      change  size and type. 
+
+
+      ### Types
+
+
+      ```html
+
+      <button type="button" class="btn *">Do this</button>
+
+
+      ```
+
+
+      #### Primary 
+
+
+      ```
+
+      <button type="button" class="btn btn-primary">Do this</button>
+
+      ```
+
+
+      ##### Modifiers
+
+
+      ###### The two-rowed button
+
+
+      ```
+
+      <button class="btn btn-primary btn-arrow">
+        Next page
+        <span class="d-block text-sm font-weight-normal font-base"> &amp; fyll i dina uppgifter</span>
+      </button>
+
+      ```
+
+
+      ###### bankID
+
+
+      ```
+
+      <button type="submit" class="btn btn-primary btn-tight">
+        <svg class="icon text-white" width="24" height="24">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-bankid-24"></use>
+        </svg>
+        Legitimera dig
+      </button>
+
+      ```
+
+
+
+
+
+
+      #### Secondary 
+
+
+      ```
+
+      <button type="button" class="btn btn-secondary">Do this</button>
+
+      ```
+
+
+      #### Log in 
+
+
+      ```
+
+      <button type="button" class="btn btn-login-logout">Login</button>
+
+      ```
+
+
+      ### Modifiers
+
+
+
+
+
+
       ## Accessibility
 
 
@@ -348,12 +438,8 @@ tabs:
       element.
 
 
-
-
       Also, if you code a `<button>`-element without the `.btn-class`, also add
       the `role="button"` to the element to have proper styling.
-
-
 
 
       "When using button classes on `<a>` elements that are used to trigger
@@ -363,4 +449,3 @@ tabs:
       technologies such as screen readers."
     name: Code
 ---
-
