@@ -337,7 +337,30 @@ tabs:
       länk användas. Då kan vi till exempel skriva: "Logga in på
       lansforsakringar.se" eller "Logga in på Mina sidor".
     name: Copy
-  - content: test
+  - content: >-
+      ## Accessibility
+
+
+      Make sure you include relevant accesibility markup for elements that are
+      not really buttons but intend to be used as such. This not only for
+      accesibility reasons, but also for styling purposes. In order for these
+      "buttons" to have the proper styling, add the `role="button"` to the
+      element.
+
+
+
+
+      Also, if you code a `<button>`-element without the `.btn-class`, also add
+      the `role="button"` to the element to have proper styling.
+
+
+
+
+      "When using button classes on `<a>` elements that are used to trigger
+      in-page functionality (like collapsing content), rather than linking to
+      new pages or sections within the current page, these links should be given
+      a `role="button"` to appropriately convey their purpose to assistive
+      technologies such as screen readers."
     name: Code
 ---
 
