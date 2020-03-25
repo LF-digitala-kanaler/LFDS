@@ -52,7 +52,9 @@ const Search = () => {
   const ListItem = ({title, url, xIndex, yIndex}) => {
     const { selected, active } = useArrowNavigation(xIndex, yIndex)
     const keydown = (index) => navigate(results[index].url)
-      
+    const transformCategory = (url) => {
+      return url.split('/')[1].replace(/-/g, ' ')
+    } 
     return (
       <Link 
         to={url} 
@@ -60,6 +62,7 @@ const Search = () => {
         className={cx(style.Search__link, selected && active ? style['Search__link--focused'] : '')}
       >
         {title}
+        {transformCategory(url)}
       </Link>
     )
   }
@@ -78,7 +81,6 @@ const Search = () => {
               index={i} 
               xIndex={0} 
               yIndex={i}  
-              
             />
           </div>
         ))
@@ -93,23 +95,26 @@ const Search = () => {
     // adicionar variável para língua
     var index = window.__FLEXSEARCH__.en.index
     var store = window.__FLEXSEARCH__.en.store
+
+    console.log(index)
     if (!query || !index) {
       return []
     } else {
       var results = []
       // search the indexed fields
+
       Object.keys(index).forEach(idx => {
         results.push(...index[idx].values.search(query)) // more search options at https://github.com/nextapps-de/flexsearch#index.search
       })
-
+    
       // find the unique ids of the nodes
       results = Array.from(new Set(results))
-      
+     
       // return the corresponding nodes in the store
       var nodes = store
         .filter(node => (results.includes(node.id) ? node : null))
         .map(node => node.node)
-
+      
       return nodes
     }
   }
@@ -118,6 +123,7 @@ const Search = () => {
     const query = event.target.value
     if (query.length > 0) {
       const results = getSearchResults(query)
+      console.log(results)
       setResults(results)
       setQuery(query)
     } else {

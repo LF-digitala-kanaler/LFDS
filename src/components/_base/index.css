@@ -138,3 +138,12 @@ div[role="group"][tabindex] {
   background: var(--color-yellow); 
 }
 
+/* External Links */
+
+.Content a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
+    color:green;
+}
+
+.Content a[rel*="external"]::after {
+  content: " (EXTERNAL)" 
+}

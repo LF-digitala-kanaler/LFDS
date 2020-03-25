@@ -87,6 +87,13 @@ module.exports = {
             },
           },
           {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_target",
+            rel: "external nofollow noreferrer noopener"
+          }
+          },
+          {
             resolve: 'gatsby-remark-images',
             options: {
               // It's important to specify the maxWidth (in pixels) of
@@ -165,6 +172,7 @@ module.exports = {
         
         },
     },
+    
     {
       resolve: 'gatsby-plugin-flexsearch',
       options: {
@@ -187,7 +195,31 @@ module.exports = {
             },
             store: true, // In case you want to make the field available in the search results.
           },
-          
+          {
+            name: 'description',
+            indexed: false,
+            resolver: 'frontmatter.description',
+            attributes: {
+              encode: 'balance',
+              tokenize: 'strict',
+              threshold: 6,
+              depth: 3,
+            },
+            store: true,
+          },
+          {
+            name: 'heading',
+            indexed: true,
+            resolver: 'headings.value',
+            store: true,
+            attributes: {
+              encode: "advanced",
+              tokenize: "reverse",
+              suggest: true,
+              cache: true,
+              limit: 5
+            },
+          },
           {
             name: 'url',
             indexed: false,
@@ -195,6 +227,7 @@ module.exports = {
             store: true,
           },
         ],
+        
       },
     },
     'gatsby-plugin-netlify' // make sure to keep it last in the array

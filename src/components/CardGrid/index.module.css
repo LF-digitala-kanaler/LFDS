@@ -3,10 +3,10 @@
 }
 
 .CardGrid {
-  display: grid;
-  grid-gap: 8px;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0 -1rem;
+  display: flex;
+  grid-gap: 52px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: var(--spacing-vertical--2) -1rem;
 
   
   @media (--large-viewport) {

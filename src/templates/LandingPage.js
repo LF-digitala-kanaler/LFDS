@@ -20,11 +20,15 @@ export const LandingPageTemplate = ({
 }) => (
    
   <>
-    <Wrapper tag="div" menu={true} narrow>
-      <Heading tag={1} text={title} align={"left"} />
-      <Preamble text={intro} tag="p" align={"left"} />
+    <Wrapper tag="div"  narrow>
+      <Heading tag={1} text={title} align={"center"} />
+      <Preamble text={intro} tag="p" align={"center"} />
+    </Wrapper>
+    <Wrapper tag="div"  narrow>
       <CardGrid list={categories}  />
+    </Wrapper>
       {/* <Changelog />  */}
+    <Wrapper tag="div" narrow>
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
   </>

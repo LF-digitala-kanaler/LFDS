@@ -120,27 +120,24 @@ export const pageQuery = graphql`
         template
         category
         previewImage
-        description
         backgroundColor
         tabs{
           name
           content
         }
-        
       }
       fields {
-
-          frontmattermd {
-            tabs {
-              content {
-                html
-              }
-              name {
-                rawMarkdownBody
-              }
+        frontmattermd {
+          tabs {
+            content {
+              html
+            }
+            name {
+              rawMarkdownBody
             }
           }
         }
+      }
     }
     allComponentExample: allHtmlContent{
         edges {
