@@ -65,6 +65,10 @@ tabs:
       ### Versions
 
 
+      There is two versions of of our spinner you can use. Both comes with the
+      same modifiers.
+
+
       #### Default
 
 
@@ -86,7 +90,7 @@ tabs:
       ```
 
 
-      ##### Modifiers 
+      ##### Modifiers
 
 
       `.lf-spinner-sm` - change size to 40px
@@ -114,9 +118,7 @@ tabs:
       ```
 
 
-
-
-      ##### Modifiers 
+      ##### Modifiers
 
 
       `.lf-spinner-neg-sm` - change size to 40px
