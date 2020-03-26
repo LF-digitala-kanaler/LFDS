@@ -25,13 +25,15 @@ export const HomePageTemplate = ({
       <Grid columns={3} gap="64px">
         
         { shortcuts &&
+        
           shortcuts.map(item => {
-            return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon} text={item.text} path={item.link} /></Cell>
+            console.log(item);
+            return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Cell>
           })
         }
       </Grid>
     </Wrapper>
-    {fullWidthImage && <FullWidthBackground image={fullWidthImage}><Content source={body} /> </FullWidthBackground>}
+    {fullWidthImage && <FullWidthBackground image={fullWidthImage.childImageSharp ? fullWidthImage.childImageSharp.fluid.src : fullWidthImage}><Content source={body} /> </FullWidthBackground>}
     <Wrapper wide tag="div">
       <Grid columns={2} gap="64px">
         {/* <Cell><Changelog /></Cell> */}
@@ -44,7 +46,7 @@ const HomePage = ({
   data: { page }
 
   },) => {
-
+    console.log(page)
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -79,7 +81,9 @@ export const pageQuery = graphql`
         intro
         background
         shortcuts {
-          icon
+          icon{
+            publicURL
+          }
           title
           text
           link
@@ -87,7 +91,13 @@ export const pageQuery = graphql`
         relatedLinks {
           link
         }
-        fullWidthImage
+        fullWidthImage {
+          childImageSharp {
+            fluid(maxWidth: 4000, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
     

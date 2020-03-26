@@ -35,7 +35,6 @@ export const LandingPageTemplate = ({
 )
 const LandingPage = ({ data: { page, allPages },currentDirectory, location }) => {
   
-  
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
@@ -102,7 +101,9 @@ export const pageQuery = graphql`
           frontmatter {
             category
             title
-            previewImage
+            previewImage{
+              publicURL
+            }
           }
           fields {
             slug

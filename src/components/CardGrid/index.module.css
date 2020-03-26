@@ -3,7 +3,7 @@
 }
 
 .CardGrid {
-  display: flex;
+  display: grid;
   grid-gap: 52px;
   grid-template-columns: repeat(3, 1fr);
   margin: var(--spacing-vertical--2) -1rem;

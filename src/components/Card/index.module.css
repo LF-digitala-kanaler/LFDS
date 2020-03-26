@@ -70,6 +70,10 @@
   }
   
 }
+.Card--list .Card__empty {
+  width: 100%;
+  max-width: 240px;
+}
 .Card--list  .Card__object {
   width: auto;
   max-width: none;

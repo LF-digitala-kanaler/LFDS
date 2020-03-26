@@ -119,7 +119,9 @@ export const pageQuery = graphql`
         intro
         template
         category
-        previewImage
+        previewImage {
+          publicURL
+        }
         backgroundColor
         tabs{
           name

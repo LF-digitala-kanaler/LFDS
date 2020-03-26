@@ -43,17 +43,25 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
-        icon: `${__dirname}/static/images/favicon.svg` // This path is relative to the root of the site.
+        icon: `${__dirname}/static/img/favicon.svg` // This path is relative to the root of the site.
       }
     },
-   
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     // Add static assets before markdown files
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/images`,
-        name: 'images'
+        path: `${__dirname}/static/img`,
+        name: 'uploads'
       }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/img`,
+        name: 'images',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
@@ -130,8 +138,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-postcss`,
       options: {

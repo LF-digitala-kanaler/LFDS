@@ -46,7 +46,13 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Typography", value: "Typography" }
       - { label: Title, name: title, widget: string }
       - { label: Component Description, name: description, widget: text, hint: Will be shown on Component Group page}
-      - { name: previewImage, label: previewImage, widget: image, required: false }
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        required: false
+        media_library:
+          config:
+            multiple: true
       - { label: Intro, name: intro, widget: text }
       
       - label: 'Background'
@@ -192,7 +198,13 @@ collections: # A list of collections the CMS should be able to edi
     filter: {field: "template", value: "CategoryOverview"}
     fields: 
       - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
-      - { name: previewImage, label: previewImage, widget: image, required: false }
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        required: false
+        media_library:
+          config:
+            multiple: true
       - { label: Template, name: template, widget: hidden, default: CategoryOverview, value: CategoryOverview }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }

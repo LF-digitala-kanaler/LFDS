@@ -95,7 +95,9 @@ export const pageQuery = graphql`
         title
         intro
         slug
-        previewImage
+        previewImage {
+          publicURL
+        }
         contentBelow
         contentAbove
         background
@@ -116,7 +118,9 @@ export const pageQuery = graphql`
           frontmatter {
             category
             title
-            previewImage
+            previewImage {
+              publicURL
+            }
             description
           }
           fields {
