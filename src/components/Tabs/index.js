@@ -8,25 +8,30 @@ const TabsWrapper = ({tabs, location, navigate}) => {
  const [tabName, setTabName] = useState([]);
  const [tabContent, setTabContent] = useState([]); 
  const [index, setTabIndex] = useState(0)
+ 
  useEffect(() => {
-    
-    setTabName(tabs.map(item => {
-      return ((item.name?.rawMarkdownBody || item.name))
-    }))
-    setTabContent(tabs.map(item => {
-      return ((item.content?.html || item.content))
-    }))
-   
+    console.log(tabName.length, '1')
+    if(tabs.length > 0) {
+      setTabName(tabs.map(item => {
+        return ((item.name?.rawMarkdownBody || item.name))
+      }))
+      setTabContent(tabs.map(item => {
+        return ((item.content?.html || item.content))
+      }))
+    }
     
   },[]);
   // Needed for the cms to update the tabs
   useEffect(() => {
+    
+    if(tabs.length > 0) {
     setTabName(tabs.map(item => {
       return ((item.name?.rawMarkdownBody || item.name))
     }))
     setTabContent(tabs.map(item => {
       return ((item.content?.html || item.content))
     }))
+    }
   },[tabs]);
   useEffect(() => {
     setTabIndex(tabName.indexOf(location.search.substr(1)))

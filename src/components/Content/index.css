@@ -303,4 +303,5 @@ figure {
 
 .Content p code {
   background-color: var(--color-smoke);
+  padding: 0 2px;
 }
