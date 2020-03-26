@@ -1,5 +1,4 @@
 ---
-priority: ''
 template: ComponentPage
 category: Page Content
 title: Tables

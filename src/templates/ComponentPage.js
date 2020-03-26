@@ -26,7 +26,7 @@ export const ComponentPageTemplate = ({
   
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} /> 
-      <ComponentVersion version={currentDirectory} />
+      { currentDirectory && <ComponentVersion version={currentDirectory} />}
     </Wrapper>
     <Wrapper tag="div" menu={true} narrow>
       <Preamble text={intro} tag="p" align={"left"} />
