@@ -289,12 +289,18 @@ figure {
   font-size: var(--font-size-small);
   font-family: var(--font-family-base);
   padding: var(--spacing-xs);
+  
+  @media (--large-viewport) { 
+    width: var(--content-width--narrow);
+  }
 }
+
 .Content pre code {
   white-space: pre;
   overflow-x: scroll;
   display: block;
 }
+
 .Content p code {
   background-color: var(--color-smoke);
 }
