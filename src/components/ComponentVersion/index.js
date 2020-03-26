@@ -6,8 +6,9 @@ import componentsStatus from '../../data/componentsStatus.json'
 
 
 export const ComponentVersion = ({version}) => {
+  
   // get current pages version
-  const currentVersion = _.filter(componentsStatus.components, function(o) { return o.component === version; });
+  const currentVersion = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === version.toLowerCase(); });
   if(currentVersion[0]) {
     return ( 
       <p className={style.ComponentVersion}>  Version {currentVersion[0].vanilla.changedInVersion[0]}</p>
