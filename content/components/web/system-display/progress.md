@@ -39,7 +39,4 @@ tabs:
     name: Design
   - content: content code
     name: Copy
-  - content: content code
-    name: Code
 ---
-
