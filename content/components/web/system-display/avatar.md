@@ -30,7 +30,51 @@ tabs:
     name: Design
   - content: content
     name: Copy
-  - content: content code
+  - content: >-
+      ## Versions
+
+
+      Avatar comes in 2 different versions which all share the same base html
+      and modifiers.
+
+
+      ```html
+
+      <div class="avatar avatar-blue avatar-inline *">*</div>
+
+      ```
+
+
+      ### Image
+
+
+      ```
+
+      <div class="avatar avatar-blue avatar-inline has-image">
+        <img class="avatar-image p-03" src="https://via.placeholder.com/30" alt="Jane Doe">
+      </div>
+
+      ```
+
+
+      ### Initials
+
+
+      Depending on your needs there is two different versions of this one. One
+      with a background color and one with only a border. 
+
+
+      ```
+
+      <div class="avatar avatar-inverted avatar-blue avatar-inline"
+      data-initials="JD">Jane Doe</div>
+
+      <div class="avatar avatar-blue avatar-inline" data-initials="JD">Jane
+      Doe</div>
+
+      ```
+
+
+      #### Modifiers
     name: Code
 ---
-
