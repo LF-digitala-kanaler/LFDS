@@ -1,19 +1,18 @@
 import React from "react"
 import style from './index.module.css';
-import { useStaticQuery, graphql } from "gatsby"
 import _ from 'lodash';
 import componentsStatus from '../../data/componentsStatus.json'
 
 
 export const ComponentVersion = ({version}) => {
-  
+  console.log(version, componentsStatus.components)
   // get current pages version
   if(typeof window !== `undefined`) {
     const currentVersion = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === version.toLowerCase(); });
   
     if(currentVersion[0]) {
       return ( 
-        <p className={style.ComponentVersion}>  Version {currentVersion[0].vanilla.changedInVersion[0]}</p>
+        <p className={style.ComponentVersion}>  Last updated: {currentVersion[0].bootstrap.changedInVersion[0]}</p>
       )
     }else {
       return null

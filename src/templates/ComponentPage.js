@@ -7,7 +7,6 @@ import Preamble from '../components/Preamble';
 import TabsWrapper from '../components/Tabs';
 import ComponentExample from '../components/ComponentExample'
 import { Location, navigate, globalHistory} from "@reach/router";
-
 import {ComponentVersion} from '../components/ComponentVersion';
 
 // Export Template for use in CMS preview
@@ -23,7 +22,7 @@ export const ComponentPageTemplate = ({
   
   <> 
 
-  
+    
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} /> 
       { currentDirectory && <ComponentVersion version={currentDirectory} />}
