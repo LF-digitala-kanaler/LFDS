@@ -13,8 +13,6 @@ import cx from 'classnames';
 
 const Header = ({ title, breadcrumb, menu }) => {
   
-   
- 
   return (
     <header className={style.Header}>
       <div className={style.Header__container}>

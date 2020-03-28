@@ -5,7 +5,6 @@ import componentsStatus from '../../data/componentsStatus.json'
 
 
 export const ComponentVersion = ({version}) => {
-  console.log(version, componentsStatus.components)
   // get current pages version
   if(typeof window !== `undefined`) {
     const currentVersion = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === version.toLowerCase(); });

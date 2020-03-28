@@ -7,7 +7,6 @@ const CardGrid = ({list}) => {
   const cardItems = list.map((item, index) => {
       
       if(item.category !== "null") {
-        console.log(item)
         return(
           <div className={style.CardGrid__item} key={index}>
             <Card 
