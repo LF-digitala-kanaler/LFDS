@@ -58,9 +58,11 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Background'
         name: 'backgroundColor'
         widget: 'select'
+        hint: 'Change background on iframe'
         options: 
           - { label: "White", value: "#fff" }
           - { label: "Grey", value: "#f3f3f3" }
+        default: ["White"]
         required: false
 
       - name: 'tabs'
@@ -224,18 +226,6 @@ collections: # A list of collections the CMS should be able to edi
       - name: 'changelog-page'
         label: 'Changelog'
         file: 'content/about/whatsNew/changelog.md'
-        fields: 
-          - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
-          - { label: Template, name: template, widget: hidden, default: Changelog, value: Changelog }
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
-  
-  - name: 'componentStatus'
-    label: 'Component Status'
-    files:
-      - name: 'changelog-page'
-        label: 'Changelog'
-        file: 'content/components/web/componentStatus.md'
         fields: 
           - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
           - { label: Template, name: template, widget: hidden, default: Changelog, value: Changelog }
