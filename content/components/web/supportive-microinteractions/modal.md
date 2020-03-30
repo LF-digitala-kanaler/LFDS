@@ -8,8 +8,7 @@ description: >-
 previewImage: /img/modal.svg
 intro: >-
   Modals are triggered by the user clicking a button. They have two use cases;
-  in a “Read more”-context, signing stuff and server messages as "This
-  registrationnumber are a moped, want to change form?".
+  in a “Read more”-context and signing stuff.
 backgroundColor: '#fff'
 tabs:
   - content: >-
