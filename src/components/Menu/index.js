@@ -31,7 +31,6 @@ const Menu = ({currentDirectory}) => {
               fields {
                 slug
                 contentType
-                parent
               }
             }
           }

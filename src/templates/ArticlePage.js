@@ -23,9 +23,9 @@ export const ArticlePageTemplate = ({
 )
 const ArticlePage = ({ 
   data: { page }
-
+  
   },) => {
-   
+  console.log(page)
 
   return (
     <Layout

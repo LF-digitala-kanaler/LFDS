@@ -80,7 +80,62 @@ module.exports = {
       }
     },
     // images
-    
+    {
+      resolve: 'gatsby-plugin-flexsearch',
+      options: {
+        // L
+        languages: ['en'],
+        type: 'MarkdownRemark', // Filter the node types you want to index
+        // Fields to index.
+        fields: [
+          {
+            name: 'title',
+            indexed: true, // If indexed === true, the field will be indexed.
+            resolver: 'frontmatter.title',
+            // Attributes for indexing logic. Check https://github.com/nextapps-de/flexsearch#presets for details.
+            attributes: {
+              encode: "advanced",
+              tokenize: "reverse",
+              suggest: true,
+              cache: true,
+              limit: 5
+            },
+            store: true, // In case you want to make the field available in the search results.
+          },
+          {
+            name: 'description',
+            indexed: false,
+            resolver: 'frontmatter.description',
+            attributes: {
+              encode: 'balance',
+              tokenize: 'strict',
+              threshold: 6,
+              depth: 3,
+            },
+            store: true,
+          },
+          // {
+          //   name: 'heading',
+          //   indexed: false,
+          //   resolver: 'fields.frontmattermd.tabs', // not a frontmatter field
+          //   store: true,
+          // },
+          {
+            name: 'heading',
+            indexed: false,
+            resolver: 'headings.value', // all headings outside of tabs not working. Try to create a node in fields with these values
+            store: true,
+          },
+          {
+            name: 'url',
+            indexed: false,
+            resolver: 'fields.slug',
+            store: true,
+          },
+        ],
+        
+      },
+    },
     {
       resolve: 'gatsby-transformer-remark',
       
@@ -115,7 +170,7 @@ module.exports = {
             // default: { blacklist: [] }
             options: {
               // frontmatter fields to exclude, including all others
-              blacklist: ['template','previewImage','description','category','excerpt','backgroundColor', 'intro']
+              blacklist: ['template','previewImage','description','category','excerpt','backgroundColor', 'intro', 'tabs.content']
               // frontmatter fields to include, excluding all others
               //whitelist: ['tabs']
             }
@@ -154,8 +209,6 @@ module.exports = {
         ]
       }
     },
-    
-    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
@@ -179,63 +232,7 @@ module.exports = {
         },
     },
     
-    {
-      resolve: 'gatsby-plugin-flexsearch',
-      options: {
-        // L
-        languages: ['en'],
-        type: 'MarkdownRemark', // Filter the node types you want to index
-        // Fields to index.
-        fields: [
-          {
-            name: 'title',
-            indexed: true, // If indexed === true, the field will be indexed.
-            resolver: 'frontmatter.title',
-            // Attributes for indexing logic. Check https://github.com/nextapps-de/flexsearch#presets for details.
-            attributes: {
-              encode: "advanced",
-              tokenize: "reverse",
-              suggest: true,
-              cache: true,
-              limit: 5
-            },
-            store: true, // In case you want to make the field available in the search results.
-          },
-          {
-            name: 'description',
-            indexed: false,
-            resolver: 'frontmatter.description',
-            attributes: {
-              encode: 'balance',
-              tokenize: 'strict',
-              threshold: 6,
-              depth: 3,
-            },
-            store: true,
-          },
-          {
-            name: 'heading',
-            indexed: true,
-            resolver: 'headings.value',
-            store: true,
-            attributes: {
-              encode: "advanced",
-              tokenize: "reverse",
-              suggest: true,
-              cache: true,
-              limit: 5
-            },
-          },
-          {
-            name: 'url',
-            indexed: false,
-            resolver: 'fields.slug',
-            store: true,
-          },
-        ],
-        
-      },
-    },
+    
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }

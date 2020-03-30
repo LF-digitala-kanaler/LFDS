@@ -39,7 +39,6 @@ export const ChangelogPageTemplate = ({
                     <h2>{item.node.tagName}</h2>
                     <div
                       dangerouslySetInnerHTML={{ __html: item.node.descriptionHTML }} />
-                    
                   </div>
                 )
               })

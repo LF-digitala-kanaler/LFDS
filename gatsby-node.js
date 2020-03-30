@@ -66,9 +66,7 @@ exports.createPages = async ({ actions, graphql }) => {
               slug
               contentType
             }
-            headings {
-              value
-            }
+           
           }
         }
       }
@@ -93,7 +91,7 @@ exports.createPages = async ({ actions, graphql }) => {
       // create pages from md files
       const mdFiles = result.data.docs.edges
       const contentTypes = _.groupBy(mdFiles, 'node.fields.contentType')
-
+      
       _.each(contentTypes, (pages, contentType) => {
         const pagesToCreate = pages.filter(page =>
         // get pages with template field

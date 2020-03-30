@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import style from './index.module.css';
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Accordion from '../Accordion';

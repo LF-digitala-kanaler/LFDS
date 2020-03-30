@@ -94,7 +94,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        slug
         previewImage {
           publicURL
         }

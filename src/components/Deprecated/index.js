@@ -7,9 +7,11 @@ const Deprecated = ({status}) => {
   // get current pages object from componentsStatus.json
   
   const currentVersion = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === status.toLowerCase(); });
-  // if Deprecated is true
+   if (currentVersion === undefined || currentVersion.length === 0) {
+     return null
+   }
   const isDeprecated = _.get(currentVersion[0].bootstrap, 'deprecated');
-    
+  
       return (
         <>
         { isDeprecated  ?

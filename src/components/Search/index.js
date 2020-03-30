@@ -92,7 +92,7 @@ const Search = () => {
   }
 
   const getSearchResults = (query) => {
-    // adicionar variável para língua
+   
     var index = window.__FLEXSEARCH__.en.index
     var store = window.__FLEXSEARCH__.en.store
 
@@ -104,12 +104,13 @@ const Search = () => {
       // search the indexed fields
 
       Object.keys(index).forEach(idx => {
+        
         results.push(...index[idx].values.search(query)) // more search options at https://github.com/nextapps-de/flexsearch#index.search
       })
-    
+       
       // find the unique ids of the nodes
       results = Array.from(new Set(results))
-     
+      
       // return the corresponding nodes in the store
       var nodes = store
         .filter(node => (results.includes(node.id) ? node : null))

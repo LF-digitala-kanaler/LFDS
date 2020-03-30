@@ -127,17 +127,25 @@ export const pageQuery = graphql`
           content
         }
       }
+      headings {
+        value
+      }
       fields {
+       
         frontmattermd {
           tabs {
             content {
               html
+              headings{
+                value
+              }
             }
             name {
               rawMarkdownBody
             }
           }
         }
+        
       }
     }
     allComponentExample: allHtmlContent{
