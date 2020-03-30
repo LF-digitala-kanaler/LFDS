@@ -111,11 +111,7 @@ tabs:
       at phone number”)
 
 
-      #### Link
-
-
-      As the text should be kept short, create a new page and link to it from
-      the alert if you can’t get all your information across on one line.
+      #### 
 
 
       ## Please consider
@@ -123,6 +119,10 @@ tabs:
 
       * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut
       ](../buttonandlinks/shortcut/)(monocolor background and arrow) 
+
+      * If you want to use a link create a new page and link to it from the
+      alert if you can’t get all your information across on one line as the text
+      should be kept short.
 
       * The close component should never be used together with a button inside
       an alert. The button replaces the cross as it has the same functionality
