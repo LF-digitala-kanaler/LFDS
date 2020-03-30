@@ -29,9 +29,8 @@ tabs:
 
       <figure class="Image Image__background"><img
       src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x"
-      alt="/img/responsive-button.jpg 2x""><figcaption><div
-      class="Image__caption">Example of button in desktop and responsive
-      web-states</div></figcaption></figure>
+      alt=""><figcaption><div class="Image__caption">Example of button in
+      desktop and responsive web-states</div></figcaption></figure>
 
 
       Button copy should make it clear what happens after clicking it, meaning
@@ -79,7 +78,7 @@ tabs:
 
 
       **The two-rowed button** is used in flows where the user buys/signs up for
-      something (_köptjänster_). The two-rowed button is used to continue
+      something (*köptjänster*). The two-rowed button is used to continue
       between pages. Both rows have text in them, with the first one being in a
       larger font. The first row signals what will happen ("Gå vidare",
       "Godkänn") and the second gives more detail ("Ange uppgifter", "Köp
@@ -357,7 +356,7 @@ tabs:
       ### Types
 
 
-      #### Primary 
+      #### Primary
 
 
       ```
@@ -370,7 +369,7 @@ tabs:
       ##### Modifiers
 
 
-      ###### The two-rowed button 
+      ###### The two-rowed button
 
 
       ```
@@ -398,9 +397,7 @@ tabs:
       ```
 
 
-
-
-      #### Secondary 
+      #### Secondary
 
 
       ```
@@ -410,7 +407,7 @@ tabs:
       ```
 
 
-      #### Log in 
+      #### Log in
 
 
       ```
@@ -421,10 +418,6 @@ tabs:
 
 
       ### Modifiers
-
-
-
-
 
 
       ## Accessibility
