@@ -49,7 +49,58 @@ tabs:
     name: Design
   - content: content code
     name: Copy
-  - content: content code
+  - content: >-
+      ## How to use
+
+
+      LFUI uses the `eonasdan-bootstrap-datetimepicker`package. It has plenty of
+      options and functions. Refer to the official website for a [complete
+      documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
+
+
+      The datepicker is fully responsive. Do note that the dropdown stretches
+      with a`width: 100%`of its parent input field which might disrupt its
+      styling. Its preferred width is`336px`.
+
+
+      **In order for screen readers to not get disrupted by the datepicker and
+      its complex html structure**, we disable the datepicker dropdown
+      completely for screen readers by adding the following script to
+      the`dp.show`event:
+
+
+      ```
+
+      $('.datetimepicker .bootstrap-datetimepicker-widget').attr('aria-hidden',
+      'true');
+
+      ```
+
+
+      **In mobile devices**it is important to utilize the native solution for
+      date selection on the device, hence we hide the datepicker dropdown and
+      change the input to type="date" and for time type="time". An example to
+      this with javascript is:
+
+
+      ```
+
+      //Change the input type to date
+
+      if (/Mobi/.test(navigator.userAgent)) {
+        $('datetimepickerinput').type='date';
+        $('datetimepickertimeinput').type='time';
+      }
+
+
+      //Hide the datepicker dropdown, called on 'dp.show' event.
+
+      $('.datepicker').on('dp.show', function(){
+        if (/Mobi/.test(navigator.userAgent)) {
+          $('.datepicker .bootstrap-datetimepicker-widget').css('display', 'none');
+        });
+      }
+
+      ```
     name: Code
 ---
-
