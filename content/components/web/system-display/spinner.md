@@ -99,7 +99,7 @@ tabs:
       `.lf-spinner-xs` - change size to 25px
 
 
-      #### Negative space
+      #### Red
 
 
       This is the alternative look of the spinner, and can be easily created by
