@@ -143,8 +143,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'LF Rubrik';
                       src:
-                        url('${__dirname}/src/fonts/lf-rubrik.woff2') format('woff2'),
-                        url('${__dirname}/src/fonts/lf-rubrik.woff') format('woff');
+                        url('${__dirname}/fonts/lf-rubrik.woff2') format('woff2'),
+                        url('${__dirname}/fonts/lf-rubrik.woff') format('woff');
                       font-weight: normal;
                       font-style: normal;
                       font-kerning: normal;
@@ -153,8 +153,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('${__dirname}/src/fonts/intro-cond-regular.woff2') format('woff2'),
-                        url('${__dirname}/src/fonts/intro-cond-regularwoff') format('woff');
+                        url('${__dirname}/fonts/intro-cond-regular.woff2') format('woff2'),
+                        url('${__dirname}/fonts/intro-cond-regularwoff') format('woff');
                       font-weight: normal;
                       font-style: normal;
                     }
@@ -162,8 +162,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('${__dirname}/src/fonts/intro-cond-regular-italic.woff2') format('woff2'),
-                        url('${__dirname}/src/fonts/intro-cond-regular-italic.woff') format('woff');
+                        url('${__dirname}/fonts/intro-cond-regular-italic.woff2') format('woff2'),
+                        url('${__dirname}/fonts/intro-cond-regular-italic.woff') format('woff');
                       font-weight: normal;
                       font-style: italic;
                     }
@@ -171,8 +171,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('${__dirname}/src/fonts/intro-cond-bold.woff2') format('woff2'),
-                        url('${__dirname}/src/fonts/intro-cond-bold.woff') format('woff');
+                        url('${__dirname}/fonts/intro-cond-bold.woff2') format('woff2'),
+                        url('${__dirname}/fonts/intro-cond-bold.woff') format('woff');
                       font-weight: bold;
                       font-style: normal;
                     }
@@ -180,8 +180,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('${__dirname}/src/fonts/intro-cond-bold-italic.woff2') format('woff2'),
-                        url('${__dirname}/src/fonts/intro-cond-bold-italic.woff') format('woff');
+                        url('${__dirname}/fonts/intro-cond-bold-italic.woff2') format('woff2'),
+                        url('${__dirname}/fonts/intro-cond-bold-italic.woff') format('woff');
                       font-weight: bold;
                       font-style: italic;
                     }
