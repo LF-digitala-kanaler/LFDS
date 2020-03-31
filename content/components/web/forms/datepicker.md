@@ -177,7 +177,7 @@ tabs:
 
       ```
 
-      $('#datetimepicker3').datetimepicker({
+      $('#timepicker').datetimepicker({
         format: 'LT',
         locale: 'sv',
         allowInputToggle: true,
