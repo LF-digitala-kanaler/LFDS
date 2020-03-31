@@ -111,7 +111,41 @@ tabs:
       pagination with step number and label"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
     name: Design
-  - content: content code
+  - content: >-
+      ## How to use
+
+
+      Pagination is built with list HTML elements so screen readers can announce
+      the number of available links.
+
+
+      ### Variations
+
+
+      There is two variations of pagination. One built with links which you can
+      navigate back in and one built without links which you can't navigate in. 
+
+
+      #### Links
+
+
+      Use a wrapping`<nav>`element to identify it as a navigation section to
+      screen readers and other assistive technologies. n addition, as pages
+      likely have more than one such navigation section, it’s advisable to
+      provide a descriptive`aria-label`for the`<nav>`to reflect its purpose.
+
+
+      ```
+
+      <nav aria-label="Pagination Navigation">
+        <ul class="pagination">
+          <li class="page-item"><a href="#foo" class="page-link" aria-label="Goto Page 1">1</a></li>
+          <li class="page-item"><a href="#foo" class="page-link" aria-label="Goto Page 1">2</a></li>
+          <li class="page-item active"><a aria-label="Current Page, Page 3" href="#foo" class="page-link" aria-current="true">3</a></li>
+          <li class="page-item"><a href="#foo" class="page-link" aria-label="Goto Page 4">4</a></li>
+        </ul>
+      </nav>
+
+      ```
     name: Code
 ---
-
