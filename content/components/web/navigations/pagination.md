@@ -111,7 +111,68 @@ tabs:
       pagination with step number and label"><figcaption><div
       class="Image__caption"></div></figcaption></figure>
     name: Design
-  - content: content code
+  - content: >-
+      ## How to use
+
+
+      Pagination is built with list HTML elements so screen readers can announce
+      the number of available links.
+
+
+      ### Variations
+
+
+      There is two variations of pagination. One built with links which you can
+      navigate back in and one built without links which you can't navigate in. 
+
+
+      #### Links
+
+
+      Use a wrapping`<nav>`element to identify it as a navigation section to
+      screen readers and other assistive technologies. n addition, as pages
+      likely have more than one such navigation section, it’s advisable to
+      provide a descriptive`aria-label`for the`<nav>`to reflect its purpose.
+
+
+      ```
+
+      <nav aria-label="Pagination Navigation">
+        <ul class="pagination">
+          <li class="page-item"><a href="#foo" class="page-link" aria-label="Goto Page 1">1</a></li>
+          <li class="page-item"><a href="#foo" class="page-link" aria-label="Goto Page 1">2</a></li>
+          <li class="page-item active"><a aria-label="Current Page, Page 3" href="#foo" class="page-link" aria-current="true">3</a></li>
+          <li class="page-item"><a href="#foo" class="page-link" aria-label="Goto Page 4">4</a></li>
+        </ul>
+      </nav>
+
+      ```
+
+
+      #### Without Links
+
+
+      ```
+
+      <ul class="pagination pagination-static">
+        <li class="page-item"><span class="page-link">1</span></li>
+        <li class="page-item"><span class="page-link">2</span></li>
+        <li class="page-item active"><span class="page-link">3</span></li>
+        <li class="page-item"><span class="page-link">4</span></li>
+      </ul>
+
+      ```
+
+
+      ### Accessibility(Link variation)
+
+
+      For sighted users, it’s clear that the numbers will help him navigating
+      different pages. But for an AT user, it’s completely different. By
+      using`aria-label`, we can add a label to each link, so instead of hearing
+      the screen reader saying`Link, 1`it will be`Link, Goto Page 1`. To
+      indicate which element is active, we need to tweak the value
+      of`aria-label`by something like`Page 3, Current page`. Also, we will
+      use`aria-current=true`for that.
     name: Code
 ---
-
