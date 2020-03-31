@@ -27,7 +27,31 @@ tabs:
       probably is (especially as the navigation structure gets deeper and
       deeper).
     name: Design
-  - content: content code
+  - content: >-
+      ## How to use
+
+
+      Breadcrumb is a simple navigation component that only requires a `nav`
+      container and a `ol` list. The dividers are automatically created in the
+      content of the`::before`pseudo-element of`li`tags. 
+
+
+      You can inform the current page using the `active`modifier on a`li`tag
+
+
+      ## Accessibility
+
+
+      * A `nav` with `aria-label="Breadcrumb"` identifies the structure as a
+      breadcrumb trail and makes it a navigation landmark so that it is easy to
+      locate.
+
+      * The set of links is structured using an ordered list
+
+      * To prevent screen reader announcement of the visual separators between
+      links, they are added via CSS
+
+      * `aria-current="page"`  is applied to the last link in the set to
+      indicate that it represents the current page.
     name: Code
 ---
-
