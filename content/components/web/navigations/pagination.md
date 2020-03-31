@@ -147,5 +147,32 @@ tabs:
       </nav>
 
       ```
+
+
+      #### Without Links
+
+
+      ```
+
+      <ul class="pagination pagination-static">
+        <li class="page-item"><span class="page-link">1</span></li>
+        <li class="page-item"><span class="page-link">2</span></li>
+        <li class="page-item active"><span class="page-link">3</span></li>
+        <li class="page-item"><span class="page-link">4</span></li>
+      </ul>
+
+      ```
+
+
+      ### Accessibility(Link variation)
+
+
+      For sighted users, it’s clear that the numbers will help him navigating
+      different pages. But for an AT user, it’s completely different. By
+      using`aria-label`, we can add a label to each link, so instead of hearing
+      the screen reader saying`Link, 1`it will be`Link, Goto Page 1`. To
+      indicate which element is active, we need to tweak the value
+      of`aria-label`by something like`Page 3, Current page`. Also, we will
+      use`aria-current=true`for that.
     name: Code
 ---
