@@ -212,7 +212,7 @@ tabs:
 
       You have the option to use icons for each item in a navbar. Use any of the
       32px Icons LFUI provide. If you are using a size modifier `.navbar-sm` or
-      `.navbar-xs `use a 20px icon instead.
+      `.navbar-xs ` use a 20px icon instead.
 
 
       ```
@@ -235,14 +235,14 @@ tabs:
 
 
       Make sure you include relevant accessibility markup. In order to have the
-      buttons and links have the proper styling, add the `role="button`to
-      the`.nav-toggle`and `.nav-link`-elements.
+      buttons and links have the proper styling, add the `role="button` to
+      the`.nav-toggle` and `.nav-link`-elements.
 
 
       *"When using button classes on`<a>`elements that are used to trigger
       in-page functionality (like collapsing content), rather than linking to
       new pages or sections within the current page, these links should be given
-      a `role="button"`to appropriately convey their purpose to assistive
+      a `role="button"` to appropriately convey their purpose to assistive
       technologies such as screen readers."*
 
 
