@@ -186,6 +186,22 @@ tabs:
       one option and one when the user can pick more than one option. 
 
 
+      Both have the option to change color to grey. Add the `.gray-bg` class to
+      `.custom-select-dd`, to change the colors of the dropdown - in this
+      element, as well as hierarchically subsequent elements.
+
+
+      For option grouping we added a class called `dropdown-group-header`. This
+      class should be added on a `h6` element. 
+
+
+      ```
+
+      <h6 class="dropdown-group-header">Header text</h6>
+
+      ```
+
+
       #### Select (only) one option
 
 
@@ -282,8 +298,54 @@ tabs:
       ```
 
 
-      multi **Select all, two levels,** 
+      ###### Two levels 
 
 
-      **both, background color, option headers**
+      Create a custom multi-select dropdown as above, but add
+      `.dropdown-item-sub` to each`.dropdown-item` that should have indentation.
+
+
+      ```
+
+      <div class="dropdown" id="custom-multi-select-4" tabindex="0">
+        <div type="text" class="custom-select-dd" id="customMultiSelect-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span>Välj</span>
+        </div>
+        <div class="dropdown-menu custom-dropdown custom-multi-select" aria-labelledby="customMultiSelect-4">
+          <div class="dropdown-item dropdown-item-sub custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="custom-multi-select-4-checkbox2">
+            <label class="custom-control-label" for="custom-multi-select-4-checkbox2">Stockholm</label>
+          </div>
+          <div class="dropdown-item dropdown-item-sub custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="custom-multi-select-4-checkbox3">
+            <label class="custom-control-label" for="custom-multi-select-4-checkbox3">Göteborg</label>
+          </div>
+          <div class="dropdown-item custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="custom-multi-select-4-checkbox4">
+            <label class="custom-control-label" for="custom-multi-select-4-checkbox4">Malmö</label>
+          </div>
+        </div>
+      </div>
+
+      ```
+
+
+      ## Please Note
+
+
+      Since this dropdown is not meant to be used on mobile/tablets you can  use
+      a `<select>` which is only visible on narrow breakpoint it could look
+      something like this: 
+
+
+      ```
+
+      <select id="id"class="custom-select d-lg-none"></select>
+
+
+      ```
+
+
+      There is more options to solve this but at the moment be do not have any
+      built-in option for this.
 ---
