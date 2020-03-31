@@ -88,13 +88,31 @@ tabs:
       accessibility challenges than with most other web components, so don't
       overuse it! And please use the adjacent input field!
     name: Design
-  - content: |-
-      content code
+  - content: >-
+      ## How to use 
 
 
-      ## heading
-    name: Code
-  - content: content code
+      LFUI has restyled the HTML5-element`input[type="range"]`which is useable
+      in browsers later than IE9. The`input[type="range"]`, or Slider, is a tool
+      to control a value by adjusting the thumb along its track. The value range
+      of the track is assigned by`min`and`max`html attributes, and
+      the`step`attribute is used to control how big leaps the slider value takes
+      for each movement.
+
+
+      Only IE has browser support for coloring the left side of the thumb upon
+      slider interaction. But, with some JS we can make it work in all browsers
+      by adding a linear-gradient corresponding to % of the chosen value, like
+      so(you have to add this to your code):
+
+
+      ```
+
+      $('.lf-slider').on('input', function () {
+        var percent = Math.ceil(((this.value - this.min) / (this.max - this.min)) * 100);
+        $(this).css('background', '-webkit-linear-gradient(left, #005aa0 0%, #005aa0 ' + percent + '%, #d9d9d9 ' + percent + '%)');
+      });
+
+      ```
     name: Code
 ---
-
