@@ -246,4 +246,44 @@ tabs:
       </div>
 
       ```
+
+
+      ##### Modifiers 
+
+
+      Multi-select have two specific modifiers. 
+
+
+      ###### Select all 
+
+
+      It's possible to have one checkbox to toggle all checkboxes by adding
+      `data-select-all="true"` on **one** of the options in the dropdown.
+
+
+      ```
+
+      <div class="dropdown" id="custom-multi-select-2" tabindex="0">
+        <div type="text" class="custom-select-dd" id="customMultiSelect-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span>Välj</span>
+        </div>
+        <div class="dropdown-menu custom-dropdown custom-multi-select" aria-labelledby="customMultiSelect-2">
+          <div class="dropdown-item custom-control custom-checkbox" data-select-all="true">
+            <input type="checkbox" class="custom-control-input" id="custom-multi-select-2-checkbox1">
+            <label class="custom-control-label" for="custom-multi-select-2-checkbox1">Välj alla</label>
+          </div>
+          <div class="dropdown-item dropdown-item-sub custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="custom-multi-select-2-checkbox2">
+            <label class="custom-control-label" for="custom-multi-select-2-checkbox2">Stockholm</label>
+          </div>
+        </div>
+      </div>
+
+      ```
+
+
+      multi **Select all, two levels,** 
+
+
+      **both, background color, option headers**
 ---
