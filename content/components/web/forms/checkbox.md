@@ -38,5 +38,43 @@ tabs:
 
       Till exempel: För att köpa bilförsäkring måste du godkänna villkoren.
     name: Copy
----
+  - name: Code
+    content: >-
+      ## How to use
 
+
+      Since the default checkbox design is not customizable, we will hide it
+      visually and add a pseudo element which we style with css to get the
+      desired look. By visually, I mean to hide it from the UI and keep it in
+      the DOM for screen reader and keyboard users. You shouldn't need to do
+      anything else then use the code posted below. 
+
+
+      ```
+
+      <div class="custom-control custom-checkbox mr-1">
+        <input type="checkbox" class="custom-control-input" id="checkbox">
+        <label class="custom-control-label" for="checkbox">Checkbox</label>
+      </div>
+
+      ```
+
+
+
+
+      ## Accessibility
+
+
+      Remember to always associating the label with the input. Which means
+      `<input>` should always have an ID and this ID should be used as a for
+      attribute for the `<label>` .
+
+
+      ```
+
+      <input type="checkbox" class="custom-control-input" id="checkbox">
+
+      <label class="custom-control-label" for="checkbox">Checkbox</label>
+
+      ```
+---

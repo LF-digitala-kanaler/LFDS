@@ -49,7 +49,196 @@ tabs:
     name: Design
   - content: content code
     name: Copy
-  - content: content code
+  - content: >-
+      ## How to use
+
+
+      LFUI uses the `eonasdan-bootstrap-datetimepicker`package. It has plenty of
+      options and functions. Refer to the official website for a [complete
+      documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
+
+
+      The datepicker is fully responsive. Do note that the dropdown stretches
+      with a `width: 100%`of its parent input field which might disrupt its
+      styling. Its preferred width is`336px`.
+
+
+      **In order for screen readers to not get disrupted by the datepicker and
+      its complex html structure**, we disable the datepicker dropdown
+      completely for screen readers by adding the following script to
+      the`dp.show`event:
+
+
+      ```
+
+      $('.datetimepicker .bootstrap-datetimepicker-widget').attr('aria-hidden',
+      'true');
+
+      ```
+
+
+      **In mobile devices** it is important to utilize the native solution for
+      date selection on the device, hence we hide the datepicker dropdown and
+      change the input to type="date" and for time type="time". An example to
+      this with javascript is:
+
+
+      ```
+
+      //Change the input type to date
+
+      if (/Mobi/.test(navigator.userAgent)) {
+        $('datetimepickerinput').type='date';
+        $('datetimepickertimeinput').type='time';
+      }
+
+
+      //Hide the datepicker dropdown, called on 'dp.show' event.
+
+      $('.datepicker').on('dp.show', function(){
+        if (/Mobi/.test(navigator.userAgent)) {
+          $('.datepicker .bootstrap-datetimepicker-widget').css('display', 'none');
+        });
+      }
+
+      ```
+
+
+
+
+      ### Variants 
+
+
+      There is two different variants of datepicker. One which let the user pick
+      a date and one that let the user pick a time. 
+
+
+      #### Date
+
+
+      ```
+
+      <div class="form-group" style="width: 336px;">
+        <div class="input-group datepicker" id="datetimepicker">
+          <input type="text" id="datetimepicker-input" class="form-control" placeholder="åååå-mm-dd" required/>
+          <span class="input-group-append">
+            <button class="btn" type="button" tabIndex="-1">
+              <svg class="icon" width="26" height="26">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-calendar-26"></use>
+              </svg>
+            </button>
+          </span>
+        </div>
+      </div>
+
+      ```
+
+
+      There is a lot of options you can use when initialize the datepicker. See
+      to the official website for a [complete
+      documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
+
+
+      ```
+
+      $('#datetimepicker').datetimepicker({
+        format: 'YYYY-MM-DD',
+        locale: 'sv',
+        allowInputToggle: true,
+        defaultDate: '2017/06/02'
+      });
+
+      ```
+
+
+      #### Time
+
+
+      ```
+
+      <div class="form-group" style="width: 336px;">
+        <div class="input-group datepicker" id="timepicker">
+          <input type="text" id="timepicker-input" class="form-control" placeholder="hh:mm" required/>
+          <span class="input-group-append">
+            <button class="btn" type="button" tabIndex="-1">
+              <svg class="icon" width="26" height="26">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock-24"></use>
+              </svg>
+            </button>
+          </span>
+        </div>
+      </div>
+
+      ```
+
+
+      Initialize it: 
+
+
+      ```
+
+      $('#timepicker').datetimepicker({
+        format: 'LT',
+        locale: 'sv',
+        allowInputToggle: true,
+        icons: {
+          up: 'next',
+          down: 'prev',
+        }
+      });
+
+      ```
+
+
+      ### Modifiers 
+
+
+      As mention before there is a lot of customisation you can do. One that we
+      use regular is to disabled dates. 
+
+
+      ##### Disabled dates
+
+
+      ```
+
+      ('#datetimepicker-disabled').datetimepicker({
+        format: 'YYYY-MM-DD',
+        locale: 'sv',
+        allowInputToggle: true,
+        defaultDate: '2017/06/02',
+        disabledDates: [
+          '2017/06/04',
+          '2017/06/05',
+          '2017/06/06'
+        ]
+      });
+
+      ```
+
+
+      ### Please note
+
+
+      When used with an icon as in the examples on this page you will have to
+      toggle the `active`-state by yourself. it could look look something like
+      this. 
+
+
+      ```
+
+      // Set a correct active state for the button
+
+      $('.datepicker').on('dp.show', function(){
+        $('#datetimepicker .bootstrap-datetimepicker-widget').attr('aria-hidden', 'true');
+        $('.datepicker button').addClass('active');
+      });
+
+
+      $('.datepicker').on('dp.hide', function(){
+        $('.datepicker button').removeClass('active');
+      });
+
+      ```
     name: Code
 ---
-
