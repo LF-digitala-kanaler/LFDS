@@ -143,8 +143,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'LF Rubrik';
                       src:
-                        url('/fonts/lf-rubrik.woff2') format('woff2'),
-                        url('/fonts/lf-rubrik.woff') format('woff');
+                        url('/lf-rubrik.woff2') format('woff2'),
+                        url('/lf-rubrik.woff') format('woff');
                       font-weight: normal;
                       font-style: normal;
                       font-kerning: normal;
@@ -153,8 +153,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('/fonts/intro-cond-regular.woff2') format('woff2'),
-                        url('/fonts/intro-cond-regularwoff') format('woff');
+                        url('/intro-cond-regular.woff2') format('woff2'),
+                        url('/intro-cond-regularwoff') format('woff');
                       font-weight: normal;
                       font-style: normal;
                     }
@@ -162,8 +162,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('/fonts/intro-cond-regular-italic.woff2') format('woff2'),
-                        url('/fonts/intro-cond-regular-italic.woff') format('woff');
+                        url('/intro-cond-regular-italic.woff2') format('woff2'),
+                        url('/intro-cond-regular-italic.woff') format('woff');
                       font-weight: normal;
                       font-style: italic;
                     }
@@ -171,8 +171,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('./static/fonts/intro-cond-bold.woff2') format('woff2'),
-                        url('./static/fonts/intro-cond-bold.woff') format('woff');
+                        url('/intro-cond-bold.woff2') format('woff2'),
+                        url('/intro-cond-bold.woff') format('woff');
                       font-weight: bold;
                       font-style: normal;
                     }
@@ -180,8 +180,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('/fonts/intro-cond-bold-italic.woff2') format('woff2'),
-                        url('/fonts/intro-cond-bold-italic.woff') format('woff');
+                        url('/intro-cond-bold-italic.woff2') format('woff2'),
+                        url('/intro-cond-bold-italic.woff') format('woff');
                       font-weight: bold;
                       font-style: italic;
                     }
