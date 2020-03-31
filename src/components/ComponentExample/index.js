@@ -171,8 +171,8 @@ const ComponentExample = ({variants, background}) => {
                     @font-face {
                       font-family: 'Intro Cond';
                       src:
-                        url('fonts/intro-cond-bold.woff2') format('woff2'),
-                        url('fonts/intro-cond-bold.woff') format('woff');
+                        url('./static/fonts/intro-cond-bold.woff2') format('woff2'),
+                        url('./static/fonts/intro-cond-bold.woff') format('woff');
                       font-weight: bold;
                       font-style: normal;
                     }
