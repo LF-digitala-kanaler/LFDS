@@ -127,5 +127,123 @@ tabs:
       göra sitt val. Kan till exempel visa pris för olika val. Förkortningar ok.
       Till exempel: 250 kr/år
     name: Copy
----
+  - name: Code
+    content: >-
+      ## How to use
 
+
+      The dropdown can be included with `import CustomSelect from
+      'custom-select';` and be used in your own javascript.
+
+
+      ```
+
+      var customSelect = new CustomSelect( $('#dropdown') , options);
+
+      ```
+
+
+      or you can instantiate it the jQuery way with a selector.
+
+
+      ```
+
+      $('#dropdown').customSelect(options);
+
+      ```
+
+
+      Here is the options you can use when instantiating the custom select.
+
+
+      ```
+
+      {
+        onSelect: function(event) {
+          // This function is called when you click on options in the dropdown. 
+        }
+      }
+
+
+      ```
+
+
+      The default option should *always* be "Välj", and should also in the same
+      respect be disabled.
+
+
+      <div class="Callout"><strong class="Callout__title">Never use this
+      component in other devices than desktop </strong><p
+      class="Callout__text">It is important that you disable this custom select
+      functionality and revert to the default native select element when the
+      user is not using the desktop application.</p></div>
+
+
+      ### Variations
+
+
+      We have two different variants of dropdown. One which let the user pick
+      one option and one when the user can pick more than one option. 
+
+
+      #### Select (only) one option
+
+
+      This is the most common dropdown. Since we don't use the regular
+      `<select>` elements for our dropdown there is both keyboard navigation and
+      search functionality built in to both variants.
+
+
+      ```
+
+      <div class="form-group">
+        <div class="dropdown" id="custom-select" tabindex="0">
+          <div type="text" class="custom-select-dd" id="customSelect" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Välj</span>
+          </div>
+          <div class="dropdown-menu custom-dropdown" aria-labelledby="customSelect">
+            <a class="dropdown-item" tabindex="0">Nordea</a>
+            <a class="dropdown-item" tabindex="0">Länsförsäkringar</a>
+            <a class="dropdown-item" tabindex="0">Handelsbanken</a>
+            <a class="dropdown-item" tabindex="0">Swedbank</a>
+          </div>
+        </div>
+      </div>
+
+      ```
+
+
+      #### Multi-select
+
+
+      We also added a custom multi-select dropdown. Create the custom dropdown 
+      but instead of regular`a`items add [custom
+      checkboxes](/components/web/forms/checkbox). To use this dropdown
+      component you need to be sure to add`.custom-multi-select`to your dropdown
+      menu.
+
+
+      ```
+
+      <div class="dropdown" id="custom-multi-select-1" tabindex="0">
+        <div type="text" class="custom-select-dd" id="customMultiSelect" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span>Choose</span>
+        </div>
+        <div class="dropdown-menu custom-dropdown custom-multi-select" aria-labelledby="customMultiSelect">
+          <div class="dropdown-item custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="custom-multi-select-1-checkbox2">
+            <label class="custom-control-label" for="custom-multi-select-1-checkbox2">Stockholm</label>
+          </div>
+          <div class="dropdown-item custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="custom-multi-select-1-checkbox3">
+            <label class="custom-control-label" for="custom-multi-select-1-checkbox3">Göteborg</label>
+          </div>
+          <div class="dropdown-item custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="custom-multi-select-1-checkbox4">
+            <label class="custom-control-label" for="custom-multi-select-1-checkbox4">Paris</label>
+          </div>
+        </div>
+      </div>
+
+      ```
+---
