@@ -21,6 +21,7 @@ export const HomePageTemplate = ({
 }) => (
   
   <> 
+  
     <Wrapper wide tag="div">
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
@@ -45,7 +46,7 @@ const HomePage = ({
   data: { page }
 
   },) => {
-   
+   console.log(page.frontmatter.relatedLinks)
   return (
     <Layout
       meta={page.frontmatter.meta || false}
