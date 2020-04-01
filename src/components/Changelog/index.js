@@ -45,13 +45,10 @@ export default () => (
       return <Accordion key={item.name} title={item.name} date={formatDate(item.publishedAt)} text={item.descriptionHTML} />
     })
       return(
-        <>
-        <Heading tag={3} text={"Release info"} align={"left"} />
         <div className={style.Changelog}>
           {versions}
           <Link className={style.Changelog__link} to='about/whats-new/changelog' >View complete Changelog</Link>
         </div>
-        </>
       )
     }}
   />

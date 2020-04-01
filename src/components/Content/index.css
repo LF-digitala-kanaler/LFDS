@@ -74,6 +74,7 @@
 
 .Content a {
   color: var(--color-black);
+  text-underline-position: under;
 }
 
 .Content ul {

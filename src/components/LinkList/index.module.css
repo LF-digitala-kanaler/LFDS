@@ -1,0 +1,13 @@
+
+.LinkList__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.LinkList__item {
+  margin-bottom: var(--spacing-vertical--05)
+}
+
+.LinkList__link {
+  color: var(--color-blue);
+}

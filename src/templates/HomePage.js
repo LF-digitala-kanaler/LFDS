@@ -36,8 +36,14 @@ export const HomePageTemplate = ({
     {fullWidthImage && <FullWidthBackground image={fullWidthImage.childImageSharp ? fullWidthImage.childImageSharp.fluid.src : fullWidthImage}><Content source={body} /> </FullWidthBackground>}
     <Wrapper wide tag="div">
       <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
-        <Cell><Changelog /></Cell>
-        <Cell><LinkList items={relatedLinks} /></Cell>
+        <Cell>
+           <Heading tag={3} text={"Release info"} align={"left"} />
+          <Changelog />
+        </Cell>
+        <Cell>
+          <Heading tag={3} text={"Links you cant live without"} align={"left"} />
+          <LinkList items={relatedLinks} />
+      </Cell>
       </Grid>
     </Wrapper>
   </>
@@ -46,7 +52,7 @@ const HomePage = ({
   data: { page }
 
   },) => {
-   console.log(page.frontmatter.relatedLinks)
+   console.log(page.frontmatter)
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -89,7 +95,8 @@ export const pageQuery = graphql`
           link
         }
         relatedLinks {
-          link
+          text
+          url
         }
         fullWidthImage {
           childImageSharp {
