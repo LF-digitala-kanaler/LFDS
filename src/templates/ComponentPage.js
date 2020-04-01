@@ -127,9 +127,6 @@ export const pageQuery = graphql`
           content
         }
       }
-      headings {
-        value
-      }
       fields {
        
         frontmattermd {

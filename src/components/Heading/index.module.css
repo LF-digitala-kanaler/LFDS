@@ -15,6 +15,29 @@
     font-size: 3.75em;
   }
 }
+.Heading--2 {
+  font-size: 2rem;
+  line-height: 1.1667;
+  margin-bottom: var(--spacing-vertical--05);
+  margin-top: var(--spacing-vertical--2);
+  position: relative;
+
+  @media (--small-viewport) { 
+    font-size: 2.75rem;
+  }
+}
+.Heading--3 {
+  font-size: 1.5rem;
+  line-height: 1.333;
+  margin-bottom: var(--spacing-vertical--05);
+  margin-top: var(--spacing-vertical--2);
+  position: relative;
+
+  @media (--small-viewport) { 
+    font-size: 2rem;
+  
+  }
+}
 
 /* .Heading--2 {
   font-size: 50px;

@@ -3,7 +3,7 @@ import style from './index.module.css';
 
 
 const Accordion = ({title, date, text}) => {
-  
+  console.log(title, date, text)
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
 
@@ -15,6 +15,7 @@ const Accordion = ({title, date, text}) => {
       setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
     );
   }
+  
   return (
     <div className={style.Accordion}>
       <article className={style.Accordion__section}>

@@ -8,7 +8,9 @@ import Shortcut from '../components/Shortcut'
 import { Grid, Cell } from "styled-css-grid"
 import FullWidthBackground from '../components/FullWidthBackground'
 import Content from '../components/Content'
-import Changelog from '../components/Changelog' 
+import Changelog from '../components/Changelog'
+import LinkList from '../components/LinkList/index.js'
+
 export const HomePageTemplate = ({
   title,
   intro,
@@ -22,7 +24,7 @@ export const HomePageTemplate = ({
     <Wrapper wide tag="div">
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
-      <Grid columns={3} gap="64px">
+      <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
         { shortcuts &&
           shortcuts.map(item => {
             return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Cell>
@@ -32,9 +34,9 @@ export const HomePageTemplate = ({
     </Wrapper>
     {fullWidthImage && <FullWidthBackground image={fullWidthImage.childImageSharp ? fullWidthImage.childImageSharp.fluid.src : fullWidthImage}><Content source={body} /> </FullWidthBackground>}
     <Wrapper wide tag="div">
-      <Grid columns={2} gap="64px">
-        {/* <Cell><Changelog /></Cell> */}
-        <Cell></Cell>
+      <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
+        <Cell><Changelog /></Cell>
+        <Cell><LinkList items={relatedLinks} /></Cell>
       </Grid>
     </Wrapper>
   </>
