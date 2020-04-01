@@ -8,9 +8,9 @@ const LinkList = ({items}) => {
   console.log(items)
   const links = items.map(item => {
    return  +/^[/#](?!\/)/.test(item.url) ? (
-      <li className={style.LinkList__item}><Link className={style.LinkList__link} to={item.url}>{item.text}</Link></li>
+      <li key={item.url} className={style.LinkList__item}><Link className={style.LinkList__link} to={item.url}>{item.text}</Link></li>
     ) : (
-      <li className={style.LinkList__item}><a  rel="external nofollow noreferrer noopener" className={style.LinkList__link} href={item.url}>{item.text}</a></li>
+      <li key={item.url} className={style.LinkList__item}><a  rel="external nofollow noreferrer noopener" className={style.LinkList__link} href={item.url}>{item.text}</a></li>
     );
   })
   return (

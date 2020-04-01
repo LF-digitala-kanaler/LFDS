@@ -253,7 +253,8 @@ collections: # A list of collections the CMS should be able to edi
               - { label: 'Text', name: 'text', widget: 'string' }
               - { label: 'Link', name: 'link', widget: 'string' }
               
-          - { label: 'Full width image', name: fullWidthImage, widget: 'image' }
+          - { label: 'Full width image desktop', name: fullWidthImage, widget: 'image' }
+          - { label: 'Full width image mobile', name: fullWidthImageMobile, widget: 'image' }
           - { label: 'Content', name: body, widget: 'markdown',  required: false }
 
           - label: "Related Links"

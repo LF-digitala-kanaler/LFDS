@@ -21,7 +21,7 @@ const Accordion = ({title, date, text}) => {
       <article className={style.Accordion__section}>
         <button className={style.Accordion__button +` ${setActive}`} onClick={toggleAccordion}>
           <span className={style.Accordion__title}>{title}</span>
-          { date && <time datetime={date}>{date}</time> }
+          { date && <time date={date}>{date}</time> }
         </button>
         <div className={style.Accordion__content} ref={content} style={{ maxHeight: `${setHeight}` }}>
           <div 

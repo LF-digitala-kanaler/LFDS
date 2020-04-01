@@ -16,6 +16,7 @@ export const HomePageTemplate = ({
   intro,
   shortcuts,
   fullWidthImage,
+  fullWidthImageMobile,
   body,
   relatedLinks
 }) => (
@@ -50,9 +51,17 @@ export const HomePageTemplate = ({
 )
 const HomePage = ({ 
   data: { page }
-
-  },) => {
-   console.log(page.frontmatter)
+  
+  }) => {
+  
+  const sources = [
+    page.frontmatter.fullWidthImage.childImageSharp.fluid,
+    {
+      ...page.frontmatter.fullWidthImageMobile.childImageSharp.fluid,
+      media: `(max-width: 768px)`,
+    },
+  ]
+  
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -63,7 +72,7 @@ const HomePage = ({
         {...page} 
         {...page.frontmatter}
         shortcuts={page.frontmatter.shortcuts}
-        fullWidthImage={page.frontmatter.fullWidthImage}
+        fullWidthImage={sources}
         relatedLinks={page.frontmatter.relatedLinks}
         body={page.html}
       />
@@ -101,6 +110,13 @@ export const pageQuery = graphql`
         fullWidthImage {
           childImageSharp {
             fluid(maxWidth: 4000, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        fullWidthImageMobile {
+          childImageSharp {
+            fluid(maxWidth: 1000, quality: 64) {
               ...GatsbyImageSharpFluid
             }
           }

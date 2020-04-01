@@ -21,6 +21,7 @@ shortcuts:
     text: 'What you see is what you get. Color, Typo, icons and such.'
     title: Visual guidelines
 fullWidthImage: /img/halsa_omkladningsrum.webp
+fullWidthImageMobile: /img/halsa_omkladningsrum.webp
 relatedLinks:
   - text: Link 1
     url: https://lfui-beta-aedd0a.netlify.com/components/web/button-and-links/buttons/

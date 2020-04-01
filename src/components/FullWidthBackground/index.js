@@ -1,17 +1,12 @@
 import React from 'react'
 import style from './index.module.css';
+import Img from "gatsby-image"
 
 const FullWidthBackground = ({ image, children }) => {
-  console.log(image)
-  const inlineStyle= {
-    backgroundImage: `url(${image})`,
-    backgroundSize: 'cover'
-  }
+
   return (  
-       <div
-          className={style.FullWidthBackground}
-          style={inlineStyle}
-        >
+       <div className={style.FullWidthBackground}>
+        <Img fluid={image} />
         <div className={style.FullWidthBackground__container}>
           <article className={style.FullWidthBackground__content}>
             {children}
