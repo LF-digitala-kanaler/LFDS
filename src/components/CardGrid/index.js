@@ -30,7 +30,6 @@ const CardGrid = ({list}) => {
                 url={items.node.fields.slug.replace(/\/$/, "")} 
                 image={items.node.frontmatter.previewImage}  
               />
-              då
             </div>
           )
         })
