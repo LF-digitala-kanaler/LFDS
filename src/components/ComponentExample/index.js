@@ -95,7 +95,6 @@ const ComponentExample = ({variants, background}) => {
     }
 	}
 
-  
   return (
     <React.Fragment>
         <Grid columns={2} justifyContent="space-around">
