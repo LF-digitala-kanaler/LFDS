@@ -84,7 +84,6 @@ const ComponentExample = ({variants, background}) => {
       }
     }
   )
-  
   const handleResize = () => {
     
     if (
