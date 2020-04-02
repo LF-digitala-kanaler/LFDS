@@ -23,13 +23,13 @@ tabs:
 
       ###### With sub-navigation
 
-      ###### Responsive sidescroll
-
       #### In-page navigation
 
       ### General modifiers
 
       #### Styling based on background
+
+      #### Responsive sidescroll
     name: Design
   - content: content code
     name: Code
