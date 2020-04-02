@@ -35,19 +35,23 @@ tabs:
       We have two main versions of tabs;
 
 
-      * **Page-level navigation** are tabs which control the whole page
+      * **Page-level navigation** are tabs which control the whole page.
 
       * **In-page navigation** are tabs which only control the container they
-      are in 
+      are in.
 
 
       #### Page-level navigation
 
 
-      ##### Specific modifiers
+      These tabs should be as high-up on a page as possible - normally the only
+      thing above them are [breadcrumbs](breadcrumb). Their most common usage is
+      in Mina Sidor to display a low-level navigation between related pages
+      built on IM-technology. More modern NIM-based pages usually use a series
+      of [collapsed panels](../page-content/panel) rather than tabs.
 
 
-      ###### With sub-navigation
+      ##### Specific modifier: With sub-navigation
 
 
       #### In-page navigation
