@@ -70,7 +70,7 @@ tabs:
       <div class="Callout"><strong class="Callout__title">A third option is
       coming! </strong><p class="Callout__text">We are currently designing a
       third option, for when you want to do even more local adaptations - like
-      changing the style of a graph or what to display in it.</p></div>
+      changing the style of a graph or what to display in said graph.</p></div>
 
 
       ### Modifiers
