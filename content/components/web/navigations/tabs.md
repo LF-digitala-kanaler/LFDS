@@ -51,28 +51,53 @@ tabs:
       of [collapsed panels](../page-content/panel) rather than tabs.
 
 
-      ##### Specific modifier: With sub-navigation
-
-
-      ***`SKA DENNA FINNAS? VÄNTAR MED ATT SKRIVA`***
-
-
       #### In-page navigation
 
 
-      ##### Pills
+      If you want to add navigation inside a page which only affects parts of
+      the content you should in-page navigational tabs. In-page navigational
+      tabs work great if you have some general information you want to display
+      the whole time, but then have so much or different information that it
+      doesn't fit on a page.
 
 
-      ##### Stylised in-page navigation
+      A great example is if you enter a specific occupational pension in Mina
+      Sidor; the value is displayed prominently and then there are in-page
+      navigational tabs separating the savings-related parts and
+      insurance-related parts into different views.
 
 
-      ### General modifiers
+      <div class="Callout"><strong class="Callout__title">A third option is
+      coming! </strong><p class="Callout__text">We are currently designing a
+      third option, for when you want to do even more local adaptations - like
+      changing the style of a graph or what to display in it.</p></div>
+
+
+      ### Modifiers
+
+
+      There are two modifiers for tabs, and they both work with all types of
+      tabs.
 
 
       #### Styling based on background
 
 
+      All tabs come in a version for white background and a version for grey
+      background. Choose the right one for your background.
+
+
       #### Responsive sidescroll
+
+
+      If you want you can add some responsiveness to your tabs. With this
+      modifier on the user will be able to sidescroll between the tabs if they
+      don't fit on one row. Otherwise the tabs will flow over several rows. 
+
+
+      *Note: it has been suggested to make responsive sidescroll a standard
+      feature of the component, meaning that it won't be an option to not have
+      it turned on.*
     name: Design
   - content: content code
     name: Code
