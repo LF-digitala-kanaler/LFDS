@@ -35,8 +35,9 @@ tabs:
       case, a separate page might be a better choice. 
 
 
-      A modal is usually used to display visual a comparison between different
-      states for exempel full and half insurance whats included.
+      A modal is usually used to display a visual comparison between different
+      alternatives, for example what's included in different alternatives of an
+      insurance.
 
 
       ## Please consider
@@ -53,4 +54,3 @@ tabs:
   - content: content code
     name: Code
 ---
-
