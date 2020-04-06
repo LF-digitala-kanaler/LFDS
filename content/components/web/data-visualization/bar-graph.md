@@ -1,5 +1,4 @@
 ---
-priority: ''
 template: ComponentPage
 category: Data Visualization
 title: Bar Graph

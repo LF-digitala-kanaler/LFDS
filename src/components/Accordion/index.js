@@ -3,7 +3,6 @@ import style from './index.module.css';
 
 
 const Accordion = ({title, date, text}) => {
-  console.log(title, date, text)
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
 

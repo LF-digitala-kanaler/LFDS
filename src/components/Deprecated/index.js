@@ -7,7 +7,6 @@ import cx from 'classnames'
 
 const Deprecated = ({status, fixed}) => {
   // get current pages object from componentsStatus.json
-  console.log(fixed)
   const currentVersion = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === status.toLowerCase(); });
    if (currentVersion === undefined || currentVersion.length === 0) {
      return null

@@ -96,7 +96,6 @@ const Search = () => {
     var index = window.__FLEXSEARCH__.en.index
     var store = window.__FLEXSEARCH__.en.store
 
-    console.log(index)
     if (!query || !index) {
       return []
     } else {
@@ -124,7 +123,6 @@ const Search = () => {
     const query = event.target.value
     if (query.length > 0) {
       const results = getSearchResults(query)
-      console.log(results)
       setResults(results)
       setQuery(query)
     } else {
