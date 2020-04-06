@@ -37,6 +37,12 @@ tabs:
 
       When to use different graphs you find
       [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
+
+
+      #### A good exemple
+
+
+      ![](/img/exempel-graph-area.jpg)
     name: Design
 ---
 
