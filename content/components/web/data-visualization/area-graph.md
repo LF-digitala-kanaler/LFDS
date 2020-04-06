@@ -17,15 +17,21 @@ tabs:
       ## How to use
 
 
-      Use area charts only if you want to show how values develop over time. If
-      you want to show how values differ in different categories, consider a
-      (stacked) bar, column chart or split bars instead.
+      Use area charts only if you want to show how values develop over time. 
+
+
+      If you want to show how values differ in different categories, consider a
+      (stacked) bar, column chart or split bars instead. 
 
 
       **Best to use**
 
 
       * how values develop over time
+
+      * if the total is as important as its shares
+
+      * when large differences between your values
 
 
       ### Legends and colors
