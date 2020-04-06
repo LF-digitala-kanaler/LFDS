@@ -75,12 +75,10 @@ tabs:
 
 
       Area graphs are very similar to line graphs. They can be used to track
-      changes over time for one or more groups. Area graphs are good to use when
-      you are tracking the changes in two or more related groups that make up
-      one whole category (for example public and private groups).
+      changes over time for one or more groups. Use area charts only if you want
+      to show how values develop over time.\
 
-
-      More about Area Graph
+      [More about Area Graph](/data-visualization/area-graph)
 
 
       #### . . . an X-Y Plot.
