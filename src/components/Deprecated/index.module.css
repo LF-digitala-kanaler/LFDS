@@ -6,8 +6,60 @@
   border-bottom: 2px solid var(--color-border);
 }
 
-.Deprecated--fixed {
-  position: fixed;
+.Deprecated--position {
+  position: absolute;
+  padding: 0;
+  margin-left:calc(74%);
+  top: 145px;
+  width: 100%;
+  background: none;
+  border: none;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 315px;
+  z-index: 2;
+  right: var(--spacing-xxlg);
+  @media (--large-viewport-down) { 
+    display: none;
+  }
+  @media (--xlarge-viewport) { 
+    margin-left: calc(26% + var(--content-width--narrow) - 70px);
+    right: auto;
+    
+  }
+}
+
+.Deprecated__content {
+  position: relative;
+  z-index: 2;
+}
+
+.Deprecated__bubble {
+  position: sticky;
+ 
+  top: calc(125px + var(--spacing-vertical--3));
+  padding: var(--spacing-md);
+  border: 2px solid var(--color-border);
+  background-color: var(--color-yellow);
+  height: 125px;
+}
+
+.Deprecated__bubble::after {
+  content: '';
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIyNjdweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjY3IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPiAgICAgICAgPHRpdGxlPmJnPC90aXRsZT4gICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+ICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICAgICAgPGcgaWQ9ImJnIiBmaWxsLXJ1bGU9Im5vbnplcm8iPiAgICAgICAgICAgIDxnIGlkPSJHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjE5LjAwMDAwMCwgMC4wMDAwMDApIj4gICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgZmlsbD0iI0ZBRjRENCIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3IiBoZWlnaHQ9IjkiPjwvcmVjdD4gICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgZmlsbD0iI0ZDRjRDQyIgeD0iMTIiIHk9IjkiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPjwvcmVjdD4gICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgZmlsbD0iI0ZCRjREMCIgeD0iMCIgeT0iMTQiIHdpZHRoPSI2IiBoZWlnaHQ9IjgiPjwvcmVjdD4gICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgZmlsbD0iI0ZDRjRDQyIgeD0iNSIgeT0iMTQiIHdpZHRoPSIyIiBoZWlnaHQ9IjYiPjwvcmVjdD4gICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgZmlsbD0iI0ZCRjREMCIgeD0iMCIgeT0iNyIgd2lkdGg9IjciIGhlaWdodD0iOCI+PC9yZWN0PiAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiBmaWxsPSIjRkJGNEQwIiB4PSIxMyIgeT0iNyIgd2lkdGg9IjQiIGhlaWdodD0iOCI+PC9yZWN0PiAgICAgICAgICAgIDwvZz4gICAgICAgICAgICA8cGF0aCBkPSJNMjE5LDAgTDIxOSwxOC4xNzUgQzIxOSwxOS45NDkwOTcgMjIwLjQzNzY2NywyMS4zODcgMjIyLjIxMiwyMS4zODcgQzIyMy45MjQ1NTMsMjEuMzg3IDIyNS4zMjQ0MDksMjAuMDQ2MTk3IDIyNS40MTg5MTUsMTguMzU3MjQ2IEwyMjUuNDI0LDE4LjE3NSBMMjI1LjQyNCwxMS4wNDg5NSBMMjI1LjQzMTE5NSwxMC45MjkyMDQgQzIyNS43MDU4MjcsOC42NTIyNTMgMjI2Ljk0Nzk4Myw3LjMzNyAyMjguOTg1MjI5LDcuMzM3IEMyMzAuOTc2MjI3LDcuMzM3IDIzMi4xNjM4MzcsOC41OTU5NjUgMjMyLjM4MTQ2NywxMC44MTU4ODcgTDIzMi40MDA1MTMsMTEuMDQ4OTUgTDIzMi40LDEzLjU5NSBMMjMyLjQyMTMwNiwxMy42Nzg4OTcgQzIzMi42NjU1NDYsMTQuNTcxODYzIDIzMy4wNjUwNTYsMTQuOTQ3NTY2IDIzMy43MjUyODYsMTQuOTkxMDQxIEwyMzMuODYwODQsMTQuOTk1MzYxIEMyMzQuNjE0Mjk4LDE0Ljk5NTM2MSAyMzUuMDgxNzY1LDE0LjYxNjM5NCAyMzUuMzgxMzM4LDEzLjY0OTM4NyBMMjM1LjQwMSwxMy41NzkgTDIzNS40MDE0ODksMCBMMjY2Ljk0NzYzMiwwIEwyNjYuOTQ3NjMyLDIgTDIzNy40MDEsMiBMMjM3LjQwMTQ4OSwxMy44NTE2MzQgTDIzNy4zNjc0MDksMTMuOTc4ODExIEMyMzYuODUwOTA5LDE1LjkwNjI1MyAyMzUuNjM0ODM2LDE2Ljk5NTM2MSAyMzMuODYwODQsMTYuOTk1MzYxIEMyMzIuMTQzMTkxLDE2Ljk5NTM2MSAyMzAuOTcxNDE2LDE1Ljk3Mjc2MyAyMzAuNDgxOTc4LDE0LjE2NzAyMiBMMjMwLjQwMDUxMywxMy44MzQ3NzQgTDIzMC40MDI3MzcsMTEuMTE1NiBDMjMwLjMxNDcwMiw5Ljc5NzY3OCAyMjkuOTA0NDE4LDkuMzM3IDIyOC45ODUyMjksOS4zMzcgQzIyOC4wOTA3MTQsOS4zMzcgMjI3LjYyNjAyOCw5Ljc4MTY3MyAyMjcuNDQzMzMsMTAuOTc0MTUxIEwyMjcuNDI0LDExLjExMSBMMjI3LjQyNCwxOC4xNzUgQzIyNy40MjQsMjAuOTc5NDgzIDIyNS4yMDg0MjgsMjMuMjY2OTY0IDIyMi40MzIzMDIsMjMuMzgyNDI3IEwyMjIuMjEyLDIzLjM4NyBDMjE5LjQwNjg0NCwyMy4zODcgMjE3LjEyMDAwMSwyMS4xNzE3MjEgMjE3LjAwNDU3MSwxOC4zOTUzMjUgTDIxNywxOC4xNzUgTDIxNywyIEwwLDIgTDAsMCBMMjE5LDAgWiIgaWQ9IlBhdGgiIGZpbGw9IiNGREI1MTQiPjwvcGF0aD4gICAgICAgIDwvZz4gICAgPC9nPjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  width: calc(100% - (var(--spacing-md)*2));
+  margin: 0 auto;
+  bottom: -24px;
+  position: absolute;
+  height: 24px;
+}
+
+.Deprecated__bubble > div {
+  max-width: auto;
+  margin: 0;
+
 }
 
 .Deprecated__text {

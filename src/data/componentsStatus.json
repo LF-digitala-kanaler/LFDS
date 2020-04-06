@@ -41,6 +41,14 @@
       }
     },
     {
+      "component": "Buttons",
+      "bootstrap": {
+        "new": false,
+        "deprecated": true,
+        "changedInVersion":[ "3.1.0"]
+      }
+    },
+    {
       "component": "Avatar",
       "bootstrap": {
         "new": false,

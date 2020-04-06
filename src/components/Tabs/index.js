@@ -4,13 +4,12 @@ import style from './index.module.css'
 import Wrapper from '../Wrapper'
 import Content from '../Content'
 
-const TabsWrapper = ({tabs, location, navigate}) => {
+const TabsWrapper = ({tabs, location, navigate, children}) => {
  const [tabName, setTabName] = useState([]);
  const [tabContent, setTabContent] = useState([]); 
  const [index, setTabIndex] = useState(0)
  
  useEffect(() => {
-    console.log(tabName.length, '1')
     if(tabs.length > 0) {
       setTabName(tabs.map(item => {
         return ((item.name?.rawMarkdownBody || item.name))
@@ -43,14 +42,17 @@ const TabsWrapper = ({tabs, location, navigate}) => {
   
   return (
     <Tabs index={index === -1 ? 0 : index} onChange={onTabsChange} className={style.Tabs} >
+      {children}
       <TabList className={style.Tabs__list}>
         {
           tabName.map((tab, index) => {
             return <Tab key={index} className={style.Tabs__link}>{tab}</Tab>
           })
         }
+        
       </TabList>
       <TabPanels className={style.Tabs__panels}>
+        
         {tabContent.map((tab, index) => {
           return (
             <TabPanel className={style.Tabs__panel} key={index}>
@@ -61,10 +63,7 @@ const TabsWrapper = ({tabs, location, navigate}) => {
           )
         })}
       </TabPanels>
-    </Tabs> 
-      
-  
-    
+    </Tabs>
   );
 }
 

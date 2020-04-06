@@ -22,7 +22,7 @@ export const ComponentPageTemplate = ({
 }) => (
   
   <> 
-
+    
     { currentDirectory && <Deprecated status={currentDirectory} />}
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} /> 
@@ -35,14 +35,14 @@ export const ComponentPageTemplate = ({
       {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}   />}
       {/* <ComponentAllVersions version={currentDirectory} /> */}
     </Wrapper>
-    <div style={{position: "relatve"}}>
-      { currentDirectory && <Deprecated fixed={true} status={currentDirectory} />}
+      
       <Location>
         {({ location }) => (
-          <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
+          <TabsWrapper tabs={tabs} location={location} navigate={navigate}>
+            { currentDirectory && <Deprecated fixed={true} status={currentDirectory} />}
+          </TabsWrapper>
         )}
       </Location>
-    </div>
   </>
 )
 
@@ -72,7 +72,6 @@ const ComponentPage = ({
       : false
    }
     
-
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,

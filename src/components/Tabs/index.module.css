@@ -9,12 +9,12 @@
 .Tabs {
   height: 100%;
   margin-top: var(--spacing-xxlg);
+  position: relative;
 }
 
 .Tabs__list {
   display: flex;
   list-style-type: none;
- 
   margin-left: var(--spacing-md);
   margin-right: var(--spacing-md);
   @media (--medium-viewport) { 
