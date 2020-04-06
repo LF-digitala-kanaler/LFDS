@@ -31,12 +31,12 @@ tabs:
 
 
       <figure class="Image Image__border"><img src="/img/exempel-graph-pie.jpg"
-      srcset="/img/exempel-graph-pie.jpg 2x" alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      srcset="/img/exempel-graph-pie.jpg 2x" alt="/img/exempel-graph-pie.jpg
+      2x""><figcaption><div class="Image__caption"></div></figcaption></figure>
     name: Design
   - content: content code
     name: Code
   - content: content code
-    name: Code
+    name: Copy
 ---
 
