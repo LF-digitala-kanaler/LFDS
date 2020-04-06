@@ -33,8 +33,7 @@ tabs:
 
       <figure class="Image none"><img src="/img/exempel-graph-line.jpg"
       srcset="/img/exempel-graph-line.jpg 2x" alt="/img/exempel-graph-line.jpg
-      2x""><figcaption><div class="Image__caption">/img/exempel-graph-line.jpg
-      2x"</div></figcaption></figure>
+      2x""><figcaption><div class="Image__caption"></div></figcaption></figure>
     name: Design
   - content: asd
     name: Code

@@ -61,14 +61,14 @@ tabs:
 
 
       Bar graphs are used to compare things between different groups or to track
-      changes over time. However, when trying to measure change over time, bar
-      graphs are best when the changes are larger.
+      changes over time. However, bar graphs are best when the changes are
+      larger.\
 
+      [More about Bar
+      Graph](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/bar-graph)\
 
-      More about Bar Graph
-
-
-      More about Distribution bar
+      [More about Distribution
+      bar](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/distribution-bar)
 
 
       #### . . . an Area Graph.
@@ -190,7 +190,12 @@ tabs:
       I grafer får vi använda förkortningar, till skillnad från löptext. Vi
       skriver till exempel tkr för tusen kronor.
     name: Code
-  - content: Text...
+  - content: |-
+      ## This is a:
+
+      **Area Chart**
+
+      ![](/img/exempel-graph-area.jpg)
     name: Exempel
 ---
 
