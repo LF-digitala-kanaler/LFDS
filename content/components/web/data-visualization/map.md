@@ -1,7 +1,7 @@
 ---
 template: ComponentPage
 category: Data Visualization
-title: Map
+title: Map Chart
 description: >-
   Use a map if you have data with a geographical component. Maps can shade areas
   in proportion to mapped values, allowing for visual pop-out of high-value
