@@ -137,13 +137,14 @@ tabs:
 
       LFUI provides a few scales to choose from that will color your visual data
       according to the visual profile of Länsförsäkringar. The visual identity
-      set a prefereble scale of blue or red. Below we have set different set to
+      set a preferable scale of blue or red. Below we have set different set to
       make it the same for all graphs.
 
 
-      Use colors to make your most important value stand out. For the rest of
-      the value, use shades of one or two color – rainbow colors will distract
-      readers from comparing the pie shares.
+      * Use colors to make your most important value stand out
+
+      * Use light colors for low values and dark colors for high values for
+      example in map charts
 
 
       We are going to update the colors for better accessibility. \[2019-12-01]
