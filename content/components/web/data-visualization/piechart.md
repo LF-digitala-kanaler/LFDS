@@ -21,6 +21,19 @@ tabs:
       categories or fewer.
 
 
+      Pie charts work best for values around 25%, 50% or 75%. It’s easier for
+      readers to spot these percentages in a pie chart than in a stacked bar or
+      column chart.
+
+
+      **Work best**
+
+
+      * for values around 25%, 50% or 75%
+
+      * if you only have a few values - three to six
+
+
       ### Legends and colors
 
 
@@ -33,8 +46,8 @@ tabs:
 
 
       <figure class="Image Image__border"><img src="/img/exempel-graph-pie.jpg"
-      srcset="/img/exempel-graph-pie.jpg 2x" alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      srcset="/img/exempel-graph-pie.jpg 2x" alt="/img/exempel-graph-pie.jpg
+      2x""><figcaption><div class="Image__caption"></div></figcaption></figure>
     name: Design
   - content: content code
     name: Code
