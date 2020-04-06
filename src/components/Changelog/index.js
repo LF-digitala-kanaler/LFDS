@@ -2,7 +2,6 @@ import React from 'react';
 import style from './index.module.css';
 import { StaticQuery, graphql, Link } from "gatsby"
 import Accordion from '../Accordion';
-import Heading from '../Heading';
 
 export default () => (
   <StaticQuery
