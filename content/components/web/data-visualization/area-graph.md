@@ -49,6 +49,19 @@ tabs:
 
 
       ![](/img/exempel-graph-area.jpg)
+
+
+      ## Please consider
+
+
+      If you want to show how values differ in different categories, consider a
+      (stacked) bar, column chart or split bars instead. 
+
+
+      ### Read first
+
+
+      <https://blog.datawrapper.de/area-charts/>
     name: Design
 ---
 
