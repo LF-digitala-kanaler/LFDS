@@ -21,6 +21,9 @@ tabs:
       time for more than one group.
 
 
+      ### Legends and colors
+
+
       All the graphs have the same legends and color styles, read more
       [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#the-different-parts).
 
@@ -31,7 +34,8 @@ tabs:
 
       <figure class="Image none"><img src="/img/exempel-graph-line.jpg"
       srcset="/img/exempel-graph-line.jpg 2x" alt="/img/exempel-graph-line.jpg
-      2x""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      2x""><figcaption><div class="Image__caption">/img/exempel-graph-line.jpg
+      2x"</div></figcaption></figure>
     name: Design
   - content: asd
     name: Code
