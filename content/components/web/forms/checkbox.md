@@ -19,6 +19,17 @@ tabs:
       designwise.
 
 
+      Checkboxes are used when there is a list of options and the user may
+      select any number of choices, including zero, one, or several. In other
+      words, each checkbox is independent of all other checkboxes in the list,
+      and checking one box doesn’t uncheck the others.
+
+
+      Try to present your lists vertically, with one choice per line. If you
+      must use a horizontal layout with multiple options per line you have to
+      think about the mobile layout, we don't want the answers to 
+
+
       ## Please consider
 
 
@@ -38,8 +49,7 @@ tabs:
 
       Till exempel: För att köpa bilförsäkring måste du godkänna villkoren.
     name: Copy
-  - name: Code
-    content: >-
+  - content: >-
       ## How to use
 
 
@@ -77,4 +87,6 @@ tabs:
       <label class="custom-control-label" for="checkbox">Checkbox</label>
 
       ```
+    name: Code
 ---
+
