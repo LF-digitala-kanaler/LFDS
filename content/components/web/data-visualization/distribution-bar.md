@@ -27,12 +27,15 @@ tabs:
       course) to make sure the value fits.
 
 
-      ### Colors
+      ### Legends and colors
 
 
-      Colors are automatically set in a repeating sequence of navy, blue, sky
-      and baby. You can also use the pre deffined colors set under [graphs and
-      charts](/data-visualization/graphsandcharts).
+      All the graphs have the same legends and color styles, read more
+      [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#the-different-parts).
+
+
+      When to use different graphs you find
+      [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
 
 
       ### Pointer separator

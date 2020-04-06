@@ -1,4 +1,5 @@
 ---
+priority: '1'
 template: ComponentPage
 category: Data Visualization
 title: Graphs and Charts
@@ -36,24 +37,21 @@ tabs:
       wen to use them:
 
 
-      #### . . . a Line graph
+      #### . . . a Line Graph
 
 
       Line graphs are used to track changes over short and long periods of time.
-      When smaller changes exist, line graphs are better to use than bar graphs.
-      Line graphs can also be used to compare changes over the same period of
-      time for more than one group.
+      \
 
-
-      More about line graph
+      [More about line
+      graph](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/line-graph)
 
 
       #### . . . a Pie Chart.
 
 
       Pie charts are best to use when you are trying to compare parts of a
-      whole. They do not show changes over time.
-
+      whole. They do not show changes over time.\
 
       [More about Pie
       Chart](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/piechart)
@@ -68,6 +66,9 @@ tabs:
 
 
       More about Bar Graph
+
+
+      More about Distribution bar
 
 
       #### . . . an Area Graph.

@@ -21,8 +21,10 @@ tabs:
       categories or fewer.
 
 
-      All the graphs have the same modifiers and legends styles, that we talk
-      about
+      ### Legends and colors
+
+
+      All the graphs have the same legends and color styles, read more
       [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#the-different-parts).
 
 
@@ -31,8 +33,9 @@ tabs:
 
 
       <figure class="Image Image__border"><img src="/img/exempel-graph-pie.jpg"
-      srcset="/img/exempel-graph-pie.jpg 2x" alt=""><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      srcset="/img/exempel-graph-pie.jpg 2x" alt="/img/exempel-graph-pie.jpg
+      2x""><figcaption><div class="Image__caption">/img/exempel-graph-pie.jpg
+      2x"</div></figcaption></figure>
     name: Design
   - content: content code
     name: Code
