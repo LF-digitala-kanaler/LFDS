@@ -1,4 +1,5 @@
 ---
+priority: '1'
 template: ComponentPage
 category: Data Visualization
 title: Graphs and Charts
