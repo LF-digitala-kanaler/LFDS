@@ -51,12 +51,13 @@ tabs:
       2x"</div></figcaption></figure>
 
 
-
-
       ## Please consider
 
 
-      ...
+      * grouping slices together in one bigger slice
+
+      * Pie charts are not the best choice if you want readers to compare the
+      size of shares with similar sizes
 
 
       ### Read first
