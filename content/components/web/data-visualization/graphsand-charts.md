@@ -141,6 +141,11 @@ tabs:
       make it the same for all graphs.
 
 
+      Use colors to make your most important value stand out. For the rest of
+      the value, use shades of one or two color – rainbow colors will distract
+      readers from comparing the pie shares.
+
+
       We are going to update the colors for better accessibility. \[2019-12-01]
 
 
