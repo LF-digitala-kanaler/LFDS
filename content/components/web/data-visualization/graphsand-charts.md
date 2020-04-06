@@ -1,10 +1,12 @@
 ---
+priority: 1
 template: ComponentPage
 category: Data Visualization
 title: Graphs and Charts
 description: >-
   Graphs are used to visualize data and to help people quickly understand and
-  use information.
+  use information. Here are the different kind of graphs to use and details of
+  legends and colors to use.
 previewImage: /img/graphs-and-charts.svg
 intro: >-
   Graphs are used to visualize data and to help people quickly understand and
