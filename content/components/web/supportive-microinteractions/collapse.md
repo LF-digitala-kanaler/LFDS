@@ -55,9 +55,68 @@ tabs:
       being acceptable (but still not preferred). Please consider modals as an
       alternative if the text can’t be kept short.
     name: Design
-  - content: content code
-    name: Code
-  - content: content code
+  - content: >-
+      ## How to use
+
+
+      Collapse uses the built in collapse functionality from Bootstrap. You can
+      use a link with the`href`attribute, or a button with the `data-target`
+      attribute. In both cases, the `data-toggle="collapse"` is required.
+
+
+      Your hidden container will need an ID that matches that `that-target` or
+      `href,`
+
+
+      ### Variants 
+
+
+      There is 2 different versions of collapse, one where the expanded area
+      have a white background and one with grey background.
+
+
+      White is the default. To add a grey background, add `.bg-body-bg` to your
+      collapse target like this:
+
+
+      ```
+
+      <button type="button" id="collapse" data-toggle="collapse"
+      href="#collapse" aria-expanded="false" aria-controls="collapseExample">Läs
+      mer</button>
+
+      <div class="collapse bg-body-bg" id="collapse"></div>
+
+      ```
+
+
+      ## Accessibility
+
+
+      Be sure to add `aria-expanded` to the control element. This attribute
+      explicitly conveys the current state of the collapsible element tied to
+      the control to screen readers and similar assistive technologies. If the
+      collapsible element is closed by default, the attribute on the control
+      element should have a value of `aria-expanded="false"`. 
+
+
+      If you’ve set the collapsible element to be open by default using the
+      `show` class, set `aria-expanded="true"` on the control instead. The
+      plugin will automatically toggle this attribute on the control based on
+      whether or not the collapsible element has been opened or closed (via
+      JavaScript, or because the user triggered another control element also
+      tied to the same collapsible element). If the control element’s HTML
+      element is not a button (e.g., an `<a>`or `<div>`), the attribute
+      `role="button"` should be added to the element.
+
+
+      If your control element is targeting a single collapsible element – i.e.
+      the `data-target` attribute is pointing to an `id` selector – you should
+      add the `aria-controls` attribute to the control element, containing the
+      `id` of the collapsible element. Modern screen readers and similar
+      assistive technologies make use of this attribute to provide users with
+      additional shortcuts to navigate directly to the collapsible element
+      itself. *(source:
+      [bootstrap](https://getbootstrap.com/docs/4.0/components/collapse/#accessibility))*
     name: Code
 ---
-

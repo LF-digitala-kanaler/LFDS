@@ -31,9 +31,32 @@ tabs:
       As price box, value box and callout all are various ways of highlighting
       information you should avoid mixing them in one view.
     name: Design
-  - content: content code
-    name: Code
-  - content: content code
-    name: Code
----
+  - name: Code
+    content: >-
+      ## How to use
 
+
+      Callout uses [Vivus](https://github.com/maxwellito/vivus) for the
+      animation of the SVG. Animation initialise is not part of LFUI and
+      something you have to do yourself. The animation should autostart when the
+      component is in view. This is an example how the initialise script could
+      look like. 
+
+
+      ```
+
+      $('[data-draw]').each((index, el) => {
+        const $el = $(el);
+        const options = getDataOptions($el.data());
+
+        if (options.hasOwnProperty('on')) {
+          delete options.on;
+          options.start = 'autostart';
+          $el.on(options.on, () => draw(el, options));
+        } else {
+          draw(el, options);
+        }
+      });
+
+      ```
+---

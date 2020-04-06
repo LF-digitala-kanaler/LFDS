@@ -19,7 +19,10 @@ tabs:
       information, but you don't want to break or exit the flow to mediate this
       information. Typical examples include "Läs mer"-buttons containing more
       details on a specific function/choice that is seen as relevant, but
-      secondary, to the user in order to make this choice.
+      secondary, to the user in order to make this choice. An example use for
+      this would be to display a visual comparison between different
+      alternatives, for example what's included in different alternatives of an
+      insurance.
 
 
       Modals can also work in a more functional-oriented way: To sign and apply
@@ -35,8 +38,9 @@ tabs:
       case, a separate page might be a better choice. 
 
 
-      A modal is usually used to display visual a comparison between different
-      states for exempel full and half insurance whats included.
+      Modals can be closed by pressing outside the modal (on the shadowy
+      background), using the X in top right corner or by pressing ESC on the
+      keyboard.
 
 
       ## Please consider
@@ -53,4 +57,3 @@ tabs:
   - content: content code
     name: Code
 ---
-
