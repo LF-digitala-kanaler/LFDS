@@ -37,9 +37,7 @@ tabs:
       wen to use them:
 
 
-
-
-      #### . . . a Line graph
+      #### . . . a Line Graph
 
 
       Line graphs are used to track changes over short and long periods of time.
@@ -47,8 +45,6 @@ tabs:
 
       [More about line
       graph](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/line-graph)
-
-
 
 
       #### . . . a Pie Chart.
@@ -59,8 +55,6 @@ tabs:
 
       [More about Pie
       Chart](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/piechart)
-
-
 
 
       #### . . . a Bar Graph.
