@@ -26,6 +26,17 @@ tabs:
 
 
       * When the changes are larger
+
+
+      ### Legends and colors
+
+
+      All the graphs have the same legends and color styles, read more
+      [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#the-different-parts).
+
+
+      When to use different graphs you find
+      [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
     name: Design
 ---
 
