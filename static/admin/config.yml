@@ -20,12 +20,9 @@ collections: # A list of collections the CMS should be able to edi
       
       - label: "Priority"
         name: "priority"
-        widget: "number"
-        valueType: "int"
-        min: 1
-        max: 100
+        widget: "string"
         required: false
-        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure']
+        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
      
       - { label: Template, name: template, widget: hidden, default: ComponentPage, value: ComponentPage }
       - label: 'Category'
