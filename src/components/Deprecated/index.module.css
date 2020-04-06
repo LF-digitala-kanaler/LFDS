@@ -5,6 +5,19 @@
   margin-top: calc(-1* var(--spacing-vertical--2));
   border-bottom: 2px solid var(--color-border);
 }
+
+.Deprecated--fixed {
+  position: fixed;
+}
+
 .Deprecated__text {
   margin-bottom: 0;
+}
+.Deprecated__container {
+  display: flex;
+}
+
+.Deprecated__icon {
+  margin-right: var(--spacing-unit);
+  margin-top: -9px;
 }

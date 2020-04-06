@@ -10,6 +10,7 @@ import { Location, navigate, globalHistory} from "@reach/router";
 import {ComponentVersion} from '../components/ComponentVersion';
 import Deprecated from '../components/Deprecated';
 // Export Template for use in CMS preview
+
 export const ComponentPageTemplate = ({
   title,
   intro,
@@ -34,13 +35,14 @@ export const ComponentPageTemplate = ({
       {componentExample && componentExample.length > 0 && <ComponentExample variants={componentExample} background={backgroundColor}   />}
       {/* <ComponentAllVersions version={currentDirectory} /> */}
     </Wrapper>
-     
-    <Location>
-      {({ location }) => (
-        <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
-      )}
-    </Location>
-   
+    <div style={{position: "relatve"}}>
+      { currentDirectory && <Deprecated fixed={true} status={currentDirectory} />}
+      <Location>
+        {({ location }) => (
+          <TabsWrapper tabs={tabs} location={location} navigate={navigate} />
+        )}
+      </Location>
+    </div>
   </>
 )
 
