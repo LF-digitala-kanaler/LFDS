@@ -30,12 +30,9 @@ tabs:
       [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
 
 
-
-
       <figure class="Image Image__border"><img src="/img/exempel-graph-pie.jpg"
-      srcset="/img/exempel-graph-pie.jpg 2x" alt="/img/exempel-graph-pie.jpg
-      2x""><figcaption><div class="Image__caption">Here are some
-      exemples</div></figcaption></figure>
+      srcset="/img/exempel-graph-pie.jpg 2x" alt=""><figcaption><div
+      class="Image__caption"></div></figcaption></figure>
     name: Design
   - content: content code
     name: Code
