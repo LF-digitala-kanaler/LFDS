@@ -27,6 +27,47 @@ tabs:
       course) to make sure the value fits.
 
 
+      ### Modifiers
+
+
+      * Arrow that points out separator steps
+
+      * Pointer/arrow as a separator 
+
+      * Tooltip explanation
+
+
+
+
+      #### Arrow that points out separator steps
+
+
+      You can use arrows that points out the separator steps with an explanation
+      over the arrow so the customer knows what the different steps are. This
+      can be used for values that are growing, or are expected to grow.
+
+
+      #### Pointer/arrow as a separator
+
+
+      You can use a pointer separator in the bar to show that something are
+      growing in a direction as in Bekväm pension, were the amount always grows
+      to the amount of 80% were it stops. This can be used for values that are
+      growing, or are expected to grow.
+
+
+      Try to not to use the arrow at small values, as the arrow has a width
+      around 10px and might disrupt the accuracy of the bar.
+
+
+      #### Tooltip explanation
+
+
+      When you don't have room for arrows you can use the mouse over tooltip or
+      for the mobil mouse press function to get more info about the value or
+      part of the bar.
+
+
       ### Legends and colors
 
 
@@ -36,18 +77,6 @@ tabs:
 
       When to use different graphs you find
       [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
-
-
-      ### Pointer separator
-
-
-      You can use pointer separators with an arrow thats points out the
-      different separators. This can be used for values that are growing, or are
-      expected to grow.
-
-
-      Try to not to use the arrow at small values, as the arrow has a width
-      around 10px and might disrupt the accuracy of the bar.
 
 
       ## Please consider:
