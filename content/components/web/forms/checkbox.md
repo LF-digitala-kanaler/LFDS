@@ -27,7 +27,8 @@ tabs:
 
       Try to present your lists vertically, with one choice per line. If you
       must use a horizontal layout with multiple options per line you have to
-      think about the mobile layout, we don't want the answers to 
+      think about the mobile layout, we don't want the answers to flow on two
+      lines. Preferable to chance to verticale in mobile.
 
 
       ## Please consider
