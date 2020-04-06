@@ -11,8 +11,7 @@ previewImage: /img/graphs-and-charts.svg
 intro: >-
   Area graphs are very similar to line graphs. They can be used to track changes
   over time for one or more groups. 
-backgroundColor:
-  - White
+backgroundColor: '#ffffff'
 tabs:
   - content: >-
       ## How to use

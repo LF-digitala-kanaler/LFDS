@@ -58,7 +58,6 @@ collections: # A list of collections the CMS should be able to edi
         options: 
           - { label: "White", value: "#fff" }
           - { label: "Grey", value: "#f3f3f3" }
-        default: ["White"]
         required: false
 
       - name: 'tabs'
