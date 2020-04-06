@@ -15,10 +15,11 @@ tabs:
       ## How to use
 
 
-      The distribution bar and bar graphs are used to compare how different
-      values relate to one another or/and to track changes over time. However,
-      when trying to measure change over time, bar graphs are best when the
-      changes are larger.
+      The distribution bar is a variation of [bar
+      graphs](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/bar-graph/)
+      are used to compare how different values relate to one another or/and to
+      track changes over time. However, when trying to measure change over time,
+      bar graphs are best when the changes are larger.
 
 
       You can have the text of procent in the bar or in top of the bar. A
