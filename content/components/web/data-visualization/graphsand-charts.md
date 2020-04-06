@@ -190,7 +190,12 @@ tabs:
       I grafer får vi använda förkortningar, till skillnad från löptext. Vi
       skriver till exempel tkr för tusen kronor.
     name: Code
-  - content: Text...
+  - content: |-
+      ## This is a:
+
+      **Area Chart**
+
+      ![](/img/exempel-graph-area.jpg)
     name: Exempel
 ---
 
