@@ -11,7 +11,34 @@ intro: >-
   what's included in different types of an insurance).
 tabs:
   - name: Design
-    content: Content
+    content: |-
+      .
+
+      .
+
+      .
+
+      Siduppdelning:
+
+      **Informativa**
+
+      ffa för siffror, transaktionshistorik etc
+
+      *modifiers*\
+      *två storlekar: normall/small*\
+      *varannan rad grå (totalraden blir mörkare än annars)*\
+      *headings: sub-headers och vanliga*\
+      *expandable-rows*\
+      *sub-group (kolla upp om denna faktiskt används innan jag skriver!)*
+
+      **Jämförande**
+
+      när du ska jämföra mellan olika saker. vad ingår?\
+      text vs gröna bockar/inget  (ex gravidförsäkring som bonus!)
+
+      *modifier*\
+      *expand för läsa mer, chevron*\
+      *sticky header*
   - name: Code
     content: content
 ---
