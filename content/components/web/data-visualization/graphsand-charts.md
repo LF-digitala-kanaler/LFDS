@@ -40,8 +40,9 @@ tabs:
       #### . . . a Line Graph
 
 
-      Line graphs are used to track changes over short and long periods of time.
-      \
+      Line graphs are used to track changes over short and long periods of
+      time. 
+
 
       [More about line
       graph](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/line-graph)
@@ -51,7 +52,8 @@ tabs:
 
 
       Pie charts are best to use when you are trying to compare parts of a
-      whole. They do not show changes over time.\
+      whole. They do not show changes over time.
+
 
       [More about Pie
       Chart](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/piechart)
@@ -62,10 +64,12 @@ tabs:
 
       Bar graphs are used to compare things between different groups or to track
       changes over time. However, bar graphs are best when the changes are
-      larger.\
+      larger.
+
 
       [More about Bar
-      Graph](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/bar-graph)\
+      Graph](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/bar-graph)
+
 
       [More about Distribution
       bar](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/distribution-bar)
@@ -76,7 +80,8 @@ tabs:
 
       Area graphs are very similar to line graphs. They can be used to track
       changes over time for one or more groups. Use area charts only if you want
-      to show how values develop over time.\
+      to show how values develop over time.
+
 
       [More about Area Graph](/data-visualization/area-graph)
 
@@ -104,7 +109,8 @@ tabs:
       corresponding to the geographical entities represented on the map. 
 
 
-      More about Map Chart
+      [More about Map
+      Chart](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/map)
 
 
       ### The different parts
