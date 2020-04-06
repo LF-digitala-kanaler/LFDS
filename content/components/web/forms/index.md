@@ -10,11 +10,11 @@ contentBelow: ''
 contentAbove: >-
   When working with forms you need to be aware of more aspects than only the
   components. Make sure to also read about our validation rules and how we
-  handle required fields in the [patterns](/patterns/) section, and about the
+  handle required fields in the
+  [patterns](/patterns/general-patterns/form-validation/) section, and about the
   grid you can use under [visual identity](/visual-identity/).
 
 
-  # HÄR BEHÖVER VI SE TILL ATT DET FINNS KORREKTA LÄNKAR TILL VALIDATION,
-  REQUIRED OCH GRID NÄR STRUKTURERNA FÖR DE DELARNA ÄR PÅ PLATS.
+  OBS: LÄNKAR TILL VALIDATION, REQUIRED OCH GRID
 ---
 
