@@ -10,7 +10,8 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
  const [index, setTabIndex] = useState(0)
  
  useEffect(() => {
-    if(tabs.length > 0) {
+   
+    if( tabs && tabs.length > 0) {
       setTabName(tabs.map(item => {
         return ((item.name?.rawMarkdownBody || item.name))
       }))
@@ -23,7 +24,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
   // Needed for the cms to update the tabs
   useEffect(() => {
     
-    if(tabs.length > 0) {
+    if(tabs && tabs.length > 0) {
     setTabName(tabs.map(item => {
       return ((item.name?.rawMarkdownBody || item.name))
     }))
