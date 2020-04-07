@@ -12,10 +12,12 @@ import { ArticlePageTemplate } from '../templates/ArticlePage'
 import AdvancedImage from "./widgets/advancedImage"
 import Callout from "./widgets/callout"
 import ColorWidget from "./widgets/color"
+import Collapse from "./widgets/collapse"
 
 CMS.registerEditorComponent(AdvancedImage)
 CMS.registerEditorComponent(Callout)
 CMS.registerEditorComponent(ColorWidget)
+CMS.registerEditorComponent(Collapse)
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate  {...entry.toJS().data} />

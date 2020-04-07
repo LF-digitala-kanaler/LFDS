@@ -11,7 +11,7 @@ lang: true
 heroImage:
   heroImageDesktop: /img/halsa_omkladningsrum.webp
   heroImageMobile: /img/mobiletest.webp
-  body: test
+  content: test
 ---
 Övergripande målbild:
 

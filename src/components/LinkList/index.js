@@ -5,7 +5,6 @@ import { Link } from 'gatsby';
 
 const LinkList = ({items}) => {
   
-  console.log(items)
   const links = items.map(item => {
    return  +/^[/#](?!\/)/.test(item.url) ? (
       <li key={item.url} className={style.LinkList__item}><Link className={style.LinkList__link} to={item.url}>{item.text}</Link></li>

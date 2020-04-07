@@ -16,7 +16,6 @@ export const HomePageTemplate = ({
   intro,
   shortcuts,
   fullWidthImage,
-  fullWidthImageMobile,
   body,
   relatedLinks
 }) => (
