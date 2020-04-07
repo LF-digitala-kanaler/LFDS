@@ -5,6 +5,8 @@ intro: >-
   De är till för att vi ska ha några gemensam riktning - hur vi designar för
   Länsförsäkringar.
 priority: '1'
+wide: true
+lang: true
 ---
 Övergripande målbild:
 
