@@ -10,8 +10,7 @@ intro: >-
   Use a map if you have data with a geographical component. Maps can shade areas
   in proportion to mapped values, allowing for visual pop-out of high-value
   areas. 
-backgroundColor:
-  - White
+backgroundColor: '#ffffff'
 tabs:
   - content: >-
       ## How to use

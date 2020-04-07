@@ -75,16 +75,7 @@ collections: # A list of collections the CMS should be able to edi
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
-      - label: 'Background'
-        name: 'background'
-        widget: 'select'
-        required: false
-        hint: ['Background for component example ( gray is default)']
-        options: 
-          - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }
-       
+      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }       
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -104,13 +95,9 @@ collections: # A list of collections the CMS should be able to edi
       
       - label: "Priority"
         name: "priority"
-        widget: "number"
-        valueType: "int"
-        default: 0
-        min: 1
-        max: 100
+        widget: "string"
         required: false
-        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure']
+        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
 
   - name: patterns-page
     label: Patterns
