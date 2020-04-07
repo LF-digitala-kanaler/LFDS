@@ -3,15 +3,14 @@ template: ArticlePage
 title: Design Principles
 intro: >-
   De är till för att vi ska ha några gemensam riktning - hur vi designar för
-  Länsförsäkringar.
-  body: test content
+  Länsförsäkringar. body: test content
+heroImage:
+  heroImageDesktop: screenshot-2020-02-12-at-13.37.47.png
+  heroImageMobile: test.png
+  content: test
 priority: '1'
 wide: true
 lang: true
-heroImage:
-  heroImageDesktop: /img/checbox.svg
-  heroImageMobile: /img/checbox.svg
-  content: ''
 ---
 Övergripande målbild:
 
