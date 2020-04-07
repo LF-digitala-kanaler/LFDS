@@ -15,20 +15,20 @@ tabs:
 
 
       Our checkbox follows standard web behaviour - it is used when the user has
-      do to a choice and isn't limited to only one. Not much more to say
-      designwise.
+      do to a choice and isn't limited to only one. Both checkbox and label
+      should be clickable to select/unselect a checkbox.
 
 
-      Checkboxes are used when there is a list of options and the user may
-      select any number of choices, including zero, one, or several. In other
-      words, each checkbox is independent of all other checkboxes in the list,
-      and checking one box doesn’t uncheck the others.
+      Our recommendation is to present your list of checkboxes vertically, with
+      one choice per line. This makes it easier to get an overview of the
+      options and creates a clearer and larger click area. If you use an
+      horizontal layout, make sure that it is coded in such a way that labels
+      don't flow over two rows in responsive modes (one good way is to set a
+      break point when the list becomes vertical).
 
 
-      Try to present your lists vertically, with one choice per line. If you
-      must use a horizontal layout with multiple options per line you have to
-      think about the mobile layout, we don't want the answers to flow on two
-      lines. Preferable to chance to verticale in mobile.
+      Checkboxes should be unchecked by default (unless viewing a representation
+      of previous choices - like having the addon "Mer" on your car insurance).
 
 
       ## Please consider
@@ -90,4 +90,3 @@ tabs:
       ```
     name: Code
 ---
-
