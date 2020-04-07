@@ -30,7 +30,7 @@ const ArticlePage = ({
   data: { page }
   
   },) => {
-  // console.log(page.frontmatter.heroImage)
+
   const sources = [
     page.frontmatter.heroImage.heroImageDesktop.childImageSharp.fluid,
     {
