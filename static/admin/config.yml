@@ -75,7 +75,7 @@ collections: # A list of collections the CMS should be able to edi
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }       
+      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -88,16 +88,32 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }
           - { label: "Motion", value: "Motion" }
-        
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - label: Hero image
+        name: heroImage
+        widget: object
+        fields:
+        - { label: 'Hero image desktop', name: heroImage, widget: 'image', required: false}
+        - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
+        - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
-      
+      - label: 'Background'
+        name: 'background'
+        widget: 'select'
+        required: false
+        hint: ['Background for component example ( gray is default)']
+        options: 
+          - { label: "White", value: "bg-white" }
+          - { label: "Grey", value: "" }
+       
       - label: "Priority"
         name: "priority"
         widget: "string"
         required: false
         hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
+      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area'}
+      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated'}
 
   - name: patterns-page
     label: Patterns
@@ -106,14 +122,6 @@ collections: # A list of collections the CMS should be able to edi
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
-      - label: 'Background'
-        name: 'background'
-        widget: 'select'
-        required: false
-        options: 
-          - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }
-       
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -123,7 +131,30 @@ collections: # A list of collections the CMS should be able to edi
         
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false }
+      - label: Hero image
+        name: heroImage
+        widget: object
+        fields:
+        - { label: 'Hero image desktop', name: heroImage, widget: 'image', required: false}
+        - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
+        - { label: 'Content', name: body, widget: 'markdown',  required: false }
+      - label: 'Background'
+        name: 'background'
+        widget: 'select'
+        required: false
+        hint: ['Background for component example ( gray is default)']
+        options: 
+          - { label: "White", value: "bg-white" }
+          - { label: "Grey", value: "" }
+       
+      - label: "Priority"
+        name: "priority"
+        widget: "string"
+        required: false
+        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
+      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area'}
+      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated'}
+
 
   - name: visual-identity-page
     label: Visual Identity
@@ -132,14 +163,6 @@ collections: # A list of collections the CMS should be able to edi
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
-      - label: 'Background'
-        name: 'background'
-        widget: 'select'
-        required: false
-        options: 
-          - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }
-       
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -155,7 +178,31 @@ collections: # A list of collections the CMS should be able to edi
         
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - label: Hero image
+        name: heroImage
+        widget: object
+        fields:
+        - { label: 'Hero image desktop', name: heroImage, widget: 'image', required: false}
+        - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
+        - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
+      - label: 'Background'
+        name: 'background'
+        widget: 'select'
+        required: false
+        hint: ['Background for component example ( gray is default)']
+        options: 
+          - { label: "White", value: "bg-white" }
+          - { label: "Grey", value: "" }
+       
+      - label: "Priority"
+        name: "priority"
+        widget: "string"
+        required: false
+        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
+      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area'}
+      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated'}
+
     
   - name: 'landing-page'
     label: 'Landing Pages'

@@ -61,6 +61,22 @@ export const pageQuery = graphql`
         template
         category
         background
+        wide
+        long
+        heroImage {
+          childImageSharp {
+            fluid(maxWidth: 4000, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        heroImageMobile {
+          childImageSharp {
+            fluid(maxWidth: 1000, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

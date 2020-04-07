@@ -8,6 +8,7 @@ import {CategoryOverviewTemplate} from '../templates/CategoryOverview'
 import { ChangelogPageTemplate } from '../templates/ChangelogPage'
 import { LandingPageTemplate } from '../templates/LandingPage'
 import { ArticlePageTemplate } from '../templates/ArticlePage'
+
 import AdvancedImage from "./widgets/advancedImage"
 import Callout from "./widgets/callout"
 import ColorWidget from "./widgets/color"
