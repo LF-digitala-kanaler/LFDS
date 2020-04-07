@@ -134,12 +134,7 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
   // convert frontmatter images
   fmImagesToRelative(node)
 
-  // create pages for our examples from LFUI-components
-
   
-  // Create smart slugs
-  // https://github.com/Vagr9K/gatsby-advanced-starter/blob/master/gatsby-node.js
-
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent)
     const parsedFilePath = path.parse(fileNode.relativePath)

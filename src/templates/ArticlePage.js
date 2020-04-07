@@ -28,17 +28,17 @@ export const ArticlePageTemplate = ({
 )
 const ArticlePage = ({ 
   data: { page }
-  
+ 
   },) => {
-
-  const sources = [
-    page.frontmatter.heroImage.heroImageDesktop.childImageSharp.fluid,
-    {
-      ...page.frontmatter.heroImage.heroImageMobile.childImageSharp.fluid,
-      media: `(max-width: 768px)`,
-    },
-  ]
-  console.log(sources)
+    if(page.frontmatter.heroImage && page.frontmatter.heroImage.heroImageDesktop.childImageSharp !== null){
+       var sources = [
+        page.frontmatter.heroImage.heroImageDesktop.childImageSharp.fluid,
+        {
+          ...page.frontmatter.heroImage.heroImageMobile.childImageSharp.fluid,
+          media: `(max-width: 768px)`,
+        },
+      ]
+    }
   return (
     <Layout
       meta={page.frontmatter.meta || false}

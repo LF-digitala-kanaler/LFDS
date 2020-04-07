@@ -9,9 +9,9 @@ priority: '1'
 wide: true
 lang: true
 heroImage:
-  heroImageDesktop: /img/halsa_omkladningsrum.webp
-  heroImageMobile: /img/mobiletest.webp
-  content: test
+  heroImageDesktop: /img/checbox.svg
+  heroImageMobile: /img/checbox.svg
+  content: ''
 ---
 Övergripande målbild:
 
