@@ -4,13 +4,14 @@ title: Design Principles
 intro: >-
   De är till för att vi ska ha några gemensam riktning - hur vi designar för
   Länsförsäkringar.
-heroImage:
-  fullWidthImage: halsa_omkladningsrum.webp
-  fullWidthImageMobile: mobiletest.webp
   body: test content
 priority: '1'
 wide: true
 lang: true
+heroImage:
+  heroImageDesktop: /img/halsa_omkladningsrum.webp
+  heroImageMobile: /img/mobiletest.webp
+  body: test
 ---
 Övergripande målbild:
 

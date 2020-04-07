@@ -62,20 +62,23 @@ export const pageQuery = graphql`
         category
         background
         wide
-        long
+        lang
         heroImage {
-          childImageSharp {
-            fluid(maxWidth: 4000, quality: 64) {
-              ...GatsbyImageSharpFluid
+          heroImageDesktop {
+            childImageSharp {
+              fluid(maxWidth: 4000, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
-        }
-        heroImageMobile {
-          childImageSharp {
-            fluid(maxWidth: 1000, quality: 64) {
-              ...GatsbyImageSharpFluid
+          heroImageMobile {
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
+          body
         }
       }
     }

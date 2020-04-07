@@ -94,7 +94,7 @@ collections: # A list of collections the CMS should be able to edi
         name: heroImage
         widget: object
         fields:
-        - { label: 'Hero image desktop', name: heroImage, widget: 'image', required: false}
+        - { label: 'Hero image desktop', name: heroImageDesktop, widget: 'image', required: false}
         - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
         - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
@@ -135,7 +135,7 @@ collections: # A list of collections the CMS should be able to edi
         name: heroImage
         widget: object
         fields:
-        - { label: 'Hero image desktop', name: heroImage, widget: 'image', required: false}
+        - { label: 'Hero image desktop', name: heroImageDesktop, widget: 'image', required: false}
         - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
         - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - label: 'Background'
@@ -182,7 +182,7 @@ collections: # A list of collections the CMS should be able to edi
         name: heroImage
         widget: object
         fields:
-        - { label: 'Hero image desktop', name: heroImage, widget: 'image', required: false}
+        - { label: 'Hero image desktop', name: heroImageDesktop, widget: 'image', required: false}
         - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
         - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
