@@ -15,7 +15,7 @@ tabs:
 
 
       Our checkbox follows standard web behaviour - it is used when the user has
-      do to a choice and isn't limited to only one. Both checkbox and label
+      to do a choice and isn't limited to only one. Both checkbox and label
       should be clickable to select/unselect a checkbox.
 
 
