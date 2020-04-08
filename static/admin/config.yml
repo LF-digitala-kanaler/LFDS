@@ -4,6 +4,7 @@ backend:
   repo: LF-digitala-kanaler/LFUI-website
   branch: master
 
+publish_mode: editorial_workflow
 
 media_folder: static/img
 public_folder: /img
@@ -12,9 +13,9 @@ collections: # A list of collections the CMS should be able to edi
   - name: component-page
     label: Components
     create: true
-    folder: content/components/web/
+    folder: 'content/components/web'
     path: '{{category}}/{{slug}}'
-    create: true # Allow users to create new documents in this collection
+    media_folder: /static/img
     filter: {field: "template", value: "ComponentPage"}
     fields: # The fields each document in this collection have
       
@@ -46,9 +47,6 @@ collections: # A list of collections the CMS should be able to edi
         name: previewImage
         widget: image
         required: false
-        media_library:
-          config:
-            multiple: true
       - { label: Intro, name: intro, widget: text }
       
       - label: 'Background'
