@@ -4,15 +4,14 @@ backend:
   repo: LF-digitala-kanaler/LFUI-website
   branch: master
 
-publish_mode: editorial_workflow
+
 media_folder: static/img
 public_folder: /img
 collections: # A list of collections the CMS should be able to edi
 
   - name: component-page
     label: Components
-    editor:
-      preview: true
+    create: true
     folder: content/components/web/
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
