@@ -139,15 +139,9 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
     const fileNode = getNode(node.parent)
     const parsedFilePath = path.parse(fileNode.relativePath)
     
-    let slug = createFilePath({ node, getNode, basePath: `/content` })
+    let slug = createFilePath({ node, getNode, basePath: `src/pages` })
     
-    if (
-      // home page gets root slug
-      parsedFilePath.name === 'home' &&
-      parsedFilePath.dir === 'pages'
-    ) {
-      slug = `/`
-    } 
+    
     
     createNodeField({
       node,
