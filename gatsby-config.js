@@ -46,8 +46,7 @@ module.exports = {
         icon: `${__dirname}/static/img/favicon.svg` // This path is relative to the root of the site.
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    
     // Add static assets before markdown files
     {
       resolve: 'gatsby-source-filesystem',
@@ -136,6 +135,8 @@ module.exports = {
         
       },
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       
@@ -145,6 +146,9 @@ module.exports = {
           // go before gatsby-remark-images
           {
             resolve: 'gatsby-remark-relative-images',
+            options: {
+              name: 'uploads',
+            },
           },
           {
           resolve: "gatsby-remark-external-links",

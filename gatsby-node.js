@@ -138,15 +138,12 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent)
     const parsedFilePath = path.parse(fileNode.relativePath)
-    
-    let slug = createFilePath({ node, getNode, basePath: `src/pages` })
-    
-    
+    const value = createFilePath({ node, getNode })    
     
     createNodeField({
       node,
       name: 'slug',
-      value: slug
+      value,
     })
     // Add contentType to node.fields
     createNodeField({
