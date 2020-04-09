@@ -24,7 +24,7 @@ fullWidthImage: /img/halsa_omkladningsrum.webp
 fullWidthImageMobile: /img/mobiletest.webp
 relatedLinks:
   - text: Link 1
-    url: components/web/button-and-links/buttons/
+    url: /components/web/button-and-links/buttons/
   - text: Link 2
     url: 'https://github.com/gatsbyjs/gatsby/issues/13764'
 ---
