@@ -9,7 +9,8 @@ import { Grid, Cell } from "styled-css-grid"
 import FullWidthBackground from '../components/FullWidthBackground'
 import Content from '../components/Content'
 import Changelog from '../components/Changelog'
-import LinkList from '../components/LinkList/index.js'
+import LinkList from '../components/LinkList'
+import SearchBlock from '../components/SearchBlock'
 
 export const HomePageTemplate = ({
   title,
@@ -26,6 +27,9 @@ export const HomePageTemplate = ({
     <Wrapper wide tag="div">
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
+    </Wrapper>
+    <SearchBlock />
+    <Wrapper wide tag="div">
       <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
         { shortcuts &&
           shortcuts.map(item => {
@@ -65,7 +69,7 @@ const HomePage = ({
     page.frontmatter.fullWidthImage.childImageSharp.fluid,
     {
       ...page.frontmatter.fullWidthImageMobile.childImageSharp.fluid,
-      media: `(max-width: 900px)`,
+      media: `(max-width: 768px)`,
     },
   ]
   
@@ -125,7 +129,7 @@ export const pageQuery = graphql`
         }
         fullWidthImage {
           childImageSharp {
-            fluid(maxWidth: 2000, quality: 84, maxHeight: 493) {
+            fluid(maxWidth: 1500, quality: 84, maxHeight: 493) {
               ...GatsbyImageSharpFluid
             }
           }

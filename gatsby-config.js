@@ -119,12 +119,12 @@ module.exports = {
           //   resolver: 'fields.frontmattermd.tabs', // not a frontmatter field
           //   store: true,
           // },
-          {
-            name: 'heading',
-            indexed: false,
-            resolver: 'headings.value', // all headings outside of tabs not working. Try to create a node in fields with these values
-            store: true,
-          },
+          // {
+          //   name: 'heading',
+          //   indexed: false,
+          //   resolver: 'headings.value', // all headings outside of tabs not working. Try to create a node in fields with these values
+          //   store: true,
+          // },
           {
             name: 'url',
             indexed: false,

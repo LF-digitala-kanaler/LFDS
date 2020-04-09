@@ -1,0 +1,69 @@
+:root {
+  --searchBlock-width: 23.75rem;
+  --searchBlock-background: var(--color-smoke);
+}
+
+.SearchBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: var(--spacing-vertical--3) var(--spacing-lg);
+  margin: var(--spacing-vertical--2) auto;
+  background-color: var(--searchBlock-background);
+}
+
+.SearchBlock__container {
+  position: relative;
+  min-width: 23.75rem;
+  max-width: 23.75rem;
+  width: 100%;
+}
+
+.SearchBlock__field {
+  background: #ffffff;
+  box-shadow: inset 0 -2px 0 0 #dfdfdf;
+  padding: var(--spacing-sm);
+  color: var(--color-black);
+  outline: 0;
+  width: 100%;
+  border: 0;
+  
+}
+
+.SearchBlock__icon {
+  position: absolute;
+  bottom: 0.7rem;
+  right: 0.5rem;
+}
+
+.SearchBlock__list {
+  background-color: var(--color-white);
+  position: absolute;
+  left:0;
+  top: 42px;
+  width: 100%;
+ 
+  padding-left: 0;
+  z-index: 2;
+}
+
+.SearchBlock__list--isVisible {
+ display: block; 
+}
+
+.SearchBlock__item {
+  border-bottom: 2px solid var(--color-border);
+}
+
+.SearchBlock__link {
+  text-decoration: none;
+  color: var(--color-black);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  display: block;
+}
+.SearchBlock__link--focused{
+  background-color: var(--color-smoke);
+  color: var(--color-black);
+  
+}
