@@ -15,6 +15,7 @@ export const HomePageTemplate = ({
   title,
   intro,
   shortcuts,
+  shortcutsBottom,
   fullWidthImage,
   body,
   relatedLinks
@@ -35,6 +36,13 @@ export const HomePageTemplate = ({
     </Wrapper>
     {fullWidthImage && <FullWidthBackground image={fullWidthImage.childImageSharp ? fullWidthImage.childImageSharp.fluid.src : fullWidthImage}><Content source={body} /> </FullWidthBackground>}
     <Wrapper wide tag="div">
+      <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
+        { shortcutsBottom &&
+          shortcutsBottom.map(item => {
+            return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Cell>
+          })
+        }
+      </Grid>
       <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
         <Cell>
            <Heading tag={3} text={"Release info"} align={"left"} />
@@ -71,6 +79,7 @@ const HomePage = ({
         {...page} 
         {...page.frontmatter}
         shortcuts={page.frontmatter.shortcuts}
+        shortcutsBottom={page.frontmatter.shortcutsBottom}
         fullWidthImage={sources}
         relatedLinks={page.frontmatter.relatedLinks}
         body={page.html}
@@ -95,6 +104,14 @@ export const pageQuery = graphql`
         intro
         background
         shortcuts {
+          icon{
+            publicURL
+          }
+          title
+          text
+          link
+        }
+        shortcutsBottom {
           icon{
             publicURL
           }
