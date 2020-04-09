@@ -4,7 +4,7 @@ module.exports = {
     title: 'LFUI',
     headline: 'Länsförsäkringar User Interface',
     description: 'Länsförsäkringar User Interface`',
-    siteUrl: 'https://lfui-blackwell-9ff8ba.netlify.com/'
+    siteUrl: 'https://lfui-beta-aedd0a.netlify.com/'
   },
   plugins: [
 
@@ -46,8 +46,7 @@ module.exports = {
         icon: `${__dirname}/static/img/favicon.svg` // This path is relative to the root of the site.
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    
     // Add static assets before markdown files
     {
       resolve: 'gatsby-source-filesystem',
@@ -147,11 +146,30 @@ module.exports = {
             resolve: 'gatsby-remark-relative-images',
           },
           {
+            resolve: "gatsby-remark-relative-links",
+            options: {
+              domainRegex: /http[s]*:\/\/[www.]*localhost:8000\.com[/]?/,
+            }
+          },
+          {
+          resolve: `gatsby-remark-absolute-link-catch`,
+            options: {
+              absoluteUrls: [
+                //Here I am using pretty much every protocol combination you could expect for a www... site
+                "https://lfui-beta-aedd0a.netlify.com",
+                "https://www.lfui-beta-aedd0a.netlify.com",
+                "http://lfui-beta-aedd0a.netlify.com",
+                "http://www.lfui-beta-aedd0a.netlify.com"
+              ],
+              developmentLocation: `http://localhost:8000` //optional, defaults to http://localhost:8000
+            }
+          },
+          {
           resolve: "gatsby-remark-external-links",
           options: {
             target: "_target",
             rel: "external nofollow noreferrer noopener"
-          }
+            }
           },
           {
             resolve: 'gatsby-remark-images',
@@ -190,6 +208,9 @@ module.exports = {
         ]
       }
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
