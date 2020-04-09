@@ -125,14 +125,14 @@ export const pageQuery = graphql`
         }
         fullWidthImage {
           childImageSharp {
-            fluid(maxWidth: 4000, quality: 64, maxHeight: 493) {
+            fluid(maxWidth: 2000, quality: 84, maxHeight: 493) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         fullWidthImageMobile {
           childImageSharp {
-            fluid(maxWidth: 1000, quality: 64) {
+            fluid(maxWidth: 1000, quality: 84) {
               ...GatsbyImageSharpFluid
             }
           }
