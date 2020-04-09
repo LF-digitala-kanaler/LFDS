@@ -65,7 +65,7 @@ const HomePage = ({
     page.frontmatter.fullWidthImage.childImageSharp.fluid,
     {
       ...page.frontmatter.fullWidthImageMobile.childImageSharp.fluid,
-      media: `(max-width: 768px)`,
+      media: `(max-width: 900px)`,
     },
   ]
   
