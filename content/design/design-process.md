@@ -9,7 +9,7 @@ intro: >-
 meta:
   description: This is a meta description.
   title: LFUI
-wide: true
-lang: true
+wide: false
+lang: false
 ---
 body
