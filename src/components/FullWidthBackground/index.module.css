@@ -22,5 +22,12 @@
   top: var(--spacing-xxlg);
   right: var(--spacing-xxlg);
   max-width: 23.75rem;
+  width: 100%;
+  @media (--small-viewport-down) { 
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 
 }

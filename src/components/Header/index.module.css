@@ -72,6 +72,7 @@
 .Header__container--last {
   justify-content: space-between;
   border-bottom: 2px solid var(--header-border-color);
+  min-height: 3.56rem;
    @media (--medium-viewport) { 
       border-top: 2px solid var(--header-border-color);
       border-bottom: 0;

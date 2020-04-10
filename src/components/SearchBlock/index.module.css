@@ -28,7 +28,8 @@
   outline: 0;
   width: 100%;
   border: 0;
-  
+  appearance: none;
+  border-radius: 0;
 }
 
 .SearchBlock__icon {

@@ -55,6 +55,9 @@ export default ({
               bodyAttributes={{
                 class: backgroundClass
               }}
+              htmlAttributes={{
+                lang: `en`
+              }}
             > 
               {title}
               <link href="" rel="preconnect" crossorigin />

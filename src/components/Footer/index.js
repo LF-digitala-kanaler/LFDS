@@ -10,7 +10,8 @@ const Footer = () => {
     <footer className={style.Footer}>
       <div className={style.Footer__container}>
         <Link to='/' className={style.Footer__logo}>
-          <Logotype /> 
+          <Logotype />
+          <span className={style.Footer__text}>Länsförsäkringar Design</span>
         </Link>
       </div>
     </footer>

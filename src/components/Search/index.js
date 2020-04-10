@@ -40,7 +40,7 @@ const Search = () => {
 
   const SearchButton = () => {
       return (
-        <button className={style.Search__button} onClick={openModal}>
+        <button className={style.Search__button} onClick={openModal} aria-label="Open Search">
           <svg className={style.Search__icon} width="20" height="20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd"><path d="M-2-2h24v24H-2z"/><path d="M15.207 13.793l4.5 4.5-1.414 1.414-4.5-4.5 1.414-1.414zM8 0a8 8 0 110 16A8 8 0 018 0zm0 2a6 6 0 100 12A6 6 0 008 2z" fill="#515151"/></g></svg> 
         </button>
       )
@@ -139,7 +139,7 @@ const Search = () => {
       className="Modal"
       overlayClassName="Overlay"
     >
-    <button className={style.Search__close} onClick={closeModal}>
+    <button className={style.Search__close} onClick={closeModal} aria-label="Close Search">
       <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd"><path d="M-12-12h40v40h-40z"/><path d="M15.778 1.636L9.415 7.999l6.363 6.365-1.414 1.414-6.363-6.364-6.365 6.364-1.414-1.414 6.364-6.365L.222 1.636 1.636.222l6.365 6.363L14.364.222l1.414 1.414z" fill="#747578"/></g></svg>
     </button>
       <div className={style.Search} ref={containerRef}>

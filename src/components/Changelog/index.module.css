@@ -1,6 +1,10 @@
 .Changelog {
-  margin-bottom: var(--spacing-vertical--2);
+  
   border-top: 1px solid var(--color-border);
+  
+  @media (--medium-viewport) { 
+    margin-bottom: var(--spacing-vertical--2);
+  }
 }
 
 .Changelog__title {

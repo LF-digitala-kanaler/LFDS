@@ -8,7 +8,7 @@ const NavigationItem = ({path, title, scrollPoition}) => {
     
     return (
       <li className={styles.Navigation__item}>
-        <Link state={{scroll:scrollPoition}}  partiallyActive={isHomepage ? false : true} to={path} title={title} className={styles.Navigation__link} activeClassName={styles.is__active}>{title}</Link>
+        <Link state={{scroll:scrollPoition}}  partiallyActive={isHomepage ? false : true} to={`/${path}`} title={title} className={styles.Navigation__link} activeClassName={styles.is__active}>{title}</Link>
       </li>
     );
 };

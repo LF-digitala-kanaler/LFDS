@@ -1,17 +1,29 @@
 :root {
-  
+  --cardGrid-gap: 24px;
+}
+.CardGrid {
+  margin: var(--cardGrid-gap);
+  transition: all 0.3s;
 }
 
-.CardGrid {
-  display: grid;
-  grid-gap: 52px;
-  grid-template-columns: repeat(3, 1fr);
-  margin: var(--spacing-vertical--2) -1rem;
-
+.CardGrid--push {
   
-  @media (--large-viewport) {
-    grid-column-gap: 32px;
-    
+  @media (--medium-viewport) {
+    margin-left: var(--sidebar-width);
   }
 }
 
+.CardGrid__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: var(--spacing-vertical--2) 0;
+ 
+  @media (--large-viewport) {
+   
+  }
+}
+
+.CardGrid__grid > div {
+  flex: 0 1 calc(33% - 48px);
+  margin: 24px;
+}

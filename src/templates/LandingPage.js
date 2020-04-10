@@ -20,14 +20,13 @@ export const LandingPageTemplate = ({
 }) => (
    
   <>
-    <Wrapper tag="div"  narrow>
+    <Wrapper tag="div"  narrow menu={true}>
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
     </Wrapper>
-    <Wrapper tag="div"  narrow>
-      <CardGrid list={categories}  />
-    </Wrapper>
-      {/* <Changelog />  */}
+    <CardGrid list={categories}  />
+    
+     
     <Wrapper tag="div" narrow>
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
@@ -53,7 +52,7 @@ const LandingPage = ({ data: { page, allPages },currentDirectory, location }) =>
   .value()
 
   const groupsSorted = _.orderBy(groups, [item => item.category.toLowerCase()], ['asc']);
-  
+  console.log(groupsSorted)
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -101,6 +100,7 @@ export const pageQuery = graphql`
           frontmatter {
             category
             title
+            lang
             previewImage{
               publicURL
             }

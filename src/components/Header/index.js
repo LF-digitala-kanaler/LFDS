@@ -29,7 +29,6 @@ const Header = ({ title, breadcrumb, menu }) => {
       
         {menu  &&  <Menu /> }
         <div className={cx(style.Header__wrapper, style['Header__wrapper--last'])}>
-          {/* <ToggleSwitch /> */}
           {breadcrumb  && <Breadcrumb  location={breadcrumb}  /> }
           <Search />
         </div> 

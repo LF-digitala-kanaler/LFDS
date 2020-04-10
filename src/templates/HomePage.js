@@ -30,7 +30,7 @@ export const HomePageTemplate = ({
     </Wrapper>
     <SearchBlock />
     <Wrapper wide tag="div">
-      <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
+      <Grid columns="repeat(auto-fill,minmax(280px,1fr))" gap="64px" >
         { shortcuts &&
           shortcuts.map(item => {
             return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Cell>
@@ -40,14 +40,14 @@ export const HomePageTemplate = ({
     </Wrapper>
     {fullWidthImage && <FullWidthBackground image={fullWidthImage.childImageSharp ? fullWidthImage.childImageSharp.fluid.src : fullWidthImage}><Content source={body} /> </FullWidthBackground>}
     <Wrapper wide tag="div">
-      <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
+      <Grid columns="repeat(auto-fill,minmax(280px,1fr))" gap="64px" >
         { shortcutsBottom &&
           shortcutsBottom.map(item => {
             return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Cell>
           })
         }
       </Grid>
-      <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="64px">
+      <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="0 128px">
         <Cell>
            <Heading tag={3} text={"Release info"} align={"left"} />
           <Changelog />

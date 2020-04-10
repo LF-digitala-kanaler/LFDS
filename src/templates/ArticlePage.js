@@ -20,7 +20,7 @@ export const ArticlePageTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
-      {heroImage && <FullWidthBackground image={heroImage.childImageSharp ? heroImage.childImageSharp.fluid.src : heroImage.heroImageDesktop}><Content source={heroImage.content} /> </FullWidthBackground>}
+      {/* {heroImage && <FullWidthBackground image={heroImage.childImageSharp ? heroImage.childImageSharp.fluid.src : heroImage.heroImageDesktop}><Content source={heroImage.content} /> </FullWidthBackground>} */}
       <Wrapper tag="div" menu={true} narrow>
         <Content source={body} />   
     </Wrapper>
@@ -30,15 +30,15 @@ const ArticlePage = ({
   data: { page }
  
   },) => {
-    if(page.frontmatter.heroImage && page.frontmatter.heroImage.heroImageDesktop.childImageSharp !== null){
-       var sources = [
-        page.frontmatter.heroImage.heroImageDesktop.childImageSharp.fluid,
-        {
-          ...page.frontmatter.heroImage.heroImageMobile.childImageSharp.fluid,
-          media: `(max-width: 768px)`,
-        },
-      ]
-    }
+    // if(page.frontmatter.heroImage && page.frontmatter.heroImage.heroImageDesktop.childImageSharp !== null){
+    //    var sources = [
+    //     page.frontmatter.heroImage.heroImageDesktop.childImageSharp.fluid,
+    //     {
+    //       ...page.frontmatter.heroImage.heroImageMobile.childImageSharp.fluid,
+    //       media: `(max-width: 768px)`,
+    //     },
+    //   ]
+    // }
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -49,7 +49,7 @@ const ArticlePage = ({
       <ArticlePageTemplate 
         {...page} 
         {...page.frontmatter}
-        heroImage={sources}
+        // heroImage={sources}
         body={page.html}
       />
     </Layout>
@@ -77,23 +77,7 @@ export const pageQuery = graphql`
         background
         wide
         lang
-        heroImage {
-          heroImageDesktop {
-            childImageSharp {
-              fluid(maxWidth: 4000, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          heroImageMobile {
-            childImageSharp {
-              fluid(maxWidth: 1000, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          content
-        }
+        
       }
     }
   }

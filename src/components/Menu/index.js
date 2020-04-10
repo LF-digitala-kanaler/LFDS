@@ -1,4 +1,4 @@
-import React, { useState }  from 'react';
+import React, { useState, useContext }  from 'react';
 import MenuItem from './MenuItem';
 import style from './index.module.css';
 import { Location } from '@reach/router';
@@ -9,7 +9,7 @@ import AnimationContainer from '../../utils/AnimationCointainer';
 import { useStaticQuery, graphql } from "gatsby"
 import _ from 'lodash';
 import { globalHistory } from "@reach/router"
-
+import { GlobalDispatchContext,GlobalStateContext } from "../../context/GlobalContextProvider"
 
 
 const Menu = ({currentDirectory}) => {
@@ -37,7 +37,9 @@ const Menu = ({currentDirectory}) => {
         }
       }
     `)
-  
+  const dispatch = useContext(GlobalDispatchContext)
+  const state = useContext(GlobalStateContext)
+
   const location = globalHistory.location.pathname
   const useBreakpoint = createBreakpoint({ M: 1024, S: 768});
 
@@ -67,7 +69,6 @@ const Menu = ({currentDirectory}) => {
 
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
-  const [isOpenDesktop, setOpenDesktop] = useState(true);
 
   const handleOnClick = () => {
     setOpen(!isOpen)
@@ -75,7 +76,7 @@ const Menu = ({currentDirectory}) => {
      
   }
   const handleOnClickDesktop = () => {
-    setOpenDesktop(!isOpenDesktop)
+    dispatch({ type: "TOGGLE_SIDENAV" })
   }
   
   const handleOverlayClick = () => {
@@ -99,8 +100,8 @@ const Menu = ({currentDirectory}) => {
       <React.Fragment>
           {
             breakpoint === 'M'  ? (
-              <AnimationContainer show={isOpenDesktop}>
-                <MenuToggle isOpen={isOpenDesktop} onClick={handleOnClickDesktop} />
+              <AnimationContainer show={state.isMenuOpenDesktop}>
+                <MenuToggle isOpen={state.isMenuOpenDesktop} onClick={handleOnClickDesktop} />
               </AnimationContainer>
             ) : (
               <MenuToggle isOpen={isOpen} onClick={handleOnClick} />
@@ -114,8 +115,8 @@ const Menu = ({currentDirectory}) => {
               return ( 
                 <React.Fragment>
                  { breakpoint === 'M'  ? (
-                <AnimationContainer show={isOpenDesktop}>
-                <nav className={cx(style.Menu, (isOpenDesktop ? style['Menu--isOpen'] : '' ))}>
+                <AnimationContainer show={state.isMenuOpenDesktop}>
+                <nav className={cx(style.Menu, (state.isMenuOpenDesktop ? style['Menu--isOpen'] : '' ))}>
                   <ul className={style.Menu__list}>
                     {renderMenuItems(navigationStructureSorted, location)}
                   </ul>

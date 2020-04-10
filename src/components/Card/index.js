@@ -8,7 +8,7 @@ import cx from 'classnames'
 
 const Card = ({title, url, image, description, grid}) => {
   return (
-    <Link className={cx(style.Card, (grid ? '' :  style['Card--list'] ))} to={url} >
+    <Link className={cx(style.Card, (grid ? '' :  style['Card--list'] ))} to={`/${url}`} >
       <article className={cx(!grid ? style.Card__wrapper : '' )}>
         <div className={cx(style.Card__image, (grid ? '' :  style['Card__image--spacing'] ))}>
           

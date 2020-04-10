@@ -152,7 +152,7 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
     createNodeField({
       node,
       name: 'slug',
-      value: slug
+      value: `${slug}`
     })
     // Add contentType to node.fields
     createNodeField({

@@ -8,11 +8,13 @@
   text-align: center;
   display: block;
   transition: box-shadow 0.2s ease-in;
-  padding: calc(2 * var(--spacing-xxlg)) var(--spacing-xlg);
+  padding: 0 var(--spacing-xxlg);
 
   @media (--medium-viewport) { 
+    padding: calc(2 * var(--spacing-xxlg)) var(--spacing-xlg);
     &:hover {
       box-shadow: inset var(--color-smoke) 0 0 0 3px;
+      
     }
   }
 }

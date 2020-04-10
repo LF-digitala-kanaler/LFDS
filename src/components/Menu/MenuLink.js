@@ -8,7 +8,7 @@ const MenuLink = ({ path, title ,parent, collapse}) => {
 
   return(
   <>
-  <Link activeClassName={style['Menu__link--active']} className={style.Menu__link}  to={path}  >
+  <Link activeClassName={style['Menu__link--active']} className={style.Menu__link}  to={`${path}`}  >
     {title}
   </Link>
   { parent && 

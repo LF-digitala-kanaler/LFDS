@@ -2,22 +2,23 @@ import React, { useState, useEffect }  from 'react';
 
 
 const AnimationContainer = ({ show, children }) => {
+  
   const [shouldRender, setRender] = useState(show);
 
   useEffect(() => {
-    if (show) setRender(true);
+   setRender(true);
   }, [show]);
 
   const onAnimationEnd = () => {
-    if (!show) setRender(false);
+   setRender(false);
   };
 
   return (
-    shouldRender && (
+     shouldRender && (
       <div onAnimationEnd={onAnimationEnd}>
         {children}
       </div>
-    )
+     )
   );
 };
 
