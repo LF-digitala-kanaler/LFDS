@@ -8,7 +8,7 @@ intro: >-
   medarbetarupplevelse.
 background: bg-white
 wide: true
-lang: true
+lang: false
 ---
 Detta uppnås genom att konkretisera och komplettera relevanta delar av Marknads- och IT-strategin till styrande CX-principer för hur marknadens bästa kund- och medarbetarupplevelse ska utformas samt att tydliggöra de konsekvenser som principerna medför. 
 
