@@ -8,7 +8,7 @@ import style from './index.module.css'
 const HeroBlock = ({ color, content }) => {
   
   return (
-    <article className={style.HeroBlock} style={`backgroundColor: ${color}`}>
+    <article className={style.HeroBlock} >
       <div className={style.HeroBlock__container}>
         <p>{color}</p>
         <p>{content}</p>

@@ -34,8 +34,8 @@ const ArticlePage = ({
   data: { page }
   
   },) => {
-   
-    const wrapperWidth = page.frontmatter.wide ? true : false;
+  console.log(page) 
+  const wrapperWidth = page.frontmatter.wide ? true : false;
 
   return (
     <Layout
