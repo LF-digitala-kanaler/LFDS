@@ -88,14 +88,14 @@ export const pageQuery = graphql`
         heroBlock {
           heroImageDesktop {
             childImageSharp {
-              fluid(maxWidth: 4000, quality: 64) {
+              fluid(maxWidth: 4000, quality: 84) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
           heroImageMobile {
             childImageSharp {
-              fluid(maxWidth: 1000, quality: 64) {
+              fluid(maxWidth: 1000, quality: 84) {
                 ...GatsbyImageSharpFluid
               }
             }

@@ -88,8 +88,8 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Motion", value: "Motion" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - label: Hero image
-        name: heroImage
+      - label: Hero block
+        name: heroBlock
         widget: object
         fields:
         - { label: 'Hero image desktop', name: heroImageDesktop, widget: 'image', required: false}
@@ -137,13 +137,20 @@ collections: # A list of collections the CMS should be able to edi
         
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - label: Hero image
-        name: heroImage
+      - label: Hero block
+        name: heroBlock
         widget: object
         fields:
         - { label: 'Hero image desktop', name: heroImageDesktop, widget: 'image', required: false}
         - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
-        - { label: 'Content', name: content, widget: 'markdown',  required: false }
+        - label: 'Color'
+          name: 'color'
+          widget: 'select'
+          required: false
+          hint: ['Choose either an image or a solid background color. ']
+          options: 
+            - { label: "Pink", value: "#fcd2d3" }
+            - { label: "Blue", value: "#badaf3" }
       - label: 'Background'
         name: 'background'
         widget: 'select'
@@ -184,13 +191,20 @@ collections: # A list of collections the CMS should be able to edi
         
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - label: Hero image
-        name: heroImage
+      - label: Hero block
+        name: heroBlock
         widget: object
         fields:
         - { label: 'Hero image desktop', name: heroImageDesktop, widget: 'image', required: false}
         - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
-        - { label: 'Content', name: content, widget: 'markdown',  required: false }
+        - label: 'Color'
+          name: 'color'
+          widget: 'select'
+          required: false
+          hint: ['Choose either an image or a solid background color. ']
+          options: 
+            - { label: "Pink", value: "#fcd2d3" }
+            - { label: "Blue", value: "#badaf3" }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - label: 'Background'
         name: 'background'
