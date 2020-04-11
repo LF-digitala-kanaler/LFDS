@@ -11,7 +11,6 @@ intro: >-
   cases. There are LF-styled "normal" radio buttons, button groups and radio
   cards.
 backgroundColor: '#fff'
-lang: true
 tabs:
   - content: >-
       ## How (and when) to use
