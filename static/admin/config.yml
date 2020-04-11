@@ -110,8 +110,8 @@ collections: # A list of collections the CMS should be able to edi
         widget: "string"
         required: false
         hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
-      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area'}
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated'}
+      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
+      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
 
   - name: patterns-page
     label: Patterns
@@ -150,8 +150,8 @@ collections: # A list of collections the CMS should be able to edi
         widget: "string"
         required: false
         hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
-      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area'}
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated'}
+      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
+      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
 
 
   - name: visual-identity-page
@@ -198,8 +198,8 @@ collections: # A list of collections the CMS should be able to edi
         widget: "string"
         required: false
         hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
-      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area'}
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated'}
+      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
+      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
 
     
   - name: 'landing-page'

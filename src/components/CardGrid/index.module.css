@@ -3,15 +3,15 @@
 }
 .CardGrid {
   margin: var(--cardGrid-gap);
-  transition: all 0.3s;
+  
 }
 
-.CardGrid--push {
+/* .CardGrid--push {
   
   @media (--medium-viewport) {
     margin-left: var(--sidebar-width);
   }
-}
+} */
 
 .CardGrid__grid {
   display: flex;

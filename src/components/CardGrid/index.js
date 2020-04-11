@@ -1,11 +1,10 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import Card from '../Card';
 import style from './index.module.css';
-import cx from 'classnames';
-import {GlobalStateContext } from "../../context/GlobalContextProvider"
+
+
 
 const CardGrid = ({list}) => {
-  const state = useContext(GlobalStateContext)
   const cardItems = list.map((item, index) => {
       if(item.category !== "null") {
         return(
@@ -14,7 +13,8 @@ const CardGrid = ({list}) => {
               grid={true}  
               title={item.category} 
               url={item.link[0].node.fields.contentType.replace(/\/$/, "")} 
-              image={item.link[0].node.frontmatter.previewImage}  
+              image={item.link[0].node.frontmatter.previewImage}
+              
             />
             
           </div>
@@ -29,7 +29,8 @@ const CardGrid = ({list}) => {
                 grid={true}  
                 title={items.node.frontmatter.title} 
                 url={items.node.fields.slug.replace(/\/$/, "")} 
-                image={items.node.frontmatter.previewImage}  
+                image={items.node.frontmatter.previewImage}
+                // lang={item.node.frontmatter.lang}
               />
             </div>
           )
@@ -40,7 +41,7 @@ const CardGrid = ({list}) => {
   
   return (
 
-    <section className={cx(style.CardGrid, (state.isMenuOpenDesktop ? style['CardGrid--push'] : " "))}>
+    <section className={style.CardGrid}>
       <div className={style.CardGrid__grid}>{cardItems}</div>
     </section>
   )

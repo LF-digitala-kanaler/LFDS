@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext}  from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
@@ -7,6 +7,7 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import CardGrid from '../components/CardGrid';
 import _ from 'lodash';
+import {GlobalStateContext } from "../context/GlobalContextProvider"
 
 
 // Export Template for use in CMS preview
@@ -17,10 +18,10 @@ export const LandingPageTemplate = ({
   categories = [],
 
   
-}) => (
-   
-  <>
-    <Wrapper tag="div"  narrow menu={true}>
+}) => {
+  const state = useContext(GlobalStateContext);
+  return <div className={(state.isMenuOpenDesktop ? 'Container Container--push' : "Container")}>
+    <Wrapper tag="div"  narrow >
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
     </Wrapper>
@@ -30,8 +31,9 @@ export const LandingPageTemplate = ({
     <Wrapper tag="div" narrow>
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
-  </>
-)
+  </div>
+
+}
 const LandingPage = ({ data: { page, allPages },currentDirectory, location }) => {
   
   if(typeof window !== `undefined`) {

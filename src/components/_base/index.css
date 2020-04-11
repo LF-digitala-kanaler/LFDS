@@ -197,3 +197,13 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
 .ReactModal__Overlay--before-close{
   opacity: 0;
 }
+
+.Container {
+  transition: all 0.3s;
+}
+.Container--push {
+  
+  @media (--medium-viewport) {
+    margin-left: var(--sidebar-width);
+  }
+}

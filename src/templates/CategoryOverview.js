@@ -33,7 +33,7 @@ export const CategoryOverviewTemplate = ({
   </>
 )
 const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirectory}) => {
-
+  
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
@@ -117,6 +117,7 @@ export const pageQuery = graphql`
           frontmatter {
             category
             title
+            lang
             previewImage {
               publicURL
             }
