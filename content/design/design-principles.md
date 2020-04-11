@@ -5,8 +5,6 @@ intro: >-
   De är till för att vi ska ha några gemensam riktning - hur vi designar för
   Länsförsäkringar. body: test content
 heroBlock:
-  heroImageDesktop: /img/startpage.webp
-  heroImageMobile: /img/startpagemobile.webp
   color: '#444444'
   content: 'test'
 priority: '1'

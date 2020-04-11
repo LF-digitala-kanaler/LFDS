@@ -30,7 +30,7 @@ const Header = ({ title, breadcrumb, menu }) => {
         {menu  &&  <Menu /> }
         <div className={cx(style.Header__wrapper, style['Header__wrapper--last'])}>
           {breadcrumb  && <Breadcrumb  location={breadcrumb}  /> }
-          <Search />
+        <Search />
         </div> 
       </div>
     </header>

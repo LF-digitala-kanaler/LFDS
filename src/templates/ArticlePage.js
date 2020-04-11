@@ -5,14 +5,14 @@ import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import Content from '../components/Content';
-import FullWidthBackground from '../components/FullWidthBackground'
+import HeroBlock from '../components/HeroBlock'
 
 // Export Template for use in CMS preview
 export const ArticlePageTemplate = ({
   title,
   intro,
   body,
-  heroImage,
+  heroBlock,
   wrapperWidth
 }) => (
   
@@ -22,7 +22,9 @@ export const ArticlePageTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
-      {heroImage && <FullWidthBackground image={heroImage.childImageSharp ? heroImage.childImageSharp.fluid.src : heroImage.heroImageDesktop}><Content source={heroImage.content} /> </FullWidthBackground>}
+      {heroBlock &&
+        <HeroBlock background={heroBlock.color} content={heroBlock.content} />
+      }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} wide={wrapperWidth ? true : false}>
         <Content source={body} />   
     </Wrapper>
@@ -35,16 +37,6 @@ const ArticlePage = ({
    
     const wrapperWidth = page.frontmatter.wide ? true : false;
 
-    
-    if(page.frontmatter.heroBlock && page.frontmatter.heroBlock.heroImageDesktop.childImageSharp !== null){
-       var sources = [
-        page.frontmatter.heroBlock.heroImageDesktop.childImageSharp.fluid,
-        {
-          ...page.frontmatter.heroBlock.heroImageMobile.childImageSharp.fluid,
-          media: `(max-width: 768px)`,
-        },
-      ]
-    }
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -56,7 +48,7 @@ const ArticlePage = ({
       <ArticlePageTemplate 
         {...page} 
         {...page.frontmatter}
-        heroImage={sources}
+        heroBlock={page.frontmatter.heroBlock}
         body={page.html}
         wrapperWidth={wrapperWidth}
       />
@@ -86,20 +78,6 @@ export const pageQuery = graphql`
         wide
         lang
         heroBlock {
-          heroImageDesktop {
-            childImageSharp {
-              fluid(maxWidth: 4000, quality: 84) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          heroImageMobile {
-            childImageSharp {
-              fluid(maxWidth: 1000, quality: 84) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
           content
           color
         }

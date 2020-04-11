@@ -9,11 +9,12 @@
   align-items: center;
   position: relative;
   margin: 0 var(--spacing-unit);
-  max-width: 444px;
- 
 }
+
 .Search > div {
   width: 100%;
+  margin: 0 auto;
+  max-width: 444px;
 }
 
 .Search__button {
