@@ -5,6 +5,7 @@ import style from './index.module.css';
 
 
 const CardGrid = ({list}) => {
+  
   const cardItems = list.map((item, index) => {
       if(item.category !== "null") {
         return(
@@ -30,7 +31,7 @@ const CardGrid = ({list}) => {
                 title={items.node.frontmatter.title} 
                 url={items.node.fields.slug.replace(/\/$/, "")} 
                 image={items.node.frontmatter.previewImage}
-                // lang={item.node.frontmatter.lang}
+                lang={items.node.frontmatter.lang}
               />
             </div>
           )

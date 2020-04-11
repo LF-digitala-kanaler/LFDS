@@ -94,6 +94,14 @@ collections: # A list of collections the CMS should be able to edi
         fields:
         - { label: 'Hero image desktop', name: heroImageDesktop, widget: 'image', required: false}
         - { label: 'Hero image mobile', name: heroImageMobile, widget: 'image', required: false}
+        - label: 'Color'
+          name: 'color'
+          widget: 'select'
+          required: false
+          hint: ['Choose either an image or a solid background color. ']
+          options: 
+            - { label: "Pink", value: "#fcd2d3" }
+            - { label: "Blue", value: "#badaf3" }
         - { label: 'Content', name: content, widget: 'markdown',  required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - label: 'Background'
