@@ -11,9 +11,7 @@ priority: '1'
 wide: true
 lang: true
 ---
-<div class="Collapse"><div class="Collapse__title">1. Upplevelsen är utformad för den kanal jag valt</div><div class="Collapse__content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.</div></div>,<div class="Collapse"><div class="Collapse__title">2. Varje sida har ett primärt syfte</div><div class="Collapse__content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.</div></div>
-
-
+<div class="Collapse"><div class="Collapse__title">1.test</div><div class="Collapse__content">test</div></div>
 
 Övergripande målbild:
 
