@@ -3,7 +3,7 @@ import Immutable from 'immutable';
 const Collapse = {
   id: "collapse",
   label: "Collapse",
-  pattern: '{% panels %}[^]*?{% endbuttons %}',
+  pattern: '<div>[^]*?</div>',
     fields: [{
       label: "Collapse",
       name: "panels",
@@ -23,7 +23,7 @@ const Collapse = {
 
     fromBlock: function(match) {
       const items = match[0].match(/[^\r\n]+/g).slice(1, -1).map(function(item, index) {
-        console.log(item)
+       
         return {
           title: item.match(/title="(.*?)"/)[1],
           content: item.match(/content="(.*?)"/)[1],
@@ -41,10 +41,12 @@ const Collapse = {
     toBlock: function(obj) {
 
       const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
-          return '<div class="Collapse">' + item.get("content") + '<div>' + item.get("title") +'</div></div>'
+                  // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
+
+          return '<div class="Collapse" content="' + item.get("content") + '" title="' + item.get("title") +'"></div>'
       });
 
-      return "{% panels %}\n" + items.join("\n") + "\n{% endbuttons %}";
+      return "<div>\n" + items.join("\n") + "\n<div>";
     },
 
 
