@@ -10,11 +10,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div class="Collapse" content="veveve" title="veeve"></div>
 
-panels
+<div class="Collapse" content="fae" title="feafaefea"></div>
 
-<div class="Collapse" content="faefefe" title="feafea"></div>
 
 Övergripande målbild:
 
