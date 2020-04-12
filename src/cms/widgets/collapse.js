@@ -3,7 +3,8 @@ import Immutable from 'immutable';
 const Collapse = {
   id: "collapse",
   label: "Collapse",
-  pattern: '<div>[^]*?</div>',
+   
+    pattern: '<div>[^]*?</div>',
     fields: [{
       label: "Collapse",
       name: "panels",
@@ -22,6 +23,7 @@ const Collapse = {
 
 
     fromBlock: function(match) {
+      console.log(match)
       const items = match[0].match(/[^\r\n]+/g).slice(1, -1).map(function(item, index) {
        
         return {
@@ -33,7 +35,7 @@ const Collapse = {
       const obj = {
         panels: Immutable.fromJS(items)
       }
-
+      
       return obj;
     },
 
@@ -42,24 +44,24 @@ const Collapse = {
 
       const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
                   // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
-
-          return '<div class="Collapse" content="' + item.get("content") + '" title="' + item.get("title") +'"></div>'
+      
+          return '<Collapse content="' + item.get("content") + '" title="' + item.get("title") +'" />'
       });
 
-      return "<div>\n" + items.join("\n") + "\n<div>";
+      return "<div>\n" + items.join("\n") + "\n</div>";
     },
 
 
-    toPreview: function(obj) {
+      // toPreview: function(obj) {
 
-      const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
-          return '<a href="' + item.get("content") + '" class="button">' + item.get("title") + '</a>'
-      });
+      //   const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
+      //       return '<a href="' + item.get("content") + '" class="button">' + item.get("title") + '</a>'
+      //   });
 
-      return (
-        '<div class="buttons">' + items.join("") + '</div>'
-      );
-    }
+      //   return (
+      //     '<div class="Collapse">' + items.join("") + '</div>'
+      //   );
+      // }
 
 }
 export default Collapse
