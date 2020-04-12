@@ -11,7 +11,7 @@ wide: true
 lang: true
 ---
 panels 
-<div class="Collapse" content="fefe" title="fe"></div>
+<div class="Collapse" content="gege" title="gege"></div>
 
 
 Övergripande målbild:
