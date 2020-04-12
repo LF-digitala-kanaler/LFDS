@@ -11,7 +11,7 @@ wide: true
 lang: true
 ---
 {% panels %}
-{% include components/link.html url="frsvsvrsvrs" title="tittle" %}
+{% include components/link.html content="frsvsvrsvrs" title="tittle" %}
 {% endbuttons %}
 
 
