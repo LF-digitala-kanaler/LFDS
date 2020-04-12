@@ -1,39 +1,66 @@
 import Immutable from 'immutable';
 
 const Collapse = {
-  id: "collage",
-  // Visible label
-  label: "Collage",
-  // Fields the user need to fill out when adding an instance of the component
-  fields: [{
-    name: 'images',
-    label: 'Images',
-    widget: 'list',
-    default: [{ image: '', text: ''}],
-    fields: [
-      {label: 'Image', name: 'image', widget: 'image'},
-      {label: 'Text', name: 'text', widget: 'string'}
-    ]
-  }],
-  // Pattern to identify a block as being an instance of this component
-  pattern: /^<rehype-image (\S+)"><\/rehype-image>$/,
-  // Function to extract data elements from the regexp match
-  fromBlock: function(match) {
-    return {
-      id: match[1]
-    };
-  },
-  // Function to create a text block from an instance of this component
-  toBlock: function(list) {
-    if (list.images && list.images.length > 0) {
-      list.images.map((item) => (
-        `<rehype-image src="../..${item.image}" text="${item.text}}"></rehype-image>`
-      ))
+  id: "collapse",
+  label: "Collapse",
+  pattern: '{% panels %}[^]*?{% endbuttons %}',
+    fields: [{
+      label: "Collapse",
+      name: "panels",
+      widget: "list",
+      fields: [{
+        label: "Title",
+        name: "title",
+        widget: "string",
+      },
+      {
+        label: "Content",
+        name: "content",
+        widget: "string",
+      }]
+    }],
+
+
+    fromBlock: function(match) {
+      const items = match[0].match(/[^\r\n]+/g).slice(1, -1).map(function(item, index) {
+        console.log(items)
+        return {
+          title: item.match(/title="(.*?)"/)[1],
+          content: item.match(/content="(.*?)"/)[1],
+        }
+      });
+
+      const obj = {
+        panels: Immutable.fromJS(items)
+      }
+
+      return obj;
+    },
+
+
+    toBlock: function(obj) {
+
+      const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
+          return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
+      });
+
+      return "{% panels %}\n" + items.join("\n") + "\n{% endbuttons %}";
+    },
+
+
+    toPreview: function(obj) {
+
+      const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
+          return '<a href="' + item.get("content") + '" class="button">' + item.get("title") + '</a>'
+      });
+
+      return (
+        '<div class="buttons">' + items.join("") + '</div>'
+      );
     }
-  },
-  // Preview output for this component. Can either be a string or a React component
-  // (component gives better render performance)
-  
+
 }
 export default Collapse
+
+
 
