@@ -10,8 +10,8 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div class='Collapse'>
-{% include components/link.html content="cdcdcd" title="cdcdcd" %}
+<div>
+{% include components/link.html content="cdcd" title="cdcdcd" %}
 </div>
 
 Övergripande målbild:
