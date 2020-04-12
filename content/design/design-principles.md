@@ -10,14 +10,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div>
-<div class="Collapse">grsgrs<div>ffsrg</div></div>
-<div class="Collapse">g<div>gr</div></div>
-<div>
-
+<div class="Collapse">
+<div class="Collapse__content">fefefe<div class="Collapse__title>Collapseede</div></div>
 </div>
-<div class="Collapse">cc<div>te</div></div>
-<div>
 
 Övergripande målbild:
 
