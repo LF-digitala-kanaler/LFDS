@@ -91,7 +91,6 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
         name: heroBlock
-        collapsed: true
         widget: object
         fields:
         - label: 'Color'
@@ -103,6 +102,7 @@ collections: # A list of collections the CMS should be able to edi
             - { label: "Pink", value: "#fcd2d3" }
             - { label: "Blue", value: "#badaf3" }
         - { label: 'Content', name: content, widget: 'markdown',  required: false }
+      
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - label: 'Background'
         name: 'background'
@@ -140,7 +140,6 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
         name: heroBlock
-        collapsed: true
         widget: object
         fields:
         - label: 'Color'
@@ -194,7 +193,6 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
         name: heroBlock
-        collapsed: true
         widget: object
         fields:
         - label: 'Color'

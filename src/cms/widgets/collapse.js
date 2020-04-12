@@ -1,35 +1,39 @@
+import Immutable from 'immutable';
+
 const Collapse = {
-  id: "collapse",
-  label: "Collapse",
-  fields: [
-    { name: "collapse", label: "Collapse",widget: 'list', fields: [
-      { name: "title", label: "Title", widget: "string" },
-      { name: "content", label: "Content", widget: "markdown"},
-    ]}
-   
-  ],
-  pattern: /^<div class="Collapse"><div class="Collapse__title">(.*)<\/div><div class="Collapse__content">(.*)<\/div><\/div>/,
-  fromBlock: match => {
+  id: "collage",
+  // Visible label
+  label: "Collage",
+  // Fields the user need to fill out when adding an instance of the component
+  fields: [{
+    name: 'images',
+    label: 'Images',
+    widget: 'list',
+    default: [{ image: '', text: ''}],
+    fields: [
+      {label: 'Image', name: 'image', widget: 'image'},
+      {label: 'Text', name: 'text', widget: 'string'}
+    ]
+  }],
+  // Pattern to identify a block as being an instance of this component
+  pattern: /^<rehype-image (\S+)"><\/rehype-image>$/,
+  // Function to extract data elements from the regexp match
+  fromBlock: function(match) {
     return {
       id: match[1]
-    }
+    };
   },
-  toBlock(obj) {
-   
-    if (obj.collapse && obj.collapse.length > 0) {
-      
-      return obj.collapse.map((item) => (
-         `<div class="Collapse"><div class="Collapse__title">${item.title}</div><div class="Collapse__content">${item.content}</div></div>`
+  // Function to create a text block from an instance of this component
+  toBlock: function(list) {
+    if (list.images && list.images.length > 0) {
+      list.images.map((item) => (
+        `<rehype-image src="../..${item.image}" text="${item.text}}"></rehype-image>`
       ))
-     
     }
   },
-  toPreview: function (obj) {
-    obj.collapse.map((item) => (
-      `<div class="Collapse"><div class="Collapse__title">${item.title}</div><div class="Collapse__content">${item.content}</div></div>`
-    ))
-  }
+  // Preview output for this component. Can either be a string or a React component
+  // (component gives better render performance)
+  
 }
-
 export default Collapse
 
