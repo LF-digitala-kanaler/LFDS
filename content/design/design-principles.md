@@ -11,7 +11,7 @@ wide: true
 lang: true
 ---
 <div>
-<div>cdcdcdcdcd<div>cdcdcd</div>
+{% include components/link.html content="cdcdcd" title="cdcdcd" %}
 </div>
 
 Övergripande målbild:
