@@ -11,7 +11,7 @@ wide: true
 lang: true
 ---
 
-<div class="Collapse" content="fefefe" title="fefe"></div>
+<Collapse content="feafae" title="feafea"></div>
 
 
 Övergripande målbild:
