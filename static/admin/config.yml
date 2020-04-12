@@ -69,6 +69,7 @@ collections: # A list of collections the CMS should be able to edi
     
   - name: design-page
     label: Design@LF
+    media_folder: /static/img
     folder: content/design/
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
@@ -90,6 +91,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
         name: heroBlock
+        collapsed: true
         widget: object
         fields:
         - label: 'Color'
@@ -121,6 +123,7 @@ collections: # A list of collections the CMS should be able to edi
 
   - name: patterns-page
     label: Patterns
+    media_folder: /static/img
     folder: content/patterns/
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
@@ -137,6 +140,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
         name: heroBlock
+        collapsed: true
         widget: object
         fields:
         - label: 'Color'
@@ -166,6 +170,7 @@ collections: # A list of collections the CMS should be able to edi
 
 
   - name: visual-identity-page
+    media_folder: /static/img
     label: Visual Identity
     folder: content/visual-identity/
     path: '{{category}}/{{slug}}'
@@ -189,6 +194,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
         name: heroBlock
+        collapsed: true
         widget: object
         fields:
         - label: 'Color'
@@ -221,6 +227,7 @@ collections: # A list of collections the CMS should be able to edi
   - name: 'landing-page'
     label: 'Landing Pages'
     folder: content/
+    media_folder: /static/img
     path: 'content/{{slug}}/index'
     filter: {field: "template", value: "LandingPage"}
     fields: 
@@ -237,6 +244,7 @@ collections: # A list of collections the CMS should be able to edi
   
   - name: categoryOverview-page
     label: Category Overview
+    media_folder: /static/img
     editor:
       preview: true
     folder: content/
