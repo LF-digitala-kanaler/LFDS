@@ -10,11 +10,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-{% panels %}
-{% include components/link.html content="frsvsvrsvrs" title="tittle" %}
-{% endbuttons %}
-
-
+<div class="Collapse"><div class="Collapse__title">cdcdcd</div><div class="Collapse__content">cdcdcd</div></div>
 
 Övergripande målbild:
 
