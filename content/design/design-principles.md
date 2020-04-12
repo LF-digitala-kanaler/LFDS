@@ -11,10 +11,8 @@ wide: true
 lang: true
 ---
 {% panels %}
-{% include components/link.html content="frsvsvrsvrs" title="tittle" %}
+{% include components/link.html content="test" title="test" %}
 {% endbuttons %}
-
-
 
 Övergripande målbild:
 
