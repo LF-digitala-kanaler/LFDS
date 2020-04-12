@@ -13,8 +13,8 @@ lang: true
 
 
 
-<Collapse content="ett" title="test" />
-<Collapse content="tt" title="t" />
+<Collapse content="ett" title="ett" />
+<Collapse content="två" title="två" />
 
 
 Övergripande målbild:
