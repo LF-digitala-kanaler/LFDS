@@ -96,7 +96,7 @@ collections: # A list of collections the CMS should be able to edi
           name: 'color'
           widget: 'select'
           required: false
-          hint: ['ackground color for hero block']
+          hint: ['Background color for hero block']
           options: 
             - { label: "Pink", value: "#fcd2d3" }
             - { label: "Blue", value: "#badaf3" }
