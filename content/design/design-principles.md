@@ -10,9 +10,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-
-
-
+{% buttons %}
+{% include components/link.html url="test" title="test" class="hidden button" icon="info" %}
+{% endbuttons %}
 
 Övergripande målbild:
 
