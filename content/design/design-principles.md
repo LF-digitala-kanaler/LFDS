@@ -10,10 +10,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div class='Collapse'>
-<div class="Collapse__item" content="test" title="title"></div>
-<div class="Collapse__item" content="f" title="fe"></div>
-<div>
+
 
 Övergripande målbild:
 
