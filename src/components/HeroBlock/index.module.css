@@ -1,0 +1,6 @@
+:root {
+  --heroBlock-height: 22.75rem;
+}
+.HeroBlock {
+  height: 22.75rem;
+}

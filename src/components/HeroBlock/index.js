@@ -2,15 +2,16 @@
 import React from "react"
 import style from './index.module.css'
 
-
-// import ToggleSwitch from '../ToggleSwitch';
-
-const HeroBlock = ({ color, content }) => {
+const HeroBlock = ({ background, content }) => {
   
+  const backgroundColor = {
+    'backgroundColor': background
+  }
+
   return (
-    <article className={style.HeroBlock} >
+    <article className={style.HeroBlock} style={backgroundColor}>
       <div className={style.HeroBlock__container}>
-        <p>{color}</p>
+        
         <p>{content}</p>
       </div>
     </article>
