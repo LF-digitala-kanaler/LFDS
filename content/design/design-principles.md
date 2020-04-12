@@ -1,17 +1,16 @@
 ---
 template: ArticlePage
 title: Design Principles
-intro: >-
-  De är till för att vi ska ha några gemensam riktning - hur vi designar för
-  Länsförsäkringar. body: test content
+intro: "De är till för att vi ska ha några gemensam riktning - hur vi designar
+  för Länsförsäkringar. body: test content"
 heroBlock:
-  color: '#fcd2d3'
+  color: "#fcd2d3"
   content: '{"widget":"blockquote","quote":" test","cite":"test"}'
-priority: '1'
+priority: "1"
 wide: true
 lang: true
 ---
-<div class="Collapse"><div class="Collapse__title">1. Upplevelsen är utformad för den kanal jag valt</div><div class="Collapse__content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.</div></div>,<div class="Collapse"><div class="Collapse__title">2. Varje sida har ett primärt syfte</div><div class="Collapse__content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.</div></div>
+
 
 
 
