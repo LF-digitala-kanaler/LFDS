@@ -10,11 +10,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div class="Callout"><strong class="Callout__title">text </strong><p class="Callout__text">text</p></div>
 
-{% buttons %}
-
-{% endbuttons %}
 
 Övergripande målbild:
 
