@@ -10,10 +10,10 @@ priority: "1"
 wide: true
 lang: true
 ---
-{% panels %}
-{% include components/link.html content="etete" title="test" %}
-{% include components/link.html content="vfvfvf" title="vfvfvf" %}
-{% endbuttons %}
+<div>
+{% include components/link.html content="cececece" title="cece" %}
+{% include components/link.html content="c" title="cece" %}
+</div>
 
 Övergripande målbild:
 
