@@ -6,7 +6,7 @@ intro: >-
   Länsförsäkringar. body: test content
 heroBlock:
   color: '#fcd2d3'
-  content: "<blockquote class=\"Blockquote\"><p>Hjälp mig göra det \Ljag kom för att göra</p><footer class=\"Blockquote__author\">Vår främsta uppgift</footer></blockquote>"
+  content: '{"widget":"blockquote","quote":" test","cite":"test"}'
 priority: '1'
 wide: true
 lang: true
