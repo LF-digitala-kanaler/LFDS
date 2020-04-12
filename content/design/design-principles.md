@@ -10,12 +10,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-{% panels %}
-{% include components/link.html url="panel" title="panel" class="hidden button" icon="info" %}
-{% endbuttons %}
 
-{% buttons %} {% include components/link.html url="test" title="test" class="hidden button" icon="info" %}
-{% endbuttons %}
+
+{% buttons %} {% include components/link.html url="test" title="test" class="hidden button" icon="info" %} {% endbuttons %}
 
 Övergripande målbild:
 
