@@ -5,7 +5,7 @@ const CollapseWidget = {
   id: "collapse",
   label: "Collapse",
    
-    pattern: '<section>[^]*?</section>',
+    pattern: /<section>[^]*?<\/section>/,
     fields: [{
       label: "Collapse",
       name: "panels",
@@ -24,33 +24,33 @@ const CollapseWidget = {
 
 
     fromBlock: function(match) {
-      console.log(match)
+     
       const items = match[0].match(/[^\r\n]+/g).slice(1, -1).map(function(item, index) {
-       
+        console.log(item)
         return {
           title: item.match(/title="(.*?)"/)[1],
           content: item.match(/<span class="content">([^$]+?)<\/span>/)[1],
         }
       });
-      console.log(items, 'items')
+      console.log(items, 'am')
       const obj = {
         panels: Immutable.fromJS(items)
       }
-      
+      console.log(obj.panels, 'items')
       return obj;
     },
 
 
-    toBlock: function(obj) {
+    // toBlock: function(obj) {
 
-      const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
-                  // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
-      
-          return `<Collapse title="${item.get("title")}"><span class="content">${item.get("content")}</span></Collapse>`
-      });
+    //   const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
+    //               // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
+    //   console.log(items, 'toBlock')
+    //       return `<Collapse title="${item.get("title")}"><span class="content">${item.get("content")}</span></Collapse>`
+    //   });
 
-      return "<section>\n" + items.join("\n") + "\n</section>";
-    },
+    //   return "<section>\n" + items.join("\n") + "\n</section>";
+    // },
 
 
 }
