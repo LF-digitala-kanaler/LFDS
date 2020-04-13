@@ -3,4 +3,22 @@
 }
 .HeroBlock {
   height: 22.75rem;
+  display: flex;
+  align-items: center;
+}
+.HeroBlock__quote {
+  font-size: 2.5rem;
+  text-align: left;
+  line-height: 1;
+  color: var(--color-black);
+  margin: 0;
+  @media (--small-viewport) { 
+    max-width: 22.25rem;
+  }
+}
+.Blockquote__icon {
+  margin-bottom: var(--spacing-vertical--1);
+}
+.HeroBlock__cite {
+  font-size: 1rem;
 }

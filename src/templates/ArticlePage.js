@@ -30,7 +30,7 @@ export const ArticlePageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
       {heroBlock &&
-        <HeroBlock background={heroBlock.color} content={heroBlock.content} />
+        <HeroBlock background={heroBlock.color} quote={heroBlock.quote} cite={heroBlock.cite} />
       }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} wide={wrapperWidth ? true : false}>
         {bodyHtml
@@ -90,6 +90,8 @@ export const pageQuery = graphql`
         lang
         heroBlock {
           color
+          quote
+          cite
         }
       }
     }
