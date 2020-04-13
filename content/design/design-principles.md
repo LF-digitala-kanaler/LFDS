@@ -13,7 +13,7 @@ wide: true
 lang: true
 ---
 <Base>
-<Collapse title="test"><span class="content">tee</span></Collapse>
+<Collapse title="title"><span class="content">con</span></Collapse>
 </Base>
 
 Övergripande målbild:
