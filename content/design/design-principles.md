@@ -5,7 +5,9 @@ intro: "De är till för att vi ska ha några gemensam riktning - hur vi designa
   för Länsförsäkringar. body: test content"
 heroBlock:
   color: "#fcd2d3"
-  content: ""
+  content: <blockquote class="Blockquote"><p
+    class="Blockquote__text">testtvå</p><footer
+    class="Blockquote__author">rrr</footer></blockquote>
 priority: "1"
 wide: true
 lang: true
