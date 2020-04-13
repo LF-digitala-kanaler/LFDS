@@ -32,3 +32,5 @@ Möjliggör för användarna att hitta fram på det sätt de vill – de flesta 
 7. Möt mig utifrån det ni vet eller borde veta om mig
 8. Jag känner att jag är på Länsförsäkringar
 9. Personalisering är alltid kundens val
+
+   <figure class="Image Image__border"><img src="/static/img/regularv2.jpg" srcset="undefined 2x" alt="test"><figcaption><div class="Image__caption">test</div></figcaption></figure>
