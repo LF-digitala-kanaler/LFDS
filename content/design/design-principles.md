@@ -14,7 +14,7 @@ lang: true
 ---
 <section>
 <Collapse title="ett"><span class="content">e</span></Collapse>
-<Collapse title="list"><span class="content"><figure class="Image Image__border"><img src="/img/old-file-upload.png" srcset="undefined 2x" alt="efef"><figcaption><div class="Image__caption">fefe</div></figcaption></figure>
+<Collapse title="list"><span class="content"><figure class="Image Image__border"><img src="/img/regularv2.jpg" srcset="/img/old-file-upload.png 2x" alt="efef"><figcaption><div class="Image__caption">fefe</div></figcaption></figure>
 
 gr
 
