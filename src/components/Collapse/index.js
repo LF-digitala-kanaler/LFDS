@@ -24,7 +24,7 @@ const Collapse = ({title, content}) => {
         </button>
         <div className={style.Collapse__content} ref={ref} style={{ maxHeight: `${setHeight}` }}>
           <div className={style.Collapse__inner} dangerouslySetInnerHTML={{__html: content}}>
-            {content}
+            
          </div> 
         </div>
       </article>

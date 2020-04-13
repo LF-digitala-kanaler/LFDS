@@ -29,7 +29,7 @@ const CollapseWidget = {
        
         return {
           title: item.match(/title="(.*?)"/)[1],
-          content: item.match(/content="(.*?)"/)[1],
+          content: item.match(/<span class="content">([^$]+?)<\/span>/)[1],
         }
       });
       console.log(items, 'items')
@@ -46,7 +46,7 @@ const CollapseWidget = {
       const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
                   // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
       
-          return `<Collapse content="${item.get("content")}" title="${item.get("title")}"></Collapse>`
+          return `<Collapse title="${item.get("title")}"><span class="content">${item.get("content")}</span></Collapse>`
       });
 
       return "<div>\n" + items.join("\n") + "\n</div>";
