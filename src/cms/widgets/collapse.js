@@ -5,7 +5,7 @@ const CollapseWidget = {
   id: "collapse",
   label: "Collapse",
    
-    pattern: '<div>[^]*?</div>',
+    pattern: '<base>[^]*?</base>',
     fields: [{
       label: "Collapse",
       name: "panels",
@@ -25,11 +25,11 @@ const CollapseWidget = {
 
     fromBlock: function(match) {
       console.log(match)
-      const items = match[0].match(/[^\r\n]+/g).slice(1, -1).map(function(item, index) {
+      const items = match[0].match(/[^\r\n]+/).slice(1, -1).map(function(item, index) {
        
         return {
           title: item.match(/title="(.*?)"/)[1],
-          content: item.match(/<span class="content">([^$]+?)<\/span>/)[1],
+          content: item.match(/<span class="content">([^$].+?)<\/span>/)[1],
         }
       });
       console.log(items, 'items')
@@ -60,7 +60,7 @@ const CollapseWidget = {
         });
 
         return (
-          '<div>' + items.join("") + '</div>'
+          '<base>' + items.join("") + '</base>'
         );
       }
 
