@@ -13,7 +13,7 @@ wide: true
 lang: true
 ---
 <Base>
-<Collapse title="title"><span class="content">con</span></Collapse>
+<Collapse title="se "><span class="content">dcdcd</span></Collapse>
 </Base>
 
 Övergripande målbild:
