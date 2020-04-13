@@ -5,6 +5,7 @@
   height: 22.75rem;
   display: flex;
   align-items: center;
+  margin:var(--spacing-vertical--1) 0 var(--spacing-vertical--2) 0;
 }
 .HeroBlock__quote {
   
