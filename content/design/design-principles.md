@@ -14,6 +14,7 @@ lang: true
 ---
 <div>
 <Collapse  title="testar" /><span>trrr</span></Collapse>
+<Collapse  title="hoppla" /><span><figure class="Image Image__border"><img src="/static/img/dropdown-secondary-text.jpg" srcset="undefined 2x" alt="www"><figcaption><div class="Image__caption">sss</div></figcaption></figure></span></Collapse>
 </div>
 
 Övergripande målbild:
