@@ -14,12 +14,7 @@ lang: true
 ---
 <div>
 <Collapse content="två" title="ett" title="ett"></Collapse>
-<Collapse content="vdvd
 
-<figure class="Image Image__border"><img src="/static/img/alert.svg" srcset="undefined 2x" alt="vdvd"><figcaption><div class="Image__caption">vdvd</div></figcaption></figure>" title="te"></Collapse>
-</div>
-
-</figcaption></figure>" title="två"></Collapse>
 </div>
 
 Övergripande målbild:

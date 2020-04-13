@@ -23,7 +23,7 @@ const Collapse = ({title, content}) => {
           <span className={style.Collapse__icon +` ${active}`}></span>
         </button>
         <div className={style.Collapse__content} ref={ref} style={{ maxHeight: `${setHeight}` }}>
-          <div className={style.Collapse__inner}>
+          <div className={style.Collapse__inner} dangerouslySetInnerHTML={{__html: content}}>
             {content}
          </div> 
         </div>
