@@ -14,7 +14,9 @@ lang: true
 ---
 <section>
 <Collapse title="sec"><span class="content">sec</span></Collapse>
-<Collapse title="image"><span class="content"><figure class="Image Image__border"><img src="/static/img/regularv2.jpg" srcset="/static/img/avatar.svg 2x" alt="alt"><figcaption><div class="Image__caption">cd</div></figcaption></figure>Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.</span></Collapse>
+<Collapse title="image"><span class="content"><figure class="Image Image__border"><img src="/img/regularv2.jpg" srcset="/static/img/regularv2.jpg 2x" alt="alt"><figcaption><div class="Image__caption">cd</div></figcaption></figure>
+
+Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.</span></Collapse>
 </section>
 
 Övergripande målbild:
@@ -31,4 +33,4 @@ lang: true
 8. Jag känner att jag är på Länsförsäkringar
 9. Personalisering är alltid kundens val
 
-   <figure class="Image Image__border"><img src="/static/img/regularv2.jpg" srcset="undefined 2x" alt="test"><figcaption><div class="Image__caption">test</div></figcaption></figure>
+   <figure class="Image Image__border"><img src="/static/img/regularv2.jpg" srcset="/static/img/regularv2.jpg 2x" alt="test"><figcaption><div class="Image__caption">test</div></figcaption></figure>
