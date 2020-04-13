@@ -12,12 +12,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div>
 
-</div>
-
-</figcaption></figure></span></Collapse>
-</div>
 
 Övergripande målbild:
 
