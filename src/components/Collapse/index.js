@@ -11,7 +11,7 @@ const Collapse = ({title, content}) => {
   const toggleCollapse = () => {
     setActiveState(setActive === "" ? "active" : "");
     setHeightState(
-      setActive === "active" ? "0px" : `${ref.current.scrollHeight}px`
+      setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
     );
   }
   
@@ -22,7 +22,7 @@ const Collapse = ({title, content}) => {
           <span className={style.Collapse__title}>{title}</span>
          
         </button>
-        <div className={style.Collapse__content} ref={content} style={{ maxHeight: `${setHeight}` }}>
+        <div className={style.Collapse__content} ref={ref} style={{ maxHeight: `${setHeight}` }}>
           <div className={style.Collapse__inner}>
             {content}
          </div> 

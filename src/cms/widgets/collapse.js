@@ -1,6 +1,7 @@
+import React from 'react'
 import Immutable from 'immutable';
-
-const Collapse = {
+import Collapse from '../../components/Collapse'
+const CollapseWidget = {
   id: "collapse",
   label: "Collapse",
    
@@ -27,7 +28,7 @@ const Collapse = {
       const items = match[0].match(/[^\r\n]+/g).slice(1, -1).map(function(item, index) {
        
         return {
-          title: item.match(/<p class="title">"(.*?)"<\/p>/)[1],
+          title: item.match(/title="(.*?)"/)[1],
           content: item.match(/content="(.*?)"/)[1],
         }
       });
@@ -45,7 +46,7 @@ const Collapse = {
       const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
                   // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
       
-          return '<Collapse content="' + item.get("content") + '"><p class="title">'+ item.get("title") +'</p></Collapse>'
+          return `<Collapse content="${item.get("content")}" title="${item.get("title")}" />`
       });
 
       return "<div>\n" + items.join("\n") + "\n</div>";
@@ -64,7 +65,7 @@ const Collapse = {
       }
 
 }
-export default Collapse
+export default CollapseWidget
 
 
 

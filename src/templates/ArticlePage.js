@@ -6,12 +6,19 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import Content from '../components/Content';
 import HeroBlock from '../components/HeroBlock'
+import rehypeReact from "rehype-react"
+import Collapse from '../components/Collapse';
 
+ const renderAst = new rehypeReact({
+    createElement: React.createElement,
+    components: { "collapse": Collapse},
+  }).Compiler
 // Export Template for use in CMS preview
 export const ArticlePageTemplate = ({
   title,
   intro,
   body,
+  bodyHtml,
   heroBlock,
   wrapperWidth
 }) => (
@@ -25,8 +32,12 @@ export const ArticlePageTemplate = ({
       {heroBlock &&
         <HeroBlock background={heroBlock.color} content={heroBlock.content} />
       }
+      {bodyHtml
+        ? <div class="Content">{renderAst(body)}</div>
+        : <Content className="content" source={bodyHtml} />
+      }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} wide={wrapperWidth ? true : false}>
-        <Content source={body} />   
+        
     </Wrapper>
   </>
 )
@@ -34,9 +45,9 @@ const ArticlePage = ({
   data: { page }
   
   },) => {
-  
+  console.log(page)
   const wrapperWidth = page.frontmatter.wide ? true : false;
-
+ 
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -49,7 +60,8 @@ const ArticlePage = ({
         {...page} 
         {...page.frontmatter}
         heroBlock={page.frontmatter.heroBlock}
-        body={page.html}
+        body={page.htmlAst}
+        bodyHtml={page.html}
         wrapperWidth={wrapperWidth}
       />
     </Layout>
@@ -67,8 +79,8 @@ export const pageQuery = graphql`
   query ArticlePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      htmlAst
       html
-      
       frontmatter {
         title
         intro

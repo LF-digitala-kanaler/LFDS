@@ -12,8 +12,8 @@ wide: true
 lang: true
 ---
 <div>
-<Collapse content="content" title="title" />
-<Collapse content="två" title="två" />
+<collapse content="content" title="title"></collapse>
+
 </div>
 
 Övergripande målbild:
