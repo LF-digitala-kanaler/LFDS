@@ -7,13 +7,15 @@
   align-items: center;
 }
 .HeroBlock__quote {
-  font-size: 2.5rem;
+  
+  font-size: 2rem;
   text-align: left;
-  line-height: 1;
+  line-height: 1.25;
   color: var(--color-black);
-  margin: 0;
+  margin: 0 0 var(--spacing-vertical--1);
   @media (--small-viewport) { 
     max-width: 22.25rem;
+    font-size: 2.5rem;
   }
 }
 .Blockquote__icon {

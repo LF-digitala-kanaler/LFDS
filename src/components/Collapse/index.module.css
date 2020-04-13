@@ -1,10 +1,6 @@
 .Collapse {
   border-bottom: 1px solid var(--color-border);
 }
-.Accoridon__section {
-  display: flex;
-  flex-direction: column;
-}
 
 .Collapse__button {
   background-color: transparent;
@@ -15,9 +11,15 @@
   border: none;
   outline: none;
   width: 100%;
-  font-size: 1.5rem;
-  padding: var(--spacing-md) 0;
+  font-size: 1rem;
+  padding: var(--spacing-md) var(--spacing-xlg) var(--spacing-md) 0;
   position: relative;
+  line-height: 1.1;
+  text-align: left;
+  
+  @media (--small-viewport) { 
+    font-size: 1.5rem;
+  }
 }
 
 .Collapse__icon {
@@ -56,11 +58,6 @@
   }
 }
 
-
-    
-.Collapse__title {
-  line-height: 1.1;
-}
 
 .Collapse__content {
   overflow: hidden;
