@@ -13,10 +13,10 @@ wide: true
 lang: true
 ---
 <div>
-<Collapse content="content" title="1. Upplevelsen är utformad för den kanal jag valt"></Collapse>
-<Collapse content="<figure class="Image Image__border"><img src="/static/img/two-one-lined-on-a-row.png" srcset="undefined 2x" alt="alt"><figcaption><div class="Image__caption">cap</div></figcaption></figure>" title="2. Varje sida har ett primärt syfte"></Collapse>
-<Collapse content="te" title="3. Handling och funktion före information"></Collapse>
-<Collapse content="Fyra" title="4. Alla hittar rätt på olika sätt"></Collapse>
+<Collapse title="test"><span>test</span></Collapse>
+<Collapse title="test 2"><span>test 2
+
+<figure class="Image Image__border"><img src="/static/img/skärmavbild-2020-03-19-kl.-09.29.20.png" srcset="undefined 2x" alt="alt"><figcaption><div class="Image__caption">cap</div></figcaption></figure></span></Collapse>
 </div>
 
 Övergripande målbild:
