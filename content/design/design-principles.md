@@ -12,7 +12,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-
+<section>
+<Collapse title="ett"><span class="content">e</span></Collapse>
+</section>
 
 Övergripande målbild:
 
@@ -28,4 +30,4 @@ lang: true
 8. Jag känner att jag är på Länsförsäkringar
 9. Personalisering är alltid kundens val
 
-   <figure class="Image Image__border"><img src="/static/img/regularv2.jpg" srcset="/static/img/regularv2.jpg 2x" alt="test"><figcaption><div class="Image__caption">test</div></figcaption></figure>
+   <figure class="Image Image__border"><img src="/img/alert.svg" srcset="/img/alert.svg 2x" alt="test"><figcaption><div class="Image__caption">test</div></figcaption></figure>
