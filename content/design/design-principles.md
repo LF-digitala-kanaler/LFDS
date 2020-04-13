@@ -12,9 +12,10 @@ wide: true
 lang: true
 ---
 <div>
-<Collapse content="content" title="1. Upplevelsen är utformad för den kanal jag valt" />
-<Collapse content="två" title="2. Varje sida har ett primärt syfte" />
-<Collapse content="te" title="3. Handling och funktion före information" />
+<Collapse content="content" title="1. Upplevelsen är utformad för den kanal jag valt"></Collapse>
+<Collapse content="två" title="2. Varje sida har ett primärt syfte"></Collapse>
+<Collapse content="te" title="3. Handling och funktion före information"></Collapse>
+<Collapse content="Fyra" title="4. Alla hittar rätt på olika sätt"></Collapse>
 </div>
 
 Övergripande målbild:
