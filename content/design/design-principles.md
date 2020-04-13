@@ -12,8 +12,7 @@ wide: true
 lang: true
 ---
 <div>
-<Collapse content="e" title="e" />
-<Collapse content="t" title="t" />
+<div class="Collapse" content="testing" title="test" /></div>
 </div>
 
 Övergripande målbild:
