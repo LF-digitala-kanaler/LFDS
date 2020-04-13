@@ -15,6 +15,7 @@ collections: # A list of collections the CMS should be able to edi
     folder: 'content/components/web'
     path: '{{category}}/{{slug}}'
     media_folder: /static/img
+    public_folder: /img
     filter: {field: "template", value: "ComponentPage"}
     fields: # The fields each document in this collection have
       
@@ -70,6 +71,7 @@ collections: # A list of collections the CMS should be able to edi
   - name: design-page
     label: Design@LF
     media_folder: /static/img
+    public_folder: /img
     folder: content/design/
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
@@ -125,6 +127,7 @@ collections: # A list of collections the CMS should be able to edi
   - name: patterns-page
     label: Patterns
     media_folder: /static/img
+    public_folder: /img
     folder: content/patterns/
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
@@ -231,6 +234,7 @@ collections: # A list of collections the CMS should be able to edi
     label: 'Landing Pages'
     folder: content/
     media_folder: /static/img
+    public_folder: /img
     path: 'content/{{slug}}/index'
     filter: {field: "template", value: "LandingPage"}
     fields: 
