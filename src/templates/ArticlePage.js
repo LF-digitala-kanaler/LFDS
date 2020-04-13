@@ -32,13 +32,12 @@ export const ArticlePageTemplate = ({
       {heroBlock &&
         <HeroBlock background={heroBlock.color} content={heroBlock.content} />
       }
-      {bodyHtml
-        ? <div class="Content">{renderAst(body)}</div>
-        : <Content className="content" source={bodyHtml} />
-      }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} wide={wrapperWidth ? true : false}>
-        
-    </Wrapper>
+        {bodyHtml
+          ? <div class="Content">{renderAst(body)}</div>
+          : <Content className="content" source={bodyHtml} />
+        }
+      </Wrapper>
   </>
 )
 const ArticlePage = ({ 

@@ -46,7 +46,7 @@ const CollapseWidget = {
       const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
                   // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
       
-          return `<Collapse content="${item.get("content")}" title="${item.get("title")}" />`
+          return `<Collapse content="${item.get("content")}" title="${item.get("title")}"></Collapse>`
       });
 
       return "<div>\n" + items.join("\n") + "\n</div>";
