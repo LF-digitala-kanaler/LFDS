@@ -13,6 +13,7 @@ lang: true
 ---
 <div>
 <Collapse content="content" title="title" />
+<Collapse content="två" title="två" />
 </div>
 
 Övergripande målbild:
