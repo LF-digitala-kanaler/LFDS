@@ -11,7 +11,10 @@ priority: "1"
 wide: true
 lang: true
 ---
-
+<div>
+[object Object]
+[object Object]
+</div>
 
 Övergripande målbild:
 
