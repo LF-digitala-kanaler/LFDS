@@ -5,11 +5,15 @@ intro: "De är till för att vi ska ha några gemensam riktning - hur vi designa
   för Länsförsäkringar. body: test content"
 heroBlock:
   color: "#fcd2d3"
+  quote: dde
+  cite: dede
 priority: "1"
 wide: true
 lang: true
 ---
-
+<div>
+<Collapse content="fefedd"><p class="title">fefe</p></Collapse>
+</div>
 
 Övergripande målbild:
 
