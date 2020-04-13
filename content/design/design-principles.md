@@ -12,7 +12,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-
+<section>
+<Collapse title="sec"><span class="content">sec</span></Collapse>
+</section>
 
 Övergripande målbild:
 
