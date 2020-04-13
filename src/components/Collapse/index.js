@@ -2,10 +2,10 @@ import React, { useState, useRef } from "react"
 import style from './index.module.css';
 
 
-const Collapse = ({title, content}) => {
+const Collapse = ({title, children}) => {
   const [active, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
-
+  console.log(children)
   const ref = useRef(null);
 
   const toggleCollapse = () => {
@@ -23,8 +23,8 @@ const Collapse = ({title, content}) => {
           <span className={style.Collapse__icon +` ${active}`}></span>
         </button>
         <div className={style.Collapse__content} ref={ref} style={{ maxHeight: `${setHeight}` }}>
-          <div className={style.Collapse__inner} dangerouslySetInnerHTML={{__html: content}}>
-            
+          <div className={style.Collapse__inner} >
+            {children}
          </div> 
         </div>
       </article>
