@@ -2,7 +2,7 @@ const AdvancedImage = {
   id: "advancedImage",
   label: "LFUI Image",
   fields: [
-    { name: "image", label: "Image", widget: "image" },
+    { name: "image", label: "Image", widget: "image"},
     { name: "alt", label: "Alt text", widget: "string", default: "" },
     {
       name: "type",

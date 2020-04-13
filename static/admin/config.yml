@@ -145,6 +145,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: Hero block
         name: heroBlock
         widget: object
+        
         fields:
         - label: 'Color'
           name: 'color'
@@ -156,6 +157,7 @@ collections: # A list of collections the CMS should be able to edi
             - { label: "Blue", value: "#badaf3" }
         - { label: Quote, name: quote, widget: text, required: false }
         - { label: Cite, name: cite, widget: string, required: false }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - label: 'Background'
         name: 'background'
         widget: 'select'
@@ -176,6 +178,7 @@ collections: # A list of collections the CMS should be able to edi
 
   - name: visual-identity-page
     media_folder: /static/img
+    public_folder: /img
     label: Visual Identity
     folder: content/visual-identity/
     path: '{{category}}/{{slug}}'
