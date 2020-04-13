@@ -13,7 +13,7 @@ wide: true
 lang: true
 ---
 <div>
-
+<Collapse  title="testar" /><span>trrr</span></Collapse>
 </div>
 
 Övergripande målbild:
