@@ -12,7 +12,10 @@ priority: "1"
 wide: true
 lang: true
 ---
-
+<div>
+<Collapse content="två" title="ett"></Collapse>
+<Collapse content="<figure class="Image Image__border"><img src="/static/img/avatar.svg" srcset="undefined 2x" alt="vfvf"><figcaption><div class="Image__caption">vfvf</div></figcaption></figure>" title="två"></Collapse>
+</div>
 
 Övergripande målbild:
 
