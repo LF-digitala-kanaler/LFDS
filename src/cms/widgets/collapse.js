@@ -52,16 +52,16 @@ const Collapse = {
     },
 
 
-      // toPreview: function(obj) {
+      toPreview: function(obj) {
 
-      //   const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
-      //       return '<a href="' + item.get("content") + '" class="button">' + item.get("title") + '</a>'
-      //   });
+        const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
+            return '<div>' + item.get("content") + item.get("title") +'</div>'
+        });
 
-      //   return (
-      //     '<div class="Collapse">' + items.join("") + '</div>'
-      //   );
-      // }
+        return (
+          '<div>' + items.join("") + '</div>'
+        );
+      }
 
 }
 export default Collapse

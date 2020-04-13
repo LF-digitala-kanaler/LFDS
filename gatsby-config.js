@@ -143,6 +143,10 @@ module.exports = {
           // gatsby-remark-relative-images must
           // go before gatsby-remark-images
           {
+            resolve: "gatsby-remark-component",
+            options: { components: ["Collapse"] }
+          },
+          {
             resolve: 'gatsby-remark-relative-images',
           },
           {

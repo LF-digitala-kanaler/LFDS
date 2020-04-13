@@ -5,29 +5,23 @@ const Quote = {
   id: "blockquote",
   label: "Blockquote",
   fields: [
-    { name: "quote", label: "Qoute", widget: "string", default: ' ' },
-    { name: "cite", label: "Cite", widget: "string", required: false, default: ' '},
+    { name: "text", label: "Qoute", widget: "string" },
+    { name: "author", label: "Cite", widget: "string", required: false},
   ],
-  pattern: /{"widget":"blockquote","quote":"(.*)","cite":"(.*)?"}/,
-  fromBlock(match) {
-    const quote = match[1] ? match[1].replace(/^\s+/,'') : null
-    const cite = match[2] ? match[2].replace(/^\s+/,'') : null
-    return {
-      quote,
-      cite,
-    }
+  pattern: /^<div class="Blockquote"><p class="Blockquote__text">(.*)<\/p><footer class="Blockquote__author">(.*)<\/footer><\/div>/,
+  fromBlock: function(match) {
+   
+    const obj = {
+      text: match[1],
+      author: match[2]
+    };
+    return obj;
   },
   toBlock(obj) {
-    const data = JSON.stringify({
-			widget: 'blockquote',
-			quote: obj.quote,
-			cite: obj.cite,
-    });
-    return data
+    return `<div class="Blockquote"><p class="Blockquote__text">${obj.text}</p><footer class="Blockquote__author">${obj.author}</footer></div>`
   },
-  toPreview: function (obj) {
-    return (<Blockquote text={obj.quote} author={obj.cite} />)
-  }
+  
 }
 
 export default Quote
+
