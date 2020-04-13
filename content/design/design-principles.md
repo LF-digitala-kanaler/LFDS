@@ -11,9 +11,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div>
-<p class="title">title</p><div class="content">veveve</div>
-</div>
+
 
 Övergripande målbild:
 
