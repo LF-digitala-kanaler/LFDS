@@ -12,6 +12,10 @@ priority: "1"
 wide: true
 lang: true
 ---
+<base>
+<Collapse title="ttt"><span class="content">cdcd</span></Collapse>
+</base>
+
 <div>
 <Collapse title="terka"><span class="content">terka</span></Collapse>
 </div>
