@@ -7,6 +7,7 @@ heroBlock:
   color: "#fcd2d3"
   quote: Hjälp mig göra det  jag kom för att göra
   cite: Vår främsta uppgift
+background: bg-white
 priority: "1"
 wide: true
 lang: true
