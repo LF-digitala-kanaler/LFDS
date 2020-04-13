@@ -12,9 +12,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-<base>
-<Collapse title="test"><span class="content"><figure class="Image Image__border"><img src="/static/img/alert.svg" srcset="undefined 2x" alt="vfvf"><figcaption><div class="Image__caption">vfvf</div></figcaption></figure></span></Collapse>
-</base>
+<div>
+<Collapse title="terka"><span class="content">terka</span></Collapse>
+</div>
 
 Övergripande målbild:
 
