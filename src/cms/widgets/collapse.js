@@ -49,20 +49,11 @@ const CollapseWidget = {
           return `<Collapse title="${item.get("title")}"><span class="content">${item.get("content")}</span></Collapse>`
       });
 
-      return "<div>\n" + items.join("\n") + "\n</div>";
+      return "<base>\n" + items.join("\n") + "\n</base>";
     },
 
 
-      toPreview: function(obj) {
-
-        const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
-            return '<div>' + item.get("content") + item.get("title") +'</div>'
-        });
-
-        return (
-          '<base>' + items.join("") + '</base>'
-        );
-      }
+     
 
 }
 export default CollapseWidget

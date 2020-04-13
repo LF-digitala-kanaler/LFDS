@@ -16,9 +16,6 @@ lang: true
 <Collapse title="ttt"><span class="content">cdcd</span></Collapse>
 </base>
 
-<div>
-<Collapse title="terka"><span class="content">terka</span></Collapse>
-</div>
 
 Övergripande målbild:
 
