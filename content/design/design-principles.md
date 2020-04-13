@@ -12,7 +12,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-
+<Base>
+<Collapse title="test"><span class="content">tee</span></Collapse>
+</Base>
 
 Övergripande målbild:
 
