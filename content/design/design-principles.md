@@ -14,7 +14,12 @@ lang: true
 ---
 <section>
 <Collapse title="ett"><span class="content">e</span></Collapse>
+<Collapse title="list"><span class="content">gr
+
+ggrgr</span></Collapse>
 </section>
+
+
 
 Övergripande målbild:
 
