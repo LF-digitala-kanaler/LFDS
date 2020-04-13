@@ -12,12 +12,6 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div>
-<Collapse title="test"><span>test</span></Collapse>
-<Collapse title="test 2"><span>test 2
-
-<figure class="Image Image__border"><img src="/static/img/skärmavbild-2020-03-19-kl.-09.29.20.png" srcset="undefined 2x" alt="alt"><figcaption><div class="Image__caption">cap</div></figcaption></figure></span></Collapse>
-</div>
 
 Övergripande målbild:
 
