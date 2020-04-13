@@ -11,9 +11,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div>
-[object Object]
-</div>
+
 
 Övergripande målbild:
 
