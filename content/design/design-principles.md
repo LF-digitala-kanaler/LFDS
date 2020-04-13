@@ -12,16 +12,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<section>
-<Collapse title="sec"><span class="content">sec</span></Collapse>
-<Collapse title="image"><span class="content"><figure class="Image Image__border"><img src="/img/regularv2.jpg" srcset="/img/regularv2.jpg 2x" alt="alt"><figcaption><div class="Image__caption">cd</div></figcaption></figure>
 
-Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.test test
-
-
-
-test</span></Collapse>
-</section>
 
 Övergripande målbild:
 
