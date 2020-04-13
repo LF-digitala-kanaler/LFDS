@@ -12,9 +12,9 @@ priority: "1"
 wide: true
 lang: true
 ---
-<Base>
-<Collapse title="lala"><span class="content">ceee</span></Collapse>
-</Base>
+<div>
+<Collapse title="dcd"><span class="content">d</span></Collapse>
+</div>
 
 Övergripande målbild:
 
