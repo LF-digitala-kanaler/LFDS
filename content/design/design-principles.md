@@ -11,9 +11,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div>
-<div><p class="title">test</p><div class="content">vvdvd</div></div>
-</div>
+
 
 Övergripande målbild:
 
