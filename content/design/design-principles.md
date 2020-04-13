@@ -11,9 +11,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<div>
-<Collapse content="fefedd"><p class="title">fefe</p></Collapse>
-</div>
+
 
 Övergripande målbild:
 
