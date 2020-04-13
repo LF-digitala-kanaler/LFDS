@@ -12,9 +12,7 @@ priority: "1"
 wide: true
 lang: true
 ---
-<base>
-<Collapse title="cdcd"><span class="content">cdcd</span></Collapse>
-</base>
+
 
 Övergripande målbild:
 

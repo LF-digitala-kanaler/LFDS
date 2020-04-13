@@ -5,7 +5,7 @@ const CollapseWidget = {
   id: "collapse",
   label: "Collapse",
    
-    pattern: '<base>[^]*?</base>',
+    pattern: '<Base>[^]*?</Base>',
     fields: [{
       label: "Collapse",
       name: "panels",
@@ -49,7 +49,7 @@ const CollapseWidget = {
           return `<Collapse title="${item.get("title")}"><span class="content">${item.get("content")}</span></Collapse>`
       });
 
-      return "<base>\n" + items.join("\n") + "\n</base>";
+      return "<Base>\n" + items.join("\n") + "\n</Base>";
     },
 
 
