@@ -10,7 +10,10 @@ priority: "1"
 wide: true
 lang: true
 ---
-
+<div>
+<Collapse content="e" title="e" />
+<Collapse content="t" title="t" />
+</div>
 
 Övergripande målbild:
 
