@@ -7,13 +7,14 @@ heroBlock:
   color: "#fcd2d3"
   quote: Hjälp mig göra det  jag kom för att göra
   cite: Vår främsta uppgift
+background: bg-white
 priority: "1"
 wide: true
 lang: true
 ---
 <div>
 <Collapse content="content" title="1. Upplevelsen är utformad för den kanal jag valt"></Collapse>
-<Collapse content="två" title="2. Varje sida har ett primärt syfte"></Collapse>
+<Collapse content="<figure class="Image Image__border"><img src="/static/img/two-one-lined-on-a-row.png" srcset="undefined 2x" alt="alt"><figcaption><div class="Image__caption">cap</div></figcaption></figure>" title="2. Varje sida har ett primärt syfte"></Collapse>
 <Collapse content="te" title="3. Handling och funktion före information"></Collapse>
 <Collapse content="Fyra" title="4. Alla hittar rätt på olika sätt"></Collapse>
 </div>
