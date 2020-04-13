@@ -14,6 +14,7 @@ lang: true
 ---
 <section>
 <Collapse title="sec"><span class="content">sec</span></Collapse>
+<Collapse title="image"><span class="content"><figure class="Image Image__border"><img src="/static/img/avatar.svg" srcset="undefined 2x" alt="alt"><figcaption><div class="Image__caption">cd</div></figcaption></figure></span></Collapse>
 </section>
 
 Övergripande målbild:
