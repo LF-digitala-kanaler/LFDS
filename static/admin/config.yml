@@ -101,6 +101,8 @@ collections: # A list of collections the CMS should be able to edi
           options: 
             - { label: "Pink", value: "#fcd2d3" }
             - { label: "Blue", value: "#badaf3" }
+        - { label: Quote, name: quote, widget: text }
+        - { label: Cite, name: cite, widget: string }
         - { label: 'Content', name: content, widget: 'markdown',  required: false }
       
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
@@ -150,6 +152,8 @@ collections: # A list of collections the CMS should be able to edi
           options: 
             - { label: "Pink", value: "#fcd2d3" }
             - { label: "Blue", value: "#badaf3" }
+        - { label: Quote, name: quote, widget: text }
+        - { label: Cite, name: cite, widget: string }
       - label: 'Background'
         name: 'background'
         widget: 'select'
@@ -203,6 +207,8 @@ collections: # A list of collections the CMS should be able to edi
           options: 
             - { label: "Pink", value: "#fcd2d3" }
             - { label: "Blue", value: "#badaf3" }
+        - { label: Quote, name: quote, widget: text }
+        - { label: Cite, name: cite, widget: string }
       - { label: 'Content', name: body, widget: 'markdown',  required: false }
       - label: 'Background'
         name: 'background'

@@ -6,13 +6,7 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble';
 import Content from '../components/Content';
 import HeroBlock from '../components/HeroBlock'
-import rehypeReact from "rehype-react"
-import Collapse from '../components/Collapse'
 
-const renderAst = new rehypeReact({
-  createElement: React.createElement,
-  components: { "Collapse": Collapse }
-}).Compiler
 // Export Template for use in CMS preview
 export const ArticlePageTemplate = ({
   title,
@@ -32,7 +26,7 @@ export const ArticlePageTemplate = ({
         <HeroBlock background={heroBlock.color} content={heroBlock.content} />
       }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} wide={wrapperWidth ? true : false}>
-        <div class="Content">{renderAst(body)}</div> 
+        <Content source={body} />   
     </Wrapper>
   </>
 )
@@ -55,7 +49,7 @@ const ArticlePage = ({
         {...page} 
         {...page.frontmatter}
         heroBlock={page.frontmatter.heroBlock}
-        body={page.htmlAst}
+        body={page.html}
         wrapperWidth={wrapperWidth}
       />
     </Layout>
@@ -73,7 +67,7 @@ export const pageQuery = graphql`
   query ArticlePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
-      htmlAst
+      html
       
       frontmatter {
         title
@@ -84,7 +78,6 @@ export const pageQuery = graphql`
         wide
         lang
         heroBlock {
-          content
           color
         }
       }
