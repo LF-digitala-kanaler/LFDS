@@ -15,7 +15,7 @@ lang: true
 <section>
 <Collapse title="1. Upplevelsen är utformad för den kanal jag valt"><span class="content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.
 
-<figure class="Image Image__border"><img src="/img/regularv2.jpg" srcset="undefined 2x" alt="alt"><figcaption><div class="Image__caption"></div></figcaption></figure></span></Collapse>
+<figure class="Image Image__border"><img src="/img/regularv2.jpg" srcset="/img/regularv2.jpg 2x" alt="alt"><figcaption><div class="Image__caption"></div></figcaption></figure></span></Collapse>
 <Collapse title="2. Varje sida har ett primärt syfte"><span class="content"></span></Collapse>
 <Collapse title="3. Handling och funktion före information"><span class="content">undefined</span></Collapse>
 <Collapse title="4. Alla hittar rätt på olika sätt"><span class="content">undefined</span></Collapse>
