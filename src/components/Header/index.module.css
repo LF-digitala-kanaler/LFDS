@@ -58,6 +58,7 @@
  
   @media (--large-viewport) {  
     position: relative;
+    padding: 0 var(--spacing-sm)
   }
 }
 

@@ -1,26 +1,22 @@
-import React from "react"
+import React, {useState, useRef} from "react"
 import style from './index.module.css';
 import _ from 'lodash';
 import componentsStatus from '../../data/componentsStatus.json'
 import { useStaticQuery, graphql } from "gatsby"
+import cx from 'classnames'
+import {useClickAway} from 'react-use';
 
 
 export const ComponentVersion = ({version}) => {
-  // get current pages version
-  if(typeof window !== `undefined`) {
-    const currentVersion = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === version.toLowerCase(); });
-  
-    if(currentVersion[0]) {
-      return ( 
-        <p className={style.ComponentVersion}>  Last updated: {currentVersion[0].bootstrap.changedInVersion[0]}</p>
-      )
-    }else {
-      return null
-    }
-  }
-};
+  const [isOpen, setOpen] = useState(false);
+  const dropdown = useRef(null);
 
-export const ComponentAllVersions = ({version}) => { 
+  const handleOnClick = () => {
+    setOpen(!isOpen)
+  }
+  useClickAway(dropdown, () => {
+    setOpen(false)
+  });
   const data = useStaticQuery(graphql`
     query version {
       settingsYaml {
@@ -28,22 +24,36 @@ export const ComponentAllVersions = ({version}) => {
       }
     }
   `)
+  // get current pages version
   if(typeof window !== `undefined`) {
-    const currentVersion = _.filter(componentsStatus.components, function(o) {  return o.component.toLowerCase() === version.toLowerCase(); });
-      
-    const versions = currentVersion[0].bootstrap.changedInVersion.map((item) => {
-      return <a className={style.ComponentVersion__link} href={data.settingsYaml.oldSiteUrl + item.split('.').join('')} target="_blank" rel="noreferrer noopener" aria-label="This is an external link (opens in a new tab)">{item}
-        <svg className={style.ComponentVersion__icon} width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><defs><path d="M7 2.333V3.5H2.333v8.167H10.5V7h1.167v5.833h-10.5v-10.5H7zm5.833-1.166V5.25h-1.166V3.158L7.412 7.412l-.824-.824 4.254-4.255H8.75V1.167h4.083z" id={item}/></defs><g transform="translate(-1 -1)" fill="none" fill-rule="evenodd"><path d="M0 0h14v14H0z"/><use fill="#515151" xlinkHref={"#"+item}/></g></svg></a>;
-    });
-    //const createVersionList = item.map
-    return (
-      <dl className={style.ComponentVersion__list}>
-        <dt className={style.ComponentVersion__title}>Versions ( Should I exist? Where should I live in that case ?</dt>
-          {versions}
-      </dl>
-      
-    )
+     // get latest version
+    const versions = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === version.toLowerCase(); });
+    //get all versions
+    console.log(versions.length)
+    if(versions.length > 0){
+      const previousVersions = versions[0].bootstrap.changedInVersion.map((item) => {
+        return <li className={style.ComponentVersion__item }><a target="_black" rel="nofollow noreferrer noopener" className={style.ComponentVersion__link} href={data.settingsYaml.oldSiteUrl + item.split('.').join('')}  aria-label="This is an external link (opens in a new tab)">{item}</a></li>
+      });
+      if (versions[0].bootstrap.changedInVersion.length === 1) {
+        return <p className={style.ComponentVersion}>  Last updated: {versions[0].bootstrap.changedInVersion[0]}</p>;
+      }else {
+        return (
+          <>
+          <div ref={dropdown} className={style.ComponentVersion}>
+            <button className={style.ComponentVersion__button} onClick={handleOnClick}>Last updated: {versions[0].bootstrap.changedInVersion[0]} <svg className={cx(style.ComponentVersion__icon, isOpen ? style['ComponentVersion__icon--active']: '')} width="14" height="9" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M7 3.414L1.707 8.707.293 7.293 7 .586l6.707 6.707-1.414 1.414z"/></defs><use fill="#747578" xlinkHref="#a" transform="matrix(1 0 0 -1 0 9)" fillRule="evenodd"/></svg></button>
+            <div  className={cx(style.ComponentVersion__dropdown, isOpen ? style['ComponentVersion__dropdown--active'] : '')}>
+                <ul className={style.ComponentVersion__list}>{previousVersions}</ul>
+            </div>
+          </div>
+          </>
+        )
+      }
+    }else {
+      return null;
+    }
   }
-}
+};
+
+export default ComponentVersion;
 
 

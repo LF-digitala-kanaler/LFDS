@@ -2,13 +2,44 @@
 .ComponentVersion {
   position: absolute; 
   top: 3.4rem;
-  right: 0;
+  right: var(--spacing-md);
+  color: var(--color-grey);
 }
 
-.ComponentVersion__list {
-
+.ComponentVersion__button {
+  background: transparent;
+  border-radius: 0;
+  appearance: none;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  color: var(--color-grey);
 }
 
+.ComponentVersion__icon {
+  transition:.25s ease;
+  transform: rotate(0);
+}
+.ComponentVersion__icon--active {
+  transform: rotate(180deg);
+}
+.ComponentVersion__dropdown {
+  position: absolute;
+  width: 100%;
+  border: 2px solid var(--color-border);
+  border-width: 2px 2px 0 2px;
+  background-color: var(--color-white);
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .25s linear,transform .12s cubic-bezier(0,0,0.2,1);
+}
+
+.ComponentVersion__dropdown--active {
+  visibility: visible;
+  opacity: 1;
+}
 .ComponentVersion__icon {
   margin-left: 4px;
 }
@@ -17,5 +48,32 @@
   text-decoration: none;
   color: var(--color-body);
   margin-right: var(--spacing-sm);
+  display: block;
 }
 
+.ComponentVersion__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ComponentVersion__item {
+  border-bottom: 2px solid var(--color-border);
+}
+
+.ComponentVersion__link {
+  text-decoration: none;
+  color: var(--color-black);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  display: block;
+  width: 100%;
+  &:hover {
+    background-color: var(--color-smoke);
+    color: var(--color-black);
+  }
+}
+.ComponentVersion__link--focused{
+  background-color: var(--color-smoke);
+  color: var(--color-black);
+  
+}
