@@ -31,12 +31,20 @@
 .Card__title--small {
   font-size: 1.2rem;
   margin-top: var(--spacing-vertical--05);
-  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   @media (--large-viewport) { 
     font-size: 1.5rem;
   }
+  
 }
 
+.Card__flag {
+  margin-left: var(--spacing-xs);
+  position: relative;
+  top: 2px;
+}
 .Card__image {
   margin: 0;
 }

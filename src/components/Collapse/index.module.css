@@ -1,5 +1,5 @@
 .Collapse {
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 2px solid var(--color-border);
 }
 
 .Collapse__button {
@@ -20,6 +20,9 @@
   @media (--small-viewport) { 
     font-size: 1.5rem;
   }
+  @media (--medium-viewport) { 
+    padding: var(--spacing-xxlg) var(--spacing-xlg) var(--spacing-xxlg) 0;
+  }
 }
 
 .Collapse__icon {
@@ -32,7 +35,7 @@
   &:after {
     content: "";
     position: absolute;
-    background-color: var(--color-black);
+    background-color: #747578;
     transition: transform 0.25s ease-out;
    
   }

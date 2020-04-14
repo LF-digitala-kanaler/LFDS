@@ -185,6 +185,10 @@ figure {
 .Content--normal > div >*:not(section) {
   max-width: var(--content-width--tight);
 }
+.Content > div > section {
+  border-top: 2px solid var(--color-border);
+}
+
 .Image__border {
   text-align: center;
   margin-bottom: var(--spacing-vertical--2);

@@ -27,6 +27,8 @@
     right: 50%;
     left: 50%;
     transform: translateX(-50%);
+    bottom: 32px;
+    top: auto;
   }
 
 

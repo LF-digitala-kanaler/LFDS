@@ -5,7 +5,7 @@
   height: 22.75rem;
   display: flex;
   align-items: center;
-  margin:var(--spacing-vertical--1) 0 var(--spacing-vertical--2) 0;
+  margin:var(--spacing-vertical--1) 0 var(--spacing-vertical--3) 0;
 }
 .HeroBlock__quote {
   
@@ -13,10 +13,11 @@
   text-align: left;
   line-height: 1.25;
   color: var(--color-black);
-  margin: 0 0 var(--spacing-vertical--1);
+  margin: 0;
   @media (--small-viewport) { 
-    max-width: 22.25rem;
-    font-size: 2.5rem;
+    max-width: 28.75rem;
+    font-size: 3.125rem;
+    line-height: 1.18;
   }
 }
 .Blockquote__icon {
@@ -24,4 +25,9 @@
 }
 .HeroBlock__cite {
   font-size: 1rem;
+  display: inline-block;
+  border-top: 2px solid #fff;
+  padding-top: var(--spacing-sm);
+  vertical-align: middle;
+  margin-top: var(--spacing-vertical--1);
 }

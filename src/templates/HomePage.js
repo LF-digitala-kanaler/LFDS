@@ -55,7 +55,7 @@ export const HomePageTemplate = ({
         <Cell>
           <Heading tag={3} text={"Links you cant live without"} align={"left"} />
           <LinkList items={relatedLinks} />
-      </Cell>
+        </Cell>
       </Grid>
     </Wrapper>
   </>
@@ -69,7 +69,7 @@ const HomePage = ({
     page.frontmatter.fullWidthImage.childImageSharp.fluid,
     {
       ...page.frontmatter.fullWidthImageMobile.childImageSharp.fluid,
-      media: `(max-width: 768px)`,
+      media: `(max-width: 820px)`,
     },
   ]
   

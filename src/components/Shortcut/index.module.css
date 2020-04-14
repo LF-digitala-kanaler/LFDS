@@ -7,14 +7,13 @@
   color: var(--color-black);
   text-align: center;
   display: block;
-  transition: box-shadow 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
   padding: 0 var(--spacing-xxlg);
 
   @media (--medium-viewport) { 
     padding: calc(2 * var(--spacing-xxlg)) var(--spacing-xlg);
     &:hover {
-      box-shadow: inset var(--color-smoke) 0 0 0 3px;
-      
+      background-color: var(--color-background-light);
     }
   }
 }
