@@ -184,10 +184,6 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
   display: flex;
   justify-content: center;
   
-
-  @media (--medium-viewport) { 
-    align-items: center;
-  }
 }
 
 .ReactModal__Overlay--after-open{
