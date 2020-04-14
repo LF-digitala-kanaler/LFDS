@@ -25,3 +25,11 @@ lang: true
 <Collapse title="8. Jag känner att jag är på Länsförsäkringar"><span class="content">undefined</span></Collapse>
 <Collapse title="9. Personalisering är alltid kundens val"><span class="content">undefined</span></Collapse>
 </section>
+
+### Konceptets hörnstenar
+
+För att efterlikna det personliga mötet ska vi använda oss av våra hörnstenar. Expertis, labba och kontroll.
+
+1. **Expertis** – man ska få samma hjälp som i ett personligt kundmöte
+2. **Labba** – Jag ska kunna labba och förstå produkt och pris
+3. **Kontroll** – Jag ska få överblick och kontroll, se vad jag har och inte har för produkter vad jag behöver
