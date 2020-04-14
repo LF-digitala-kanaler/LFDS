@@ -66,4 +66,9 @@
 
 .Collapse__inner {
   padding: var(--spacing-sm) 0;
+  max-width:var(--content-width--tight);
+}
+
+.Collapse img {
+  margin-top: var(--spacing-vertical--2);
 }

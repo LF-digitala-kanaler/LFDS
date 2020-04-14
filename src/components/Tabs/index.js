@@ -58,7 +58,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
           return (
             <TabPanel className={style.Tabs__panel} key={index}>
               <Wrapper menu={true} tag="div" tight>
-              <Content source={tab} />
+              <Content className="Content--tight" source={tab} />
               </Wrapper>
             </TabPanel>
           )

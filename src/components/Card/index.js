@@ -20,7 +20,7 @@ const Card = ({title, url, image, description, grid, lang}) => {
           }
         </div>
         <div className={style.Card__body}> 
-          <h2 className={cx(style.Card__title, (grid ? style['Card__title--small'] : '' ))}>{title} {lang && <svg width="22" height="16" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h21.647v16H0z"/></defs><g fill="none" fillRule="evenodd"><path d="M0 0h21.647v16H0z" fill="#006AA7" fillRule="nonzero"/><g><mask id="b" fill="#fff"><use xlinkHref="#a"/></mask><path fill="#FECC00" fill-rule="nonzero" mask="url(#b)" d="M5.412 6.667H0v2.666h5.412V16h2.706V9.333h13.529V6.667H8.118V0H5.412z"/></g></g></svg>}</h2>
+          <h2 className={cx(style.Card__title, (grid ? style['Card__title--small'] : '' ))}>{title} {lang && <svg width="22" height="16" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h21.647v16H0z"/></defs><g fill="none" fillRule="evenodd"><path d="M0 0h21.647v16H0z" fill="#006AA7" fillRule="nonzero"/><g><mask id="b" fill="#fff"><use xlinkHref="#a"/></mask><path fill="#FECC00" fillRule="nonzero" mask="url(#b)" d="M5.412 6.667H0v2.666h5.412V16h2.706V9.333h13.529V6.667H8.118V0H5.412z"/></g></g></svg>}</h2>
           
           <p className={style.Card__description}>{description}</p>
         </div>

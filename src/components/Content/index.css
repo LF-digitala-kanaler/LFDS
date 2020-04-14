@@ -76,7 +76,9 @@
   color: var(--color-black);
   text-underline-position: under;
 }
-
+.Content ol li {
+  margin-bottom: var(--spacing-vertical--1)
+}
 .Content ul {
   list-style-type: none;
   padding-left: var(--spacing-unit);
@@ -162,10 +164,26 @@
 figure {
   margin: 0;
 }
-.Image {
+.Content--tight .Image {
   @media (--large-viewport) { 
     width: var(--content-width--narrow);
   }
+}
+.Content--wide .Image {
+  @media (--large-viewport) { 
+    width: var(--content-width--wide);
+  }
+}
+.Content--normal .Image {
+  @media (--xlarge-viewport) { 
+    width: var(--content-width);
+  }
+} 
+
+/* hack to get content inside wide to be narrow */
+
+.Content--normal > div >*:not(section) {
+  max-width: var(--content-width--tight);
 }
 .Image__border {
   text-align: center;

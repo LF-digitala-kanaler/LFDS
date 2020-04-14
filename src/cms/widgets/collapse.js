@@ -33,7 +33,7 @@ const CollapseWidget = {
         console.log(item, 'item') // funkar hit
         return {
           title: item.match(/title="(.*?)"/)[1],
-          content: item.match(/<span class="content">(.*?)<\/span>/)[1],
+          content: item.match(/<span class="content">(.*)<\/span>/s)[1],
         }
       });
       console.log(items, 'ass')
