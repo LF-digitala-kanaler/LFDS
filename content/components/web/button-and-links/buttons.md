@@ -342,7 +342,7 @@ tabs:
       #### With arrow
 
 
-      Append .`btn-arrow` to any primary or secondary button to add the arrow.
+      Append .`btn-arrow` to any primary or secondary button to add the an arrow to the button.
 
 
       #### Size
@@ -355,7 +355,34 @@ tabs:
       * `.btn-tight` - less x-padding
 
 
-      Loading state
+      #### Loading state
+
+
+      If you want to indicate that you are loading something when the user has clicked on the button, you may use the `loading` class. This with the combination of some markup for the spinner will show a loader on the button. Note that you need to add your own logic for adding and removing the class`loading`.
+
+
+      ```
+
+      <button type="button" class="btn btn-secondary loading">
+        Loading...
+        <div class="lf-spinner-btn-secondary">
+          <svg viewBox="0 0 105 105" x="0" y="0" role="animation">
+            <circle class="static-circle" r="45%" cx="50%" cy="50%"></circle>
+            <circle class="lf-spinner-dash" r="45%" cx="50%" cy="50%"></circle>
+          </svg>
+        </div>
+      </button>
+
+      ```
+
+
+      #### Display
+
+
+      To have a button take up the entire width of its parent, use `btn-block` in synergy with a variant (i.e`btn-primary`,`btn-secondary`). You can also use `btn-sm-block` to have the button become full width on smaller screens(768px and down)
+
+
+      .
 
 
       ## Accessibility
