@@ -7,7 +7,6 @@ description: Buttons are used as a part of a flow, and is the component which
   the user clicks to make progress in said flow.
 intro: Buttons are used as a part of a flow, and is the component which the user
   clicks to make progress in said flow.
-lang: false
 tabs:
   - content: >-
       ## How to use

@@ -57,7 +57,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "White", value: "#fff" }
           - { label: "Grey", value: "#f3f3f3" }
         required: false
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated'}
+      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
 
       - name: 'tabs'
         label: 'Tabs'
