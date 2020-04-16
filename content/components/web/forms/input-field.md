@@ -109,7 +109,7 @@ tabs:
       ```
 
 
-      #### Attributes
+      ##### Attributes
 
 
       Depending on your needs there is a couple of different attribute you can add to your input. First every input should have a **type** attribute. The type attribute specifies the type of `<input>` element to display.  As an example, if you add an input to be used to enter a password, use type **password.**
@@ -143,7 +143,7 @@ tabs:
       The one-lined text input has several modifiers, all described below. Read more when to use them under the design tab. You can see all of these modifiers above in the example pane. 
 
 
-      #### Prefix
+      ##### Prefix
 
 
       (Note, the prefix does not respond to the state of the input field without the help of JS. Which is not included in LFUI at the moment. )
@@ -161,7 +161,7 @@ tabs:
       ```
 
 
-      #### Prefix as Image
+      ##### Prefix as Image
 
 
       ```
@@ -174,7 +174,7 @@ tabs:
       ```
 
 
-      #### Suffix
+      ##### Suffix
 
 
       ```
@@ -200,6 +200,15 @@ tabs:
       <textarea class="form-control" rows="3"></textarea>
 
       ```
+
+
+      ## Validation
+
+
+      **LFUI does not include any validation  functionality, thats something you will have to build yourself**. However we do provide helper class for validation styling. Use the available validation classes `has-valid `and `has-danger.`
+
+
+      If a field has been filled out and validated, add the`has-valid` to it's parent class. If a field has been filled out and validated but with errors, add the `has-danger` class. There is a more detailed example of this TODO add link to patterns.
     name: Code
   - content: >-
       ## Så skriver vi
