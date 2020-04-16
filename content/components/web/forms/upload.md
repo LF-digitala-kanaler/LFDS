@@ -146,5 +146,8 @@ tabs:
       </div>
 
       ```
+
+
+      If you are building a service that will handle file's like .pdf or .doc you should show an icon associated with that file type instead. Use our 32px icons like pdf-doc-32 for pdf and document-32 for general documents.
     name: Code
 ---
