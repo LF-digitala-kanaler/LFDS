@@ -214,8 +214,10 @@ figure {
 }
 
 .Image__caption {
-  position: absolute;
-  top: calc(-1.5 * var(--spacing-vertical--1));
+  /* position: absolute;
+  top: calc(-1.5 * var(--spacing-vertical--1)); */
+  font-size: var(--font-size-small);
+  font-style: italic;
 }
 
 .Image__background img {
