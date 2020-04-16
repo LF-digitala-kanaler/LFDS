@@ -82,7 +82,7 @@ tabs:
       The form control is only intended to be used with textual inputs such as email, textarea or passwords. 
 
 
-      We will only focus on the `<input>` here but remember to always have a label with a for attribute that's  equal to the id attribute of the related element to bind them together. If we do this we will give screen reader users a better experience. 
+      We will only focus on the `<input>` here but remember to always have a label with a for attribute that's  equal to the id attribute of the related element to bind them together. This will give screen reader users a better experience. 
 
        
 
@@ -92,61 +92,114 @@ tabs:
       ### Variations
 
 
-      There are two main variations of input fields, the one-lined input and textarea. They both share the same base functionality and design. 
-
-
+      There are two main variations of input fields, the one-lined input and textarea. 
 
 
       #### One-lined text input
 
 
+      All one-lined inputs needs  share the same base seen below. 
 
 
-      Two one-lined text input fields on a row
+      ```
+
+      <input type="*" class="form-control" />
 
 
+      ```
+
+
+      #### Attributes
+
+
+      Depending on your needs there is a couple of different attribute you can add to your input. First every input should have a **type** attribute. The type attribute specifies the type of `<input>` element to display.  As an example, if you add an input to be used to enter a password, use type **password.**
+
+
+      ```
+
+      <input type="password" class="form-control" />
+
+      ```
+
+
+      You can see all available type's [here](https://www.w3schools.com/tags/att_input_type.asp).
+
+
+      To give users a hint of what to enter in an input  it's always a good idea to att a **placeholder** attribute.
+
+
+      Placeholder text disappears after the user begins entering data into the Input and should not contain crucial information. 
+
+
+      ```
+        <input type="text" class="form-control" placeholder="ååååmmdd-nnnn">
+
+      ```
 
 
       #### Modifiers
 
 
-      The one-lined text input has several modifiers, all described below.
+      The one-lined text input has several modifiers, all described below. Read more when to use them under the design tab. You can see all of these modifiers above in the example pane. 
 
 
-      ##### Datepicker
+      #### Prefix
 
 
-      Although a form of input field as well from a user perspective, the datepicker is treated as a separate component. [Go here](../datepicker) to read about it.
+      (Note, the prefix does not respond to the state of the input field without the help of JS. Which is not included in LFUI at the moment. )
 
 
-      ##### Password
+      ```
+
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">@</span>
+        </div>
+        <input type="text" required class="form-control" placeholder="username" >
+      </div>
+
+      ```
 
 
-      If an input field contains a password or other sensitive data the please use the password modifier. It follows web standards and translates characters into asterisks as they are entered.
+      #### Prefix as Image
 
 
-      ##### Prefix
+      ```
+
+      <div class="input-group">
+        <span class="input-group-prepend-reg"></span>
+        <input type="text" required class="form-control" placeholder="ABC123">
+      </div>
+
+      ```
 
 
-      If you need to put a label of sorts prior to the actual input area you can add the modifier "prefix". It might be usable in a context where the user has to enter a twitter handle or URL, but no actual uses of prefix with text are known at time of writing. It is however a technical prerequisite for the more common "prefix as image". 
+      #### Suffix
 
 
-      ##### Prefix as image
+      ```
+
+      <div class="input-group">
+        <input type="text" required="" class="form-control">
+        <div class="input-group-append">
+          <span class="input-group-text">kr</span>
+        </div>
+      </div>
+
+      ```
 
 
-      A version of prefix where the text has been replaced with an image. The most common usage is relation to motor insurances and when users are asked to provide the number plate of the vehicle they want to insure/make a claim on.
+      ### Textarea
 
 
-      ##### Suffix
+      The `<textarea>` tag defines a multi-line text input control.  The size of a text area can be specified by the cols and rows attributes.
 
 
-      Adds a label to the end of the input field, most commonly the unit (e.g. "kr", "years" and "m²"). 
+      ```
 
+      <textarea class="form-control" rows="3"></textarea>
 
-      #### Text input with several lines (Textarea)
-
-
-      If you need a text input field which spans several rows you should use the textarea-component. It is typically (perhaps exclusively) used for message text when the user can write a message to us. Although we set a height when the textarea the user can change the height of the textarea within its column as is web standard - we have however disabled horisontal resizing.
+      ```
     name: Code
   - content: >-
       ## Så skriver vi
