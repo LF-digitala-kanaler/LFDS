@@ -91,7 +91,7 @@ tabs:
       ### Template preview 
 
 
-      This is the preview template we use to display each uploaded file with. In our example we use the File reader API to get the file name and the image src. It's advisable to resize the the thumbnail image to 35x35 and not just scale it down. 
+      This is the preview template we use to display each uploaded file with.  In our example we use the File reader API to get the file name and the image src. It's advisable to resize the the thumbnail image to 35x35 and not just scale it down. We will need to use this templet for each image and place it inside the `.upload-placeholder.`  
 
 
       ```
@@ -110,6 +110,12 @@ tabs:
       </div>
 
       ```
+
+
+      #### Validation
+
+
+      Notice the `${validation}` above.  In our example we will do validation as soon as a file is selected and add either `.has-valid` or `.has-danger` depending on the validation status of the file. If you want to validate your file when say a form is posting you can add these classes then instead.  
 
 
       Popover
