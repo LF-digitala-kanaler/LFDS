@@ -88,7 +88,7 @@ tabs:
       After the user clicks on the button and have chosen a file we want to show a preview pane containing a smaller version of the image, file name and the possibility for the user to hover over the image to see a larger version of it. 
 
 
-      The functionality to add the preview pane and validation is not included in LFUI there is some example cost posted in the bottom of this tab.  
+      The functionality to add the preview pane and validation is not included in LFUI.  
 
 
       ### Template preview
@@ -126,7 +126,7 @@ tabs:
       Notice the `${validation}` above.  In our example we will do validation as soon as a file is selected and add either `.has-valid` or `.has-danger` depending on the validation status of the file. If you want to validate your file when for example  a form is posting you can add these classes then instead.  
 
 
-      ##### Thumbnails
+      #### Thumbnails
 
 
       If the file is an image it should be possible to hover over the image to show a larger version of it. This is should only be added if the file is an image. 
@@ -175,14 +175,5 @@ tabs:
       };
 
       ```
-
-
-
-
-      <section>
-
-      <Collapse title="test"><span class="content">test</span></Collapse>
-
-      </section>
     name: Code
 ---
