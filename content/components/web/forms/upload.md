@@ -49,9 +49,23 @@ tabs:
   - content: >-
       ## How to use
 
-       
 
-      Html Structure
+      LFUI's upload components contains HTML and CSS to help you build a a file upload component. It does not contain any javascript functionality to handle the uploaded file or display the preview pane. 
+
+
+      But let's have a look how you can use this component to build your own upload functionality. 
+
+
+      In the example above we only allow an image to be uploaded and we only allow one at the time. If you need to support multiple upload at once the functionality should work the same.
+
+
+      Let's get started!
+
+
+      ### Html Structure
+
+
+      The base HTML structure is nothing new. It's a secondary button with an icon. Don't forget to add a for attribute to the label that's equal to the id attribute of the input.
 
 
       ```
