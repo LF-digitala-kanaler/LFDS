@@ -56,7 +56,7 @@ tabs:
       But let's have a look how you can use this component to build your own upload functionality. 
 
 
-      In the example above we only allow an image to be uploaded and we only allow one at the time. If you need to support multiple upload at once the functionality should work the same.
+      In the example above we only allow an image to be uploaded and we only allow one at the time. If you need to support multiple uploads the functionality should work the same, just add the multiple attribute to the input.
 
 
       Let's get started!
@@ -68,7 +68,7 @@ tabs:
       The base HTML structure is nothing new. It's a secondary button with an icon. Don't forget to add a for-attribute to the label that's equal to the id attribute of the input.
 
 
-      Note the empty `.upload-placeholder`, this is where our preview panes will be places. 
+      Note the empty `.upload-placeholder` this is where our preview panes will be places. 
 
 
       ```
@@ -88,10 +88,16 @@ tabs:
       After the user clicks on the button and have chosen a file we want to show a preview pane containing a smaller version of the image, file name and the possibility for the user to hover over the image to see a larger version of it. 
 
 
+      The functionality to add the preview pane and validation is not included in LFUI there is some example cost posted in the bottom of this tab.  
+
+
       ### Template preview 
 
 
-      This is the preview template we use to display each uploaded file with.  In our example we use the File reader API to get the file name and the image src. It's advisable to resize the the thumbnail image to 35x35 and not just scale it down. We will need to use this templet for each image and place it inside the `.upload-placeholder.`  
+      This is the preview template we use to display each uploaded file with.  In our example we use the File reader API to get the file name and the image src. It's advisable to resize the the thumbnail image to 35x35 and not just scale it down. 
+
+
+      We will  use this template for each uploaded file and place it inside the `.upload-placeholder.`  
 
 
       ```
@@ -104,8 +110,7 @@ tabs:
             <button type="button" class="close ml-auto upload-remove">
               Close
             </button>
-          </div>
-           
+          </div> 
         </div>
       </div>
 
@@ -115,10 +120,19 @@ tabs:
       #### Validation
 
 
-      Notice the `${validation}` above.  In our example we will do validation as soon as a file is selected and add either `.has-valid` or `.has-danger` depending on the validation status of the file. If you want to validate your file when say a form is posting you can add these classes then instead.  
+      Notice the `${validation}` above.  In our example we will do validation as soon as a file is selected and add either `.has-valid` or `.has-danger` depending on the validation status of the file. If you want to validate your file when for example  a form is posting you can add these classes then instead.  
 
 
-      Popover
+      ##### Thumbnails
+
+
+      Depending on the type
+
+
+      #### Popover
+
+
+      If the file is an image you 
 
 
       ```
