@@ -100,6 +100,9 @@ tabs:
       We will  use this template for each uploaded file and place it inside the `.upload-placeholder.`  
 
 
+      Note, if you are uploading anything that's not an image change remove the `<img>` element and replace it with `<div class="upload-image mr-05"></div>`
+
+
       ```
 
       <div class="upload-preview ${validation} mb-05">
@@ -148,7 +151,32 @@ tabs:
       ```
 
 
-      If you are building a service that will handle file's like .pdf or .doc you should show an icon associated with that file type instead. Use our 32px icons like pdf-doc-32 for pdf and document-32 for general documents.   
+      If you are building a service that will handle file's like .pdf or .doc you should show an icon associated with that file type instead. Use our 32px icons like pdf-doc-32 for pdf and document-32 for general documents.
+
+
+      ### Loading state   
+
+
+      If you are going to process large files or you want to save the files to the server on form submit you can add  a progress element shown in  the example at the top. You will have to add `.loading` to `.upload-preview` and change `translateX` for `.upload-progress-bar` to match how much of the file that's been uploaded in procent .
+
+
+      ##### Example javascript implementation
+
+
+      ```
+
+      reader.onprogress = (event) => {
+        if (event.lengthComputable)
+          {
+            let value = (event.loaded / event.total) * 100;
+            progress.style.transform = 'translateX(-' + value + '%)';
+            ;
+          }
+      };
+
+      ```
+
+
 
 
       <section>
