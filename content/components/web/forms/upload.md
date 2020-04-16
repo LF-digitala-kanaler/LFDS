@@ -49,21 +49,61 @@ tabs:
   - content: >-
       ## How to use
 
-
-      In this example the image is saved in the client and no aspect ratio is taken into account. We only validate if the file is an image. Same validation design can be used if you choose to add more validation like file size.
-
-
-      LFUI does not contain any javascript functionality
-
-
-
+       
 
       Html Structure
+
+
+      ```
+
+      <div class="upload w-100">
+        <div class="upload-placeholder"></div>
+        <input class="upload-input" type="file" name="filename" id="upload">
+        <label class="upload-label btn btn-secondary  mt-1 px-1" for="upload">
+          <svg focusable="false" aria-hidden="true" class="icon mr-025" width="20" height="20"><use xlink:href="#icon-attach-20"></use></svg>
+          Bifoga fil
+        </label>
+      </div>
+
+      ```
 
 
       Template
 
 
+      ```
+
+      <div class="upload-preview ${validation} mb-05">
+          <div class="upload-body">
+            <div class="upload-image mr-05">${src}</div>
+            <span class="upload-name">${name}</span>
+            <button type="button" class="close ml-auto upload-remove">
+              Close
+            </button>
+          </div>
+           
+        </div>
+      </div>
+
+      ```
+
+
       Popover
+
+
+      ```
+
+      <div role="alert" id="popover" class="popover-tooltip popover-bottom popover-attach">
+        <p class="popover-title">Preview</p>
+        <div class="popover-content">
+          <div class="card">
+            <div class="card-block">
+              <img class="img-fluid w-100" src=${data.src} alt=""  />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      ```
     name: Code
 ---
