@@ -46,6 +46,10 @@ tabs:
       For accessibility reasons the datepicker should be replaced with the
       native solution for date selection in mobile devices. Make sure your
       developers are aware!
+
+
+      ##### Fab: Vi kommer nu justera så den blir lite mindre, borde även göras
+      i timepickern Skriva om att vi använder mobilens native delar...
     name: Design
   - content: content code
     name: Copy
@@ -242,3 +246,4 @@ tabs:
       ```
     name: Code
 ---
+
