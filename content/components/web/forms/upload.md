@@ -160,10 +160,10 @@ tabs:
       If you are going to process large files or you want to save the files to the server on form submit you can add  a progress element shown in  the example at the top. You will have to add `.loading` to `.upload-preview` and change `translateX` for `.upload-progress-bar` to match how much of the file that's been uploaded in procent .
 
 
-      ##### Example javascript implementation
+      ##### Example javascript implementation of loading state
 
 
-      ```
+      ```javascript
 
       reader.onprogress = (event) => {
         if (event.lengthComputable)
@@ -181,16 +181,19 @@ tabs:
 
       <section>
 
-      <Collapse title="Example javascript for this example"><span class="content">```
+      <Collapse title="Javascript example "><span class="content">```
 
-      const upload = () => {
-        let element = document.querySelector('.upload');
-        let input = element.querySelector('.upload-input');
-        let placeholder = element.querySelector('.upload-placeholder');
-        let remove = element.querySelector('.upload-remove');
+      const uploadExample = () =>
 
-        const popoverMarkup = (data) => {
-            return `
+      {
+      	let element = document.querySelector('.upload');
+      	let input = element.querySelector('.upload-input');
+      	let placeholder = element.querySelector('.upload-placeholder');
+      	let remove = element.querySelector('.upload-remove');
+
+      	const popoverMarkup = (data) =>
+      	{
+      		return `
               <div role="alert" id="popover" class="popover-tooltip popover-bottom popover-attach">
                 <p class="popover-title">Preview</p>
                 <div class="popover-content">
@@ -202,9 +205,10 @@ tabs:
                 </div>
               </div>
             `;
-          };
-          const createMarkup = (data) => {
-            return `
+      	};
+      	const createMarkup = (data) =>
+      	{
+      		return `
              <div class="upload-preview  mb-05 ${data.validationClass}">
                 <div class="upload-body">
                 ${
@@ -216,9 +220,12 @@ tabs:
                         ${popoverMarkup(data)}
                       </span> `;
                     } else {
-                      return `
-                        <div class="upload-image mr-05">${data.src}</div>
-                      `;
+                      return ` <
+      			div class = "upload-image mr-05" > $
+      			{
+      				data.src
+      			} < /div>
+      		`;
                     }
                   })()
                   
@@ -237,99 +244,116 @@ tabs:
                           <small class="upload-feedback">Description of error in input</small> 
                         `;
                       }else {
-                        return ` 
-                        `;
+                        return `
+      		`;
                       }
                     })()
                   }
             </div>
             `;
-              
-          };
-          
-          const previewFile = (file) => {
-            const fileType = /image.*/;
-            let reader = new FileReader();
-              
-            if (file.type.match(fileType)) { 
-              reader.readAsDataURL(file);
-              
-              let data = {
-                src: '#',
-                name: ' ',
-                file: ' ',
-                popover: true,
-                validationClass: ' '
-              };
-              placeholder.insertAdjacentHTML('beforeend', createMarkup(data));  
-              
-              
-              reader.onloadend = () => {
-                
-                let data = {
-                  src: reader.result,
-                  name: file.name,
-                  file: file,
-                  popover: true,
-                  validationClass: 'has-valid'
-                };
 
-                $(placeholder).children('.upload-preview').last().replaceWith(createMarkup(data));
-                // },500);
-               
-                
-              }; 
-              
-            } else {
-              let data = {
-                src: ' ',
-                name: file.name,
-                file: file,
-                validationClass: 'has-danger',
-                popover: false
-              };
-              placeholder.insertAdjacentHTML('beforeend', createMarkup(data));  
-              
-            }
-          };
-          const handleFiles = (files) => {
-            Array.from(files).forEach(file => { 
-              previewFile(file);
-            });
-          };
-          const handleUpload = () => {
-            const FILES = input.files;
-            handleFiles(FILES);
-          };
-          
-          const handleRemove =(event) => {
-            
-            if (event.target && $(event.target).is('.upload-remove')) {
-              $(event.target).parent().parent().remove();
-            }
-          };    
-          
-          $(document).on('change', element, handleUpload);
-          $(document).on('click', remove, handleRemove);
-          input.addEventListener( 'focus', function(){ input.classList.add( 'has-focus' ); });
-          input.addEventListener( 'blur', function(){ input.classList.remove( 'has-focus' ); });
+      	};
+
+      	const previewFile = (file) =>
+      	{
+      		const fileType = /image.*/;
+      		let reader = new FileReader();
+
+      		if (file.type.match(fileType))
+      		{
+      			reader.readAsDataURL(file);
+
+      			let data = {
+      				src: '#',
+      				name: ' ',
+      				file: ' ',
+      				popover: true,
+      				validationClass: ' '
+      			};
+      			placeholder.insertAdjacentHTML('beforeend', createMarkup(data));
 
 
-          $('#upload-test-btn').on('click', function() {
-            
-            $('#upload2').addClass('loading');
-            var timeleft = 100;
-            const loaderTest = setInterval(function() {
-              timeleft--;
-              $('#upload2 .upload-progress-bar').css('transform', 'translateX(-' + timeleft + '%)');
-              if(timeleft <= 0)
-                clearInterval(loaderTest);
-              if(timeleft === 0)
-                $('#upload2').parent().parent().addClass('has-valid');
-            }, 15);
-          });
+      			reader.onloadend = () =>
+      			{
 
-        
+      				let data = {
+      					src: reader.result,
+      					name: file.name,
+      					file: file,
+      					popover: true,
+      					validationClass: 'has-valid'
+      				};
+
+      				$(placeholder).children('.upload-preview').last().replaceWith(createMarkup(data));
+      				// },500);
+
+
+      			};
+
+      		}
+      		else
+      		{
+      			let data = {
+      				src: ' ',
+      				name: file.name,
+      				file: file,
+      				validationClass: 'has-danger',
+      				popover: false
+      			};
+      			placeholder.insertAdjacentHTML('beforeend', createMarkup(data));
+
+      		}
+      	};
+      	const handleFiles = (files) =>
+      	{
+      		Array.from(files).forEach(file =>
+      		{
+      			previewFile(file);
+      		});
+      	};
+      	const handleUpload = () =>
+      	{
+      		const FILES = input.files;
+      		handleFiles(FILES);
+      	};
+
+      	const handleRemove = (event) =>
+      	{
+
+      		if (event.target && $(event.target).is('.upload-remove'))
+      		{
+      			$(event.target).parent().parent().remove();
+      		}
+      	};
+
+      	$(document).on('change', element, handleUpload);
+      	$(document).on('click', remove, handleRemove);
+      	input.addEventListener('focus', function ()
+      	{
+      		input.classList.add('has-focus');
+      	});
+      	input.addEventListener('blur', function ()
+      	{
+      		input.classList.remove('has-focus');
+      	});
+
+
+      	$('#upload-test-btn').on('click', function ()
+      	{
+
+      		$('#upload2').addClass('loading');
+      		var timeleft = 100;
+      		const loaderTest = setInterval(function ()
+      		{
+      			timeleft--;
+      			$('#upload2 .upload-progress-bar').css('transform', 'translateX(-' + timeleft + '%)');
+      			if (timeleft <= 0)
+      				clearInterval(loaderTest);
+      			if (timeleft === 0)
+      				$('#upload2').parent().parent().addClass('has-valid');
+      		}, 15);
+      	});
+
       }
 
 
