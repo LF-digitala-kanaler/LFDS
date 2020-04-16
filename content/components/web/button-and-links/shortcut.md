@@ -94,7 +94,53 @@ tabs:
       ## How to use
 
 
+      #### Alerting 
+
+
+      With the modifier `.hortcut-important` the shortcut is decorated with a background color to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example,`.shortcut-info-ice`.
+
+
+      ```
+
+      <a href="#foo" class="shortcut shortcut-important shortcut-info-ice">Info</a>
+
+      <a href="#foo" class="shortcut shortcut-important shortcut-success-ice">Success</a>
+
+      <a href="#foo" class="shortcut shortcut-important shortcut-warning-ice">Warning</a>
+
+      <a href="#foo" class="shortcut shortcut-important shortcut-danger-ice">Danger</a>
+
+      <a href="#foo" class="shortcut shortcut-important shortcut-ice-ice-baby">Cool</a>
+
+      ```
+
+
+      ##### Modifier
+
+
+      ###### With icon
+
+
+      Add `.shortcut-icon` and properly insert a 20px icon.
+
+
+      ```
+
+      <a href="#foo" class="shortcut shortcut-icon shortcut-important shortcut-success-ice">
+        <svg class="icon" width="20" height="20">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-flag-20"></use>
+        </svg>Good job!
+      </a>
+
+      ```
+
+
+
+
       #### Landing page shortcuts
+
+
+      You can build landing page shortcuts by adding `.shortcut-landing-page` your shortcut. See the example below.
 
 
       Since LFUI dosen't scale icons Landing page shortcut will need two icons defined, one for screens smaller than 768px and one for screens larger than 768px. Which one that will be display is controlled with [bootstraps display classes ](https://getbootstrap.com/docs/4.0/utilities/display/) in this example.  
@@ -112,5 +158,8 @@ tabs:
       </a>
 
       ```
+
+
+      <div class="Callout"><strong class="Callout__title">Equal height shortcuts </strong><p class="Callout__text">If your shortcuts contains words that might break into 2 lines you should consider adding `.h-100` to each `shortcut-landing-page` to create equal height shortcuts.</p></div>
     name: Code
 ---
