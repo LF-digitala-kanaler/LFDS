@@ -97,7 +97,7 @@ tabs:
       #### Alerting 
 
 
-      With the modifier `.hortcut-important` the shortcut is decorated with a background color to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example,`.shortcut-info-ice`.
+      With the modifier `.shortcut-important` the shortcut is decorated with a background color to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example,`.shortcut-info-ice`.
 
 
       ```
@@ -135,6 +135,58 @@ tabs:
       ```
 
 
+      ### Navigational shortcuts
+
+
+      The navigational shortcut is somewhat bigger than its variations, and always white. Note that in all variations of the `.shortcut` the text is always bold.
+
+
+      There is a couple of different variations of navigational shortcut included in LFUI. 
+
+
+      ##### One-lined shortcut
+
+
+      This is the default navigational shortcut. 
+
+
+      ```
+
+      <a href="#foo" class="shortcut">Digital guide</a>
+
+
+      ```
+
+
+      ##### Multiple-lined shortcut
+
+
+      There is also an option to extend the shortcut to add more content if you need that. As seen in the examples below you can add `.shortcut-two-lines` or `.shortcut-multi-lines` to create a shortcut with more content. If you use the later one, beware it changes icons between breakpoints so you will have to define two icons. 
+
+
+      ```
+
+      <a href="#foo" class="shortcut shortcut-two-lines shortcut-icon shortcut-important shortcut-ice-ice-baby">
+        <svg class="icon" width="20" height="20">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user-20"></use>
+        </svg>
+        <div>
+          <div class="text-lg">Company AB</div>
+          <div class="text-sm font-weight-normal">89276289-5279</div>
+        </div>
+      </a>
+
+
+      <a href="#foo" class="shortcut shortcut-multi-lines">
+        <svg class="icon d-md-none" width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-contract-24"></use></svg>
+        <svg class="icon d-none d-md-block" width="40" height="40"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-contract-40"></use></svg>
+        <div>
+          <h3 class="shortcut-title">För det nystartade småföretaget</h3>
+          <p class="font-weight-normal font-base text-body d-none d-md-block">Har du nyligen startat eget? Du får en företagsförsäkring med fast pris som.</p>
+        </div>
+      </a>
+
+      ```
 
 
       #### Landing page shortcuts
