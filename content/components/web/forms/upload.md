@@ -126,13 +126,10 @@ tabs:
       ##### Thumbnails
 
 
-      Depending on the type
+      If the file is an image it should be possible to hover over the image to show a larger version of it. This is should only be added if the file is an image. 
 
 
-      #### Popover
-
-
-      If the file is an image you 
+      So if the file is an image we want to replace `${popover}` in the template preview section above with a popover template. Again don't just scale the image done, if possible resize the image on the server before adding it. 
 
 
       ```
