@@ -65,7 +65,10 @@ tabs:
       ### Html Structure
 
 
-      The base HTML structure is nothing new. It's a secondary button with an icon. Don't forget to add a for attribute to the label that's equal to the id attribute of the input.
+      The base HTML structure is nothing new. It's a secondary button with an icon. Don't forget to add a for-attribute to the label that's equal to the id attribute of the input.
+
+
+      Note the empty `.upload-placeholder`, this is where our preview panes will be places. 
 
 
       ```
@@ -82,15 +85,22 @@ tabs:
       ```
 
 
-      Template
+      After the user clicks on the button and have chosen a file we want to show a preview pane containing a smaller version of the image, file name and the possibility for the user to hover over the image to see a larger version of it. 
+
+
+      ### Template preview 
+
+
+      This is the preview template we use to display each uploaded file with. In our example we use the File reader API to get the file name and the image src. It's advisable to resize the the thumbnail image to 35x35 and not just scale it down. 
 
 
       ```
 
       <div class="upload-preview ${validation} mb-05">
           <div class="upload-body">
-            <div class="upload-image mr-05">${src}</div>
-            <span class="upload-name">${name}</span>
+            <img class="upload-image" alt="" src=${data.src} width="35" height="35" />
+            ${popover}
+            <span class="upload-name">${file.name}</span>
             <button type="button" class="close ml-auto upload-remove">
               Close
             </button>
