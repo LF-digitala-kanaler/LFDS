@@ -91,13 +91,10 @@ tabs:
       **Text (exempel):** Kundkännedom - Vänligen vara på frågorna för att kunna fortsätta använda appen. (ta exempel från Mina sidor)
     name: Copy
   - content: >-
-      ## How to use
+      ## Alerting 
 
 
-      #### Alerting 
-
-
-      With the modifier `.shortcut-important` the shortcut is decorated with a background color to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example,`.shortcut-info-ice`.
+      With the modifier `.shortcut-important` the shortcut is decorated with a background color to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example, `.shortcut-info-ice`.
 
 
       ```
@@ -115,13 +112,10 @@ tabs:
       ```
 
 
-      ##### Modifier
+      ### Modifier
 
 
-      ###### With icon
-
-
-      Add `.shortcut-icon` and properly insert a 20px icon.
+      There is only one modifier available  and that's to add an icon. Simple add `.shortcut-icon` and properly insert a 20px icon.
 
 
       ```
@@ -135,16 +129,16 @@ tabs:
       ```
 
 
-      ### Navigational shortcuts
+      ## Navigational shortcuts
 
 
-      The navigational shortcut is somewhat bigger than its variations, and always white. Note that in all variations of the `.shortcut` the text is always bold.
+      The navigational shortcut is somewhat bigger than alerting and it's always white. Note that in all variations of the `.shortcut` the text is always bold.
 
 
-      There is a couple of different variations of navigational shortcut included in LFUI. 
+      There is two  different variations of navigational shortcut included in LFUI. 
 
 
-      ##### One-lined shortcut
+      ### One-lined shortcut
 
 
       This is the default navigational shortcut. 
@@ -158,10 +152,16 @@ tabs:
       ```
 
 
-      ##### Multiple-lined shortcut
+      ### Modifier 
 
 
-      There is also an option to extend the shortcut to add more content if you need that. As seen in the examples below you can add `.shortcut-two-lines` or `.shortcut-multi-lines` to create a shortcut with more content. If you use the later one, beware it changes icons between breakpoints so you will have to define two icons. 
+      You have the option to add an icon to the one-lined shortcut as well. Simple add `.shortcut-icon` and properly insert a 20px icon.
+
+
+      ### Multiple-lined shortcut
+
+
+      There is also an option to extend the shortcut to add more content if you need. As seen in the examples below you can add `.shortcut-two-lines` or `.shortcut-multi-lines` to create a shortcut with more content. If you use the later one, beware it changes icons between breakpoints so you will have to define two icons. 
 
 
       ```
@@ -189,13 +189,13 @@ tabs:
       ```
 
 
-      #### Landing page shortcuts
+      ## Landing page shortcuts
 
 
-      You can build landing page shortcuts by adding `.shortcut-landing-page` your shortcut. See the example below.
+      You can build landing page shortcuts by adding `.shortcut-landing-page` to your shortcut. See the example below.
 
 
-      Since LFUI dosen't scale icons Landing page shortcut will need two icons defined, one for screens smaller than 768px and one for screens larger than 768px. Which one that will be display is controlled with [bootstraps display classes ](https://getbootstrap.com/docs/4.0/utilities/display/) in this example.  
+      Since LFUI dosen't scale icons Landing page shortcut will need two icons defined, one for screens smaller than 768px and one for screens larger than 768px. Which one that will be display is controlled with [bootstraps display classes ](https://getbootstrap.com/docs/4.0/utilities/display/).  
 
 
       Use a 24px icon for small screens and a 40px icon for larger screens. 
