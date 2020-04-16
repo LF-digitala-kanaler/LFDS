@@ -91,7 +91,7 @@ tabs:
       The functionality to add the preview pane and validation is not included in LFUI there is some example cost posted in the bottom of this tab.  
 
 
-      ### Template preview 
+      ### Template preview
 
 
       This is the preview template we use to display each uploaded file with.  In our example we use the File reader API to get the file name and the image src. It's advisable to resize the the thumbnail image to 35x35 and not just scale it down. 
@@ -154,7 +154,7 @@ tabs:
       If you are building a service that will handle file's like .pdf or .doc you should show an icon associated with that file type instead. Use our 32px icons like pdf-doc-32 for pdf and document-32 for general documents.
 
 
-      ### Loading state   
+      ### Loading state
 
 
       If you are going to process large files or you want to save the files to the server on form submit you can add  a progress element shown in  the example at the top. You will have to add `.loading` to `.upload-preview` and change `translateX` for `.upload-progress-bar` to match how much of the file that's been uploaded in procent .
@@ -177,11 +177,12 @@ tabs:
       ```
 
 
-
-
       <section>
 
-      <Collapse title="Javascript example "><span class="content">```
+      <Collapse title="Javascript example "><span class="content">Example code for the above implementation
+
+
+      ```
 
       const uploadExample = () =>
 
@@ -357,8 +358,9 @@ tabs:
       }
 
 
-      ```</span></Collapse>
+      ```
 
+       end</span></Collapse>
       </section>
     name: Code
 ---
