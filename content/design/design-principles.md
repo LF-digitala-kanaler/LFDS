@@ -13,6 +13,14 @@ priority: "1"
 wide: true
 lang: true
 ---
+### Konceptets hörnstenar
+
+För att efterlikna det personliga mötet ska vi använda oss av våra hörnstenar. Expertis, labba och kontroll.
+
+1. **Expertis** – man ska få samma hjälp som i ett personligt kundmöte
+2. **Labba** – Jag ska kunna labba och förstå produkt och pris
+3. **Kontroll** – Jag ska få överblick och kontroll, se vad jag har och inte har för produkter vad jag behöver
+
 <section>
 <Collapse title="Upplevelsen är utformad för denna kanal"><span class="content">Våra kunder **kontaktar oss** på det sätt som de anser passar dem bäst, det innebär att vi måste möta dem enligt de förväntningar som finns på det kontaktsättet. 
 
@@ -40,11 +48,3 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 
 När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så gäller det att göra det tydligt för kunden att de går från Länsförsäkringar till en samarbetspartner. I vissa fall kan det vara bättre att inte anpassa utseendet alls än att anpassa det halvdant.</span></Collapse>
 </section>
-
-### Konceptets hörnstenar
-
-För att efterlikna det personliga mötet ska vi använda oss av våra hörnstenar. Expertis, labba och kontroll.
-
-1. **Expertis** – man ska få samma hjälp som i ett personligt kundmöte
-2. **Labba** – Jag ska kunna labba och förstå produkt och pris
-3. **Kontroll** – Jag ska få överblick och kontroll, se vad jag har och inte har för produkter vad jag behöver
