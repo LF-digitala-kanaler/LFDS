@@ -14,7 +14,11 @@ wide: true
 lang: true
 ---
 <section>
-<Collapse title="Upplevelsen är utformad för denna kanal                                                                      The experience is designed for this channel"><span class="content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.
+<Collapse title="Upplevelsen är utformad för denna kanal"><span class="content">Våra kunder **kontaktar oss** på det sätt som de anser passar dem bäst, det innebär att vi måste möta dem enligt de förväntningar som finns på det kontaktsättet. 
+
+Det innebär att våra webblösningar är responsiva, våra appar följer de mönster som finns för det operativssystem som kunden har och att koden följer våra tillgänglighetsriktlinjer.
+
+Om vi inte kan/vill erbjuda den kontaktväg som kunden föredrar behöver vi tydligt visa vilka som finns tillgängliga.
 
 <figure class="Image Image__border"><img src="/img/regularv2.jpg" srcset="/img/regularv2.jpg 2x" alt="alt"><figcaption><div class="Image__caption"></div></figcaption></figure></span></Collapse>
 <Collapse title="2. Varje sida har ett primärt syfte"><span class="content"></span></Collapse>
