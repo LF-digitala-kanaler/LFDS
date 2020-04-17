@@ -7,7 +7,7 @@ import {useKeyPressEvent} from 'react-use';
 import Modal from 'react-modal';
 
 
-
+Modal.setAppElement('#___gatsby');
 
 
 // set focus on input when search is open
@@ -19,7 +19,7 @@ const UseFocus = () => {
 }
 
 const Search = () => {
-  Modal.setAppElement('#___gatsby');
+  
   const [query, setQuery] = useState('');
   const [modalIsOpen, setIsOpen] = useState(false);  
   const [results, setResults] = useState([]);

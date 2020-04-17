@@ -164,9 +164,13 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
 /* Modal */
 
 .Modal {
+  max-width: 444px;
   width: 100%;
-  @media (--medium-viewport-down) { 
-    margin-top: calc(2* var(--spacing-xlg));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(2* var(--spacing-xlg));
+  @media (--medium-viewport) { 
+    margin-top: calc(4* var(--spacing-xlg));
   }
 }
 
@@ -182,8 +186,6 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
   height: 100%;
   transition: opacity 0.25s ease-in-out; 
   opacity: 0;
-  display: flex;
-  justify-content: center;
   
 }
 

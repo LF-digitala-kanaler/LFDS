@@ -9,9 +9,6 @@
   position: relative;
   margin: 0 var(--spacing-unit);
 
-  @media (--large-viewport) { 
-    margin-top: 10%;
-  }
 }
 
 .Search > div {
