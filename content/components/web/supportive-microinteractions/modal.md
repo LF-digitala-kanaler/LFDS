@@ -48,7 +48,7 @@ tabs:
       Every Modal share the same base template. In this example we have added the optional .modal-footer which is a where you but you buttons and other actions. 
 
 
-      ```
+      ```html
 
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -74,12 +74,10 @@ tabs:
       ### Trigger
 
 
-      How do you show a modal you might ask. Easiest way is to use to built in data-attribute from Bootstrap. 
+      How do you trigger a modal you might ask. Easiest way is to use to built in data-attribute from Bootstrap. 
 
 
       Notice the `data-toggle="modal"` and `data-target="exampleModal"` in the code snippet below. 
-
-
 
 
       * `data-toggle="modal"` opens the modal window
@@ -89,20 +87,41 @@ tabs:
 
       ```html
 
-
-      ```
-
-
-      `"`
-
-
-      ```
-
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Launch demo modal
       </button>
 
       ```
+
+
+      The parent `<div>` of the modal must have an ID that is the same as the value of the data-target attribute used to trigger the modal ("exampleModal").
+
+
+      Notice the `data-dismiss="modal"` in the first example. This will close the modal and can be used on more than one element. 
+
+
+      That's it!
+
+
+      ### Options
+
+
+      By default autofocus will not work in a modal so you will have to do it yourself. We always want to add focus to an element in the modal when we open it. If there is no input you might focus the close button. 
+
+
+      You can achieve this by using a built in event. 
+
+
+      ```
+
+      $('#exampleModal').on('shown.bs.modal', function () {
+        $('#SomeElementToPutFocusOn').trigger('focus')
+      })
+
+      ```
+
+
+      And when we close the modal focus should go back to the element that triggered it. 
 
 
       ## Accessibility
