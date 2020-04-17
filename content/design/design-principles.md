@@ -25,12 +25,20 @@ Om vi inte kan/vill erbjuda den kontaktväg som kunden föredrar behöver vi tyd
 <Collapse title="Handling och funktion före information"><span class="content">Visa tydligt upp de primära handlingarna och funktionerna, och ge användaren chans att agera. De flesta vill göra, inte läsa, och det ska vi stötta dem i.
 
 Informationen har sin plats och är ofta viktig, men de som vill ha den kommer hitta den.</span></Collapse>
-<Collapse title="4. Alla hittar rätt på olika sätt"><span class="content">undefined</span></Collapse>
-<Collapse title="5. Styrkan i det personliga och lokala återspeglas i det digitala"><span class="content">undefined</span></Collapse>
-<Collapse title="6. Relevanta, men få, erbjudanden i en naturlig kontext"><span class="content">undefined</span></Collapse>
-<Collapse title="7. Möt mig utifrån det ni vet eller borde veta om mig"><span class="content">undefined</span></Collapse>
-<Collapse title="8. Jag känner att jag är på Länsförsäkringar"><span class="content">undefined</span></Collapse>
-<Collapse title="9. Personalisering är alltid kundens val"><span class="content">undefined</span></Collapse>
+<Collapse title="Alla hittar rätt på olika sätt"><span class="content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet.
+
+Vid implementation är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.</span></Collapse>
+<Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala"><span class="content">En av Länsförsäkringars stora fördelar är att vi finns lokalt på många orter och har rådgivare på plats – folk känner ”Kim på Länsförsäkringar”. Den närheten till Länsförsäkringar vill vi ta med in i det digitala där det går och passar.</span></Collapse>
+<Collapse title="Relevanta, men få, erbjudanden i en naturlig kontext"><span class="content">Internet svällar över av annonser och banner blindness är etablerat fenomen – om något ser ut och känns som en annons sorterar folk bort det (o)medvetet. Samtidigt vet vi att våra kunder är öppna för att ta emot vad tycker är relevanta erbjudanden kopplat till sitt innehav. Här blir det viktigt att balansera de två och ha en ”less is more”-inställning till de erbjudanden vi vill visa upp.</span></Collapse>
+<Collapse title="Kundmöte utifrån det Länsförsäkringar vet, eller borde veta, om kunden"><span class="content">Vi vet en hel del om kunden, och kunden förutsätter att det de berättat för Länsförsäkringar vet Länsförsäkringar. Vi bör därför ge kunden möjlighet att identifiera sig istället för att fylla i kontaktuppgifter igen och kunna få eventuella rabatter avdragna där det är möjligt.
+
+*(Tyvärr kommer banksekretess och andra regelverk ofta hindra oss från att dela fritt mellan juridiska enheter)*</span></Collapse>
+<Collapse title="Personalisering är alltid kundens val"><span class="content">Personalisering ska vara en möjliggörare inte en förstörare. Det innebär att vi där det går erbjuder en personalisering (både aktiv från kunden och servad från oss), men det måste utgå från vad kunden vill – kunden väljer personalisering (opt-in), vi tvingar inte på det (opt-out).
+
+Vi ser att många kunder efterfrågar personalisering men många andra inte är det minsta intresserade, och vi behöver respektera och stötta båda typer.</span></Collapse>
+<Collapse title="Det ska kännas Länsförsäkringar"><span class="content">När kunderna och medarbetarna använder våra system ska de känna att de är på Länsförsäkringar. Vi har våra generella designkomponenter, men de måste förstås tolkas utifrån situationen de används i. Det viktigaste är att det känns som Länsförsäkringar rakt igenom. Våra designmönster för olika typ av handlingar (t.ex. köpa något) är en viktig del i att skapa den känslan. Igenkänning är en viktig faktor.
+
+När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så gäller det att göra det tydligt för kunden att de går från Länsförsäkringar till en samarbetspartner. I vissa fall kan det vara bättre att inte anpassa utseendet alls än att anpassa det halvdant.</span></Collapse>
 </section>
 
 ### Konceptets hörnstenar
