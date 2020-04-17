@@ -1,8 +1,9 @@
 ---
 template: ArticlePage
-title: Design Principles
-intro: "De är till för att vi ska ha några gemensam riktning - hur vi designar
-  för Länsförsäkringar. "
+title: Design principles
+intro: Our design principles guide us in what qualities we should strive for in
+  our interfaces, whereas our  components and design patterns help us in how to
+  reach those qualities.
 heroBlock:
   color: "#fcd2d3"
   quote: Hjälp mig göra det  jag kom för att göra
@@ -13,7 +14,7 @@ wide: true
 lang: true
 ---
 <section>
-<Collapse title="1. Upplevelsen är utformad för den kanal jag valt"><span class="content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.
+<Collapse title="Upplevelsen är utformad för denna kanal                                                                      The experience is designed for this channel"><span class="content">Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet. I implementationen är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.
 
 <figure class="Image Image__border"><img src="/img/regularv2.jpg" srcset="/img/regularv2.jpg 2x" alt="alt"><figcaption><div class="Image__caption"></div></figcaption></figure></span></Collapse>
 <Collapse title="2. Varje sida har ett primärt syfte"><span class="content"></span></Collapse>
