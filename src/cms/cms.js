@@ -8,6 +8,7 @@ import {CategoryOverviewTemplate} from '../templates/CategoryOverview'
 import { ChangelogPageTemplate } from '../templates/ChangelogPage'
 import { LandingPageTemplate } from '../templates/LandingPage'
 import { ArticlePageTemplate } from '../templates/ArticlePage'
+import { IconsPageTemplate } from '../templates/IconsPage'
 
 import AdvancedImage from "./widgets/advancedImage"
 import Callout from "./widgets/callout"
@@ -43,6 +44,9 @@ CMS.registerPreviewTemplate('visual-identity-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
   <ChangelogPageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('icons-page', ({ entry }) => (
+  <IconsPageTemplate  {...entry.toJS().data} />
 ))
 
 

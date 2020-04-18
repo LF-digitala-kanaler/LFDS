@@ -292,7 +292,17 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Template, name: template, widget: hidden, default: Changelog, value: Changelog }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
-
+  - name: 'icons'
+    label: 'Icons'
+    files:
+      - name: 'icons-page'
+        label: 'Icons'
+        file: 'content/visual-identity/icons.md'
+        fields: 
+          - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+          - { label: Template, name: template, widget: hidden, default: IconsPage, value: IconsPage }
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
   - name: 'homepage'
     label: 'Home Page'
     files:

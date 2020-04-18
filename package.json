@@ -85,11 +85,11 @@
   },
   "copyFiles": [
     {
-      "from": "node_modules/lfui-components/dist/docs.js",
+      "from": "node_modules/lfui-components/dist/docs/docs.js",
       "to": "static/docs.js"
     },
     {
-      "from": "node_modules/lfui-components/dist/data/componentsStatus.json",
+      "from": "node_modules/lfui-components/dist/docs/data/componentsStatus.json",
       "to": "src/data/componentsStatus.json"
     }
   ],

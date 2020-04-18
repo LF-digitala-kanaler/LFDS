@@ -73,11 +73,12 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/node_modules/lfui-components/dist/html`,
+        path: `${__dirname}/node_modules/lfui-components/dist/docs/html`,
         name: 'componentExample',
         
       }
     },
+   
     // images
     {
       resolve: 'gatsby-plugin-flexsearch',
