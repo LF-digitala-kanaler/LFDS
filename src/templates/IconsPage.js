@@ -14,12 +14,10 @@ export const IconsPageTemplate = ({
   intro,
 
 }) => (
-  
   <> 
-  
     <Wrapper wide tag="div">
-      <Heading tag={1} text={title} align={"center"} />
-      <Preamble text={intro} tag="p" align={"center"} />
+      <Heading tag={1} text={title} align={"left"} />
+      <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
     
     <Wrapper wide tag="div">
@@ -32,7 +30,6 @@ const IconsPage = ({
   data: { page }
   
   }) => {
-  
   
   return (
     <Layout
