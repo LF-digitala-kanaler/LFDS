@@ -194,7 +194,15 @@ figure {
   margin-bottom: var(--spacing-vertical--2);
   
 }
-
+.Image__border--noPadding img {
+  border: 2px solid var(--color-border);
+  display: inline-block;
+}
+.Image__border img{
+  border: 2px solid var(--color-border);
+  display: inline-block;
+  padding: var(--spacing-xxlg);
+}
 .Image__border img{
   border: 2px solid var(--color-border);
   display: inline-block;
@@ -218,6 +226,7 @@ figure {
   top: calc(-1.5 * var(--spacing-vertical--1)); */
   font-size: var(--font-size-small);
   font-style: italic;
+  text-al
 }
 
 .Image__background img {
