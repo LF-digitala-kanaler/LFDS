@@ -206,3 +206,56 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
     margin-left: var(--sidebar-width);
   }
 }
+
+/* icons grid remove when icons move to it's own repo */
+.Icons .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Icons .col-4 {
+  flex: 0 1 calc(50%);
+  @media (--small-viewport) { 
+    flex: 0 1 calc(33%);
+  }
+}
+
+.CardGrid__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: var(--spacing-vertical--2) 0;
+ 
+}
+.Icons .icon {
+  color: #005AA0;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.Icons .text-sm {
+    font-size: .875rem;
+    margin-left: 10px;
+}
+
+.Icons .mb-2 {
+    margin-bottom: 2rem!important;
+}
+.Icons .Content h3 {
+  font-size: 2rem;
+  line-height: 1.1667;
+  margin-bottom: var(--spacing-vertical--2);
+  margin-top: var(--spacing-vertical--2);
+  position: relative;
+
+  @media (--small-viewport) { 
+    font-size: 2.75rem;
+  }
+}
+/* .CardGrid__grid > div {
+  flex: 0 1 calc(33% - 48px);
+  margin: 24px;
+
+  @media (--xxlarge-viewport) {
+   flex: 0 1 calc(25% - 48px);
+  }
+} */

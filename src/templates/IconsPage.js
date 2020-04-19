@@ -17,16 +17,18 @@ export const IconsPageTemplate = ({
   body
 }) => (
   <> 
-    <Wrapper wide tag="div">
+    <Wrapper  tag="div">
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <Content source={body} /> 
     </Wrapper>
     
-    <Wrapper wide tag="div">
+    <Wrapper  tag="div">
+      <div className="Icons">
         <Content source={iconsRegular} /> 
         <Content source={iconsSpecial} /> 
         <Content source={icons} /> 
+      </div>
     </Wrapper>
   </>
 )
