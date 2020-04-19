@@ -14,28 +14,33 @@ import Content from '../components/Content'
 export const IconsPageTemplate = ({
   title,
   intro,
-  body
+  body,
+  specialIconsContent
 }) => (
   <> 
     <Wrapper  tag="div" narrow>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <Content source={body} /> 
+      <Content source={body} />
+      
     </Wrapper>
     
     <Wrapper  tag="div" narrow>
       <div className="Icons">
-        <Content source={iconsRegular} /> 
+        <Content source={iconsRegular} />
+        <Content className="Content--tight" source={specialIconsContent} />
         <Content source={iconsSpecial} /> 
         <Content source={icons} /> 
       </div>
     </Wrapper>
+  
   </>
 )
 const IconsPage = ({ 
   data: { page },
   location
   }) => {
+  console.log(page)
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
@@ -45,6 +50,7 @@ const IconsPage = ({
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
+      specialIconsContent={page.frontmatter.specialIconsContent}
       menu={true}
       breadcrumb={breadcrumb}
       backgroundClass={page.frontmatter.background}
@@ -73,6 +79,7 @@ export const pageQuery = graphql`
         title
         intro
         background
+        specialIconsContent
       }
     }
   }

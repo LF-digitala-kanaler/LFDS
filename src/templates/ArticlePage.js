@@ -56,7 +56,7 @@ const ArticlePage = ({
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
-       breadcrumb={breadcrumb}
+      breadcrumb={breadcrumb}
       menu={true}
       backgroundClass={page.frontmatter.background}
       

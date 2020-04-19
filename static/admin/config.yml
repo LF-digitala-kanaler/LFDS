@@ -311,6 +311,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+          - { label: 'Content above special Icons', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
   - name: 'homepage'
     label: 'Home Page'
     files:

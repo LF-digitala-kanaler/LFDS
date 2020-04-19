@@ -86,7 +86,8 @@ const HomePage = ({
         shortcutsBottom={page.frontmatter.shortcutsBottom}
         fullWidthImage={sources}
         relatedLinks={page.frontmatter.relatedLinks}
-        body={page.html}
+        body={page.htmlAst}
+        bodyHtml={page.html}
       />
     </Layout>
   )
