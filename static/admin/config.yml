@@ -255,6 +255,7 @@ collections: # A list of collections the CMS should be able to edi
   - name: categoryOverview-page
     label: Category Overview
     media_folder: /static/img
+    public_folder: /img
     editor:
       preview: true
     folder: content/
@@ -283,6 +284,8 @@ collections: # A list of collections the CMS should be able to edi
     
   - name: 'changelog'
     label: 'Change Log'
+    media_folder: /static/img
+    public_folder: /img
     files:
       - name: 'changelog-page'
         label: 'Changelog'
@@ -294,6 +297,8 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Intro, name: intro, widget: text }
   - name: 'icons'
     label: 'Icons'
+    media_folder: /static/img
+    public_folder: /img
     files:
       - name: 'icons-page'
         label: 'Icons'
