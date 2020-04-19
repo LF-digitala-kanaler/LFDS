@@ -41,16 +41,22 @@ export const ArticlePageTemplate = ({
   </>
 )
 const ArticlePage = ({ 
-  data: { page }
+  data: { page },
+  location
   
   },) => {
   
   const wrapperWidth = page.frontmatter.wide ? true : false;
- 
+  const breadcrumb = {
+    category: page.frontmatter.category,
+    title: page.frontmatter.title,
+    location: location
+  }
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
+       breadcrumb={breadcrumb}
       menu={true}
       backgroundClass={page.frontmatter.background}
       

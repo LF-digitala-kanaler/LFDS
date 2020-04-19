@@ -14,7 +14,7 @@ const Breadcrumb = ({location}) => {
       
         <li className={style.Breadcrumb__item}>
           <Link className={style.Breadcrumb__link} to={location.location.pathname.split('/')[1]+'/'+location.location.pathname.split('/')[2]}>
-            {location.location.pathname.split('/')[1]}
+            {location.location.pathname.split('/')[1].replace('-', " ")}
           </Link>
         </li>
       

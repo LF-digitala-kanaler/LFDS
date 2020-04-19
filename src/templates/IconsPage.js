@@ -17,13 +17,13 @@ export const IconsPageTemplate = ({
   body
 }) => (
   <> 
-    <Wrapper  tag="div">
+    <Wrapper  tag="div" narrow>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <Content source={body} /> 
     </Wrapper>
     
-    <Wrapper  tag="div">
+    <Wrapper  tag="div" narrow>
       <div className="Icons">
         <Content source={iconsRegular} /> 
         <Content source={iconsSpecial} /> 
@@ -33,14 +33,21 @@ export const IconsPageTemplate = ({
   </>
 )
 const IconsPage = ({ 
-  data: { page }
-  
+  data: { page },
+  location
   }) => {
-  
+  const breadcrumb = {
+    category: page.frontmatter.category,
+    title: page.frontmatter.title,
+    location: location
+  }
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
+      menu={true}
+      breadcrumb={breadcrumb}
+      backgroundClass={page.frontmatter.background}
     >
       <IconsPageTemplate 
         {...page} 
@@ -65,6 +72,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
+        background
       }
     }
   }
