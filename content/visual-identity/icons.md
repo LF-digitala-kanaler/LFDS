@@ -1,9 +1,11 @@
 ---
 template: IconsPage
 title: Icons
-intro: 'Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke. här guidar vi dig kring hur du kommer igång som en copy, UX, AD eller frontend utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter eller hittar vidare länkar till vår Brand portal Röda rummet.'
+intro: We use icons to explain, clarify and sometimes display emotions ;). Our
+  Icons scale with different amounts of details according to size.The
+  consistency of the strokes are imperitave for recognition.
 meta:
   description: This is a meta description.
   title: LFUI
 ---
-body
+<figure class="Image Image__border"><img src="/img/icons.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption">How the icons scale.</div></figcaption></figure>
