@@ -15,9 +15,12 @@ specialIconsContent: >-
 
 ## Resources
 
-
 In the LFUI-icon.sketch document you will find all the icons ranging from 24 to 70px. These icons are optimized for digital use, correct RGB values and the 2px stroke.
 
 If you cant find the right icon for your use case, check out "Röda rummet" for further resources. 
 
 [Resources at Röda rummet](test)
+
+<section>
+
+</section>
