@@ -51,7 +51,7 @@ const CollapseWidget = {
                   // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
           return `<Collapse title="${item.get("title")}"><span class="content">${item.get("content")}</span></Collapse>`
       });
-     
+     console.log(items)
 
       return "<section>\n" + items.join("\n") + "\n</section>";
     },
