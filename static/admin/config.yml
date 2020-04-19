@@ -291,7 +291,8 @@ collections: # A list of collections the CMS should be able to edi
         label: 'Changelog'
         file: 'content/about/whatsNew/changelog.md'
         fields: 
-          - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+          - {label: Priority, name: priority, widget: string, required: false, hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']}
+          - { label: Background, name: background, widget: hidden, value: 'bg-white' }
           - { label: Template, name: template, widget: hidden, default: Changelog, value: Changelog }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
@@ -304,7 +305,8 @@ collections: # A list of collections the CMS should be able to edi
         label: 'Icons'
         file: 'content/visual-identity/icons.md'
         fields: 
-          - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+          - { label: Priority, name: priority, widget: string, required: false, hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']}
+          - { label: Background, name: background, widget: hidden, value: 'bg-white' }
           - { label: Template, name: template, widget: hidden, default: IconsPage, value: IconsPage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
@@ -316,7 +318,7 @@ collections: # A list of collections the CMS should be able to edi
         label: 'Home Page'
         file: 'content/pages/home.md'
         fields: 
-          - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
+          - { label: Background, name: background, widget: hidden,  value: 'bg-white' }
           - { label: Template, name: template, widget: hidden, default: HomePage, value: HomePage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
