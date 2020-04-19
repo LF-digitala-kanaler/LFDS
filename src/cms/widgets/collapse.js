@@ -29,7 +29,6 @@ const CollapseWidget = {
       let matches = match[0].substring(match[0].indexOf("\n") + 1);
       matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
       const collapseArray = matches.split(/(?=<Collapse)/g);
-      console.log(collapseArray);
       const items = collapseArray.map(function(item, index) {
         console.log(item, 'item') // funkar hit
         return {
@@ -37,11 +36,9 @@ const CollapseWidget = {
           content: item.match(/<span class="content">(.*)<\/span>/s)[1],
         }
       });
-      console.log(items, 'ass')
       const obj = {
         panels: Immutable.fromJS(items)
       }
-      console.log(obj.panels, 'obj')
       return obj;
     },
 

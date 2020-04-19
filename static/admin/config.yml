@@ -94,6 +94,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: Hero block
         name: heroBlock
         widget: object
+        collapsed: true
         fields:
         - label: 'Color'
           name: 'color'
@@ -145,7 +146,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: Hero block
         name: heroBlock
         widget: object
-        
+        collapsed: true
         fields:
         - label: 'Color'
           name: 'color'
@@ -203,6 +204,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: Hero block
         name: heroBlock
         widget: object
+        collapsed: true
         fields:
         - label: 'Color'
           name: 'color'
@@ -310,8 +312,8 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Template, name: template, widget: hidden, default: IconsPage, value: IconsPage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
-          - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
-          - { label: 'Content above special Icons', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+          - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'buttonsBlock'] }
+          - { label: 'Content above special Icons', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'buttonsBlock'] }
   - name: 'homepage'
     label: 'Home Page'
     files:
