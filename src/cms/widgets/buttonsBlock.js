@@ -5,12 +5,12 @@ const ButtonsBlock = {
   pattern: /<article>[^]*?<\/article>/,
 
     fields: [{
-      label: "Button Block", name: "button", widget: "object",
+      label: "Button Block", name: "buttons", widget: "object",
       fields: [
         // {label: "Text", name: "content", widget: "markdown", editorComponents:['callout', 'advancedImage', 'code', 'code-block', 'color']},
         {
         label: "Button",
-        name: "buttons",
+        name: "button",
         widget: "list",
         fields: [{
           label: "Button text",
@@ -29,19 +29,20 @@ const ButtonsBlock = {
       
       let matches = match[0].substring(match[0].indexOf("\n") + 1);
       matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
-      console.log(matches, 'matches')
-      const buttonArray = matches.split(/(?=<Button)/);
+      const buttonArray = matches.split(/(?=<Button)/g);
       console.log(buttonArray, 'array')
       const items = buttonArray.map(function(item, index) {
+        console.log(item, 'items')
         return {
           // content: item.match(/<span class="ButtonContent">(.*)<\/span>/)[1],
-          href: item.match(/href="(.*?)"/)[1],
           text: item.match(/text="(.*?)"/)[1],
+          href: item.match(/href="(.*?)"/)[1],
+          
         }
        
       });
       const obj = {
-        buttons: Immutable.fromJS(items)
+        button: Immutable.fromJS(items)
       }
       
       return obj;
@@ -49,10 +50,9 @@ const ButtonsBlock = {
 
 
     toBlock: function(obj) {
-      
+      console.log(obj)
       const items = Immutable.fromJS(obj.buttons || []).map(function(item, index) {
-          return `<Button href="${item.get("href")}" text="${item.get("text")}" />`
-
+        return `<Button href="${item.get("href")}" text="${item.get("text")}" />`
       });
       console.log(items)
 
