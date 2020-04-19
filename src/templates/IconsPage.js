@@ -5,23 +5,27 @@ import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
 import icons from '!!raw-loader!lfui-components/dist/lfui/icons.svg'; 
-import iconsHtml from '!!raw-loader!lfui-components/dist/docs/icons/icons.md'; 
+import iconsRegular from '!!raw-loader!lfui-components/dist/docs/icons/regular.md';
+import iconsSpecial from '!!raw-loader!lfui-components/dist/docs/icons/special.md'; 
+
 import Content from '../components/Content'
 
 
 export const IconsPageTemplate = ({
   title,
   intro,
-
+  body
 }) => (
   <> 
     <Wrapper wide tag="div">
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
+      <Content source={body} /> 
     </Wrapper>
     
     <Wrapper wide tag="div">
-        <Content source={iconsHtml} /> 
+        <Content source={iconsRegular} /> 
+        <Content source={iconsSpecial} /> 
         <Content source={icons} /> 
     </Wrapper>
   </>
