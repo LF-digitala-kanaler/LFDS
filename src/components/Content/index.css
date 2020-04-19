@@ -222,6 +222,7 @@ figure {
   font-size: var(--font-size-small);
   font-style: italic;
   text-align: left;
+  color: var(--color-grey);
 }
 
 .Image__background img {

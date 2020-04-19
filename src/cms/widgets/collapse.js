@@ -36,9 +36,11 @@ const CollapseWidget = {
           content: item.match(/<span class="content">(.*)<\/span>/s)[1],
         }
       });
+    
       const obj = {
         panels: Immutable.fromJS(items)
       }
+      console.log(obj.panels, 'obj')
       return obj;
     },
 

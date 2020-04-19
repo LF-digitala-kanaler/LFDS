@@ -7,9 +7,9 @@ import Preamble from '../components/Preamble'
 import icons from '!!raw-loader!lfui-components/dist/lfui/icons.svg'; 
 import iconsRegular from '!!raw-loader!lfui-components/dist/docs/icons/regular.md';
 import iconsSpecial from '!!raw-loader!lfui-components/dist/docs/icons/special.md'; 
-
 import Content from '../components/Content'
-
+import Button from '../components/Button/'
+import {ButtonListItem, ButtonList} from '../components/ButtonList/'
 
 export const IconsPageTemplate = ({
   title,
@@ -19,10 +19,23 @@ export const IconsPageTemplate = ({
   buttons
 }) => (
   <> 
-    <Wrapper  tag="div" narrow>
+    <Wrapper tag="div" narrow>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <Content source={body} />
+      <div class="Position-relative">
+        <Content source={body} className="Content--tight" />
+        
+        {buttons && buttons.length > 0 && 
+          <ButtonList>
+          {
+            buttons.map(btn => {
+              return <ButtonListItem><Button href={btn.link} text={btn.text} /></ButtonListItem>
+            })
+          }
+          </ButtonList>
+        }
+      </div>
+      
       
     </Wrapper>
     

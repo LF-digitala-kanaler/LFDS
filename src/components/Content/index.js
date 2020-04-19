@@ -41,7 +41,7 @@ const encodeMarkdownURIs = (source = '') => {
 //   return source
 // }
 
-const MyImage = ({ nodeKey, src,  alt, tight}) => {
+const MyImage = ({ nodeKey, src,  alt}) => {
 
   const decodedSrc = decodeURI(src)
   

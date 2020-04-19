@@ -312,7 +312,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Template, name: template, widget: hidden, default: IconsPage, value: IconsPage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
-          - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+          - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'buttonsBlock'] }
           - name: 'buttons'
             label: 'Resource buttons'
             label_singular: 'Button'

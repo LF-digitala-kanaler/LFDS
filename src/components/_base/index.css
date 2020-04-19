@@ -251,11 +251,8 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
     font-size: 2.75rem;
   }
 }
-/* .CardGrid__grid > div {
-  flex: 0 1 calc(33% - 48px);
-  margin: 24px;
+/* Helper class for relative turn into position component later */
 
-  @media (--xxlarge-viewport) {
-   flex: 0 1 calc(25% - 48px);
-  }
-} */
+.Position-relative {
+  position: relative;
+}
