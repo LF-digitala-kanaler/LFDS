@@ -15,7 +15,8 @@ export const IconsPageTemplate = ({
   title,
   intro,
   body,
-  specialIconsContent
+  specialIconsContent,
+  buttons
 }) => (
   <> 
     <Wrapper  tag="div" narrow>
@@ -28,7 +29,9 @@ export const IconsPageTemplate = ({
     <Wrapper  tag="div" narrow>
       <div className="Icons">
         <Content source={iconsRegular} />
+
         <Content className="Content--tight" source={specialIconsContent} />
+        
         <Content source={iconsSpecial} /> 
         <Content source={icons} /> 
       </div>
@@ -59,6 +62,7 @@ const IconsPage = ({
         {...page} 
         {...page.frontmatter}
         body={page.html}
+        buttons={page.frontmatter.buttons}
       />
     </Layout>
   )
@@ -80,6 +84,10 @@ export const pageQuery = graphql`
         intro
         background
         specialIconsContent
+        buttons {
+          text
+          link
+        }
       }
     }
   }

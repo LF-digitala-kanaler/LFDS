@@ -2,17 +2,13 @@ import Immutable from 'immutable';
 const ButtonsBlock = {
   id: "buttonsBlock",
   label: "Buttons Block",
-  pattern: /<article class='ButtonBlock'>[^]*?<\/article>/,
+  pattern: /<article class='ButtonBlock'>(.*?)<\/article>/,
 
     fields: [{
-      label: "Button Block",
-      name: "buttonObject",
-      widget: "object",
-      fields: [{
-        label: "Text",
-        name: "content",
-        widget: "markdown",
-        editorComponents:['callout', 'advancedImage', 'code', 'code-block', 'color'],
+      label: "Button Block", name: "buttonObject", widget: "object",
+      fields: [
+        {label: "Text", name: "content", widget: "markdown", editorComponents:['callout', 'advancedImage', 'code', 'code-block', 'color']},
+        {
         label: "Button",
         name: "buttons",
         widget: "list",
@@ -31,36 +27,36 @@ const ButtonsBlock = {
     
     fromBlock: function(match) {
       
-      let matches = match[0].substring(match[0].indexOf("\n") + 1);
-      console.log(matches, 'match')
+      let matches = match[0].substring(match[0].indexOf("\n"));
+      console.log(matches)
       matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
 
-      console.log(matches, 'matches')
-      const buttonArray = matches.split(/(?=<a class="Button")/g);
-      console.log(buttonArray, 'array');
+      
+      const buttonArray = matches.split(/(?=<a class)/g);
       const items = buttonArray.map(function(item, index) {
-        console.log(item, 'item') // funkar hit
         return {
+          content: match[1],
           href: item.match(/href="(.*?)"/)[1],
           text: item.match(/<span class="Button-text">(.*)<\/span>/s)[1],
         }
+       
       });
       const obj = {
         buttons: Immutable.fromJS(items)
       }
-      console.log(obj.buttons, 'obj')
+      
       return obj;
     },
 
 
     toBlock: function(obj) {
-
+      console.log(obj)
       const items = Immutable.fromJS(obj.buttons || []).map(function(item, index) {
           return `<a class="Button" href="${item.get("href")}"><span class="Button-text">${item.get("text")}</span></a>`
       });
-     
+      console.log(items)
 
-      return "<article class='ButtonBlock'>\n" + items.join("\n") + "\n</article>";
+      return "<article class='ButtonBlock'>\n" + obj.content  + items.join("\n") + "\n</article>";
     },
 
 
