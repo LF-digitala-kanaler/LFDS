@@ -12,6 +12,7 @@ const AdvancedImage = {
       options: [
         { label: "With border", value: "Image__border" },
         { label: "With background", value: "Image__background" },
+        {label: "With border but without padding", value: "Image__border--noPadding"}
       ],
     },
     { name: "caption", label: "Caption", widget: "string", default: "" },

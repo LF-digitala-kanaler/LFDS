@@ -174,9 +174,10 @@ figure {
     width: var(--content-width--wide);
   }
 }
-.Content--normal .Image {
+.Content--normal .Image,
+.Content .Image {
   @media (--xlarge-viewport) { 
-    width: var(--content-width);
+    width: calc(var(--content-width) - 32px);
   }
 } 
 
@@ -194,24 +195,18 @@ figure {
   margin-bottom: var(--spacing-vertical--2);
   
 }
+
+.Image__border img{
+  border: 2px solid var(--color-border);
+  display: inline-block;
+  padding: var(--spacing-xxlg);
+}
 .Image__border--noPadding img {
   border: 2px solid var(--color-border);
   display: inline-block;
-}
-.Image__border img{
-  border: 2px solid var(--color-border);
-  display: inline-block;
-  padding: var(--spacing-xxlg);
-}
-.Image__border img{
-  border: 2px solid var(--color-border);
-  display: inline-block;
-  padding: var(--spacing-xxlg);
+  padding: 0;
 }
 
-.Image__border img {
-  display: inline-block; 
-}
 
 .Image__background {
   background: var(--color-smoke);
@@ -226,7 +221,7 @@ figure {
   top: calc(-1.5 * var(--spacing-vertical--1)); */
   font-size: var(--font-size-small);
   font-style: italic;
-  text-al
+  text-align: left;
 }
 
 .Image__background img {
