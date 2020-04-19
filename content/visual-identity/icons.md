@@ -5,6 +5,11 @@ title: Icons
 intro: We use icons to explain, clarify and sometimes display emotions ;). Our
   Icons scale with different amounts of details according to size.The
   consistency of the strokes are imperitave for recognition.
+buttons:
+  - text: Resources at Röda rummet
+    link: http://google.se
+  - text: Resources at Röda rummet
+    link: http://google.se
 specialIconsContent: >-
   ### Special sizes icons
 
@@ -20,7 +25,3 @@ In the LFUI-icon.sketch document you will find all the icons ranging from 24 to 
 If you cant find the right icon for your use case, check out "Röda rummet" for further resources. 
 
 [Resources at Röda rummet](test)
-
-<article class='ButtonBlock'>
-undefined
-</article>
