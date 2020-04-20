@@ -39,6 +39,7 @@ tabs:
       #### Modifiers
 
 
+      There are quite a few modifiers available for tables which present data
 
 
       Siduppdelning:
