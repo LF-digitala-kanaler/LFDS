@@ -23,7 +23,7 @@ export const IconsPageTemplate = ({
       <Content source={body} className="Content--tight" />
     </Wrapper>
     
-    <Wrapper  tag="div" narrow menu={true}>
+    <Wrapper  tag="div"  menu={true}>
       <div className="Icons">
         <Content source={iconsRegular} />
 
