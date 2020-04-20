@@ -26,4 +26,4 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 
 [Resources at Röda rummet](test)
 
-## Icons In LFUI
+## Icons in LFUI
