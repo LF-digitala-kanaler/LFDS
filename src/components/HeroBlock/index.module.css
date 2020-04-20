@@ -4,6 +4,7 @@
 .HeroBlock {
   height: 22.75rem;
   display: flex;
+  padding-top: var(--spacing-vertical--3);
   align-items: center;
   margin:var(--spacing-vertical--1) 0 var(--spacing-vertical--3) 0;
 }

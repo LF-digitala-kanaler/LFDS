@@ -136,7 +136,7 @@ div[role="group"][tabindex] {
 }
 
 ::selection { 
-  background: var(--color-yellow); 
+  background: var(--color-shadow); 
 }
 
 /* External Links */
@@ -215,7 +215,7 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
 .Icons .col-4 {
   flex: 0 1 calc(50%);
   @media (--small-viewport) { 
-    flex: 0 1 calc(33%);
+    flex: 0 1 calc(25%);
   }
 }
 
@@ -241,14 +241,15 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
     margin-bottom: 2rem!important;
 }
 .Icons .Content h3 {
-  font-size: 2rem;
-  line-height: 1.1667;
-  margin-bottom: var(--spacing-vertical--2);
+  font-size: 1.5rem;
+  line-height: 1.333;
+  margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
   position: relative;
 
   @media (--small-viewport) { 
-    font-size: 2.75rem;
+    font-size: 2rem;
+  
   }
 }
 /* Helper class for relative turn into position component later */

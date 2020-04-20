@@ -19,7 +19,7 @@ export const IconsPageTemplate = ({
   buttons
 }) => (
   <> 
-    <Wrapper tag="div" narrow>
+    <Wrapper tag="div" narrow menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       <div class="Position-relative">
@@ -39,7 +39,7 @@ export const IconsPageTemplate = ({
       
     </Wrapper>
     
-    <Wrapper  tag="div" narrow>
+    <Wrapper  tag="div" narrow menu={true}>
       <div className="Icons">
         <Content source={iconsRegular} />
 

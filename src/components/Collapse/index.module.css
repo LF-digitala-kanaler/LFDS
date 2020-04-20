@@ -68,7 +68,7 @@
 }
 
 .Collapse__inner {
-  padding: var(--spacing-sm) 0;
+  padding: var(--spacing-sm) 0 var(--spacing-xxlg);
   max-width:var(--content-width--tight);
 }
 
