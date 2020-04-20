@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: Brand Identity
+category: null
 title: testing
 intro: test
 wide: false
