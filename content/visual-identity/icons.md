@@ -1,10 +1,10 @@
 ---
-background: bg-white
 template: IconsPage
 title: Icons
 intro: We use icons to explain, clarify and sometimes display emotions ;). Our
   Icons scale with different amounts of details according to size.The
   consistency of the strokes are imperitave for recognition.
+background: bg-white
 buttons:
   - text: Resources at Röda rummet
     link: http://google.se
@@ -26,6 +26,4 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 
 [Resources at Röda rummet](test)
 
-<article>
-<Button href="undefined" text="undefined"/>
-</article>
+## Icons In LFUI
