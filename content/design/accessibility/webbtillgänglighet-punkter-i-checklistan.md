@@ -1,7 +1,7 @@
 ---
 template: ArticlePage
 category: Accessibility
-title: Webbtillganglighet forklaringar checklistan
+title: Webbtillgänglighet förklaringar checklistan
 intro: Här går vi igenom punkt för punkt vad de betyder för Länsförsäkringar att
   följa checklistorna.
 background: bg-white
