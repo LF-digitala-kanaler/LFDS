@@ -44,7 +44,7 @@ tabs:
 
       Exempel (@Lollo skriv standardtext för godkännande här)
 
-      Valideringstext för ej vald obligatorisk checkbox:
+      ### Valideringstext för ej vald obligatorisk checkbox:
 
       För att \[det man gör i tjänsten] måste du \[verbet som labeln har].
 
@@ -90,3 +90,4 @@ tabs:
       ```
     name: Code
 ---
+
