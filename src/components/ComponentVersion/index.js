@@ -10,20 +10,26 @@ import {useClickAway} from 'react-use';
 export const ComponentVersion = ({version}) => {
   const [isOpen, setOpen] = useState(false);
   const dropdown = useRef(null);
-
+  const OLDEST_EXISITING_SITE_VERSION = 523;
   const handleOnClick = () => {
     setOpen(!isOpen)
   }
   useClickAway(dropdown, () => {
     setOpen(false)
   });
+  const versionLink = (url) => {
+    url.split('.').join('')
+    console.log(url);
+  }
   const data = useStaticQuery(graphql`
     query version {
       settingsYaml {
         oldSiteUrl
+        firstSavedVersion
       }
     }
   `)
+
   // get current pages version
   if(typeof window !== `undefined`) {
      // get latest version
@@ -32,10 +38,20 @@ export const ComponentVersion = ({version}) => {
     console.log(versions.length)
     if(versions.length > 0){
       const previousVersions = versions[0].bootstrap.changedInVersion.map((item) => {
-        return <li className={style.ComponentVersion__item }><a target="_black" rel="nofollow noreferrer noopener" className={style.ComponentVersion__link} href={data.settingsYaml.oldSiteUrl + item.split('.').join('')}  aria-label="This is an external link (opens in a new tab)">{item}</a></li>
+        console.log(item.split('.').join(''))
+        if(item.split('.').join('') >= data.settingsYaml.firstSavedVersion) {
+          return <li className={style.ComponentVersion__item }>
+            <a target="_black" rel="nofollow noreferrer noopener" className={style.ComponentVersion__link} href={data.settingsYaml.oldSiteUrl + item.split('.').join('')}  aria-label="This is an external link (opens in a new tab)">{item}</a>
+          </li>
+        }else {
+          return <li className={style.ComponentVersion__item }>
+            <p className={style.ComponentVersion__noLink}>{item}</p>
+          </li>
+        }
+        
       });
       if (versions[0].bootstrap.changedInVersion.length === 1) {
-        return <p className={style.ComponentVersion}>  Last updated: {versions[0].bootstrap.changedInVersion[0]}</p>;
+        return <p className={style.ComponentVersion}>  Last updated: <a className={style.ComponentVersion__aloneLink} target="_black" rel="nofollow noreferrer noopener" href={data.settingsYaml.oldSiteUrl + versions[0].bootstrap.changedInVersion[0].split('.').join('')}>{versions[0].bootstrap.changedInVersion[0]}</a></p>;
       }else {
         return (
           <>

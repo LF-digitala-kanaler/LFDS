@@ -50,6 +50,25 @@
   margin-right: var(--spacing-sm);
   display: block;
 }
+.ComponentVersion__aloneLink {
+  text-decoration: none;
+  color: var(--color-body);
+  margin-right: var(--spacing-sm);
+  display: inline;
+}
+.ComponentVersion__noLink {
+  text-decoration: none;
+  color: var(--color-black);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  cursor: not-allowed;
+  &:hover {
+    background-color: var(--color-smoke);
+    color: var(--color-black);
+  }
+}
 
 .ComponentVersion__list {
   list-style-type: none;
