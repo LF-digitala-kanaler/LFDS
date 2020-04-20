@@ -57,7 +57,10 @@ tabs:
       **Jämförande**
 
 
-      när du ska jämföra mellan olika saker. vad ingår?\
+      när du ska jämföra mellan olika saker. vad ingår?
+
+
+      alltid varannan rad grå\
 
       text vs gröna bockar/inget  (ex gravidförsäkring som bonus!)
 
