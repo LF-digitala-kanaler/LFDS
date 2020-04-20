@@ -47,7 +47,4 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 <Collapse title="Det ska kännas Länsförsäkringar"><div class="content">När kunderna och medarbetarna använder våra system ska de känna att de är på Länsförsäkringar. Vi har våra generella designkomponenter, men de måste förstås tolkas utifrån situationen de används i. Det viktigaste är att det känns som Länsförsäkringar rakt igenom. Våra designmönster för olika typ av handlingar (t.ex. köpa något) är en viktig del i att skapa den känslan. Igenkänning är en viktig faktor.
 
 När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så gäller det att göra det tydligt för kunden att de går från Länsförsäkringar till en samarbetspartner. I vissa fall kan det vara bättre att inte anpassa utseendet alls än att anpassa det halvdant.</div></Collapse>
-<Collapse title="title"><div class="content">fae
-
-faefeafae</div></Collapse>
 </section>
