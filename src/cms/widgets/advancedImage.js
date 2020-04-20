@@ -10,9 +10,9 @@ const AdvancedImage = {
       widget: "select",
       default: "Image__border",
       options: [
-        { label: "With border", value: "Image__border" },
-        { label: "With background", value: "Image__background" },
-        {label: "With border but without padding", value: "Image__border Image__border--noPadding"}
+        { label: "Full width", value: "Image__border" },
+        { label: "Small", value: "Image__background" },
+        {label: "Full width widthout padding", value: "Image__border Image__border--noPadding"}
       ],
     },
     { name: "caption", label: "Caption", widget: "string", default: "" },

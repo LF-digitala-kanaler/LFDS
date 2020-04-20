@@ -7,7 +7,6 @@ description: "X-Y plots are used to determine relationships between the two
 intro: "X-Y plots are used to determine relationships between the two different
   things. "
 backgroundColor: "#fff"
-lang: false
 tabs:
   - name: Design
     content: >-
