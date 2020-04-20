@@ -36,6 +36,11 @@ tabs:
       The image also shows the table placed inside a [panel](panel), a very common pattern - especially in Mina Sidor.
 
 
+      #### Modifiers
+
+
+
+
       Siduppdelning:
 
 
