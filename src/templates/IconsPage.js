@@ -8,35 +8,19 @@ import icons from '!!raw-loader!lfui-components/dist/lfui/icons.svg';
 import iconsRegular from '!!raw-loader!lfui-components/dist/docs/icons/regular.md';
 import iconsSpecial from '!!raw-loader!lfui-components/dist/docs/icons/special.md'; 
 import Content from '../components/Content'
-import Button from '../components/Button/'
-import {ButtonListItem, ButtonList} from '../components/ButtonList/'
+
 
 export const IconsPageTemplate = ({
   title,
   intro,
   body,
   specialIconsContent,
-  buttons
 }) => (
   <> 
     <Wrapper tag="div" narrow menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <div class="Position-relative">
-        <Content source={body} className="Content--tight" />
-        
-        {buttons && buttons.length > 0 && 
-          <ButtonList>
-          {
-            buttons.map(btn => {
-              return <ButtonListItem><Button href={btn.link} text={btn.text} /></ButtonListItem>
-            })
-          }
-          </ButtonList>
-        }
-      </div>
-      
-      
+      <Content source={body} className="Content--tight" />
     </Wrapper>
     
     <Wrapper  tag="div" narrow menu={true}>
@@ -75,7 +59,6 @@ const IconsPage = ({
         {...page} 
         {...page.frontmatter}
         body={page.html}
-        buttons={page.frontmatter.buttons}
       />
     </Layout>
   )
@@ -97,10 +80,7 @@ export const pageQuery = graphql`
         intro
         background
         specialIconsContent
-        buttons {
-          text
-          link
-        }
+        
       }
     }
   }
