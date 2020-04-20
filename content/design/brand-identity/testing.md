@@ -7,8 +7,8 @@ wide: false
 lang: false
 ---
 <section>
-<Collapse title="test"><span class="content">testing
+<Collapse title="test"><div class="content">testing
 
-tensti</span></Collapse>
-<Collapse title="test 2"><span class="content">te</span></Collapse>
+tensti</div></Collapse>
+<Collapse title="test 2"><div class="content">te</div></Collapse>
 </section>

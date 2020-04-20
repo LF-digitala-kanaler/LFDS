@@ -28,30 +28,31 @@ const CollapseWidget = {
       
       let matches = match[0].substring(match[0].indexOf("\n") + 1);
       matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
-      const collapseArray = matches.split(/(?=<Collapse)/g);
+      const collapseArray = matches.split(/(?=<Collapse)/);
+      console.log(collapseArray, 'array')
       const items = collapseArray.map(function(item, index) {
-        console.log(item, 'item') // funkar hit
+        
         return {
           title: item.match(/title="(.*?)"/)[1],
-          content: item.match(/<span class="content">(.*)<\/span>/s)[1],
+          content: item.match(/<div class="content">(.*)<\/div>/s)[1],
         }
       });
     
       const obj = {
         panels: Immutable.fromJS(items)
       }
-      console.log(obj.panels, 'obj')
+      
       return obj;
     },
 
 
     toBlock: function(obj) {
-
+      console.log(obj, 'obj')
       const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
                   // return '{% include components/link.html content="' + item.get("content") + '" title="' + item.get("title") +'" %}'
-          return `<Collapse title="${item.get("title")}"><span class="content">${item.get("content")}</span></Collapse>`
+          return `<Collapse title="${item.get("title")}"><div class="content">${item.get("content")}</div></Collapse>`
       });
-     console.log(items)
+     console.log(items, 'items')
 
       return "<section>\n" + items.join("\n") + "\n</section>";
     },
