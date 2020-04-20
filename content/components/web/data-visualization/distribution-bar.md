@@ -68,8 +68,6 @@ tabs:
 
       * Have only been used in pension "bekväm pension"
     name: Design
-  - content: content copy
-    name: Copy
   - content: >-
       ## How to use
 
