@@ -8,13 +8,22 @@ import Preamble from '../components/Preamble';
 import CardGrid from '../components/CardGrid';
 import _ from 'lodash';
 import {GlobalStateContext } from "../context/GlobalContextProvider"
+import rehypeReact from "rehype-react"
+import Collapse from '../components/Collapse';
+import Content from '../components/Content';
 
+ const renderAst = new rehypeReact({
+    createElement: React.createElement,
+    components: { "collapse": Collapse},
+  }).Compiler
 
 // Export Template for use in CMS preview
 export const LandingPageTemplate = ({
   title,
   intro,
   blockquote,
+  body,
+  bodyHtml,
   categories = [],
 
   
@@ -26,9 +35,11 @@ export const LandingPageTemplate = ({
       <Preamble text={intro} tag="p" align={"center"} />
     </Wrapper>
     <CardGrid list={categories}  />
-    
-     
     <Wrapper tag="div" narrow>
+      {bodyHtml
+          ? <div className="Content">{renderAst(body)}</div>
+          : <Content className="Content" source={bodyHtml} />
+        }
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
   </div>
@@ -69,7 +80,8 @@ const LandingPage = ({ data: { page, allPages },currentDirectory, location }) =>
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
         categories={groupsSorted}
-
+        body={page.htmlAst}
+        bodyHtml={page.html}
       />
     </Layout>
   )
@@ -81,6 +93,8 @@ export const pageQuery = graphql`
   query LandingPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      htmlAst
+      html
       frontmatter {
         title
         intro

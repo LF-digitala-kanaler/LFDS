@@ -19,7 +19,7 @@ const CollapseWidget = {
         label: "Content",
         name: "content",
         widget: "markdown",
-        editorComponents:['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color']
+        editorComponents:['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'ImageAndText']
       }]
     }],
 

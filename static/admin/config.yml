@@ -107,7 +107,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: Quote, name: quote, widget: text, required: false }
         - { label: Cite, name: cite, widget: string , required: false}
       
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color']  }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'ImageAndText']  }
       - label: 'Background'
         name: 'background'
         widget: 'select'
@@ -191,13 +191,7 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options: 
-          - { label: "Getting Started", value: "Getting Started" }
-          - { label: "Brand Identity", value: "Brand Identity" }
-          - { label: "Design Principles", value: "Design Principles" }
-          - { label: "Process", value: "Process" }
-          - { label: "Accessibility", value: "Accessibility" }
-          - { label: "User Testing", value: "User Testing" }
-          - { label: "Motion", value: "Motion" }
+          - { label: "Graphics", value: "Graphics" }
         
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
@@ -297,6 +291,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'imageWithText']  }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
