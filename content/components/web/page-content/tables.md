@@ -24,16 +24,16 @@ tabs:
       Responsiveness is handled in the same way in both types of tables; at first the spacing is reduced but at certain breakpoints columns are hidden. This means that you as a designer need to prioritise the columns and let your developer know the prioritisation.
 
 
-      ### Present data
-
-
-      Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns. The image below shows an example of this:
+      A very common pattern for tables are for them to be used together with [panels](panel), as the two components fit well together with the panel providing a framing for the table. What the user will understand as the table header is actually the panel header, and what technically is the header row of the tables is used to describe the column labels of the table. The image below exemplifies how it might look:
 
 
       <figure class="Image Image__background"><img src="/img/datatabell.png" srcset="/img/datatabell.png 2x" alt="Table with a mixture of text and numbers placed within a panel"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
-      The image also shows the table placed inside a [panel](panel), a very common pattern - especially in Mina Sidor.
+      ### Present data
+
+
+      Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns. 
 
 
       #### Modifiers
@@ -57,6 +57,24 @@ tabs:
       ##### Banded rows
 
 
+      If the contents of your table is such that it you expect the user to want to focus on rows primarily you can help them by adding banded rows. This gives every second row a light grey background designed to discretely help the user follow the contents of a row.
+
+
+      If used together with a summary row, the summary row will have a darker nuance of grey than normally. 
+
+
+      ##### In-table headers
+
+
+      In some cases you might want to divide the information in the table into different segments, and what better way to do that than to use headings? Thus; in-table headers!
+
+
+      LFUI has two styles of headers in-table:
+
+
+      * The primary way is to use sub-headers; a distinct header styling for use in tables. Use this for headers which describe the content below it.
+
+      * You may also repeat the styling of the label-row, and this should thus primarily be used for labels.
 
 
       Siduppdelning:
@@ -68,14 +86,7 @@ tabs:
       ffa för siffror, transaktionshistorik etc. ligger ofta i ett card i mis
 
 
-      *modifiers*\
-
-      *två storlekar: normall/small*
-
-
-      *total*\
-
-      *varannan rad grå (totalraden blir mörkare än annars)*\
+      \
 
       *headings: sub-headers och vanliga*\
 
