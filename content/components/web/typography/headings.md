@@ -18,13 +18,13 @@ tabs:
       ### LF Rubrik - Display H1-H4
 
 
-      LF Rubrik are only used as a H1 and should always be the biggest headline on the page. The H1 should only be used one time per page. 
+      LF Rubrik are only used as a H1 and should always be the biggest headline on the page. The H1 should only be used one time per page.  Used as main page headers. Use the`display-1`through`display-4`classes.
 
 
       ### Intro Cond Bold - H1-H6
 
 
-      The rest of the headlines you should use Intro Cond Bold. It can be used in all sizes from H1-H6.
+      The rest of the headlines you should use Intro Cond Bold. It can be used in all sizes from H1-H6. Use the`<h1>`through`<h6>`, or the classes`.h1`through`.h6`. The headings have margin spacing rules depending on their position in a section.
 
 
       <figure class="Image Image__background"><img src="/img/rubriker-introcond.png" srcset="/img/rubriker-introcond.png 2x" alt="Relationen till varandra är viktigt"><figcaption><div class="Image__caption"></div></figcaption></figure>
