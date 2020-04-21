@@ -63,18 +63,17 @@ tabs:
       If used together with a summary row, the summary row will have a darker nuance of grey than normally. 
 
 
-      ##### In-table headers
+      ##### In-table grouping
 
 
-      In some cases you might want to divide the information in the table into different segments, and what better way to do that than to use headings? Thus; in-table headers!
+      In some cases you might want to divide the information in the table into different groups. Depending on what and how you want so group things, LFUI offers three styles:
 
 
-      LFUI has two styles of headers in-table:
-
-
-      * The primary way is to use sub-headers; a distinct header styling for use in tables. Use this for headers which describe the content below it.
+      * The primary way is to use **sub-headers**; a distinct header styling for use in tables. Use this for headers which describe the content below it.
 
       * You may also repeat the styling of the label-row, and this should thus primarily be used for labels.
+
+      * If you want to show more detailed information in just one cell and using sub-headers doesn't work well you could opt for a **sub-group**. Sub-groups show the first line as a normal cell, and then intendent the remain rows of the cell to give them a feeling of being a sub-group. The main use case for this is to show what is included in a part of an insurance, like "delkasko" in this [car insurance prototype](https://lf-digitala-kanaler.github.io/prototypes/koptjanst-motor/#/Page3?_k=c1fm2b).
 
 
       ##### Expandable rows
