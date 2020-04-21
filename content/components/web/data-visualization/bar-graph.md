@@ -40,6 +40,6 @@ tabs:
 
       **Live exemple:** <https://www.lansforsakringar.se/stockholm/privat/bank/spara/fondkurser/fond/?shortcut=1&id=F00000WYMY>[](https://www.lansforsakringar.se/stockholm/privat/)\
 
-      **Article:** <https://blog.datawrapper.de/area-charts/>
+      **Article:** [](https://blog.datawrapper.de/area-charts/)
     name: Design
 ---
