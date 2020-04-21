@@ -10,6 +10,7 @@
   height: 100%;
   margin-top: var(--spacing-xxlg);
   position: relative;
+
 }
 
 .Tabs__list {
@@ -20,9 +21,12 @@
   @media (--medium-viewport) { 
     margin-left: calc(26% + var(--spacing-xxlg));
     margin-right: var(--spacing-xxlg);
+    padding-left: var(--spacing-md)
   }
+ 
   @media (--xlarge-viewport) { 
     max-width: var(--wrapper-width);
+    
   }
   
 }

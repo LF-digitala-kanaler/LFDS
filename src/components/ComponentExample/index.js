@@ -20,6 +20,7 @@ const ComponentExample = ({variants, background}) => {
   const [height, setHeight] = useState(300);
   const iframeRef =  React.createRef();
   
+  
   const hidden = {
     display: 'none'
   }
@@ -66,7 +67,6 @@ const ComponentExample = ({variants, background}) => {
 		if(isMount){
 			$script.on('load', function(){
 				reload()
-       
 			})
 		}else{
 			reload()
@@ -75,7 +75,7 @@ const ComponentExample = ({variants, background}) => {
 	}
   useEffect(
     () => {
-      let timer = setTimeout(() => handleResize(iframeRef), 400)
+      let timer = setTimeout(() => handleResize(iframeRef))
 
       // this will clear Timeout when component unmont like in willComponentUnmount
       return () => {
@@ -90,7 +90,10 @@ const ComponentExample = ({variants, background}) => {
       iframeRef.current.node.contentDocument &&
       iframeRef.current.node.contentDocument.body.scrollHeight > 300
     ) {
+      
       setHeight(iframeRef.current.node.contentDocument.body.scrollHeight);
+    }else {
+      setHeight(300);
     }
 	}
 
@@ -192,7 +195,7 @@ const ComponentExample = ({variants, background}) => {
             >
             <Content source={`${code}`}  />
             <div style={hidden}>
-              <Content  source={svg} />
+              <Content source={svg} />
             </div>
             </Frame>
           </Preview>

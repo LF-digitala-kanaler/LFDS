@@ -10,17 +10,14 @@ import {useClickAway} from 'react-use';
 export const ComponentVersion = ({version}) => {
   const [isOpen, setOpen] = useState(false);
   const dropdown = useRef(null);
-  const OLDEST_EXISITING_SITE_VERSION = 523;
+  
   const handleOnClick = () => {
     setOpen(!isOpen)
   }
   useClickAway(dropdown, () => {
     setOpen(false)
   });
-  const versionLink = (url) => {
-    url.split('.').join('')
-    console.log(url);
-  }
+  
   const data = useStaticQuery(graphql`
     query version {
       settingsYaml {
@@ -35,16 +32,15 @@ export const ComponentVersion = ({version}) => {
      // get latest version
     const versions = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === version.toLowerCase(); });
     //get all versions
-    console.log(versions.length)
     if(versions.length > 0){
-      const previousVersions = versions[0].bootstrap.changedInVersion.map((item) => {
-        console.log(item.split('.').join(''))
+      const previousVersions = versions[0].bootstrap.changedInVersion.map((item, index) => {
+       
         if(item.split('.').join('') >= data.settingsYaml.firstSavedVersion) {
-          return <li className={style.ComponentVersion__item }>
+          return <li className={style.ComponentVersion__item } key={index}>
             <a target="_black" rel="nofollow noreferrer noopener" className={style.ComponentVersion__link} href={data.settingsYaml.oldSiteUrl + item.split('.').join('')}  aria-label="This is an external link (opens in a new tab)">{item}</a>
           </li>
         }else {
-          return <li className={style.ComponentVersion__item }>
+          return <li className={style.ComponentVersion__item } key={index}>
             <p className={style.ComponentVersion__noLink}>{item}</p>
           </li>
         }
