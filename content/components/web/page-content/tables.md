@@ -39,7 +39,24 @@ tabs:
       #### Modifiers
 
 
-      There are quite a few modifiers available for tables which present data
+      There are quite a few modifiers available for tables which present data. They can all be used in conjunction which each other if you wish to.
+
+
+      ##### Sizing
+
+
+      Tables can be displayed in either **large** or **small** styling. The difference between them is the amount of padding used, meaning that the larger styling is a good suit for tables with less content (only spanning a few rows) and the smaller for tables with much content. From a code perspective the large table is the default, meaning a table will be displayed as large unless you specify it to be small. Type sizes are the same for both stylings.
+
+
+      ##### Summary row
+
+
+      If you're displaying content in which it makes sense to add everything up (like a list of your accounts) you can add a summary row at the bottom of your table. The summary row has a grey background colour with bold text. The label is left-aligned and the summarised value is right-aligned. This means that you should place the amounts you want to add in the rightmost column to align individual values and the summarised value. 
+
+
+      ##### Banded rows
+
+
 
 
       Siduppdelning:
@@ -53,7 +70,10 @@ tabs:
 
       *modifiers*\
 
-      *två storlekar: normall/small*\
+      *två storlekar: normall/small*
+
+
+      *total*\
 
       *varannan rad grå (totalraden blir mörkare än annars)*\
 
