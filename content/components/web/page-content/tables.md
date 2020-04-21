@@ -33,7 +33,7 @@ tabs:
       ### Present data
 
 
-      Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns, as in the example-image above. 
+      Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns, as in the example image above. 
 
 
       #### Modifiers
@@ -104,9 +104,9 @@ tabs:
       Designwise there are some differences to tables for presenting data:
 
 
-      * Rows are always banded
+      * Rows are always banded.
 
-      * The leftmost column features a label of what is described
+      * The leftmost column features a label of what is described.
 
         * If an editor enters an explanation of the label a chevron is added to the right of the label. The behaviour is then as in the [collapse-component](../supportive-microinteractions/collapse); clicking the label or chevron expands a row with the explanatory text.
       * Remaining table cells are filled with green checkboxes or left empty, rather than being filled with data
