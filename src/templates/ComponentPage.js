@@ -22,7 +22,6 @@ export const ComponentPageTemplate = ({
 }) => (
   
   <> 
-    
     { currentDirectory && <Deprecated status={currentDirectory} />}
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} /> 

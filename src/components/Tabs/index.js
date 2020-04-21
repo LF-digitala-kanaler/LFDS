@@ -3,17 +3,20 @@ import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs"
 import style from './index.module.css'
 import Wrapper from '../Wrapper'
 import Content from '../Content'
+import { capitalizeFirstLetter } from '../../utils/CapitalizeFirstLetter';
 
 const TabsWrapper = ({tabs, location, navigate, children}) => {
+
  const [tabName, setTabName] = useState([]);
  const [tabContent, setTabContent] = useState([]); 
  const [index, setTabIndex] = useState(0)
- 
+  
+
  useEffect(() => {
    
     if( tabs && tabs.length > 0) {
       setTabName(tabs.map(item => {
-        return ((item.name?.rawMarkdownBody || item.name))
+        return ((item.name?.rawMarkdownBody.toLowerCase() || item.name.toLowerCase()))
       }))
       setTabContent(tabs.map(item => {
         return ((item.content?.html || item.content))
@@ -26,7 +29,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
     
     if(tabs && tabs.length > 0) {
     setTabName(tabs.map(item => {
-      return ((item.name?.rawMarkdownBody || item.name))
+      return ((item.name?.rawMarkdownBody.toLowerCase() || item.name.toLowerCase()))
     }))
     setTabContent(tabs.map(item => {
       return ((item.content?.html || item.content))
@@ -34,8 +37,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
     }
   },[tabs]);
   useEffect(() => {
-    setTabIndex(tabName.indexOf(location.search.substr(1)))
-    
+    setTabIndex(tabName.indexOf(location.search.substr(1).toLowerCase()))
   });
 
   const onTabsChange = index => 
@@ -47,7 +49,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
       <TabList className={style.Tabs__list}>
         {
           tabName.map((tab, index) => {
-            return <Tab key={index} className={style.Tabs__link}>{tab}</Tab>
+            return <Tab key={index} className={style.Tabs__link}>{capitalizeFirstLetter(tab)}</Tab>
           })
         }
         
