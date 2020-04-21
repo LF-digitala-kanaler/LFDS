@@ -33,7 +33,7 @@ tabs:
       ### Present data
 
 
-      Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns. 
+      Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns, as in the example-image above. 
 
 
       #### Modifiers
