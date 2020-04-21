@@ -66,15 +66,19 @@ tabs:
       * The words with meaning 
 
 
-
-
       ### Linked headline
 
 
       Det är inte så vanligt att huvudrubriken (H1) är länkad men om man vill länka en rubrik så kommer vi använda oss av länkblå "Blue" för att visa att man är klickbar. Vi förtydligar även att rubriken är klickbar genom att ha ett understreck vid hover.
 
 
-      <figure class="Image Image__border"><img src="/img/headings-linked.png" srcset="undefined 2x" alt="Visa hur det ser ut med länkad respektive icke länkad underrubrik."><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__border"><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Visa hur det ser ut med länkad respektive icke länkad underrubrik."><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+      ### Mobile changes
+
+
+      The changes are made a bit different in the different channels.
     name: Design
   - content: content copy
     name: Copy
