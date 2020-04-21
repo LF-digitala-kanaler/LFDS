@@ -30,10 +30,16 @@ tabs:
       Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns. The image below shows an example of this:
 
 
-      <figure class="Image Image__background"><img src="/img/datatabell.png" srcset="undefined 2x" alt="Table with a mixture of text and numbers placed within a panel"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/datatabell.png" srcset="/img/datatabell.png 2x" alt="Table with a mixture of text and numbers placed within a panel"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       The image also shows the table placed inside a [panel](panel), a very common pattern - especially in Mina Sidor.
+
+
+      #### Modifiers
+
+
+      There are quite a few modifiers available for tables which present data
 
 
       Siduppdelning:
