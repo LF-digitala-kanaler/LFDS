@@ -18,6 +18,7 @@
   background-color: transparent;
   cursor: pointer;
   padding:0;
+  outline: 0;
 }
 
 .Actions__circle {

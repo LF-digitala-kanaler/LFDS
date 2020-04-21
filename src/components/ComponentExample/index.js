@@ -75,7 +75,7 @@ const ComponentExample = ({variants, background}) => {
 	}
   useEffect(
     () => {
-      let timer = setTimeout(() => handleResize(iframeRef))
+      let timer = setTimeout(() => handleResize(iframeRef),300)
 
       // this will clear Timeout when component unmont like in willComponentUnmount
       return () => {
