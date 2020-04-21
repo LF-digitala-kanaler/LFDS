@@ -249,6 +249,7 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         options: 
           - { label: "Getting Started", value: "Getting Started" }
+          - { label: "What's New", value: "What's New" }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
@@ -362,6 +363,8 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'buttonsBlock'] }
+          - { label: 'Content', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'buttonsBlock'] }
+ 
   - name: 'homepage'
     label: 'Home Page'
     files:
