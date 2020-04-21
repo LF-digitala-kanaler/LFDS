@@ -291,7 +291,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'imageWithText']  }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'color', 'imageAndText']  }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'

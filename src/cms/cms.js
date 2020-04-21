@@ -15,12 +15,14 @@ import Callout from "./widgets/callout"
 import ColorWidget from "./widgets/color"
 import CollapseWidget from "./widgets/collapse"
 import ButtonsBlock from './widgets/buttonsBlock'
+import ImageAndText from './widget/imageAndText'
 
 CMS.registerEditorComponent(AdvancedImage)
 CMS.registerEditorComponent(Callout)
 CMS.registerEditorComponent(ColorWidget)
 CMS.registerEditorComponent(CollapseWidget)
 CMS.registerEditorComponent(ButtonsBlock)
+CMS.registerEditorComponent(ImageAndText)
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate  {...entry.toJS().data} />
