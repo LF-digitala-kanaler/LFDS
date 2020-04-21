@@ -26,7 +26,7 @@ tabs:
       The rest of the headlines you should use Intro Cond Bold. It can be used in all sizes from H1-H6.
 
 
-      <figure class="Image Image__background"><img src="/img/rubriker-introcond.png" srcset="undefined 2x" alt="Relationen till varandra är viktigt"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/rubriker-introcond.png" srcset="/img/rubriker-introcond.png 2x" alt="Relationen till varandra är viktigt"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## Modifiers
@@ -38,7 +38,32 @@ tabs:
       ### Colors
 
 
-      The H1 always have the color blue. The other h2-h5 have the darker blue thats called navy blue to make a different from when the heading are linked.
+      #### Blue or Navy blue
+
+
+      The H1 always have the color blue. The other h2-h5 have the darker blue thats called navy blue to make a different from when the headings are linked. The H6 have a grey color.
+
+
+      * H1 - Blue
+
+      * H2-H5 = Navy Blue
+
+      * Linked H1-H5 = Blue
+
+
+      #### Red words in headings
+
+
+      We only have red words in the H1 on the page. It is a free choice and not a must. You highlight the word in the heading that is the most important. You can mark more than one word but the words should be following each other (be together). 
+
+
+      * One, two or three words
+
+      * Put the words together
+
+      * The words with meaning 
+
+
 
 
       ### Linked headline
