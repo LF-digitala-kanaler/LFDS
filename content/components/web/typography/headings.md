@@ -48,6 +48,8 @@ tabs:
 
       * H2-H5 = Navy Blue
 
+      * H6 = Grey
+
       * Linked H1-H5 = Blue
 
 
