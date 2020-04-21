@@ -2,7 +2,7 @@ const ImageAndText = {
   id: "imageAndText",
   label: "Image and text",
   fields: [
-    { name: "content", label: "Content", widget: "markdown", editorComponents:['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color']},
+    { name: "content", label: "Content", widget: "markdown"},
     { name: "image", label: "Image", widget: "image"},
     {
       name: "position",
@@ -15,15 +15,16 @@ const ImageAndText = {
       ],
     },
   ],
-  pattern: /^<div class="ImageBlock"><div class="ImageBlock__content">(.*) <\/div><img src="(.*)" alt="" \/><\/div>/,
+  pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">(.*) <\/div><img src="(.*)" alt="" \/><\/div>/,
   fromBlock(match) {
     return {
-      content: match[1],
-      image: match[2],
+      position: match[2],
+      content: match[2],
+      image: match[3],
     }
   },
   toBlock(obj) {
-    return `<div class="ImageBlock"><div class="ImageBlock__content">${obj.content} </div><img src="${obj.mage}"  alt="" /></div>`
+    return `<div class="ImageBlock ${obj.position}"><div class="ImageBlock__content">${obj.content} </div><img src="${obj.image}"  alt="" /></div>`
   },
 }
 

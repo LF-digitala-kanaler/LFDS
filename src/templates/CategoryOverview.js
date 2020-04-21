@@ -8,15 +8,22 @@ import Preamble from '../components/Preamble';
 import CardList from '../components/CardList';
 import Blockquote from '../components/Blockquote';
 import Content from '../components/Content';
+import rehypeReact from "rehype-react"
+import Collapse from '../components/Collapse';
 
+ const renderAst = new rehypeReact({
+    createElement: React.createElement,
+    components: { "collapse": Collapse},
+  }).Compiler
 // Export Template for use in CMS preview
 export const CategoryOverviewTemplate = ({
   title,
   intro,
   blockquote,
   contentAbove,
-  contentBelow,
-  categoryPages
+  categoryPages,
+  body,
+  bodyHtml,
   
 }) => (
    
@@ -26,8 +33,10 @@ export const CategoryOverviewTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
       <Content className="content" source={contentAbove} />   
       { categoryPages && <CardList list={categoryPages} /> }
-      <Content className="content" source={contentBelow} />
-     
+       {bodyHtml
+          ? <div className="Content">{renderAst(body)}</div>
+          : <Content className="Content" source={bodyHtml} />
+        }
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
   </Wrapper>
   </>
@@ -76,7 +85,8 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
         blockquote={page.frontmatter.blockquote}
         categoryPages={children.links}
         contentAbove={page.frontmatter.contentAbove}
-        contentBelow={page.frontmatter.contentBelow}
+        body={page.htmlAst}
+        bodyHtml={page.html}
       />
     </Layout>
   )
@@ -91,6 +101,8 @@ export const pageQuery = graphql`
     
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      htmlAst
+      html
       frontmatter {
         title
         intro

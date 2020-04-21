@@ -291,7 +291,6 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'color', 'imageAndText']  }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
@@ -321,7 +320,8 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color']  }
-      - { label: 'Content', name: 'contentAbove', widget: 'markdown', hint: 'Will be shown above component list', required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color']  }
+      - { label: 'Content below ', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
+
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
@@ -357,8 +357,8 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Template, name: template, widget: hidden, default: IconsPage, value: IconsPage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
-          - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'buttonsBlock'] }
-          - { label: 'Content', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'buttonsBlock'] }
+          - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block',  'buttonsBlock', "imageAndText"] }
+          - { label: 'Content', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage',  'collapse', 'code-block',  'buttonsBlock'] }
  
   - name: 'homepage'
     label: 'Home Page'

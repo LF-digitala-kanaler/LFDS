@@ -15,7 +15,7 @@ import Callout from "./widgets/callout"
 import ColorWidget from "./widgets/color"
 import CollapseWidget from "./widgets/collapse"
 import ButtonsBlock from './widgets/buttonsBlock'
-import ImageAndText from './widget/imageAndText'
+import ImageAndText from './widgets/imageAndText'
 
 CMS.registerEditorComponent(AdvancedImage)
 CMS.registerEditorComponent(Callout)
