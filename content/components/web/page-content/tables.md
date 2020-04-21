@@ -109,26 +109,9 @@ tabs:
       * The leftmost column features a label of what is described
 
         * If an editor enters an explanation of the label a chevron is added to the right of the label. The behaviour is then as in the [collapse-component](../supportive-microinteractions/collapse); clicking the label or chevron expands a row with the explanatory text.
-      * Remaining table cells are filled with green checkboxes or left empty, rather than being filled with data.
+      * Remaining table cells are filled with green checkboxes or left empty, rather than being filled with data
 
-
-      **Jämförande**
-
-
-      när du ska jämföra mellan olika saker. vad ingår?
-
-
-      alltid varannan rad grå\
-
-      text vs gröna bockar/inget  (ex gravidförsäkring som bonus!)
-
-
-      \
-
-      *sticky header* 
-
-
-      *stick bottom på vanliga tabeller*
+      * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
   - name: Code
     content: content
 ---
