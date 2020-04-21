@@ -51,9 +51,13 @@ tabs:
       If you want to show how values differ in different categories, consider a (stacked) bar, column chart or split bars instead. 
 
 
-      ### Read first
+      ## Other material
 
 
-      <https://blog.datawrapper.de/area-charts/>
+      **Sketch file:** LFUXAD Assets/LFUI Graphs.sketch\
+
+      **Live exemple:** <https://www.lansforsakringar.se/stockholm/privat/>\
+
+      **Article:** <https://blog.datawrapper.de/area-charts/>
     name: Design
 ---
