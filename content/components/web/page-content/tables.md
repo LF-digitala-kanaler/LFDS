@@ -95,6 +95,23 @@ tabs:
       <div class="Callout"><strong class="Callout__title">Up for redesign! </strong><p class="Callout__text">As the visual design and behaviour for expandable and clickable rows are the same, we don't provide the user with any good affordance. Both use cases are valid, but the design needs to be separated more.</p></div>
 
 
+      ### Comparative tables
+
+
+      Comparative tables are, as the name suggests, used for comparing things - usually different alternatives of a type of insurance (like [car insurance](https://www.lansforsakringar.se/privat/forsakring/bilforsakring/)). They feature prominently on product pages on the public web, but can in theory be used anywhere. Their main purpose is to give users a visual overview of their options. The various versions to compare between should be placed in the columns.
+
+
+      Designwise there are some differences to tables for presenting data:
+
+
+      * Rows are always banded
+
+      * The leftmost column features a label of what is described
+
+        * If an editor enters an explanation of the label a chevron is added to the right of the label. The behaviour is then as in the [collapse-component](../supportive-microinteractions/collapse); clicking the label or chevron expands a row with the explanatory text.
+      * Remaining table cells are filled with green checkboxes or left empty, rather than being filled with data.
+
+
       **Jämförande**
 
 
@@ -106,11 +123,12 @@ tabs:
       text vs gröna bockar/inget  (ex gravidförsäkring som bonus!)
 
 
-      *modifier*\
+      \
 
-      *expand för läsa mer, chevron*\
+      *sticky header* 
 
-      *sticky header*
+
+      *stick bottom på vanliga tabeller*
   - name: Code
     content: content
 ---
