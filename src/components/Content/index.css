@@ -335,3 +335,22 @@ figure {
   background-color: var(--color-smoke);
   padding: 0 2px;
 }
+
+/* blockqoute */
+
+.Content blockquote p {
+  color: var(--color-gray);
+  font-size: 1.75rem;
+  text-align: center;
+  line-height: 1;
+  margin: var(--spacing-vertical--3) auto ;
+  @media (--small-viewport) { 
+    max-width: 22.25rem;
+  }
+}
+.Blockquote__icon {
+  margin-bottom: var(--spacing-vertical--1);
+}
+.Blockquote__author {
+  font-size: 0.75rem;
+}

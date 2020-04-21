@@ -20,7 +20,7 @@ export const LandingPageTemplate = ({
   
 }) => {
   const state = useContext(GlobalStateContext);
-  return <div className={(state.isMenuOpenDesktop ? 'Container Container--push' : "Container")}>
+  return <div className={(state && state.isMenuOpenDesktop ? 'Container Container--push' : "Container")}>
     <Wrapper tag="div"  narrow >
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />

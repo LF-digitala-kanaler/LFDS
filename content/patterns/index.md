@@ -1,6 +1,7 @@
 ---
 template: LandingPage
 title: Patterns
+background: bg-white
 intro:
   Länsförsäkringar User Interface är vår plattform för vårt Digitala varumärke.
   här guidar vi dig kring hur du kommer igång som en copy, UX, AD eller frontend

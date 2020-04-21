@@ -35,7 +35,7 @@
   display: flex;
   justify-content: center;
   @media (--large-viewport) { 
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   
 }
@@ -68,7 +68,7 @@
   
 }
 .Card--list {
-  margin-bottom: var(--spacing-vertical--2)
+  
 }
 
 
