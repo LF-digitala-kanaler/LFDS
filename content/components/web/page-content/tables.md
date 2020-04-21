@@ -39,7 +39,7 @@ tabs:
       #### Modifiers
 
 
-      There are quite a few modifiers available for tables which present data. They can all be used in conjunction which each other if you wish to.
+      There are quite a few modifiers available for tables which present data. They can all be used in conjunction which each other if you wish to - with the exception for expandable and clickable rows.
 
 
       ##### Sizing
@@ -77,22 +77,22 @@ tabs:
       * You may also repeat the styling of the label-row, and this should thus primarily be used for labels.
 
 
-      Siduppdelning:
+      ##### Expandable rows
 
 
-      **Informativa**
+      Sometimes a table row simply isn't enough for all that rich data. To have a table row expand and show additional data, there's the expandable row. To help the user to see that it is clickable you should make the main text look like a link.
 
 
-      ffa för siffror, transaktionshistorik etc. ligger ofta i ett card i mis
+      When activated a click on the row expands the row and gives you space to show the user more data. As exemplified in the [fund prices page](https://www.lansforsakringar.se/privat/bank/spara/fondkurser/?shortcut=1), you don't need to follow a strict table behaviour in the expanded section.
 
 
-      \
+      ##### Clickable rows
 
-      *headings: sub-headers och vanliga*\
 
-      *expandable-rows*\
+      If you want to add a link to another page in your table you can so with a clickable row. Style the main text as a link to help guide the user. A click anywhere on the row will take the user to the new page.
 
-      *sub-group (kolla upp om denna faktiskt används innan jag skriver!)*
+
+      <div class="Callout"><strong class="Callout__title">Up for redesign! </strong><p class="Callout__text">As the visual design and behaviour for expandable and clickable rows are the same, we don't provide the user with any good affordance. Both use cases are valid, but the design needs to be separated more.</p></div>
 
 
       **Jämförande**
