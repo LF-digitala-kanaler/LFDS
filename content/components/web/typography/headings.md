@@ -6,6 +6,7 @@ description: We have two types of headlines - LF Rubrik and Intro Cond Bold.
 previewImage: /img/headings.svg
 intro: We have two types of headlines - LF Rubrik and Intro Cond Bold.
 backgroundColor: "#fff"
+lang: true
 tabs:
   - content: >-
       ## How to use
