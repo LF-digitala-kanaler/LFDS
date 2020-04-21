@@ -79,7 +79,10 @@ tabs:
       ### Mobile changes
 
 
-      The changes are made a bit different in the different channels.
+      The changes are made a bit different in the different channels. En tumregel är att starta med H3 Display som H1 och jobba med relationerna neråt mot H6.
+
+
+      Vore bra och få in förslag här på vad vi tycker är bra riktmärke.
     name: Design
   - content: content copy
     name: Copy
