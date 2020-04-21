@@ -69,7 +69,7 @@ tabs:
       ### Linked headline
 
 
-      Det är inte så vanligt att huvudrubriken (H1) är länkad men om man vill länka en rubrik så kommer vi använda oss av länkblå för att visa att man är klickbar. Vi förtydligar även att rubriken är klickbar genom att ha ett understreck vid hover.
+      Det är inte så vanligt att huvudrubriken (H1) är länkad men om man vill länka en rubrik så kommer vi använda oss av länkblå "Blue" för att visa att man är klickbar. Vi förtydligar även att rubriken är klickbar genom att ha ett understreck vid hover.
     name: Design
   - content: content copy
     name: Copy
