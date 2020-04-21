@@ -5,6 +5,7 @@ category: Button and Links
 title: Buttons
 description: Buttons are used as a part of a flow, and is the component which
   the user clicks to make progress in said flow.
+previewImage: /img/button-primary.svg
 intro: Buttons are used as a part of a flow, and is the component which the user
   clicks to make progress in said flow.
 tabs:
