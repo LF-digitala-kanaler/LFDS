@@ -9,7 +9,7 @@ specialIconsContent: >-
   ## Special sizes icons
 
 
-  These icons are used in specific content today. We try to minimize the use of these special sizes so don't use them in new design.  
+  These icons are used in specific content today. We try to minimize the use of these special sizes so don't use them in new design. 
 
 
   <article>
