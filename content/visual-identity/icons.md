@@ -14,7 +14,7 @@ specialIconsContent: >-
 
   <article>
 
-  <div class='ButtonContent'></div>
+  <div class='ButtonContent'>xs</div>
 
   </article>
 ---
