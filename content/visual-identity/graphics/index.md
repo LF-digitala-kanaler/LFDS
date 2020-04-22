@@ -10,3 +10,9 @@ meta:
   description: This is a meta description.
   title: LFUI
 ---
+<section>
+<Collapse title="test"><div class="content">
+
+test
+</div></Collapse>
+</section>
