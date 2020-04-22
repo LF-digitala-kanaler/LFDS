@@ -2,7 +2,7 @@ import Immutable from 'immutable';
 const ButtonsBlock = {
   id: "buttonsBlock",
   label: "Buttons Block",
-  pattern: /<div class='ButtonContent'>[^]*?<\/div>/,
+  pattern: /<div class='ButtonContent'>[^]*?<\/div>/s,
   fields: [{
         label: "Button",
         name: "buttons",
@@ -21,9 +21,9 @@ const ButtonsBlock = {
     
     fromBlock: function(match) {
       
-     console.log(match)
-     
-      const buttonArray = match.split(/<\s*Button(.*?)\s*/);
+      let matches = match[0].substring(match[0].indexOf("\n") + 1);
+      matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
+      const buttonArray = matches.split(/<div class="ButtonContent__item">(.*)<\/div>/);
       console.log(buttonArray, 'array')
      
       const items = buttonArray.map(function(item, index) {
@@ -47,7 +47,7 @@ const ButtonsBlock = {
       console.log(obj, 'obj')
       const items = Immutable.fromJS(obj.buttons || []).map(function(item, index) {
        
-        return `<Button href="${item.get("href")}" text="${item.get("text")}" />`
+        return `<div class="ButtonContent__item"><a class="button">href="${item.get("href")}">${item.get("text")}</a></div>`
       });
       console.log(items)
       // const content = Immutable.fromJS(obj.button.content);

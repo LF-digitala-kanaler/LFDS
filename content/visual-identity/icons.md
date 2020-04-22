@@ -21,7 +21,6 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 
 [Resources at Röda rummet](test)
 
-<div class='ButtonContent'><Button href="ett" text="ett" />
-<Button href="två" text="två " /></div>
+
 
 ## Icons in LFUI
