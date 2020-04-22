@@ -11,6 +11,7 @@ meta:
   title: LFUI
 ---
 <div class="ImageBlock ImageBlock__left"><div class="ImageBlock__content">
-### test
 
-cdcdcd</div><img src="/img/avatar.svg" alt="" /></div>
+## heading
+
+test</div><img src="undefined" alt="" /></div>
