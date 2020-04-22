@@ -15,16 +15,16 @@ const ImageAndText = {
       ],
     },
   ],
-  pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">(.*) <\/div><img src="(.*)" alt="" \/><\/div>/,
+  pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">(.*)<\/div><img src="(.*)" alt="" \/><\/div>/,
   fromBlock(match) {
     return {
-      position: match[2],
+      position: match[1],
       content: match[2],
       image: match[3],
     }
   },
   toBlock(obj) {
-    return `<div class="ImageBlock ${obj.position}"><div class="ImageBlock__content">${obj.content} </div><img src="${obj.image}"  alt="" /></div>`
+    return `<div class="ImageBlock ${obj.position}"><div class="ImageBlock__content">${obj.content}</div><img src="${obj.image}" alt="" /></div>`
   },
 }
 

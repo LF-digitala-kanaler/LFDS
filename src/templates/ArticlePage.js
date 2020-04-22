@@ -33,6 +33,7 @@ export const ArticlePageTemplate = ({
         <HeroBlock background={heroBlock.color} quote={heroBlock.quote} cite={heroBlock.cite} />
       }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} >
+        
         {bodyHtml
           ? <div className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--narrow"}`}>{renderAst(body)}</div>
           : <Content className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--narrow"}`} source={bodyHtml} />

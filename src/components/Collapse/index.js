@@ -5,7 +5,6 @@ import style from './index.module.css';
 const Collapse = ({title, children}) => {
   const [active, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
-  console.log(children)
   const ref = useRef(null);
 
   const toggleCollapse = () => {
