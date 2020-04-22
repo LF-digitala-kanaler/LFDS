@@ -12,6 +12,4 @@ meta:
 ---
 <div class="ImageBlock ImageBlock__left"><div class="ImageBlock__content">
 
-## heading
-
-test</div><img src="undefined" alt="" /></div>
+cdcdcd</div><img src="/img/avatar.svg" alt="" /></div>
