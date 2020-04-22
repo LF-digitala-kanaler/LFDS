@@ -180,7 +180,10 @@ figure {
     width: calc(var(--content-width) - 32px);
   }
 } 
-
+.Content--normal .Image {
+  margin-bottom: 0;
+  margin-top: var(--spacing-vertical--2)
+}
 /* hack to get content inside wide to be narrow */
 
 .Content--normal > div >*:not(section) {
@@ -337,9 +340,34 @@ figure {
   padding: 0 2px;
 }
 
+.Content--normal .content {
+  max-width: var(--content-width--tight);
+}
 /* Image block styling */
 
 .ImageBlock {
   display: flex;
+  flex-wrap: wrap-reverse;
   width: 100%;
+  @media (--xsmall-viewport) { 
+    flex-wrap: nowrap;
+  }
+}
+.ImageBlock__content {
+  max-width: var(--content-width--tight)
+}
+.Content .ImageBlock__content > * {
+  margin-top: 0;
+}
+
+.ImageBlock__object  {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto var(--spacing-vertical--2);
+  @media (--xsmall-viewport) { 
+    margin: 0;
+  }
+}
+.ImageBlock__image {
+  margin-top: 0;
 }

@@ -3,7 +3,6 @@ const ImageAndText = {
   label: "Image and text",
   fields: [
     { name: "content", label: "Content", widget: "markdown"},
-    { name: "image", label: "Image", widget: "image"},
     {
       name: "position",
       label: "Position",
@@ -14,8 +13,9 @@ const ImageAndText = {
         { label: "Image ot the right", value: "ImageBlock__right" }
       ],
     },
+    { name: "image", label: "Image", widget: "image"},
   ],
-  pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">\n\n(.*)<\/div><img src="(.*)" alt="" \/><\/div>/s,
+  pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">\n\n(.*)<\/div><div class="ImageBlock__object"><img class="ImageBlock__image" src="(.*)" alt="" \/><\/div><\/div>/s,
   fromBlock(match) {
     return {
       position: match[1],
@@ -24,7 +24,7 @@ const ImageAndText = {
     }
   },
   toBlock(obj) {
-    return `<div class="ImageBlock ${obj.position}"><div class="ImageBlock__content">\n\n${obj.content}</div><img src="${obj.image}" alt="" /></div>`
+    return `<div class="ImageBlock ${obj.position}"><div class="ImageBlock__content">\n\n${obj.content}</div><div class="ImageBlock__object"><img class="ImageBlock__image" src="${obj.image}" alt="" /></div></div>`
   },
 }
 

@@ -1,3 +1,6 @@
+section .Collapse:last-of-type  {
+  margin-bottom: var(--spacing-vertical--3)
+}
 .Collapse {
   border-bottom: 2px solid var(--color-border);
 }
@@ -65,13 +68,14 @@
 .Collapse__content {
   overflow: hidden;
   transition: max-height 0.3s ease;
+  position: relative;
 }
 
 .Collapse__inner {
   padding: var(--spacing-sm) 0 var(--spacing-xxlg);
-  max-width:var(--content-width--tight);
+  max-width: 100%;
 }
 
-.Collapse img {
-  margin-top: var(--spacing-vertical--2);
+.Collapse p:last-of-type {
+  margin: 0;
 }
