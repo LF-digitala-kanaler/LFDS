@@ -21,14 +21,8 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 
 [Resources at Röda rummet](test)
 
-<div class="ButtonBlock"><div class="ButtonBlock__content">
+<article>
 
-## Resources
-
-In the LFUI-icon.sketch document you will find all the icons ranging from 24 to 70px. These icons are optimized for digital use, correct RGB values and the 2px stroke.
-
-If you cant find the right icon for your use case, check out "Röda rummet" for further resources. 
-
-[Resources at Röda rummet](test)<div><div class="ButtonBlock__buttons"><a href="http://www.google.se" role="button">Download LFUI-icons SVG<a><a href="test" role="button">test<a><a href="undefined" role="button">undefined<a><div><div>
+</article>
 
 ## Icons in LFUI
