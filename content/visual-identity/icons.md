@@ -14,7 +14,7 @@ specialIconsContent: >-
 
   <article>
 
-  <div class='ButtonContent'>xs</div>
+  <div class='ButtonContent'>undefined</div>
 
   </article>
 ---
