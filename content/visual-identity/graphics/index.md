@@ -9,4 +9,17 @@ intro: Länsförsäkringar User Interface är vår plattform för vårt Digitala
 meta:
   description: This is a meta description.
   title: LFUI
+contentBelow: >-
+  <section>
+
+  <Collapse title="test"><div class="content">
+
+  <div class="ImageBlock ImageBlock__left"><div class="ImageBlock__content">## heading
+
+
+  text</div><img src="/img/alert.svg" alt="" /></div>
+
+  </div></Collapse>
+
+  </section>
 ---
