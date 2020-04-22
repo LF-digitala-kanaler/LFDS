@@ -13,6 +13,8 @@ meta:
 <section>
 <Collapse title="test"><div class="content">
 
-test
+<div class="ImageBlock ImageBlock__left"><div class="ImageBlock__content">## text
+
+vffvf</div><img src="undefined" alt="" /></div>
 </div></Collapse>
 </section>
