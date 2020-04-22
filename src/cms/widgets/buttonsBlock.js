@@ -2,12 +2,8 @@ import Immutable from 'immutable';
 const ButtonsBlock = {
   id: "buttonsBlock",
   label: "Buttons Block",
-  pattern: /<article><div class='ButtonContent'><\/div>[^]*?<\/article>/,
+  pattern: /<div class='ButtonContent'>[^]*?<\/div>/,
   fields: [{
-      label: "Button Block", name: "button", widget: "object",
-      fields: [
-        // {label: "Text", name: "content", widget: "markdown", editorComponents:['callout', 'advancedImage', 'code', 'code-block', 'color']},
-        {
         label: "Button",
         name: "buttons",
         widget: "list",
@@ -22,11 +18,10 @@ const ButtonsBlock = {
           widget: "string",
         }],
     }], 
-    }],
     
     fromBlock: function(match) {
       
-     
+     console.log(match)
      
       const buttonArray = match.split(/<\s*Button(.*?)\s*/);
       console.log(buttonArray, 'array')
@@ -42,7 +37,6 @@ const ButtonsBlock = {
       console.log(items, 'buttonA')
       const obj = {
         buttons: Immutable.fromJS(items),
-        // content: match[1],
       }
       
       return obj;
@@ -51,15 +45,15 @@ const ButtonsBlock = {
 
     toBlock: (obj) => {
       console.log(obj, 'obj')
-      const items = Immutable.fromJS(obj.button || []).map(function(item, index) {
+      const items = Immutable.fromJS(obj.buttons || []).map(function(item, index) {
        
-        return `<Button href="${item.get("href")}" text="${item.get("text")}"  />`
+        return `<Button href="${item.get("href")}" text="${item.get("text")}" />`
       });
       console.log(items)
       // const content = Immutable.fromJS(obj.button.content);
       // console.log(content, 'cont')
 
-      return `<article><div class='ButtonContent'></div>${items.join("\n")}</article>`;
+      return `<div class='ButtonContent'>${items.join("\n")}</div>`;
     },
 
 
