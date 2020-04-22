@@ -10,9 +10,7 @@ meta:
   description: This is a meta description.
   title: LFUI
 ---
-<section>
-<Collapse title="cecd"><div class="content">
+<div class="ImageBlock ImageBlock__left"><div class="ImageBlock__content">
+### test
 
-<div class="ImageBlock ImageBlock__left"><div class="ImageBlock__content">cdcd</div><img src="/img/alert.svg" alt="" /></div>
-</div></Collapse>
-</section>
+cdcdcd</div><img src="/img/avatar.svg" alt="" /></div>
