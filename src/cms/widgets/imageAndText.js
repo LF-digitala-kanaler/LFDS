@@ -15,7 +15,7 @@ const ImageAndText = {
       ],
     },
   ],
-  pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">(.*)<\/div><img src="(.*)" alt="" \/><\/div>/,
+  pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">\n\n(.*)<\/div><img src="(.*)" alt="" \/><\/div>/s,
   fromBlock(match) {
     return {
       position: match[1],
@@ -24,7 +24,7 @@ const ImageAndText = {
     }
   },
   toBlock(obj) {
-    return `<div class="ImageBlock ${obj.position}"><div class="ImageBlock__content">${obj.content}</div><img src="${obj.image}" alt="" /></div>`
+    return `<div class="ImageBlock ${obj.position}"><div class="ImageBlock__content">\n\n${obj.content}</div><img src="${obj.image}" alt="" /></div>`
   },
 }
 

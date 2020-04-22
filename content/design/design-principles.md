@@ -22,7 +22,7 @@ För att efterlikna det personliga mötet ska vi använda oss av våra hörnsten
 3. **Kontroll** – Jag ska få överblick och kontroll, se vad jag har och inte har för produkter vad jag behöver
 
 <section>
-<Collapse title="Upplevelsen är utformad för denna kanal"><div class="content">Våra kunder **kontaktar oss** på det sätt som de anser passar dem bäst, det innebär att vi måste möta dem enligt de förväntningar som finns på det kontaktsättet. 
+<Collapse title="Upplevelsen är utformad för denna kanal"><div class="content">Våra kunder <strong>kontaktar oss</strong> på det sätt som de anser passar dem bäst, det innebär att vi måste möta dem enligt de förväntningar som finns på det kontaktsättet. 
 
 Det innebär att våra webblösningar är responsiva, våra appar följer de mönster som finns för det operativssystem som kunden har och att koden följer våra tillgänglighetsriktlinjer.
 

@@ -332,8 +332,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: CategoryOverview, value: CategoryOverview }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: 'contentBelow', widget: 'markdown', hint: 'Will be shown below component list', required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color']  }
-      - { label: 'Content below ', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
 
       - label: 'Blockquote'
         name: 'blockquote'
