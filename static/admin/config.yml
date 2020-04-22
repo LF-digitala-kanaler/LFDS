@@ -42,7 +42,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Tables", value: "Tables" }
         - { label: "Typography", value: "Typography" }
       - { label: Title, name: title, widget: string }
-      - { label: Component Description, name: description, widget: text, hint: Will be shown on Component Group page}
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}
       - label: Preview Image
         name: previewImage
         widget: image
@@ -89,6 +89,11 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }
           - { label: "Motion", value: "Motion" }
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        required: false
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
@@ -140,7 +145,11 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         options: 
           - { label: "General Patterns", value: "General Patterns" }
-        
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        required: false
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page} 
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
@@ -192,7 +201,11 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         options: 
           - { label: "Graphics", value: "Graphics" }
-        
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        required: false
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}  
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - label: Hero block

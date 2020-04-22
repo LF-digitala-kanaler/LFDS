@@ -8,7 +8,6 @@ previewImage: /img/paragraph.svg
 intro: Brödtexten används på alla ställen där man inte vill ha en rubrik eller
   fet text.
 backgroundColor: "#f3f3f3"
-lang: true
 tabs:
   - content: >-
       ## How to use
