@@ -5,7 +5,6 @@ const ButtonsBlock = {
   pattern: /<article>[^]*?<\/article>/,
 
     fields: [{
-      label: "Text", name: "content", widget: "markdown", editorComponents:['callout', 'advancedImage', 'code', 'code-block', 'color'],
       label: "Button",
       name: "button",
       widget: "list",
@@ -22,7 +21,7 @@ const ButtonsBlock = {
     }],
     
     fromBlock: function(match) {
-      // console.log(match)
+      console.log(match)
       let matches = match[0].substring(match[0].indexOf("\n") + 1);
       matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
       const buttonArray = matches.split(/(?=<Button)/g);
@@ -31,8 +30,8 @@ const ButtonsBlock = {
         // console.log(item, 'items')
         return {
           // content: item.match(/<span class="ButtonContent">(.*)<\/span>/)[1],
-          text: item.match(/text="(.*?)"/)[1],
-          href: item.match(/href="(.*?)"/)[1],
+          text: item.match(/text="(.*)"/)[1],
+          href: item.match(/href="(.*)"/)[1],
           
         }
        

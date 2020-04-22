@@ -6,7 +6,8 @@
   }
 }
 
-.Content p {
+.Content p,
+.Content ul li {
   font-size: var(--font-size-small);
   line-height: 1.429;
   @media (--small-viewport) { 
@@ -85,7 +86,7 @@
   margin-left: var(--spacing-unit);
 }
 .Content ul li {
-  margin-bottom: var(--spacing-vertical--05)
+  margin-bottom: var(--spacing-vertical--05);
 }
 .Content ul li::before {
   content: "\0025A0";  
