@@ -2,7 +2,7 @@ import Immutable from 'immutable';
 const ButtonsBlock = {
   id: "buttonsBlock",
   label: "Buttons Block",
-  pattern: /<article><div class='ButtonContent'><\/div>[^]*?<\/article>/gs,
+  pattern: /<article><div class='ButtonContent'><\/div>[^]*?<\/article>/,
   fields: [{
       label: "Button Block", name: "button", widget: "object",
       fields: [
@@ -25,11 +25,12 @@ const ButtonsBlock = {
     }],
     
     fromBlock: function(match) {
-      console.log(match)
+      
       let matches = match[0].substring(match[0].indexOf("\n") + 1);
       matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 );
+      console.log(matches, 'matches')
       const buttonArray = matches.split(/<\s*Button(.*?)\s*/);
-      
+      console.log(buttonArray, 'array')
      
       const items = buttonArray.map(function(item, index) {
         
