@@ -2,7 +2,7 @@ import Immutable from 'immutable';
 const ButtonsBlock = {
   id: "buttonsBlock",
   label: "Buttons Block",
-  pattern: /<article>[^]*?<\/article>/,
+  pattern: /<article>\n<div class='ButtonContent'>(.*)<\/div>\n<\/article>/s,
   fields: [{
       label: "Button Block", name: "buttons", widget: "object",
       fields: [
@@ -21,42 +21,41 @@ const ButtonsBlock = {
           name: "href",
           widget: "string",
         }],
-      }], 
+    }], 
     }],
     
     fromBlock: function(match) {
-      console.log(match)
+      console.log(match[1])
       let matches = match[0].substring(match[0].indexOf("\n") + 1);
-      matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
+      matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 );
       const buttonArray = matches.split(/(?=<Button)/);
-      // console.log(buttonArray, 'array')
-      
       const items = buttonArray.map(function(item, index) {
-        // console.log(item, 'items')
+        
         return {
-          text: item.match(/text="(.*?)"/)[1],
-          href: item.match(/href="(.*?)"/)[1],
+          text: item.match(/text="(.*)"/)[1],
+          href: item.match(/href="(.*)"/)[1],
           
         }
        
       });
+      
       const obj = {
-        content: match[1],
-        button: Immutable.fromJS(items)
+        buttons: Immutable.fromJS(match[1]),
+        buttons: Immutable.fromJS(items)
       }
-      console.log(obj)
+      
       return obj;
     },
 
 
-    toBlock: function(obj) {
-      console.log(obj)
+    toBlock: (obj) => {
+      console.log(obj, 'obj')
       const items = Immutable.fromJS(obj.button || []).map(function(item, index) {
         return `<Button href="${item.get("href")}" text="${item.get("text")}"  />`
       });
       // console.log(items)
 
-      return "<article>\n<div class='ButtonContent'>"+ obj.content + "</div>" + items.join("\n") + "\n</article>";
+      return `<article>\n<div class='ButtonContent'>${obj.buttons.content}</div> ${items.join("\n")} \n</article>`;
     },
 
 
