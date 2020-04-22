@@ -26,10 +26,9 @@ const ButtonsBlock = {
     
     fromBlock: function(match) {
       
-      let matches = match[0].substring(match[0].indexOf("\n") + 1);
-      matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 );
-      console.log(matches, 'matches')
-      const buttonArray = matches.split(/<\s*Button(.*?)\s*/);
+     
+     
+      const buttonArray = match.split(/<\s*Button(.*?)\s*/);
       console.log(buttonArray, 'array')
      
       const items = buttonArray.map(function(item, index) {
@@ -52,10 +51,11 @@ const ButtonsBlock = {
 
     toBlock: (obj) => {
       console.log(obj, 'obj')
-      const items = Immutable.fromJS(obj.buttons || []).map(function(item, index) {
+      const items = Immutable.fromJS(obj.button || []).map(function(item, index) {
        
         return `<Button href="${item.get("href")}" text="${item.get("text")}"  />`
       });
+      console.log(items)
       // const content = Immutable.fromJS(obj.button.content);
       // console.log(content, 'cont')
 
