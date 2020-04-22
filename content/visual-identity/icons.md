@@ -6,8 +6,7 @@ intro: We use icons to explain, clarify and sometimes display emotions ;). Our
   Icons scale with different amounts of details according to size.The
   consistency of the strokes are imperitave for recognition.
 specialIconsContent: >-
-  <article><div class='ButtonContent'></div><Button href="undefined"
-  text="undefined"  /></article>
+
 
 
   ## Special sizes icons
