@@ -10,8 +10,6 @@ specialIconsContent: >-
 
 
   These icons are used in specific content today. We try to minimize the use of these special sizes so don't use them in new design.   d
-
-
 ---
 <figure class="Image Image__border Image__border--noPadding"><img src="/img/icons.jpg" srcset="/img/icons.jpg 2x" alt=""><figcaption><div class="Image__caption">How the icons scale.</div></figcaption></figure>
 
@@ -23,5 +21,7 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 
 [Resources at Röda rummet](test)
 
+<div class='ButtonContent'><Button href="ett" text="ett" />
+<Button href="två" text="två " /></div>
 
 ## Icons in LFUI
