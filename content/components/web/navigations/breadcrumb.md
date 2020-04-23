@@ -51,7 +51,15 @@ tabs:
       * To prevent screen reader announcement of the visual separators between
       links, they are added via CSS
 
-      * `aria-current="page"` is applied to the last link in the set to
-      indicate that it represents the current page.
+      * `aria-current="page"` is applied to the last link in the set to indicate
+      that it represents the current page.
     name: Code
+  - content: >-
+      ## Så skriver vi
+
+
+      Breadcrumbs ska spegla sidan användaren är på. Kort och koncist, tänk som
+      i menyn.
+    name: Copy
 ---
+
