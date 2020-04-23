@@ -284,10 +284,10 @@ tabs:
       användaren måste fylla i fältet.
 
 
-      #### Vanliga labels
+      ### Vanliga labels
 
 
-      ##### Personnummer
+      #### Personnummer
 
 
       <figure class="Image Image__background"><img
@@ -298,7 +298,7 @@ tabs:
       class="Image__caption"></div></figcaption></figure>
 
 
-      Placeholder: ååååmmdd-nnnn(visst är det så?)\
+      Placeholder: ååååmmdd-nnnn\
 
       Hjälptext (Länk): Så behandlar vi personuppgifter
 
@@ -306,22 +306,22 @@ tabs:
       Valideringstext: Fyll i personnummer
 
 
-      ###### Namn
+      #### Namn
 
 
       Valideringstext: Fyll i namn
 
 
-      **Text:** Telefonnummer
+      #### Telefonnummer/Mobilnummer
 
 
-      Placeholder: 070-1231234
+      Placeholder (om det måste skrivas med ett speciellt format): 070-xxxxxxx
 
 
       Valideringstext: Fyll i telefonnummer
 
 
-      **Text:** E-post
+      #### E-post
 
 
       Placeholder: namn@mejladress.se
@@ -330,7 +330,8 @@ tabs:
       Valideringstext: Fyll i e-posadressen
 
 
-      **Text:** Bekräfta e-post\
+      ##### Bekräfta e-post
+
 
       Placeholder: namn@mejladress.se
 
@@ -338,7 +339,8 @@ tabs:
       Valideringstext: Bekräfta e-postadressen
 
 
-      **Text:** Adress\
+      #### Adress
+
 
       Placeholder: Kungsgatan 1
 
@@ -346,19 +348,19 @@ tabs:
       Valideringstext: Fyll i gatuadressen
 
 
-      **Text:** Betalsätt
+      #### Betalsätt
 
 
       Valideringstext: Välj betalsätt
 
 
-      **Text:** Jag vill betala varje
+      #### **J**ag vill betala varje
 
 
       Valideringstext: Välj ett alternativ
 
 
-      **Text:** Person-/organisationsnummer
+      #### Person-/organisationsnummer
 
 
       Placeholder: 19800101-0101
@@ -367,19 +369,24 @@ tabs:
       Valideringstext: Fyll i person- eller organisationsnummer
 
 
-      **Text:** Företag/organisation
+      #### Företag/organisation
 
 
       Valideringstext: Företags- eller organisationsnamn
 
 
-      **Text:** Registreringsnummer
+      #### Registreringsnummer
 
 
       Placeholder: ABC123
 
 
-      Valideringstext: Fyll i registreringsnummer
+      Valideringstext tomt: Fyll i regnr. Ring oss om fordonet saknar svenskt
+      regnr.
+
+
+      Valideringstext fel format: Skriv regnr i format XXXNNN eller XXXNNX. Ring
+      oss om fordonet saknar svenskt regnr.
 
 
       **Text:** Betalsätt
