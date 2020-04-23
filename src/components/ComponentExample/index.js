@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect }  from 'react';
 import Frame from 'react-frame-component';
-import css from '!!raw-loader!lfui-components/dist/lfui/lfui.css'; 
+import css from '!!raw-loader!lfui-components/dist/docs/docs.css'; 
 import svg from '!!raw-loader!lfui-components/dist/lfui/icons.svg'; 
 import Preview from '../Preview';
 import Actions from '../Actions'
