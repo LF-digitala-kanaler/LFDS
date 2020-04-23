@@ -137,9 +137,12 @@ const ComponentExample = ({variants, background}) => {
                 <>
 
                 <style>
-                  
+
                   {
                     `
+                    body {
+                      font-family: arial;
+                    }
                     @font-face {
                       font-family: 'LF Rubrik';
                       src:

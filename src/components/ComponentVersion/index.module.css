@@ -1,9 +1,8 @@
 
 .ComponentVersion {
-  position: absolute; 
-  top: 3.4rem;
-  right: var(--spacing-md);
   color: var(--color-grey);
+  position: relative;
+  top: calc(-1* var(--spacing-vertical--1));
 }
 
 .ComponentVersion__button {
@@ -25,21 +24,11 @@
   transform: rotate(180deg);
 }
 .ComponentVersion__dropdown {
-  position: absolute;
   width: 100%;
-  border: 2px solid var(--color-border);
-  border-width: 2px 2px 0 2px;
-  background-color: var(--color-white);
-  z-index: 10;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .25s linear,transform .12s cubic-bezier(0,0,0.2,1);
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
 
-.ComponentVersion__dropdown--active {
-  visibility: visible;
-  opacity: 1;
-}
 .ComponentVersion__icon {
   margin-left: 4px;
 }
@@ -58,16 +47,11 @@
 }
 .ComponentVersion__noLink {
   text-decoration: none;
-  color: var(--color-black);
-  padding: var(--spacing-xs) var(--spacing-sm);
-  display: block;
+  color: var(--color-grey);
+  margin-top: 5px;
+  display: inline-block;
   width: 100%;
   margin-bottom: 0;
-  cursor: not-allowed;
-  &:hover {
-    background-color: var(--color-smoke);
-    color: var(--color-black);
-  }
 }
 
 .ComponentVersion__list {
@@ -76,23 +60,15 @@
   margin: 0;
 }
 
-.ComponentVersion__item {
-  border-bottom: 2px solid var(--color-border);
-}
-
 .ComponentVersion__link {
   text-decoration: none;
   color: var(--color-black);
-  padding: var(--spacing-xs) var(--spacing-sm);
-  display: block;
+  margin-top: 5px;
+  display: inline-block;
   width: 100%;
+  vertical-align: middle;
   &:hover {
-    background-color: var(--color-smoke);
     color: var(--color-black);
   }
 }
-.ComponentVersion__link--focused{
-  background-color: var(--color-smoke);
-  color: var(--color-black);
-  
-}
+
