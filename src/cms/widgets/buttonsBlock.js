@@ -23,7 +23,7 @@ const ButtonsBlock = {
       
       let matches = match[0].substring(match[0].indexOf("\n") + 1);
       matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
-      const buttonArray = matches.split(/<div class="ButtonContent__item">(.*)<\/div>/);
+      const buttonArray = matches.split(/<div class="ButtonContent__item">(.*)<\/div>/s);
       console.log(buttonArray, 'array')
      
       const items = buttonArray.map(function(item, index) {
