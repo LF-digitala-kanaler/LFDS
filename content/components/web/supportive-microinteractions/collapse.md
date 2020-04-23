@@ -119,4 +119,18 @@ tabs:
       itself. *(source:
       [bootstrap](https://getbootstrap.com/docs/4.0/components/collapse/#accessibility))*
     name: Code
+  - content: >-
+      ## Så skriver vi
+
+
+      Skriv inte "Läs mer".
+
+
+      Beskriv gärna vad det är som finns i innehållet, både ur ett SEO- och
+      tillgänglighetsperspektiv. 
+
+
+      Skriv hellre: "Mer om helförsäkringen"
+    name: Copy
 ---
+

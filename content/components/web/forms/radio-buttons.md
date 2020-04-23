@@ -144,4 +144,16 @@ tabs:
       If you have more than five options you are probably better off using a
       [dropdown](../dropdown).
     name: Design
+  - content: |-
+      ## Så skriver vi
+
+      Exempel på copy för Button group
+
+      #### Betalsätt
+
+      Valideringstext: Välj ett betalsätt
+
+      ****
+    name: Copy
 ---
+
