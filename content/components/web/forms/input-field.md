@@ -389,12 +389,6 @@ tabs:
       oss om fordonet saknar svenskt regnr.
 
 
-      **Text:** Betalsätt
-
-
-      Valideringstext: Välj ett betalsätt
-
-
       **Text:** Skicka e-fakturan till
 
 
