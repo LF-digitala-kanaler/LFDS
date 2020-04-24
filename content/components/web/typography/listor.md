@@ -32,16 +32,29 @@ tabs:
       * Link lists
 
 
+      A common question with lists are:
+
+
+      Where to put a **link in a list?** Man kan länka i en punktlista. Vår huvudregel är ju att inte bryta av en text med länkar och att de ska placeras under ett stycke men i detta fall kan användaren ha svårt att koppla ihop vilken länk som tillhör vilken punkt i listan, så därför är regeln här om inte listan leder till en action att bistå varje punkt med sin länk. 
+
+
+      Where to put the **external icon in a link list**? You can read more about that in the specifik link list part below.
+
+
       ### List with dots
 
-
-      Text om...
-
+       Can also be called bulleted list. Bulleted lists attract attention, support scanning, shorten text, and reveal the relationship of items. 
 
       ### List with numbers
 
 
       Text om...
+
+
+      #### Modifier
+
+
+      Lägg till om big numer m
 
 
       ### List with checkmars
@@ -50,16 +63,10 @@ tabs:
       Text om...
 
 
-      ### Big number lists
+      #### Modifier
 
 
-      Text om...
-
-
-      ### Big checkmarks
-
-
-      Text om...
+      Lägg till om big checkmark m
 
 
       ### Link lists
@@ -73,10 +80,6 @@ tabs:
       ## Modifers all lists
 
 
-      ### Links in lists
-
-
-      Man kan länka i en punktlista. Vår huvudregel är ju att inte bryta av en text med länkar och att de ska placeras under ett stycke men i detta fall kan användaren ha svårt att koppla ihop vilken länk som tillhör vilken punkt i listan, så därför är regeln här om inte listan leder till en action att bistå varje punkt med sin länk. 
 
 
       ### List spacing[](https://lf-digitala-kanaler.github.io/LFUI/650/#/type#list-spacing)
