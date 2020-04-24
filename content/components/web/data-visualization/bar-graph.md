@@ -28,7 +28,6 @@ tabs:
 
         * This leads to bar charts not being recommended if you expect the difference between the various bars to be small, as it will be hard for the user to read the chart and gain any meaningful insights from it.
 
-
       ### Legends and colors
 
 
@@ -41,9 +40,11 @@ tabs:
       ## Other material
 
 
-      **Sketch file:** LFUXAD Assets/LFUI Graphs.sketch (Bar Chart)\
+      **Sketch file:** LFUXAD Assets/LFUI Graphs.sketch (Bar Chart)
 
-      **Live example:** Under the heading "Avkastning och risk" on <https://www.lansforsakringar.se/stockholm/privat/bank/spara/fondkurser/fond/?shortcut=1&id=F00000WYMY>
+
+      **Live example:** Under the heading "Avkastning och risk" on <https://www.lansforsakringar.se/stockholm/privat/bank/spara/fondkurser/fond/?shortcut=1&id=F00000WYMY> 
+
 
       **Help in choosing type of chart:** <https://material.io/design/communication/data-visualization.html#selecting-charts>
     name: Design
