@@ -4,7 +4,7 @@
   display: block;
   transition: background-color 0.2s ease-in;
   text-align: center;
-  padding: calc(2* var(--spacing-xxlg)) var(--spacing-lg) var(--spacing-lg);
+  padding: calc(2* var(--spacing-lg)) var(--spacing-lg) var(--spacing-lg);
   @media (--medium-viewport) { 
     
     &:hover {

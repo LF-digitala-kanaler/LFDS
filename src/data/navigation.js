@@ -29,11 +29,6 @@ const navigation = {
     id: 23567
     
   },
-  "about": {
-    title: "About",
-    href: "about",
-    id: 9456
-  }
 }
 
 export default navigation;

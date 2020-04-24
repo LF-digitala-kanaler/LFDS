@@ -1,6 +1,7 @@
 ---
 template: ArticlePage
 category: Getting Started
+background: bg-white
 title: Developer
 intro: Get started with LFUI components which is a  HTML-, CSS- and JS framework
   built on top of Bootstrap to be used in Länsförsäkringar's different

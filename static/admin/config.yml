@@ -84,7 +84,7 @@ collections: # A list of collections the CMS should be able to edi
         options: 
           - { label: "Getting Started", value: "Getting Started" }
           - { label: "Brand Identity", value: "Brand Identity" }
-          - { label: "Design Principles", value: "Design Principles" }
+          - { label: "Principles & strategies", value: "Principles & strategies" }
           - { label: "Process", value: "Process" }
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }
@@ -201,6 +201,7 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         options: 
           - { label: "Graphics", value: "Graphics" }
+          - { label: "Design dimensions", value: "Design dimensions" }
       - label: Preview Image
         name: previewImage
         widget: image
@@ -241,57 +242,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
 
-  - name: about-page
-    media_folder: /static/img
-    public_folder: /img
-    label: About
-    folder: content/about/
-    path: '{{category}}/{{slug}}'
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
-      - label: 'Category'
-        name: 'category'
-        widget: 'select'
-        required: false
-        options: 
-          - { label: "Getting Started", value: "Getting Started" }
-          - { label: "What's New", value: "What's New" }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - label: Hero block
-        name: heroBlock
-        widget: object
-        collapsed: true
-        fields:
-        - label: 'Color'
-          name: 'color'
-          widget: 'select'
-          required: false
-          hint: ['Background color for hero block']
-          options: 
-            - { label: "Pink", value: "#fcd2d3" }
-            - { label: "Blue", value: "#badaf3" }
-        - { label: Quote, name: quote, widget: text,  required: false }
-        - { label: Cite, name: cite, widget: string,  required: false }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color']  }
-      - label: 'Background'
-        name: 'background'
-        widget: 'select'
-        required: false
-        hint: ['Background for component example ( gray is default)']
-        options: 
-          - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }
-       
-      - label: "Priority"
-        name: "priority"
-        widget: "string"
-        required: false
-        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
-      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
-    
+ 
   - name: 'landing-page'
     label: 'Landing Pages'
     folder: content/
@@ -304,6 +255,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
@@ -348,7 +300,7 @@ collections: # A list of collections the CMS should be able to edi
     files:
       - name: 'changelog-page'
         label: 'Changelog'
-        file: 'content/about/whatsNew/changelog.md'
+        file: 'content/components/web/changelog.md'
         fields: 
           - {label: Priority, name: priority, widget: string, required: false, hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']}
           - { label: Background, name: background, widget: hidden, value: 'bg-white' }

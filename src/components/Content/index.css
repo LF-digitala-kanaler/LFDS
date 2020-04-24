@@ -5,7 +5,9 @@
     max-width: var(--content-width--tight);
   }
 }
-
+.Content--center {
+  text-align: center;
+}
 .Content p,
 .Content ul li {
   font-size: var(--font-size-small);

@@ -8,12 +8,13 @@ import Preamble from '../components/Preamble';
 import CardGrid from '../components/CardGrid';
 import _ from 'lodash';
 import {GlobalStateContext } from "../context/GlobalContextProvider"
-
+import Content from '../components/Content'
 
 // Export Template for use in CMS preview
 export const LandingPageTemplate = ({
   title,
   intro,
+  body,
   blockquote,
   categories = [],
 
@@ -24,6 +25,7 @@ export const LandingPageTemplate = ({
     <Wrapper tag="div"  narrow >
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
+      <Content classname="Content--center" source={body}  />
     </Wrapper>
     <CardGrid list={categories}  />
     <Wrapper tag="div" narrow>
@@ -65,6 +67,7 @@ const LandingPage = ({ data: { page, allPages },currentDirectory, location }) =>
         {...page.frontmatter} 
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
+        body={page.html}
         blockquote={page.frontmatter.blockquote}
         categories={groupsSorted}
       />
@@ -78,6 +81,7 @@ export const pageQuery = graphql`
   query LandingPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      html
       frontmatter {
         title
         intro

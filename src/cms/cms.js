@@ -40,9 +40,7 @@ CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
 CMS.registerPreviewTemplate('design-page', ({ entry }) => (
   <ArticlePageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('about-page', ({ entry }) => (
-  <ArticlePageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
-))
+
 CMS.registerPreviewTemplate('patterns-page', ({ entry }) => (
   <ArticlePageTemplate  componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
