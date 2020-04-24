@@ -18,14 +18,14 @@ collections: # A list of collections the CMS should be able to edi
     public_folder: /img
     filter: {field: "template", value: "ComponentPage"}
     fields: # The fields each document in this collection have
-      
-      - label: "Priority"
-        name: "priority"
-        widget: "string"
-        required: false
-        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
-     
       - { label: Template, name: template, widget: hidden, default: ComponentPage, value: ComponentPage }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        required: false
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -41,14 +41,21 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "System Display", value: "System Display" }
         - { label: "Tables", value: "Tables" }
         - { label: "Typography", value: "Typography" }
-      - { label: Title, name: title, widget: string }
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}
-      - label: Preview Image
-        name: previewImage
-        widget: image
-        required: false
-      - { label: Intro, name: intro, widget: text }
       
+
+      - name: 'tabs'
+        label: 'Tabs'
+        label_singular: 'Tab'
+        widget: 'list'
+        fields:
+          - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
+          - { label: 'Content', name: 'content', widget: 'markdown', editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+      - label: "Priority"
+        name: "priority"
+        widget: "string"
+        required: false
+        hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
+       
       - label: 'Background'
         name: 'backgroundColor'
         widget: 'select'
@@ -58,30 +65,27 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Grey", value: "#f3f3f3" }
         required: false
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
-
-      - name: 'tabs'
-        label: 'Tabs'
-        label_singular: 'Tab'
-        widget: 'list'
-        fields:
-          - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
-          - { label: 'Content', name: 'content', widget: 'markdown', editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
-    
+      
+      
     
   - name: design-page
     label: Design@LF
     media_folder: /static/img
     public_folder: /img
-    folder: content/design/
+    folder: content/design
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}
       - label: 'Category'
         name: 'category'
         widget: 'select'
         required: false
-        options: 
+        defalut: ''
+        options:
           - { label: "Getting Started", value: "Getting Started" }
           - { label: "Brand Identity", value: "Brand Identity" }
           - { label: "Principles and strategies", value: "Principles and strategies" }
@@ -89,8 +93,28 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }
           - { label: "Motion", value: "Motion" }
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}
+     
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        required: false
+      - label: Hero block
+        name: heroBlock
+        widget: object
+        collapsed: true
+        fields:
+        - label: 'Color'
+          name: 'color'
+          widget: 'select'
+          required: false
+          hint: ['Background color for hero block']
+          options: 
+            - { label: "Pink", value: "#fcd2d3" }
+            - { label: "Blue", value: "#badaf3" }
+        - { label: Quote, name: quote, widget: text, required: false }
+        - { label: Cite, name: cite, widget: string , required: false}
       
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'ImageAndText']  }
       - label: 'Background'
         name: 'background'
         widget: 'select'

@@ -46,6 +46,7 @@ const ArticlePage = ({
   location
   
   },) => {
+  console.log(page)
   const wrapperWidth = page.frontmatter.wide ? true : false;
   const breadcrumb = {
     category: page.frontmatter.category,
