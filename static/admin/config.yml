@@ -90,29 +90,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "User Testing", value: "User Testing" }
           - { label: "Motion", value: "Motion" }
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}
-      - label: Preview Image
-        name: previewImage
-        widget: image
-        required: false
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - label: Hero block
-        name: heroBlock
-        widget: object
-        collapsed: true
-        fields:
-        - label: 'Color'
-          name: 'color'
-          widget: 'select'
-          required: false
-          hint: ['Background color for hero block']
-          options: 
-            - { label: "Pink", value: "#fcd2d3" }
-            - { label: "Blue", value: "#badaf3" }
-        - { label: Quote, name: quote, widget: text, required: false }
-        - { label: Cite, name: cite, widget: string , required: false}
       
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'ImageAndText']  }
       - label: 'Background'
         name: 'background'
         widget: 'select'
