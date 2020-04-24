@@ -2,17 +2,45 @@
 template: ComponentPage
 category: Typography
 title: Lists
-description: 'Används för att lista upp små texter i punkter eller i sifferordning. '
+description: Use to list small texts in dots or in numerical order and break up
+  large blocks of text and make important info stand out.
 previewImage: /img/lists.svg
-intro: 'Används för att lista upp små texter i punkter eller i sifferordning. '
-backgroundColor: '#fff'
+intro: Use to list small texts in dots or in numerical order and break up large
+  blocks of text and make important info stand out.
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
 
 
-      We hade LFUI styling of list with dots and list with numbers and also the
-      possiblility of styling lists with checkmark. 
+      List elements helps to break up large blocks of text, make complex articles and product information easier to grasp, and make key information stand out.
+
+
+      We have a few different variations of lists
+
+
+      * List with dots
+
+      * List with numbers
+
+      * Lists with checkmarks
+
+      * Big number lists
+
+      * Big checkmarks
+
+
+      ### Links in lists
+
+
+      Man kan länka i en punktlista. Vår huvudregel är ju att inte bryta av en text med länkar och att de ska placeras under ett stycke men i detta fall kan användaren ha svårt att koppla ihop vilken länk som tillhör vilken punkt i listan, så därför är regeln här om inte listan leder till en action att bistå varje punkt med sin länk. 
+
+
+
+
+      ### Link lists
+
+
 
 
       ## Please consider
@@ -25,4 +53,3 @@ tabs:
   - content: text
     name: Code
 ---
-
