@@ -1,7 +1,7 @@
 ---
 template: ArticlePage
 category: design
-description: cdcdcd
+description: cdcdcdcdcd
 title: cdcdcd
 intro: " c c c"
 wide: false
