@@ -1,9 +1,9 @@
 ---
 template: ArticlePage
 category: ../../design
-description: jjjj
-title: jjj
-intro: jjjj
+description: rererere
+title: rerere
+intro: rererere
 wide: false
 lang: false
 ---
