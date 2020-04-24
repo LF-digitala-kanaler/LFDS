@@ -7,10 +7,8 @@ description: The line element also known as HR element are used to separate some
 intro: The line element also known as HR element are used to separate some parts
   of the page with a line.
 backgroundColor: "#f3f3f3"
-lang: false
 tabs:
-  - name: Design
-    content: >-
+  - content: >-
       ## How to use
 
 
@@ -21,4 +19,5 @@ tabs:
 
 
       We have to different colors on the line one for white background and one for grey background.
+    name: Design
 ---
