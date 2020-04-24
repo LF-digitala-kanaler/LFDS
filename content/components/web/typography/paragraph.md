@@ -28,6 +28,9 @@ tabs:
       Det finns ett undantag; på sidor som har en direkt relation till en produktsida får man länka första gången produkten namnges i en brödtexten under ingressen. Texten ska vara starkt kopplad till produkten man länkar till. 
 
 
+      <figure class="Image Image__border"><img src="/img/paragraph-links.png" srcset="undefined 2x" alt="An exception from the rule"><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
       ## To consider
 
 
