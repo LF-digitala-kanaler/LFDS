@@ -19,6 +19,15 @@ tabs:
       I app-utveckling finns inte Arial med i basutbudets typsnitt så här använder vi Roboto för Android och San Fransisco för iOS.
 
 
+      ### Länkar i brödtext
+
+
+      Vår huvudregel är att inte bryta av en text med länkar och att de ska placeras under ett stycke för att inte avbryta läsaren i textflödet med massa länkar. 
+
+
+      Det finns ett undantag; på sidor som har en direkt relation till en produktsida får man länka första gången produkten namnges i en brödtexten under ingressen. Texten ska vara starkt kopplad till produkten man länkar till. 
+
+
       ## To consider
 
 
