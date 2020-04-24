@@ -13,25 +13,29 @@ tabs:
       ## How to use
 
 
-      Ingress används som sagt alltid efter H1 på en sida och ska spegla textinnehållet på sidan i korta drag. Du behöver inte använda ingresstext på alla sidor men är det en artikel eller produktsida är det att föredra. 
+      The preample are used as a "lead" element, containing important information or USP text related to the page, and always positions itself below a display heading. You do not need to use a preamble on every page but in an article or product page it is preferred.
 
 
-      Ingressen är alltid Intro Cond regular i lite större storlekar som 20-24px.  
+      The preamble is always in the font Intro Cond regular but in a bit bigger size.
 
 
-      Bra att tänka på när du gör en ingress
+      **Good to have in mind**
 
 
-      * 2-3 rader
+      * two or three sentences
 
-        Sammanfatta innehållet och lyfta det viktigaste
+      * Summarize the content and highlight the most important
+
+
+      Payoff - Another name but kinda the same. Used as a payoff under headlines for further explanation. Usually one short sentences.
+
 
       ## To consider
 
 
       * Länka inte i ingress
 
-        Gör inte fet text i ingressen
+      * Gör inte fet text i ingressen
     name: Design
   - content: >-
       <figure class="Image__background"><img src="/img/apps.jpg"
