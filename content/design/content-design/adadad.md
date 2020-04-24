@@ -1,8 +1,8 @@
 ---
 template: ArticlePage
 category: content/design
-description: adadad
-title: adadad
+description: trtrtrtr
+title: trtrtrtr
 intro: adadad
 wide: false
 lang: false
