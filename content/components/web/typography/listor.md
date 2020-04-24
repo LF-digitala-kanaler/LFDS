@@ -43,9 +43,7 @@ tabs:
 
       ### List with dots
 
-
-      Text om...
-
+       Can also be called bulleted list. Bulleted lists attract attention, support scanning, shorten text, and reveal the relationship of items. 
 
       ### List with numbers
 
