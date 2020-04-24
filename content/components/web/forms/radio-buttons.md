@@ -106,6 +106,10 @@ tabs:
 
       Valideringstext: Välj ett alternativ
 
+      ### Har du barn som bor hemma?
+
+      Valideringstext: 
+
       - - -
     name: Copy
 ---
