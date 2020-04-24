@@ -2,11 +2,11 @@
 template: ComponentPage
 category: Typography
 title: Preamble
-description: Ingress används under huvudrubriken H1 och är till för att beskriva
-  innehållet i stora drag.
+description: The preample are used as a "lead" element, containing important
+  information or USP text related to the page.
 previewImage: /img/preamble.svg
-intro: Ingress används under huvudrubriken H1 och är till för att beskriva
-  innehållet i stora drag.
+intro: The preample are used as a "lead" element, containing important
+  information or USP text related to the page.
 backgroundColor: "#f3f3f3"
 tabs:
   - content: >-
