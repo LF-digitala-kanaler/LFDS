@@ -29,6 +29,49 @@ tabs:
 
       * Big checkmarks
 
+      * Link lists
+
+
+      ### List with dots
+
+
+      Text om...
+
+
+      ### List with numbers
+
+
+      Text om...
+
+
+      ### List with checkmars
+
+
+      Text om...
+
+
+      ### Big number lists
+
+
+      Text om...
+
+
+      ### Big checkmarks
+
+
+      Text om...
+
+
+      ### Link lists
+
+
+      Text om...
+
+
+
+
+      ## Modifers all lists
+
 
       ### Links in lists
 
@@ -36,11 +79,13 @@ tabs:
       Man kan länka i en punktlista. Vår huvudregel är ju att inte bryta av en text med länkar och att de ska placeras under ett stycke men i detta fall kan användaren ha svårt att koppla ihop vilken länk som tillhör vilken punkt i listan, så därför är regeln här om inte listan leder till en action att bistå varje punkt med sin länk. 
 
 
+      ### List spacing[](https://lf-digitala-kanaler.github.io/LFUI/650/#/type#list-spacing)
 
 
-      ### Link lists
+      You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas?
 
 
+      Note that[ ](https://lf-digitala-kanaler.github.io/LFUI/650/#/links/)link lists also have special rules on their spacing when placed vertically.
 
 
       ## Please consider
