@@ -129,9 +129,13 @@ tabs:
       (even if the user gets redirected).
     name: Design
   - content: >-
-      ## På svenska
+      ## Så skriver vi
 
 
+      An inline-heading can be set in the beginning of alerts to give the user a
+      heads-up of it’s content. The heading should always be separated from the
+      content with some form of punctation (i.e. .,!?- ). Never use line breaks
+      inside the alerts.
 
 
       ## In english
