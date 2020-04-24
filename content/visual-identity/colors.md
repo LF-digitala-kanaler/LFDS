@@ -1,11 +1,12 @@
 ---
 template: ArticlePage
-background: bg-white
+previewImage: /img/color_v2.svg
+description: Colors
 title: Colors
-intro: >-
-  Our primary colors are blue, red and white. This color combination is very
-  recognisable for our customers. It's important that we use our colors
+intro: Our primary colors are blue, red and white. This color combination is
+  very recognisable for our customers. It's important that we use our colors
   consequently.
+background: bg-white
 ---
 ## Primary Colors
 
