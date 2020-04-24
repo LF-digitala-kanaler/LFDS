@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: Principles & strategies
+category: Principles and strategies
 title: CX-Principer
 intro: >-
   CX-principerna syftar till att skapa förutsättningar för att styra beslut och

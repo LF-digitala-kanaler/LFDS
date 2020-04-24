@@ -84,7 +84,7 @@ collections: # A list of collections the CMS should be able to edi
         options: 
           - { label: "Getting Started", value: "Getting Started" }
           - { label: "Brand Identity", value: "Brand Identity" }
-          - { label: "Principles & strategies", value: "Principles & strategies" }
+          - { label: "Principles and strategies", value: "Principles and strategies" }
           - { label: "Process", value: "Process" }
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }
@@ -206,7 +206,7 @@ collections: # A list of collections the CMS should be able to edi
         name: previewImage
         widget: image
         required: false
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page}  
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}  
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - label: Hero block
