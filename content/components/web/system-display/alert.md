@@ -132,24 +132,19 @@ tabs:
       ## Så skriver vi
 
 
-      An inline-heading can be set in the beginning of alerts to give the user a
-      heads-up of it’s content. The heading should always be separated from the
-      content with some form of punctation (i.e. .,!?- ). Never use line breaks
-      inside the alerts.
+      * Blanda inte ihop dessa med [“glasspinnar”/modifier shortcut
+      ](../../buttonandlinks/shortcut/)som är helfärgade, med pil och visas på
+      startsidan av Mina sidor. 
 
 
-      ## In english
+      En rubrik kan användas i början av alerten som ger användaren en hint om
+      vad det handlar om. Rubriken ska då separeras med ett skiljetecken, som
+      tankstreck eller ".?!". Använd aldrig bindestreck i alerten. Avsluta
+      alltid med punkt. 
 
 
-      ## Please consider
-
-
-      * Don’t confuse alerts (striped background) with [“glasspinnar”/modifier
-      shortcut ](../../buttonandlinks/shortcut/)(monocolor background and
-      arrow) 
-
-      * Do NOT write a warning like this: “This is the header and the body text
-      just continues without a separator”.
+      **Exempel:** Kundkännedom - Vänligen vara på frågorna för att kunna
+      fortsätta använda appen.
     name: Copy
   - content: >-
       ### Info
