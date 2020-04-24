@@ -327,7 +327,7 @@ tabs:
       Valideringstext: Fyll i inkomst per månad innan skatt
 
 
-      **Text:** Tänkt bostadspris
+      ### Tänkt bostadspris
 
 
       Valideringstext: Fyll i det tänkta priset för bostaden
@@ -336,13 +336,13 @@ tabs:
       Placeholder: 1 000 000
 
 
-      **Text:** Kontantinsats
+      ### Kontantinsats
 
 
       Valideringstext: Fyll i beloppet för kontantinsatsen
 
 
-      **Text:** Uppskattad driftskostnad per månad
+      ### Uppskattad driftskostnad per månad
 
 
       Valideringstext: Fyll i den uppskattade driftkostnaden
@@ -351,31 +351,28 @@ tabs:
       Placeholder: 10 000
 
 
-      **Text:** Var ligger bostaden
+      ### Var ligger bostaden?
 
 
       Valideringstext: Fyll i postadress för bostaden (eller är det län, kommun?)
 
 
-      Placeholder: postadress (om det är det?)
+      Placeholder: Postadress (om det är det?)
 
 
-      **Text:** Månadsinkomst innan skatt
+      ### Månadsinkomst innan skatt
 
 
       Valideringstext: Fyll i din inkomst innan skatt
 
 
-      **Text:** Inkomst i utlänsk valuta
+      ### Inkomst i utländsk valuta
 
 
       Valideringstext: Fyll i din inkomst i utlänsk valuta
 
 
-      **Text:** Har du barn som bor hemma?
-
-
-      **Text:** Typ av konto
+      **Text**Typ av konto
 
 
       Valideringstext: Fyll i typ av konto
