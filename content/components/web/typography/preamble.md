@@ -2,15 +2,36 @@
 template: ComponentPage
 category: Typography
 title: Preamble
-description: Ingresstext
+description: Ingress används under huvudrubriken H1 och är till för att beskriva
+  innehållet i stora drag.
 previewImage: /img/preamble.svg
-intro: Preamble preamble
+intro: Ingress används under huvudrubriken H1 och är till för att beskriva
+  innehållet i stora drag.
 backgroundColor: "#f3f3f3"
 tabs:
-  - content: |-
+  - content: >-
       ## How to use
 
-      Ingress a
+
+      Ingress används som sagt alltid efter H1 på en sida och ska spegla textinnehållet på sidan i korta drag. Du behöver inte använda ingresstext på alla sidor men är det en artikel eller produktsida är det att föredra. 
+
+
+      Ingressen är alltid Intro Cond regular i lite större storlekar som 20-24px.  
+
+
+      Bra att tänka på när du gör en ingress
+
+
+      * 2-3 rader
+
+        Sammanfatta innehållet och lyfta det viktigaste
+
+      ## To consider
+
+
+      * Länka inte i ingress
+
+        Gör inte fet text i ingressen
     name: Design
   - content: >-
       <figure class="Image__background"><img src="/img/apps.jpg"
