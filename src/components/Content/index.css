@@ -7,7 +7,9 @@
 }
 .Content--center {
   text-align: center;
+  margin-top: var(--spacing-vertical--1);
 }
+
 .Content p,
 .Content ul li {
   font-size: var(--font-size-small);

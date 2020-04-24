@@ -2,58 +2,43 @@
 template: ComponentPage
 category: Forms
 title: Input field
-description: >-
-  Input fields are fields in which the user can enter text of some type (be it
-  letters or numbers).
+description: Input fields are fields in which the user can enter text of some
+  type (be it letters or numbers).
 previewImage: /img/input.svg
-intro: >-
-  Input fields are fields in which the user can enter text of some type (be it
-  letters or numbers). This section describes the styling of input fields and
+intro: Input fields are fields in which the user can enter text of some type (be
+  it letters or numbers). This section describes the styling of input fields and
   the various versions which exist.
-backgroundColor: '#fff'
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
 
 
-      Use an input field when you want the user to enter some information freely
-      (use another [form](../) option if they only can select from a set number
-      of options). The input field has two companion elements, the label and
-      help text (see the [forms landing page](../) for a description of them).
+      Use an input field when you want the user to enter some information freely (use another [form](../) option if they only can select from a set number of options). The input field has two companion elements, the label and help text (see the [forms landing page](../) for a description of them).
 
 
       ### Variations
 
 
-      There are two mains variations of input fields, the one-lined and the one
-      spanning over several lines/rows. The one-lined in addition can be
-      modified in a number of ways.
+      There are two mains variations of input fields, the one-lined and the one spanning over several lines/rows. The one-lined in addition can be modified in a number of ways.
 
 
       #### One-lined text input
 
 
-      The one-lined text input field is the most commonly used input type and is
-      used when you want a specific input from the user (such as e-mail, a value
-      or subject). Depending on context and amount of space available you can
-      put either one or two one-lined input fields on a row by using _**the
-      grid**_. If you place two input fields on the same row they should have
-      the same size. See images below for an example.
+      The one-lined text input field is the most commonly used input type and is used when you want a specific input from the user (such as e-mail, a value or subject). Depending on context and amount of space available you can put either one or two one-lined input fields on a row by using _**the grid**_. If you place two input fields on the same row they should have the same size. See images below for an example.
 
 
       A one-lined text input field on a row
 
 
-      ![Example of an input field](/img/one-lined-input-field.png "A one-lined
-      input field")
+      ![Example of an input field](/img/one-lined-input-field.png "A one-lined input field")
 
 
       Two one-lined text input fields on a row
 
 
-      ![Two one-lined input fields on a row with extra
-      content](/img/two-one-lined-on-a-row.png "Two one-lined input fields on a
-      row")
+      ![Two one-lined input fields on a row with extra content](/img/two-one-lined-on-a-row.png "Two one-lined input fields on a row")
 
 
       #### Modifiers
@@ -63,82 +48,51 @@ tabs:
 
       ##### Datepicker
 
-      Although a form of input field as well from a user perspective, the
-      datepicker is treated as a separate component. [Go
-      here](../forms/datepicker) to read about it.
+      Although a form of input field as well from a user perspective, the datepicker is treated as a separate component. [Go here](../forms/datepicker) to read about it.
 
       ##### Password
 
-      If an input field contains a password or other sensitive data the please
-      use the password modifier. It follows web standards and translates
-      characters into asterisks as they are entered.
+      If an input field contains a password or other sensitive data the please use the password modifier. It follows web standards and translates characters into asterisks as they are entered.
 
       ##### Prefix
 
-      If you need to put a label of sorts prior to the actual input area you can
-      add the modifier "prefix". It might be usable in a context where the user
-      has to enter a twitter handle or URL, but no actual uses of prefix with
-      text are known at time of writing. It is however a technical prerequisite
-      for the more common "prefix as image". 
+      If you need to put a label of sorts prior to the actual input area you can add the modifier "prefix". It might be usable in a context where the user has to enter a twitter handle or URL, but no actual uses of prefix with text are known at time of writing. It is however a technical prerequisite for the more common "prefix as image". 
 
       ##### Prefix as image
 
-      A version of prefix where the text has been replaced with an image. The
-      most common usage is relation to motor insurances and when users are asked
-      to provide the number plate of the vehicle they want to insure/make a
-      claim on.
+      A version of prefix where the text has been replaced with an image. The most common usage is relation to motor insurances and when users are asked to provide the number plate of the vehicle they want to insure/make a claim on.
 
       ##### Suffix
 
-      Adds a label to the end of the input field, most commonly the unit (e.g.
-      "kr", "years" and "m²"). 
+      Adds a label to the end of the input field, most commonly the unit (e.g. "kr", "years" and "m²"). 
 
 
       #### Text input with several lines (Textarea)
 
 
-      If you need a text input field which spans several rows you should use the
-      textarea-component. It is typically (perhaps exclusively) used for message
-      text when the user can write a message to us. Although we set a height
-      when the textarea the user can change the height of the textarea within
-      its column as is web standard - we have however disabled horisontal
-      resizing.
+      If you need a text input field which spans several rows you should use the textarea-component. It is typically (perhaps exclusively) used for message text when the user can write a message to us. Although we set a height when the textarea the user can change the height of the textarea within its column as is web standard - we have however disabled horisontal resizing.
     name: Design
   - content: >-
       ## How to use
 
 
-      All Input elements are "rebooted" by [Bootstrap
-      reboot](https://getbootstrap.com/docs/4.0/content/reboot/#forms) for a
-      more unified look. Using the class `.form-control` one can extend on those
-      base styles.
+      All Input elements are "rebooted" by [Bootstrap reboot](https://getbootstrap.com/docs/4.0/content/reboot/#forms) for a more unified look. Using the class `.form-control` one can extend on those base styles.
 
 
-      The form control is only intended to be used with textual inputs such as
-      email, textarea or passwords. 
+      The form control is only intended to be used with textual inputs such as email, textarea or passwords. 
 
 
-      We will only focus on the `<input>` here but remember to always have a
-      label with a for attribute that's  equal to the id attribute of the
-      related element to bind them together. This will give screen reader users
-      a better experience. 
+      We will only focus on the `<input>` here but remember to always have a label with a for attribute that's  equal to the id attribute of the related element to bind them together. This will give screen reader users a better experience. 
 
        
 
-      <div class="Callout"><strong class="Callout__title">Your design friend
-      don't want a label? </strong><p class="Callout__text">If you add an input
-      of any sort you need a label to bind them together. However it is possible
-      to hide it visually but still have it available for screen readers. Since
-      LFUI is based on Bootstrap we have their helper class available for this.
-      `.sr-only` will hide the element but keep it for screen readers to
-      use.</p></div>
+      <div class="Callout"><strong class="Callout__title">Your design friend don't want a label? </strong><p class="Callout__text">If you add an input of any sort you need a label to bind them together. However it is possible to hide it visually but still have it available for screen readers. Since LFUI is based on Bootstrap we have their helper class available for this. `.sr-only` will hide the element but keep it for screen readers to use.</p></div>
 
 
       ### Variations
 
 
-      There are two main variations of input fields, the one-lined input and
-      textarea. 
+      There are two main variations of input fields, the one-lined input and textarea. 
 
 
       #### One-lined text input
@@ -158,11 +112,7 @@ tabs:
       ##### Attributes
 
 
-      Depending on your needs there is a couple of different attribute you can
-      add to your input. First every input should have a **type** attribute. The
-      type attribute specifies the type of `<input>` element to display.  As an
-      example, if you add an input to be used to enter a password, use type
-      **password.**
+      Depending on your needs there is a couple of different attribute you can add to your input. First every input should have a **type** attribute. The type attribute specifies the type of `<input>` element to display.  As an example, if you add an input to be used to enter a password, use type **password.**
 
 
       ```
@@ -172,16 +122,13 @@ tabs:
       ```
 
 
-      You can see all available type's
-      [here](https://www.w3schools.com/tags/att_input_type.asp).
+      You can see all available type's [here](https://www.w3schools.com/tags/att_input_type.asp).
 
 
-      To give users a hint of what to enter in an input  it's always a good idea
-      to att a **placeholder** attribute.
+      To give users a hint of what to enter in an input  it's always a good idea to att a **placeholder** attribute.
 
 
-      Placeholder text disappears after the user begins entering data into the
-      Input and should not contain crucial information. 
+      Placeholder text disappears after the user begins entering data into the Input and should not contain crucial information. 
 
 
       ```
@@ -193,16 +140,13 @@ tabs:
       #### Modifiers
 
 
-      The one-lined text input has several modifiers, all described below. Read
-      more when to use them under the design tab. You can see all of these
-      modifiers above in the example pane. 
+      The one-lined text input has several modifiers, all described below. Read more when to use them under the design tab. You can see all of these modifiers above in the example pane. 
 
 
       ##### Prefix
 
 
-      (Note, the prefix does not respond to the state of the input field without
-      the help of JS. Which is not included in LFUI at the moment. )
+      (Note, the prefix does not respond to the state of the input field without the help of JS. Which is not included in LFUI at the moment. )
 
 
       ```
@@ -248,8 +192,7 @@ tabs:
       ### Textarea
 
 
-      The `<textarea>` tag defines a multi-line text input control.  The size of
-      a text area can be specified by the cols and rows attributes.
+      The `<textarea>` tag defines a multi-line text input control.  The size of a text area can be specified by the cols and rows attributes.
 
 
       ```
@@ -262,26 +205,16 @@ tabs:
       ## Validation
 
 
-      **LFUI does not include any validation  functionality, thats something you
-      will have to build yourself**. However we do provide helper class for
-      validation styling. Use the available validation classes `has-valid `and
-      `has-danger.`
+      **LFUI does not include any validation  functionality, thats something you will have to build yourself**. However we do provide helper class for validation styling. Use the available validation classes `has-valid `and `has-danger.`
 
 
-      If a field has been filled out and validated, add the`has-valid` to it's
-      parent class. If a field has been filled out and validated but with
-      errors, add the `has-danger` class. There is a more detailed example of
-      this TODO add link to patterns.
+      If a field has been filled out and validated, add the`has-valid` to it's parent class. If a field has been filled out and validated but with errors, add the `has-danger` class. There is a more detailed example of this TODO add link to patterns.
     name: Code
   - content: >-
       ## Så skriver vi
 
 
-      Vi skriver så kort som möjligt och skriver inte ut det som är uppenbart.
-      Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska
-      fyllas i. Hjälptext används bara om det inte går att beskriva enkelt nog i
-      labeln, eller om formatet är hårt styrt och vi innan vill berätta hur
-      användaren måste fylla i fältet.
+      Vi skriver så kort som möjligt och skriver inte ut det som är uppenbart. Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska fyllas i. Hjälptext används bara om det inte går att beskriva enkelt nog i labeln, eller om formatet är hårt styrt och vi innan vill berätta hur användaren måste fylla i fältet.
 
 
       ### Vanliga labels
@@ -290,12 +223,7 @@ tabs:
       #### Personnummer
 
 
-      <figure class="Image Image__background"><img
-      src="/img/skärmavbild-2020-03-19-kl.-09.29.20.png"
-      srcset="/img/skärmavbild-2020-03-19-kl.-09.29.20.png 2x" alt="Exempel på
-      ett korrekt formaterat personnummersfält (inklusive länk till info om
-      personuppgifter)"><figcaption><div
-      class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/skärmavbild-2020-03-19-kl.-09.29.20.png" srcset="/img/skärmavbild-2020-03-19-kl.-09.29.20.png 2x" alt="Exempel på ett korrekt formaterat personnummersfält (inklusive länk till info om personuppgifter)"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       Placeholder: ååååmmdd-nnnn\
@@ -348,18 +276,6 @@ tabs:
       Valideringstext: Fyll i gatuadressen
 
 
-      #### Betalsätt
-
-
-      Valideringstext: Välj betalsätt
-
-
-      #### **J**ag vill betala varje
-
-
-      Valideringstext: Välj ett alternativ
-
-
       #### Person-/organisationsnummer
 
 
@@ -381,45 +297,37 @@ tabs:
       Placeholder: ABC123
 
 
-      Valideringstext tomt: Fyll i regnr. Ring oss om fordonet saknar svenskt
-      regnr.
+      Valideringstext tomt: Fyll i regnr. Ring oss om fordonet saknar svenskt regnr.
 
 
-      Valideringstext fel format: Skriv regnr i format XXXNNN eller XXXNNX. Ring
-      oss om fordonet saknar svenskt regnr.
+      Valideringstext fel format: Skriv regnr i format XXXNNN eller XXXNNX. Ring oss om fordonet saknar svenskt regnr.
 
 
-      **Text:** Skicka e-fakturan till
+      ### Skicka e-fakturan till
 
 
       Valideringstext: Fyll i faktureringsadress
 
 
-      **Text:** Jag vill betala varje
-
-
-      Valideringstext: Välj ett alternativ
-
-
-      **Text:** Fyll i kontaktuppgifter
+      ### Fyll i kontaktuppgifter
 
 
       Valideringstext: Fyll i kontaktuppgifterna
 
 
-      **Text:** Pris på bostaden
+      ### Pris på bostaden
 
 
       Valideringstext: Fyll i priset på bostaden
 
 
-      **Text:** Månadsinkomst innan skatt
+      ### Månadsinkomst innan skatt
 
 
       Valideringstext: Fyll i inkomst per månad innan skatt
 
 
-      **Text:** Tänkt bostadspris
+      ### Tänkt bostadspris
 
 
       Valideringstext: Fyll i det tänkta priset för bostaden
@@ -428,13 +336,13 @@ tabs:
       Placeholder: 1 000 000
 
 
-      **Text:** Kontantinsats
+      ### Kontantinsats
 
 
       Valideringstext: Fyll i beloppet för kontantinsatsen
 
 
-      **Text:** Uppskattad driftskostnad per månad
+      ### Uppskattad driftskostnad per månad
 
 
       Valideringstext: Fyll i den uppskattade driftkostnaden
@@ -443,35 +351,30 @@ tabs:
       Placeholder: 10 000
 
 
-      **Text:** Var ligger bostaden
+      ### Var ligger bostaden?
 
 
-      Valideringstext: Fyll i postadress för bostaden (eller är det län,
-      kommun?)
+      Valideringstext: Fyll i postadress för bostaden (eller är det län, kommun?)
 
 
-      Placeholder: postadress (om det är det?)
+      Placeholder: Postadress (om det är det?)
 
 
-      **Text:** Månadsinkomst innan skatt
+      ### Månadsinkomst innan skatt
 
 
       Valideringstext: Fyll i din inkomst innan skatt
 
 
-      **Text:** Inkomst i utlänsk valuta
+      ### Inkomst i utländsk valuta
 
 
       Valideringstext: Fyll i din inkomst i utlänsk valuta
 
 
-      **Text:** Har du barn som bor hemma?
-
-
-      **Text:** Typ av konto
+      ### Typ av konto
 
 
       Valideringstext: Fyll i typ av konto
     name: Copy
 ---
-

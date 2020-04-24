@@ -25,7 +25,7 @@ export const LandingPageTemplate = ({
     <Wrapper tag="div"  narrow >
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
-      <Content classname="Content--center" source={body}  />
+      <Content className="Content--center" source={body}  />
     </Wrapper>
     <CardGrid list={categories}  />
     <Wrapper tag="div" narrow>

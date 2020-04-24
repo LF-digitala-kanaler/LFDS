@@ -2,11 +2,11 @@
 background: bg-white
 template: LandingPage
 title: Visual Identity
-intro: Länsförsäkringar User Interface är vår plattform för vårt Digitala
-  varumärke. här guidar vi dig kring hur du kommer igång som en copy, UX, AD
-  eller frontend utvecklare hos Länsförsäkringar. Du kan gå in på våra
-  komponenter eller hittar vidare länkar till vår Brand portal Röda rummet.
+intro: This is a light version of Länsförsäkringars visual identity focusing on
+  the digital aspects. With the help of these tools we can create a consistent
+  look and feel for our design.
 meta:
   description: This is a meta description.
   title: LFUI
 ---
+test
