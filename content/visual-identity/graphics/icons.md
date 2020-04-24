@@ -1,6 +1,7 @@
 ---
 background: bg-white
 template: IconsPage
+category: Graphics
 title: Icons
 intro: We use icons to explain, clarify and sometimes display emotions ;). Our
   Icons scale with different amounts of details according to size.The
