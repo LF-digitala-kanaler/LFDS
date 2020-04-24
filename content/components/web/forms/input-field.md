@@ -372,7 +372,7 @@ tabs:
       Valideringstext: Fyll i din inkomst i utlänsk valuta
 
 
-      **Text**Typ av konto
+      ### Typ av konto
 
 
       Valideringstext: Fyll i typ av konto
