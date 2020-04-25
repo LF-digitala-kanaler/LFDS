@@ -1,22 +1,22 @@
 const LfuiWidget = {
   id: "lfuiWidget",
   label: "Lfui Code",
-  pattern: /<LfuiWrapper>\n[^]*?\n<\/LfuiWrapper>/,
+  pattern: /<LfuiWrapper>([^]*?)<\/LfuiWrapper>/,
   fields: [ 
   {
-    label: "Content",
-    name: "content",
+    label: "Lfui Code",
+    name: "lfuiCode",
     widget: "markdown"
 
   }],
   fromBlock: function(match) {
     return {
-      content: match[1],
+      lfuiCode: match[1],
     }
   },
   toBlock: function(obj) {
 
-    return `<LfuiWrapper>${obj.content}</LfuiWrapper>`;
+    return `<LfuiWrapper>\n${obj.lfuiCode}\n</LfuiWrapper>`;
   },
 
 
