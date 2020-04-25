@@ -9,6 +9,7 @@ background: bg-white
 wide: false
 lang: false
 ---
+<LfuiWrapper>
 
 <div class="container">
   <div class="row">
@@ -21,3 +22,4 @@ lang: false
     </div>
   </div>
 </div>
+</LfuiWrapper>
