@@ -1,11 +1,18 @@
 ---
-background: bg-white
 template: IconsPage
 category: Graphics
+previewImage: /img/icons.svg
+description: >-
+  We want our icons to be informative and easy to understand.
+
+  The icons are less abstract and more specific then the graphic objects. They should support the textual information or cluster information.
+
+  The icons come in various sizes, Each size with variations of details.
 title: Icons
 intro: We use icons to explain, clarify and sometimes display emotions ;). Our
   Icons scale with different amounts of details according to size.The
   consistency of the strokes are imperitave for recognition.
+background: bg-white
 specialIconsContent: >-
   ## Special sizes icons
 

@@ -1,5 +1,6 @@
 ---
 template: ArticlePage
+previewImage: /img/color_v2.svg
 title: Colors
 intro: Our primary colors are blue, red and white. This color combination is
   very recognisable for our customers. It's important that we use our colors
