@@ -9,22 +9,15 @@ background: bg-white
 wide: false
 lang: false
 ---
-<LfuiWrapper>
-
-<LfuiWrapper>
 
 <div class="container">
   <div class="row">
     <div class="col-md-5">
-     <div class="font-serif" style="font-size:130px;line-height: 56px;>ABC</div>
+     <div class="font-serif" style="font-size:130px;line-height: 56px;">ABC</div>
     </div>
     <div class="col-md-7">
-      <div class="font-serif" style="font-size:130px;line-height: 56px;>LF Rubrik</div>
+      <div class="font-serif" style="font-size:130px;line-height: 56px;">LF Rubrik</div>
       <span class="font-serif">ABCDEFGHIJKLMNOPQRSTVWXYZÅÄÖ<br/>abcdefghijklmnopqrstuvwxyz1234567890</span>
     </div>
   </div>
 </div>
-</LfuiWrapper>
-</LfuiWrapper>
-
-</LfuiWrapper>
