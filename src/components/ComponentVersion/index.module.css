@@ -34,13 +34,12 @@
 }
 
 .ComponentVersion__link {
-  text-decoration: none;
   color: var(--color-body);
   margin-right: var(--spacing-sm);
   display: block;
 }
 .ComponentVersion__aloneLink {
-  text-decoration: none;
+  
   color: var(--color-body);
   margin-right: var(--spacing-sm);
   display: inline;
@@ -61,9 +60,9 @@
 }
 
 .ComponentVersion__link {
-  text-decoration: none;
   color: var(--color-black);
   margin-top: 5px;
+  margin-bottom: 2px;
   display: inline-block;
   width: 100%;
   vertical-align: middle;

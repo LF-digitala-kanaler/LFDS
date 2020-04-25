@@ -316,7 +316,7 @@ collections: # A list of collections the CMS should be able to edi
     files:
       - name: 'icons-page'
         label: 'Icons'
-        file: 'content/visual-identity/icons.md'
+        file: 'content/visual-identity/graphics/icons.md'
         fields: 
           - { label: Priority, name: priority, widget: string, required: false, hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']}
           - { label: Background, name: background, widget: hidden, value: 'bg-white' }

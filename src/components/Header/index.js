@@ -17,8 +17,9 @@ const Header = ({ title, breadcrumb, menu }) => {
     <header className={style.Header}>
       <div className={style.Header__container}>
         <Link to='/' className={cx(style.Header__title,(menu ? style['Header__title--offset'] : " "))}>
-          <Logotype />
           <span className={style.Header__headline}>{title}</span>
+          <Logotype />
+          
         </Link>
         
         <div className={style.Header__wrapper}>

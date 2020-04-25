@@ -97,7 +97,7 @@ const Menu = ({currentDirectory}) => {
       );
     });
     return (
-      <React.Fragment>
+      <>
           {
             breakpoint === 'M'  ? (
               <AnimationContainer show={state.isMenuOpenDesktop}>
@@ -113,7 +113,7 @@ const Menu = ({currentDirectory}) => {
             {({ location }) => {
               
               return ( 
-                <React.Fragment>
+                <>
                  { breakpoint === 'M'  ? (
                 <AnimationContainer show={state.isMenuOpenDesktop}>
                 <nav className={cx(style.Menu, (state.isMenuOpenDesktop ? style['Menu--isOpen'] : '' ))}>
@@ -132,12 +132,12 @@ const Menu = ({currentDirectory}) => {
                   
                 ) 
                 } 
-                </React.Fragment>
+                </>
               )
           }}
         </Location>
       
-      </React.Fragment>
+      </>
     );
   
 }

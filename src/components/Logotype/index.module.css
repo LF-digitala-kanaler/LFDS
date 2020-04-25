@@ -1,10 +1,12 @@
 .Logotype {
-  width: 2rem;
-  height: 2rem;
-  max-width: 100%;
-  
-  @media (--medium-viewport) { 
-    width: 2.5rem;
-    height: 2.5rem;
+  overflow: visible;
+  display: flex;
+  position: relative;
+  top: 0.2625rem;
+
+  @media (--medium-viewport) {
+    position: relative;
+    top: 0.5625rem;
   }
+
 }

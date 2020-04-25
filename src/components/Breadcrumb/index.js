@@ -4,16 +4,17 @@ import { Link } from 'gatsby';
 
 
 const parentDirectory = (url) => {
+  console.log(url)
   return url.substring(0, url.lastIndexOf('/'));
 }
 
 const Breadcrumb = ({location}) => {
-
+  console.log(location.location.pathname.includes('component'))
   return (
     <div className={style.Breadcrumb}>
       
         <li className={style.Breadcrumb__item}>
-          <Link className={style.Breadcrumb__link} to={location.location.pathname.split('/')[1]+'/'+location.location.pathname.split('/')[2]}>
+          <Link className={style.Breadcrumb__link} to={location.location.pathname.includes('component')  ? location.location.pathname.split('/')[1]+'/'+location.location.pathname.split('/')[2] : location.location.pathname.split('/')[1]}>
             {location.location.pathname.split('/')[1].replace('-', " ")}
           </Link>
         </li>

@@ -151,7 +151,7 @@ a[rel*="external"]::after {
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
-  margin-left: 4px;
+  margin-left: 0.5rem;
   vertical-align: middle;
   display: inline-block; 
   background-position-y: 50%;

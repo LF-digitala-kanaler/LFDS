@@ -73,7 +73,7 @@ export default ({
 
             
               <Header 
-                title={data.site.siteMetadata.title} 
+                title={data.site.siteMetadata.headline} 
                 breadcrumb={breadcrumb}
                 menu={menu}
               />

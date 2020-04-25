@@ -60,7 +60,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
       })
       : false   
   }
-
+  
   // Sort and arrange them in categories 
   
   const breadcrumb = {  

@@ -1,9 +1,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'LFUI',
-    headline: 'Länsförsäkringar User Interface',
-    description: 'Länsförsäkringar User Interface`',
+    title: 'LFDS',
+    headline: 'Länsförsäkringar Design system',
+    description: 'Länsförsäkringar Design system`',
     siteUrl: 'https://lfui-beta-aedd0a.netlify.com/'
   },
   plugins: [
@@ -35,8 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'LFUI',
-        short_name: 'LFUI',
+        name: 'LFDS',
+        short_name: 'LFDS',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',

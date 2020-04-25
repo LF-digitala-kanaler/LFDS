@@ -83,7 +83,7 @@
 
 
 .Header__title {
-  width: var(--sidebar-width);
+  width: 11.825rem;
   padding-left: 1.125rem;
   position: absolute;
   align-items: center;
@@ -92,7 +92,7 @@
   display: flex;
   
   @media (--medium-viewport-down) {
-    top:12px;
+    top: 4px;
   }
 
   @media (--medium-viewport) { 
@@ -107,8 +107,6 @@
 }
 
 .Header__headline { 
-  letter-spacing: 1rem;
-  line-height: 1;
-  margin-left: var(--spacing-xxlg);
+  line-height: 1.25;
   margin-top: 0.25rem;
 }
