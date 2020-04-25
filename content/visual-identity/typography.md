@@ -44,7 +44,7 @@ lang: false
     </div>	
   </div>	
 </div>	
-<div class="container bb-2">	
+<div class="container bb-2 mb-2">	
   <div class="row">	
     <div class="col-md-5">	
      <div class="font-base "  style="font-size:130px;line-height: 1">ABC</div>	
