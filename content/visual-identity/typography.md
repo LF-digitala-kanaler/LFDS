@@ -28,7 +28,7 @@ lang: false
      <div class="font-sans-serif text-primary font-weight-bold"  style="font-size:130px;line-height: 1">ABC</div>	
     </div>	
     <div class="col-md-7">	
-      <div class="font-sans-serif text-primary font-weight-bold" style="font-size:50px;line-height: 59px;">Intro Cond Bold</div>	
+      <div class="font-sans-serif text-primary font-weight-bold" style="font-size:40px;line-height: 59px;">Intro Cond Bold</div>	
       <span class="font-sans-serif text-primary font-weight-bold">ABCDEFGHIJKLMNOPQRSTVWXYZÅÄÖ<br/>abcdefghijklmnopqrstuvwxyz1234567890</span>	
     </div>	
   </div>	
@@ -39,7 +39,7 @@ lang: false
      <div class="font-sans-serif text-primary"  style="font-size:130px;line-height: 1;">ABC</div>	
     </div>	
     <div class="col-md-7">	
-      <div class="font-sans-serif text-primary" style="font-size:50px;line-height: 59px;">Intro Cond Regular</div>	
+      <div class="font-sans-serif text-primary" style="font-size:40px;line-height: 59px;">Intro Cond Regular</div>	
       <span class="font-sans-serif text-primary ">ABCDEFGHIJKLMNOPQRSTVWXYZÅÄÖ<br/>abcdefghijklmnopqrstuvwxyz1234567890</span>	
     </div>	
   </div>	
@@ -50,7 +50,7 @@ lang: false
      <div class="font-base "  style="font-size:130px;line-height: 1">ABC</div>	
     </div>	
     <div class="col-md-7">	
-      <div class="font-base" style="font-size:50px;line-height: 59px;">Arial regular</div>	
+      <div class="font-base" style="font-size:40px;line-height: 59px;">Arial regular</div>	
       <span class="font-base ">ABCDEFGHIJKLMNOPQRSTVWXYZÅÄÖ<br/>abcdefghijklmnopqrstuvwxyz1234567890</span>	
     </div>	
   </div>	
