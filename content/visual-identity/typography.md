@@ -14,7 +14,7 @@ lang: false
 
   <div class="row pt-5 pb-3 text-center text-md-left">	
     <div class="col-md-5">	
-     <div class="font-serif text-primary" style="font-size:130px;line-height: 0.8">Abc</div>	
+     <div class="font-serif text-primary" style="font-size:130px;line-height: 0.75">Abc</div>	
     </div>	
     <div class="col-md-7">	
       <div class="font-serif text-primary" style="font-size:50px;line-height: 59px;">LF Rubrik</div>	
