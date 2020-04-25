@@ -12,9 +12,9 @@ lang: false
 <LfuiWrapper>
 <div class="container  bb-2">	
 
-  <div class="row pt-5 pb-1">	
+  <div class="row pt-5 pb-3">	
     <div class="col-md-5">	
-     <div class="font-serif text-primary" style="font-size:130px;line-height: 1">ABC</div>	
+     <div class="font-serif text-primary" style="font-size:130px;line-height: 0.8">Abc</div>	
     </div>	
     <div class="col-md-7">	
       <div class="font-serif text-primary" style="font-size:50px;line-height: 59px;">LF Rubrik</div>	
@@ -25,7 +25,7 @@ lang: false
 <div class="container bb-2">	
   <div class="row pt-5 pb-1">	
     <div class="col-md-5">	
-     <div class="font-sans-serif text-primary font-weight-bold"  style="font-size:130px;line-height: 1">ABC</div>	
+     <div class="font-sans-serif text-primary font-weight-bold"  style="font-size:130px;line-height: 1.05">Abc</div>	
     </div>	
     <div class="col-md-7">	
       <div class="font-sans-serif text-primary font-weight-bold" style="font-size:40px;line-height: 59px;">Intro Cond Bold</div>	
@@ -47,7 +47,7 @@ lang: false
 <div class="container  mb-2">	
   <div class="row pt-5 pb-1">	
     <div class="col-md-5">	
-     <div class="font-base "  style="font-size:130px;line-height: 1">ABC</div>	
+     <div class="font-base "  style="font-size:130px;line-height: 0.78">ABC</div>	
     </div>	
     <div class="col-md-7">	
       <div class="font-base" style="font-size:40px;line-height: 59px;">Arial regular</div>	
