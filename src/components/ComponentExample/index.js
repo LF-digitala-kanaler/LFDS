@@ -122,7 +122,7 @@ const ComponentExample = ({variants, background}) => {
                 <html>
                   <head>
                   </head>
-                  <body style="margin: 0">
+                  <body class="lfui-theme" style="margin: 0">
                     <div class="frame-root"></div>
                     <script
                     src="https://code.jquery.com/jquery-3.3.1.js"

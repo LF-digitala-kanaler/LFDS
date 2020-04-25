@@ -8,10 +8,14 @@ import Content from '../components/Content';
 import HeroBlock from '../components/HeroBlock'
 import rehypeReact from "rehype-react"
 import Collapse from '../components/Collapse';
+import LfuiWrapper from '../components/LfuiWrapper/index.js'
 
  const renderAst = new rehypeReact({
     createElement: React.createElement,
-    components: { "collapse": Collapse},
+    components: { 
+      "collapse": Collapse,
+      "lfuiwrapper": LfuiWrapper
+    },
   }).Compiler
 // Export Template for use in CMS preview
 export const ArticlePageTemplate = ({
@@ -33,10 +37,9 @@ export const ArticlePageTemplate = ({
         <HeroBlock background={heroBlock.color} quote={heroBlock.quote} cite={heroBlock.cite} />
       }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} >
-        
         {bodyHtml
-          ? <div className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--narrow"}`}>{renderAst(body)}</div>
-          : <Content className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--narrow"}`} source={bodyHtml} />
+          ? <div className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--narrow"}`}>{renderAst(bodyHtml)}</div>
+          : <Content className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--narrow"}`} source={body} />
         }
       </Wrapper>
   </>
@@ -66,8 +69,8 @@ const ArticlePage = ({
         {...page} 
         {...page.frontmatter}
         heroBlock={page.frontmatter.heroBlock}
-        body={page.htmlAst}
-        bodyHtml={page.html}
+        bodyHtml={page.htmlAst}
+        body={page.html}
         wrapperWidth={wrapperWidth}
       />
     </Layout>
