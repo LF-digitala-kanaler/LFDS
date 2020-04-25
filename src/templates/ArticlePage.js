@@ -8,7 +8,7 @@ import Content from '../components/Content';
 import HeroBlock from '../components/HeroBlock'
 import rehypeReact from "rehype-react"
 import Collapse from '../components/Collapse';
-import LfuiWrapper from '../components/LfuiWrapper/index.js'
+import LfuiWrapper from '../components/LfuiWrapper/'
 
  const renderAst = new rehypeReact({
     createElement: React.createElement,
