@@ -10,14 +10,26 @@ wide: false
 lang: false
 ---
 <LfuiWrapper>
-<div class="container">
+
+<div class="container  bb-2">
   <div class="row">
     <div class="col-md-5">
      <div class="font-serif" style="font-size:130px;line-height: 56px;">ABC</div>
     </div>
     <div class="col-md-7">
-      <div class="font-serif" style="font-size:130px;line-height: 56px;>LF Rubrik</div>
+      <div class="font-serif" style="font-size:130px;line-height: 56px;">LF Rubrik</div>
       <span class="font-serif">ABCDEFGHIJKLMNOPQRSTVWXYZÅÄÖ<br/>abcdefghijklmnopqrstuvwxyz1234567890</span>
+    </div>
+  </div>
+</div>
+<div class="container bb-2">
+  <div class="row">
+    <div class="col-md-5">
+     <div class="font-sans-serif text-primary font-weight-bold"  style="font-size:130px;line-height: 56px;">ABC</div>
+    </div>
+    <div class="col-md-7">
+      <div class="font-sans-serif text-primary font-weight-bold" style="font-size:50px;line-height: 59px;">LF Rubrik</div>
+      <span class="font-sans-serif text-primary font-weight-bold">ABCDEFGHIJKLMNOPQRSTVWXYZÅÄÖ<br/>abcdefghijklmnopqrstuvwxyz1234567890</span>
     </div>
   </div>
 </div>
