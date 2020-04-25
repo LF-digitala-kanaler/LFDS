@@ -9,3 +9,8 @@ background: bg-white
 wide: false
 lang: false
 ---
+<LfuiWrapper>
+
+<h1>Heading</h1>
+<div class="row">hej</div>
+</LfuiWrapper>
