@@ -10,9 +10,9 @@ wide: false
 lang: false
 ---
 <LfuiWrapper>
-<div class="container  bb-2 py-1">	
+<div class="container  bb-2">	
 
-  <div class="row">	
+  <div class="row pt-5 pb-1">	
     <div class="col-md-5">	
      <div class="font-serif text-primary" style="font-size:130px;line-height: 1">ABC</div>	
     </div>	
@@ -22,8 +22,8 @@ lang: false
     </div>	
   </div>	
 </div>	
-<div class="container bb-2 py-1">	
-  <div class="row">	
+<div class="container bb-2">	
+  <div class="row pt-5 pb-1">	
     <div class="col-md-5">	
      <div class="font-sans-serif text-primary font-weight-bold"  style="font-size:130px;line-height: 1">ABC</div>	
     </div>	
@@ -33,8 +33,8 @@ lang: false
     </div>	
   </div>	
 </div>	
-<div class="container bb-2 py-1">	
-  <div class="row">	
+<div class="container bb-2 ">	
+  <div class="row pt-5 pb-1">	
     <div class="col-md-5">	
      <div class="font-sans-serif text-primary"  style="font-size:130px;line-height: 1;">ABC</div>	
     </div>	
@@ -44,8 +44,8 @@ lang: false
     </div>	
   </div>	
 </div>	
-<div class="container bb-2 mb-2">	
-  <div class="row">	
+<div class="container  mb-2">	
+  <div class="row pt-5 pb-1">	
     <div class="col-md-5">	
      <div class="font-base "  style="font-size:130px;line-height: 1">ABC</div>	
     </div>	
