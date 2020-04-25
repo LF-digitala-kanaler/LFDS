@@ -9,4 +9,4 @@ meta:
   description: This is a meta description.
   title: LFUI
 ---
-test
+[The complete version at Röda rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)
