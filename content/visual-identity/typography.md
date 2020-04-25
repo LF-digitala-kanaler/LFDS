@@ -9,7 +9,7 @@ background: bg-white
 wide: false
 lang: false
 ---
-<LfuiWrapper><div class="container  bb-2">
+<div class="container  bb-2">
   <div class="row">
     <div class="col-md-5">
      <div class="font-serif text-primary" style="font-size:130px;line-height: 56px;">ABC</div>
@@ -53,4 +53,3 @@ lang: false
     </div>
   </div>
 </div>
-</LfuiWrapper>
