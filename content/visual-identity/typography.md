@@ -9,4 +9,4 @@ background: bg-white
 wide: false
 lang: false
 ---
-<LfuiWrapper>test</LfuiWrapper>
+<LfuiWrapper>code</LfuiWrapper>
