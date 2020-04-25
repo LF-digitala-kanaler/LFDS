@@ -12,7 +12,7 @@ lang: false
 <LfuiWrapper>
 <div class="container  bb-2">	
 
-  <div class="row pt-5 pb-3">	
+  <div class="row pt-5 pb-3 text-center text-md-left">	
     <div class="col-md-5">	
      <div class="font-serif text-primary" style="font-size:130px;line-height: 0.8">Abc</div>	
     </div>	
@@ -23,7 +23,7 @@ lang: false
   </div>	
 </div>	
 <div class="container bb-2">	
-  <div class="row pt-5 pb-1">	
+  <div class="row pt-5 pb-1 text-center text-md-left">	
     <div class="col-md-5">	
      <div class="font-sans-serif text-primary font-weight-bold"  style="font-size:130px;line-height: 1.05">Abc</div>	
     </div>	
@@ -34,7 +34,7 @@ lang: false
   </div>	
 </div>	
 <div class="container bb-2 ">	
-  <div class="row pt-5 pb-1">	
+  <div class="row pt-5 pb-1 text-center text-md-left">	
     <div class="col-md-5">	
      <div class="font-sans-serif text-primary"  style="font-size:130px;line-height: 1;">ABC</div>	
     </div>	
@@ -45,7 +45,7 @@ lang: false
   </div>	
 </div>	
 <div class="container  mb-2">	
-  <div class="row pt-5 pb-1">	
+  <div class="row pt-5 pb-1 text-center text-md-left">	
     <div class="col-md-5">	
      <div class="font-base "  style="font-size:130px;line-height: 0.78">ABC</div>	
     </div>	
