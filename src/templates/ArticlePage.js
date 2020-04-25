@@ -38,8 +38,8 @@ export const ArticlePageTemplate = ({
       }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} >
         {bodyHtml
-          ? <div className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--narrow"}`}>{renderAst(bodyHtml)}</div>
-          : <Content className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--narrow"}`} source={body} />
+          ? <div className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--tight"}`}>{renderAst(bodyHtml)}</div>
+          : <Content className={`Content  ${wrapperWidth ? 'Content--normal' : "Content--tight"}`} source={body} />
         }
       </Wrapper>
   </>
