@@ -9,7 +9,8 @@ background: bg-white
 wide: false
 lang: false
 ---
-<LfuiWrapper><div class="container  bb-2">	
+<LfuiWrapper>
+<div class="container  bb-2">	
 
   <div class="row">	
     <div class="col-md-5">	
@@ -53,4 +54,5 @@ lang: false
       <span class="font-base text-primary ">ABCDEFGHIJKLMNOPQRSTVWXYZÅÄÖ<br/>abcdefghijklmnopqrstuvwxyz1234567890</span>	
     </div>	
   </div>	
-</div></LfuiWrapper>
+</div>
+</LfuiWrapper>
