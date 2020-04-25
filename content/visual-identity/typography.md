@@ -36,7 +36,7 @@ lang: false
 <div class="container bb-2 ">	
   <div class="row pt-5 pb-1 text-center text-md-left">	
     <div class="col-md-5">	
-     <div class="font-sans-serif text-primary"  style="font-size:130px;line-height: 1;">ABC</div>	
+     <div class="font-sans-serif text-primary"  style="font-size:130px;line-height: 1;">Abc</div>	
     </div>	
     <div class="col-md-7">	
       <div class="font-sans-serif text-primary" style="font-size:40px;line-height: 59px;">Intro Cond Regular</div>	
@@ -47,7 +47,7 @@ lang: false
 <div class="container  mb-2">	
   <div class="row pt-5 pb-1 text-center text-md-left">	
     <div class="col-md-5">	
-     <div class="font-base "  style="font-size:130px;line-height: 0.78">ABC</div>	
+     <div class="font-base "  style="font-size:130px;line-height: 0.78">Abc</div>	
     </div>	
     <div class="col-md-7">	
       <div class="font-base" style="font-size:40px;line-height: 59px;">Arial regular</div>	
