@@ -1,13 +1,12 @@
 ---
 template: ComponentPage
-category: Typography
 title: Preamble
+intro: The preample are used as a "lead" element, containing important
+  information or USP text related to the page.
 description: The preample are used as a "lead" element, containing important
   information or USP text related to the page.
 previewImage: /img/preamble.svg
-intro: The preample are used as a "lead" element, containing important
-  information or USP text related to the page.
-backgroundColor: "#f3f3f3"
+category: Typography
 tabs:
   - content: >-
       ## How to use
@@ -57,4 +56,5 @@ tabs:
   - content: |
       content code
     name: Code
+backgroundColor: "#fff"
 ---

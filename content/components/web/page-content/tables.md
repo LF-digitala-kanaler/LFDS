@@ -1,13 +1,13 @@
 ---
 template: ComponentPage
-category: Page Content
 title: Tables
-description: Tables are used to display data. The data can be either of an
-  informative nature or comparative.
-previewImage: /img/tables.svg
 intro: Tables are used to display data. The data can be either of an informative
   nature (e.g. a transaction history or a price list) or comparative (e.g.
   what's included in different types of an insurance).
+description: Tables are used to display data. The data can be either of an
+  informative nature or comparative.
+previewImage: /img/tables.svg
+category: Page Content
 tabs:
   - name: Design
     content: >-
@@ -114,4 +114,5 @@ tabs:
       * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
   - name: Code
     content: content
+backgroundColor: "#f3f3f3"
 ---
