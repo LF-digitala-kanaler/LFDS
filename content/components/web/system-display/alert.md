@@ -141,7 +141,7 @@ tabs:
       There is a couple of modifiers for each variant.
 
 
-      ##### Alert with close-x[](http://localhost:8000/components/web/system-display/alert#alert-with-close-x)
+      #### Alert with close-x
 
 
       If you want your alert banner to be closable you can accomplish this by adding some classes and markup. You will not need any extra javascript to make this work( except if you want to store if the user have closed it).
@@ -168,7 +168,7 @@ tabs:
       #### Alert with button
 
 
-      If -**and only if**- you want an outlined secondary button on a striped background (using the background utility class or if it is inside an alert), you may use the respective special-case outlined button for that type of striped background. If it is on the `info`-stripes, use `btn-outline-info` if it is on the `danger`-stripes, use `btn-outline-danger` and vice-versa for `success`and `warning`.
+      If -**and only if**- you want an outlined secondary button on a striped background (using the background utility class or if it is inside an alert), you may use the respective special-case outlined button for that type of striped background. If it is on the `info`-stripes, use `btn-outline-info` if it is on the `danger`-stripes, use `btn-outline-danger` and vice-versa for `success` and `warning`.
 
 
       Buttons in/on alerts/striped backgrounds are always small, `btn-sm`.
