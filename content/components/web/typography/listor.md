@@ -1,13 +1,12 @@
 ---
 template: ComponentPage
-category: Typography
 title: Lists
+intro: Use to list small texts in dots or in numerical order and break up large
+  blocks of text and make important info stand out.
 description: Use to list small texts in dots or in numerical order and break up
   large blocks of text and make important info stand out.
 previewImage: /img/lists.svg
-intro: Use to list small texts in dots or in numerical order and break up large
-  blocks of text and make important info stand out.
-backgroundColor: "#fff"
+category: Typography
 tabs:
   - content: >-
       ## How to use
@@ -98,6 +97,13 @@ tabs:
 
       * Only have 3-5 points in one list.
     name: Design
-  - content: text
+  - content: >-
+      Lists in LFUI have the appearance listed below. Also provided (in addition
+      to Bootstrap's list utility classes) are utility classes to alter the list
+      appearance further.
+
+
+      The default styling of `ol`  and `ul` is achieved by adding the corresponding class to the element at hand. This means if you're building an ul, also append the `ul` class to that element (and vice versa in the `ol` case).
     name: Code
+backgroundColor: "#fff"
 ---
