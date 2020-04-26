@@ -10,6 +10,7 @@ wide: false
 lang: false
 ---
 <LfuiWrapper>
+
 <div class="container  bb-2">	
 
   <div class="row pt-5 pb-3 text-center text-md-left">	
@@ -55,4 +56,15 @@ lang: false
     </div>	
   </div>	
 </div>
+
 </LfuiWrapper>
+
+## Use the right type
+
+Our main page headlines are usually set in *LF Rubrik*. The rest of the headlines and most of the typography is set with *Intro cond bold* and in rare cases *Intro Cond Regular*. For paragraps, lists and content in tables use *Arial regular* for optimal readability. 
+
+[Typography components in LFUI](/components/web/typography)
+
+### Variations
+
+For Android and iOS we use Roboto and SF XXXX instead of Arial.
