@@ -16,7 +16,7 @@ tabs:
       ### LF Rubrik - Display H1-H4
 
 
-      LF Rubrik are only used as a H1 and should always be the biggest headline on the page. The H1 should only be used one time per page.  Used as main page headers. Use the`display-1`through`display-4`classes.
+      LF Rubrik are only used as a H1 and should always be the biggest headline on the page. The H1 should only be used one time per page.  Used as main page headers. 
 
 
       ### Intro Cond Bold - H1-H6
