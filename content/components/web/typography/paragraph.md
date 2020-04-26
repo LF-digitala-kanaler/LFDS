@@ -1,13 +1,12 @@
 ---
 template: ComponentPage
-category: Typography
 title: Paragraph
+intro: Brödtexten används på alla ställen där man inte vill ha en rubrik eller
+  fet text.
 description: Brödtexten används på alla ställen där man inte vill ha en rubrik
   eller fet text.
 previewImage: /img/paragraph.svg
-intro: Brödtexten används på alla ställen där man inte vill ha en rubrik eller
-  fet text.
-backgroundColor: "#f3f3f3"
+category: Typography
 tabs:
   - content: >-
       ## How to use
@@ -47,4 +46,5 @@ tabs:
     name: Copy
   - content: content code
     name: Code
+backgroundColor: "#fff"
 ---
