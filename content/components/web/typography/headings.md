@@ -1,11 +1,10 @@
 ---
 template: ComponentPage
-category: Typography
 title: Headings
+intro: We have two types of headlines - LF Rubrik and Intro Cond Bold.
 description: We have two types of headlines - LF Rubrik and Intro Cond Bold.
 previewImage: /img/headings.svg
-intro: We have two types of headlines - LF Rubrik and Intro Cond Bold.
-backgroundColor: "#fff"
+category: Typography
 tabs:
   - content: >-
       ## How to use
@@ -85,6 +84,64 @@ tabs:
     name: Design
   - content: content copy
     name: Copy
-  - content: content code
+  - content: >-
+      
+
+      ## Headings
+
+      Use the `<h1>` through `<h6>`, or the classes `.h1` through `.h6`.
+
+      The headings have margin spacing rules depending on their position in a section.
+
+
+      <table>
+        <tbody class="table table-varied table-sm text-sm">
+          <tr>
+            <th>Heading</th>
+            <th>Font-size</th>
+            <th>Line-height</th>
+            <th>Color</th>
+            <th>Font-family</th>
+          </tr>
+          <tr>
+            <td class="text-nowrap">h1</td>
+            <td class="text-nowrap">40px</td>
+            <td class="text-nowrap">1.35</td>
+            <td rowspan="5" class="text-nowrap">
+              <dt class="distribution-title" style="background-color: #00427a"></dt>#00427a
+            </td>
+            <td rowspan="6">"Intro Cond Bold"</td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">h2</td>
+            <td class="text-nowrap">29px</td>
+            <td class="text-nowrap">1.35</td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">h3</td>
+            <td class="text-nowrap">23px</td>
+            <td class="text-nowrap">1.3</td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">h4</td>
+            <td class="text-nowrap">20px</td>
+            <td class="text-nowrap">1.3</td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">h5</td>
+            <td class="text-nowrap">18px</td>
+            <td class="text-nowrap">1.3</td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">h6</td>
+            <td class="text-nowrap">12px</td>
+            <td class="text-nowrap">1.45</td>
+            <td class="text-nowrap">
+              <dt class="distribution-title" style="background-color: #747578"></dt>#6B7070
+            </td>
+          </tr>
+        </tbody>
+      </table>
     name: Code
+backgroundColor: "#fff"
 ---
