@@ -51,7 +51,7 @@ export default ({
           
           <Fragment>
             <Helmet
-              defaultTitle={siteTitle}
+              defaultTitle="LFDS"
               titleTemplate={`%s | ${siteTitle}`}
               bodyAttributes={{
                 class: backgroundClass

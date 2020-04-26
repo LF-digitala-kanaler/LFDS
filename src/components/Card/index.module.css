@@ -27,6 +27,10 @@
   margin-bottom: var(--spacing-vertical--05);
   text-align: left;
 
+  @media (--large-viewport) { 
+    font-size: 2rem;
+  }
+
 }
 .Card__title--small {
   font-size: 1.2rem;

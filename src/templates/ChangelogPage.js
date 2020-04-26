@@ -32,8 +32,10 @@ export const ChangelogPageTemplate = ({
         <TabPanel className={tabStyle.Tabs__panel} >
           <Wrapper menu={true} tag="div" narrow>
             <div className="Content">
+              {console.log(components)}
             {
-              components.map(item => {
+              
+              components.filter(item => item.node.descriptionHTML != "").map(item => {
                 return (
                   <div key={item.node.id}>
                     <h2>{item.node.tagName}</h2>
