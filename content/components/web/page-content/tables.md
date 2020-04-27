@@ -114,7 +114,7 @@ tabs:
       * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
   - name: "Code "
     content: >-
-      ## How to use 
+      ## How to use
 
 
       Tables come in many different forms and sizes. Which table you should use is often dependant to its content and background color. The default table looks like the one directly below and is of a "compressed" variant, hence the "small" and `.table-sm` markup. This is due to tables in LF applications usually have a lot of content.
@@ -123,31 +123,69 @@ tabs:
       ### Variations
 
 
-      If we don't count the endless modifiers you have at your disposal there is two different variations of tables, one that **present data** and one that **compare data.**
+      If we don't count the endless modifiers you have at your disposal there is two different variations of tables, one that **present data** and one that **compare data.** 
 
 
-      ### Present data
+      #### Present data
 
 
-      #### Modifiers
+      This is the "normal" table in LFUI. Use semantic  markup as in the example below and add `.table` and you are good to go. 
 
 
-      ##### Sizing
+      ```
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Account #</th>
+            <th scope="col">Balance kr</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Billys bucks</td>
+            <td>9810.01.345.89</td>
+            <td>250</td>
+          </tr>
+        </tbody>
+      </table>
+
+      ```
 
 
-      ##### Summary row
+      ##### Modifiers
 
 
-      ##### Banded rows
+      There is several modifiers available for tables. You can mix and match after what you need. 
 
 
-      ##### In-table grouping
+      ###### Sizing
 
 
-      ##### Expandable rows
+      There is one sizing modifier available and that is `.table-sm.` Simply add the `.table-sm` class to your `table` element.
 
 
-      ##### Clickable rows
+      ```
+
+      <table class="table table-sm">...</table>
+
+      ```
+
+
+      ###### Summary row
+
+
+      ###### Banded rows
+
+
+      ###### In-table grouping
+
+
+      ###### Expandable rows
+
+
+      ###### Clickable rows
 
 
       ### Comparative tables
