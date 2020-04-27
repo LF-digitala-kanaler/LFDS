@@ -19,7 +19,7 @@ tabs:
       The progress bar is used to display how much of a flow that has been
       completed. It's often used for longer flows such as web based educations.
       In web applications/check outs we usually use the component
-      [pagination](../../navigations/pagination/) witch are our standard way of
+      [pagination](../../navigations/pagination/) which are our standard way of
       showing progress in a buying flow context.
 
 
