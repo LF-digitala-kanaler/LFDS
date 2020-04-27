@@ -256,14 +256,14 @@ tabs:
           <tbody>
             <tr><th colspan="3" class="th-sub">Party Accounts</th>
             </tr><tr>
-              <td class="text-nowrap">Billys bucks</td>
-              <td class="text-nowrap">9810.01.345.89</td>
-              <td class="table-cell-number">-250</td>
+              <td>Billys bucks</td>
+              <td>9810.01.345.89</td>
+              <td>-250</td>
             </tr>
             <tr>
-              <td class="text-nowrap">Donnas dollars</td>
-              <td class="text-nowrap">9810.01.345.89</td>
-              <td class="table-cell-number">12 000</td>
+              <td>Donnas dollars</td>
+              <td>9810.01.345.89</td>
+              <td">12 000</td>
             </tr>
 
           </tbody>
@@ -272,7 +272,69 @@ tabs:
       ```
 
 
+      To indent and group any number of rows under another row apply the `.table-sub-group` to each row you wish specified as sub grouped. It works with every type of table above. To achieve correct styling, also add `.last` to the last child as well as `.first` to the first child of the `.table-sub-group`-row!
+
+
+      **NOTE** Do not add `.first`& `.last`-classes to the `.table-varied`-variant, as it breaks its styling.
+
+
+      ```
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Account #</th>
+            <th scope="col">Balance kr</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Billys bucks</td>
+            <td>9810.01.345.89</td>
+            <td>-250</td>
+          </tr>
+          <tr>
+            <td>Donnas dollars</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="table-sub-group first">
+            <td>Donnas savings</td>
+            <td>9810.01.345.90</td>
+            <td>14 921</td>
+          </tr>
+          <tr class="table-sub-group">
+            <td>Donnas insurance fund</td>
+            <td>9810.01.345.91</td>
+            <td>39 721</td>
+          </tr>
+          <tr class="table-sub-group">
+            <td>Donnas car</td>
+            <td>9810.01.345.92</td>
+            <td>218 012</td>
+          </tr>
+          <tr class="table-sub-group last">
+            <td>Donnas other savings</td>
+            <td>9810.01.345.93</td>
+            <td>8 120</td>
+          </tr>
+          <tr>
+            <td>Savings</td>
+            <td>9810.01.345.89</td>
+            <td>53 000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      ```
+
+
       ###### Expandable rows
+
+
+
+
 
 
       ###### Clickable rows
