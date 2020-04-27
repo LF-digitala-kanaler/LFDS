@@ -27,4 +27,8 @@ Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad k
 * **Felet ligger hos användaren**
 
   Användaren kanske har skrivit fel, glömt att fylla i eller saknar internet. Berätta vad som har hänt och guida användaren rätt för att komma vidare. Skyll inte på användaren. 
-* Felet ligger förmodligen hos användaren men kan vara hos oss
+* **Felet ligger förmodligen hos användaren** 
+
+  Här är det osäkert var felet ligger. Det är stor chans att det är användaren men det kan vara vi. Fråga eller föreslå. "Kan det vara så att..." Föreslå att testa/kolla, "Testa igen, annars är det vi och då jobbar vi på att lösa problemet". Skippa felkod om det inte specifikt hjälper användaren att se den. 
+
+  Säg inte att det är ett tekniskt fel om vi inte vet att det är det. Det kan då framstå som att vi har mer tekniska problem än vad vi faktiskt har.
