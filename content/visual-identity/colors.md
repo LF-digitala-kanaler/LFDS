@@ -6,7 +6,7 @@ intro: Our primary colors are blue, red and white. This color combination is
   very recognisable for our customers. It's important that we use our colors
   consequently.
 background: bg-white
-wide: false
+wide: true
 lang: false
 ---
 ## Primary Colors

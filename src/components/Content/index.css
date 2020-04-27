@@ -250,6 +250,7 @@ figure {
   display: flex;
   flex-wrap: wrap;
   margin: var(--spacing-vertical--1) -1rem var(--spacing-vertical--2) -1rem;
+  max-width: 836px;
 }
 
 .Colors__item {

@@ -1,6 +1,5 @@
 ---
 background: bg-white
-
 template: CategoryOverview
 title: Getting started
 intro: >-

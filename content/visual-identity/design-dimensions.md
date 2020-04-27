@@ -1,8 +1,7 @@
 ---
 template: ArticlePage
-category: Design dimensions
 previewImage: /img/dimensions.svg
-title: Grid
+title: Design dimensions
 intro: ddd
 background: bg-white
 wide: false

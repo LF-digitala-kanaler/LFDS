@@ -194,7 +194,6 @@ collections: # A list of collections the CMS should be able to edi
     label: Visual Identity
     folder: content/visual-identity/
     path: '{{category}}/{{slug}}'
-    editorComponents: ['advancedImage']
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
