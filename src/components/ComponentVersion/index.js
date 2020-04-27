@@ -55,7 +55,7 @@ export const ComponentVersion = ({version}) => {
           <>
           <div className={style.ComponentVersion}>
             
-            <button className={style.ComponentVersion__button +` ${setActive}`} onClick={toggleAccordion}>Last updated: {versions[0].bootstrap.changedInVersion[0]} <svg className={cx(style.ComponentVersion__icon, isOpen ? style['ComponentVersion__icon--active']: '')} width="14" height="9" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><defs><path id="compver" d="M7 3.414L1.707 8.707.293 7.293 7 .586l6.707 6.707-1.414 1.414z"/></defs><use fill="#747578" xlinkHref="#compver" transform="matrix(1 0 0 -1 0 9)" fillRule="evenodd"/></svg></button>
+            <button className={style.ComponentVersion__button +` ${setActive}`} onClick={toggleAccordion}>Last Version: {versions[0].bootstrap.changedInVersion[0]} <svg className={cx(style.ComponentVersion__icon, isOpen ? style['ComponentVersion__icon--active']: '')} width="14" height="9" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><defs><path id="compver" d="M7 3.414L1.707 8.707.293 7.293 7 .586l6.707 6.707-1.414 1.414z"/></defs><use fill="#747578" xlinkHref="#compver" transform="matrix(1 0 0 -1 0 9)" fillRule="evenodd"/></svg></button>
             <div  className={style.ComponentVersion__dropdown} ref={content} style={{ maxHeight: `${setHeight}` }}>
                 <ul className={style.ComponentVersion__list}>{previousVersions}</ul>
             </div>
