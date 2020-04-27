@@ -22,6 +22,12 @@ tabs:
 
 
       Cards have historically been a part of page templates in both lansforsakringar.se and Mina sidor, but their future usage is under consideration as page templates are being redesigned so please check if the component still should be used before using it!
+
+
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Card)
     name: Design
 backgroundColor: "#fff"
 ---
