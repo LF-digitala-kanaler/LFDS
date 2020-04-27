@@ -11,11 +11,9 @@ lang: false
 ---
 ### Vårt språk
 
-Generellt om länsförsäkringskan
+Att skriva länsförsäkringska är att skriva på läsarens villkor och att skriva som ett samtal. Det handlar och att skriva rakt, aktivt och enkelt. Vi skriver personligt och vänligt.
 
-att det också ska vara
-
-Tillgängligt, koncist, läsbart, inkluderande
+Tänk på att också skriva tillgängligt, koncist, läsbart och inkluderande. 
 
 ### Felmeddelanden 
 
