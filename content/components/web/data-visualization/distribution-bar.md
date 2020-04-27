@@ -3,9 +3,8 @@ template: ComponentPage
 category: Data Visualization
 title: Distribution bar
 description: The distribution bar gives the user an overview of the relative
-  size of different values in relation to each other. A secondary use case is as
-  a form of progress bar with discrete steps whose relative size varies over
-  time.
+  size of different values in relation to each other, like the different funds
+  in your ISK.
 previewImage: /img/distribution-bar.svg
 intro: The distribution bar gives the user an overview of the relative size of
   different values in relation to each other.
@@ -15,66 +14,89 @@ tabs:
       ## How to use
 
 
-      The distribution bar's **main use case** is to compare how different values relate to one another. The distribution bar's total always equals 100%, meaning that the values are translated into percentages of the total before they are displayed in the table. This means that the distribution bar gives an overview of the values at a given time, usually the current values. As the visual overview only works if the user can get a sense of the relations at first glance, only use a distribution bar for comparing few items (a rule of thumb is five items). An example use could be to display your ISK-accounts and how the amount in them relate to each other.
+      The distribution bar is used to compare how different values relate to one another. The distribution bar's total always equals 100%, meaning that the values are translated into percentages of the total before they are displayed in the table. This means that the distribution bar gives an overview of the values at a given time, usually the current values. As the visual overview only works if the user can get a sense of the relations at first glance, only use a distribution bar for comparing few items (a rule of thumb is five items). An example use could be to display your ISK-accounts and how the amount in them relate to each other.
 
 
+      ### Variation
 
 
-      \---
+      The behaviour described in "How to use" is the standard usage of the distribution bar. There is however a specific secondary variation: as a progress bar.
 
 
-
-       However, when trying to measure change over time, bar graphs are best when the changes are larger.
-
-      You can have the text of procent in the bar or in top of the bar. A recommendation is to not show the percentage value inside the bar unless the width is at least 5% or above (depending on your parent width, of course) to make sure the value fits.
+      #### As a progress bar
 
 
-      ### Modifiers
+      A **secondary use case** is as a form of [progress bar](../system-display/progress-bar) with discrete steps whose relation change over time. The distribution bar should only be used as a progress bar if both cases are true. What's great with this use is that you can choose to display parts which aren't affected but part of the total, as the red section in the example image below. The example image below has both modifiers for the use case turned on:
 
 
-      * Arrow that points out separator steps
-
-      * Pointer/arrow as a separator 
-
-      * Tooltip explanation
+      <figure class="Image Image__background"><img src="/img/distribution-bar-as-progress-bar.png" srcset="/img/distribution-bar-as-progress-bar.png 2x" alt="Distribution bar as progress bar"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
-      #### Arrow that points out separator steps
+      As indicated above, to specific modifiers exist for the distribution bar as a progress bar.
 
 
-      You can use arrows that points out the separator steps with an explanation over the arrow so the customer knows what the different steps are. This can be used for values that are growing, or are expected to grow.
+      ##### Specific modifiers
 
 
-      #### Pointer/arrow as a separator
+      The two specific modifiers which exist for the distribution bar as a progress bar are:
 
 
-      You can use a pointer separator in the bar to show that something are growing in a direction as in Bekväm pension, were the amount always grows to the amount of 80% were it stops. This can be used for values that are growing, or are expected to grow.
+      * Arrows that point out separator steps
+
+      * Pointy-headed separator
+
+
+      ###### Arrows that point out separator steps
+
+
+      You can add arrows which point to the gaps between the values. The arrows are accompanied by a small label which should describe the progress being made up to that point. Do not just repeat the legend in the arrow labels.
+
+
+      ###### Pointy-headed separator
+
+
+      You can use a pointer separator on a value in the bar to show that something is expected to grow/progress. It is recommended to add the pointy-headed separator to the state which is currently progressing/changing when using the distribution bar as a progress bar.
 
 
       Try to not to use the arrow at small values, as the arrow has a width around 10px and might disrupt the accuracy of the bar.
 
 
+      ### General modifiers
+
+
+      There are two types of modifiers which exist for both use cases of the distribution bar, and should be used as alternatives to each other:
+
+
+      * Label inside bar
+
+      * Tooltip explanation
+
+
+      #### Label inside bar
+
+
+      You can add labels inside the bar if you wish to. This eases the understanding of the distribution bar and is encouraged, however not implemented by default for accessibility reasons.  A recommendation is to not show the percentage value inside the bar unless the width is at least 5% or above (depending on your parent width, of course) to make sure the value fits in its area.
+
+
       #### Tooltip explanation
 
 
-      When you don't have room for arrows you can use the mouse over tooltip or for the mobil mouse press function to get more info about the value or part of the bar.
+      If you don't have the room for a label inside the bar, you should add a tooltip explanation. If enabled, the user gets to see the value of a field by hovering over (desktop) or clicking on (mobile) that field in the bar. The value is shown above the bar.
 
 
       ### Legends and colors
 
 
-      All the graphs have the same legends and color styles, read more [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#the-different-parts).
+      All the graphs have the same legends and color styles, read more [here](/patterns/general-patterns/graphs-and-when-to-use-them#the-different-parts).
 
 
-      When to use different graphs you find [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
+      When to use different graphs you find [here](/patterns/general-patterns/graphs-and-when-to-use-them#type-of-graph).
 
 
       ## Please consider:
 
 
-      * Users have a hard time understanding procent
-
-      * Have only been used in pension "bekväm pension"
+      * Many people have troubles understanding percentage, so do not rely on solely the distribution bar to show users their data. Use it as a compliment!
     name: Design
   - content: >-
       ## How to use

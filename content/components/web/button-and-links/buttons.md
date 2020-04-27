@@ -1,13 +1,12 @@
 ---
-priority: "2"
 template: ComponentPage
-category: Button and Links
 title: Buttons
+intro: Buttons are used as a part of a flow, and is the component which the user
+  clicks to make progress in said flow.
 description: Buttons are used as a part of a flow, and is the component which
   the user clicks to make progress in said flow.
 previewImage: /img/button-primary.svg
-intro: Buttons are used as a part of a flow, and is the component which the user
-  clicks to make progress in said flow.
+category: Button and Links
 tabs:
   - content: >-
       ## How to use
@@ -160,7 +159,7 @@ tabs:
       ### Buttons with double row
 
 
-      Knappen används bara i köptjänster och ska förklara vad som händer när jag trycker och även vad jag ska göra i nästa steg. *Exempel: "Gå vidare \[radbryt] Välj försäkring" eller "Gå vidare \[radbryt] Godkänn"*
+      Knappen används bara i köptjänster och ska förklara vad som händer när jag trycker och även vad jag ska göra i nästa steg. *Exempel: "Gå vidare \[radbryt] och välj försäkring" eller "Gå vidare \[radbryt] och se sammanställning".*
 
 
       ### Primary with BankID icon
@@ -396,4 +395,5 @@ tabs:
 
       "When using button classes on `<a>` elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a `role="button"` to appropriately convey their purpose to assistive technologies such as screen readers."
     name: Code
+priority: "2"
 ---
