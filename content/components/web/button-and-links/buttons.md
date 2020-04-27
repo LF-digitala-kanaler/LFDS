@@ -139,6 +139,18 @@ tabs:
 
 
       If you are designing a button which is never meant to be enabled, you shouldn't have the button there at all.
+
+
+      ## Other material
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/Primary button or Secondary button or Login & Logout)
+
+
+      **Live exemple:** [](https://www.lansforsakringar.se/stockholm/privat/)Loan product page have primary button for the "Calculate mortgages" and you have always the login button on the top right: <https://www.lansforsakringar.se/privat/bank/lana/bolan/>
+
+
+      **Article:** <https://blog.datawrapper.de/area-charts/>
     name: Design
   - content: >-
       ## Så skriver vi
