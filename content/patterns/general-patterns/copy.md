@@ -15,14 +15,12 @@ Att skriva länsförsäkringska är att skriva på läsarens villkor och att skr
 
 Tänk på att också skriva tillgängligt, koncist, läsbart och inkluderande. 
 
-### Felmeddelanden generellt
+### Felmeddelanden
 
 Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig. Var vänlig och ödmjuk. 
 
-#### Tre typer av felmeddelanden
-
 <section>
-<Collapse title="Felmeddelanden generellt"><span class="content">**När felet ligger hos oss**
+<Collapse title="Tre typer av felmeddelanden"><span class="content">**När felet ligger hos oss**
 
 Ofta hjälper det inte användaren att veta vad exakt som har hänt. Berätta att något har gått fel och ve användaren att testa igen eller komma tillbaka senare. Tänk på att vara ödmjuk och leda dem rätt.
 
@@ -55,3 +53,5 @@ Om man måste fylla i fältet på något speciellt sätt, förklara hur det ska 
 
 Speciellt vid formulär med många fält kan man lägga till positiv validering - bekräfta att användaren fyllt i rätt. Exempel på barnförsäkringen vid ifyllt namn: "Fint namn!".</span></Collapse>
 </section>
+
+### Datum och tid
