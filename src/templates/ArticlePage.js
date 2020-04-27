@@ -38,8 +38,8 @@ export const ArticlePageTemplate = ({
       }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} >
         {bodyHtml
-          ? <div className={`Content  ${wrapperWidth === true ? 'Content--normal' : "Content--tight"}`}>{renderAst(bodyHtml)}</div>
-          : <Content className={`Content  ${wrapperWidth === true ? 'Content--normal' : "Content--tight"}`} source={body} />
+          ? <div className={`Content  ${wrapperWidth === true  ? 'Content--normal' : "Content--tight"}`}>{renderAst(bodyHtml)}</div>
+          : <Content className={`Content  ${wrapperWidth === true  ? 'Content--normal' : "Content--tight"}`} source={body} />
         }
       </Wrapper>
   </>
@@ -49,8 +49,8 @@ const ArticlePage = ({
   location
   
   },) => {
-  console.log(page)
-  const wrapperWidth = page.frontmatter.wide ? true : false;
+  
+  
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
@@ -71,7 +71,7 @@ const ArticlePage = ({
         heroBlock={page.frontmatter.heroBlock}
         bodyHtml={page.htmlAst}
         body={page.html}
-        wrapperWidth={wrapperWidth}
+        wrapperWidth={page.frontmatter.wide}
       />
     </Layout>
   )

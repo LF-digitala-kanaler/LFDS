@@ -191,7 +191,7 @@ figure {
 }
 /* hack to get content inside wide to be narrow */
 
-.Content--normal > div >*:not(section) {
+.Content--normal > div >*:not(section):not('.Colors') {
   max-width: var(--content-width--tight);
 }
 .Content > div > section {
@@ -250,7 +250,6 @@ figure {
   display: flex;
   flex-wrap: wrap;
   margin: var(--spacing-vertical--1) -1rem var(--spacing-vertical--2) -1rem;
-  max-width: 836px;
 }
 
 .Colors__item {
