@@ -66,6 +66,9 @@ tabs:
       An exemption to the rule are the yes and no answers. If there are a lot of yes and no answers they have a fit size and can fit together in the mobile view. And makes it easier to press yes or no every time when they are in the same place.
 
 
+      <figure class="Image Image__border Image__border--noPadding"><img src="/img/button-group-yes-and-no.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
       ### Radio cards
 
 
