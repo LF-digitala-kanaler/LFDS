@@ -1,14 +1,13 @@
 ---
 template: ComponentPage
-category: Button and Links
 title: Links
+intro: Links are used when we want to guide the user away from the current page,
+  as we expect them to want information which isn't part of the current flow.
 description: Links are used when we want to guide the user away from the current
   page, as we expect them to want information which isn't part of the current
   flow.
 previewImage: /img/link-primary.svg
-intro: Links are used when we want to guide the user away from the current page,
-  as we expect them to want information which isn't part of the current flow.
-backgroundColor: "#fff"
+category: Button and Links
 tabs:
   - content: >-
       ## How to use
@@ -20,7 +19,7 @@ tabs:
       ### Versions
 
 
-      We have two versions of links; primary and regular. However, headings can also be links (especially on [cards](../page-content/card)) - this use case is described under [Headings in Typography.](../typography/headings)
+      We have two versions of links; primary and regular. However, headings can also be links (especially on [cards](../page-content/card)) - this use case is described under [Headings in Typography.](../typography/headings#linked-headline)
 
 
       #### Primary links
@@ -32,7 +31,10 @@ tabs:
       As they are primary there can only be one primary link per block (and preferably page). Layout-wise the primary link is rather "heavy" with an arrow after the text, meaning it should be used sparsely. 
 
 
-      <div class="Callout"><strong class="Callout__title">Link or button? </strong><p class="Callout__text">The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
+      <div class="Callout"><strong class="Callout__title">Link or button? </strong><p class="Callout__text"><figure class="Image Image__border"><img src="/img/paragraph-links.png" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+      The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
 
 
       #### Regular links
@@ -45,6 +47,8 @@ tabs:
 
 
       If you want to include a link in in a block text, you may do so but do it with caution. Links in text is good from an SEO-perspective but bad from a accesibility-perspective. If you want to include a link inline keep the paragraph it is in as short as possible. If you have several links you want to add, you should consider a [link list](#link-list) instead.
+
+
 
 
       ###### In a bullet list
@@ -83,6 +87,12 @@ tabs:
 
 
       <figure class="Image Image__background"><img src="/img/skärmavbild-2020-03-12-kl.-18.00.19.png" srcset="/img/skärmavbild-2020-03-12-kl.-18.00.19.png 2x" alt="Regular links next to a primary button in a flow where both "backwards" and "cancel"-options exist."><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+      ## Other material
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/ "Primary link" and "Secondary link")
     name: Design
   - content: >-
       ## Så skriver vi
@@ -180,4 +190,5 @@ tabs:
       * `link-complex` can be used when the link is wrapped around a container and you want the correct link behavior on a targeted element within the container (see[Card's](https://lf-digitala-kanaler.github.io/LFUI/650/#/card)"As link" for an example).
 
       * `link-complex-adaptive-target` is like`link-complex`(&`link-complex-target`), but the link does not get the default link styling, and instead gets the adaptive, inherit styling. Used mainly in the header and footer components.
+backgroundColor: "#fff"
 ---
