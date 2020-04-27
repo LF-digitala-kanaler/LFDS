@@ -1,41 +1,36 @@
 ---
 template: ComponentPage
-category: Forms
 title: Checkbox
+intro: "Well, as Shakespeare (almost) wrote: \"What's in a name? That which we
+  call a checkbox, by any other name would still check a box\". Your standard
+  web component dressed in a Länsförsäkringar styling."
 description: Your standard web component dressed in a Länsförsäkringar styling.
 previewImage: /img/checbox.svg
-intro: >-
-  Well, as Shakespeare (almost) wrote: "What's in a name? That which we call a
-  checkbox, by any other name would still check a box". Your standard web
-  component dressed in a Länsförsäkringar styling.
-backgroundColor: '#fff'
+category: Forms
 tabs:
   - content: >-
       ## How to use
 
 
-      Our checkbox follows standard web behaviour - it is used when the user has
-      to do a choice and isn't limited to only one. Both checkbox and label
-      should be clickable to select/unselect a checkbox.
+      Our checkbox follows standard web behaviour - it is used when the user has to do a choice and isn't limited to only one. Both checkbox and label should be clickable to select/unselect a checkbox.
 
 
-      Our recommendation is to present your list of checkboxes vertically, with
-      one choice per line. This makes it easier to get an overview of the
-      options and creates a clearer and larger click area. If you use an
-      horizontal layout, make sure that it is coded in such a way that labels
-      don't flow over two rows in responsive modes (one good way is to set a
-      break point when the list becomes vertical).
+      Our recommendation is to present your list of checkboxes vertically, with one choice per line. This makes it easier to get an overview of the options and creates a clearer and larger click area. If you use an horizontal layout, make sure that it is coded in such a way that labels don't flow over two rows in responsive modes (one good way is to set a break point when the list becomes vertical).
 
 
-      Checkboxes should be unchecked by default (unless viewing a representation
-      of previous choices - like having the addon "Mer" on your car insurance).
+      Checkboxes should be unchecked by default (unless viewing a representation of previous choices - like having the addon "Mer" on your car insurance).
 
 
       ## Please consider
 
 
-      If you have more than five options you are probably better off using a
-      [multi-select dropdown](../dropdown).
+      If you have more than five options you are probably better off using a [multi-select dropdown](../dropdown).
+
+
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Checkbox)
     name: Design
   - content: |-
       ## Så skriver vi
@@ -54,11 +49,7 @@ tabs:
       ## How to use
 
 
-      Since the default checkbox design is not customizable, we will hide it
-      visually and add a pseudo element which we style with css to get the
-      desired look. By visually, I mean to hide it from the UI and keep it in
-      the DOM for screen reader and keyboard users. You shouldn't need to do
-      anything else then use the code posted below. 
+      Since the default checkbox design is not customizable, we will hide it visually and add a pseudo element which we style with css to get the desired look. By visually, I mean to hide it from the UI and keep it in the DOM for screen reader and keyboard users. You shouldn't need to do anything else then use the code posted below. 
 
 
       ```
@@ -76,9 +67,7 @@ tabs:
       ## Accessibility
 
 
-      Remember to always associating the label with the input. Which means
-      `<input>` should always have an ID and this ID should be used as a for
-      attribute for the `<label>` .
+      Remember to always associating the label with the input. Which means `<input>` should always have an ID and this ID should be used as a for attribute for the `<label>` .
 
 
       ```
@@ -89,5 +78,5 @@ tabs:
 
       ```
     name: Code
+backgroundColor: "#fff"
 ---
-
