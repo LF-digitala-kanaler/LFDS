@@ -69,10 +69,10 @@ collections: # A list of collections the CMS should be able to edi
       
     
   - name: design-page
-    label: Design@LF
+    label: Foundations
     media_folder: /static/img
     public_folder: /img
-    folder: content/design
+    folder: content/foundations
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
