@@ -35,7 +35,7 @@ Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad k
 
 ### Validering
 
-Specifika texter finns under respektive label under [Input field](https://lfui-beta-aedd0a.netlify.app/components/web/forms/input-field?copy) \[länk]
+Specifika texter finns under respektive label under [Input field](https://lfui-beta-aedd0a.netlify.app/components/web/forms/input-field?copy)
 
 **Generellt vid tomt fält**
 
