@@ -60,6 +60,12 @@ tabs:
       In mobile, the options get stacked on top of each other.
 
 
+      #### Yes and no answers
+
+
+      An exemption to the rule are the yes and no answers. If there are a lot of yes and no answers they have a fit size and can fit together in the mobile view. And makes it easier to press yes or no every time when they are in the same place.
+
+
       ### Radio cards
 
 
