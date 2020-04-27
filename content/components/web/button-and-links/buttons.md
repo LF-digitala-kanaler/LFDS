@@ -76,7 +76,7 @@ tabs:
       To support the user in easily finding their way into Mina Sidor (and not having several primary buttons on a page) our log-in button has a unique colour (#007DB0) which is only used for logging in-purposes. The button is used for directing users to our log-in page as well as doing the actual logging in on the log-in page. It is also used for logging out in Mina Sidor.
 
 
-      The log-in button is always available in the top right corner of pur public web pages, but can also be repeated in page if relevant (one good example is "Återbäring" which has content on how to retrieve it on public pages, but the user has to do actions in Mina Sidor (which many insurance-customer don't visit). The copy should however always only by "Logga in" (or "Logga ut" if in a logged in-view).
+      The log-in button is always available in the top right corner of pur public web pages, but can also be repeated in page if relevant (one good example is "Återbäring" which has content on how to retrieve it on public pages, but the user has to do actions in Mina Sidor (which many insurance-customer don't visit). The copy should however always only be "Logga in" (or "Logga ut" if in a logged in-view).
 
 
       <div class="Callout"><p class="Callout__text"><strong>Only for logging in/out! </strong>This button should never be used for any other purposes than signing in or out-purposes!</p></div>
