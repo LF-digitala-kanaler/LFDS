@@ -15,7 +15,7 @@ Att skriva länsförsäkringska är att skriva på läsarens villkor och att skr
 
 Tänk på att också skriva tillgängligt, koncist, läsbart och inkluderande. 
 
-### Felmeddelanden 
+### Felmeddelanden
 
 Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig. Var vänlig och ödmjuk. 
 
@@ -35,7 +35,7 @@ Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad k
 
 ### Validering
 
-Specifika texter finns under respektive label under Input field \[länk]
+Specifika texter finns under respektive label under [Input field](https://lfui-beta-aedd0a.netlify.app/components/web/forms/input-field?copy) \[länk]
 
 **Generellt vid tomt fält**
 
