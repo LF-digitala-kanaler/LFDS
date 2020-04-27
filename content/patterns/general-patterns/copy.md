@@ -21,13 +21,13 @@ Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad k
 
 #### Tre typer av felmeddelanden
 
-* **Felet ligger hos oss**
+* **När felet ligger hos oss**
 
   Ofta hjälper det inte användaren att veta vad exakt som har hänt. Berätta att något har gått fel och ve användaren att testa igen eller komma tillbaka senare. Tänk på att vara ödmjuk och leda dem rätt.
-* **Felet ligger hos användaren**
+* **När felet ligger hos användaren**
 
   Användaren kanske har skrivit fel, glömt att fylla i eller saknar internet. Berätta vad som har hänt och guida användaren rätt för att komma vidare. Skyll inte på användaren. 
-* **Felet ligger förmodligen hos användaren** 
+* **När felet ligger förmodligen hos användaren** 
 
   Här är det osäkert var felet ligger. Det är stor chans att det är användaren men det kan vara vi. Fråga eller föreslå. "Kan det vara så att..." Föreslå att testa/kolla, "Testa igen, annars är det vi och då jobbar vi på att lösa problemet". Skippa felkod om det inte specifikt hjälper användaren att se den. 
 
