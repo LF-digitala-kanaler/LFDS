@@ -215,6 +215,16 @@ tabs:
       ###### Banded rows
 
 
+      Works great on backgrounds where the normal white cells aren't clear enough. Simply add `.table-varied` to the `<table>`-element
+
+
+      ```
+
+      <table class="table table-varied">...</table>
+
+      ```
+
+
       ###### In-table grouping
 
 
