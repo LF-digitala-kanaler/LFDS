@@ -1,14 +1,13 @@
 ---
 template: ComponentPage
-category: Data Visualization
 title: Area Graph
+intro: "Area graphs are very similar to line graphs. They can be used to track
+  changes over time for one or more groups. "
 description: Area graphs are very similar to line graphs. Area graphs are good
   to use when you are tracking the changes in two or more related groups that
   make up one whole category.
 previewImage: /img/graphs-and-charts.svg
-intro: "Area graphs are very similar to line graphs. They can be used to track
-  changes over time for one or more groups. "
-backgroundColor: "#ffffff"
+category: Data Visualization
 tabs:
   - content: >-
       ## How to use
@@ -39,10 +38,6 @@ tabs:
       When to use different graphs you find [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
 
 
-      #### A good exemple
-
-
-      ![](/img/exempel-graph-area.jpg)
 
 
       ## Please consider
@@ -54,10 +49,13 @@ tabs:
       ## Other material
 
 
-      **Sketch file:** LFUXAD Assets/LFUI Graphs.sketch\
+      **Sketch file:** LFUXAD Assets/LFUI Graphs.sketch
 
-      **Live exemple:** <https://www.lansforsakringar.se/stockholm/privat/>\
+
+      **Live exemple:** <https://www.lansforsakringar.se/stockholm/privat/>
+
 
       **Article:** <https://blog.datawrapper.de/area-charts/>
     name: Design
+backgroundColor: "#ffffff"
 ---
