@@ -37,8 +37,11 @@ Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad k
 
 **Generellt vid tomt fält**
 
-Fyll i x/Välj x/
+Exempel: Fyll i \[label], Välj \[label]\
+Vid enstaka eller några fält kan man med fördel vara lite mer personlig. Som exempelvis: "Oj, du glömde visst att skriva ditt meddelande".
 
 **Generellt vid fel format**
 
-Exempel: Skriv med siffror och bokstäver.
+Om man måste fylla i fältet på något speciellt sätt, förklara hur det ska fyllas i och inte. Exempel: "Skriv med 8 siffror utan specialtecken."
+
+**Bekräfta ifyllt fält**
