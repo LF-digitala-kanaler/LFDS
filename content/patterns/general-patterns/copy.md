@@ -9,7 +9,7 @@ intro: "Att skriva länsförsäkringska är att skriva på läsarens villkor. De
 wide: false
 lang: false
 ---
-### Vårt språk
+## Vårt språk
 
 Att skriva länsförsäkringska är att skriva på läsarens villkor och att skriva som ett samtal. Det handlar och att skriva rakt, aktivt och enkelt. Vi skriver personligt och vänligt.
 
@@ -38,7 +38,7 @@ Ofta hjälper det inte användaren att veta vad exakt som har hänt. Berätta at
 
   Säg inte att det är ett tekniskt fel om vi inte vet att det är det. Det kan då framstå som att vi har mer tekniska problem än vad vi faktiskt har. 
 
-### Validering
+#### Validering
 
 Specifika texter finns under respektive label under [Input field](https://lfui-beta-aedd0a.netlify.app/components/web/forms/input-field?copy)
 
