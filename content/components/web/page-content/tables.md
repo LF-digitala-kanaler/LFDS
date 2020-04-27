@@ -465,7 +465,7 @@ tabs:
       ### Comparative tables
 
 
-      Comparative table may look at a table but it's built  with div's instead of table markup. It's responsive out of the box but you might need to tweak the behaviour to match your needs (read below how to adjust table's to work on smaller screens). 
+      Comparative table may look at a table but it's built  with div's instead of table markup. It was not possible to get the desire layout work with table markup. It's responsive out of the box but you might need to tweak the behaviour to match your needs (read below how to adjust table's to work on smaller screens). 
 
 
       ```
@@ -524,5 +524,12 @@ tabs:
       </div>
 
       ```
+
+       
+
+      ## Responsive 
+
+
+      As in at the top of the page when it comes to handle table's on smaller screens we hide columns to make the table fit. We use helper classes from Bootstrap to make it work. In the examples at the top we hide cells with `d-none` and display them on wider screens with `d-md-table-cell` .
 backgroundColor: "#f3f3f3"
 ---
