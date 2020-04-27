@@ -530,6 +530,16 @@ tabs:
       ## Responsive 
 
 
-      As in at the top of the page when it comes to handle table's on smaller screens we hide columns to make the table fit. We use helper classes from Bootstrap to make it work. In the examples at the top we hide cells with `d-none` and display them on wider screens with `d-md-table-cell` .
+      As in at the top of the page when it comes to handle table's on smaller screens we hide columns to make the table fit. We use helper classes from Bootstrap to make it work. In the examples at the top we hide cells with `d-none` and display them on wider screens with `d-md-table-cell` . 
+
+
+      ## Good to know
+
+
+      * You can add a caption to your table which will have the same design as the [panel](/components/web/page-content/panel) header. 
+
+      * If you have numbers in the last cell on each row add `.table-cell-number` to right align the text and give it the right styling. 
+
+      * Text in table cell's can be tricky to handle. If you want to keep the text from breaking consider adding `.text-nowrap` to each cell to keep the text on the same row.
 backgroundColor: "#f3f3f3"
 ---
