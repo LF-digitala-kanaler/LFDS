@@ -333,8 +333,88 @@ tabs:
       ###### Expandable rows
 
 
+      Sometimes a table row simply isn't enough for all that rich data. To have a table row expand and show additional data, there's the expandable row. The expandable table row builds upon [Bootstrap collapse](https://getbootstrap.com/docs/4.0/components/collapse/). To make a table row expandable, add the `data-toggle` attribute and set it to `collapse:table-row` and have the `data-target` attribute point to the ID of the row that you'd like to expand (the next row). Also, please make sure to set the appropriate aria attributes `aria-expanded` and `aria-controls`.
 
 
+      To have a certain element within the clickable row not trigger the expand, add the `data-no-expand` attribute.
+
+
+      **Note:**Since the collapse button does not have the `.btn`-class, make sure you add the `role="button"`-property to the element (and of course, as usual, the relevant aria-attributes!).
+
+
+      ```
+
+      <table class="table table-clickable mb-0">
+        <tbody>
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-1" data-toggle="collapse:table-row" data-target="#table-row-1">
+            <td class="text-nowrap"><button role="button">Billys bucks</button></td>
+            <td class="table-cell-number">-250</td>
+          </tr>
+          <tr class="table-row-collapse">
+            <td colspan="4">
+              <div class="collapse" aria-expanded="false" id="table-row-1">
+                <div class="table-row-collapse-block">
+                  <p class="text-sm text-legible-width">
+                    Trust fund etsy twee, mumblecore pop-up vice kale chips tacos poutine sartorial art party kinfolk scenester. Marfa austin retro, cold-pressed chicharrones pug authentic cred neutra next level paleo tilde direct trade farm-to-table.
+                  </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-2" data-toggle="collapse:table-row" data-target="#table-row-2">
+            <td class="text-nowrap"><button role="button">Donnas dollars</button>
+            <button class="reset-button" data-no-expand="" role="button">I'm untouchable!</button></td>
+            <td class="table-cell-number">12 000</td>
+          </tr>
+          <tr class="table-row-collapse">
+            <td colspan="4">
+              <div class="collapse" aria-expanded="false" id="table-row-2">
+                <div class="table-row-collapse-block">
+                  <p class="text-sm text-legible-width">
+                    Quinoa brooklyn mixtape, yuccie actually cred hammock forage intelligentsia. Tumblr cronut crucifix, direct trade freegan jean shorts pabst. Chillwave locavore plaid gastropub actually artisan.
+                  </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-3" data-toggle="collapse:table-row" data-target="#table-row-3">
+            <td class="text-nowrap">
+              <button role="button">Show me the money</button>
+              <br>
+              <p class="mb-0">This is where the money is</p>
+            </td>
+            <td class="table-cell-number">Over 9000</td>
+          </tr>
+          <tr class="table-row-collapse">
+            <td colspan="4">
+              <div class="collapse" aria-expanded="false" id="table-row-3">
+                <div class="table-row-collapse-block">
+                  <form>
+                    <div class="row">
+                      <div class="form-group col-6">
+                        <label for="exampleInputEmail2">Personnummer</label>
+                        <input type="email" required="" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp2" placeholder="920618-0808">
+                        <small id="emailHelp2" class="form-text text-muted">Vi använder din folkbokföringsadress</small>
+                      </div>
+                      <div class="form-group col-6">
+                        <label for="exampleTextarea">Meddelande</label>
+                        <textarea class="form-control" required="" id="exampleTextarea" rows="3"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <button role="button" class="btn btn-primary float-right">Spara</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      ```
 
 
       ###### Clickable rows
