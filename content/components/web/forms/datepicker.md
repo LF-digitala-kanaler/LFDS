@@ -1,13 +1,12 @@
 ---
 template: ComponentPage
-category: Forms
 title: Datepicker
-description: The datepicker is the input field used when a date is the expected input.
-previewImage: /img/datepicker.svg
 intro: The datepicker is the input field used when a date is the expected input.
   It is designed so that the user can either choose the date from a calendar or
   enter it manually.
-backgroundColor: "#fff"
+description: The datepicker is the input field used when a date is the expected input.
+previewImage: /img/datepicker.svg
+category: Forms
 tabs:
   - content: >-
       ## How to use
@@ -36,7 +35,10 @@ tabs:
       For accessibility reasons the datepicker should be replaced with the native solution for date selection in mobile devices. Make sure your developers are aware!
 
 
-      ##### Fab: Vi kommer nu justera så den blir lite mindre, borde även göras i timepickern Skriva om att vi använder mobilens native delar...
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Datepicker)
     name: Design
   - content: Vi fyller i fältet med ååååmmdd eller exempelvis åå-mm-nn beroende på
       hur man måste skriva datumet.
@@ -216,4 +218,5 @@ tabs:
 
       ```
     name: Code
+backgroundColor: "#fff"
 ---
