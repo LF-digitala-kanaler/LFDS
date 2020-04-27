@@ -37,6 +37,8 @@ tabs:
 
 
       * Line charts usually have a large number of data points, if you only have a few - consider using a [bar chart](bar-chart) instead.
+
+      * Line charts are often used together with a form of [tabs](../navigations/tabs) to change the time frame which is shown in the graph. These tabs aren't part of LFUI yet, but on the todo-list. An example of such tabs can be found on [this page](https://www.lansforsakringar.se/stockholm/privat/bank/spara/fondkurser/portfoljanalys/?shortcut=1&ids=F00000WYNV%7C34%2CF000014517%7C33%2CF00000VHUL%7C33).
     name: Design
   - content: asd
     name: Code
