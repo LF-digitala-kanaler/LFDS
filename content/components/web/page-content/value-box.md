@@ -1,15 +1,14 @@
 ---
 template: ComponentPage
-category: Page Content
 title: Value Box
+intro: The value box is intended to draw the users attention and for them to
+  at-a-glance see the total value of the related content. It is primarily used
+  in Mina sidor to display value of total/specific content.
 description: The value box is intended to draw the users attention and for them
   to at-a-glance see the total value of the related content. It is primarily
   used in Mina sidor to display value of total/specific content.
 previewImage: /img/value-box.svg
-intro: The value box is intended to draw the users attention and for them to
-  at-a-glance see the total value of the related content. It is primarily used
-  in Mina sidor to display value of total/specific content.
-backgroundColor: "#f3f3f3"
+category: Page Content
 tabs:
   - content: >-
       ## How to use
@@ -84,4 +83,5 @@ tabs:
 
       ```
     name: Code
+backgroundColor: "#fff"
 ---
