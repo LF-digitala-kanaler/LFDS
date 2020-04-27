@@ -113,6 +113,433 @@ tabs:
 
       * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
   - name: "Code "
-    content: How to use
+    content: >-
+      ## How to use
+
+
+      Tables come in many different forms and sizes. Which table you should use is often dependant to its content and background color. The default table looks like the one directly below and is of a "compressed" variant, hence the "small" and `.table-sm` markup. This is due to tables in LF applications usually have a lot of content.
+
+
+      ### Variations
+
+
+      If we don't count the endless modifiers you have at your disposal there is two different variations of tables, one that **present data** and one that **compare data.** 
+
+
+      #### Present data
+
+
+      This is the "normal" table in LFUI. Use semantic  markup as in the example below and add `.table` and you are good to go. 
+
+
+      ```
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Account #</th>
+            <th scope="col">Balance kr</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Billys bucks</td>
+            <td>9810.01.345.89</td>
+            <td>250</td>
+          </tr>
+        </tbody>
+      </table>
+
+      ```
+
+
+      ##### Modifiers
+
+
+      There is several modifiers available for tables. You can mix and match after what you need. 
+
+
+      ###### Sizing
+
+
+      There is one sizing modifier available and that is `.table-sm.` Simply add the `.table-sm` class to your `table` element.
+
+
+      ```
+
+      <table class="table table-sm">...</table>
+
+      ```
+
+
+      ###### Summary row
+
+
+      Quite often you will be calculating the total sum of data in table cell's. In the example below you can see appropriate markup to use. Don't forget to add the  `<tfoot>`-element since LFUI will add use this to add the right styling.    
+
+
+      ```
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Account #</th>
+            <th scope="col">Balance kr</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Billys bucks</td>
+            <td>9810.01.345.89</td>
+            <td>250</td>
+          </tr>
+          <tr>
+            <td>Billys bucks</td>
+            <td>9810.01.345.89</td>
+            <td>55 000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2" scope="row">Total</th>
+            <td class="table-summary">65 000</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      ```
+
+
+      ###### Banded rows
+
+
+      Works great on backgrounds where the normal white cells aren't clear enough. Simply add `.table-varied` to the `<table>`-element
+
+
+      ```
+
+      <table class="table table-varied">...</table>
+
+      ```
+
+
+      ###### In-table grouping
+
+
+      If you wish to create a sub-header apply the `.th-sub` and `colspan="3"`(value should be equal to the total number of cells in a row). In the same respect, you can use `.th-main` to enforce its styling on a cell that isn't a really a th. 
+
+
+      ```
+       <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col" class="text-nowrap">Account #</th>
+              <th scope="col" class="text-nowrap">Balance kr</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th colspan="3" class="th-sub">Regular Accounts</th>
+            </tr><tr>
+              <td>Billys bucks</td>
+              <td>9810.01.345.89</td>
+              <td>-250</td>
+            </tr>
+            <tr>
+              <td>Savings</td>
+              <td>9810.01.345.89</td>
+              <td>53 000</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr><th colspan="3" class="th-sub">Party Accounts</th>
+            </tr><tr>
+              <td>Billys bucks</td>
+              <td>9810.01.345.89</td>
+              <td>-250</td>
+            </tr>
+            <tr>
+              <td>Donnas dollars</td>
+              <td>9810.01.345.89</td>
+              <td">12 000</td>
+            </tr>
+
+          </tbody>
+
+        </table>
+      ```
+
+
+      To indent and group any number of rows under another row apply the `.table-sub-group` to each row you wish specified as sub grouped. It works with every type of table above. To achieve correct styling, also add `.last` to the last child as well as `.first` to the first child of the `.table-sub-group`-row!
+
+
+      **NOTE** Do not add `.first`& `.last`-classes to the `.table-varied`-variant, as it breaks its styling.
+
+
+      ```
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Account #</th>
+            <th scope="col">Balance kr</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Billys bucks</td>
+            <td>9810.01.345.89</td>
+            <td>-250</td>
+          </tr>
+          <tr>
+            <td>Donnas dollars</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="table-sub-group first">
+            <td>Donnas savings</td>
+            <td>9810.01.345.90</td>
+            <td>14 921</td>
+          </tr>
+          <tr class="table-sub-group">
+            <td>Donnas insurance fund</td>
+            <td>9810.01.345.91</td>
+            <td>39 721</td>
+          </tr>
+          <tr class="table-sub-group">
+            <td>Donnas car</td>
+            <td>9810.01.345.92</td>
+            <td>218 012</td>
+          </tr>
+          <tr class="table-sub-group last">
+            <td>Donnas other savings</td>
+            <td>9810.01.345.93</td>
+            <td>8 120</td>
+          </tr>
+          <tr>
+            <td>Savings</td>
+            <td>9810.01.345.89</td>
+            <td>53 000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      ```
+
+
+      ###### Expandable rows
+
+
+      Sometimes a table row simply isn't enough for all that rich data. To have a table row expand and show additional data, there's the expandable row. The expandable table row builds upon [Bootstrap collapse](https://getbootstrap.com/docs/4.0/components/collapse/). To make a table row expandable, add the `data-toggle` attribute and set it to `collapse:table-row` and have the `data-target` attribute point to the ID of the row that you'd like to expand (the next row). Also, please make sure to set the appropriate aria attributes `aria-expanded` and `aria-controls`.
+
+
+      To have a certain element within the clickable row not trigger the expand, add the `data-no-expand` attribute.
+
+
+      **Note:**Since the collapse button does not have the `.btn`-class, make sure you add the `role="button"`-property to the element (and of course, as usual, the relevant aria-attributes!).
+
+
+      ```
+
+      <table class="table table-clickable mb-0">
+        <tbody>
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-1" data-toggle="collapse:table-row" data-target="#table-row-1">
+            <td class="text-nowrap"><button role="button">Billys bucks</button></td>
+            <td class="table-cell-number">-250</td>
+          </tr>
+          <tr class="table-row-collapse">
+            <td colspan="4">
+              <div class="collapse" aria-expanded="false" id="table-row-1">
+                <div class="table-row-collapse-block">
+                  <p class="text-sm text-legible-width">
+                    Trust fund etsy twee, mumblecore pop-up vice kale chips tacos poutine sartorial art party kinfolk scenester. Marfa austin retro, cold-pressed chicharrones pug authentic cred neutra next level paleo tilde direct trade farm-to-table.
+                  </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-2" data-toggle="collapse:table-row" data-target="#table-row-2">
+            <td class="text-nowrap"><button role="button">Donnas dollars</button>
+            <button class="reset-button" data-no-expand="" role="button">I'm untouchable!</button></td>
+            <td class="table-cell-number">12 000</td>
+          </tr>
+          <tr class="table-row-collapse">
+            <td colspan="4">
+              <div class="collapse" aria-expanded="false" id="table-row-2">
+                <div class="table-row-collapse-block">
+                  <p class="text-sm text-legible-width">
+                    Quinoa brooklyn mixtape, yuccie actually cred hammock forage intelligentsia. Tumblr cronut crucifix, direct trade freegan jean shorts pabst. Chillwave locavore plaid gastropub actually artisan.
+                  </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-3" data-toggle="collapse:table-row" data-target="#table-row-3">
+            <td class="text-nowrap">
+              <button role="button">Show me the money</button>
+              <br>
+              <p class="mb-0">This is where the money is</p>
+            </td>
+            <td class="table-cell-number">Over 9000</td>
+          </tr>
+          <tr class="table-row-collapse">
+            <td colspan="4">
+              <div class="collapse" aria-expanded="false" id="table-row-3">
+                <div class="table-row-collapse-block">
+                  <form>
+                    <div class="row">
+                      <div class="form-group col-6">
+                        <label for="exampleInputEmail2">Personnummer</label>
+                        <input type="email" required="" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp2" placeholder="920618-0808">
+                        <small id="emailHelp2" class="form-text text-muted">Vi använder din folkbokföringsadress</small>
+                      </div>
+                      <div class="form-group col-6">
+                        <label for="exampleTextarea">Meddelande</label>
+                        <textarea class="form-control" required="" id="exampleTextarea" rows="3"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <button role="button" class="btn btn-primary float-right">Spara</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      ```
+
+
+      ###### Clickable rows
+
+
+      Tables with linked table rows can be marked up with the `table-clickable` modifier. You'll still have to consider accessibility, marking up links and whatnot properly, the clickable modifier simply handles styling.
+
+
+      To disable the styles for a row, simply add the class `table-ignore-clickable`.
+
+
+      ```
+
+      <table class="table table-clickable">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col" class="text-nowrap">Account #</th>
+              <th scope="col" class="text-nowrap">Balance kr</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="js-tablelink">
+              <td class="text-nowrap"><a href="accounts/9810-01-345-89/">Billys bucks</a></td>
+              <td class="text-nowrap">9810.01.345.89</td>
+              <td class="table-cell-number">-250</td>
+            </tr>
+            <tr class="js-tablelink">
+              <td class="text-nowrap"><a href="accounts/9810-01-345-90/">Donnas dollars</a></td>
+              <td class="text-nowrap">9810.01.345.90</td>
+              <td class="table-cell-number">12 000</td>
+            </tr>
+            <tr class="table-ignore-clickable">
+              <td class="text-nowrap">Spending <em class="text-muted">(closed)</em></td>
+              <td class="text-nowrap">9810.01.345.92</td>
+              <td class="table-cell-number">0</td>
+            </tr>
+            <tr class="js-tablelink">
+              <td class="text-nowrap"><a href="accounts/9810-01-345-91/">Savings</a></td>
+              <td class="text-nowrap">9810.01.345.91</td>
+              <td class="table-cell-number">53 000</td>
+            </tr>
+          </tbody>
+        </table>
+      ```
+
+
+      ### Comparative tables
+
+
+      Comparative table may look at a table but it's built  with div's instead of table markup. It was not possible to get the desire layout work with table markup. It's responsive out of the box but you might need to tweak the behaviour to match your needs (read below how to adjust table's to work on smaller screens). 
+
+
+      ```
+
+      <div class="table table-comparative">
+        <div class="table-comparative-header">
+          <div class="table-comparative-head">Innehåll</div>
+          <div class="table-comparative-head">Olycksfall</div>
+          <div class="table-comparative-head">Sjukförsäkring</div>
+          <div class="table-comparative-head">Olycksfall</div>
+        </div>
+        <div class="table-comparative-body">
+          <div class="table-comparative-row">
+            <div class="table-comparative-cell">
+              <button type="button" id="readMoreCollapse" class="btn btn-more" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Medicinsk invaliditet vid olycksfall</button>
+            </div>
+            <div class="table-comparative-cell table-comparative-cell-hidden d-flex d-md-none"></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="collapse table-comparative-collapse" id="collapseExample">
+              <div class="py-1 px-1">
+                <p class="mb-0">Om du får en bestående nedsättning av kroppsfunktion kan du få ersättning.</p>
+              </div>
+            </div>
+          </div>
+          <div class="table-comparative-row">
+            <div class="table-comparative-cell">
+              <button type="button" id="readMoreCollapse2" class="btn btn-more" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Medicinsk invaliditet vid olycksfall</button>
+            </div>
+            <div class="table-comparative-cell table-comparative-cell-hidden d-flex d-md-none"></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="collapse table-comparative-collapse" id="collapseExample2">
+              <div class="py-1 px-1">
+                <p class="mb-0">Om du får en bestående nedsättning av kroppsfunktion kan du få ersättning.</p>
+              </div>
+            </div>
+          </div>
+          <div class="table-comparative-row">
+            <div class="table-comparative-cell">
+              <button type="button" id="readMoreCollapse3" class="btn btn-more" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">Medicinsk invaliditet vid olycksfall</button>
+            </div>
+            <div class="table-comparative-cell table-comparative-cell-hidden d-flex d-md-none"></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
+            <div class="collapse table-comparative-collapse" id="collapseExample3">
+              <div class="py-1 px-1">
+                <p class="mb-0">Om du får en bestående nedsättning av kroppsfunktion kan du få ersättning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      ```
+
+       
+
+      ## Responsive 
+
+
+      As in at the top of the page when it comes to handle table's on smaller screens we hide columns to make the table fit. We use helper classes from Bootstrap to make it work. In the examples at the top we hide cells with `d-none` and display them on wider screens with `d-md-table-cell` . 
+
+
+      ## Good to know
+
+
+      * You can add a caption to your table which will have the same design as the [panel](/components/web/page-content/panel) header. 
+
+      * If you have numbers in the last cell on each row add `.table-cell-number` to right align the text and give it the right styling. 
+
+      * Text in table cell's can be tricky to style. If you want to keep the text from breaking into two rows consider adding `.text-nowrap` to each cell to keep the text on the one row.
 backgroundColor: "#f3f3f3"
 ---
