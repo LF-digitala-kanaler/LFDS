@@ -448,5 +448,14 @@ tabs:
         </div>
        </div>
       ```
+
+
+      ## Validation
+
+
+      Validation in LFUI is done entirely by you, the user, through Javascript. Use the available validation classes `has-valid `and `has-danger`.*The `has-success` and `has-warning` classes exist in LFUI but have not been entirely implemented, as LFUI discourages use of these.*
+
+
+      If a field has been filled out and validated, add the `has-valid` class. If a field has been filled out and validated but with errors, add the `has-danger` class.
 backgroundColor: "#fff"
 ---
