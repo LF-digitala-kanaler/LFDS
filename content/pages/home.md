@@ -13,8 +13,7 @@ shortcuts:
     title: Components
   - icon: /img/visual.svg
     link: /visual-identity
-    text: Light and digital version of the Länsförsäkringar brand. Color, Typo,
-      icons and such.
+    text: Light and digital version of the Länsförsäkringar brand.
     title: Visual identity
   - icon: /img/globe_black.svg
     link: /patterns
