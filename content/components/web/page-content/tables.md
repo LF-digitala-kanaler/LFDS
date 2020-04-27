@@ -114,5 +114,7 @@ tabs:
       * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
   - name: Code
     content: content
+  - name: "Code "
+    content: How to use
 backgroundColor: "#f3f3f3"
 ---
