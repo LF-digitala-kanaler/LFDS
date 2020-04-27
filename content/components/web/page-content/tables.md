@@ -112,6 +112,12 @@ tabs:
       * Remaining table cells are filled with green checkboxes or left empty, rather than being filled with data
 
       * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
+
+
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Tables)
   - name: Code
     content: >-
       ## How to use
