@@ -7,32 +7,33 @@ intro: >-
 
   This place can guide you in your role as a copy, UX, AD or frontend developer. Check out our components and visual identity or read more about UX-patterns.
 shortcuts:
-  - icon: /img/icon3.svg
+  - icon: /img/components.svg
     link: components/web
     text: Check out our amazing components. Alerts, buttons and what not.
     title: Components
-  - icon: /img/icon4.svg
+  - icon: /img/visual.svg
     link: /visual-identity
-    text: What you see is what you get. Color, Typo, icons and such.
+    text: Light and digital version of the Länsförsäkringar brand. Color, Typo,
+      icons and such.
     title: Visual identity
-  - icon: /img/icon.svg
+  - icon: /img/globe_black.svg
     link: /patterns
     text: Learn more about how we work  with UX patterns
     title: Patterns
 fullWidthImage: /img/startpage.webp
 fullWidthImageMobile: /img/startpagemobile.webp
 shortcutsBottom:
-  - icon: /img/icon5.svg
+  - icon: /img/design_principer_.svg
     link: /foundations/design-principles
     text: För att efterlikna det personliga mötet ska vi använda oss av våra
       hörnstenar. Expertis, labba och kontroll.
     title: Designprinciper
-  - icon: /img/icon2.svg
+  - icon: /img/cx.svg
     link: /foundations/design-principles/cx-principer
     text: …syftar till att skapa förutsättningar för att styra beslut och
       prioriteringar kopplat till utveckling av kundmötet
     title: CX-principer
-  - icon: /img/icon6.svg
+  - icon: /img/user_testing_.svg
     link: /foundations/user-testing
     text: the use of human animals in experiments that seek to control the variables
       that affect the behavior or biological system under study
