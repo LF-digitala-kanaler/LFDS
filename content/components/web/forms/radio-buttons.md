@@ -113,19 +113,16 @@ tabs:
     name: Copy
   - name: Code
     content: >-
-      ## How to use
+      ## Variations
 
 
-      Radio button's in LFUI are based on Bootstraps custom forms.
+      There is three different variation of radio buttons in LFUI. Styled radio buttons, Button group and radio cards.
 
 
-      ### Variations
+      ### **Styled radio buttons**
 
 
-      **Styled radio buttons**
-
-
-      The "default" radio button built with `<input>` and`<label>` are sibling elements as opposed to Button groups which have `<input>`within a`<label>`
+      The "default" radio button built with `<input>` and `<label>` are sibling elements as opposed to Button groups which have `<input>` within a `<label>`
 
 
       ```
@@ -138,10 +135,10 @@ tabs:
       ```
 
 
-      **Button group**
+      ### **Button group**
 
 
-      Only the plain`btn`is supported by the`btn-group`. Other than that, no changes has been made to the default [Bootstrap button group](https://getbootstrap.com/docs/4.0/components/button-group/).
+      Only the plain `btn` is supported by the `btn-group`. Other than that, no changes has been made to the default [Bootstrap button group](https://getbootstrap.com/docs/4.0/components/button-group/).
 
 
       The btn-group supports different types of functionality, although in LFUI it is important that they are *solely used with radio button functionality, never as checkboxes.*
@@ -175,10 +172,10 @@ tabs:
       ```
 
 
-      ##### Modifiers
+      #### Modifiers
 
 
-      ###### Stretch
+      ##### Stretch
 
 
       The button group may also stretch to fill its containing element by appending the class `btn-group-stretch`. Consider not stretching the button-group if there are only two btn's (the common example is "Ja / Nej"). This will result in a lot of empty, unused space inside the buttons which does not look right. A rule of thumb would be: **Only use btn-group-stretch when there's more than two btn's, if inside a larger (< 260px) container.**
@@ -201,8 +198,6 @@ tabs:
       ```
 
 
-
-
       In smaller devices the btn-group should stack on top of each other (try resizing this window). In order to ensure this, add media query rules that sets the following:
 
 
@@ -221,7 +216,7 @@ tabs:
       ```
 
 
-      **Radio cards**
+      ### **Radio cards**
 
 
       Functioning as radio buttons, the `.radio-card`'s are a more styled manner of displaying different choices, usually a form's single, "main" choice. Earlier examples of use include which type of insurance level the users wish to choose: Big, Medium or Small. The three choices all share a subject, and inside the boxes themselves they can be compared to each other (through the use of the list).
