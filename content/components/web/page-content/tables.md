@@ -112,8 +112,6 @@ tabs:
       * Remaining table cells are filled with green checkboxes or left empty, rather than being filled with data
 
       * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
-  - name: Code
-    content: content
   - name: "Code "
     content: How to use
 backgroundColor: "#f3f3f3"
