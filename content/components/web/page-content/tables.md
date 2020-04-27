@@ -420,6 +420,48 @@ tabs:
       ###### Clickable rows
 
 
+      Tables with linked table rows can be marked up with the `table-clickable` modifier. You'll still have to consider accessibility, marking up links and whatnot properly, the clickable modifier simply handles styling.
+
+
+      To disable the styles for a row, simply add the class `table-ignore-clickable`.
+
+
+      ```
+
+      <table class="table table-clickable">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col" class="text-nowrap">Account #</th>
+              <th scope="col" class="text-nowrap">Balance kr</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="js-tablelink">
+              <td class="text-nowrap"><a href="accounts/9810-01-345-89/">Billys bucks</a></td>
+              <td class="text-nowrap">9810.01.345.89</td>
+              <td class="table-cell-number">-250</td>
+            </tr>
+            <tr class="js-tablelink">
+              <td class="text-nowrap"><a href="accounts/9810-01-345-90/">Donnas dollars</a></td>
+              <td class="text-nowrap">9810.01.345.90</td>
+              <td class="table-cell-number">12 000</td>
+            </tr>
+            <tr class="table-ignore-clickable">
+              <td class="text-nowrap">Spending <em class="text-muted">(closed)</em></td>
+              <td class="text-nowrap">9810.01.345.92</td>
+              <td class="table-cell-number">0</td>
+            </tr>
+            <tr class="js-tablelink">
+              <td class="text-nowrap"><a href="accounts/9810-01-345-91/">Savings</a></td>
+              <td class="text-nowrap">9810.01.345.91</td>
+              <td class="table-cell-number">53 000</td>
+            </tr>
+          </tbody>
+        </table>
+      ```
+
+
       ### Comparative tables
 backgroundColor: "#f3f3f3"
 ---
