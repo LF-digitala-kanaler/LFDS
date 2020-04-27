@@ -148,9 +148,6 @@ tabs:
 
 
       **Live exemple:** [](https://www.lansforsakringar.se/stockholm/privat/)Loan product page have primary button for the "Calculate mortgages" and you have always the login button on the top right: <https://www.lansforsakringar.se/privat/bank/lana/bolan/>
-
-
-      **Article:** <https://blog.datawrapper.de/area-charts/>
     name: Design
   - content: >-
       ## Så skriver vi
