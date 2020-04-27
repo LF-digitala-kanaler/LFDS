@@ -1,12 +1,11 @@
 ---
 template: ComponentPage
-category: Page Content
 title: Line element
-description: The line element also known as HR element are used to separate some
-  parts of the page with a line.
 intro: The line element also known as HR element are used to separate some parts
   of the page with a line.
-backgroundColor: "#f3f3f3"
+description: The line element also known as HR element are used to separate some
+  parts of the page with a line.
+category: Page Content
 tabs:
   - content: >-
       ## How to use
@@ -19,5 +18,12 @@ tabs:
 
 
       We have to different colors on the line one for white background and one for grey background.
+
+
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Line)
     name: Design
+backgroundColor: "#f3f3f3"
 ---
