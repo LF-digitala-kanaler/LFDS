@@ -228,6 +228,50 @@ tabs:
       ###### In-table grouping
 
 
+      If you wish to create a sub-header apply the `.th-sub` and `colspan="3"`(value should be equal to the total number of cells in a row). In the same respect, you can use `.th-main` to enforce its styling on a cell that isn't a really a th. 
+
+
+      ```
+       <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col" class="text-nowrap">Account #</th>
+              <th scope="col" class="text-nowrap">Balance kr</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th colspan="3" class="th-sub">Regular Accounts</th>
+            </tr><tr>
+              <td>Billys bucks</td>
+              <td>9810.01.345.89</td>
+              <td>-250</td>
+            </tr>
+            <tr>
+              <td>Savings</td>
+              <td>9810.01.345.89</td>
+              <td>53 000</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr><th colspan="3" class="th-sub">Party Accounts</th>
+            </tr><tr>
+              <td class="text-nowrap">Billys bucks</td>
+              <td class="text-nowrap">9810.01.345.89</td>
+              <td class="table-cell-number">-250</td>
+            </tr>
+            <tr>
+              <td class="text-nowrap">Donnas dollars</td>
+              <td class="text-nowrap">9810.01.345.89</td>
+              <td class="table-cell-number">12 000</td>
+            </tr>
+
+          </tbody>
+
+        </table>
+      ```
+
+
       ###### Expandable rows
 
 
