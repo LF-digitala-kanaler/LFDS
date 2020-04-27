@@ -29,7 +29,7 @@ tabs:
       A **secondary use case** is as a form of [progress bar](../system-display/progress-bar) with discrete steps whose relation change over time. The distribution bar should only be used as a progress bar if both cases are true. What's great with this use is that you can choose to display parts which aren't affected but part of the total, as the red section in the example image below. The example image below has both modifiers for the use case turned on:
 
 
-      <figure class="Image Image__background"><img src="/img/distribution-bar-as-progress-bar.png" srcset="undefined 2x" alt="Distribution bar as progress bar"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/distribution-bar-as-progress-bar.png" srcset="/img/distribution-bar-as-progress-bar.png 2x" alt="Distribution bar as progress bar"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       As indicated above, to specific modifiers exist for the distribution bar as a progress bar.
@@ -61,58 +61,42 @@ tabs:
       Try to not to use the arrow at small values, as the arrow has a width around 10px and might disrupt the accuracy of the bar.
 
 
+      ### General modifiers
 
 
+      There are two types of modifiers which exist for both use cases of the distribution bar, and should be used as alternatives to each other:
 
 
-      \---
-
-
-      You can have the text of procent in the bar or in top of the bar. A recommendation is to not show the percentage value inside the bar unless the width is at least 5% or above (depending on your parent width, of course) to make sure the value fits.
-
-
-      ### Modifiers
-
-
-      * Arrow that points out separator steps
-
-      * Pointer/arrow as a separator 
+      * Label inside bar
 
       * Tooltip explanation
 
 
+      #### Label inside bar
 
 
-      #### Pointer/arrow as a separator
-
-
-      You can use a pointer separator in the bar to show that something are growing in a direction as in Bekväm pension, were the amount always grows to the amount of 80% were it stops. This can be used for values that are growing, or are expected to grow.
-
-
-      Try to not to use the arrow at small values, as the arrow has a width around 10px and might disrupt the accuracy of the bar.
+      You can add labels inside the bar if you wish to. This eases the understanding of the distribution bar and is encouraged, however not implemented by default for accessibility reasons.  A recommendation is to not show the percentage value inside the bar unless the width is at least 5% or above (depending on your parent width, of course) to make sure the value fits in its area.
 
 
       #### Tooltip explanation
 
 
-      When you don't have room for arrows you can use the mouse over tooltip or for the mobil mouse press function to get more info about the value or part of the bar.
+      If you don't have the room for a label inside the bar, you should add a tooltip explanation. If enabled, the user gets to see the value of a field by hovering over (desktop) or clicking on (mobile) that field in the bar. The value is shown above the bar.
 
 
       ### Legends and colors
 
 
-      All the graphs have the same legends and color styles, read more [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#the-different-parts).
+      All the graphs have the same legends and color styles, read more [here](/patterns/general-patterns/graphs-and-when-to-use-them#the-different-parts).
 
 
-      When to use different graphs you find [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
+      When to use different graphs you find [here](/patterns/general-patterns/graphs-and-when-to-use-them#type-of-graph).
 
 
       ## Please consider:
 
 
-      * Users have a hard time understanding procent
-
-      * Have only been used in pension "bekväm pension"
+      * Many people have troubles understanding percentage, so do not rely on solely the distribution bar to show users their data. Use it as a compliment!
     name: Design
   - content: >-
       ## How to use
