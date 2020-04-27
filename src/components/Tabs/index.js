@@ -16,7 +16,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
    
     if( tabs && tabs.length > 0) {
       setTabName(tabs.map(item => {
-        return ((item.name?.rawMarkdownBody?.toLowerCase() || item.name.toLowerCase()))
+        return ((item.name?.rawMarkdownBody?.toLowerCase() || item.name?.toLowerCase()))
       }))
       setTabContent(tabs.map(item => {
         return ((item.content?.html || item.content))
@@ -29,7 +29,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
     
     if(tabs && tabs.length > 0) {
     setTabName(tabs.map(item => {
-      return ((item.name?.rawMarkdownBody?.toLowerCase() || item.name.toLowerCase()))
+      return ((item.name?.rawMarkdownBody?.toLowerCase() || item.name?.toLowerCase()))
     }))
     setTabContent(tabs.map(item => {
       return ((item.content?.html || item.content))
@@ -49,7 +49,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
       <TabList className={style.Tabs__list}>
         {
           tabName.map((tab, index) => {
-            return <Tab key={index} className={style.Tabs__link}>{capitalizeFirstLetter(tab)}</Tab>
+            return <Tab key={index} className={style.Tabs__link}>{tab}</Tab>
           })
         }
         
