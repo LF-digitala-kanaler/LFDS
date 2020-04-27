@@ -176,6 +176,42 @@ tabs:
       ###### Summary row
 
 
+      Quite often you will be calculating the total sum of data in table cell's. In the example below you can see appropriate markup to use. Don't forget to add the  `<tfoot>`-element since LFUI will add use this to add the right styling.    
+
+
+      ```
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Account #</th>
+            <th scope="col">Balance kr</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Billys bucks</td>
+            <td>9810.01.345.89</td>
+            <td>250</td>
+          </tr>
+          <tr>
+            <td>Billys bucks</td>
+            <td>9810.01.345.89</td>
+            <td>55 000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2" scope="row">Total</th>
+            <td class="table-summary">65 000</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      ```
+
+
       ###### Banded rows
 
 
