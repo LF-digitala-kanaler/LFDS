@@ -112,6 +112,92 @@ tabs:
       - - -
     name: Copy
   - name: Code
-    content: Code
+    content: >-
+      ## How to use
+
+
+      Radio button's in LFUI are based on Bootstraps custom forms.
+
+
+      ### Variations
+
+
+      **Styled radio buttons**
+
+
+      The "default" radio button built with `<input>` and`<label>` are sibling elements as opposed to Button groups which have `<input>`within a`<label>`
+
+
+      ```
+
+      <div class="custom-control custom-radio">
+        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+        <label class="custom-control-label" for="radio1">Radiobutton</label>
+      </div>
+
+      ```
+
+
+      **Button group**
+
+
+      Only the plain`btn`is supported by the`btn-group`. Other than that, no changes has been made to the default [Bootstrap button group](https://getbootstrap.com/docs/4.0/components/button-group/).
+
+
+      The btn-group supports different types of functionality, although in LFUI it is important that they are *solely used with radio button functionality, never as checkboxes.*
+
+
+      The Button-group variant is the primary look and feel of our radio buttons, and it is the styling you should use when:
+
+
+      * The number of choices is less than or equal to three.
+
+      * The choices do not contain longer text.
+
+
+      If any of these two points are not fulfilled, use styled radio buttons.
+
+
+      ```
+
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn active">
+          <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Radio 1
+        </label>
+        <label class="btn">
+          <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+        </label>
+        <label class="btn">
+          <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
+        </label>
+      </div>
+
+      ```
+
+
+      ##### Modifiers
+
+
+      The button group may also stretch to fill its containing element by appending the class `btn-group-stretch`. Consider not stretching the button-group if there are only two btns (the common example is "Ja / Nej"). This will result in a lot of empty, unused space inside the buttons which does not look right. A rule of thumb would be: **Only use btn-group-stretch when there's more than two btns, if inside a larger (< 260px) container.**
+
+
+      In smaller devices the btn-group should stack on top of each other (try resizing this window). In order to ensure this, add media query rules that sets the following:
+
+
+
+
+      **Radio cards**
+
+
+      Functioning as radio buttons, the `.radio-card`s are a more stylized manner of displaying different choices, usually a form's single, "main" choice. Earlier examples of use include which type of insurance level the users wish to choose: Big, Medium or Small. The three choices all share a subject, and inside the boxes themselves they can be compared to each other (through the use of the list).
+
+
+      The markup is somewhat restricted, as the component is a radio button and contained within its`<label>`, which results in some non-standard css and html.
+
+
+      Because of this, the radio button state (:checked) is unable to affect the parent container through basic css restrictions. Hence, some javacsript is required to properly toggle the visual feedback by adding the `.active `class to the `.radio-card`when the radio is checked.
+
+
+      Feel free to add whatever content you see fit inside the card itself, but make sure to double-check the result as all possible variants of elements have not been tested inside the component yet.
 backgroundColor: "#fff"
 ---
