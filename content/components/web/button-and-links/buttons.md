@@ -144,7 +144,7 @@ tabs:
       ## Other material
 
 
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/Primary button or Secondary button or Login & Logout)
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/ "Primary button", "Secondary button" and "Login & Logout")
 
 
       **Live exemple:** [](https://www.lansforsakringar.se/stockholm/privat/)Loan product page have primary button for the "Calculate mortgages" and you have always the login button on the top right: <https://www.lansforsakringar.se/privat/bank/lana/bolan/>
