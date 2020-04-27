@@ -243,6 +243,9 @@ tabs:
       #### Telefonnummer/Mobilnummer
 
 
+      Använd rätt begrepp beroende på vad som tillåts. För alla nummer, skriv Telefonnummer. För enbart mobilnummer, skriv Mobilnummer. 
+
+
       Placeholder (om det måste skrivas med ett speciellt format): 070-xxxxxxx
 
 
