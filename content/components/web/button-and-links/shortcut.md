@@ -84,7 +84,7 @@ tabs:
       ## Other material
 
 
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/ "Primary link" and "Secondary link")
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/ Shortcut)
     name: Design
   - content: >-
       ## Så skriver vi
