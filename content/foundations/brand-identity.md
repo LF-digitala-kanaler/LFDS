@@ -13,6 +13,7 @@ description: >-
   kända företagssymboler. 
 
   Det är något vi värnar om tillsammans.
+previewImage: /img/brand_nobg.svg
 background: bg-white
 lang: true
 ---
