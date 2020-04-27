@@ -49,7 +49,7 @@ export const ComponentVersion = ({version}) => {
         
       });
       if (versions[0].bootstrap.changedInVersion.length === 1) {
-        return <p className={style.ComponentVersion}>  Last updated: <a className={style.ComponentVersion__aloneLink} target="_black" rel="nofollow noreferrer noopener" href={data.settingsYaml.oldSiteUrl + versions[0].bootstrap.changedInVersion[0].split('.').join('')}>{versions[0].bootstrap.changedInVersion[0]}</a></p>;
+        return <p className={style.ComponentVersion}>  Last updated: <span className={style.ComponentVersion__text}>{versions[0].bootstrap.changedInVersion[0]}</span></p>;
       }else {
         return (
           <>
