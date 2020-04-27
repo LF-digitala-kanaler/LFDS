@@ -7,4 +7,3 @@ background: bg-white
 wide: false
 lang: false
 ---
-ddd

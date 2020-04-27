@@ -23,17 +23,17 @@ fullWidthImage: /img/startpage.webp
 fullWidthImageMobile: /img/startpagemobile.webp
 shortcutsBottom:
   - icon: /img/icon5.svg
-    link: /design/design-principles
+    link: /foundations/design-principles
     text: För att efterlikna det personliga mötet ska vi använda oss av våra
       hörnstenar. Expertis, labba och kontroll.
     title: Designprinciper
   - icon: /img/icon2.svg
-    link: /design/design-principles/cx-principer
+    link: /foundations/design-principles/cx-principer
     text: …syftar till att skapa förutsättningar för att styra beslut och
       prioriteringar kopplat till utveckling av kundmötet
     title: CX-principer
   - icon: /img/icon6.svg
-    link: /design/user-testing
+    link: /foundations/user-testing
     text: the use of human animals in experiments that seek to control the variables
       that affect the behavior or biological system under study
     title: User testing
@@ -47,4 +47,4 @@ relatedLinks:
 
 We will get you started in no time. Here you will find guides and tips if you work with design, code or copy.
 
-[Let's get started!](/design/getting-started)
+[Let's get started!](/foundations/getting-started)

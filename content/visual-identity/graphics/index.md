@@ -6,9 +6,6 @@ intro: "Our graphic family consists of three different members: illustration,
   graphic objects and icons. The graphics are made by simple geometric forms and
   can be used for decoration, communication and information."
 background: bg-white
-meta:
-  description: This is a meta description.
-  title: LFUI
 ---
 <section>
 <Collapse title="About the illustration style"><div class="content">

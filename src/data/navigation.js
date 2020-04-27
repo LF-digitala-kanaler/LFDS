@@ -1,7 +1,7 @@
 const navigation = {
-  "design": {
-    title: "Design@LF",
-    href: "design",
+  "foundations": {
+    title: "Foundations",
+    href: "foundations",
     id: 53567
     
   },
