@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>component/dimensions</title>
+    <desc>Created with Sketch.</desc>
+    <g id="component/dimensions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#F3F3F3" x="100.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="139.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="178.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="61.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="22.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="41.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="80.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="119.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="158.5" y="2.5" width="39" height="115"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="22.5" y="40.5" width="195" height="39"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="22.5" y="21.5" width="195" height="39"></rect>
+        <rect id="Rectangle" stroke="#F3F3F3" x="22.5" y="60.5" width="195" height="39"></rect>
+        <rect id="Rectangle" stroke="#005AA0" stroke-width="2" x="101" y="41" width="38" height="38"></rect>
+        <rect id="Rectangle-Copy-2" stroke="#005AA0" stroke-width="2" x="42" y="41" width="38" height="38"></rect>
+        <rect id="Rectangle-Copy" stroke="#005AA0" stroke-width="2" x="159" y="41" width="38" height="38"></rect>
+    </g>
+</svg>
