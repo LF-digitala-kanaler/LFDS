@@ -4,3 +4,15 @@ import GlobalContextProvider from "./src/context/GlobalContextProvider"
 export const wrapRootElement = ({ element }) => {
   return <GlobalContextProvider>{element}</GlobalContextProvider>
 }
+export const shouldUpdateScroll = ({
+  routerProps: { location },
+  getSavedScrollPosition
+}) => {
+  console.log({ location });
+
+  if (location.hash) {
+    return false;
+  }
+
+  return true;
+};

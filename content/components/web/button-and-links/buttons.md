@@ -21,7 +21,7 @@ tabs:
       <figure class="Image Image__background"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt=""><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
 
 
-      Button copy should make it clear what happens after clicking it, meaning copy like "Next" or "Proceed" shouldn't be used. Read more under the [copy-tab](?Copy).
+      Button copy should make it clear what happens after clicking it, meaning copy like "Next" or "Proceed" shouldn't be used. Read more under the [copy-tab](#Copy).
 
 
       <div class="Callout"><strong class="Callout__title">Don't use disabled buttons! </strong><p class="Callout__text">For accessibility reasons LFUI strongly discourages from using disabled buttons. Please read more in "Design rationale" at the bottom of the page to learn more.</p></div>
@@ -261,7 +261,7 @@ tabs:
       ### Variants
 
 
-      LFUi includes 3 different variants of buttons.  Primary, Secondary and Log in. They all comes with shared as well as individual modifiers. You can read more about when to use which button [here](/buttons?Design).
+      LFUi includes 3 different variants of buttons.  Primary, Secondary and Log in. They all comes with shared as well as individual modifiers. You can read more about when to use which button [here](/buttons#Design).
 
 
       #### Primary

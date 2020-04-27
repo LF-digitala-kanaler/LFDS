@@ -3,7 +3,6 @@ import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs"
 import style from './index.module.css'
 import Wrapper from '../Wrapper'
 import Content from '../Content'
-import { capitalizeFirstLetter } from '../../utils/CapitalizeFirstLetter';
 
 const TabsWrapper = ({tabs, location, navigate, children}) => {
   console.log(tabs)
@@ -38,12 +37,12 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
   },[tabs]);
   useEffect(() => {
     if(tabs && tabs.length > 0) {
-    setTabIndex(tabName.indexOf(location.search.substr(1).toLowerCase()))
+      setTabIndex(tabName.indexOf(location.hash.substr(1).toLowerCase()))
     }
   });
 
   const onTabsChange = index => 
-    navigate( `?${tabName[index]}`, { replace: false });
+    navigate( `#${tabName[index]}`, { replace: false });
   
   return (
     <Tabs index={index === -1 ? 0 : index} onChange={onTabsChange} className={style.Tabs} >
