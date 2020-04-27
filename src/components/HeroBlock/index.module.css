@@ -15,10 +15,22 @@
   line-height: 1.25;
   color: var(--color-black);
   margin: 0;
+
   @media (--small-viewport) { 
     max-width: 28.75rem;
     font-size: 3.125rem;
     line-height: 1.18;
+  }
+}
+.HeroBlock__text {
+  &:before {
+    color: var(--color-black);
+    content: open-quote;
+    font-size: 3.125rem;
+  }
+  &:after {
+    color: var(--color-black);
+    content: close-quote;
   }
 }
 .Blockquote__icon {

@@ -13,7 +13,7 @@ const HeroBlock = ({ background, quote, cite }) => {
       <Wrapper tag="div" menu={true}  narrow>
         <div className={style.HeroBlock__container}>
           <blockquote className={style.HeroBlock__quote}>
-            <p className={style.HeroBlock__quote}>{quote}</p>
+            <p className={style.HeroBlock__text}>{quote}</p>
             <footer className={style.HeroBlock__cite}>{cite}</footer>
           </blockquote>
         </div>
