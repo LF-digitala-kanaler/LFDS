@@ -1,6 +1,5 @@
 ---
 template: ArticlePage
-background: bg-white
 title: Brand
 intro: >-
   Länsförsäkringar är ett av Sveriges mest kända varumärken. Vår symbol ritades
@@ -8,6 +7,14 @@ intro: >-
   kända företagssymboler. 
 
   Det är något vi värnar om tillsammans.
+description: >-
+  Länsförsäkringar är ett av Sveriges mest kända varumärken. Vår symbol ritades
+  1969 av den grafiska formgivaren Hans Hug och är idag en av Sveriges mest
+  kända företagssymboler. 
+
+  Det är något vi värnar om tillsammans.
+background: bg-white
+lang: true
 ---
 <figure class="Image Image__background"><img src="/img/lf-symbol.png" srcset="/img/lf-symbol.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
