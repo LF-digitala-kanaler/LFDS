@@ -113,6 +113,43 @@ tabs:
 
       * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
   - name: "Code "
-    content: How to use
+    content: >-
+      ## How to use 
+
+
+      Tables come in many different forms and sizes. Which table you should use is often dependant to its content and background color. The default table looks like the one directly below and is of a "compressed" variant, hence the "small" and `.table-sm` markup. This is due to tables in LF applications usually have a lot of content.
+
+
+      ### Variations
+
+
+      If we don't count the endless modifiers you have at your disposal there is two different variations of tables, one that **present data** and one that **compare data.**
+
+
+      ### Present data
+
+
+      #### Modifiers
+
+
+      ##### Sizing
+
+
+      ##### Summary row
+
+
+      ##### Banded rows
+
+
+      ##### In-table grouping
+
+
+      ##### Expandable rows
+
+
+      ##### Clickable rows
+
+
+      ### Comparative tables
 backgroundColor: "#f3f3f3"
 ---
