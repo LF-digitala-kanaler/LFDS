@@ -56,7 +56,7 @@ tabs:
       There is two variations of Panel in LFUI, One that is always open and one that is collapsible.
 
 
-      ###   Always open
+      ### Always open
 
 
       ```
@@ -103,6 +103,47 @@ tabs:
 
 
       Collapsible uses Bootstrap Collapse functionality to handle the toggle, you can read more about how to use it [here](/components/web/supportive-microinteractions/collapse).
+
+
+      #### Modifiers
+
+
+      ##### Expanded/collapsed by default
+
+
+      A collapsible panel may be expanded or closed  by default. This is handle by changing aria-expanded="*" to either true or false and add/remove `.show` from the `.collapse` .
+
+
+      ##### Lazy load
+
+
+      The trigger can wait for some content to be fetched lazily before being expanded. While loading, a progress bar will be shown.
+
+
+      When your content has been loaded and added to the expandable panel, simply notify the trigger by triggering a `done` event on it.
+
+
+      Functionality for this is not part of LFUI(only styling). An implementation could look something like this. 
+
+
+      ```
+
+      const trigger = document.querySelector('.js-lazytrigger');
+
+      const panel = document.querySelector('.js-lazylist');
+
+      const template = data => `<ul>${ data.map(item => `<li>${ item }</li>`).join('\n') }</ul>`;
+
+
+      trigger.addEventListener('click', event => {
+          fetch('//some/service.json')
+            .then(res => res.json())
+            .then(template)
+            .then(html => {panel.innerHTML = html})
+            .then(() => trigger.dispatchEvent(new Event('done')));
+      }, false);
+
+      ```
     name: Code
 backgroundColor: "#f3f3f3"
 ---
