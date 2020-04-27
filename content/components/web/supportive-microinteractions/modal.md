@@ -1,13 +1,12 @@
 ---
 template: ComponentPage
-category: Supportive Microinteractions
 title: Modal
+intro: Modals are triggered by the user clicking a button. They have two use
+  cases; in a “Read more”-context and signing stuff.
 description: Modals are triggered by the user clicking a button. They have two
   use cases; in a “Read more”-context and signing stuff.
 previewImage: /img/modal.svg
-intro: Modals are triggered by the user clicking a button. They have two use
-  cases; in a “Read more”-context and signing stuff.
-backgroundColor: "#fff"
+category: Supportive Microinteractions
 tabs:
   - content: >-
       ## How to use
@@ -30,8 +29,6 @@ tabs:
 
       Modals are great in a desktop or tablet-context but can easily become troublesome in a mobile context. As mobile usage has increased, the use of modals in our designs for “[read more](../)” has decreased. Take expected mobile usage into consideration when choosing whether to use a modal or another solution for “read more”.
     name: Design
-  - content: 0.7 opacitet på bakgrunden med nån färg
-    name: Code
   - content: >-
       ## How to use
 
@@ -129,4 +126,5 @@ tabs:
 
       Be sure to add `role="dialog"` and `aria-labelledby="..."`, referencing the modal title, to `.modal` , and `role="document` `"`to the`.modal-dialog` itself. Additionally, you may give a description of your modal dialog with`aria-describedby`on`.modal`.
     name: Code
+backgroundColor: "#fff"
 ---
