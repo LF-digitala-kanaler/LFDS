@@ -5,9 +5,10 @@ intro: Our design principles guide us in what qualities we should strive for in
   our interfaces, whereas our  components and design patterns help us in how to
   reach those qualities.
 category: Principles and strategies
+previewImage: /img/design_principer.svg
 heroBlock:
   color: "#fcd2d3"
-  quote: Hjälp mig göra det  jag kom för att göra
+  quote: '"Hjälp mig göra det  jag kom för att göra"'
   cite: Vår främsta uppgift
 background: bg-white
 priority: "1"
