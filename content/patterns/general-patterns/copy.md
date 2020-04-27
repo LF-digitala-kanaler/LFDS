@@ -35,13 +35,19 @@ Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad k
 
 ### Validering
 
+Specifika texter finns under respektive label under Input field \[länk]
+
 **Generellt vid tomt fält**
 
-Exempel: Fyll i \[label], Välj \[label]\
+Exempel: Fyll i \[label] (för textfält), Välj \[label] (för dropdown och radiobutton)\
 Vid enstaka eller några fält kan man med fördel vara lite mer personlig. Som exempelvis: "Oj, du glömde visst att skriva ditt meddelande".
+
+Skriv inte "Ange".
 
 **Generellt vid fel format**
 
 Om man måste fylla i fältet på något speciellt sätt, förklara hur det ska fyllas i och inte. Exempel: "Skriv med 8 siffror utan specialtecken."
 
-**Bekräfta ifyllt fält**
+**Positiv validering**
+
+Speciellt vid formulär med många fält kan man lägga till positiv validering - bekräfta att användaren fyllt i rätt. Exempel på barnförsäkringen vid ifyllt namn: "Fint namn!".
