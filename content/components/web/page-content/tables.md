@@ -540,6 +540,6 @@ tabs:
 
       * If you have numbers in the last cell on each row add `.table-cell-number` to right align the text and give it the right styling. 
 
-      * Text in table cell's can be tricky to handle. If you want to keep the text from breaking consider adding `.text-nowrap` to each cell to keep the text on the same row.
+      * Text in table cell's can be tricky to style. If you want to keep the text from breaking into two rows consider adding `.text-nowrap` to each cell to keep the text on the one row.
 backgroundColor: "#f3f3f3"
 ---
