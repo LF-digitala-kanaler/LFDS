@@ -2,19 +2,29 @@
 template: ComponentPage
 category: Data Visualization
 title: Distribution bar
-description: "The distribution bar and bar graphs are used to compare how
-  different values relate to one another or/and to track changes over time. "
+description: The distribution bar gives the user an overview of the relative
+  size of different values in relation to each other. A secondary use case is as
+  a form of progress bar with discrete steps whose relative size varies over
+  time.
 previewImage: /img/distribution-bar.svg
-intro: "The distribution bar and bar graphs are used to compare how different
-  values relate to one another or/and to track changes over time. "
+intro: The distribution bar gives the user an overview of the relative size of
+  different values in relation to each other.
 backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
 
 
-      The distribution bar is a variation of [bar graphs](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/bar-graph/) are used to compare how different values relate to one another or/and to track changes over time. However, when trying to measure change over time, bar graphs are best when the changes are larger.
+      The distribution bar's **main use case** is to compare how different values relate to one another. The distribution bar's total always equals 100%, meaning that the values are translated into percentages of the total before they are displayed in the table. This means that the distribution bar gives an overview of the values at a given time, usually the current values. As the visual overview only works if the user can get a sense of the relations at first glance, only use a distribution bar for comparing few items (a rule of thumb is five items). An example use could be to display your ISK-accounts and how the amount in them relate to each other.
 
+
+
+
+      \---
+
+
+
+       However, when trying to measure change over time, bar graphs are best when the changes are larger.
 
       You can have the text of procent in the bar or in top of the bar. A recommendation is to not show the percentage value inside the bar unless the width is at least 5% or above (depending on your parent width, of course) to make sure the value fits.
 
@@ -27,8 +37,6 @@ tabs:
       * Pointer/arrow as a separator 
 
       * Tooltip explanation
-
-
 
 
       #### Arrow that points out separator steps
