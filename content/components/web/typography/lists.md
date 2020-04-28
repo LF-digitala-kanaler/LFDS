@@ -82,19 +82,46 @@ tabs:
       ### Link lists
 
 
-      Text om...
+      Here can be a struggle sometimes. We have some easy rules to think about. 
+
+
+      * Link list without icon
+
+      * Link list with pdf icons
+
+      * Link list with one external link
+
+
+
+
+      #### Link list without icon
+
+
+      A plain list with links is no problem. Just make a list with linkes and thats that.
+
+
+      #### Link list with pdf icon
+
+
+      When a list with pdf icons, the icons always should be on the left side. 
+
+
+      #### Link list with one external link
+
+
+      When a plain list with links and some are external links, the icon can be to the right. 
 
 
       ## Modifers all lists
 
 
-      ### List spacing[](https://lf-digitala-kanaler.github.io/LFUI/650/#/type#list-spacing)
+      ### List spacing
 
 
       You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas? //Lägg till
 
 
-      Note that[ ](https://lf-digitala-kanaler.github.io/LFUI/650/#/links/)link lists also have special rules on their spacing when placed vertically.
+      Note that a link lists also have special rules on their spacing when placed vertically.
 
 
       ### To break down long sentences
