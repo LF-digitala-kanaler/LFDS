@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>component/line</title>
+    <desc>Created with Sketch.</desc>
+    <g id="component/line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="primary-button">
+            <g id="Group">
+                <g id="Organisms/Callout/Smaller-Copy-2">
+                    <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
+                    <g id="Group-3" transform="translate(26.883817, 24.000000)">
+                        <rect id="Rectangle" fill="#DCDDDE" x="0" y="0" width="110.539419" height="6"></rect>
+                        <rect id="Rectangle-Copy" fill="#DCDDDE" x="0" y="17" width="178.257261" height="2"></rect>
+                        <rect id="Rectangle-Copy-3" fill="#DCDDDE" x="0" y="27" width="178.257261" height="2"></rect>
+                        <rect id="Rectangle-Copy-4" fill="#DCDDDE" x="0" y="37" width="178.257261" height="2"></rect>
+                        <rect id="Rectangle-Copy-5" fill="#DCDDDE" x="0" y="46" width="48.7966805" height="2"></rect>
+                        <rect id="Rectangle-Copy-2" fill="#AD1015" x="91.6182573" y="57" width="86.6390041" height="17"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="callout">
+            <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
+            <g id="Group-2" transform="translate(39.000000, 80.000000)" fill="#DCDDDE">
+                <rect id="Rectangle-Copy-6" x="0" y="0" width="162" height="2"></rect>
+                <rect id="Rectangle-Copy-6" x="0" y="10" width="162" height="2"></rect>
+                <polygon id="Rectangle-Copy-5" points="0 20 75 20 75 22 0 22"></polygon>
+            </g>
+            <g id="Group-2-Copy" transform="translate(39.000000, 16.000000)" fill="#DCDDDE">
+                <rect id="Rectangle-Copy-6" x="0" y="0" width="162" height="2"></rect>
+                <rect id="Rectangle-Copy-6" x="0" y="10" width="162" height="2"></rect>
+                <polygon id="Rectangle-Copy-5" points="0 20 75 20 75 22 0 22"></polygon>
+            </g>
+        </g>
+        <polygon id="Rectangle-Copy-7" fill="#747578" points="20 58 220 58 220 60 20 60"></polygon>
+    </g>
+</svg>

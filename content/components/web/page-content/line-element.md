@@ -5,6 +5,7 @@ intro: The line element also known as HR element are used to separate some parts
   of the page with a line.
 description: The line element also known as HR element are used to separate some
   parts of the page with a line.
+previewImage: /img/line.svg
 category: Page Content
 tabs:
   - content: >-
