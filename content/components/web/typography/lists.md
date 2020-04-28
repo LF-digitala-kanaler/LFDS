@@ -91,10 +91,26 @@ tabs:
       ### List spacing[](https://lf-digitala-kanaler.github.io/LFUI/650/#/type#list-spacing)
 
 
-      You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas?
+      You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas? //Lägg till
 
 
       Note that[ ](https://lf-digitala-kanaler.github.io/LFUI/650/#/links/)link lists also have special rules on their spacing when placed vertically.
+
+
+      ### To break down long sentences
+
+
+      You should always strive for having short items in the lists but sometimes it is harder to do. Here are some help. 
+
+
+      **Do sections instead**\
+
+      Use a headline instead and break it out to different sections of text, it makes the readers identify the main points of each section and easier to grasp. To highlight and simulate dots you can always make a small graphical element to the right of the textarea.
+
+
+      **Headings in list items**\
+
+      You should always have short items in the list but sometimes it is harder to do. Make a headline short and pop out with bold text then make a new row in the dot item and put the longer sentence under. 
 
 
       ## Please consider
