@@ -301,4 +301,5 @@ tabs:
 
 
       There is more options to solve this but at the moment be do not have any built-in option for this.
+backgroundColor: "#fff"
 ---
