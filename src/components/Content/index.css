@@ -211,7 +211,9 @@ figure {
   border: 2px solid var(--color-border);
   display: inline-block;
   padding: 1rem;
+  width: 100%;
 }
+
 .Image__border--noPadding img {
   border: 2px solid var(--color-border);
   display: inline-block;
