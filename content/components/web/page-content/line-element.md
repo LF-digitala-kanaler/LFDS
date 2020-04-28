@@ -20,7 +20,7 @@ tabs:
       We have to different colors on the line one for white background and one for grey background.
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Line)
