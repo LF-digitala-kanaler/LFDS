@@ -30,6 +30,7 @@ const ComponentExample = ({variants, background}) => {
 
   const handleSetBackgroundToWhite = () => {
     setBackground('#fff');
+    
   }
 
   const handleSetBackgroundToGrey = () => {
@@ -113,17 +114,17 @@ const ComponentExample = ({variants, background}) => {
               style={{
                 height,
               }}
-              
+          
               id={'iframe'}
               ref={iframeRef}
               contentDidMount={() => init(iframeRef)}
               contentDidUpdate={() => init(iframeRef)}
               initialContent={`
               <!DOCTYPE html>
-                <html class="lfui-theme">
+                <html>
                   <head>
                   </head>
-                  <body  style="margin: 0">
+                  <body class="lfui-theme" style="margin: 0">
                     <div class="frame-root"></div>
                     <script
                     src="https://code.jquery.com/jquery-3.3.1.js"

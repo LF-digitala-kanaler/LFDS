@@ -47,7 +47,7 @@
 .Card__flag {
   margin-left: var(--spacing-xs);
   position: relative;
-  top: 3px;
+  top: 4px;
   width: 24px;
   height: 18px;
 }
