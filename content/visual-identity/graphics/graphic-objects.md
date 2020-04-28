@@ -11,6 +11,9 @@ intro: >-
   With graphic objects we can communicate more complex messages.
 
   The graphic objects relates to our illustration but are often one single object. We can explain events, products, situations and environments.
+contentTop: "[Download photos from Röda
+  rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/compone\
+  nt/default/6911)"
 background: bg-white
 wide: false
 lang: false
