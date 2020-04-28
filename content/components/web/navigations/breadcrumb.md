@@ -2,9 +2,9 @@
 template: ComponentPage
 title: Breadcrumbs
 intro: Breadcrumbs lets the user get a sense of where they are in your
-  application and offers a way back up the site tree.
+  application and offers a way back up in the site tree.
 description: Breadcrumbs lets the user get a sense of where they are in your
-  application and offers a way back up the site tree.
+  application and offers a way back up in the site tree.
 previewImage: /img/breadcrumb.svg
 category: Navigations
 tabs:
