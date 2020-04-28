@@ -35,7 +35,7 @@ tabs:
       For accessibility reasons the datepicker should be replaced with the native solution for date selection in mobile devices. Make sure your developers are aware!
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Datepicker)

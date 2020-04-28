@@ -1,12 +1,12 @@
 ---
 template: ComponentPage
-category: Forms
 title: Dropdown
+intro: The dropdown provides the user with given options in a list which expands
+  over the webpage when the user clicks on the container.
 description: The dropdown provides the user with given options in a list which
   expands over the webpage when the user clicks on the container.
 previewImage: /img/dropdown.svg
-intro: The dropdown provides the user with given options in a list which expands
-  over the webpage when the user clicks on the container.
+category: Forms
 tabs:
   - content: >-
       ## How to use
@@ -71,7 +71,7 @@ tabs:
       The LFUI-styling of the dropdown goes beyond standard styling, which makes it technically complex and your developer friends need to code the dropdown in a somewhat different manner than they are used to.
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Dropdown)

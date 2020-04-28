@@ -18,7 +18,7 @@ tabs:
       If you are designing an internal system you should consider whether breadcrumbs are of benefit for your users. In a smaller, flat system you might not see the need, but the larger the system, the bigger the need probably is (especially as the navigation structure gets deeper and deeper).
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Breadcrumbs)

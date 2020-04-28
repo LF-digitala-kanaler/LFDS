@@ -39,7 +39,7 @@ tabs:
       * There exists an old version of the upload component, which still is available in EPI-forms. New forms should use the pattern described on this page, but for reference here is an image of the old version: ![Image of older version of file upload still available in EPI](/img/old-file-upload.png "Image of older version of file upload still available in EPI")
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Upload)

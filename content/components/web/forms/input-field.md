@@ -1,14 +1,13 @@
 ---
 template: ComponentPage
-category: Forms
 title: Input field
-description: Input fields are fields in which the user can enter text of some
-  type (be it letters or numbers).
-previewImage: /img/input.svg
 intro: Input fields are fields in which the user can enter text of some type (be
   it letters or numbers). This section describes the styling of input fields and
   the various versions which exist.
-backgroundColor: "#fff"
+description: Input fields are fields in which the user can enter text of some
+  type (be it letters or numbers).
+previewImage: /img/input.svg
+category: Forms
 tabs:
   - content: >-
       ## How to use
@@ -83,7 +82,7 @@ tabs:
       If you need a text input field which spans several rows you should use the textarea-component. It is typically (perhaps exclusively) used for message text when the user can write a message to us. Although we set a height when the textarea the user can change the height of the textarea within its column as is web standard - we have however disabled horisontal resizing.
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Input/ and Form/Input set/)
@@ -387,4 +386,5 @@ tabs:
 
       Valideringstext: Fyll i typ av konto
     name: Copy
+backgroundColor: "#fff"
 ---

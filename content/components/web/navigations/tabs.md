@@ -69,7 +69,7 @@ tabs:
       *Note: it has been suggested to make responsive sidescroll a standard feature of the component, meaning that it won't be an option to not have it turned on.*
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Tabs)
