@@ -12,8 +12,6 @@ background: bg-white
 wide: false
 lang: false
 ---
-## Download photos at Röda rummet
-
 ## Photos with human emotions
 
 We use lightning when taking our photos, for an everyday feel. It is a way to dramatize and distinguish our images. We like to use odd image cropping.
