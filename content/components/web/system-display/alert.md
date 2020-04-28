@@ -77,9 +77,6 @@ tabs:
       For important information the alert can be displayed over the full webpage. Typical examples of this  are "cookie information" and if we have any general messages (like “Our telephone provider has problems so you can’t call us right now” or “Are you affected by the forest fire, call us at phone number”)
 
 
-      #### 
-
-
       ## Please consider
 
 
@@ -88,6 +85,12 @@ tabs:
       * If you want to use a link create a new page and link to it from the alert if you can’t get all your information across on one line as the text should be kept short.
 
       * The close component should never be used together with a button inside an alert. The button replaces the cross as it has the same functionality (even if the user gets redirected).
+
+
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (System Display/Alert)
     name: Design
   - content: >-
       ## Så skriver vi

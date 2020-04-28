@@ -5,7 +5,7 @@ intro: CX-principerna syftar till att skapa förutsättningar för att styra bes
   och prioriteringar kopplat till utveckling av kundmötet utifrån önskad kund-
   och medarbetarupplevelse.
 category: Principles and strategies
-previewImage: /img/cx_principer.svg
+previewImage: /img/cx-principer_list.svg
 background: bg-white
 wide: true
 lang: true

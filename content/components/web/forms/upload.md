@@ -1,16 +1,13 @@
 ---
 template: ComponentPage
-category: Forms
 title: Upload
-description: Use this component if you want to let your user upload a file to us.
-previewImage: /img/upload.svg
 intro: Use this component if you want to let your user upload a file to us, for
   example as part of an injury claim or a secure message.
-backgroundColor: "#fff"
+description: Use this component if you want to let your user upload a file to us.
+previewImage: /img/upload.svg
+category: Forms
 tabs:
   - content: >-
-      
-
       ## How to use
 
 
@@ -40,6 +37,12 @@ tabs:
         * If there is something wrong with the file, this is always needed.
         * If the error is on our part, with the actual upload failing it depends on the implementation if the user needs to remove and re-add the file or if they can just try to submit it again. Work with your developers and copy to find the right error messages to display for your specific case.
       * There exists an old version of the upload component, which still is available in EPI-forms. New forms should use the pattern described on this page, but for reference here is an image of the old version: ![Image of older version of file upload still available in EPI](/img/old-file-upload.png "Image of older version of file upload still available in EPI")
+
+
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Upload)
     name: Design
   - content: |-
       ## Så skriver vi
@@ -176,4 +179,5 @@ tabs:
 
       ```
     name: Code
+backgroundColor: "#fff"
 ---

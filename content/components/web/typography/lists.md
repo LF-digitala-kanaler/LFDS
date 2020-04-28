@@ -24,10 +24,6 @@ tabs:
 
       * Lists with checkmarks
 
-      * Big number lists
-
-      * Big checkmarks
-
       * Link lists
 
 
@@ -74,11 +70,7 @@ tabs:
       Text om...
 
 
-
-
       ## Modifers all lists
-
-
 
 
       ### List spacing[](https://lf-digitala-kanaler.github.io/LFUI/650/#/type#list-spacing)
@@ -96,6 +88,12 @@ tabs:
       * Always try to have only one list per page.
 
       * Only have 3-5 points in one list.
+
+
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Typography/Lists)
     name: Design
   - content: >-
       Lists in LFUI have the appearance listed below. Also provided (in addition

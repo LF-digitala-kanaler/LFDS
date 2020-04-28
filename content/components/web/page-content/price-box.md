@@ -41,6 +41,12 @@ tabs:
 
 
       As price box, value box and callout all are various ways of highlighting information you should avoid mixing them in one view.
+
+
+      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Price box)
     name: Design
   - content: >-
       ## How to use
