@@ -5,7 +5,7 @@ title: Logotype
 intro: Our well recognized logotype is the foundation when it comes to
   communicating our brand.
 background: bg-white
-wide: false
+wide: true
 lang: false
 ---
 [More about the logotype at Röda rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/component/default/5115)
@@ -19,7 +19,7 @@ In the LFUI-common.sketch document you will find all the logotypes for different
 <section>
 <Collapse title="The symbol"><div class="content">
 
-<figure class="Image Image__background"><img src="/img/logo.svg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background"><img src="/img/logo.svg" srcset="/img/logo.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 Our symbol was designed in 1969 by the graphic designer Hans Hug. This is how he described the underlying idea: “Länsförsäkringar's many member companies, each in its own defined area. The customer is at the center, the companies are protective in every direction."
 
@@ -27,7 +27,10 @@ Länsförsäkringar's symbol, which consists of a straight-up and an upside-down
 </div></Collapse>
 <Collapse title="Symbol recognition"><div class="content">
 
+
+
 Länsförsäkringar's symbol is one of Sweden's most well-known corporate symbols. In a market survey that we let Sifo do in 2014, as many as 84 percent of the people surveyed make the connection to Länsförsäkringar just by seeing the symbol. It is a figure few can compete with, and something we must cherish together.
+
 </div></Collapse>
 </section>
 
