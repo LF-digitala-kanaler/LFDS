@@ -68,7 +68,7 @@ tabs:
       <figure class="Image  Image__border"><img src="/img/pagination-old-number-and-label.jpg" alt="Old sketch of pagination with step number and label"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Pagination)
