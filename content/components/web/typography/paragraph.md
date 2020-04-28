@@ -46,7 +46,7 @@ tabs:
       ## Other material
 
 
-      **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Ingress" and "Payoff")
+      **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Body")
     name: Design
   - content: ghgh
     name: Copy
