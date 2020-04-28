@@ -46,7 +46,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
-  console.log(page)
+  
 
   const children = {
     links: allPages.hasOwnProperty('edges')
@@ -60,7 +60,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
       })
       : false   
   }
-  
+  console.log(children.links)
   // Sort and arrange them in categories 
   
   const breadcrumb = {  

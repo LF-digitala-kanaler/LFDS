@@ -51,13 +51,11 @@ const ComponentPage = ({
   currentDirectory
   
   },) => {
-  console.log(location)
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     const path = globalHistory.location.pathname
     currentDirectory = path.split('/').filter(Boolean).pop();
    }
-  console.log(currentDirectory)
   const toKebabCase = str =>
     str &&
     str

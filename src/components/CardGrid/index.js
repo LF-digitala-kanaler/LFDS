@@ -5,7 +5,7 @@ import style from './index.module.css';
 
 
 const CardGrid = ({list}) => {
-  
+   console.log(list, 'list')
   const cardItems = list.map((item, index) => {
       if(item.category !== "null") {
         return(
@@ -24,7 +24,7 @@ const CardGrid = ({list}) => {
       else {
         
        return item.link.map(items => {
-         console.log(items)
+        
           return(
             <div className={style.CardGrid__item} key={items.node.id}>
               <Card 

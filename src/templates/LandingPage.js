@@ -35,7 +35,7 @@ export const LandingPageTemplate = ({
 
 }
 const LandingPage = ({ data: { page, allPages },currentDirectory, location }) => {
-  
+  console.log(allPages.edges)
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
@@ -45,7 +45,7 @@ const LandingPage = ({ data: { page, allPages },currentDirectory, location }) =>
       ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-
+  console.log(children, 'child')
   
   const groups = _(children.items)
   .chain()
@@ -54,7 +54,7 @@ const LandingPage = ({ data: { page, allPages },currentDirectory, location }) =>
   .value()
 
   const groupsSorted = _.orderBy(groups, [item => item.category.toLowerCase()], ['asc']);
-  console.log(groupsSorted)
+  console.log(groupsSorted, 'sorted')
   return (
     <Layout
       meta={page.frontmatter.meta || false}

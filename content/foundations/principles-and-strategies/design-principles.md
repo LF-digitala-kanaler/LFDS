@@ -8,8 +8,9 @@ category: Principles and strategies
 previewImage: /img/design-principer_list.svg
 heroBlock:
   color: "#fcd2d3"
-  quote: '"Hjälp mig göra det  jag kom för att göra"'
+  quote: '"Hjälp mig göra det jag kom för att göra"'
   cite: Vår främsta uppgift
+  image: ''
 background: bg-white
 priority: "1"
 wide: true

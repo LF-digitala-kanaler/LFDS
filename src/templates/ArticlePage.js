@@ -34,7 +34,7 @@ export const ArticlePageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
       {heroBlock &&
-        <HeroBlock background={heroBlock.color} quote={heroBlock.quote} cite={heroBlock.cite} />
+        <HeroBlock background={heroBlock.color} quote={heroBlock.quote} cite={heroBlock.cite} image={heroBlock.image || false} />
       }
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true} >
         {bodyHtml
@@ -102,6 +102,7 @@ export const pageQuery = graphql`
           color
           quote
           cite
+          image
         }
       }
     }
