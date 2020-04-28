@@ -5,15 +5,13 @@ title: Photography
 intro: Human interaction is the core idea in our photos. They should feel simple
   and realistic, like anyone could have taken them. The photos are from every
   day situations.
+contentTop: ""
 heroBlock:
   image: /img/photo1_big.jpg
 background: bg-white
 wide: false
 lang: false
-contentTop: ""
 ---
-Download photos at Röda rummet
-
 ## Photos with human emotions
 
 We use lightning when taking our photos, for an everyday feel. It is a way to dramatize and distinguish our images. We like to use odd image cropping.

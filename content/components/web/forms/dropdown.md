@@ -139,7 +139,6 @@ tabs:
         }
       }
 
-
       ```
 
 
@@ -196,7 +195,7 @@ tabs:
       #### Multi-select
 
 
-      We also added a custom multi-select dropdown. Create the custom dropdown  but instead of regular`a`items add [custom checkboxes](/components/web/forms/checkbox). To use this dropdown component you need to be sure to add`.custom-multi-select`to your dropdown menu.
+      We also added a custom multi-select dropdown. Create the custom dropdown  but instead of regular `a` items add [checkboxes](/components/web/forms/checkbox). To use this dropdown component you need to be sure to add `.custom-multi-select` to your dropdown menu.
 
 
       ```
@@ -224,13 +223,13 @@ tabs:
       ```
 
 
-      ##### Modifiers 
+      ##### Modifiers
 
 
       Multi-select have two specific modifiers. 
 
 
-      ###### Select all 
+      ###### Select all
 
 
       It's possible to have one checkbox to toggle all checkboxes by adding `data-select-all="true"` on **one** of the options in the dropdown.
@@ -257,7 +256,7 @@ tabs:
       ```
 
 
-      ###### Two levels 
+      ###### Two levels
 
 
       Create a custom multi-select dropdown as above, but add `.dropdown-item-sub` to each`.dropdown-item` that should have indentation.
@@ -297,7 +296,6 @@ tabs:
       ```
 
       <select id="id"class="custom-select d-lg-none"></select>
-
 
       ```
 
