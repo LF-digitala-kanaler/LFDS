@@ -4,12 +4,12 @@ import { Link } from 'gatsby';
 
 
 const parentDirectory = (url) => {
-  console.log(url)
+
   return url.substring(0, url.lastIndexOf('/'));
 }
 
 const Breadcrumb = ({location}) => {
-  console.log(location.location.pathname.includes('component'))
+
   return (
     <div className={style.Breadcrumb}>
       

@@ -40,7 +40,7 @@ const IconsPage = ({
   data: { page },
   location
   }) => {
-  console.log(page)
+
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,

@@ -8,7 +8,7 @@ export const shouldUpdateScroll = ({
   routerProps: { location },
   getSavedScrollPosition
 }) => {
-  console.log({ location });
+
 
   if (location.search) {
     return false;

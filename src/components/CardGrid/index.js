@@ -5,7 +5,7 @@ import style from './index.module.css';
 
 
 const CardGrid = ({list}) => {
-   console.log(list, 'list')
+
   const cardItems = list.map((item, index) => {
       if(item.category !== "null") {
         return(

@@ -13,8 +13,8 @@ const HeroBlock = ({ background, quote, cite, image }) => {
     backgroundSize: 'cover'
   }
   return (
-    <article className={cx(style.HeroBlock, image.publicURL.length ? style.HeroBlock__image : '')} style={backgroundStyle}>
-      {!image.publicURL.length &&
+    <article className={style.HeroBlock} style={backgroundStyle}>
+      {!image && 
       <Wrapper tag="div" menu={true}  narrow>
         <div className={style.HeroBlock__container}>
           <blockquote className={style.HeroBlock__quote}>

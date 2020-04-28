@@ -32,7 +32,7 @@ export const ChangelogPageTemplate = ({
         <TabPanel className={tabStyle.Tabs__panel} >
           <Wrapper menu={true} tag="div" narrow>
             <div className="Content">
-              {console.log(components)}
+              
             {
               
               components.filter(item => item.node.descriptionHTML != "").map(item => {

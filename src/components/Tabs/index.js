@@ -5,7 +5,7 @@ import Wrapper from '../Wrapper'
 import Content from '../Content'
 
 const TabsWrapper = ({tabs, location, navigate, children}) => {
-  console.log(tabs)
+ 
  const [tabName, setTabName] = useState([]);
  const [tabContent, setTabContent] = useState([]); 
  const [index, setTabIndex] = useState(0)
