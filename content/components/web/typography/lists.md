@@ -115,13 +115,13 @@ tabs:
       ## Modifers all lists
 
 
-      ### List spacing[](https://lf-digitala-kanaler.github.io/LFUI/650/#/type#list-spacing)
+      ### List spacing
 
 
       You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas? //Lägg till
 
 
-      Note that[ ](https://lf-digitala-kanaler.github.io/LFUI/650/#/links/)link lists also have special rules on their spacing when placed vertically.
+      Note that a link lists also have special rules on their spacing when placed vertically.
 
 
       ### To break down long sentences
