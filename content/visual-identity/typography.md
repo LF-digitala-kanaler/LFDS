@@ -67,4 +67,4 @@ Our main page headlines are usually set in *LF Rubrik*. The rest of the headline
 
 ### Variations
 
-For Android and iOS we use Roboto and SF XXXX instead of Arial.
+For Android and iOS we use Roboto and SFUIDisplay instead of Arial.
