@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-previewImage: /img/photo.jpg
+previewImage: /img/photography.jpg
 title: Photography
 intro: Intro
 background: bg-white
