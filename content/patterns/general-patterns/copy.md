@@ -36,7 +36,7 @@ Säg inte att det är ett tekniskt fel om vi inte vet att det är det. Det kan d
 </section>
 
 <section>
-<Collapse title="Validering"><span class="content">Specifika texter finns under respektive label under [Input field](https://lfui-beta-aedd0a.netlify.app/components/web/forms/input-field#copy)
+<Collapse title="Validering"><span class="content">Specifika texter finns under respektive label under [Input field](https://lfui-beta-aedd0a.netlify.app/components/web/forms/input-field?copy)
 
 **Generellt vid tomt fält**
 

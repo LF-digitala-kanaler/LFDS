@@ -17,7 +17,7 @@ tabs:
 
       Our pagination is one of the components which have gone through the most
       design iterations and discussions. Please refer to [Design
-      rationale](#design-rationale) below for why this particular design has
+      rationale](?design-rationale) below for why this particular design has
       triumphed over alternatives.
 
 

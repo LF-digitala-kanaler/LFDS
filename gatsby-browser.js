@@ -10,7 +10,7 @@ export const shouldUpdateScroll = ({
 }) => {
   console.log({ location });
 
-  if (location.hash) {
+  if (location.search) {
     return false;
   }
 

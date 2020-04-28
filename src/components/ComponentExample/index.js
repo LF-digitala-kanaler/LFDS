@@ -142,6 +142,10 @@ const ComponentExample = ({variants, background}) => {
                     `
                     body {
                       font-family: arial;
+                      font-size: 1rem;
+                      font-weight: 400;
+                      line-height: 1.45;
+                      color: #222;
                     }
                     @font-face {
                       font-family: 'LF Rubrik';

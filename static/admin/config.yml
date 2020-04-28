@@ -111,6 +111,7 @@ collections: # A list of collections the CMS should be able to edi
           options: 
             - { label: "Pink", value: "#fcd2d3" }
             - { label: "Blue", value: "#badaf3" }
+        - { label: Image, name: image, widget: image, required: false }
         - { label: Quote, name: quote, widget: text, required: false }
         - { label: Cite, name: cite, widget: string , required: false}
       
@@ -167,6 +168,7 @@ collections: # A list of collections the CMS should be able to edi
           options: 
             - { label: "Pink", value: "#fcd2d3" }
             - { label: "Blue", value: "#badaf3" }
+        - { label: Image, name: image, widget: image, required: false }
         - { label: Quote, name: quote, widget: text, required: false }
         - { label: Cite, name: cite, widget: string, required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color']  }
@@ -224,6 +226,7 @@ collections: # A list of collections the CMS should be able to edi
           options: 
             - { label: "Pink", value: "#fcd2d3" }
             - { label: "Blue", value: "#badaf3" }
+        - { label: Image, name: image, widget: image, required: false }
         - { label: Quote, name: quote, widget: text,  required: false }
         - { label: Cite, name: cite, widget: string,  required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
