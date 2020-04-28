@@ -9,7 +9,7 @@ const HeroBlock = ({ background, quote, cite, image }) => {
   
   const backgroundStyle = {
     backgroundColor: background,
-    backgroundImage: `url(${image})`,
+    backgroundImage: `url(${image.publicURL})`,
     backgroundSize: 'cover'
   }
   return (

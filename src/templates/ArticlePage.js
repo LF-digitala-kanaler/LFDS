@@ -106,7 +106,9 @@ export const pageQuery = graphql`
           color
           quote
           cite
-          image
+          image{
+            publicURL
+          }
         }
       }
     }
