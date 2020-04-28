@@ -20,7 +20,7 @@ export const CategoryOverviewTemplate = ({
   title,
   intro,
   blockquote,
-  contentBelow,
+  contentAbove,
   categoryPages,
   body,
   bodyHtml,
@@ -31,12 +31,13 @@ export const CategoryOverviewTemplate = ({
   <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-       {bodyHtml
+       <Content className="content" source={contentAbove} />  
+      { categoryPages && <CardList list={categoryPages} /> }
+      {bodyHtml
           ? <div className="Content">{renderAst(bodyHtml)}</div>
           : <Content className="Content" source={body} />
         }
-      { categoryPages && <CardList list={categoryPages} /> }
-      <Content className="content" source={contentBelow} />   
+       
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
   </Wrapper>
   </>
@@ -84,7 +85,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
         categoryPages={children.links}
-        contentBelow={page.frontmatter.contentBelow}
+        contentAbove={page.frontmatter.contentAbove}
         body={page.html}
         bodyHtml={page.htmlAst}
         
