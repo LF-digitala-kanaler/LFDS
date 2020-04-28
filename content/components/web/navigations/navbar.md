@@ -42,7 +42,7 @@ tabs:
       #### Direction
 
 
-      Your navbar can be either vertical or horizontal. Which one to choose depends on the rest of your layout and preferred behaviour of your menu:
+      Your navbar can be either vertical or horizontal. Which one to choose depends on the rest of your layout and preferred behavior of your menu:
 
 
       * Horizontal: Good for either very small applications or large ones. Small one applications lets you click the link and you're there. In large application/sites the horizontal menu serves well as the basis for a mega menu (like on [lansforsakringar.se](https://www.lansforsakringar.se)).
