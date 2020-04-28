@@ -34,9 +34,10 @@ export const CategoryOverviewTemplate = ({
       <Content className="content" source={contentAbove} />   
       { categoryPages && <CardList list={categoryPages} /> }
        {bodyHtml
-          ? <div className="Content">{renderAst(body)}</div>
-          : <Content className="Content" source={bodyHtml} />
+          ? <div className="Content">{renderAst(bodyHtml)}</div>
+          : <Content className="Content" source={body} />
         }
+        
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
   </Wrapper>
   </>
@@ -85,8 +86,9 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
         blockquote={page.frontmatter.blockquote}
         categoryPages={children.links}
         contentAbove={page.frontmatter.contentAbove}
-        body={page.htmlAst}
-        bodyHtml={page.html}
+        body={page.html}
+        bodyHtml={page.htmlAst}
+        
       />
     </Layout>
   )

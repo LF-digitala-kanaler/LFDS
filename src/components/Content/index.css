@@ -209,7 +209,7 @@ figure {
 .Image__border img{
   border: 2px solid var(--color-border);
   display: inline-block;
-  padding: var(--spacing-xxlg);
+  padding: 1rem;
 }
 .Image__border--noPadding img {
   border: 2px solid var(--color-border);
