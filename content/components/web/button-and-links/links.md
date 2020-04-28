@@ -173,7 +173,6 @@ tabs:
 
       ```
         <a href="#" target="_blank">Regular link</a><svg role="presentation" class="text-blue icon-right icon  icon-nudge-up-01" width="20" height="20"><use xlink:href="#icon-external-link-20"></use></svg>
-
       ```
 
 
@@ -187,8 +186,8 @@ tabs:
 
       * `link-adaptive` does not show the underline until the anchor is interacted with.
 
-      * `link-complex` can be used when the link is wrapped around a container and you want the correct link behavior on a targeted element within the container (see[Card's](https://lf-digitala-kanaler.github.io/LFUI/650/#/card)"As link" for an example).
+      * `link-complex` can be used when the link is wrapped around a container and you want the correct link behavior on a targeted element within the container.
 
-      * `link-complex-adaptive-target` is like`link-complex`(&`link-complex-target`), but the link does not get the default link styling, and instead gets the adaptive, inherit styling. Used mainly in the header and footer components.
+      * `link-complex-adaptive-target` is like `link-complex`(&`link-complex-target`), but the link does not get the default link styling, and instead gets the adaptive, inherit styling. Used mainly in the header and footer components.
 backgroundColor: "#fff"
 ---
