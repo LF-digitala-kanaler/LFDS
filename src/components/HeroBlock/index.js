@@ -2,6 +2,8 @@
 import React from "react"
 import style from './index.module.css'
 import Wrapper from '../Wrapper';
+import cx from 'classnames'
+
 const HeroBlock = ({ background, quote, cite, image }) => {
   
   
@@ -11,7 +13,8 @@ const HeroBlock = ({ background, quote, cite, image }) => {
     backgroundSize: 'cover'
   }
   return (
-    <article className={style.HeroBlock} style={backgroundStyle}>
+    <article className={cx(style.HeroBlock, image.length ? style.HeroBlock__image : '')} style={backgroundStyle}>
+      {!image.length &&
       <Wrapper tag="div" menu={true}  narrow>
         <div className={style.HeroBlock__container}>
           <blockquote className={style.HeroBlock__quote}>
@@ -20,6 +23,7 @@ const HeroBlock = ({ background, quote, cite, image }) => {
           </blockquote>
         </div>
        </Wrapper>
+       }
     </article>
     )
   

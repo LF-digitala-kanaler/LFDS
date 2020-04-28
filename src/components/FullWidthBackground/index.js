@@ -3,7 +3,6 @@ import style from './index.module.css';
 import Img from "gatsby-image"
 
 const FullWidthBackground = ({ image, children }) => {
-  console.log(typeof image)
   return (  
        <div className={style.FullWidthBackground}>
          {/* if inside netlify cms show regular image */}

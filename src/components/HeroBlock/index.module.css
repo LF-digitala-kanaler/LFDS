@@ -44,3 +44,6 @@
   vertical-align: middle;
   margin-top: var(--spacing-vertical--1);
 }
+.HeroBlock__image {
+  width: 100%;
+}

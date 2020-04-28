@@ -7,8 +7,6 @@ intro: Get started with LFUI components which is a  HTML-, CSS- and JS framework
   components as well as included new ones specific for Länsförsäkringar, along
   with other custom features and utilities.
 category: Getting Started
-heroBlock:
-  image: /img/photo.jpg
 background: bg-white
 wide: false
 lang: false
