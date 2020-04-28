@@ -169,9 +169,10 @@
 figure {
   margin: 0;
 }
-.Content--tight .Image {
+.Content--tight .Image,
+.Content--tight section {
   @media (--large-viewport) { 
-    width: var(--content-width--narrow);
+    width: var(--content-width);
   }
 }
 .Content--wide .Image {
@@ -179,13 +180,14 @@ figure {
     width: var(--content-width--wide);
   }
 }
-.Content--normal .Image,
-.Content .Image {
+.Content--normal .Image__background,
+.Content .Image__background {
   @media (--xlarge-viewport) { 
     width: calc(var(--content-width) - 32px);
   }
 } 
 .Content--normal .Image {
+  margin-bottom: 0;
   margin-top: var(--spacing-vertical--2)
 }
 /* hack to get content inside wide to be narrow */
@@ -345,9 +347,9 @@ figure {
   padding: 0 2px;
 }
 
-.Content--normal .content {
+/* .Content--normal .content {
   max-width: var(--content-width--tight);
-}
+} */
 /* Image block styling */
 
 .ImageBlock {

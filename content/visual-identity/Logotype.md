@@ -5,7 +5,7 @@ title: Logotype
 intro: Our well recognized logotype is the foundation when it comes to
   communicating our brand.
 background: bg-white
-wide: true
+wide: false
 lang: false
 ---
 [More about the logotype at Röda rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/component/default/5115)
