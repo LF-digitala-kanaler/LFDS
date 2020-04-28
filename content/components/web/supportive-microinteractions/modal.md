@@ -30,7 +30,7 @@ tabs:
       Modals are great in a desktop or tablet-context but can easily become troublesome in a mobile context. As mobile usage has increased, the use of modals in our designs for “[read more](../)” has decreased. Take expected mobile usage into consideration when choosing whether to use a modal or another solution for “read more”.
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Supportive Microinteractions/Modal)
