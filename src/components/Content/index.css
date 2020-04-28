@@ -196,6 +196,7 @@ figure {
 }
 .Content > div > section {
   border-top: 2px solid var(--color-border);
+  margin: var(--spacing-vertical--2) 0;
 }
 
 .Image__border {
