@@ -98,7 +98,7 @@ tabs:
       ## How to use
 
 
-      Navbars require a wrapping`.navbar`with optional classes for color schema,
+      Navbars require a wrapping `.navbar` with optional classes for color schema,
       directions and sizes.
 
 
@@ -236,10 +236,10 @@ tabs:
 
       Make sure you include relevant accessibility markup. In order to have the
       buttons and links have the proper styling, add the `role="button` to
-      the`.nav-toggle` and `.nav-link`-elements.
+      the `.nav-toggle` and `.nav-link`-elements.
 
 
-      *"When using button classes on`<a>`elements that are used to trigger
+      *"When using button classes on `<a>` elements that are used to trigger
       in-page functionality (like collapsing content), rather than linking to
       new pages or sections within the current page, these links should be given
       a `role="button"` to appropriately convey their purpose to assistive
@@ -250,8 +250,7 @@ tabs:
 
 
       At the moment navbar is not adjusted to responsive design. That's
-      something you have to build yourself. There is a couple of modifiers
-      available in
+      something you have to build yourself. There is a couple of modifiers in
       [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) that can
       get you started.
     name: Code

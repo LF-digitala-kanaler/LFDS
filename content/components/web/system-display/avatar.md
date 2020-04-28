@@ -70,8 +70,6 @@ tabs:
 
       ```
 
-
-      #### Modifiers
     name: Code
 backgroundColor: "#fff"
 ---

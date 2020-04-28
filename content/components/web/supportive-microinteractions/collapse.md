@@ -44,7 +44,7 @@ tabs:
       ## How to use
 
 
-      Collapse uses the built in collapse functionality from Bootstrap. You can use a link with the`href`attribute, or a button with the `data-target` attribute. In both cases, the `data-toggle="collapse"` is required.
+      Collapse uses the built in collapse functionality from Bootstrap. You can use a link with the `href` attribute, or a button with the `data-target` attribute. In both cases, the `data-toggle="collapse"` is required.
 
 
       Your hidden container will need an ID that matches that `that-target` or `href,`

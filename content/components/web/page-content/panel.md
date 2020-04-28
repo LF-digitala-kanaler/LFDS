@@ -56,14 +56,13 @@ tabs:
       ## How to use
 
 
-      The Component name **Panel** is new to LFUI, it was previously a part of [Cards](https://lf-digitala-kanaler.github.io/LFUI/650/#/card). Since LFUI is built on top of Bootstrap all classes in this component still use class names from the card component. 
+      The Component name **Panel** is new to LFUI, it was previously part of [Cards](/components/web/page-content/card/). Since LFUI is built on top of Bootstrap all classes in this component still use class names from the card component. 
 
+      ### Variations
 
       There is two variations of Panel in LFUI, One that is always open and one that is collapsible.
 
-
-      ### Always open
-
+      #### Always open
 
       ```
 
@@ -76,8 +75,7 @@ tabs:
 
       ```
 
-
-      ### Collapsible/expandable
+      #### Collapsible/expandable
 
 
       Collapsible (with its chevron and clickable space) is strictly only used along with this specific functionality; if you want a "static collapsible panel", use the default panel styling instead. Using the chevron and clickable surface when the component is never supposed to collapse is wrong.
@@ -111,16 +109,16 @@ tabs:
       Collapsible uses Bootstrap Collapse functionality to handle the toggle, you can read more about how to use it [here](/components/web/supportive-microinteractions/collapse).
 
 
-      #### Modifiers
+      ##### Modifiers
 
 
-      ##### Expanded/collapsed by default
+      ###### Expanded/collapsed by default
 
 
       A collapsible panel may be expanded or closed  by default. This is handle by changing aria-expanded="*" to either true or false and add/remove `.show` from the `.collapse` .
 
 
-      ##### Lazy load
+      ###### Lazy load
 
 
       The trigger can wait for some content to be fetched lazily before being expanded. While loading, a progress bar will be shown.

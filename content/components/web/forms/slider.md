@@ -92,11 +92,11 @@ tabs:
       ## How to use
 
 
-      LFUI has restyled the HTML5-element`input[type="range"]`which is useable
-      in browsers later than IE9. The`input[type="range"]`, or Slider, is a tool
+      LFUI has restyled the HTML5-element `input[type="range"]` which is useable
+      in browsers later than IE9. The `input[type="range"]`, or Slider, is a tool
       to control a value by adjusting the thumb along its track. The value range
-      of the track is assigned by`min`and`max`html attributes, and
-      the`step`attribute is used to control how big leaps the slider value takes
+      of the track is assigned by `min` and `max` html attributes, and
+      the `step` attribute is used to control how big leaps the slider value takes
       for each movement.
 
 
@@ -126,8 +126,8 @@ tabs:
       #### Value
 
 
-      The slider is created by using the`<input type="range">`element together
-      with the`.lf-slider`class. Note that this slider *only works on white
+      The slider is created by using the `<input type="range">` element together
+      with the `.lf-slider` class. Note that this slider *only works on white
       backgrounds*.
 
 
@@ -155,7 +155,7 @@ tabs:
       ### Interval
 
 
-      The native `input[type="range"] `HTML element unfortunately does not
+      The native `input[type="range"]` HTML element unfortunately does not
       support the ability to have more than one range-thumb (the button you move
       back and forth). Use-cases have begun appearing where such a feature is
       requested in order for a user to select a span inside the range. To
@@ -197,8 +197,8 @@ tabs:
       Labels can be added for better understanding of the range at disposal.
 
 
-      Create a`.slider-wrapper` wrapping element, with a
-      `.slider-label-left`and`.slider-label-right` element on each corresponding
+      Create a `.slider-wrapper` wrapping element, with a
+      `.slider-label-left` and `.slider-label-right` element on each corresponding
       side of the slider. The wrapper will add a padding of`60px`of either side
       of the component and then absolute-position the labels in the padding gap.
       Should your labels require increased space (with really large numbers,
@@ -232,7 +232,7 @@ tabs:
       ##### Distribution label
 
 
-      It is also possible to utilize the `distribution-label`  from
+      It is also possible to utilize the `distribution-label` from
       [distribution bar](components/web/data-visualization/distribution-bar)
       component. Append the `.distribution-label` to the `slider-label-*`
       classes.
@@ -250,8 +250,7 @@ tabs:
       ```
 
 
-      ##### On different
-      backgrounds[](https://lf-digitala-kanaler.github.io/LFUI/650/#/slider#on-different-backgrounds)
+      ##### On different backgrounds
 
 
       If you want to place the slider on grey background you can change

@@ -136,7 +136,7 @@ tabs:
       #### Responsive
 
 
-      In smaller devices we use a `position: fixed`-oriented, collapsible price box instead to save space but still keep the easily overviewed component close at hand for the user. The`.price-box-bottom` is positioned in the bottom of the window **so that only the `.price-box-header` is visible**, and on click it toggles upwards, showing the `.price-box-content`.
+      In smaller devices we use a `position: fixed`-oriented, collapsible price box instead to save space but still keep the easily overviewed component close at hand for the user. The `.price-box-bottom` is positioned in the bottom of the window **so that only the `.price-box-header` is visible**, and on click it toggles upwards, showing the `.price-box-content`.
 
 
       ```

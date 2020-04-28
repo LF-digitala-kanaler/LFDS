@@ -16,11 +16,11 @@ tabs:
       There are several components in LFUI based on standard radio button behaviour (choose one and only one option), all with their specific behaviour:
 
 
-      **Styled radio buttons** are used when you want to use radio buttons in a context outside a form flow or if you want more/need scaled down radio buttons than button group. Typical use cases for this is when there are four or more options, or the options need to have long labels.
+      * **Styled radio buttons** are used when you want to use radio buttons in a context outside a form flow or if you want more/need scaled down radio buttons than button group. Typical use cases for this is when there are four or more options, or the options need to have long labels.
 
-      **Button group** is our main way of presenting users with an either or-choice in a form. They follow radio button behaviour but have a more tabby look to them. They should be your default option if there are three or less options to choose from.
+      * **Button group** is our main way of presenting users with an either or-choice in a form. They follow radio button behaviour but have a more tabby look to them. They should be your default option if there are three or less options to choose from.
 
-      **Radio cards** exist in two sizes and they are used for presenting the user with a primary choice for the whole flow. The larger size is used when customers choose between versions of a product and the smaller as a filter on large lists (typically lists of funds or stocks).
+      * **Radio cards** exist in two sizes and they are used for presenting the user with a primary choice for the whole flow. The larger size is used when customers choose between versions of a product and the smaller as a filter on large lists (typically lists of funds or stocks).
 
 
       ### Styled radio buttons
@@ -132,7 +132,7 @@ tabs:
       There is three different variation of radio buttons in LFUI. Styled radio buttons, Button group and radio cards.
 
 
-      ### **Styled radio buttons**
+      ### Styled radio buttons
 
 
       The "default" radio button built with `<input>` and `<label>` are sibling elements as opposed to Button groups which have `<input>` within a `<label>`
@@ -148,7 +148,7 @@ tabs:
       ```
 
 
-      ### **Button group**
+      ### Button group
 
 
       Only the plain `btn` is supported by the `btn-group`. Other than that, no changes has been made to the default [Bootstrap button group](https://getbootstrap.com/docs/4.0/components/button-group/).
@@ -229,7 +229,7 @@ tabs:
       ```
 
 
-      ### **Radio cards**
+      ### Radio cards
 
 
       Functioning as radio buttons, the `.radio-card`'s are a more styled manner of displaying different choices, usually a form's single, "main" choice. Earlier examples of use include which type of insurance level the users wish to choose: Big, Medium or Small. The three choices all share a subject, and inside the boxes themselves they can be compared to each other (through the use of the list).
@@ -466,7 +466,7 @@ tabs:
       ## Validation
 
 
-      Validation in LFUI is done entirely by you, the user, through Javascript. Use the available validation classes `has-valid `and `has-danger`.*The `has-success` and `has-warning` classes exist in LFUI but have not been entirely implemented, as LFUI discourages use of these.*
+      Validation in LFUI is done entirely by you, the user, through Javascript. Use the available validation classes `has-valid ` and `has-danger`.*The `has-success` and `has-warning` classes exist in LFUI but have not been entirely implemented, as LFUI discourages use of these.*
 
 
       If a field has been filled out and validated, add the `has-valid` class. If a field has been filled out and validated but with errors, add the `has-danger` class.
