@@ -47,7 +47,14 @@
 .Card__flag {
   margin-left: var(--spacing-xs);
   position: relative;
-  top: 2px;
+  top: 3px;
+  width: 24px;
+  height: 18px;
+}
+.Card--list .Card__flag{
+  width: 30px;
+  height: 24px;
+  top: 3px;
 }
 .Card__image {
   margin: 0;
