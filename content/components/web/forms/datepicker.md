@@ -47,13 +47,13 @@ tabs:
       ## How to use
 
 
-      LFUI uses the `eonasdan-bootstrap-datetimepicker`package. It has plenty of options and functions. Refer to the official website for a [complete documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
+      LFUI uses the `eonasdan-bootstrap-datetimepicker` package. It has plenty of options and functions. Refer to the official website for a [complete documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
 
 
-      The datepicker is fully responsive. Do note that the dropdown stretches with a `width: 100%`of its parent input field which might disrupt its styling. Its preferred width is`336px`.
+      The datepicker is fully responsive. Do note that the dropdown stretches with a `width: 100%` of its parent input field which might disrupt its styling. Its preferred width is`336px`.
 
 
-      **In order for screen readers to not get disrupted by the datepicker and its complex html structure**, we disable the datepicker dropdown completely for screen readers by adding the following script to the`dp.show`event:
+      **In order for screen readers to not get disrupted by the datepicker and its complex html structure**, we disable the datepicker dropdown completely for screen readers by adding the following script to the`dp.show` event:
 
 
       ```
@@ -87,9 +87,7 @@ tabs:
       ```
 
 
-
-
-      ### Variants 
+      ### Variants
 
 
       There is two different variants of datepicker. One which let the user pick a date and one that let the user pick a time. 
@@ -170,7 +168,7 @@ tabs:
       ```
 
 
-      ### Modifiers 
+      ### Modifiers
 
 
       As mention before there is a lot of customisation you can do. One that we use regular is to disabled dates. 
