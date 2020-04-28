@@ -1,5 +1,5 @@
 .Shortcut {
-  
+  margin-bottom: var(--spacing-vertical--2)
 }
 
 .Shortcut__link {

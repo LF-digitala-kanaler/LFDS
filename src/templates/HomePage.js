@@ -5,13 +5,13 @@ import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
 import Shortcut from '../components/Shortcut'
-import { Grid, Cell } from "styled-css-grid"
 import FullWidthBackground from '../components/FullWidthBackground'
 import Content from '../components/Content'
 import Changelog from '../components/Changelog'
 import LinkList from '../components/LinkList'
 import SearchBlock from '../components/SearchBlock'
-
+import { Row, Col } from 'react-simple-flex-grid';
+import "react-simple-flex-grid/lib/main.css";
 export const HomePageTemplate = ({
   title,
   intro,
@@ -30,33 +30,33 @@ export const HomePageTemplate = ({
     </Wrapper>
     <SearchBlock />
     <Wrapper wide tag="div">
-      <Grid columns="repeat(auto-fill,minmax(280px,1fr))" gap="64px" >
+      <Row gutter={64} justify="center">
         { shortcuts &&
           shortcuts.map(item => {
-            return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Cell>
+            return <Col sm={6} md={4}  key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Col>
           })
         }
-      </Grid>
+      </Row>
     </Wrapper>
     {fullWidthImage && <FullWidthBackground image={fullWidthImage.childImageSharp ? fullWidthImage.childImageSharp.fluid.src : fullWidthImage}><Content source={body} /> </FullWidthBackground>}
     <Wrapper wide tag="div">
-      <Grid columns="repeat(auto-fill,minmax(280px,1fr))" gap="64px" >
+      <Row gutter={64} justify="center">
         { shortcutsBottom &&
           shortcutsBottom.map(item => {
-            return <Cell middle key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Cell>
+            return <Col sm={6} md={4}  key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Col>
           })
         }
-      </Grid>
-      <Grid columns="repeat(auto-fit,minmax(373px,1fr))" gap="0 128px">
-        <Cell>
+      </Row>
+      <Row gutter={128} >
+        <Col md={6}>
            <Heading tag={3} text={"Release info"} align={"left"} />
           <Changelog />
-        </Cell>
-        <Cell>
+        </Col>
+        <Col md={6}>
           <Heading tag={3} text={"Links you cant live without"} align={"left"} />
           <LinkList items={relatedLinks} />
-        </Cell>
-      </Grid>
+        </Col>
+      </Row>
     </Wrapper>
   </>
 )

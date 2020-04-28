@@ -9,7 +9,7 @@ import Actions from '../Actions'
 import Content from '../Content';
 import CodeBlock from '../CodeBlock';
 import ComponentNavigation from '../ComponentNavigation';
-import { Grid, Cell } from "styled-css-grid";
+import style from './index.module.css';
 import $ from 'jquery'
 
 
@@ -99,10 +99,11 @@ const ComponentExample = ({variants, background}) => {
 
   return (
     <React.Fragment>
-        <Grid columns={2} justifyContent="space-around">
-          <Cell middle>{ variants.length > 1 && <ComponentNavigation variants={variants} onChildClick={handleChildClick} /> }</Cell>
-          <Cell middle><Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} /></Cell>
-        </Grid>
+        <div className={style.ComponentExample}>
+          <div className={style.ComponentExample__head}>
+            { variants.length > 1 && <ComponentNavigation variants={variants} onChildClick={handleChildClick} /> }
+            <Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} />
+          </div>
           {
             source &&
             <CodeBlock code={`${code}`} />
@@ -206,7 +207,7 @@ const ComponentExample = ({variants, background}) => {
             </div>
             </Frame>
           </Preview>
-          
+        </div> 
          
         </React.Fragment>
   )

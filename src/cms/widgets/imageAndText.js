@@ -1,6 +1,6 @@
 const ImageAndText = {
   id: "imageAndText",
-  label: "Image and text",
+  label: "Two columns",
   fields: [
     { name: "content", label: "Content", widget: "markdown"},
     {
