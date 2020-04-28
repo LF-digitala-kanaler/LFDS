@@ -169,6 +169,7 @@
 figure {
   margin: 0;
 }
+
 .Content--tight .Image,
 .Content--tight section {
   @media (--large-viewport) { 
@@ -345,6 +346,8 @@ figure {
 .Content  code {
   background-color: var(--color-smoke);
   padding: 0 2px;
+  border-radius: 2px;
+  font-size: 87.5%;
 }
 
 /* .Content--normal .content {
