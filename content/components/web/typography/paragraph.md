@@ -27,7 +27,7 @@ tabs:
       Det finns ett undantag; på sidor som har en direkt relation till en produktsida får man länka första gången produkten namnges i en brödtexten under ingressen. Texten ska vara starkt kopplad till produkten man länkar till. 
 
 
-      <figure class="Image Image__border"><img src="/img/paragraph-links.png" srcset="undefined 2x" alt="An exception from the rule"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__border"><img src="/img/paragraph-links.png" srcset="/img/paragraph-links.png 2x" alt="An exception from the rule"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## To consider
@@ -41,6 +41,12 @@ tabs:
 
 
       <div class="Callout"><strong class="Callout__title">Kul att veta </strong><p class="Callout__text">Den största delen information på en webbplats är vanligtvis textbaserad Därför har vi under åren ökat vår storlek på brödtexten för att förbättra läsbarheten. 2012 hade vi brödtext på 12 px och 2014 ökades den till 14 px och nu sedan 2016 har vi ökat ännu mer till en brödtext på 16 px.</p></div>
+
+
+      ## Other material
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Body")
     name: Design
   - content: ghgh
     name: Copy

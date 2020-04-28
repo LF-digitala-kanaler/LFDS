@@ -127,7 +127,7 @@ tabs:
       * Don’t require end punctuation
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Typography/Lists)
