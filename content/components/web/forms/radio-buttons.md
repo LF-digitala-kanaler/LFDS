@@ -1,14 +1,13 @@
 ---
 template: ComponentPage
-category: Forms
 title: Radio buttons
-description: There are three types of radio buttons in LFUI; standard radio
-  buttons, button groups and radio cards.
-previewImage: /img/radio-button.svg
 intro: We have several types of radio buttons in LFUI, all with their specific
   use cases. There are LF-styled "normal" radio buttons, button groups and radio
   cards.
-backgroundColor: "#fff"
+description: There are three types of radio buttons in LFUI; standard radio
+  buttons, button groups and radio cards.
+previewImage: /img/radio-button.svg
+category: Forms
 tabs:
   - content: >-
       ## How (and when) to use
@@ -67,7 +66,7 @@ tabs:
       An exemption to the rule are the yes and no answers. If there are a lot of yes and no answers they have a fit size and can fit together in the mobile view. And makes it easier to press yes or no every time when they are in the same place.
 
 
-      <figure class="Image Image__border Image__border--noPadding"><img src="/img/button-group-yes-and-no.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__border Image__border--noPadding"><img src="/img/button-group-yes-and-no.jpg" srcset="/img/button-group-yes-and-no.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ### Radio cards
@@ -103,7 +102,7 @@ tabs:
       If you have more than five options you are probably better off using a [dropdown](../dropdown).
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Radio buttons)
@@ -471,4 +470,5 @@ tabs:
 
 
       If a field has been filled out and validated, add the `has-valid` class. If a field has been filled out and validated but with errors, add the `has-danger` class.
+backgroundColor: "#fff"
 ---
