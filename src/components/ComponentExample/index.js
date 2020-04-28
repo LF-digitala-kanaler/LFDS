@@ -113,6 +113,7 @@ const ComponentExample = ({variants, background}) => {
             <Frame
               style={{
                 height,
+                
               }}
           
               id={'iframe'}
@@ -121,10 +122,10 @@ const ComponentExample = ({variants, background}) => {
               contentDidUpdate={() => init(iframeRef)}
               initialContent={`
               <!DOCTYPE html>
-                <html>
+                <html class="lfui-theme">
                   <head>
                   </head>
-                  <body class="lfui-theme" style="margin: 0">
+                  <body  style="margin: 0">
                     <div class="frame-root"></div>
                     <script
                     src="https://code.jquery.com/jquery-3.3.1.js"
@@ -197,7 +198,7 @@ const ComponentExample = ({variants, background}) => {
                     `
                   }
                   {css}
-                  {' body{padding:16px; overflow-y: auto; background-color:'+backgroundColor+'} '}
+                  {'.lfui-theme body{padding:16px; overflow-y: auto; background-color:'+backgroundColor+'} '}
                 </style>
                 </>
               }

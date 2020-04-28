@@ -13,7 +13,7 @@ tabs:
       ## How to use
 
 
-      Use an input field when you want the user to enter some information freely (use another [form](../) option if they only can select from a set number of options). The input field has two companion elements, the label and help text (see the [forms landing page](../) for a description of them).
+      Use an input field when you want the user to enter some information freely (use another [form](/components/web/forms) option if they only can select from a set number of options). The input field has two companion elements, the label and help text (see the [forms landing page](../) for a description of them).
 
 
       ### Variations
@@ -220,10 +220,10 @@ tabs:
       ## Validation
 
 
-      **LFUI does not include any validation  functionality, thats something you will have to build yourself**. However we do provide helper class for validation styling. Use the available validation classes `has-valid `and `has-danger.`
+      **LFUI does not include any validation  functionality, thats something you will have to build yourself**. However we do provide helper class for validation styling. Use the available validation classes `has-valid ` and `has-danger.`
 
 
-      If a field has been filled out and validated, add the`has-valid` to it's parent class. If a field has been filled out and validated but with errors, add the `has-danger` class. There is a more detailed example of this TODO add link to patterns.
+      If a field has been filled out and validated, add the `has-valid` to it's parent class. If a field has been filled out and validated but with errors, add the `has-danger` class. There is a more detailed example of this TODO add link to patterns.
     name: Code
   - content: >-
       ## Så skriver vi
