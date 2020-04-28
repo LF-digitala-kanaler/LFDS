@@ -82,7 +82,34 @@ tabs:
       ### Link lists
 
 
-      Text om...
+      Here can be a struggle sometimes. We have some easy rules to think about. 
+
+
+      * Link list without icon
+
+      * Link list with pdf icons
+
+      * Link list with one external link
+
+
+
+
+      #### Link list without icon
+
+
+      A plain list with links is no problem. Just make a list with linkes and thats that.
+
+
+      #### Link list with pdf icon
+
+
+      When a list with pdf icons, the icons always should be on the left side. 
+
+
+      #### Link list with one external link
+
+
+      When a plain list with links and some are external links, the icon can be to the right. 
 
 
       ## Modifers all lists
