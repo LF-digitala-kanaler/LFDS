@@ -9,4 +9,4 @@ category: Getting Started
 wide: false
 lang: true
 ---
-<div class="Callout"><strong class="Callout__title">Writing </strong><p class="Callout__text">Länsförsäkringska är vårt språk.</p></div>
+<div class="Callout"><strong class="Callout__title">Tone of voice </strong><p class="Callout__text">Länsförsäkringska är vårt språk.</p></div>
