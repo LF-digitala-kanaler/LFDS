@@ -12,36 +12,39 @@ tabs:
       ## How to use
 
 
-      Donut charts are generally used to show percentage or proportional data and usually the percentage represented by each category is provided next to the pie in legends. Donut charts are good for displaying data for around 6 categories or fewer.
+      In LFUI we have opted to use donut charts rather than pie charts - the difference between the two are solely aesthetic. Donut charts show the proportional size of different values (like [distribution bars](distribution-bar)) and work best if you have three to six values.
 
 
       Donut charts work best for values around 25%, 50% or 75%. It’s easier for readers to spot these percentages in a pie chart than in a stacked bar or column chart.
 
 
-      **Work best**
+      ### Modifiers
 
 
-      * for values around 25%, 50% or 75%
+      There are a few options available to modify the standard donut chart:
 
-      * if you only have a few values - three to six
+
+      * You can choose between several [colour options](/patterns/general-patterns/graphs-and-when-to-use-them#color) for your chart
+
+      * There are two sizes: small (105\*105) and medium (210\*210)
+
+      * If you wish to, you can add text in the "hole" of the donut
 
 
       ### Legends and colors
 
 
-      All the graphs have the same legends and color styles, read more [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#the-different-parts).
+      All the graphs have the same legends and color styles, read more [here](/patterns/general-patterns/graphs-and-when-to-use-them#the-different-parts).
 
 
-      When to use different graphs you find [here](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/graphsand-charts#type-of-graph).
+      When to use different graphs you find [here](/patterns/general-patterns/graphs-and-when-to-use-them#type-of-graph).
 
-
-      <figure class="Image Image__border"><img src="/img/exempel-graph-pie.jpg" srcset="/img/exempel-graph-pie.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## Please consider
 
 
-      * grouping slices together in one bigger slice
+      * Grouping slices together in one bigger slice
 
       * Donut charts are not the best choice if you want readers to compare the size of shares with similar sizes
 
