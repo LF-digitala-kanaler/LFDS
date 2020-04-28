@@ -114,7 +114,7 @@ tabs:
       * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Tables)

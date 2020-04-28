@@ -35,7 +35,7 @@ tabs:
       If you’re logged in or in the process of buying something you want to keep the user in the main flow which leads to longer texts in collapsible mode being acceptable (but still not preferred). Please consider modals as an alternative if the text can’t be kept short.
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Supportive Microinteractions/Collapse)

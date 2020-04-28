@@ -23,7 +23,7 @@ tabs:
       * A similar function are used as shortcuts in the app for the startpage to come.
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (System Display/Avatar)
