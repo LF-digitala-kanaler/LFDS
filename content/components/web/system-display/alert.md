@@ -87,7 +87,7 @@ tabs:
       * The close component should never be used together with a button inside an alert. The button replaces the cross as it has the same functionality (even if the user gets redirected).
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (System Display/Alert)
