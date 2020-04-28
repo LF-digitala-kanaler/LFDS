@@ -24,6 +24,7 @@ const CardGrid = ({list}) => {
       else {
         
        return item.link.map(items => {
+         console.log(items)
           return(
             <div className={style.CardGrid__item} key={items.node.id}>
               <Card 

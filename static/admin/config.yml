@@ -283,9 +283,6 @@ collections: # A list of collections the CMS should be able to edi
         name: previewImage
         widget: image
         required: false
-        media_library:
-          config:
-            multiple: true
       - { label: Template, name: template, widget: hidden, default: CategoryOverview, value: CategoryOverview }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
