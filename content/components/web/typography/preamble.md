@@ -35,6 +35,12 @@ tabs:
       * Länka inte i ingress
 
       * Gör inte fet text i ingressen
+
+
+      ## Other material
+
+
+      **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Ingress" and "Payoff")
     name: Design
   - content: >-
       <figure class="Image__background"><img src="/img/apps.jpg"
