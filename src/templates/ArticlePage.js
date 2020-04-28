@@ -24,7 +24,8 @@ export const ArticlePageTemplate = ({
   body,
   bodyHtml,
   heroBlock,
-  wrapperWidth
+  wrapperWidth,
+  contentTop
 }) => (
   
   <> 
@@ -32,6 +33,7 @@ export const ArticlePageTemplate = ({
     <Wrapper tag="div" menu={true}  narrow>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
+      <Content source={contentTop} />
     </Wrapper>
       {heroBlock &&
         <HeroBlock background={heroBlock.color} quote={heroBlock.quote} cite={heroBlock.cite} image={heroBlock.image || false} />
@@ -72,6 +74,7 @@ const ArticlePage = ({
         bodyHtml={page.htmlAst}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
+        contentTop={page.frontmatter.contentTop}
       />
     </Layout>
   )
@@ -98,6 +101,7 @@ export const pageQuery = graphql`
         background
         wide
         lang
+        contentTop
         heroBlock {
           color
           quote

@@ -79,6 +79,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
       - label: 'Category'
         name: 'category'
@@ -155,6 +156,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false} 
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
       - label: Hero block
         name: heroBlock
         widget: object
@@ -213,6 +215,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}  
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
       - label: Hero block
         name: heroBlock
         widget: object

@@ -186,7 +186,6 @@ figure {
   }
 } 
 .Content--normal .Image {
-  margin-bottom: 0;
   margin-top: var(--spacing-vertical--2)
 }
 /* hack to get content inside wide to be narrow */
