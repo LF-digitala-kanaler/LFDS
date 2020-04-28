@@ -1,13 +1,14 @@
 ---
 template: ComponentPage
+category: Forms
 title: Radio buttons
-intro: We have several types of radio buttons in LFUI, all with their specific
-  use cases. There are LF-styled "normal" radio buttons, button groups and radio
-  cards.
 description: There are three types of radio buttons in LFUI; standard radio
   buttons, button groups and radio cards.
 previewImage: /img/radio-button.svg
-category: Forms
+intro: We have several types of radio buttons in LFUI, all with their specific
+  use cases. There are LF-styled "normal" radio buttons, button groups and radio
+  cards.
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How (and when) to use
@@ -110,19 +111,17 @@ tabs:
   - content: |-
       ## Så skriver vi
 
-      Exempel på copy för Button group
+      Exempel på copy för Button group:
 
-      ### Betalsätt
+      * Betalsätt
+      * Jag vill betala varje
+      * Har du barn som bor hemma?
 
-      Valideringstext: Välj ett betalsätt
+      **Valideringstext:** Välj ett betalsätt
 
-      ### Jag vill betala varje
+      **Valideringstext:** Välj ett alternativ
 
-      Valideringstext: Välj ett alternativ
-
-      ### Har du barn som bor hemma?
-
-      Valideringstext: 
+      **Valideringstext:** Oj, du glömde visst svara
 
       - - -
     name: Copy
@@ -472,5 +471,4 @@ tabs:
 
 
       If a field has been filled out and validated, add the `has-valid` class. If a field has been filled out and validated but with errors, add the `has-danger` class.
-backgroundColor: "#fff"
 ---

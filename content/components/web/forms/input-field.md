@@ -1,13 +1,14 @@
 ---
 template: ComponentPage
+category: Forms
 title: Input field
-intro: Input fields are fields in which the user can enter text of some type (be
-  it letters or numbers). This section describes the styling of input fields and
-  the various versions which exist.
 description: Input fields are fields in which the user can enter text of some
   type (be it letters or numbers).
 previewImage: /img/input.svg
-category: Forms
+intro: Input fields are fields in which the user can enter text of some type (be
+  it letters or numbers). This section describes the styling of input fields and
+  the various versions which exist.
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -369,15 +370,6 @@ tabs:
       Placeholder: 10 000
 
 
-      ### Var ligger bostaden?
-
-
-      Valideringstext: Fyll i postadress för bostaden (eller är det län, kommun?)
-
-
-      Placeholder: Postadress (om det är det?)
-
-
       ### Månadsinkomst innan skatt
 
 
@@ -395,5 +387,4 @@ tabs:
 
       Valideringstext: Fyll i typ av konto
     name: Copy
-backgroundColor: "#fff"
 ---

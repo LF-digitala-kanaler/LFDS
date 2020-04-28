@@ -1,12 +1,12 @@
 ---
 template: ComponentPage
+category: Forms
 title: Dropdown
-intro: The dropdown provides the user with given options in a list which expands
-  over the webpage when the user clicks on the container.
 description: The dropdown provides the user with given options in a list which
   expands over the webpage when the user clicks on the container.
 previewImage: /img/dropdown.svg
-category: Forms
+intro: The dropdown provides the user with given options in a list which expands
+  over the webpage when the user clicks on the container.
 tabs:
   - content: >-
       ## How to use
@@ -80,19 +80,28 @@ tabs:
       ## Så skriver vi
 
 
-      **Label:** Välj x (till exempel Välj belopp) alternativt bara det man väljer (till exempel Belopp)
+      **Label:** Välj \[label] (till exempel "Välj belopp") alternativt bara \[label]l (till exempel "Belopp")
 
 
       **Förvald text i dropdown:** Välj
 
 
-      Den sekundära texten i dropdown kan användas för att hjälpa användaren göra sitt val. Kan till exempel visa pris för olika val. Förkortningar ok. Till exempel: 
-
-
-      (kostnad: 250 kr/år) <-- ska vi skriva så här som i skissen eller kanske bara 250 kr/år
+      Sekundära text i dropdown kan användas för att hjälpa användaren göra sitt val. Kan till exempel visa pris för olika val. Förkortningar ok. Till exempel: 250 kr/år
 
 
       Om man kan välja alla alternativ skriver vi: Välj alla
+
+
+      **Valideringstext vi ej valt:** Välj ett alternativ eller Välj \[label]
+
+
+      #### Exempel från Bolån
+
+
+      **Var ligger bostaden?**
+
+
+      **Valideringstext:** Välj kommun
     name: Copy
   - name: Code
     content: >-

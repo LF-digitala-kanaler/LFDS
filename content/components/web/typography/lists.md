@@ -57,19 +57,26 @@ tabs:
       #### Modifier
 
 
-      In lf.se we have a modifier with big numbers för e better visual popout.
+      **Big numbers**\
+
+      In lf.se we have a modifier with big numbers and a cirkel around for a better visual popout effect. These lists we recommend to have 2-4 list items.
 
 
       ### List with checkmars
 
 
-      Text om...
+      We often use checkmark list when to highlight Unike selling points (USP) or when to compare different levels of products such as the care insurance different parts. 
+
+
+      See exempel in the intro text and the table och the [car insurance product page](https://www.lansforsakringar.se/privat/forsakring/bilforsakring/).
 
 
       #### Modifier
 
 
-      Lägg till om big checkmark m
+      **Big Checkmarks**\
+
+      In lf.se we have a modifier with big checkmarks and a cirkel around for a better visual popout effect. These lists we recommend to have 2-4 list items.
 
 
       ### Link lists
@@ -84,20 +91,40 @@ tabs:
       ### List spacing[](https://lf-digitala-kanaler.github.io/LFUI/650/#/type#list-spacing)
 
 
-      You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas?
+      You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas? //Lägg till
 
 
       Note that[ ](https://lf-digitala-kanaler.github.io/LFUI/650/#/links/)link lists also have special rules on their spacing when placed vertically.
 
 
+      ### To break down long sentences
+
+
+      You should always strive for having short items in the lists but sometimes it is harder to do. Here are some help. 
+
+
+      **Do sections instead**\
+
+      Use a headline instead and break it out to different sections of text, it makes the readers identify the main points of each section and easier to grasp. To highlight and simulate dots you can always make a small graphical element to the right of the textarea.
+
+
+      **Headings in list items**\
+
+      You should always have short items in the list but sometimes it is harder to do. Make a headline short and pop out with bold text then make a new row in the dot item and put the longer sentence under. 
+
+
       ## Please consider
 
 
-      * Always try to have only one list a page.
+      * Try to have maximum one list a page
 
-      * Only have 3-5 points in one list.
+      * Only have 3-5 points in the list
 
-      * Write list items to have approximately similar line lengths
+      * Have similar line lengths
+
+      * Use the same feel/spirit for list items
+
+      * Don’t require end punctuation
 
 
       ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
