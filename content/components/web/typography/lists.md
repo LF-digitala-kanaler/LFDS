@@ -30,26 +30,34 @@ tabs:
       A common question with lists are:
 
 
-      Where to put a **link in a list?** Man kan länka i en punktlista. Vår huvudregel är ju att inte bryta av en text med länkar och att de ska placeras under ett stycke men i detta fall kan användaren ha svårt att koppla ihop vilken länk som tillhör vilken punkt i listan, så därför är regeln här om inte listan leder till en action att bistå varje punkt med sin länk. 
+      Where to put a **link in a list?** Man kan länka i en punktlista. Vår huvudregel är ju att inte bryta av en text med länkar och att de ska placeras under ett stycke, men i detta fall kan användaren ha svårt att koppla ihop vilken länk som tillhör vilken punkt i listan, så därför är regeln här: om inte listan leder till EN action att bistå varje punkt med sin specifika länk. 
 
 
       Where to put the **external icon in a link list**? You can read more about that in the specifik link list part below.
 
 
+      The Web is usually not the place for long, narrative writing. Instead, Web readers prefer copy formatted for ease of scanning, which allows them to easily skip through chunks of text to get to areas of interest. Read more here //länk till copy undersida
+
+
       ### List with dots
 
-       Can also be called bulleted list. Bulleted lists attract attention, support scanning, shorten text, and reveal the relationship of items. 
+
+      Can also be called bulleted list. Bulleted lists attract attention, support scanning, shorten text, and reveal the relationship of items. 
+
 
       ### List with numbers
 
 
-      Text om...
+      Use numbered lists only when the sequence or count of items are important.
+
+
+      Numbered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 10 list.
 
 
       #### Modifier
 
 
-      Lägg till om big numer m
+      In lf.se we have a modifier with big numbers för e better visual popout.
 
 
       ### List with checkmars
@@ -85,15 +93,20 @@ tabs:
       ## Please consider
 
 
-      * Always try to have only one list per page.
+      * Always try to have only one list a page.
 
       * Only have 3-5 points in one list.
+
+      * Write list items to have approximately similar line lengths
 
 
       ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Typography/Lists)
+
+
+      **External link:** <https://www.nngroup.com/articles/presenting-bulleted-lists/>
     name: Design
   - content: >-
       Lists in LFUI have the appearance listed below. Also provided (in addition
