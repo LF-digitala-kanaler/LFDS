@@ -57,19 +57,26 @@ tabs:
       #### Modifier
 
 
-      In lf.se we have a modifier with big numbers för e better visual popout.
+      **Big numbers**\
+
+      In lf.se we have a modifier with big numbers and a cirkel around for a better visual popout effect. These lists we recommend to have 2-4 list items.
 
 
       ### List with checkmars
 
 
-      Text om...
+      We often use checkmark list when to highlight Unike selling points (USP) or when to compare different levels of products such as the care insurance different parts. 
+
+
+      See exempel in the intro text and the table och the [car insurance product page](https://www.lansforsakringar.se/privat/forsakring/bilforsakring/).
 
 
       #### Modifier
 
 
-      Lägg till om big checkmark m
+      **Big Checkmarks**\
+
+      In lf.se we have a modifier with big checkmarks and a cirkel around for a better visual popout effect. These lists we recommend to have 2-4 list items.
 
 
       ### Link lists
@@ -93,11 +100,15 @@ tabs:
       ## Please consider
 
 
-      * Always try to have only one list a page.
+      * Try to have maximum one list a page
 
-      * Only have 3-5 points in one list.
+      * Only have 3-5 points in the list
 
-      * Write list items to have approximately similar line lengths
+      * Have similar line lengths
+
+      * Use the same feel/spirit for list items
+
+      * Don’t require end punctuation
 
 
       ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
