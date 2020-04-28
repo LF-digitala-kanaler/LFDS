@@ -47,7 +47,7 @@ tabs:
       * Panels are often used as a frame for [tables](tables).
 
 
-      ## Other material[](https://lfui-beta-aedd0a.netlify.app/components/web/button-and-links/buttons#other-material)
+      ## Other material
 
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Panel)
