@@ -28,7 +28,7 @@ Skriv som ett samtal innebär i korthet att vi skriver personligt och vänligt. 
 
 
 
-<div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Tänk på att också skriva tillgängligt, koncist och inkluderande.</p></div>
+<div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Skriv alltid tillgängligt och inkluderande <3</p></div>
 
 <section>
 <Collapse title="Apostrof"><span class="content">Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen.\
