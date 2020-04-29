@@ -51,7 +51,7 @@ tabs:
       ### Modifiers
 
 
-      There are two modifiers for tabs, and they both work with all types of tabs.
+      There are two modifiers for tabs, and they both work with all types of tabs. 
 
 
       #### Styling based on background
