@@ -22,7 +22,7 @@ Skriv LFABs utan apostrof före genitiv-s.</span></Collapse>
 <Collapse title="Bindestreck"><span class="content">Använd bindestreck vid sammansättningar och vid avstavningar: 2000-talet. Se även Avstav­ningar och Tankstreck.</span></Collapse>
 <Collapse title="Citattecken"><span class="content">Använd citattecken runt citat och uttalanden. Det kan också användas vid ovanliga ord eller ironi. Använd tecknet sparsamt.
 
-När vi hänvisar till en sida försöker vi istället använda stor bokstav istället, exempelvis: "Ändra din adress under Inställningar."</span></Collapse>
+*När vi hänvisar till en sida försöker vi istället använda stor bokstav istället, exempelvis: "Ändra din adress under Inställningar."*</span></Collapse>
 <Collapse title="Datum"><span class="content">Datum skriver vi den 1 december 2020. I tabeller kan datum skrivas 2010-12-01.
 
 Mer om datum här eller under patterns (ska läggas till).</span></Collapse>
