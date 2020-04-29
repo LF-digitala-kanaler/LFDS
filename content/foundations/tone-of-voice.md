@@ -30,4 +30,5 @@ Mer om datum här eller under patterns (ska läggas till).</span></Collapse>
 <Collapse title="Du"><span class="content">När du skriver tilltalsordet du – använd litet d. Använd aldrig ni när du kommunicerar med en enskild person.
 
 *Mer om pronomen och hur vi använder min, din eller inget alls - under patterns (lägg till)*</span></Collapse>
+<Collapse title="Inte"><span class="content">Negationerna ej och icke är omoderna och högtravande – använd inte istället.</span></Collapse>
 </section>
