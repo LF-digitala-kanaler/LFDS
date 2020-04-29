@@ -19,10 +19,10 @@ tabs:
       Changing a tab should affect everything below it within the container/page and nothing above it.
 
 
-      ### Versions
+      ### Variations
 
 
-      We have two main versions of tabs;
+      We have two main variations of tabs;
 
 
       * **Page-level navigation** are tabs which control the whole page.
