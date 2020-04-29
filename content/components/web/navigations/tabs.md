@@ -66,7 +66,7 @@ tabs:
       If you want you can add some responsiveness to your tabs. With this modifier on the user will be able to sidescroll between the tabs if they don't fit on one row. Otherwise the tabs will flow over several rows. 
 
 
-      *Note: it has been suggested to make responsive sidescroll a standard feature of the component, meaning that it won't be an option to not have it turned on.* 
+      *Note: it has been suggested to make responsive sidescroll a standard feature of the component, meaning that it won't be an option to not have it turned on.*
 
 
       ## Other material
