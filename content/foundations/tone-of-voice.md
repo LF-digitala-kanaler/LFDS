@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-title: Länsförsäkringska
+title: Tone of voice
 intro: Länsförsäkringskan är vårt språk. Att skriva länsförsäkringska är att
   skriva på läsarens villkor och att skriva som ett samtal.
 contentTop: ""
