@@ -17,3 +17,7 @@ lang: true
 <div class="Callout"><strong class="Callout__title">Copy i komponenter </strong><p class="Callout__text">Under respektive komponent finns copy för specifika knappar och fält. 
 
 [Ta mig till Components](/components/web)</p></div>
+
+<div class="Callout"><strong class="Callout__title">Copy patterns </strong><p class="Callout__text">I avsnittet Copy under General Patterns kan du se exempel och principer på hur vi skriver exempelvis felmeddelanden. 
+
+[Visa Copy patterns](/patterns/general-patterns/copy)</p></div>
