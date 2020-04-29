@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: 'LFDS',
-    headline: 'Länsförsäkringar Design system',
+    headline: 'Länsförsäkringar Design System',
     description: 'Länsförsäkringar Design system`',
     siteUrl: 'https://lfui-beta-aedd0a.netlify.com/'
   },

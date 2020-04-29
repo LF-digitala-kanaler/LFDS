@@ -205,36 +205,16 @@ tabs:
       ### Accessibility
 
 
-<<<<<<< HEAD
-      Make sure you include relevant accessibility markup. In order to have the
-      buttons and links have the proper styling, add the `role="button` to
-      the `.nav-toggle` and `.nav-link`-elements.
+      Make sure you include relevant accessibility markup. In order to have the buttons and links have the proper styling, add the `role="button` to the `.nav-toggle` and `.nav-link`-elements.
 
 
-      *"When using button classes on `<a>` elements that are used to trigger
-      in-page functionality (like collapsing content), rather than linking to
-      new pages or sections within the current page, these links should be given
-      a `role="button"` to appropriately convey their purpose to assistive
-      technologies such as screen readers."*
-=======
-      Make sure you include relevant accessibility markup. In order to have the buttons and links have the proper styling, add the `role="button` to the`.nav-toggle` and `.nav-link`-elements.
-
-
-      *"When using button classes on`<a>`elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a `role="button"` to appropriately convey their purpose to assistive technologies such as screen readers."*
->>>>>>> 9691242ea1524499d73c05163c1923d81ad7fd0f
+      *"When using button classes on `<a>` elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a `role="button"` to appropriately convey their purpose to assistive technologies such as screen readers."*
 
 
       ### Please consider
 
 
-<<<<<<< HEAD
-      At the moment navbar is not adjusted to responsive design. That's
-      something you have to build yourself. There is a couple of modifiers in
-      [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) that can
-      get you started.
-=======
       At the moment navbar is not adjusted to responsive design. That's something you have to build yourself. There is a couple of modifiers available in [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) that can get you started.
->>>>>>> 9691242ea1524499d73c05163c1923d81ad7fd0f
     name: Code
 backgroundColor: "#f3f3f3"
 ---
