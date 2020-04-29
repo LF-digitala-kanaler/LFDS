@@ -13,3 +13,7 @@ lang: true
 <div class="Callout"><strong class="Callout__title">Tone of voice </strong><p class="Callout__text">Länsförsäkringska är vårt språk. Vi skriver på läsarens villkor och som ett samtal.
 
 [Mer om länsförsäkringska](/patterns/general-patterns/copy#vårt-språk)</p></div>
+
+<div class="Callout"><strong class="Callout__title">Copy i komponenter </strong><p class="Callout__text">Under respektive komponent finns copy för specifika knappar och fält. 
+
+[Ta mig till Components](/components/web)</p></div>
