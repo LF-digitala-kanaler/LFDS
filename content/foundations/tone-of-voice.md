@@ -26,4 +26,8 @@ När vi hänvisar till en sida försöker vi istället använda stor bokstav ist
 <Collapse title="Datum"><span class="content">Datum skriver vi den 1 december 2020. I tabeller kan datum skrivas 2010-12-01.
 
 Mer om datum här eller under patterns (ska läggas till).</span></Collapse>
+<Collapse title="De, dem"><span class="content">Vi skriver de och dem. Inte de och dom.</span></Collapse>
+<Collapse title="Du"><span class="content">När du skriver tilltalsordet du – använd litet d. Använd aldrig ni när du kommunicerar med en enskild person.
+
+*Mer om pronomen och hur vi använder min, din eller inget alls - under patterns (lägg till)*</span></Collapse>
 </section>
