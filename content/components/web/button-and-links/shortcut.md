@@ -18,10 +18,10 @@ tabs:
       Shortcuts are normally spanning the whole row, except for [multiple-lined shortcuts](#multiple-lined-shortcut) which may have two next to each other. They also feature a 2px shadow on the bottom to highlight their clickability.
 
 
-      ## Versions
+      ## Variations
 
 
-      There are three main versions of the shortcut:
+      There are three main variations of the shortcut:
 
 
       * **Alerting** (more known as "**Glasspinne**"), which are used to highlight important actions which the user needs to act on.
