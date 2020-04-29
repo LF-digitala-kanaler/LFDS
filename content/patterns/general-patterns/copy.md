@@ -3,8 +3,7 @@ template: ArticlePage
 category: General Patterns
 description: ""
 title: Copy
-intro: "Hur vi generellt skriver felmeddelanden, datum, skrivregler, användning
-  av olika ord etc "
+intro: Hur vi generellt skriver felmeddelanden m.m.
 wide: false
 lang: false
 ---
@@ -32,6 +31,4 @@ Användaren kanske har skrivit fel, glömt att fylla i eller saknar internet. Be
 Här är det osäkert var felet ligger. Det är stor chans att det är användaren men det kan vara vi. Fråga eller föreslå. "Kan det vara så att..." Föreslå att testa/kolla, "Testa igen, annars är det vi och då jobbar vi på att lösa problemet". Skippa felkod om det inte specifikt hjälper användaren att se den.
 
 Säg inte att det är ett tekniskt fel om vi inte vet att det är det. Det kan då framstå som att vi har mer tekniska problem än vad vi faktiskt har.</span></Collapse>
-<Collapse title="Apostrof"><span class="content">Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen.\
-Skriv LFABs utan apostrof före genitiv-s.</span></Collapse>
 </section>
