@@ -13,6 +13,9 @@ tabs:
       Use headings as you would anywhere else - to divide texts into sections and explain what the user can expect of the text under the heading. Headings helps the users to quickly find what they're interested in.
 
 
+      Responsiveness is handled differently in different channels, but a rule of thumb is to start with smaller headings and then work with smaller sizes.
+
+
       ### Variations
 
 
@@ -45,6 +48,9 @@ tabs:
       You have four sizes of display-headings to choose from. Use common sense and a fine-tuned design eye to choose which one.
 
 
+      When working with smaller screens it is recommended to only use display-3 or display-4.
+
+
       ###### Red words in headings
 
 
@@ -69,51 +75,15 @@ tabs:
       All normal headlines are set in Intro Cond Bold. The headings have margin spacing rules depending on their position in a section. 
 
 
-      Headings H1-H5 are set in "[Navy](/visual-identity/colors#complimentary-colors)".
+      **H1-H5** are set in "[Navy](/visual-identity/colors#complimentary-colors)" and only vary in size.\
+
+      **H6** is quite different however, the text is capitalized and the text-colour is "[Grey](/visual-identity/colors#black-white-and-some-shades-of-grey)".
 
 
+      We generally discourage from making headings into links as many users miss those links, but it is a rule with exceptions. For example our [card-component ](../page-content/card)features clickable headings. When headings h1-h5 are made clickable their colour change to standard link colour "[Länsförsäkringar blue](/visual-identity/colors#primary-colors)" and an underline is added on hover. An example of this can be seen below.
 
 
-      ## Modifiers
-
-
-      There are some things you have to think about when it comes to headings.
-
-
-      ### Colors
-
-
-      #### Blue or Navy blue
-
-
-      The H1 always have the color blue. The other h2-h5 have the darker blue thats called navy blue to make a different from when the headings are linked. The H6 have a grey color.
-
-
-      * H1 - Blue
-
-      * H2-H5 = Navy Blue
-
-      * H6 = Grey
-
-      * Linked H1-H5 = Blue
-
-
-      ### Linked headline
-
-
-      Det är inte så vanligt att huvudrubriken (H1) är länkad men om man vill länka en rubrik så kommer vi använda oss av länkblå "Blue" för att visa att man är klickbar. Vi förtydligar även att rubriken är klickbar genom att ha ett understreck vid hover.
-
-
-      <figure class="Image Image__border"><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Visa hur det ser ut med länkad respektive icke länkad underrubrik."><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-
-      ### Mobile changes
-
-
-      The changes are made a bit different in the different channels. En tumregel är att starta med H3 Display som H1 och jobba med relationerna neråt mot H6.
-
-
-      Vore bra och få in förslag här på vad vi tycker är bra riktmärke.
+      <figure class="Image Image__border"><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Example of linked headings with and without hover state"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## Other material
