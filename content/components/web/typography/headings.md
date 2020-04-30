@@ -22,9 +22,26 @@ tabs:
       There are two variations of headings at Länsförsäkringar:
 
 
+      * Standard h1-h6 headings in typeface Intro Cond.
+
       * Display headings (hero headings) in typeface LF Rubrik.
 
-      * Standard h1-h6 headings in typeface Intro Cond.
+
+      ### Standard headings (h1-h6)
+
+
+      All normal headlines are set in Intro Cond Bold. The headings have margin spacing rules depending on their position in a section. 
+
+
+      **H1-H5** are set in "[Navy](/visual-identity/colors#complimentary-colors)" and only vary in size.\
+
+      **H6** is quite different however, the text is capitalized and the text-colour is "[Grey](/visual-identity/colors#black-white-and-some-shades-of-grey)".
+
+
+      We generally discourage from making headings into links as many users miss those links, but it is a rule with exceptions. For example our [card-component ](../page-content/card)features clickable headings. When headings h1-h5 are made clickable their colour change to standard link colour "[Länsförsäkringar blue](/visual-identity/colors#primary-colors)" and an underline is added on hover. An example of this can be seen below.
+
+
+      <figure class="Image Image__border"><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Example of linked headings with and without hover state"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       #### Display headings (h1)
@@ -67,23 +84,6 @@ tabs:
       * Do not highlight more than three words
 
       * Make sure that most of the headline is in blue
-
-
-      ### Standard headings (h1-h6)
-
-
-      All normal headlines are set in Intro Cond Bold. The headings have margin spacing rules depending on their position in a section. 
-
-
-      **H1-H5** are set in "[Navy](/visual-identity/colors#complimentary-colors)" and only vary in size.\
-
-      **H6** is quite different however, the text is capitalized and the text-colour is "[Grey](/visual-identity/colors#black-white-and-some-shades-of-grey)".
-
-
-      We generally discourage from making headings into links as many users miss those links, but it is a rule with exceptions. For example our [card-component ](../page-content/card)features clickable headings. When headings h1-h5 are made clickable their colour change to standard link colour "[Länsförsäkringar blue](/visual-identity/colors#primary-colors)" and an underline is added on hover. An example of this can be seen below.
-
-
-      <figure class="Image Image__border"><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Example of linked headings with and without hover state"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## Other material
