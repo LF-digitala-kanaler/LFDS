@@ -13,7 +13,7 @@ tabs:
       Use headings as you would anywhere else - to divide texts into sections and explain what the user can expect of the text under the heading. Headings helps the users to quickly find what they're interested in.
 
 
-      Responsiveness is handled differently in different channels, but a rule of thumb is to start with smaller headings and then work with smaller sizes.
+      Responsiveness is handled differently in different channels, but a rule of thumb is to work with the smaller headings.
 
 
       ### Variations
