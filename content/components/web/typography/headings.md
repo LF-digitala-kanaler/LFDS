@@ -1,8 +1,8 @@
 ---
 template: ComponentPage
 title: Headings
-intro: We have two types of headlines - LF Rubrik and Intro Cond Bold.
-description: We have two types of headlines - LF Rubrik and Intro Cond Bold.
+intro: We have two types of headline - normal headings and hero display headings.
+description: We have two types of headline - normal headings and hero display headings.
 previewImage: /img/headings.svg
 category: Typography
 tabs:
@@ -10,22 +10,68 @@ tabs:
       ## How to use
 
 
-      We have two types of typography in headlines - LF Rubrik and Intro Cond Bold. 
+      Use headings as you would anywhere else - to divide texts into sections and explain what the user can expect of the text under the heading. Headings helps the users to quickly find what they're interested in.
 
 
-      ### LF Rubrik - Display H1-H4
+      ### Variations
 
 
-      LF Rubrik are only used as a H1 and should always be the biggest headline on the page. The H1 should only be used one time per page.  Used as main page headers. 
+      There are two variations of headings at Länsförsäkringar:
 
 
-      ### Intro Cond Bold - H1-H6
+      * Display headings (hero headings) in typeface LF Rubrik.
+
+      * Standard h1-h6 headings in typeface Intro Cond.
 
 
-      The rest of the headlines you should use Intro Cond Bold. It can be used in all sizes from H1-H6. Use the`<h1>`through`<h6>`, or the classes`.h1`through`.h6`. The headings have margin spacing rules depending on their position in a section.
+      #### Display headings (h1)
 
 
-      <figure class="Image Image__background"><img src="/img/rubriker-introcond.png" srcset="/img/rubriker-introcond.png 2x" alt="Relationen till varandra är viktigt"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      Display headings are written in LF Rubrik and should only be used as the main headline of a page. Technically they are css-class added to the h1, meaning that the next level of heading should be h2.
+
+
+      Display heading use the ["Länsförsäkringar blue" colour](/visual-identity/colors#primary-colors) (#00427a).
+
+
+      ##### Modifiers
+
+
+      Two types of modifiers exist for display headings; size and colour.
+
+
+      ###### Size
+
+
+      You have four sizes of display-headings to choose from. Use common sense and a fine-tuned design eye to choose which one.
+
+
+      ###### Red words in headings
+
+
+      If you want to emphasize some part of the heading you can choose to make that part "[Länsförsäkringar red](/visual-identity/colors#primary-colors)". The interplay between a blue heading with an emphasis on certain words with red colour is prominent in our ads and analog communication, and thus should be used in brand-bearing digital communication as well. As the red colour can disrupt the flow for certain users (like those with ADHD) we use it with caution in a digital context. 
+
+
+      If you see fit to highlight certain words in red, you should consider the following:
+
+
+      * Highlight the most important word(s)
+
+      * If you highlight several words, they should be next to each other
+
+      * Do not highlight more than three words
+
+      * Make sure that most of the headline is in blue
+
+
+      ### Standard headings (h1-h6)
+
+
+      All normal headlines are set in Intro Cond Bold. The headings have margin spacing rules depending on their position in a section. 
+
+
+      Headings H1-H5 are set in "[Navy](/visual-identity/colors#complimentary-colors)".
+
+
 
 
       ## Modifiers
@@ -50,19 +96,6 @@ tabs:
       * H6 = Grey
 
       * Linked H1-H5 = Blue
-
-
-      #### Red words in headings
-
-
-      We only have red words in the H1 on the page. It is a free choice and not a must. You highlight the word in the heading that is the most important. You can mark more than one word but the words should be following each other (be together). 
-
-
-      * One, two or three words
-
-      * Put the words together
-
-      * The words with meaning 
 
 
       ### Linked headline
