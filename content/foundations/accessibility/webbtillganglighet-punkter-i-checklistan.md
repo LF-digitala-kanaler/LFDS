@@ -21,7 +21,8 @@ lang: true
 
 ## Layout och bilder
 
-### 1.01 - Placera innehållet i en meningsfull och tydlig hierarki
+### 1.01\
+Placera innehållet i en meningsfull och tydlig hierarki
 
 Tänk på att placera innehållet i en logisk ordning och följd så att användaren får lätt att följa flödet. Försök inte fylla alla ytor. Se till att det finns en tydlig hierarki där element inte tävlar om uppmärksamhet så att användaren kan lätt scanna igenom innehållet och naturligt dras till viktig information och interaktioner. Undvik att sprida ut innehållet över hela sidan.
 
