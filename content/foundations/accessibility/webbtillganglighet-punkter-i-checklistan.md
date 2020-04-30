@@ -236,25 +236,25 @@ Vänsterställ även texten i vänstermenyer eller andra vertikala menyer. Då b
 
 ### 2.04 - Bryt av stora textstycken med en checklista, punktlista eller tabell
 
-2.05 - Använd mellanrubriker och citat för att dela upp innehåll och locka användaren vidare
+### 2.05 - Använd mellanrubriker och citat för att dela upp innehåll och locka användaren vidare
 
 Undvik versala rubriker. Om de måste användas så ska de vara ett-två ord max. Helt versala rubriker och texter försämrar läsbarheten helt enkelt för att vi inte är vana vid det (utom när det används för speciella syften, till exempel för varningstext som ”SVAG IS” eller i förkortningar som ”CIO” och ”EU”).
 
-2.06 - Skriv en titel (page title) som speglar rubriken på sidan
+### 2.06 - Skriv en titel (page title) som speglar rubriken på sidan
 
-2.07 - Använd rätt H-element och hierarki för att organisera innehåll
+### 2.07 - Använd rätt H-element och hierarki för att organisera innehåll
 
 Rubriker kommunicerar hur innehållet är uppbyggt på en sida. Browsers, plugins och hjälpmedel använder dem till att navigera. Strukturera rubriker efter deras nivå. Den viktigaste rubriken är en H1 och den minst viktiga är en H6. Att hoppa över en nivå kan vara missledande för vissa hjälpmedel så se till att en H1 följs av en H2 och inte en H4 till exempel. Det är okej att hoppa över en nivå då en sida är indelad i sektioner(se bild). 
 
 Copr/red:
 
-2.08 - Undvik beskriva riktningar för att hänvisa användare
+### 2.08 - Undvik beskriva riktningar för att hänvisa användare
 
-2.09 - Undvik beskriva färger för att hänvisa användare
+### 2.09 - Undvik beskriva färger för att hänvisa användare
 
-2.10 - Använd kortare ord undvik sammansatta ord och när det är möjligt
+### 2.10 - Använd kortare ord undvik sammansatta ord och när det är möjligt
 
-2.11 - Markera ord sparsamt
+### 2.11 - Markera ord sparsamt
 
 I vårt grafiska maner kan man markera rubriken i H1an med något enstaka rött ord. Lyft fram det ord som ger mest mening. Använd inte röda markeringar någon annanstans 
 
@@ -264,7 +264,7 @@ Undvik kursiv text
 
 Stryk aldrig under text som inte är länkad, eftersom det kan leda användarna att felaktigt tro att texten är en länk.
 
-2.12 - Se till att det går att öka avstånd mellan tecken, rader, 
+### 2.12 - Se till att det går att öka avstånd mellan tecken, rader, 
 
 stycken och ord
 
@@ -282,13 +282,13 @@ Avståndet mellan stycken ska kunna ökas minst 2 gånger teckensnittets storlek
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/
 
-2.13 - Använd tillräcklig kontrast mellan text och bakgrund
+### 2.13 - Använd tillräcklig kontrast mellan text och bakgrund
 
 Bra kontrast mellan text och bakgrund är viktigt för läsbarheten, särskilt för personer med nedsatt synförmåga.  De flesta kan läsa brödtext på skärm om skillnaden i ljusintensitet mellan förgrund och bakgrund har förhållandet 4,5:1.
 
 Kontrastvärdet kan mätas med hjälp av programvara.
 
-2.14 - Se till att text går att förstora 200% utan problem
+### 2.14 - Se till att text går att förstora 200% utan problem
 
 Många personer med nedsatt syn behöver kunna förstora text för att kunna läsa den. Därför ska det vara möjligt att förstora texten till åtminstone dubbel höjd och bredd utan att nya problem uppstår, till exempel att delar av texten hamnar bakom en bild eller krockar med annan text.
 
@@ -304,7 +304,9 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/
 
-2.15 - Se till att nedladdningsbara dokument har tydliga filnamn
+
+
+### 2.15 - Se till att nedladdningsbara dokument har tydliga filnamn
 
 Se till att dokument du länkar till har så tydliga filnamn att man förstår av filnamnet vad dokumentet innehåller. Använd inte interna arbetsnamn som filnamn. Undvik att döpa dokument efter artikelnummer, diarienummer, blankettnummer eller liknande. Om artikel- eller blankettnumren är kända hos användarna bör de dock vara en del av filnamnet.
 
@@ -312,7 +314,7 @@ Läs mer här:
 
 https://webbriktlinjer.se/riktlinjer/9-ge-dokument-tydliga-filnamn/
 
-2.16 - Se till att nedladdningsbara dokument är taggade och har korrekt struktur
+### 2.16 - Se till att nedladdningsbara dokument är taggade och har korrekt struktur
 
 När du skapar en tillgänglig pdf bör du göra så mycket som möjligt i originaldokumentet, till exempel i Microsoft Word eller Adobe Indesign, i annat fall måste du komplettera med inställningar i Acrobat Professional. Här är några grundläggande riktlinjer:
 
@@ -336,9 +338,9 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/88-publicera-i-forsta-hand-dokument-i-html/
 
-Klickbara ytor - knappar och länkar
+## Klickbara ytor - knappar och länkar
 
-3.01 - Använd enbart aktiva knappar
+### 3.01 - Använd enbart aktiva knappar
 
 Använd aktiva/klickbara knappar och komplettera med felmeddelande som förtydligar vad användaren behöver göra/fylla i. Se till att användaren inte missar obligatoriska fält genom att automatiskt scrolla till det första fältet som behöver rättas. 
 
@@ -346,7 +348,7 @@ Använd inte utgråade/ej klickbara knappar när det kan vara svårt att få anv
 
 Undantag då en oaktiv knapp kan användas är då den oaktiva knappen presenteras tillsammans med aktiva knappar. Ett exempel är valet av faktura som betalsätt i en köptjänst. Knappen för “Månadsvis” är inte valbart men är fortfarande synlig eftersom knappen går att välja om användaren väljer “Autogiro”. 
 
-3.02 - Sätt knappar i sitt sammanhang 
+### 3.02 - Sätt knappar i sitt sammanhang 
 
 Sätt knappen i nära relation till dess kontext, så att användaren förstår relationen mellan informationen och knappen. 
 
@@ -358,7 +360,7 @@ Ibland efter fältet om bara ett fält
 
 Ibland till vänster om inget formulär.
 
-3.03 - Framhäv länkarna grafiskt
+### 3.03 - Framhäv länkarna grafiskt
 
 Användarna måste enkelt kunna skilja en textlänk från text som inte är länkad. Se därför till att länkar skiljer sig grafiskt från övrig text, till exempel genom understrykning, placering, färg eller storlek. Aktiva länkar kan göras tydligare till exempel genom ändrad bakgrundsfärg.
 
@@ -366,7 +368,7 @@ Undvik att visualisera en länk enbart med färg i en textmassa då den blir sv�
 
 Framhäv länkarna grafiskt så att användarna förstår vad som är länkad text.
 
-3.04 - Länken ska kunna stå ensam och beskriva vart länken leder 
+### 3.04 - Länken ska kunna stå ensam och beskriva vart länken leder 
 
 Komplettera alltid exempelvis "Visa fler"- länkar eller knappar med vad man visar fler av. Exempelvis "Visa fler fonder" 
 
@@ -374,31 +376,28 @@ Undvik att enbart skriva "Läs mer" i länkar/knappar. Vid användning av skärm
 
 Använd inte sidans URL som länktext. 
 
-3.05 - Kombinera färg, form och text gäller även ikoner och länkar
+### 3.05 - Kombinera färg, form och text gäller även ikoner och länkar
 
 Använd gärna färger, men låt inte färgskillnader vara det enda sättet att urskilja information utan komplettera med exempelvis text, mönster eller någon annan visuell indikation. (se över hur vi gör med "universala" ikoner som kryss för stäng och i för info)
 
-3.06 - Länknamn kan vara maximalt 100 tecken långa
+### 3.06 - Länknamn kan vara maximalt 100 tecken långa
 
 Gör inrw länktexter eller knapp texter för långa. Knappar ska max innehålla 2-3 ord. Det finns även en dubbelradig knapp som kan användas vid behöv.. Men att föredra är att föra om ux/texten innan så det fungerar skriva kortare. Exempel: ”Så renoverar du ditt badrum med rätt tätskikt”. (45 tecken)
 
-3.07 -  Gör länkar, klickbara ytor och menyer användbara för alla
+### 3.07 -  Gör länkar, klickbara ytor och menyer användbara för alla
 
 Användarna behöver lätt kunna förstå vad som är klickbart. Se därför till att markera samma typ av länkar på samma sätt över hela webbplatsen. 
 
 Tänk på att:
 
-Placera inte länkar för nära varandra.
-
-Förstora den klickbara ytan genom att inkludera ett område runt det som är länkat
-
-Gör en enda länk (ett A-element) av ikon och text i en sammansatt länk
-
-Gör ikoner som är en del av navigeringen klickbara. När du kombinerar text och bildelement i till exempel menyalternativ bör både texten och bilden vara klickbar.
+* Placera inte länkar för nära varandra.
+* Förstora den klickbara ytan genom att inkludera ett område runt det som är länkat
+* Gör en enda länk (ett A-element) av ikon och text i en sammansatt länk
+* Gör ikoner som är en del av navigeringen klickbara. När du kombinerar text och bildelement i till exempel menyalternativ bör både texten och bilden vara klickbar.
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/34-gor-lankar-och-klickbara-ytor-enkla-att-anvanda-for-alla/
 
-3.08 - Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter
+### 3.08 - Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter
 
 Se till att text som är synlig på knappar och andra gränssnittskontroller också finns i, och överensstämmer med, den maskinläsbara etikett som representerar kontrollen i exempelvis program för röststyrning.
 
@@ -406,7 +405,7 @@ Den som använder röststyrning säger vanligtvis det som står på en knapp fö
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/162-mojliggor-roststyrning-av-knappar-och-kontroller/
 
-3.09 - Gör det möjligt att ångra klick
+### 3.09 - Gör det möjligt att ångra klick
 
 Möjligheten att ångra ett påbörjat klick är värdefull därför att den minskar risken för att aktivera funktioner av misstag. Vem som helst kan råka trycka vid fel plats eller tillfälle, och det är extra lätt hänt för personer med vissa funktionsnedsättningar (exempelvis begränsad motorisk kontroll eller synnedsättning).
 
@@ -414,15 +413,15 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/161-gor-det-mojligt-att-angra-klick/
 
-3.10 - Gör oväntade interaktioner lätta att upptäcka
+### 3.10 - Gör oväntade interaktioner lätta att upptäcka
 
 När användaren interagerar med en knapp som leder till att en ny interaktion visas, placera alltid den nya interaktionen nedanför eller bredvid den ursprungliga interaktionen. Den ny interaktionen bör direkt följa tidigare interaktionen i tabbordningen. 
 
    Exempel, svar “ja” på en fråga i formuläret leder till att ett fritextfält visas. Fritextfältet bör då placeras i kontext med “ja” knappen och efter den i tabbordningen.
 
-Formulär
+## Formulär
 
-4.01 - Skriv tydliga, korta labels till varje fält
+### 4.01 - Skriv tydliga, korta labels till varje fält
 
 Skriv tydliga och informativa fältetiketter.  Koppla ihop fältetiketten och inmatningsfältet så att även etiketten blir klickbar. Placera fältetiketterna där användarna lätt ser dem. Skriv utförliga instruktioner före formuläret, när sådana behövs. Undvik att göra lösningen beroende av title-attribut och placeholder-texter.
 
@@ -432,7 +431,7 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/61-skriv-tydliga-och-berattande-rubriker/
 
-4.02 - Skriv tydliga felmeddelanden
+### 4.02 - Skriv tydliga felmeddelanden
 
 När användaren inte fyller i fält såsom vi önskar eller glömmer att fylla i ett fält, ska vi påminna eller vägleda dem med en enkel, positiv, konstruktiv validering. 
 
@@ -442,7 +441,7 @@ Användaren fyller i 9 siffror för ett personnummer, validera med “Personnumr
 
 Användaren glömmer att fylla i telefonnummer. Validera med “Vänligen ange ett telefonnummer”
 
-4.03 - Skapa stora, klickbara ytor
+### 4.03 - Skapa stora, klickbara ytor
 
 Tänk på att skapa en större klickyta för att förenkla för användaren att klicka på exempelvis en checkruta eller radioknapp. Ett medelmått för pekfingret är 44 x 44 px. Undvik att begära finmotorik. 
 
@@ -450,7 +449,7 @@ Vid användning av till exempel checkboxes eller radioboxes ska man kunna klicka
 
 Undvik att tränga ihop ifyllbara fält med klickbara ytor. 
 
-4.04 - Ge möjlighet att ångra, korrigera eller bekräfta viktiga transaktioner
+### 4.04 - Ge möjlighet att ångra, korrigera eller bekräfta viktiga transaktioner
 
 Vid viktiga transaktioner som till exempel gäller juridik, ekonomi eller hälsa kan konsekvenserna av fel bli stora och besvärliga för alla inblandade. Därför behöver system som används för viktiga transaktioner hjälpa användare att undvika och rätta till misstag.
 
@@ -458,25 +457,25 @@ Undvik att skapa interaktioner där användaren inte kan ångra, korrigera eller
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/150-ge-mojlighet-att-angra-korrigera-eller-bekrafta-viktiga-transaktioner/
 
-4.05 - Klustra - ha stora mellanrum runt ifyllbara fält och klickbara ytor
+### 4.05 - Klustra - ha stora mellanrum runt ifyllbara fält och klickbara ytor
 
 Se till att fältetikett och hjälptext är närmare varandra än till andra fält eller texter.
 
 Undvik att tränga ihop ifyllbara fält med klickbara ytor. 
 
-4.06 - Godkänn fler formateringar i inputfält  
+### 4.06 - Godkänn fler formateringar i inputfält  
 
 Om vi vet att det finns flera sätt att skriva samma sak, godkänna många olika format. Till exempel personnummer ska kunna skrivas med 12 siffror, 10 siffror, med bindestreck eller utan bindestreck.
 
 Undvik att prata om 10 eller 12 siffror. Visa istället med formateringen ååååmmdd-nnnn hur man ska skriva.
 
-4.07 - Gör en logisk tabbordning
+### 4.07 - Gör en logisk tabbordning
 
 Användaren ska kunna navigera logiskt via alla interaktiva element på en sida, från vänster till höger, uppifrån och ner. Det är viktigt att fokus-ordningen är logisk i förhållande till hur innehållet presenteras på skärm eller i skärmläsare. Om fokus flyttar till ett oväntat element kan det vara mycket förvirrande, och orsaka fel. Tänk på att ha en logisk och korrekt html-struktur. Undvik att använda tabindex större än 1 i koden. 
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/136-gor-en-logisk-tab-ordning/
 
-4.08 - Märk upp vanliga formulärfält i koden
+### 4.08 - Märk upp vanliga formulärfält i koden
 
 Hjälp dina användare att fylla i inmatningsfält genom att i koden ange vilken typ av innehåll som förväntas. Då kan webbläsare eller hjälpmedel ibland automatiskt föreslå inmatning (baserat på till exempel tidigare inmatning i fält av samma typ) i vanliga formulärfält (såsom gatu- och postadress). Systemet kan också ytterligare hjälpa användaren genom att presentera fältet på ett sätt (till exempel med en symbol) som användaren känner igen.
 
@@ -484,7 +483,7 @@ Det är bra för alla användare, men kanske framför allt för personer med vis
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/154-mark-upp-vanliga-formularfalt-i-koden/
 
-4.09 - Visa vart och beskriv fel i formulär tydligt, uppge vad som saknas
+### 4.09 - Visa vart och beskriv fel i formulär tydligt, uppge vad som saknas
 
 Hjälp dina användare när det blir fel. Det måste vara tydligt för användaren var felet finns och felet behöver beskrivas med text. Välformulerade felmeddelanden ger användarna möjlighet att fylla i så felfria data som möjligt i formulären. De minskar också risken för att användarna ska bli irriterade när systemet inte förstår eller kan tolka den felaktigt inmatade informationen.
 
@@ -697,4 +696,3 @@ Med mobil
 Desktop
 
 Hoppa till innehåll-funktion
-
