@@ -1,11 +1,31 @@
 ---
 template: ArticlePage
 title: Designer
-intro: Länsförsäkringar User Interface är vår plattform för vårt Digitala
-  varumärke. här guidar vi dig kring hur du kommer igång som en copy, UX, AD
-  eller frontend utvecklare hos Länsförsäkringar. Du kan gå in på våra
-  komponenter eller hittar vidare länkar till vår Brand portal Röda rummet.
+intro: Som Designer i Länsförsäkringsgruppen finns det lite delar som du behöver
+  veta innan du börjar designa. Vi går igenom allt här.
+description: Som Designer i Länsförsäkringsgruppen finns det lite delar som du
+  behöver veta innan du börjar designa. Vi går igenom allt här.
 category: Getting Started
 previewImage: /img/getting_started.svg
 ---
-body
+Som Designer i Länsförsäkringsgruppen finns det lite delar som du behöver veta innan du börjar designa. 
+
+## Intromöte
+
+När du börjar som UX eller AD så börjar vi alltid med en dragning om vad det innebär att jobba som en designer på Länsförsäkringar. Det bokas in av Fabian och Liza där vi går igenom:
+
+* Länsförsäkringar och vår organisation
+* Kund och kanalstöd och vårt uppdrag
+* Designgruppen och vårt team
+* Strategiska dokument och målbilder
+* Arbetsprocess och verktyg
+
+Vi går också igenom massa områden som kan vara bra att känna till och vidare personer som du bör träffa och få en dragning i deras special områden.
+
+Användningstester
+
+Webbtillgänglighet
+
+Varumärkesstrategi och vårt digitala varumärke
+
+Marknads och IT strategin
