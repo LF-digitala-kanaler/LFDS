@@ -10,10 +10,10 @@ previewImage: /img/accessibility_nobg.svg
 background: bg-white
 lang: true
 ---
-1. Layout och bilder
-2. Text/innehåll
-3. Klickbara ytor - knappar och länkar
-4. Text/innehåll
+1. [Layout och bilder](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#layout-och-bilder)
+2. [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#textinnehåll)
+3. [Klickbara ytor - knappar och länkar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#klickbara-ytor---knappar-och-länkar)
+4. [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
 5. Video & animering
 6. Listor
 7. Kod & script
@@ -273,7 +273,7 @@ Undvik kursiv text
 
 Stryk aldrig under text som inte är länkad, eftersom det kan leda användarna att felaktigt tro att texten är en länk.
 
-### 2.12 - Se till att det går att öka avstånd mellan tecken, rader, 
+### 2.12 - Se till att det går att öka avstånd mellan tecken, rader,
 
 stycken och ord
 
@@ -312,8 +312,6 @@ Skapa generöst med avstånd mellan kolumner
 Läs mer: 
 
 https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/
-
-
 
 ### 2.15 - Se till att nedladdningsbara dokument har tydliga filnamn
 
@@ -357,7 +355,7 @@ Använd inte utgråade/ej klickbara knappar när det kan vara svårt att få anv
 
 Undantag då en oaktiv knapp kan användas är då den oaktiva knappen presenteras tillsammans med aktiva knappar. Ett exempel är valet av faktura som betalsätt i en köptjänst. Knappen för “Månadsvis” är inte valbart men är fortfarande synlig eftersom knappen går att välja om användaren väljer “Autogiro”. 
 
-### 3.02 - Sätt knappar i sitt sammanhang 
+### 3.02 - Sätt knappar i sitt sammanhang
 
 Sätt knappen i nära relation till dess kontext, så att användaren förstår relationen mellan informationen och knappen. 
 
@@ -377,7 +375,7 @@ Undvik att visualisera en länk enbart med färg i en textmassa då den blir sv�
 
 Framhäv länkarna grafiskt så att användarna förstår vad som är länkad text.
 
-### 3.04 - Länken ska kunna stå ensam och beskriva vart länken leder 
+### 3.04 - Länken ska kunna stå ensam och beskriva vart länken leder
 
 Komplettera alltid exempelvis "Visa fler"- länkar eller knappar med vad man visar fler av. Exempelvis "Visa fler fonder" 
 
@@ -472,7 +470,7 @@ Se till att fältetikett och hjälptext är närmare varandra än till andra fä
 
 Undvik att tränga ihop ifyllbara fält med klickbara ytor. 
 
-### 4.06 - Godkänn fler formateringar i inputfält  
+### 4.06 - Godkänn fler formateringar i inputfält
 
 Om vi vet att det finns flera sätt att skriva samma sak, godkänna många olika format. Till exempel personnummer ska kunna skrivas med 12 siffror, 10 siffror, med bindestreck eller utan bindestreck.
 
