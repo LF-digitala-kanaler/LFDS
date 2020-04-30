@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-title: Checklistan
+title: Webbtillgänglighet förklaringar checklistan
 intro: Här går vi igenom punkt för punkt vad de betyder, för Länsförsäkringar,
   att följa checklistorna.
 description: Här går vi igenom punkt för punkt vad de betyder för
@@ -13,11 +13,11 @@ lang: true
 * [Layout och bilder](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#layout-och-bilder)
 * [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#textinnehåll)
 * [Klickbara ytor - knappar och länkar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#klickbara-ytor---knappar-och-länkar)
-* [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
-* Video & animering
-* Listor
-* Kod & script
-* Appar
+* [Formulär](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
+* [Video & animering](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
+* [Listor](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#listor)
+* [Kod & script](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#kod--script)
+* [Appar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#Appar)
 
 ## Layout och bilder
 
