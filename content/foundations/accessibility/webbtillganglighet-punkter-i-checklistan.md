@@ -10,14 +10,14 @@ previewImage: /img/accessibility_nobg.svg
 background: bg-white
 lang: true
 ---
-1. [Layout och bilder](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#layout-och-bilder)
-2. [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#textinnehåll)
-3. [Klickbara ytor - knappar och länkar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#klickbara-ytor---knappar-och-länkar)
-4. [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
-5. Video & animering
-6. Listor
-7. Kod & script
-8. Appar
+* [Layout och bilder](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#layout-och-bilder)
+* [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#textinnehåll)
+* [Klickbara ytor - knappar och länkar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#klickbara-ytor---knappar-och-länkar)
+* [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
+* Video & animering
+* Listor
+* Kod & script
+* Appar
 
 ## Layout och bilder
 
