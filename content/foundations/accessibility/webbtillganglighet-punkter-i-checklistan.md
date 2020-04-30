@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-title: Webbtillgänglighet
+title: Checklistan
 intro: Här går vi igenom punkt för punkt vad de betyder, för Länsförsäkringar,
   att följa checklistorna.
 description: Här går vi igenom punkt för punkt vad de betyder för
