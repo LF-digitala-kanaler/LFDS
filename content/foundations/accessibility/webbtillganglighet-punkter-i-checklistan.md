@@ -30,7 +30,8 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
 
-### 1.02 - Var konsekvent i navigation, struktur och utformning
+### 1.02\
+Var konsekvent i navigation, struktur och utformning
 
 Tänk på att följa en struktur för hur sidorna ska vara uppbyggda. Alla sidor behöver inte se likadana ut men det är bra om dem följer samma struktur. Liknande funktioner ska utföras på samma sätt oavsett var på webbplatsen man befinner sig. En del användare memorerar strukturen för att förstå innehållet och hur funktioner fungerar. Samma gäller för benämning på knappar. Inte Skicka på en sida och Sänd på en annan sida. Eller att en spara-ikon ska se likadan ut på hela webbplatsen.
 
