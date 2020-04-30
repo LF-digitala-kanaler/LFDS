@@ -14,7 +14,7 @@ lang: true
 * [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#textinnehåll)
 * [Klickbara ytor - knappar och länkar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#klickbara-ytor---knappar-och-länkar)
 * [Formulär](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
-* [Video & animering](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
+* [Video & animering](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#video--animering)
 * [Listor](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#listor)
 * [Kod & script](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#kod--script)
 * [Appar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#Appar)
