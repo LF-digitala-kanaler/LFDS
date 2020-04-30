@@ -33,7 +33,7 @@ tabs:
       All normal headlines are set in Intro Cond Bold. The headings have margin spacing rules depending on their position in a section. 
 
 
-      **H1-H5** are set in "[Navy](/visual-identity/colors#complimentary-colors)" and only vary in size.\
+      **H1-H5** have the text-colour "[Navy](/visual-identity/colors#complimentary-colors)" and only vary in size.\
 
       **H6** is quite different however, the text is capitalized and the text-colour is "[Grey](/visual-identity/colors#black-white-and-some-shades-of-grey)".
 
