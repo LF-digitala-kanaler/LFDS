@@ -1,8 +1,8 @@
 ---
 template: ArticlePage
 title: Webbtillgänglighet förklaringar checklistan
-intro: Här går vi igenom punkt för punkt vad de betyder för Länsförsäkringar att
-  följa checklistorna.
+intro: Här går vi igenom punkt för punkt vad de betyder, för Länsförsäkringar,
+  att följa checklistorna.
 description: Här går vi igenom punkt för punkt vad de betyder för
   Länsförsäkringar att följa checklistorna.
 category: Accessibility
