@@ -31,7 +31,7 @@ tabs:
       As they are primary there can only be one primary link per block (and preferably page). Layout-wise the primary link is rather "heavy" with an arrow after the text, meaning it should be used sparsely. 
 
 
-      <div class="Callout"><strong class="Callout__title">Link or button? </strong><p class="Callout__text"><figure class="Image Image__border"><img src="/img/paragraph-links.png" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <div class="Callout"><strong class="Callout__title">Link or button? </strong><p class="Callout__text">The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
 
 
       The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
@@ -47,8 +47,6 @@ tabs:
 
 
       If you want to include a link in in a block text, you may do so but do it with caution. Links in text is good from an SEO-perspective but bad from a accesibility-perspective. If you want to include a link inline keep the paragraph it is in as short as possible. If you have several links you want to add, you should consider a [link list](#link-list) instead.
-
-
 
 
       ###### In a bullet list
