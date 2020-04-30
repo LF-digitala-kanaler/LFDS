@@ -10,6 +10,15 @@ previewImage: /img/accessibility_nobg.svg
 background: bg-white
 lang: true
 ---
+1. Layout och bilder
+2. Text/innehåll
+3. Klickbara ytor - knappar och länkar
+4. Text/innehåll
+5. Video & animering
+6. Listor
+7. Kod & script
+8. Appar
+
 ## Layout och bilder
 
 ### 1.01 - Placera innehållet i en meningsfull och tydlig hierarki
@@ -501,7 +510,7 @@ Felmeddelande ska vara vid fältet och vi scrollar upp användaren till första 
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/2-ge-begripliga-felmeddelanden/
 
-Video & animering
+## Video & animering
 
 5.01 - Komplettera alltid text med videos och rörligt material
 
@@ -521,7 +530,7 @@ https://webbriktlinjer.se/riktlinjer/125-kunna-pausa-ljud/
 
 Innan du skapar en animation, bör du ha ett tydligt syfte för vad den ska användas till. Animationen kan till exempel användas för att vägleda användaren, leda blicken till information eller ge feedback. Generellt bör animationerna vara korta. De ska inte loopa, då detta kan upplevas förvirrande och störande för till exempel personer med ADHD. Eftersom animationerna inte ska loopa bör de inte heller vara kritiska till funktionaliteten.
 
-Listor
+## Listor
 
 6.01 - Använd den formatering som finns för att göra listorna. 
 
@@ -531,7 +540,7 @@ Listor
 
 6.04 - Sätt punkt efter sista punkten om punktlistan är en uppräkning.
 
-Kod & script
+## Kod & script
 
 7.01 - Skapa kortkommandon med varsamhet
 
@@ -565,11 +574,11 @@ R68. Skapa snabbkommandon vid behov.
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/75-gruppera-och-skapa-mojlighet-att-hoppa-forbi-delar-pa-sidorna/
 
-7.03 - Erbjud möjlighet att backa
+### 7.03 - Erbjud möjlighet att backa
 
 Tillbakaknappen ska alltid fungera. Gör du SPA-app får detta lösas programmatiskt. 
 
-7.04 - Följ standarder
+### 7.04 - Följ standarder
 
 Struktur är allt när man presenterar innehåll genom hjälpmedel. Giltig och semantisk HTML gör organisationen av innehållet presentabel på ett meningsfullt sätt. CSS, skriven för tillgänglighet, gör webbplatsens innehåll lättare att konsumera för alla. Korrekt CSS kan också användas för att tillhandahålla extra information för skärmläsare som inte syns på webbsidan.
 
@@ -595,7 +604,7 @@ Betona innehåll med elementet em och inte bara kursivering, eftersom det inte g
 
 Använd WAI-ARIA för sådant som inte går att uttrycka med vanlig html.
 
-7.05 - Se till att koden validerar
+### 7.05 - Se till att koden validerar
 
 För att underlätta för utvecklare att följa standarder finns det olika hjälpmedel som kan vara bra att känna till. 
 
@@ -617,7 +626,7 @@ Försök att automatisera en regelbunden kod validering, eller gör validering t
 
 Läs mer: https://webbriktlinjer.se/riktlinjer/84-se-till-att-koden-validerar/
 
-7.06 - Se till att page speed är bra
+### 7.06 - Se till att page speed är bra
 
 En del av användbarheten är ju att sidan fungerar som den ska. Att kunderna förväntar sig att sidan laddat in inom 3 sekunder så den fungerar att navigera på. Vissa bilder kan laddas in allt efter som men i det stora hela blir det svårt för användaren om innehållet ständigt förändras för att mer och mer innehåll laddas in allteftersom och de klick jag planerat klicka på byter plats.
 
@@ -643,17 +652,17 @@ https://developers.google.com/speed/pagespeed/insights/?hl=sv&url=lf.se
 
 https://webbriktlinjer.se/riktlinjer/54-optimera-webbplatsen-for-basta-prestanda/
 
-7.07 - Utveckla systemet så att det går att hantera med enbart tangentbordet
+### 7.07 - Utveckla systemet så att det går att hantera med enbart tangentbordet
 
 Se till att det går att hantera all funktionalitet med enbart tangentbord, eftersom många hjälpmedel i praktiken fungerar som tangentbord.
 
 Den som bara kan eller vill använda tangentbordet (eller hjälpmedel som kopplas till tangentbordskommandon) är beroende av att systemet inte förutsätter att användaren har till exempel mus eller pekskärm.
 
-7.08 - Ange sidans språk i koden
+### 7.08 - Ange sidans språk i koden
 
 För att till exempel underlätta korrekt avstavning, automatisk översättning och förbättra möjligheten för skärmläsare att presentera innehållet korrekt, ska aktuellt språk anges i html-koden. Detta görs med hjälp av lang-attribut och språkkod.
 
-7.09 - Se till att hjälpmedel kan presentera meddelanden som inte är i fokus
+### 7.09 - Se till att hjälpmedel kan presentera meddelanden som inte är i fokus
 
 Se till att de som använder tekniska hjälpmedel som exempelvis skärmläsare och förstoringsprogram kan göras uppmärksamma på viktiga meddelanden även om de presenteras utanför det område på sidan som användaren har i fokus.
 
@@ -665,9 +674,9 @@ Läs mer:
 
 https://webbriktlinjer.se/riktlinjer/164-meddelanden-som-inte-ar-fokus/
 
-Appar
+## Appar
 
-8.01 - Grundläggande rekommendationer för appar
+### 8.01 - Grundläggande rekommendationer för appar
 
 Följ de webbriktlinjer som är tillämpbara även i appar
 
