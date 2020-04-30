@@ -88,144 +88,6 @@ tabs:
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Input/ and Form/Input set/)
     name: Design
   - content: >-
-      ## How to use
-
-
-      All Input elements are "rebooted" by [Bootstrap reboot](https://getbootstrap.com/docs/4.0/content/reboot/#forms) for a more unified look. Using the class `.form-control` one can extend on those base styles.
-
-
-      The form control is only intended to be used with textual inputs such as email, textarea or passwords. 
-
-
-      We will only focus on the `<input>` here but remember to always have a label with a for attribute that's  equal to the id attribute of the related element to bind them together. This will give screen reader users a better experience. 
-
-       
-
-      <div class="Callout"><strong class="Callout__title">Your design friend don't want a label? </strong><p class="Callout__text">If you add an input of any sort you need a label to bind them together. However it is possible to hide it visually but still have it available for screen readers. Since LFUI is based on Bootstrap we have their helper class available for this. `.sr-only` will hide the element but keep it for screen readers to use.</p></div>
-
-
-      ### Variations
-
-
-      There are two main variations of input fields, the one-lined input and textarea. 
-
-
-      #### One-lined text input
-
-
-      All one-lined inputs needs  share the same base seen below. 
-
-
-      ```
-
-      <input type="*" class="form-control" />
-
-
-      ```
-
-
-      ##### Attributes
-
-
-      Depending on your needs there is a couple of different attribute you can add to your input. First every input should have a **type** attribute. The type attribute specifies the type of `<input>` element to display.  As an example, if you add an input to be used to enter a password, use type **password.**
-
-
-      ```
-
-      <input type="password" class="form-control" />
-
-      ```
-
-
-      You can see all available type's [here](https://www.w3schools.com/tags/att_input_type.asp).
-
-
-      To give users a hint of what to enter in an input  it's always a good idea to att a **placeholder** attribute.
-
-
-      Placeholder text disappears after the user begins entering data into the Input and should not contain crucial information. 
-
-
-      ```
-        <input type="text" class="form-control" placeholder="ååååmmdd-nnnn">
-
-      ```
-
-
-      #### Modifiers
-
-
-      The one-lined text input has several modifiers, all described below. Read more when to use them under the design tab. You can see all of these modifiers above in the example pane. 
-
-
-      ##### Prefix
-
-
-      (Note, the prefix does not respond to the state of the input field without the help of JS. Which is not included in LFUI at the moment. )
-
-
-      ```
-
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <span class="input-group-text">@</span>
-        </div>
-        <input type="text" required class="form-control" placeholder="username" >
-      </div>
-
-      ```
-
-
-      ##### Prefix as Image
-
-
-      ```
-
-      <div class="input-group">
-        <span class="input-group-prepend-reg"></span>
-        <input type="text" required class="form-control" placeholder="ABC123">
-      </div>
-
-      ```
-
-
-      ##### Suffix
-
-
-      ```
-
-      <div class="input-group">
-        <input type="text" required="" class="form-control">
-        <div class="input-group-append">
-          <span class="input-group-text">kr</span>
-        </div>
-      </div>
-
-      ```
-
-
-      ### Textarea
-
-
-      The `<textarea>` tag defines a multi-line text input control.  The size of a text area can be specified by the cols and rows attributes.
-
-
-      ```
-
-      <textarea class="form-control" rows="3"></textarea>
-
-      ```
-
-
-      ## Validation
-
-
-      **LFUI does not include any validation  functionality, thats something you will have to build yourself**. However we do provide helper class for validation styling. Use the available validation classes `has-valid ` and `has-danger.`
-
-
-      If a field has been filled out and validated, add the `has-valid` to it's parent class. If a field has been filled out and validated but with errors, add the `has-danger` class. There is a more detailed example of this TODO add link to patterns.
-    name: Code
-  - content: >-
       ## Så skriver vi
 
 
@@ -386,5 +248,143 @@ tabs:
 
       Valideringstext: Fyll i typ av konto
     name: Copy
+  - content: >-
+      ## How to use
+
+
+      All Input elements are "rebooted" by [Bootstrap reboot](https://getbootstrap.com/docs/4.0/content/reboot/#forms) for a more unified look. Using the class `.form-control` one can extend on those base styles.
+
+
+      The form control is only intended to be used with textual inputs such as email, textarea or passwords. 
+
+
+      We will only focus on the `<input>` here but remember to always have a label with a for attribute that's  equal to the id attribute of the related element to bind them together. This will give screen reader users a better experience. 
+
+       
+
+      <div class="Callout"><strong class="Callout__title">Your design friend don't want a label? </strong><p class="Callout__text">If you add an input of any sort you need a label to bind them together. However it is possible to hide it visually but still have it available for screen readers. Since LFUI is based on Bootstrap we have their helper class available for this. `.sr-only` will hide the element but keep it for screen readers to use.</p></div>
+
+
+      ### Variations
+
+
+      There are two main variations of input fields, the one-lined input and textarea. 
+
+
+      #### One-lined text input
+
+
+      All one-lined inputs needs  share the same base seen below. 
+
+
+      ```
+
+      <input type="*" class="form-control" />
+
+
+      ```
+
+
+      ##### Attributes
+
+
+      Depending on your needs there is a couple of different attribute you can add to your input. First every input should have a **type** attribute. The type attribute specifies the type of `<input>` element to display.  As an example, if you add an input to be used to enter a password, use type **password.**
+
+
+      ```
+
+      <input type="password" class="form-control" />
+
+      ```
+
+
+      You can see all available type's [here](https://www.w3schools.com/tags/att_input_type.asp).
+
+
+      To give users a hint of what to enter in an input  it's always a good idea to att a **placeholder** attribute.
+
+
+      Placeholder text disappears after the user begins entering data into the Input and should not contain crucial information. 
+
+
+      ```
+        <input type="text" class="form-control" placeholder="ååååmmdd-nnnn">
+
+      ```
+
+
+      #### Modifiers
+
+
+      The one-lined text input has several modifiers, all described below. Read more when to use them under the design tab. You can see all of these modifiers above in the example pane. 
+
+
+      ##### Prefix
+
+
+      (Note, the prefix does not respond to the state of the input field without the help of JS. Which is not included in LFUI at the moment. )
+
+
+      ```
+
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">@</span>
+        </div>
+        <input type="text" required class="form-control" placeholder="username" >
+      </div>
+
+      ```
+
+
+      ##### Prefix as Image
+
+
+      ```
+
+      <div class="input-group">
+        <span class="input-group-prepend-reg"></span>
+        <input type="text" required class="form-control" placeholder="ABC123">
+      </div>
+
+      ```
+
+
+      ##### Suffix
+
+
+      ```
+
+      <div class="input-group">
+        <input type="text" required="" class="form-control">
+        <div class="input-group-append">
+          <span class="input-group-text">kr</span>
+        </div>
+      </div>
+
+      ```
+
+
+      ### Textarea
+
+
+      The `<textarea>` tag defines a multi-line text input control.  The size of a text area can be specified by the cols and rows attributes.
+
+
+      ```
+
+      <textarea class="form-control" rows="3"></textarea>
+
+      ```
+
+
+      ## Validation
+
+
+      **LFUI does not include any validation  functionality, thats something you will have to build yourself**. However we do provide helper class for validation styling. Use the available validation classes `has-valid ` and `has-danger.`
+
+
+      If a field has been filled out and validated, add the `has-valid` to it's parent class. If a field has been filled out and validated but with errors, add the `has-danger` class. There is a more detailed example of this TODO add link to patterns.
+    name: Code
 backgroundColor: "#fff"
 ---
