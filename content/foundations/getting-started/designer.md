@@ -10,11 +10,7 @@ previewImage: /img/getting_started.svg
 wide: false
 lang: true
 ---
-Som Designer i Länsförsäkringsgruppen finns det lite delar som du behöver veta innan du börjar designa. 
-
-Vi går också igenom massa områden som kan vara bra att känna till och vidare personer som du bör träffa och få en dragning i deras special områden.
-
-
+Vi börjar alltid med ett intromöte för att du ska snabbt komma in i hur vi jobbat och lite om vilka som jobbar med vad och vad du kan få hjälp med av olika personer. Vi ser till att boka in dig på några snabbgenomgångar med olika personer och deras ansvarsområden. Du kan även läsa på lite här.
 
 <section>
 <Collapse title="Intromöte"><div class="content">
