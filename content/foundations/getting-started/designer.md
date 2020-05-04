@@ -7,10 +7,19 @@ description: Som Designer i Länsförsäkringsgruppen finns det lite delar som d
   behöver veta innan du börjar designa. Vi går igenom allt här.
 category: Getting Started
 previewImage: /img/getting_started.svg
+wide: false
+lang: true
 ---
 Som Designer i Länsförsäkringsgruppen finns det lite delar som du behöver veta innan du börjar designa. 
 
-## Intromöte
+Vi går också igenom massa områden som kan vara bra att känna till och vidare personer som du bör träffa och få en dragning i deras special områden.
+
+
+
+<section>
+<Collapse title="Intromöte"><div class="content">
+
+
 
 När du börjar som UX eller AD så börjar vi alltid med en dragning om vad det innebär att jobba som en designer på Länsförsäkringar. Det bokas in av Fabian och Liza där vi går igenom:
 
@@ -19,13 +28,21 @@ När du börjar som UX eller AD så börjar vi alltid med en dragning om vad det
 * Designgruppen och vårt team
 * Strategiska dokument och målbilder
 * Arbetsprocess och verktyg
+</div></Collapse>
+<Collapse title="Användningstester"><div class="content">
 
-Vi går också igenom massa områden som kan vara bra att känna till och vidare personer som du bör träffa och få en dragning i deras special områden.
+hej
+</div></Collapse>
+<Collapse title="Webbtillgänglighet"><div class="content">
 
-Användningstester
+hej
+</div></Collapse>
+<Collapse title="Varumärkesstrategi och vårt digitala varumärke"><div class="content">
 
-Webbtillgänglighet
+hej
+</div></Collapse>
+<Collapse title="Marknads och IT strategin"><div class="content">
 
-Varumärkesstrategi och vårt digitala varumärke
-
-Marknads och IT strategin
+h
+</div></Collapse>
+</section>
