@@ -29,20 +29,20 @@ Skriv som ett samtal innebär i korthet att vi skriver personligt och vänligt. 
 <div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Skriv alltid tillgängligt och inkluderande <3</p></div>
 
 <section>
-<Collapse title="Apostrof"><span class="content">Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen.\
+<Collapse title="Apostrof"><span class="content">Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen.
 Skriv LFABs utan apostrof före genitiv-s.</span></Collapse>
 <Collapse title="Avstavningar"><span class="content">När du avstavar bör du dela upp ordet i sina naturliga delar. Exempelvis försäkrings-bolag, del-aktig. Du bör inte avstava person­ eller firmanamn, korta tvåstaviga ord, årtal, siffergrupper eller webblänkar.</span></Collapse>
 <Collapse title="Bindestreck"><span class="content">Använd bindestreck vid sammansättningar och vid avstavningar: 2000-talet. Se även Avstav­ningar och Tankstreck.</span></Collapse>
 <Collapse title="Citattecken"><span class="content">Använd citattecken runt citat och uttalanden. Det kan också användas vid ovanliga ord eller ironi. Använd tecknet sparsamt.
 
-*När vi hänvisar till en sida försöker vi istället använda stor bokstav istället, exempelvis: "Ändra din adress under Inställningar."*</span></Collapse>
+<i>När vi hänvisar till en sida försöker vi istället använda stor bokstav istället, exempelvis: "Ändra din adress under Inställningar."</i></span></Collapse>
 <Collapse title="Datum"><span class="content">Datum skriver vi den 1 december 2020. I tabeller kan datum skrivas 2010-12-01.
 
 Mer om datum här eller under patterns (ska läggas till).</span></Collapse>
 <Collapse title="De, dem"><span class="content">Vi skriver de och dem. Inte de och dom.</span></Collapse>
 <Collapse title="Du"><span class="content">När du skriver tilltalsordet du – använd litet d. Använd aldrig ni när du kommunicerar med en enskild person.
 
-*Mer om pronomen och hur vi använder min, din eller inget alls - under patterns (lägg till)*</span></Collapse>
+<i>Mer om pronomen och hur vi använder min, din eller inget alls - under patterns (lägg till)</i></span></Collapse>
 <Collapse title="Inte"><span class="content">Negationerna ej och icke är omoderna och högtravande – använd inte istället.</span></Collapse>
 <Collapse title="Kolon"><span class="content">Använd kolon vid:
 

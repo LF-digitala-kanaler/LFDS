@@ -35,7 +35,7 @@ export const ChangelogPageTemplate = ({
               
             {
               
-              components.filter(item => item.node.descriptionHTML != "").map(item => {
+              components.filter(item => item.node.descriptionHTML !== "").map(item => {
                 return (
                   <div key={item.node.id}>
                     <h2>{item.node.tagName}</h2>
