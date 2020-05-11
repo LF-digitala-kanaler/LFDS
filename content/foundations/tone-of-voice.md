@@ -26,8 +26,6 @@ Skriv på läsarens villkor innebär i korthet att vi skriver rakt, aktivt och e
 
 Skriv som ett samtal innebär i korthet att vi skriver personligt och vänligt. Ungefär som ett samtal mellan två personer.
 
-
-
 <div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Skriv alltid tillgängligt och inkluderande <3</p></div>
 
 <section>
@@ -46,4 +44,16 @@ Mer om datum här eller under patterns (ska läggas till).</span></Collapse>
 
 *Mer om pronomen och hur vi använder min, din eller inget alls - under patterns (lägg till)*</span></Collapse>
 <Collapse title="Inte"><span class="content">Negationerna ej och icke är omoderna och högtravande – använd inte istället.</span></Collapse>
+<Collapse title="Kolon"><span class="content">Använd kolon vid:
+
+• Uppräkningar – Skicka in kvitton på följande värdeföremål:\
+guldklocka, diamantring och stereo.
+
+• Förklaringar – Gör så här: skriv under blanketten och\
+skicka in den i det portofria svarskuveret.
+
+• Direkt anföring – Advokaten sa: Vittnet ljuger.
+
+Använd liten bokstav efter kolon vid uppräkning, förklaringar, sammanfattningar eller liknande. Använd stor bokstav vid direkt anföring, citat, uppmaningar, utrop och vid frågor.</span></Collapse>
+<Collapse title="undefined"><span class="content">undefined</span></Collapse>
 </section>
