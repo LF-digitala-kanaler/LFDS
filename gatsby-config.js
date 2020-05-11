@@ -1,5 +1,6 @@
 
 module.exports = {
+  pathPrefix: "/LFUI-website/",
   siteMetadata: {
     title: 'LFDS',
     headline: 'Länsförsäkringar Design System',
