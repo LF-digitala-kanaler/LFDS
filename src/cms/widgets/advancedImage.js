@@ -17,7 +17,7 @@ const AdvancedImage = {
     },
     { name: "caption", label: "Caption", widget: "string", default: "" },
   ],
-  pattern: /^<div><figure class="Image (.*)"><img src="(.*)" srcset="(.*) 2x" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure><\/div>/s,
+  pattern: /^<figure class="Image (.*)"><img src="(.*)" srcset="(.*)" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure>/,
   fromBlock(match) {
     return {
       image: match[2],
@@ -28,7 +28,7 @@ const AdvancedImage = {
     }
   },
   toBlock(obj) {
-    return `<div><figure class="Image ${obj.type}"><img src="${obj.image}" srcset="${obj.image2} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure></div>`
+    return `<figure class="Image ${obj.type}"><img src="${obj.image}" srcset="${obj.image2} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
   },
 }
 
