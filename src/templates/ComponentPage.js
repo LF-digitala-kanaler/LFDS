@@ -17,7 +17,8 @@ export const ComponentPageTemplate = ({
   componentExample,
   backgroundColor,
   tabs,
-  currentDirectory
+  currentDirectory,
+  resizeIframeVertical
 
 }) => (
   
@@ -92,6 +93,7 @@ const ComponentPage = ({
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
         priority={page.frontmatter.priority}
+        resizeIframeVertical={page.frontmatter.resizeIframeVertical}
       />
     </Layout>
   )
@@ -116,6 +118,7 @@ export const pageQuery = graphql`
         template
         category
         lang
+        resizeIframeVertical
         previewImage {
           publicURL
         }

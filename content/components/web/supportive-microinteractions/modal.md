@@ -7,6 +7,7 @@ description: Modals are triggered by the user clicking a button. They have two
   use cases; in a “Read more”-context and signing stuff.
 previewImage: /img/modal.svg
 category: Supportive Microinteractions
+resizeIframeVertical: true
 tabs:
   - content: >-
       ## How to use

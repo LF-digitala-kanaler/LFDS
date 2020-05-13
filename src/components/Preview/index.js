@@ -10,11 +10,12 @@ const Preview = ({children}) => {
   return (
     <div className={style.Preview}>
       <Resizable
-        enable={{ top:false, right:true, bottom:false, left:false, topRight:false, bottomRight:false, bottomLeft:false, topLeft:false }}
+        enable={{ top:false, right:true, bottom:false, left:false, topRight:false, bottomRight:false, bottomRight:true, topLeft:false }}
         minWidth={300}
         maxWidth="100%"
         handleComponent={{
           right: <Previewhandle />,
+          bottomRight: <Previewhandle />
         }}
       >
         <div className={style.Preview__box}>{children}</div>
