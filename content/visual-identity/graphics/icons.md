@@ -21,8 +21,6 @@ category: Graphics
 ---
 <figure class="Image Image__border Image__border--noPadding"><img src="/img/icons.jpg" srcset="/img/icons.jpg 2x" alt=""><figcaption><div class="Image__caption">How the icons scale.</div></figcaption></figure>
 
-<figure class="Image Image__border"><img src="/img/icons.jpg" srcset="undefined 2x" alt="How the icons scale"><figcaption><div class="Image__caption">How the icons scale</div></figcaption></figure>
-
 ## Resources
 
 In the LFUI-icon.sketch document you will find all the icons ranging from 24 to 70px. These icons are optimized for digital use, correct RGB values and the 2px stroke.
