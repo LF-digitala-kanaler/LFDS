@@ -1,5 +1,5 @@
 :root {
-  --breadcrumb-spacing: var(--spacing-sm) 0;
+  --breadcrumb-spacing: var(--spacing-sm) calc(var(--spacing-xs) / 2);
 
 }
 
