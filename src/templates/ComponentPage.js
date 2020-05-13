@@ -32,7 +32,7 @@ export const ComponentPageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
-      {componentExample && componentExample.length > 0 && <ComponentExample direction={resizeDirection} variants={componentExample} background={backgroundColor}   />}
+      {componentExample && componentExample.length > 0 && <ComponentExample  variants={componentExample} background={backgroundColor}   />}
     </Wrapper>
       
       <Location>
@@ -93,7 +93,7 @@ const ComponentPage = ({
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
         priority={page.frontmatter.priority}
-        resizeIframeVertical={page.frontmatter.resizeDirection}
+        resizeDirection={page.frontmatter.resizeDirection}
       />
     </Layout>
   )

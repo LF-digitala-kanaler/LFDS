@@ -9,6 +9,7 @@ description: Used primarily as an explanation of terms and difficult words in
   popover appears in which explanatory text is displayed.
 previewImage: /img/popover-tooltip.svg
 category: Supportive Microinteractions
+resizeDirection: 'true'
 tabs:
   - content: >-
       ## How to use
