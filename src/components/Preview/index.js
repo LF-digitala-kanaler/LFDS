@@ -4,8 +4,8 @@ import { Resizable } from "re-resizable";
 
 
 
-const Preview = ({children}) => {
-
+const Preview = ({direction, children}) => {
+  console.log(direction)
   
   return (
     <div className={style.Preview}>
