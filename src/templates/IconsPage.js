@@ -7,20 +7,33 @@ import Preamble from '../components/Preamble'
 import icons from '!!raw-loader!lfui-components/dist/lfui/icons.svg'; 
 import iconsRegular from '!!raw-loader!lfui-components/dist/docs/icons/regular.md';
 import iconsSpecial from '!!raw-loader!lfui-components/dist/docs/icons/special.md'; 
-import Content from '../components/Content'
-
+import Content from '../components/Content';
+import rehypeReact from "rehype-react"
+import Collapse from '../components/Collapse';
+ const renderAst = new rehypeReact({
+    createElement: React.createElement,
+    components: { 
+      "collapse": Collapse,
+      "lfuiwrapper": LfuiWrapper
+    },
+  }).Compiler
 
 export const IconsPageTemplate = ({
   title,
   intro,
   body,
+  bodyHtml,
   specialIconsContent,
 }) => (
   <> 
     <Wrapper tag="div" narrow menu={true}>
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
-      <Content source={body} className="Content--tight" />
+      {bodyHtml
+        ? <div className={`Content--tight`}>{renderAst(bodyHtml)}</div>
+        : <Content className={`Content--tight`} source={body} />
+      }
+      
     </Wrapper>
     
     <Wrapper  tag="div"  menu={true}>
@@ -58,6 +71,7 @@ const IconsPage = ({
       <IconsPageTemplate 
         {...page} 
         {...page.frontmatter}
+        bodyHtml={page.htmlAst}
         body={page.html}
       />
     </Layout>
@@ -75,6 +89,7 @@ export const pageQuery = graphql`
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html
+      htmlAst
       frontmatter {
         title
         intro

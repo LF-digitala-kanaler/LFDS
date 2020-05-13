@@ -4,6 +4,7 @@ import cx from 'classnames'
 
 
 const ComponentNavigation = ({variants, onChildClick}) => {
+  
   const [active, setActive] = useState(variants[0].node.id);
   
   const handleClick = (variants, active) => {
