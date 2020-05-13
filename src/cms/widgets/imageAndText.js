@@ -2,18 +2,19 @@ const ImageAndText = {
   id: "imageAndText",
   label: "Two columns",
   fields: [
-    { name: "content", label: "Content", widget: "markdown"},
+    { name: "content", label: "Content", widget: "markdown", },
     {
       name: "position",
       label: "Position",
       widget: "select",
       default: "ImageBlock__left",
+     
       options: [
         { label: "Image to the left", value: "ImageBlock__left" },
         { label: "Image ot the right", value: "ImageBlock__right" }
       ],
     },
-    { name: "image", label: "Image", widget: "image"},
+    { name: "image", label: "Image", widget: "image", hint: 'Leave image field empty if you just want a narrow text column',},
   ],
   pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">\n\n(.*)<\/div><div class="ImageBlock__object"><img class="ImageBlock__image" src="(.*)" alt="" \/><\/div><\/div>/s,
   fromBlock(match) {

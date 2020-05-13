@@ -17,7 +17,7 @@ const AdvancedImage = {
     },
     { name: "caption", label: "Caption", widget: "string", default: "" },
   ],
-  pattern: /^<figure class="Image (.*)"><img src="(.*)" srcset="(.*)" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure>/,
+  pattern: /^<figure class="Image (.*)"><img src="(.*)" srcset="(.*) 2x" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure>/m,
   fromBlock(match) {
     return {
       image: match[2],
