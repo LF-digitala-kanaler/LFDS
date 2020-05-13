@@ -7,7 +7,6 @@ description: Modals are triggered by the user clicking a button. They have two
   use cases; in a “Read more”-context and signing stuff.
 previewImage: /img/modal.svg
 category: Supportive Microinteractions
-resizeIframeVertical: true
 tabs:
   - content: >-
       ## How to use
@@ -131,7 +130,8 @@ tabs:
       ## Accessibility
 
 
-      Be sure to add `role="dialog"` and `aria-labelledby="..."`, referencing the modal title, to `.modal` , and `role="document"` to the `.modal-dialog` itself. Additionally, you may give a description of your modal dialog with `aria-describedby` on `.modal`.
+      Be sure to add `role="dialog"` and `aria-labelledby="..."`, referencing the modal title, to `.modal` , and `role="document"` to the `.modal-dialog` itself. Additionally, you may give a description of your modal dialog with `aria-describedby` on `.modal`
     name: Code
 backgroundColor: "#fff"
+resizeIframeVertical: true
 ---
