@@ -65,7 +65,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Grey", value: "#f3f3f3" }
         required: false
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
-      - { label: "Activate vertical re-size on iframe", name: "resizeIframeVertical", widget: "boolean", default: false, required: false}
+      - { label: "Activate vertical re-size on iframe", name: "resizeDirection", widget: "boolean", default: false, required: false}
 
       
     
