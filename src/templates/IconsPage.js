@@ -13,8 +13,7 @@ import Collapse from '../components/Collapse';
  const renderAst = new rehypeReact({
     createElement: React.createElement,
     components: { 
-      "collapse": Collapse,
-      "lfuiwrapper": LfuiWrapper
+      "collapse": Collapse
     },
   }).Compiler
 
@@ -30,8 +29,8 @@ export const IconsPageTemplate = ({
       <Heading tag={1} text={title} align={"left"} />
       <Preamble text={intro} tag="p" align={"left"} />
       {bodyHtml
-        ? <div className={`Content--tight`}>{renderAst(bodyHtml)}</div>
-        : <Content className={`Content--tight`} source={body} />
+        ? <div className="Content Content--tight">{renderAst(bodyHtml)}</div>
+        : <Content className="Content Content--tight" source={body} />
       }
       
     </Wrapper>
