@@ -140,8 +140,23 @@ Skriv ska, inte skall.
 
 Globalisering, internet och teknikutveck­ling har gjort att alltfler låneord används i svenskan. Vi skriver till exempel internet med litet i. Även intranät skrivs med litet i. Webb skriver vi med två b. Orden pc, cd-rom och dvd skrivs med små bokstäver. Vi skriver e-post, inte e-mail. Vi mejlar, vi mailar inte.
 </div></Collapse>
-<Collapse title="undefined"><div class="content">
+<Collapse title="Svenska kronor – så skriver vi "><div class="content">
 
-undefined
+• kronor — I löpande text skriver vi alltid ut kronor.
+
+• kr — Vi förkortar till kr i tabeller.
+
+• tkr — Tusen kronor – förkortas med små bokstäver.
+
+• Mkr — Miljoner kronor – förkortningen inleds med\
+stort M, i övrigt små bokstäver.
+
+• mdr — Miljarder kronor – förkortas med små bokstäver.
+
+• SEK — Svenska kronor – när vi beskriver vår verksamhet\
+på engelska eller annat språk förutom svenska.\
+Skrivs alltid före siffran – exempel SEK 500.
+
+• MSEK — Miljoner kronor. Följer samma regler som SEK.
 </div></Collapse>
 </section>
