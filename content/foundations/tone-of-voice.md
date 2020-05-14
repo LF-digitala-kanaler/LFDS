@@ -29,46 +29,46 @@ Skriv som ett samtal innebär i korthet att vi skriver personligt och vänligt. 
 <div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Skriv alltid tillgängligt och inkluderande.</p></div>
 
 <section>
-<Collapse title="Apostrof( ́)"><div class="content"><div class="content">
+<Collapse title="Apostrof( ́)"><div class="content">
 
 Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen.
 Skriv LFABs utan apostrof före genitiv-s.
 </div></Collapse>
-<Collapse title="Avstavningar"><div class="content"><div class="content">
+<Collapse title="Avstavningar"><div class="content">
 
 När du avstavar bör du dela upp ordet i sina naturliga delar. Exempelvis försäkrings-bolag, del-aktig. Du bör inte avstava person­ eller firmanamn, korta tvåstaviga ord, årtal, siffergrupper eller webblänkar.
 </div></Collapse>
-<Collapse title="Bindestreck(-)"><div class="content"><div class="content">
+<Collapse title="Bindestreck(-)"><div class="content">
 
 Använd bindestreck vid sammansättningar och vid avstavningar: 2000-talet. Se även Avstav­ningar och Tankstreck.
 </div></Collapse>
-<Collapse title="Citattecken(” ”)"><div class="content"><div class="content">
+<Collapse title="Citattecken(” ”)"><div class="content">
 
 Använd citattecken runt citat och uttalanden. Det kan också användas vid ovanliga ord eller ironi. Använd tecknet sparsamt.
 
 *När vi hänvisar till en sida försöker vi istället använda stor bokstav istället, exempelvis: "Ändra din adress under Inställningar."*
 </div></Collapse>
-<Collapse title="Datum"><div class="content"><div class="content">
+<Collapse title="Datum"><div class="content">
 
 Datum skriver vi den 1 december 2020. I tabeller kan datum skrivas 2010-12-01.
 
 Mer om datum här eller under patterns (ska läggas till).
 </div></Collapse>
-<Collapse title="De, dem"><div class="content"><div class="content">
+<Collapse title="De, dem"><div class="content">
 
 Vi skriver de och dem. Inte de och dom.
 </div></Collapse>
-<Collapse title="Du"><div class="content"><div class="content">
+<Collapse title="Du"><div class="content">
 
 När du skriver tilltalsordet du – använd litet d. Använd aldrig ni när du kommunicerar med en enskild person.
 
 *Mer om pronomen och hur vi använder min, din eller inget alls - under patterns (lägg till)*
 </div></Collapse>
-<Collapse title="Inte"><div class="content"><div class="content">
+<Collapse title="Inte"><div class="content">
 
 Negationerna ej och icke är omoderna och högtravande – använd inte istället.
 </div></Collapse>
-<Collapse title="Kolon(:)"><div class="content"><div class="content">
+<Collapse title="Kolon(:)"><div class="content">
 
 Använd kolon vid:
 
@@ -82,7 +82,7 @@ skicka in den i det portofria svarskuveret.
 
 Använd liten bokstav efter kolon vid uppräkning, förklaringar, sammanfattningar eller liknande. Använd stor bokstav vid direkt anföring, citat, uppmaningar, utrop och vid frågor.
 </div></Collapse>
-<Collapse title="Man"><div class="content"><div class="content">
+<Collapse title="Man"><div class="content">
 
 I många texter skrivs ordet man i betydelsen person, vilket ibland är svårt att undvika. Men försök att istället använda jag, vi, eller ni.
 </div></Collapse>
@@ -201,8 +201,5 @@ Tänk på att det heter vår och er, inte våran eller eran. När du skriver er 
 
 Ibland blir det riktigt roligt – ibland bara förvirrande. Tumregel: Om ett ord uttalas som ett sammansatt ord ska det också skrivas som ett sammansatt ord.
 </div></Collapse>
-<Collapse title="undefined"><div class="content">
 
-undefined
-</div></Collapse>
 </section>
