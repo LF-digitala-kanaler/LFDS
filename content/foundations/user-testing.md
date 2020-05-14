@@ -7,3 +7,9 @@ intro: Länsförsäkringar User Interface är vår plattform för vårt Digitala
   komponenter eller hittar vidare länkar till vår Brand portal Röda rummet.
 previewImage: /img/user_testing.svg
 ---
+<section>
+<Collapse title="eafeafea"><div class="content">
+
+feafaefea
+</div></Collapse>
+</section>
