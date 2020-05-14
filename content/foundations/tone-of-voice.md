@@ -29,7 +29,7 @@ Skriv som ett samtal innebär i korthet att vi skriver personligt och vänligt. 
 <div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Skriv alltid tillgängligt och inkluderande.</p></div>
 
 <section>
-<Collapse title="Apostrof"><div class="content"><div class="content">
+<Collapse title="Apostrof( ́)"><div class="content"><div class="content">
 
 Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen.
 Skriv LFABs utan apostrof före genitiv-s.
@@ -38,11 +38,11 @@ Skriv LFABs utan apostrof före genitiv-s.
 
 När du avstavar bör du dela upp ordet i sina naturliga delar. Exempelvis försäkrings-bolag, del-aktig. Du bör inte avstava person­ eller firmanamn, korta tvåstaviga ord, årtal, siffergrupper eller webblänkar.
 </div></Collapse>
-<Collapse title="Bindestreck"><div class="content"><div class="content">
+<Collapse title="Bindestreck(-)"><div class="content"><div class="content">
 
 Använd bindestreck vid sammansättningar och vid avstavningar: 2000-talet. Se även Avstav­ningar och Tankstreck.
 </div></Collapse>
-<Collapse title="Citattecken"><div class="content"><div class="content">
+<Collapse title="Citattecken(” ”)"><div class="content"><div class="content">
 
 Använd citattecken runt citat och uttalanden. Det kan också användas vid ovanliga ord eller ironi. Använd tecknet sparsamt.
 
@@ -68,7 +68,7 @@ När du skriver tilltalsordet du – använd litet d. Använd aldrig ni när du 
 
 Negationerna ej och icke är omoderna och högtravande – använd inte istället.
 </div></Collapse>
-<Collapse title="Kolon"><div class="content"><div class="content">
+<Collapse title="Kolon(:)"><div class="content"><div class="content">
 
 Använd kolon vid:
 
@@ -90,12 +90,46 @@ I många texter skrivs ordet man i betydelsen person, vilket ibland är svårt a
 
 Formerna mej, dej och sej är talspråk. Vi skriver alltid mig, dig och sig.
 </div></Collapse>
-<Collapse title="Parentes"><div class="content">
+<Collapse title="Parentes (:)"><div class="content">
 
 Använd parentes sparsamt.
 </div></Collapse>
 <Collapse title="Procent (%), Promille (‰)"><div class="content">
 
 Använd bara procenttecknet tillsam­mans med siffror. Det ska vara ett mel­lanslag mellan talet och procenttecknet. Det gäller även för promilletecknet. I löpande text skriver vi ut ordet ”procent”.
+</div></Collapse>
+<Collapse title="Paragraftecken (§)"><div class="content">
+
+Tecknet används i lagtexter efter numret och i stadgar före numret: Enligt 10 § FAL, Försäkringsavtalslagen eller enligt hyresföreningens stadgar § 5.
+</div></Collapse>
+<Collapse title="Personnummer"><div class="content">
+
+Vanligtvis grupperas siffrorna i ett personnummer så här:\
+720202-1002
+
+De första sex siffrorna kallas för födelsetiden. De tre första siffrorna efter strecket kallas födelsenummer. Den sista siffran är en kontrollsiffra.
+
+Sedan år 2000 är det vanligt att personer skrivs med tolv siffror med århundradet angivet:\
+19720202-1002
+
+Det görs för att man med säkerhet ska veta hur gammal personen i fråga är.
+
+När en person fyllt hundra år byts strecket (-) mellan födelsetiden och födelsenumret ut mot ett plustecken (+)
+</div></Collapse>
+<Collapse title="Semikolon (;)"><div class="content">
+
+Kan ofta bytas ut mot tankstreck.
+</div></Collapse>
+<Collapse title="Siffror och matematiska tecken"><div class="content">
+
+Huvudregeln är att tal till och med tolv i löpande text skrivs med bokstäver. Från och med 13 skriver vi med siffror. Skriver du siffror före en förkortning eller gör en uppräkning ska du alltid använda siffror: 7 km eller 3 blå, 4 röda, 5 gröna.
+
+Om du ska skriva både tolv och 15 i samma mening är det snyggare att skriva båda talen med siffror eller bokstäver. Om siffran är huvudbudskapet, till exempel i ekonomiska rapporter, skriver du siffran med siffror: Länsförsäkringar går med 17 miljoner kronor i vinst.
+
+Markera tusental med mellanslag: 55 000 kronor. Vi använder inte punkter för att markera tusental. För att markera ören använder vi kommatecken: 5,50 kronor.
+</div></Collapse>
+<Collapse title="Snedstreck (/) "><div class="content">
+
+Vi använder snedstreck vid betydelsen per: Hastigheten var 50 km/h. Dessutom använder vi snedstreck vid uppgift om tidsperioder: Månadsskiftet mars/april.
 </div></Collapse>
 </section>
