@@ -180,6 +180,27 @@ Exempel: Anna Länsman, skadereglerare, Skadeavdelningen
 
 Använd utropstecken sparsamt.
 </div></Collapse>
+<Collapse title="Valutabeteckningar"><div class="content">
+
+• DKK danska kronor\
+• NOK norska kronor\
+• EUR euro\
+• USD amerikanska dollar\
+• GBP engelska pund\
+• SEK svenska kronor – se ”svenska kronor – så skriver vi”
+</div></Collapse>
+<Collapse title="Versaler"><div class="content">
+
+Versaler – stora bokstäver – underlättar inte i skrivna texter. Läsaren läser bokstav för bokstav och orden blir mindre synliga.
+</div></Collapse>
+<Collapse title="Vår, er"><div class="content">
+
+Tänk på att det heter vår och er, inte våran eller eran. När du skriver er – använd litet e.
+</div></Collapse>
+<Collapse title="​För virrande sär skrivning "><div class="content">
+
+Ibland blir det riktigt roligt – ibland bara förvirrande. Tumregel: Om ett ord uttalas som ett sammansatt ord ska det också skrivas som ett sammansatt ord.
+</div></Collapse>
 <Collapse title="undefined"><div class="content">
 
 undefined
