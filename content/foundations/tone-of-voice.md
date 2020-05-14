@@ -159,4 +159,29 @@ Skrivs alltid före siffran – exempel SEK 500.
 
 • MSEK — Miljoner kronor. Följer samma regler som SEK.
 </div></Collapse>
+<Collapse title="Tankstreck (–) "><div class="content">
+
+Tankstreck är dubbelt så långt som ett bindestreck. När vi skriver tankstreck i betydelsen till, skriver vi dem utan mellanslag: Lunch klockan 11.00–12.00. Tankstreck används också kring inskjutna satser, till exempel förklaringar eller jämförelser: Skadan var omfattande – vänster framdörr var intryckt – men bilen gick att köra. Då omges tankstrecket av mellanslag.
+</div></Collapse>
+<Collapse title="Telefon- och faxnummer "><div class="content">
+
+031-44 32 88\
+08-588 400 00\
+08-560 80 50\
+070-964 40 00\
++ 46 8-560 480 50 (internationellt)
+</div></Collapse>
+<Collapse title="Titlar och avdelningar"><div class="content">
+
+Titlar skriver vi alltid med liten bokstav i början. Avdelningar och andra organisatoriska enheter skriver vi med stor bokstav i början.\
+Exempel: Anna Länsman, skadereglerare, Skadeavdelningen
+</div></Collapse>
+<Collapse title="Utropstecken (!) "><div class="content">
+
+Använd utropstecken sparsamt.
+</div></Collapse>
+<Collapse title="undefined"><div class="content">
+
+undefined
+</div></Collapse>
 </section>
