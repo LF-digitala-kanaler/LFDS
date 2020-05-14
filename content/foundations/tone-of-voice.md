@@ -132,4 +132,16 @@ Markera tusental med mellanslag: 55 000 kronor. Vi använder inte punkter för a
 
 Vi använder snedstreck vid betydelsen per: Hastigheten var 50 km/h. Dessutom använder vi snedstreck vid uppgift om tidsperioder: Månadsskiftet mars/april.
 </div></Collapse>
+<Collapse title="Ska"><div class="content">
+
+Skriv ska, inte skall.
+</div></Collapse>
+<Collapse title="Svenska, engelska eller svengelska? "><div class="content">
+
+Globalisering, internet och teknikutveck­ling har gjort att alltfler låneord används i svenskan. Vi skriver till exempel internet med litet i. Även intranät skrivs med litet i. Webb skriver vi med två b. Orden pc, cd-rom och dvd skrivs med små bokstäver. Vi skriver e-post, inte e-mail. Vi mejlar, vi mailar inte.
+</div></Collapse>
+<Collapse title="undefined"><div class="content">
+
+undefined
+</div></Collapse>
 </section>
