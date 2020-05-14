@@ -9,7 +9,7 @@ import ComponentExample from '../components/ComponentExample'
 import { Location, navigate, globalHistory} from "@reach/router";
 import ComponentVersion from '../components/ComponentVersion';
 import Deprecated from '../components/Deprecated';
-// Export Template for use in CMS preview
+
 
 export const ComponentPageTemplate = ({
   title,
@@ -17,8 +17,7 @@ export const ComponentPageTemplate = ({
   componentExample,
   backgroundColor,
   tabs,
-  currentDirectory,
-  resizeDirection
+  currentDirectory
 
 }) => (
   
@@ -87,13 +86,13 @@ const ComponentPage = ({
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={page.fields.frontmattermd.tabs}
+        tabs={page.fields.frontmattermd.tabs || page.frontmatter.tabs}
         category={page.frontmatter.category}
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
         priority={page.frontmatter.priority}
-        resizeDirection={page.frontmatter.resizeDirection}
+        // resizeDirection={page.frontmatter.resizeDirection}
       />
     </Layout>
   )
@@ -118,7 +117,6 @@ export const pageQuery = graphql`
         template
         category
         lang
-        resizeDirection
         previewImage {
           publicURL
         }

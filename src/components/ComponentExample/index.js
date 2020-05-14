@@ -13,7 +13,7 @@ import style from './index.module.css';
 import $ from 'jquery'
 
 
-const ComponentExample = ({variants, background, direction}) => {
+const ComponentExample = ({variants, background}) => {
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
   const [code, setCode] = useState(variants[0].node.content);
   const [source, setSource] = useState(false);
@@ -109,7 +109,7 @@ const ComponentExample = ({variants, background, direction}) => {
             source &&
             <CodeBlock code={`${code}`} />
           }
-          <Preview direction={direction}>
+          <Preview >
             <Frame
               style={{
                 height,
