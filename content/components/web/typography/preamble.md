@@ -1,10 +1,12 @@
 ---
 template: ComponentPage
-title: Preamble
-intro: The preample are used as a "lead" element, containing important
-  information or USP text related to the page.
-description: The preample are used as a "lead" element, containing important
-  information or USP text related to the page.
+title: Lead paragraph
+intro: The lead paragraph is placed first on a page and is used to summarise the
+  contents of a page with the intent of grabbing the user's attention. In
+  product-oriented pages it is used to present the USPs in a short format.
+description: The lead paragraph is placed first on a page and is used to
+  summarise the contents of a page and present the USP in a short format where
+  applicable.
 previewImage: /img/preamble.svg
 category: Typography
 tabs:
@@ -12,18 +14,12 @@ tabs:
       ## How to use
 
 
-      The preample are used as a "lead" element, containing important information or USP text related to the page, and always positions itself below a display heading. You do not need to use a preamble on every page but in an article or product page it is preferred.
+      Lead paragraphs are used to grab the user's attention so that they want to continue reading more. This is used by summarising the contents of the page and highlighting the most important USPs on product-oriented pages. Lead paragraphs should be short and snappy - try to keep them to two or three sentences.
 
 
-      The preamble is always in the font Intro Cond regular but in a bit bigger size.
+      Lead paragraphs should be the first thing after the [display heading ](headings#display-headings-h1)when used. It is not mandatory, but encouraged to use lead paragraphs on pages. Stylewise lead paragraphs are in set in Intro Cond regular and a larger font size than the normal paragraph text.
 
 
-      **Good to have in mind**
-
-
-      * two or three sentences
-
-      * Summarize the content and highlight the most important
 
 
       Payoff - Another name but kinda the same. Used as a payoff under headlines for further explanation. Usually one short sentences.
