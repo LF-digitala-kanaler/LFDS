@@ -1,10 +1,9 @@
 ---
 template: ComponentPage
 title: Line element
-intro: The line element also known as HR element are used to separate some parts
-  of the page with a line.
-description: The line element also known as HR element are used to separate some
-  parts of the page with a line.
+intro: The line element is used to separate parts of the page from each other.
+  We use the html-tag hr and style it in the fashion of Länsförsäkringar.
+description: "The line element is used to separate parts of the page from each other. "
 previewImage: /img/line.svg
 category: Page Content
 tabs:
@@ -12,13 +11,21 @@ tabs:
       ## How to use
 
 
-      The line are used to separat som parts in a page to make it easier for the user to se what parts are set together. The <**hr**>**element** is most often displayed as a horizontal rule that is used to separate content (or define a change) in a page.
+      Use the line element to separate parts of the page from each other when needed.  It has the shape of an horizontal line and we use the standard html-tag HR (which is an abbreviation of horizontal rule) and just style it to fit in at Länsförsäkringar. It is typically placed in a block of text to help signify a change in content within the larger context.
 
 
-      ### When you design
+      ### Modifier
 
 
-      We have to different colors on the line one for white background and one for grey background.
+      There are two versions of the line element, one to be used on a white background and one to be used on a grey background.
+
+
+      ## Please note
+
+
+      * If you need a clearer division between various parts of your text, consider using the more common [panel-component](panel).
+
+      * The usage of the line element as a stylistic device on some headers on the landing page of [lansforsakringar.se](https://www.lansforsakringar.se/) should be seen as exception and shouldn't be reused elsewhere. If that effect is wanted, it should be done by styling the header in such fashion.
 
 
       ## Other material
