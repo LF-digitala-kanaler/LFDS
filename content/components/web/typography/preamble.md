@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
-title: Preamble
-intro: The preample are used as a "lead" element, containing important
-  information or USP text related to the page.
-description: The preample are used as a "lead" element, containing important
-  information or USP text related to the page.
+title: Lead paragraph
+intro: The lead paragraph is placed first on a page and is used to summarise the
+  contents of a page with the intent of grabbing the user's attention.
+description: The lead paragraph is placed first on a page and is used to
+  summarise the contents of a page.
 previewImage: /img/preamble.svg
 category: Typography
 tabs:
@@ -12,29 +12,44 @@ tabs:
       ## How to use
 
 
-      The preample are used as a "lead" element, containing important information or USP text related to the page, and always positions itself below a display heading. You do not need to use a preamble on every page but in an article or product page it is preferred.
+      Lead paragraphs are used to grab the user's attention so that they want to continue reading more. This is used by summarising the contents of the page.
 
 
-      The preamble is always in the font Intro Cond regular but in a bit bigger size.
+      Lead paragraphs should be the first thing after the [display heading ](headings#display-headings-h1)when used. It is not mandatory, but encouraged to use lead paragraphs on pages. Stylewise lead paragraphs are in set in Intro Cond regular and a larger font size than the normal paragraph text.
 
 
-      **Good to have in mind**
+      ## Variations
 
 
-      * two or three sentences
-
-      * Summarize the content and highlight the most important
+      The lead paragraphs in lansforsakringar.se and Mina Sidor are somewhat different, both in how they are used and in font size. Use the one applicable one for which platform you are designing for.
 
 
-      Payoff - Another name but kinda the same. Used as a payoff under headlines for further explanation. Usually one short sentences.
+      ### lansforsakringar.se
 
 
-      ## To consider
+      In product pages (like [Villaförsäkring](https://www.lansforsakringar.se/privat/forsakring/hemforsakring/villa/)), try to keep the lead paragraph to two or three sentences and follow the sentences by presenting the USPs in a short format. 
 
 
-      * Länka inte i ingress
+      * Do not use links in the lead paragraph.
 
-      * Gör inte fet text i ingressen
+      * Do not bold words in the lead paragraph.
+
+
+      *Use the text style called "Ingress" in the Sketch library when designing for lansforsakringar.se.*
+
+
+      ### Mina sidor
+
+
+      The lead paragraph in Mina Sidor has been used in more diverse ways - preferably it should highlight some details about what is presented on the page. It is more closely linked to the heading than its lansforsakringar.se sibling and also has a smaller font size. The lead paragraph shouldn't span more than two rows on desktop - keeping the text on one row is preferred.
+
+
+      * A link may be put as the last thing of the lead paragraph.
+
+      * Only use bold to highlight dynamic data (such as account number)
+
+
+      *Use the text style called "payoff" in the Sketch library when designing for Mina sidor.*
 
 
       ## Other material
