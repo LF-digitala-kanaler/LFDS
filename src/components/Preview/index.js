@@ -9,7 +9,7 @@ const Preview = ({children}) => {
   return (
     <div className={style.Preview}>
       <Resizable
-        enable={{ top:false, right:true, bottom:false, left:false, topRight:false, bottomRight:false, bottomRight:true, topLeft:false }}
+        enable={{ top:false, right:true, bottom:false, left:false, topRight:false, bottomRight:false, topLeft:false }}
         minWidth={300}
         maxWidth="100%"
         handleComponent={{

@@ -2,7 +2,7 @@
 import React from "react"
 import style from './index.module.css'
 import Wrapper from '../Wrapper';
-import cx from 'classnames'
+
 
 const HeroBlock = ({ background, quote, cite, image }) => {
   
