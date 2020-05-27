@@ -9,7 +9,6 @@ const navigation = {
     title: "Components",
     href: "components/web",
     id: 34567
-    
   },
   // "components/app": {
   //   title: "Components",
