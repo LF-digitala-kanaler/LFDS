@@ -24,5 +24,7 @@ tabs:
 
       When to use different graphs you find [here](/patterns/general-patterns/graphs-and-when-to-use-them#type-of-graph).
     name: Design
+  - name: Code
+    content: code
 backgroundColor: "#ffffff"
 ---
