@@ -150,6 +150,7 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         options: 
           - { label: "General Patterns", value: "General Patterns" }
+          - { label: "Template patterns", value: "Template patterns" }
       - label: Preview Image
         name: previewImage
         widget: image
