@@ -12,9 +12,9 @@ lang: true
 Och sen kan man säga lite mer här.
 
 <section>
-<Collapse title="Ramverk"><div class="content">
+<Collapse title="Ramverk"><div class="content"><div class="content">
 
-BILD
+<figure class="Image Image__border Image__border--noPadding"><img src="/img/ramverk-öppna-sidor.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 Här kommer förklaring
 </div></Collapse>
