@@ -122,7 +122,6 @@ collections: # A list of collections the CMS should be able to edi
         name: 'background'
         widget: 'select'
         required: false
-        hint: ['Background for component example ( gray is default)']
         options: 
           - { label: "White", value: "bg-white" }
           - { label: "Grey", value: "" }
@@ -148,6 +147,7 @@ collections: # A list of collections the CMS should be able to edi
         name: 'category'
         widget: 'select'
         required: false
+        default: ""
         options: 
           - { label: "General Patterns", value: "General Patterns" }
           - { label: "Template patterns", value: "Template patterns" }
@@ -180,7 +180,6 @@ collections: # A list of collections the CMS should be able to edi
         name: 'background'
         widget: 'select'
         required: false
-        hint: ['Background for component example ( gray is default)']
         options: 
           - { label: "White", value: "bg-white" }
           - { label: "Grey", value: "" }
@@ -239,7 +238,6 @@ collections: # A list of collections the CMS should be able to edi
         name: 'background'
         widget: 'select'
         required: false
-        hint: ['Background for component example ( gray is default)']
         options: 
           - { label: "White", value: "bg-white" }
           - { label: "Grey", value: "" }
