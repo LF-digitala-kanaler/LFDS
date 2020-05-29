@@ -11,6 +11,3 @@ lang: true
 ---
 Och sen kan man säga lite mer här.
 
-<figure class="Image Image__border"><img src="/img/struktur-öppnasidor.jpg" srcset="/img/struktur-öppnasidor.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-<figure class="Image Image__border"><img src="/img/sidmallar-öppnasidor.jpg" srcset="/img/sidmallar-öppnasidor.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
