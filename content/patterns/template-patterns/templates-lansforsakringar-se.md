@@ -11,14 +11,14 @@ lang: true
 ---
 Och sen kan man säga lite mer här.
 
-<figure class="Image Image__border"><img src="/img/struktur-öppnasidor.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__border"><img src="/img/struktur-öppnasidor.jpg" srcset="/img/struktur-öppnasidor.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-<figure class="Image Image__border"><img src="/img/sidmallar-öppnasidor.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__border"><img src="/img/sidmallar-öppnasidor.jpg" srcset="/img/sidmallar-öppnasidor.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-* <section>
-  <Collapse title="Ramverk"><div class="content"><div class="content">
+<section>
+<Collapse title="Ramverk"><div class="content">
 
-  <figure class="Image Image__border Image__border--noPadding"><img src="/img/ramverk-öppna-sidor.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+  <figure class="Image Image__border Image__border--noPadding"><img src="/img/ramverk-öppna-sidor.jpg" srcset="/img/ramverk-öppna-sidor.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
   Här kommer förklaring
   </div></Collapse>
