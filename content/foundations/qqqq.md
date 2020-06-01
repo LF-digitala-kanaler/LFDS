@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: ""
+category: Motion
 title: qqqq
 intro: qqqq
 wide: false
