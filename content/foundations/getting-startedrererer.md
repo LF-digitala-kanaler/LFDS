@@ -1,4 +1,0 @@
----
-title: rrr
-intro: rrrr
----
