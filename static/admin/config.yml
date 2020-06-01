@@ -79,10 +79,6 @@ collections: # A list of collections the CMS should be able to edi
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
       - label: 'Category'
         name: 'category'
         widget: 'select'
@@ -96,6 +92,11 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }
           - { label: "Motion", value: "Motion" }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
+     
         default: "NoCategory"
       - label: Preview Image
         name: previewImage
@@ -149,10 +150,10 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options: 
-          - { label: "Category", value: "NoCategory" }
+          - { label: "Category", value: "null" }
           - { label: "General Patterns", value: "General Patterns" }
           - { label: "Template patterns", value: "Template patterns" }
-        default: "NoCategory"
+        default: "null"
       - label: Preview Image
         name: previewImage
         widget: image
