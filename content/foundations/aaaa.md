@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: ""
+category: Getting Started
 title: aaaa
 intro: aaaa
 wide: false
