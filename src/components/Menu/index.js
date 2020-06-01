@@ -54,19 +54,22 @@ const Menu = ({currentDirectory}) => {
       ? data.allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-  
+  console.log(navigationItems)
   const navigationStructure = _(navigationItems.items)
   .chain()
   .groupBy('node.frontmatter.category')
-  .map((value, key) => ({ parentLink: key,  childLink: value}))
-  .value()
   
+  .map((value, key) => ({ 
+    parentLink: key,  childLink: value}
+  ))
+  .value()
+ 
   const navigationStructureSorted = _.orderBy(navigationStructure, [(item) => {
     const nestedObj = _.get(item, 'childLink');
     item['childLink'] = _.orderBy(nestedObj,['node.frontmatter.priority', 'node.frontmatter.title'],['asc', 'asc']);
       return [item.parentLink, item['childLink']];
     }], 'asc', 'asc');
-
+    console.log(navigationStructureSorted)
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
 

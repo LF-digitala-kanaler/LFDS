@@ -46,7 +46,7 @@ const MenuItem = ({item, location}) => {
     });
   };  
   
-  const hasCategory = !(item.parentLink === 'null');
+  const hasCategory = !(item.parentLink === 'null' || item.parentLink === 'NoCategory');
   return( 
     hasCategory ? (
       <li key={item.childLink[0].node.id} className={className} >

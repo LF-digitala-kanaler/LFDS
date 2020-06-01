@@ -31,6 +31,7 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         create: true 
         options: 
+        - { label: "Category", value: "NoCategory" }
         - { label: "Button and Links", value: "Button and Links" }
         - { label: "Data Visualization", value: "Data Visualization" }
         - { label: "Forms", value: "Forms" }
@@ -41,7 +42,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "System Display", value: "System Display" }
         - { label: "Tables", value: "Tables" }
         - { label: "Typography", value: "Typography" }
-      
+        default: "NoCategory"
 
       - name: 'tabs'
         label: 'Tabs'
@@ -86,8 +87,8 @@ collections: # A list of collections the CMS should be able to edi
         name: 'category'
         widget: 'select'
         required: false
-        defalut: ''
         options:
+          - { label: "Category", value: "NoCategory" }
           - { label: "Getting Started", value: "Getting Started" }
           - { label: "Brand Identity", value: "Brand Identity" }
           - { label: "Principles and strategies", value: "Principles and strategies" }
@@ -95,7 +96,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }
           - { label: "Motion", value: "Motion" }
-     
+        default: "NoCategory"
       - label: Preview Image
         name: previewImage
         widget: image
@@ -147,10 +148,11 @@ collections: # A list of collections the CMS should be able to edi
         name: 'category'
         widget: 'select'
         required: false
-        default: ""
         options: 
+          - { label: "Category", value: "NoCategory" }
           - { label: "General Patterns", value: "General Patterns" }
           - { label: "Template patterns", value: "Template patterns" }
+        default: "NoCategory"
       - label: Preview Image
         name: previewImage
         widget: image
@@ -207,8 +209,10 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options: 
+          - { label: "Category", value: "NoCategory" }
           - { label: "Graphics", value: "Graphics" }
           - { label: "Design dimensions", value: "Design dimensions" }
+        default: "NoCategory"
       - label: Preview Image
         name: previewImage
         widget: image
