@@ -75,7 +75,8 @@ collections: # A list of collections the CMS should be able to edi
     media_folder: /static/img
     public_folder: /img
     folder: content/foundations
-    path: '{{category}}/{{slug}}'
+    slug: '{{category}}/{{title}}'
+    path: '{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
