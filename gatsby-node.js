@@ -148,11 +148,6 @@ exports.onCreateNode = async ({ node, actions, getNode, loadNodeContent, createC
     ) {
       slug = `/`
     } 
-    if (
-      parsedFilePath.dir.includes('NoCategory')
-    ){
-      slug = slug.replace('NoCategory','');
-    }
     createNodeField({
       node,
       name: 'slug',

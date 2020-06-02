@@ -31,7 +31,6 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         create: true 
         options: 
-        - { label: "Category", value: "NoCategory" }
         - { label: "Button and Links", value: "Button and Links" }
         - { label: "Data Visualization", value: "Data Visualization" }
         - { label: "Forms", value: "Forms" }
@@ -42,7 +41,6 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "System Display", value: "System Display" }
         - { label: "Tables", value: "Tables" }
         - { label: "Typography", value: "Typography" }
-        default: "NoCategory"
 
       - name: 'tabs'
         label: 'Tabs'
@@ -142,7 +140,7 @@ collections: # A list of collections the CMS should be able to edi
     media_folder: /static/img
     public_folder: /img
     folder: content/patterns/
-    path: '{{category}}/{{slug}}'
+    path: '{{category}}/{{title}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
@@ -151,10 +149,12 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options: 
-          - { label: "Category", value: "NoCategory" }
           - { label: "General Patterns", value: "General Patterns" }
           - { label: "Template patterns", value: "Template patterns" }
-        default: "NoCategory"
+          - { label: "LF.se", value: "LF.se" }
+          - { label: "Mina sidor", value: "Mina sidor" }
+          - { label: "Köptjänster", value: "Köptjänster" }
+          - { label: "App", value: "App" }
       - label: Preview Image
         name: previewImage
         widget: image
@@ -211,10 +211,8 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options: 
-          - { label: "Category", value: "NoCategory" }
           - { label: "Graphics", value: "Graphics" }
           - { label: "Design dimensions", value: "Design dimensions" }
-        default: "NoCategory"
       - label: Preview Image
         name: previewImage
         widget: image
