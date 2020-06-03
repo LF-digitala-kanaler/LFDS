@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>component/logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="component/logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logotyp/Symbol" transform="translate(77.000000, 17.000000)">
+            <g id="Page-1">
+                <polygon id="Fill-1" fill="#005AA0" points="30.6909084 0.000160747664 30.6909084 23.8711888 61.9507028 23.8711888 61.9507028 85.8217308 85.8217308 85.8217308 85.8217308 0.000160747664"></polygon>
+                <polygon id="Fill-2" fill="#005AA0" points="0 0.000160747664 0 85.8217308 55.1300187 85.8217308 55.1300187 61.9515065 23.8702243 61.9515065 23.8702243 0.000160747664"></polygon>
+                <polygon id="Fill-3" fill="#E30613" points="30.6907477 55.1300187 55.1300187 55.1300187 55.1300187 30.6907477 30.6907477 30.6907477"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

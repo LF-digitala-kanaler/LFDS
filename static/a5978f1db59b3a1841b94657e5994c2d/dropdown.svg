@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6 3.41421356 1.70710678 7.70710678 0.292893219 6.29289322 6 0.585786438 11.7071068 6.29289322 10.2928932 7.70710678"></polygon>
+    </defs>
+    <g id="Gladdesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sidlayout-Component-landing-page-forms" transform="translate(-1084.000000, -814.000000)">
+            <g id="dropdown" transform="translate(1084.000000, 814.000000)">
+                <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
+                <rect id="Rectangle-Copy-2" stroke="#DCDDDE" stroke-width="2" x="47" y="31" width="122" height="20"></rect>
+                <line x1="46" y1="23" x2="103" y2="23" id="Path-2-Copy-3" stroke="#DCDDDE" stroke-width="2"></line>
+                <g id="Icons/20px/chevron-down-20" transform="translate(148.000000, 31.000000)">
+                    <g>
+                        <rect id="invisible-20" x="0" y="0" width="20" height="20"></rect>
+                        <g id="outlines" transform="translate(10.000000, 11.000000) scale(1, -1) translate(-10.000000, -11.000000) translate(4.000000, 7.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Path-3" fill="#005AA0" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+                <rect id="Rectangle-Copy" fill="#DCDDDE" x="46" y="67" width="64" height="2"></rect>
+                <rect id="Rectangle-Copy-3" fill="#DCDDDE" x="71" y="80" width="122" height="2"></rect>
+                <rect id="Rectangle" stroke="#D5D5D5" stroke-width="2" x="47" y="74" width="14" height="14"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

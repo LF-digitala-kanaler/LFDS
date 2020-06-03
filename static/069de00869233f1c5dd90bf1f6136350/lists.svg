@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>lists</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Gladdesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sidlayout-Component-landing-page-navigations-Copy-2" transform="translate(-426.000000, -653.000000)">
+            <g id="lists" transform="translate(426.000000, 653.000000)">
+                <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
+                <g id="Group-3" transform="translate(28.000000, 22.000000)">
+                    <rect id="Rectangle-Copy-3" fill="#DCDDDE" x="1.86162197e-12" y="0" width="178.257261" height="2"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#DCDDDE" x="1.86162197e-12" y="10" width="178.257261" height="2"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#DCDDDE" x="0" y="20" width="78" height="2"></rect>
+                    <rect id="Rectangle-Copy-18" fill="#DCDDDE" x="-1.47792889e-12" y="36" width="48.7966805" height="3"></rect>
+                    <rect id="Rectangle-Copy-16" fill="#222222" x="20" y="48" width="84" height="2"></rect>
+                    <circle id="Oval" fill="#E30613" cx="10" cy="49" r="2"></circle>
+                    <rect id="Rectangle-Copy-16" fill="#222222" x="20" y="60" width="71" height="2"></rect>
+                    <circle id="Oval" fill="#E30613" cx="10" cy="61" r="2"></circle>
+                    <rect id="Rectangle-Copy-16" fill="#222222" x="20" y="72" width="91" height="2"></rect>
+                    <circle id="Oval" fill="#E30613" cx="10" cy="73" r="2"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
