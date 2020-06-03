@@ -2,7 +2,7 @@
 backend:
   name: github
   repo: LF-digitala-kanaler/LFUI-website
-  branch: master
+  branch: develop
 
 
 media_folder: static/img
