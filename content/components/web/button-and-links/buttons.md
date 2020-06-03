@@ -356,7 +356,7 @@ tabs:
       #### Size
 
 
-      * `.btn-sm ` - less padding.
+      * `.btn-sm` - less padding.
 
       * `.btn-lg` - more padding and larger font-size
 
@@ -366,7 +366,7 @@ tabs:
       #### Loading state
 
 
-      If you want to indicate that you are loading something when the user has clicked on the button, you may use the `loading` class. This with the combination of some markup for the spinner will show a loader on the button. Note that you need to add your own logic for adding and removing the class`loading`.
+      If you want to indicate that you are loading something when the user has clicked on the button, you may use the `loading` class. This with the combination of some markup for the spinner will show a loader on the button. Note that you need to add your own logic for adding and removing the class `loading`.
 
 
       ```
