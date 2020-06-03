@@ -4,7 +4,7 @@ module.exports = {
     title: 'LFDS',
     headline: 'Länsförsäkringar Design System',
     description: 'Länsförsäkringar Design system`',
-    siteUrl: 'https://lfui-beta-aedd0a.netlify.com/'
+    siteUrl: 'https://lf-digitala-kanaler.github.io/'
   },
   plugins: [
 
@@ -164,7 +164,11 @@ module.exports = {
                 "https://lfui-beta-aedd0a.netlify.com",
                 "https://www.lfui-beta-aedd0a.netlify.com",
                 "http://lfui-beta-aedd0a.netlify.com",
-                "http://www.lfui-beta-aedd0a.netlify.com"
+                "http://www.lfui-beta-aedd0a.netlify.com",
+                "https://lf-digitala-kanaler.github.io",
+                "https://www.lf-digitala-kanaler.github.io",
+                "http://lf-digitala-kanaler.github.io",
+                "http://www.lf-digitala-kanaler.github.io"
               ],
               developmentLocation: `http://localhost:8000` //optional, defaults to http://localhost:8000
             }
