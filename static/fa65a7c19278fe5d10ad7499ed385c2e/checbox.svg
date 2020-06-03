@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>checbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="13.2928932 6.29289322 14.7071068 7.70710678 9 13.4142136 5.29289322 9.70710678 6.70710678 8.29289322 9 10.5857864"></polygon>
+    </defs>
+    <g id="Gladdesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sidlayout-Component-landing-page-forms" transform="translate(-426.000000, -482.000000)">
+            <g id="checbox" transform="translate(426.000000, 482.000000)">
+                <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
+                <g id="Group-3" transform="translate(45.000000, 25.000000)">
+                    <g id="Icons/20px/check-20" transform="translate(0.000000, 21.000000)">
+                        <g id="outlines">
+                            <g>
+                                <rect id="invisible-20" x="0" y="0" width="20" height="20"></rect>
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Combined-Shape" fill="#005AA0" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="Rectangle-Copy" fill="#DCDDDE" x="2" y="16" width="64" height="2"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#DCDDDE" x="27" y="29" width="122" height="2"></rect>
+                    <polygon id="Rectangle-Copy-8" fill="#D5D5D5" points="2 0 97 0 97 4 2 4"></polygon>
+                    <rect id="Rectangle" stroke="#005AA0" stroke-width="2" x="3" y="23" width="14" height="14"></rect>
+                    <rect id="Rectangle-Copy" fill="#DCDDDE" x="2" y="49" width="64" height="2"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#DCDDDE" x="27" y="62" width="122" height="2"></rect>
+                    <rect id="Rectangle" stroke="#D5D5D5" stroke-width="2" x="3" y="56" width="14" height="14"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

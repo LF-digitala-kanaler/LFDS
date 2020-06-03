@@ -1,8 +1,0 @@
-
-.ComponentExample__head {
-  
-  @media (--medium-viewport) { 
-    display: flex;
-    justify-content: space-between;
-  }
-}
