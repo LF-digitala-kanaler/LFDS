@@ -1,0 +1,35 @@
+.FullWidthBackground {
+  width: 100%;
+  position: relative;
+  margin: var(--spacing-vertical--3) 0;
+}
+
+
+.FullWidthBackground__container {
+  max-width: var(--content-width--wide);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.FullWidthBackground__content {
+  background-color: var(--color-white);
+  padding: var(--spacing-md);
+  position: absolute;
+  top: var(--spacing-xxlg);
+  right: var(--spacing-xxlg);
+  max-width: 23.75rem;
+  width: 100%;
+  @media (--small-viewport-down) { 
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 32px;
+    top: auto;
+  }
+
+
+}

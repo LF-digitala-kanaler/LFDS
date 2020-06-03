@@ -1,0 +1,34 @@
+:root {
+  --breadcrumb-spacing: var(--spacing-sm) calc(var(--spacing-xs) / 2);
+
+}
+
+.Breadcrumb {
+  display: none;
+
+  @media (--medium-viewport) { 
+    list-style-type: none;
+    display: flex;
+    padding: var(--breadcrumb-spacing);
+    
+  }
+ 
+}
+
+.Breadcrumb__item:not(:last-child) {
+  @media (--medium-viewport) { 
+    &:after {
+      content: '/';
+      margin-right: var(--spacing-xs);
+      margin-left: var(--spacing-xs);
+    }
+  }
+  
+}
+.Breadcrumb__link {
+  @media (--medium-viewport) { 
+    text-decoration: none;
+    color: var(--color-black);
+    text-transform: capitalize;
+  }
+}

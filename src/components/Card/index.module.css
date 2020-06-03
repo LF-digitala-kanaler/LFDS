@@ -1,0 +1,91 @@
+.Card {
+  text-decoration: none;
+  color: var(--color-black);
+  display: block;
+  transition: background-color 0.2s ease-in;
+  text-align: center;
+  padding: calc(2* var(--spacing-lg)) var(--spacing-lg) var(--spacing-lg);
+  @media (--medium-viewport) { 
+    
+    &:hover {
+      background-color: var(--color-background-light);
+    }
+  }
+}
+
+.Card__wrapper {
+  width: 100%;
+  
+  @media (--xsmall-viewport) { 
+    display: flex;
+  }
+}
+
+.Card__title {
+  font-size: 1.5rem;
+  line-height: 1.13;
+  margin-bottom: var(--spacing-vertical--05);
+  text-align: left;
+
+  @media (--large-viewport) { 
+    font-size: 2rem;
+  }
+
+}
+.Card__title--small {
+  font-size: 1.2rem;
+  margin-top: var(--spacing-vertical--05);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  @media (--large-viewport) { 
+    font-size: 1.25rem;
+  }
+  
+}
+
+.Card__flag {
+  margin-left: var(--spacing-xs);
+  position: relative;
+  top: 2px;
+  width: 19px;
+  height: 14px;
+}
+.Card--list .Card__flag{
+  width: 30px;
+  height: 22px;
+  top: 0px;
+}
+.Card__image {
+  margin: 0;
+}
+
+.Card__object,
+.Card__empty {
+  width: 240px;
+  height: 120px;
+  margin-bottom: var(--spacing-vertical--1);
+}
+
+.Card__image--spacing {
+    margin-right: var(--spacing-lg);
+}
+
+.Card__description {
+  text-align: left;
+  @media (--medium-viewport) { 
+    max-width: 33rem;
+  }
+  
+}
+.Card--list {
+  
+}
+
+
+
+/* .Card__body {
+  @media (--small-viewport-down) { 
+    width: 66%;
+  }
+} */

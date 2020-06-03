@@ -1,0 +1,260 @@
+
+@custom-media --xsmall-viewport (width > 37.5rem);
+@custom-media --small-viewport (width > 48rem);
+@custom-media --small-viewport-down (width < 48rem);
+@custom-media --medium-viewport (width >= 64rem); 
+@custom-media --medium-viewport-down (width < 64rem); 
+@custom-media --large-viewport (width > 70rem);
+@custom-media --large-viewport-down (width < 70rem);
+@custom-media --xlarge-viewport (width > 83.75rem);
+@custom-media --xlarge-viewport-down (width < 83.75rem);
+@custom-media --xxlarge-viewport (width > 96.875rem);
+@custom-media --xxlarge-viewport-down (width < 96.875rem);
+:root {
+  --font-family-base: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  --font-weight-bold: 700;
+  --font-weight-normal: normal;
+
+  --font-size-large: 1.125rem;
+  --font-size-normal: 1rem;
+  --font-size-small: 0.875rem;
+
+  
+  --color-body: #515151;
+  --color-white: #fff;
+  --color-navy: #00427a;
+  --color-blue: #005aa0; 
+  --color-smoke: #F3F3F3;
+  --color-grey: #747578;
+  --color-black: #222;
+  --color-red: #E30613;
+  --color-shadow: #e5e5e5;
+  --color-yellow: #faf4d4;
+  --color-background-light: #fafafa;
+
+  --color-border: var(--color-shadow);
+
+  --baseline: 1.3152;
+  --baseline-font-size: 1rem;
+  
+  --spacing-unit: 1rem;
+  --spacing-xs: calc(0.5 * var(--spacing-unit));
+  --spacing-sm: calc(0.75 * var(--spacing-unit));
+  --spacing-md: calc(1.25 * var(--spacing-unit));
+  --spacing-lg: calc(1.5 * var(--spacing-unit));
+  --spacing-xlg: calc(1.75 * var(--spacing-unit));
+  --spacing-xxlg: calc(2 * var(--spacing-unit));
+
+  --spacing-vertical--05: calc(0.5 * var(--baseline) * 1rem);
+  --spacing-vertical--1: calc(1 * var(--baseline) * 1rem);
+  --spacing-vertical--2: calc(2 * var(--baseline) * 1rem);
+  --spacing-vertical--25: calc(2.5 * var(--baseline) * 1rem);
+  --spacing-vertical--3: calc(3 * var(--baseline) * 1rem);
+
+
+  --breakpoint-1: 48rem;
+  --breakpoint-2: 62rem;
+  --breakpoint-3: 75rem;
+  
+  --sidebar-width: 17.375rem;
+
+  --content-width: 60.625rem; 
+  --content-width--narrow: 47.5rem;
+  --content-width--tight: 37.5rem;
+  --content-width--wide: 78.5rem;
+
+  --header-height: 7.75rem;
+
+}
+
+
+
+/*  Rhythm unit 22px/ */
+/* @media (min-width: 30em) {
+  :root {
+    /* a value of 3 used here to exaggerate the changes so you can see it in the demo below */
+    /* --baseline: 3;
+  } */
+/* } */ 
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+}
+body {
+  font-size: 100%;
+  margin: 0;
+  font-family: var(--font-family-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: var(--baseline);
+  background-color: var(--color-smoke);
+  min-height: 100vh;
+  @media (--medium-viewport) {
+    /* fixed header */
+    padding-top: calc(var(--header-height) + var(--spacing-vertical--2));
+  }
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--color-border);
+  transition: height 0.25s;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--spacing-vertical--1);
+  line-height: var(--baseline);
+}
+button {
+  -webkit-appearance: none;
+}
+/* fix for gatsby/ react router div */
+#___gatsby,
+div[role="group"][tabindex] {
+  height: 100%;
+  min-height: 100vh;
+  display:flex; 
+  flex-direction:column;
+
+   @media (--medium-viewport) { 
+     min-height: calc(100vh - (var(--header-height) + var(--spacing-vertical--2)));
+   }
+}
+
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+::selection { 
+  background: var(--color-shadow); 
+}
+
+/* External Links */
+
+a {
+  text-underline-position: under;
+}
+
+a[rel*="external"]::after {
+  content:'';
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  display: inline-block; 
+  background-position-y: 50%;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxOHB4IiBoZWlnaHQ9IjE4cHgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5JY29ucy8yMHB4L2V4dGVybmFsLWxpbmstMjA8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGRlZnM+ICAgICAgICA8cGF0aCBkPSJNOSwzIEw5LDUgTDMsNSBMMywxNyBMMTUsMTcgTDE1LDExIEwxNywxMSBMMTcsMTkgTDEsMTkgTDEsMyBMOSwzIFogTTE5LDEgTDE5LDggTDE3LDggTDE3LDQuNDE0IEwxMC43MDcxMDY4LDEwLjcwNzEwNjggTDkuMjkyODkzMjIsOS4yOTI4OTMyMiBMMTUuNTg0LDMgTDEyLDMgTDEyLDEgTDE5LDEgWiIgaWQ9InBhdGgtMSI+PC9wYXRoPiAgICA8L2RlZnM+ICAgIDxnIGlkPSJBbGxhLXNpZG9yIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4gICAgICAgIDxnIGlkPSJMw6Ruay1leHRlcm4iIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNjcuMDAwMDAwLCAtMy4wMDAwMDApIj4gICAgICAgICAgICA8ZyBpZD0iSWNvbnMvMjBweC9leHRlcm5hbC1saW5rLTIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjYuMDAwMDAwLCAyLjAwMDAwMCkiPiAgICAgICAgICAgICAgICA8ZyBpZD0ib3V0bGluZXMiPiAgICAgICAgICAgICAgICAgICAgPGc+ICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9ImludmlzaWJsZS0yMCIgeD0iMCIgeT0iMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48L3JlY3Q+ICAgICAgICAgICAgICAgICAgICAgICAgPG1hc2sgaWQ9Im1hc2stMiIgZmlsbD0id2hpdGUiPiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPiAgICAgICAgICAgICAgICAgICAgICAgIDwvbWFzaz4gICAgICAgICAgICAgICAgICAgICAgICA8dXNlIGlkPSJDb21iaW5lZC1TaGFwZSIgZmlsbD0iIzRBNEE0QSIgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+ICAgICAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgICAgIDwvZz4gICAgICAgICAgICA8L2c+ICAgICAgICA8L2c+ICAgIDwvZz48L3N2Zz4=);
+}
+a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
+  &:after{
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxOHB4IiBoZWlnaHQ9IjE4cHgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5JY29ucy8yMHB4L2V4dGVybmFsLWxpbmstMjA8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGcgaWQ9IkFsbGEtc2lkb3IiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICAgICAgPGcgaWQ9IkzDpG5rLWV4dGVybi1MRiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE2Ny4wMDAwMDAsIC0zLjAwMDAwMCkiPiAgICAgICAgICAgIDxnIGlkPSJJY29ucy8yMHB4L2V4dGVybmFsLWxpbmtfbGYtMjAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2Ni4wMDAwMDAsIDIuMDAwMDAwKSI+ICAgICAgICAgICAgICAgIDxnIGlkPSJJY29ucy8yMHB4L2V4dGVybmFsLWxpbmstMjAiPiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImxpbmVzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjAwMDAwMCwgMi4wMDAwMDApIiBzdHJva2Utd2lkdGg9IjIiPiAgICAgICAgICAgICAgICAgICAgICAgIDxwb2x5bGluZSBpZD0iUmVjdGFuZ2xlLTQiIHN0cm9rZT0iIzAwNUFBMCIgcG9pbnRzPSIxNCA5IDE0IDE2IDAgMTYgMCAyIDcgMiI+PC9wb2x5bGluZT4gICAgICAgICAgICAgICAgICAgICAgICA8cG9seWxpbmUgaWQ9IlBhdGgtMyIgc3Ryb2tlPSIjRTMwNjEzIiBwb2ludHM9IjEwIDAgMTYgMCAxNiA2Ij48L3BvbHlsaW5lPiAgICAgICAgICAgICAgICAgICAgICAgIDxsaW5lIHgxPSI4IiB5MT0iOCIgeDI9IjE1IiB5Mj0iMSIgaWQ9IlBhdGgtNCIgc3Ryb2tlPSIjRTMwNjEzIj48L2xpbmU+ICAgICAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgICAgIDwvZz4gICAgICAgICAgICA8L2c+ICAgICAgICA8L2c+ICAgIDwvZz48L3N2Zz4=);
+  }
+}
+/* Modal */
+
+.Modal {
+  max-width: 444px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(2* var(--spacing-xlg));
+  @media (--medium-viewport) { 
+    margin-top: calc(4* var(--spacing-xlg));
+  }
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.95);
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.25s ease-in-out; 
+  opacity: 0;
+  
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;   
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
+
+.Container {
+  transition: all 0.3s;
+}
+.Container--push {
+  
+  @media (--medium-viewport) {
+    margin-left: var(--sidebar-width);
+  }
+}
+
+/* icons grid remove when icons move to it's own repo */
+.Icons .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Icons .col-4 {
+  flex: 0 1 calc(50%);
+  @media (--small-viewport) { 
+    flex: 0 1 calc(25%);
+  }
+}
+
+.CardGrid__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: var(--spacing-vertical--2) 0;
+ 
+}
+.Icons .icon {
+  color: #005AA0;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.Icons .text-sm {
+    font-size: .875rem;
+    margin-left: 10px;
+}
+
+.Icons .mb-2 {
+    margin-bottom: 2rem!important;
+}
+.Icons .Content h3 {
+  font-size: 1.5rem;
+  line-height: 1.333;
+  margin-bottom: var(--spacing-vertical--05);
+  margin-top: var(--spacing-vertical--2);
+  position: relative;
+
+  @media (--small-viewport) { 
+    font-size: 2rem;
+  
+  }
+}
+/* Helper class for relative turn into position component later */
+
+.Position-relative {
+  position: relative;
+}

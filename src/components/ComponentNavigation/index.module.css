@@ -1,0 +1,27 @@
+:root {
+
+}
+
+.ComponentNavigation__list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+
+.ComponentNavigation__button {
+  background: transparent;
+  border: 0;
+  padding: var(--spacing-xs) var(--spacing-md);
+  outline: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.ComponentNavigation__button--isActive {
+  background-color: var(--color-shadow);
+  border-radius: 4px;
+  outline: 0;
+}

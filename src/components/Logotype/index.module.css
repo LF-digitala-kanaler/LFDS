@@ -1,0 +1,12 @@
+.Logotype {
+  overflow: visible;
+  display: flex;
+  position: relative;
+  top: 0.2625rem;
+
+  @media (--medium-viewport) {
+    position: relative;
+    top: 0.5625rem;
+  }
+
+}
