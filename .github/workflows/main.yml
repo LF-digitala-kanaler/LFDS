@@ -14,4 +14,4 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-repo: LF-digitala-kanaler/lf-digitala-kanaler.github.io
-          deploy-branch: master
+          deploy-branch: gh-pages
