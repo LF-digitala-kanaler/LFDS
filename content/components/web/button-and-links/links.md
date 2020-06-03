@@ -125,7 +125,7 @@ tabs:
       ## Regular
 
 
-      LFUI uses a custom link design where the *underline* is in fact a background-image, placed below the text. The link styling is added when an anchor tag has a`href`-value.
+      LFUI uses a custom link design where the *underline* is in fact a background-image, placed below the text. The link styling is added when an anchor tag has a `href`-value.
 
 
       ```
