@@ -188,6 +188,6 @@ tabs:
 
       * `link-complex` can be used when the link is wrapped around a container and you want the correct link behavior on a targeted element within the container.
 
-      * `link-complex-adaptive-target` is like `link-complex`(&`link-complex-target`), but the link does not get the default link styling, and instead gets the adaptive, inherit styling. Used mainly in the header and footer components.
+      * `link-complex-adaptive-target` is like `link-complex`(& `link-complex-target`), but the link does not get the default link styling, and instead gets the adaptive, inherit styling. Used mainly in the header and footer components.
 backgroundColor: "#fff"
 ---
