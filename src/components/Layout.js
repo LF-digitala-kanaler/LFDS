@@ -46,11 +46,15 @@ export default ({
         const { siteTitle  } =     //googleTrackingId
             data.settingsYaml || {}
        
-        
+            {
+              if(typeof window !== `undefined`) {
+              window.location.replace("https://lf-digitala-kanaler.github.io")
+              }
+            }
         return (
           
           <Fragment>
-            {window.location.replace("https://lf-digitala-kanaler.github.io")}
+            
             <Helmet
               defaultTitle="LFDS"
               titleTemplate={`%s | ${siteTitle}`}
