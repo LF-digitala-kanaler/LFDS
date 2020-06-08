@@ -116,7 +116,7 @@ export const pageQuery = graphql`
         intro
         template
         category
-        lang
+        lang 
         previewImage {
           publicURL
         }

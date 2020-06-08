@@ -65,7 +65,8 @@ collections: # A list of collections the CMS should be able to edi
         required: false
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
       - { label: "Activate vertical re-size on iframe", name: "resizeDirection", widget: "boolean", default: false,  required: false }
-
+      - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
+    
       
     
   - name: design-page
@@ -134,6 +135,7 @@ collections: # A list of collections the CMS should be able to edi
         hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
       - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
+      - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
 
   - name: patterns-page
     label: Patterns
@@ -195,6 +197,7 @@ collections: # A list of collections the CMS should be able to edi
         hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
       - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
+      - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
 
 
   - name: visual-identity-page
@@ -253,6 +256,7 @@ collections: # A list of collections the CMS should be able to edi
         hint: ['Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up']
       - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
+      - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
 
  
   - name: 'landing-page'
@@ -315,7 +319,9 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Background, name: background, widget: hidden, value: 'bg-white' }
           - { label: Template, name: template, widget: hidden, default: Changelog, value: Changelog }
           - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
+          - { label: Intro, name: intro, widget: text, required: false }
+          - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
+
   - name: 'icons'
     label: 'Icons'
     media_folder: /static/img

@@ -47,7 +47,6 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
   }
  
   const overViewGroups = _(overviewPages.items)
-  
   .chain()
   .map((item) => {
     return {
@@ -57,16 +56,14 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
   })
   .value()
 
-  
   // get all article pages on current page that does not have a category
   const children = {
     items: allPages.hasOwnProperty('edges')
-      ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
+      ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory) && items.node.frontmatter.hidden !== true))
       : false
   }
   
   const groups = _(children.items)
-  
   .chain()
   .groupBy('node.frontmatter.category')
   .map((value, key) => ({ category: (key).toLowerCase(),  link: value, previewImage: overViewGroups.previewImage}))
@@ -81,9 +78,6 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
   var merged = _.merge(_.keyBy(overViewGroups, 'category'), _.keyBy(groupsSorted, 'category'));
   var concatCategories = _.values(merged);
  
-  console.log(overViewGroups, 'te')
-  console.log(groupsSorted, 'sorted');
-  console.log(concatCategories)
 
   return (
     <Layout
@@ -134,6 +128,7 @@ export const pageQuery = graphql`
             category
             title
             lang
+            hidden
             previewImage{
               publicURL
             }
