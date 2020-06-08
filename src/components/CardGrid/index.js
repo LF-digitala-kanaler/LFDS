@@ -15,7 +15,7 @@ const CardGrid = ({list}) => {
               grid={true}  
               title={item.category} 
               url={item.link[0].node.fields.contentType.replace(/\/$/, "")} 
-              image={item.previewImage}
+              image={item.previewImage || item.link[0].node.frontmatter.previewImage}
               
             />
             

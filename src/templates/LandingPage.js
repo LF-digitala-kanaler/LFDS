@@ -55,7 +55,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
     }
   })
   .value()
-
+  console.log(overViewGroups, 'over')
   // get all article pages on current page that does not have a category
   const children = {
     items: allPages.hasOwnProperty('edges')
@@ -77,7 +77,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
   
   var merged = _.merge(_.keyBy(overViewGroups, 'category'), _.keyBy(groupsSorted, 'category'));
   var concatCategories = _.values(merged);
- 
+  console.log(concatCategories)
 
   return (
     <Layout
@@ -151,7 +151,6 @@ export const pageQuery = graphql`
             lang
             previewImage {
               publicURL
-              sourceInstanceName
             }
           }
           fields {

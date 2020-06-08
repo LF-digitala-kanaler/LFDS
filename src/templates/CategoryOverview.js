@@ -52,7 +52,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
   const children = {
     links: allPages.hasOwnProperty('edges')
       ? allPages.edges.filter(category => {
-        if(category.node.fields.contentType.includes(currentDirectory)) {
+        if(category.node.fields.contentType.includes(currentDirectory) && category.node.frontmatter.hidden !== true) {
           return {  ...category.node}
         }
         else {
@@ -69,7 +69,6 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
     location: location
   }
 
-  
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -132,6 +131,7 @@ export const pageQuery = graphql`
             category
             title
             lang
+            hidden
             previewImage {
               publicURL
             }
