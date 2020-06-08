@@ -47,4 +47,4 @@ relatedLinks:
 
 We will get you started in no time. Here you will find guides and tips if you work with design, code or copy.
 
-[Let's get started!](/foundations/getting-started)
+[Let's get started](/foundations/getting-started)

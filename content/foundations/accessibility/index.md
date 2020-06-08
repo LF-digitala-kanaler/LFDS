@@ -1,6 +1,6 @@
 ---
 background: bg-white
-previewImage: /img/accessibility_nobg.svg
+previewImage: /img/icons.jpg
 template: CategoryOverview
 title: Accessibility
 intro: "Länsförsäkringar wants their customers, regardless of their condition,
