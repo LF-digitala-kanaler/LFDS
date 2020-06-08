@@ -48,12 +48,12 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
   console.log(children, 'chidlren')
 
   // get all overview pages on current page
-  const overviewChildPages = {
-    items: allOverviewPages.hasOwnProperty('edges')
-      ? allOverviewPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
-      : false
-  }
-  console.log(overviewChildPages.items, 'over')
+  // const overviewChildPages = {
+  //   items: allOverviewPages.hasOwnProperty('edges')
+  //     ? allOverviewPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
+  //     : false
+  // }
+  // console.log(overviewChildPages.items, 'over')
  
 
   const groups = _(children.items)
@@ -69,17 +69,24 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
       return [item.category, item['link']];
   }], 'asc', 'asc');
   
-  // If it's a category get the preview image from overview page
-    const test = []; 
-    for (let [key, val] of Object.entries(groupsSorted)) {
-      if(val.category !== 'null'){
-        test.push(val.category)
-        console.log(test);
-        for (let [key, val2] of Object.entries(overviewChildPages.items)) {
-          console.log(key, val2, 'ddd')
-        }
-      }
-    }
+  // // If it's a category get the preview image from overview page
+  //   const categoryArray = []; 
+  //   for (let [key, val] of Object.entries(groupsSorted)) {
+      
+  //     if(val.category !== 'null'){
+  //       categoryArray.push(val)
+  //       console.log(categoryArray);
+  //       for (let [key, val2] of Object.entries(overviewChildPages.items)) {
+  //         console.log(val2.node.frontmatter.title)
+  //         if(categoryArray.includes(val2.node.frontmatter.title)){
+  //           console.log(val2, 'vsl')
+  //           val.previewImage = val2.node.frontmatter.previewImage.publicURL; 
+  //         }
+          
+  //       }
+  //     }
+  //   }
+  // console.log(categoryArray, 'aaa')
   console.log(groupsSorted, 'sorted') 
   // const groupsSorted = _.orderBy(groups, [item => item.category.toLowerCase()], ['asc']);
   return (
