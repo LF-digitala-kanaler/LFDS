@@ -54,7 +54,7 @@ const Menu = ({currentDirectory}) => {
       ? data.allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-  console.log(navigationItems)
+ 
   const navigationStructure = _(navigationItems.items)
   .chain()
   .groupBy('node.frontmatter.category')
@@ -69,7 +69,7 @@ const Menu = ({currentDirectory}) => {
     item['childLink'] = _.orderBy(nestedObj,['node.frontmatter.priority', 'node.frontmatter.title'],['asc', 'asc']);
       return [item.parentLink, item['childLink']];
     }], 'asc', 'asc');
-    console.log(navigationStructureSorted)
+  
   const breakpoint = useBreakpoint();
   const [isOpen, setOpen] = useState(false);
 
@@ -110,7 +110,7 @@ const Menu = ({currentDirectory}) => {
               <MenuToggle isOpen={isOpen} onClick={handleOnClick} />
             )
           } 
-          <div role="button" tabIndex={0} onClick={handleOverlayClick} onKeyDown={handleOverlayClick} className={cx(style.Menu__overlay, (isOpen ? style['Menu__overlay--isVisible'] : '' ))} />
+          <div aria-label="Open Search" role="button" tabIndex={0} onClick={handleOverlayClick} onKeyDown={handleOverlayClick} className={cx(style.Menu__overlay, (isOpen ? style['Menu__overlay--isVisible'] : '' ))} />
           
           <Location>
             {({ location }) => {

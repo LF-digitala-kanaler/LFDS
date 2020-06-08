@@ -22,7 +22,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
       }))
     }
     
-  },[]);
+  },[tabs]);
   // Needed for the cms to update the tabs
   useEffect(() => {
     
@@ -39,7 +39,7 @@ const TabsWrapper = ({tabs, location, navigate, children}) => {
     if(tabs && tabs.length > 0) {
       setTabIndex(tabName.indexOf(location.search.substr(1).toLowerCase()))
     }
-  });
+  }, [tabs, tabName, location.search]);
 
   const onTabsChange = index => 
     navigate( `?${tabName[index]}`, { replace: false });

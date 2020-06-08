@@ -12,7 +12,7 @@ const MenuLink = ({ path, title ,parent, collapse}) => {
     {title}
   </Link>
   { parent && 
-    <button className={style.Menu__trigger} onClick={collapse}></button>
+    <button aria-label="Open Child Menu" className={style.Menu__trigger} onClick={collapse}></button>
   }
   </>
   );

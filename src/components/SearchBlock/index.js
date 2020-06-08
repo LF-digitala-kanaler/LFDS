@@ -8,12 +8,12 @@ import {useKeyPressEvent, useClickAway} from 'react-use';
 
 
 const Search = () => {
-  const [query, setQuery] = useState('');
-  const [isSearchVisible, setIsSearchVisible] = useState(false);
+  
+  const [query, setQuery] = useState(''); // eslint-disable-line no-unused-vars
+  const [isSearchVisible, setIsSearchVisible] = useState(false); // eslint-disable-line no-unused-vars
   const [results, setResults] = useState([]);
   const searchBlockContainerRef = useRef(null);
   const searchBlockInputRef = useRef(null);
-  
   // Reset search to default
   const reset = () => {
     setIsSearchVisible(false)
@@ -73,7 +73,7 @@ const Search = () => {
    
     var index = window.__FLEXSEARCH__.en.index
     var store = window.__FLEXSEARCH__.en.store
-
+    
     if (!query || !index) {
       return []
     } else {

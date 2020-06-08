@@ -40,13 +40,13 @@ const CollapseWidget = {
       const obj = {
         panels: Immutable.fromJS(items)
       }
-      console.log(obj)
+     
       return obj;
     },
 
 
     toBlock: function(obj) {
-      console.log(obj)
+      
       const items = Immutable.fromJS(obj.panels || []).map(function(item, index) {
           return `<Collapse title="${item.get("title")}"><div class="content">\n\n${item.get("content")}\n</div></Collapse>`
       });

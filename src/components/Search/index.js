@@ -20,7 +20,7 @@ const UseFocus = () => {
 
 const Search = () => {
   Modal.setAppElement('#___gatsby');
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState(''); // eslint-disable-line no-unused-vars
   const [modalIsOpen, setIsOpen] = useState(false);  
   const [results, setResults] = useState([]);
   const [inputRef, setInputFocus] = UseFocus()

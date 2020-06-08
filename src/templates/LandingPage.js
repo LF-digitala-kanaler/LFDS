@@ -34,27 +34,54 @@ export const LandingPageTemplate = ({
   </div>
 
 }
-const LandingPage = ({ data: { page, allPages },currentDirectory, location }) => {
-
+const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirectory, location }) => {
+  
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
-
+  // get all article pages on current page that does not have a category
   const children = {
     items: allPages.hasOwnProperty('edges')
       ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-  
-  
+  console.log(children, 'chidlren')
+
+  // get all overview pages on current page
+  const overviewChildPages = {
+    items: allOverviewPages.hasOwnProperty('edges')
+      ? allOverviewPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
+      : false
+  }
+  console.log(overviewChildPages.items, 'over')
+ 
+
   const groups = _(children.items)
+  
   .chain()
   .groupBy('node.frontmatter.category')
   .map((value, key) => ({ category: key,  link: value}))
   .value()
 
-  const groupsSorted = _.orderBy(groups, [item => item.category.toLowerCase()], ['asc']);
-
+  const groupsSorted = _.orderBy(groups, [(item) => {
+    const nestedObj = _.get(item, 'link');
+    item['link'] = _.orderBy(nestedObj,['node.frontmatter.priority', 'node.frontmatter.title'],['asc', 'asc']);
+      return [item.category, item['link']];
+  }], 'asc', 'asc');
+  
+  // If it's a category get the preview image from overview page
+    const test = []; 
+    for (let [key, val] of Object.entries(groupsSorted)) {
+      if(val.category !== 'null'){
+        test.push(val.category)
+        console.log(test);
+        for (let [key, val2] of Object.entries(overviewChildPages.items)) {
+          console.log(key, val2, 'ddd')
+        }
+      }
+    }
+  console.log(groupsSorted, 'sorted') 
+  // const groupsSorted = _.orderBy(groups, [item => item.category.toLowerCase()], ['asc']);
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -115,5 +142,27 @@ export const pageQuery = graphql`
         }
       }
     }
+
+    allOverviewPages: allMarkdownRemark(filter: {frontmatter: {template: {eq: "CategoryOverview"}}}, sort: {order: ASC, fields: [frontmatter___title]}) {
+      edges {
+        node {
+          id
+          frontmatter {
+            category
+            title
+            lang
+            previewImage {
+              publicURL
+              sourceInstanceName
+            }
+          }
+          fields {
+            slug
+            contentType
+          }
+        }
+      }
+    }
+
   }
 `

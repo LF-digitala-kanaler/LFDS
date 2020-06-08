@@ -1,7 +1,7 @@
 import React from "react"
 import style from './index.module.css';
 import { Link } from 'gatsby';
-import Logotype from "../Logotype";
+
 
 
 
