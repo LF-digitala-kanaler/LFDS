@@ -63,8 +63,14 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "White", value: "#fff" }
           - { label: "Grey", value: "#f3f3f3" }
         required: false
+      - label: 'Vertical resize on iframe'
+        name: 'verticalResize'
+        widget: 'select'
+        options: 
+          - { label: "No", value: "no" }
+          - { label: "Yes", value: "yes" }
+        required: false
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
-      - { label: "Activate vertical resize on iframe", name: "verticalResize", widget: "boolean", default: false,  required: false }
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
     
       
@@ -83,7 +89,6 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options:
-          - { label: "Category", value: ' ' }
           - { label: "Getting Started", value: "Getting Started" }
           - { label: "Brand Identity", value: "Brand Identity" }
           - { label: "Principles and Strategies", value: "Principles and Strategies" }
@@ -91,7 +96,6 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }
           - { label: "Motion", value: "Motion" }
-        default: ' '
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
