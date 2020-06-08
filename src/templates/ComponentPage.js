@@ -52,6 +52,7 @@ const ComponentPage = ({
   currentDirectory
   
   },) => {
+    
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     const path = globalHistory.location.pathname
@@ -117,7 +118,6 @@ export const pageQuery = graphql`
         intro
         template
         category
-        lang
         verticalResize
         previewImage {
           publicURL
