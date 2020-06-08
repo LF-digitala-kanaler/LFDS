@@ -58,7 +58,6 @@ const Menu = ({currentDirectory}) => {
   const navigationStructure = _(navigationItems.items)
   .chain()
   .groupBy('node.frontmatter.category')
-  
   .map((value, key) => ({ 
     parentLink: key,  childLink: value}
   ))
