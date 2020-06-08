@@ -15,6 +15,7 @@ description: >-
   Det är något vi värnar om tillsammans.
 previewImage: /img/brand_nobg.svg
 background: bg-white
+priority: "1"
 lang: true
 ---
 <figure class="Image Image__background"><img src="/img/lf-symbol.png" srcset="/img/lf-symbol.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
