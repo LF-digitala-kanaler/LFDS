@@ -6,6 +6,7 @@ intro: Modals are triggered by the user clicking a button. They have two use
 description: Modals are triggered by the user clicking a button. They have two
   use cases; in a “Read more”-context and signing stuff.
 previewImage: /img/modal.svg
+verticalResize: false
 category: Supportive Microinteractions
 tabs:
   - content: >-

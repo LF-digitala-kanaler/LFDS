@@ -17,7 +17,8 @@ export const ComponentPageTemplate = ({
   componentExample,
   backgroundColor,
   tabs,
-  currentDirectory
+  currentDirectory,
+  verticalResize
 
 }) => (
   
@@ -31,7 +32,7 @@ export const ComponentPageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
-      {componentExample && componentExample.length > 0 && <ComponentExample  variants={componentExample} background={backgroundColor}   />}
+      {componentExample && componentExample.length > 0 && <ComponentExample verticalResize={verticalResize} variants={componentExample} background={backgroundColor}   />}
     </Wrapper>
       
       <Location>
@@ -86,13 +87,13 @@ const ComponentPage = ({
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={page.fields.frontmattermd.tabs || page.frontmatter.tabs}
+        tabs={page.fields.frontmattermd.tabs || page.frontmatter.tabs }
         category={page.frontmatter.category}
         componentExample={componentExample.examples}
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
         priority={page.frontmatter.priority}
-        // resizeDirection={page.frontmatter.resizeDirection}
+        verticalResize={page.frontmatter.verticalResize}
       />
     </Layout>
   )
@@ -116,7 +117,8 @@ export const pageQuery = graphql`
         intro
         template
         category
-        lang 
+        lang
+        verticalResize
         previewImage {
           publicURL
         }
