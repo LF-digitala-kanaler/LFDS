@@ -85,7 +85,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "Category", value: ' ' }
           - { label: "Getting Started", value: "Getting Started" }
           - { label: "Brand Identity", value: "Brand Identity" }
-          - { label: "Principles and strategies", value: "Principles and strategies" }
+          - { label: "Principles and Strategies", value: "Principles and Strategies" }
           - { label: "Process", value: "Process" }
           - { label: "Accessibility", value: "Accessibility" }
           - { label: "User Testing", value: "User Testing" }

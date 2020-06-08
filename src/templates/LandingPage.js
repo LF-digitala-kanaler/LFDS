@@ -39,28 +39,37 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
   if(typeof window !== `undefined`) {
     currentDirectory = location.href.split('/').filter(Boolean).pop();
    }
+  // get all overview pages on current page
+  const overviewPages = {
+    items: allOverviewPages.hasOwnProperty('edges')
+      ? allOverviewPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
+      : false
+  }
+ 
+  const overViewGroups = _(overviewPages.items)
+  
+  .chain()
+  .map((item) => {
+    return {
+      category: (item.node.frontmatter.title).toLowerCase(),  
+      previewImage: item.node.frontmatter.previewImage,
+    }
+  })
+  .value()
+
+  
   // get all article pages on current page that does not have a category
   const children = {
     items: allPages.hasOwnProperty('edges')
       ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-  console.log(children, 'chidlren')
-
-  // get all overview pages on current page
-  // const overviewChildPages = {
-  //   items: allOverviewPages.hasOwnProperty('edges')
-  //     ? allOverviewPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
-  //     : false
-  // }
-  // console.log(overviewChildPages.items, 'over')
- 
-
+  
   const groups = _(children.items)
   
   .chain()
   .groupBy('node.frontmatter.category')
-  .map((value, key) => ({ category: key,  link: value}))
+  .map((value, key) => ({ category: (key).toLowerCase(),  link: value, previewImage: overViewGroups.previewImage}))
   .value()
 
   const groupsSorted = _.orderBy(groups, [(item) => {
@@ -69,26 +78,13 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
       return [item.category, item['link']];
   }], 'asc', 'asc');
   
-  // // If it's a category get the preview image from overview page
-  //   const categoryArray = []; 
-  //   for (let [key, val] of Object.entries(groupsSorted)) {
-      
-  //     if(val.category !== 'null'){
-  //       categoryArray.push(val)
-  //       console.log(categoryArray);
-  //       for (let [key, val2] of Object.entries(overviewChildPages.items)) {
-  //         console.log(val2.node.frontmatter.title)
-  //         if(categoryArray.includes(val2.node.frontmatter.title)){
-  //           console.log(val2, 'vsl')
-  //           val.previewImage = val2.node.frontmatter.previewImage.publicURL; 
-  //         }
-          
-  //       }
-  //     }
-  //   }
-  // console.log(categoryArray, 'aaa')
-  console.log(groupsSorted, 'sorted') 
-  // const groupsSorted = _.orderBy(groups, [item => item.category.toLowerCase()], ['asc']);
+  var merged = _.merge(_.keyBy(overViewGroups, 'category'), _.keyBy(groupsSorted, 'category'));
+  var concatCategories = _.values(merged);
+ 
+  console.log(overViewGroups, 'te')
+  console.log(groupsSorted, 'sorted');
+  console.log(concatCategories)
+
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -103,7 +99,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
         intro={page.frontmatter.intro}
         body={page.html}
         blockquote={page.frontmatter.blockquote}
-        categories={groupsSorted}
+        categories={concatCategories}
       />
     </Layout>
   )

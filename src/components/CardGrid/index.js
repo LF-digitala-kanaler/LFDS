@@ -5,16 +5,17 @@ import style from './index.module.css';
 
 
 const CardGrid = ({list}) => {
-
+  console.log(list, 'list')
   const cardItems = list.map((item, index) => {
       if(item.category !== "null") {
+        
         return(
           <div className={style.CardGrid__item} key={index}>
             <Card 
               grid={true}  
               title={item.category} 
               url={item.link[0].node.fields.contentType.replace(/\/$/, "")} 
-              image={item.link[0].node.frontmatter.previewImage}
+              image={item.previewImage}
               
             />
             
