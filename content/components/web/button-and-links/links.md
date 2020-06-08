@@ -190,4 +190,5 @@ tabs:
 
       * `link-complex-adaptive-target` is like `link-complex`(& `link-complex-target`), but the link does not get the default link styling, and instead gets the adaptive, inherit styling. Used mainly in the header and footer components.
 backgroundColor: "#fff"
+hidden: true
 ---
