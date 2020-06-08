@@ -1,6 +1,6 @@
 ---
 background: bg-white
-previewImage: /img/brand_nobg.svg
+previewImage: /img/graphs-and-charts.svg
 template: CategoryOverview
 title: Data Visualization
 intro: "Data visualizations make big and small data easier for the human brain
