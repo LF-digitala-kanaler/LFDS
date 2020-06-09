@@ -5,13 +5,15 @@ import { Resizable } from "re-resizable";
 
 
 const Preview = ({children, resize}) => {
-  console.log(resize, 'rrr')
+  const verticalResize = (resize === "yes" ? true : false);
+  
   return (
     <div className={style.Preview}>
       <Resizable
-        enable={{ top:false, right:true, bottom:false, left:false, topRight:false, bottomRight:false, topLeft:false }}
+        enable={{ top:false, right:!verticalResize, bottom:false, left:false, topRight:false, bottomRight:verticalResize, topLeft:false }}
         minWidth={300}
         maxWidth="100%"
+        minHeight="300"
         handleComponent={{
           right: <Previewhandle />,
           bottomRight: <Previewhandle />

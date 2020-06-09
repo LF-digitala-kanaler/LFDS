@@ -17,7 +17,7 @@ const ComponentExample = ({variants, background, verticalResize}) => {
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
   const [code, setCode] = useState(variants[0].node.content);
   const [source, setSource] = useState(false);
-  const [height, setHeight] = useState(300);
+  const [minHeight, setHeight] = useState(300);
   const iframeRef =  React.createRef();
   
   
@@ -112,8 +112,7 @@ const ComponentExample = ({variants, background, verticalResize}) => {
           <Preview resize={verticalResize}>
             <Frame
               style={{
-                height,
-                
+                minHeight
               }}
           
               id={'iframe'}

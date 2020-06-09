@@ -41,7 +41,6 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "System Display", value: "System Display" }
         - { label: "Tables", value: "Tables" }
         - { label: "Typography", value: "Typography" }
-
       - name: 'tabs'
         label: 'Tabs'
         label_singular: 'Tab'
@@ -417,5 +416,19 @@ collections: # A list of collections the CMS should be able to edi
               widget: string,
               required: false,
             }
-  
+  - label: Component Examples
+    name: components
+    files:
+      - label: components
+        name: components
+        file: src/data/componentsStatus.json
+        fields:
+          - label: Components
+            label_singular: Component
+            name: components
+            widget: object
+            fields:
+              - label: Name
+                name: examples
+                widget: string
   

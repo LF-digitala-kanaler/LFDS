@@ -52,7 +52,7 @@ const ComponentPage = ({
   currentDirectory
   
   },) => {
-  console.log(page)
+  
   // window is not avalible during gatsby build 
   if(typeof window !== `undefined`) {
     const path = globalHistory.location.pathname
