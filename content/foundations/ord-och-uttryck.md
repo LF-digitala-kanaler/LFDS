@@ -131,38 +131,47 @@ Skriv istället *få*.
 
 Skriv istället *betala*.
 
-###### ersättning, ersätta\
-NJA
+* ###### **ersättning, ersätta**
+
+###### **NJA**
 
 Tänk på att inte använda ordet vid dödsfall. Skriv inte *Vi ersätter dödsfall med ett prisbasbelopp*. Skriv istället *Vid dödsfall betalar vi ut ett prisbasbelopp*.
 
-###### ersättning utgår\
-NEJ
+* ###### **ersättning utgår**
+
+###### **NEJ**
 
 Skriv istället *Vi betalar ersättning*
 
-###### Ett KUND, Ett LIV, Ett SAK\
-NJA
+* ###### **Ett KUND, Ett LIV, Ett SAK**
+
+###### **NJA**
 
 Används enbart internt. Kom ihåg mellanslag och de stora bokstäverna.
 
-###### faktura\
-JA
+* ###### faktura
+
+  ###### JA
 
 Använd faktura istället för avisering.
 
-###### fordon\
-NJA
+* ###### **fordon**
+
+###### **NJA**
 
 Samlingsbegrepp – om det är möjligt, skriv istället *bil, lastbil, moped* etc.
 
-###### fullvärde\
-NJA
+
+
+* ###### **fullvärde**
+
+###### **NJA**
 
 Förklara alltid begreppet. Skriv till exempel *Försäkringen gäller med fullvärde. Vi betalar vad det kostar att återställa byggnaden och det finns inget högsta ersättningsbelopp.*
 
-###### föranleda\
-NEJ
+* ###### **föranleda**
+
+###### **NEJ**
 
 Skriv istället *orsaka*.
 
