@@ -67,13 +67,15 @@ En form av e-legitimation och ett säkert sätt att legitimera dig på internet.
 
 Samlingsbegrepp för hem-, villahem- och bostadsrättsförsäkringar. Används för att slippa räkna upp produktnamnen.
 
-###### bostadsrättshavare\
-NJA
+* ###### **bostadsrättshavare**
 
-Undvik ordet och skriv istället *bostadsrättsinnehavare*som används i dagligt tal.
+###### **NJA**
 
-###### bokföringsdag\
-JA
+Undvik ordet och skriv istället *bostadsrättsinnehavare* som används i dagligt tal.
+
+* ###### **bokföringsdag**
+
+###### **JA**
 
 Den dag betalningen registreras hos mottagarens bank.
 
