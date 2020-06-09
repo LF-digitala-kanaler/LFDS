@@ -79,43 +79,55 @@ Undvik ordet och skriv istället *bostadsrättsinnehavare* som används i daglig
 
 Den dag betalningen registreras hos mottagarens bank.
 
-###### driftskostnader\
-JA
+* ###### **driftskostnader**
+
+###### **JA**
 
 Kostnader för vår administration, IT, försäljning med mera som belastar våra produkter. I samband med till exempel lån används begreppet för att beskriva kundens driftskostnad för boendet.
 
-###### drulleförsäkring\
-NEJ
+* ###### drulleförsäkring
+
+###### NEJ
 
 Använd aldrig. Ordet skapar förvirring om vi menar ansvar- eller allriskförsäkring, som är helt olika försäkringar.
 
-###### effektiv ränta\
-JA
+* ###### **effektiv ränta**
+
+###### **JA**
 
 Totalkostnaden för ett lån när både räntor och avgifter summerats ihop.
 
-###### e-faktura\
-JA
+* ###### **e-faktura**
+
+###### **JA**
 
 Faktura som skickas till internetbanken där kontohavaren godkänner den för betalning.
 
-###### e-legitimation\
-JA
+
+
+* ###### **e-legitimation**
+
+###### **JA**
 
 En elektronisk legitimation som du använder på internet för att legitimera dig eller underteckna elektroniska dokument. Jämför BankID.
 
-###### e-post\
-JA
+* ###### **e-post**
+
+###### **JA**
 
 Vi skriver på svenska och använder inte e-mail (se mejl). Skriv *skicka e-post*eller *mejla*, aldrig *e-posta*.
 
-###### erhålla\
-NEJ
+
+
+* ###### **erhålla**
+
+###### **NEJ**
 
 Skriv istället *få*.
 
-###### erlägga\
-NEJ
+* ###### **erlägga**
+
+###### **NEJ**
 
 Skriv istället *betala*.
 
