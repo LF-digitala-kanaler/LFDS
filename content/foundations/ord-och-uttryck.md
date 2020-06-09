@@ -13,39 +13,45 @@ previewImage: /img/copy.svg
 background: bg-white
 lang: true
 ---
-###### **Agria Djurförsäkring**
+* ###### **Agria Djurförsäkring**
 
 ###### **JA**
 
 Kan förkortas Agria i texter där hela bolagsnamnet redan använts. Observera att det heter *Djurförsäkring* och inte Djurförsäkringar.
 
-###### aktsamhetskrav\
-NJA
+* ###### **aktsamhetskrav**
+
+###### NJA
 
 Undvik att använda utan en förklaring. Skriv till exempel: *Råkar du ut för en skada kan din ersättning minska om du inte varit rädd om dina saker. Det kallar vi aktsamhetskrav.*
 
-###### app\
-JA
+* ###### **app**
+
+###### **JA**
 
 Förkortning för applikation. Vi skriver det som ett vanligt ord, alltså utan punkt efter.
 
-###### avisera\
-NEJ
+* ###### **avisera**
+
+###### **NEJ**
 
 Skriv istället *Skicka faktura/inbetalningskort*
 
-###### avkastning\
-NJA
+* ###### **avkastning**
+
+###### **NJA**
 
 Det överskott eller underskott som ett sparande ger. I kommunikation med privatkunder undviker vi begreppet och pratar hellre om *värdeutveckling.*
 
-###### avtalstid\
-NJA
+* ###### **avtalstid**
+
+###### **NJA**
 
 Skriv hellre *gäller för perioden…*
 
-###### avtalspension\
-JA
+* ###### **avtalspension**
+
+###### **JA**
 
 Tjänstepension som grundas på kollektivavtal mellan arbetsgivaren och en facklig organisation kallar vi avtalspension. Jämför tjänstepension.
 
