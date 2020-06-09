@@ -13,134 +13,165 @@ previewImage: /img/copy.svg
 background: bg-white
 lang: true
 ---
-###### **Agria Djurförsäkring**
+* ###### **Agria Djurförsäkring**
 
 ###### **JA**
 
 Kan förkortas Agria i texter där hela bolagsnamnet redan använts. Observera att det heter *Djurförsäkring* och inte Djurförsäkringar.
 
-###### aktsamhetskrav\
-NJA
+* ###### **aktsamhetskrav**
+
+###### **NJA**
 
 Undvik att använda utan en förklaring. Skriv till exempel: *Råkar du ut för en skada kan din ersättning minska om du inte varit rädd om dina saker. Det kallar vi aktsamhetskrav.*
 
-###### app\
-JA
+* ###### **app**
+
+###### **JA**
 
 Förkortning för applikation. Vi skriver det som ett vanligt ord, alltså utan punkt efter.
 
-###### avisera\
-NEJ
+* ###### **avisera**
+
+###### **NEJ**
 
 Skriv istället *Skicka faktura/inbetalningskort*
 
-###### avkastning\
-NJA
+* ###### **avkastning**
+
+###### **NJA**
 
 Det överskott eller underskott som ett sparande ger. I kommunikation med privatkunder undviker vi begreppet och pratar hellre om *värdeutveckling.*
 
-###### avtalstid\
-NJA
+* ###### **avtalstid**
+
+###### **NJA**
 
 Skriv hellre *gäller för perioden…*
 
-###### avtalspension\
-JA
+* ###### **avtalspension**
+
+###### **JA**
 
 Tjänstepension som grundas på kollektivavtal mellan arbetsgivaren och en facklig organisation kallar vi avtalspension. Jämför tjänstepension.
 
-###### BankID\
-JA
+* ###### **BankID**
+
+###### **JA**
 
 En form av e-legitimation och ett säkert sätt att legitimera dig på internet. Länsförsäkringar erbjuder BankID. Se även *mobilt BankID.*
 
-###### boendeförsäkring\
-JA
+* ###### **boendeförsäkring**
+
+###### **JA**
 
 Samlingsbegrepp för hem-, villahem- och bostadsrättsförsäkringar. Används för att slippa räkna upp produktnamnen.
 
-###### bostadsrättshavare\
-NJA
+* ###### **bostadsrättshavare**
 
-Undvik ordet och skriv istället *bostadsrättsinnehavare*som används i dagligt tal.
+###### **NJA**
 
-###### bokföringsdag\
-JA
+Undvik ordet och skriv istället *bostadsrättsinnehavare* som används i dagligt tal.
+
+* ###### **bokföringsdag**
+
+###### **JA**
 
 Den dag betalningen registreras hos mottagarens bank.
 
-###### driftskostnader\
-JA
+* ###### **driftskostnader**
+
+###### **JA**
 
 Kostnader för vår administration, IT, försäljning med mera som belastar våra produkter. I samband med till exempel lån används begreppet för att beskriva kundens driftskostnad för boendet.
 
-###### drulleförsäkring\
-NEJ
+* ###### drulleförsäkring
+
+###### NEJ
 
 Använd aldrig. Ordet skapar förvirring om vi menar ansvar- eller allriskförsäkring, som är helt olika försäkringar.
 
-###### effektiv ränta\
-JA
+* ###### **effektiv ränta**
+
+###### **JA**
 
 Totalkostnaden för ett lån när både räntor och avgifter summerats ihop.
 
-###### e-faktura\
-JA
+* ###### **e-faktura**
+
+###### **JA**
 
 Faktura som skickas till internetbanken där kontohavaren godkänner den för betalning.
 
-###### e-legitimation\
-JA
+
+
+* ###### **e-legitimation**
+
+###### **JA**
 
 En elektronisk legitimation som du använder på internet för att legitimera dig eller underteckna elektroniska dokument. Jämför BankID.
 
-###### e-post\
-JA
+* ###### **e-post**
+
+###### **JA**
 
 Vi skriver på svenska och använder inte e-mail (se mejl). Skriv *skicka e-post*eller *mejla*, aldrig *e-posta*.
 
-###### erhålla\
-NEJ
+
+
+* ###### **erhålla**
+
+###### **NEJ**
 
 Skriv istället *få*.
 
-###### erlägga\
-NEJ
+* ###### **erlägga**
+
+###### **NEJ**
 
 Skriv istället *betala*.
 
-###### ersättning, ersätta\
-NJA
+* ###### **ersättning, ersätta**
+
+###### **NJA**
 
 Tänk på att inte använda ordet vid dödsfall. Skriv inte *Vi ersätter dödsfall med ett prisbasbelopp*. Skriv istället *Vid dödsfall betalar vi ut ett prisbasbelopp*.
 
-###### ersättning utgår\
-NEJ
+* ###### **ersättning utgår**
+
+###### **NEJ**
 
 Skriv istället *Vi betalar ersättning*
 
-###### Ett KUND, Ett LIV, Ett SAK\
-NJA
+* ###### **Ett KUND, Ett LIV, Ett SAK**
+
+###### **NJA**
 
 Används enbart internt. Kom ihåg mellanslag och de stora bokstäverna.
 
-###### faktura\
-JA
+* ###### faktura
+
+  ###### JA
 
 Använd faktura istället för avisering.
 
-###### fordon\
-NJA
+* ###### **fordon**
+
+###### **NJA**
 
 Samlingsbegrepp – om det är möjligt, skriv istället *bil, lastbil, moped* etc.
 
-###### fullvärde\
-NJA
+
+
+* ###### **fullvärde**
+
+###### **NJA**
 
 Förklara alltid begreppet. Skriv till exempel *Försäkringen gäller med fullvärde. Vi betalar vad det kostar att återställa byggnaden och det finns inget högsta ersättningsbelopp.*
 
-###### föranleda\
-NEJ
+* ###### **föranleda**
+
+###### **NEJ**
 
 Skriv istället *orsaka*.
 
