@@ -21,7 +21,7 @@ Kan förkortas Agria i texter där hela bolagsnamnet redan använts. Observera a
 
 * ###### **aktsamhetskrav**
 
-###### NJA
+###### **NJA**
 
 Undvik att använda utan en förklaring. Skriv till exempel: *Råkar du ut för en skada kan din ersättning minska om du inte varit rädd om dina saker. Det kallar vi aktsamhetskrav.*
 
@@ -55,13 +55,15 @@ Skriv hellre *gäller för perioden…*
 
 Tjänstepension som grundas på kollektivavtal mellan arbetsgivaren och en facklig organisation kallar vi avtalspension. Jämför tjänstepension.
 
-###### BankID\
-JA
+* ###### **BankID**
+
+###### **JA**
 
 En form av e-legitimation och ett säkert sätt att legitimera dig på internet. Länsförsäkringar erbjuder BankID. Se även *mobilt BankID.*
 
-###### boendeförsäkring\
-JA
+* ###### **boendeförsäkring**
+
+###### **JA**
 
 Samlingsbegrepp för hem-, villahem- och bostadsrättsförsäkringar. Används för att slippa räkna upp produktnamnen.
 
