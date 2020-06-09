@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
 import style from './index.module.css';
 import cx from 'classnames'
+import componentsStatus from '../../data/componentsStatus.json'
 
 
 const ComponentNavigation = ({variants, onChildClick}) => {
-  
+  console.log(componentsStatus)
+  console.log(variants)
   const [active, setActive] = useState(variants[0].node.id);
   
   const handleClick = (variants, active) => {
