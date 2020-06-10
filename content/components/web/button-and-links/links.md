@@ -9,8 +9,8 @@ description: Links are used when we want to guide the user away from the current
 previewImage: /img/link-primary.svg
 category: Button and Links
 componentsNavigation:
-  - name: Regular
   - name: Primary
+  - name: Regular
 tabs:
   - content: >-
       ## How to use
