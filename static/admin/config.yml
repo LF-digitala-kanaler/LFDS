@@ -427,20 +427,23 @@ collections: # A list of collections the CMS should be able to edi
     files:
       - label: components
         name: components
-        extension: "json"
         file: src/data/componentsStatus.json
         fields:
-          - label: Components
-            label_singular: Component
+          - label: components
             name: components
-            widget: object
-            fields:
-              - label: Name
-                name: bootstrap
-                widget: list
-                fields: 
-                  - label: Test
-                    name: examples
-                    widget: string
+            widget: list
+            fields: 
+            - label: Name
+              name: component
+            - label: Bootstrap
+              name: variations
+              widget: object
+              fields:
+                - label: Name
+                  name: examples
+                  widget: list
+                  fields: 
+                    - {label: "Test", name: "name", widget: "string" }
+                    
 
   
