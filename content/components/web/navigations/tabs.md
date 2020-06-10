@@ -8,6 +8,9 @@ description: Tabs are used as contextual navigation when the user has landed on
   a page which hasn't any submenues in the main navigation.
 previewImage: /img/nav.svg
 category: Navigations
+componentsNavigation:
+  - name: Page Level Navigation
+  - name: In Page Navigation
 tabs:
   - content: >-
       ## How to use

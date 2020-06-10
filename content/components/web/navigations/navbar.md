@@ -7,6 +7,9 @@ intro: The navbar is the foundation for the various menus used at
 description: The navbar is the foundation for the various menus used at Länsförsäkringar.
 previewImage: /img/navbar.svg
 category: Navigations
+componentsNavigation:
+  - name: Blue
+  - name: White
 tabs:
   - content: >-
       ## How to use

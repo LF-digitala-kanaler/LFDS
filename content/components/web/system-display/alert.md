@@ -9,6 +9,11 @@ description: Alerts are used to provide (contextual) messages for typical user
   non-commercial nature.
 previewImage: /img/alert.svg
 category: System Display
+componentsNavigation:
+  - name: Danger
+  - name: Info
+  - name: Success
+  - name: Warning
 tabs:
   - content: >-
       ## How to use

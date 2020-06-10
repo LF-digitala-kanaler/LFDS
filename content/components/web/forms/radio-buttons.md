@@ -8,6 +8,10 @@ description: There are three types of radio buttons in LFUI; standard radio
   buttons, button groups and radio cards.
 previewImage: /img/radio-button.svg
 category: Forms
+componentsNavigation:
+  - name: Styled Radio Buttons
+  - name: Button Group
+  - name: Radio Cards
 tabs:
   - content: >-
       ## How (and when) to use

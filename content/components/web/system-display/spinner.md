@@ -10,6 +10,9 @@ intro: >-
   The spinner is used to show that the system is loading/fetching data and that
   the response isn't instantaneous.
 backgroundColor: '#fff'
+componentsNavigation:
+  - name: Default
+  - name: Red
 tabs:
   - content: >-
       ## How to use

@@ -33,7 +33,7 @@ export const ComponentPageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
-      {componentsNavigation && componentsExample && componentsExample.length > 0 && <ComponentExample verticalResize={verticalResize} variants={componentsExample} navigation={componentsNavigation} background={backgroundColor}   />}
+      { componentsExample && componentsExample.length > 0 && <ComponentExample verticalResize={verticalResize} variants={componentsExample} navigation={componentsNavigation} background={backgroundColor}   />}
     </Wrapper>
       
       <Location>

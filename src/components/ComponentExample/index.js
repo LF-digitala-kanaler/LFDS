@@ -19,10 +19,11 @@ const ComponentExample = ({variants, background, verticalResize, navigation}) =>
     var nav = navigation.map(items => {
       return {
         name: items.name,
-        example: variants.filter(item => items.name.toLowerCase() === item.node.name)
+        example: variants.filter(item => items.name.replace(/\s/g,"").toLowerCase() === item.node.name.toLowerCase())
       }
     });
   }
+  console.log(navigation, variants)
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
   const [code, setCode] = useState( navigation ? nav[0].example[0].node.content : variants[0].node.content );
   const [source, setSource] = useState(false);

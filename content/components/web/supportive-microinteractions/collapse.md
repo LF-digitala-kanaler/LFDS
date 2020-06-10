@@ -9,6 +9,9 @@ description: Lets the user expand the current page and displays examples or a
   the most common way of showing Read more in relation to forms.
 previewImage: /img/collapse.svg
 category: Supportive Microinteractions
+componentsNavigation:
+  - name: White
+  - name: Gray
 tabs:
   - content: >-
       ## How to use

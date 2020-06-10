@@ -7,6 +7,10 @@ description: Use to list small texts in dots or in numerical order and break up
   large blocks of text and make important info stand out.
 previewImage: /img/lists.svg
 category: Typography
+componentsNavigation:
+  - name: Dots
+  - name: Numbers
+  - name: Checkmarks
 tabs:
   - content: >-
       ## How to use

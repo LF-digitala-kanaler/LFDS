@@ -9,6 +9,9 @@ intro: >-
   be used in conjunction with other content which is dynamically changed based
   on the value provided through the slider.
 backgroundColor: '#fff'
+componentsNavigation:
+  - name: Value
+  - name: Intervall
 tabs:
   - content: >-
       ## How to use

@@ -9,6 +9,9 @@ previewImage: /img/distribution-bar.svg
 intro: The distribution bar gives the user an overview of the relative size of
   different values in relation to each other.
 backgroundColor: "#fff"
+componentsNavigation:
+  - name: Default
+  - name: Progress Bar
 tabs:
   - content: >-
       ## How to use

@@ -7,6 +7,10 @@ description: The shortcut is preferably used at the top of a page to draw the
   users attention to another page or section.
 previewImage: /img/shortcut.svg
 category: Button and Links
+componentsNavigation:
+  - name: Alerting
+  - name: Navigational
+  - name: Landing page
 tabs:
   - content: >-
       ## How to use

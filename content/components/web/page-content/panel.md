@@ -8,6 +8,9 @@ description: Panels are our standard containers when we want to “box in”
   panels.
 previewImage: /img/panel.svg
 category: Page Content
+componentsNavigation:
+  - name: Always Open
+  - name: Collapse Expand
 tabs:
   - content: >-
       ## How to use

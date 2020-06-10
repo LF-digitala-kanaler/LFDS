@@ -7,6 +7,9 @@ intro: The datepicker is the input field used when a date is the expected input.
 description: The datepicker is the input field used when a date is the expected input.
 previewImage: /img/datepicker.svg
 category: Forms
+componentsNavigation:
+  - name: Datepicker
+  - name: Timepicker
 tabs:
   - content: >-
       ## How to use

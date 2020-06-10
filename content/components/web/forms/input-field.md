@@ -8,6 +8,9 @@ description: Input fields are fields in which the user can enter text of some
   type (be it letters or numbers).
 previewImage: /img/input.svg
 category: Forms
+componentsNavigation:
+  - name: One Lined
+  - name: Several Lines
 tabs:
   - content: >-
       ## How to use

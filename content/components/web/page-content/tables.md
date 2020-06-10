@@ -8,6 +8,9 @@ description: Tables are used to display data. The data can be either of an
   informative nature or comparative.
 previewImage: /img/tables.svg
 category: Page Content
+componentsNavigation:
+  - name: Present
+  - name: Comparative
 tabs:
   - name: Design
     content: >-

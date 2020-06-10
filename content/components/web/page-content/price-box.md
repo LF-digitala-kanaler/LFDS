@@ -11,6 +11,9 @@ description: The Price-box component displays the price/cost in a sidebar
   choices in the main flow.
 previewImage: /img/price-box.svg
 category: Page Content
+componentsNavigation:
+  - name: Desktop
+  - name: Responsive
 tabs:
   - content: >-
       ## How to use?

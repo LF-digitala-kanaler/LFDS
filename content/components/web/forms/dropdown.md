@@ -7,6 +7,9 @@ description: The dropdown provides the user with given options in a list which
   expands over the webpage when the user clicks on the container.
 previewImage: /img/dropdown.svg
 category: Forms
+componentsNavigation:
+  - name: select One
+  - name: Multi Select
 tabs:
   - content: >-
       ## How to use
