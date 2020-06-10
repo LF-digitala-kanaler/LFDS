@@ -425,7 +425,7 @@ collections: # A list of collections the CMS should be able to edi
   - label: Component Examples
     name: components
     files:
-      - label: components
+      - label: Components
         name: components
         file: src/data/componentsStatus.json
         fields:
@@ -433,17 +433,8 @@ collections: # A list of collections the CMS should be able to edi
             name: components
             widget: list
             fields: 
-            - label: Name
-              name: component
-            - label: Bootstrap
-              name: variations
-              widget: object
-              fields:
-                - label: Name
-                  name: examples
-                  widget: list
-                  fields: 
-                    - {label: "Test", name: "name", widget: "string" }
+              - {label: "Name", name: "component", widget: "string" }
+             
                     
 
   
