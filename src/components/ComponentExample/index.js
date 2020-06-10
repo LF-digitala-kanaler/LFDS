@@ -13,13 +13,20 @@ import style from './index.module.css';
 import $ from 'jquery'
 
 
-const ComponentExample = ({variants, background, verticalResize}) => {
+const ComponentExample = ({variants, background, verticalResize, navigation}) => {
+
+  const nav = navigation.map(items => {
+    return {
+      name: items.name,
+      example: variants.filter(item => items.name.toLowerCase() === item.node.name)
+    }
+  });
+
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
-  const [code, setCode] = useState(variants[0].node.content);
+  const [code, setCode] = useState(nav[0].example[0].node.content);
   const [source, setSource] = useState(false);
   const [minHeight, setHeight] = useState(300);
   const iframeRef =  React.createRef();
-  
   
   const hidden = {
     display: 'none'
@@ -30,26 +37,23 @@ const ComponentExample = ({variants, background, verticalResize}) => {
 
   const handleSetBackgroundToWhite = () => {
     setBackground('#fff');
-    
   }
 
   const handleSetBackgroundToGrey = () => {
     setBackground('#f3f3f3');
   }
 
-  const handleChildClick = (variant) => {
-    setCode(variant.content)
+  const handleChildClick = (nav) => {
+    setCode(nav.content)
     init()
   }
   
 	const init =(isMount) => {
-    // setCode(variants[0].node.content)
-		
+   
 		let iframe = document.getElementsByTagName('iframe')[0];
 		let iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
 		let body= iframeDoc.getElementsByTagName('body')[0]; 
 
-    
 		let $script = $('#script', iframeDoc);
 		 function reload() {
 			let script= document.createElement('script');
@@ -102,7 +106,7 @@ const ComponentExample = ({variants, background, verticalResize}) => {
     <React.Fragment>
         <div className={style.ComponentExample}>
           <div className={style.ComponentExample__head}>
-            <div>{ variants.length > 1 && <ComponentNavigation variants={variants} onChildClick={handleChildClick} /> }</div>
+            <div>{ variants.length > 1 && <ComponentNavigation  onChildClick={handleChildClick} navigation={nav} /> }</div>
            <div><Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} /></div>
           </div>
           {

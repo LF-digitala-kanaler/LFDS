@@ -55,7 +55,6 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
     }
   })
   .value()
-  console.log(overViewGroups, 'over')
   // get all article pages on current page that does not have a category
   const children = {
     items: allPages.hasOwnProperty('edges')

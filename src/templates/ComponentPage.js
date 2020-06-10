@@ -14,7 +14,8 @@ import Deprecated from '../components/Deprecated';
 export const ComponentPageTemplate = ({
   title,
   intro,
-  componentExample,
+  componentsExample,
+  componentsNavigation,
   backgroundColor,
   tabs,
   currentDirectory,
@@ -32,7 +33,7 @@ export const ComponentPageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
-      {componentExample && componentExample.length > 0 && <ComponentExample verticalResize={verticalResize} variants={componentExample} background={backgroundColor}   />}
+      {componentsExample && componentsExample.length > 0 && <ComponentExample verticalResize={verticalResize} variants={componentsExample} navigation={componentsNavigation} background={backgroundColor}   />}
     </Wrapper>
       
       <Location>
@@ -90,7 +91,8 @@ const ComponentPage = ({
         intro={page.frontmatter.intro}
         tabs={page.fields.frontmattermd.tabs || page.frontmatter.tabs }
         category={page.frontmatter.category}
-        componentExample={componentExample.examples}
+        componentsExample={componentExample.examples}
+        componentsNavigation={page.frontmatter.componentsNavigation }
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
         priority={page.frontmatter.priority}
@@ -119,6 +121,9 @@ export const pageQuery = graphql`
         template
         category
         verticalResize
+        componentsNavigation {
+          name
+        }
         previewImage {
           publicURL
         }

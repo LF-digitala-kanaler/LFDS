@@ -1,13 +1,10 @@
 import React, {useState} from 'react';
 import style from './index.module.css';
 import cx from 'classnames'
-import componentsStatus from '../../data/componentsStatus.json'
 
+const ComponentNavigation = ({onChildClick , navigation}) => {
 
-const ComponentNavigation = ({variants, onChildClick}) => {
-  console.log(componentsStatus)
-  console.log(variants)
-  const [active, setActive] = useState(variants[0].node.id);
+  const [active, setActive] = useState(navigation[0].example[0].node.id);
   
   const handleClick = (variants, active) => {
     setActive(active)
@@ -17,14 +14,18 @@ const ComponentNavigation = ({variants, onChildClick}) => {
   .replace(/([A-Z])/g, (match) => ` ${match}`)
   .replace(/^./, (match) => match.toUpperCase());
 
-  const listItem = variants.map((item) =>
-      <li className={style.ComponentNavigation_item} key={item.node.id} >
-        <button
-          onClick={() => handleClick(item.node, item.node.id)} 
-          className={cx(style.ComponentNavigation__button, (active === item.node.id ? style['ComponentNavigation__button--isActive'] : '' ))}>{camel2title(item.node.name)}
-        </button>
-      </li>
-  );
+  const listItem = navigation.map((item) => {
+       return item.example.map(items => 
+        
+        <li className={style.ComponentNavigation_item} key={items.node.id} >
+          <button
+            onClick={() => handleClick(items.node, items.node.id)} 
+            className={cx(style.ComponentNavigation__button, (active === items.node.id ? style['ComponentNavigation__button--isActive'] : '' ))}>{camel2title(items.node.name)}
+          </button>
+        </li>
+       )
+      
+    });
   return(
     <nav className={style.ComponentNavigation}>
       <ul className={style.ComponentNavigation__list}>{listItem}</ul>
