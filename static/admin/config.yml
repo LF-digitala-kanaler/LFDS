@@ -434,7 +434,15 @@ collections: # A list of collections the CMS should be able to edi
             widget: list
             fields: 
               - {label: "Name", name: "component", widget: "string" }
-             
+              - label: Variations
+                name: bootstrap
+                widget: object
+                fields:
+                  - label: Name
+                    name: examples
+                    widget: list
+                    fields: 
+                      - {label: "Test", name: "name", widget: "string" }
                     
 
   
