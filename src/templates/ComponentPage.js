@@ -33,7 +33,7 @@ export const ComponentPageTemplate = ({
       <Preamble text={intro} tag="p" align={"left"} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
-      {componentsExample && componentsExample.length > 0 && <ComponentExample verticalResize={verticalResize} variants={componentsExample} navigation={componentsNavigation} background={backgroundColor}   />}
+      {componentsNavigation && componentsExample && componentsExample.length > 0 && <ComponentExample verticalResize={verticalResize} variants={componentsExample} navigation={componentsNavigation} background={backgroundColor}   />}
     </Wrapper>
       
       <Location>
@@ -50,7 +50,7 @@ export const ComponentPageTemplate = ({
 const ComponentPage = ({ 
   data: { page, allComponentExample },
   location,
-  currentDirectory
+  currentDirectory,
   
   },) => {
   
@@ -70,6 +70,7 @@ const ComponentPage = ({
       ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory)
       : false
    }
+  
   
   const breadcrumb = {
     category: page.frontmatter.category,
@@ -152,17 +153,17 @@ export const pageQuery = graphql`
       }
     }
     allComponentExample: allHtmlContent{
-        edges {
-          node {
-            slug
-            id
-            name
-            content
-            relativeDirectory
-          }
+      edges {
+        node {
+          slug
+          id
+          name
+          content
+          relativeDirectory
         }
       }
-    
+    }
+   
   }
 `
 

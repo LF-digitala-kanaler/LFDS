@@ -14,16 +14,17 @@ import $ from 'jquery'
 
 
 const ComponentExample = ({variants, background, verticalResize, navigation}) => {
-
-  const nav = navigation.map(items => {
-    return {
-      name: items.name,
-      example: variants.filter(item => items.name.toLowerCase() === item.node.name)
-    }
-  });
-
+  console.log(variants, 'var')
+  if (navigation) {
+    var nav = navigation.map(items => {
+      return {
+        name: items.name,
+        example: variants.filter(item => items.name.toLowerCase() === item.node.name)
+      }
+    });
+  }
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
-  const [code, setCode] = useState(nav[0].example[0].node.content);
+  const [code, setCode] = useState( navigation ? nav[0].example[0].node.content : variants[0].node.content );
   const [source, setSource] = useState(false);
   const [minHeight, setHeight] = useState(300);
   const iframeRef =  React.createRef();

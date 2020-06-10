@@ -422,27 +422,4 @@ collections: # A list of collections the CMS should be able to edi
               widget: string,
               required: false,
             }
-  - label: Component Examples
-    name: components
-    files:
-      - label: Components
-        name: components
-        file: src/data/componentsStatus.json
-        fields:
-          - label: components
-            name: components
-            widget: list
-            fields: 
-              - {label: "Name", name: "component", widget: "string" }
-              - label: Variations
-                name: bootstrap
-                widget: object
-                fields:
-                  - label: Name
-                    name: examples
-                    widget: list
-                    fields: 
-                      - {label: "Test", name: "name", widget: "string" }
-                    
-
-  
+ 

@@ -18,6 +18,7 @@ import ButtonsBlock from './widgets/buttonsBlock'
 import ImageAndText from './widgets/imageAndText'
 import LfuiWidget from './widgets/lfuiWidget'
 
+
 CMS.registerEditorComponent(AdvancedImage)
 CMS.registerEditorComponent(Callout)
 CMS.registerEditorComponent(ColorWidget)

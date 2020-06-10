@@ -69,7 +69,13 @@ module.exports = {
         name: 'pages'
       }
     },
-     
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

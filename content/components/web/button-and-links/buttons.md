@@ -11,7 +11,7 @@ componentsNavigation:
   - name: Primary
   - name: Secondary
   - name: Login
-  - name: test
+  
 tabs:
   - content: >-
       ## How to use
