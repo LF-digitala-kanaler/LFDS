@@ -8,9 +8,10 @@ description: Buttons are used as a part of a flow, and is the component which
 previewImage: /img/button-primary.svg
 category: Button and Links
 componentsNavigation:
-  - name: Login
   - name: Primary
   - name: Secondary
+  - name: Login
+  - name: test
 tabs:
   - content: >-
       ## How to use
