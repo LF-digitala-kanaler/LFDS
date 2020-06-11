@@ -37,7 +37,32 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Supportive Microinteractions/Popover/)
     name: Design
-  - content: content code
+  - content: >-
+      # How to use
+
+
+      The popover is triggered on both click and hover.
+
+
+      Use the `popover-tooltip` to allow the user to toggle explanations to difficult words, or words not considered general knowledge. Works great inline! Also included is an option to link to a dictionary containing all the difficult words gathered from your application within the popover itself.
+
+
+      The popover-tooltip extends on the [popover](https://lf-digitala-kanaler.github.io/LFUI/650/#/popover) class, and is triggered by wrapping the word needing an explaination in a `popover-tooltip-trigger` class, and also pointing to the toggleable div with `aria-controls="[div id]"`. The `div `should have an id corresponding to the one specified in the aria-controls. Add the `popover-tooltip` to the div, along with any[popover](https://lf-digitala-kanaler.github.io/LFUI/650/#/popover)classes to manipulate its positioning.**Make sure the entire `popover-tooltip` is wrapped in the popover-tooltip-trigger element**.
+
+
+      Inspect the html below if there are any uncertainties. Note how we use the[card](https://lf-digitala-kanaler.github.io/LFUI/650/#/card)classes to separate our contents, but use the special `popover-title` for our heading.
+
+
+      Like popovers, we need some simple triggering javascript in order for the popover to appear.
+
+
+      ```
+
+      $('.popover-tooltip-trigger').on('focus blur', function() {
+        $('#' + $(this).attr('aria-controls')).parent().toggleClass('open');
+      });
+
+      ```
     name: Code
 backgroundColor: "#fff"
 ---
