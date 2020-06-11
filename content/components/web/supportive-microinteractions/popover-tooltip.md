@@ -39,7 +39,5 @@ tabs:
     name: Design
   - content: content code
     name: Code
-  - content: content code
-    name: Code
 backgroundColor: "#fff"
 ---
