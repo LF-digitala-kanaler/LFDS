@@ -35,6 +35,12 @@ tabs:
       Make sure you use the the same markup as in the example above since thee css is kind of complex and the markup needs to be correct to get the desired design. 
 
 
+      On entering the detail view, only the active step will be expanded. The rest is collapsed. To expand a card you can click anywhere on the card. To collapse a card you can click on the part above the divider line (or also on Stäng in mobile view). Interacting with one card won’t affect any of the surrounding card state-wise. E.g. You could open all cards if you wish.
+
+
+      You can put whatever you want inside `.timeline-content` but don't forget to add the close button in the end.
+
+
       ### States
 
 
@@ -45,9 +51,6 @@ tabs:
 
       * Ongoing - `.timeline-spacing` should have a class `.is-ongoing` which will make the icon larger in that item.
 
-      * Done - 
-
-
-      upcoming, ongoing`.is-ongoing`or done`.is-done`. There can only be one step active at a time.
+      * Done - `.timeline-icon` should have the class `.is-done`.
 backgroundColor: "#f3f3f3"
 ---
