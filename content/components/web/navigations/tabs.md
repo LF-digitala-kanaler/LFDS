@@ -77,7 +77,29 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Tabs)
     name: Design
-  - content: content code
+  - content: >-
+      # How to use
+
+
+      Classes are used throughout, so your markup can be super flexible. Use `<ul>`s like above, or roll your own with say a `<nav>` element. Because the `.nav` uses `display: flex`, the nav links behave the same as nav items would, but without the extra markup.
+
+
+      The nav has not been altered in any way that affects implementation or semantics, please see [Bootstrap nav](https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior).
+
+
+      ## Variations
+
+
+      The LFUI navs come in several different variants, mainly dependant on which background color they are to be placed upon, the number of tabs expected to be present and if the tabs have more than one level of navigation.
+
+
+      ### Page-level navigation
+
+
+      ### In-page navigation
+
+
+      In-page navigation is our "normal" tabs component. It uses Bootstrap's tab JavaScript plugin to create tabbable regions.
     name: Code
 backgroundColor: "#f3f3f3"
 ---
