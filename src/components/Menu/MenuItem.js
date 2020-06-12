@@ -50,7 +50,7 @@ const MenuItem = ({item, location}) => {
   return( 
     hasCategory ? (
       <li key={item.childLink[0].node.id} className={className} >
-        <MenuLink parent path={item.childLink[0].node.fields.contentType} title={item.parentLink.replace(/-/g, ' ')} collapse={toggleSubMenu} />
+        <MenuLink parent path={'/'+item.childLink[0].node.fields.contentType} title={item.parentLink.replace(/-/g, ' ')} collapse={toggleSubMenu} />
         <ul className={style.Menu__sub} >
           {renderSubMenuItems(item.childLink)}
         </ul>
