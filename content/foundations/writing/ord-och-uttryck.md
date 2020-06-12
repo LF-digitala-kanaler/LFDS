@@ -10,6 +10,7 @@ intro: >
 contentTop: ""
 description: ""
 previewImage: /img/copy.svg
+category: Writing
 background: bg-white
 lang: true
 ---

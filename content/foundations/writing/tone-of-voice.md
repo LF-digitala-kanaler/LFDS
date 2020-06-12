@@ -8,6 +8,7 @@ contentTop: ""
 description: ""
 previewImage: /img/copy.svg
 background: bg-white
+category: Writing
 lang: true
 ---
 ## Vad är länsförsäkringska?
