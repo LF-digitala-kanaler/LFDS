@@ -37,9 +37,35 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Supportive Microinteractions/Popover/)
     name: Design
-  - content: content code
-    name: Code
-  - content: content code
+  - content: >-
+      # How to use
+
+
+      The popover is triggered on both click and hover.
+
+
+      Use the `popover-tooltip` to allow the user to toggle explanations to difficult words, or words not considered general knowledge. Works great inline! Also included is an option to link to a dictionary containing all the difficult words gathered from your application within the popover itself.
+
+
+      The popover-tooltip extends on the [popover](https://getbootstrap.com/docs/4.0/components/popovers/) class, and is triggered by wrapping the word needing an explanation in a `popover-tooltip-trigger` class, and also pointing to the toggleable div with `aria-controls="[div id]"`. The `div` should have an id corresponding to the one specified in the aria-controls. Add the `popover-tooltip` to the div, along with any [popover](https://getbootstrap.com/docs/4.0/components/popovers/) classes to manipulate its positioning. **Make sure the entire `popover-tooltip` is wrapped in the popover-tooltip-trigger element**.
+
+
+      Like popovers, we need some simple triggering javascript in order for the popover to appear.
+
+
+      ```
+
+      $('.popover-tooltip-trigger').on('focus blur', function() {
+        $('#' + $(this).attr('aria-controls')).parent().toggleClass('open');
+      });
+
+      ```
+
+
+      ### Center popup box on small screens[](https://lf-digitala-kanaler.github.io/LFUI/650/#/popover-tooltip#center-popup-box-on-small-screens)
+
+
+      There is an option to center the popup box on smaller screens. If you add `popover-sm-center` to both `popover-tooltip-trigger` and `popover-tooltip` the box will be centered on small screens right aligned on wider.
     name: Code
 backgroundColor: "#fff"
 ---
