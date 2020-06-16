@@ -1,7 +1,7 @@
 ---
 template: ArticlePage
 category: Template patterns
-previewImage: /img/templates-lfse.png
+previewImage: /img/sidmallar-öppnasidor.jpg
 description: Sidmallar för länsförsäkringar.se med syfte och information om varje sidtyp.
 title: Lansforsakringar.se
 intro: Alla sidmallar har egentligen ett tydligt syfte. För att kunden ska känna
@@ -29,25 +29,38 @@ Genom sidorna listade nedan och via de primära syften vi satt för varje enskil
 * Content-samlingssida (ej gjord)
 
 <section>
-<Collapse title="Ramverk"><div class="content"><div class="content">
+<Collapse title="Ramverk"><div class="content"><div class="content"><div class="content">
+
+<div class="content">
 
 
 
 Här kommer text
+
 
 </div></Collapse>
-<Collapse title="Startsida"><div class="content"><div class="content">
+<Collapse title="Startsida"><div class="content"><div class="content"><div class="content">
+
+<div class="content">
 
 
 
 Här kommer text
+
 
 </div></Collapse>
-<Collapse title="Navigationssida"><div class="content"><div class="content">
+<Collapse title="Navigationssida"><div class="content"><div class="content"><div class="content">
+
+<div class="content">
 
 
 
 Här kommer text
 
+
+</div></Collapse>
+<Collapse title="test"><div class="content">
+
+test
 </div></Collapse>
 </section>
