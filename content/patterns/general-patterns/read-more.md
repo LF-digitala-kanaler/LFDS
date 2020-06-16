@@ -1,11 +1,11 @@
 ---
 template: ArticlePage
 category: General Patterns
+previewImage: /img/read-more.svg
 title: Read more
-intro: >-
-  This page describes the four different ways we have of providing additional
-  information to the user. The first three are components, whereas the fourth
-  isn't.
+intro: This page describes the four different ways we have of providing
+  additional information to the user. The first three are components, whereas
+  the fourth isn't.
 ---
 There are four accepted ways of providing information for the user with a “Read more”-function. Please note that there are **no i-bubbles** in LFUI. The four ways of providing “Read more”-information are:
 

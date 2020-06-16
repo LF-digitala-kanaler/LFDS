@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="120px" viewBox="0 0 240 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>patterns/read more</title>
+    <g id="patterns/read-more" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" stroke="#F3F3F3" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="238" height="118"></rect>
+        <g id="Button-and-Links/Secondary-Button/_default" transform="translate(66.500000, 37.000000)">
+            <rect id="bg" stroke="#00427A" stroke-width="2" x="1" y="1" width="105" height="38"></rect>
+            <text id="action" font-family="IntroCond-Bold, Intro Cond" font-size="18" font-style="condensed" font-weight="bold" line-spacing="18" fill="#00427A">
+                <tspan x="14" y="30">Read more</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

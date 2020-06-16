@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
-title: Paragraph
-intro: Brödtexten används på alla ställen där man inte vill ha en rubrik eller
-  fet text.
-description: Brödtexten används på alla ställen där man inte vill ha en rubrik
-  eller fet text.
+title: Body text
+intro: The body text is the standard text style and the one which is used for
+  all 'normal' text, that is text which isn't a heading or lead paragraph.
+description: The body text is the standard text style and the one which is used
+  for all 'normal' text.
 previewImage: /img/paragraph.svg
 category: Typography
 tabs:
@@ -12,10 +12,9 @@ tabs:
       ## How to use
 
 
-      Brödtexten är alltid 16 px, svart (#222222) och i arial för att få så bra läsbarhet som möjligt. 
+      The LFUI body text styling aims to provide a nice and smooth reading experience. It is set in Arial, 16 px and a black colour (#222222). Also refer to [Typography](/visual-identity/typography) under Visual Identity.
 
 
-      I app-utveckling finns inte Arial med i basutbudets typsnitt så här använder vi Roboto för Android och San Fransisco för iOS.
 
 
       ### Länkar i brödtext
