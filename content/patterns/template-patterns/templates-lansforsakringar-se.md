@@ -47,11 +47,8 @@ Att hjälpa användaren att göra det den kom för att göra
 
 
 </div></Collapse>
-<Collapse title="Startsida"><div class="content"><div class="content"><div class="content"><div class="content">
+<Collapse title="Startsida"><div class="content">
 
-<div class="content"><div class="content">
-
-<div class="content">
 
 
 
@@ -87,9 +84,8 @@ Att hjälpa användaren att göra det den kom för att göra
 
 
 </div></Collapse>
-<Collapse title="Navigationssida"><div class="content"><div class="content"><div class="content">
 
-<div class="content">
+<Collapse title="Navigationssida"><div class="content">
 
 För att hjälpa kunden till rätt val när det finns ett flertal liknande produkter erbjuder navigationssidan vägledning. En snabb inledande text för att visa att man kommit rätt för att sedan leda vidare med snabba puffar till de olika sidorna.
 
