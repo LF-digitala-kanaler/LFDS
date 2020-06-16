@@ -36,7 +36,7 @@ Vi jobbar framförallt med principerna:
 3. Navigera genom innehåll
 
 <section>
-<Collapse title="Ramverk"><div class="content"><div class="content">
+<Collapse title="Ramverk"><div class="content">
 
 
 
@@ -45,7 +45,7 @@ Här kommer text
 
 
 </div></Collapse>
-<Collapse title="Startsida"><div class="content"><div class="content">
+<Collapse title="Startsida"><div class="content">
 
 ### Sammanfattning
 
