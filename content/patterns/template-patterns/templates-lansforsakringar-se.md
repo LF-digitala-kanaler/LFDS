@@ -1,22 +1,37 @@
 ---
 template: ArticlePage
 category: Template patterns
+previewImage: /img/templates-lfse.png
 description: Sidmallar för länsförsäkringar.se med syfte och information om varje sidtyp.
-title: Templates Lansforsakringar.se
-intro: Sidmallar för länsförsäkringar.se med syfte och information om varje sidtyp.
-contentTop: Här kan man förklara mer
+title: Lansforsakringar.se
+intro: Alla sidmallar har egentligen ett tydligt syfte. För att kunden ska känna
+  igen sig och känna ett lugn i vilken sida man är på så vill vi att alla sidor
+  används på samma sätt där man gjort sitt yttersta för att välja rätt mall. Att
+  man innan man väljer förstår kanalens struktur och följer den.
+contentTop: ""
 background: bg-white
 wide: false
 lang: true
 ---
-Och sen kan man säga lite mer här.
 
-<figure class="Image Image__border"><img src="/img/struktur-öppnasidor.jpg" srcset="/img/struktur-öppnasidor.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-<figure class="Image Image__border"><img src="/img/sidmallar-öppnasidor.jpg" srcset="/img/sidmallar-öppnasidor.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+## Sidorna ska hjälpa användaren
+
+Att hjälpa användaren att göra det den kom för att göra
+
+* Startsida
+* Navigationssida
+* Produktsida
+* Informationssida
+* Kampanjsida
+* Content-samlingssida (ej gjord)
+
+
 
 <section>
-<Collapse title="Ramverk"><div class="content"><div class="content"><div class="content">
+<Collapse title="Ramverk"><div class="content"><div class="content"><div class="content"><div class="content">
+
+<div class="content"><div class="content">
 
 <div class="content">
 
@@ -27,8 +42,11 @@ Och sen kan man säga lite mer här.
   Här kommer förklaring
   
 
+
 </div></Collapse>
-<Collapse title="Startsida"><div class="content"><div class="content"><div class="content">
+<Collapse title="Startsida"><div class="content"><div class="content"><div class="content"><div class="content">
+
+<div class="content"><div class="content">
 
 <div class="content">
 
@@ -64,8 +82,11 @@ Och sen kan man säga lite mer här.
   KPI/mätning:
   
 
+
 </div></Collapse>
-<Collapse title="Navigationssida"><div class="content"><div class="content">
+<Collapse title="Navigationssida"><div class="content"><div class="content"><div class="content">
+
+<div class="content">
 
 För att hjälpa kunden till rätt val när det finns ett flertal liknande produkter erbjuder navigationssidan vägledning. En snabb inledande text för att visa att man kommit rätt för att sedan leda vidare med snabba puffar till de olika sidorna.
 
@@ -129,5 +150,6 @@ För dig som ska försäkra din bil
 /\[BOLAG]/privat/forsakring/fordonsforsakring/
 
 /\[BOLAG]/privat/forsakring/personforsakring/
+
 </div></Collapse>
 </section>
