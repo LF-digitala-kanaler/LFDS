@@ -16,9 +16,9 @@ background: bg-white
 wide: false
 lang: true
 ---
-## Sidorna ska hjälpa användaren
+## "Hjälp användaren göra det den kom för att göra"
 
-Att hjälpa användaren att göra det den kom för att göra
+Genom sidorna listade nedan och via de primära syften vi satt för varje enskild sida. Dessa sidor är det vi kommer gå igenom här:
 
 * Ramverk
 * Startsida
