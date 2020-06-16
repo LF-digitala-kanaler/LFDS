@@ -16,7 +16,6 @@ background: bg-white
 wide: false
 lang: true
 ---
-
 <figure class="Image Image__border Image__border--noPadding"><img src="/img/sidmallar-öppnasidor.jpg" srcset="/img/sidmallar-öppnasidor.jpg 2x" alt="Alla sidtyper"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## "Hjälp användaren göra det den kom för att göra"

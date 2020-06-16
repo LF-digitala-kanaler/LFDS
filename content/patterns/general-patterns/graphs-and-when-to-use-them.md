@@ -21,21 +21,21 @@ There are different kind of graphs to use, here comes some way of thinking wen t
 
 Line graphs are used to track changes over short and long periods of time. 
 
-[More about line graph](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/line-graph)
+[More about line graph](/components/web/data-visualization/line-graph)
 
 #### . . . a Pie Chart.
 
 Pie charts are best to use when you are trying to compare parts of a whole. They do not show changes over time.
 
-[More about Pie Chart](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/piechart)
+[More about Pie Chart](/components/web/data-visualization/piechart)
 
 #### . . . a Bar Graph.
 
 Bar graphs are used to compare things between different groups or to track changes over time. However, bar graphs are best when the changes are larger.
 
-[More about Bar Graph](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/bar-graph)
+[More about Bar Graph](/components/web/data-visualization/bar-graph)
 
-[More about Distribution bar](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/distribution-bar)
+[More about Distribution bar](/components/web/data-visualization/distribution-bar)
 
 #### . . . an Area Graph.
 
@@ -53,7 +53,7 @@ More about X-Y Plot
 
 Use a map if you have data with a geographical component. Maps can shade areas in proportion to mapped values, allowing for visual pop-out of high-value areas. Data for map charts must contain geographical names corresponding to the geographical entities represented on the map. 
 
-[More about Map Chart](https://lfui-beta-aedd0a.netlify.com/components/web/data-visualization/map)
+[More about Map Chart](/components/web/data-visualization/map)
 
 ### The different parts
 
