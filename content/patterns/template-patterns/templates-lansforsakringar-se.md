@@ -47,13 +47,17 @@ Här kommer text
 </div></Collapse>
 <Collapse title="Startsida"><div class="content"><div class="content">
 
+### Sammanfattning
 
+Välkomnar användaren och tar hand om minst 80 procent av användarnas behov ovanför fold. Vårt primära syfte är att leda användaren vidare till vad den kom för att göra.
 
+### Beskrivning
 
-Här kommer text
+Startsidan för länsförsäkringar.se ska i första hand ta hand om det behov våra kunder och andra användare har – ”Hjälp mig att göra det jag kom för att göra”. Därför inleds sidan med ingångar till de vanligaste ärendena. Därutöver har vi möjlighet att lista vanliga sökord och aktuella kampanjer, nyheter och kontaktmöjligheter.
 
+Då mer än hälften av användarna kommer in till vår startsida via mobilen så är det extra viktigt att se över upplevelsen via telefonen. 
 
-
+Viktigt att tänka på är att de kunder som kommer till oss med ett behov, sällan eller aldrig stannar kvar på startsidan. Därför kan vi inte förlita oss på att man uppmärksammar information som finns här. Kunden är mest mottaglig efter det att behovet har tagits om hand eller då vi presenterar information som är tätt relaterad till det behov kunden har.
 </div></Collapse>
 <Collapse title="Navigationssida"><div class="content">
 
