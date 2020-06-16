@@ -33,7 +33,7 @@ const CollapseWidget = {
         
         return {
           title: item.match(/title="(.*)"/)[1],
-          content: item.match(/<div class="content">(.*)<\/div>/)[1],
+          content: item.match(/<div class="content">(.*)<\/div>/s)[1],
         }
       });
       

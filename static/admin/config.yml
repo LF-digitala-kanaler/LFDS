@@ -165,7 +165,7 @@ collections: # A list of collections the CMS should be able to edi
         options: 
           - { label: "General Patterns", value: "General Patterns" }
           - { label: "Template patterns", value: "Template patterns" }
-          - { label: "LF.se", value: "LF.se" }
+          - { label: "Lansforsakringar.se", value: "Lansforsakringar.se " }
           - { label: "Mina sidor", value: "Mina sidor" }
           - { label: "Purchase services", value: "Purchase services" }
           - { label: "App", value: "App" }
