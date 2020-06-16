@@ -9,4 +9,3 @@ previewImage: /img/design_process.svg
 wide: false
 lang: false
 ---
-body
