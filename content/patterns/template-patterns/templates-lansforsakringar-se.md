@@ -1,17 +1,14 @@
 ---
 template: ArticlePage
 category: Template patterns
-previewImage: /img/sidmallar-öppnasidor.jpg
+previewImage: /img/templates-lfse.png
 description: Sidmallar för länsförsäkringar.se med syfte och information om varje sidtyp.
 title: Lansforsakringar.se
 intro: Alla sidmallar har egentligen ett tydligt syfte. För att kunden ska känna
   igen sig och känna ett lugn i vilken sida man är på så vill vi att alla sidor
   används på samma sätt där man gjort sitt yttersta för att välja rätt mall. Att
   man innan man väljer förstår kanalens struktur och följer den.
-contentTop: >-
-  
-
-
+contentTop: ""
 background: bg-white
 wide: false
 lang: true
@@ -30,27 +27,42 @@ Genom sidorna listade nedan och via de primära syften vi satt för varje enskil
 * Kampanjsida
 * Content-samlingssida (ej gjord)
 
+
+
+Vi jobbar framförallt med principerna:
+
+1. Bästa upplevelse oavsett skärm
+2. En sida ett syfte
+3. Navigera genom innehåll
+
 <section>
-<Collapse title="Ramverk"><div class="content">
+<Collapse title="Ramverk"><div class="content"><div class="content">
+
+
 
 Här kommer text
+
 
 
 </div></Collapse>
-<Collapse title="Startsida"><div class="content">
+<Collapse title="Startsida"><div class="content"><div class="content">
+
+
 
 
 Här kommer text
+
 
 
 </div></Collapse>
-<Collapse title="Navigationssida">
+<Collapse title="Navigationssida"><div class="content">
 
-<div class="content">
+
 
 
 
 Här kommer text
+
 
 
 </div></Collapse>
