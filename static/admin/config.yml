@@ -164,10 +164,10 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         options: 
           - { label: "General Patterns", value: "General Patterns" }
-          - { label: "Template patterns", value: "Template patterns" }
-          - { label: "Lansforsakringar.se", value: "Lansforsakringar.se " }
+          - { label: "Template Patterns", value: "Template Patterns" }
+          - { label: "Lansforsakringar se", value: "Lansforsakringar se" }
           - { label: "Mina sidor", value: "Mina sidor" }
-          - { label: "Purchase services", value: "Purchase services" }
+          - { label: "Purchase Services", value: "Purchase Services" }
           - { label: "App", value: "App" }
       - label: Preview Image
         name: previewImage

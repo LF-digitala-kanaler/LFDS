@@ -1,8 +1,8 @@
 ---
 template: ArticlePage
-category: "Lansforsakringar se"
-title: Patterns
-intro: Patterns
+category: "Mina sidor"
+title: Overview Page
+intro: Overview Page
 background: bg-white
 wide: false
 lang: false

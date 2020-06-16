@@ -1,8 +1,8 @@
 ---
 template: ArticlePage
-category: "Lansforsakringar se"
-title: Patterns
-intro: Patterns
+category: "Purchase Services"
+title: Landing Page
+intro: Landing Page
 background: bg-white
 wide: false
 lang: false

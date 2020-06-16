@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Lansforsakringar se"
+category: "Purchase Services"
 title: Patterns
 intro: Patterns
 background: bg-white

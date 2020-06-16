@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Lansforsakringar se"
+category: "Mina sidor"
 title: Patterns
 intro: Patterns
 background: bg-white

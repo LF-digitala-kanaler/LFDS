@@ -1,10 +1,9 @@
 ---
 template: ArticlePage
-category: "Lansforsakringar se"
+category: "Mina sidor"
 title: Framework
 intro: Framework
 background: bg-white
 wide: false
 lang: false
-hidden: false
 ---

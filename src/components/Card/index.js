@@ -7,6 +7,7 @@ import cx from 'classnames'
 
 
 const Card = ({title, url, image, description, grid, lang}) => {
+  
   return (
     <Link className={cx(style.Card, (grid ? '' :  style['Card--list'] ))} to={`${url}`} >
       <article className={cx(!grid ? style.Card__wrapper : '' )}>
