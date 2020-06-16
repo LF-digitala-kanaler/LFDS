@@ -7,14 +7,12 @@ intro: Hur vi generellt skriver felmeddelanden m.m.
 wide: false
 lang: false
 ---
-
-
-
-
-
+<figure class="Image Image__border"><img src="/img/avatar.svg" srcset="undefined 2x" alt="test"><figcaption><div class="Image__caption">test</div></figcaption></figure>
 
 <section>
-<Collapse title="Felmeddelanden"><div class="content">Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig. Var vänlig och ödmjuk.
+<Collapse title="Felmeddelanden"><div class="content"><div class="content">
+
+Ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig. Var vänlig och ödmjuk.
 
 ### Tre typer av felmeddelanden
 
@@ -30,5 +28,6 @@ Användaren kanske har skrivit fel, glömt att fylla i eller saknar internet. Be
 
 Här är det osäkert var felet ligger. Det är stor chans att det är användaren men det kan vara vi. Fråga eller föreslå. "Kan det vara så att..." Föreslå att testa/kolla, "Testa igen, annars är det vi och då jobbar vi på att lösa problemet". Skippa felkod om det inte specifikt hjälper användaren att se den.
 
-Säg inte att det är ett tekniskt fel om vi inte vet att det är det. Det kan då framstå som att vi har mer tekniska problem än vad vi faktiskt har.</div></Collapse>
+Säg inte att det är ett tekniskt fel om vi inte vet att det är det. Det kan då framstå som att vi har mer tekniska problem än vad vi faktiskt har.
+</div></Collapse>
 </section>
