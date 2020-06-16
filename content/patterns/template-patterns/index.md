@@ -1,8 +1,8 @@
 ---
 template: CategoryOverview
-previewImage: /img/alert.svg
-description: här kommer en text
+previewImage: /img/templates.png
+description: "Here you see our templates for all the webbased channels. "
 title: Template Patterns
-intro: här kommer oxå
+intro: "Here you see our templates for all the webbased channels. "
 background: bg-white
 ---
