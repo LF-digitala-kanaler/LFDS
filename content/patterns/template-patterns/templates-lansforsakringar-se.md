@@ -29,16 +29,25 @@ Att hjälpa användaren att göra det den kom för att göra
 * Content-samlingssida (ej gjord)
 
 <section>
-<Collapse title="Ramverk"><div class="content">
+<Collapse title="Ramverk"><div class="content"><div class="content">
+
+
 
 Här kommer text
+
 </div></Collapse>
-<Collapse title="Startsida"><div class="content">
+<Collapse title="Startsida"><div class="content"><div class="content">
+
+
 
 Här kommer text
+
 </div></Collapse>
-<Collapse title="Navigationssida"><div class="content">
+<Collapse title="Navigationssida"><div class="content"><div class="content">
+
+
 
 Här kommer text
+
 </div></Collapse>
 </section>
