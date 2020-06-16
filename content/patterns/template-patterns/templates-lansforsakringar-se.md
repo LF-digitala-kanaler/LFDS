@@ -8,7 +8,10 @@ intro: Alla sidmallar har egentligen ett tydligt syfte. För att kunden ska kän
   igen sig och känna ett lugn i vilken sida man är på så vill vi att alla sidor
   används på samma sätt där man gjort sitt yttersta för att välja rätt mall. Att
   man innan man väljer förstår kanalens struktur och följer den.
-contentTop: ""
+contentTop: >-
+  
+
+  <figure class="Image Image__border"><img src="/img/sidmallar-öppnasidor.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 background: bg-white
 wide: false
 lang: true
