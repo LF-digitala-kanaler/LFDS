@@ -176,7 +176,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false} 
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+      - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout',  'code',  'code-block', 'color'] }
       - label: Hero block
         name: heroBlock
         widget: object

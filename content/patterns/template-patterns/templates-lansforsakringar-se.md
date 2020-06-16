@@ -11,11 +11,14 @@ intro: Alla sidmallar har egentligen ett tydligt syfte. För att kunden ska kän
 contentTop: >-
   
 
-  <figure class="Image Image__border Image__border--noPadding"><img src="/img/sidmallar-öppnasidor.jpg" srcset="/img/sidmallar-öppnasidor.jpg 2x" alt="Alla sidtyper"><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 background: bg-white
 wide: false
 lang: true
 ---
+
+<figure class="Image Image__border Image__border--noPadding"><img src="/img/sidmallar-öppnasidor.jpg" srcset="/img/sidmallar-öppnasidor.jpg 2x" alt="Alla sidtyper"><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 ## "Hjälp användaren göra det den kom för att göra"
 
 Genom sidorna listade nedan och via de primära syften vi satt för varje enskild sida. Dessa sidor är det vi kommer gå igenom här:
@@ -29,7 +32,20 @@ Genom sidorna listade nedan och via de primära syften vi satt för varje enskil
 * Content-samlingssida (ej gjord)
 
 <section>
-<Collapse title="Ramverk"><div class="content"><div class="content"><div class="content">
+<Collapse title="Ramverk"><div class="content">
+
+Här kommer text
+
+
+</div></Collapse>
+<Collapse title="Startsida"><div class="content">
+
+
+Här kommer text
+
+
+</div></Collapse>
+<Collapse title="Navigationssida">
 
 <div class="content">
 
@@ -38,29 +54,5 @@ Genom sidorna listade nedan och via de primära syften vi satt för varje enskil
 Här kommer text
 
 
-</div></Collapse>
-<Collapse title="Startsida"><div class="content"><div class="content"><div class="content">
-
-<div class="content">
-
-
-
-Här kommer text
-
-
-</div></Collapse>
-<Collapse title="Navigationssida"><div class="content"><div class="content"><div class="content">
-
-<div class="content">
-
-
-
-Här kommer text
-
-
-</div></Collapse>
-<Collapse title="test"><div class="content">
-
-test
 </div></Collapse>
 </section>
