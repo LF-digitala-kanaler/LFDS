@@ -36,14 +36,13 @@ tabs:
       ## To consider
 
 
-      * Använd inte för bred textbredd på innehåll då det blir svårt att följa med i texterna och hitta tillbaka till vilken rad jag ska börja läsa på under. En bra tumregel är att hålla sig till 65-85 tecken.
+      * Keep general recommendations on text length online in mind. A good rule of thumb is to keep the width of each line to 65-85 characters (including blanks).
 
-      * Undvik helt versala texter.
+      * Don't use CAPS for anything except first letters of sentences and names.
 
-      * Undvik att använda som bold.
+      * Do not use bold to highlight words, find ways of getting your point across which are more accessible.
 
 
-      <div class="Callout"><strong class="Callout__title">Kul att veta </strong><p class="Callout__text">Den största delen information på en webbplats är vanligtvis textbaserad Därför har vi under åren ökat vår storlek på brödtexten för att förbättra läsbarheten. 2012 hade vi brödtext på 12 px och 2014 ökades den till 14 px och nu sedan 2016 har vi ökat ännu mer till en brödtext på 16 px.</p></div>
 
 
       ## Other material
