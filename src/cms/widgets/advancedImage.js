@@ -12,7 +12,7 @@ const AdvancedImage = {
       options: [
         { label: "Full width", value: "Image__border" },
         { label: "Small", value: "Image__background" },
-        {label: "Full width widthout padding", value: "Image__border Image__border--noPadding"}
+        {label: "Full width without padding", value: "Image__border Image__border--noPadding"}
       ],
     },
     { name: "caption", label: "Caption", widget: "string", default: "" },
@@ -21,14 +21,13 @@ const AdvancedImage = {
   fromBlock(match) {
     return {
       image: match[2],
-      image2: match[2],
       alt: match[4],
       type: match[1],
       caption: match[5],
     }
   },
   toBlock(obj) {
-    return `<figure class="Image ${obj.type}"><img src="${obj.image}" srcset="${obj.image2} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
+    return `<figure class="Image ${obj.type}"><img src="${obj.image}" srcset="${obj.image} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
   },
 }
 

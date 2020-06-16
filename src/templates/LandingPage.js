@@ -45,12 +45,13 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
       ? allOverviewPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
- 
+  console.log(overviewPages.items, 'items')
   const overViewGroups = _(overviewPages.items)
   .chain()
   .map((item) => {
+    
     return {
-      category: (item.node.frontmatter.title).toLowerCase(),  
+      category: (item.node.fields.contentType.split("/").pop()).toLowerCase().replace(/\-/g, ' '),  
       previewImage: item.node.frontmatter.previewImage,
     }
   })
