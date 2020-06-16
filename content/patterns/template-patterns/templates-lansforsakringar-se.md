@@ -11,7 +11,7 @@ intro: Alla sidmallar har egentligen ett tydligt syfte. För att kunden ska kän
 contentTop: >-
   
 
-  <figure class="Image Image__border"><img src="/img/sidmallar-öppnasidor.jpg" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+  <figure class="Image Image__border Image__border--noPadding"><img src="/img/sidmallar-öppnasidor.jpg" srcset="/img/sidmallar-öppnasidor.jpg 2x" alt="Alla sidtyper"><figcaption><div class="Image__caption"></div></figcaption></figure>
 background: bg-white
 wide: false
 lang: true
