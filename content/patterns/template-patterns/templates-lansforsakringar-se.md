@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: LF.se
+category: Template patterns
 previewImage: /img/templates-lfse.png
 description: Alla sidor är en startsida - men detta är Startsidan och dess syfte
   och vilka behov den ska ta hand om. Välkomnar användaren och tar hand om minst
