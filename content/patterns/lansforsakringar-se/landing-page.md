@@ -41,62 +41,49 @@ contentTop: >-
 
 
 
-  #### **Stödja majoriteten**
+  #### Stödja majoriteten
 
 
   5 knappar till de vanligaste tjänsterna/produkterna tillsammans med logga in och kontakta oss hjälper mer än 80% av besökarna till startsidan.
 
 
+  #### Ett tydligt varumärkeslöfte
 
 
-  **Ett tydligt varumärkeslöfte(Nytt under utvärdering)**\
-
-  Att vi är ett lokalt, kundägtbolag som ger trygghet i försäkring, bank och pension.
+  Att vi är ett lokalt, kundägtbolag som ger trygghet i försäkring, bank och pension. (Nytt under utvärdering)
 
 
+  #### Mest sökta ord i internsök
 
 
-  **Mest sökta ord i internsök(Nytt under utvärdering)**\
-
-  Kan vara det folk söker på mest lokalt just nu eller som man inte hittar. Vad kan vi lära oss av att lägga det på startsidan. Kan vi fånga fler än 80%.
+  Kan vara det folk söker på mest lokalt just nu eller som man inte hittar. Vad kan vi lära oss av att lägga det på startsidan. Kan vi fånga fler än 80%. (Nytt under utvärdering)
 
 
+  #### Kampanjyta
 
-
-  **Kampanjyta**\
 
   Leda in de som sett senaste kampanjen vidare till kampanjen. Har jag sett något på en stortavla ska jag få igenkänning.
 
 
+  #### Nyheter
 
-
-  **Nyheter**\
 
   3 senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker min försäkring vid pandemin Corona? Eldningsförbud i länet - hur kan jag förebygga?
 
 
+  #### Kontakta oss
 
-
-  **Kontakta oss**\
 
   Jag vill ringa, besöka eller maila - hur gör jag? Olika lokala val på vad du kan ha här.
 
 
-
-
   ## Variant
-
-
 
 
   ### 1-4 Kampanjytor
 
 
   Det finns möjlighet att använda sig av 1-4 Kampanjytor samtidigt. 3-4 kampanjytor är inget vi rekommenderar då det blir ett rörigt intryck där vi bara signalerar sälj och olika kampanjkoncept men nöden har ibland ingen lag och då finns det möjlighet. När man använder fler än två kampanjer så ska man veta att varumärkeslöftet försvinner ovanför för att få upp kampanjerna närmare fold.
-
-
-
-
 
 
 
@@ -148,6 +135,6 @@ contentTop: >-
   /bolag/foretag/
 background: bg-white
 wide: false
-lang: false
+lang: true
 hidden: false
 ---
