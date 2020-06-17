@@ -14,7 +14,7 @@ const CardGrid = ({list}) => {
             <Card 
               grid={true}  
               title={item.link[0].node.frontmatter.category} 
-              url={item.link[0].node.fields.contentType} 
+              url={'/'+item.link[0].node.fields.contentType} 
               image={item.previewImage || item.link[0].node.frontmatter.previewImage}
               
             />
@@ -31,7 +31,7 @@ const CardGrid = ({list}) => {
               <Card 
                 grid={true}  
                 title={items.node.frontmatter.title} 
-                url={items.node.fields.slug} 
+                url={'/'+items.node.fields.slug} 
                 image={items.node.frontmatter.previewImage}
                 lang={items.node.frontmatter.lang}
               />
