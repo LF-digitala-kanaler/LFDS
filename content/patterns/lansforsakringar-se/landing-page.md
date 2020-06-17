@@ -1,6 +1,7 @@
 ---
 template: ArticlePage
 category: Lansforsakringar se
+previewImage: /img/templates-lfse-landingpage.png
 description: The landing page of Länsförsäkringar.se.
 title: Landing Page
 intro: Välkomnar användaren och tar hand om minst 80 procent av användarnas
