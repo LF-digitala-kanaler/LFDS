@@ -77,7 +77,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
   
   var merged = _.merge(_.keyBy(overViewGroups, 'category'), _.keyBy(groupsSorted, 'category'));
   var concatCategories = _.values(merged);
-  console.log(concatCategories)
+  
 
   return (
     <Layout

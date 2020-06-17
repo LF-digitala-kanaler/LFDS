@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 
 
 const MenuLink = ({ path, title ,parent, collapse}) => {
-
+  
   return(
   <>
   <Link activeClassName={style['Menu__link--active']} className={style.Menu__link}  to={`${path}`}  >

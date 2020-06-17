@@ -8,12 +8,12 @@ const CardGrid = ({list}) => {
   console.log(list, 'list')
   const cardItems = list.map((item, index) => {
       if(item.category !== "null") {
-        console.log(item, 'item')
+        
         return(
           <div className={style.CardGrid__item} key={index}>
             <Card 
               grid={true}  
-              title={item.category} 
+              title={item.link[0].node.frontmatter.category} 
               url={item.link[0].node.fields.contentType.replace(/\/$/, "")} 
               image={item.previewImage || item.link[0].node.frontmatter.previewImage}
               
