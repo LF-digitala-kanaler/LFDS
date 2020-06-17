@@ -1,6 +1,6 @@
 ---
 template: CategoryOverview
-previewImage: /img/general-pattern.png
+previewImage: /img/templates-lfse.png
 description: "Här går vi igenom våra templates för våra öppna sidor Länsförsäkringar.se. "
 title: Lansforsakringar.se
 intro: "Här går vi igenom våra templates för våra öppna sidor
