@@ -167,10 +167,6 @@ module.exports = {
             options: {
               absoluteUrls: [
                 //Here I am using pretty much every protocol combination you could expect for a www... site
-                "https://lfui-beta-aedd0a.netlify.com",
-                "https://www.lfui-beta-aedd0a.netlify.com",
-                "http://lfui-beta-aedd0a.netlify.com",
-                "http://www.lfui-beta-aedd0a.netlify.com",
                 "https://lf-digitala-kanaler.github.io",
                 "https://www.lf-digitala-kanaler.github.io",
                 "http://lf-digitala-kanaler.github.io",
