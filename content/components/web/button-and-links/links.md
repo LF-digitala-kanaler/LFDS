@@ -37,9 +37,7 @@ tabs:
       <div class="Callout"><strong class="Callout__title">Link or button? </strong><p class="Callout__text">The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
 
 
-
-
-      The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
+      The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.
 
 
       #### Regular links
@@ -48,16 +46,19 @@ tabs:
       Our regular link follows web standards closely, being blue with and underlined. On hover it changes colour to a darker shade of blue. Depending on in which context it is used there are some aspects to consider.
 
 
-      ##### Inline in text
+      ##### Links in relation to text
 
 
-      If you want to include a link in in a block text, you may do so but do it with caution. Links in text is good from an SEO-perspective but bad from a accesibility-perspective. If you want to include a link inline keep the paragraph it is in as short as possible. If you have several links you want to add, you should consider a [link list](#link-list) instead.
+      How to place a link depends on which kind of text you use it conjuction with. We have placed our recommendations in conjunction with the description of the various text types:
 
 
-      ###### In a bullet list
+      * If you want to use a link in relation to body text, read about how to do it on the [body text-page](../typography/body-text#links-in-body-text). 
+
+      * If you want to place a link in a bullet list, you want to head over to [lists](../typography/lists).
+
+      * If you have several links you want to add, you might want to use a [link list](../typography/lists#link-list) instead.
 
 
-      If you want to use a link in a bullet list, make sure to formulate the content is such a way that you can put the link at the end of the bullet point.
 
 
       ##### Link list
@@ -89,7 +90,7 @@ tabs:
       A common usage of the regular link is as a secondary option in a flow. In this case the link contrasts a primary button. Depending on what the link does, it is either placed to the far left in height with the primary button (for "backwards"-functionality) or just prior the primary button (for "cancel"-functionality). The image below shows one of the rare cases where both options exist.
 
 
-      <figure class="Image Image__background"><img src="/img/button_and_text.png" srcset="/img/button_and_text.png 2x" alt="Regular links next to a primary button in a flow where both "backwards" and "cancel"-options exist."><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/skärmavbild-2020-03-12-kl.-18.00.19.png" srcset="/img/skärmavbild-2020-03-12-kl.-18.00.19.png 2x" alt="Regular links next to a primary button in a flow where both "backwards" and "cancel"-options exist."><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## Other material
