@@ -3,7 +3,7 @@ import style from './index.module.css';
 import cx from 'classnames'
 
 const ComponentNavigation = ({onChildClick , navigation}) => {
-  console.log(navigation, 'äää')
+
   const [active, setActive] = useState(navigation[0].example[0].node.id);
   const handleClick = (variants, active) => {
     setActive(active)
