@@ -87,16 +87,9 @@ tabs:
 
       * With icons - for lists with documents. The icons identify which kind of file or link it is. A typical example is when we want to present terms and "förköpsinformation" in a purchase flow. If this version is used all links should have an icon.
 
-      ** An exception to the normal way of handling [external links](../button-and-links/links#external-links) is when they are in a link list with icons. As the other links have icons in front of them, the external links also have the icon in front of the text to create a more coherent visual experience.
-
-
-
-
-
+        * An exception to the normal way of handling [external links](../button-and-links/links#external-links) is when they are in a link list with icons. As the other links have icons in front of them, the external links also have the icon in front of the text to create a more coherent visual experience.
 
       \------ Lizas text nedanför
-
-
 
 
       ### Link lists
