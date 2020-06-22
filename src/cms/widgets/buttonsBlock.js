@@ -51,7 +51,7 @@ const ButtonsBlock = {
       });
 
       // const content = Immutable.fromJS(obj.button.content);
-      // console.log(content, 'cont')
+      
 
       return `<div class='ButtonContent'>${items.join("\n")}</div>`;
     },

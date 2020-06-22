@@ -28,7 +28,6 @@ const CollapseWidget = {
       let matches = match[0].substring(match[0].indexOf("\n") + 1);
       matches = matches.substring(matches.lastIndexOf("\n") + 1, -1 )
       const collapseArray = matches.split(/(?=<Collapse)/);
-      console.log(collapseArray)
       const items = collapseArray.map(function(item, index) {
         
         return {

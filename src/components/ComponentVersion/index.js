@@ -33,7 +33,7 @@ export const ComponentVersion = ({version}) => {
   if(typeof window !== `undefined`) {
      // get latest version
     const versions = _.filter(componentsStatus.components, function(o) { return o.component.toLowerCase() === version.toLowerCase(); });
-    console.log(versions, 'version*')
+   
     //get all versions
     if(versions.length > 0 && versions[0].bootstrap.changedInVersion){
       const previousVersions = versions[0].bootstrap.changedInVersion.slice(1).map((item, index) => {
