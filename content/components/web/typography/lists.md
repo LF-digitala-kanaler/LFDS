@@ -9,7 +9,7 @@ description: "Lists can be used to make information stand out in contrast to a
 previewImage: /img/lists.svg
 category: Typography
 componentsNavigation:
-  - name: Dots
+  - name: Bullets
   - name: Numbers
   - name: Checkmarks
 tabs:
