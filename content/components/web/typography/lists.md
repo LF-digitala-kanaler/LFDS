@@ -90,68 +90,24 @@ tabs:
 
         * An exception to the normal way of handling [external links](../button-and-links/links#external-links) is when they are in a link list with icons. As the other links have icons in front of them, the external links also have the icon in front of the text to create a more coherent visual experience.
 
-      \------ Lizas text nedanför
+      ### General modifiers
 
 
-      ### Link lists
-
-
-      Here can be a struggle sometimes. We have some easy rules to think about. 
-
-
-      * Link list without icon
-
-      * Link list with pdf icons
-
-      * Link list with one external link
-
-
-      #### Link list with one external link
-
-
-      When a plain list with links and some are external links, the icon can be to the right. 
-
-
-      ## Modifers all lists
-
-
-      ### List spacing
-
-
-      You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas? //Lägg till
-
-
-      Note that a link lists also have special rules on their spacing when placed vertically.
-
-
-      ### To break down long sentences
-
-
-      You should always strive for having short items in the lists but sometimes it is harder to do. Here are some help. 
-
-
-      **Do sections instead**\
-
-      Use a headline instead and break it out to different sections of text, it makes the readers identify the main points of each section and easier to grasp. To highlight and simulate dots you can always make a small graphical element to the right of the textarea.
-
-
-      **Headings in list items**\
-
-      You should always have short items in the list but sometimes it is harder to do. Make a headline short and pop out with bold text then make a new row in the dot item and put the longer sentence under. 
+      If you should want to add extra spacing to your lists for some reasons, two additional spacings come with Bootstrap; medium (md) and large (lg). They are rarely, if ever, used in customer facing interfaces.
 
 
       ## Please consider
 
 
-      * Try to have maximum one list a page
+      * Try to have maximum one list per page
 
       * Only have 3-5 points in the list
 
-      * Have similar line lengths
+      * Have similar lengths for all list items
 
-      * Use the same feel/spirit for list items
+      * Use the same tonality for all list items
 
-      * Don’t require end punctuation
+      * If all of your bullets are only one sentence long, it actually increases readability to skip punctuation at the end of the sentence
 
 
       ## Other material
@@ -170,5 +126,16 @@ tabs:
 
       The default styling of `ol`  and `ul` is achieved by adding the corresponding class to the element at hand. This means if you're building an ul, also append the `ul` class to that element (and vice versa in the `ol` case).
     name: Code
+  - name: Copy
+    content: >-
+      ### To break down long sentences
+
+
+      You should always strive for having short items in the lists but sometimes it is harder to do. Here are some help. 
+
+
+      **Do sections instead**\
+
+      Use a headline instead and break it out to different sections of text, it makes the readers identify the main points of each section and easier to grasp. To highlight and simulate dots you can always make a small graphical element to the right of the textarea.
 backgroundColor: "#fff"
 ---
