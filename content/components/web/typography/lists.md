@@ -1,10 +1,11 @@
 ---
 template: ComponentPage
 title: Lists
-intro: Use to list small texts in dots or in numerical order and break up large
-  blocks of text and make important info stand out.
-description: Use to list small texts in dots or in numerical order and break up
-  large blocks of text and make important info stand out.
+intro: Lists can be used to make information stand out in contrast to a text
+  block or to group similar information in an accessible way. Depending on use
+  case we have different stylings.
+description: "Lists can be used to make information stand out in contrast to a
+  text block or to group similar information in an accessible way. "
 previewImage: /img/lists.svg
 category: Typography
 componentsNavigation:
