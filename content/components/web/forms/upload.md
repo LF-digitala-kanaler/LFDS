@@ -14,7 +14,7 @@ tabs:
       Our Upload-component is somewhat unique, as it is the only LFUI-component where parts of it don't appear until the user has taken action. The user flow when using the Upload-component is:
 
 
-      1. The user is presented with a [secondary button ](../../button-and-links/secondary-button/)with an attachment icon and the copy "Bifoga fil".
+      1. The user is presented with a [secondary button ](/components/web/button-and-links/buttons#secondary-buttons)with an attachment icon and the copy "Bifoga fil".
 
       2. When the user clicks the button a system dialog for selecting a file appears. If the user wants (and knows how to) they can select several files by default (if needed, ask your developer to disable the multiple-select).
 

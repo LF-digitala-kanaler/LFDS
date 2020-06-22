@@ -103,7 +103,7 @@ tabs:
       ## Please consider
 
 
-      If you have more than five options you are probably better off using a [dropdown](../dropdown).
+      If you have more than five options you are probably better off using a [dropdown](../forms/dropdown).
 
 
       ## Other material

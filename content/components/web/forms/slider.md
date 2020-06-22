@@ -22,7 +22,7 @@ tabs:
       the slider should affect something else (for example, in a housing loan
       application an increased price affects the size of the down payment
       needed). If you only need a value which doesn't affect other parts of the
-      value a regular [input field](../input-field) is most likely a better
+      value a regular [input field](../forms/input-field) is most likely a better
       option.
 
 
@@ -42,7 +42,7 @@ tabs:
       other. **The use of an adjacent input field is for accessibility reasons
       as close to mandatory anything can be without being mandatory** (for
       technical reasons it can't be included by default). The input field can be
-      styled like an ordinary [input field](../input-field) with a suffix if
+      styled like an ordinary [input field](../forms/input-field) with a suffix if
       needed.
 
 
