@@ -12,37 +12,54 @@ componentsNavigation:
   - name: Dots
   - name: Numbers
   - name: Checkmarks
-  - name: Link Lists
 tabs:
   - content: >-
       ## How to use
 
 
-      List elements helps to break up large blocks of text, make complex articles and product information easier to grasp, and make key information stand out.
+      Web readers prefer copy formatted for ease of scanning, which allows them to easily skip through chunks of text to get to areas of interest. List elements helps to break up large blocks of text, make complex articles and product information easier to grasp, and make key information stand out. 
 
 
-      We have a few different variations of lists
+      As you probably know, we generally recommend putting links after a text block (otherwise, [read this section](body-text#links-in-body-text)). However, when it comes to a list that would actually make it more difficult to identify what the link relates to. Thus, we recommend to phrase the list item in such a way that the link naturally can be placed at the end of the text but still inline with the text *(if you want to put one link to summarise the whole list, the normal recommendation of putting the link after the the textblock applies).*
 
 
-      * List with dots
+      ## Variations
 
-      * List with numbers
 
-      * Lists with checkmarks
+      We offer a variety of stylings for different use contexts as well as specific way of handling lists which only include links.
 
-      * Link lists
+
+
+
+      ## \---- Fabians arbetsmaterial
+
+
+      ## Siduppbyggnad
+
+
+      With dots
+
+
+      With numbers
+
+
+      With checkmarks
+
+
+      Link lists
+
+
+
+
+      \------ Lizas text nedanför
+
+
 
 
       A common question with lists are:
 
 
-      Where to put a **link in a list?** Man kan länka i en punktlista. Vår huvudregel är ju att inte bryta av en text med länkar och att de ska placeras under ett stycke, men i detta fall kan användaren ha svårt att koppla ihop vilken länk som tillhör vilken punkt i listan, så därför är regeln här: om inte listan leder till EN action att bistå varje punkt med sin specifika länk. 
-
-
       Where to put the **external icon in a link list**? You can read more about that in the specifik link list part below.
-
-
-      The Web is usually not the place for long, narrative writing. Instead, Web readers prefer copy formatted for ease of scanning, which allows them to easily skip through chunks of text to get to areas of interest. Read more here //länk till copy undersida
 
 
       ### List with dots
@@ -96,8 +113,6 @@ tabs:
       * Link list with pdf icons
 
       * Link list with one external link
-
-
 
 
       #### Link list without icon
