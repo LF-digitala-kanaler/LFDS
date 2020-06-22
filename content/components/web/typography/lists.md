@@ -47,7 +47,7 @@ tabs:
       #### Bullet list
 
 
-      Bulleted lists attract attention, support scanning, shorten text, and reveal the relationship of items. Our bullet list are a styling of the standard html-tag <ul>. The first level is a red and filled circle, the second is red and outlined whereas the third is square and blue. In customer facing lists you should never go as the third level.
+      Bulleted lists attract attention, support scanning, shorten text, and reveal the relationship of items. Our bullet list are a styling of the standard html-tag ul. The first level is a red and filled circle, the second is red and outlined whereas the third is square and blue. In customer facing lists you should never go as the third level.
 
 
       #### List with checkmarks as bullets
@@ -74,14 +74,12 @@ tabs:
       #### Numbered lists
 
 
-      Numbered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 10 list. 
+      Numbered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 5 list. Use numbered lists only when the sequence or count of items are important.
 
 
 
 
       \------ Lizas text nedanför
-
-
 
 
       A common question with lists are:
@@ -90,21 +88,6 @@ tabs:
       Where to put the **external icon in a link list**? You can read more about that in the specifik link list part below.
 
 
-      ### List with numbers
-
-
-      Use numbered lists only when the sequence or count of items are important.
-
-
-      Numbered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 10 list.
-
-
-      #### Modifier
-
-
-      **Big numbers**\
-
-      In lf.se we have a modifier with big numbers and a cirkel around for a better visual popout effect. These lists we recommend to have 2-4 list items.
 
 
       ### Link lists
