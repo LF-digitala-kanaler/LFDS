@@ -12,6 +12,7 @@ componentsNavigation:
   - name: Dots
   - name: Numbers
   - name: Checkmarks
+  - name: Link Lists
 tabs:
   - content: >-
       ## How to use
