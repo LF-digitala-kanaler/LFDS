@@ -73,7 +73,7 @@ tabs:
       #### Alert with button
 
 
-      If you need to put a button inside the alert, there is a special version of the [secondary buttons](../../buttonandlinks/knapp-i-alerts/) for this. Use the outlined button in the same color as your alert. The button should be placed on the right hand side of the alert. 
+      If you need to put a button inside the alert, there is a special version of the [secondary buttons](/components/web/button-and-links/buttons#secondary-buttons) for this. Use the outlined button in the same color as your alert. The button should be placed on the right hand side of the alert. 
 
 
       #### Full page width
@@ -85,7 +85,7 @@ tabs:
       ## Please consider
 
 
-      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut ](../buttonandlinks/shortcut/)(monocolor background and arrow) 
+      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut ](/components/web/button-and-links/shortcut)(monocolor background and arrow) 
 
       * If you want to use a link create a new page and link to it from the alert if you can’t get all your information across on one line as the text should be kept short.
 
@@ -101,7 +101,7 @@ tabs:
       ## Så skriver vi
 
 
-      * Blanda inte ihop dessa med [“glasspinnar”/modifier shortcut ](../../buttonandlinks/shortcut/)som är helfärgade, med pil och visas på startsidan av Mina sidor. 
+      * Blanda inte ihop dessa med [“glasspinnar”/modifier shortcut ](/components/web/button-and-links/shortcut)som är helfärgade, med pil och visas på startsidan av Mina sidor. 
 
 
       En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Rubriken ska då separeras med ett skiljetecken, som tankstreck eller ".?!". Använd aldrig bindestreck i alerten. Avsluta alltid med punkt. 

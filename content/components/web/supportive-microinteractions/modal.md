@@ -27,7 +27,7 @@ tabs:
       ## Please consider
 
 
-      Modals are great in a desktop or tablet-context but can easily become troublesome in a mobile context. As mobile usage has increased, the use of modals in our designs for “[read more](../)” has decreased. Take expected mobile usage into consideration when choosing whether to use a modal or another solution for “read more”.
+      Modals are great in a desktop or tablet-context but can easily become troublesome in a mobile context. As mobile usage has increased, the use of modals in our designs for “[read more](/patterns/general-patterns/read-more)” has decreased. Take expected mobile usage into consideration when choosing whether to use a modal or another solution for “read more”.
 
 
       ## Other material
