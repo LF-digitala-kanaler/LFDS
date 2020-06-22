@@ -24,7 +24,7 @@ tabs:
       ## Please consider
 
 
-      If you have more than five options you are probably better off using a [multi-select dropdown](../dropdown).
+      If you have more than five options you are probably better off using a [multi-select dropdown](/components/web/forms/dropdown).
 
 
       ## Other material
