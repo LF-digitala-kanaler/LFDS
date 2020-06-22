@@ -21,8 +21,8 @@ tabs:
       Use the spinner when you expect that the user will have to wait for all
       data to be loaded or the server to respond. The spinner is the option to
       be used when this situation happens in the main page content. Please look
-      at button with spinner ([primary](../button-and-links/buttons) /
-      [secondary](../button-and-links/secondary-button)) if you want a loading
+      at button with spinner ([primary](/components/web/button-and-links/buttons#primary-buttons) /
+      [secondary](/components/web/button-and-links/buttons#secondary-buttons)) if you want a loading
       state upon the user submitting data or [panel with lazy
       load](../page-content/panel#modifiers) if the data being loaded is in a
       panel. 
