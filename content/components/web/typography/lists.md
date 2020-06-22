@@ -42,7 +42,7 @@ tabs:
       * Link list
 
 
-      <div class="Callout"><strong class="Callout__title">Special variation on lansforsakringar.se </strong><p class="Callout__text">An additional variation exists locally on lansforsakringar.se, which isn't a part of LFUI/LFDS. This variation can be used with either numbering och checkmarks, and features a bigger than normal list item (number or checkmark) within a circle. These go great with 3-4 lines of text and are recommended for 2-4 items.</p></div>
+      <div class="Callout"><strong class="Callout__title">Special variation on lansforsakringar.se </strong><p class="Callout__text">An additional variation exists locally on lansforsakringar.se, which isn't a part of LFUI/LFDS. This variation can be used with either numbering or checkmarks, and features a bigger than normal list item (number or checkmark) within a circle. These go great with 3-4 lines of text and are recommended for 2-4 items.</p></div>
 
 
       #### Bullet list
