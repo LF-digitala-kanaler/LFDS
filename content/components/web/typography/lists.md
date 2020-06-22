@@ -12,7 +12,6 @@ componentsNavigation:
   - name: Dots
   - name: Numbers
   - name: Checkmarks
-  - name: Link Lists
 tabs:
   - content: >-
       ## How to use
@@ -42,6 +41,9 @@ tabs:
       * Link list
 
 
+      <div class="Callout"><strong class="Callout__title">Special variation on lansforsakringar.se </strong><p class="Callout__text">An additional variation exists locally on lansforsakringar.se, which isn't a part of LFUI/LFDS. This variation can be used with either numbering och checkmarks, and features a bigger than normal list item (number or checkmark) within a circle. These go great with 3-4 lines of text and are recommended for 2-4 items.</p></div>
+
+
       #### Bullet list
 
 
@@ -69,9 +71,10 @@ tabs:
       * Orange
 
 
-      You might also want to check out the bigger checkmarks used on lansfarsakringar.se if that's where your bullet list is going to be displayed. These bigger checkmarks have a circle around them, and a recommended for 2-4 items. They are however not a part of LFUI, and specific to lansforsakringar.se. Here is a link to a page with an example for your:
+      #### Numbered lists
 
 
+      Numbered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 10 list. 
 
 
 
@@ -85,12 +88,6 @@ tabs:
 
 
       Where to put the **external icon in a link list**? You can read more about that in the specifik link list part below.
-
-
-      ### List with dots
-
-
-      Can also be called bulleted list. Bulleted lists attract attention, support scanning, shorten text, and reveal the relationship of items. 
 
 
       ### List with numbers
@@ -108,23 +105,6 @@ tabs:
       **Big numbers**\
 
       In lf.se we have a modifier with big numbers and a cirkel around for a better visual popout effect. These lists we recommend to have 2-4 list items.
-
-
-      ### List with checkmars
-
-
-      We often use checkmark list when to highlight Unike selling points (USP) or when to compare different levels of products such as the care insurance different parts. 
-
-
-      See exempel in the intro text and the table och the [car insurance product page](https://www.lansforsakringar.se/privat/forsakring/bilforsakring/).
-
-
-      #### Modifier
-
-
-      **Big Checkmarks**\
-
-      In lf.se we have a modifier with big checkmarks and a cirkel around for a better visual popout effect. These lists we recommend to have 2-4 list items.
 
 
       ### Link lists
