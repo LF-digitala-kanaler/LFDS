@@ -15,7 +15,7 @@ tabs:
       ## How to use
 
 
-      A dropdown provides the user with a number of options from which they are to choose one or several, just like [radio buttons](../forms/radio-buttons) and [checkboxes](..forms/checkbox). That means that you as a designer need to decide whether to use a dropdown or radio buttons/checkboxes. As a simple rule of thumb, use radio buttons/checkboxes if you a have five or fewer options and dropdown if you have six or more. There are however also other considerations which can come into play (here is a good and brief [article on considerations](https://blog.prototypr.io/7-rules-of-using-radio-buttons-vs-drop-down-menus-fddf50d312d1) you should take into account).
+      A dropdown provides the user with a number of options from which they are to choose one or several, just like [radio buttons](../forms/radio-buttons) and [checkboxes](../forms/checkbox). That means that you as a designer need to decide whether to use a dropdown or radio buttons/checkboxes. As a simple rule of thumb, use radio buttons/checkboxes if you a have five or fewer options and dropdown if you have six or more. There are however also other considerations which can come into play (here is a good and brief [article on considerations](https://blog.prototypr.io/7-rules-of-using-radio-buttons-vs-drop-down-menus-fddf50d312d1) you should take into account).
 
 
       We have two main variations of dropdowns, with some common traits:
