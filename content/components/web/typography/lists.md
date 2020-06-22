@@ -20,33 +20,57 @@ tabs:
       Web readers prefer copy formatted for ease of scanning, which allows them to easily skip through chunks of text to get to areas of interest. List elements helps to break up large blocks of text, make complex articles and product information easier to grasp, and make key information stand out. 
 
 
+      However, a page which is filled with bullet lists becomes difficult to read as well. For that reason we recommend that you only use one bullet list per page, and a have a rule of no more than one bullet list per section. For optimal reading experience, a bullet list should contain 3-5 items.
+
+
       As you probably know, we generally recommend putting links after a text block (otherwise, [read this section](body-text#links-in-body-text)). However, when it comes to a list that would actually make it more difficult to identify what the link relates to. Thus, we recommend to phrase the list item in such a way that the link naturally can be placed at the end of the text but still inline with the text *(if you want to put one link to summarise the whole list, the normal recommendation of putting the link after the the textblock applies).*
 
 
-      ## Variations
+      ### Variations
 
 
-      We offer a variety of stylings for different use contexts as well as specific way of handling lists which only include links.
+      We offer a variety of stylings for different use contexts as well as specific way of handling lists which only include links:
 
 
+      * Bullet list
+
+      * List with checkmarks as bullets
+
+      * Numbered list
+
+      * Link list
 
 
-      ## \---- Fabians arbetsmaterial
+      #### Bullet list
 
 
-      ## Siduppbyggnad
+      Bulleted lists attract attention, support scanning, shorten text, and reveal the relationship of items. Our bullet list are a styling of the standard html-tag <ul>. The first level is a red and filled circle, the second is red and outlined whereas the third is square and blue. In customer facing lists you should never go as the third level.
 
 
-      With dots
+      #### List with checkmarks as bullets
 
 
-      With numbers
+      In some cases you might want to change the neutral feeling of a dot/circle to a more positively loaded bullet - in that case we have just the thing for you! Checkmarks as bullets. Just beware - they do not have any sublevels designed and just use the sublevels of a standard bullet list.
 
 
-      With checkmarks
+      ##### Modifiers
 
 
-      Link lists
+      So, just having checkmarks isn't enough? Well, you're in luck - we offer them in four colours:
+
+
+      * Black (default)
+
+      * Green
+
+      * Blue
+
+      * Orange
+
+
+      You might also want to check out the bigger checkmarks used on lansfarsakringar.se if that's where your bullet list is going to be displayed. These bigger checkmarks have a circle around them, and a recommended for 2-4 items. They are however not a part of LFUI, and specific to lansforsakringar.se. Here is a link to a page with an example for your:
+
+
 
 
 
