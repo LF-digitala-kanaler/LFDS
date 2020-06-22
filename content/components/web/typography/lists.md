@@ -10,8 +10,8 @@ previewImage: /img/lists.svg
 category: Typography
 componentsNavigation:
   - name: Bullets
-  - name: Numbers
   - name: Checkmarks
+  - name: Numbers
 tabs:
   - content: >-
       ## How to use
@@ -77,15 +77,24 @@ tabs:
       Numbered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 5 list. Use numbered lists only when the sequence or count of items are important.
 
 
+      #### Link list
+
+
+      If we have several links which we want to group together, they are placed in a link list. The link list exist in two versions:
+
+
+      * Without icons - for links within the system. Make the full text of the bullet a link, and keep the text short! If you have an [external link](../button-and-links/links#external-links) in such a list, the external link-icon should be to the right of the link.
+
+      * With icons - for lists with documents. The icons identify which kind of file or link it is. A typical example is when we want to present terms and "förköpsinformation" in a purchase flow. If this version is used all links should have an icon.
+
+      ** An exception to the normal way of handling [external links](../button-and-links/links#external-links) is when they are in a link list with icons. As the other links have icons in front of them, the external links also have the icon in front of the text to create a more coherent visual experience.
+
+
+
+
 
 
       \------ Lizas text nedanför
-
-
-      A common question with lists are:
-
-
-      Where to put the **external icon in a link list**? You can read more about that in the specifik link list part below.
 
 
 
@@ -101,18 +110,6 @@ tabs:
       * Link list with pdf icons
 
       * Link list with one external link
-
-
-      #### Link list without icon
-
-
-      A plain list with links is no problem. Just make a list with linkes and thats that.
-
-
-      #### Link list with pdf icon
-
-
-      When a list with pdf icons, the icons always should be on the left side. 
 
 
       #### Link list with one external link
