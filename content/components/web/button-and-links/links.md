@@ -59,29 +59,13 @@ tabs:
       * If you have several links you want to add, you might want to use a [link list](../typography/lists#link-list) instead.
 
 
-
-
-      ##### Link list
-
-
-      If we have several links which we want to group together, they are placed in a link list. The link list exist in two versions:
-
-
-      * Without icons - for links within the system.
-
-      * With icons - for lists with documents. The icons identify which kind of file or link it is. A typical example is when we want to present terms and "förköpsinformation" in a purchase flow. If this version is used all links should have an icon (please see [external links in lists](#external-links-in-lists) as well).
-
-
       ##### External links
 
 
       If your link leads away from the context you're in the link should be amended with an external link icon. This includes changing technical environment within Länsförsäkringar's world (like a link in Mina Sidor or a purchase flow leading to lansforsakringar.se ). The icon should come after the link text and links should open in a new tab/window (depending on the user's browser settings).
 
 
-      ###### External links in lists
-
-
-      An exception to the above way of handling external links is when they are in a list. As the other links have icons in front of them, the external links also have the icon in front of the text to create a more coherent visual experience.
+      Please see external links in [lists with icons](../typography/lists#link-list) for an exception.
 
 
       ##### Paired with a button
@@ -90,7 +74,7 @@ tabs:
       A common usage of the regular link is as a secondary option in a flow. In this case the link contrasts a primary button. Depending on what the link does, it is either placed to the far left in height with the primary button (for "backwards"-functionality) or just prior the primary button (for "cancel"-functionality). The image below shows one of the rare cases where both options exist.
 
 
-      <figure class="Image Image__background"><img src="/img/button_and_text.png" srcset="/img/button_and_text.png 2x" alt="Regular links next to a primary button in a flow where both "backwards" and "cancel"-options exist."><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/skärmavbild-2020-03-12-kl.-18.00.19.png" srcset="/img/skärmavbild-2020-03-12-kl.-18.00.19.png 2x" alt="Regular links next to a primary button in a flow where both "backwards" and "cancel"-options exist."><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## Other material
@@ -100,6 +84,7 @@ tabs:
     name: Design
   - content: >-
       ## Så skriver vi
+
 
       Länkarna ska beskriva var användaren hamna och ska kunna stå ensamma. Undvik "Läs mer" och "Klicka här". Kan med fördel vara fler ord (max 7) ur SEO-synpunkt om de ligger på publik webbplats.
 
