@@ -10,8 +10,9 @@ previewImage: /img/lists.svg
 category: Text
 componentsNavigation:
   - name: Bullets
-  - name: Numbers
   - name: Checkmarks
+  - name: Numbers
+  - name: Link Lists
 tabs:
   - content: >-
       ## How to use
@@ -41,7 +42,7 @@ tabs:
       * Link list
 
 
-      <div class="Callout"><strong class="Callout__title">Special variation on lansforsakringar.se </strong><p class="Callout__text">An additional variation exists locally on lansforsakringar.se, which isn't a part of LFUI/LFDS. This variation can be used with either numbering och checkmarks, and features a bigger than normal list item (number or checkmark) within a circle. These go great with 3-4 lines of text and are recommended for 2-4 items.</p></div>
+      <div class="Callout"><strong class="Callout__title">Special variation on lansforsakringar.se </strong><p class="Callout__text">An additional variation exists locally on lansforsakringar.se, which isn't a part of LFUI/LFDS. This variation can be used with either numbering or checkmarks, and features a bigger than normal list item (number or checkmark) within a circle. These go great with 3-4 lines of text and are recommended for 2-4 items.</p></div>
 
 
       #### Bullet list
@@ -77,90 +78,36 @@ tabs:
       Numbered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 5 list. Use numbered lists only when the sequence or count of items are important.
 
 
+      #### Link list
 
 
-      \------ Lizas text nedanför
+      If we have several links which we want to group together, they are placed in a link list. The link list exist in two versions:
 
 
-      A common question with lists are:
+      * Without icons - for links within the system. Make the full text of the bullet a link, and keep the text short! If you have an [external link](../button-and-links/links#external-links) in such a list, the external link-icon should be to the right of the link.
+
+      * With icons - for lists with documents. The icons identify which kind of file or link it is. A typical example is when we want to present terms and "förköpsinformation" in a purchase flow. If this version is used all links should have an icon.
+
+        * An exception to the normal way of handling [external links](../button-and-links/links#external-links) is when they are in a link list with icons. As the other links have icons in front of them, the external links also have the icon in front of the text to create a more coherent visual experience.
+
+      ### General modifiers
 
 
-      Where to put the **external icon in a link list**? You can read more about that in the specifik link list part below.
-
-
-
-
-      ### Link lists
-
-
-      Here can be a struggle sometimes. We have some easy rules to think about. 
-
-
-      * Link list without icon
-
-      * Link list with pdf icons
-
-      * Link list with one external link
-
-
-      #### Link list without icon
-
-
-      A plain list with links is no problem. Just make a list with linkes and thats that.
-
-
-      #### Link list with pdf icon
-
-
-      When a list with pdf icons, the icons always should be on the left side. 
-
-
-      #### Link list with one external link
-
-
-      When a plain list with links and some are external links, the icon can be to the right. 
-
-
-      ## Modifers all lists
-
-
-      ### List spacing
-
-
-      You can use two different types of spacing between lists. Vad är det för regler när de olika ska användas? //Lägg till
-
-
-      Note that a link lists also have special rules on their spacing when placed vertically.
-
-
-      ### To break down long sentences
-
-
-      You should always strive for having short items in the lists but sometimes it is harder to do. Here are some help. 
-
-
-      **Do sections instead**\
-
-      Use a headline instead and break it out to different sections of text, it makes the readers identify the main points of each section and easier to grasp. To highlight and simulate dots you can always make a small graphical element to the right of the textarea.
-
-
-      **Headings in list items**\
-
-      You should always have short items in the list but sometimes it is harder to do. Make a headline short and pop out with bold text then make a new row in the dot item and put the longer sentence under. 
+      If you should want to add extra spacing to your lists for some reasons, two additional spacings come with Bootstrap; medium (md) and large (lg). They are rarely, if ever, used in customer facing interfaces.
 
 
       ## Please consider
 
 
-      * Try to have maximum one list a page
+      * Try to have maximum one list per page
 
       * Only have 3-5 points in the list
 
-      * Have similar line lengths
+      * Have similar lengths for all list items
 
-      * Use the same feel/spirit for list items
+      * Use the same tonality for all list items
 
-      * Don’t require end punctuation
+      * If all of your bullets are only one sentence long, it actually increases readability to skip punctuation at the end of the sentence
 
 
       ## Other material
@@ -179,5 +126,16 @@ tabs:
 
       The default styling of `ol`  and `ul` is achieved by adding the corresponding class to the element at hand. This means if you're building an ul, also append the `ul` class to that element (and vice versa in the `ol` case).
     name: Code
+  - name: Copy
+    content: >-
+      ### To break down long sentences
+
+
+      You should always strive for having short items in the lists but sometimes it is harder to do. Here are some help. 
+
+
+      **Do sections instead**\
+
+      Use a headline instead and break it out to different sections of text, it makes the readers identify the main points of each section and easier to grasp. To highlight and simulate dots you can always make a small graphical element to the right of the textarea.
 backgroundColor: "#fff"
 ---
