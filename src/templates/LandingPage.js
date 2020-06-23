@@ -37,10 +37,11 @@ export const LandingPageTemplate = ({
 
 }
 const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirectory, location }) => {
-  
+  console.log(page, 'page')
   if(typeof window !== `undefined`) {
-    currentDirectory = location.href.split('/').filter(Boolean).pop();
+    currentDirectory = location.pathname.split('/').filter(Boolean).pop();
    }
+  console.log(currentDirectory, 'current')
   // get all overview pages on current page
   const overviewPages = {
     items: allOverviewPages.hasOwnProperty('edges')
@@ -94,7 +95,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         body={page.html}
-        contentBottom={page.frontmatter.contentBottom}
+        contentBottom={page.fields.frontmattermd.contentBottom.html || page.frontmatter.contentBottom}
         blockquote={page.frontmatter.blockquote}
         categories={concatCategories}
       />
@@ -117,6 +118,13 @@ export const pageQuery = graphql`
         blockquote {
           text
           author
+        }
+      }
+      fields {
+        frontmattermd {
+          contentBottom {
+            html
+          }
         }
       }
     }

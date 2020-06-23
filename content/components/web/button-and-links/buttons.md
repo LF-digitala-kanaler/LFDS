@@ -32,7 +32,7 @@ tabs:
       <div class="Callout"><strong class="Callout__title">Don't use disabled buttons! </strong><p class="Callout__text">For accessibility reasons LFUI strongly discourages from using disabled buttons. Please read more in "Design rationale" at the bottom of the page to learn more.</p></div>
 
 
-      ### Versions
+      ### Variations
 
 
       We have three main versions of buttons, but other versions exist as part of another component (such as in [alerts](../system-display/alert#alert-with-button)):
