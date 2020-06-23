@@ -10,6 +10,11 @@
   margin-top: var(--spacing-vertical--1);
 }
 
+.Content--left {
+  text-align: left;
+  margin-top: var(--spacing-vertical--2);
+}
+
 .Content p,
 .Content ul li {
   font-size: var(--font-size-small);
