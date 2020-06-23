@@ -94,7 +94,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         body={page.html}
-        contentBottom={page.fields.frontmattermd.contentBottom?.html || page.frontmatter.contentBottom}
+        contentBottom={page.fields.frontmattermd?.contentBottom?.html || page.frontmatter.contentBottom}
         blockquote={page.frontmatter.blockquote}
         categories={concatCategories}
       />
