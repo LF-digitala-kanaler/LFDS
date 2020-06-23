@@ -7,7 +7,7 @@ const navigation = {
   },
   "components/web": {
     title: "Components",
-    href: "components/web",
+    href: "components",
     id: 34567
   },
   // "components/app": {

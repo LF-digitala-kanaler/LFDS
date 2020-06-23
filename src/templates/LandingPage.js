@@ -15,6 +15,7 @@ export const LandingPageTemplate = ({
   title,
   intro,
   body,
+  contentBottom,
   blockquote,
   categories = [],
 
@@ -29,6 +30,7 @@ export const LandingPageTemplate = ({
     </Wrapper>
     <CardGrid list={categories}  />
     <Wrapper tag="div" narrow>
+    <Content className="Content--left" source={contentBottom}  />
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
   </div>
@@ -92,6 +94,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         body={page.html}
+        contentBottom={page.frontmatter.contentBottom}
         blockquote={page.frontmatter.blockquote}
         categories={concatCategories}
       />
@@ -110,6 +113,7 @@ export const pageQuery = graphql`
         title
         intro
         background
+        contentBottom
         blockquote {
           text
           author
