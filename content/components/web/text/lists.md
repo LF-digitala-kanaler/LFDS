@@ -7,7 +7,7 @@ intro: Lists can be used to make information stand out in contrast to a text
 description: "Lists can be used to make information stand out in contrast to a
   text block or to group similar information in an accessible way. "
 previewImage: /img/lists.svg
-category: Typography
+category: Text
 componentsNavigation:
   - name: Bullets
   - name: Numbers

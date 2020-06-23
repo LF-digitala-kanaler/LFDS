@@ -22,7 +22,7 @@ tabs:
       ### Versions
 
 
-      We have two versions of links; primary and regular. However, headings can also be links (especially on [cards](../page-content/card)) - this use case is described under [Headings in Typography.](../typography/headings#linked-headline)
+      We have two versions of links; primary and regular. However, headings can also be links (especially on [cards](../page-content/card)) - this use case is described under [Headings in Typography.](../text/headings#linked-headline)
 
 
       #### Primary links
@@ -52,11 +52,11 @@ tabs:
       How to place a link depends on which kind of text you use it conjuction with. We have placed our recommendations in conjunction with the description of the various text types:
 
 
-      * If you want to use a link in relation to body text, read about how to do it on the [body text-page](../typography/body-text#links-in-body-text). 
+      * If you want to use a link in relation to body text, read about how to do it on the [body text-page](../text/body-text#links-in-body-text). 
 
-      * If you want to place a link in a bullet list, you want to head over to [lists](../typography/lists).
+      * If you want to place a link in a bullet list, you want to head over to [lists](../text/lists).
 
-      * If you have several links you want to add, you might want to use a [link list](../typography/lists#link-list) instead.
+      * If you have several links you want to add, you might want to use a [link list](../text/lists#link-list) instead.
 
 
 

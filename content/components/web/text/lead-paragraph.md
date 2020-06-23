@@ -6,7 +6,7 @@ intro: The lead paragraph is placed first on a page and is used to summarise the
 description: The lead paragraph is placed first on a page and is used to
   summarise the contents of a page.
 previewImage: /img/preamble.svg
-category: Typography
+category: Text
 tabs:
   - content: >-
       ## How to use

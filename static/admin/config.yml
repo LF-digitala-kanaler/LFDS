@@ -40,7 +40,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: "Supportive Microinteractions", value: "Supportive Microinteractions" }
         - { label: "System Display", value: "System Display" }
         - { label: "Tables", value: "Tables" }
-        - { label: "Typography", value: "Typography" }
+        - { label: "Text", value: "Text" }
       - name: 'componentsNavigation'
         label: 'Example Navigation'
         label_singular: 'Example'

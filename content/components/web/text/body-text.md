@@ -6,7 +6,7 @@ intro: The body text is the standard text style and the one which is used for
 description: The body text is the standard text style and the one which is used
   for all 'normal' text.
 previewImage: /img/paragraph.svg
-category: Typography
+category: Text
 tabs:
   - content: >-
       ## How to use
