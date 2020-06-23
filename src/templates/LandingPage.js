@@ -26,11 +26,11 @@ export const LandingPageTemplate = ({
     <Wrapper tag="div"  narrow >
       <Heading tag={1} text={title} align={"center"} />
       <Preamble text={intro} tag="p" align={"center"} />
-      <Content className="Content--left" source={body}  />
+      { body && <Content className="Content--left" source={body}  /> }
     </Wrapper>
     <CardGrid list={categories}  />
     <Wrapper tag="div" narrow>
-    <Content className="Content--left" source={contentBottom}  />
+      { contentBottom && <Content source={contentBottom}  /> }
       { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
     </Wrapper>
   </div>
@@ -41,7 +41,6 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
   if(typeof window !== `undefined`) {
     currentDirectory = location.pathname.split('/').filter(Boolean).pop();
    }
-  console.log(currentDirectory, 'current')
   // get all overview pages on current page
   const overviewPages = {
     items: allOverviewPages.hasOwnProperty('edges')
@@ -95,7 +94,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         body={page.html}
-        contentBottom={page.fields.frontmattermd.contentBottom.html || page.frontmatter.contentBottom}
+        contentBottom={page.fields.frontmattermd.contentBottom?.html || page.frontmatter.contentBottom}
         blockquote={page.frontmatter.blockquote}
         categories={concatCategories}
       />
@@ -123,6 +122,7 @@ export const pageQuery = graphql`
       fields {
         frontmattermd {
           contentBottom {
+            rawMarkdownBody
             html
           }
         }
