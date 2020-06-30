@@ -298,7 +298,7 @@ collections: # A list of collections the CMS should be able to edi
     editor:
       preview: true
     folder: content/
-    path: 'content/{{slug}}/{{slug}}/index'
+    path: 'content/{{slug}}/index'
     filter: {field: "template", value: "CategoryOverview"}
     fields: 
       - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
