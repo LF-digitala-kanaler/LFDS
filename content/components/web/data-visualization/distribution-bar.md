@@ -1,14 +1,13 @@
 ---
 template: ComponentPage
-category: Data Visualization
-title: Distribution bar
+title: Distribution Bar
+intro: The distribution bar gives the user an overview of the relative size of
+  different values in relation to each other.
 description: The distribution bar gives the user an overview of the relative
   size of different values in relation to each other, like the different funds
   in your ISK.
 previewImage: /img/distribution-bar.svg
-intro: The distribution bar gives the user an overview of the relative size of
-  different values in relation to each other.
-backgroundColor: "#fff"
+category: Data Visualization
 componentsNavigation:
   - name: Default
   - name: Progress Bar
@@ -134,4 +133,5 @@ tabs:
 
       **NOTE:**This is not a replacement for Legends. Legends should still be visible.
     name: Code
+backgroundColor: "#fff"
 ---
