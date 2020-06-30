@@ -2,7 +2,7 @@
 background: bg-white
 previewImage: /img/headings.svg
 template: CategoryOverview
-title: Text
+title: Typography & text
 intro: This category helps you select the right typography and to design with text.
 blockquote:
   author: Dieter Rams
