@@ -37,6 +37,9 @@ CMS.registerPreviewTemplate('component-page', ({ entry }) => (
 CMS.registerPreviewTemplate('categoryOverview-page', ({ entry }) => (
   <CategoryOverviewTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
 ))
+CMS.registerPreviewTemplate('categoryOverview-comp', ({ entry }) => (
+  <CategoryOverviewTemplate componentsLinks={null} componentNavigation={null} {...entry.toJS().data} />
+))
 CMS.registerPreviewTemplate('landing-page', ({ entry }) => (
   <LandingPageTemplate componentsLinks={null} componentNavigation={null}  {...entry.toJS().data} />
 ))
