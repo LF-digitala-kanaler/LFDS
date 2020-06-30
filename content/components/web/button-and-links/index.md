@@ -3,9 +3,8 @@ background: bg-white
 previewImage: /img/button-primary222.svg
 template: CategoryOverview
 title: Button and Links
-intro: >-
-  Buttons and links allow users to take an action, make a choices, with a single
-  tap. Finns för olika användsområden och varianter med pil och ikoner.
-contentBelow: ''
+intro: Buttons and links help the users to complete actions, either by
+  submitting something (buttons) or going to another page (links). They are the
+  primary way of navigating through a series of pages.
+contentBelow: ""
 ---
-
