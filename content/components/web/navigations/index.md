@@ -3,7 +3,7 @@ background: bg-white
 previewImage: /img/nav.svg
 template: CategoryOverview
 title: Navigations
-intro: There are many different ways to navigate in a website. Navigation and
-  search are the obvious but even the breadcrumb, on page navigation and even
-  the pagination are helpful.
+intro: Navigations are different navigational items which are reused across our
+  different channels, leading to a focus on smaller items like breadcrumbs and
+  pagination.
 ---
