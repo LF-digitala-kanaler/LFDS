@@ -2,7 +2,7 @@
 background: bg-white
 previewImage: /img/collapse.svg
 template: CategoryOverview
-title: Supportive Microinteractions
+title: Supportive microinteractions
 intro: "Supportive microinteractions include components which the user can
   interact with in one way or the other in support of the main flow. "
 contentAbove: ""
