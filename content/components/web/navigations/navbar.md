@@ -50,13 +50,8 @@ tabs:
 
       * Horizontal: Good for either very small applications or large ones. Small one applications lets you click the link and you're there. In large application/sites the horizontal menu serves well as the basis for a mega menu (like on [lansforsakringar.se](https://www.lansforsakringar.se)).
 
+        * **Modifier for horizontal navbars:** If you wish, you can add a logotype in the first part of the menu.
       * Vertical: Great for responsive views and for mid-sizes applications. It lets the users either find their way to a category page and navigate within the content or to dig deeper by clicking the chevron on the right hand side of the text. The vertical menu is always placed on the left hand side.
-
-
-      #### Logotype
-
-
-      If you wish, you can add a logotype in the first part of the menu.
 
 
       #### Icons
@@ -81,8 +76,7 @@ tabs:
       ## How to use
 
 
-      Navbars require a wrapping `.navbar` with optional classes for color schema,
-      directions and sizes.
+      Navbars require a wrapping `.navbar` with optional classes for color schema, directions and sizes.
 
 
       ```
