@@ -41,6 +41,8 @@ Viktigt att tänka på är att de kunder som kommer till oss med att behov säll
 
 Att vi är ett lokalt, kundägtbolag som ger trygghet i försäkring, bank och pension. (Nytt under utvärdering)
 
+<figure class="Image Image__background"><img src="/img/lfse-startsida-02-brand.jpg" srcset="/img/lfse-startsida-02-brand.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 #### Mest sökta ord i internsök
 
 Kan vara det folk söker på mest lokalt just nu eller som man inte hittar. Vad kan vi lära oss av att lägga det på startsidan. Kan vi fånga fler än 80%. (Nytt under utvärdering)
