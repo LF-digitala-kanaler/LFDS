@@ -13,7 +13,7 @@ wide: false
 lang: true
 hidden: false
 ---
-<figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida.jpg" srcset="/img/lfse-startsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__border"><img src="/img/lfse-startsida.jpg" srcset="/img/lfse-startsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte
 
@@ -41,7 +41,7 @@ Viktigt att tänka på är att de kunder som kommer till oss med att behov säll
 
 Att vi är ett lokalt, kundägtbolag som ger trygghet i försäkring, bank och pension. (Nytt under utvärdering)
 
-<figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-02-brand.jpg" srcset="/img/lfse-startsida-02-brand.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background"><img src="/img/lfse-startsida-02-brand.jpg" srcset="/img/lfse-startsida-02-brand.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Mest sökta ord i internsök
 
@@ -51,19 +51,19 @@ Kan vara det folk söker på mest lokalt just nu eller som man inte hittar. Vad 
 
 Leda in de som sett senaste kampanjen vidare till kampanjen. Har jag sett något på en stortavla ska jag få igenkänning.
 
-<figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-03-campain.jpg" srcset="/img/lfse-startsida-03-campain.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background"><img src="/img/lfse-startsida-03-campain.jpg" srcset="/img/lfse-startsida-03-campain.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Nyheter
 
 3 senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker min försäkring vid pandemin Corona? Eldningsförbud i länet - hur kan jag förebygga? Tänk på att titta på rubrikens längd här innan du är klar så det ser ok ut.
 
-<figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-05-news.jpg" srcset="/img/lfse-startsida-05-news.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background"><img src="/img/lfse-startsida-05-news.jpg" srcset="/img/lfse-startsida-05-news.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Kontakta oss
 
 Jag vill ringa, besöka eller maila - hur gör jag? Olika lokala val på vad du kan använda här. 
 
-<figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-06-contact.jpg" srcset="/img/lfse-startsida-06-contact.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background"><img src="/img/lfse-startsida-06-contact.jpg" srcset="/img/lfse-startsida-06-contact.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Variant
 
