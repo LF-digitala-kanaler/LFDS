@@ -71,6 +71,8 @@ Jag vill ringa, besöka eller maila - hur gör jag? Olika lokala val på vad du 
 
 Det finns möjlighet att använda sig av 1-4 Kampanjytor samtidigt. 3-4 kampanjytor är inget vi rekommenderar då det blir ett rörigt intryck där vi bara signalerar sälj och olika kampanjkoncept men nöden har ibland ingen lag och då finns det möjlighet. När man använder fler än två kampanjer så ska man veta att varumärkeslöftet försvinner ovanför för att få upp kampanjerna närmare fold.
 
+<figure class="Image Image__background"><img src="/img/lfse-startsida-03-campain-flera.jpg" srcset="/img/lfse-startsida-03-campain-flera.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 ## Mätning
 
 (kolla med analysgänget)
