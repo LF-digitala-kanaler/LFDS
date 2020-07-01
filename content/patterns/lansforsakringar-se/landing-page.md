@@ -57,9 +57,13 @@ Leda in de som sett senaste kampanjen vidare till kampanjen. Har jag sett något
 
 3 senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker min försäkring vid pandemin Corona? Eldningsförbud i länet - hur kan jag förebygga?
 
+<figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-05-news.jpg" srcset="/img/lfse-startsida-05-news.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 #### Kontakta oss
 
 Jag vill ringa, besöka eller maila - hur gör jag? Olika lokala val på vad du kan ha här.
+
+<figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-06-contact.jpg" srcset="/img/lfse-startsida-06-contact.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Variant
 
