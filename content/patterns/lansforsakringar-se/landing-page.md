@@ -51,6 +51,8 @@ Kan vara det folk söker på mest lokalt just nu eller som man inte hittar. Vad 
 
 Leda in de som sett senaste kampanjen vidare till kampanjen. Har jag sett något på en stortavla ska jag få igenkänning.
 
+<figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-03-campain.jpg" srcset="/img/lfse-startsida-03-campain.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 #### Nyheter
 
 3 senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker min försäkring vid pandemin Corona? Eldningsförbud i länet - hur kan jag förebygga?
