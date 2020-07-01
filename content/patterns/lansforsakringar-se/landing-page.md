@@ -99,6 +99,6 @@ S. Skrolldjup
 
 ## Sidor av denna typ
 
-/bolag/privat/
+[https://www.lansforsakringar.se/privat/](https://www.lansforsakringar.se/privat/)
 
-/bolag/foretag/
+[https://www.lansforsakringar.se/foretag/](https://www.lansforsakringar.se/foretag/)
