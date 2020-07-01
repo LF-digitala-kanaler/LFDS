@@ -97,7 +97,7 @@ S. Skrolldjup
   Exempel: Vi har större möjlighet att nå kunden med en bilkampanj om vi berättar om den på sidan för bilförsäkring än om vi bara lägger den på startsidan.
 * Använd inte text eller illustrationer som kampanjbilderna då det blir rörigt för användarna och bilderna klipper olika i mobilt och för paddan.
 
-## Sidor av denna typ
+## Live exempel
 
 <https://www.lansforsakringar.se/privat/>
 
