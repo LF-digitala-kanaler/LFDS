@@ -76,6 +76,9 @@ tabs:
       If you need to put a button inside the alert, there is a special version of the [secondary buttons](/components/web/button-and-links/buttons#secondary-buttons) for this. Use the outlined button in the same color as your alert. The button should be placed on the right hand side of the alert. 
 
 
+      Only use the button for confirmation-message like "I understand" or "Okey", with a closing of the alert as a result. If you want the user to go somewhere else, add a link inside the alert (following recommendations for a [link in a list item](../text/lists), with the link at the end of the message).
+
+
       #### Full page width
 
 
