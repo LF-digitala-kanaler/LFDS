@@ -55,13 +55,13 @@ Leda in de som sett senaste kampanjen vidare till kampanjen. Har jag sett något
 
 #### Nyheter
 
-3 senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker min försäkring vid pandemin Corona? Eldningsförbud i länet - hur kan jag förebygga?
+3 senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker min försäkring vid pandemin Corona? Eldningsförbud i länet - hur kan jag förebygga? Tänk på att titta på rubrikens längd här innan du är klar så det ser ok ut.
 
 <figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-05-news.jpg" srcset="/img/lfse-startsida-05-news.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Kontakta oss
 
-Jag vill ringa, besöka eller maila - hur gör jag? Olika lokala val på vad du kan ha här.
+Jag vill ringa, besöka eller maila - hur gör jag? Olika lokala val på vad du kan använda här. 
 
 <figure class="Image Image__border Image__border--noPadding"><img src="/img/lfse-startsida-06-contact.jpg" srcset="/img/lfse-startsida-06-contact.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
@@ -95,10 +95,10 @@ S. Skrolldjup
 
 * Vi rekommenderar att ha 1-2 kampanjer samtidigt. Vi vill inte att vi ska ses som en stortavla. Vilken är den viktigaste kampanjen just nu privat respektive företag.\
   Exempel: Vi har större möjlighet att nå kunden med en bilkampanj om vi berättar om den på sidan för bilförsäkring än om vi bara lägger den på startsidan.
-* Använd inte text i kampanjbilderna då det blir rörigt för användarna och bilderna klipper olika i mobilt och för paddan.
+* Använd inte text eller illustrationer som kampanjbilderna då det blir rörigt för användarna och bilderna klipper olika i mobilt och för paddan.
 
 ## Sidor av denna typ
 
-[https://www.lansforsakringar.se/privat/](https://www.lansforsakringar.se/privat/)
+<https://www.lansforsakringar.se/privat/>
 
-[https://www.lansforsakringar.se/foretag/](https://www.lansforsakringar.se/foretag/)
+<https://www.lansforsakringar.se/foretag/>
