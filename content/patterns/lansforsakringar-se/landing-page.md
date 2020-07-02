@@ -34,7 +34,6 @@ Viktigt att tänka på är att de kunder som kommer till oss med att behov säll
 #### Stödja majoriteten
 
 5 knappar till de vanligaste tjänsterna/produkterna tillsammans med logga in och kontakta oss hjälper mer än 80% av besökarna till startsidan. Verkligen att hjälpa dem att göra det jag kom för att göra.
-
 <figure class="Image Image__background"><img src="/img/lfse-startsida-01-support-majority.jpg" srcset="/img/lfse-startsida-01-support-majority.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Ett tydligt varumärkeslöfte
