@@ -12,9 +12,9 @@ wide: false
 lang: false
 hidden: false
 ---
-## Primärt syfte
+## Syfte
 
-Navigera vidare till rätt produkt/sida
+**Primärt syfte:** Att navigera vidare till rätt produkt/sida
 
 
 
