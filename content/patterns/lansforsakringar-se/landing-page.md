@@ -8,7 +8,7 @@ intro: Välkomnar användaren och tar hand om minst 80 procent av användarnas
   behov ovanför fold. Vårt primära syfte är att leda användaren vidare till vad
   den kom för att göra.
 contentTop: ""
-background: bg-white
+background: null
 wide: false
 lang: true
 hidden: false
