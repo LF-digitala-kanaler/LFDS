@@ -10,6 +10,8 @@ wide: false
 lang: true
 hidden: false
 ---
+<figure class="Image Image__border"><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 ## Syfte
 
 **Primärt syfte:** Hjälpa kunden köpa produkten
@@ -30,11 +32,15 @@ En kort intro till vad sidan handlar om och en passande illustration som visar a
 
 Snabb väg till konvertering tillsammans med uspar och bekräfta att du kommit rätt.
 
+<figure class="Image Image__background"><img src="/img/lfse-produktsida-01-short-info.jpg" srcset="/img/lfse-produktsida-01-short-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 ### Illustration och eventuellt SKI
 
 För att man ska känna igen sig och koppla mer till vårt visuella uttryck så har vi tagit med illustrations manéret. Ett enklare sätt att illustrera det unika i varje produkt.
 
 Läs mer om bildformat
+
+<figure class="Image Image__border"><img src="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg" srcset="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Yta med blå bakgrund
 
