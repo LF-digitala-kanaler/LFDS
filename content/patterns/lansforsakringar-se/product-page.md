@@ -24,6 +24,8 @@ Eventuella erbjudanden ska ha en uppenbar koppling till produkten. När kunden u
 
 Erbjudande och USP:ar i anslutning till inkastaren syftar till att kunden ska bli ännu mer intresserad och utifrån det välja att gå direkt till köp. Erbjudandet kan upprepas längre ner i sidan om det är relevant för kunden och fungerar som beslutsstöd.
 
+Genom intervjuer och cardsorting fick vi reda på i vilken ordning som användarna ville ha sin information på olika produkter.
+
 ## Delar på sida
 
 ### Kort om produkten
@@ -44,9 +46,9 @@ Läs mer om bildformat
 
 ### Yta med blå bakgrund
 
-Viktigast för kunden. En tabell eller lyfta det som alla letar efter.. Kan vara olika på olika produkter.. Barn och bil tex
+Här lyfter vi det som är viktigast för kunden. En tabell med vad som ingår och självrisker eller lyfta det som alla letar efter i just denna produkten. Det kan vara olika på olika produkter. I de flesta ville användarna ha vad som ingår i produkten de olika momenten och självrisker men på just barnförsäkring så var det istället informationen om varför man behöver en barnförsäkring som var viktigast. Så viktigt att göra kundintervjuer här för att verkligen se vad man undrar över i just din produkt. 
 
-Tabellen svara på vad produkten ingår något kunderna ville ha högt.
+
 
 <figure class="Image Image__background"><img src="/img/lfse-produktsida-03-viktig-info.jpg" srcset="/img/lfse-produktsida-03-viktig-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
