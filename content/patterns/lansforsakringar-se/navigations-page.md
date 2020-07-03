@@ -36,7 +36,7 @@ En kort intro till vad sidan handlar om och en passande illustration som visar a
 
 En kort text som förklarar vart man kommer.
 
-## Förbättringspotential
+### Förbättringspotential
 
 Vi har sett att flera sidor som samlar liknande innehåll skulle vara förtjänt av en contentsidmall istället med redaktionella puffar.
 
@@ -44,13 +44,19 @@ Många sidor skulle kunna vara bra att kunna labba eller simulera fram vad man b
 
 Om jag inte vet vad jag behöver…. Inspirations eller förstående delar saknas…Contentbaserat material får inte skina.
 
+
+
 ## Variant
 
 Den med mer redaktionell text ovan för sökmotorerna?
 
 Contentmallen?
 
-## Mätning (kolla med analys)
+
+
+## Mätning
+
+(kolla med analys)
 
 P. Besökare
 
@@ -62,12 +68,16 @@ S. Engagement på sida
 
 S. Skrolldjup
 
+
+
 ## Tänk på
 
 **Snabbt att hitta rätt**\
 Glöm inte bort att användaren lätt ska kunna skumma igenom texten och hitta vad den söker. Att börja alla texter med Försäkra ditt… gör det svårare att hitta när allt börjar lika dant. Fundera på att byta ordning exempel:\
 Bilförsäkring\
 För dig som ska försäkra din bil
+
+
 
 ## Sidor av denna typ
 
