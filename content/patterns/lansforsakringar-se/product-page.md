@@ -40,7 +40,7 @@ För att man ska känna igen sig och koppla mer till vårt visuella uttryck så 
 
 Läs mer om bildformat
 
-<figure class="Image Image__border"><img src="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg" srcset="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background"><img src="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg" srcset="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Yta med blå bakgrund
 
