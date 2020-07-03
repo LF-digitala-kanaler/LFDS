@@ -48,35 +48,27 @@ Viktigast för kunden. En tabell eller lyfta det som alla letar efter.. Kan vara
 
 Tabellen svara på vad produkten ingår något kunderna ville ha högt.
 
+<figure class="Image Image__background"><img src="/img/lfse-produktsida-03-viktig-info.jpg" srcset="/img/lfse-produktsida-03-viktig-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 ### Redaktionell yta
 
 Samla redaktionella texterna till ett tydligt läsflöde. Det vi skriver om produkten står här.
-
-
 
 ### Snabbguide
 
 För vissa produkter kan man göra en snabbguide för att leda avändaren rätt i vilken av delarna i produkten man ska välja.
 
-
-
 ### Villkors och förköpsinformation
 
 Genom att göra en sammanhållande design för villkor och förköp på siten så kan man lättare hitta det man söker när man letar efter olika villkor. De visas som PDF och visar 5 därefter får man fälla ut.
-
-
 
 ### Vanliga frågor
 
 Här kan man lista vanliga frågor om produkten som kanske inte får plats i texten. Avvikelser eller kanske vanliga missförstånd. När de listas här så görs de även sökbara i sökmotorerna. 
 
-
-
 ### Mervärden
 
 Övriga erbjudanden som i helgen finns vi på lokala torget och pratar försäkringar eller skadeförebygg eller samhällsnytta vi gör kring eller i relation till produkten.
-
-
 
 ## Variant
 
