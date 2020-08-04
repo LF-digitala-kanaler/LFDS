@@ -25,7 +25,7 @@ tabs:
       <figure class="Image Image__border"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt=""><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
 
 
-      Button copy should make it clear what happens after clicking it, meaning copy like "Next" or "Proceed" shouldn't be used. Read more under the [copy-tab](?Copy).
+      The button copy should make it clear what happens after clicking it, meaning copy like "Next" or "Proceed" shouldn't be used. Go to the [copy-tab](?Copy) for more details and examples.
 
 
       <div class="Callout"><strong class="Callout__title">Don't use disabled buttons! </strong><p class="Callout__text">For accessibility reasons LFUI strongly discourages from using disabled buttons. Please read more in "Design rationale" at the bottom of the page to learn more.</p></div>
@@ -34,7 +34,7 @@ tabs:
       ### Variations
 
 
-      We have three main versions of buttons, but other versions exist as part of another component (such as in [alerts](../system-display/alert#alert-with-button)):
+      We have three main variations of buttons, but other versions exist as part of another component (such as in [alerts](../system-display/alert#alert-with-button)):
 
 
       * Primary button
@@ -47,13 +47,13 @@ tabs:
       #### Primary buttons
 
 
-      As their name suggests, primary buttons are used to identify the most likely action the user might take in a specific view. As nothing is primary if several things are primary you should limit the use to one per section (even better if you can keep it to one per page) - make any other buttons secondary.
+      As their name suggests, primary buttons are used to identify the most likely action the user might take in a specific view. As nothing is primary if several things are primary you should limit the use to one per section (even better if you can keep it to one per page) - make any other buttons secondary. or use [regular links](links#regular-links).
 
 
       ##### Modifier for primary buttons
 
 
-      On top of the general modifiers for buttons, the primary button has two distinct modifiers not available for the other types of buttons: two-rowed button and with BankID-icon. 
+      On top of the [general modifiers](#modifiers) for buttons, the primary button has two distinct modifiers not available for the other types of buttons: two-rowed button and with BankID-icon. 
 
 
       **The two-rowed button** is used in flows where the user buys/signs up for something (*köptjänster*). The two-rowed button is used to continue between pages. Both rows have text in them, with the first one being in a larger font. The first row signals what will happen ("Gå vidare", "Godkänn") and the second gives more detail ("Ange uppgifter", "Köp försäkring").
@@ -77,10 +77,10 @@ tabs:
       #### Log in button
 
 
-      To support the user in easily finding their way into Mina Sidor (and not having several primary buttons on a page) our log-in button has a unique colour (#007DB0) which is only used for logging in-purposes. The button is used for directing users to our log-in page as well as doing the actual logging in on the log-in page. It is also used for logging out in Mina Sidor.
+      To support the user in easily finding their way into Mina Sidor (and not having several primary buttons on a page) our log-in button has a unique colour (#007DB0) which is only used for logging in-purposes. The button is used for directing users to our log-in page as well as doing the actual logging in on the log-in page. It is also used for logging out from Mina Sidor.
 
 
-      The log-in button is always available in the top right corner of pur public web pages, but can also be repeated in page if relevant (one good example is "Återbäring" which has content on how to retrieve it on public pages, but the user has to do actions in Mina Sidor (which many insurance-customer don't visit). The copy should however always only be "Logga in" (or "Logga ut" if in a logged in-view).
+      The log-in button is always available in the top right corner of our public web pages, but can also be repeated in-page if relevant (one good example is "Återbäring" which has content on how to retrieve it on public pages, but the user has to do actions in Mina Sidor (which many insurance-customer don't visit). The copy should however always only be "Logga in" (or "Logga ut" if in a logged in-view).
 
 
       <div class="Callout"><p class="Callout__text"><strong>Only for logging in/out! </strong>This button should never be used for any other purposes than signing in or out-purposes!</p></div>
@@ -92,14 +92,14 @@ tabs:
       On top of the specific modifiers for primary and secondary buttons there are three modifiers which are available for all three types of buttons:
 
 
-      * Size variations
+      * Different sizes
 
       * With an arrow
 
       * With loading state
 
 
-      #### Size variations
+      #### Different sizes
 
 
       Our buttons come in three sizes: default, smaller and larger. 
@@ -139,7 +139,10 @@ tabs:
       As the question of **disabled buttons** is one which regularly pops up, our design rationale from discouraging from the user of disabled buttons can be found below.
 
 
-      In designing our general patterns for [form validation](/patterns/general-patterns/form-validation) and [required fields](/patterns/general-patterns/required-fields) we have been informed by academic research as well as our own user testing (we have even had a bachelor thesis looking at our error message handling!). What we found is that as disabled buttons can't give users feedback on what is missing for them to become enabled it is from a user perspective much better to have buttons which are enabled and on click can give users feedback on what has to be corrected before they can progress in the flow. For users who have missed some part of a form, a disabled button forces the user to search for the error themselves (leading to longer completion times and frustration). In comparison an enabled button can provide an error message and in our pattern also auto-scrolls the user to the (first) error, making the completion of the form an easier task.    
+      In designing our general patterns for [form validation](/patterns/general-patterns/form-validation) and [required fields](/patterns/general-patterns/required-fields) we have been informed by academic research as well as our own user testing (we have even had a bachelor thesis looking at our error message handling!). What we found is that as disabled buttons can't give users feedback on what is missing for them to become enabled, it is from a user perspective much better to have buttons which are enabled and when clicked can give users feedback on what has to be corrected before they can progress in the flow. 
+
+
+      For users who have missed some part of a form, a disabled button forces the user to search for the error themselves (leading to longer completion times and frustration). In comparison an enabled button can provide an error message and in our pattern also auto-scrolls the user to the (first) error, making the completion of the form an easier task.    
 
 
       If you are designing a button which is never meant to be enabled, you shouldn't have the button there at all.
@@ -151,7 +154,7 @@ tabs:
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/ "Primary button", "Secondary button" and "Login & Logout")
 
 
-      **Live exemple:** [](https://www.lansforsakringar.se/stockholm/privat/)Loan product page have primary button for the "Calculate mortgages" and you have always the login button on the top right: <https://www.lansforsakringar.se/privat/bank/lana/bolan/>
+      **Live example:** [](https://www.lansforsakringar.se/stockholm/privat/)Loan product page have primary button for the "Calculate mortgages" and you have always the login button on the top right: <https://www.lansforsakringar.se/privat/bank/lana/bolan/>
     name: Design
   - content: >-
       ## Så skriver vi
