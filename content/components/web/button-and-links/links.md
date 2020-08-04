@@ -16,22 +16,22 @@ tabs:
       ## How to use
 
 
-      Links is the main way of helping users find information which isn't included in the current page/view. Examples of where links can lead are another page on our webpage, a pdf with more info or a link to an external webpage. 
+      Links are the main way of helping users find information which isn't included in the current page/view. Examples of where links can lead are another page on our webpage, a pdf with more info or a link to an external webpage. Links can also be used to let users jump to a different part of the same page.
 
 
-      ### Versions
+      ### Variations
 
 
-      We have two versions of links; primary and regular. However, headings can also be links (especially on [cards](../page-content/card)) - this use case is described under [Headings in Typography.](../text/headings#linked-headline)
+      Links are usually a form of normal text and we have two variations of links; primary and regular. However, headings can also be links (especially on [cards](../page-content/card)) - this use case is described under [Headings in Typography.](../text/headings#linked-headline)
 
 
       #### Primary links
 
 
-      Primary links are used for highlighting a link which you want to put extra emphasis on. Examples include repeating a [primary button](buttons#primary-buttons) further down in the page (a pattern which can often be seen on lansforsakringar.se) or as part of a [call out](../page-content/callout). 
+      Primary links are used for highlighting a link which you want to put extra emphasis on. Examples include repeating the message of a [primary button](buttons#primary-buttons) further down in the page (a pattern which can often be seen on product pages on lansforsakringar.se) or as part of a [call out](../page-content/callout). 
 
 
-      As they are primary there can only be one primary link per block (and preferably page). Layout-wise the primary link is rather "heavy" with an arrow after the text, meaning it should be used sparsely. 
+      As with all things labeled primary there should only be one primary item (link/button) per block (and preferably page). Layout-wise the primary link is rather "heavy" with an arrow after the text, meaning it should be used sparsely. 
 
 
       <div class="Callout"><strong class="Callout__title">Link or button? </strong><p class="Callout__text">The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
@@ -43,13 +43,13 @@ tabs:
       #### Regular links
 
 
-      Our regular link follows web standards closely, being blue with and underlined. On hover it changes colour to a darker shade of blue. Depending on in which context it is used there are some aspects to consider.
+      Our regular link follows web standards closely, being blue with an underline. On hover it changes colour to a darker shade of blue. Depending on in which context it is used there are some aspects to consider.
 
 
       ##### Links in relation to text
 
 
-      How to place a link depends on which kind of text you use it conjuction with. We have placed our recommendations in conjunction with the description of the various text types:
+      How to place a link depends on which kind of text you use it conjuction with. We have placed our recommendations on the pages of the various text types:
 
 
       * If you want to use a link in relation to body text, read about how to do it on the [body text-page](../text/body-text#links-in-body-text). 
@@ -62,7 +62,7 @@ tabs:
       ##### External links
 
 
-      If your link leads away from the context you're in the link should be amended with an external link icon. This includes changing technical environment within Länsförsäkringar's world (like a link in Mina Sidor or a purchase flow leading to lansforsakringar.se ). The icon should come after the link text and links should open in a new tab/window (depending on the user's browser settings).
+      If your link leads away from the context user is in, the link should be amended with an external link icon. This includes changing technical environment within Länsförsäkringar's world (like a link in Mina Sidor leading to lansforsakringar.se). The icon should come after the link text and links should open in a new tab/window (depending on the user's browser settings).
 
 
       Please see external links in [lists with icons](../typography/lists#link-list) for an exception.
@@ -71,10 +71,10 @@ tabs:
       ##### Paired with a button
 
 
-      A common usage of the regular link is as a secondary option in a flow. In this case the link contrasts a primary button. Depending on what the link does, it is either placed to the far left in height with the primary button (for "backwards"-functionality) or just prior the primary button (for "cancel"-functionality). The image below shows one of the rare cases where both options exist.
+      A common usage of the regular link is as a secondary option in a flow with multiple options. Depending on what the link does, it is either placed to the far left in height with the primary button (for "backwards"-functionality) or just prior the primary button (for "cancel"-functionality). The image below shows one of the rare cases where both options exist.
 
 
-      <figure class="Image Image__background"><img src="/img/skärmavbild-2020-03-12-kl.-18.00.19.png" srcset="/img/skärmavbild-2020-03-12-kl.-18.00.19.png 2x" alt="Regular links next to a primary button in a flow where both "backwards" and "cancel"-options exist."><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/links-and-primary-button.png" srcset="/img/skärmavbild-2020-03-12-kl.-18.00.19.png 2x" alt="Regular links next to a primary button in a flow where both "backwards" and "cancel"-options exist."><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## Other material
