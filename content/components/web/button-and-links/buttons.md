@@ -11,19 +11,18 @@ componentsNavigation:
   - name: Primary
   - name: Secondary
   - name: Login
-  
 tabs:
   - content: >-
       ## How to use
 
 
-      Buttons are in their essence a form of link which helps the user through a specific flow, typical examples are progressing to the next page or submitting something. They are also used as a way of entering a specific flow. Through their visual presence they give the users queues on what expected actions exist.
+      Buttons are in their essence a form of link which helps the user through a specific flow, typical examples are progressing to the next page and to submit something. They are also used as a way of entering a specific flow. Through their visual presence they give the users queues on what expected actions exist.
 
 
       The responsive rules for our buttons transform them the full row-width in smaller screens. This should be your default design, but feel free to put two buttons next to each other even in smaller screens if the context makes it a better choice. 
 
 
-      <figure class="Image Image__background"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt=""><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
+      <figure class="Image Image__border"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt=""><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
 
 
       Button copy should make it clear what happens after clicking it, meaning copy like "Next" or "Proceed" shouldn't be used. Read more under the [copy-tab](?Copy).
