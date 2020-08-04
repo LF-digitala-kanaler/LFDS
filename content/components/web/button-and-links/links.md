@@ -22,7 +22,7 @@ tabs:
       ### Variations
 
 
-      Links are usually a form of normal text and we have two variations of links; primary and regular. However, headings can also be links (especially on [cards](../page-content/card)) - this use case is described under [Headings in Typography.](../text/headings#linked-headline)
+      Links are usually a form of normal text and we have two variations of links; primary and regular. However, headings can also be links (especially on [cards](../page-content/card)) - this use case is described under [Headings.](../text/headings#linked-headline)
 
 
       #### Primary links
