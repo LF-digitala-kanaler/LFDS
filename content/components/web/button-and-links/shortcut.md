@@ -1,10 +1,9 @@
 ---
 template: ComponentPage
 title: Shortcuts
-intro: The shortcut is preferably used at the top of a page to draw the users
-  attention to another page or section.
-description: The shortcut is preferably used at the top of a page to draw the
-  users attention to another page or section.
+intro: Shortcuts are used to draw the users attention to another page or
+  section. They are usually placed in the main view of a newly loaded page.
+description: Shortcuts are used to draw the users attention to another page or section.
 previewImage: /img/shortcut.svg
 category: Button and Links
 componentsNavigation:
@@ -41,16 +40,16 @@ tabs:
       "Glasspinne" is the shortcut we use when we want to alert users to an action they need/are recommended to take (but probably isn't not why they arrived at the page). They use the same colors with the same meaning as regular [alerts](../system-display/alert), meaning that they are available in all four colours - however it is (almost) exclusively the blue neutral one which is in use. "Glasspinnar" are always just one row high, meaning the text should be kept short and snappy. The text is written in bold.
 
 
-      The main usage of the "glasspinne" is on the landning page of Mina Sidor where we use it for things like asking the customer to fill out our their "kundkännedomsfrågor" and providing relevant offers ("your car turns 3 years old, you might want to change type of insurance").
+      The main usage of the "glasspinne" is on the landing page of Mina Sidor where we use it for things like asking the customer to fill out our their "kundkännedomsfrågor" (KYC, Know Your Customer) and providing relevant offers ("your car turns 3 years old, you might want to change type of insurance").
 
 
-      *Trivia: The name comes from the need for a name to describe them with and someone thinking they resembled ice cream sticks (which is what "glasspinne" means in Swedish).* 
+      <div class="Callout"><strong class="Callout__title">Trivia </strong><p class="Callout__text">The name comes from the need for a name to describe them with and someone thinking they resembled ice cream sticks (which is what "glasspinne" means in Swedish).</p></div>
 
 
       #### Navigational shortcuts
 
 
-      The are two different types of navigational shortcuts, but these types are mainly aesthetic as they both do the same thing - they help the user to navigate in alternative patterns than the main purpose of the page they are on. The main difference between the types are how many rows they span, and how the design has been adapted for this.
+      There are two different types of navigational shortcuts, but these types are mainly aesthetic as they both do the same thing - they help the user to navigate in alternative patterns than the main purpose of the page they are on. The main difference between the types are how many rows they span, and how the design has been adapted for this.
 
 
       ##### One-lined shortcut
@@ -62,7 +61,7 @@ tabs:
       ##### Multiple-lined shortcut
 
 
-      Multiple-lined shortcuts consists of a header row (larger type, bold) which communicates the main action and a textarea below to give more detail. The textarea can span one or several row and has two possible layouts:
+      Multiple-lined shortcuts consists of a header row (larger type, bold) which communicates the main action and a textarea below to give more detail in. The textarea can span one or several rows andea you need to choose between one of the two modifiers for the styling: 
 
 
       * **Blue text in Intro Cond**; used when you wish to add extra details in short form, e.g. the organisational number in the company switcher in Mina Sidor (with the company name being the header).
