@@ -34,7 +34,7 @@ tabs:
       * **Landing page** shortcuts are only used on landing pages and are used for helping users find the most common tasks/pages.
 
 
-      #### Glasspinne
+      #### Alerting (Glasspinne)
 
 
       "Glasspinne" is the shortcut we use when we want to alert users to an action they need/are recommended to take (but probably isn't not why they arrived at the page). They use the same colors with the same meaning as regular [alerts](../system-display/alert), meaning that they are available in all four colours - however it is (almost) exclusively the blue neutral one which is in use. "Glasspinnar" are always just one row high, meaning the text should be kept short and snappy. The text is written in bold.
