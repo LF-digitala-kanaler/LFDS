@@ -2,8 +2,8 @@
 template: ComponentPage
 title: Datepicker
 intro: The datepicker is the input field used when a date is the expected input.
-  It is designed so that the user can either choose the date from a calendar or
-  enter it manually.
+  It is designed in such a way that the user can either choose the date from a
+  calendar or enter it manually.
 description: The datepicker is the input field used when a date is the expected input.
 previewImage: /img/datepicker.svg
 category: Forms
@@ -18,7 +18,7 @@ tabs:
       Use the datepicker when you want the user to enter a date or time in another manner.
 
 
-      Visually the datepicker looks like a normal input field with a calendar icon in right part of the field. Interactionwise a calendar is expanded when the clicks anywhere in the input field (including on the calendar icon), in which the user can choose the date they wish to choose. If they prefer, the input field can also be used to manually enter the date.
+      Visually the datepicker looks like a normal input field with a calendar icon in right part of the field. Interaction-wise a calendar is expanded when the user clicks anywhere in the input field (including on the calendar icon) - in the calendar the user can select the date they wish to choose. If they prefer, the input field can also be used to enter the date with the keyboard.
 
 
       ### Modifiers
@@ -29,7 +29,7 @@ tabs:
 
       * There is as a version called **timepicker**, which works like the datepicker but lets the user choose a time rather than a day
 
-      * You can choose to disabled dates if needed. Examples of use case for this are buying an insurance (not possible earlier than today) or doing an injury claim (had to happen today or earlier). You can also choose to disable a specific time span.
+      * You can choose to disable dates if needed. Examples of use case for this are selecting from when an insurance is valid (not possible earlier than today) or doing an injury claim (had to happen today or earlier). You can also choose to disable a specific time span.
 
 
       ## Please consider
