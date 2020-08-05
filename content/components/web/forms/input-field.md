@@ -58,7 +58,7 @@ tabs:
       ##### Password
 
 
-      If an input field contains a password or other sensitive data the please use the password modifier. It follows web standards and translates characters into asterisks as they are entered.
+      If an input field contains a password or other sensitive data, please use the password modifier. It follows web standards and translates characters into asterisks as they are entered.
 
 
       ##### Prefix
