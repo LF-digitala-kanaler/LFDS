@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
 title: Donut Chart
-intro: Donut charts are best to use when you are trying to compare parts of a
+intro: Donut charts are best used when you are trying to compare parts of a
   whole. They do not show changes over time.
-description: Donut charts are best to use when you are trying to compare parts
-  of a whole. They do not show changes over time.
+description: Donut charts are best used when you are trying to compare parts of
+  a whole. They do not show changes over time.
 previewImage: /img/pie-chart.svg
 category: Data Visualization
 tabs:
@@ -40,11 +40,8 @@ tabs:
       When to use different graphs you find [here](/patterns/general-patterns/graphs-and-when-to-use-them#type-of-graph).
 
 
-
       ## Please consider
 
-
-      * Grouping slices together in one bigger slice
 
       * Donut charts are not the best choice if you want readers to compare the size of shares with similar sizes
 
