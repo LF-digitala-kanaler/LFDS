@@ -16,7 +16,7 @@ tabs:
       ## How to use
 
 
-      The distribution bar is used to compare how different values relate to one another. The distribution bar's total always equals 100%, meaning that the values are translated into percentages of the total before they are displayed in the table. This means that the distribution bar gives an overview of the values at a given time, usually the current values. As the visual overview only works if the user can get a sense of the relations at first glance, only use a distribution bar for comparing few items (a rule of thumb is five items). An example use could be to display your ISK-accounts and how the amount in them relate to each other.
+      The distribution bar is used to compare how different values relate to one another. The distribution bar's total always equals 100%, meaning that the values are translated into percentages of the total before they are displayed in the table. This means that the distribution bar gives an overview of the relationship between values at a given time, usually the present. As the visual overview only works if the user can get a sense of the relations at first glance, only use a distribution bar for comparing few items (a rule of thumb is five items). An example use could be to display your ISK-accounts and how the amount in them relate to each other.
 
 
       ### Variation
@@ -25,30 +25,30 @@ tabs:
       The behaviour described in "How to use" is the standard usage of the distribution bar. There is however a specific secondary variation: as a progress bar.
 
 
-      #### As a progress bar
+      #### Progress bar
 
 
-      A **secondary use case** is as a form of [progress bar](../system-display/progress-bar) with discrete steps whose relation change over time. The distribution bar should only be used as a progress bar if both cases are true. What's great with this use is that you can choose to display parts which aren't affected but part of the total, as the red section in the example image below. The example image below has both modifiers for the use case turned on:
+      A **secondary use case** is as a form of [progress bar](../system-display/progress-bar) with discrete steps whose relation change over time. The distribution bar should only be used as a progress bar in cases which match that description. What's great with this use is that you can choose to display parts which aren't affected but part of the total, as the red section in the example image below. The example image below has both modifiers for the use case turned on:
 
 
       <figure class="Image Image__background"><img src="/img/distribution-bar-as-progress-bar.png" srcset="/img/distribution-bar-as-progress-bar.png 2x" alt="Distribution bar as progress bar"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
-      As indicated above, to specific modifiers exist for the distribution bar as a progress bar.
+      As indicated above, two specific modifiers exist for the distribution bar as a progress bar.
 
 
       ##### Specific modifiers
 
 
-      The two specific modifiers which exist for the distribution bar as a progress bar are:
+      The two specific modifiers which are available are:
 
 
-      * Arrows that point out separator steps
+      * Label and arrow which point out separator steps
 
       * Pointy-headed separator
 
 
-      ###### Arrows that point out separator steps
+      ###### Label and arrow which point out separator steps
 
 
       You can add arrows which point to the gaps between the values. The arrows are accompanied by a small label which should describe the progress being made up to that point. Do not just repeat the legend in the arrow labels.
@@ -57,10 +57,10 @@ tabs:
       ###### Pointy-headed separator
 
 
-      You can use a pointer separator on a value in the bar to show that something is expected to grow/progress. It is recommended to add the pointy-headed separator to the state which is currently progressing/changing when using the distribution bar as a progress bar.
+      You can use a pointy-headed separator on a value in the bar to show that something is expected to grow/progress. It is recommended to add the pointy-headed separator to the state which is currently progressing/changing when using the distribution bar as a progress bar.
 
 
-      Try to not to use the arrow at small values, as the arrow has a width around 10px and might disrupt the accuracy of the bar.
+      Try to not to use the arrow when using small values, as the arrow has a minimum width of around 10px, which might disrupt the accuracy of the bar.
 
 
       ### General modifiers
@@ -77,7 +77,7 @@ tabs:
       #### Label inside bar
 
 
-      You can add labels inside the bar if you wish to. This eases the understanding of the distribution bar and is encouraged, however not implemented by default for accessibility reasons.  A recommendation is to not show the percentage value inside the bar unless the width is at least 5% or above (depending on your parent width, of course) to make sure the value fits in its area.
+      You can add labels inside the bar if you wish to. This eases the understanding of the distribution bar and the use is encouraged, however not implemented by default for accessibility reasons.  A recommendation is to not show the percentage value inside the bar unless the width is at least 5% or above (depending on your parent width, of course) to make sure the value fits in its area.
 
 
       #### Tooltip explanation
