@@ -14,7 +14,7 @@ componentsNavigation:
   - name: Radio Cards
 tabs:
   - content: >-
-      1. ## How (and when) to use
+      ## How (and when) to use
 
 
       There are several components in LFUI based on standard radio button behaviour (choose one and only one option), all with their specific behaviour:
