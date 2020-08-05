@@ -18,13 +18,13 @@ tabs:
       Our recommendation is to present your list of checkboxes vertically, with one choice per line. This makes it easier to get an overview of the options and creates a clearer and larger click area. If you use an horizontal layout, make sure that it is coded in such a way that labels don't flow over two rows in responsive modes (one good way is to set a break point when the list becomes vertical).
 
 
-      Checkboxes should be unchecked by default (unless viewing a representation of previous choices - like having the addon "Mer" on your car insurance).
+      Checkboxes should be unchecked by default (unless viewing a representation of previous choices - like having the add-on "Mer" on your car insurance).
 
 
       ## Please consider
 
 
-      If you have more than five options you are probably better off using a [multi-select dropdown](/components/web/forms/dropdown).
+      If you have more than five options you are probably better off using a [multi-select dropdown](/components/web/forms/dropdown#multi-select).
 
 
       ## Other material
