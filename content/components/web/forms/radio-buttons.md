@@ -39,7 +39,7 @@ tabs:
       In responsive view, the options get stacked on top of each other. There is one exemption to this however; if the options are yes and no they are both so short that they can be placed next to each other on even a small screen. This makes the choice clearer for the user and the depth of the page shorter.
 
 
-      <figure class="Image Image__border Image__border--noPadding"><img src="/img/button-group-yes-and-no.jpg" srcset="/img/button-group-yes-and-no.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/button-group-yes-and-no.jpg" srcset="/img/button-group-yes-and-no.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       #### Specific modifiers
