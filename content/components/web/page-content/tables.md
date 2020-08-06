@@ -61,7 +61,7 @@ tabs:
       ##### Banded rows
 
 
-      If the contents of your table is such that it you expect the user to want to focus on rows primarily you can help them by adding banded rows. This gives every second row a light grey background designed to discretely help the user follow the contents of a row.
+      If the contents of your table is such that you expect the user to want to focus on rows primarily you can help them by adding banded rows. This gives every second row a light grey background designed to discretely help the user follow the contents of a row.
 
 
       If used together with a summary row, the summary row will have a darker nuance of grey than normally. 
@@ -101,7 +101,7 @@ tabs:
       ### Comparative tables
 
 
-      Comparative tables are, as the name suggests, used for comparing things - usually different alternatives of a type of insurance (like [car insurance](https://www.lansforsakringar.se/privat/forsakring/bilforsakring/)). They feature prominently on product pages on the public web, but can in theory be used anywhere. Their main purpose is to give users a visual overview of their options. The various versions to compare between should be placed in the columns.
+      Comparative tables are, as the name suggests, used for comparing things - usually different alternatives of a type of insurance (like [car insurance](https://www.lansforsakringar.se/privat/forsakring/bilforsakring/)). They feature prominently on product pages on the public web, but can in theory be used anywhere. Their main purpose is to give users a visual overview of their options. The various options to compare between should be placed in the columns.
 
 
       Designwise there are some differences to tables for presenting data:
@@ -114,7 +114,7 @@ tabs:
         * If an editor enters an explanation of the label a chevron is added to the right of the label. The behaviour is then as in the [collapse-component](../supportive-microinteractions/collapse); clicking the label or chevron expands a row with the explanatory text.
       * Remaining table cells are filled with green checkboxes or left empty, rather than being filled with data
 
-      * They have a sticky header if they are longer than the what can displayed at once on the user's screen.
+      * Tables have a sticky header if they are longer than the what can displayed at once on the user's screen.
 
 
       ## Other material
