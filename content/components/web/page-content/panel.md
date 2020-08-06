@@ -19,27 +19,47 @@ tabs:
       When panels are in use, a page is usually divided into several cards (without images), each with their own heading, with full width across the component on top of our gray background. These can contain anything, frequent examples include test, tables and forms.
 
 
-      ### Versions
+      ### Variations
 
 
-      Panels have two main versions; always open and collapsible/expandable. There are no set rules for when to use collapsed or expanded, but a rule of thumb is to have cards with prioritised information expanded by default and the ones with secondary information collapsed. 
+      Panels have two main variations; 
 
 
-      ### Modifiers
+      * Always open 
+
+      * Collapsible/expandable. 
 
 
-      Our panels have several modifiers, but only one which exists for both always open and collapsible/expandable panels, namely "load more". The "load more" is to be used when you have a panel with lots of possible data (like a transaction list), and it isn't feasible or desirable to show all data at once.
+      #### Always open
 
 
-      **Modifiers for collapsible panels**
+      The always open panels is just a header + container in which you can put other information, such as tables.
 
 
-      Collapsible have a few additional modifiers:
+      #### Collapsible/expandable
+
+
+      The collapsible/expandable container adds a chevron in the top right corner of the header-section, for expanding or collapsing the panel.  When collapsed, only the header of the panel is shown.
+
+
+      There are no set rules for when to use collapsed or expanded, but a rule of thumb is to have cards with the most important information expanded by default and the ones with secondary information collapsed. 
+
+
+      ##### Specific modifiers
+
+
+      Collapsible/expandable panels have a two specific modifiers:
 
 
       * Collapsible cards can be either collapsed or expanded by default. 
 
       * If a card fetches information from a backend system there is a version of the panel which has a *lazy load* function which allows for the data to first be fetched if/when a user expands that specific panel. Great for slow backend systems!
+
+
+      ### General Modifier
+
+
+      Our panels have several modifiers, but only one which exists for both always open and collapsible/expandable panels, namely "load more". The "load more" is to be used when you have a panel with lots of possible data (like a transaction list), and it isn't feasible or desirable to show all data at once.
 
 
       ## Please consider
