@@ -18,10 +18,10 @@ tabs:
       The navbar differs from our other components in that it is a foundation to build on, rather than a set design. If you're designing on a system level and need a new menu, use the navbar as your starting point and then adapt it to what suits your environment.
 
 
-      ### Versions
+      ### Variations
 
 
-      We have two versions of our navbar; blue and white. Technically you could use any colour combination you want, but using other colours than blue and white should only be done as a last resort.
+      We have two variations of our navbar; blue and white. Technically you could use any colour combination you want, but using other colours than blue and white should only be done as a last resort.
 
 
       #### Blue navbar
@@ -33,13 +33,13 @@ tabs:
       #### White navbar
 
 
-      The white navbar is used as a secondary menu (like the "personal menu" on Mina Sidor) or in internal systems. This is the menu you can use in external mini portals and campaigns.
+      The white navbar is used as a secondary menu (like the "personal menu" on Mina Sidor) or in internal systems. This is the menu you should use in  mini-portals and campaigns.
 
 
       ### Modifiers
 
 
-      A number of modifiers exist for the navbar, and except for direction they are all on/off, meaning that you can combine them freely.
+      A number of modifiers exist for the navbar, and  you can combine them freely with exception for direction (which for obvious reasons can only be one way). 
 
 
       #### Direction
@@ -48,7 +48,7 @@ tabs:
       Your navbar can be either vertical or horizontal. Which one to choose depends on the rest of your layout and preferred behavior of your menu:
 
 
-      * Horizontal: Good for either very small applications or large ones. Small one applications lets you click the link and you're there. In large application/sites the horizontal menu serves well as the basis for a mega menu (like on [lansforsakringar.se](https://www.lansforsakringar.se)).
+      * Horizontal: Good for either very small applications or large ones. Small  applications lets you click the link and you're there. In large application/sites the horizontal menu serves well as the basis for a mega menu (like on [lansforsakringar.se](https://www.lansforsakringar.se)).
 
         * **Modifier for horizontal navbars:** If you wish, you can add a logotype in the first part of the menu.
       * Vertical: Great for responsive views and for mid-sizes applications. It lets the users either find their way to a category page and navigate within the content or to dig deeper by clicking the chevron on the right hand side of the text. The vertical menu is always placed on the left hand side.
@@ -71,6 +71,12 @@ tabs:
       * Small size with vertical direction
 
       * Extra small for pop-out menus
+
+
+      ## Please consider
+
+
+      * Menues should be visible by default in desktop views. If you wish to be able to hide them, make it a user-action.
     name: Design
   - content: >-
       ## How to use
