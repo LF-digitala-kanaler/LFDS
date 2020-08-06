@@ -12,10 +12,10 @@ tabs:
       ## How to use
 
 
+      Cards are used to promote something and consist of an image, a label, date stamp and some text. Cards are typically placed at the bottom of a page to displaying informational or promotional content to users.
+
+
       The card comes in several versions all featuring a prominent picture at the top followed by a heading and short text. They all feature a date stamp, but its placement varies between designs (in some implementations the date stamp is replaced by a label such as “Erbjudande” or “Just nu”, but they aren’t part of LFUI).
-
-
-      Cards are typically placed at the bottom of a page to give more options to users.
 
 
       ## Please consider
