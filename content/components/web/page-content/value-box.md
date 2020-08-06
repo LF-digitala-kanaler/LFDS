@@ -1,12 +1,11 @@
 ---
 template: ComponentPage
 title: Value Box
-intro: The value box is intended to draw the users attention and for them to
-  at-a-glance see the total value of the related content. It is primarily used
-  in Mina sidor to display value of total/specific content.
-description: The value box is intended to draw the users attention and for them
-  to at-a-glance see the total value of the related content. It is primarily
-  used in Mina sidor to display value of total/specific content.
+intro: The value box is intended to draw the users attention and give an
+  overview of the total value of the related content at a glance. It is
+  primarily used in Mina sidor to display value of total/specific content.
+description: The value box is intended to draw the users attention and give an
+  overview of the total value of the related content at a glance.
 previewImage: /img/value-box.svg
 category: Page Content
 tabs:
@@ -14,16 +13,19 @@ tabs:
       ## How to use
 
 
-      The value box summarises what is shown in more detailed on the rest of the page, and should be placed high in the visual hierarchy. If you want to you may use several value boxes on one page, but then they should be visually grouped with each other (for a live example, look at a specific pension in Mina sidor).
+      The value box summarises what is shown in more detail on the rest of the page, and should be placed high in the visual hierarchy. If you want to you may use several value boxes on one page, but then they should be visually grouped with each other (for a live example, look at a specific pension in Mina sidor).
 
 
-      There are two versions of the value box, one where the header is expandable (if the content needs explanation - need to be short and snappy; if you can’t keep it short the value probably shouldn’t be summarised in a value box to start with) and one with only the label.
+      ### Modifier
+
+
+      You can choose to add an expandable header to include a short description of the content, if solely the header isn't enough. If you can’t keep it short the value probably shouldn’t be summarised in a value box to start with.
 
 
       ## Please consider
 
 
-      As price box, value box and callout all are various ways of highlighting information you should avoid mixing them in one view.
+      As [price box](price-box), value box and [callout](callout) all are various ways of highlighting information you should avoid mixing them in one view.
     name: Design
   - content: >-
       ## How to use
