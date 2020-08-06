@@ -4,7 +4,7 @@ title: Navbar
 intro: The navbar is the foundation for the various menus used at
   Länsförsäkringar. As each channel/system has its own need from a menu it is
   however always modified for that environment.
-description: The navbar is the foundation for the various menus used at Länsförsäkringar.
+description: "The navbar is the foundation for the various menus used at Länsförsäkringar. "
 previewImage: /img/navbar.svg
 category: Navigations
 componentsNavigation:
