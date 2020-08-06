@@ -12,16 +12,16 @@ tabs:
       ## How to use
 
 
-      Use the callout to highlight crucial information so it doesn’t disappear in a chunk of text. A good example is telephone numbers to injury claims on product pages. Typical headings for a callout are “Viktig information”, “Tips för …” and “Tänk på …”.
+      Use the callout to highlight crucial information so it doesn’t disappear in a chunk of text. A good example is telephone numbers to injury claims on product pages. Typical headings for a callout are “Viktig information”, “Tips för …” and “Tänk på…”.
 
 
-      The small red corner appears with an animation as the callout comes into view for the user to help bring attention to the callout.
+      The small red corner appears with an animation as the callout comes into view to help bring attention to the callout.
 
 
       ## Please consider
 
 
-      As price box, value box and callout all are various ways of highlighting information you should avoid mixing them in one view.
+      As [price box](price-box), [value box](value-box) and callout all are various ways of highlighting information you should avoid mixing them in one view.
 
 
       ## Other material
