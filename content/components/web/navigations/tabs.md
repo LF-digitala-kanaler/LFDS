@@ -2,7 +2,7 @@
 template: ComponentPage
 title: Tabs
 intro: Tabs are used as contextual navigation when the user has landed on a page
-  which hasn't any submenues in the main navigation. We have two main versions
+  which hasn't any submenues in the main navigation. We have two main variations
   of tabs; page-level navigation and in-page navigation.
 description: Tabs are used as contextual navigation when the user has landed on
   a page which hasn't any submenues in the main navigation.
@@ -16,7 +16,7 @@ tabs:
       ## How to use
 
 
-      Tabs should be used for navigation inside a page. This means that tabs are the most local way of navigating, and should only be used for when it doesn't make sense to divide the content into several items in the main navigation. Tabs are primarily used in "closed environments" such as Mina Sidor and internal systems. Good examples of tab use include settings-pages and navigation within one instance of a product of which a customer may have many (such as occupational pension).
+      Tabs should be used for navigation inside a page. This means that tabs are the most local way of navigating, and should only be used for when it doesn't make sense to divide the content into several pages/views. Tabs are primarily used in "closed environments" such as Mina Sidor and internal systems. Good examples of tab use include settings-pages and navigation within one instance of a product of which a customer may have many (such as occupational pension).
 
 
       Changing a tab should affect everything below it within the container/page and nothing above it.
@@ -48,7 +48,7 @@ tabs:
       A great example is if you enter a specific occupational pension in Mina Sidor; the value is displayed prominently and then there are in-page navigational tabs separating the savings-related parts and insurance-related parts into different views.
 
 
-      <div class="Callout"><strong class="Callout__title">A third option is coming! </strong><p class="Callout__text">We are currently designing a third option, for when you want to do even more local adaptations - like changing the style of a graph or what to display in said graph.</p></div>
+      <div class="Callout"><strong class="Callout__title">A third variation is coming! </strong><p class="Callout__text">We are currently designing a third variation, for when you want to do even more local adaptations - like changing the style of a graph or what to display in said graph.</p></div>
 
 
       ### Modifiers
@@ -66,10 +66,10 @@ tabs:
       #### Responsive sidescroll
 
 
-      If you want you can add some responsiveness to your tabs. With this modifier on the user will be able to sidescroll between the tabs if they don't fit on one row. Otherwise the tabs will flow over several rows. 
+      If you want you can add some responsiveness to your tabs. With this modifier activated the user will be able to sidescroll between the tabs if they don't fit on one row. Otherwise the tabs will flow over several rows. 
 
 
-      *Note: it has been suggested to make responsive sidescroll a standard feature of the component, meaning that it won't be an option to not have it turned on.*
+      *Note: it has been suggested to make responsive sidescroll a standard feature of the component, meaning that it will be always on.*
 
 
       ## Other material
