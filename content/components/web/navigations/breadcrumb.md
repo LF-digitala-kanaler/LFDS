@@ -47,7 +47,6 @@ tabs:
   - content: >-
       ## Så skriver vi
 
-
       Breadcrumbs ska spegla sidan användaren är på. Kort och koncist, tänk som i menyn.
     name: Copy
 backgroundColor: "#fff"
