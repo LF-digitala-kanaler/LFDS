@@ -28,7 +28,7 @@ tabs:
       In responsive mode for small screens the pagination is full row width.
 
 
-      When we determine number of pages included in the numbering we count the number of pages from the start of the service, including the receipt if such exists. We do however not include any intermediary pages in which the user submits initial data needed for the service (this as there are often many ways to enter such a service, and the most common way is usually as part of a product page on lansforsakringar.se).
+      When we determine number of pages included in the numbering we count the number of pages from the start of the service, including the receipt if such exists. We do however not include "intro-pages" on which the user submits initial data needed for the service (this as there are often many ways to enter such a service, and the most common way is usually as part of a product page on lansforsakringar.se).
 
 
       Although we number the receipt page we do not show the pagination on the receipt page. This is as a pagination here wouldn't provide any value to the user, as they've finished the flow and wouldn't be able to go backwards in the flow as the data has been submitted.
@@ -43,7 +43,7 @@ tabs:
       ## Design rationale
 
 
-      Over the years a number of alternative design, all more descriptive have been tested in both qualitative and quantitive tests. To the surprise of many the scaled down version in use has outperformed the more descriptive versions in all tests. Below are two examples of alternative versions which have been tested, and failed.
+      Over the years a number of alternative designs (all more descriptive) have been tested in both qualitative and quantitive tests. To the surprise of many the scaled down version in use has outperformed the more descriptive versions in all tests. Below are two examples of alternative versions which have been tested, and failed.
 
 
       **a/b-tested version**\
