@@ -77,7 +77,7 @@ tabs:
       ## How to use
 
 
-      Pagination is built with list HTML elements so screen readers can announce the number of available links.
+      Pagination is built with list HTML elements so screen readers can announce the number of available links. 
 
 
       ### Variations
