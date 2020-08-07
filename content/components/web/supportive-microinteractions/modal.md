@@ -30,7 +30,7 @@ tabs:
       ### As a form of read more
 
 
-      Modals are one of our recommended ways of designing a "[read more](./patterns/general-patterns/read-more)"-functionality. When used in a read more-manner, modals provides a focused view on the additional information with an easy way back to the main flow. It should be used when you expect that some user types will want that information but not all.
+      Modals are one of our recommended ways of designing a "[read more](/patterns/general-patterns/read-more)"-functionality. When used in a read more-manner, modals provides a focused view on the additional information with an easy way back to the main flow. It should be used when you expect that some user types will want that information but not all.
 
 
       A typical use case of such functionality is "Läs mer"-buttons containing more details on a specific function/choice that is seen as relevant, but secondary, to the user in order to make this choice. An example use for this would be to display a visual comparison between different alternatives, for example what's included in different alternatives of an insurance.
@@ -151,5 +151,5 @@ tabs:
       Be sure to add `role="dialog"` and `aria-labelledby="..."`, referencing the modal title, to `.modal` , and `role="document"` to the `.modal-dialog` itself. Additionally, you may give a description of your modal dialog with `aria-describedby` on `.modal`
     name: Code
 backgroundColor: "#fff"
-verticalResize: yes
+verticalResize: true
 ---
