@@ -18,13 +18,13 @@ tabs:
       ## How to use
 
 
-      Web readers prefer copy formatted for ease of scanning, which allows them to easily skip through chunks of text to get to areas of interest. List elements helps to break up large blocks of text, make complex articles and product information easier to grasp, and make key information stand out. 
+      Users prefer copy formatted for ease of scanning, which allows them to easily skip through chunks of text to get to areas of interest. List elements helps to break up large blocks of text, make complex articles and product information easier to grasp, and make key information stand out. 
 
 
       However, a page which is filled with bullet lists becomes difficult to read as well. For that reason we recommend that you only use one bullet list per page, and a have a rule of no more than one bullet list per section. For optimal reading experience, a bullet list should contain 3-5 items.
 
 
-      As you probably know, we generally recommend putting links after a text block (otherwise, [read this section](body-text#links-in-body-text)). However, when it comes to a list that would actually make it more difficult to identify what the link relates to. Thus, we recommend to phrase the list item in such a way that the link naturally can be placed at the end of the text but still inline with the text *(if you want to put one link to summarise the whole list, the normal recommendation of putting the link after the the textblock applies).*
+      As you probably know, we generally recommend putting links after a text block (otherwise, [read this section](body-text#links-in-body-text)). However, when it comes to a list having the link after the text block would actually make it more difficult to identify what the link relates to. Thus, we recommend to phrase the list item in such a way that the link naturally can be placed at the end of the text but still inline with the text *(if you want to put one link to summarise the whole list, the normal recommendation of putting the link after the the textblock applies).*
 
 
       ### Variations
@@ -57,7 +57,7 @@ tabs:
       In some cases you might want to change the neutral feeling of a dot/circle to a more positively loaded bullet - in that case we have just the thing for you! Checkmarks as bullets. Just beware - they do not have any sublevels designed and just use the sublevels of a standard bullet list.
 
 
-      ##### Modifiers
+      ##### Specific Modifier
 
 
       So, just having checkmarks isn't enough? Well, you're in luck - we offer them in four colours:
