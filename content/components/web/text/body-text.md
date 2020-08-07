@@ -24,13 +24,13 @@ tabs:
       For accessibility reasons we recommend that links aren't placed in a paragraph, but rather after it. This improves accessibility in many ways such as readability of text, navigation with screen readers or tabbing and for those who are just glancing through a page in search of a link.
 
 
-      There is however a conflict between accessibility and SEO, as search engines prefer links in text blocks. Thus we have an exception from the general recommendation, the first time after the lead paragraph one of our offerings is mentioned, the word can be linked inside the paragraph. It is important to use this exception with moderation and only link to offerings which fit in the context of the page you're working on.
+      There is however a conflict between accessibility and SEO, as search engines prefer links in text blocks. Thus we have an exception from the general recommendation, the first time one of our offerings is mentioned after the lead paragraph, the word can be linked inside the paragraph. It is important to use this exception with moderation and only link to offerings which fit in the context of the page you're working on.
 
 
       The image below shows our standard way of using links to the left and the exception to the right.
 
 
-      <figure class="Image Image__border"><img src="/img/paragraph-links.png" srcset="/img/paragraph-links.png 2x" alt="An exception from the rule"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/paragraph-links.png" srcset="/img/paragraph-links.png 2x" alt="An exception from the rule"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ## To consider
@@ -41,8 +41,6 @@ tabs:
       * Don't use CAPS for anything except first letters of sentences and names.
 
       * Do not use bold to highlight words, find ways of getting your point across which are more accessible.
-
-
 
 
       ## Other material
