@@ -1,15 +1,12 @@
 ---
 template: ComponentPage
-category: System Display
 title: Spinner
-description: >-
-  The spinner is used to show that the system is loading/fetching data and that
-  the response isn't instantaneous.
+intro: The spinner is used to show that the system is loading/fetching data and
+  that the response isn't instantaneous.
+description: The spinner is used to show that the system is loading/fetching
+  data and that the response isn't instantaneous.
 previewImage: /img/alert.svg
-intro: >-
-  The spinner is used to show that the system is loading/fetching data and that
-  the response isn't instantaneous.
-backgroundColor: '#fff'
+category: System Display
 componentsNavigation:
   - name: Default
   - name: Red
@@ -18,65 +15,51 @@ tabs:
       ## How to use
 
 
-      Use the spinner when you expect that the user will have to wait for all
-      data to be loaded or the server to respond. The spinner is the option to
-      be used when this situation happens in the main page content. Please look
-      at button with spinner ([primary](/components/web/button-and-links/buttons#primary-buttons) /
-      [secondary](/components/web/button-and-links/buttons#secondary-buttons)) if you want a loading
-      state upon the user submitting data or [panel with lazy
-      load](../page-content/panel#modifiers) if the data being loaded is in a
-      panel. 
+      Use the spinner when you expect that the user will have to wait for all data to be loaded or the server to respond. The spinner is the option to be used when this situation happens in the main page content. Other cases of loading states are:
 
 
-      ### Versions
+      * Button with spinner ([primary](/components/web/button-and-links/buttons#primary-buttons) / [secondary](/components/web/button-and-links/buttons#secondary-buttons)) if you want a loading state upon the user submitting data 
+
+      * [Panel with lazy load](../page-content/panel#modifiers) if the data being loaded is in a panel
 
 
-      The main version of the spinner consists of a circle alternating between
-      our blue and red colours on a white background. You should strive towards
-      using this version of the spinner, but be aware that it requires a white
-      background to look good (for code reasons).
+      ### Variations
 
 
-      For other backgrounds than white we have a version with the red colour and
-      negative space completing the circle. This version is however rarely used
-      as a stand-alone (but it forms the basis for spinner in a button).
+      The main variation of the spinner consists of a circle alternating between our blue and red colours on a white background. You should strive towards using this version of the spinner, but be aware that it requires a white background to look good (for code reasons).
+
+
+      For other backgrounds than white we have a version with the red colour and negative space completing the circle. This version is however rarely used as a stand-alone (but it forms the basis for the spinner inside a button).
 
 
       ### Modifiers
 
 
-      Both versions of the spinner come in three sizes; default, small and extra
-      small. As the naming suggests, default is the standard and the other two
-      should be used only if the default is too large for your context.
+      Both versions of the spinner come in three sizes; default, small and extra small. As the naming suggests, default is the standard and the other two should be used only if the default is too large for your context.
 
 
       ## Please note
 
 
-      * The spinner is the loader to be used in a main field, and there are
-      loader versions for buttons and panels.
+      * The spinner is the loading state to be used in a main field, and there are separate loading state for buttons and panels.
     name: Design
   - content: >-
       ## How to use
 
 
-      To use the spinner, add a wrapper div where you wish to place the spinner
-      and add the relevant class from the choices below to the wrapper. Then,
-      place the svg code from the examples below inside the wrapper.
+      To use the spinner, add a wrapper div where you wish to place the spinner and add the relevant class from the choices below to the wrapper. Then, place the svg code from the examples below inside the wrapper.
 
 
       ### Versions
 
 
-      There is two versions of of our spinner you can use. Both comes with the
-      same modifiers.
+      There is two versions of of our spinner you can use. Both comes with the same modifiers.
 
 
       #### Default
 
 
-      This is the "default" look of the spinner, and can be easily created by
-      using the class `.lf-spinner` on the wrapping div.
+      This is the "default" look of the spinner, and can be easily created by using the class `.lf-spinner` on the wrapping div.
 
 
       ```
@@ -105,8 +88,7 @@ tabs:
       #### Red
 
 
-      This is the alternative look of the spinner, and can be easily created by
-      using the class`.lf-spinner-neg`on the wrapping div.
+      This is the alternative look of the spinner, and can be easily created by using the class`.lf-spinner-neg`on the wrapping div.
 
 
       ```
@@ -133,16 +115,10 @@ tabs:
       ## Notes
 
 
-      IE11 and below is unable to animate svgs with css, which is unfortunatley
-      exactly what is going on behind the hull of our Spinner. Our fallback here
-      is to draw out the svg and simply only rotate it, which works well. The
-      biggest issue is the two white divider lines inside the default spinner,
-      which can not be correctly placed in IE... without javascript.
+      IE11 and below is unable to animate svgs with css, which is unfortunatley exactly what is going on behind the hull of our Spinner. Our fallback here is to draw out the svg and simply only rotate it, which works well. The biggest issue is the two white divider lines inside the default spinner, which can not be correctly placed in IE... without javascript.
 
 
-      If you want to ensure a good fallback for all of your users, a script like
-      the one below which detects IE and then adjusts the x2 and y2 attributes
-      on the element is required.
+      If you want to ensure a good fallback for all of your users, a script like the one below which detects IE and then adjusts the x2 and y2 attributes on the element is required.
 
 
       ```
@@ -167,4 +143,5 @@ tabs:
 
       ```
     name: Code
+backgroundColor: "#fff"
 ---
