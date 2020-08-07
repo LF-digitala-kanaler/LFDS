@@ -1,43 +1,40 @@
 ---
 template: ComponentPage
 title: Alert
-intro: Alerts are used to provide (contextual) messages for typical user actions
+intro: Alerts are used to provide contextual messages for typical user actions
   and for important communication from Länsförsäkringar of a non-commercial
   nature.
-description: Alerts are used to provide (contextual) messages for typical user
+description: Alerts are used to provide contextual messages for typical user
   actions and for important communication from Länsförsäkringar of a
   non-commercial nature.
 previewImage: /img/alert.svg
 category: System Display
 componentsNavigation:
-  - name: Danger
   - name: Info
-  - name: Success
   - name: Warning
+  - name: Danger
+  - name: Success
 tabs:
   - content: >-
       ## How to use
 
 
-      All alerts are contextual system messages for typical user actions and notifications. An inline-heading can be set in the beginning of alerts to give the user a heads-up of it’s content. The heading should always be separated from the content with some form of punctation (i.e. .,!?- ). Never use line breaks inside the alerts.
+      All alerts are contextual and temporary system messages for typical user actions and notifications. An inline-heading can be set in the beginning of alerts to give a brief idea of the contents. The heading should always be separated from the content with some form of punctation (i.e. .,!?- ). Never use line breaks inside the alerts.
 
 
-      The alert should be shown as local as possible, without having to be repeated. That is, don’t display an alert on top of a page if only parts are affected but do not put is so far down that the user gets several alerts for the same error. Please refer to examples in use for visual examples.
+      The alert should be shown as locally as possible, without having to be repeated. That is, don’t display an alert on top of a page if only parts of the page's content is affected but do not put it so far down that the user gets several alerts for the same error. 
 
 
-      Showing notifications to the user is great, but avoid having the user experience several alert messages at once. If there is something wrong, the user should receive one warning message detailing this, not once for each affected container/function/ table/etc.
+      ### Four main variations
 
 
-      ### Four main versions
-
-
-      There are four variants of the alert: info, success, warning and danger. Make sure to use the appropriate style to get your message across.
+      There are four variations of the alert: info, success, warning and danger. Make sure to use the appropriate style to get your message across.
 
 
       #### Info
 
 
-      The info alert is the most commonly used one, simply delivering a message with information that is relative to the user on its current view. 
+      The info alert is the most commonly used one, simply delivering a message with information that is relevant to the user in the current view. 
 
 
       #### Warning
@@ -55,13 +52,13 @@ tabs:
       #### Success
 
 
-      The success alert is very rarely used. Some use-cases are known, where a message to the user displaying that something has been completed successfully has been seen as useful. Confirmation on changes to settings or updated information can see a success alert appearing in order to tell the user that the changes were successful upon clicking a confirm button but staying on the same page.
+      Confirmation on changes to settings or updated information can see a success alert appearing in order to tell the user that the changes were successful upon clicking a confirm button but staying on the same page. It is however very rarely used in the public web.
 
 
-      ### Modifiers
+      ### Modifiers[](https://lf-digitala-kanaler.github.io/components/web/system-display/alert#modifiers)
 
 
-      There are several modifiers available for the alerts, with corresponding styling for all four all versions.
+      There are several modifiers available for the alerts, with corresponding styling for all four versions.
 
 
       #### Alert with close-x
@@ -73,7 +70,7 @@ tabs:
       #### Alert with button
 
 
-      If you need to put a button inside the alert, there is a special version of the [secondary buttons](/components/web/button-and-links/buttons#secondary-buttons) for this. Use the outlined button in the same color as your alert. The button should be placed on the right hand side of the alert. 
+      If you need to put a button inside the alert, there is a special version of the [secondary buttons](/components/web/button-and-links/buttons#secondary-buttons) for this. Use the outlined button in the same colour as your alert. The button should be placed on the right hand side of the alert. 
 
 
       Only use the button for confirmation-message like "I understand" or "Okey", with a closing of the alert as a result. If you want the user to go somewhere else, add a link inside the alert (following recommendations for a [link in a list item](../text/lists), with the link at the end of the message).
@@ -88,11 +85,17 @@ tabs:
       ## Please consider
 
 
-      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut ](/components/web/button-and-links/shortcut)(monocolor background and arrow) 
+      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut ](/components/web/button-and-links/shortcut#alerting-glasspinne)(monocolor background and arrow with commercial content) 
 
       * If you want to use a link create a new page and link to it from the alert if you can’t get all your information across on one line as the text should be kept short.
 
       * The close component should never be used together with a button inside an alert. The button replaces the cross as it has the same functionality (even if the user gets redirected).
+
+
+      ## Examples
+
+
+      Want to see examples? Due to their temporary nature we can't provide links to live examples. The best way to see examples is to go to the doc site for Mina Sidor, and on the landing page click "dependencies" in the page (not in the top bar). There you can choose to generate an error message, which will be shown further down on the dependencies page. Or, you're lucky and lansforsakringar.se has an alert about corona or scams open.
 
 
       ## Other material
