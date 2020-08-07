@@ -12,7 +12,21 @@ tabs:
       ## How to use
 
 
-      Modals are used mainly in document flows where the user needs additional information, but you don't want to break or exit the flow to mediate this information. Typical examples include "Läs mer"-buttons containing more details on a specific function/choice that is seen as relevant, but secondary, to the user in order to make this choice. An example use for this would be to display a visual comparison between different alternatives, for example what's included in different alternatives of an insurance.
+      Modals are used in two ways at Länsförsäkringar:
+
+
+      * As a form of read more
+
+      * When an identification/signing is needed as a secondary action as part of a flow
+
+
+      ### As a form of read more
+
+
+      Modals are one of our recommended ways of designing a "[read more](./patterns/general-patterns/read-more)"-functionality.
+
+
+      Modals are used mainly in flows where the user needs additional information, but you don't want to break or exit the flow to give this information. Typical examples include "Läs mer"-buttons containing more details on a specific function/choice that is seen as relevant, but secondary, to the user in order to make this choice. An example use for this would be to display a visual comparison between different alternatives, for example what's included in different alternatives of an insurance.
 
 
       Modals can also work in a more functional-oriented way: To sign and apply a flow with the help of BankID uses a Modal (instead of taking up a separate page in a form, hence not worrying the user that the information they have applied so far isn't lost); the "Tyck till" dialogue box which wants to prompt the user to send in information without the perceived hassle of having to leave the current page the user is standing on; etc.
@@ -133,5 +147,5 @@ tabs:
       Be sure to add `role="dialog"` and `aria-labelledby="..."`, referencing the modal title, to `.modal` , and `role="document"` to the `.modal-dialog` itself. Additionally, you may give a description of your modal dialog with `aria-describedby` on `.modal`
     name: Code
 backgroundColor: "#fff"
-verticalResize: 'yes'
+verticalResize: yes
 ---
