@@ -23,7 +23,7 @@ tabs:
       No matter how the popover is triggered it allows for the user to move the cursor over it and interact with the popover without the popover closing. This means that links to even further information can be placed in the popover or that they user can copy text if the wish to do so.
 
 
-      <div class="Callout"><strong class="Callout__title">Never use the popover-tooltip on a label!  </strong><p class="Callout__text">A popover-tooltip is used on inline text to describe words in the flow of a document without breaking said flow. If you wish to describe words used in label you could eitherPut the word in the input field description and use the popover-tooltip on it thereUse a separate "Läs mer" button in proximity to the input field and move the information there.</p></div>
+      <div class="Callout"><strong class="Callout__title">Never use the popover-tooltip on a label!  </strong><p class="Callout__text">A popover-tooltip is used on inline text to describe words in the flow of a document without breaking said flow. If you wish to describe words used in label you could either put the word in the input field description and use the popover-tooltip on it there or use a separate "Läs mer" button in proximity to the input field and move the information there.</p></div>
 
 
       ## Vision
