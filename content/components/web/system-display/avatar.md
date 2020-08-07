@@ -20,8 +20,6 @@ tabs:
 
       * Avatars are currently only in use in secure messages.
 
-      * A similar function are used as shortcuts in the app for the startpage to come.
-
 
       ## Other material
 
@@ -69,7 +67,6 @@ tabs:
       <div class="avatar avatar-blue avatar-inline" data-initials="JD">Jane Doe</div>
 
       ```
-
     name: Code
 backgroundColor: "#fff"
 ---
