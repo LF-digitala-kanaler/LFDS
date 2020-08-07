@@ -151,5 +151,5 @@ tabs:
       Be sure to add `role="dialog"` and `aria-labelledby="..."`, referencing the modal title, to `.modal` , and `role="document"` to the `.modal-dialog` itself. Additionally, you may give a description of your modal dialog with `aria-describedby` on `.modal`
     name: Code
 backgroundColor: "#fff"
-verticalResize: true
+verticalResize: yes
 ---
