@@ -21,10 +21,10 @@ tabs:
       ## Variations
 
 
-      The lead paragraphs in lansforsakringar.se and Mina Sidor are somewhat different, both in how they are used and in font size. Use the one applicable one for which platform you are designing for.
+      The lead paragraphs in lansforsakringar.se and Mina Sidor are somewhat different, both in how they are used and in font size. Use the one applicable one for the platform you are designing for.
 
 
-      ### lansforsakringar.se
+      ### Ingress (lansforsakringar.se)
 
 
       In product pages (like [Villaförsäkring](https://www.lansforsakringar.se/privat/forsakring/hemforsakring/villa/)), try to keep the lead paragraph to two or three sentences and follow the sentences by presenting the USPs in a short format. 
@@ -38,7 +38,7 @@ tabs:
       *Use the text style called "Ingress" in the Sketch library when designing for lansforsakringar.se.*
 
 
-      ### Mina sidor
+      ### Pay-off (Mina sidor) 
 
 
       The lead paragraph in Mina Sidor has been used in more diverse ways - preferably it should highlight some details about what is presented on the page. It is more closely linked to the heading than its lansforsakringar.se sibling and also has a smaller font size. The lead paragraph shouldn't span more than two rows on desktop - keeping the text on one row is preferred.
