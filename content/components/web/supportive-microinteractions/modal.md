@@ -12,6 +12,12 @@ tabs:
       ## How to use
 
 
+      A modal takes over the view and pops up a box with content on top of the normal page. The rest of the page becomes unavailable until the modal is closed, and this is shown by adding an a blur outside the modal-content. A modal is not intended to take up the full width and height of a page, even less so forcing the user to scroll to read its entirety. In that case, a separate page might be a better choice. 
+
+
+      Modals can be closed by pressing outside the modal (on the shadowy background), using the X in top right corner or by pressing ESC on the keyboard.
+
+
       Modals are used in two ways at Länsförsäkringar:
 
 
@@ -23,19 +29,16 @@ tabs:
       ### As a form of read more
 
 
-      Modals are one of our recommended ways of designing a "[read more](./patterns/general-patterns/read-more)"-functionality.
+      Modals are one of our recommended ways of designing a "[read more](./patterns/general-patterns/read-more)"-functionality. When used in a read more-manner, modals provides a focused view on the additional information with an easy way back to the main flow. It should be used when you expect that some user types will want that information but not all.
 
 
-      Modals are used mainly in flows where the user needs additional information, but you don't want to break or exit the flow to give this information. Typical examples include "Läs mer"-buttons containing more details on a specific function/choice that is seen as relevant, but secondary, to the user in order to make this choice. An example use for this would be to display a visual comparison between different alternatives, for example what's included in different alternatives of an insurance.
+      A typical use case of such functionality is "Läs mer"-buttons containing more details on a specific function/choice that is seen as relevant, but secondary, to the user in order to make this choice. An example use for this would be to display a visual comparison between different alternatives, for example what's included in different alternatives of an insurance.
 
 
-      Modals can also work in a more functional-oriented way: To sign and apply a flow with the help of BankID uses a Modal (instead of taking up a separate page in a form, hence not worrying the user that the information they have applied so far isn't lost); the "Tyck till" dialogue box which wants to prompt the user to send in information without the perceived hassle of having to leave the current page the user is standing on; etc.
+      ### Identification/signing as part of a flow
 
 
-      A modal is not intended to take up the full width and height of a page, even less so forcing the user to scroll to read its entirety. In that case, a separate page might be a better choice. 
-
-
-      Modals can be closed by pressing outside the modal (on the shadowy background), using the X in top right corner or by pressing ESC on the keyboard.
+      As more and more of our services require identification as part of the flows, the modal has come into use as a way of handling the identification/signing (usually with BankID) in flows where the identification/signing is a secondary task to complete the main task (in comparison, just logging in is the main task and is handled in the main flow).
 
 
       ## Please consider
