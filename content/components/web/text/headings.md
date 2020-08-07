@@ -53,7 +53,7 @@ tabs:
       Display heading use the ["Länsförsäkringar blue" colour](/visual-identity/colors#primary-colors) (#00427a).
 
 
-      ##### Modifiers
+      ##### Specific modifiers
 
 
       Two types of modifiers exist for display headings; size and colour.
