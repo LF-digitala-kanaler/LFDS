@@ -47,7 +47,7 @@ tabs:
       ## How to use
 
 
-      To use the spinner, add a wrapper div where you wish to place the spinner and add the relevant class from the choices below to the wrapper. Then, place the svg code from the examples below inside the wrapper.
+      To use the spinner, add a wrapper div where you wish to place the spinner and add the relevant class from the choices below to the wrapper. Then, place the svg code from the examples below inside the wrapper. 
 
 
       ### Versions
