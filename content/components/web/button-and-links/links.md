@@ -1,11 +1,11 @@
 ---
 template: ComponentPage
 title: Links
-intro: Links are used when we want to guide the user away from the current page,
-  as we expect them to want information which isn't part of the current flow.
-description: Links are used when we want to guide the user away from the current
-  page, as we expect them to want information which isn't part of the current
-  flow.
+intro: Links are used when we want to guide the user to another location
+  (usually another page). The link text should clearly describe what the link
+  leads to.
+description: "Links are used when we want to guide the user to another location
+  (usually another page). "
 previewImage: /img/link-primary.svg
 category: Button and Links
 componentsNavigation:
