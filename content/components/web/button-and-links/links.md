@@ -37,13 +37,10 @@ tabs:
       <div class="Callout"><strong class="Callout__title">Link or button? </strong><p class="Callout__text">The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
 
 
-      The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.
-
-
       #### Regular links
 
 
-      Our regular link follows web standards closely, being blue with an underline. On hover it changes colour to a darker shade of blue. Depending on in which context it is used there are some aspects to consider.
+      Our regular link follows web standards closely, being blue with an underline. On hover it changes colour to a darker shade of blue. Depending on context, there are some aspects to consider:
 
 
       ##### Links in relation to text
@@ -65,7 +62,7 @@ tabs:
       If your link leads away from the context user is in, the link should be amended with an external link icon. This includes changing technical environment within Länsförsäkringar's world (like a link in Mina Sidor leading to lansforsakringar.se). The icon should come after the link text and links should open in a new tab/window (depending on the user's browser settings).
 
 
-      Please see external links in [lists with icons](../typography/lists#link-list) for an exception.
+      Please see external links in [lists with icons](../text/lists#link-list) for an exception.
 
 
       ##### Paired with a button
@@ -74,7 +71,7 @@ tabs:
       A common usage of the regular link is as a secondary option in a flow with multiple options. Depending on what the link does, it is either placed to the far left in height with the primary button (for "backwards"-functionality) or just prior the primary button (for "cancel"-functionality). The image below shows one of the rare cases where both options exist.
 
 
-      <figure class="Image Image__background"><img src="/img/links-and-primary-button.png" srcset="undefined 2x" alt="Regular links next to a primary button in a flow where both backwards and cancel-options exist."><figcaption><div class="Image__caption">Regular links next to a primary button in a flow where both backwards and cancel-options exist.</div></figcaption></figure>
+      <figure class="Image Image__background"><img src="/img/links-and-primary-button.png" srcset="/img/links-and-primary-button.png 2x" alt="Regular links next to a primary button in a flow where both backwards and cancel-options exist."><figcaption><div class="Image__caption">Regular links next to a primary button in a flow where both backwards and cancel-options exist.</div></figcaption></figure>
 
 
       ## Other material
