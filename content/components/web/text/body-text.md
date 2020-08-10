@@ -1,8 +1,8 @@
 ---
 template: ComponentPage
 title: Body text
-intro: The body text is the standard text style and the one which is used for
-  all 'normal' text, that is text which isn't a heading or lead paragraph.
+intro: "The body text is the standard text style and the one which is used for
+  all 'normal' text, that is text which isn't a heading or lead paragraph. "
 description: The body text is the standard text style and the one which is used
   for all 'normal' text.
 previewImage: /img/paragraph.svg
