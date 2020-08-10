@@ -1,17 +1,15 @@
 ---
 template: ComponentPage
-category: Data Visualization
 title: Bar charts
-description: Bar charts presents data in proportion to the values they
-  represent. You can compare either various data sources for the same time
-  period or the same data source over several different time spans. A typical
-  use case at Länsförsäkringar is to compare the development of a fund or stock
-  between various years.
+intro: Bar charts present data in proportion to its value. You can compare
+  either various data sources for the same time period or the same data source
+  over time. A typical use case at Länsförsäkringar is to compare the
+  development of a fund or stock between various years.
+description: "Bar charts present data in proportion to its value. You can
+  compare either various data sources for the same time period or the same data
+  source over time. "
 previewImage: /img/distribution-bar.svg
-intro: Bar charts presents data in proportion to the values they represent. You
-  can compare either various data sources for the same time period or the same
-  data source over several different time spans.
-backgroundColor: "#fff"
+category: Data Visualization
 tabs:
   - content: >-
       ## How to use
@@ -48,4 +46,5 @@ tabs:
 
       **Help in choosing type of chart:** <https://material.io/design/communication/data-visualization.html#selecting-charts>
     name: Design
+backgroundColor: "#fff"
 ---
