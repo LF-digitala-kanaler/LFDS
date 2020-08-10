@@ -1,9 +1,11 @@
 ---
 template: ComponentPage
 title: Shortcuts
-intro: Shortcuts are used to draw the users attention to another page or
-  section. They are usually placed in the main view of a newly loaded page.
-description: Shortcuts are used to draw the users attention to another page or section.
+intro: Shortcuts are as a way of providing a quick and easy way to access
+  popular pages. They are usually placed in the main view of a newly loaded
+  page.
+description: Shortcuts are as a way of providing a quick and easy way to access
+  popular pages.
 previewImage: /img/shortcut.svg
 category: Button and Links
 componentsNavigation:
