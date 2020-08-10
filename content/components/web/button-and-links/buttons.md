@@ -56,7 +56,7 @@ tabs:
       On top of the [general modifiers](#modifiers) for buttons, the primary button has two distinct modifiers not available for the other types of buttons: two-rowed button and with BankID-icon. 
 
 
-      **The two-rowed button** is used in flows where the user buys/signs up for something (*köptjänster*). The two-rowed button is used to continue between pages. Both rows have text in them, with the first one being in a larger font. The first row signals what will happen ("Gå vidare", "Godkänn") and the second gives more detail ("Ange uppgifter", "Köp försäkring").
+      **The two-rowed button** is used in flows where the user buys/signs up for something (*köptjänster*). The two-rowed button is used to continue between pages. Both rows have text in them, with the first one being in a larger font. The first row signals what will happen ("Gå vidare", "Godkänn") and the second gives more detail ("Ange uppgifter", "Köp försäkring"); see under [copy](?copy#buttons-with-double-row) for more information.
 
 
       **With BankID-icon** is used as part of our [pattern for using BankID](/patterns/general-patterns/bank-id). The modifier adds a white BankID-icon to the left of the text in the button. Note that the pattern states that you also should add an explanatory text on why we need BankID next to the button.
@@ -65,7 +65,7 @@ tabs:
       #### Secondary buttons
 
 
-      Perhaps the secondary button would be better named as "standard button". This is the button to use when you want a button and it isn't primary. You may use how many secondary buttons as you wish in a view (in theory you can even combine them with a primary button, although this only has been applied in internal systems thus far).
+      Perhaps the secondary button would be better named as "standard button". This is the button to use when you want a button and it isn't primary. You may use how many secondary buttons as you wish in a view. It is rare, but acceptable, to see secondary buttons next to primary - a more common pattern is the use [links](links#paired-with-a-button) in cases with multiple actions next to each other.
 
 
       ##### Modifier for secondary buttons
@@ -80,7 +80,7 @@ tabs:
       To support the user in easily finding their way into Mina Sidor (and not having several primary buttons on a page) our log-in button has a unique colour (#007DB0) which is only used for logging in-purposes. The button is used for directing users to our log-in page as well as doing the actual logging in on the log-in page. It is also used for logging out from Mina Sidor.
 
 
-      The log-in button is always available in the top right corner of our public web pages, but can also be repeated in-page if relevant (one good example is "Återbäring" which has content on how to retrieve it on public pages, but the user has to do actions in Mina Sidor (which many insurance-customer don't visit). The copy should however always only be "Logga in" (or "Logga ut" if in a logged in-view).
+      The log-in button is always available in the top right corner of our public web pages, but can also be repeated in-page if relevant. The copy should however always only be "Logga in" (or "Logga ut" if in a logged in-view).
 
 
       <div class="Callout"><p class="Callout__text"><strong>Only for logging in/out! </strong>This button should never be used for any other purposes than signing in or out-purposes!</p></div>
@@ -118,13 +118,13 @@ tabs:
       #### With an arrow
 
 
-      If the user enters a new service (which normally renders a change in the visual framework) this is conveyed by using a version of our buttons with an arrow appended on the right side of the button and text of the button is aligned to the left.
+      If the user enters a new service/technical environment (which normally renders a change in the visual framework) this is conveyed by using a version of our buttons with an arrow appended on the right side of the button and text of the button is aligned to the left.
 
 
       #### With loading state
 
 
-      A modifier which we wish we didn't need to have. Add a loading state to your button if you expect that the user might have to wait for a response (like the next page) after clicking on the button. The loading state is our [spinner ](../system-display/spinner)adapted to buttons.
+      A modifier which we wish we there was no need to have. Add a loading state to your button if you expect that the user might have to wait for a response (like the next page) after clicking on the button. The loading state is our [spinner ](../system-display/spinner)adapted to buttons.
 
 
       ## Please consider
@@ -136,7 +136,7 @@ tabs:
       ## Design rationale
 
 
-      As the question of **disabled buttons** is one which regularly pops up, our design rationale from discouraging from the user of disabled buttons can be found below.
+      As the question of **disabled buttons** is one which regularly pops up, our design rationale from discouraging from the use of disabled buttons can be found below.
 
 
       In designing our general patterns for [form validation](/patterns/general-patterns/form-validation) and [required fields](/patterns/general-patterns/required-fields) we have been informed by academic research as well as our own user testing (we have even had a bachelor thesis looking at our error message handling!). What we found is that as disabled buttons can't give users feedback on what is missing for them to become enabled, it is from a user perspective much better to have buttons which are enabled and when clicked can give users feedback on what has to be corrected before they can progress in the flow. 
