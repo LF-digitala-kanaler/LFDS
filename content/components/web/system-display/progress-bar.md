@@ -4,8 +4,8 @@ title: Progress bar
 intro: The progress bar helps the user to understand how much of a flow has been
   completed if there is much to do in the flow. For shorter flows, pagination is
   preferred.
-description: The progress bar helps the user to understand how much of a flow
-  has been completed if there is much to do in the flow.
+description: "The progress bar helps the user to understand how much of a flow
+  has been completed if there is much to do in the flow. "
 previewImage: /img/proggress-bar.svg
 category: System Display
 tabs:
