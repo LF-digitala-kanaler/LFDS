@@ -2,7 +2,7 @@
 template: ComponentPage
 title: Headings
 intro: We have two types of headlines - normal headings and hero display headings.
-description: We have two types of headlines - normal headings and hero display headings.
+description: "We have two types of headlines - normal headings and hero display headings. "
 previewImage: /img/headings.svg
 category: Text
 tabs:
