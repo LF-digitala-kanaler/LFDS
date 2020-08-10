@@ -17,10 +17,10 @@ tabs:
       ## How to use
 
 
-      Shortcuts are used to highlight alternative actions from the current flow which we think are important for the user. They are either of a more alerting nature or navigational, and each design only corresponds to one of these two uses. For both use cases the shortcut takes the user into another flow than the one they came from. To highlight this all versions of shortcuts include a right-aligned forward pointing arrow.
+      Shortcuts are used to highlight alternative actions from the current flow which we think are important for the user. They are either of a more alerting nature or navigational, and each design only corresponds to one of these two uses. For both use cases the shortcut takes the user into another flow than the one they came from. 
 
 
-      Shortcuts are normally spanning the whole row, except for [multiple-lined shortcuts](#multiple-lined-shortcut) which may have two next to each other. They also feature a 2px shadow on the bottom to highlight their clickability.
+      Shortcuts are normally spanning the whole row, except for [multiple-lined shortcuts](#multiple-lined-shortcut) which may have two next to each other. They also feature a 2px shadow on the bottom to highlight that they can be clicked.
 
 
       ## Variations
@@ -39,10 +39,10 @@ tabs:
       #### Alerting (Glasspinne)
 
 
-      "Glasspinne" is the shortcut we use when we want to alert users to an action they need/are recommended to take (but probably isn't not why they arrived at the page). They use the same colors with the same meaning as regular [alerts](../system-display/alert), meaning that they are available in all four colours - however it is (almost) exclusively the blue neutral one which is in use. "Glasspinnar" are always just one row high, meaning the text should be kept short and snappy. The text is written in bold.
+      "Glasspinne" is the shortcut we use when we want to make users aware of an action they need/are recommended to take, but probably isn't not why they arrived at the page (in contrast, alerts are for when we want to broadcast something to the user but they do not need to take any action). "Glasspinnar" use the same colors with the same meaning as regular [alerts](../system-display/alert), meaning that they are available in all four colours - however it is (almost) exclusively the blue neutral one which is in use. "Glasspinnar" are always just one row high, meaning the text should be kept short and snappy. The text is written in bold.
 
 
-      The main usage of the "glasspinne" is on the landing page of Mina Sidor where we use it for things like asking the customer to fill out our their "kundkännedomsfrågor" (KYC, Know Your Customer) and providing relevant offers ("your car turns 3 years old, you might want to change type of insurance").
+      The main usage of the "glasspinne" is on the landing page of Mina Sidor where we use it for things like asking the customer to fill out our their "kundkännedomsfrågor" (KYC, Know Your Customer) and providing relevant offers ("your car turns 3 years old, you might want to change type of insurance"). 
 
 
       <div class="Callout"><strong class="Callout__title">Trivia </strong><p class="Callout__text">The name comes from the need for a name to describe them with and someone thinking they resembled ice cream sticks (which is what "glasspinne" means in Swedish).</p></div>
