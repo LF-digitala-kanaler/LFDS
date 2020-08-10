@@ -1,8 +1,11 @@
 ---
 template: ComponentPage
 title: Headings
-intro: We have two types of headlines - normal headings and hero display headings.
-description: "We have two types of headlines - normal headings and hero display headings. "
+intro: Headings are used to give the reader an instantaneous idea of the subject
+  of the following text block. We have two types of headlines - normal headings
+  and hero display headings.
+description: "Headings are used to give the reader an instantaneous idea of the
+  subject of the following text block. "
 previewImage: /img/headings.svg
 category: Text
 tabs:
