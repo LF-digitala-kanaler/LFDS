@@ -126,11 +126,11 @@ const Menu = ({currentDirectory}) => {
                 </AnimationContainer>
                 ) : (
                   
-                    <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
-                        <ul className={style.Menu__list}>
-                          {renderMenuItems(navigationStructureSorted, location)}
-                        </ul>
-                    </nav>
+                  <nav className={cx(style.Menu, (isOpen ? style['Menu--isOpen'] : '' ))}>
+                      <ul className={style.Menu__list}>
+                        {renderMenuItems(navigationStructureSorted, location)}
+                      </ul>
+                  </nav>
                   
                 ) 
                 } 
