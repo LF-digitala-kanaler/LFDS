@@ -18,13 +18,31 @@ contentTop: >-
   ## Våra riktlinjer för animering
 
 
-  ### Viktigaste princip
+  ### Övergripande princip
 
 
   “Hjälp mig göra det jag kom för att göra”
 
 
   Vår grafik kan göras levande genom små mjuka rörelser och effekter. Vi ritar fram objekt eller använder oss av "Ruta 1" för att ta fram objekt man kan kan tona fram objekt, men ska då ske snabbt men mjukt. Känslan kan gärna vara lekfull och lättsam men medtydligt funktionellt fokus. Känslan får aldrig bli överdriven eller rörig.
+
+
+  Länsförsäkringars animerings principer:
+
+
+  1. Använd endast en animering i taget
+
+  2. Ska animeringen stå ut eller finnas i bakgrunden
+
+  3. Rita fram eller använd ruta 1
+
+  4. Samma linjetjocklek på alla element
+
+  5. Naturliga organiska rörelser
+
+  6. Stödja huvudsyftet på sidan
+
+
 
 
   #### Hur ska vi upplevas?
@@ -77,50 +95,33 @@ contentTop: >-
   <div class="Callout"><strong class="Callout__title">Kom ihåg </strong><p class="Callout__text">Att pausa animeringen så det är lugnt ett tag utan animering. Om inte animeringen är så minimal så det känns ok (som ett moln som sakta glider förbi - ska inte kännas stressande-det ska inte störa upplevelsen.)</p></div>
 
 
-  ## När vill vi använda oss av animerad grafik?
+  #### När vill vi använda oss av animerad grafik?
 
 
-  Success! Vi firar händelser i kundens resa.
+  * Success! Vi firar händelser i kundens resa.\
+    Idag används det bara vid genomförd betalning/överföring.
+  * Rörelse för att visa vad som är viktigt?
 
-
-  Idag används det bara vid genomförd betalning/överföring.
-
-
-  Rörelse för att visa vad som är viktigt?
-
-
-  Mikroanimeringar på ikoner vi vill ska stå ut? (Betala/överföra) Nytt meddelande. Ett state som förändrats.
-
+  * Mikroanimeringar på ikoner vi vill ska stå ut? \
+    Som (Betala/överföra) Nytt meddelande. Ett state som förändrats.
 
   Piktogram/ikoner som animeras kan användas för att introducera en sektion, ett område eller en tjänst, där symbolen är av extra stor betydelse. Animerade piktogram bör användas på platser där de tillför något extra (onboarding t ex).
 
 
-  Vi avråder dock från att ”strössla” med dessa animationer eller att använda flera animerade piktogram/ikoner parallellt, eftersom att det kan leda till att de upplevs som röriga och/eller otydliga för användaren.
+  Vi avråder dock från att ”strössla” med dessa animationer eller att använda flera animerade piktogram/ikoner parallellt, eftersom att det kan leda till att de upplevs som röriga och/eller otydliga för användaren
 
 
-  Länsförsäkringars animerings principer
 
 
-  1. Använd endast en animering i taget
-
-  2. Ska animeringen stå ut
-
-  3.
-
-  4. Använd
-
-
-  Färdiga animeringar
+  **Färdiga animeringar att använda**
 
 
   1. Ruta 1 för att rita ut meny
 
   2. Animera stäng kryss
 
-  3.
 
-
-  Olika animeringssätt
+  **Olika animeringssätt**
 
 
   * Paralax
@@ -134,7 +135,9 @@ contentTop: >-
   * Success - räkning betalad/försäkring registrerad
 
 
-  Undvik
+
+
+  **Undvik**
 
 
   * Paralax skroll animering som stör i texter. Använd bakgrundsplatta på texten.
@@ -143,10 +146,12 @@ contentTop: >-
 
   * Saker som hoppar och rör på sig
 
-  * aldrig stannar.
+  * Animeringar som aldrig stannar
 
 
-  ## I teamet
+
+
+  ## I ditt team
 
 
   Se till att få in animering i en del av processen. Tänk i storyborad tillsammans. Rita upp hur ni tänker att delarna ni jobbar med ska komma in på sidan hur saker ska fällas ut och vad som händer vid olika interaktioner.
@@ -167,13 +172,18 @@ contentTop: >-
   Dokumentera animerings beslut
 
 
-  Hårt mjukkt snabbt o sakta
+  Fundera på hårt, mjukt, snabbt och sakta - vad vill vi säga med animationen och vad är huvudsyftet på sidan.
 
 
-  ## 12 principer att följa
+  Ta stöd av de Disneys 12 animeringsprinciper
 
 
-  the principles are based on the work of Disney animators from the 1930s onwards, in their quest to produce more realistic animations. The main purpose of these principles was to produce an illusion that cartoon characters adhered to the basic laws of physics, but they also dealt with more abstract issues, such as emotional timing and character appeal.
+
+
+  #### Disneys 12 animeringsprinciper
+
+
+  The principles are based on the work of Disney animators from the 1930s onwards, in their quest to produce more realistic animations. The main purpose of these principles was to produce an illusion that cartoon characters adhered to the basic laws of physics, but they also dealt with more abstract issues, such as emotional timing and character appeal.
 
 
   The book has been referred to by some as the "Bible of animation",\[2] and some of its principles have been adopted by traditional studios. In 1999, The Illusion of Life was voted the number one "best animation book\[...] of all time" in an online poll done by Animation World Network.\[3] Though originally intended to apply to traditional, hand-drawn animation, the principles still have great relevance for today's more prevalent computer animation.
