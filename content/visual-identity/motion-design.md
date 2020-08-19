@@ -187,6 +187,31 @@ contentTop: >-
 
 
   The book has been referred to by some as the "Bible of animation",\[2] and some of its principles have been adopted by traditional studios. In 1999, The Illusion of Life was voted the number one "best animation book\[...] of all time" in an online poll done by Animation World Network.\[3] Though originally intended to apply to traditional, hand-drawn animation, the principles still have great relevance for today's more prevalent computer animation.
+
+
+  * Squash and stretch.
+
+  * Anticipation.
+
+  * Staging.
+
+  * Straight ahead action and pose to pose.
+
+  * Follow through and overlapping action.
+
+  * Slow in and slow out.
+
+  * Arc.
+
+  * Secondary action.
+
+  * Timing
+
+  * Exaggeration
+
+  * Solid Drawing
+
+  * Appeal
 background: bg-white
 wide: false
 lang: false
