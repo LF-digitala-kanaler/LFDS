@@ -43,8 +43,6 @@ contentTop: >-
   6. Stödja huvudsyftet på sidan
 
 
-
-
   #### Hur ska vi upplevas?
 
 
@@ -92,6 +90,8 @@ contentTop: >-
   Använd animeringsteknik ruta 1 som finns i röda rummet för att inte fada fram då detta inte alltid passar i vårt manér.
 
 
+
+
   <div class="Callout"><strong class="Callout__title">Kom ihåg </strong><p class="Callout__text">Att pausa animeringen så det är lugnt ett tag utan animering. Om inte animeringen är så minimal så det känns ok (som ett moln som sakta glider förbi - ska inte kännas stressande-det ska inte störa upplevelsen.)</p></div>
 
 
@@ -109,8 +109,6 @@ contentTop: >-
 
 
   Vi avråder dock från att ”strössla” med dessa animationer eller att använda flera animerade piktogram/ikoner parallellt, eftersom att det kan leda till att de upplevs som röriga och/eller otydliga för användaren
-
-
 
 
   **Färdiga animeringar att använda**
@@ -135,8 +133,6 @@ contentTop: >-
   * Success - räkning betalad/försäkring registrerad
 
 
-
-
   **Undvik**
 
 
@@ -147,8 +143,6 @@ contentTop: >-
   * Saker som hoppar och rör på sig
 
   * Animeringar som aldrig stannar
-
-
 
 
   ## I ditt team
@@ -176,8 +170,6 @@ contentTop: >-
 
 
   Ta stöd av de Disneys 12 animeringsprinciper
-
-
 
 
   #### Disneys 12 animeringsprinciper
