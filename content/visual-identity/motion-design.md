@@ -210,8 +210,6 @@ background: bg-white
 wide: false
 lang: false
 ---
-
-
 Här kommer tankar och riktning i hur vi tänker att vi tillsammans ska sträva mot samma känsla när vi animerar. För att vi ska göra det har vi tagit fram några riktlinjer att ta fasta på.
 
 ## Våra riktlinjer för animering
@@ -260,13 +258,7 @@ Animera delar av illustrationen. Vår grafik kan göras levande genom små mjuka
 
 Använd animeringsteknik ruta 1 som finns i röda rummet för att inte fada fram då detta inte alltid passar i vårt manér.
 
-CALLOUT
-
-TITLE
-
-TEXT
-
-Rich TextMarkdown
+<div class="Callout"><strong class="Callout__title">Kom ihåg </strong><p class="Callout__text">Pausa animeringen så det är lugnt ett tag utan animering. Om inte animeringen är  minimal då kan det vara ok (som ett moln som sakta glider förbi - ska inte kännas stressande-det ska inte störa upplevelsen.)</p></div>
 
 Att pausa animeringen så det är lugnt ett tag utan animering. Om inte animeringen är så minimal så det känns ok (som ett moln som sakta glider förbi - ska inte kännas stressande-det ska inte störa upplevelsen.)
 
