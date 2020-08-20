@@ -95,6 +95,8 @@ contentTop: >-
   <div class="Callout"><strong class="Callout__title">Kom ihåg </strong><p class="Callout__text">Att pausa animeringen så det är lugnt ett tag utan animering. Om inte animeringen är så minimal så det känns ok (som ett moln som sakta glider förbi - ska inte kännas stressande-det ska inte störa upplevelsen.)</p></div>
 
 
+
+
   #### När vill vi använda oss av animerad grafik?
 
 
