@@ -184,19 +184,19 @@ Skriv gärna om i löpande text. Till exempel *Försäkringen ska betalas …, F
 
 * ###### förmånstagare
 
-NJA
+**NJA**
 
 Den som försäkringsbeloppet betalas ut till vid den försäkrades dödsfall. Förklara alltid begreppet.
 
-###### försäkrad\
+* ###### försäkrad
 
-NJA
+**NJA**
 
 Den person försäkringen gäller för. Jämför försäkringstagare. I kundhandlingar tilltalar vi kunden med du så långt det är möjligt och undviker ordet försäkrad.
 
-###### försäkringsgivare\
+* ###### försäkringsgivare
 
-NJA
+**NJA**
 
 Det bolag som ingått avtalet med försäkringstagaren. Undvik begreppet om det inte måste vara med.
 
