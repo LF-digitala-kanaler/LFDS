@@ -182,259 +182,259 @@ Skriv istället *finns* eller *vara.*
 
 Skriv gärna om i löpande text. Till exempel *Försäkringen ska betalas …, Försäkringen slutar gälla …*
 
-* ###### förmånstagare
+* ###### **förmånstagare**
 
 **NJA**
 
 Den som försäkringsbeloppet betalas ut till vid den försäkrades dödsfall. Förklara alltid begreppet.
 
-* ###### försäkrad
+* ###### **försäkrad**
 
 **NJA**
 
 Den person försäkringen gäller för. Jämför försäkringstagare. I kundhandlingar tilltalar vi kunden med du så långt det är möjligt och undviker ordet försäkrad.
 
-* ###### försäkringsgivare
+* ###### **försäkringsgivare**
 
 **NJA**
 
 Det bolag som ingått avtalet med försäkringstagaren. Undvik begreppet om det inte måste vara med.
 
-###### försäkringskapital\
+* ###### **försäkringskapital**
 
-NJA
+**NJA**
 
 Undvik att skriva försäkringskapital till kunder och skriv istället värdet på ditt sparande.
 
-###### försäkringspremie\
+* ###### **försäkringspremie**
 
-NJA
+**NJA**
 
 Se premie.
 
-###### försäkringssparande\
+* ###### **försäkringssparande**
 
-NEJ
+  **NEJ**
 
 Skriv istället sparande, pensionssparande.
 
-###### försäkringstagare\
+* ###### **försäkringstagare**
 
-NJA
+  **NJA**
 
 Den person som äger försäkringen. I kundhandlingar tilltalar vi kunden med du så långt det är möjligt och undviker ordet försäkringstagare.
 
-###### förälder, föräldrar\
+* ###### **förälder, föräldrar**
 
-JA
+  **JA**
 
 Vi använder begreppet *förälder* eller *föräldrar* oavsett kön. Vi skriver inte *mamma*och *pappa*.
 
-###### garanterad ränta\
+* ###### **garanterad ränta**
 
-JA
+  **JA**
 
 Den ränta som används för försäkringar med traditionell förvaltning.
 
-###### garanterat värde\
+* ###### **garanterat värde**
 
-JA
+  **JA**
 
 Försäkringar med traditionell förvaltning och Nya Världen-förvaltning har ett värde som kunden är garanterad att få när pengarna betalas ut. Där ingår inbetalda pengar och den garanterad ränta, med avdrag för skatt och avgifter.
 
-###### hemförsäkring\
+* ###### hemförsäkring
 
-JA
+  **JA**
 
 Hemförsäkringen består av fem delar; egendomsskydd, reseskydd, ansvarsskydd, rättsskydd och överfallsskydd.
 
-###### hypotekslån\
+* ###### **hypotekslån**
 
-NJA
+  ###### **NJA**
 
 I vardagligt tal säger vi bottenlån. Det är den del av ett bostadslån där bostaden fungerar som pant.
 
-###### ingående försäkringskapital\
+* ###### **ingående försäkringskapital**
 
-NEJ
+  **NEJ**
 
 Skriv istället *försäkringens värde vid periodens början.*
 
-###### inkomma med\
+* ###### **inkomma med**
 
-NEJ
+  **NEJ**
 
 Skriv istället *lämna in* eller *skicka in*.
 
-###### inlåningsränta\
+* ###### **inlåningsränta**
 
-NJA
+  **NJA**
 
 Använd helst ordet *ränta*. Det kan användas när du måste särskilja in- och utlåningsränta.
 
-###### internet\
+* ###### **internet**
 
-JA
+  ###### **JA**
 
 Skrivs med litet i inne i meningar.
 
-###### internetbank\
+* ###### internetbank
 
-JA
+  **JA**
 
 Våra banktjänster på *Mina sidor*. Skrivs med litet i inne i meningar.
 
-###### Internetbutiken\
+* ###### **Internetbutiken**
 
-NEJ
-
-Begrepp som vi inte ska använda. Heter idag *Mina sidor*.
-
-###### internettjänsten\
-
-NEJ
+  **NEJ**
 
 Begrepp som vi inte ska använda. Heter idag *Mina sidor*.
 
-###### Iphone och Android\
+* ###### **internettjänsten**
 
-JA
+  **NEJ**
 
-Skrivs med stor bokstav i början. Vi skriver exempelvis inte*iPhone*.
+Begrepp som vi inte ska använda. Heter idag *Mina sidor*.
 
-###### investera\
+* ###### **Iphone och Android**
 
-NJA
+  **JA**
+
+Skrivs med stor bokstav i början. Vi skriver exempelvis inte *iPhone*.
+
+* ###### **investera**
+
+  **NJA**
 
 Undvik att använda begreppet till privatkunder. Skriv hellre *spara* eller *placera pengar*.
 
-###### karens, karenstid, rörlig karens\
+* ###### **karens, karenstid, rörlig karens**
 
-NJA
+  **NJA**
 
 Skriv alltid en förklaring, till exempel *Karenstiden för försäkringen är tre månader, vilket innebär att du får ersättning först efter tre månader av din sjukskrivning.*
 
-###### kaskoförsäkring\
+* ###### **kaskoförsäkring**
 
-NJA
+  ###### **NJA**
 
 Undvik helst att använda begreppet kasko. Använd *halvförsäkring* om det är möjligt eller beskriv vilka delar som ingår.
 
-###### kassadag\
+* ###### **kassadag**
 
-JA
+  **JA**
 
 Den dag insatta pengar finns tillgängliga på kontot.
 
-###### konsolidering\
+###### **konsolidering**
 
-NJA
+###### **NJA**
 
 Undvik att använda begreppet i kommunikationen med våra kunder.
 
-###### konsortiet\
+* ###### **konsortie**
 
-JA
+  ###### **JA**
 
 Skrivs med litet k inne i meningar. Formellt heter det *länsförsäkringsbolagens ägarkonsortium.*
 
-###### kund\
+* ###### **kund**
 
-JA
+**JA**
 
 Huvudprincipen är att vi skriver du när vi skriver till våra kunder. Vi kallar alltså inte kunden för kunden i direkt tilltal. När vi i andra sammanhang beskriver kunderna utan att tala direkt till dem använder vi inte ordet i obestämd form singularis.
 
 Skriv inte *Vi har bra erbjudanden till kund.*
 
-Skriv istället *Vi har bra erbjudanden till våra kunder*eller *Vi har bra kunderbjudanden.* Eller ännu hellre: *Vi har bra erbjudanden till dig.*
+Skriv istället *Vi har bra erbjudanden till våra kunder* eller *Vi har bra kunderbjudanden.* Eller ännu hellre: *Vi har bra erbjudanden till dig.*
 
-###### kontohavare\
+* ###### **kontohavare**
 
-NJA
+  **NJA**
 
 I kundhandlingar tilltalar vi kunden med du så långt det är möjligt och undviker ordet kontohavare.
 
-###### LFAB\
+* ###### **LFAB**
 
-NJA
+  ###### **NJA**
 
 Internt begrepp som endast används när vi pratar inom länsförsäkringsgruppen. När målgruppen är kunder eller andra intressenter utanför gruppen skriver vi alltid Länsförsäkringar AB.
 
-###### liv\
+* ###### **liv**
 
-NEJ
+  **NEJ**
 
 Ska alltid benämnas livförsäkring eller liv- och pensionsförsäkring.
 
-###### länsbolag\
+* ###### **länsbolag**
 
-NEJ
+  ###### **NEJ**
 
 Skriv aldrig. Skriv istället *länsförsäkringsbolag* med litet l.
 
-###### Länsförsäkringar\
+* ###### **Länsförsäkringar**
 
-JA
+  **JA**
 
 Skrivs alltid med stort L. Använd inte förkortningen LF.
 
-###### länsförsäkringsbolag, länsförsäkringsbolagen\
+* ###### **länsförsäkringsbolag, länsförsäkringsbolagen**
 
-JA
+  **JA**
 
 Skrivs med litet l inne i meningar. Skriv aldrig länsbolag, utan alltid *länsförsäkringsbolag.*
 
-###### länsförsäkringsgruppen\
+* ###### **länsförsäkringsgruppen**
 
-JA
+  ###### **JA**
 
 Skrivs med litet l.
 
-###### löptid\
+* ###### **löptid**
 
-JA
+  ###### **JA**
 
 Den tid ett lån gäller med till exempel en viss räntesats.
 
-###### lösöre\
+* ###### **lösöre**
 
-NJA
+  ###### **NJA**
 
 Undvik helst att använda begreppet. Skriv till exempel vilka saker det gäller.
 
-###### make\
+* ###### **make**
 
-JA
+  ###### **JA**
 
 Vi använder make både för män och kvinnor. I plural skriver vi makar. Begreppet maka ska vi inte använda.
 
-###### mejl\
+* ###### **mejl**
 
-JA
+  ###### **JA**
 
 Vi har svensk stavning och skriver inte mail.
 
-###### mms\
+* ###### **mms**
 
-JA
+  ###### **JA**
 
 Skriv alltid med med små bokstäver.
 
-###### messa\
+* ###### **messa**
 
-NEJ
+  ###### **NEJ**
 
 Skriv alltid *skicka sms* eller *skicka mms*.
 
-###### Mobilt BankID\
+* ###### **Mobilt BankID**
 
-JA
+  ###### **JA**
 
 En mobil e-legitimation och ett säkert sätt att legitimera dig på internet. Se även *BankID*.
 
-###### mobiltjänst\
+* ###### **mobiltjänst**
 
-JA
+  **JA**
 
 Internettjänst anpassad för mobiltelefoner, exempel är Iphone-app eller Android-app.
 
