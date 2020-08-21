@@ -163,6 +163,7 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         options: 
           - { label: "General Patterns", value: "General Patterns" }
+          - { label: "Form Patterns", value: "Form Patterns" }
           - { label: "Template Patterns", value: "Template Patterns" }
           - { label: "Lansforsakringar se", value: "Lansforsakringar se" }
           - { label: "Mina sidor", value: "Mina sidor" }
