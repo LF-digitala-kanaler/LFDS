@@ -146,6 +146,10 @@ a {
   text-underline-position: under;
 }
 
+a[rel*="external"] {
+  word-break: break-all;
+}
+
 a[rel*="external"]::after {
   content:'';
   width: 20px;
