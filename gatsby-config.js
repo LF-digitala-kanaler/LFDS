@@ -14,6 +14,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
+        workboxConfig: {
+          navigateFallbackBlacklist: [/^\/admin.*$/],
+        },
         runtimeCaching: [
           {
             // Use cacheFirst since these don't need to be revalidated (same RegExp
