@@ -54,7 +54,10 @@ export const HomePageTemplate = ({
         </Col>
         <Col md={6}>
           <Heading tag={3} text={"Links you cant live without"} align={"left"} />
-          <LinkList items={relatedLinks} />
+          {
+            relatedLinks.length && <LinkList items={relatedLinks} />
+          }
+          
         </Col>
       </Row>
     </Wrapper>
