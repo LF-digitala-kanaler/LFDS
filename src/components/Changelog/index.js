@@ -46,7 +46,7 @@ export default () => (
       return(
         <div className={style.Changelog}>
           {versions}
-          <Link className={style.Changelog__link} to='about/whats-new/changelog' >View complete Changelog</Link>
+          <Link className={style.Changelog__link} to='/components/web/changelog' >View complete Changelog</Link>
         </div>
       )
     }}
