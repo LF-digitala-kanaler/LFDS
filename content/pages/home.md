@@ -37,7 +37,11 @@ shortcutsBottom:
     text: the use of human animals in experiments that seek to control the variables
       that affect the behavior or biological system under study
     title: User testing
-relatedLinks: []
+relatedLinks:
+  - text: LFUI
+    url: https://lf-digitala-kanaler.github.io/LFUI-components/
+  - text: Prototypes
+    url: https://lf-digitala-kanaler.github.io/prototypes/
 ---
 **New designer at Länsförsäkringar?**
 
