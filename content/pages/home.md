@@ -8,7 +8,7 @@ intro: >-
   This place can guide you in your role as a copy, UX, AD or frontend developer. Check out our components and visual identity or read more about UX-patterns.
 shortcuts:
   - icon: /img/components.svg
-    link: components/web
+    link: /components
     text: Check out our amazing components. Alerts, buttons and what not.
     title: Components
   - icon: /img/visual.svg
@@ -37,11 +37,7 @@ shortcutsBottom:
     text: the use of human animals in experiments that seek to control the variables
       that affect the behavior or biological system under study
     title: User testing
-relatedLinks:
-  - text: Link 1
-    url: /components/web/button-and-links/buttons/
-  - text: Link 2
-    url: https://github.com/gatsbyjs/gatsby/issues/13764
+relatedLinks: []
 ---
 **New designer at Länsförsäkringar?**
 
