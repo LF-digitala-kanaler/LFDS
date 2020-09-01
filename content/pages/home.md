@@ -23,12 +23,12 @@ fullWidthImage: /img/startpage.webp
 fullWidthImageMobile: /img/startpagemobile.webp
 shortcutsBottom:
   - icon: /img/design_principer_.svg
-    link: /foundations/design-principles
+    link: /foundations/principles-and-strategies/design-principles
     text: För att efterlikna det personliga mötet ska vi använda oss av våra
       hörnstenar. Expertis, labba och kontroll.
     title: Designprinciper
   - icon: /img/cx.svg
-    link: /foundations/design-principles/cx-principer
+    link: /foundations/principles-and-strategies/cx-principer
     text: …syftar till att skapa förutsättningar för att styra beslut och
       prioriteringar kopplat till utveckling av kundmötet
     title: CX-principer
