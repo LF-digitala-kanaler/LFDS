@@ -7,6 +7,6 @@ intro: Länsförsäkringar User Interface är vår plattform för vårt Digitala
   komponenter eller hittar vidare länkar till vår Brand portal Röda rummet.
 previewImage: /img/user_testing.svg
 ---
-[LFUI](https://github.com/LF-digitala-kanaler/LFUI-components)
+[LFUI](https://lf-digitala-kanaler.github.io/LFUI-components/)
 
-[Prototypes](https://github.com/LF-digitala-kanaler/Prototpyes)
+[Prototypes](https://lf-digitala-kanaler.github.io/Prototypes)
