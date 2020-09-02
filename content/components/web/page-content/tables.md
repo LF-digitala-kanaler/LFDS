@@ -7,7 +7,7 @@ intro: Tables are used to display data. The data can be either of an informative
 description: Tables are used to display data. The data can be either of an
   informative nature or comparative.
 previewImage: /img/tables.svg
-category: Page Content
+category: Page content
 componentsNavigation:
   - name: Present
   - name: Comparative

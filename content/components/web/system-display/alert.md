@@ -8,7 +8,7 @@ description: Alerts are used to provide contextual messages for typical user
   actions and for important communication from Länsförsäkringar of a
   non-commercial nature.
 previewImage: /img/alert.svg
-category: System Display
+category: System display
 componentsNavigation:
   - name: Info
   - name: Warning

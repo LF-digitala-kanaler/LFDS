@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Mina sidor"
+category: Mina sidor
 title: Landing Page
 intro: Landing Page
 background: bg-white

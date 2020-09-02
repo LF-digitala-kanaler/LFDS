@@ -1,13 +1,13 @@
 ---
 template: ComponentPage
-title: Distribution Bar
+title: Distribution bar
 intro: The distribution bar gives the user an overview of the relative size of
   different values in relation to each other.
 description: The distribution bar gives the user an overview of the relative
   size of different values in relation to each other, like the different funds
   in your ISK.
 previewImage: /img/distribution-bar.svg
-category: Data Visualization
+category: Data visualization
 componentsNavigation:
   - name: Default
   - name: Progress Bar

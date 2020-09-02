@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
-title: Map Chart
+title: Map chart
 intro: Use a map if you have data with a geographical component.
 description: Use a map if you have data with a geographical component. The
   typical use case is to show where in the world investments are placed.
-category: Data Visualization
+category: Data visualization
 tabs:
   - content: >-
       ## How to use

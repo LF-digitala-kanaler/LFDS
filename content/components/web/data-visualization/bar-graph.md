@@ -9,7 +9,7 @@ description: "Bar charts present data in proportion to its value. You can
   compare either various data sources for the same time period or the same data
   source over time. "
 previewImage: /img/distribution-bar.svg
-category: Data Visualization
+category: Data visualization
 tabs:
   - content: >-
       ## How to use

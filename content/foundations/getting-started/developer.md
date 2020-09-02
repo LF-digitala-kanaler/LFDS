@@ -6,7 +6,7 @@ intro: Get started with LFUI components which is a  HTML-, CSS- and JS framework
   applications and websites. LFUI has restyled many of Bootstrap's native
   components as well as included new ones specific for Länsförsäkringar, along
   with other custom features and utilities.
-category: Getting Started
+category: Getting started
 background: bg-white
 wide: false
 lang: false

@@ -6,7 +6,7 @@ intro: Avatars are used to give a visual representations of the various parties
 description: "Avatars are used to give a visual representations of the various
   parties involved in a conversation. "
 previewImage: /img/avatar.svg
-category: System Display
+category: System display
 tabs:
   - content: >-
       ## How to use

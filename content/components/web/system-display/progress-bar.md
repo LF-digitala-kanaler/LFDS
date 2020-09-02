@@ -7,7 +7,7 @@ intro: The progress bar helps the user to understand how much of a flow has been
 description: "The progress bar helps the user to understand how much of a flow
   has been completed if there is much to do in the flow. "
 previewImage: /img/proggress-bar.svg
-category: System Display
+category: System display
 tabs:
   - content: >-
       ## How to use

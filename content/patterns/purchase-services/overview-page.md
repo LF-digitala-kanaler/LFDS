@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Purchase Services"
+category: Purchase services
 title: Overview Page
 intro: Overview Page
 background: bg-white

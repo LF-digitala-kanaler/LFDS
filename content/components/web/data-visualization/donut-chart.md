@@ -1,12 +1,12 @@
 ---
 template: ComponentPage
-title: Donut Chart
+title: Donut chart
 intro: Donut charts are best used when you are trying to compare parts of a
   whole. They do not show changes over time.
 description: Donut charts are best used when you are trying to compare parts of
   a whole. They do not show changes over time.
 previewImage: /img/pie-chart.svg
-category: Data Visualization
+category: Data visualization
 tabs:
   - content: >-
       ## How to use

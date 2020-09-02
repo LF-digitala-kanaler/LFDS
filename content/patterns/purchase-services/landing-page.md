@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Purchase Services"
+category: Purchase services
 title: Landing Page
 intro: Landing Page
 background: bg-white

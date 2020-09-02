@@ -31,14 +31,14 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         create: true 
         options: 
-        - { label: "Button and Links", value: "Button and Links" }
-        - { label: "Data Visualization", value: "Data Visualization" }
+        - { label: "Button and links", value: "Button and links" }
+        - { label: "Data visualization", value: "Data visualization" }
         - { label: "Forms", value: "Forms" }
         - { label: "Motions", value: "Motions" }
         - { label: "Navigations", value: "Navigations" }
-        - { label: "Page Content", value: "Page Content" }
-        - { label: "Supportive Microinteractions", value: "Supportive Microinteractions" }
-        - { label: "System Display", value: "System Display" }
+        - { label: "Page content", value: "Page content" }
+        - { label: "Supportive microinteractions", value: "Supportive microinteractions" }
+        - { label: "System display", value: "System display" }
         - { label: "Tables", value: "Tables" }
         - { label: "Text", value: "Text" }
       - name: 'componentsNavigation'
@@ -95,12 +95,12 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options:
-          - { label: "Getting Started", value: "Getting Started" }
-          - { label: "Brand Identity", value: "Brand Identity" }
-          - { label: "Principles and Strategies", value: "Principles and Strategies" }
+          - { label: "Getting started", value: "Getting started" }
+          - { label: "Brand identity", value: "Brand identity" }
+          - { label: "Principles and strategies", value: "Principles and strategies" }
           - { label: "Process", value: "Process" }
           - { label: "Accessibility", value: "Accessibility" }
-          - { label: "User Testing", value: "User Testing" }
+          - { label: "User testing", value: "User testing" }
           - { label: "Motion", value: "Motion" }
           - { label: "Writing", value: "Writing" }
       - { label: Title, name: title, widget: string }
@@ -162,12 +162,12 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'select'
         required: false
         options: 
-          - { label: "General Patterns", value: "General Patterns" }
-          - { label: "Form Patterns", value: "Form Patterns" }
-          - { label: "Template Patterns", value: "Template Patterns" }
+          - { label: "General patterns", value: "General patterns" }
+          - { label: "Form patterns", value: "Form patterns" }
+          - { label: "Template patterns", value: "Template patterns" }
           - { label: "Lansforsakringar se", value: "Lansforsakringar se" }
           - { label: "Mina sidor", value: "Mina sidor" }
-          - { label: "Purchase Services", value: "Purchase Services" }
+          - { label: "Purchase services", value: "Purchase services" }
           - { label: "App", value: "App" }
       - label: Preview Image
         name: previewImage

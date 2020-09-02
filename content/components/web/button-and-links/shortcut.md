@@ -7,7 +7,7 @@ intro: Shortcuts are as a way of providing a quick and easy way to access
 description: Shortcuts are as a way of providing a quick and easy way to access
   popular pages.
 previewImage: /img/shortcut.svg
-category: Button and Links
+category: Button and links
 componentsNavigation:
   - name: Alerting
   - name: Navigational

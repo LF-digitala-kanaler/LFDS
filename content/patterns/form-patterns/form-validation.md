@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: Form Patterns
+category: Form patterns
 title: Form validation
 intro: >-
   Initial form validation at Länsförsäkringar is done as the user submits a form

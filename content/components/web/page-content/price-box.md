@@ -1,13 +1,13 @@
 ---
 template: ComponentPage
-title: Price Box
+title: Price box
 intro: The Price-box component displays the price/cost in flows where the user
   can purchase/sign-up for something. The price is updated as the user makes
   various choices in the main flow.
 description: The Price-box component displays the price/cost in flows where the
   user can purchase/sign-up for something.
 previewImage: /img/price-box.svg
-category: Page Content
+category: Page content
 componentsNavigation:
   - name: Desktop
   - name: Responsive

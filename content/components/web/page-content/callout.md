@@ -6,7 +6,7 @@ intro: "The callout is used to highlight information which we want the user to
 description: "The callout is used to highlight information which we want the
   user to notice in relation to a chunk of text. "
 previewImage: /img/callout.svg
-category: Page Content
+category: Page content
 tabs:
   - content: >-
       ## How to use

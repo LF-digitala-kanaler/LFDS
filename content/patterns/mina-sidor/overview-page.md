@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Mina sidor"
+category: Mina sidor
 title: Overview Page
 intro: Overview Page
 background: bg-white

@@ -1,11 +1,11 @@
 ---
 template: ComponentPage
-title: Line Element
+title: Line element
 intro: The line element is used to separate parts of the page from each other.
   We use the html-tag hr and style it in the fashion of Länsförsäkringar.
 description: "The line element is used to separate parts of the page from each other. "
 previewImage: /img/line.svg
-category: Page Content
+category: Page content
 tabs:
   - content: >-
       ## How to use

@@ -1,7 +1,7 @@
 ---
 template: ArticlePage
 category: Accessibility
-title: The Web Accessibility Directive
+title: The Web accessibility directive
 intro: Web accessibility allows everyone, including people with disabilities, to
   perceive, understand, navigate and interact with the Internet and the
   Directive in force since 22 December 2016, will provide people with

@@ -7,7 +7,7 @@ description: "Modals are triggered by the user clicking a button. They have two
   use cases; in a “Read more”-context and identification/signing as part of a
   flow. "
 previewImage: /img/modal.svg
-category: Supportive Microinteractions
+category: Supportive microinteractions
 tabs:
   - content: >-
       ## How to use

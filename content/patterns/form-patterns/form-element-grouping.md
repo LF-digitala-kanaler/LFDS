@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: Form Patterns
+category: Form patterns
 description: Describes how to group input fields, labels and input field descriptions.
 title: Form element grouping
 intro: Describes how to group input fields, labels and input field descriptions.

@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Purchase Services"
+category: Purchase services
 title: Patterns
 intro: Patterns
 background: bg-white

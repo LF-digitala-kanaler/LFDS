@@ -7,7 +7,7 @@ intro: Lets the user expand the current page and displays examples or a longer
 description: Lets the user expand the current page and displays examples or a
   longer explanation which support the user in performing their task.
 previewImage: /img/collapse.svg
-category: Supportive Microinteractions
+category: Supportive microinteractions
 componentsNavigation:
   - name: White
   - name: Gray

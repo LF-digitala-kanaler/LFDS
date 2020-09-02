@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Purchase Services"
+category: Purchase services
 title: Framework
 intro: Framework
 background: bg-white

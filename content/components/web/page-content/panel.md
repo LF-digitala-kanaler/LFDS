@@ -7,7 +7,7 @@ description: Panels are our standard containers when we want to “box in”
   content. When panels are used the whole page is usually divided into different
   panels.
 previewImage: /img/panel.svg
-category: Page Content
+category: Page content
 componentsNavigation:
   - name: Always Open
   - name: Collapse Expand

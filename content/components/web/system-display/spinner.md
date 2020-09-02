@@ -6,7 +6,7 @@ intro: The spinner is used to show that the system is loading/fetching data and
 description: The spinner is used to show that the system is loading/fetching
   data and that the response isn't instantaneous.
 previewImage: /img/alert.svg
-category: System Display
+category: System display
 componentsNavigation:
   - name: Default
   - name: Red

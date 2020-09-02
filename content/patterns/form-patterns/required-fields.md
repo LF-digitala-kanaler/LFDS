@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: Form Patterns
+category: Form patterns
 title: Required fields
 intro: >-
   At Länsförsäkringar we only highlight required fields when only parts of a

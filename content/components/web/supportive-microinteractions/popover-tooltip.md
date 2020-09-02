@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-title: Popover Tooltip
+title: Popover tooltip
 intro: Used primarily as an explanation of terms and difficult words in inline
   text. When the user clicks/hovers a word with a popover tooltip a small
   popover appears in which explanatory text is displayed.
@@ -8,7 +8,7 @@ description: Used primarily as an explanation of terms and difficult words in
   inline text. When the user clicks/hovers a word with a popover tooltip a small
   popover appears in which explanatory text is displayed.
 previewImage: /img/popover-tooltip.svg
-category: Supportive Microinteractions
+category: Supportive microinteractions
 tabs:
   - content: >-
       ## How to use

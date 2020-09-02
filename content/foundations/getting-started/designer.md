@@ -5,7 +5,7 @@ intro: Som Designer i Länsförsäkringsgruppen finns det lite delar som du beh�
   veta innan du börjar designa. Vi går igenom allt här.
 description: Som Designer i Länsförsäkringsgruppen finns det lite delar som du
   behöver veta innan du börjar designa. Vi går igenom allt här.
-category: Getting Started
+category: Getting started
 previewImage: /img/getting_started.svg
 wide: false
 lang: true

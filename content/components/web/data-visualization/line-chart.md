@@ -6,7 +6,7 @@ description: Line charts are used to display changes over a period of time. Line
   charts can also be used to compare changes over the same period of time for
   different data sets.
 previewImage: /img/button-primary.svg
-category: Data Visualization
+category: Data visualization
 tabs:
   - content: >-
       ## How to use

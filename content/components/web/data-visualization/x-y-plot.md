@@ -1,9 +1,9 @@
 ---
 template: ComponentPage
-title: X-Y Plot
+title: X-Y plot
 intro: "X-Y plots are used to determine relationships between two different items. "
 description: "X-Y plots are used to determine relationships between two different items. "
-category: Data Visualization
+category: Data visualization
 tabs:
   - name: Design
     content: >-

@@ -1,7 +1,7 @@
 ---
 template: CategoryOverview
 previewImage: /img/general-pattern.png
-title: Purchase Services
+title: Purchase services
 intro: ""
 background: bg-white
 ---

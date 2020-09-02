@@ -6,7 +6,7 @@ intro: "The card component is used to inform users about related products or
 description: "The card component is used to inform users about related products
   or content. "
 previewImage: /img/card.svg
-category: Page Content
+category: Page content
 tabs:
   - content: >-
       ## How to use

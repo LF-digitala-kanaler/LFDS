@@ -2,7 +2,7 @@
 background: bg-white
 previewImage: /img/alert.svg
 template: CategoryOverview
-title: System Display
+title: System display
 intro: System display is a family of components which convey the status of our
   systems or communicate general messages to our visitors (like cookie
   information).

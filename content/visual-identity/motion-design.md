@@ -2,7 +2,7 @@
 template: ArticlePage
 previewImage: /img/family1.svg
 description: Motion graphics can delight, inspire, and guide your audience to take action
-title: Motion Design
+title: Motion design
 intro: >
   When done right, motion graphics can delight, inspire, and guide your audience
   to action. In the end, the greatest value of motion graphics is their ability

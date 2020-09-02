@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: General Patterns
+category: General patterns
 previewImage: /img/read-more.svg
 title: Read more
 intro: This page describes the four different ways we have of providing

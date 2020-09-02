@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: "Mina sidor"
+category: Mina sidor
 title: Framework
 intro: Framework
 background: bg-white
