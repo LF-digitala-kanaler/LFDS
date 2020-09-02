@@ -1,7 +1,6 @@
 import React from "react"
 import style from './index.module.css';
 import { Link } from 'gatsby';
-import { stripTrailingSlash } from '../../utils/RemoveTrailingSlash';
 
 
 const parentDirectory = (url) => {
