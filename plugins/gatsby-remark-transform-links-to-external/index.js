@@ -6,9 +6,10 @@ module.exports = ({ markdownAST }) => {
       node.url.includes('/LFUI-components') ||
       node.url.includes('/Prototypes')
     ) {
-      node.data.hProperties.target = '_target',
-      node.data.hProperties.rel = 'external nofollow noopener noreferrer'
-      
+      if(node.data.hProperties) {
+        node.data.hProperties.target = '_target',
+        node.data.hProperties.rel = 'external nofollow noopener noreferrer'
+      }
     }
   });
 
