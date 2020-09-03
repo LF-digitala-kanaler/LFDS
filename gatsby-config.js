@@ -221,11 +221,11 @@ module.exports = {
               destinationDir: 'static',
             },
           },
-          
+          'gatsby-remark-transform-links-to-external'
         ]
       }
     },
-    'gatsby-remark-transform-links-to-external',
+    
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     `gatsby-plugin-catch-links`,
