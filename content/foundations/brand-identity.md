@@ -27,8 +27,8 @@ Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbol
 
 ### Kontakter varumärkes frågor
 
-Varumärkesansvarig är Pär Hjärtström.\
-Digitala Designansvarig är Liza Hansson.\
+Varumärkesansvarig är Pär Hjärtström.
+Digitala Designansvarig är Liza Hansson.
 Liza och Pär träffas återkommande för att synka mellan print och webb.
 
 ### Introduktion

@@ -219,6 +219,7 @@ module.exports = {
               destinationDir: 'static',
             },
           },
+          'gatsby-remark-transform-links-to-external'
         ]
       }
     },
