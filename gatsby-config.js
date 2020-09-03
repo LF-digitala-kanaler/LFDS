@@ -150,6 +150,7 @@ module.exports = {
       
       options: {
         plugins: [
+          
           // gatsby-remark-relative-images must
           // go before gatsby-remark-images
           {
@@ -183,10 +184,7 @@ module.exports = {
           options: {
             target: "_target",
             rel: "external nofollow noreferrer noopener"
-            },
-            plugins: [
-              'gatsby-remark-transform-links-to-external'
-            ]
+            }
           },
           
           {
@@ -222,10 +220,12 @@ module.exports = {
             options: {
               destinationDir: 'static',
             },
-          }
+          },
+          
         ]
       }
     },
+    'gatsby-remark-transform-links-to-external',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     `gatsby-plugin-catch-links`,
