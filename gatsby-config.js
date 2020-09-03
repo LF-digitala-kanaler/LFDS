@@ -183,8 +183,12 @@ module.exports = {
           options: {
             target: "_target",
             rel: "external nofollow noreferrer noopener"
-            }
+            },
+            plugins: [
+              'gatsby-remark-transform-links-to-external'
+            ]
           },
+          
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -218,8 +222,7 @@ module.exports = {
             options: {
               destinationDir: 'static',
             },
-          },
-          'gatsby-remark-transform-links-to-external'
+          }
         ]
       }
     },
