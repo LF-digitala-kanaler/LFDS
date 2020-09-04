@@ -37,7 +37,6 @@ export const LandingPageTemplate = ({
 
 }
 const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirectory, location }) => {
-  console.log(page, 'page')
   if(typeof window !== `undefined`) {
     currentDirectory = location.pathname.split('/').filter(Boolean).pop();
    }
@@ -47,7 +46,6 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
       ? allOverviewPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-  console.log(overviewPages.items, 'items')
   const overViewGroups = _(overviewPages.items)
   .chain()
   .map((item) => {

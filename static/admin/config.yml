@@ -103,16 +103,17 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "User testing", value: "User testing" }
           - { label: "Motion", value: "Motion" }
           - { label: "Writing", value: "Writing" }
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: text }
-      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editorComponents: [], hint: 'Only use this if you have a hero image' }
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
-     
-        
       - label: Preview Image
         name: previewImage
         widget: image
         required: false
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
+      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editorComponents: [], hint: 'Only use this if you have a hero image' }
+     
+        
+      
       - label: Hero block
         name: heroBlock
         widget: object
@@ -173,9 +174,9 @@ collections: # A list of collections the CMS should be able to edi
         name: previewImage
         widget: image
         required: false
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false} 
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false} 
       - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editorComponents: [], hint: 'Only use this if you have a hero image' }
 
       - label: Hero block
@@ -233,10 +234,11 @@ collections: # A list of collections the CMS should be able to edi
         name: previewImage
         widget: image
         required: false
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}  
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'ContentTop', name: contentTop, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
+      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editorComponents: [], hint: 'Only use this if you have a hero image' }
+
       - label: Hero block
         name: heroBlock
         widget: object

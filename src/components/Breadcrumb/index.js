@@ -9,7 +9,7 @@ const parentDirectory = (url) => {
 }
 
 const Breadcrumb = ({location}) => {
-  console.log(location.location.pathname.split('/'))
+  
   return (
     <div className={style.Breadcrumb}>
       

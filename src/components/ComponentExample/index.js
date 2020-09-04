@@ -14,7 +14,6 @@ import $ from 'jquery'
 
 
 const ComponentExample = ({variants, background, verticalResize, navigation}) => {
-  console.log(variants, 'var')
   if (navigation) {
     var nav = navigation.map(items => {
       return {
@@ -23,7 +22,6 @@ const ComponentExample = ({variants, background, verticalResize, navigation}) =>
       }
     });
   }
-  console.log(navigation, variants)
   const [backgroundColor, setBackground] = useState(background ? background : '#fff'); // if background is et in Netlify, use that value 
   const [code, setCode] = useState( navigation ? nav[0].example[0].node.content : variants[0].node.content );
   const [source, setSource] = useState(false);

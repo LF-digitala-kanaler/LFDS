@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-category: General Patterns
+category: General patterns
 description: ""
 title: Copy
 intro: Hur vi generellt skriver felmeddelanden m.m.

@@ -53,7 +53,8 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
     links: allPages.hasOwnProperty('edges')
       ? allPages.edges.filter(category => {
         if(category.node.fields.contentType.includes(currentDirectory) && category.node.frontmatter.hidden !== true) {
-          return {  ...category.node}
+        return {  ...category.node}
+          
         }
         else {
           return null;

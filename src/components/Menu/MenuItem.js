@@ -13,7 +13,7 @@ const MenuItem = ({item, location}) => {
         url.pop()
     
     item.childLink.filter((active) => {
-      if(active.node.fields.slug.match(location.pathname) && url.length >= 3) {
+      if(active.node.fields.slug.match(location.pathname) && url.length >= 2) {
         setOpen(true)
       } 
       return null
@@ -47,6 +47,7 @@ const MenuItem = ({item, location}) => {
   };  
   
   const hasCategory = !(item.parentLink === 'null' || item.parentLink === 'NoCategory');
+  
   return( 
     hasCategory ? (
       <li key={item.childLink[0].node.id} className={className} >
