@@ -4,6 +4,7 @@ category: Graphics
 description: ""
 title: Image blocks in LFDS
 intro: Test page for Images for LFDS
+background: bg-white
 wide: false
 lang: false
 hidden: false
