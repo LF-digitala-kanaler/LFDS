@@ -408,6 +408,10 @@ Undvik helst att använda begreppet. Skriv till exempel vilka saker det gäller.
 
 Vi använder make både för män och kvinnor. I plural skriver vi makar. Begreppet maka ska vi inte använda.
 
+* **Mina sidor**\
+  **JA**
+
+  Våra tjänster på internet som kräver inloggning. Både bank, fond, liv och sak. Skrivs med stort M inne i meningar.
 * ###### **mejl**
 
   ###### **JA**
@@ -443,13 +447,13 @@ En mobil e-legitimation och ett säkert sätt att legitimera dig på internet. S
 
 Internettjänst anpassad för mobiltelefoner, exempel är Iphone-app eller Android-app.
 
-###### **nyteckning\**
+###### \*\*nyteckning\*\*
 
 **NJA**
 
 Undvik i kommunikation med kunderna. Skriv istället *Du har köpt en ny försäkring…*
 
-###### **obetald premie\**
+###### \*\*obetald premie\*\*
 
 **NJA**
 
@@ -461,139 +465,139 @@ Skriv istället *Fakturan är inte betald*.
 
 Begrepp vi ska undvika att skriva annat än i villkor. Inga nya partnerskap ingås sedan 2009, då äktenskapslagen blev könsneutral.
 
-###### **pensionskapital\**
+###### \*\*pensionskapital\*\*
 
 **NEJ**
 
 Använd inte ordet. Se *försäkringskapital.*
 
-###### **personal\**
+###### \*\*personal\*\*
 
 **JA**
 
 Undvik helst. Skriv istället *medarbetare*.
 
-###### **personbilsförsäkring\**
+###### \*\*personbilsförsäkring\*\*
 
 **NEJ**
 
 Använd bilförsäkring istället. Då blir vi konsekventa och säger samma sak till våra privat- och företagskunder.
 
-###### **personuppgiftslagen\**
+###### \*\*personuppgiftslagen\*\*
 
 **JA**
 
 Lag som reglerar hur personuppgifter får behandlas av företag, organisationer och myndigheter. I en text måste du alltid skriva ut *personuppgiftslagen* första gången. Därefter kan du förkorta till *PuL*.
 
-###### **pinkod\**
+###### \*\*pinkod\*\*
 
 **JA**
 
 Skrivs med små bokstäver och utan bindestreck.
 
-###### **premie\**
+###### \*\*premie\*\*
 
 **NJA**
 
 Undvik att använda *premie*om du kan. Skriv hellre *pris, inbetalning, sparande.*
 
-###### **premiebetalare\**
+###### \*\*premiebetalare\*\*
 
 **NJA**
 
 Den som betalar in pengar till försäkringen. Skriv istället*inbetalare* eller *betalare.*
 
-###### **premiebefrielse\**
+###### \*\*premiebefrielse\*\*
 
 **NEJ**
 
 Använd *betalningsbefrielse* istället men gärna tillsammans med en förklaring. Skriv till exempel: *Länsförsäkringar betalar din försäkring om du blir sjuk eller …*
 
-###### **preskription, preskriptionstid\**
+###### \*\*preskription, preskriptionstid\*\*
 
 **NJA**
 
 Använd alltid med en förklaring.
 
-###### **prorata/proratareglering\**
+###### \*\*prorata/proratareglering\*\*
 
 **NEJ**
 
 Ersättning i förhållande till inbetald premie vid underförsäkring. Använd inte begreppet utan förklara hur vi räknat ut ersättningen.
 
-###### **sambo\**
+###### \*\*sambo\*\*
 
 **JA**
 
 Begrepp som vi använder för sammanboende som inte lever i äktenskap.
 
-###### **sajt\**
+###### \*\*sajt\*\*
 
 **JA**
 
 Skrivs och stavas på svenska.
 
-###### **sak\**
+###### \*\*sak\*\*
 
 **NEJ**
 
 Ska alltid benämnas *sakförsäkring.*
 
-###### **självrisk\**
+###### \*\*självrisk\*\*
 
 **JA**
 
 Den del av skadekostnaden som försäkringstagaren själv får stå för. Det finns många begrepp, till exempel: *självrisk, rörlig självrisk, fast självrisk, grundsjälvrisk, förhöjd självrisk, särskild självrisk.*
 
-###### **skattekategori\**
+###### \*\*skattekategori\*\*
 
 **NEJ**
 
 Skriv istället *din försäkring beskattas som…*
 
-###### **sms\**
+###### \*\*sms\*\*
 
 **JA**
 
 Skriv alltid med med små bokstäver.
 
-###### **soliditet\**
+###### \*\*soliditet\*\*
 
 **NJA**
 
 Ska endast användas i ekonomiska rapporter. Undvik ordet i all kommunikation med kunderna.
 
-###### **solvens\**
+###### \*\*solvens\*\*
 
 **NJA**
 
 Ska endast användas i ekonomiska rapporter och undviks i all kommunikation med kunderna.
 
-###### **stöldbegärlig egendom\**
+###### \*\*stöldbegärlig egendom\*\*
 
 **NJA**
 
 Saker som är särskilt utsatta för för stöld. Till exempel smycken, konst, datorer, kameror, vapen, vin och sprit. När det är möjligt ge gärna exempel.
 
-###### **teckna\**
+###### \*\*teckna\*\*
 
 **NJA**
 
 Undvik att säga teckna försäkring, skriv istället om meningen för att undvika begreppet. Andra ord kan vara köpa, välja eller ansöka.
 
-###### **Telefonbank\**
+###### \*\*Telefonbank\*\*
 
 **JA**
 
 Våra banktjänster på telefon. Skrivs alltid med stort T.
 
-###### **tjänstepension\**
+###### \*\*tjänstepension\*\*
 
 **JA**
 
 Tjänstepensionen kompletterar den allmänna pensionen och betalas in av arbetsgivaren. Jämför *avtalspension.*
 
-###### **underförsäkrad\**
+###### \*\*underförsäkrad\*\*
 
 **NJA**
 
@@ -601,81 +605,74 @@ Undvik begreppet eller förklara vad det innebär för kunden att inte ha rätt 
 
 Skriv till exempel:*Om värdet på dina saker i hemmet är 500 000 kronor och du köper en försäkring på 250 000 kronor innebär det att du bara får ut hälften av sakernas värde om du till exempel får ett inbrott.*
 
-###### **utbetala\**
+###### \*\*utbetala\*\*
 
 **NEJ**
 
 Skriv istället *betala.*
 
-###### **utlåningsränta\**
+###### \*\*utlåningsränta\*\*
 
 **NJA**
 
 Kan användas när du måste särskilja ut- och inlåningsränta. I andra fall – använd helst ordet*ränta.*
 
-###### **Wasa Kredit\**
+###### \*\*Wasa Kredit\*\*
 
 **JA**
 
 skrivs alltid med stort W och stort K. *Wasa Kredit AB*använder du bara när du måste av juridiska skäl.
 
-###### **WK eller WKAB\**
+###### \*\*WK eller WKAB\*\*
 
 **NEJ**
 
 Skriv alltid ut *Wasa Kredit*.
 
-###### **verkställande direktör\**
+###### \*\*verkställande direktör\*\*
 
 **JA**
 
 Skrivs med litet v och d inne i meningar. Förkortat skriver vi *vd* och pluralform skriver vi *vd:ar*, med kolon.
 
-###### **villahemförsäkring\**
+###### \*\*villahemförsäkring\*\*
 
 **JA**
 
 Vi skriver alltid *villahemförsäkring* i ett ord.
 
-###### **vållande\**
+###### \*\*vållande\*\*
 
 **NJA**
 
 Skriv hellre *ansvarig*.
 
-###### **webbplats\**
+###### \*\*webbplats\*\*
 
 **JA**
 
 Vi skriver webbplats och inte hemsida.
 
-###### **återbetalningsskydd\**
+###### \*\*återbetalningsskydd\*\*
 
 **JA**
 
 Ett skydd som innebär att hela eller en del av försäkringskapitalet betalas ut till förmånstagare vid den försäkrades död.
 
-###### **återbäringsränta\**
+###### \*\*återbäringsränta\*\*
 
 **JA**
 
 Ränta på sparande i traditionell förvaltning.
 
-###### **åligga, det åligger försäkringstagaren\**
+###### \*\*åligga, det åligger försäkringstagaren\*\*
 
 **​NEJ**
 
 Skriv istället det är ditt ansvar...
 
-###### **återköp\**
+###### \*\*återköp\*\*
 
 **​JA**
 
 Använd tillsammans med förklaring. Skriv till exempel: *Återköp innebär att sparandet tas ut från försäkringen tidigare än det vi kommit överens om.*
-
-
-
-* **Mina sidor**\
-  **JA**
-
-  Våra tjänster på internet som kräver inloggning. Både bank, fond, liv och sak. Skrivs med stort M inne i meningar.
