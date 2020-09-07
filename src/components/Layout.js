@@ -45,7 +45,8 @@ export default ({
       `}
       render={data => {
 
-        
+        description = meta?.description ?  meta.description : description;
+        console.log(description)
         const {  socialMediaCard, siteUrl, siteTitleAbbreviation  } =    
             data.settingsYaml || {}
         return (
@@ -64,7 +65,7 @@ export default ({
               {title}
               <meta name="robots" content="noindex" />
             </Helmet>
-
+                
             <Meta
               absoluteImageUrl={
                 socialMediaCard &&
@@ -72,7 +73,8 @@ export default ({
                 stripTrailingSlash(siteUrl) + socialMediaCard.image
               }
               // If there is no meta description added to cms use the intro field instead
-              description={(meta?.description || meta.description === "") ?  meta.description : description}
+              
+              description={description}
               {...data.settingsYaml}
               {...meta}
             />
