@@ -13,8 +13,8 @@ import "../components/_base/index.css"
 
 export default ({ 
   children, 
-  meta, 
   title,
+  description,
   breadcrumb,
   backgroundClass,
   menu
@@ -28,12 +28,10 @@ export default ({
         query IndexLayoutQuery {
           site {
             siteMetadata {
-              title
               headline
             }
           }
           settingsYaml {
-            siteTitle
             siteHeadline
             siteDescription
             socialMediaCard {
@@ -45,10 +43,8 @@ export default ({
         }
       `}
       render={data => {
-        const { siteTitle, siteHeadline, socialMediaCard  } =    
+        const { siteHeadline, socialMediaCard  } =    
             data.settingsYaml || {}
-       
-        console.log(siteTitle, siteHeadline)
         return (
           
           <Fragment>
@@ -71,8 +67,9 @@ export default ({
                 socialMediaCard.image &&
                 socialMediaCard.image
               }
-              {...meta}
+              description={description}
               {...data.settingsYaml}
+              
             />
 
             

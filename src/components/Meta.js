@@ -26,7 +26,7 @@ export default class Meta extends Component {
       siteTitle,
       siteDescription
     } = this.props
-
+    
     return (
       <Helmet>
         {title && <title>{title}</title>}

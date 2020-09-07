@@ -80,7 +80,7 @@ const ComponentPage = ({
   
   return (
     <Layout
-      meta={page.frontmatter.meta || false}
+      description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
       menu={true}
@@ -113,9 +113,7 @@ export const pageQuery = graphql`
   
   query ComponentPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
-      ...Meta
       html
-      
       frontmatter {
         title
         intro

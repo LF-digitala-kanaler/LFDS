@@ -72,7 +72,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
 
   return (
     <Layout
-      meta={page.frontmatter.meta || false}
+      description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       menu={true}
       breadcrumb={breadcrumb}
@@ -102,7 +102,6 @@ export const pageQuery = graphql`
   query CategoryOverviewPage($id: String!) {
     
     page: markdownRemark(id: { eq: $id }) {
-      ...Meta
       htmlAst
       html
       frontmatter {

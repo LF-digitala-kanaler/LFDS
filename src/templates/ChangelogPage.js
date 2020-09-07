@@ -69,7 +69,7 @@ const ChangelogPage = ({ data: { page, log }, location } ) => {
     navigate(`?${tabs[index]}`, { replace: false });
   return (
     <Layout
-      meta={page.frontmatter.meta || false}
+      description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
       backgroundClass={page.frontmatter.background}
@@ -95,7 +95,6 @@ export const pageQuery = graphql`
   
   query ChangelogPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
-      ...Meta
       frontmatter {
         title
         intro

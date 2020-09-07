@@ -60,7 +60,7 @@ const IconsPage = ({
   }
   return (
     <Layout
-      meta={page.frontmatter.meta || false}
+      description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       specialIconsContent={page.frontmatter.specialIconsContent}
       menu={true}
@@ -86,7 +86,6 @@ export const pageQuery = graphql`
   ## query name must be unique to this file
   query IconsPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
-      ...Meta
       html
       htmlAst
       frontmatter {

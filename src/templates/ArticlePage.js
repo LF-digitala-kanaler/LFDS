@@ -60,7 +60,7 @@ const ArticlePage = ({
   }
   return (
     <Layout
-      meta={page.frontmatter.meta || false}
+      description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
       menu={true}
@@ -90,7 +90,6 @@ export const pageQuery = graphql`
   
   query ArticlePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
-      ...Meta
       htmlAst
       html
       frontmatter {

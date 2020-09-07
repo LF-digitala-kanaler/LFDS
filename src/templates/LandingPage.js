@@ -81,7 +81,7 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
 
   return (
     <Layout
-      meta={page.frontmatter.meta || false}
+      description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       backgroundClass={page.frontmatter.background}
       menu={true}
@@ -105,7 +105,6 @@ export default LandingPage
 export const pageQuery = graphql`
   query LandingPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
-      ...Meta
       html
       frontmatter {
         title
