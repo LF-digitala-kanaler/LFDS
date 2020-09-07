@@ -39,7 +39,7 @@ const Menu = ({currentDirectory}) => {
     `)
   const dispatch = useContext(GlobalDispatchContext)
   const state = useContext(GlobalStateContext)
-      console.log(state)
+  
   const location = globalHistory.location.pathname
   const useBreakpoint = createBreakpoint({ M: 1024, S: 768});
 

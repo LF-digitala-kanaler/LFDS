@@ -12,7 +12,6 @@ import "../components/_base/index.css"
 
 
 export default ({ 
-  
   children, 
   meta, 
   title,
@@ -36,14 +35,16 @@ export default ({
           settingsYaml {
             siteTitle
             siteDescription
-            googleTrackingId
+            socialMediaCard {
+              image
+            }
           }
           
           
         }
       `}
       render={data => {
-        const { siteTitle  } =     //googleTrackingId
+        const { siteTitle, siteHeadline, socialMediaCard  } =    
             data.settingsYaml || {}
        
         
@@ -51,8 +52,8 @@ export default ({
           
           <Fragment>
             <Helmet
-              defaultTitle="LFDS"
-              titleTemplate={`%s | ${siteTitle}`}
+              defaultTitle={siteTitle}
+              titleTemplate={`%s | ${siteHeadline}`}
               bodyAttributes={{
                 class: backgroundClass
               }}
@@ -61,13 +62,15 @@ export default ({
               }}
             > 
               {title}
-              <link href="" rel="preconnect" crossorigin />
-              <link rel="dns-prefetch" href="" />
               <meta name="robots" content="noindex" />
             </Helmet>
 
             <Meta
-              // googleTrackingId={googleTrackingId}
+              absoluteImageUrl={
+                socialMediaCard &&
+                socialMediaCard.image &&
+                socialMediaCard.image
+              }
               {...meta}
               {...data.settingsYaml}
             />

@@ -60,17 +60,5 @@ CMS.registerPreviewTemplate('icons-page', ({ entry }) => (
   <IconsPageTemplate  {...entry.toJS().data} />
 ))
 
-CMS.registerEventListener({
-  name: 'preSave',
-  handler: ({ entry }) => {
-   if (entry.get('category')) {
-     return entry.get('data').set('category', entry.get('category'));
-   } else {
-     // you can use any relevant field/logic for generating the initial slug
-     const titleSlug = entry.getIn(['data', 'category'], '').toLowerCase().replace(/[']/g, '').replace(/[.]/g, '-').replace(/[\s]/g, '-')
-     return entry.get('data').set('category', titleSlug);
-   }
-  },
-});
 
 

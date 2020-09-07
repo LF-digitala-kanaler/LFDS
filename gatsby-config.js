@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: 'LFDS',
     headline: 'Länsförsäkringar Design System',
-    description: 'Länsförsäkringar Design system`',
+    description: 'Länsförsäkringar Design system',
     siteUrl: 'https://lf-digitala-kanaler.github.io/'
   },
   plugins: [
