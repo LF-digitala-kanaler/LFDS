@@ -19,18 +19,19 @@ export default class Meta extends Component {
   render() {
     const {
       title,
+      pageTitle,
       url,
       description,
       absoluteImageUrl = '',
-      canonicalLink,
-      siteTitle
+      canonicalLink
     } = this.props
     
-    console.log(title, siteTitle)
+    
     return (
       <Helmet>
+        {console.log(description, 'desc')}
         {title && <title>{title}</title>}
-        {title && <meta property="og:title" content={title} />}
+        {pageTitle && <meta property="og:title" content={pageTitle} />}
         {description && <meta name="description" content={description} />}
         {description && (
           <meta property="og:description" content={description} />
@@ -42,7 +43,7 @@ export default class Meta extends Component {
         {canonicalLink && <link rel="canonical" href={canonicalLink} />}
 
         <meta property="og:locale" content="en_US" />
-        <meta property="og:site_name" content={title} />
+        <meta property="og:site_name" content={pageTitle} />
         
         <meta property="og:image:secure_url" content={absoluteImageUrl} />
         <meta property="og:image" content={absoluteImageUrl} />
