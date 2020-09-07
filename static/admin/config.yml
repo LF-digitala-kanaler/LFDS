@@ -161,7 +161,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
-       - label: 'Meta'
+      - label: 'Meta'
         required: false
         name: 'meta'
         widget: 'object'
@@ -243,7 +243,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
-       - label: 'Meta'
+      - label: 'Meta'
         required: false
         name: 'meta'
         widget: 'object'
@@ -539,24 +539,24 @@ collections: # A list of collections the CMS should be able to edi
             fields:
               - {label: Text, name: text, widget: string }
               - {label: Url, name: url, widget: string }
-        - label: 'Meta'
-          required: false
-          name: 'meta'
-          widget: 'object'
-          fields:
-          - { label: Title, name: title, widget: string, required: false }
-          - {
-              label: Description,
-              name: description,
-              widget: text,
-              required: false,
-            }
-          - {
-              label: Canonical Link,
-              name: canonicalLink,
-              widget: string,
-              required: false,
-            }       
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+            - { label: Title, name: title, widget: string, required: false }
+            - {
+                label: Description,
+                name: description,
+                widget: text,
+                required: false,
+              }
+            - {
+                label: Canonical Link,
+                name: canonicalLink,
+                widget: string,
+                required: false,
+              }       
          
 
   - name: 'settings'
