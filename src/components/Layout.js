@@ -72,7 +72,7 @@ export default ({
                 stripTrailingSlash(siteUrl) + socialMediaCard.image
               }
               // If there is no meta description added to cms use the intro field instead
-              description={meta?.description || meta.description === "" ?  meta.description : description}
+              description={(meta?.description || meta.description === "") ?  meta.description : description}
               {...data.settingsYaml}
               {...meta}
             />
