@@ -34,6 +34,7 @@ export default ({
           }
           settingsYaml {
             siteTitle
+            siteHeadline
             siteDescription
             socialMediaCard {
               image
@@ -47,13 +48,12 @@ export default ({
         const { siteTitle, siteHeadline, socialMediaCard  } =    
             data.settingsYaml || {}
        
-        
+        console.log(siteTitle, siteHeadline)
         return (
           
           <Fragment>
             <Helmet
-              defaultTitle={siteTitle}
-              titleTemplate={`%s | ${siteHeadline}`}
+              defaultTitle={`${title} | ${siteHeadline}`}
               bodyAttributes={{
                 class: backgroundClass
               }}
