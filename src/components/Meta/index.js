@@ -7,7 +7,6 @@ export const query = graphql`
     frontmatter {
       meta {
         title
-        description
         noindex
         canonicalLink
       }
