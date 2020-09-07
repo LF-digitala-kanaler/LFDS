@@ -43,7 +43,7 @@ relatedLinks:
   - text: Prototypes
     url: https://lf-digitala-kanaler.github.io/prototypes/
 meta:
-  description: test
+  description: ""
   title: Länsförsäkringar Design System
 ---
 **New designer at Länsförsäkringar?**
