@@ -1,41 +1,58 @@
-// import React from 'react';
+import React, { Fragment } from 'react'
 
-// const imageWithBackground = {
-//   label: 'Image with Background',
-//   id: 'imageWithBackground',
-//   fromBlock: match =>
-//     match && {
-//       image: match[2],
-//       alt: match[1],
-//       title: match[4],
-//     },
-//   toBlock: ({ alt, image, title }) =>
-//     `![${alt || ''}](${image || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
-//   // eslint-disable-next-line react/display-name
-//   toPreview: async ({ alt, image, title }, getAsset) => {
-//     const src = await getAsset(image);
-//     return <img src={src || ''} alt={alt || ''} title={title || ''} />;
-//   },
-//   pattern: /^!\[(.*)\]\((.*?)(\s"(.*)")?\)$/,
-//   fields: [
-//     {
-//       label: 'Image',
-//       name: 'image',
-//       widget: 'image',
-//       media_library: {
-//         allow_multiple: false,
-//       },
-//     },
-//     {
-//       label: 'Alt Text',
-//       name: 'alt',
-//     },
-//     {
-//       label: 'Title',
-//       name: 'title',
-//     },
-//   ],
-// };
+class Image extends React.Component {
+  constructor(props) {
+    super(props)
+    this.ref = React.createRef()
+  }
 
-// export const NetlifyCmsEditorComponentImage = imageWithBackground;
-// export default imageWithBackground;
+  imageSizes = [
+    '320',
+    '450',
+    '640',
+    '750',
+    '800',
+    '900',
+    '1000',
+    '1200',
+    '1500',
+    '1600',
+    '2000'
+  ] // image sizes used for image source sets
+
+  
+ 
+
+  render() {
+    let {
+      
+      className = '',
+      src,
+      title = '',
+      alt = '',
+      
+    } = this.props
+
+   
+   
+    return (
+      <Fragment>
+          <Fragment>
+              <img
+                className={`${className}`}
+                src={src}
+                srcset
+                title={title}
+                alt={alt}
+              />
+            
+          </Fragment>
+       
+      </Fragment>
+    )
+  }
+}
+
+
+
+export default Image

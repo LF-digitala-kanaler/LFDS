@@ -61,4 +61,3 @@ CMS.registerPreviewTemplate('icons-page', ({ entry }) => (
 ))
 
 
-

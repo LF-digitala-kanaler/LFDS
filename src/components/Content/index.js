@@ -16,30 +16,6 @@ const encodeMarkdownURIs = (source = '') => {
   })
 }
 
-// const withContentImages = source => {
-  
-//   const images = source.match(/<img(.*?)\\?>/gim)
-  
-//   for (let i in images) {
-   
-//     const src = /src="(.*?)"/g.exec(images[i]),
-//         alt = /alt="(.*?)"/g.exec(images[i]),
-    
-//     source = source.replace(
-//       images[i],
-      
-//       ReactDOMServer.renderToStaticMarkup(
-//         <Image
-//           className={`Content--image}`}
-//           src={src ? src[1] : null}
-//           alt={alt ? alt[1] : null}
-//         />
-//       )
-//     )
-//   }
-
-//   return source
-// }
 
 const MyImage = ({ nodeKey, src,  alt}) => {
 

@@ -33,25 +33,25 @@ export default ({
             }
           }
           settingsYaml {
-            siteHeadline
+            siteTitle
             siteDescription
             siteUrl
+            siteTitleAbbreviation
             socialMediaCard {
               image
             }
-          }
-          
-          
+          } 
         }
       `}
       render={data => {
-        const { siteHeadline, socialMediaCard, siteUrl  } =    
+        const { siteTitle, socialMediaCard, siteUrl, siteTitleAbbreviation  } =    
             data.settingsYaml || {}
         return (
           
           <Fragment>
             <Helmet
-              defaultTitle={`${title} | ${siteHeadline}`}
+              defaultTitle={siteTitle}
+              titleTemplate={`%s | ${siteTitleAbbreviation}`}
               bodyAttributes={{
                 class: backgroundClass
               }}

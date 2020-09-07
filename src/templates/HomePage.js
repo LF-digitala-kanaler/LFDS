@@ -78,6 +78,7 @@ const HomePage = ({
   
   return (
     <Layout
+      meta={page.frontmatter.meta || false}
       description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       backgroundClass={page.frontmatter.background}
@@ -104,6 +105,7 @@ export const pageQuery = graphql`
   ## query name must be unique to this file
   query HomePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
+      ...Meta
       html
       frontmatter {
         title

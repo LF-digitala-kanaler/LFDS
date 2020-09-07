@@ -78,7 +78,24 @@ collections: # A list of collections the CMS should be able to edi
         required: false
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
-    
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
       
     
   - name: design-page
@@ -111,9 +128,6 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Intro, name: intro, widget: text }
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
       - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editorComponents: [], hint: 'Only use this if you have a hero image' }
-     
-        
-      
       - label: Hero block
         name: heroBlock
         widget: object
@@ -138,9 +152,7 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         options: 
           - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }
-        
-          
+          - { label: "Grey", value: "" }  
       - label: "Priority"
         name: "priority"
         widget: "string"
@@ -149,6 +161,24 @@ collections: # A list of collections the CMS should be able to edi
       - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
+       - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
 
   - name: patterns-page
     label: Patterns
@@ -213,7 +243,24 @@ collections: # A list of collections the CMS should be able to edi
       - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
       - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
-
+       - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
 
   - name: visual-identity-page
     media_folder: /static/img
@@ -295,7 +342,25 @@ collections: # A list of collections the CMS should be able to edi
         fields: 
           - {label: "Text", name: "text", widget: "text", required: false}
           - {label: "Author", name: "author", widget: "string", required: false}
-  
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+
   - name: categoryOverview-page
     label: Category Overview
     media_folder: /static/img
@@ -321,7 +386,25 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'object'
         fields: 
           - {label: "Text", name: "text", widget: "text", required: false}
-          - {label: "Author", name: "author", widget: "string", required: false}           
+          - {label: "Author", name: "author", widget: "string", required: false}  
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }         
   - name: categoryOverview-comp
     label: Category Overview Comp
     media_folder: /static/img
@@ -347,7 +430,25 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'object'
         fields: 
           - {label: "Text", name: "text", widget: "text", required: false}
-          - {label: "Author", name: "author", widget: "string", required: false}   
+          - {label: "Author", name: "author", widget: "string", required: false}  
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }     
   - name: 'changelog'
     label: 'Change Log'
     media_folder: /static/img
@@ -380,7 +481,24 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Intro, name: intro, widget: text }
           - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block',  'buttonsBlock', "imageAndText"] }
           - { label: 'Content', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage',  'collapse', 'code-block',  'buttonsBlock'] }
- 
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }    
   - name: 'homepage'
     label: 'Home Page'
     files:
@@ -421,7 +539,24 @@ collections: # A list of collections the CMS should be able to edi
             fields:
               - {label: Text, name: text, widget: string }
               - {label: Url, name: url, widget: string }
-             
+        - label: 'Meta'
+          required: false
+          name: 'meta'
+          widget: 'object'
+          fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }       
          
 
   - name: 'settings'
@@ -435,7 +570,7 @@ collections: # A list of collections the CMS should be able to edi
         name: 'global-settings'
         fields:
           - { label: Site Title, name: siteTitle, widget: string }
-          - { label: Site Headline, name: siteHeadline, widget: string }
+          - {label: Site Title Abbreviation, name: siteTitleAbbreviation, widget: string, required: false}
           - { label: Site Url, name: siteUrl, widget: string, required: false }
           - {
               label: Site Description,

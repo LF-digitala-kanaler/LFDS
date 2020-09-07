@@ -42,6 +42,9 @@ relatedLinks:
     url: https://lf-digitala-kanaler.github.io/LFUI-components/
   - text: Prototypes
     url: https://lf-digitala-kanaler.github.io/prototypes/
+meta:
+  description: This is a meta description.
+  title: The Ultimate Gatsby Starter
 ---
 **New designer at Länsförsäkringar?**
 
