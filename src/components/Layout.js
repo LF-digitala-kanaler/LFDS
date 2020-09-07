@@ -27,11 +27,6 @@ export default ({
     <StaticQuery
       query={graphql`
         query IndexLayoutQuery {
-          site {
-            siteMetadata {
-              headline
-            }
-          }
           settingsYaml {
             siteTitle
             siteDescription
@@ -44,7 +39,7 @@ export default ({
         }
       `}
       render={data => {
-
+        
         description = meta?.description ?  meta.description : description;
         
         const {  socialMediaCard, siteUrl, siteTitleAbbreviation  } =    
@@ -82,7 +77,7 @@ export default ({
 
             
               <Header 
-                title={data.site.siteMetadata.headline} 
+                title={data.settingsYaml.siteTitle} 
                 breadcrumb={breadcrumb}
                 menu={menu}
               />

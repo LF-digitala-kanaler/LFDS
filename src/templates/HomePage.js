@@ -75,7 +75,7 @@ const HomePage = ({
       media: `(max-width: 820px)`,
     },
   ]
-  
+  console.log(page.frontmatter)
   return (
     <Layout
       meta={page.frontmatter.meta || false}

@@ -80,6 +80,7 @@ const ComponentPage = ({
   
   return (
     <Layout
+      meta={page.frontmatter.meta || false}
       description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}

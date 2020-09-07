@@ -9,6 +9,7 @@ export const query = graphql`
         title
         noindex
         canonicalLink
+        description
       }
     }
   }
@@ -28,7 +29,7 @@ export default class Meta extends Component {
     
     return (
       <Helmet>
-        {console.log(description, 'desc')}
+        {/* {console.log(description, 'desc')} */}
         
         {title && <meta name="title" content={title} /> }
         {description && <meta name="description" content={description} />}
