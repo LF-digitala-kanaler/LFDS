@@ -44,7 +44,7 @@ relatedLinks:
     url: https://lf-digitala-kanaler.github.io/prototypes/
 meta:
   description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  title: Länsförsäkringar Design System
 ---
 **New designer at Länsförsäkringar?**
 

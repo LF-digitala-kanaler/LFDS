@@ -44,14 +44,16 @@ export default ({
         }
       `}
       render={data => {
-        const { siteTitle, socialMediaCard, siteUrl, siteTitleAbbreviation  } =    
+
+        
+        const {  socialMediaCard, siteUrl, siteTitleAbbreviation  } =    
             data.settingsYaml || {}
         return (
           
           <Fragment>
             <Helmet
-              defaultTitle={siteTitle}
-              titleTemplate={`%s | ${siteTitleAbbreviation}`}
+              titleTemplate={`%s`}
+              defaultTitle={`${title} | ${siteTitleAbbreviation}`}
               bodyAttributes={{
                 class: backgroundClass
               }}
@@ -69,7 +71,8 @@ export default ({
                 socialMediaCard.image &&
                 stripTrailingSlash(siteUrl) + socialMediaCard.image
               }
-              description={description}
+              // If there is no meta description added to cms use the intro field instead
+              description={meta.description || description}
               {...data.settingsYaml}
               {...meta}
             />

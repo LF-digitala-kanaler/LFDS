@@ -81,7 +81,6 @@ const ComponentPage = ({
   return (
     <Layout
       description={page.frontmatter.intro || false}
-
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
       menu={true}
