@@ -80,6 +80,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
       - label: 'Meta'
         required: false
+        collapsed: true
         name: 'meta'
         widget: 'object'
         fields:
@@ -163,6 +164,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
       - label: 'Meta'
         required: false
+        collapsed: true
         name: 'meta'
         widget: 'object'
         fields:
@@ -245,6 +247,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
       - label: 'Meta'
         required: false
+        collapsed: true
         name: 'meta'
         widget: 'object'
         fields:
@@ -345,6 +348,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Meta'
         required: false
         name: 'meta'
+        collapsed: true
         widget: 'object'
         fields:
           - { label: Title, name: title, widget: string, required: false }
@@ -390,6 +394,7 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Meta'
         required: false
         name: 'meta'
+        collapsed: true
         widget: 'object'
         fields:
           - { label: Title, name: title, widget: string, required: false }
@@ -433,6 +438,7 @@ collections: # A list of collections the CMS should be able to edi
           - {label: "Author", name: "author", widget: "string", required: false}  
       - label: 'Meta'
         required: false
+        collapsed: true
         name: 'meta'
         widget: 'object'
         fields:
@@ -483,6 +489,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: 'Content', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage',  'collapse', 'code-block',  'buttonsBlock'] }
           - label: 'Meta'
             required: false
+            collapsed: true
             name: 'meta'
             widget: 'object'
             fields:
@@ -541,6 +548,7 @@ collections: # A list of collections the CMS should be able to edi
               - {label: Url, name: url, widget: string }
           - label: 'Meta'
             required: false
+            collapsed: true
             name: 'meta'
             widget: 'object'
             fields:
