@@ -26,7 +26,7 @@ export default class Meta extends Component {
       siteTitle
     } = this.props
     
-    
+    console.log(title, siteTitle)
     return (
       <Helmet>
         {title && <title>{title}</title>}
@@ -42,7 +42,7 @@ export default class Meta extends Component {
         {canonicalLink && <link rel="canonical" href={canonicalLink} />}
 
         <meta property="og:locale" content="en_US" />
-        <meta property="og:site_name" content={siteTitle} />
+        <meta property="og:site_name" content={title} />
         
         <meta property="og:image:secure_url" content={absoluteImageUrl} />
         <meta property="og:image" content={absoluteImageUrl} />
