@@ -23,9 +23,9 @@ export default class Meta extends Component {
       description,
       absoluteImageUrl = '',
       canonicalLink,
-      siteTitle,
-      siteDescription
+      siteTitle
     } = this.props
+    
     
     return (
       <Helmet>

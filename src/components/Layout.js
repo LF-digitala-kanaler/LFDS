@@ -5,7 +5,7 @@ import Meta from './Meta'
 import Footer from './Footer'
 import Header from './Header'
 import css from '!!raw-loader!lfui-components/dist/docs/docs.css'; 
-
+import { stripTrailingSlash } from '../utils/RemoveTrailingSlash';
 // import 'lfui/dist/lf.css';
 import 'modern-normalize/modern-normalize.css'
 import "../components/_base/index.css"
@@ -17,7 +17,8 @@ export default ({
   description,
   breadcrumb,
   backgroundClass,
-  menu
+  menu,
+  meta
   }) => {
 
   
@@ -34,6 +35,7 @@ export default ({
           settingsYaml {
             siteHeadline
             siteDescription
+            siteUrl
             socialMediaCard {
               image
             }
@@ -43,7 +45,7 @@ export default ({
         }
       `}
       render={data => {
-        const { siteHeadline, socialMediaCard  } =    
+        const { siteHeadline, socialMediaCard, siteUrl  } =    
             data.settingsYaml || {}
         return (
           
@@ -65,11 +67,11 @@ export default ({
               absoluteImageUrl={
                 socialMediaCard &&
                 socialMediaCard.image &&
-                socialMediaCard.image
+                stripTrailingSlash(siteUrl) + socialMediaCard.image
               }
               description={description}
               {...data.settingsYaml}
-              
+              {...meta}
             />
 
             
