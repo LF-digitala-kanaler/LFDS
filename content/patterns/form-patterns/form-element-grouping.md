@@ -9,7 +9,13 @@ lang: false
 hidden: false
 ---
 <LfuiWrapper>
-<form> <div class="form-group"> <label for="exampleInputEmail1">Personnummer</label> <input type="text" pattern="\[0-9]{6,8}-?\[0-9]{4}" required="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp1" placeholder="ååååmmdd-nnnn"> <small id="emailHelp1" class="form-text text-muted">Vi använder din folkbokföringsadress</small> </div> <div class="form-group"> <label for="exampleInputPassword1">Lösenord</label> <input type="password" required="" class="form-control" id="exampleInputPassword1" placeholder="Password"> </div> <div class="form-group"> <label for="exampleInputEmail2">Personnummer</label> <input type="email" required="" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp2" placeholder="920618-0808" disabled=""> <small id="emailHelp2" class="form-text text-muted">Vi använder din folkbokföringsadress</small> </div> <div class="form-group"> <label for="exampleTextarea">Meddelande</label> <textarea class="form-control" required="" id="exampleTextarea" rows="3"></textarea> </div> </form>
+<div width="100%" style="background-color: white; padding: 8px; border: 1px dashed #B1B3B6">
+
+<h5 style="margin-top: -19px; margin-left: -1px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of correct form element grouping</span></h5>
+
+<form> <div class="form-group"> <label for="exampleInputEmail1">Heading</label> <input type="text" class="form-control" style="width: 50%" aria-describedby="emailHelp1" placeholder="placeholder-text"> <small id="emailHelp1" class="form-text text-muted">(Optional) input field description</small> </div>  </form>
+
+</div>
 </LfuiWrapper>
 
 
