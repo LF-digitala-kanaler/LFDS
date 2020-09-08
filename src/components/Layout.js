@@ -41,7 +41,7 @@ export default ({
       render={data => {
         
         description = meta?.description ?  meta.description : description;
-        
+        console.log(description)
         const {  socialMediaCard, siteUrl, siteTitleAbbreviation  } =    
             data.settingsYaml || {}
         return (
