@@ -13,9 +13,6 @@ In user testing we've found that  unless there is some marker indicating that on
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
 <LfuiWrapper>
-
-
-```html
 <form class="needs-validation" novalidate>
   <div class="form-row">
     <div class="col-md-4 mb-3">
@@ -102,5 +99,4 @@ If a field is required, the field should have proper validation. Read more about
   }, false);
 })();
 </script>
-```
 </LfuiWrapper>
