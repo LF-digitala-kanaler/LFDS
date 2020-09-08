@@ -11,7 +11,7 @@ hidden: false
 <LfuiWrapper>
 <div width="100%" style="background-color: white; padding: 8px">
 
-<h6 style:"z-index: -10">Example of correct form element grouping</h6>
+<h5 style="margin-top: -19px">Example of correct form element grouping</h5>
 
 <form> <div class="form-group"> <label for="exampleInputEmail1">Heading</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"> <small id="emailHelp1" class="form-text text-muted">(Optional) input field description</small> </div>  </form>
 
