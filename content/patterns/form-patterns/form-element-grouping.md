@@ -9,11 +9,11 @@ lang: false
 hidden: false
 ---
 <LfuiWrapper>
-<div width="100%" style="background-color: white; padding: 8px">
+<div width="100%" style="background-color: white; padding: 8px; border: 1px dashed #B1B3B6">
 
-<h5 style="margin-top: -19px">Example of correct form element grouping</h5>
+<span style="margin-top: -19px; background-color: #B1B3B6; color: white; font-size: 1.2em">Example of correct form element grouping</span>
 
-<form> <div class="form-group"> <label for="exampleInputEmail1">Heading</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"> <small id="emailHelp1" class="form-text text-muted">(Optional) input field description</small> </div>  </form>
+<form> <div class="form-group"> <label for="exampleInputEmail1">Heading</label> <input type="text" class="form-control" size="36" aria-describedby="emailHelp1" placeholder="placeholder-text"> <small id="emailHelp1" class="form-text text-muted">(Optional) input field description</small> </div>  </form>
 
 </div>
 </LfuiWrapper>
