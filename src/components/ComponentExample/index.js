@@ -106,7 +106,7 @@ const ComponentExample = ({variants, background, verticalResize, navigation}) =>
     <React.Fragment>
         <div className={style.ComponentExample}>
           <div className={style.ComponentExample__head}>
-            <div>{ variants.length > 1 && <ComponentNavigation  onChildClick={handleChildClick} navigation={nav} /> }</div>
+            <div>{ variants.length > 1 &&  navigation && <ComponentNavigation  onChildClick={handleChildClick} navigation={nav} /> }</div>
            <div><Actions white={handleSetBackgroundToWhite} grey={handleSetBackgroundToGrey} toggleCode={toggleCode} /></div>
           </div>
           {
