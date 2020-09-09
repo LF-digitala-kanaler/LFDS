@@ -91,7 +91,7 @@ const ComponentPage = ({
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={page.fields.frontmattermd.tabs || page.frontmatter.tabs }
+        tabs={page.fields.frontmattermd?.tabs || page.frontmatter.tabs }
         category={page.frontmatter.category}
         componentsExample={componentExample.examples}
         componentsNavigation={page.frontmatter.componentsNavigation }

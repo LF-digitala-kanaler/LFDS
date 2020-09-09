@@ -14,5 +14,6 @@ tabs:
       Input field description/meta
 
       Error messages
-
+lang: false
+hidden: false
 ---

@@ -200,7 +200,7 @@ module.exports = {
             // default: { blacklist: [] }
             options: {
               // frontmatter fields to exclude, including all others
-              blacklist: ['template','previewImage','description','category','excerpt','backgroundColor', 'intro', 'tabs.content', 'verticalResize']
+              blacklist: ['template','previewImage','description','category','excerpt','backgroundColor', 'intro', 'tabs.content', 'verticalResize', 'lang', 'hidden']
               // frontmatter fields to include, excluding all others
               //whitelist: ['tabs']
             }
