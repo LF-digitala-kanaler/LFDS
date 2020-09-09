@@ -15,6 +15,8 @@ Our various [input elements](/components/web/forms/) (such as [input fields](/co
 Below is an example of how form elements should be grouped, with the [label](/components/web/text/specific-use-text-styles#labels) above the input element. If an [input description](/components/web/text/specific-use-text-styles) is needed, it should be placed below the form element.
 
 <LfuiWrapper>
+
+
 <div width="100%" style="background-color: white; padding: 8px; border: 1px dashed #B1B3B6">
 
 <h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of correct form element grouping</span></h5>
@@ -22,6 +24,8 @@ Below is an example of how form elements should be grouped, with the [label](/co
 <form> <div class="form-group" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
 
 </div>
+
+
 </LfuiWrapper>
 
 The three form elements should be used as follows:
@@ -34,20 +38,20 @@ The three form elements should be used as follows:
 
 ### Error message handling
 
-If an error occurs during the [form validation,](form-validation) the error message is placed as a part of the form element group where the error occurs. 
+If an error occurs during the [form validation,](form-validation) the [error message](/components/web/text/specific-use-text-styles) is placed as a part of the form element group where the error occurs as follows: 
 
 <LfuiWrapper>
 <div width="100%" style="background-color: white; padding: 8px; border: 1px dashed #B1B3B6">
 
-<h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of correct form element grouping</span></h5>
+<h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of error message in form group</span></h5>
 
-<form> <div class="form-group" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"><small class="form-control-feedback">Error messages is placed between input and field description</small> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
+<form> <div class="form-group has-danger" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"><small class="form-control-feedback">Error messages is placed between input and input description</small> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
 
 </div>
 </LfuiWrapper>
 
-##### Saker som ska in på sidan men inte är skrivna än:
+As can be seen from the example, the error message is placed just below the input element, pushing the input description below it (if present at all).
 
-*hur felmeddelanden dyker upp och relationen till hjälptexter*
+##### Saker som ska in på sidan men inte är skrivna än:
 
 *flera element*
