@@ -114,7 +114,7 @@ tabs:
       ## How to use
 
 
-      The dropdown can be included with `import CustomSelect from 'custom-select';` and be used in your own javascript.
+      The dropdown can be included with `import CustomSelect from 'custom-select';` and be used in your javascript.
 
 
       ```
