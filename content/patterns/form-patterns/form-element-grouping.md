@@ -19,7 +19,7 @@ Below is an example of how form elements should be grouped, with the [label](/co
 
 <h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of correct form element grouping</span></h5>
 
-<form> <div class="form-group"> <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" style="width: 50%" aria-describedby="emailHelp1" placeholder="placeholder-text"> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
+<form> <div class="form-group" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
 
 </div>
 </LfuiWrapper>
@@ -30,20 +30,24 @@ The three form elements should be used as follows:
 * The **input element** can feature a placeholder text. The placeholder text should be used to give an example of expected format if there are limitations on how to write them (examples can be found under the copy-tab of the element, like here on[ input field](/components/web/forms/input-field?copy)).
 * **Input descriptions** are used when we need/want to give further explanation or instructions to the user. They should also be kept short and not span more than two rows. An example is "Lämna fältet tomt om namnet inte är bestämt" from the [purchase flow for kid insurance](https://www.lansforsakringar.se/stockholm/privat/forsakring/personforsakring/gravidforsakring/ansok/).
 
-  * The input description is also used for GFPR-compliance links as soon as the user enters personal data. It should be placed under the first field which handles personal data in a flow.
+  * The input description is also used for GDPR-compliance links as soon as the user enters personal data. It should be placed under the first field which handles personal data in a flow. Scroll down to "Fråga eller boka rådgivning" on the [contact page on lf.se](https://www.lansforsakringar.se/stockholm/privat/om-oss/kontakta-oss/) for a live example of this principle.
 
+### Error message handling
 
+If an error occurs during the [form validation,](form-validation) the error message is placed as a part of the form element group where the error occurs. 
 
-Saker att ha med:
+<LfuiWrapper>
+<div width="100%" style="background-color: white; padding: 8px; border: 1px dashed #B1B3B6">
 
-labels (över)
+<h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of correct form element grouping</span></h5>
 
-input fields (deras relation till övrigt)
+<form> <div class="form-group" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"><small class="form-control-feedback">Error messages is placed between input and field description</small> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
 
-hjälptexter (input field descriptions)
+</div>
+</LfuiWrapper>
 
-hur felmeddelanden dyker upp och relationen till hjälptexter
+##### Saker som ska in på sidan men inte är skrivna än:
 
+*hur felmeddelanden dyker upp och relationen till hjälptexter*
 
-
-flera element
+*flera element*
