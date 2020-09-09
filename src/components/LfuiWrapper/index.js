@@ -9,7 +9,7 @@ const LfuiWrapper = ({children}) => {
   return (
     <article className="lfui-theme">
       {children}
-      <Content source={`${validation}`} />
+      <script>{validation}</script>
     </article>
   )
 };
