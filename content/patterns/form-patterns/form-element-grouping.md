@@ -47,7 +47,7 @@ If an error occurs during the [form validation,](form-validation) the [error mes
 
 <h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of error message in form group</span></h5>
 
-<form> <div class="form-group has-danger" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"><small class="form-control-feedback">Error messages are placed between input and input description</small> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
+<form> <div class="form-group has-danger" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" value="Something is wrong with this input"><small class="form-control-feedback">Error messages are placed between input and input description</small> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
 
 </div>
 </LfuiWrapper>
@@ -59,3 +59,5 @@ As can be seen from the example, the error message is placed just below the inpu
 ##### Saker som ska in på sidan men inte är skrivna än:
 
 *flera element*
+
+*panel, dela upp i segment*
