@@ -54,7 +54,7 @@ If an error occurs during the [form validation,](form-validation) the [error mes
 
 
 
-As can be seen from the example, the error message is placed just below the input element, pushing the input description below it (if present at all).
+As can be seen from the example, the error message is placed just below the input element, pushing the input description below it (if present at all). You can find the guidelines on how to write error messages in the [Writing-section](/patterns/general-patterns/writing).
 
 ##### Saker som ska in på sidan men inte är skrivna än:
 
