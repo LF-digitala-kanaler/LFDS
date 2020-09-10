@@ -60,7 +60,7 @@ As can be seen from the example, the error message is placed just below the inpu
 
 Thus far, this page has focused on how to group form elements together but when creating a form you will work with many form elements. As every form is unique, your design needs to be based on what your form is supposed to do. However, there are a few general rules of thumb you should keep in mind. All of these are present in the image below.
 
-<figure class="Image Image__background"><img src="/img/form-grouping-examples.png" srcset="/img/form-grouping-examples.png 2x" alt="Example of form grouping"><figcaption><div class="Image__caption">Example of form grouping</div></figcaption></figure>
+<figure class="Image Image__background"><img src="/img/form-grouping-examples.png" srcset="/img/form-grouping-examples.png 2x" alt="Example of form grouping"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Use the grid
 
