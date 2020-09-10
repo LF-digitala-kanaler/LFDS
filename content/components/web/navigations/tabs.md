@@ -145,15 +145,43 @@ tabs:
       ### In-page navigation
 
 
-      In-page navigation is our "normal" tabs component. It uses Bootstrap's tab JavaScript plugin to create tabbable regions.
+      In-page navigation is our "normal" tab component. It uses Bootstrap's tab JavaScript plugin to create tabbable regions. 
 
 
+      ```
+
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#tab1a" role="tab">Tabby</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#tab2a" role="tab">Tubby</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#tab3a" role="tab">Trip</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab1a" role="tabpanel"></div>
+        <div class="tab-pane" id="tab2a" role="tabpanel"></div>
+        <div class="tab-pane" id="tab3a" role="tabpanel"></div>
+      </div>
+
+      ```
 
 
-      \* .nav-small - less x- and y-padding
+      Make sure the href of  `.nav-link` and id of the `.tab-pane` match and use `data-toggle="tab"` to activate the navigation tab. 
 
 
-      \* .nav-tight - less x-padding
+      There is a couple of classes you can add to `.nav` that modify the tab design: 
+
+
+      * .nav-small - less x and y tab padding 
+
+      * .nav-tight - less x tab padding 
+
+
 
 
       ## Accessibility
