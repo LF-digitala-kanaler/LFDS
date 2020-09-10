@@ -146,6 +146,23 @@ tabs:
 
 
       In-page navigation is our "normal" tabs component. It uses Bootstrap's tab JavaScript plugin to create tabbable regions.
+
+
+
+
+      \* .nav-small - less x- and y-padding
+
+
+      \* .nav-tight - less x-padding
+
+
+      ## Accessibility
+
+
+      If you’re using navs to provide a navigation bar, be sure to add a `role="navigation"` to the most logical parent container of the `<ul>`, or wrap a `<nav>` element around the whole navigation. Do not add the role to the `<ul>` itself, as this would prevent it from being announced as an actual list by assistive technologies.
+
+
+      Note that navigation bars, even if visually styled as tabs with the `.nav-tabs` class, should **not** be given `role="tablist"`, `role="tab"` or `role="tabpanel"` attributes. ([soruce](https://getbootstrap.com/docs/4.0/components/navs/#regarding-accessibility))
     name: Code
 backgroundColor: "#f3f3f3"
 ---
