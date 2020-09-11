@@ -16,7 +16,7 @@ At the bottom of this page you will find an illustrative image which exemplifies
 
 * Use the grid
 * Do not place more than two elements next to each other
-* Make the size of the input element correspond to the expected length of the input
+* Size of the element shows the expected length of input
 * Create clusters of related information
 
 Below you can find the rules of thumb explained in greater detail. For information on how to put the various form elements together, refer to [Form element grouping.](form-element-grouping)
@@ -25,11 +25,11 @@ Below you can find the rules of thumb explained in greater detail. For informati
 
 When placing your elements, make sure to follow [our design dimensions](/visual-identity/design-dimensions) (the grid).
 
-## Do not place more than two elements next to each other
+## Neighbouring elements 
 
 It is often a good idea to put two different input elements next to each other to give a more compact feeling to the form. The items should have a natural connection to each other, like postal number and postal address in the example image below. Make sure to not put more than two items next to each other however as it decreases readability of the form drastically and makes it more difficult to know in which order to fill it out.
 
-## Make the size of the input element correspond to the expected length of the input
+## Size shows expected content length
 
 When designing a form, use the length of the element to give the user an idea of expected length of the input. If it only is a few characters (like postal number in the image below), make the input element short and let the adjacent one be bigger (like postal address below).
 
