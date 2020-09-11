@@ -26,14 +26,6 @@ contentTop: >-
   Denna typ av text ska uppmärksamma kunden på något som tillfälligt inte fungerar eller går att använda som vanligt. Meddelandet skriva ofta i komponenten [Alert](https://lf-digitala-kanaler.github.io/components/web/system-display/alert). Det som på öppna sidor i Episerver heter Viktigt meddelande under Arkiv för startsidan eller på respektive produktsida. 
 
 
-  #### Antal tecken
-
-
-  Observera att 100 tecken är max i appen. Samma meddelande kan användas på Mina sidor. \
-
-  På öppna sidorna kan 120 (?) tecken användas. Där är Rubriken alltid Viktigt meddelande (även på produktsidorna?)
-
-
   #### Vad bör finnas med i felmeddelandet? 
 
 
@@ -45,7 +37,15 @@ contentTop: >-
 
   * Är det kanalspecifikt eller kan de göra det i någon annan kanal? 
 
-  * När fungerar det igen?
+  * När fungerar det igen? 
+
+
+  #### Antal tecken
+
+
+  Observera att 100 tecken är max i appen. Samma meddelande kan användas på Mina sidor. \
+
+  På öppna sidorna kan 120 (?) tecken användas. Där är Rubriken alltid Viktigt meddelande (även på produktsidorna?)
 wide: false
 lang: false
 ---
