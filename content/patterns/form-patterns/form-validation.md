@@ -2,19 +2,20 @@
 template: ArticlePage
 category: Form patterns
 title: Form validation
-intro: >-
-  Initial form validation at Länsförsäkringar is done as the user submits a form
-  page. If there are any errors the user is automatically scrolled to the
+intro: Initial form validation at Länsförsäkringar is done as the user submits a
+  form page. If there are any errors the user is automatically scrolled to the
   topmost error. As the user starts to correct errors they get immediate
   feedback on their progress.
 ---
 The rules for form validation are based on a combination of academic research and our own user testing. Our review of academic research on form validation found that there are two general patterns which outperform others when user experience, completion time and amount of errors. When these two patterns were tested on LFUI-styled design we found that users preferred and expected the following pattern (also see [Technical implementation](#technical-implementation) below if you're a developer):
 
-1. Let the users fill out the form without interrupting them with error messages. \
+1. Let the users fill out the form without interrupting them with error messages. 
+
    * Exception: if the field has a specific length (e.g. "personnummer", "registreringsnummer") and the user enters more characters than is expected.
-2. When the user submits the form any potential error messages are shown to them. This includes warnings if a [required field](../required-fields/) has been left blank.
+2. When the user submits the form any potential [error messages](form-element-grouping#error-message-handling) are shown to them. This includes warnings if a [required field](../required-fields/) has been left blank.
 3. The user is automatically scrolled to the topmost error (if several, otherwise the error). Again, including blank required fields.
-4. As the user starts to correct the error it is controlled live, which means we can provide the user with positive feedback as soon as they've corrected the error.\
+4. As the user starts to correct the error it is controlled live, which means we can provide the user with positive feedback as soon as they've corrected the error.
+
    * If a required field has been left blank the error message is removed as soon as the user starts entering text/data into the field. From there on validation follows the general pattern.
 
 # HÄR SKA DET SEN LIGGA ETT FULLT FUNGERANDE EXEMPEL PÅ VALIDERING MED ALLA STEG
