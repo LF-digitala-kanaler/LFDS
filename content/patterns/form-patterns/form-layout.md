@@ -27,14 +27,14 @@ When placing your elements, make sure to follow [our design dimensions](/visual-
 
 ## Do not place more than two elements next to each other
 
-It is often a good idea to put two different input elements next to each other to give a more compact feeling to the form. The items should have a natural connection to each other, like postal number and postal address in the example image above. Make sure to not put more than two items next to each other however as it decreases readability of the form drastically and makes it more difficult to know in which order to fill it out.
+It is often a good idea to put two different input elements next to each other to give a more compact feeling to the form. The items should have a natural connection to each other, like postal number and postal address in the example image below. Make sure to not put more than two items next to each other however as it decreases readability of the form drastically and makes it more difficult to know in which order to fill it out.
 
 ## Make the size of the input element correspond to the expected length of the input
 
-When designing a form, use the length of the element to give the user an idea of expected length of the input. If it only is a few characters (like postal number in the image above), make the input element short and let the adjacent one be bigger (like postal address above).
+When designing a form, use the length of the element to give the user an idea of expected length of the input. If it only is a few characters (like postal number in the image below), make the input element short and let the adjacent one be bigger (like postal address below).
 
 ## Create clusters of related information
 
-To make longer forms easier to fill out and more intelligible to users, make sure to create clusters of input elements. In longer forms (like the one depicted above), it is common to use [panels](/components/web/page-content/panel) as a way of creating visually distinct clusters. As an added bonus, the panel provides you with headings so you can inform the user in advance what the cluster contains.
+To make longer forms easier to fill out and more intelligible to users, make sure to create clusters of input elements. In longer forms (like the one depicted below), it is common to use [panels](/components/web/page-content/panel) as a way of creating visually distinct clusters. As an added bonus, the panel provides you with headings so you can inform the user in advance what the cluster contains.
 
 <figure class="Image Image__background"><img src="/img/form-grouping-examples.png" srcset="/img/form-grouping-examples.png 2x" alt="Example of form layout"><figcaption><div class="Image__caption"></div></figcaption></figure>
