@@ -10,7 +10,7 @@ wide: false
 lang: false
 hidden: false
 ---
-Our various [input elements](/components/web/forms/) (such as [input fields](/components/web/forms/input-field), [dropdowns](/components/web/forms/dropdown), etc) are all grouped together with labels and input descriptions in the same manner. Error messages for forms are also part of the form element grouping and are thus also described on this page.
+Our various [input elements](/components/web/forms/) (such as [input fields](/components/web/forms/input-field), [dropdowns](/components/web/forms/dropdown), etc) are all grouped together with labels and input descriptions in the same manner. Error messages for forms are also part of the form element grouping and are thus also described on this page. If you're looking for information on how to design a form, please refer to [Form layout](form-layout).
 
 Below is an example of how form elements should be grouped, with the [label](/components/web/text/specific-use-text-styles#labels) above the input element. If an [input description](/components/web/text/specific-use-text-styles) is needed, it should be placed below the form element.
 
@@ -55,25 +55,3 @@ If an error occurs during the [form validation,](form-validation) the [error mes
 </LfuiWrapper>
 
 As can be seen from the example, the error message is placed just below the input element, pushing the input description below it (if present at all). You can find the guidelines on how to write error messages in the [Writing-section](/patterns/general-patterns/writing).
-
-### Designing a form
-
-Thus far, this page has focused on how to group form elements together but when creating a form you will work with many form elements. As every form is unique, your design needs to be based on what your form is supposed to do. However, there are a few general rules of thumb you should keep in mind. All of these are present in the image below.
-
-<figure class="Image Image__background"><img src="/img/form-grouping-examples.png" srcset="/img/form-grouping-examples.png 2x" alt="Example of form grouping"><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-#### Use the grid
-
-When placing your elements, make sure to follow [our design dimensions](/visual-identity/design-dimensions) (the grid).
-
-#### Not more than two elements next to each other
-
-It is often a good idea to put two different input elements next to each other to give a more compact feeling to the form. The items should have a natural connection to each other, like postal number and postal address in the example image above. Make sure to not put more than two items next to each other however as it decreases readability of the form drastically and makes it more difficult to know in which order to fill it out.
-
-#### Make the size of the input element correspond to expected length of input
-
-When designing a form, use the length of the element to give the user an idea of expected length of the input. If it only is a few characters (like postal number in the image above), make the input element short and let the adjacent one be bigger (like postal address above).
-
-#### Create clusters of related information
-
-To make longer forms easier to fill out and more intelligible to users, make sure to create clusters of input elements. In longer forms (like the one depicted above), it is common to use [panels](/components/web/page-content/panel) as a way of creating visually distinct clusters. As an added bonus, the panel provides you with headings so you can inform the user in advance what the cluster contains.
