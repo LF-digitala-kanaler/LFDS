@@ -189,9 +189,9 @@ figure {
 }
 .Content--normal .Image__background,
 .Content .Image__background {
-  @media (--xlarge-viewport) { 
+  /* @media (--xlarge-viewport) { 
     width: calc(var(--content-width) - 32px);
-  }
+  } */
 } 
 .Content--normal .Image {
   margin-bottom: 0;
