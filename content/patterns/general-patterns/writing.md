@@ -17,7 +17,7 @@ contentTop: >-
   ### Validering av fält 
 
 
-  Felmeddelanden för fältvalidering, ligger under respektive komponent, exempelvis under [Forms](https://lf-digitala-kanaler.github.io/components/web/forms).
+  Felmeddelanden för fältvalidering, ligger under respektive komponent under [Forms](https://lf-digitala-kanaler.github.io/components/web/forms).
 
 
   ### Incident eller systemunderhåll
