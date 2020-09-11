@@ -20,9 +20,6 @@ contentTop: >-
   Felmeddelanden för fältvalidering, ligger under respektive komponent, exempelvis under [Forms](https://lf-digitala-kanaler.github.io/components/web/forms).
 
 
-  Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig, var vänlig och framförallt när det är vårt fel – var ödmjuk.
-
-
   ### Incident eller systemunderhåll
 
 
