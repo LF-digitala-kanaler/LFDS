@@ -15,7 +15,7 @@ hidden: false
 At the bottom of this page you will find an illustrative image which exemplifies all our rules of thumb. The rules of thumb are:
 
 * Use the grid
-* Do not place more than two elements next to each other
+* Do not place more than two elements next to each other (neighbouring elements)
 * Size of the element shows the expected length of input
 * Create clusters of related information
 
