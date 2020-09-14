@@ -22,7 +22,7 @@ tabs:
 
       * To **present data**, meaning the tables are filled with information of different kinds such as your transaction history or [current fund value](https://www.lansforsakringar.se/privat/bank/spara/fondkurser/?shortcut=1).
 
-      * To **compare** different offerings. This is primarily used to showcase the difference between different versions of a type of insurance, like in [this example](https://www.lansforsakringar.se/privat/forsakring/personforsakring/olycksfall-sjukforsakring/).
+      * To **compare** different offerings. This is primarily used to showcase the difference between different versions of a type of insurance, [exemplified here](https://www.lansforsakringar.se/privat/forsakring/personforsakring/olycksfall-sjukforsakring/).
 
 
       A very common pattern for tables are for them to be used together with [panels](panel), as the two components fit well together with the panel providing a framing for the table. What the user will understand as the table header is actually the panel header, and what technically is the header row of the tables is used to describe the column labels of the table. The image below exemplifies how it might look:
