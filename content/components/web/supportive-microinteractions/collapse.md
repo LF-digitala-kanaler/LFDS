@@ -10,7 +10,7 @@ previewImage: /img/collapse.svg
 category: Supportive microinteractions
 componentsNavigation:
   - name: White
-  - name: Gray
+  - name: Grey
 tabs:
   - content: >-
       ## How to use
