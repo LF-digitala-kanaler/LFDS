@@ -1,9 +1,9 @@
 ---
 template: ArticlePage
 category: General patterns
-title: Writing
-intro: "Här kan du läsa om hur vi generellt skriver olika typer av texter, som
-  felmeddelanden eller incidenttexter. "
+title: Felmeddelanden och information
+intro: "Här kan du läsa om hur vi generellt skriver felmeddelanden i tjänster
+  och informationstexter vid till exempel incidenter eller systemunderhåll. "
 description: ""
 contentTop: >-
   
