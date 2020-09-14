@@ -26,6 +26,10 @@ section .Collapse:last-of-type  {
   @media (--medium-viewport) { 
     padding: var(--spacing-xxlg) var(--spacing-xlg) var(--spacing-xxlg) 0;
   }
+
+  &.Collapse--active {
+    font-weight: bold;
+  }
 }
 
 .Collapse__icon {
