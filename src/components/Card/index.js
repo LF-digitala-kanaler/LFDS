@@ -11,7 +11,6 @@ const Card = ({title, url, image, description, grid, lang}) => {
     <Link className={cx(style.Card, (grid ? '' :  style['Card--list'] ))} to={`${url}`} >
       <article className={cx(!grid ? style.Card__wrapper : '' )}>
         <div className={cx(style.Card__image, (grid ? '' :  style['Card__image--spacing'] ))}>
-          
           {
             image != null ?
               <img className={style.Card__object} src={image.publicURL} alt=" " />
