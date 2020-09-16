@@ -25,9 +25,6 @@ const Card = ({title, url, image, description, grid, lang}) => {
           {!grid &&<p className={style.Card__description}>{description}</p>}
         </div>
       </article>
-     
-      
-     
     </Link>
   );
 }
