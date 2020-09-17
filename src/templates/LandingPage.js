@@ -9,6 +9,10 @@ import CardGrid from '../components/CardGrid';
 import _ from 'lodash';
 import {GlobalStateContext } from "../context/GlobalContextProvider"
 import Content from '../components/Content'
+import groupBy from "lodash/fp/groupBy";
+
+import flow from "lodash/fp/flow";
+const map = require('lodash/fp/map').convert({ 'cap': false });
 
 // Export Template for use in CMS preview
 export const LandingPageTemplate = ({
@@ -46,28 +50,35 @@ const LandingPage = ({ data: { page, allPages, allOverviewPages },currentDirecto
       ? allOverviewPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
-  const overViewGroups = _(overviewPages.items)
-  .chain()
-  .map((item) => {
-    
-    return {
-      category: (item.node.fields.contentType.split("/").pop()).toLowerCase().replace(/\-/g, ' '),  
-      previewImage: item.node.frontmatter.previewImage,
-    }
+  // const overViewGroups = _(overviewPages.items)
+  
+  // .map((item) => {
+  //   return {
+  //     category: (item.node.fields.contentType.split("/").pop()).toLowerCase().replace(/\-/g, ' '),  
+  //     previewImage: item.node.frontmatter.previewImage,
+  //   }
+  // })
+  // .value()
+  
+  const overViewGroups = flow(
+    map((item) => { 
+      return {
+        category: (item.node.fields.contentType.split("/").pop()).toLowerCase().replace(/-/g, ' '),  
+        previewImage: item.node.frontmatter.previewImage,
+      }
   })
-  .value()
+  )(overviewPages.items)
   // get all article pages on current page that does not have a category
   const children = {
     items: allPages.hasOwnProperty('edges')
       ? allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory) && items.node.frontmatter.hidden !== true))
       : false
   }
+  const groups = flow(
+    groupBy('node.frontmatter.category'),
+    map((value, key) => ({ category: (key).toLowerCase(),  link: value, previewImage: overViewGroups.previewImage}))
+  )(children.items)
   
-  const groups = _(children.items)
-  .chain()
-  .groupBy('node.frontmatter.category')
-  .map((value, key) => ({ category: (key).toLowerCase(),  link: value, previewImage: overViewGroups.previewImage}))
-  .value()
 
   const groupsSorted = _.orderBy(groups, [(item) => {
     const nestedObj = _.get(item, 'link');

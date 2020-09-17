@@ -50,8 +50,7 @@ export const ComponentPageTemplate = ({
 const ComponentPage = ({ 
   data: { page, allComponentExample },
   location,
-  currentDirectory,
-  
+  currentDirectory
   },) => {
   
   // window is not avalible during gatsby build 

@@ -11,6 +11,9 @@ import _ from 'lodash';
 import { globalHistory } from "@reach/router"
 import { GlobalDispatchContext,GlobalStateContext } from "../../context/GlobalContextProvider"
 
+import flow from "lodash/fp/flow";
+import groupBy from "lodash/fp/groupBy";
+const map = require('lodash/fp/map').convert({ 'cap': false });
 
 const Menu = ({currentDirectory}) => {
 
@@ -54,15 +57,14 @@ const Menu = ({currentDirectory}) => {
       ? data.allPages.edges.filter(items => (items.node.fields.contentType.includes(currentDirectory)))
       : false
   }
- 
-  const navigationStructure = _(navigationItems.items)
-  .chain()
-  .groupBy('node.frontmatter.category')
-  .map((value, key) => ({ 
-    parentLink: key,  childLink: value}
-  ))
-  .value()
- 
+  
+  const navigationStructure = flow(
+    groupBy('node.frontmatter.category'),
+    map((value, key) => ({ 
+      parentLink: key,  childLink: value}
+    ))
+  )(navigationItems.items)
+
   const navigationStructureSorted = _.orderBy(navigationStructure, [(item) => {
     const nestedObj = _.get(item, 'childLink');
     item['childLink'] = _.orderBy(nestedObj,['node.frontmatter.priority', 'node.frontmatter.title'],['asc', 'asc']);
