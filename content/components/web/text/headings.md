@@ -9,8 +9,8 @@ description: "Headings are used to give the reader an instantaneous idea of the
 previewImage: /img/headings.svg
 category: Text
 componentsNavigation:
-  - name: Display
   - name: Default
+  - name: Display
 tabs:
   - content: >-
       ## How to use
