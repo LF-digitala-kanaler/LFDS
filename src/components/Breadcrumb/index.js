@@ -1,7 +1,7 @@
 import React from "react"
 import style from './index.module.css';
 import { Link } from 'gatsby';
-
+import { capitalizeFirstLetter } from "../../utils/CapitalizeFirstLetter";
 
 const parentDirectory = (url) => {
   
@@ -9,13 +9,13 @@ const parentDirectory = (url) => {
 }
 
 const Breadcrumb = ({location}) => {
-  
+  console.log(location)
   return (
     <div className={style.Breadcrumb}>
       
         <li className={style.Breadcrumb__item}>
           <Link className={style.Breadcrumb__link} to={location.location.pathname.includes('component')  ? '/'+location.location.pathname.split('/')[1] : '/'+location.location.pathname.split('/')[1]}>
-            {location.location.pathname.split('/')[1].replace('-', " ")}
+            {capitalizeFirstLetter(location.location.pathname.split('/')[1].replace('-', " "))}
           </Link>
         </li>
       
