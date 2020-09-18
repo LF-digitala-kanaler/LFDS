@@ -56,19 +56,19 @@ const ComponentExample = ({variants, background, verticalResize, navigation}) =>
 
 		let $script = $('#script', iframeDoc);
 		 function reload() {
+      
 			let script= document.createElement('script');
 			script.type= 'text/javascript'; 
 			script.src= '/lf.js'; 
 			body.appendChild(script);
-			script.parentNode.removeChild(script);
-
+			
       let script2= document.createElement('script');
 			script2.type= 'text/javascript'; 
 			script2.src= '/docs.js'; 
 			body.appendChild(script2);
 			script2.parentNode.removeChild(script2);
-     
-		}
+    }
+    
 		if(isMount){
 			$script.on('load', function(){
 				reload()
@@ -128,20 +128,21 @@ const ComponentExample = ({variants, background, verticalResize, navigation}) =>
                 <html class="lfui-theme">
                   <head>
                   </head>
+                  
                   <body  style="margin: 0">
                     <div class="frame-root"></div>
                     <script
-                    src="https://code.jquery.com/jquery-3.3.1.js"
-                    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-                    crossorigin="anonymous"></script>
-                    <script src="https://d3js.org/d3.v4.min.js"></script>
-                    <script  id="script" type="text/javascript" src="/lf.js"></script>
-                    <script  id="script2" type="text/javascript" src="/docs.js"></script>
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  
+  ></script>
+                    
+                    <script id="script" type="text/javascript" src="/lf.js"></script>
+                    <script id="script2" type="text/javascript" src="/docs.js"></script>
                   </body>
                 </html>`}
               head={
                 <>
-
+                
                 <style>
 
                   {
