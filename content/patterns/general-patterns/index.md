@@ -1,6 +1,6 @@
 ---
 template: CategoryOverview
-previewImage: /img/general-pattern.png
+previewImage: /img/general.png
 title: General patterns
 intro: Länsförsäkringar User Interface är vår plattform för vårt Digitala
   varumärke. här guidar vi dig kring hur du kommer igång som en copy, UX, AD
