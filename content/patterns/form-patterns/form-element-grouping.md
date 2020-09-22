@@ -6,16 +6,14 @@ intro: Describes how to group input elements, labels and input descriptions as
   well as how error messages should be handled.
 description: Describes how to group input elements, labels and input
   descriptions as well as how error messages should be handled.
+background: bg-white
 wide: false
 lang: false
 hidden: false
-background: bg-white
 ---
 Our various [input elements](/components/web/forms/) (such as [input fields](/components/web/forms/input-field), [dropdowns](/components/web/forms/dropdown), etc) are all grouped together with labels and input descriptions in the same manner. Error messages for forms are also part of the form element grouping and are thus also described on this page. If you're looking for information on how to design a form, please refer to [Form layout](form-layout).
 
 Below is an example of how form elements should be grouped, with the [label](/components/web/text/specific-use-text-styles#labels) above the input element. If an [input description](/components/web/text/specific-use-text-styles) is needed, it should be placed below the form element.
-
-
 
 The three form elements should be used as follows:
 
@@ -29,20 +27,10 @@ The three form elements should be used as follows:
 
 If an error occurs during the [form validation,](form-validation) the [error message](/components/web/text/specific-use-text-styles) is placed as a part of the form element group where the error occurs as follows: 
 
-<LfuiWrapper>
+<LfuiWrapper script="console.log('a')">
+<div>aa</div>
 
 
-<div width="100%" style="background-color: white; padding: 8px; border: 1px dashed #B1B3B6">
-
-<h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of error message in form group</span></h5>
-
-<form> <div class="form-group has-danger" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" value="Something is wrong with this input"><small class="form-control-feedback">Error messages are placed between input and input description</small> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
-
-</div>
-
-
-
-console.log('a')
 </LfuiWrapper>
 
 As can be seen from the example, the error message is placed just below the input element, pushing the input description below it (if present at all). You can find the guidelines on how to write error messages in the [Writing-section](/patterns/general-patterns/writing).
