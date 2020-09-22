@@ -14,21 +14,7 @@ Our various [input elements](/components/web/forms/) (such as [input fields](/co
 
 Below is an example of how form elements should be grouped, with the [label](/components/web/text/specific-use-text-styles#labels) above the input element. If an [input description](/components/web/text/specific-use-text-styles) is needed, it should be placed below the form element.
 
-<LfuiWrapper>
 
-
-
-<div width="100%" style="background-color: white; padding: 8px; border: 1px dashed #B1B3B6">
-
-<h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of correct form element grouping</span></h5>
-
-<form> <div class="form-group" style="width: 60%" > <label for="exampleInputEmail1">Label</label> <input type="text" class="form-control" aria-describedby="emailHelp1" placeholder="placeholder-text"> <small id="emailHelp1" class="form-text text-muted">(Optional)  field description</small> </div>  </form>
-
-</div>
-
-
-
-</LfuiWrapper>
 
 The three form elements should be used as follows:
 
@@ -44,6 +30,7 @@ If an error occurs during the [form validation,](form-validation) the [error mes
 
 <LfuiWrapper>
 
+
 <div width="100%" style="background-color: white; padding: 8px; border: 1px dashed #B1B3B6">
 
 <h5 style="margin-top: -19px; margin-left: -3px"> <span style="background-color: #B1B3B6; color: white; padding: 1px 3px 1px 3px;">Example of error message in form group</span></h5>
@@ -52,6 +39,9 @@ If an error occurs during the [form validation,](form-validation) the [error mes
 
 </div>
 
+
+
+console.log('a')
 </LfuiWrapper>
 
 As can be seen from the example, the error message is placed just below the input element, pushing the input description below it (if present at all). You can find the guidelines on how to write error messages in the [Writing-section](/patterns/general-patterns/writing).
