@@ -1,7 +1,7 @@
 ---
-template: CategoryOverview
-previewImage: /img/general-pattern.png
-title: Purchase services
-intro: ""
 background: bg-white
+previewImage: /img/koptjanst.png
+template: CategoryOverview
+title: Purchase services
+intro: Text
 ---
