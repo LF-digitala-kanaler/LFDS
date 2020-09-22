@@ -2,7 +2,7 @@
 template: ArticlePage
 category: Lansforsakringar se
 previewImage: /img/lf_se-campangepage.png
-title: Campange page
+title: Campaign page
 intro: Kampanjsidan
 description: Kampanjsidan
 wide: false
