@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edi
         widget: 'list'
         fields:
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
-          - { label: 'Content', name: 'content', widget: 'markdown', editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+          - { label: 'Content', name: 'content', widget: 'markdown', editor_components: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
       - label: "Priority"
         name: "priority"
         widget: "string"
@@ -128,7 +128,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
-      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editorComponents: [], hint: 'Only use this if you have a hero image' }
+      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editor_components: [], hint: 'Only use this if you have a hero image' }
       - label: Hero block
         name: heroBlock
         widget: object
@@ -146,7 +146,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: Quote, name: quote, widget: text, required: false }
         - { label: Cite, name: cite, widget: string , required: false}
       
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'ImageAndText']  }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'ImageAndText']  }
       - label: 'Background'
         name: 'background'
         widget: 'select'
@@ -210,7 +210,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false} 
-      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editorComponents: [], hint: 'Only use this if you have a hero image' }
+      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editor_components: [], hint: 'Only use this if you have a hero image' }
 
       - label: Hero block
         name: heroBlock
@@ -228,7 +228,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: Image, name: image, widget: image, required: false }
         - { label: Quote, name: quote, widget: text, required: false }
         - { label: Cite, name: cite, widget: string, required: false }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
       - label: 'Background'
         name: 'background'
         widget: 'select'
@@ -288,7 +288,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
-      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editorComponents: [], hint: 'Only use this if you have a hero image' }
+      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editor_components: [], hint: 'Only use this if you have a hero image' }
 
       - label: Hero block
         name: heroBlock
@@ -306,7 +306,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: Image, name: image, widget: image, required: false }
         - { label: Quote, name: quote, widget: text,  required: false }
         - { label: Cite, name: cite, widget: string,  required: false }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
       - label: 'Background'
         name: 'background'
         widget: 'select'
@@ -337,8 +337,8 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
-      - { label: 'ContentBottom', name: contentBottom, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+      - { label: 'ContentBottom', name: contentBottom, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
@@ -383,8 +383,8 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: CategoryOverview, value: CategoryOverview }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
-      - { label: 'Content Above List', name: contentAbove, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
+      - { label: 'Content Above List', name: contentAbove, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
@@ -428,8 +428,8 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Template, name: template, widget: hidden, default: CategoryOverview, value: CategoryOverview }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
-      - { label: 'Content Above List', name: contentAbove, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
+      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
+      - { label: 'Content Above List', name: contentAbove, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'collapse', 'code-block', 'imageAndText']  }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
@@ -485,8 +485,8 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Template, name: template, widget: hidden, default: IconsPage, value: IconsPage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
-          - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'collapse', 'code-block',  'buttonsBlock', "imageAndText"] }
-          - { label: 'Content', name: specialIconsContent, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage',  'collapse', 'code-block',  'buttonsBlock'] }
+          - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'collapse', 'code-block',  'buttonsBlock', "imageAndText"] }
+          - { label: 'Content', name: specialIconsContent, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage',  'collapse', 'code-block',  'buttonsBlock'] }
           - label: 'Meta'
             required: false
             collapsed: true
@@ -529,7 +529,7 @@ collections: # A list of collections the CMS should be able to edi
               
           - { label: 'Full width image desktop', name: fullWidthImage, widget: 'image' }
           - { label: 'Full width image mobile', name: fullWidthImageMobile, widget: 'image' }
-          - { label: 'Content', name: body, widget: 'markdown',  required: false, editorComponents: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
+          - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'advancedImage', 'code', 'collapse', 'code-block', 'color'] }
           - name: 'shortcutsBottom'
             label: 'Shortcuts'
             label_singular: 'Shortcut'
