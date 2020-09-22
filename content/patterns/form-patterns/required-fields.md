@@ -17,4 +17,4 @@ If a field is required, the field should have proper validation. Read more about
 <div>test</div>
 
 
-</LfuiWrapper><div>console.log('a')</div>
+</LfuiWrapper><div><script>console.log('a')</script></div>
