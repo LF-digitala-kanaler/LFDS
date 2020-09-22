@@ -27,10 +27,9 @@ The three form elements should be used as follows:
 
 If an error occurs during the [form validation,](form-validation) the [error message](/components/web/text/specific-use-text-styles) is placed as a part of the form element group where the error occurs as follows: 
 
-<LfuiWrapper script="console.log('a')">
-<div>aa</div>
-
-
+<LfuiWrapper>
+<div>www</div>
+console.log('a1');
 </LfuiWrapper>
 
 As can be seen from the example, the error message is placed just below the input element, pushing the input description below it (if present at all). You can find the guidelines on how to write error messages in the [Writing-section](/patterns/general-patterns/writing).
