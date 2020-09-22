@@ -1,6 +1,7 @@
 ---
 template: ArticlePage
 category: Lansforsakringar se
+previewImage: /img/lf_se-productpage.png
 title: Product page
 intro: "Produktsidan är den plats där kunden kan skaffa sig en produkt eller
   fördjupa sig i hur den fungerar. För att hjälpa kunden till rätt beslut och
