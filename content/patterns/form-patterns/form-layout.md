@@ -10,6 +10,7 @@ description: "This page describes general rule of thumbs to consider when
   designing a form. "
 wide: false
 lang: false
+background: bg-white
 hidden: false
 ---
 At the bottom of this page you will find an illustrative image which exemplifies all our rules of thumb. The rules of thumb are:

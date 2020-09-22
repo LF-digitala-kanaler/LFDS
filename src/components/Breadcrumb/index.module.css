@@ -29,8 +29,6 @@
   @media (--medium-viewport) { 
     text-decoration: none;
     color: var(--color-black);
-    &::first-letter {
-      text-decoration: uppercase;
-    }
+    
   }
 }
