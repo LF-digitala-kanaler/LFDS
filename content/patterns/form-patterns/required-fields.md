@@ -2,9 +2,9 @@
 template: ArticlePage
 category: Form patterns
 title: Required fields
-background: bg-white
 intro: At Länsförsäkringar we only highlight required fields when only parts of
   a form is mandatory.
+background: bg-white
 ---
 In user testing we've found that  unless there is some marker indicating that only parts of a form is mandatory user expect that all fields are required. Hence our rules for required fields are quite simple:
 
@@ -14,6 +14,7 @@ In user testing we've found that  unless there is some marker indicating that on
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
 <LfuiWrapper>
+
  
 <form class="needs-validation" novalidate>
   <div class="row">
@@ -89,4 +90,7 @@ If a field is required, the field should have proper validation. Read more about
 </form>
 
 
+
+
+console.log('a')
 </LfuiWrapper>
