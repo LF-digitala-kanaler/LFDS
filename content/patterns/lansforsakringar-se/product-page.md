@@ -7,6 +7,8 @@ intro: "Produktsidan är den plats där kunden kan skaffa sig en produkt eller
   fördjupa sig i hur den fungerar. För att hjälpa kunden till rätt beslut och
   information som kan vara till nytta är det viktigt att det som finns på sidan
   är av högsta relevans. "
+description: Produktsidan är den plats där kunden kan skaffa sig en produkt
+  eller fördjupa sig i hur den fungerar.
 wide: false
 lang: true
 hidden: false
