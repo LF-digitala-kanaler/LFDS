@@ -14,25 +14,5 @@ In user testing we've found that  unless there is some marker indicating that on
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
 <LfuiWrapper>
-<div><div>test</div></div><div>var form = document.getElementById("form1");
-
-
-
-// create the pristine instance
-
-var pristine = new Pristine(form);
-
-
-
-form.addEventListener('submit', function (e) {
-
-e.preventDefault();
-
-// check if the form is valid
-
-var valid = pristine.validate(); // returns true or false
-
-
-
-});</div>
+<div><div>test</div></div><div>console.log('a)</div>
 </LfuiWrapper>
