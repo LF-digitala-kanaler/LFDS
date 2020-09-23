@@ -10,6 +10,8 @@ wide: false
 lang: true
 hidden: false
 ---
+<figure class="Image Image__border"><img src="/img/lfse-informationssidan.jpg" srcset="/img/lfse-informationssidan.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 ## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
 **Primärt syfte:** Ge djupare information om ett ämne
