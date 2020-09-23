@@ -23,7 +23,7 @@ const LfuiWidget = {
   },
   toBlock: function(obj) {
 
-    return `<LfuiWrapper>\n<div>${obj.lfuiCode}</div><div>${obj.lfuiScript}</div>\n</LfuiWrapper>`;
+    return `<LfuiWrapper>\n<div>${obj.lfuiCode}</div><div>${obj.lfuiScript.toString()}</div>\n</LfuiWrapper>`;
   },
 
 
