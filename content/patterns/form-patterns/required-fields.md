@@ -35,8 +35,6 @@ e.preventDefault();
 
 var valid = pristine.validate(); // returns true or false
 
-
-
 });
 
 };">
