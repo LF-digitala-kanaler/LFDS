@@ -12,7 +12,7 @@ const LfuiWidget = {
   {
     label: "Lfui Script",
     name: "lfuiScript",
-    widget: "markdown"
+    widget: "string"
 
   }],
   fromBlock: function(match) {
@@ -22,8 +22,8 @@ const LfuiWidget = {
     }
   },
   toBlock: function(obj) {
-
-    return `<LfuiWrapper>\n<div>${obj.lfuiCode}</div><div>${obj.lfuiScript.toString()}</div>\n</LfuiWrapper>`;
+    console.log(obj.lfuiScript)
+    return `<LfuiWrapper>\n<div>${obj.lfuiCode}</div><div>${obj.lfuiScript}</div>\n</LfuiWrapper>`;
   },
 
 
