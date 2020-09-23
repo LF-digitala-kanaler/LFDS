@@ -12,7 +12,7 @@ const LfuiWidget = {
   {
     label: "Lfui Script",
     name: "lfuiScript",
-    widget: "string"
+    widget: "text"
 
   }],
   fromBlock: function(match) {
