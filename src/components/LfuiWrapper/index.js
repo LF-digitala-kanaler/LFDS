@@ -6,13 +6,12 @@ const LfuiWrapper = ({children}) => {
   
   
   return (
-    <>
+   
     <article className="lfui-theme">
       <script>{validation}</script>
-      {children[1]}
+      {children}
     </article>
-     { children[2].props && <script>{eval(JSON.stringify(children[2].props.children[0]))}</script> }
-    </>
+   
   )
 };
 
