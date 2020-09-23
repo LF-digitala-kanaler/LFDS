@@ -148,15 +148,25 @@ You must agree before submitting.
 
 // create the pristine instance
 
+
+
 var pristine = new Pristine(form);
+
 console.log(pristine)
+
 
 
 form.addEventListener('submit', function (e) {
 
+
+
 e.preventDefault();
 
+
+
 // check if the form is valid
+
+
 
 var valid = pristine.validate(); // returns true or false
 
