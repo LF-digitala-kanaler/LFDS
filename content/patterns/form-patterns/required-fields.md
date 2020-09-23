@@ -13,7 +13,9 @@ In user testing we've found that  unless there is some marker indicating that on
 
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
-<LfuiWrapper script="var form = document.getElementById("form1");         var pristine = new Pristine(form);      form.addEventListener('submit', function (e) {        e.preventDefault();                       var valid = pristine.validate(); // returns true or false      });">
+<LfuiWrapper>
+<div>
+
 <form class="needs-validation" novalidate>
 
 <div class="row">
@@ -156,5 +158,12 @@ Please provide a valid zip.
 
 </div>
 
-</form>
+</form></div><div>var pristine = new Pristine(form);
+
+    form.addEventListener('submit', function (e) {
+       e.preventDefault();
+       
+              var valid = pristine.validate(); // returns true or false
+
+    });</div>
 </LfuiWrapper>
