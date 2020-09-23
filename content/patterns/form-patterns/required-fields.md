@@ -13,7 +13,8 @@ In user testing we've found that  unless there is some marker indicating that on
 
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
-<LfuiWrapper><div>
+<LfuiWrapper script="undefined">
+
 
 <form class="needs-validation" novalidate>
 
@@ -157,4 +158,5 @@ Please provide a valid zip.
 
 </div>
 
-</form></div><div>undefined</div></LfuiWrapper>
+</form>
+</LfuiWrapper>
