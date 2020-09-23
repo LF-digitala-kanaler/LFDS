@@ -1,7 +1,7 @@
 const LfuiWidget = {
   id: "lfuiWidget",
   label: "Lfui Code",
-  pattern: /<LfuiWrapper><div>([^]*?)<\/div>([^]*?)<div><\/div><\/LfuiWrapper>/,
+  pattern: /<LfuiWrapper><div>([^]*?)<\/div>(.*)<div><\/div><\/LfuiWrapper>/,
   fields: [ 
   {
     label: "Lfui Html",
