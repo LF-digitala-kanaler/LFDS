@@ -26,9 +26,7 @@ If a field is required, the field should have proper validation. Read more about
 
 <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
 
-<div class="valid-feedback">
-
-Looks good!
+<div class="valid-feedback">Looks good!
 
 </div>
 
@@ -157,4 +155,4 @@ Please provide a valid zip.
 </div>
 
 </form>
-</LfuiWrapper>
+ var form = document.getElementById("form1");         var pristine = new Pristine(form);      form.addEventListener('submit', function (e) {        e.preventDefault();                       var valid = pristine.validate(); // returns true or false      });</LfuiWrapper>
