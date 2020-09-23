@@ -1,13 +1,14 @@
 ---
 template: ArticlePage
 category: Lansforsakringar se
-description: "Hjälper kunden till rätt val när det finns ett flertal liknande
-  produkter och ger snabb vägledning. "
+previewImage: /img/lf_se-navigationpage.png
 title: Navigations Page
 intro: För att hjälpa kunden till rätt val när det finns ett flertal liknande
   produkter erbjuder navigationssidan vägledning. En snabb inledande text för
   att visa att man kommit rätt för att sedan leda vidare med snabba puffar till
   de olika sidorna.
+description: "Hjälper kunden till rätt val när det finns ett flertal liknande
+  produkter och ger snabb vägledning. "
 wide: false
 lang: false
 hidden: false
