@@ -13,25 +13,7 @@ In user testing we've found that  unless there is some marker indicating that on
 
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
-<LfuiWrapper script="window.onload = function () {
-
-var form = document.getElementById("needs-validation");
-
-// create the pristine instance
-
-var pristine = new Pristine(form);
-
-form.addEventListener('submit', function (e) {
-
-e.preventDefault();
-
-// check if the form is valid
-
-var valid = pristine.validate(); // returns true or false
-
-});
-
-};">
+<LfuiWrapper >
 <form id="needs-validation" class="needs-validation" novalidate>
 
 <div class="form-row">
