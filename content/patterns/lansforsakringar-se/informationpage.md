@@ -2,7 +2,7 @@
 template: ArticlePage
 category: Lansforsakringar se
 previewImage: /img/lf_se-informationpage.png
-title: Informationpage
+title: Information Page
 intro: "Informationssidan ska ge kunden mer ovh djupare information om ett ämne.
   Viktigt att att bygga upp texten på ett sätt så den är lätt att ta in. "
 description: The information page should do just that - give some more information.
