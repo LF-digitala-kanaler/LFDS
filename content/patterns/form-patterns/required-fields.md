@@ -142,14 +142,14 @@ You must agree before submitting.
 
 <button class="btn btn-primary" type="submit">Submit form</button>
 
-</form></div><div>var form = document.getElementById("form1");
+</form></div><div>var form = document.getElementById("needs-validation");
 
 
 
 // create the pristine instance
 
 var pristine = new Pristine(form);
-
+console.log(pristine)
 
 
 form.addEventListener('submit', function (e) {
