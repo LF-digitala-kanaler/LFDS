@@ -157,5 +157,5 @@ Please provide a valid zip.
 </div>
 
 </form>
-var form = document.getElementById("form1");          var pristine = new Pristine(form);      form.addEventListener('submit', function (e) {        e.preventDefault();                       var valid = pristine.validate(); // returns true or false      });
+<script>var form = document.getElementById("form1");          var pristine = new Pristine(form);      form.addEventListener('submit', function (e) {        e.preventDefault();                       var valid = pristine.validate(); // returns true or false      });</script>
 </LfuiWrapper>
