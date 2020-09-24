@@ -13,6 +13,4 @@ In user testing we've found that  unless there is some marker indicating that on
 
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
-<LfuiWrapper script="console.log('test')">
-<div>test</div>
-</LfuiWrapper>
+<LfuiWrapper script="console.log('test')"><div>test</div></LfuiWrapper>
