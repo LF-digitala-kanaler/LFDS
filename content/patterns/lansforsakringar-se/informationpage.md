@@ -2,7 +2,7 @@
 template: ArticlePage
 category: Lansforsakringar se
 previewImage: /img/lf_se-informationpage.png
-title: Informationpage
+title: Information Page
 intro: "Informationssidan ska ge kunden mer ovh djupare information om ett ämne.
   Viktigt att att bygga upp texten på ett sätt så den är lätt att ta in. "
 description: The information page should do just that - give some more information.
@@ -10,6 +10,8 @@ wide: false
 lang: true
 hidden: false
 ---
+<figure class="Image Image__border"><img src="/img/lfse-informationssidan.jpg" srcset="/img/lfse-informationssidan.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 ## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
 **Primärt syfte:** Ge djupare information om ett ämne
@@ -26,8 +28,6 @@ Läs mer om hur du bygger upp text på ett bra sätt
 
 Varje sida börjar med Rubrik, ingress och dela. Bilden är valbar och kan ändras till att vara en video.
 
-
-
 ### Content area
 
 Under bilden så bygger du upp din text med brödtext och mellanrubriker. Länka gärna vidare i texten med sekundära länkar. Finns det en primär produkt knuten till texten så kan du använda den primära länken för att länka till produktsidan som hör till denna fördjupande text. 
@@ -36,8 +36,33 @@ Glöm inte att använda punkter, bockar eller grafik att förenkla texten. Men g
 
 Bild, grafik och filmer kan du placer över hela ytan 100%, 50% eller som 33%
 
-
-
 ### Related information
 
 Använd det blå fältet som heter Relaterade länkar för att länka vidare till sidor med liknande ämne, som "Fler skadeförebyggssidor" eller "Andra tillägg till hemförsäkring".
+
+## Variant
+
+Finns det en variant med annan bild i toppen nu för tiden?
+
+## Mätning
+
+(kolla med analys)
+
+P. Besökare
+
+S. Bouncerate
+
+S. Engagement på sida
+
+S. Skrolldjup
+
+
+
+## Tänk på
+
+**Inga textväggar**\
+Bygg upp din text med mellanrubriker, grafer, tabeller och grafiska element, men tänk på att det ska gå att läsa som en artikel inte bara med punkter och faktarutor.
+
+## Sidor av denna typ
+
+[www.lansforsakringar.se/privat/bank/kort--betalningar/sparra-kort/](https://www.lansforsakringar.se/privat/bank/kort--betalningar/sparra-kort/)
