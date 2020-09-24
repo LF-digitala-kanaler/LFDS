@@ -1,7 +1,7 @@
 const LfuiWidget = {
   id: "lfuiWidget",
   label: "Lfui Code",
-  pattern: /^<LfuiWrapper>([^]*?)<script>eval(([^]*?))<\/script><\/LfuiWrapper>/,
+  pattern: /^<LfuiWrapper script="([^]*?)">([^]*?)<\/LfuiWrapper>/,
   fields: [ 
   {
     label: "Lfui Html",
@@ -24,7 +24,7 @@ const LfuiWidget = {
     }
   },
   toBlock: function(obj) {
-    return `<LfuiWrapper>${obj.lfuiCode}<script>eval(${obj.lfuiScript})</script></LfuiWrapper>`;
+    return `<LfuiWrapper script="${obj.lfuiScript}">${obj.lfuiCode}</LfuiWrapper>`;
   },
 
 
