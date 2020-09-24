@@ -10,7 +10,14 @@ const LfuiWrapper = ({children, script}) => {
     <article className="lfui-theme">
       <script>{validation}</script>
       {children}
-      <script>{eval(script)}</script>
+      <script>
+        {
+          window.addEventListener('load', (event) => {
+            eval(script)
+          })
+        }
+
+      </script>
     </article>
    
   )

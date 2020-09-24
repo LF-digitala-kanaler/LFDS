@@ -17,14 +17,14 @@ const LfuiWidget = {
 
   }],
   fromBlock: function(match) {
-  
+    
     return {
       lfuiCode: match[2],
       lfuiScript: match[1],
     }
   },
   toBlock: function(obj) {
-    return `<LfuiWrapper script="${obj.lfuiScript}">\n\n${obj.lfuiCode}\n</LfuiWrapper>`;
+    return `<LfuiWrapper script="${obj.lfuiScript}">\n\n${obj.lfuiCode.trim()}\n</LfuiWrapper>`;
   },
 
 
