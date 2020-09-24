@@ -21,14 +21,30 @@ hidden: false
 
 ## Beskrivning
 
+Här skriver jag
+
 ### Header
 
-#### Desktop version
+Här skriver jag
 
-#### Mobile version
+#### Top header
+
+##### Logotype
+
+Här skriver jag
+
+#### Top menu
+
+Här skriver jag
 
 ### Footer
 
+Här skriver jag
+
 #### Desktop version
 
+Här skriver jag
+
 #### Mobile version
+
+Här skriver jag
