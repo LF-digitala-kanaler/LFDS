@@ -1,7 +1,7 @@
 const LfuiWidget = {
   id: "lfuiWidget",
   label: "Lfui Code",
-  pattern: /^<span><LfuiWrapper>([^]*?)<\/LfuiWrapper><script>(.*)<\/script><\/span>/,
+  pattern: /^<span><LfuiWrapper>([^]*?)<\/LfuiWrapper><script>[^]*?<\/script><\/span>/,
   fields: [ 
   {
     label: "Lfui Html",
@@ -23,7 +23,7 @@ const LfuiWidget = {
     }
   },
   toBlock: function(obj) {
-    return `<span><LfuiWrapper>${obj.lfuiCode}</LfuiWrapper><script>${obj.lfuiScript}</script></span>`;
+    return `<div><LfuiWrapper>${obj.lfuiCode}</LfuiWrapper><script>${obj.lfuiScript}</script></div>`;
   },
 
 
