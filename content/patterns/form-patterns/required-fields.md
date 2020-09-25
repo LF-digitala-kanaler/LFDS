@@ -13,26 +13,24 @@ In user testing we've found that  unless there is some marker indicating that on
 
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
-<LfuiWrapper script="var forms = document.getElementById('needs-validation');     var validation = Array.prototype.filter.call(forms, function(form) {      form.addEventListener('submit', function(event) {         if (form.checkValidity() === false) {           event.preventDefault();           event.stopPropagation();         }         form.classList.add('was-validated');       }, false);     });">
+<LfuiWrapper script="console.log('hej')">
 
-<form id="needs-validation" novalidate>
+<form class="needs-validation" novalidate>
+
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<label for="validationCustom01">First name</label>
+<label for="validationCustom01">Namn</label>
 <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
-<div class="valid-feedback">
-Looks good!
-</div>
+
+<small class="form-control-feedback">Ange giltigt namn</small>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<label for="validationCustom02">Last name</label>
+<label for="validationCustom02">E-post</label>
 <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
-<div class="valid-feedback">
-Looks good!
-</div>
+<small class="form-control-feedback">Ange giltigt namn</small>
 </div>
 </div>
 </div>
@@ -45,9 +43,7 @@ Looks good!
 <span class="input-group-text" id="inputGroupPrepend">@</span>
 </div>
 <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-<div class="invalid-feedback">
-Please choose a username.
-</div>
+<small class="form-control-feedback">Ange giltigt namn</small>
 </div>
 </div>
 </div>
@@ -55,9 +51,7 @@ Please choose a username.
 <div class="form-group">
 <label for="validationCustom03">City</label>
 <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-<div class="invalid-feedback">
-Please provide a valid city.
-</div>
+<small class="form-control-feedback">Ange giltigt namn</small>
 </div>
 </div>
 </div>
@@ -66,18 +60,14 @@ Please provide a valid city.
 <div class="form-group">
 <label for="validationCustom04">State</label>
 <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-<div class="invalid-feedback">
-Please provide a valid state.
-</div>
+<small class="form-control-feedback">Ange giltigt namn</small>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
 <label for="validationCustom05">Zip</label>
 <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
-<div class="invalid-feedback">
-Please provide a valid zip.
-</div>
+<small class="form-control-feedback">Ange giltigt namn</small>
 </div>
 </div>
 </div>
