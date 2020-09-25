@@ -10273,7 +10273,7 @@ levn@^0.3.0, levn@~0.3.0:
 
 "lfui-components@git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#release/6.6.0":
   version "7.0.0"
-  resolved "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#2dd9b1927d1c23f38e9702953c04f2556058d451"
+  resolved "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#e1f9a9e82733a14b0bfc7ab92c826f011f001c63"
   dependencies:
     bootstrap "4.3.1"
     eonasdan-custom-bootstrap-datetimepicker-with-bootstrap-4 "^1.0.0"
@@ -11232,7 +11232,12 @@ moment-timezone@0.4.0:
   dependencies:
     moment ">= 2.6.0"
 
-"moment@>= 2.6.0", moment@^2.19.4, moment@^2.24.0, moment@^2.27.0:
+"moment@>= 2.6.0", moment@^2.19.4:
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.0.tgz#fcbef955844d91deb55438613ddcec56e86a3425"
+  integrity sha512-z6IJ5HXYiuxvFTI6eiQ9dm77uE0gyy1yXNApVHqTcnIKfY9tIwEjlzsZ6u1LQXvVgKeTnv9Xm7NDvJ7lso3MtA==
+
+moment@^2.24.0, moment@^2.27.0:
   version "2.28.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.28.0.tgz#cdfe73ce01327cee6537b0fafac2e0f21a237d75"
   integrity sha512-Z5KOjYmnHyd/ukynmFd/WwyXHd7L4J9vTI/nn5Ap9AVUgaAE15VvQ9MOGmJJygEUklupqIrFnor/tjTwRU+tQw==
@@ -13569,11 +13574,6 @@ prismjs@^1.21.0, prismjs@~1.21.0:
   integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
   optionalDependencies:
     clipboard "^2.0.0"
-
-pristinejs@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/pristinejs/-/pristinejs-0.1.9.tgz#ded9c07c63dbc9f906931cbb603987d014481b34"
-  integrity sha512-RasEJ5wqe16mNQ6nUtf358Kr9NoqLHjiXdbYmdv5zf1TR4Rc4HHrP81gWAeVFXETzl0CAgHgAGNzSCzTWT4wFA==
 
 probe-image-size@^5.0.0:
   version "5.0.0"

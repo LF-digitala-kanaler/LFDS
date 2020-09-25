@@ -22,33 +22,21 @@ If a field is required, the field should have proper validation. Read more about
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-
 <label for="validationCustom01">Namn</label>
-
 <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
-
-
-
+</div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-
 <label for="validationCustom02">E-post</label>
-
 <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
-
-
-
+</div>
 </div>
 </div>
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
 <label for="validationCustomUsername">Username</label>
-<div class="input-group">
-<div class="input-group-prepend">
-<span class="input-group-text" id="inputGroupPrepend">@</span>
-</div>
 <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
 </div>
 </div>
@@ -58,19 +46,10 @@ If a field is required, the field should have proper validation. Read more about
 <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
 </div>
 </div>
-
-
-
+</div>
 <div class="row">
-
 <div class="col-12 text-right">
-
-
-
 <button class="btn btn-sm-block btn-primary mb-2" type="submit">Skicka</button>
-
-
-
 </div>
 </div>
 </form>
