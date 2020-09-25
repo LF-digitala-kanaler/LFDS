@@ -13,7 +13,7 @@ In user testing we've found that  unless there is some marker indicating that on
 
 If a field is required, the field should have proper validation. Read more about it in [form validation](../form-validation).
 
-<LfuiWrapper script="var forms = document.getElementsByClassName('needs-validation');      console.log(forms) var validation = Array.prototype.filter.call(forms, function(form) {       form.addEventListener('submit', function(event) {         if (form.checkValidity() === false) {           event.preventDefault();           event.stopPropagation();         }         form.classList.add('was-validated');       }, false);     });">
+<LfuiWrapper script="console.log('hej')">
 
 <form class="needs-validation" novalidate>
 
