@@ -13,7 +13,7 @@ const LfuiWrapper = ({children, script}) => {
     <article className="lfui-theme">
       
       {children}
-      {/* <script>{eval(js)}</script> */}
+      <script>{eval(js)}</script>
       
     </article>
     
