@@ -17,21 +17,28 @@ If a field is required, the field should have proper validation. Read more about
 
 <form id="needs-validation" novalidate>
 
+
+
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
+
 <label for="validationCustom01">Namn</label>
+
 <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
 
-<small class="form-control-feedback">Ange giltigt namn</small>
-</div>
+
+
 </div>
 <div class="col-md-6">
 <div class="form-group">
+
 <label for="validationCustom02">E-post</label>
+
 <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
-<small class="form-control-feedback">Ange giltigt namn</small>
-</div>
+
+
+
 </div>
 </div>
 <div class="row">
@@ -43,38 +50,26 @@ If a field is required, the field should have proper validation. Read more about
 <span class="input-group-text" id="inputGroupPrepend">@</span>
 </div>
 <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-<small class="form-control-feedback">Ange giltigt namn</small>
-</div>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
 <label for="validationCustom03">City</label>
 <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-<small class="form-control-feedback">Ange giltigt namn</small>
 </div>
 </div>
-</div>
+
+
+
 <div class="row">
-<div class="col-md-6">
-<div class="form-group">
-<label for="validationCustom04">State</label>
-<input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-<small class="form-control-feedback">Ange giltigt namn</small>
-</div>
-</div>
-<div class="col-md-6">
-<div class="form-group">
-<label for="validationCustom05">Zip</label>
-<input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
-<small class="form-control-feedback">Ange giltigt namn</small>
-</div>
-</div>
-</div>
-<div class="row">
+
 <div class="col-12 text-right">
 
+
+
 <button class="btn btn-sm-block btn-primary mb-2" type="submit">Skicka</button>
+
+
 
 </div>
 </div>
