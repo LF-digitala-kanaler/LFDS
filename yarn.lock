@@ -4558,7 +4558,7 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-copy-files-from-to@^3.1.4:
+copy-files-from-to@3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/copy-files-from-to/-/copy-files-from-to-3.1.4.tgz#716e2dffd6ad7af37bbb599ee552d2823d3df0b7"
   integrity sha512-y3+KP930d8kFTyn6V7AnyxtdEFXTDqlgCNOlF9pnOUkMpB/4N9KLJNahXGJOsRP/JfWfsdqHY67jsdYTrqQVig==
@@ -13569,6 +13569,11 @@ prismjs@^1.21.0, prismjs@~1.21.0:
   integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
   optionalDependencies:
     clipboard "^2.0.0"
+
+pristinejs@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/pristinejs/-/pristinejs-0.1.9.tgz#ded9c07c63dbc9f906931cbb603987d014481b34"
+  integrity sha512-RasEJ5wqe16mNQ6nUtf358Kr9NoqLHjiXdbYmdv5zf1TR4Rc4HHrP81gWAeVFXETzl0CAgHgAGNzSCzTWT4wFA==
 
 probe-image-size@^5.0.0:
   version "5.0.0"

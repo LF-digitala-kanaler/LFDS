@@ -10,7 +10,6 @@ import { stripTrailingSlash } from '../utils/RemoveTrailingSlash';
 import 'modern-normalize/modern-normalize.css'
 import "../components/_base/index.css"
 
-
 export default ({ 
   children, 
   title,
