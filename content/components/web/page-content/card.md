@@ -29,5 +29,7 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Card)
     name: Design
+  - name: Code
+    content: Code
 backgroundColor: "#f3f3f3"
 ---
