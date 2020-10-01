@@ -4,7 +4,7 @@
 
 
 ## Structure
-`
+```
 src
 ├── cms
 ├── components
@@ -13,7 +13,7 @@ src
 ├── pages
 ├── templates
 ├── utils
-`
+```
 
 ## Content and Markdown guidelines
 
