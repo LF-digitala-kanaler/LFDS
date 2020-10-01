@@ -18,6 +18,7 @@ src
 ## Navigation Structure
 ## Content and Markdown guidelines
 
+https://lf-digitala-kanaler.github.io/admin/
 
 ## Developing
 
