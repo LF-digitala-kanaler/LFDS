@@ -23,19 +23,20 @@ export default class Meta extends Component {
       url,
       description,
       absoluteImageUrl = '',
-      canonicalLink
+      canonicalLink,
     } = this.props
-    
-    
+
     return (
       <Helmet>
         {/* {console.log(description, 'desc')} */}
-        
-        {title && <meta name="title" content={title} /> }
+
+        {title && <meta name="title" content={title} />}
         {description && <meta name="description" content={description} />}
-        
+
         {pageTitle && <meta property="og:title" content={pageTitle} />}
-        {description && <meta property="og:description" content={description} />}
+        {description && (
+          <meta property="og:description" content={description} />
+        )}
         {url && <meta property="og:type" content="website" />}
         {url && <meta property="og:url" content={url} />}
         <meta property="og:locale" content="en_US" />
@@ -45,7 +46,7 @@ export default class Meta extends Component {
 
         <meta name="robots" content="noindex" />
         {canonicalLink && <link rel="canonical" href={canonicalLink} />}
-        
+
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={url} />
         <meta property="twitter:title" content={pageTitle} />

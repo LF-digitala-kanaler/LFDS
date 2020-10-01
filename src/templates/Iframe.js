@@ -2,8 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 const IframeTemplate = ({ children }) => {
-
-return <div>{children}</div>
+  return <div>{children}</div>
 }
 
 export default IframeTemplate

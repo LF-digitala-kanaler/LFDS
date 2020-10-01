@@ -10,8 +10,8 @@ import Content from '../components/Content'
 import Changelog from '../components/Changelog'
 import LinkList from '../components/LinkList'
 import SearchBlock from '../components/SearchBlock'
-import { Row, Col } from 'react-simple-flex-grid';
-import "react-simple-flex-grid/lib/main.css";
+import { Row, Col } from 'react-simple-flex-grid'
+import 'react-simple-flex-grid/lib/main.css'
 export const HomePageTemplate = ({
   title,
   intro,
@@ -19,55 +19,76 @@ export const HomePageTemplate = ({
   shortcutsBottom,
   fullWidthImage,
   body,
-  relatedLinks
+  relatedLinks,
 }) => (
-  
-  <> 
-  
+  <>
     <Wrapper wide tag="div">
-      <Heading tag={1} text={title} align={"center"} />
-      <Preamble text={intro} tag="p" align={"center"} />
+      <Heading tag={1} text={title} align={'center'} />
+      <Preamble text={intro} tag="p" align={'center'} />
     </Wrapper>
     <SearchBlock />
     <Wrapper wide tag="div">
       <Row gutter={64} justify="center">
-        { shortcuts &&
-          shortcuts.map(item => {
-            return <Col sm={6} md={4}  key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Col>
-          })
-        }
+        {shortcuts &&
+          shortcuts.map((item) => {
+            return (
+              <Col sm={6} md={4} key={item.title}>
+                <Shortcut
+                  title={item.title}
+                  icon={item.icon.publicURL ? item.icon.publicURL : item.icon}
+                  text={item.text}
+                  path={item.link}
+                />
+              </Col>
+            )
+          })}
       </Row>
     </Wrapper>
-    {fullWidthImage && <FullWidthBackground image={fullWidthImage.childImageSharp ? fullWidthImage.childImageSharp.fluid.src : fullWidthImage}><Content source={body} /> </FullWidthBackground>}
+    {fullWidthImage && (
+      <FullWidthBackground
+        image={
+          fullWidthImage.childImageSharp
+            ? fullWidthImage.childImageSharp.fluid.src
+            : fullWidthImage
+        }
+      >
+        <Content source={body} />{' '}
+      </FullWidthBackground>
+    )}
     <Wrapper wide tag="div">
       <Row gutter={64} justify="center">
-        { shortcutsBottom &&
-          shortcutsBottom.map(item => {
-            return <Col sm={6} md={4}  key={item.title}><Shortcut title={item.title} icon={item.icon.publicURL ? item.icon.publicURL : item.icon } text={item.text} path={item.link} /></Col>
-          })
-        }
+        {shortcutsBottom &&
+          shortcutsBottom.map((item) => {
+            return (
+              <Col sm={6} md={4} key={item.title}>
+                <Shortcut
+                  title={item.title}
+                  icon={item.icon.publicURL ? item.icon.publicURL : item.icon}
+                  text={item.text}
+                  path={item.link}
+                />
+              </Col>
+            )
+          })}
       </Row>
-      <Row gutter={128} >
+      <Row gutter={128}>
         <Col md={6}>
-           <Heading tag={3} text={"Release info"} align={"left"} />
+          <Heading tag={3} text={'Release info'} align={'left'} />
           <Changelog />
         </Col>
         <Col md={6}>
-          <Heading tag={3} text={"Links you cant live without"} align={"left"} />
-          {
-            relatedLinks && <LinkList items={relatedLinks} />
-          }
-          
+          <Heading
+            tag={3}
+            text={'Links you cant live without'}
+            align={'left'}
+          />
+          {relatedLinks && <LinkList items={relatedLinks} />}
         </Col>
       </Row>
     </Wrapper>
   </>
 )
-const HomePage = ({ 
-  data: { page }
-  
-  }) => {
-  
+const HomePage = ({ data: { page } }) => {
   const sources = [
     page.frontmatter.fullWidthImage.childImageSharp.fluid,
     {
@@ -83,8 +104,8 @@ const HomePage = ({
       title={page.frontmatter.title || false}
       backgroundClass={page.frontmatter.background}
     >
-      <HomePageTemplate 
-        {...page} 
+      <HomePageTemplate
+        {...page}
         {...page.frontmatter}
         shortcuts={page.frontmatter.shortcuts}
         shortcutsBottom={page.frontmatter.shortcutsBottom}
@@ -112,7 +133,7 @@ export const pageQuery = graphql`
         intro
         background
         shortcuts {
-          icon{
+          icon {
             publicURL
           }
           title
@@ -120,7 +141,7 @@ export const pageQuery = graphql`
           link
         }
         shortcutsBottom {
-          icon{
+          icon {
             publicURL
           }
           title
@@ -147,6 +168,5 @@ export const pageQuery = graphql`
         }
       }
     }
-    
   }
 `

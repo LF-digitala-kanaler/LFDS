@@ -4,17 +4,17 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
-import Preamble from '../components/Preamble';
-import CardList from '../components/CardList';
-import Blockquote from '../components/Blockquote';
-import Content from '../components/Content';
-import rehypeReact from "rehype-react"
-import Collapse from '../components/Collapse';
+import Preamble from '../components/Preamble'
+import CardList from '../components/CardList'
+import Blockquote from '../components/Blockquote'
+import Content from '../components/Content'
+import rehypeReact from 'rehype-react'
+import Collapse from '../components/Collapse'
 
- const renderAst = new rehypeReact({
-    createElement: React.createElement,
-    components: { "collapse": Collapse},
-  }).Compiler
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: { collapse: Collapse },
+}).Compiler
 // Export Template for use in CMS preview
 export const CategoryOverviewTemplate = ({
   title,
@@ -24,50 +24,54 @@ export const CategoryOverviewTemplate = ({
   categoryPages,
   body,
   bodyHtml,
-  
 }) => (
-   
   <>
-  <Wrapper tag="div" menu={true}>
-      <Heading tag={1} text={title} align={"left"} />
-      <Preamble text={intro} tag="p" align={"left"} />
-       <Content className="content" source={contentAbove} />  
-      { categoryPages && <CardList list={categoryPages} /> }
-      {bodyHtml
-          ? <div className="Content">{renderAst(bodyHtml)}</div>
-          : <Content className="Content" source={body} />
-        }
-       
-      { blockquote && <Blockquote text={blockquote.text} author={blockquote.author} /> }
-  </Wrapper>
+    <Wrapper tag="div" menu={true}>
+      <Heading tag={1} text={title} align={'left'} />
+      <Preamble text={intro} tag="p" align={'left'} />
+      <Content className="content" source={contentAbove} />
+      {categoryPages && <CardList list={categoryPages} />}
+      {bodyHtml ? (
+        <div className="Content">{renderAst(bodyHtml)}</div>
+      ) : (
+        <Content className="Content" source={body} />
+      )}
+
+      {blockquote && (
+        <Blockquote text={blockquote.text} author={blockquote.author} />
+      )}
+    </Wrapper>
   </>
 )
-const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirectory}) => {
-  
-  if(typeof window !== `undefined`) {
-    currentDirectory = location.href.split('/').filter(Boolean).pop();
-   }
-  
+const CategoryOverviewPage = ({
+  data: { page, allPages },
+  location,
+  currentDirectory,
+}) => {
+  if (typeof window !== `undefined`) {
+    currentDirectory = location.href.split('/').filter(Boolean).pop()
+  }
 
   const children = {
     links: allPages.hasOwnProperty('edges')
-      ? allPages.edges.filter(category => {
-        if(category.node.fields.contentType.includes(currentDirectory) && category.node.frontmatter.hidden !== true) {
-        return {  ...category.node}
-          
-        }
-        else {
-          return null;
-        }
-      })
-      : false   
+      ? allPages.edges.filter((category) => {
+          if (
+            category.node.fields.contentType.includes(currentDirectory) &&
+            category.node.frontmatter.hidden !== true
+          ) {
+            return { ...category.node }
+          } else {
+            return null
+          }
+        })
+      : false,
   }
-  
-  // Sort and arrange them in categories 
-  
-  const breadcrumb = {  
+
+  // Sort and arrange them in categories
+
+  const breadcrumb = {
     title: page.frontmatter.title,
-    location: location
+    location: location,
   }
 
   return (
@@ -78,9 +82,9 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
       breadcrumb={breadcrumb}
       backgroundClass={page.frontmatter.background}
     >
-      <CategoryOverviewTemplate 
-        {...page} 
-        {...page.frontmatter} 
+      <CategoryOverviewTemplate
+        {...page}
+        {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         blockquote={page.frontmatter.blockquote}
@@ -88,7 +92,6 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
         contentAbove={page.frontmatter.contentAbove}
         body={page.html}
         bodyHtml={page.htmlAst}
-        
       />
     </Layout>
   )
@@ -97,10 +100,7 @@ const CategoryOverviewPage = ({ data: { page, allPages },location , currentDirec
 export default CategoryOverviewPage
 
 export const pageQuery = graphql`
-  
-  
   query CategoryOverviewPage($id: String!) {
-    
     page: markdownRemark(id: { eq: $id }) {
       htmlAst
       html
@@ -121,7 +121,7 @@ export const pageQuery = graphql`
     }
 
     allPages: allMarkdownRemark(
-      filter: { fileAbsolutePath: {regex : "/^((?!index).)*$/"} },
+      filter: { fileAbsolutePath: { regex: "/^((?!index).)*$/" } }
       sort: { order: ASC, fields: [frontmatter___title] }
     ) {
       edges {
@@ -144,6 +144,5 @@ export const pageQuery = graphql`
         }
       }
     }
-    
   }
 `

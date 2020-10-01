@@ -1,21 +1,24 @@
 const AdvancedImage = {
-  id: "advancedImage",
-  label: "Image",
+  id: 'advancedImage',
+  label: 'Image',
   fields: [
-    { name: "image", label: "Image", widget: "image"},
-    { name: "alt", label: "Alt text", widget: "string", default: "" },
+    { name: 'image', label: 'Image', widget: 'image' },
+    { name: 'alt', label: 'Alt text', widget: 'string', default: '' },
     {
-      name: "type",
-      label: "Type",
-      widget: "select",
-      default: "Image__border",
+      name: 'type',
+      label: 'Type',
+      widget: 'select',
+      default: 'Image__border',
       options: [
-        { label: "Full width", value: "Image__border" },
-        { label: "Small", value: "Image__background" },
-        {label: "Full width without padding", value: "Image__border Image__border--noPadding"}
+        { label: 'Full width', value: 'Image__border' },
+        { label: 'Small', value: 'Image__background' },
+        {
+          label: 'Full width without padding',
+          value: 'Image__border Image__border--noPadding',
+        },
       ],
     },
-    { name: "caption", label: "Caption", widget: "string", default: "" },
+    { name: 'caption', label: 'Caption', widget: 'string', default: '' },
   ],
   pattern: /^<figure class="Image (.*)"><img src="(.*)" srcset="(.*) 2x" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure>/,
   fromBlock(match) {

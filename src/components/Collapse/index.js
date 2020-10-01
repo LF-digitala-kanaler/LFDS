@@ -1,36 +1,40 @@
-import React, { useState, useRef } from "react"
-import style from './index.module.css';
+import React, { useState, useRef } from 'react'
+import style from './index.module.css'
 
-
-const Collapse = ({title, children}) => {
-  const [active, setActiveState] = useState("");
-  const [setHeight, setHeightState] = useState("0px");
-  const ref = useRef(null);
+const Collapse = ({ title, children }) => {
+  const [active, setActiveState] = useState('')
+  const [setHeight, setHeightState] = useState('0px')
+  const ref = useRef(null)
 
   const toggleCollapse = () => {
-    setActiveState(active === "" ? style["Collapse--active"] : "");
+    setActiveState(active === '' ? style['Collapse--active'] : '')
     setHeightState(
-      active === style["Collapse--active"] ? "0px" : `${ref.current.scrollHeight}px`
-    );
+      active === style['Collapse--active']
+        ? '0px'
+        : `${ref.current.scrollHeight}px`
+    )
   }
-  
+
   return (
     <div className={style.Collapse}>
       <article className={style.Collapse__section}>
-        <button className={style.Collapse__button +` ${active}`} onClick={toggleCollapse}>
+        <button
+          className={style.Collapse__button + ` ${active}`}
+          onClick={toggleCollapse}
+        >
           <span className={style.Collapse__title}>{title}</span>
-          <span className={style.Collapse__icon +` ${active}`}></span>
+          <span className={style.Collapse__icon + ` ${active}`}></span>
         </button>
-        <div className={style.Collapse__content} ref={ref} style={{ maxHeight: `${setHeight}` }}>
-          <div className={style.Collapse__inner} >
-            {children}
-         </div> 
+        <div
+          className={style.Collapse__content}
+          ref={ref}
+          style={{ maxHeight: `${setHeight}` }}
+        >
+          <div className={style.Collapse__inner}>{children}</div>
         </div>
       </article>
     </div>
   )
-};
+}
 
-export default Collapse;
-
-
+export default Collapse

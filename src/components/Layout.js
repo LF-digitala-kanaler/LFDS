@@ -4,25 +4,22 @@ import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Footer from './Footer'
 import Header from './Header'
-import css from '!!raw-loader!lfui-components/dist/docs/docs.css'; 
-import { stripTrailingSlash } from '../utils/RemoveTrailingSlash';
+import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
+import { stripTrailingSlash } from '../utils/RemoveTrailingSlash'
 // import 'lfui/dist/lf.css';
 import 'modern-normalize/modern-normalize.css'
-import "../components/_base/index.css"
+import '../components/_base/index.css'
 
-export default ({ 
-  children, 
+export default ({
+  children,
   title,
   description,
   breadcrumb,
   backgroundClass,
   menu,
-  meta
-  }) => {
-
-  
+  meta,
+}) => {
   return (
-    
     <StaticQuery
       query={graphql`
         query IndexLayoutQuery {
@@ -34,33 +31,30 @@ export default ({
             socialMediaCard {
               image
             }
-          } 
+          }
         }
       `}
-      render={data => {
-        
-        description = meta?.description ?  meta.description : description;
+      render={(data) => {
+        description = meta?.description ? meta.description : description
         console.log(description)
-        const {  socialMediaCard, siteUrl, siteTitleAbbreviation  } =    
-            data.settingsYaml || {}
+        const { socialMediaCard, siteUrl, siteTitleAbbreviation } =
+          data.settingsYaml || {}
         return (
-          
           <Fragment>
             <Helmet
               titleTemplate={`%s`}
               defaultTitle={`${title} | ${siteTitleAbbreviation}`}
-              
               bodyAttributes={{
-                class: backgroundClass
+                class: backgroundClass,
               }}
               htmlAttributes={{
-                lang: `en`
+                lang: `en`,
               }}
-            > 
+            >
               {title}
               <meta name="robots" content="noindex" />
             </Helmet>
-                
+
             <Meta
               absoluteImageUrl={
                 socialMediaCard &&
@@ -74,16 +68,15 @@ export default ({
               {...meta}
             />
 
-            
-              <Header 
-                title={data.settingsYaml.siteTitle} 
-                breadcrumb={breadcrumb}
-                menu={menu}
-              />
-              
-              {children}
-              <Footer />            
-              <style>{css}</style>
+            <Header
+              title={data.settingsYaml.siteTitle}
+              breadcrumb={breadcrumb}
+              menu={menu}
+            />
+
+            {children}
+            <Footer />
+            <style>{css}</style>
           </Fragment>
         )
       }}

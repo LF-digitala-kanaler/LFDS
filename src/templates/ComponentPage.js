@@ -3,13 +3,12 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
-import Preamble from '../components/Preamble';
-import TabsWrapper from '../components/Tabs';
+import Preamble from '../components/Preamble'
+import TabsWrapper from '../components/Tabs'
 import ComponentExample from '../components/ComponentExample'
-import { Location, navigate, globalHistory} from "@reach/router";
-import ComponentVersion from '../components/ComponentVersion';
-import Deprecated from '../components/Deprecated';
-
+import { Location, navigate, globalHistory } from '@reach/router'
+import ComponentVersion from '../components/ComponentVersion'
+import Deprecated from '../components/Deprecated'
 
 export const ComponentPageTemplate = ({
   title,
@@ -19,64 +18,75 @@ export const ComponentPageTemplate = ({
   backgroundColor,
   tabs,
   currentDirectory,
-  verticalResize
-
+  verticalResize,
 }) => (
-  
-  <> 
-    { currentDirectory && <Deprecated status={currentDirectory} />}
+  <>
+    {currentDirectory && <Deprecated status={currentDirectory} />}
     <Wrapper tag="div" menu={true}>
-      <Heading tag={1} text={title} align={"left"} /> 
-      { currentDirectory && <ComponentVersion version={currentDirectory} />}
+      <Heading tag={1} text={title} align={'left'} />
+      {currentDirectory && <ComponentVersion version={currentDirectory} />}
     </Wrapper>
     <Wrapper tag="div" menu={true} narrow>
-      <Preamble text={intro} tag="p" align={"left"} />
+      <Preamble text={intro} tag="p" align={'left'} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
-      { componentsExample && componentsExample.length > 0 && <ComponentExample verticalResize={verticalResize} variants={componentsExample} navigation={componentsNavigation} background={backgroundColor}   />}
+      {componentsExample && componentsExample.length > 0 && (
+        <ComponentExample
+          verticalResize={verticalResize}
+          variants={componentsExample}
+          navigation={componentsNavigation}
+          background={backgroundColor}
+        />
+      )}
     </Wrapper>
-      
-      <Location>
-        {({ location }) => (
-          <TabsWrapper tabs={tabs} location={location} navigate={navigate}>
-            { currentDirectory && <Deprecated fixed={true} status={currentDirectory} />}
-          </TabsWrapper>
-        )}
-      </Location>
+
+    <Location>
+      {({ location }) => (
+        <TabsWrapper tabs={tabs} location={location} navigate={navigate}>
+          {currentDirectory && (
+            <Deprecated fixed={true} status={currentDirectory} />
+          )}
+        </TabsWrapper>
+      )}
+    </Location>
   </>
 )
 
-
-const ComponentPage = ({ 
+const ComponentPage = ({
   data: { page, allComponentExample },
   location,
-  currentDirectory
-  },) => {
-  
-  // window is not avalible during gatsby build 
-  if(typeof window !== `undefined`) {
+  currentDirectory,
+}) => {
+  // window is not avalible during gatsby build
+  if (typeof window !== `undefined`) {
     const path = globalHistory.location.pathname
-    currentDirectory = path.split('/').filter(Boolean).pop();
-   }
-  const toKebabCase = str =>
+    currentDirectory = path.split('/').filter(Boolean).pop()
+  }
+  const toKebabCase = (str) =>
     str &&
     str
-      .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-      .map(x => x.toLowerCase())
-      .join('-');
-   const componentExample = {
+      .match(
+        /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
+      )
+      .map((x) => x.toLowerCase())
+      .join('-')
+  const componentExample = {
     examples: allComponentExample.hasOwnProperty('edges')
-      ? allComponentExample.edges.filter(exemple => (toKebabCase(exemple.node.relativeDirectory.split("/").pop()).toLowerCase()) === currentDirectory)
-      : false
-   }
-  
-  
+      ? allComponentExample.edges.filter(
+          (exemple) =>
+            toKebabCase(
+              exemple.node.relativeDirectory.split('/').pop()
+            ).toLowerCase() === currentDirectory
+        )
+      : false,
+  }
+
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
-    location: location
+    location: location,
   }
-  
+
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -85,15 +95,15 @@ const ComponentPage = ({
       breadcrumb={breadcrumb}
       menu={true}
     >
-      <ComponentPageTemplate 
-        {...page} 
+      <ComponentPageTemplate
+        {...page}
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={page.fields.frontmattermd?.tabs || page.frontmatter.tabs }
+        tabs={page.fields.frontmattermd?.tabs || page.frontmatter.tabs}
         category={page.frontmatter.category}
         componentsExample={componentExample.examples}
-        componentsNavigation={page.frontmatter.componentsNavigation }
+        componentsNavigation={page.frontmatter.componentsNavigation}
         backgroundColor={page.frontmatter.backgroundColor}
         currentDirectory={currentDirectory}
         priority={page.frontmatter.priority}
@@ -105,16 +115,13 @@ const ComponentPage = ({
 
 export default ComponentPage
 
-
 // Get data from GraphiQL
 
 export const pageQuery = graphql`
-
-  
   query ComponentPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       html
-      
+
       frontmatter {
         title
         intro
@@ -128,18 +135,17 @@ export const pageQuery = graphql`
           publicURL
         }
         backgroundColor
-        tabs{
+        tabs {
           name
           content
         }
       }
       fields {
-       
         frontmattermd {
           tabs {
             content {
               html
-              headings{
+              headings {
                 value
               }
             }
@@ -148,10 +154,9 @@ export const pageQuery = graphql`
             }
           }
         }
-        
       }
     }
-    allComponentExample: allHtmlContent{
+    allComponentExample: allHtmlContent {
       edges {
         node {
           slug
@@ -162,7 +167,5 @@ export const pageQuery = graphql`
         }
       }
     }
-   
   }
 `
-

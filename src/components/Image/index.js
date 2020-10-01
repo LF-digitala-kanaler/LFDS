@@ -17,42 +17,26 @@ class Image extends React.Component {
     '1200',
     '1500',
     '1600',
-    '2000'
+    '2000',
   ] // image sizes used for image source sets
 
-  
- 
-
   render() {
-    let {
-      
-      className = '',
-      src,
-      title = '',
-      alt = '',
-      
-    } = this.props
+    let { className = '', src, title = '', alt = '' } = this.props
 
-   
-   
     return (
       <Fragment>
-          <Fragment>
-              <img
-                className={`${className}`}
-                src={src}
-                srcset
-                title={title}
-                alt={alt}
-              />
-            
-          </Fragment>
-       
+        <Fragment>
+          <img
+            className={`${className}`}
+            src={src}
+            srcset
+            title={title}
+            alt={alt}
+          />
+        </Fragment>
       </Fragment>
     )
   }
 }
-
-
 
 export default Image

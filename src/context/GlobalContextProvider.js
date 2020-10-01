@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 export const GlobalStateContext = React.createContext()
 export const GlobalDispatchContext = React.createContext()
@@ -9,14 +9,14 @@ const initialState = {
 
 function reducer(state, action) {
   switch (action.type) {
-    case "TOGGLE_SIDENAV": {
+    case 'TOGGLE_SIDENAV': {
       return {
         ...state,
         isMenuOpenDesktop: state.isMenuOpenDesktop === true ? false : true,
       }
     }
     default:
-      throw new Error("Bad Action Type")
+      throw new Error('Bad Action Type')
   }
 }
 

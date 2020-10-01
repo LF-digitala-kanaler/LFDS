@@ -1,13 +1,12 @@
-import React from "react"
-import style from './index.module.css';
+import React from 'react'
+import style from './index.module.css'
 
-const Button = ({href, text}) => {
-  
+const Button = ({ href, text }) => {
   return (
-    <a className={style.Button} href={href}>{text}</a>
+    <a className={style.Button} href={href}>
+      {text}
+    </a>
   )
-};
+}
 
-export default Button;
-
-
+export default Button

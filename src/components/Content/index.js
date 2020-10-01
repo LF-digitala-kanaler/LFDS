@@ -5,8 +5,6 @@ import Image from '../Image'
 
 import './index.css'
 
-
-
 const encodeMarkdownURIs = (source = '') => {
   const markdownLinkRegex = /\[(.+)\]\((.+)(".+)\)/g
   return source.replace(markdownLinkRegex, (match, linkURI) => {
@@ -16,18 +14,10 @@ const encodeMarkdownURIs = (source = '') => {
   })
 }
 
-
-const MyImage = ({ nodeKey, src,  alt}) => {
-
+const MyImage = ({ nodeKey, src, alt }) => {
   const decodedSrc = decodeURI(src)
-  
-  return (
-    <Image
-      className={`Content--Image`}
-      src={decodedSrc}
-      alt={alt}
-    />
-  )
+
+  return <Image className={`Content--Image`} src={decodedSrc} alt={alt} />
 }
 
 const HtmlBlock = ({ value }) => {
@@ -36,15 +26,13 @@ const HtmlBlock = ({ value }) => {
     <div
       className={`Content--Iframe`}
       dangerouslySetInnerHTML={{
-        __html: value
+        __html: value,
       }}
     />
   )
 }
 
 const Content = ({ source, src, className = '' }) => {
-
-  
   // accepts either html or markdown
   source = source || src || ''
   if (source.match(/^</)) {
@@ -53,7 +41,7 @@ const Content = ({ source, src, className = '' }) => {
     return (
       <div
         className={`Content ${className}`}
-        dangerouslySetInnerHTML={{ __html: source}}
+        dangerouslySetInnerHTML={{ __html: source }}
       />
     )
   }
@@ -64,7 +52,7 @@ const Content = ({ source, src, className = '' }) => {
       source={encodeMarkdownURIs(source)}
       renderers={{
         image: MyImage,
-        html: HtmlBlock
+        html: HtmlBlock,
       }}
     />
   )
@@ -73,7 +61,7 @@ const Content = ({ source, src, className = '' }) => {
 Content.propTypes = {
   source: PropTypes.string,
   src: PropTypes.string,
-  className: PropTypes.string
+  className: PropTypes.string,
 }
 
 export default Content

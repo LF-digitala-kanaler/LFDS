@@ -1,25 +1,17 @@
-import React, { useState, useEffect }  from 'react';
-
+import React, { useState, useEffect } from 'react'
 
 const AnimationContainer = ({ show, children }) => {
-  
-  const [shouldRender, setRender] = useState(show);
+  const [shouldRender, setRender] = useState(show)
 
   useEffect(() => {
-   setRender(true);
-  }, [show]);
+    setRender(true)
+  }, [show])
 
   const onAnimationEnd = () => {
-   setRender(false);
-  };
+    setRender(false)
+  }
 
-  return (
-     shouldRender && (
-      <div onAnimationEnd={onAnimationEnd}>
-        {children}
-      </div>
-     )
-  );
-};
+  return shouldRender && <div onAnimationEnd={onAnimationEnd}>{children}</div>
+}
 
-export default AnimationContainer;
+export default AnimationContainer
