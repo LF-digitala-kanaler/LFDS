@@ -2,7 +2,7 @@
 template: ArticlePage
 category: Lansforsakringar se
 previewImage: /img/lf_se-startpage.png
-title: Landing Page
+title: Landing page
 intro: Välkomnar användaren och tar hand om minst 80 procent av användarnas
   behov ovanför fold. Vårt primära syfte är att leda användaren vidare till vad
   den kom för att göra.
@@ -19,17 +19,18 @@ lang: true
 
 ## Beskrivning
 
-Vi har jobbat mycket för att sidmallen ska fungera bra i mobil då mer än 60% av de som kommer in på vissa sidor surfar in via mobilen.
+Vi har jobbat mycket för att sidmallen ska fungera bra i mobil eftersom mer än 60 procent surfar via mobilen.
 
-Startsidan för länsförsäkringar.se ska i första hand ta hand om det behov våra kunder och andra användare har – ”Hjälp mig att göra det jag kom för att göra”. Därför inleds sidan med ingångar till de vanligaste ärendena. Därutöver har vi möjlighet att lista vanliga sökord och aktuella kampanjer, nyheterr och kontaktmöjligheter.
+Startsidan för länsförsäkringar.se ska i första hand ta hand om vpra kunders behov – ”Hjälp mig att göra det jag kom för att göra”. Därför inleds sidan med ingångar till de vanligaste ärendena. Utöver det har vi möjlighet att lista vanliga sökord och aktuella kampanjer, nyheter och kontaktmöjligheter.
 
-Viktigt att tänka på är att de kunder som kommer till oss med att behov sällan, eller aldrig, stannar kvar på startsidan. Därför kan vi inte förlita oss på att man uppmärksammar information som finns här. Kunden är mest mottaglig efter det att behovet har tagits om hand eller då vi presenterar information som är tätt relaterad till det behov kunden har.
+Tänka på att kunderna som kommer till oss sällan, eller aldrig, stannar kvar på startsidan. Därför kan vi inte förlita oss på att man uppmärksammar informationen som finns här. Kunden är mest mottaglig efter det att behovet har tagits om hand eller då vi presenterar information som är tätt relaterad till det behov kunden har.
 
 ### Delar på sida
 
 #### Stödja majoriteten
 
-5 knappar till de vanligaste tjänsterna/produkterna tillsammans med logga in och kontakta oss hjälper mer än 80% av besökarna till startsidan. Verkligen att hjälpa dem att göra det jag kom för att göra.
+Fem knappar till de vanligaste tjänsterna/produkterna tillsammans med logga in och kontakta oss hjälper mer än 80 procent av besökarna med att göra det de kom för att göra.
+
 <figure class="Image Image__background"><img src="/img/lfse-startsida-01-support-majority.jpg" srcset="/img/lfse-startsida-01-support-majority.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Ett tydligt varumärkeslöfte
@@ -40,23 +41,23 @@ Att vi är ett lokalt, kundägtbolag som ger trygghet i försäkring, bank och p
 
 #### Mest sökta ord i internsök
 
-Kan vara det folk söker på mest lokalt just nu eller som man inte hittar. Vad kan vi lära oss av att lägga det på startsidan. Kan vi fånga fler än 80%. (Nytt under utvärdering)
+Kan vara det folk söker på mest lokalt just nu eller som man inte hittar. Vad kan vi lära oss av att lägga det på startsidan. Kan vi fånga fler än 80 procent. (Nytt under utvärdering)
 
 #### Kampanjyta
 
-Leda in de som sett senaste kampanjen vidare till kampanjen. Har jag sett något på en stortavla ska jag få igenkänning.
+Leda in de som sett senaste kampanjen vidare till kampanjen. Har kunden sett något på en stortavla ska kunden få igenkänning.
 
 <figure class="Image Image__background"><img src="/img/lfse-startsida-03-campain.jpg" srcset="/img/lfse-startsida-03-campain.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Nyheter
 
-3 senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker min försäkring vid pandemin Corona? Eldningsförbud i länet - hur kan jag förebygga? Tänk på att titta på rubrikens längd här innan du är klar så det ser ok ut.
+Tre senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker min försäkring vid pandemin Corona? Eldningsförbud i länet - hur kan jag förebygga? Tänk på att titta på rubrikens längd här innan du är klar så det ser ok ut.
 
 <figure class="Image Image__background"><img src="/img/lfse-startsida-05-news.jpg" srcset="/img/lfse-startsida-05-news.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### Kontakta oss
 
-Jag vill ringa, besöka eller maila - hur gör jag? Olika lokala val på vad du kan använda här. 
+Jag vill ringa, besöka eller maila - hur gör jag? 
 
 <figure class="Image Image__background"><img src="/img/lfse-startsida-06-contact.jpg" srcset="/img/lfse-startsida-06-contact.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
@@ -97,3 +98,7 @@ S. Skrolldjup
 <https://www.lansforsakringar.se/privat/>
 
 <https://www.lansforsakringar.se/foretag/>
+
+## Other material[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons#other-material)
+
+**Sketch file:** LFUXAD Assets/Templates/Templates - Öppna sidor.sketch (Full page templates/Startsida/ "Desktop" och "Mobile")
