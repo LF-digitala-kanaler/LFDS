@@ -4,6 +4,16 @@
 
 
 ## Structure
+`
+src
+├── cms
+├── components
+├── data
+├── img
+├── pages
+├── templates
+├── utils
+`
 
 ## Content and Markdown guidelines
 
