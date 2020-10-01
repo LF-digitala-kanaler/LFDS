@@ -135,7 +135,7 @@ const ComponentExample = ({variants, background, verticalResize, navigation}) =>
   src="https://code.jquery.com/jquery-3.5.1.min.js"
   
   ></script>
-                    
+  <script src="https://d3js.org/d3.v4.min.js"></script>
                     <script id="script" type="text/javascript" src="/lf.js"></script>
                     <script id="script2" type="text/javascript" src="/docs.js"></script>
                   </body>
