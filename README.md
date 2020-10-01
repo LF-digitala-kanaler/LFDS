@@ -1,17 +1,11 @@
-# LFUI
+# LF Design System
+ 
+ This is the LF Design System website. It's built using the [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://github.com/netlify/netlify-cms).
 
 
+## Structure
 
-- **[Gatsby](https://gatsbyjs.org)** static site generator
-- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-
-## See also
-
-[Netlify CMS Docs](https://www.netlifycms.org/docs/)  
-[Netlify CMS Repo](https://github.com/netlify/netlify-cms)
-
-## Get going
-
+## Content and Markdown guidelines
 
 
 ## Developing
@@ -20,7 +14,7 @@
 
 2.  Install dependencies
 
- `yarn install` or `npm install`
+ `yarn install`
 
 3.  Run the development server
 
@@ -38,5 +32,7 @@ The Netlify CMS configuration is located in `public/admin/config.yml`. This is w
 
 Find out more in the [Netlify CMS Docs](https://www.netlifycms.org/docs/#configuration).
 
+
+## Build/Deploy
 
 
