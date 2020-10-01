@@ -15,6 +15,7 @@ src
 ├── utils
 ```
 
+## Navigation Structure
 ## Content and Markdown guidelines
 
 
