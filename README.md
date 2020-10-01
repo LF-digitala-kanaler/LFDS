@@ -10,11 +10,11 @@
 
 ## Developing
 
-1.  Clone your repo to your local machine
+  *Clone your repo to your local machine
 
-2.  Install dependencies
+  *`yarn install` – install dependencies
 
- `yarn install`
+ 
 
 3.  Run the development server
 
