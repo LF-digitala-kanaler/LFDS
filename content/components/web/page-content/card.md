@@ -31,7 +31,7 @@ tabs:
     name: Design
   - name: Code
     content: >-
-      # How to use
+      ## How to use
 
 
       It's not much to say about our Card component. It's built using Bootstrap's card component. Please see [Bootstrap card](https://getbootstrap.com/docs/4.0/components/card/) for full details on this use of the component. 
