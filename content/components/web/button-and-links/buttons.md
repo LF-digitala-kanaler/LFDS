@@ -183,37 +183,10 @@ tabs:
       ### Primary with BankID icon
 
 
-      #### Legitimering direkt
+      [Gå till BankID under Patterns ](https://lf-digitala-kanaler.github.io/patterns/general-patterns/bank-id)
 
 
-      När BankID-legitimeringen sker för att identifiera användaren använder vi begreppet "legitimera".
-
-
-      **Text i knapp:** Legitimera dig
-
-
-      #### BankID behövs senare
-
-
-      Om en legitimering eller signering behövs senare i flödet vill vi förvarna användaren om att BankID kommer att behövas.
-
-
-      **Text bredvid knappen:** Du kommer att behöva BankID
-
-
-      **Text i knapp:** Gå vidare
-
-
-      #### Steget där du signerar
-
-
-      När BankID-signering används för att godkänna använder vi begreppet Signera och/eller godkänn.
-
-
-      **Text i knapp:** Signera och godkänn
-
-
-      ### Primärknapp med autogiro
+      ### [](https://lf-digitala-kanaler.github.io/patterns/general-patterns/bank-id)Primärknapp med autogiro
 
 
       På kvittosidan i köptjänster finns ibland en primärknapp med länk till digital ansökan om autogiro.
