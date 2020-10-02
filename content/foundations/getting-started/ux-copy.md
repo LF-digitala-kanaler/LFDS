@@ -1,12 +1,12 @@
 ---
 template: ArticlePage
+category: Getting started
+previewImage: /img/copy.svg
 title: UX-copy
 intro: Länsförsäkringar User Interface är vår plattform för vårt digitala
   varumärke. Här guidar vi dig hur du kommer igång som en copy, UX, AD eller
   frontend-utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter
   eller hittar vidare länkar till vår Brand portal Röda rummet.
-category: Getting started
-previewImage: /img/copy.svg
 wide: false
 lang: true
 ---
@@ -16,7 +16,7 @@ lang: true
 
 <div class="Callout"><strong class="Callout__title">Copy i komponenter </strong><p class="Callout__text">Under respektive komponent finns copy för specifika knappar och fält. 
 
-[Ta mig till Components](/components/web)</p></div>
+[Ta mig till Components](https://lf-digitala-kanaler.github.io/components)</p></div>
 
 <div class="Callout"><strong class="Callout__title">Copy patterns </strong><p class="Callout__text">I avsnittet Copy under General Patterns kan du se exempel och principer på hur vi skriver exempelvis felmeddelanden. 
 
