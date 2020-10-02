@@ -1,7 +1,7 @@
 ---
 template: ArticlePage
 category: General patterns
-title: Felmeddelanden och information
+title: Writing
 intro: "Här kan du läsa om hur vi generellt skriver felmeddelanden i tjänster
   och informationstexter vid till exempel incidenter eller systemunderhåll. "
 description: ""
