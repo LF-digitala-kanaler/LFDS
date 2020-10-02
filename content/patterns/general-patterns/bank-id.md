@@ -10,7 +10,7 @@ contentTop: ""
 ---
 ## Copy för BankID
 
-### Primary with BankID icon[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons?copy#primary-with-bankid-icon)
+### Primary button with BankID icon[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons?copy#primary-with-bankid-icon)
 
 #### Legitimering direkt[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons?copy#legitimering-direkt)
 
