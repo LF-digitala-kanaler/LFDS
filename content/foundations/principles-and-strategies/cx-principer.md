@@ -1,11 +1,11 @@
 ---
 template: ArticlePage
+category: Principles and strategies
+previewImage: /img/cx_principer.svg
 title: CX-Principer
 intro: CX-principerna syftar till att skapa förutsättningar för att styra beslut
   och prioriteringar kopplat till utveckling av kundmötet utifrån önskad kund-
   och medarbetarupplevelse.
-category: Principles and strategies
-previewImage: /img/cx_principer.svg
 background: bg-white
 wide: true
 lang: true
@@ -22,14 +22,21 @@ Detta uppnås genom att konkretisera och komplettera relevanta delar av Marknads
 
 ### Som kund vill jag...
 
+<figure class="Image Image__background"><img src="/img/cx-1-motas-utifran-mina-behov.png" srcset="/img/cx-1-motas-utifran-mina-behov.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 #### ...mötas utifrån just mina behov och känna mig trygg med att jag har rätt produkter
 
-##### Det betyder att…
+<section>
+<Collapse title="Det betyder att…"><div class="content">
 
 * Vi tillhandahåller en samstämmig och uppdaterad helhetsbild över kunden
 * Vi möter kunden utifrån kundens behov - tvärs kanaler och kundmöten oaktat intern organisation
 * Vi ger kunden möjlighet att identifiera sig så tidigt som möjligt i våra kundmöten för att kunna utgå från kända kundbehov och engagemang
 * Vi informerar om relevanta produkter och tjänster och låter inte kunder teckna onödiga avtal
+</div></Collapse>
+</section>
+
+*
 
 #### ...enkelt kunna göra det jag kom för att göra oavsett hur jag väljer att ha kontakt med Länsförsäkringar
 
