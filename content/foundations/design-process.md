@@ -5,7 +5,7 @@ title: Designprocess
 intro: "Vår designprocess byggs upp av 5 steg Förstå, Design, Användningstest,
   Implementera och Följa upp. "
 heroBlock:
-  color: null
+  color: "#badaf3"
   image: ""
   quote: ""
 wide: false
