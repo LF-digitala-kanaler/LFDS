@@ -22,7 +22,10 @@ tabs:
       The responsive rules for our buttons transform them the full row-width in smaller screens. This should be your default design, but feel free to put two buttons next to each other even in smaller screens if the context makes it a better choice. 
 
 
-      <figure class="Image Image__background false"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt="Example of button in desktop and responsive web-states"><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
+      <figure class="Image Image__border true"><img src="/img/alert.svg" srcset="/img/alert.svg 2x" alt="aaaaa"><figcaption><div class="Image__caption">aaaaa</div></figcaption></figure>
+
+
+      <figure class="Image Image__background true"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt="Example of button in desktop and responsive web-states"><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
 
 
       <figure class="Image Image__background"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt=""><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
