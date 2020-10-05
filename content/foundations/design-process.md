@@ -8,6 +8,7 @@ heroBlock:
   color: null
   image: ""
   quote: ""
+background: bg-white
 wide: false
 lang: false
 ---
