@@ -20,7 +20,7 @@ Vi strävar efter en optimal kundupplevelse i balans med vår vilja att driva ti
 
 <figure class="Image Image__background"><img src="/img/cx-1-motas-utifran-mina-behov.png" srcset="/img/cx-1-motas-utifran-mina-behov.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-#### ...mötas utifrån just mina behov och känna mig trygg med att jag har rätt produkter
+#### 1. Mötas utifrån just mina behov och känna mig trygg med att jag har rätt produkter
 
 Det betyder att
 
@@ -33,7 +33,7 @@ Det betyder att
 
 <figure class="Image Image__background"><img src="/img/cx-2-enkelt-kunna-göra-det-jag-kom-för-att-göra.png" srcset="/img/cx-2-enkelt-kunna-göra-det-jag-kom-för-att-göra.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-#### ...enkelt kunna göra det jag kom för att göra oavsett hur jag väljer att ha kontakt med Länsförsäkringar
+#### 2. Enkelt kunna göra det jag kom för att göra oavsett hur jag väljer att ha kontakt med Länsförsäkringar
 
 Det betyder att
 
@@ -47,7 +47,7 @@ Det betyder att
 
 <figure class="Image Image__background"><img src="/img/cx-3-relevant-dialog.png" srcset="/img/cx-3-relevant-dialog.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-#### ...ha en relevant dialog som proaktivt hjälper mig när det behövs
+#### 3. Ha en relevant dialog som proaktivt hjälper mig när det behövs
 
 Det betyder att
 
