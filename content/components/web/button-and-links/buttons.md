@@ -22,6 +22,9 @@ tabs:
       The responsive rules for our buttons transform them the full row-width in smaller screens. This should be your default design, but feel free to put two buttons next to each other even in smaller screens if the context makes it a better choice. 
 
 
+      <figure class="Image Image__background false"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt="Example of button in desktop and responsive web-states"><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
+
+
       <figure class="Image Image__background"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt=""><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
 
 
@@ -154,7 +157,7 @@ tabs:
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/ "Primary button", "Secondary button" and "Login & Logout")
 
 
-      **Live example:** []
+      **Live example:** \[]
 
       Loan product page have primary button for the "Calculate mortgages" and you have always the login button on the top right: <https://www.lansforsakringar.se/privat/bank/lana/bolan/>
     name: Design
