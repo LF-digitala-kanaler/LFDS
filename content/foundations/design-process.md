@@ -2,8 +2,10 @@
 template: ArticlePage
 previewImage: /img/design_process.svg
 title: Designprocess
-intro: "Vår designprocess byggs upp av 5 steg Förstå, Design, Användningstest,
-  Implementera och Följa upp. "
+intro: Vår designprocess byggs upp av 5 steg. De är förstå, design,
+  användningstest, implementera och följa upp. Vi går igenom dem en och en.
+description: "Vår designprocess byggs upp av 5 steg. De är förstå, design,
+  användningstest, implementera och följa upp. "
 background: bg-white
 wide: false
 lang: false
