@@ -70,6 +70,8 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 
 #### Exempel
 
+För att visa på principen finns nedan exempel på olika sätt att nå skadeanmälan utan att ha loggat in. Notera att via inloggat läge (Mina Sidor, appen) finns ytterligare sätt att hitta till skadeanmälan, så det är inte ens alla vägar som visas här.
+
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-startsidan.gif" srcset="/img/till-skadeanmalan-startsidan.gif 2x" alt="Exempel 1: Navigering till Skadeanmälan via knapp på startsidan"><figcaption><div class="Image__caption">Exempel 1: Navigering till Skadeanmälan via knapp på startsidan</div></figcaption></figure>
 
 
