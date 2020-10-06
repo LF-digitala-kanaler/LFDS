@@ -11,16 +11,32 @@ heroBlock:
   quote: Hjälp mig göra det jag kom för att göra
   cite: Vår främsta uppgift
   image: ""
-
 priority: "1"
 wide: true
 lang: true
 ---
 ### Principerna
 
+
+
+
 <section>
 <Collapse title="Upplevelsen är utformad för denna kanal">
 <div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Våra kunder <strong>kontaktar oss</strong> på det sätt som de anser passar dem bäst, det innebär att vi måste möta dem enligt de förväntningar som finns på det kontaktsättet. 
 
@@ -38,6 +54,20 @@ Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss
 
 <figure class="Image Image__border "><img src="/img/samma-flode-ios-vs-android.jpg" srcset="/img/samma-flode-ios-vs-android.jpg 2x" alt="Exempel 3: Samma vyer ur betalaflödet anpassade till Android resp iOS"><figcaption><div class="Image__caption">Exempel 3: Samma vyer ur betalaflödet anpassade till Android resp iOS</div></figcaption></figure>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div></Collapse>
 <Collapse title="Varje sida har ett primärt syfte">
 <div class="content">
@@ -45,7 +75,35 @@ Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Varje sida/vy som designas ska ha ett tydligt syfte – är det svårt att säga vad syftet är så ska det förmodligen delas upp på flera sidor/vyer eller inte finnas alls.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -56,14 +114,56 @@ Varje sida/vy som designas ska ha ett tydligt syfte – är det svårt att säga
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Visa tydligt upp de primära handlingarna och funktionerna, och ge användaren chans att agera. De flesta vill göra, inte läsa, och det ska vi stötta dem i.
 
 Informationen har sin plats och är ofta viktig, men de som vill ha den kommer hitta den.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div></Collapse>
 <Collapse title="Alla hittar rätt på olika sätt">
 <div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Möjliggör för användarna att hitta fram på det sätt de vill – de flesta klickar sig fram genom sidinnehåll, men vi ska även erbjuda en tydlig meny för de som föredrar den vägen och bra sökfunktioner för de som hittar på det sättet.
 
@@ -85,12 +185,54 @@ För att visa på principen finns nedan exempel på olika sätt att nå skadeanm
 
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-google.gif" srcset="/img/till-skadeanmalan-google.gif 2x" alt="Exempel 5: Navigering till Skadeanmälan via Google"><figcaption><div class="Image__caption">Exempel 5: Navigering till Skadeanmälan via Google</div></figcaption></figure>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div></Collapse>
 <Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala">
 <div class="content">
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 En av Länsförsäkringars stora fördelar är att vi finns lokalt på många orter och har rådgivare på plats – folk känner 'Kim på Länsförsäkringar'. Den närheten till Länsförsäkringar vill vi ta med in i det digitala där det går och passar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div></Collapse>
@@ -101,12 +243,54 @@ En av Länsförsäkringars stora fördelar är att vi finns lokalt på många or
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Internet svällar över av annonser och banner blindness är etablerat fenomen – om något ser ut och känns som en annons sorterar folk bort det (o)medvetet. Samtidigt vet vi att våra kunder är öppna för att ta emot vad tycker är relevanta erbjudanden kopplat till sitt innehav. Här blir det viktigt att balansera de två och ha en 'less is more'-inställning till de erbjudanden vi vill visa upp.<
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div></Collapse>
 <Collapse title="Kunden möts utifrån det Länsförsäkringar vet, eller borde veta, om kunden">
 <div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -120,9 +304,37 @@ Vi vet en hel del om kunden, och kunden förutsätter att det de berättat för 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div></Collapse>
 <Collapse title="Personalisering är alltid kundens val">
 <div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -135,6 +347,20 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div></Collapse>
 <Collapse title="Det ska kännas Länsförsäkringar">
 <div class="content">
@@ -142,9 +368,37 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 När kunderna och medarbetarna använder våra system ska de känna att de är på Länsförsäkringar. Vi har våra generella designkomponenter, men de måste förstås tolkas utifrån situationen de används i. Det viktigaste är att det känns som Länsförsäkringar rakt igenom. Våra designmönster för olika typ av handlingar (t.ex. köpa något) är en viktig del i att skapa den känslan. Igenkänning är en viktig faktor.
 
 När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så gäller det att göra det tydligt för kunden att de går från Länsförsäkringar till en samarbetspartner. I vissa fall kan det vara bättre att inte anpassa utseendet alls än att anpassa det halvdant.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div></Collapse>
