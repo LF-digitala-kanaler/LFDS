@@ -10,17 +10,15 @@ lang: false
 hidden: false
 ---
 <section>
-<Collapse title="sqd">
-
+<Collapse title="test">
 <div class="content">
 
-fwfw
+test
 </div></Collapse>
-<Collapse title="fw">
-
+<Collapse title="te">
 <div class="content">
 
-fw
+te
 </div></Collapse>
 </section>
 
