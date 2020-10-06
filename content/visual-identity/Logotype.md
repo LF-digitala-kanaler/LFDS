@@ -15,7 +15,22 @@ lang: false
 
 In the LFUI-common.sketch document you will find all the logotypes for different länsbolag. These logotypes are optimized for digital use with correct RGB values.
 
+<section>
+<Collapse title="The symbol">
+<div class="content">
 
+Our symbol was designed in 1969 by the graphic designer Hans Hug. This is how he described the underlying idea: “Länsförsäkringar's many member companies, each in its own defined area. The customer is at the center, the companies are protective in every direction."
+
+Länsförsäkringar's symbol, which consists of a straight-up and an upside-down “L” with a red square in the middle, is common to all regional insurance companies, the common brand Länsförsäkringar and our three subsidiaries Länsförsäkringar Fastighetsförmedling, Agria and Wasa Kredit.
+
+</div></Collapse>
+<Collapse title="Symbol recognition">
+<div class="content">
+
+Länsförsäkringar's symbol is one of Sweden's most well-known corporate symbols. In a market survey that we let Sifo do in 2014, as many as 84 percent of the people surveyed make the connection to Länsförsäkringar just by seeing the symbol. It is a figure few can compete with, and something we must cherish together.
+
+</div></Collapse>
+</section>
 
 ## Use of symbol alone
 
