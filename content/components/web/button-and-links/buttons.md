@@ -25,9 +25,6 @@ tabs:
       <figure class="Image Image__background "><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt="Example of button in desktop and responsive web-states"><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
 
 
-      <figure class="Image Image__background"><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt=""><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
-
-
       The button copy should make it clear what happens after clicking it, meaning copy like "Next" or "Proceed" shouldn't be used. Go to the [copy-tab](?Copy) for more details and examples.
 
 
