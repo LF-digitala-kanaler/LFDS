@@ -4,10 +4,6 @@ previewImage: /img/design_process.svg
 title: Designprocess
 intro: "Vår designprocess byggs upp av 5 steg Förstå, Design, Användningstest,
   Implementera och Följa upp. "
-heroBlock:
-  color: null
-  image: ""
-  quote: ""
 background: bg-white
 wide: false
 lang: false
