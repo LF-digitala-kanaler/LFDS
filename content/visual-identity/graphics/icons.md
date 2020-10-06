@@ -18,7 +18,7 @@ description: >-
 
   The icons come in various sizes, Each size with variations of details.
 ---
-
+<br />
 
 <figure class="Image Image__border Image__wide"><img src="/img/icons.jpg" srcset="/img/icons.jpg 2x" alt="How the icons scale."><figcaption><div class="Image__caption">How the icons scale.</div></figcaption></figure>
 
