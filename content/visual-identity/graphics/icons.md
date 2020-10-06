@@ -32,7 +32,8 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 ## Icons in LFUI
 
 <section>
-<Collapse title="How to use - developer"><div class="content">
+<Collapse title="How to use - developer">
+<div class="content">
 
 <div class="ImageBlock ImageBlock__right"><div class="ImageBlock__content">
 

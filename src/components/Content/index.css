@@ -220,11 +220,11 @@ figure {
   width: 100%;
 }
 
-.Image__border--noPadding img {
+/* .Image__border--noPadding img {
   border: 2px solid var(--color-border);
   display: inline-block;
   padding: 0;
-}
+} */
 
 
 .Image__background {
@@ -232,6 +232,9 @@ figure {
   text-align: center;
   margin: var(--spacing-vertical--1) 0;
   position: relative;
+}
+.Image__background img {
+  padding: var(--spacing-md);
 }
 
 .Image__caption {
@@ -244,9 +247,7 @@ figure {
   background: #fff;
 }
 
-.Image__background img {
-  padding: var(--spacing-xxlg);
-}
+
 .active {
   background: red;
 }
