@@ -34,13 +34,13 @@ tabs:
       A one-lined text input field on a row
 
 
-      ![Example of an input field](/img/one-lined-input-field.png "A one-lined input field")
+      <figure class="Image Image__background "><img src="/img/one-lined-input-field.png" srcset="/img/one-lined-input-field.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       Two one-lined text input fields on a row
 
 
-      ![Two one-lined input fields on a row with extra content](/img/two-one-lined-on-a-row.png "Two one-lined input fields on a row")
+      <figure class="Image Image__background "><img src="/img/two-one-lined-on-a-row.png" srcset="/img/two-one-lined-on-a-row.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       #### Modifiers
