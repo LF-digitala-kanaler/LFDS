@@ -10,7 +10,6 @@ description: "This page describes general rule of thumbs to consider when
   designing a form. "
 wide: false
 lang: false
-
 hidden: false
 ---
 At the bottom of this page you will find an illustrative image which exemplifies all our rules of thumb. The rules of thumb are:
@@ -26,7 +25,7 @@ Below you can find the rules of thumb explained in greater detail. For informati
 
 When placing your elements, make sure to follow [our design dimensions](/visual-identity/design-dimensions) (the grid).
 
-## Neighbouring elements 
+## Neighbouring elements
 
 It is often a good idea to put two different input elements next to each other to give a more compact feeling to the form. The items should have a natural connection to each other, like postal number and postal address in the example image below. Make sure to not put more than two items next to each other however as it decreases readability of the form drastically and makes it more difficult to know in which order to fill it out.
 
@@ -38,4 +37,4 @@ When designing a form, use the length of the element to give the user an idea of
 
 To make longer forms easier to fill out and more intelligible to users, make sure to create clusters of input elements. In longer forms (like the one depicted below), it is common to use [panels](/components/web/page-content/panel) as a way of creating visually distinct clusters. As an added bonus, the panel provides you with headings so you can inform the user in advance what the cluster contains.
 
-<figure class="Image Image__background"><img src="/img/form-grouping-examples.png" srcset="/img/form-grouping-examples.png 2x" alt="Example of form layout"><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background "><img src="/img/form-grouping-examples.png" srcset="/img/form-grouping-examples.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
