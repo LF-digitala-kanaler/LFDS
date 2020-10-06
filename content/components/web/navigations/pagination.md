@@ -51,6 +51,9 @@ tabs:
       The version below was used in an a/b-test during autumn 2019 and resulted in a lower conversion rate than the pagination in use.
 
 
+      <figure class="Image undefined "><img src="undefined" srcset="undefined 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
       <figure class="Image Image__default "><img src="/img/pagination-failed-ab.jpg" srcset="/img/pagination-failed-ab.jpg 2x" alt="Example of a pagination which was a/b-tested against the current one and lost"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
