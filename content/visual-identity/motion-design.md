@@ -1,7 +1,6 @@
 ---
 template: ArticlePage
 previewImage: /img/family1.svg
-description: Motion graphics can delight, inspire, and guide your audience to take action
 title: Motion design
 intro: >
   When done right, motion graphics can delight, inspire, and guide your audience
@@ -9,8 +8,8 @@ intro: >
   to quickly tell a story and help the viewer understand.
 
   Designers can use animated icons, illustrations, graphics and guidance animation to communicate with users.
-contentTop: ''
-
+description: Motion graphics can delight, inspire, and guide your audience to take action
+contentTop: ""
 wide: false
 lang: false
 ---
@@ -23,6 +22,8 @@ Här kommer tankar och riktning i hur vi tänker att vi tillsammans ska sträva 
 “Hjälp mig göra det jag kom för att göra”
 
 Vår grafik kan göras levande genom små mjuka rörelser och effekter. Vi ritar fram objekt eller använder oss av "Ruta 1" för att ta fram objekt man kan kan tona fram objekt, men ska då ske snabbt men mjukt. Känslan kan gärna vara lekfull och lättsam men medtydligt funktionellt fokus. Känslan får aldrig bli överdriven eller rörig.
+
+<figure class="Image Image__border "><img src="/img/alert.svg" srcset="/img/alert.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 Länsförsäkringars animerings principer:
 
