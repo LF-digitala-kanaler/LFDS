@@ -19,7 +19,11 @@ lang: true
 ### Principerna
 
 <section>
-<Collapse title="Upplevelsen är utformad för denna kanal"><div class="content"><div class="content">
+<Collapse title="Upplevelsen är utformad för denna kanal"><div class="content"><div class="content"
+
+><div class="content">
+
+<div class="content">
 
 <div class="content">
 
@@ -41,8 +45,13 @@ Om vi inte kan/vill erbjuda den kontaktväg som kunden föredrar behöver vi tyd
 <figure class="Image Image__background"><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
+
 </div></Collapse>
-<Collapse title="Varje sida har ett primärt syfte"><div class="content"><div class="content">
+<Collapse title="Varje sida har ett primärt syfte"><div class="content"><div class="content"
+
+><div class="content">
+
+<div class="content">
 
 <div class="content">
 
@@ -56,8 +65,13 @@ Varje sida/vy som designas ska ha ett tydligt syfte – är det svårt att säga
 
 
 
+
 </div></Collapse>
-<Collapse title="Handling och funktion före information"><div class="content">
+<Collapse title="Handling och funktion före information"><div class="content"
+
+><div class="content">
+
+
 
 <div class="content">
 
@@ -72,8 +86,13 @@ Informationen har sin plats och är ofta viktig, men de som vill ha den kommer h
 
 
 
+
 </div></Collapse>
-<Collapse title="Alla hittar rätt på olika sätt"><div class="content">
+<Collapse title="Alla hittar rätt på olika sätt"><div class="content"
+
+><div class="content">
+
+
 
 <div class="content">
 
@@ -90,8 +109,13 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 
 
 
+
 </div></Collapse>
-<Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala"><div class="content">
+<Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala"><div class="content"
+
+><div class="content">
+
+
 
 <div class="content">
 
@@ -104,8 +128,13 @@ En av Länsförsäkringars stora fördelar är att vi finns lokalt på många or
 
 
 
+
 </div></Collapse>
-<Collapse title="Relevanta, men få, erbjudanden i en naturlig kontext"><div class="content">
+<Collapse title="Relevanta, men få, erbjudanden i en naturlig kontext"><div class="content"
+
+><div class="content">
+
+
 
 <div class="content">
 
@@ -119,8 +148,13 @@ Internet svällar över av annonser och banner blindness är etablerat fenomen �
 
 
 
+
 </div></Collapse>
-<Collapse title="Kunden möts utifrån det Länsförsäkringar vet, eller borde veta, om kunden"><div class="content">
+<Collapse title="Kunden möts utifrån det Länsförsäkringar vet, eller borde veta, om kunden"><div class="content"
+
+><div class="content">
+
+
 
 <div class="content">
 
@@ -139,8 +173,13 @@ Vi vet en hel del om kunden, och kunden förutsätter att det de berättat för 
 
 
 
+
 </div></Collapse>
-<Collapse title="Personalisering är alltid kundens val"><div class="content">
+<Collapse title="Personalisering är alltid kundens val"><div class="content"
+
+><div class="content">
+
+
 
 <div class="content">
 
@@ -158,8 +197,13 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 
 
 
+
 </div></Collapse>
-<Collapse title="Det ska kännas Länsförsäkringar"><div class="content">
+<Collapse title="Det ska kännas Länsförsäkringar"><div class="content"
+
+><div class="content">
+
+
 
 <div class="content">
 
@@ -174,21 +218,13 @@ När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så g
 
 
 
-</div></Collapse>
-<Collapse title="test"><div class="content">
-
-<div class="content">
-
-
-
-test
 
 </div></Collapse>
-<Collapse title="fw">
+<Collapse title="title"
 
-<div class="content">
+><div class="content">
 
-fw
+c
 </div></Collapse>
 </section>
 
