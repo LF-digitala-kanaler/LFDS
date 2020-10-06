@@ -1,5 +1,6 @@
 ---
 template: ArticlePage
+previewImage: /img/brand_nobg.svg
 title: Brand
 intro: >-
   Länsförsäkringar är ett av Sveriges mest kända varumärken. Vår symbol ritades
@@ -13,7 +14,8 @@ description: >-
   kända företagssymboler. 
 
   Det är något vi värnar om tillsammans.
-previewImage: /img/brand_nobg.svg
+heroBlock:
+  ? color
 background: bg-white
 lang: true
 ---
