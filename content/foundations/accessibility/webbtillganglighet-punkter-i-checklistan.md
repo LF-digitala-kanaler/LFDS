@@ -1,15 +1,18 @@
 ---
 template: ArticlePage
+category: Accessibility
+previewImage: /img/accessibility_nobg.svg
 title: Webbtillgänglighet förklaringar checklistan
 intro: Här går vi igenom punkt för punkt vad de betyder, för Länsförsäkringar,
   att följa checklistorna.
 description: Här går vi igenom punkt för punkt vad de betyder för
   Länsförsäkringar att följa checklistorna.
-category: Accessibility
-previewImage: /img/accessibility_nobg.svg
-
 lang: true
 ---
+<figure class="Image Image__border Image__wide"><img src="/img/checklistor-wcag.jpg" srcset="/img/checklistor-wcag.jpg 2x" alt="Checklistor för de olika yrkesrollerna"><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+
 * [Layout och bilder](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#layout-och-bilder)
 * [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#textinnehåll)
 * [Klickbara ytor - knappar och länkar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#klickbara-ytor---knappar-och-länkar)
@@ -22,6 +25,7 @@ lang: true
 ## Layout och bilder
 
 ### 1.01\
+
 Placera innehållet i en meningsfull och tydlig hierarki
 
 Tänk på att placera innehållet i en logisk ordning och följd så att användaren får lätt att följa flödet. Försök inte fylla alla ytor. Se till att det finns en tydlig hierarki där element inte tävlar om uppmärksamhet så att användaren kan lätt scanna igenom innehållet och naturligt dras till viktig information och interaktioner. Undvik att sprida ut innehållet över hela sidan.
@@ -31,6 +35,7 @@ Läs mer:
 https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
 
 ### 1.02\
+
 Var konsekvent i navigation, struktur och utformning
 
 Tänk på att följa en struktur för hur sidorna ska vara uppbyggda. Alla sidor behöver inte se likadana ut men det är bra om dem följer samma struktur. Liknande funktioner ska utföras på samma sätt oavsett var på webbplatsen man befinner sig. En del användare memorerar strukturen för att förstå innehållet och hur funktioner fungerar. Samma gäller för benämning på knappar. Inte Skicka på en sida och Sänd på en annan sida. Eller att en spara-ikon ska se likadan ut på hela webbplatsen.
