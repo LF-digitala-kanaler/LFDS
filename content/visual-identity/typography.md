@@ -2,9 +2,9 @@
 template: ArticlePage
 previewImage: /img/typo.svg
 title: Typography
-intro: Our typography is a vital part of Länsförsäkringars visual identity. With
-  two main typefaces – one of them custom made; LF Rubrik – we can create
-  consistent visuals that speaks our brand.
+intro: "Our typography is a vital part of Länsförsäkringars visual identity.
+  With two main typefaces – one of them custom made; LF Rubrik – we can create
+  consistent visuals that speaks our brand. "
 wide: false
 lang: false
 ---
