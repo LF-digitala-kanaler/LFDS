@@ -12,7 +12,7 @@ lang: false
 ---
 
 
-<figure class="Image Image__border "><img src="/img/cornerstones.png" srcset="/img/cornerstones.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__border Image__wide"><img src="/img/cornerstones.png" srcset="/img/cornerstones.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 **Expertis** – man ska få samma hjälp som i ett personligt kundmöte
 
