@@ -13,8 +13,6 @@ lang: true
 <img src="/img/lfse-startsida.jpg" srcset="/img/lfse-startsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption>
 </figure>
 
-
-
 ## Syfte
 
 **Primärt syfte**
@@ -111,9 +109,7 @@ S. Skrolldjup
 
 ## Live exempel
 
-<https://www.lansforsakringar.se/privat/>
-
-<https://www.lansforsakringar.se/foretag/>
+[](https://www.lansforsakringar.se/privat/)
 
 ## Other material[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons#other-material)
 
