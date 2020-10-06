@@ -207,6 +207,12 @@ figure {
   margin: var(--spacing-vertical--2) 0;
 }
 
+.Image {
+  text-align: center;
+  margin: var(--spacing-vertical--1) 0;
+  position: relative;
+}
+
 .Image__border {
   text-align: center;
   margin-bottom: var(--spacing-vertical--2);
@@ -229,13 +235,10 @@ figure {
 
 .Image__background {
   background: var(--color-smoke);
-  text-align: center;
-  margin: var(--spacing-vertical--1) 0;
-  position: relative;
+ 
 }
 .Image__background img {
   padding: var(--spacing-unit);
-  vertical-align: middle;
 }
 
 .Image__caption {
