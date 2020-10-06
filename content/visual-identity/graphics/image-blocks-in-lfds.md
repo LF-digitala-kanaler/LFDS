@@ -10,25 +10,17 @@ lang: false
 hidden: false
 ---
 <section>
-<Collapse title="eagae">
+<Collapse title="sqd">
 
 <div class="content">
 
-gaegeagea
-
-
-
-**bold**
-
-
-
-<figure class="Image Image__border "><img src="/img/alert.svg" srcset="/img/alert.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+fwfw
 </div></Collapse>
-<Collapse title="fe">
+<Collapse title="fw">
 
 <div class="content">
 
-r
+fw
 </div></Collapse>
 </section>
 
