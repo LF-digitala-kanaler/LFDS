@@ -1,5 +1,5 @@
-const Image = {
-  id: 'advancedImage',
+const LFDSImage = {
+  id: 'LFDSImage',
   label: 'Image',
   fields: [
     { name: 'image', label: 'Image', widget: 'image' },
@@ -33,9 +33,14 @@ const Image = {
     }
   },
   toBlock(obj) {
-    console.log(obj, 'obj')
-    return `<figure class="Image ${obj.type} ${obj.wide}"><img src="${obj.image}" srcset="${obj.image} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
+    let wide = obj.wide;
+    if( wide === true) {
+      wide = 'Image__wide'
+    }else {
+      wide = ''
+    }
+    return `<figure class="Image ${obj.type} ${wide}"><img src="${obj.image}" srcset="${obj.image} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
   },
 }
 
-export default Image
+export default LFDSImage
