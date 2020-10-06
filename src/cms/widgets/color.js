@@ -36,7 +36,7 @@ const ColorWidget = {
         (item) =>
           `<article class="Colors__item Colors__item--${item.type}" style="border-color:${item.hex}"><div class="Colors__${item.type}"><div class="Colors__background" style="background-color:${item.hex}"></div><h3 class="Colors__title">${item.name}</h3><p class="Colors__text"><span>RGB</span> ${item.rgb}</p><p class="Colors__text"><span>HEX</span> ${item.hex}</p></div></article>`
       )
-      return `<div class="Colors ">${list}</div>`
+      return `<div class="Colors">${list}</div>`
     }
   },
   toPreview: function (obj) {

@@ -22,7 +22,6 @@ const LfuiWidget = {
     }
   },
   toBlock: function (obj) {
-    console.log(obj.lfuiScript.trim())
     return `<LfuiWrapper script="${obj.lfuiScript.replace(/"/g, "'")}">\n\n${
       obj.lfuiCode
     }\n</LfuiWrapper>`

@@ -60,7 +60,7 @@ const CollapseWidget = {
       )}">\n<div class="content">\n\n${item.get('content')}\n\n</div></Collapse>`
     })
 
-    return '<section>\n' + items.join('\n') + '\n</section>'
+    return '\n<section>\n' + items.join('\n') + '\n</section>\n'
   },
 }
 export default CollapseWidget
