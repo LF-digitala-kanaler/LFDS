@@ -20,7 +20,7 @@ const CollapseWidget = {
           label: 'Content',
           name: 'content',
           widget: 'markdown',
-          editorComponents: [
+          editor_components: [
             'callout',
             'LFDSImage',
             'code-block',
