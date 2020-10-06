@@ -8,9 +8,11 @@ const HeroBlock = ({ background, quote, cite, image }) => {
     backgroundImage: `url(${image.publicURL})`,
     backgroundSize: 'cover',
   }
+  console.log(background, quote, cite, image)
   return (
-    <article className={style.HeroBlock} style={backgroundStyle}>
-      {!image && (
+   <>
+      {!image === true && background != null && (
+        <article className={style.HeroBlock} style={backgroundStyle}>
         <Wrapper tag="div" menu={true} narrow>
           <div className={style.HeroBlock__container}>
             <blockquote className={style.HeroBlock__quote}>
@@ -19,8 +21,9 @@ const HeroBlock = ({ background, quote, cite, image }) => {
             </blockquote>
           </div>
         </Wrapper>
+        </article>
       )}
-    </article>
+    </>
   )
 }
 
