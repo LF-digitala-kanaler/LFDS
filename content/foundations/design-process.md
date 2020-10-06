@@ -13,7 +13,8 @@ lang: false
 Länsförsäkringars designprocess är en fingervisning av hur vi arbetar med design i utveckling. Designprocessen går att använda på stora projekt såsom små, en av delarna kan vara allt från en dag till flera veckor långa genom flera sprintar eller som en liten del av en sprint. Allt beror på vad vi ska lösa i vår story/epic/projektet. Vi går igenom dem en och en.
 
 <section>
-<Collapse title="Förstå"><div class="content"><div class="content">
+<Collapse title="Förstå">
+<div class="content">
 
 Förstå handlar om just det att förstå vilken problem vi ska lösa. Vi tar reda på svar på frågor som: Varför är det som det är eller ser ut som det gör? Vad finns det för beroenden till andra system eller produkter? Vad säger kunderna i tyck till/appstore/google store? Har vi gjort några tidigare undersökningar/intervjuer vi kan ta del av? Vad får kundtjänst in för frågor kring detta? 
 
@@ -47,28 +48,32 @@ Ta reda på vad affären vill. Vad tjänar vi mest pengar på? Finns det en prim
 
 ##### Nollmätning
 </div></Collapse>
-<Collapse title="Design"><div class="content"><div class="content">
+<Collapse title="Design">
+<div class="content">
 
 
 
 Text
 
 </div></Collapse>
-<Collapse title="Användningstester"><div class="content"><div class="content">
+<Collapse title="Användningstester">
+<div class="content">
 
 
 
 Text
 
 </div></Collapse>
-<Collapse title="Implementera"><div class="content"><div class="content">
+<Collapse title="Implementera">
+<div class="content">
 
 
 
 Text
 
 </div></Collapse>
-<Collapse title="Följ upp"><div class="content"><div class="content">
+<Collapse title="Följ upp">
+<div class="content">
 
 
 
