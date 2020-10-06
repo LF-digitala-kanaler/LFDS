@@ -10,7 +10,9 @@ lang: false
 hidden: false
 ---
 <section>
-<Collapse title="test"><div class="content">
+<Collapse title="test">
+
+<div class="content">
 
 test
 </div></Collapse>
