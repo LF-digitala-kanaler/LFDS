@@ -20,7 +20,7 @@ const CollapseWidget = {
           label: 'Content',
           name: 'content',
           widget: 'markdown',
-          editor_components: [
+          editorComponents: [
             'callout',
             'LFDSImage',
             'code-block',
@@ -38,7 +38,7 @@ const CollapseWidget = {
     const collapseArray = matches.split(/(?=<Collapse)/)
     const items = collapseArray.map(function (item, index) {
       return {
-        title: item.match(/title="(.*)"/)[1],
+        title: item.match(/title="(.*)">/)[1],
         content: item.match(/<div class="content">(.*)<\/div>/s)[1],
       }
     })
@@ -57,7 +57,7 @@ const CollapseWidget = {
     ) {
       return `<Collapse title="${item.get(
         'title'
-      )}">\n\n<div class="content">\n\n${item.get('content')}\n</div>\n\n</Collapse>`
+      )}">\n<div class="content">\n\n${item.get('content')}\n</div></Collapse>`
     })
 
     return '<section>\n' + items.join('\n') + '\n</section>'
