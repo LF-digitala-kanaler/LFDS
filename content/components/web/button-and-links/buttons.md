@@ -86,6 +86,9 @@ tabs:
       <div class="Callout"><p class="Callout__text"><strong>Only for logging in/out! </strong>This button should never be used for any other purposes than signing in or out-purposes!</p></div>
 
 
+      <div class="Callout"><strong class="Callout__title">Only for logging in/out! </strong><p class="Callout__text">This button should never be used for any other purposes than signing in or out-purposes!</p></div>
+
+
       ### Modifiers
 
 
