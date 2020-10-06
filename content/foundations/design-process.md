@@ -13,7 +13,8 @@ lang: false
 Länsförsäkringars designprocess är en fingervisning av hur vi arbetar med design i utveckling. Designprocessen går att använda på stora projekt såsom små, en av delarna kan vara allt från en dag till flera veckor långa genom flera sprintar eller som en liten del av en sprint. Allt beror på vad vi ska lösa i vår story/epic/projektet. Vi går igenom dem en och en.
 
 <section>
-<Collapse title="Förstå"><div class="content">
+<Collapse title="Förstå">
+<div class="content">
 
 
 
@@ -35,19 +36,23 @@ Ta reda på vad affären vill i frågan. Vad tjänar vi mest pengar på? Finns d
 * Nollmätning
 
 </div></Collapse>
-<Collapse title="Design"><div class="content">
+<Collapse title="Design">
+<div class="content">
 
 Text
 </div></Collapse>
-<Collapse title="Användningstester"><div class="content">
+<Collapse title="Användningstester">
+<div class="content">
 
 Text
 </div></Collapse>
-<Collapse title="Implementera"><div class="content">
+<Collapse title="Implementera">
+<div class="content">
 
 Text
 </div></Collapse>
-<Collapse title="Följ upp"><div class="content">
+<Collapse title="Följ upp">
+<div class="content">
 
 Text
 </div></Collapse>

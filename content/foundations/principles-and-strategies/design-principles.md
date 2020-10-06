@@ -109,10 +109,8 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 
 När kunderna och medarbetarna använder våra system ska de känna att de är på Länsförsäkringar. Vi har våra generella designkomponenter, men de måste förstås tolkas utifrån situationen de används i. Det viktigaste är att det känns som Länsförsäkringar rakt igenom. Våra designmönster för olika typ av handlingar (t.ex. köpa något) är en viktig del i att skapa den känslan. Igenkänning är en viktig faktor.
 
-När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så gäller det att göra det tydligt för kunden att de går från Länsförsäkringar till en samarbetspartner. I vissa fall kan det vara bättre att inte anpassa utseendet alls än att anpassa det halvdant.</div><div class="ImageBlock__object"><img class="ImageBlock__image" src="undefined" alt="" /></div></div>
-
+När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så gäller det att göra det tydligt för kunden att de går från Länsförsäkringar till en samarbetspartner. I vissa fall kan det vara bättre att inte anpassa utseendet alls än att anpassa det halvdant.
 
 </div></Collapse>
 </section>
 
-<figure class="Image Image__border"><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption"></div></figcaption></figure>
