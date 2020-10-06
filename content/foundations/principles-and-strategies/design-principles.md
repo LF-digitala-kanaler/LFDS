@@ -17,11 +17,14 @@ lang: true
 ---
 ### Principerna
 
-<div class="Callout"><strong class="Callout__title">tete </strong><p class="Callout__text">tete</p></div>
+
+
 
 <section>
 <Collapse title="Upplevelsen är utformad för denna kanal">
 <div class="content">
+
+
 
 
 
@@ -63,6 +66,8 @@ Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss
 
 
 
+
+
 </div></Collapse>
 <Collapse title="Varje sida har ett primärt syfte">
 <div class="content">
@@ -82,7 +87,11 @@ Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss
 
 
 
+
+
 Varje sida/vy som designas ska ha ett tydligt syfte – är det svårt att säga vad syftet är så ska det förmodligen delas upp på flera sidor/vyer eller inte finnas alls.
+
+
 
 
 
@@ -117,6 +126,8 @@ Varje sida/vy som designas ska ha ett tydligt syfte – är det svårt att säga
 
 
 
+
+
 Visa tydligt upp de primära handlingarna och funktionerna, och ge användaren chans att agera. De flesta vill göra, inte läsa, och det ska vi stötta dem i.
 
 Informationen har sin plats och är ofta viktig, men de som vill ha den kommer hitta den.
@@ -134,9 +145,13 @@ Informationen har sin plats och är ofta viktig, men de som vill ha den kommer h
 
 
 
+
+
 </div></Collapse>
 <Collapse title="Alla hittar rätt på olika sätt">
 <div class="content">
+
+
 
 
 
@@ -182,6 +197,8 @@ För att visa på principen finns nedan exempel på olika sätt att nå skadeanm
 
 
 
+
+
 </div></Collapse>
 <Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala">
 <div class="content">
@@ -199,7 +216,11 @@ För att visa på principen finns nedan exempel på olika sätt att nå skadeanm
 
 
 
+
+
 En av Länsförsäkringars stora fördelar är att vi finns lokalt på många orter och har rådgivare på plats – folk känner 'Kim på Länsförsäkringar'. Den närheten till Länsförsäkringar vill vi ta med in i det digitala där det går och passar.
+
+
 
 
 
@@ -234,7 +255,11 @@ En av Länsförsäkringars stora fördelar är att vi finns lokalt på många or
 
 
 
+
+
 Internet svällar över av annonser och banner blindness är etablerat fenomen – om något ser ut och känns som en annons sorterar folk bort det (o)medvetet. Samtidigt vet vi att våra kunder är öppna för att ta emot vad tycker är relevanta erbjudanden kopplat till sitt innehav. Här blir det viktigt att balansera de två och ha en 'less is more'-inställning till de erbjudanden vi vill visa upp.<
+
+
 
 
 
@@ -252,6 +277,8 @@ Internet svällar över av annonser och banner blindness är etablerat fenomen �
 </div></Collapse>
 <Collapse title="Kunden möts utifrån det Länsförsäkringar vet, eller borde veta, om kunden">
 <div class="content">
+
+
 
 
 
@@ -289,9 +316,13 @@ Vi vet en hel del om kunden, och kunden förutsätter att det de berättat för 
 
 
 
+
+
 </div></Collapse>
 <Collapse title="Personalisering är alltid kundens val">
 <div class="content">
+
+
 
 
 
@@ -328,6 +359,8 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 
 
 
+
+
 </div></Collapse>
 <Collapse title="Det ska kännas Länsförsäkringar">
 <div class="content">
@@ -347,9 +380,13 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 
 
 
+
+
 När kunderna och medarbetarna använder våra system ska de känna att de är på Länsförsäkringar. Vi har våra generella designkomponenter, men de måste förstås tolkas utifrån situationen de används i. Det viktigaste är att det känns som Länsförsäkringar rakt igenom. Våra designmönster för olika typ av handlingar (t.ex. köpa något) är en viktig del i att skapa den känslan. Igenkänning är en viktig faktor.
 
 När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så gäller det att göra det tydligt för kunden att de går från Länsförsäkringar till en samarbetspartner. I vissa fall kan det vara bättre att inte anpassa utseendet alls än att anpassa det halvdant.
+
+
 
 
 
