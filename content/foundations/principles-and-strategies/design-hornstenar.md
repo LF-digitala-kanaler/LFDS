@@ -12,7 +12,7 @@ description: Magin uppstår i det personliga kundmötet. För att försöka få 
 wide: false
 lang: false
 ---
-<figure class="Image Image__border "><img src="/img/cornerstones.png" srcset="/img/cornerstones.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image null Image__wide"><img src="/img/cornerstones.png" srcset="/img/cornerstones.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 Genom att få in vår **Expertis** i det digitala kundmötet så kan man ska få samma hjälp som i ett personligt kundmöte. Genom att kunna **Labba** med produkten vid tex ett köp så kan jag bättre förstå produkten, dess innehåll och varför jag får det pris som jag får. Genom att få överblick över vad jag har och inte har för produkter och omfattning så har jag **Kontroll** vilket skydd jag har.
 
