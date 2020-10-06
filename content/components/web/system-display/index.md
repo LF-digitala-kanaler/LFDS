@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 previewImage: /img/alert.svg
 template: CategoryOverview
 title: System display

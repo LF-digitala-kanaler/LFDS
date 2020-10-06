@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 template: LandingPage
 title: Components
 intro: In our components-section you will find the various components and

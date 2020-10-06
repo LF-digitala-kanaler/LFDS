@@ -7,7 +7,7 @@ intro: "Länsförsäkringska är vårt språk. Vi använder detta språk när vi
 contentTop: ""
 description: ""
 previewImage: /img/copy.svg
-background: bg-white
+
 category: Writing
 lang: true
 ---

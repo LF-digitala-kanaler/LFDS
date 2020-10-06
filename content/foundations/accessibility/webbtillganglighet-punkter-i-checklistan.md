@@ -7,7 +7,7 @@ description: Här går vi igenom punkt för punkt vad de betyder för
   Länsförsäkringar att följa checklistorna.
 category: Accessibility
 previewImage: /img/accessibility_nobg.svg
-background: bg-white
+
 lang: true
 ---
 * [Layout och bilder](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#layout-och-bilder)

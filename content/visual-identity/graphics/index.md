@@ -5,7 +5,7 @@ title: Graphics
 intro: "Our graphic family consists of three different members: illustration,
   graphic objects and icons. The graphics are made by simple geometric forms and
   can be used for decoration, communication and information."
-background: bg-white
+
 ---
 <section>
 <Collapse title="About the illustration style">

@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 template: HomePage
 title: Länsförsäkringar Design System
 intro: >-

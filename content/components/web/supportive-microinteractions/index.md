@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 previewImage: /img/collapse.svg
 template: CategoryOverview
 title: Supportive microinteractions

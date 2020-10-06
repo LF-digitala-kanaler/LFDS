@@ -131,7 +131,6 @@ const LandingPage = ({
     <Layout
       description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
-      backgroundClass={page.frontmatter.background}
       menu={true}
     >
       <LandingPageTemplate
@@ -160,7 +159,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        background
         contentBottom
         blockquote {
           text

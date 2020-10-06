@@ -7,7 +7,7 @@ intro: "Here we talk about patterns that are directly connected to
   Lansforsakringar.se. "
 description: "Here we talk about patterns that are directly connected to
   Lansforsakringar.se. "
-background: bg-white
+
 wide: false
 lang: false
 hidden: false

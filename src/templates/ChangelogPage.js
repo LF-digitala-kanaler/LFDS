@@ -70,7 +70,6 @@ const ChangelogPage = ({ data: { page, log }, location }) => {
       description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
-      backgroundClass={page.frontmatter.background}
       menu={true}
     >
       <ChangelogPageTemplate
@@ -94,7 +93,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        background
       }
     }
     log: github {

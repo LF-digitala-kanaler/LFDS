@@ -8,7 +8,7 @@ intro: Human interaction is the core idea in our photos. They should feel simple
 contentTop: ""
 heroBlock:
   image: /img/photo1_big.jpg
-background: bg-white
+
 wide: false
 lang: false
 ---

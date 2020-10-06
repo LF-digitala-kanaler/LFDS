@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 previewImage: /img/lf_se.png
 template: CategoryOverview
 description: "Här går vi igenom våra templates för våra öppna sidor Länsförsäkringar.se. "

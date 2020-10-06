@@ -4,7 +4,7 @@ previewImage: /img/logo.svg
 title: Logotype
 intro: Our well recognized logotype is the foundation when it comes to
   communicating our brand.
-background: bg-white
+
 wide: false
 lang: false
 ---

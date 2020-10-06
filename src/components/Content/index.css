@@ -207,7 +207,7 @@ figure {
   margin: var(--spacing-vertical--2) 0;
 }
 
-.Image img{
+.Image {
   text-align: center;
   margin: var(--spacing-vertical--1) 0;
   position: relative;

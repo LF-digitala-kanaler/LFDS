@@ -9,7 +9,7 @@ contentTop: |-
   Using multiples of 8 to define dimensions, padding, and margin of elements.
 
   More to come ASAP.
-background: bg-white
+
 wide: false
 lang: false
 ---

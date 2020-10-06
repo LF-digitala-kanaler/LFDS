@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 previewImage: /img/mis.png
 template: CategoryOverview
 title: Mina sidor

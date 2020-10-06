@@ -11,7 +11,7 @@ heroBlock:
   quote: Hjälp mig göra det jag kom för att göra
   cite: Vår främsta uppgift
   image: ""
-background: bg-white
+
 priority: "1"
 wide: true
 lang: true
@@ -41,6 +41,7 @@ Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss
 <figure class="Image Image__border "><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption">Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil</div></figcaption></figure>
 
 <figure class="Image Image__border "><img src="/img/samma-flode-ios-vs-android.jpg" srcset="/img/samma-flode-ios-vs-android.jpg 2x" alt="Exempel 3: Samma vyer ur betalaflödet anpassade till Android resp iOS"><figcaption><div class="Image__caption">Exempel 3: Samma vyer ur betalaflödet anpassade till Android resp iOS</div></figcaption></figure>
+
 </div></Collapse>
 <Collapse title="Varje sida har ett primärt syfte">
 <div class="content">
@@ -84,14 +85,13 @@ För att visa på principen finns nedan exempel på olika sätt att nå skadeanm
 
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-kontakta-oss.gif" srcset="/img/till-skadeanmalan-kontakta-oss.gif 2x" alt="Exempel 3: Navigering till Skadeanmälan via Kontakta oss"><figcaption><div class="Image__caption">Exempel 3: Navigering till Skadeanmälan via Kontakta oss</div></figcaption></figure>
 
-<figure class="Image Image__border "><img src="/img/till-skadeanmalan-internsok.gif" srcset="/img/till-skadeanmalan-internsok.gif 2x" alt="Exempel 4: Navigering till Skadeanmälan via nternsöki"><figcaption><div class="Image__caption">Exempel 4: Navigering till Skadeanmälan via internsök</div></figcaption></figure>
+<figure class="Image Image__border "><img src="/img/till-skadeanmalan-internsok.gif" srcset="/img/till-skadeanmalan-internsok.gif 2x" alt="Exempel 4: Navigering till Skadeanmälan via internetsökning"><figcaption><div class="Image__caption">Exempel 4: Navigering till Skadeanmälan via internsök</div></figcaption></figure>
 
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-google.gif" srcset="/img/till-skadeanmalan-google.gif 2x" alt="Exempel 5: Navigering till Skadeanmälan via Google"><figcaption><div class="Image__caption">Exempel 5: Navigering till Skadeanmälan via Google</div></figcaption></figure>
+
 </div></Collapse>
 <Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala">
 <div class="content">
-
-
 
 
 En av Länsförsäkringars stora fördelar är att vi finns lokalt på många orter och har rådgivare på plats – folk känner 'Kim på Länsförsäkringar'. Den närheten till Länsförsäkringar vill vi ta med in i det digitala där det går och passar.

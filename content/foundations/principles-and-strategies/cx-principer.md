@@ -6,7 +6,6 @@ title: CX-Principer
 intro: CX-principerna syftar till att skapa förutsättningar för att styra beslut
   och prioriteringar kopplat till utveckling av kundmötet utifrån önskad kund-
   och medarbetarupplevelse.
-background: bg-white
 wide: true
 lang: true
 ---

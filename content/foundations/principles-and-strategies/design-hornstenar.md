@@ -7,7 +7,7 @@ description: För att efterlikna det personliga mötet ska vi använda oss av v�
   hörnstenar. Expertis, labba och kontroll.
 category: Principles and strategies
 previewImage: /img/dp.svg
-background: bg-white
+
 wide: false
 lang: false
 ---

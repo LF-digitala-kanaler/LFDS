@@ -14,7 +14,7 @@ description: >-
   kända företagssymboler. 
 
   Det är något vi värnar om tillsammans.
-background: bg-white
+
 lang: true
 ---
 <figure class="Image Image__background"><img src="/img/lf-symbol.png" srcset="/img/lf-symbol.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>

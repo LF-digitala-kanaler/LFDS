@@ -90,7 +90,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: var(--baseline);
-  background-color: var(--color-smoke);
+  background-color: var(--color-white);
   min-height: 100vh;
   @media (--medium-viewport) {
     /* fixed header */
@@ -132,8 +132,8 @@ div[role="group"][tabindex] {
 }
 
 
-.bg-white {
-  background-color: var(--color-white);
+.bg-smoke {
+  background-color: var(--color-smoke);
 }
 
 ::selection { 

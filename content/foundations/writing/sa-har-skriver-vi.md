@@ -6,6 +6,6 @@ contentTop: ""
 description: ""
 previewImage: ''
 category: Writing
-background: bg-white
+
 lang: true
 ---

@@ -73,7 +73,6 @@ const ArticlePage = ({ data: { page }, location }) => {
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
       menu={true}
-      backgroundClass={page.frontmatter.background}
     >
       <ArticlePageTemplate
         {...page}
@@ -102,7 +101,6 @@ export const pageQuery = graphql`
         intro
         template
         category
-        background
         wide
         lang
         contentTop

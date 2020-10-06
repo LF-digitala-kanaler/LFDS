@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 previewImage: /img/checbox.svg
 template: CategoryOverview
 title: Forms

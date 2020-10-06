@@ -11,7 +11,7 @@ intro: >
   skriver stor eller liten bokstav med mera.
 description: ""
 contentTop: ""
-background: bg-white
+
 lang: true
 ---
 * ###### **Agria Djurförsäkring**

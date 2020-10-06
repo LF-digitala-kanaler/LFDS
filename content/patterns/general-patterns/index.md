@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 previewImage: /img/general.png
 template: CategoryOverview
 title: General patterns

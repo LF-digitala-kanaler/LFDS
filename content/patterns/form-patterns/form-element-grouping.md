@@ -6,7 +6,7 @@ intro: Describes how to group input elements, labels and input descriptions as
   well as how error messages should be handled.
 description: Describes how to group input elements, labels and input
   descriptions as well as how error messages should be handled.
-background: bg-white
+
 wide: false
 lang: false
 hidden: false

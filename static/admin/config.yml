@@ -61,14 +61,6 @@ collections: # A list of collections the CMS should be able to edi
         required: false
         hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'
        
-      - label: 'Background'
-        name: 'backgroundColor'
-        widget: 'select'
-        hint: 'Change background on iframe'
-        options: 
-          - { label: "White", value: "#fff" }
-          - { label: "Grey", value: "#f3f3f3" }
-        required: false
       - label: 'Vertical resize on iframe'
         name: 'verticalResize'
         widget: 'select'
@@ -147,13 +139,6 @@ collections: # A list of collections the CMS should be able to edi
         - { label: Cite, name: cite, widget: string , required: false}
       
       - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color', 'ImageAndText']  }
-      - label: 'Background'
-        name: 'background'
-        widget: 'select'
-        required: false
-        options: 
-          - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }  
       - label: "Priority"
         name: "priority"
         widget: "string"
@@ -229,13 +214,7 @@ collections: # A list of collections the CMS should be able to edi
         - { label: Quote, name: quote, widget: text, required: false }
         - { label: Cite, name: cite, widget: string, required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
-      - label: 'Background'
-        name: 'background'
-        widget: 'select'
-        required: false
-        options: 
-          - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }
+      
        
       - label: "Priority"
         name: "priority"
@@ -307,13 +286,6 @@ collections: # A list of collections the CMS should be able to edi
         - { label: Quote, name: quote, widget: text,  required: false }
         - { label: Cite, name: cite, widget: string,  required: false }
       - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
-      - label: 'Background'
-        name: 'background'
-        widget: 'select'
-        required: false
-        options: 
-          - { label: "White", value: "bg-white" }
-          - { label: "Grey", value: "" }
        
       - label: "Priority"
         name: "priority"
@@ -333,7 +305,6 @@ collections: # A list of collections the CMS should be able to edi
     path: 'content/{{slug}}/index'
     filter: {field: "template", value: "LandingPage"}
     fields: 
-      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
       - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
@@ -375,7 +346,6 @@ collections: # A list of collections the CMS should be able to edi
     path: 'content/{{slug}}/index'
     filter: {field: "template", value: "CategoryOverview"}
     fields: 
-      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
       - label: Preview Image
         name: previewImage
         widget: image
@@ -420,7 +390,6 @@ collections: # A list of collections the CMS should be able to edi
     path: '/{{slug}}/index'
     filter: {field: "template", value: "CategoryOverview"}
     fields: 
-      - { label: Background, name: background, widget: hidden, default: 'bg-white', value: 'bg-white' }
       - label: Preview Image
         name: previewImage
         widget: image
@@ -465,7 +434,6 @@ collections: # A list of collections the CMS should be able to edi
         file: 'content/components/web/changelog.md'
         fields: 
           - {label: Priority, name: priority, widget: string, required: false, hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'}
-          - { label: Background, name: background, widget: hidden, value: 'bg-white' }
           - { label: Template, name: template, widget: hidden, default: Changelog, value: Changelog }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text, required: false }
@@ -481,7 +449,6 @@ collections: # A list of collections the CMS should be able to edi
         file: 'content/visual-identity/graphics/icons.md'
         fields: 
           - { label: Priority, name: priority, widget: string, required: false, hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'}
-          - { label: Background, name: background, widget: hidden, value: 'bg-white' }
           - { label: Template, name: template, widget: hidden, default: IconsPage, value: IconsPage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
@@ -513,7 +480,6 @@ collections: # A list of collections the CMS should be able to edi
         label: 'Home Page'
         file: 'content/pages/home.md'
         fields: 
-          - { label: Background, name: background, widget: hidden,  value: 'bg-white' }
           - { label: Template, name: template, widget: hidden, default: HomePage, value: HomePage }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }

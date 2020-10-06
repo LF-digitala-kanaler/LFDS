@@ -80,7 +80,6 @@ const CategoryOverviewPage = ({
       title={page.frontmatter.title || false}
       menu={true}
       breadcrumb={breadcrumb}
-      backgroundClass={page.frontmatter.background}
     >
       <CategoryOverviewTemplate
         {...page}
@@ -112,7 +111,6 @@ export const pageQuery = graphql`
         }
         contentBelow
         contentAbove
-        background
         blockquote {
           text
           author

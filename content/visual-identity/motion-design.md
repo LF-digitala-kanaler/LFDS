@@ -10,7 +10,7 @@ intro: >
 
   Designers can use animated icons, illustrations, graphics and guidance animation to communicate with users.
 contentTop: ''
-background: bg-white
+
 wide: false
 lang: false
 ---

@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 previewImage: /img/button-primary222.svg
 template: CategoryOverview
 title: Button and links

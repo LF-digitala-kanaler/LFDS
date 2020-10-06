@@ -102,7 +102,6 @@ const HomePage = ({ data: { page } }) => {
       meta={page.frontmatter.meta || false}
       description={page.frontmatter.intro || false}
       title={page.frontmatter.title || false}
-      backgroundClass={page.frontmatter.background}
     >
       <HomePageTemplate
         {...page}
@@ -131,7 +130,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        background
         shortcuts {
           icon {
             publicURL

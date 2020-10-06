@@ -8,7 +8,7 @@ intro: Ramar in länsförsäkringar.se med en bra struktur så att användaren k
 description: Ramar in länsförsäkringar.se med en bra struktur så att användaren
   känner sig trygg och att hen ska hitta det hen söker efter. Vi går igenom de
   olika delarna i huvudet och i footern.
-background: bg-white
+
 wide: false
 lang: false
 hidden: false

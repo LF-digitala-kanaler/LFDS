@@ -94,6 +94,7 @@ const ComponentPage = ({
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
       menu={true}
+      backgroundClass={'bg-smoke'}
     >
       <ComponentPageTemplate
         {...page}

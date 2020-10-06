@@ -2,7 +2,7 @@
 template: ArticlePage
 category: Form patterns
 title: Form validation
-background: bg-white
+
 intro: Initial form validation at Länsförsäkringar is done as the user submits a
   form page. If there are any errors the user is automatically scrolled to the
   topmost error. As the user starts to correct errors they get immediate

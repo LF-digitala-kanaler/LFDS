@@ -6,7 +6,7 @@ intro: "Vår designprocess byggs upp av 5 steg. De är förstå, design,
   användningstest, implementera och följa upp. "
 description: "Vår designprocess byggs upp av 5 steg. De är förstå, design,
   användningstest, implementera och följa upp. "
-background: bg-white
+
 wide: false
 lang: false
 ---

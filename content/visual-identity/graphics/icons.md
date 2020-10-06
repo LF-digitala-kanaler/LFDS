@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 template: IconsPage
 title: Icons
 intro: We use icons to explain, clarify and sometimes display emotions ;). Our

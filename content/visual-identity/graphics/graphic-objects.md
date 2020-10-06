@@ -14,7 +14,7 @@ intro: >-
 contentTop: "[Download photos from Röda
   rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/compone\
   nt/default/6911)"
-background: bg-white
+
 wide: false
 lang: false
 ---

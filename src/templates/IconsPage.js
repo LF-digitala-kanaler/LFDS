@@ -60,7 +60,6 @@ const IconsPage = ({ data: { page }, location }) => {
       specialIconsContent={page.frontmatter.specialIconsContent}
       menu={true}
       breadcrumb={breadcrumb}
-      backgroundClass={page.frontmatter.background}
     >
       <IconsPageTemplate
         {...page}
@@ -86,7 +85,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        background
         specialIconsContent
       }
     }

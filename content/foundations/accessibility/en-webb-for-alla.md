@@ -9,6 +9,7 @@ wide: false
 lang: false
 hidden: false
 ---
+
 Text om att vi försöker bygga en webb för 80 % av behoven inte 100 % det är omöjligt.
 
 Vi gör en prioritering av de mest frekventa webbläsarna, vi har en 4% regel att stödja alla browsers och devices i senaste och näst senaste versionen av operativsystemet. Utvärderas och förändras ständigt. 

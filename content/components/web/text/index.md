@@ -1,5 +1,5 @@
 ---
-background: bg-white
+
 previewImage: /img/headings.svg
 template: CategoryOverview
 title: Typography & text
