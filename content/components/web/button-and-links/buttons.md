@@ -112,7 +112,7 @@ tabs:
       * The larger is used when we want to give extra attention to the button, like in campaigns.
 
 
-      <figure class="Image Image__background"><img src="/img/button-sizes.jpg" srcset="/img/button-sizes.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background "><img src="/img/button-sizes.jpg" srcset="/img/button-sizes.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       #### With an arrow
