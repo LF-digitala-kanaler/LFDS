@@ -10,7 +10,7 @@ import { LandingPageTemplate } from '../templates/LandingPage'
 import { ArticlePageTemplate } from '../templates/ArticlePage'
 import { IconsPageTemplate } from '../templates/IconsPage'
 
-import AdvancedImage from './widgets/advancedImage'
+import LFDSImage from './widgets/image'
 import Callout from './widgets/callout'
 import ColorWidget from './widgets/color'
 import CollapseWidget from './widgets/collapse'
@@ -18,7 +18,7 @@ import ButtonsBlock from './widgets/buttonsBlock'
 import ImageAndText from './widgets/imageAndText'
 import LfuiWidget from './widgets/lfuiWidget'
 
-CMS.registerEditorComponent(AdvancedImage)
+CMS.registerEditorComponent(LFDSImage)
 CMS.registerEditorComponent(Callout)
 CMS.registerEditorComponent(ColorWidget)
 CMS.registerEditorComponent(CollapseWidget)
