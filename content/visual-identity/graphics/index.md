@@ -8,7 +8,8 @@ intro: "Our graphic family consists of three different members: illustration,
 background: bg-white
 ---
 <section>
-<Collapse title="About the illustration style"><div class="content">
+<Collapse title="About the illustration style">
+<div class="content">
 
 <div class="ImageBlock ImageBlock__right"><div class="ImageBlock__content">
 
@@ -20,7 +21,8 @@ These things combined creates a distinct connection to Länsförsäkringar´s vi
 
 [More about the graphic family (Röda rummet)](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)</div><div class="ImageBlock__object"><img class="ImageBlock__image" src="/img/family1.svg" alt="" /></div></div>
 </div></Collapse>
-<Collapse title="Graphic family; when to use which?"><div class="content">
+<Collapse title="Graphic family; when to use which?">
+<div class="content">
 
 <div class="ImageBlock ImageBlock__right"><div class="ImageBlock__content">
 
