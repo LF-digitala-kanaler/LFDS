@@ -24,14 +24,18 @@ Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbol
 
 [The Brandportal](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)
 
-### Kontakter varumärkes frågor
+### Kontakter varumärkesfrågor
 
-Varumärkesansvarig är Pär Hjärtström.
-Digitala Designansvarig är Liza Hansson.
-Liza och Pär träffas återkommande för att synka mellan print och webb.
+Varumärkesansvarig kontakta Pär Hjärtström.\
+Manifestet kontakta Lina Kolacz. 
+Digitala Designansvarig kontakta Liza Hansson.
+
+Återkommande möten hålls för att synka de olika delarna i vårt varumärket.
 
 ### Introduktion
 
 Som ny på Länsförsäkringar och har roller som webbredaktör, kommunikatör, designer eller marknadschef kan man ta del av en introduktion i varumärket. Utbildning kommer ut på Länet och brukar göras ca 2 gånger per år. 
+
+Just nu finns även utbildning i nya fotomanéret och Manifestet.
 
 Som ny UX designer eller UI designer får man en intro av Liza så fort som möjligt.
