@@ -21,6 +21,10 @@ lang: true
 <section>
 <Collapse title="Upplevelsen är utformad för denna kanal"><div class="content"><div class="content">
 
+<div class="content">
+
+<div class="content">
+
 
 
 
@@ -36,8 +40,13 @@ Om vi inte kan/vill erbjuda den kontaktväg som kunden föredrar behöver vi tyd
 
 <figure class="Image Image__background"><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
+
 </div></Collapse>
 <Collapse title="Varje sida har ett primärt syfte"><div class="content"><div class="content">
+
+<div class="content">
+
+<div class="content">
 
 
 
@@ -46,8 +55,13 @@ Varje sida/vy som designas ska ha ett tydligt syfte – är det svårt att säga
 
 
 
+
 </div></Collapse>
 <Collapse title="Handling och funktion före information"><div class="content">
+
+<div class="content">
+
+
 
 
 
@@ -57,8 +71,13 @@ Visa tydligt upp de primära handlingarna och funktionerna, och ge användaren c
 Informationen har sin plats och är ofta viktig, men de som vill ha den kommer hitta den.
 
 
+
 </div></Collapse>
 <Collapse title="Alla hittar rätt på olika sätt"><div class="content">
+
+<div class="content">
+
+
 
 
 
@@ -70,8 +89,13 @@ Möjliggör för användarna att hitta fram på det sätt de vill – de flesta 
 Vid implementation är det viktigt att tänka på de som använder olika tillgänglighetslösningar som tangentbordsnavigering och tal.
 
 
+
 </div></Collapse>
 <Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala"><div class="content">
+
+<div class="content">
+
+
 
 
 
@@ -79,8 +103,13 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 En av Länsförsäkringars stora fördelar är att vi finns lokalt på många orter och har rådgivare på plats – folk känner 'Kim på Länsförsäkringar'. Den närheten till Länsförsäkringar vill vi ta med in i det digitala där det går och passar.
 
 
+
 </div></Collapse>
 <Collapse title="Relevanta, men få, erbjudanden i en naturlig kontext"><div class="content">
+
+<div class="content">
+
+
 
 
 
@@ -89,8 +118,13 @@ En av Länsförsäkringars stora fördelar är att vi finns lokalt på många or
 Internet svällar över av annonser och banner blindness är etablerat fenomen – om något ser ut och känns som en annons sorterar folk bort det (o)medvetet. Samtidigt vet vi att våra kunder är öppna för att ta emot vad tycker är relevanta erbjudanden kopplat till sitt innehav. Här blir det viktigt att balansera de två och ha en 'less is more'-inställning till de erbjudanden vi vill visa upp.<
 
 
+
 </div></Collapse>
 <Collapse title="Kunden möts utifrån det Länsförsäkringar vet, eller borde veta, om kunden"><div class="content">
+
+<div class="content">
+
+
 
 
 
@@ -104,8 +138,13 @@ Vi vet en hel del om kunden, och kunden förutsätter att det de berättat för 
 
 
 
+
 </div></Collapse>
 <Collapse title="Personalisering är alltid kundens val"><div class="content">
+
+<div class="content">
+
+
 
 
 
@@ -118,8 +157,13 @@ Vi ser att många kunder efterfrågar personalisering men många andra inte är 
 
 
 
+
 </div></Collapse>
 <Collapse title="Det ska kännas Länsförsäkringar"><div class="content">
+
+<div class="content">
+
+
 
 
 
@@ -129,10 +173,22 @@ När kunderna och medarbetarna använder våra system ska de känna att de är p
 När vi samarbetar med tredjepart och inte kan påverka utseendet fullt ut så gäller det att göra det tydligt för kunden att de går från Länsförsäkringar till en samarbetspartner. I vissa fall kan det vara bättre att inte anpassa utseendet alls än att anpassa det halvdant.
 
 
+
 </div></Collapse>
 <Collapse title="test"><div class="content">
 
+<div class="content">
+
+
+
 test
+
+</div></Collapse>
+<Collapse title="fw">
+
+<div class="content">
+
+fw
 </div></Collapse>
 </section>
 
