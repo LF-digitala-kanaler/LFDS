@@ -234,7 +234,8 @@ figure {
   position: relative;
 }
 .Image__background img {
-  padding: var(--spacing-md);
+  padding: var(--spacing-unit);
+  vertical-align: middle;
 }
 
 .Image__caption {
