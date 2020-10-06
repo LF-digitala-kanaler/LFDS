@@ -9,13 +9,15 @@ description: "Vår designprocess byggs upp av 5 steg. De är förstå, design,
 wide: false
 lang: false
 ---
-<figure class="Image Image__default "><img src="/img/designprocess.svg" srcset="/img/designprocess.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image null Image__wide"><img src="/img/designprocess.svg" srcset="/img/designprocess.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 Länsförsäkringars designprocess är en fingervisning av hur vi arbetar med design i utveckling. Designprocessen går att använda på stora såsom små projekt. Tex kan delen att förstå göras på en dag eller under flera veckor. Allt beror på vilket problem vi ska lösa, Vad vi har för tid att göra det på och vad som finns (i närtid) att läsa på om sedan tidigare. Vi går igenom dem en och en.
 
 <section>
 <Collapse title="Förstå">
 <div class="content">
+
+
 
 
 
@@ -55,6 +57,7 @@ Ta reda på vad affären vill. Vad tjänar vi mest pengar på? Finns det en prim
 
 
 
+
 </div></Collapse>
 <Collapse title="Design">
 <div class="content">
@@ -65,7 +68,10 @@ Ta reda på vad affären vill. Vad tjänar vi mest pengar på? Finns det en prim
 
 
 
+
+
 Text
+
 
 
 
@@ -80,7 +86,10 @@ Text
 
 
 
+
+
 Text
+
 
 
 
@@ -95,7 +104,10 @@ Text
 
 
 
+
+
 Text
+
 
 
 
@@ -110,7 +122,10 @@ Text
 
 
 
+
+
 Text
+
 
 
 
