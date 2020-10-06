@@ -17,7 +17,7 @@ lang: false
 Genom att få in vår **Expertis** i det digitala kundmötet så kan man ska få samma hjälp som i ett personligt kundmöte. Genom att kunna **Labba** med produkten vid tex ett köp så kan jag bättre förstå produkten, dess innehåll och varför jag får det pris som jag får. Genom att få överblick över vad jag har och inte har för produkter och omfattning så har jag **Kontroll** vilket skydd jag har.
 
 <section>
-<Collapse title="Expertis">
+<Collapse title="Mer om expertis">
 <div class="content">
 
 * Vi är generösa med vår kunskap.
@@ -25,15 +25,17 @@ Genom att få in vår **Expertis** i det digitala kundmötet så kan man ska få
 * Berättar vad som är vanligast och hur andra gör. 
 * Tar hjälp av andra experter och förmedlar kontakt.
 </div></Collapse>
-<Collapse title="Labba">
+<Collapse title="Mer om labba">
 <div class="content">
 
 * Pratar bara om det som är relevant för mig.
 * Hjälper mig planera och välja.
 * Visar tänkbara scenarios.
 * Utgår alltid från mina förutsättningar.
+
+(Tidigare hette denna del simulera)
 </div></Collapse>
-<Collapse title="Kontroll">
+<Collapse title="Mer om kontroll">
 <div class="content">
 
 * Ser till att jag inte behöver oroa mig - har koll på läget.
