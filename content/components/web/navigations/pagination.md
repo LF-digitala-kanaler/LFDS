@@ -51,9 +51,7 @@ tabs:
       The version below was used in an a/b-test during autumn 2019 and resulted in a lower conversion rate than the pagination in use.
 
 
-      <figure class="Image null "><img src="/img/pagination-failed-ab.jpg" srcset="/img/pagination-failed-ab.jpg 2x" alt="Example of a pagination which was a/b-tested against the current one and lost"><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-
+      <figure class="Image Image__default "><img src="/img/pagination-failed-ab.jpg" srcset="/img/pagination-failed-ab.jpg 2x" alt="Example of a pagination which was a/b-tested against the current one and lost"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       **Qualitative**\
@@ -61,15 +59,13 @@ tabs:
       When the current version of pagination was designed there was a lot of discussion in the design team as whether to use it or a more explanatory version. A number of sketches of different alternatives were tested, and the current design was chosen as the winner after a number of discussions and user tests. 
 
 
-      <figure class="Image null "><img src="/img/pagination-old.jpg" srcset="/img/pagination-old.jpg 2x" alt=""><figcaption><div class="Image__caption">Old version of pagination which didn't pass through user testing</div></figcaption></figure>
+      <figure class="Image Image__default "><img src="/img/pagination-old.jpg" srcset="/img/pagination-old.jpg 2x" alt=""><figcaption><div class="Image__caption">Old version of pagination which didn't pass through user testing</div></figcaption></figure>
 
 
-      <figure class="Image Image__border "><img src="/img/pagination-old-w-colour.jpg" srcset="/img/pagination-old-w-colour.jpg 2x" alt="Old version of pagination which didn't pass through user testing"><figcaption><div class="Image__caption">Old version of pagination which didn't pass through user testing</div></figcaption></figure>
+      <figure class="Image Image__default "><img src="/img/pagination-old-w-colour.jpg" srcset="/img/pagination-old-w-colour.jpg 2x" alt="Old version of pagination which didn't pass through user testing"><figcaption><div class="Image__caption">Old version of pagination which didn't pass through user testing</div></figcaption></figure>
 
 
-      <figure class="Image null "><img src="/img/pagination-old-number-and-label.jpg" srcset="/img/pagination-old-number-and-label.jpg 2x" alt="Old sketch of pagination with step number and label"><figcaption><div class="Image__caption">Old sketch of pagination with step number and label</div></figcaption></figure>
-
-
+      <figure class="Image Image__default "><img src="/img/pagination-old-number-and-label.jpg" srcset="/img/pagination-old-number-and-label.jpg 2x" alt="Old sketch of pagination with step number and label"><figcaption><div class="Image__caption">Old sketch of pagination with step number and label</div></figcaption></figure>
 
 
       ## Other material
