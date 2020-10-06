@@ -94,3 +94,11 @@ S. Skrolldjup
 * Använd inte text eller illustrationer som kampanjbilderna då det blir rörigt för användarna och bilderna klipper olika i mobilt och för paddan.
 
 ## Live exempel
+
+<https://www.lansforsakringar.se/privat/>
+
+<https://www.lansforsakringar.se/foretag/>
+
+## Other material[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons#other-material)
+
+**Sketch file:** LFUXAD Assets/Templates/Templates - Öppna sidor.sketch (Full page templates/Startsida/ "Desktop" och "Mobile")
