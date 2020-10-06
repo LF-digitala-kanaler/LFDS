@@ -70,6 +70,8 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 
 #### Exempel
 
+För att visa på principen finns nedan exempel på olika sätt att nå skadeanmälan utan att ha loggat in. Notera att via inloggat läge (Mina Sidor, appen) finns ytterligare sätt att hitta till skadeanmälan, så det är inte ens alla vägar som visas här.
+
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-startsidan.gif" srcset="/img/till-skadeanmalan-startsidan.gif 2x" alt="Exempel 1: Navigering till Skadeanmälan via knapp på startsidan"><figcaption><div class="Image__caption">Exempel 1: Navigering till Skadeanmälan via knapp på startsidan</div></figcaption></figure>
 
 
@@ -78,7 +80,7 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-kontakta-oss.gif" srcset="/img/till-skadeanmalan-kontakta-oss.gif 2x" alt="Exempel 3: Navigering till Skadeanmälan via Kontakta oss"><figcaption><div class="Image__caption">Exempel 3: Navigering till Skadeanmälan via Kontakta oss</div></figcaption></figure>
 
-<figure class="Image Image__border "><img src="/img/till-skadeanmalan-internsok.gif" srcset="/img/till-skadeanmalan-internsok.gif 2x" alt="Exempel 4: Navigering till Skadeanmälan via nternsöki"><figcaption><div class="Image__caption">Exempel 3: Navigering till Skadeanmälan via internsök</div></figcaption></figure>
+<figure class="Image Image__border "><img src="/img/till-skadeanmalan-internsok.gif" srcset="/img/till-skadeanmalan-internsok.gif 2x" alt="Exempel 4: Navigering till Skadeanmälan via nternsöki"><figcaption><div class="Image__caption">Exempel 4: Navigering till Skadeanmälan via internsök</div></figcaption></figure>
 
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-google.gif" srcset="/img/till-skadeanmalan-google.gif 2x" alt="Exempel 5: Navigering till Skadeanmälan via Google"><figcaption><div class="Image__caption">Exempel 5: Navigering till Skadeanmälan via Google</div></figcaption></figure>
 </div></Collapse>
