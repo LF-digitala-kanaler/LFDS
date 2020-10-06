@@ -36,8 +36,9 @@ tabs:
 
         * If there is something wrong with the file, this is always needed.
         * If the error is on our part, with the actual upload failing it depends on the implementation if the user needs to remove and re-add the file or if they can just try to submit it again. Work with your developers and copy to find the right error messages to display for your specific case.
-      * There exists an old version of the upload component, which still is available in EPI-forms. New forms should use the pattern described on this page, but for reference here is an image of the old version: ![Image of older version of file upload still available in EPI](/img/old-file-upload.png "Image of older version of file upload still available in EPI")
+      * There exists an old version of the upload component, which still is available in EPI-forms. New forms should use the pattern described on this page, but for reference here is an image of the old version: 
 
+        <figure class="Image Image__background "><img src="/img/old-file-upload.png" srcset="/img/old-file-upload.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
       ## Other material
 
