@@ -37,11 +37,7 @@ Ett kort intro till vad sidan handlar om och en passande illustration som visar 
 
 Snabb väg till konvertering tillsammans med USPar och bekräfta att du kommit rätt.
 
-
-
 <figure class="Image Image__background "><img src="/img/lfse-produktsida-01-short-info.jpg" srcset="/img/lfse-produktsida-01-short-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-
 
 ### Illustration och SKI
 
@@ -49,13 +45,13 @@ För att man ska känna igen sig och koppla mer till vårt visuella uttryck så 
 
 Läs mer om bildformat
 
-<figure class="Image Image__background"><img src="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg" srcset="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background "><img src="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg" srcset="/img/lfse-produktsida-02-illustration-o-erbjudande.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Yta med blå bakgrund
 
 Här lyfter vi det som är viktigast för kunden. En tabell med vad som ingår och självrisker eller lyfta det som alla letar efter i just denna produkten. Det kan vara olika på olika produkter. I de flesta ville användarna veta vad som ingår i produkten och om självrisker men på just barnförsäkring så var det istället informationen om varför man behöver en barnförsäkring som var viktigast. Så viktigt att göra kundintervjuer här för att verkligen se vad man undrar över i just din produkt. 
 
-<figure class="Image Image__background"><img src="/img/lfse-produktsida-03-viktig-info.jpg" srcset="/img/lfse-produktsida-03-viktig-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background "><img src="/img/lfse-produktsida-03-viktig-info.jpg" srcset="/img/lfse-produktsida-03-viktig-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Redaktionell yta
 
