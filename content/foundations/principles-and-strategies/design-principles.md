@@ -36,6 +36,10 @@ Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss
 
 <figure class="Image Image__background"><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
+<figure class="Image Image__border "><img src="/img/mis-startsida-responsiv.jpg" srcset="/img/mis-startsida-responsiv.jpg 2x" alt="Exempel 1: Mina Sidors startsida i desktop, tablet och mobilläge"><figcaption><div class="Image__caption">Exempel 1: Mina Sidors startsida i desktop, tablet och mobilläge</div></figcaption></figure>
+
+<figure class="Image Image__border "><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption">Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil</div></figcaption></figure>
+
 <figure class="Image Image__border "><img src="/img/samma-flode-ios-vs-android.jpg" srcset="/img/samma-flode-ios-vs-android.jpg 2x" alt="Exempel 3: Samma vyer ur betalaflödet anpassade till Android resp iOS"><figcaption><div class="Image__caption">Exempel 3: Samma vyer ur betalaflödet anpassade till Android resp iOS</div></figcaption></figure>
 </div></Collapse>
 <Collapse title="Varje sida har ett primärt syfte">
