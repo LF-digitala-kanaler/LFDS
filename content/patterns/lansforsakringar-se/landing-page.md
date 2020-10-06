@@ -32,3 +32,9 @@ Tänka på att kunderna som kommer till oss sällan, eller aldrig, stannar kvar 
 Fem knappar till de vanligaste tjänsterna/produkterna tillsammans med logga in och kontakta oss hjälper mer än 80 procent av besökarna med att göra det de kom för att göra.
 
 <figure class="Image Image__border "><img src="/img/lfse-startsida-01-support-majority.jpg" srcset="/img/lfse-startsida-01-support-majority.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+#### Ett tydligt varumärkeslöfte
+
+Att vi är ett lokalt, kundägt bolag som ger trygghet i försäkring, bank och pension. (Nytt under utvärdering)
+
+<figure class="Image Image__background "><img src="/img/lfse-startsida-02-brand.jpg" srcset="/img/lfse-startsida-02-brand.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
