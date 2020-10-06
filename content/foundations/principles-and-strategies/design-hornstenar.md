@@ -25,4 +25,20 @@ Genom att få in vår **Expertis** i det digitala kundmötet så kan man ska få
 * Berättar vad som är vanligast och hur andra gör. 
 * Tar hjälp av andra experter och förmedlar kontakt.
 </div></Collapse>
+<Collapse title="Labba">
+<div class="content">
+
+* Pratar bara om det som är relevant för mig.
+* Hjälper mig planera och välja.
+* Visar tänkbara scenarios.
+* Utgår alltid från mina förutsättningar.
+</div></Collapse>
+<Collapse title="Kontroll">
+<div class="content">
+
+* Ser till att jag inte behöver oroa mig - har koll på läget.
+* Hör av sig när det behövs.
+* Är tydlig med om jag måste agera på någonting.
+* Ger återkoppling och försäkran.
+</div></Collapse>
 </section>
