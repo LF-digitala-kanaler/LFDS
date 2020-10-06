@@ -14,8 +14,6 @@ description: >-
   kända företagssymboler. 
 
   Det är något vi värnar om tillsammans.
-heroBlock:
-  ? color
 background: bg-white
 lang: true
 ---
