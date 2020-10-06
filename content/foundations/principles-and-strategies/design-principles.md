@@ -77,6 +77,10 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-meny.gif" srcset="/img/till-skadeanmalan-meny.gif 2x" alt="Exmpel 2: Navigering till Skadeanmälan via menyne"><figcaption><div class="Image__caption">Exempel 2: Navigering till Skadeanmälan via menyn</div></figcaption></figure>
 
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-kontakta-oss.gif" srcset="/img/till-skadeanmalan-kontakta-oss.gif 2x" alt="Exempel 3: Navigering till Skadeanmälan via Kontakta oss"><figcaption><div class="Image__caption">Exempel 3: Navigering till Skadeanmälan via Kontakta oss</div></figcaption></figure>
+
+<figure class="Image Image__border "><img src="/img/till-skadeanmalan-internsok.gif" srcset="/img/till-skadeanmalan-internsok.gif 2x" alt="Exempel 4: Navigering till Skadeanmälan via nternsöki"><figcaption><div class="Image__caption">Exempel 3: Navigering till Skadeanmälan via internsök</div></figcaption></figure>
+
+<figure class="Image Image__border "><img src="/img/till-skadeanmalan-google.gif" srcset="/img/till-skadeanmalan-google.gif 2x" alt="Exempel 5: Navigering till Skadeanmälan via Google"><figcaption><div class="Image__caption">Exempel 5: Navigering till Skadeanmälan via Google</div></figcaption></figure>
 </div></Collapse>
 <Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala">
 <div class="content">
