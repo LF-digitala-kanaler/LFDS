@@ -71,7 +71,7 @@ tabs:
       A common usage of the regular link is as a secondary option in a flow with multiple options. Depending on what the link does, it is either placed to the far left in height with the primary button (for "backwards"-functionality) or just prior the primary button (for "cancel"-functionality). The image below shows one of the rare cases where both options exist.
 
 
-      <figure class="Image Image__background"><img src="/img/button_and_text.png" srcset="/img/links-and-primary-button.png 2x" alt="Regular links next to a primary button in a flow where both backwards and cancel-options exist."><figcaption><div class="Image__caption">Regular links next to a primary button in a flow where both backwards and cancel-options exist.</div></figcaption></figure>
+      <figure class="Image Image__background "><img src="/img/button_and_text.png" srcset="/img/button_and_text.png 2x" alt="Regular links next to a primary button in a flow where both backwards and cancel-options exist."><figcaption><div class="Image__caption">Regular links next to a primary button in a flow where both backwards and cancel-options exist.</div></figcaption></figure>
 
 
       ## Other material
