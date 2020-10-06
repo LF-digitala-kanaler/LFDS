@@ -8,13 +8,13 @@ const LFDSImage = {
       name: 'type',
       label: 'Type',
       widget: 'select',
-      default: 'Image__border',
+      default: 'Image__default',
       options: [
         { label: 'Border', value: 'Image__border' },
         { label: 'Background', value: 'Image__background' },
         {
           label: 'No added style',
-          value: '',
+          value: 'Image__default',
         },
       ],
     },

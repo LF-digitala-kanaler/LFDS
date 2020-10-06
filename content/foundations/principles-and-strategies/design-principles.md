@@ -86,8 +86,6 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 <div class="content">
 
 
-
-
 En av Länsförsäkringars stora fördelar är att vi finns lokalt på många orter och har rådgivare på plats – folk känner 'Kim på Länsförsäkringar'. Den närheten till Länsförsäkringar vill vi ta med in i det digitala där det går och passar.
 
 
