@@ -60,3 +60,37 @@ Tre senaste nyheter - Vad kan man kommer in till oss för att läsa, hur täcker
 Jag vill ringa, besöka eller maila - hur gör jag? 
 
 <figure class="Image Image__background "><img src="/img/lfse-startsida-06-contact.jpg" srcset="/img/lfse-startsida-06-contact.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+## Variant
+
+### 1-4 Kampanjytor
+
+Det finns möjlighet att använda sig av 1-4 Kampanjytor samtidigt. 3-4 kampanjytor är inget vi rekommenderar då det blir ett rörigt intryck där vi bara signalerar sälj och olika kampanjkoncept men nöden har ibland ingen lag och då finns det möjlighet. När man använder fler än två kampanjer så ska man veta att varumärkeslöftet försvinner ovanför för att få upp kampanjerna närmare fold.
+
+<figure class="Image Image__background "><img src="/img/lfse-startsida-03-campain-flera.jpg" srcset="/img/lfse-startsida-03-campain-flera.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+## Mätning
+
+(kolla med analysgänget)
+
+P. Besökare
+
+P. Klick på inkastarknappar
+
+P. Klick på mesta sökord
+
+E. Kampanjevent
+
+S. Bouncerate
+
+S. Engagement på sida
+
+S. Skrolldjup
+
+## Tänk på
+
+* Vi rekommenderar att ha 1-2 kampanjer samtidigt. Vi vill inte att vi ska ses som en stortavla. Vilken är den viktigaste kampanjen just nu privat respektive företag.\
+  Exempel: Vi har större möjlighet att nå kunden med en bilkampanj om vi berättar om den på sidan för bilförsäkring än om vi bara lägger den på startsidan.
+* Använd inte text eller illustrationer som kampanjbilderna då det blir rörigt för användarna och bilderna klipper olika i mobilt och för paddan.
+
+## Live exempel
