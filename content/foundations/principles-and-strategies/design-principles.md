@@ -26,7 +26,7 @@ Våra kunder <strong>kontaktar oss</strong> på det sätt som de anser passar de
 
 Det innebär att våra webblösningar är responsiva, våra appar följer de mönster som finns för det operativssystem som kunden har och att koden följer våra tillgänglighetsriktlinjer.
 
-Om vi inte kan/vill erbjuda den kontaktväg som kunden föredrar behöver vi tydligt visa vilka som finns tillgängliga.</div>
+Om vi inte kan/vill erbjuda den kontaktväg som kunden föredrar behöver vi tydligt visa vilka som finns tillgängliga.
 
 #### Exempel
 
