@@ -17,9 +17,9 @@ Vi strävar efter en optimal kundupplevelse i balans med vår vilja att driva ti
 
 ### Som kund vill jag...
 
+<figure class="Image Image__background "><img src="/img/cx-1-motas-utifran-mina-behov.png" srcset="/img/cx-1-motas-utifran-mina-behov.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
-<figure class="Image Image__background"><img src="/img/cx-1-motas-utifran-mina-behov.png" srcset="/img/cx-1-motas-utifran-mina-behov.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### 1. Mötas utifrån just mina behov och känna mig trygg med att jag har rätt produkter
 
@@ -30,9 +30,9 @@ Det betyder att
 * Vi ger kunden möjlighet att identifiera sig så tidigt som möjligt i våra kundmöten för att kunna utgå från kända kundbehov och engagemang
 * Vi informerar om relevanta produkter och tjänster och låter inte kunder teckna onödiga avtal
 
+<figure class="Image Image__background "><img src="/img/cx-2-enkelt-kunna-göra-det-jag-kom-för-att-göra.png" srcset="/img/cx-2-enkelt-kunna-göra-det-jag-kom-för-att-göra.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
-<figure class="Image Image__background"><img src="/img/cx-2-enkelt-kunna-göra-det-jag-kom-för-att-göra.png" srcset="/img/cx-2-enkelt-kunna-göra-det-jag-kom-för-att-göra.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### 2. Enkelt kunna göra det jag kom för att göra oavsett hur jag väljer att ha kontakt med Länsförsäkringar
 
@@ -44,9 +44,7 @@ Det betyder att
 * Vi erbjuder kunden möjlighet att styra sina preferenser för kanalval och kontakttäthet
 * Vi hanterar regelverk på ett gemensamt sätt som skyddar kunden och samtidigt stöttar kundens upplevelse och affären
 
-
-
-<figure class="Image Image__background"><img src="/img/cx-3-relevant-dialog.png" srcset="/img/cx-3-relevant-dialog.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background "><img src="/img/cx-3-relevant-dialog.png" srcset="/img/cx-3-relevant-dialog.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 #### 3. Ha en relevant dialog som proaktivt hjälper mig när det behövs
 
