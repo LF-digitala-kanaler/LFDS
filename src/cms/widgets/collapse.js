@@ -57,7 +57,7 @@ const CollapseWidget = {
     ) {
       return `<Collapse title="${item.get(
         'title'
-      )}"><div class="content">\n\n${item.get('content')}\n</div></Collapse>`
+      )}"\n\n><div class="content">\n\n${item.get('content')}\n</div></Collapse>`
     })
 
     return '<section>\n' + items.join('\n') + '\n</section>'
