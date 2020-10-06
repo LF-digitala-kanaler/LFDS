@@ -13,7 +13,7 @@ lang: false
 Länsförsäkringars designprocess är en fingervisning av hur vi arbetar med design i utveckling. Designprocessen går att använda på stora projekt såsom små, en av delarna kan vara allt från en dag till flera veckor långa genom flera sprintar eller som en liten del av en sprint. Allt beror på vad vi ska lösa i vår story/epic/projektet. Vi går igenom dem en och en.
 
 <section>
-<Collapse title="Förstå"><div class="content"><div class="content">
+<Collapse title="Förstå"><div class="content">
 
 
 
