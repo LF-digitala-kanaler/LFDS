@@ -7,11 +7,10 @@ intro: "Here we talk about patterns that are directly connected to
   Lansforsakringar.se. "
 description: "Here we talk about patterns that are directly connected to
   Lansforsakringar.se. "
-
 wide: false
 lang: false
 hidden: false
 ---
-<figure class="Image Image__border"><img src="" srcset=" 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 
 Här skriver vi om mönster relaterade till Lf.se
