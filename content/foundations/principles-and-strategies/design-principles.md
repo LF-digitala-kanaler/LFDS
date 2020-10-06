@@ -70,7 +70,13 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 
 #### Exempel
 
-<figure class="Image Image__border "><img src="/img/till-skadeanmalan-startsidan.gif" srcset="/img/till-skadeanmalan-startsidan.gif 2x" alt="Exampel 1: Navigering till Skadeanmälan via knapp på startsidan"><figcaption><div class="Image__caption">Exampel 1: Navigering till Skadeanmälan via knapp på startsidan</div></figcaption></figure>
+<figure class="Image Image__border "><img src="/img/till-skadeanmalan-startsidan.gif" srcset="/img/till-skadeanmalan-startsidan.gif 2x" alt="Exempel 1: Navigering till Skadeanmälan via knapp på startsidan"><figcaption><div class="Image__caption">Exempel 1: Navigering till Skadeanmälan via knapp på startsidan</div></figcaption></figure>
+
+
+
+<figure class="Image Image__border "><img src="/img/till-skadeanmalan-meny.gif" srcset="/img/till-skadeanmalan-meny.gif 2x" alt="Exmpel 2: Navigering till Skadeanmälan via menyne"><figcaption><div class="Image__caption">Exempel 2: Navigering till Skadeanmälan via menyn</div></figcaption></figure>
+
+<figure class="Image Image__border "><img src="/img/till-skadeanmalan-kontakta-oss.gif" srcset="/img/till-skadeanmalan-kontakta-oss.gif 2x" alt="Exempel 3: Navigering till Skadeanmälan via Kontakta oss"><figcaption><div class="Image__caption">Exempel 3: Navigering till Skadeanmälan via Kontakta oss</div></figcaption></figure>
 </div></Collapse>
 <Collapse title="Styrkan i det personliga och lokala återspeglas i det digitala">
 <div class="content">
