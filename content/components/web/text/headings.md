@@ -47,7 +47,9 @@ tabs:
       We generally discourage from making headings into links as many users miss those links, but it is a rule with exceptions. For example our [card-component ](../page-content/card)features clickable headings. When headings h1-h5 are made clickable their colour change to standard link colour "[Länsförsäkringar blue](/visual-identity/colors#primary-colors)" and an underline is added on hover. An example of this can be seen below.
 
 
-      <figure class="Image Image__border"><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Example of linked headings with and without hover state"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__border "><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Example of linked headings with and without hover state"><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
 
 
       #### Display headings (h1)

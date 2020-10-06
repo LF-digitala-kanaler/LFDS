@@ -30,7 +30,9 @@ tabs:
       The image below shows our standard way of using links to the left and the exception to the right.
 
 
-      <figure class="Image Image__background"><img src="/img/paragraph-links.png" srcset="/img/paragraph-links.png 2x" alt="An exception from the rule"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background "><img src="/img/paragraph-links.png" srcset="/img/paragraph-links.png 2x" alt="An exception from the rule"><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
 
 
       ## To consider
