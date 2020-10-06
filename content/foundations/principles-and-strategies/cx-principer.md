@@ -19,8 +19,6 @@ Vi strävar efter en optimal kundupplevelse i balans med vår vilja att driva ti
 
 <figure class="Image Image__background "><img src="/img/cx-1-motas-utifran-mina-behov.png" srcset="/img/cx-1-motas-utifran-mina-behov.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-
-
 #### 1. Mötas utifrån just mina behov och känna mig trygg med att jag har rätt produkter
 
 Det betyder att
@@ -31,8 +29,6 @@ Det betyder att
 * Vi informerar om relevanta produkter och tjänster och låter inte kunder teckna onödiga avtal
 
 <figure class="Image Image__background "><img src="/img/cx-2-enkelt-kunna-göra-det-jag-kom-för-att-göra.png" srcset="/img/cx-2-enkelt-kunna-göra-det-jag-kom-för-att-göra.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-
 
 #### 2. Enkelt kunna göra det jag kom för att göra oavsett hur jag väljer att ha kontakt med Länsförsäkringar
 
