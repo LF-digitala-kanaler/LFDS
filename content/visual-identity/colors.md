@@ -5,7 +5,6 @@ title: Colors
 intro: Our primary colors are blue, red and white. This color combination is
   very recognisable for our customers. It's important that we use our colors
   consequently.
-
 wide: true
 lang: false
 ---
@@ -17,7 +16,7 @@ lang: false
 
 We strive to design with a consistent color balance. A lot of white, blue as a primary color and red as an accent color.
 
-<figure class="Image Image__border"><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__border Image__wide"><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Complimentary colors
 
