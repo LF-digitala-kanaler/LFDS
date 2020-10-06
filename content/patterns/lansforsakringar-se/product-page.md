@@ -13,7 +13,7 @@ wide: false
 lang: true
 hidden: false
 ---
-<figure class="Image Image__border"><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background "><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte
 
@@ -37,7 +37,11 @@ Ett kort intro till vad sidan handlar om och en passande illustration som visar 
 
 Snabb väg till konvertering tillsammans med USPar och bekräfta att du kommit rätt.
 
-<figure class="Image Image__background"><img src="/img/lfse-produktsida-01-short-info.jpg" srcset="/img/lfse-produktsida-01-short-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+<figure class="Image Image__background "><img src="/img/lfse-produktsida-01-short-info.jpg" srcset="/img/lfse-produktsida-01-short-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
 
 ### Illustration och SKI
 
