@@ -176,27 +176,27 @@ figure {
   margin: 0;
 }
 
-/* .Content--tight .Image,
+.Content--tight .Image__wide,
 .Content--tight section {
   @media (--large-viewport) { 
     width: var(--content-width);
   }
 } */
-/* .Content--wide .Image {
+.Content--wide .Image__wide {
   @media (--large-viewport) { 
     width: var(--content-width--wide);
   }
-} */
-/* .Content--normal .Image__background,
-.Content .Image__background {
+} 
+.Content--normal .Image__wide,
+.Content .Image__wide {
    @media (--xlarge-viewport) { 
     width: calc(var(--content-width) - 32px);
   } 
-}  */
-/* .Content--normal .Image {
+} 
+.Content--normal .Image__wide {
   margin-bottom: 0;
   margin-top: var(--spacing-vertical--2)
-} */
+}
 /* hack to get content inside wide to be narrow */
 
 .Content--normal > div >*:not(section):not('.Colors') {
