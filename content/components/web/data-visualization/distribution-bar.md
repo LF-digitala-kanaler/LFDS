@@ -31,7 +31,9 @@ tabs:
       A **secondary use case** is as a form of [progress bar](../system-display/progress-bar) with discrete steps whose relation change over time. The distribution bar should only be used as a progress bar in cases which match that description. What's great with this use is that you can choose to display parts which aren't affected but part of the total, as the red section in the example image below. The example image below has both modifiers for the use case turned on:
 
 
-      <figure class="Image Image__background"><img src="/img/distribution-bar-as-progress-bar.png" srcset="/img/distribution-bar-as-progress-bar.png 2x" alt="Distribution bar as progress bar"><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background "><img src="/img/distribution-bar-as-progress-bar.png" srcset="/img/distribution-bar-as-progress-bar.png 2x" alt="Distribution bar as progress bar"><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
 
 
       As indicated above, two specific modifiers exist for the distribution bar as a progress bar.
