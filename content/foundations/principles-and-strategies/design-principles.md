@@ -32,10 +32,6 @@ Om vi inte kan/vill erbjuda den kontaktväg som kunden föredrar behöver vi tyd
 
 Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss, dels två responsiva exempel från Mina Sidor och dels ett exempel på hur motsvarande vyer har anpassats till Android resp iOS.
 
-<figure class="Image Image__background"><img src="/img/mis-startsida-responsiv.jpg" srcset="/img/mis-startsida-responsiv.jpg 2x" alt="Exempel 1: Mina Sidors startsida i desktop, tablet och mobilläge"><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-<figure class="Image Image__background"><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption"></div></figcaption></figure>
-
 <figure class="Image Image__border "><img src="/img/mis-startsida-responsiv.jpg" srcset="/img/mis-startsida-responsiv.jpg 2x" alt="Exempel 1: Mina Sidors startsida i desktop, tablet och mobilläge"><figcaption><div class="Image__caption">Exempel 1: Mina Sidors startsida i desktop, tablet och mobilläge</div></figcaption></figure>
 
 <figure class="Image Image__border "><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption">Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil</div></figcaption></figure>
