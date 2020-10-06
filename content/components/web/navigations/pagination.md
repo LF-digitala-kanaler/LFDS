@@ -68,7 +68,7 @@ tabs:
       <figure class="Image Image__border "><img src="/img/pagination-old-w-colour.jpg" srcset="/img/pagination-old-w-colour.jpg 2x" alt="Old version of pagination which didn't pass through user testing"><figcaption><div class="Image__caption">Old version of pagination which didn't pass through user testing</div></figcaption></figure>
 
 
-      <figure class="Image Image__default "><img src="/img/pagination-old-number-and-label.jpg" srcset="/img/pagination-old-number-and-label.jpg 2x" alt="Old sketch of pagination with step number and label"><figcaption><div class="Image__caption">Old sketch of pagination with step number and label</div></figcaption></figure>
+      <figure class="Image Image__border "><img src="/img/pagination-old-number-and-label.jpg" srcset="/img/pagination-old-number-and-label.jpg 2x" alt="Old sketch of pagination with step number and label"><figcaption><div class="Image__caption">Old sketch of pagination with step number and label</div></figcaption></figure>
 
 
       ## Other material
