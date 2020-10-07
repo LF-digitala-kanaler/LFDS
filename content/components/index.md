@@ -1,5 +1,4 @@
 ---
-
 template: LandingPage
 title: Components
 intro: In our components-section you will find the various components and
@@ -37,3 +36,5 @@ blockquote:
 LFUI can be described as the lego blocks which form the foundation of all digital interfaces we create at Länsförsäkringar. It is designed based on our [visual identity](/visual-identity), and standardised ways of using different components together can be found in the [patterns-section](/patterns).
 
 If you want a further introduction to our components and how they are displayed, you can find it [at the bottom of this page](#how-components-are-displayed).
+
+If you want to develop using our components, you can find a getting started guide [here](/foundations/getting-started/developer).
