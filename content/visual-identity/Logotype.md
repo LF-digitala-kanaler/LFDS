@@ -15,9 +15,12 @@ lang: false
 
 In the LFUI-common.sketch document you will find all the logotypes for different länsbolag. These logotypes are optimized for digital use with correct RGB values.
 
+
 <section>
 <Collapse title="The symbol">
 <div class="content">
+
+
 
 
 
@@ -29,9 +32,13 @@ Länsförsäkringar's symbol, which consists of a straight-up and an upside-down
 
 
 
+
+
 </div></Collapse>
 <Collapse title="Symbol recognition">
 <div class="content">
+
+
 
 
 
@@ -43,8 +50,11 @@ Länsförsäkringar's symbol is one of Sweden's most well-known corporate symbol
 
 
 
+
+
 </div></Collapse>
 </section>
+
 
 ## Use of symbol alone
 
