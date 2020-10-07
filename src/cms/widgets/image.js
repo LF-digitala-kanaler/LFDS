@@ -21,7 +21,7 @@ const LFDSImage = {
     {label: "Wide", name: "wide", widget: "boolean", default: false, hint: 'Image will break grid and use full width', required: false},
     { name: 'caption', label: 'Caption', widget: 'string', default: '' },
   ],
-  pattern: /<figure class="Image (.*) (.*) "><img src="(.*)" srcset="(.*) 2x" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure>/,
+  pattern: /^<figure class="Image (.*) (.*)"><img src="(.*)" srcset="(.*) 2x" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure>/,
   fromBlock(match) {
     
     return {
@@ -39,7 +39,7 @@ const LFDSImage = {
     }else {
       wide = ''
     }
-    return `<figure class="Image ${obj.type} ${wide}">\n<img src="${obj.image}" srcset="${obj.image} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption>\n</figure>`
+    return `<figure class="Image ${obj.type} ${wide}"><img src="${obj.image}" srcset="${obj.image} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
   },
 }
 
