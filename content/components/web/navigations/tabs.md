@@ -9,8 +9,9 @@ description: Tabs are used as contextual navigation when the user has landed on
 previewImage: /img/nav.svg
 category: Navigations
 componentsNavigation:
-  - name: Page Level Navigation
-  - name: In Page Navigation
+  - name: Page level navigation
+  - name: In page navigation
+backgroundColor: "#f3f3f3"
 tabs:
   - content: >-
       ## How to use
@@ -78,7 +79,7 @@ tabs:
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Tabs)
     name: Design
   - content: >-
-      # How to use
+      ## How to use
 
 
       Classes are used throughout, so your markup can be super flexible. Use `<ul>`'s like above, or roll your own with say a `<nav>` element. Because the `.nav` uses `display: flex`, the nav links behave the same as nav items would, but without the extra markup.
@@ -140,8 +141,6 @@ tabs:
       ```
 
 
-
-
       ### In-page navigation
 
 
@@ -182,8 +181,6 @@ tabs:
       * .nav-tight - less x tab padding 
 
 
-
-
       ## Accessibility
 
 
@@ -192,5 +189,4 @@ tabs:
 
       Note that navigation bars, even if visually styled as tabs with the `.nav-tabs` class, should **not** be given `role="tablist"`, `role="tab"` or `role="tabpanel"` attributes. ([soruce](https://getbootstrap.com/docs/4.0/components/navs/#regarding-accessibility))
     name: Code
-backgroundColor: "#f3f3f3"
 ---
