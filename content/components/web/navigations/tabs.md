@@ -79,7 +79,7 @@ tabs:
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Tabs)
     name: Design
   - content: >-
-      # How to use
+      ## How to use
 
 
       Classes are used throughout, so your markup can be super flexible. Use `<ul>`'s like above, or roll your own with say a `<nav>` element. Because the `.nav` uses `display: flex`, the nav links behave the same as nav items would, but without the extra markup.
@@ -141,8 +141,6 @@ tabs:
       ```
 
 
-
-
       ### In-page navigation
 
 
@@ -181,8 +179,6 @@ tabs:
       * .nav-small - less x and y tab padding 
 
       * .nav-tight - less x tab padding 
-
-
 
 
       ## Accessibility
