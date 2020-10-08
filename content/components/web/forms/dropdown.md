@@ -8,8 +8,9 @@ description: The dropdown provides the user with given options in a list which
 previewImage: /img/dropdown.svg
 category: Forms
 componentsNavigation:
-  - name: select One
-  - name: Multi Select
+  - name: Select one
+  - name: Multi select
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -307,5 +308,4 @@ tabs:
 
 
       There is more options to solve this but at the moment be do not have any built-in option for this.
-backgroundColor: "#fff"
 ---
