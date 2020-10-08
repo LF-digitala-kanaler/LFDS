@@ -180,6 +180,10 @@ tabs:
 
       * .nav-tight - less x tab padding 
 
+      * .nav-tabs-gray - for use on white background
+
+
+
 
       ## Accessibility
 
