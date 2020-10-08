@@ -13,6 +13,7 @@ componentsNavigation:
   - name: Checkmarks
   - name: Numbers
   - name: Link Lists
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -118,14 +119,6 @@ tabs:
 
       **External link:** <https://www.nngroup.com/articles/presenting-bulleted-lists/>
     name: Design
-  - content: >-
-      Lists in LFUI have the appearance listed below. Also provided (in addition
-      to Bootstrap's list utility classes) are utility classes to alter the list
-      appearance further.
-
-
-      The default styling of `ol`  and `ul` is achieved by adding the corresponding class to the element at hand. This means if you're building an ul, also append the `ul` class to that element (and vice versa in the `ol` case).
-    name: Code
   - name: Copy
     content: >-
       ### To break down long sentences
@@ -137,5 +130,19 @@ tabs:
       **Do sections instead**\
 
       Use a headline instead and break it out to different sections of text, it makes the readers identify the main points of each section and easier to grasp. To highlight and simulate dots you can always make a small graphical element to the right of the textarea.
-backgroundColor: "#fff"
+  - content: >-
+      ## How to use
+
+
+      Lists in LFUI have the appearance listed below. Also provided (in addition to Bootstrap's list utility classes) are utility classes to alter the list appearance further.
+
+
+      The default styling of `ol`  and `ul` is achieved by adding the corresponding class to the element at hand. This means if you're building an ul, also append the `ul` class to that element (and vice versa in the `ol` case).
+
+
+      ### Modifiers
+
+
+      You can use the classes `list-md` or `list-lg` to increase the distance between the list items in the ol and ul's.
+    name: Code
 ---
