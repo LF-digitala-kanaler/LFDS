@@ -9,8 +9,9 @@ description: Panels are our standard containers when we want to “box in”
 previewImage: /img/panel.svg
 category: Page content
 componentsNavigation:
-  - name: Always Open
-  - name: Collapse Expand
+  - name: Always open
+  - name: Collapse expand
+backgroundColor: "#f3f3f3"
 tabs:
   - content: >-
       ## How to use
@@ -172,5 +173,4 @@ tabs:
 
       ```
     name: Code
-backgroundColor: "#f3f3f3"
 ---
