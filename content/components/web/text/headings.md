@@ -11,6 +11,7 @@ category: Text
 componentsNavigation:
   - name: Default
   - name: Display
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -99,7 +100,4 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Display" and "Heading")
     name: Design
-  - content: content copy
-    name: Copy
-backgroundColor: "#fff"
 ---
