@@ -50,9 +50,5 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Body")
     name: Design
-  - content: ghgh
-    name: Copy
-  - content: content code
-    name: Code
 backgroundColor: "#fff"
 ---
