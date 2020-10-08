@@ -9,8 +9,9 @@ description: Input fields are fields in which the user can enter text of some
 previewImage: /img/input.svg
 category: Forms
 componentsNavigation:
-  - name: One Lined
-  - name: Several Lines
+  - name: One lined
+  - name: Several lines
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -389,5 +390,4 @@ tabs:
 
       If a field has been filled out and validated, add the `has-valid` to it's parent class. If a field has been filled out and validated but with errors, add the `has-danger` class. There is a more detailed example of this TODO add link to patterns.
     name: Code
-backgroundColor: "#fff"
 ---
