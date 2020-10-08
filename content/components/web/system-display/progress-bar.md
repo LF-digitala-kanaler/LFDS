@@ -26,7 +26,5 @@ tabs:
 
       * Usage together with arrow step navigation is encouraged.
     name: Design
-  - content: content code
-    name: Copy
 backgroundColor: "#f3f3f3"
 ---
