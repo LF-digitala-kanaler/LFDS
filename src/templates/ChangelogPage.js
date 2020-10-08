@@ -71,6 +71,7 @@ const ChangelogPage = ({ data: { page, log }, location }) => {
       title={page.frontmatter.title || false}
       breadcrumb={breadcrumb}
       menu={true}
+      backgroundClass={'bg-smoke'}
     >
       <ChangelogPageTemplate
         {...page}

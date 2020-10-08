@@ -21,7 +21,8 @@ export const ComponentPageTemplate = ({
   verticalResize,
 }) => (
   <>
-    {currentDirectory && <Deprecated status={currentDirectory} />}
+    {console.log(componentsNavigation), 'last'}
+    {currentDirectory && <Deprecated componentName={currentDirectory} />}
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={'left'} />
       {currentDirectory && <ComponentVersion version={currentDirectory} />}
@@ -44,7 +45,7 @@ export const ComponentPageTemplate = ({
       {({ location }) => (
         <TabsWrapper tabs={tabs} location={location} navigate={navigate}>
           {currentDirectory && (
-            <Deprecated fixed={true} status={currentDirectory} />
+            <Deprecated fixed={true} componentName={currentDirectory} />
           )}
         </TabsWrapper>
       )}

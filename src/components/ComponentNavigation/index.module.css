@@ -17,7 +17,6 @@
   outline: 0;
   cursor: pointer;
   white-space: nowrap;
-  text-transform: capitalize;
 }
 
 .ComponentNavigation__button--isActive {

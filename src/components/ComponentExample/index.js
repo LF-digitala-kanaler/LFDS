@@ -28,6 +28,7 @@ const ComponentExample = ({
       }
     })
   }
+  console.log(nav, 'navs')
   const [backgroundColor, setBackground] = useState(
     background ? background : '#fff'
   ) // if background is et in Netlify, use that value

@@ -5,10 +5,11 @@ import Wrapper from '../Wrapper'
 import style from './index.module.css'
 import cx from 'classnames'
 
-const Deprecated = ({ status, fixed }) => {
+const Deprecated = ({ componentName, fixed }) => {
   // get current pages object from componentsStatus.json
+  
   const currentVersion = _.filter(componentsStatus.components, function (o) {
-    return o.component.toLowerCase() === status.toLowerCase()
+    return o.component.toLowerCase() === componentName.toLowerCase()
   })
   if (currentVersion === undefined || currentVersion.length === 0) {
     return null
