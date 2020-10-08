@@ -26,8 +26,6 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (System Display/Avatar)
     name: Design
-  - content: content
-    name: Copy
   - content: >-
       ## Versions
 
