@@ -13,7 +13,7 @@ wide: false
 lang: true
 hidden: false
 ---
-<figure class="Image Image__background "><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image null Image__wide"><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte
 
