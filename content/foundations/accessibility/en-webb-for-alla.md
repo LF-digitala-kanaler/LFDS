@@ -1,6 +1,7 @@
 ---
 template: ArticlePage
 category: Accessibility
+previewImage: /img/wcag-webbforalla.png
 title: En webb för alla
 intro: Självklart har vi ett mål att alla människor ska kunna komma åt våra
   tjänster och det vi gör Länsförsäkringar. Men det innebär fortfarande att vi
