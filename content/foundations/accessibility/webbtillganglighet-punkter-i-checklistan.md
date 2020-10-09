@@ -20,7 +20,7 @@ lang: true
 * [Video & animering](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#video--animering)
 * [Listor](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#listor)
 * [Kod & script](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#kod--script)
-* [Appar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#Appar)
+* [Appar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#appar)
 
 ## Layout och bilder
 
