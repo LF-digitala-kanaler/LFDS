@@ -9,6 +9,15 @@ wide: false
 lang: false
 hidden: false
 ---
+<figure class="Image null "><img src="/img/wcag-en-webb-for-alla.png" srcset="/img/wcag-en-webb-for-alla.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+Vision
+
+Direktivet
+
+
+
+Detta lägger vi i teknik sida:
 
 Text om att vi försöker bygga en webb för 80 % av behoven inte 100 % det är omöjligt.
 
