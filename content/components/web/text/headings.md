@@ -29,7 +29,7 @@ tabs:
       There are two variations of headings at Länsförsäkringar:
 
 
-      * Standard h1-h6 headings in typeface Intro Cond.
+      * Default h1-h6 headings in typeface Intro Cond.
 
       * Display headings (hero headings) in typeface LF Rubrik.
 
@@ -49,8 +49,6 @@ tabs:
 
 
       <figure class="Image Image__border "><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Example of linked headings with and without hover state"><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-
 
 
       #### Display headings (h1)
