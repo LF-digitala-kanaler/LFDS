@@ -10,6 +10,7 @@ category: Forms
 componentsNavigation:
   - name: Datepicker
   - name: Timepicker
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -21,13 +22,13 @@ tabs:
       Visually the datepicker looks like a normal input field with a calendar icon in right part of the field. Interaction-wise a calendar is expanded when the user clicks anywhere in the input field (including on the calendar icon) - in the calendar the user can select the date they wish to choose. If they prefer, the input field can also be used to enter the date with the keyboard.
 
 
-      ### Modifiers
+      ### Variations
 
 
-      There are a few modifiers available for the datepicker:
+      There are a few variations available for the datepicker:
 
 
-      * There is as a version called **timepicker**, which works like the datepicker but lets the user choose a time rather than a day
+      * There is as a variation called **timepicker**, which works like the datepicker but lets the user choose a time rather than a day
 
       * You can choose to disable dates if needed. Examples of use case for this are selecting from when an insurance is valid (not possible earlier than today) or doing an injury claim (had to happen today or earlier). You can also choose to disable a specific time span.
 
@@ -219,5 +220,4 @@ tabs:
 
       ```
     name: Code
-backgroundColor: "#fff"
 ---
