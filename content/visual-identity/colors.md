@@ -2,25 +2,25 @@
 template: ArticlePage
 previewImage: /img/color_v2.svg
 title: Colors
-intro: Our primary colors are blue, red and white. This color combination is
-  very recognisable for our customers. It's important that we use our colors
+intro: Our primary colours are blue, red and white. This color combination is
+  very recognisable for our customers. It's important that we use our colours
   consequently.
 wide: true
 lang: false
 ---
-## Primary Colors
+## Primary Colour
 
 <div class="Colors"><article class="Colors__item Colors__item--primary"><div class="Colors__primary" style="border-color:#005aa0"><div class="Colors__background" style="background-color:#005aa0"></div><h3 class="Colors__title">Länsförsäkringar Blue</h3><p class="Colors__text"><span>RGB</span> 0/90/160</p><p class="Colors__text"><span>HEX</span> #005aa0</p></div></article><article class="Colors__item Colors__item--primary"><div class="Colors__primary" style="border-color:#E30613"><div class="Colors__background" style="background-color:#E30613"></div><h3 class="Colors__title">Länsförsäkringar Red</h3><p class="Colors__text"><span>RGB</span> 227/6/19</p><p class="Colors__text"><span>HEX</span> #E30613</p></div></article></div>
 
-### Color balance
+### Colour balance
 
-We strive to design with a consistent color balance. A lot of white, blue as a primary color and red as an accent color.
+We strive to design with a consistent colour balance. A lot of white, blue as a primary colour and red as an accent colour.
 
-<figure class="Image Image__border Image__wide"><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__border "><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-## Complimentary colors
+## Complimentary colour
 
-Our complimentary colors are hues based on our primary colors.
+Our complimentary colours are hues based on our primary colour.
 
 <div class="Colors">
     <article class="Colors__item Colors__item--complimentary">
@@ -111,7 +111,7 @@ Our complimentary colors are hues based on our primary colors.
     <article class="Colors__item Colors__item--complimentary">
       <div class="Colors__complimentary" style="border-color:#B1B3B6">
         <div class="Colors__background" style="background-color:#B1B3B6"></div>
-        <h3 class="Colors__title">slver</h3>
+        <h3 class="Colors__title">silver</h3>
         <p class="Colors__text"><span>RGB</span> 177/179/182</p>
         <p class="Colors__text"><span>HEX</span> #B1B3B6</p>
       </div>
@@ -136,9 +136,9 @@ Our complimentary colors are hues based on our primary colors.
 
 ## Spezial
 
-These colors are for specific. usage. Use with care.
+These colours are for specific. usage. Use with care.
 
-### Info colors
+### Info colours
 
 <div class="Colors">
     <article class="Colors__item Colors__item--special">
