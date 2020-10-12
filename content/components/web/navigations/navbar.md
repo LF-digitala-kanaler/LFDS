@@ -82,7 +82,7 @@ tabs:
       ## How to use
 
 
-      Navbars require a wrapping `.navbar` with optional classes for color schema, directions and sizes.
+      Navbars require a wrapping `.navbar` with optional classes for colour schema, directions and sizes.
 
 
       ```
@@ -95,7 +95,7 @@ tabs:
       ### Variants
 
 
-      There is two different color schemas of the navbar **blue** and **white**. Without any modifier the blue color schema will be used.
+      There is two different colour schemas of the navbar **blue** and **white**. Without any modifier the blue colour schema will be used.
 
 
       To use the **white** variant add **.**`navbar-light` to `.navbar`

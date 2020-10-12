@@ -88,10 +88,10 @@ tabs:
       If you don't have the room for a label inside the bar, you should add a tooltip explanation. If enabled, the user gets to see the value of a field by hovering over (desktop) or clicking on (mobile) that field in the bar. The value is shown above the bar.
 
 
-      ### Legends and colors
+      ### Legends and colours
 
 
-      All the graphs have the same legends and color styles, read more [here](/patterns/general-patterns/graphs-and-when-to-use-them#the-different-parts).
+      All the graphs have the same legends and colour styles, read more [here](/patterns/general-patterns/graphs-and-when-to-use-them#the-different-parts).
 
 
       When to use different graphs you find [here](/patterns/general-patterns/graphs-and-when-to-use-them#type-of-graph).
@@ -124,7 +124,7 @@ tabs:
       **NOTE:**A styling recommendation is to not show the arrow at small values, as the arrow has a width around 10px and might disrupt the accuracy of the bar.
 
 
-      Also do note that perfect styling for the arrow is not possible for the third (or`distribution-sky`) distribution-value, as the striped pattern can not be applied to the border. Should you need the arrow on your third value, overwrite it with a manual color (see above section).
+      Also do note that perfect styling for the arrow is not possible for the third (or`distribution-sky`) distribution-value, as the striped pattern can not be applied to the border. Should you need the arrow on your third value, overwrite it with a manual colour (see above section).
 
 
       ### Tooltip

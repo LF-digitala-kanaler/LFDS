@@ -91,7 +91,7 @@ tabs:
       ## Variations
 
 
-      The LFUI navs come in two different variants, mainly dependant on which background color they are to be placed upon, the number of tabs expected to be present and if the tabs have more than one level of navigation.
+      The LFUI navs come in two different variants, mainly dependant on which background colour they are to be placed upon, the number of tabs expected to be present and if the tabs have more than one level of navigation.
 
 
       ### Page-level navigation

@@ -161,7 +161,7 @@ tabs:
       We have two different variants of dropdown. One which let the user pick one option and one when the user can pick more than one option. 
 
 
-      Both have the option to change color to grey. Add the `.gray-bg` class to `.custom-select-dd`, to change the colors of the dropdown - in this element, as well as hierarchically subsequent elements.
+      Both have the option to change colour to grey. Add the `.gray-bg` class to `.custom-select-dd`, to change the colours of the dropdown - in this element, as well as hierarchically subsequent elements.
 
 
       For option grouping we added a class called `dropdown-group-header`. This class should be added on a `h6` element. 

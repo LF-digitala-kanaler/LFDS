@@ -40,12 +40,12 @@ tabs:
       All normal headlines are set in Intro Cond Bold. The headings have margin spacing rules depending on their position in a section. 
 
 
-      **H1-H5** have the text-colour "[Navy](/visual-identity/colors#complimentary-colors)" and only vary in size.\
+      **H1-H5** have the text-colour "[Navy](/visual-identity/colours#complimentary-colours)" and only vary in size.\
 
-      **H6** is quite different however, the text is capitalized and the text-colour is "[Grey](/visual-identity/colors#black-white-and-some-shades-of-grey)".
+      **H6** is quite different however, the text is capitalized and the text-colour is "[Grey](/visual-identity/colours#black-white-and-some-shades-of-grey)".
 
 
-      We generally discourage from making headings into links as many users miss those links, but it is a rule with exceptions. For example our [card-component ](../page-content/card)features clickable headings. When headings h1-h5 are made clickable their colour change to standard link colour "[Länsförsäkringar blue](/visual-identity/colors#primary-colors)" and an underline is added on hover. An example of this can be seen below.
+      We generally discourage from making headings into links as many users miss those links, but it is a rule with exceptions. For example our [card-component ](../page-content/card)features clickable headings. When headings h1-h5 are made clickable their colour change to standard link colour "[Länsförsäkringar blue](/visual-identity/colours#primary-colours)" and an underline is added on hover. An example of this can be seen below.
 
 
       <figure class="Image Image__border "><img src="/img/headings-linked.png" srcset="/img/headings-linked.png 2x" alt="Example of linked headings with and without hover state"><figcaption><div class="Image__caption"></div></figcaption></figure>
@@ -57,7 +57,7 @@ tabs:
       Display headings are written in LF Rubrik and should only be used as the main headline of a page. Technically they are css-class added to the h1, meaning that the next level of heading should be h2.
 
 
-      Display heading use the ["Länsförsäkringar blue" colour](/visual-identity/colors#primary-colors) (#00427a).
+      Display heading use the ["Länsförsäkringar blue" colour](/visual-identity/colours#primary-colours) (#00427a).
 
 
       ##### Specific modifiers
@@ -78,7 +78,7 @@ tabs:
       ###### Red words in headings
 
 
-      If you want to emphasize some part of the heading you can choose to make that part "[Länsförsäkringar red](/visual-identity/colors#primary-colors)". The interplay between a blue heading with an emphasis on certain words with red colour is prominent in our ads and analog communication, and thus should be used in brand-bearing digital communication as well. As the red colour can disrupt the flow for certain users (like those with ADHD) we use it with caution in a digital context. 
+      If you want to emphasize some part of the heading you can choose to make that part "[Länsförsäkringar red](/visual-identity/colours#primary-colours)". The interplay between a blue heading with an emphasis on certain words with red colour is prominent in our ads and analog communication, and thus should be used in brand-bearing digital communication as well. As the red colour can disrupt the flow for certain users (like those with ADHD) we use it with caution in a digital context. 
 
 
       If you see fit to highlight certain words in red, you should consider the following:

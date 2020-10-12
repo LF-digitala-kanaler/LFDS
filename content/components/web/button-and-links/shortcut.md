@@ -101,7 +101,7 @@ tabs:
       ## Alerting 
 
 
-      With the modifier `.shortcut-important` the shortcut is decorated with a background color to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example, `.shortcut-info-ice`.
+      With the modifier `.shortcut-important` the shortcut is decorated with a background colour to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example, `.shortcut-info-ice`.
 
 
       ```

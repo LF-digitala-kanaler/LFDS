@@ -68,25 +68,25 @@ Position-wise, they should be in close relation to the graph itself. Prefereble 
 
 If the graph/chart has interactivity attached to it. Click on the legends to highlight the different parts in the graph. Even the text of the legend should be clickable.
 
-#### Color
+#### Colour
 
-LFUI provides a few scales to choose from that will color your visual data according to the visual profile of Länsförsäkringar. The visual identity set a preferable scale of blue or red. Below we have set different set to make it the same for all graphs. Use colors to make your most important value stand out
+LFUI provides a few scales to choose from that will colour your visual data according to the visual profile of Länsförsäkringar. The visual identity set a preferable scale of blue or red. Below we have set different set to make it the same for all graphs. Use colours to make your most important value stand out
 
-We are going to update the colors for better accessibility. \[2019-12-01]
+We are going to update the colours for better accessibility. \[2019-12-01]
 
-Here are the latest sets of colors to use:
+Here are the latest sets of v to use:
 
-* Blue colors - 10 colors
-* Red colors - 10 colors
-* Blue to red - 16 colors
-* Red to blue - 16 colors
-* Hybrid - 4 colors
-* Map - 15 colors
-* Disabled / not selected / inactive color is grey #d9d9d9 (smoke).
+* Blue colours - 10 colours
+* Red coloursv - 10 colours
+* Blue to red - 16 colours
+* Red to blue - 16 colours
+* Hybrid - 4 colours
+* Map - 15 colours
+* Disabled / not selected / inactive colour is grey #d9d9d9 (smoke).
 
 #### Accessibility
 
-Charts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colorblind users and users of screen readers. 
+Charts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colourblind users and users of screen readers. 
 
 Generally speaking an ALT tag cannot do justice to a complex chart. One way to describe a chart is to provide both a text summary and a properly coded data table near the chart.
 

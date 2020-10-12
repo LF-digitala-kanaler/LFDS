@@ -85,7 +85,7 @@ tabs:
       ## Please consider
 
 
-      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut ](/components/web/button-and-links/shortcut#alerting-glasspinne)(monocolor background and arrow with commercial content) 
+      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut ](/components/web/button-and-links/shortcut#alerting-glasspinne)(monocolour background and arrow with commercial content) 
 
       * If you want to use a link create a new page and link to it from the alert if you can’t get all your information across on one line as the text should be kept short.
 

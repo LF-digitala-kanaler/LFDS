@@ -55,7 +55,7 @@ tabs:
       ### Initials
 
 
-      Depending on your needs there is two different versions of this one. One with a background color and one with only a border. 
+      Depending on your needs there is two different versions of this one. One with a background colour and one with only a border. 
 
 
       ```

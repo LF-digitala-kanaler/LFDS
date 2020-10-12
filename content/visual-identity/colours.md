@@ -1,8 +1,8 @@
 ---
 template: ArticlePage
 previewImage: /img/color_v2.svg
-title: Colors
-intro: Our primary colours are blue, red and white. This color combination is
+title: Colours
+intro: Our primary colours are blue, red and white. This colour combination is
   very recognisable for our customers. It's important that we use our colours
   consequently.
 wide: true

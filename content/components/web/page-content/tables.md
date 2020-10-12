@@ -126,7 +126,7 @@ tabs:
       ## How to use
 
 
-      Tables come in many different forms and sizes. Which table you should use is often dependant to its content and background color. The default table looks like the one directly below and is of a "compressed" variant, hence the "small" and `.table-sm` markup. This is due to tables in LF applications usually have a lot of content.
+      Tables come in many different forms and sizes. Which table you should use is often dependant to its content and background colour. The default table looks like the one directly below and is of a "compressed" variant, hence the "small" and `.table-sm` markup. This is due to tables in LF applications usually have a lot of content.
 
 
       ### Variations

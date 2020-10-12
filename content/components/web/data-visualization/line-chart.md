@@ -23,10 +23,10 @@ tabs:
       * If there are multiple lines, there is no shading as this decreases readability.
 
 
-      ### Legends and colors
+      ### Legends and colours
 
 
-      All the graphs have the same legends and color styles, read more [here](/patterns/general-patterns/graphs-and-when-to-use-them#the-different-parts).
+      All the graphs have the same legends and colour styles, read more [here](/patterns/general-patterns/graphs-and-when-to-use-them#the-different-parts).
 
 
       When to use different graphs you find [here](/patterns/general-patterns/graphs-and-when-to-use-them#type-of-graph).
