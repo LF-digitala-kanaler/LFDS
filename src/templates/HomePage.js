@@ -6,7 +6,6 @@ import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
 import Shortcut from '../components/Shortcut'
 import FullWidthBackground from '../components/FullWidthBackground'
-import Content from '../components/Content'
 import Changelog from '../components/Changelog'
 import LinkList from '../components/LinkList'
 import SearchBlock from '../components/SearchBlock'
@@ -17,9 +16,10 @@ export const HomePageTemplate = ({
   intro,
   shortcuts,
   shortcutsBottom,
+  shortcutsImage,
   fullWidthImage,
-  body,
   relatedLinks,
+  images
 }) => (
   <>
     <Wrapper wide tag="div">
@@ -32,7 +32,7 @@ export const HomePageTemplate = ({
         {shortcuts &&
           shortcuts.map((item) => {
             return (
-              <Col sm={6} md={4} key={item.title}>
+              <Col span={12} sm={6} md={4} key={item.title}>
                 <Shortcut
                   title={item.title}
                   icon={item.icon.publicURL ? item.icon.publicURL : item.icon}
@@ -46,13 +46,30 @@ export const HomePageTemplate = ({
     </Wrapper>
     {fullWidthImage && (
       <FullWidthBackground
+        title={fullWidthImage.title}
         image={
-          fullWidthImage.childImageSharp
-            ? fullWidthImage.childImageSharp.fluid.src
-            : fullWidthImage
+          images.childImageSharp
+            ? images.childImageSharp.fluid.src
+            : images
         }
       >
-        <Content source={body} />{' '}
+        
+        <Row gutter={52} justify="center">
+          {shortcutsImage &&
+            shortcutsImage.map((item) => {
+              return (
+                <Col span={12}  lg={4} key={item.title}>
+                  <Shortcut
+                    horizontal
+                    title={item.title}
+                    icon={item.icon.publicURL ? item.icon.publicURL : item.icon}
+                    text={item.text}
+                    path={item.link}
+                  />
+                </Col>
+              )
+            })}
+        </Row>
       </FullWidthBackground>
     )}
     <Wrapper wide tag="div">
@@ -60,7 +77,7 @@ export const HomePageTemplate = ({
         {shortcutsBottom &&
           shortcutsBottom.map((item) => {
             return (
-              <Col sm={6} md={4} key={item.title}>
+              <Col span={12} sm={6} md={4} key={item.title}>
                 <Shortcut
                   title={item.title}
                   icon={item.icon.publicURL ? item.icon.publicURL : item.icon}
@@ -71,12 +88,12 @@ export const HomePageTemplate = ({
             )
           })}
       </Row>
-      <Row gutter={128}>
-        <Col md={6}>
+      <Row gutter={128} justify="center">
+        <Col span={12} sm={6}>
           <Heading tag={3} text={'Release info'} align={'left'} />
           <Changelog />
         </Col>
-        <Col md={6}>
+        <Col span={12} sm={6}>
           <Heading
             tag={3}
             text={'Links you cant live without'}
@@ -89,14 +106,15 @@ export const HomePageTemplate = ({
   </>
 )
 const HomePage = ({ data: { page } }) => {
+  
   const sources = [
-    page.frontmatter.fullWidthImage.childImageSharp.fluid,
+    page.frontmatter.fullWidthImage.fullWidthImageDesktop.childImageSharp.fluid,
     {
-      ...page.frontmatter.fullWidthImageMobile.childImageSharp.fluid,
+      ...page.frontmatter.fullWidthImage.fullWidthImageMobile.childImageSharp.fluid,
       media: `(max-width: 820px)`,
     },
   ]
-  console.log(page.frontmatter)
+  
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -107,10 +125,12 @@ const HomePage = ({ data: { page } }) => {
         {...page}
         {...page.frontmatter}
         shortcuts={page.frontmatter.shortcuts}
+        shortcutsImage={page.frontmatter.shortcutsImage}
         shortcutsBottom={page.frontmatter.shortcutsBottom}
-        fullWidthImage={sources}
+        fullWidthImage={page.frontmatter.fullWidthImage}
         relatedLinks={page.frontmatter.relatedLinks}
         body={page.html}
+        images={sources}
       />
     </Layout>
   )
@@ -138,6 +158,14 @@ export const pageQuery = graphql`
           text
           link
         }
+        shortcutsImage {
+          icon {
+            publicURL
+          }
+          title
+          text
+          link
+        }
         shortcutsBottom {
           icon {
             publicURL
@@ -151,19 +179,23 @@ export const pageQuery = graphql`
           url
         }
         fullWidthImage {
-          childImageSharp {
-            fluid(maxWidth: 1500, quality: 84, maxHeight: 493) {
-              ...GatsbyImageSharpFluid
+          title
+          fullWidthImageDesktop {
+            childImageSharp {
+              fluid(maxWidth: 1500, quality: 84, maxHeight: 493) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          fullWidthImageMobile {
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 84) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
-        fullWidthImageMobile {
-          childImageSharp {
-            fluid(maxWidth: 1000, quality: 84) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        
       }
     }
   }

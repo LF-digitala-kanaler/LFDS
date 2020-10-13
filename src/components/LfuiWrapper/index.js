@@ -6,7 +6,7 @@ const LfuiWrapper = ({ children, script }) => {
 
   useEffect(() => {
     setJs(`${validation} ${script}`)
-  }, [])
+  }, [script, validation])
 
   return (
     <article className="lfui-theme">

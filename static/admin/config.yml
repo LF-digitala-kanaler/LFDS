@@ -492,13 +492,28 @@ collections: # A list of collections the CMS should be able to edi
               - { label: 'Title', name: 'title', widget: 'string' }
               - { label: 'Text', name: 'text', widget: 'string' }
               - { label: 'Link', name: 'link', widget: 'string' }
-              
-          - { label: 'Full width image desktop', name: fullWidthImage, widget: 'image' }
-          - { label: 'Full width image mobile', name: fullWidthImageMobile, widget: 'image' }
-          - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color'] }
+          - name: 'fullWidthImage'
+            required: false
+            collapsed: true
+            label: 'Full Width Image'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - { label: 'Full width image desktop', name: fullWidthImageDesktop, widget: 'image' }
+              - { label: 'Full width image mobile', name: fullWidthImageMobile, widget: 'image' }
+          
+          - name: 'ShortcutsImage'
+            label: 'Shortcuts on Image'
+            label_singular: 'Shortcut'
+            widget: 'list'
+            fields:
+              - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Use a svg image' }
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Text', name: 'text', widget: 'string' }
+              - { label: 'Link', name: 'link', widget: 'string' }
           - name: 'shortcutsBottom'
             label: 'Shortcuts'
-            label_singular: 'Shortcut'
+            label_singular: 'Shortcut below image'
             widget: 'list'
             fields:
               - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Use a svg image' }

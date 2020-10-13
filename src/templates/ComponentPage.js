@@ -21,7 +21,7 @@ export const ComponentPageTemplate = ({
   verticalResize,
 }) => (
   <>
-    {console.log(componentsNavigation), 'last'}
+    
     {currentDirectory && <Deprecated componentName={currentDirectory} />}
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={'left'} />

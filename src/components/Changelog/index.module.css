@@ -1,8 +1,9 @@
 .Changelog {
   
   border-top: 1px solid var(--color-border);
-  
-  @media (--medium-viewport) { 
+  width: 100%; 
+
+  @media (--small-viewport) { 
     margin-bottom: var(--spacing-vertical--2);
   }
 }

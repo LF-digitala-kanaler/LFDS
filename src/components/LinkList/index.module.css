@@ -1,4 +1,9 @@
 
+.LinkList {
+  margin-bottom: var(--spacing-vertical--2);
+  width: 100%;
+}
+
 .LinkList__list {
   list-style-type: none;
   margin: 0;

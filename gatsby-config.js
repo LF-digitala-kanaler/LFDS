@@ -271,6 +271,15 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["LFRubrik"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
     // GA
     {
       resolve: `gatsby-plugin-google-analytics`,

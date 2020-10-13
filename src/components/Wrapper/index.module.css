@@ -12,7 +12,7 @@
   padding-right: var(--wrapper-spacing);
   display: flex;
   flex-direction: column;
-  
+  overflow: hidden;
   /* @media (--medium-viewport) { 
     padding-left: 0;
     padding-right: 0;

@@ -29,6 +29,7 @@
     "gatsby-plugin-react-helmet": "^3.3.5",
     "gatsby-plugin-remove-trailing-slashes": "^2.3.6",
     "gatsby-plugin-sharp": "^2.6.31",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-absolute-link-catch": "0.0.1",
     "gatsby-remark-autolink-headers": "^2.3.6",
     "gatsby-remark-component": "^1.1.3",

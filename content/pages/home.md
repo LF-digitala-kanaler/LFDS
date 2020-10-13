@@ -19,8 +19,23 @@ shortcuts:
     link: /patterns
     text: Learn more about how we work  with UX patterns
     title: Patterns
-fullWidthImage: /img/startpage.webp
-fullWidthImageMobile: /img/startpagemobile.webp
+fullWidthImage:
+    title: Are you a noob at Länsförsäkringar?
+    fullWidthImageDesktop: /img/startpage.webp
+    fullWidthImageMobile: /img/startpagemobile.webp
+shortcutsImage:
+  - icon: /img/copy_icon.svg
+    link: /foundations/getting-started/ux-copy
+    text: Welcome if you are a new copywriter. Heres what you need to know.
+    title: UX-Copy
+  - icon: /img/developer_icon.svg
+    link: /foundations/getting-started/designer
+    text: Everyone thats new and work with AD/UX stuff, raise your hands.
+    title: Designer
+  - icon: /img/designer_icon.svg
+    link: /foundations/getting-started/developer
+    text: Get started with LFUI components, oh yeah!
+    title: Developer
 shortcutsBottom:
   - icon: /img/design_principer_.svg
     link: /foundations/principles-and-strategies/design-principles

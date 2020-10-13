@@ -10,6 +10,12 @@
 @custom-media --xlarge-viewport-down (width < 83.75rem);
 @custom-media --xxlarge-viewport (width > 96.875rem);
 @custom-media --xxlarge-viewport-down (width < 96.875rem);
+
+@custom-media --medium-viewport-bootstrap (width > 992px);
+@custom-media --medium-viewport-bootstrap-down (width < 992px);
+@custom-media --large-viewport-bootstrap (width > 1200px);
+@custom-media --large-viewport-bootstrap-down (width < 1200px);
+
 :root {
   --font-family-base: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
@@ -262,3 +268,4 @@ a[href*="lansforsakringar.se"], a[href*="lfnet.se"]{
 .Position-relative {
   position: relative;
 }
+

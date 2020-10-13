@@ -2,7 +2,9 @@ import React from 'react'
 import style from './index.module.css'
 import Img from 'gatsby-image'
 
-const FullWidthBackground = ({ image, children }) => {
+const FullWidthBackground = ({ image, children, title }) => {
+  
+  
   return (
     <div className={style.FullWidthBackground}>
       {/* if inside netlify cms show regular image */}
@@ -11,10 +13,9 @@ const FullWidthBackground = ({ image, children }) => {
       ) : (
         <Img fluid={image} />
       )}
+      {title && <h2 className={style.FullWidthBackground__title}>{title}</h2> }
       <div className={style.FullWidthBackground__container}>
-        <article className={style.FullWidthBackground__content}>
-          {children}
-        </article>
+       {children}
       </div>
     </div>
   )
