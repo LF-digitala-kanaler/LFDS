@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect } from 'react';
 import style from './index.module.css'
 import { Resizable } from 're-resizable'
 import cx from 'classnames'
@@ -6,13 +6,18 @@ import cx from 'classnames'
 const Preview = ({ children, resize }) => {
   const verticalResize = resize === 'yes' ? true : false
 
+  useEffect(() => {
+    
+  });
+
+
   return (
-    <div className={style.Preview}>
+    <div className={cx(style.Preview, verticalResize ? style['Preview--vertical'] : '')}>
       <Resizable
         enable={{
           top: false,
           right: !verticalResize,
-          bottom: verticalResize,
+          bottom: false,
           left: false,
           topRight: false,
           bottomRight: verticalResize,
@@ -21,6 +26,9 @@ const Preview = ({ children, resize }) => {
         minWidth={300}
         maxWidth="100%"
         minHeight="300"
+        defaultSize={{
+          height: '300px',
+        }}
         handleComponent={{
           right: <Previewhandle />,
           bottomRight: <PreviewhandleCorner />,
