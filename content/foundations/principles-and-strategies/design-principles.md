@@ -81,45 +81,17 @@ Titta på sidorna om [strukturen för lansforsakringar.se](/patterns/lansforsakr
 <Collapse title="Handling och funktion före information">
 <div class="content">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Visa tydligt upp de primära handlingarna och funktionerna, och ge användaren chans att agera. De flesta vill göra, inte läsa, och det ska vi stötta dem i.
 
 Informationen har sin plats och är ofta viktig, men de som vill ha den kommer hitta den.
 
+#### Exempel
 
+Sidmallarna för lansforsakringar.se är uppbyggda enligt denna modell. Startsidorna i appen är ett annat bra exempel, där kunderna kan välja att anpassa sidan efter vad de tycker är viktigast så att de snabbt kan nå de handlingar de tycker är viktigast.
 
+<figure class="Image Image__border "><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt="Exempel 1: Sidmall uppbyggd för att främja handling och funktion före information"><figcaption><div class="Image__caption">Exempel 1: Sidmall uppbyggd för att främja handling och funktion före information</div></figcaption></figure>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<figure class="Image Image__border "><img src="/img/startsidor.jpg" srcset="/img/startsidor.jpg 2x" alt="Exempel 2: Tre olika sätt att lägga upp sin startsida i appen"><figcaption><div class="Image__caption">Exempel 2: Tre olika sätt att lägga upp sin startsida i appen</div></figcaption></figure>
 </div></Collapse>
 <Collapse title="Alla hittar rätt på olika sätt">
 <div class="content">
