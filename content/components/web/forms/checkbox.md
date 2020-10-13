@@ -32,18 +32,41 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Checkbox)
     name: Design
-  - content: |-
+  - content: >-
       ## Så skriver vi
 
-      Vanligtvis godkännande-texter.
 
-      Exempel (@Lollo skriv standardtext för godkännande här)
+      Checkboxar används ofta för val i köptjänster eller som godkännande-texter.
+
+
+      ### Godkännande i tjänst
+
+
+      **Exempel från skadeanmälan (ej motor)**\
+
+      Jag intygar att de uppgifter jag angivit är korrekta och att jag inte undanhåller någon information som är av betydelse för bedömningen av skadan. Jag är medveten om att oriktiga eller ofullständiga uppgifter kan göra att försäkringen inte gäller. Jag har också tagit del av Behandling av personuppgifter. 
+
+
+      **Exempel från skadeanmälan (motor)**\
+
+      Jag intygar att de uppgifter jag angivit är korrekta och att jag inte undanhåller någon information som är av betydelse för bedömningen av skadan. Jag intygar att Länsförsäkringar får ta del av eventuella polisanteckningar. Jag är medveten om att oriktiga eller ofullständiga uppgifter kan göra att försäkringen inte gäller. Jag har också tagit del av Behandling av personuppgifter.
+
 
       ### Valideringstext för ej vald obligatorisk checkbox:
 
+
       För att \[det man gör i tjänsten] måste du \[verbet som labeln har].
 
-      Till exempel: För att köpa bilförsäkring måste du godkänna villkoren.
+
+      Exempel: För att köpa bilförsäkring måste du godkänna villkoren.
+
+
+      ### Valideringstext för ej vald checkbox:
+
+
+      Välj \[label]\
+
+      Exempel: Välj tilläggsförsäkringar
     name: Copy
   - content: >-
       ## How to use
