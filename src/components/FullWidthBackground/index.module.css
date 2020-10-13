@@ -12,6 +12,7 @@
   margin: calc(-1* var(--spacing-vertical--2)) auto 0;
   max-width: 90%;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   @media (--xsmall-viewport) { 
     max-width: var(--content-width--tight);
