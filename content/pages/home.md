@@ -24,7 +24,7 @@ fullWidthImage:
     fullWidthImageDesktop: /img/startpage.webp
     fullWidthImageMobile: /img/startpagemobile.webp
 shortcutsImage:
-  - icon: /img/copy_icon.svg
+  - icon: /img/designer_icon.svg
     link: /foundations/getting-started/ux-copy
     text: Welcome if you are a new copywriter. Heres what you need to know.
     title: UX-Copy
@@ -32,7 +32,7 @@ shortcutsImage:
     link: /foundations/getting-started/designer
     text: Everyone thats new and work with AD/UX stuff, raise your hands.
     title: Designer
-  - icon: /img/designer_icon.svg
+  - icon: /img/copy_icon.svg
     link: /foundations/getting-started/developer
     text: Get started with LFUI components, oh yeah!
     title: Developer

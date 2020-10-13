@@ -44,15 +44,21 @@
  
 }
 
-.Shortcut--horizontal .Shortcut__icon {
-  margin-bottom: 0;
+.Shortcut--horizontal .Shortcut__container {
+  width: 120px;
   position: absolute;
   top: 50%;
+  left: 0;
   transform: translateY(-50%);
+}
+.Shortcut--horizontal .Shortcut__icon {
+  margin-bottom: 0;
+  /* position: absolute;
+  top: 50%;
+  transform: translateY(-50%); */
 }
 
 .Shortcut--horizontal  .Shortcut__link {
-  display: flex;
   height: 100%;
   position: relative;
   padding: var(--spacing-xxlg) var(--spacing-xxlg);
@@ -64,7 +70,7 @@
 
 .Shortcut--horizontal  .Shortcut__body {
   text-align: left;
-  margin-left: calc(2.5*var(--spacing-xxlg));
+  margin-left: 5.5rem;
 }
 
 .Shortcut__arrow {
