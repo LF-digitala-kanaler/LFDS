@@ -91,7 +91,7 @@ Sidmallarna för lansforsakringar.se är uppbyggda enligt denna modell. Startsid
 
 <figure class="Image Image__border "><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt="Exempel 1: Sidmall uppbyggd för att främja handling och funktion före information"><figcaption><div class="Image__caption">Exempel 1: Sidmall uppbyggd för att främja handling och funktion före information</div></figcaption></figure>
 
-<figure class="Image Image__border "><img src="/img/startsidor.jpg" srcset="/img/startsidor.jpg 2x" alt="Exempel 2: Tre olika sätt att lägga upp sin startsida i appen"><figcaption><div class="Image__caption">Exempel 2: Tre olika sätt att lägga upp sin startsida i appen</div></figcaption></figure>
+<figure class="Image Image__border "><img src="/img/startsida-appen-personaliserad.jpg" srcset="/img/startsida-appen-personaliserad.jpg 2x" alt="Exempel 2: Tre olika sätt att lägga upp sin startsida i appen"><figcaption><div class="Image__caption">Exempel 2: Tre olika sätt att lägga upp sin startsida i appen</div></figcaption></figure>
 </div></Collapse>
 <Collapse title="Alla hittar rätt på olika sätt">
 <div class="content">
@@ -279,48 +279,9 @@ Vi vet en hel del om kunden, och kunden förutsätter att det de berättat för 
 <Collapse title="Personalisering är alltid kundens val">
 <div class="content">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Personalisering ska vara en möjliggörare inte en förstörare. Det innebär att vi där det går erbjuder en personalisering (både aktiv från kunden och servad från oss), men det måste utgå från vad kunden vill – kunden väljer personalisering (opt-in), vi tvingar inte på det (opt-out).
 
-Vi ser att många kunder efterfrågar personalisering men många andra inte är det minsta intresserade, och vi behöver respektera och stötta båda typer.<
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Vi ser att många kunder efterfrågar personalisering men många andra inte är det minsta intresserade, och vi behöver respektera och stötta båda typer.
 </div></Collapse>
 <Collapse title="Det ska kännas Länsförsäkringar">
 <div class="content">
