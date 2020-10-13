@@ -24,11 +24,11 @@ fullWidthImage:
     fullWidthImageDesktop: /img/startpage.webp
     fullWidthImageMobile: /img/startpagemobile.webp
 shortcutsImage:
-  - icon: /img/designer_icon.svg
+  - icon: /img/developer_icon.svg
     link: /foundations/getting-started/ux-copy
     text: Welcome if you are a new copywriter. Heres what you need to know.
     title: UX-Copy
-  - icon: /img/developer_icon.svg
+  - icon: /img/designer_icon.svg
     link: /foundations/getting-started/designer
     text: Everyone thats new and work with AD/UX stuff, raise your hands.
     title: Designer

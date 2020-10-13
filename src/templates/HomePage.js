@@ -22,12 +22,12 @@ export const HomePageTemplate = ({
   images
 }) => (
   <>
-    <Wrapper wide tag="div">
+    <Wrapper wide center tag="div">
       <Heading tag={1} text={title} align={'center'} />
       <Preamble text={intro} tag="p" align={'center'} />
     </Wrapper>
     <SearchBlock />
-    <Wrapper wide tag="div">
+    <Wrapper wide center tag="div">
       <Row gutter={64} justify="center">
         {shortcuts &&
           shortcuts.map((item) => {
@@ -72,7 +72,7 @@ export const HomePageTemplate = ({
         </Row>
       </FullWidthBackground>
     )}
-    <Wrapper wide tag="div">
+    <Wrapper wide center tag="div">
       <Row gutter={64} justify="center">
         {shortcutsBottom &&
           shortcutsBottom.map((item) => {

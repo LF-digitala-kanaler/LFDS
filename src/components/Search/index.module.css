@@ -27,7 +27,7 @@
   outline: 0;
   cursor: pointer;
   top: 5px;
-  @media (--large-viewport) { 
+  @media (--medium-viewport) { 
     top: 0;
   }
 } 

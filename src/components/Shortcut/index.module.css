@@ -19,8 +19,11 @@
 }
 
 .Shortcut__icon {
-  margin-bottom: var(--spacing-vertical--1);
+  @media (--medium-viewport) { 
+    margin-bottom: var(--spacing-vertical--1);
+  }
 }
+
 .Shortcut__title {
   display: block;
 }
@@ -33,9 +36,10 @@
   background-color: var(--color-white);
   border-bottom: 2px solid var(--color-border);
   margin-bottom: 0;
+  height: 169px;
   @media (--large-viewport-bootstrap) { 
     border: 0;
-    height: 169px;
+    
   }
 }
 
@@ -65,7 +69,7 @@
 }
 
 .Shortcut--horizontal  .Shortcut__link:hover .Shortcut__arrow {
-  transform: translateX(4px);
+  transform: translateX(8px);
 }
 
 .Shortcut--horizontal  .Shortcut__body {
@@ -79,7 +83,7 @@
   position: absolute;
   bottom: var(--spacing-xxlg);
   right: var(--spacing-xxlg);
-  transition: transform 0.3s ease-out;
+  transition: transform 0.2s ease-out;
 
   
 }

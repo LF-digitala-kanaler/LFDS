@@ -2,7 +2,7 @@ import React from 'react'
 import style from './index.module.css'
 import cx from 'classnames'
 
-const Wrapper = ({ tag, menu, children, narrow, wide, tight }) => {
+const Wrapper = ({ tag, menu, children, narrow, wide, tight, center }) => {
   let Tag = tag
   return (
     <Tag
@@ -11,7 +11,8 @@ const Wrapper = ({ tag, menu, children, narrow, wide, tight }) => {
         menu ? style['Wrapper--push'] : '',
         narrow ? style['Wrapper--narrow'] : '',
         wide ? style['Wrapper--wide'] : '',
-        tight ? style['Wrapper--tight'] : ''
+        tight ? style['Wrapper--tight'] : '',
+        center ? style['Wrapper--center'] : ''
       )}
     >
       {children}
