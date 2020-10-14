@@ -298,4 +298,9 @@ Från midnatt till morgon skrivs till exempelvis "lördag från 00.00–4.00"
 
 Från dag till midnatt skrivs "söndag 15.00–24.00"
 </div></Collapse>
+<Collapse title="Månader"><div class="content">
+
+Om månader måste förkortas gör vi det så här:\
+jan, feb, mars, april, maj, juni, juli, aug, sep, okt, nov, dec
+</div></Collapse>
 </section>
