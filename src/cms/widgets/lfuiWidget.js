@@ -22,7 +22,11 @@ const LfuiWidget = {
     }
   },
   toBlock: function (obj) {
-    return `<LfuiWrapper script="${obj.lfuiScript.replace(/"/g, "'")}">\n\n${
+    let script;
+    if(obj.lfuiScript){
+      script = obj.lfuiScript.replace(/"/g, "'")
+    };
+    return `<LfuiWrapper script="${script}">\n\n${
       obj.lfuiCode
     }\n</LfuiWrapper>`
   },
