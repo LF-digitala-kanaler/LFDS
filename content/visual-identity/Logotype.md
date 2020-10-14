@@ -68,7 +68,7 @@ Länsförsäkringar's symbol is one of Sweden's most well-known corporate symbol
 
 In rare cases it is ok to use the symbol without “Länsförsäkringar”. When the communication is global (examples: App-icon or global campaigns.)
 
-<LfuiWrapper script="undefined">
+<LfuiWrapper script="const currentVersion = _.filter(componentsStatus.components, function (o) {     return o.component.toLowerCase() === componentName.toLowerCase()   })   if (currentVersion === undefined || currentVersion.length === 0) {     return null   }   const isDeprecated = _.get(currentVersion[0].bootstrap, 'deprecated')">
 
-<div>tste</div>
+<div></div>
 </LfuiWrapper>
