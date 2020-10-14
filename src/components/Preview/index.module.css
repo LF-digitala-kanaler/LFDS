@@ -40,7 +40,7 @@
   border-bottom: 0;
   height: 32px;
   width: 26px;
-  cursor: se-resize;
+  cursor: nw-resize;
 }
 .Preview__box {
   width: 100%;
