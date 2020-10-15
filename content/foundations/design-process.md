@@ -166,3 +166,5 @@ Text
 
 </div></Collapse>
 </section>
+
+Hur man gör och i vilken omfattning är upp till varje team att bestämma hur man jobbar bäst tillsammans.
