@@ -17,6 +17,8 @@ Länsförsäkringars designprocess är en fingervisning av hur vi arbetar med de
 <Collapse title="Förstå">
 <div class="content">
 
+
+
 Förstå handlar om just det att förstå vilken problem vi ska lösa. Vi tar reda på svar på frågor som: Varför är det som det är eller ser ut som det gör? Vad finns det för beroenden till andra system eller produkter? Vad säger kunderna i tyck till/App Store/Google Store? Har vi gjort några tidigare undersökningar/intervjuer vi kan ta del av? Vad får kundtjänst in för frågor kring detta? 
 
 #### Kundkommentarer
@@ -63,30 +65,24 @@ Kolla igenom Google Analytics och titta på vad man kan se för
 #### Omvärldsbevakning
 
 #### Nollmätning
+
 </div></Collapse>
 <Collapse title="Design">
 <div class="content">
 
+Design består av 3 olika moment. Här tar ofta UX lead i designarbetet men här samsas UX (User experience/flödesskisser), AD (Art Director/User Interface/grafisk design) och UX Copy (UX writers/micro copy) att designa upp ett flöde som har fokus på funktion, design och text med det gemensamma målet att **hjälpa användaren göra det den kom för att göra**.
 
 
 
+### Flödesskisser
+
+En första skiss tas fram för att se om vi förstått uppdraget rätt
+
+### Designskisser
 
 
 
-
-
-
-
-
-
-Text
-
-
-
-
-
-
-
+### Copy
 </div></Collapse>
 <Collapse title="Användningstester">
 <div class="content">
@@ -103,7 +99,10 @@ Text
 
 
 
+
+
 Text
+
 
 
 
@@ -127,7 +126,10 @@ Text
 
 
 
+
+
 Text
+
 
 
 
@@ -151,7 +153,10 @@ Text
 
 
 
+
+
 Text
+
 
 
 
