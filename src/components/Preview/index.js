@@ -6,14 +6,13 @@ import cx from 'classnames'
 const Preview = ({ children, resize }) => {
   const verticalResize = resize === 'yes' ? true : false
 
-  useEffect(() => {
-    
-  });
+  
 
 
   return (
     <div className={cx(style.Preview, verticalResize ? style['Preview--vertical'] : '')}>
       <Resizable
+        id="resizable"
         enable={{
           top: false,
           right: !verticalResize,
@@ -26,8 +25,9 @@ const Preview = ({ children, resize }) => {
         minWidth={300}
         maxWidth="100%"
         minHeight="300"
+        
         defaultSize={{
-          height: '300px',
+          height: verticalResize ? '300px' : '100%',
         }}
         handleComponent={{
           right: <Previewhandle />,
