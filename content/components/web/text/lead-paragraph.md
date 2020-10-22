@@ -7,6 +7,10 @@ description: "The lead paragraph is placed first on a page and is used to
   summarise the contents of a page. "
 previewImage: /img/preamble.svg
 category: Text
+componentsNavigation:
+  - name: Lead paragraph
+  - name: Pay off
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -57,5 +61,4 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Ingress" and "Payoff")
     name: Design
-backgroundColor: "#fff"
 ---
