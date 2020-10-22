@@ -1,13 +1,10 @@
-import React, {useEffect } from 'react';
+import React from 'react';
 import style from './index.module.css'
 import { Resizable } from 're-resizable'
 import cx from 'classnames'
 
 const Preview = ({ children, resize }) => {
   const verticalResize = resize === 'yes' ? true : false
-
-  
-
 
   return (
     <div className={cx(style.Preview, verticalResize ? style['Preview--vertical'] : '')}>
