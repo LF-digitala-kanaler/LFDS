@@ -1,8 +1,8 @@
 ---
 template: ArticlePage
 category: Lansforsakringar se
-title: Content page
-intro: Kontent mallen används specifikt för att lyfta redaktionellt innehåll som
+title: Kontentmall (version av navigationssida)
+intro: Kontentmallen används specifikt för att lyfta redaktionellt innehåll som
   informationssidor. Bra tips där kontentmallen kan bidra är just
   skadeförebyggssamlingssidorna och även för hållbarhet och hälsa.
 wide: false
