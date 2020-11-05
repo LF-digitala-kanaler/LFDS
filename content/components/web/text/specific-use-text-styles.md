@@ -15,13 +15,36 @@ tabs:
       I formulärens alla delar använder vi oss av styling för att visa Labels, beskrivande text och felstates. Här kommer en beskrivning på dessa.
 
 
+
+
       ### Labels
 
 
-      Som label använder vi alltid Intro Cond bold. 
+      Som label använder vi alltid Intro Cond bold. Gäller både i tabellabels som fomulärs labels.
 
 
-      Input field description/meta
+
+
+      ### Förklarande texter under formulärs komponenter
+
+
+      Gäller förklarande texter under fält använder vi arial i 15px och grå. Kan även kallas meta.
+
+
+      Förklarande texter kan även finnas ovanför ett formulär men då använder vi vanlig brödtext.
+
+
+
+
+      ### Hjälptexter i inputfält
+
+
+      Även kallad goast text, är 16 px men ljusgrå.
+
+
+
+
+      ### Felmeddelanden
 
 
       Error messages
