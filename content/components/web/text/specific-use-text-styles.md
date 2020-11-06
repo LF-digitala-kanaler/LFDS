@@ -18,7 +18,7 @@ tabs:
       ### Labels
 
 
-      Som label använder vi alltid Intro Cond bold. Gäller både i tabellabels som fomulärs labels.
+      Som label använder vi alltid Intro Cond bold. Gäller både i tabellens labels som fomulärs labels.
 
 
       ### Hjälptext under komponenten
@@ -36,7 +36,7 @@ tabs:
       ### Hjälptexter i inputfält
 
 
-      Även kallad goast text, är 16 px men ljusgrå.
+      Även kallad goasttext, är 16 px men ljusgrå.
 
 
       ### Felmeddelanden
