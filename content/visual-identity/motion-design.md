@@ -23,8 +23,6 @@ Här kommer tankar och riktning i hur vi tänker att vi tillsammans ska sträva 
 
 Vår grafik kan göras levande genom små mjuka rörelser och effekter. Vi ritar fram objekt eller använder oss av "Ruta 1" för att ta fram objekt man kan kan tona fram objekt, men ska då ske snabbt men mjukt. Känslan kan gärna vara lekfull och lättsam men medtydligt funktionellt fokus. Känslan får aldrig bli överdriven eller rörig.
 
-
-
 Länsförsäkringars animerings principer:
 
 1. Använd endast en animering i taget
@@ -117,6 +115,14 @@ Dokumentera animerings beslut
 Fundera på hårt, mjukt, snabbt och sakta - vad vill vi säga med animationen och vad är huvudsyftet på sidan.
 
 Ta stöd av de Disneys 12 animeringsprinciper
+
+
+
+## Exempel på animering
+
+<https://lottiefiles.com/share/akn9fzsa>
+
+
 
 ## Other material
 
