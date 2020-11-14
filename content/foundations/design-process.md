@@ -83,22 +83,21 @@ På så sätt ha vi något att jämföra med när vi gjort våra ändringar och 
 <Collapse title="Design">
 <div class="content">
 
-
-
-Design består av 3 olika moment. Här tar ofta UX lead i designarbetet men här samsas UX (User experience/flödesskisser), AD (Art Director/User Interface/grafisk design) och UX Copy (UX writers/micro copy) att designa upp ett flöde som har fokus på funktion, design och text med det gemensamma målet att **hjälpa användaren göra det den kom för att göra**.
-
-
+Design består av 3 olika moment. Här tar ofta UX-designern lead men här samsas UX (User experience/flödesskisser), AD (Art Director/User Interface/grafisk design) och UX Copy (UX writers/micro copy) att designa upp ett flöde som har fokus på funktion, design och text/förståelse med det gemensamma målet att **hjälpa användaren göra det den kom för att göra**.
 
 ### Flödesskisser
 
-En första skiss tas fram för att se om vi förstått uppdraget rätt
+En första skiss tas fram för att se om vi förstått uppdraget rätt. Vi skissar ut i wireframes på papper eller digitalt utan design bara streck och boxar.
+
+Ju längre tiden går klär vi stegen och boxarna med mer desgin, text och funktion.
+
+Här jobbar UX-designern på tillsammans med teamet och stämmer av hela tiden med utvecklare, designers, copy, projektledare, kravare och arkitekter.
+
+
 
 ### Designskisser
 
-
-
 ### Copy
-
 
 </div></Collapse>
 <Collapse title="Användningstester">
