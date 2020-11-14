@@ -13,11 +13,10 @@ lang: false
 
 Länsförsäkringars designprocess är en fingervisning av hur vi arbetar med design i utveckling. Designprocessen går att använda på stora såsom små projekt. Tex kan delen att förstå göras på en dag eller under flera veckor. Allt beror på vilket problem vi ska lösa, Vad vi har för tid att göra det på och vad som finns (i närtid) att läsa på om sedan tidigare. Vi går igenom dem en och en.
 
+
 <section>
 <Collapse title="Förstå">
 <div class="content">
-
-
 
 Förstå handlar om just det att förstå vilken problem vi ska lösa. Vi tar reda på svar på frågor som: Varför är det som det är eller ser ut som det gör? Vad finns det för beroenden till andra system eller produkter? Vad säger kunderna i tyck till/App Store/Google Store? Har vi gjort några tidigare undersökningar/intervjuer vi kan ta del av? Vad får kundtjänst in för frågor kring detta? 
 
@@ -58,17 +57,33 @@ Kontakta även gärna vårt gemensamma kundcenter i Dalarna eller i vissa fall f
 
 Kolla i insiktsbanken vilka insikter vi redan har. Kontakta även ansvariga i kanalerna eller i designtemet för att se vad som finns sedan innan.
 
+Glöm inte affären. Produktansvariga finns för varje produkt. Även de har samlad information om vad som är det vanligast problemet, vad konkurrenterna gör och vart vi är påväg med produkten framåt men vision och mål. Ta reda på primär målgrupp och vad vi vill framhäva i produkten som ävwn gynnar affären bäst. Men tänk på att vi aldrig lurar kunden att köpa något de inte behöver.
+
 #### Dataanalys/CRO
 
-Kolla igenom Google Analytics och titta på vad man kan se för 
+Kolla igenom Google Analytics och titta på vad man kan se hur datan ser ut. Hur går det just nu? vad kan vi hitta för hål i flödena, vart rinner användarna ut? Finns det skillnad på mobila flödet vs desktop. Är det någon speciell skärmstorlek som inte fått den kärlek den behöver? 
+
+Vad kan vi urskilja ur datan? Kontakta våra webbanalytiker för att få hjälp att analysera datan eller be om rapporter där du själv kan titta på datan.
+
+Glöm inte heller att titta på om ett specifikt bolag går bättre än andra? vad har det gjor? En speciell marknadsföring eller helt andra texter? 
 
 #### Omvärldsbevakning
 
+En omvärdsbevakning är riktigt bra att göra. Inte bara på våra konkurrenter utan även på nya uppstartare eller helt andra branscher eller länder, vad gör dem? Finns det något andra gör i ämnet som vi kan ta in i vår verksamhet. Kan vi använda ny teknik på något nytt sätt?
+
+Gå igenom steg för steg på konkurrenternas flöden och jämför med vårt. vad är bra och vad kan förbättras. Plocka godbitarna ur kakan och gör vår ännu bättre. Glöm inte testa på kunder eller A/B testa för att verifiera att det också funkar.
+
 #### Nollmätning
+
+Innan man gör en förbättring av ett befintligt flöde, kan det vara bra att gå igenom och göra en nollmätning. Det är att göra ett användningstest på flödet med 6-9 personer. Hur väl fungerade flödet? Vad sa kunderna?
+
+På så sätt ha vi något att jämföra med när vi gjort våra ändringar och känner oss redo för launch. Har vi fått ett bättre resultat, var det så dåligt som vi trodde? gjorde våra ändringar det vi ville åstadkomma?
 
 </div></Collapse>
 <Collapse title="Design">
 <div class="content">
+
+
 
 Design består av 3 olika moment. Här tar ofta UX lead i designarbetet men här samsas UX (User experience/flödesskisser), AD (Art Director/User Interface/grafisk design) och UX Copy (UX writers/micro copy) att designa upp ett flöde som har fokus på funktion, design och text med det gemensamma målet att **hjälpa användaren göra det den kom för att göra**.
 
@@ -83,6 +98,8 @@ En första skiss tas fram för att se om vi förstått uppdraget rätt
 
 
 ### Copy
+
+
 </div></Collapse>
 <Collapse title="Användningstester">
 <div class="content">
@@ -101,7 +118,11 @@ En första skiss tas fram för att se om vi förstått uppdraget rätt
 
 
 
+
+
 Text
+
+
 
 
 
@@ -128,7 +149,11 @@ Text
 
 
 
+
+
 Text
+
+
 
 
 
@@ -155,7 +180,11 @@ Text
 
 
 
+
+
 Text
+
+
 
 
 
@@ -166,5 +195,6 @@ Text
 
 </div></Collapse>
 </section>
+
 
 Hur man gör och i vilken omfattning är upp till varje team att bestämma hur man jobbar bäst tillsammans.
