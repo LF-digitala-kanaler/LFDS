@@ -24,6 +24,9 @@ tabs:
       Som label använder vi alltid Intro Cond bold 16 px LF svart #222222. Gäller både i tabellens labels som formulärs labels. Alla annan text så använder vi Brödtext eller hjälptext.
 
 
+      <div class="Callout"><strong class="Callout__title">Långa frågor med ja och nej </strong><p class="Callout__text">Frågeformulär med jag och nej frågor har ofta långa frågor, här ser vi att vi i framtiden kommer att använda oss av arial 16 px istället för den traditionella Label som blir väldigt svårläst i lång fet Intro cond.</p></div>
+
+
       ### Hjälptext under label eller komponenten
 
 
@@ -46,6 +49,17 @@ tabs:
 
 
       Felmeddelanden under formulärs delar använder vi röda texter i Intro Cond Bold 14 px i LF röd #E30613.
+
+
+
+
+      ## Other material
+
+
+      **Sketch file:** 
+
+
+      LFUXAD Assets/LFUI Commons.sketch (Input/Label Style, Input/Error Style, Meta)
 lang: false
 hidden: false
 ---
