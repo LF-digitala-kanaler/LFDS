@@ -18,7 +18,7 @@ tabs:
       ### Labels
 
 
-      Som label använder vi alltid Intro Cond bold 16 px. Gäller både i tabellens labels som formulärs labels. Alla annan text så använder vi Brödtext eller hjälptext.
+      Som label använder vi alltid Intro Cond bold 16 px LF svart #222222. Gäller både i tabellens labels som formulärs labels. Alla annan text så använder vi Brödtext eller hjälptext.
 
 
       ### Hjälptext under label eller komponenten
