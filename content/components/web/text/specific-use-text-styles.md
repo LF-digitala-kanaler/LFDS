@@ -15,7 +15,7 @@ tabs:
       I formulärens alla delar använder vi oss av styling för att visa Labels, beskrivande text och felmeddelanden. Här kommer en beskrivning på dessa.
 
 
-      <figure class="Image Image__default "><img src="/img/specific-use-text-styles.png" srcset="/img/specific-use-text-styles.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__border "><img src="/img/specific-use-text-styles.png" srcset="/img/specific-use-text-styles.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ### Labels
@@ -49,8 +49,6 @@ tabs:
 
 
       Felmeddelanden under formulärs delar använder vi röda texter i Intro Cond Bold 14 px i LF röd #E30613.
-
-
 
 
       ## Other material
