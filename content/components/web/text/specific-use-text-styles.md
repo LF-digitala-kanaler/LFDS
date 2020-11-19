@@ -15,7 +15,7 @@ tabs:
       I formulärens alla delar använder vi oss av styling för att visa Labels, beskrivande text och felmeddelanden. Här kommer en beskrivning på dessa.
 
 
-      <figure class="Image Image__border "><img src="/img/specific-use-text-styles.png" srcset="/img/specific-use-text-styles.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__background "><img src="/img/specific-use-text-styles.png" srcset="/img/specific-use-text-styles.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       ### Labels
