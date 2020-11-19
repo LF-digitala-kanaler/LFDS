@@ -129,6 +129,7 @@ export const pageQuery = graphql`
         intro
         template
         category
+        lang
         verticalResize
         componentsNavigation {
           name

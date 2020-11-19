@@ -113,6 +113,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "User testing", value: "User testing" }
           - { label: "Motion", value: "Motion" }
           - { label: "Writing", value: "Writing" }
+          - { label: "Customer insights", value: "Customer insights"}
       - label: Preview Image
         name: previewImage
         widget: image
