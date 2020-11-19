@@ -50,6 +50,9 @@ tabs:
 
 
       <https://blog.datawrapper.de/pie-charts/>
+
+
+      <figure class="Image Image__default "><img src="/img/button-group-yes-and-no.jpg" srcset="/img/button-group-yes-and-no.jpg 2x" alt="test"><figcaption><div class="Image__caption"></div></figcaption></figure>
     name: Design
 backgroundColor: "#f3f3f3"
 ---
