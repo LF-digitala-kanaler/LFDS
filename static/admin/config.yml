@@ -68,8 +68,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: "No", value: "no" }
           - { label: "Yes", value: "yes" }
         required: false
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
-      - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
+    
       - label: 'Meta'
         required: false
         collapsed: true

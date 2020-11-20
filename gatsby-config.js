@@ -204,7 +204,6 @@ module.exports = {
                 'intro',
                 'tabs.content',
                 'verticalResize',
-                'lang',
                 'hidden',
               ],
               // frontmatter fields to include, excluding all others

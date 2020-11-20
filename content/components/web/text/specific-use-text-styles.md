@@ -7,7 +7,6 @@ description: "Our forms and tables make use of special text styling, intended
   for use only in that context. "
 category: Text
 backgroundColor: "#f3f3f3"
-
 tabs:
   - name: Design
     content: >-
