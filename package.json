@@ -52,7 +52,7 @@
     "modern-normalize": "^1.0.0",
     "netlify-cms-app": "^2.12.20",
     "postcss-custom-properties": "^10.0.0",
-    "postcss-nested": "^5.1.0",
+    "postcss-nested": "^5.0.1",
     "postcss-preset-env": "^6.5.0",
     "prop-types": "^15.6.2",
     "re-resizable": "^6.5.5",
