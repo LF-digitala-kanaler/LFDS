@@ -12,6 +12,7 @@ componentsNavigation:
   - name: Button Group
   - name: Styled Radio Buttons
   - name: Radio Cards
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How (and when) to use
@@ -25,6 +26,9 @@ tabs:
       * **Styled radio buttons** are used when you want to use radio buttons in a context outside a form flow or if you need or want toned down radio buttons (in comparison to the button group). Typical use cases for this is when there are four or more options, or the options need to have long labels.
 
       * **Radio cards** exist in two sizes and they are used for presenting the user with a primary choice for the whole flow. The larger size is used when customers choose between versions of a product and the smaller as a filter on large lists (typically lists of funds or stocks).
+
+
+      All versions of radion buttons can either have no preselection or one of the options preselected, as is standard in html. Choose which option is right for you based on a balance of user, business and legal perspectives.
 
 
       ### Button group
@@ -482,5 +486,4 @@ tabs:
 
 
       If a field has been filled out and validated, add the `has-valid` class. If a field has been filled out and validated but with errors, add the `has-danger` class.
-backgroundColor: "#fff"
 ---
