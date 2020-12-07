@@ -9,7 +9,7 @@ previewImage: /img/checbox.svg
 category: Forms
 componentsNavigation:
   - name: Checkbox
-  - name: Checkbox cards
+  - name: Checkbox card
 backgroundColor: "#fff"
 tabs:
   - content: >-
