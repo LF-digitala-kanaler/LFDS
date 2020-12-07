@@ -9,12 +9,11 @@ previewImage: /img/checbox.svg
 category: Forms
 componentsNavigation:
   - name: Checkbox
-  - name: Checkbox cards
+  - name: Checkbox Cards
 backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
-
 
       Our checkbox follows standard web behaviour - it is used when the user has to make a choice and isn't limited to only one. Both checkbox and label should be clickable to select/unselect a checkbox.
 
