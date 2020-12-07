@@ -10,8 +10,8 @@ description: We offer checkboxes in two versions; the web standard and a more
 previewImage: /img/checbox.svg
 category: Forms
 componentsNavigation:
-  - name: Checkbox
-  - name: Checkbox Cards
+  - name: Styled checkbox
+  - name: Checkbox cards
 backgroundColor: "#fff"
 tabs:
   - content: >-
