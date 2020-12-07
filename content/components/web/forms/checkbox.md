@@ -2,9 +2,11 @@
 template: ComponentPage
 title: Checkbox
 intro: "Well, as Shakespeare (almost) wrote: \"What's in a name? That which we
-  call a checkbox, by any other name would still check a box\". Your standard
-  web component dressed in a Länsförsäkringar styling."
-description: Your standard web component dressed in a Länsförsäkringar styling.
+  call a checkbox, by any other name would still check a box\". We offer this
+  feature in two versions; the web standard and a more adorned versions for
+  primary selections."
+description: We offer checkboxes in two versions; the web standard and a more
+  adorned versions for primary selections.
 previewImage: /img/checbox.svg
 category: Forms
 componentsNavigation:
@@ -15,6 +17,18 @@ tabs:
   - content: >-
       ## How to use
 
+
+      We have two variations of checkboxes at Länsförsäkringar:
+
+
+      * Styled checkboxes - your standard web component dressed in a Länsförsäkringar styling.
+
+      * Checkbox cards - a more visually striking version inviting user to interact with them.
+
+
+      ### Styled checkboxes
+
+
       Our checkbox follows standard web behaviour - it is used when the user has to make a choice and isn't limited to only one. Both checkbox and label should be clickable to select/unselect a checkbox.
 
 
@@ -22,6 +36,12 @@ tabs:
 
 
       Checkboxes should be unchecked by default (unless viewing a representation of previous choices - like having the add-on "Mer" on your car insurance).
+
+
+      ### Checkbox cards
+
+
+      The checkbox card is a version of the [radio card for primary choice](radio-buttons#radio-card-for-primary-choice), which allows for multiple items to be selected. Although called a card, it looks more like a button and which visually is dominated by an icon and label explaining the choice, with a small checkbox in the top left corner. The checkbox card was first created for internal systems where to be used for main choices in an input field-heavy flow, to give it an heightened importance compared to normal checkboxes. As possible uses in other contexts (such as filters on a table) could easily be imagined it was integrated into LFDS/LFUI although it at the time of writing wasn't in use any customer facing interface.
 
 
       ## Please consider
