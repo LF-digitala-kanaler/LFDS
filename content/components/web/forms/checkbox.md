@@ -7,6 +7,10 @@ intro: "Well, as Shakespeare (almost) wrote: \"What's in a name? That which we
 description: Your standard web component dressed in a Länsförsäkringar styling.
 previewImage: /img/checbox.svg
 category: Forms
+componentsNavigation:
+  - name: Checkbox
+  - name: Checkbox card
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -101,5 +105,4 @@ tabs:
 
       ```
     name: Code
-backgroundColor: "#fff"
 ---
