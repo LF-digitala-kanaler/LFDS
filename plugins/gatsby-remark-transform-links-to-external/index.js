@@ -10,7 +10,6 @@ module.exports = ({
           hProperties: {}
         };
       }
-
       node.data.hProperties.target = '_target', node.data.hProperties.rel = 'external nofollow noopener noreferrer';
     }
   });
