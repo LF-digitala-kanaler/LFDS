@@ -17,7 +17,7 @@ tabs:
       ## How to use
 
 
-      Use an input field when you want the user to enter some information freely (use another [form](../forms/) option if they only can select from a set number of options). The input field has two companion elements, the label and help text (see the [forms landing page](../forms/) for a description of them).
+      Use an input field when you want the user to enter some information freely (use another [form](../forms/) option if they only can select from a set number of options). The input field has two companion elements, the label and help text (see the [form element grouping pattern](/patterns/form-patterns/form-element-grouping) for a description of them).
 
 
       ### Variations
