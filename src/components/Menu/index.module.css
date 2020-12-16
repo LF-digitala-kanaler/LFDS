@@ -5,7 +5,7 @@
     --menu-spacing: var(--spacing-unit) var(--spacing-unit) calc(var(--spacing-unit) - 1px);
     --menu-trigger-width: 12px;
     --menu-trigger-height:12px;
-    --menu-offset: calc(7.0625rem + 1px);
+    --menu-offset: calc(7.0625rem);
     --menu-overlay: rgba(34,34,34, 0.69);
     --menu-active: var(--color-red);
     --menu-active-background: var(--color-smoke);

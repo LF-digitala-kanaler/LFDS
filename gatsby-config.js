@@ -43,7 +43,19 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
-        icon: `${__dirname}/static/img/favicon.svg`, // This path is relative to the root of the site.
+        icon: `${__dirname}/static/img/favicons/favicon.svg`, // This path is relative to the root of the site.
+        icons: [
+          {
+            src: `${__dirname}/static/img/favicons/apple-touch-icon.png`,
+            sizes: `180x180`,
+            type: `apple-touch-icon`,
+          },
+          {
+            src: `${__dirname}/static/img/favicons/favicons/safari-pinned-tab.svg`,
+            color: `#00427a`,
+            type: `mask-icon`,
+          },
+        ], // Add or remove icon sizes as desired
       },
     },
 
@@ -249,13 +261,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: "gatsby-plugin-anchor-links", // Local modified plugin see ./plugin for source code
-      options: {
-        offset: -140,
-        duration: 400
-      }
-    },
+
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {

@@ -88,6 +88,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   min-height: 100%;
+  scroll-padding-top: 140px;
+  scroll-snap-margin-top: 140px;
 }
 body {
   font-size: 100%;
