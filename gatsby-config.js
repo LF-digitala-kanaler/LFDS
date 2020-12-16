@@ -38,24 +38,23 @@ module.exports = {
         name: 'LFDS',
         short_name: 'LFDS',
         start_url: '/',
-        background_color: '#00C2BD',
-        theme_color: '#00C2BD',
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
+        theme_color: "#ffffff",
+        background_color: "#ffffff",
         icon: `${__dirname}/static/img/favicons/favicon.svg`, // This path is relative to the root of the site.
         icons: [
-          {
-            src: `${__dirname}/static/img/favicons/apple-touch-icon.png`,
-            sizes: `180x180`,
-            type: `apple-touch-icon`,
-          },
-          {
-            src: `${__dirname}/static/img/favicons/favicons/safari-pinned-tab.svg`,
-            color: `#00427a`,
-            type: `mask-icon`,
-          },
-        ], // Add or remove icon sizes as desired
+            {
+                "src": "/favicons/android-chrome-192x192.png",
+                "sizes": "192x192",
+                "type": "image/png"
+            },
+            {
+                "src": "/favicons/android-chrome-512x512.png",
+                "sizes": "512x512",
+                "type": "image/png"
+            }
+        ],
+       
       },
     },
 
