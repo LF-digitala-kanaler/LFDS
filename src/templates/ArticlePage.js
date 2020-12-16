@@ -33,12 +33,13 @@ export const ArticlePageTemplate = ({
       <Preamble text={intro} tag="p" align={'left'} />
       <Content source={contentTop} />
     </Wrapper>
+    
     {heroBlock && (
       <HeroBlock
         background={heroBlock.color}
         quote={heroBlock.quote}
         cite={heroBlock.cite}
-        image={heroBlock.image || false}
+        image={heroBlock.image}
       />
     )}
     <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
@@ -67,6 +68,7 @@ const ArticlePage = ({ data: { page }, location }) => {
     title: page.frontmatter.title,
     location: location,
   }
+  console.log(page.frontmatter.heroBlock)
   return (
     <Layout
       description={page.frontmatter.intro || false}

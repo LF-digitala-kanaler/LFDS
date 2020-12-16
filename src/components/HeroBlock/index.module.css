@@ -2,11 +2,18 @@
   --heroBlock-height: 22.75rem;
 }
 .HeroBlock {
-  height: 22.75rem;
+  height: var(--heroBlock-height);
   display: flex;
   padding-top: var(--spacing-vertical--3);
   align-items: center;
-  margin:var(--spacing-vertical--1) 0 var(--spacing-vertical--3) 0;
+  margin-top: var(--spacing-vertical--1);
+}
+.HeroBlock--image {
+  height: auto;
+  &:after {
+    content: '';
+    padding-top: 33%;
+  }
 }
 .HeroBlock__quote {
   
