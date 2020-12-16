@@ -23,9 +23,13 @@ People are often at the center of the images, creating recognition and emotional
 One image may not contain every one of these, but common features of our images are that they more or less convey the following emotions:
 
 
+
+
 <section>
 <Collapse title="Humanity and closeness">
 <div class="content">
+
+
 
 A genuine feeling of warmth and closeness, often with the person at the center and situations we can all recognise ourselves in.
 
@@ -33,6 +37,30 @@ Feelings/emotions:\
 Warmth, closeness, recognition.
 
 <figure class="Image Image__default "><img src="/img/skater.webp" srcset="/img/skater.webp 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+
+</div></Collapse>
+<Collapse title="Commitment and curiosity">
+<div class="content">
+
+A world that the viewer wants to be a part of, which radiates commitment, energy and curiosity - something to be inspired by but which can still be seen in oneself.
+
+Feelings/emotions:\
+Energy – both subtle and visible, curiosity, inspiration.
+
+<figure class="Image Image__default "><img src="/img/bed.webp" srcset="/img/bed.webp 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+</div></Collapse>
+<Collapse title="Modern and up to date">
+<div class="content">
+
+Our images play a crucial role in our quest to modernize the perception of our brand. By this we mean the feeling in the pictures but also the motifs themselves.
+
+Feelings/emotions:\
+People and motives from a modern perspective. Diversity with all that it entails.
+
+<figure class="Image Image__default "><img src="/img/dude.webp" srcset="/img/dude.webp 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 </div></Collapse>
 </section>
