@@ -251,6 +251,10 @@ figure {
   background: #fff;
 }
 
+/*  FIX FOR BAD CUT IMAGES */
+.Image__default img {
+  width: 100%;
+}
 
 .active {
   background: red;
