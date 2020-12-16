@@ -38,9 +38,9 @@ module.exports = {
         name: 'LFDS',
         short_name: 'LFDS',
         start_url: '/',
-        display: 'standalone',
-        theme_color: "#ffffff",
-        background_color: "#ffffff",
+        display: 'fullscreen',
+        theme_color: "#2196F3",
+        background_color: "#F3F3F3",
         icon: `${__dirname}/static/favicons/favicon.svg`, // This path is relative to the root of the site.
         icons: [
             {
