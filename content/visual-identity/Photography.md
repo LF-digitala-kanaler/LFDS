@@ -2,12 +2,13 @@
 template: ArticlePage
 previewImage: /img/photography.jpg
 title: Photography
-intro: Human interaction is the core idea in our photos. They should feel simple
-  and realistic, like anyone could have taken them. The photos are from every
-  day situations.
-contentTop: ""
+intro: We want to build a visual world where people feel at home. That´s why we
+  portray people's everyday lives and the different stages of life. We want our
+  images to communicate the brand in a appealing and consistent way.
+contentTop: "[Download photos at Röda
+  rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)"
 heroBlock:
-  image: /img/photo1_big.jpg
+  image: /img/photo_hero.webp
 wide: false
 lang: false
 ---
