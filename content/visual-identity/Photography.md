@@ -12,16 +12,12 @@ heroBlock:
 wide: false
 lang: false
 ---
-## Photos with human emotions
+## Tonality
 
-We use lightning when taking our photos, for an everyday feel. It is a way to dramatize and distinguish our images. We like to use odd image cropping.
+We describe our imagery as "cinematic". By this we mean that the images can be perceived as small scenes where each image tells a story and builds a world with a genuine sense of warmth and presence.
 
-Our images dramatize the message of our closeness strategy.
+People are often at the center of the images, creating recognition and emotional contact. The light in our pictures should be natural and the situations should never be perceived as arranged – all to give an authentic feeling.
 
-<figure class="Image Image__border Image__wide"><img src="/img/photos_people.jpg" srcset="/img/photos_people.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+## Pictures that express emotions
 
-## Red and blue
-
-To make the connection to Länsförsäkringar brand a lot of photos have red and/or blue colors. 
-
-<figure class="Image Image__border Image__wide"><img src="/img/photos_red_blue.jpg" srcset="/img/photos_red_blue.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+One image may not contain every one of these, but common features of our images are that they more or less convey the following emotions:
