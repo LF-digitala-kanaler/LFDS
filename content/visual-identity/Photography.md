@@ -21,3 +21,18 @@ People are often at the center of the images, creating recognition and emotional
 ## Pictures that express emotions
 
 One image may not contain every one of these, but common features of our images are that they more or less convey the following emotions:
+
+
+<section>
+<Collapse title="Humanity and closeness">
+<div class="content">
+
+A genuine feeling of warmth and closeness, often with the person at the center and situations we can all recognise ourselves in.
+
+Feelings/emotions:\
+Warmth, closeness, recognition.
+
+<figure class="Image Image__default "><img src="/img/skater.webp" srcset="/img/skater.webp 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+</div></Collapse>
+</section>
