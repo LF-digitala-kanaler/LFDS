@@ -41,7 +41,7 @@ module.exports = {
         display: 'standalone',
         theme_color: "#ffffff",
         background_color: "#ffffff",
-        icon: `${__dirname}/static/img/favicons/favicon.svg`, // This path is relative to the root of the site.
+        icon: `${__dirname}/static/favicons/favicon.svg`, // This path is relative to the root of the site.
         icons: [
             {
                 "src": "/favicons/android-chrome-192x192.png",
