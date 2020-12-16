@@ -31,6 +31,7 @@ module.exports = {
         clientsClaim: true,
       },
     },
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -190,7 +191,7 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-transformer-remark-frontmatter',
+            resolve: 'gatsby-transformer-remark-frontmatter', // Local modified plugin see ./plugin for source code
             // default: { blacklist: [] }
             options: {
               // frontmatter fields to exclude, including all others
@@ -213,7 +214,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
-              offsetY: `140`,
+              // offsetY: `140`,
               icon: `<svg width="14" height="19"><path d="M2.965 18.293l1.02-4.992h3.68l-1.009 4.992h1.758l1.02-4.992h3.609v-1.746H9.785l.88-4.254h2.378V5.555h-2.027l1.02-5.028h-1.77l-1.02 5.028H5.555L6.575.527H4.815l-1.02 5.028H.247V7.3h3.2l-.868 4.254H.246V13.3h1.98l-1.019 4.992h1.758zm5.05-6.738h-3.68L5.204 7.3h3.692l-.88 4.254z" fill="#E5E5E5" fill-rule="nonzero"/></svg>`,
               className: 'Heading--anchor',
               isIconAfterHeader: true,
@@ -225,7 +226,7 @@ module.exports = {
               destinationDir: 'static',
             },
           },
-          'gatsby-remark-transform-links-to-external', // Local plugin see ./plugin for source code
+          'gatsby-remark-transform-links-to-external', // Local modified plugin see ./plugin for source code
         ],
       },
     },
@@ -247,6 +248,13 @@ module.exports = {
           }),
         ],
       },
+    },
+    {
+      resolve: "gatsby-plugin-anchor-links", // Local modified plugin see ./plugin for source code
+      options: {
+        offset: -140,
+        duration: 400
+      }
     },
     {
       resolve: 'gatsby-plugin-netlify-cms',
@@ -279,6 +287,7 @@ module.exports = {
         },
       },
     },
+    
     // GA
     {
       resolve: `gatsby-plugin-google-analytics`,
