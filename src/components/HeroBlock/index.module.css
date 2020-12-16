@@ -12,7 +12,13 @@
   height: auto;
   &:after {
     content: '';
-    padding-top: 33%;
+    padding-top: 60%;
+  }
+  @media (--small-viewport) { 
+    &:after {
+      content: '';
+      padding-top: 33%;
+    }
   }
 }
 .HeroBlock__quote {

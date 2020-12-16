@@ -10,9 +10,9 @@ const HeroBlock = ({ background, quote, cite, image }) => {
     backgroundImage: image ? `url(${image.publicURL})` : 'none',
     backgroundSize: 'cover',
   }
-  
+  console.log(image)
   return (
-   <>HeroBlock--image
+   <>
       {(image != null || background != null) && (
         <article className={cx(
             style.HeroBlock,
