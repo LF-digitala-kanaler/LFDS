@@ -61,7 +61,7 @@ lang: false
 
 Our main page headlines are usually set in *LF Rubrik*. The rest of the headlines and most of the typography is set with *Intro cond bold* and in rare cases *Intro Cond Regular*. For paragraps, lists and content in tables use *Arial regular* for optimal readability. 
 
-[Typography components in LFUI](/components/web/typography)
+[Typography components in LFUI](/components/web/text)
 
 ### Variations
 
