@@ -4,7 +4,6 @@ import { stripTrailingSlash } from '../../utils/RemoveTrailingSlash'
 
 const CardList = ({ list }) => {
   return list.map((item) => {
-    console.log(item, 'item')
     return (
       <Card
         key={item.node.id}

@@ -5,7 +5,6 @@ import PropTypes from 'prop-types'
 
 const NavigationItem = ({ path, title, scrollPoition }) => {
   const isHomepage = path === withPrefix('/')
-
   return (
     <li className={styles.Navigation__item}>
       <Link

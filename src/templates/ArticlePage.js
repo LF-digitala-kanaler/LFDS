@@ -25,13 +25,16 @@ export const ArticlePageTemplate = ({
   bodyHtml,
   heroBlock,
   wrapperWidth,
-  contentTop,
+  contentTop
 }) => (
   <>
     <Wrapper tag="div" menu={true} narrow>
       <Heading tag={1} text={title} align={'left'} />
       <Preamble text={intro} tag="p" align={'left'} />
-      <Content source={contentTop} />
+      
+      <Wrapper tag="div" narrow>
+        {contentTop && <Content source={contentTop} />}  
+      </Wrapper>
     </Wrapper>
     
     {heroBlock && (
@@ -41,6 +44,7 @@ export const ArticlePageTemplate = ({
         cite={heroBlock.cite}
         image={heroBlock.image}
       />
+      
     )}
     <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
       {bodyHtml ? (
@@ -68,7 +72,7 @@ const ArticlePage = ({ data: { page }, location }) => {
     title: page.frontmatter.title,
     location: location,
   }
-  console.log(page.frontmatter.heroBlock)
+  console.log(page, 'hmtl')
   return (
     <Layout
       description={page.frontmatter.intro || false}
@@ -83,7 +87,10 @@ const ArticlePage = ({ data: { page }, location }) => {
         bodyHtml={page.htmlAst}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
-        contentTop={page.frontmatter.contentTop}
+        contentTop={
+          page.fields.frontmattermd?.contentTop?.html ||
+          page.frontmatter.contentTop
+        }
       />
     </Layout>
   )
@@ -112,6 +119,14 @@ export const pageQuery = graphql`
           cite
           image {
             publicURL
+          }
+        }
+      }
+      fields {
+        frontmattermd {
+          contentTop {
+            rawMarkdownBody
+            html
           }
         }
       }

@@ -5,8 +5,8 @@ title: Photography
 intro: We want to build a visual world where people feel at home. That´s why we
   portray people's everyday lives and the different stages of life. We want our
   images to communicate the brand in a appealing and consistent way.
-contentTop: "[Download photos at Röda
-  rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)"
+contentTop: >- 
+"[Download photos at Röda rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)"
 heroBlock:
   image: /img/photo_hero.webp
 wide: false

@@ -10,7 +10,6 @@ const HeroBlock = ({ background, quote, cite, image }) => {
     backgroundImage: image ? `url(${image.publicURL})` : 'none',
     backgroundSize: 'cover',
   }
-  console.log(image)
   return (
    <>
       {(image != null || background != null) && (

@@ -8,7 +8,6 @@ const parentDirectory = (url) => {
 }
 
 const Breadcrumb = ({ location }) => {
-  console.log(location)
   return (
     <div className={style.Breadcrumb}>
       <li className={style.Breadcrumb__item}>

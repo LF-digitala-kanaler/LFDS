@@ -1,5 +1,4 @@
 :root {
-  
   --footer-background: var(--color-white);
   --footer-width: var(--wrapper-width);
   --footer-border-color: var(--color-border);
@@ -11,6 +10,7 @@
   border-top: 2px solid var(--footer-border-color);
   position: relation;
   z-index: 4;
+  margin-top: var(--spacing-md);
 }
 
 .Footer__container {
