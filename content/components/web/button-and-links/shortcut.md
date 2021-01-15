@@ -12,6 +12,7 @@ componentsNavigation:
   - name: Alerting
   - name: Navigational
   - name: Landing page
+backgroundColor: "#f3f3f3"
 tabs:
   - content: >-
       ## How to use
@@ -42,7 +43,7 @@ tabs:
       "Glasspinne" is the shortcut we use when we want to make users aware of an action they need/are recommended to take, but probably isn't not why they arrived at the page (in contrast, alerts are for when we want to broadcast something to the user but they do not need to take any action). "Glasspinnar" use the same colors with the same meaning as regular [alerts](../system-display/alert), meaning that they are available in all four colours - however it is (almost) exclusively the blue neutral one which is in use. "Glasspinnar" are always just one row high, meaning the text should be kept short and snappy. The text is written in bold.
 
 
-      The main usage of the "glasspinne" is on the landing page of Mina Sidor where we use it for things like asking the customer to fill out our their "kundkännedomsfrågor" (KYC, Know Your Customer) and providing relevant offers ("your car turns 3 years old, you might want to change type of insurance"). 
+      The most prominent usage of the "glasspinne" is on the landing page of Mina Sidor where we use it for things like asking the customer to fill out our their "kundkännedomsfrågor" (KYC, Know Your Customer) and providing relevant offers ("your car turns 3 years old, you might want to change type of insurance"). It is however used on several other pages within Mina Sidor as well, such as product pages.
 
 
       <div class="Callout"><strong class="Callout__title">Trivia </strong><p class="Callout__text">The name comes from the need for a name to describe them with and someone thinking they resembled ice cream sticks (which is what "glasspinne" means in Swedish).</p></div>
@@ -221,5 +222,4 @@ tabs:
 
       <div class="Callout"><strong class="Callout__title">Equal height shortcuts </strong><p class="Callout__text">If your shortcuts contains words that might break into 2 lines you should consider adding `.h-100` to each `shortcut-landing-page` to create equal height shortcuts.</p></div>
     name: Code
-backgroundColor: "#f3f3f3"
 ---
