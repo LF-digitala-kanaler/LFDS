@@ -9,6 +9,7 @@ category: Getting started
 previewImage: /img/getting_started.svg
 wide: false
 lang: true
+contentTop: ""
 ---
 Vi börjar alltid med ett intromöte för att du ska snabbt komma in i hur vi jobbat och lite om vilka som jobbar med vad och vad du kan få hjälp med av olika personer. Vi ser till att boka in dig på några snabbgenomgångar med olika personer och deras ansvarsområden. Du kan även läsa på lite här.
 

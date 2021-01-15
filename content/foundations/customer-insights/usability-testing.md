@@ -3,6 +3,7 @@ template: ArticlePage
 previewImage: /img/user_testing.svg
 title: Usability testing
 category: Customer insights
+contentTop: ""
 intro: "Vi har en regel: allt ska användningstestas innan det kommer ut i
   produktion. Vi är ett kundägt bolag och det ligger i vår ryggmärg att se till
   så våra ägare alltså våra kunder är nöjda. "

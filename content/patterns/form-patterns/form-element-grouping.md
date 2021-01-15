@@ -9,6 +9,7 @@ description: Describes how to group input elements, labels and input
 wide: false
 lang: false
 hidden: false
+contentTop: ""
 ---
 Our various [input elements](/components/web/forms/) (such as [input fields](/components/web/forms/input-field), [dropdowns](/components/web/forms/dropdown), etc) are all grouped together with labels and input descriptions in the same manner. Error messages for forms are also part of the form element grouping and are thus also described on this page. If you're looking for information on how to design a form, please refer to [Form layout](form-layout).
 

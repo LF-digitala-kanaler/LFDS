@@ -6,6 +6,7 @@ intro: Our well recognized logotype is the foundation when it comes to
   communicating our brand.
 wide: false
 lang: false
+contentTop: ""
 ---
 [More about the logotype at Röda rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/component/default/5115)
 

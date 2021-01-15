@@ -87,10 +87,8 @@ const ArticlePage = ({ data: { page }, location }) => {
         bodyHtml={page.htmlAst}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
-        contentTop={
-          page.fields.frontmattermd?.contentTop?.html ||
-          page.frontmatter.contentTop
-        }
+        contentTop={page.frontmatter.contentTop
+         }
       />
     </Layout>
   )
@@ -122,14 +120,7 @@ export const pageQuery = graphql`
           }
         }
       }
-      fields {
-        frontmattermd {
-          contentTop {
-            rawMarkdownBody
-            html
-          }
-        }
-      }
+      
     }
   }
 `

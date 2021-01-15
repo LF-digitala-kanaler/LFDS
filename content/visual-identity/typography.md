@@ -7,6 +7,7 @@ intro: "Our typography is a vital part of Länsförsäkringars visual identity.
   consistent visuals that speaks our brand. "
 wide: false
 lang: false
+contentTop: ""
 ---
 <LfuiWrapper script="">
 

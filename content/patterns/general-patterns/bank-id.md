@@ -10,24 +10,32 @@ contentTop: ""
 ---
 ## Copy för BankID
 
-### Primary button with BankID icon[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons?copy#primary-with-bankid-icon)
+### Primary button with BankID icon
 
-#### Legitimering direkt[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons?copy#legitimering-direkt)
+#### Legitimering direkt
 
 När BankID-legitimeringen sker för att identifiera användaren använder vi begreppet "legitimera".
 
-**Text i knapp:**Legitimera dig
+**Text i knapp:**
 
-#### BankID behövs senare[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons?copy#bankid-beh%C3%B6vs-senare)
+Legitimera dig
+
+#### BankID behövs senare
 
 Om en legitimering eller signering behövs senare i flödet vill vi förvarna användaren om att BankID kommer att behövas.
 
-**Text bredvid knappen:**Du kommer att behöva BankID
+**Text bredvid knappen:**
 
-**Text i knapp:**Gå vidare
+Du kommer att behöva BankID
 
-#### Steget där du signerar[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons?copy#steget-d%C3%A4r-du-signerar)
+**Text i knapp:**
+
+Gå vidare
+
+#### Steget där du signerar
 
 När BankID-signering används för att godkänna använder vi begreppet Signera och/eller godkänn.
 
-**Text i knapp:**Signera och godkänn
+**Text i knapp:**
+
+Signera och godkänn

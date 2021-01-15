@@ -9,6 +9,7 @@ description: The information page should do just that - give some more informati
 wide: false
 lang: true
 hidden: false
+contentTop: ""
 ---
 <figure class="Image null Image__wide"><img src="/img/lfse-informationssidan.jpg" srcset="/img/lfse-informationssidan.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 

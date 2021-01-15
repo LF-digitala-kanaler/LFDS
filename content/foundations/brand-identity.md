@@ -15,6 +15,7 @@ description: >-
 
   Det är något vi värnar om tillsammans.
 lang: true
+contentTop: ""
 ---
 <figure class="Image Image__background "><img src="/img/favicon.svg" srcset="/img/favicon.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 

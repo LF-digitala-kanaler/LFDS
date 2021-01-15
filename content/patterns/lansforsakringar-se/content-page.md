@@ -8,6 +8,7 @@ intro: Kontentmallen används specifikt för att lyfta redaktionellt innehåll s
 wide: false
 lang: false
 hidden: false
+contentTop: ""
 ---
 Den nya contentmallen
 

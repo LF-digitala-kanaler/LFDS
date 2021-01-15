@@ -8,6 +8,7 @@ description: "Vår designprocess byggs upp av 5 steg. De är förstå, design,
   användningstest, implementera och följa upp. "
 wide: false
 lang: false
+contentTop: ""
 ---
 <figure class="Image Image__background Image__wide"><img src="/img/designprocess.svg" srcset="/img/designprocess.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 

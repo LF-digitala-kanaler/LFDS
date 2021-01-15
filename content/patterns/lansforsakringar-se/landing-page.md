@@ -8,6 +8,7 @@ intro: Välkomnar användaren och tar hand om minst 80 procent av användarnas
   den kom för att göra.
 description: The landing page of Länsförsäkringar.se
 lang: true
+contentTop: ""
 ---
 <figure class="Image null Image__wide"><img src="/img/lfse-startsida.jpg" srcset="/img/lfse-startsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 

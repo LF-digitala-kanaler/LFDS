@@ -9,6 +9,7 @@ intro: Självklart har vi ett mål att alla människor ska kunna komma åt våra
 wide: false
 lang: false
 hidden: false
+contentTop: ""
 ---
 <figure class="Image null "><img src="/img/wcag-en-webb-for-alla.png" srcset="/img/wcag-en-webb-for-alla.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 

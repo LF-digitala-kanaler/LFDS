@@ -12,6 +12,7 @@ priority: "1"
 wide: false
 lang: false
 hidden: false
+contentTop: ""
 ---
 <figure class="Image Image__border "><img src="/img/lfse-ramverk.jpg" srcset="/img/lfse-ramverk.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 

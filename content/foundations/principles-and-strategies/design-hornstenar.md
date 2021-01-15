@@ -11,6 +11,7 @@ description: Magin uppstår i det personliga kundmötet. För att försöka få 
   hörnstenar. Expertis, labba och kontroll.
 wide: false
 lang: false
+contentTop: dummy
 ---
 <figure class="Image Image__background Image__wide"><img src="/img/cornerstones.png" srcset="/img/cornerstones.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 

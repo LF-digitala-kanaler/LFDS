@@ -4,7 +4,7 @@ category: Form patterns
 title: Required fields
 intro: At Länsförsäkringar we only highlight required fields when only parts of
   a form is mandatory.
-
+contentTop: ""
 ---
 In user testing we've found that  unless there is some marker indicating that only parts of a form is mandatory user expect that all fields are required. Hence our rules for required fields are quite simple:
 

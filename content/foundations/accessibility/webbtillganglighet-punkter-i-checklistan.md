@@ -8,6 +8,7 @@ intro: Här går vi igenom punkt för punkt vad de betyder, för Länsförsäkri
 description: Här går vi igenom punkt för punkt vad de betyder för
   Länsförsäkringar att följa checklistorna.
 lang: true
+contentTop: ""
 ---
 <figure class="Image Image__border Image__wide"><img src="/img/checklistor-wcag.jpg" srcset="/img/checklistor-wcag.jpg 2x" alt="Checklistor för de olika yrkesrollerna"><figcaption><div class="Image__caption"></div></figcaption></figure>
 

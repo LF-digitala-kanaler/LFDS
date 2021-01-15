@@ -120,7 +120,7 @@ collections: # A list of collections the CMS should be able to edi
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
       - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
-      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editor_components: [], hint: 'Only use this if you have a hero image' }
+      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown', minimal: true,  required: false, editor_components: [], hint: 'Only use this if you have a hero image' }
       - label: Hero block
         name: heroBlock
         widget: object

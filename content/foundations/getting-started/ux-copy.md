@@ -9,6 +9,7 @@ intro: Länsförsäkringar User Interface är vår plattform för vårt digitala
   eller hittar vidare länkar till vår Brand portal Röda rummet.
 wide: false
 lang: true
+contentTop: ""
 ---
 <div class="Callout"><strong class="Callout__title">Tone of voice </strong><p class="Callout__text">Länsförsäkringska är vårt språk. Vi skriver på läsarens villkor och som ett samtal. 
 

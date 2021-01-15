@@ -4,6 +4,7 @@ module.exports = {
     headline: 'Länsförsäkringar Design System',
     siteUrl: 'https://lf-digitala-kanaler.github.io/',
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
@@ -13,22 +14,23 @@ module.exports = {
       options: {
         workboxConfig: {
           navigateFallbackBlacklist: [/^\/admin.*$/],
+          runtimeCaching: [
+            {
+              // Use cacheFirst since these don't need to be revalidated (same RegExp
+              // and same reason as above)
+              urlPattern: /(\.js$|\.css$|static\/)/,
+              handler: `CacheFirst`,
+            },
+            {
+              // Add runtime caching of various other page resources
+              urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+              handler: `StaleWhileRevalidate`,
+            },
+          ],
+          skipWaiting: true,
+          clientsClaim: true,
         },
-        runtimeCaching: [
-          {
-            // Use cacheFirst since these don't need to be revalidated (same RegExp
-            // and same reason as above)
-            urlPattern: /(\.js$|\.css$|static\/)/,
-            handler: `cacheFirst`,
-          },
-          {
-            // Add runtime caching of various other page resources
-            urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
-            handler: `staleWhileRevalidate`,
-          },
-        ],
-        skipWaiting: true,
-        clientsClaim: true,
+        
       },
     },
     
@@ -52,6 +54,12 @@ module.exports = {
                 "src": "/favicons/android-chrome-512x512.png",
                 "sizes": "512x512",
                 "type": "image/png"
+            },
+            {
+              "src": "/favicons/android-chrome-192x192.png",
+              "sizes": "196x196",
+              "type": "image/png",
+              "purpose": "any maskable"
             }
         ],
        

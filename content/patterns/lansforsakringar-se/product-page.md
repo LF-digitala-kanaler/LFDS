@@ -12,6 +12,7 @@ description: Produktsidan är den plats där kunden kan skaffa sig en produkt
 wide: false
 lang: true
 hidden: false
+contentTop: ""
 ---
 <figure class="Image null Image__wide"><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 

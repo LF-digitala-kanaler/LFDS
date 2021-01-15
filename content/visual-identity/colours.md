@@ -7,6 +7,7 @@ intro: Our primary colours are blue, red and white. This colour combination is
   consequently.
 wide: true
 lang: false
+contentTop: ""
 ---
 ## Primary Colour
 

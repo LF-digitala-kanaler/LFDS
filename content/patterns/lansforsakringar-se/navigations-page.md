@@ -11,6 +11,7 @@ description: "Hjälper kunden till rätt val när det finns ett flertal liknande
 wide: false
 lang: false
 hidden: false
+contentTop: ""
 ---
 <figure class="Image null Image__wide"><img src="/img/lfse-navsida.jpg" srcset="/img/lfse-navsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
