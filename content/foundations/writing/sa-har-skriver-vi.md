@@ -8,6 +8,11 @@ description: ""
 contentTop: ""
 lang: true
 ---
+
+
+<section>
+<Collapse title="Apostrof( ́)"><div class="content">
+
 Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen. Skriv LFABs utan apostrof före genitiv-s.
 
 </div></Collapse> <Collapse title="Avstavningar"><div class="content">
