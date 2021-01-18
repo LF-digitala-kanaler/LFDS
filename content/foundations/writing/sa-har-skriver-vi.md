@@ -115,6 +115,15 @@ I många texter skrivs ordet man i betydelsen person, vilket ibland är svårt a
 Formerna mej, dej och sej är talspråk. Vi skriver alltid mig, dig och sig.
 
 </div></Collapse>
+
+<Collapse title="Månader">
+<div class="content">
+
+Om månader måste förkortas gör vi det så här:\
+jan, feb, mars, april, maj, juni, juli, aug, sep, okt, nov, dec
+
+</div></Collapse>
+
 <Collapse title="Parentes (:)">
 <div class="content">
 
@@ -308,11 +317,5 @@ Vi skriver enligt svensk standard. 9.00–18.00. Ingen nolla före ental och tan
 Från midnatt till morgon skrivs till exempelvis "lördag från 00.00–4.00" 
 
 Från dag till midnatt skrivs "söndag 15.00–24.00"
-</div></Collapse>
-<Collapse title="Månader">
-<div class="content">
-
-Om månader måste förkortas gör vi det så här:\
-jan, feb, mars, april, maj, juni, juli, aug, sep, okt, nov, dec
 </div></Collapse>
 </section>
