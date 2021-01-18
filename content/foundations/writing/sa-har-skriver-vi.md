@@ -8,8 +8,6 @@ description: ""
 contentTop: ""
 lang: true
 ---
-<div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Skriv alltid tillgängligt och inkluderande.</p></div><section> <Collapse title="Apostrof( ́)"><div class="content">
-
 Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen. Skriv LFABs utan apostrof före genitiv-s.
 
 </div></Collapse> <Collapse title="Avstavningar"><div class="content">
