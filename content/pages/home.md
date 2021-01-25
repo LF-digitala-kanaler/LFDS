@@ -21,7 +21,7 @@ shortcuts:
 fullWidthImage:
   title: Are you a noob at Länsförsäkringar?
   fullWidthImageDesktop: /img/skate_boys-min.jpg
-  fullWidthImageMobile: /img/startpagemobile.webp
+  fullWidthImageMobile: /img/skateboys_mobile-min.jpg
 shortcutsBottom:
   - icon: /img/design_principer_.svg
     link: /foundations/principles-and-strategies/design-principles
