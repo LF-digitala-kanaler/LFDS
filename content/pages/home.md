@@ -1,5 +1,4 @@
 ---
-
 template: HomePage
 title: Länsförsäkringar Design System
 intro: >-
@@ -20,22 +19,9 @@ shortcuts:
     text: Learn more about how we work  with UX patterns
     title: Patterns
 fullWidthImage:
-    title: Are you a noob at Länsförsäkringar?
-    fullWidthImageDesktop: /img/startpage.webp
-    fullWidthImageMobile: /img/startpagemobile.webp
-shortcutsImage:
-  - icon: /img/developer_icon.svg
-    link: /foundations/getting-started/ux-copy
-    text: Welcome if you are a new copywriter. Heres what you need to know.
-    title: UX-Copy
-  - icon: /img/designer_icon.svg
-    link: /foundations/getting-started/designer
-    text: Everyone thats new and work with AD/UX stuff, raise your hands.
-    title: Designer
-  - icon: /img/copy_icon.svg
-    link: /foundations/getting-started/developer
-    text: Get started with LFUI components, oh yeah!
-    title: Developer
+  title: Are you a noob at Länsförsäkringar?
+  fullWidthImageDesktop: /img/skate_boys-min.jpg
+  fullWidthImageMobile: /img/startpagemobile.webp
 shortcutsBottom:
   - icon: /img/design_principer_.svg
     link: /foundations/principles-and-strategies/design-principles
@@ -52,14 +38,27 @@ shortcutsBottom:
     text: the use of human animals in experiments that seek to control the variables
       that affect the behavior or biological system under study
     title: User testing
+meta:
+  description: ""
+  title: Länsförsäkringar Design System
+shortcutsImage:
+  - icon: /img/developer_icon.svg
+    link: /foundations/getting-started/ux-copy
+    text: Welcome if you are a new copywriter. Heres what you need to know.
+    title: UX-Copy
+  - icon: /img/designer_icon.svg
+    link: /foundations/getting-started/designer
+    text: Everyone thats new and work with AD/UX stuff, raise your hands.
+    title: Designer
+  - icon: /img/copy_icon.svg
+    link: /foundations/getting-started/developer
+    text: Get started with LFUI components, oh yeah!
+    title: Developer
 relatedLinks:
   - text: LFUI
     url: https://lf-digitala-kanaler.github.io/LFUI-components/
   - text: Prototypes
     url: https://lf-digitala-kanaler.github.io/prototypes/
-meta:
-  description: ""
-  title: Länsförsäkringar Design System
 ---
 **New designer at Länsförsäkringar?**
 
