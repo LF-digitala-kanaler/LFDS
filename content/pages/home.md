@@ -20,8 +20,8 @@ shortcuts:
     title: Patterns
 fullWidthImage:
   title: Are you a noob at Länsförsäkringar?
-  fullWidthImageDesktop: /img/skate_boys-min.jpg
-  fullWidthImageMobile: /img/startpagemobile.webp
+  fullWidthImageDesktop: /img/garage-min.jpg
+  fullWidthImageMobile: /img/garage_mobilex2-min.jpg
 shortcutsBottom:
   - icon: /img/design_principer_.svg
     link: /foundations/principles-and-strategies/design-principles
