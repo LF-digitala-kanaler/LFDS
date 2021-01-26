@@ -21,7 +21,9 @@ export const HomePageTemplate = ({
   relatedLinks,
   images
 }) => (
+  
   <>
+  
     <Wrapper wide center tag="div">
       <Heading tag={1} text={title} align={'center'} />
       <Preamble text={intro} tag="p" align={'center'} />
@@ -31,6 +33,7 @@ export const HomePageTemplate = ({
       <Row gutter={64} justify="center">
         {shortcuts &&
           shortcuts.map((item) => {
+            
             return (
               <Col span={12} sm={6} md={4} key={item.title}>
                 <Shortcut
@@ -44,16 +47,15 @@ export const HomePageTemplate = ({
           })}
       </Row>
     </Wrapper>
+    {console.log(fullWidthImage)}
     {fullWidthImage && (
+      
       <FullWidthBackground
         title={fullWidthImage.title}
         image={
-          images.childImageSharp
-            ? images.childImageSharp.fluid.src
-            : images
+          images.childImageSharp  ? fullWidthImage.fullWidthImageDesktop : images
         }
       >
-        
         <Row gutter={52} justify="center">
           {shortcutsImage &&
             shortcutsImage.map((item) => {
@@ -114,7 +116,7 @@ const HomePage = ({ data: { page } }) => {
       media: `(max-width: 820px)`,
     },
   ]
-  
+  console.log(sources)
   return (
     <Layout
       meta={page.frontmatter.meta || false}

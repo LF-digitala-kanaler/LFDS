@@ -89,15 +89,24 @@
 .Content ol li {
   margin-bottom: var(--spacing-vertical--1)
 }
+.Content .lfui-theme ol li {
+  margin-bottom: 0;
+}
+
 .Content ul {
   list-style-type: none;
   padding-left: var(--spacing-unit);
   margin-left: var(--spacing-unit);
 }
+.Content .lfui-theme ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .Content ul li {
   margin-bottom: var(--spacing-vertical--05);
 }
-.Content ul li::before {
+.Content  ul li::before {
   content: "\0025A0";  
   color: var(--color-blue); 
   font-weight: bold;
@@ -109,6 +118,9 @@
   position: absolute;
   margin-top: 2px;
   margin-left: -18px;
+}
+.Content .lfui-theme  ul li::before {
+  content: none;
 }
 
 .Content table th{
