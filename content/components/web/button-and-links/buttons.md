@@ -83,8 +83,6 @@ tabs:
       The log-in button is always available in the top right corner of our public web pages, but can also be repeated in-page if relevant. The copy should however always only be "Logga in" (or "Logga ut" if in a logged in-view).
 
 
-      <div class="Callout"><p class="Callout__text"><strong>Only for logging in/out! </strong>This button should never be used for any other purposes than signing in or out-purposes!</p></div>
-
 
       <div class="Callout"><strong class="Callout__title">Only for logging in/out! </strong><p class="Callout__text">This button should never be used for any other purposes than signing in or out-purposes!</p></div>
 
