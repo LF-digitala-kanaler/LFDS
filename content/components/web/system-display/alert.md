@@ -14,6 +14,7 @@ componentsNavigation:
   - name: Warning
   - name: Danger
   - name: Success
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -110,10 +111,13 @@ tabs:
       * Blanda inte ihop dessa med [“glasspinnar”/modifier shortcut ](/components/web/button-and-links/shortcut)som är helfärgade, med pil och visas på startsidan av Mina sidor. 
 
 
-      En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Rubriken ska då separeras med ett skiljetecken, som tankstreck eller ".?!". Använd aldrig bindestreck i alerten. Avsluta alltid med punkt. 
+      En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Rubriken ska då separeras med ett skiljetecken, som tankstreck, frågetecken eller utropstecken. Använd aldrig bindestreck i alerten. Avsluta alltid med punkt. 
 
 
-      **Exempel:** Kundkännedom - Vänligen vara på frågorna för att kunna fortsätta använda appen.
+      **Exempel:** **Kundkännedom** – vänligen svara på frågorna för att kunna fortsätta använda appen.
+
+
+      **Exempel: Stämmer uppgifterna?** Uppdatera dina kontaktuppgifter så vi kan nå dig.
     name: Copy
   - content: >-
       ## How to use
@@ -190,5 +194,4 @@ tabs:
 
       *Never* use these button classes if not on top of a striped background.
     name: Code
-backgroundColor: "#fff"
 ---
