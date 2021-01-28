@@ -108,10 +108,7 @@ tabs:
       ## Så skriver vi
 
 
-      * Blanda inte ihop dessa med [“glasspinnar”/modifier shortcut ](/components/web/button-and-links/shortcut)som är helfärgade, med pil och visas på startsidan av Mina sidor. 
-
-
-      En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Rubriken ska då separeras med ett skiljetecken, som tankstreck, frågetecken eller utropstecken. Använd aldrig bindestreck i alerten. Avsluta alltid med punkt. 
+      En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Låt rubriken säga något, "inte bara info". Rubriken ska separeras med ett skiljetecken, som tankstreck, frågetecken eller utropstecken. Använd aldrig bindestreck i alerten. Avsluta alltid med punkt. 
 
 
       **Exempel:** **Kundkännedom** – vänligen svara på frågorna för att kunna fortsätta använda appen.
@@ -120,7 +117,10 @@ tabs:
       **Exempel: Stämmer uppgifterna?** Uppdatera dina kontaktuppgifter så vi kan nå dig. 
 
 
-      **Exempel:** Vi har uppdaterat dina inställningar för notiser.
+      **Exempel:** Vi har uppdaterat dina inställningar för notiser. 
+
+
+      <div class="Callout"><strong class="Callout__title">Alert är ingen glasspinne/genväg! </strong><p class="Callout__text">Blanda inte ihop dessa med [“glasspinnar”/modifier shortcut ](/components/web/button-and-links/shortcut)som är helfärgade, med pil och visas på startsidan av Mina sidor.</p></div>
     name: Copy
   - content: >-
       ## How to use
