@@ -117,7 +117,10 @@ tabs:
       **Exempel:** **Kundkännedom** – vänligen svara på frågorna för att kunna fortsätta använda appen.
 
 
-      **Exempel: Stämmer uppgifterna?** Uppdatera dina kontaktuppgifter så vi kan nå dig.
+      **Exempel: Stämmer uppgifterna?** Uppdatera dina kontaktuppgifter så vi kan nå dig. 
+
+
+      **Exempel:** Vi har uppdaterat dina inställningar för notiser.
     name: Copy
   - content: >-
       ## How to use
