@@ -120,7 +120,7 @@ tabs:
       **Exempel:** Vi har uppdaterat dina inställningar för notiser. 
 
 
-      <div class="Callout"><strong class="Callout__title">Alert är ingen glasspinne/genväg! </strong><p class="Callout__text">Blanda inte ihop dessa med [“glasspinnar”/modifier shortcut ](/components/web/button-and-links/shortcut)som är helfärgade, med pil och visas på startsidan av Mina sidor.</p></div>
+      <div class="Callout"><strong class="Callout__title">Alert är inte samma som glasspinnen </strong><p class="Callout__text">Blanda inte ihop dessa med “glasspinnar”/shortcuts som t.ex. visas på startsidan av Mina sidor.</p></div>
     name: Copy
   - content: >-
       ## How to use
