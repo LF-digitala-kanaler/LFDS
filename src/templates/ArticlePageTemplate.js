@@ -15,7 +15,7 @@ const renderAst = new rehypeReact({
     lfuiwrapper: LfuiWrapper,
   },
 }).Compiler
-// Export Template for use in CMS preview
+
 const ArticlePageTemplate = ({
   title,
   intro,
