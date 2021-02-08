@@ -9,7 +9,7 @@ import Layout from '../components/Layout'
 const center = {
   marginTop: '100px',
 }
-export default () => (
+const ErrorPage =  () => (
   <StaticQuery
     query={graphql`
       query NotFoundPageQuery {
@@ -32,3 +32,4 @@ export default () => (
     )}
   />
 )
+export default ErrorPage;

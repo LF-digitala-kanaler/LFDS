@@ -2,13 +2,13 @@ import React from 'react'
 import CMS from 'netlify-cms-app'
 import '../components/_base/index.css'
 import './cms.css'
-import { HomePageTemplate } from '../templates/HomePage'
-import { ComponentPageTemplate } from '../templates/ComponentPage'
-import { CategoryOverviewTemplate } from '../templates/CategoryOverview'
-import { ChangelogPageTemplate } from '../templates/ChangelogPage'
-import { LandingPageTemplate } from '../templates/LandingPage'
-import { ArticlePageTemplate } from '../templates/ArticlePage'
-import { IconsPageTemplate } from '../templates/IconsPage'
+import HomePageTemplate from '../templates/HomePageTemplate'
+import ComponentPageTemplate from '../templates/ComponentPageTemplate'
+import CategoryOverviewTemplate from '../templates/CategoryOverviewTemplate'
+import ChangelogPageTemplate from '../templates/ChangelogPageTemplate'
+import LandingPageTemplate from '../templates/LandingPageTemplate'
+import ArticlePageTemplate from '../templates/ArticlePageTemplate'
+import IconsTemplate from '../templates/IconsTemplate'
 
 import LFDSImage from './widgets/image'
 import Callout from './widgets/callout'
@@ -89,5 +89,5 @@ CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
   />
 ))
 CMS.registerPreviewTemplate('icons-page', ({ entry }) => (
-  <IconsPageTemplate {...entry.toJS().data} />
+  <IconsTemplate {...entry.toJS().data} />
 ))

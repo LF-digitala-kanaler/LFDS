@@ -1,52 +1,15 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
-import Wrapper from '../components/Wrapper'
-import Blockquote from '../components/Blockquote'
-import Heading from '../components/Heading'
-import Preamble from '../components/Preamble'
-import CardGrid from '../components/CardGrid'
 import _ from 'lodash'
-import { GlobalStateContext } from '../context/GlobalContextProvider'
-import Content from '../components/Content'
 import groupBy from 'lodash/fp/groupBy'
-
 import flow from 'lodash/fp/flow'
+import LandingPageTemplate  from './LandingPageTemplate.js'
+
 const map = require('lodash/fp/map').convert({ cap: false })
 
 // Export Template for use in CMS preview
-export const LandingPageTemplate = ({
-  title,
-  intro,
-  body,
-  contentBottom,
-  blockquote,
-  categories = [],
-}) => {
-  const state = useContext(GlobalStateContext)
-  return (
-    <div
-      className={
-        state && state.isMenuOpenDesktop
-          ? 'Container Container--push'
-          : 'Container'
-      }
-    >
-      <Wrapper tag="div" narrow>
-        <Heading tag={1} text={title} align={'center'} />
-        <Preamble text={intro} tag="p" align={'center'} />
-        {body && <Content className="Content--left" source={body} />}
-      </Wrapper>
-      <CardGrid list={categories} />
-      <Wrapper tag="div" narrow>
-        {contentBottom && <Content source={contentBottom} />}
-        {blockquote && (
-          <Blockquote text={blockquote.text} author={blockquote.author} />
-        )}
-      </Wrapper>
-    </div>
-  )
-}
+
 const LandingPage = ({
   data: { page, allPages, allOverviewPages },
   currentDirectory,
@@ -63,15 +26,7 @@ const LandingPage = ({
         )
       : false,
   }
-  // const overViewGroups = _(overviewPages.items)
-
-  // .map((item) => {
-  //   return {
-  //     category: (item.node.fields.contentType.split("/").pop()).toLowerCase().replace(/\-/g, ' '),
-  //     previewImage: item.node.frontmatter.previewImage,
-  //   }
-  // })
-  // .value()
+  
 
   const overViewGroups = flow(
     map((item) => {

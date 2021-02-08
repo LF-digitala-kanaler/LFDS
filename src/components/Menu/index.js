@@ -33,8 +33,8 @@ const Menu = ({ currentDirectory }) => {
               priority
             }
             fields {
-              slug
               contentType
+              slug
             }
           }
         }
@@ -46,13 +46,13 @@ const Menu = ({ currentDirectory }) => {
 
   const location = globalHistory.location.pathname
   const useBreakpoint = createBreakpoint({ M: 1024, S: 768 })
-
+  
   if (typeof window !== `undefined`) {
     currentDirectory = location.split('/')
     currentDirectory = currentDirectory.filter((item) => item)
     currentDirectory = currentDirectory.slice(0, 1).join('/')
   }
-
+  
   const navigationItems = {
     items: data.allPages.hasOwnProperty('edges')
       ? data.allPages.edges.filter((items) =>
