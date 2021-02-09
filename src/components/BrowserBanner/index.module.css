@@ -1,13 +1,13 @@
 
 .BrowserBanner {
-  background-color: var(--color-yellow);
-  padding: var(--spacing-vertical--2) 0;
-  margin-top: calc(-1* var(--spacing-vertical--2));
-  border-bottom: 2px solid var(--color-border);
+  background-color: #faf4d4;
+  padding: 42px 0;
+  margin-top: -42px;
+  border-bottom: 2px solid #e5e5e5;
   position: fixed;
   width: 100%;
   z-index: 100;
-  top: 40px;
+  top: 0px;
 }
 
 
@@ -27,9 +27,12 @@
 
 .BrowserBanner__icon {
   display: none;
-  @media (--small-viewport) { 
+  
+}
+
+@media (min-width: 48rem) {  
+  .BrowserBanner__icon {
     display: block;
-    margin-right: var(--spacing-unit);
-    
+    margin-right: 1rem;
   }
 }
