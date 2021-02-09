@@ -6,10 +6,8 @@ import Footer from './Footer'
 import Header from './Header'
 import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
 import { stripTrailingSlash } from '../utils/RemoveTrailingSlash'
-// import 'lfui/dist/lf.css';
 import 'modern-normalize/modern-normalize.css'
 import '../components/_base/index.css'
-
 export default ({
   children,
   title,

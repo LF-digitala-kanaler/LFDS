@@ -1,0 +1,35 @@
+
+.BrowserBanner {
+  background-color: var(--color-yellow);
+  padding: var(--spacing-vertical--2) 0;
+  margin-top: calc(-1* var(--spacing-vertical--2));
+  border-bottom: 2px solid var(--color-border);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 40px;
+}
+
+
+
+.BrowserBanner__content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.BrowserBanner__text {
+  margin-bottom: 0;
+}
+.BrowserBanner__container {
+  display: flex;
+}
+
+.BrowserBanner__icon {
+  display: none;
+  @media (--small-viewport) { 
+    display: block;
+    margin-right: var(--spacing-unit);
+    
+  }
+}

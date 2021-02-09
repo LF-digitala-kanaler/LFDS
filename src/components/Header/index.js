@@ -8,43 +8,48 @@ import Logotype from '../Logotype'
 import Breadcrumb from '../Breadcrumb'
 import Search from '../Search'
 import cx from 'classnames'
+import BrowserBanner from '../BrowserBanner'
+import {isIE} from 'react-device-detect';
 
 // import ToggleSwitch from '../ToggleSwitch';
 
 const Header = ({ title, breadcrumb, menu }) => {
   return (
-    <header className={style.Header}>
-      <div className={style.Header__container}>
-        <Link
-          to="/"
+    <>
+      {isIE && <BrowserBanner /> }
+      <header className={style.Header}>
+        <div className={style.Header__container}>
+          <Link
+            to="/"
+            className={cx(
+              style.Header__title,
+              menu ? style['Header__title--offset'] : ' '
+            )}
+          >
+            <span className={style.Header__headline}>{title}</span>
+            <Logotype />
+          </Link>
+
+          <div className={style.Header__wrapper}>
+            <Navigation />
+          </div>
+        </div>
+        <div
           className={cx(
-            style.Header__title,
-            menu ? style['Header__title--offset'] : ' '
+            style.Header__container,
+            style['Header__container--last']
           )}
         >
-          <span className={style.Header__headline}>{title}</span>
-          <Logotype />
-        </Link>
-
-        <div className={style.Header__wrapper}>
-          <Navigation />
+          {menu && <Menu />}
+          <div
+            className={cx(style.Header__wrapper, style['Header__wrapper--last'])}
+          >
+            {breadcrumb && <Breadcrumb location={breadcrumb} />}
+            <Search />
+          </div>
         </div>
-      </div>
-      <div
-        className={cx(
-          style.Header__container,
-          style['Header__container--last']
-        )}
-      >
-        {menu && <Menu />}
-        <div
-          className={cx(style.Header__wrapper, style['Header__wrapper--last'])}
-        >
-          {breadcrumb && <Breadcrumb location={breadcrumb} />}
-          <Search />
-        </div>
-      </div>
-    </header>
+      </header>
+    </>
   )
 }
 
