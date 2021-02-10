@@ -43,13 +43,13 @@ const HomePageTemplate = ({
           })}
       </Row>
     </Wrapper>
-    {console.log(fullWidthImage)}
+    {console.log(fullWidthImage.fullWidthImageDesktop)}
     {fullWidthImage && (
       
       <FullWidthBackground
         title={fullWidthImage.title}
         image={
-          images.childImageSharp  ? fullWidthImage.fullWidthImageDesktop : images
+          images   ?  images : fullWidthImage.fullWidthImageDesktop 
         }
       >
         <Row gutter={52} justify="center">

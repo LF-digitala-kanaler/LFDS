@@ -3,7 +3,7 @@ import style from './index.module.css'
 import Img from 'gatsby-image'
 
 const FullWidthBackground = ({ image, children, title }) => {
-  
+  console.log(image, 'im')
   
   return (
     <div className={style.FullWidthBackground}>
