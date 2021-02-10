@@ -20,14 +20,24 @@
   color: var(--color-black);
   display: block;
 }
+
 .Changelog ul {
   list-style-type: none;
   padding: 0 0 0 var(--spacing-unit);
   margin: 0 0 0 var(--spacing-unit);
 }
+
 .Changelog ul li {
   margin-bottom: var(--spacing-vertical--05)
 }
+
+.Changelog ul li a{
+  color: var(--color-black);
+}
+.Changelog h3 {
+  margin-bottom: var(--spacing-vertical--05)
+}
+
 .Changelog ul li::before {
   content: "\0025A0";  
   color: var(--color-blue); 
@@ -41,3 +51,4 @@
   top: -3px;
   margin-left: -18px;
 }
+
