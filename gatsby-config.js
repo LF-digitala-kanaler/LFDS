@@ -195,7 +195,6 @@ module.exports = {
           {
             resolve: 'gatsby-remark-external-links',
             options: {
-              target: '_target',
               rel: 'external nofollow noreferrer noopener',
             },
           },
@@ -254,7 +253,7 @@ module.exports = {
               destinationDir: 'static',
             },
           },
-          'gatsby-remark-transform-links-to-external', // Local modified plugin see ./plugin for source code
+         
         ],
       },
     },

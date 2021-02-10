@@ -56,12 +56,7 @@ shortcutsImage:
     title: Developer
 relatedLinks:
   - text: LFUI
-    url: https://lf-digitala-kanaler.github.io/LFUI-components/
+    url: https://lf-digitala-kanaler.github.io/LFUI-components/6.6.0/
   - text: Prototypes
     url: https://lf-digitala-kanaler.github.io/prototypes/
 ---
-**New designer at Länsförsäkringar?**
-
-We will get you started in no time. Here you will find guides and tips if you work with design, code or copy.
-
-[Let's get started](/foundations/getting-started)

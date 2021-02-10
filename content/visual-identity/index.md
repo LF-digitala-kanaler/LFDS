@@ -10,4 +10,5 @@ intro: This is a light version of Länsförsäkringars visual identity focusing 
 
 [The complete version at Röda rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)
 
+
 </div>
