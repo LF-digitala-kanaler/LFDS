@@ -2,10 +2,20 @@
 template: ArticlePage
 title: Deprecated
 intro: "This page lists components that have been tagged as deprecated in LFUI. What this means is that the component is no longer in use and should be removed and replaced by its substitute (which you can likely find in its respective page)."
-hidden: true
+
 ---
 
 <div class="Callout"><strong class="Callout__title">Note</strong><p class="Callout__text">The elements/components on this page may not have proper styling, should their styling has been removed from LFUI since being added to this page.</p></div>
+
+
+## Button outline secondary 
+- Marked as deprecated in 6.6.0
+
+`.btn-outline-secondary` was made deprecated in order to simplefy the use of buttons and remove redundant code. Use `'btn-secondary`instead. 
+
+<Lfuiwrapper>
+<button class="btn btn-outline-secondary">Click me</button>
+</Lfuiwrapper>
 
 ## Pagination-progress
 - Marked as deprecated in 5.3.0
@@ -77,7 +87,7 @@ This bold variant of our links has been deprecated as its usage was unclear and 
 ## Button outline primary
 - Marked as deprecated in 4.2.0
 
-This button has been removed in favor for our secondary buttons btn-outline-secondary, making our primary buttons always btn-primary and without variations.
+This button has been removed in favor for our secondary buttons btn-secondary, making our primary buttons always btn-primary and without variations.
 
 <Lfuiwrapper>
 <button class="btn btn-outline-primary">Click me</button>
