@@ -40,7 +40,7 @@ När BankID-signering används för att godkänna använder vi begreppet Signera
 
 Signera och godkänn
 
-### Mina sidor - error messages 
+### Web - error messages 
 
 #### bankid_error_expired_transaction:
 
