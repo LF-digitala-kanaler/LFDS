@@ -39,3 +39,57 @@ När BankID-signering används för att godkänna använder vi begreppet Signera
 **Text i knapp:**
 
 Signera och godkänn
+
+### Mina sidor - error messages 
+
+#### bankid_error_expired_transaction:
+
+Tiden rann ut – det tog för lång tid att öppna BankID-appen. Försök igen.
+
+#### bankid_error_user_cancel:
+
+Du valde att avbryta signeringen – det kanske var ett misstag? Försök igen eller välkommen tillbaka en annan gång.
+
+#### bankid_error_start_failed:
+
+Tiden rann ut – det tog för lång tid att signera. Försök igen.
+
+#### bankid_error_already_in_progress:
+
+För många signeringar samtidigt – vänta 5 minuter och testa sen igen.
+
+#### bankid_error_general:
+
+Tekniken är inte med oss just nu – vi är ledsna för det och jobbar med att lösa felet. Kom gärna tillbaka lite senare.
+
+### App - error messages
+
+#### bankid_error_expired_transaction:
+
+**Tiden rann ut**
+
+Det tog för lång tid att öppna BankID-appen. Försök igen.
+
+#### bankid_error_user_cancel:
+
+**Du valde att avbryta signeringen**
+
+Det kanske var ett misstag? Försök igen eller välkommen tillbaka en annan gång.
+
+#### bankid_error_start_failed:
+
+**Tiden rann ut**
+
+Det tog för lång tid att signera. Försök igen.
+
+#### bankid_error_already_in_progress:
+
+**För många signeringar samtidigt**
+
+Det verkar som du har flera signeringar igång. Vänta 5 minuter och testa sen igen.
+
+#### bankid_error_general:
+
+**Tekniken är inte med oss just nu**
+
+Vi är ledsna för det och jobbar med att lösa felet. Kom gärna tillbaka lite senare.
