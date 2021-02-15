@@ -624,13 +624,13 @@ Kan användas när du måste särskilja ut- och inlåningsränta. I andra fall �
 
 skrivs alltid med stort W och stort K. *Wasa Kredit AB*använder du bara när du måste av juridiska skäl.
 
-###### \*\*WK eller WKAB\*\*
+* ###### **WK eller WKAB**
 
 **NEJ**
 
 Skriv alltid ut *Wasa Kredit*.
 
-###### \*\*verkställande direktör\*\*
+* ###### **verkställande direktör**
 
 **JA**
 
