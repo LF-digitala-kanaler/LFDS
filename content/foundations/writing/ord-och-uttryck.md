@@ -27,121 +27,121 @@ Undvik att använda utan en förklaring. Skriv till exempel: *Råkar du ut för 
 
 * ###### **app**
 
-###### **JA**
+  ###### **JA**
 
 Förkortning för applikation. Vi skriver det som ett vanligt ord, alltså utan punkt efter.
 
 * ###### **avisera**
 
-###### **NEJ**
+  ###### **NEJ**
 
 Skriv istället *Skicka faktura/inbetalningskort*
 
 * ###### **avkastning**
 
-###### **NJA**
+  ###### **NJA**
 
 Det överskott eller underskott som ett sparande ger. I kommunikation med privatkunder undviker vi begreppet och pratar hellre om *värdeutveckling.*
 
 * ###### **avtalstid**
 
-###### **NJA**
+  ###### **NJA**
 
 Skriv hellre *gäller för perioden…*
 
 * ###### **avtalspension**
 
-###### **JA**
+  ###### **JA**
 
 Tjänstepension som grundas på kollektivavtal mellan arbetsgivaren och en facklig organisation kallar vi avtalspension. Jämför tjänstepension.
 
 * ###### **BankID**
 
-###### **JA**
+  ###### **JA**
 
 En form av e-legitimation och ett säkert sätt att legitimera dig på internet. Länsförsäkringar erbjuder BankID. Se även *mobilt BankID.*
 
 * ###### **boendeförsäkring**
 
-###### **JA**
+  ###### **JA**
 
 Samlingsbegrepp för hem-, villahem- och bostadsrättsförsäkringar. Används för att slippa räkna upp produktnamnen.
 
 * ###### **bostadsrättshavare**
 
-###### **NJA**
+  ###### **NJA**
 
 Undvik ordet och skriv istället *bostadsrättsinnehavare* som används i dagligt tal.
 
 * ###### **bokföringsdag**
 
-###### **JA**
+  ###### **JA**
 
 Den dag betalningen registreras hos mottagarens bank.
 
 * ###### **driftskostnader**
 
-###### **JA**
+  ###### **JA**
 
 Kostnader för vår administration, IT, försäljning med mera som belastar våra produkter. I samband med till exempel lån används begreppet för att beskriva kundens driftskostnad för boendet.
 
 * ###### **drulleförsäkring**
 
-###### NEJ
+  ###### NEJ
 
 Använd aldrig. Ordet skapar förvirring om vi menar ansvar- eller allriskförsäkring, som är helt olika försäkringar.
 
 * ###### **effektiv ränta**
 
-###### **JA**
+  ###### **JA**
 
 Totalkostnaden för ett lån när både räntor och avgifter summerats ihop.
 
 * ###### **e-faktura**
 
-###### **JA**
+  ###### **JA**
 
 Faktura som skickas till internetbanken där kontohavaren godkänner den för betalning.
 
 * ###### **e-legitimation**
 
-###### **JA**
+  ###### **JA**
 
 En elektronisk legitimation som du använder på internet för att legitimera dig eller underteckna elektroniska dokument. Jämför BankID.
 
 * ###### **e-post**
 
-###### **JA**
+  ###### **JA**
 
 Vi skriver på svenska och använder inte e-mail (se mejl). Skriv *skicka e-post*eller *mejla*, aldrig *e-posta*.
 
 * ###### **erhålla**
 
-###### **NEJ**
+  ###### **NEJ**
 
 Skriv istället *få*.
 
 * ###### **erlägga**
 
-###### **NEJ**
+  ###### **NEJ**
 
 Skriv istället *betala*.
 
 * ###### **ersättning, ersätta**
 
-###### **NJA**
+  ###### **NJA**
 
 Tänk på att inte använda ordet vid dödsfall. Skriv inte *Vi ersätter dödsfall med ett prisbasbelopp*. Skriv istället *Vid dödsfall betalar vi ut ett prisbasbelopp*.
 
 * ###### **ersättning utgår**
 
-###### **NEJ**
+  ###### **NEJ**
 
 Skriv istället *Vi betalar ersättning*
 
 * ###### **Ett KUND, Ett LIV, Ett SAK**
 
-###### **NJA**
+  ###### **NJA**
 
 Används enbart internt. Kom ihåg mellanslag och de stora bokstäverna.
 
@@ -153,61 +153,61 @@ Använd faktura istället för avisering.
 
 * ###### **fordon**
 
-###### **NJA**
+  ###### **NJA**
 
 Samlingsbegrepp – om det är möjligt, skriv istället *bil, lastbil, moped* etc.
 
 * ###### **fullvärde**
 
-###### **NJA**
+  ###### **NJA**
 
 Förklara alltid begreppet. Skriv till exempel *Försäkringen gäller med fullvärde. Vi betalar vad det kostar att återställa byggnaden och det finns inget högsta ersättningsbelopp.*
 
 * ###### **föranleda**
 
-###### **NEJ**
+  ###### **NEJ**
 
 Skriv istället *orsaka*.
 
 * ###### **föreligga**
 
-**NEJ**
+  ###### **NEJ**
 
 Skriv istället *finns* eller *vara.*
 
 * ###### **förfallodag**
 
-**NJA**
+  ###### **NJA**
 
 Skriv gärna om i löpande text. Till exempel *Försäkringen ska betalas …, Försäkringen slutar gälla …*
 
 * ###### **förmånstagare**
 
-**NJA**
+  ###### **NJA**
 
 Den som försäkringsbeloppet betalas ut till vid den försäkrades dödsfall. Förklara alltid begreppet.
 
 * ###### **försäkrad**
 
-**NJA**
+  ###### **NJA**
 
 Den person försäkringen gäller för. Jämför försäkringstagare. I kundhandlingar tilltalar vi kunden med du så långt det är möjligt och undviker ordet försäkrad.
 
 * ###### **försäkringsgivare**
 
-**NJA**
+  ###### **NJA**
 
 Det bolag som ingått avtalet med försäkringstagaren. Undvik begreppet om det inte måste vara med.
 
 * ###### **försäkringskapital**
 
-**NJA**
+  ###### **NJA**
 
 Undvik att skriva försäkringskapital till kunder och skriv istället värdet på ditt sparande.
 
 * ###### **försäkringspremie**
 
-**NJA**
+  ###### **NJA**
 
 Se premie.
 
@@ -327,7 +327,7 @@ Den dag insatta pengar finns tillgängliga på kontot.
 
 * ###### **konsolidering**
 
-###### **NJA**
+  ###### **NJA**
 
 Undvik att använda begreppet i kommunikationen med våra kunder.
 
@@ -339,7 +339,7 @@ Skrivs med litet k inne i meningar. Formellt heter det *länsförsäkringsbolage
 
 * ###### **kund**
 
-**JA**
+  ###### **JA**
 
 Huvudprincipen är att vi skriver du när vi skriver till våra kunder. Vi kallar alltså inte kunden för kunden i direkt tilltal. När vi i andra sammanhang beskriver kunderna utan att tala direkt till dem använder vi inte ordet i obestämd form singularis.
 
@@ -416,12 +416,14 @@ Vi använder make både för män och kvinnor. I plural skriver vi makar. Begrep
 
   ###### **JA**
 
-  * **Mina sidor**\
-    **JA**
+  Vi har svensk stavning och skriver inte mail.
 
-  Våra tjänster på internet som kräver inloggning. Både bank, fond, liv och sak. Skrivs med stort M inne i meningar.
 
-Vi har svensk stavning och skriver inte mail.
+* MINA SIDOR
+
+  **JA**
+
+Våra tjänster på internet som kräver inloggning. Både bank, fond, liv och sak. Skrivs med stort M inne i meningar.
 
 * ###### **mms**
 
@@ -600,7 +602,7 @@ Tjänstepensionen kompletterar den allmänna pensionen och betalas in av arbetsg
 
 * ###### **underförsäkrad**
 
-**NJA**
+  ###### **NJA**
 
 Undvik begreppet eller förklara vad det innebär för kunden att inte ha rätt värde på sina saker i försäkringen.
 
@@ -608,13 +610,13 @@ Skriv till exempel:*Om värdet på dina saker i hemmet är 500 000 kronor och du
 
 * ###### **utbetala**
 
-**NEJ**
+  ###### **NEJ**
 
 Skriv istället *betala.*
 
 * ###### **utlåningsränta**
 
-**NJA**
+  ###### **NJA**
 
 Kan användas när du måste särskilja ut- och inlåningsränta. I andra fall – använd helst ordet*ränta.*
 
@@ -626,54 +628,54 @@ skrivs alltid med stort W och stort K. *Wasa Kredit AB*använder du bara när du
 
 * ###### **WK eller WKAB**
 
-**NEJ**
+  ###### **NEJ**
 
 Skriv alltid ut *Wasa Kredit*.
 
 * ###### **verkställande direktör**
 
-**JA**
+  ###### **JA**
 
 Skrivs med litet v och d inne i meningar. Förkortat skriver vi *vd* och pluralform skriver vi *vd:ar*, med kolon.
 
-###### \*\*villahemförsäkring\*\*
+* ###### **villahemförsäkring**
 
-**JA**
+  **JA**
 
 Vi skriver alltid *villahemförsäkring* i ett ord.
 
-###### \*\*vållande\*\*
+* ###### **vållande**
 
-**NJA**
+  ###### **NJA**
 
 Skriv hellre *ansvarig*.
 
-###### \*\*webbplats\*\*
+* ###### **webbplats**
 
-**JA**
+  **JA**
 
 Vi skriver webbplats och inte hemsida.
 
-###### \*\*återbetalningsskydd\*\*
+* ###### **återbetalningsskydd**
 
-**JA**
+  ###### **JA**
 
 Ett skydd som innebär att hela eller en del av försäkringskapitalet betalas ut till förmånstagare vid den försäkrades död.
 
-###### \*\*återbäringsränta\*\*
+* ###### **återbäringsränta**
 
-**JA**
+  ###### **JA**
 
 Ränta på sparande i traditionell förvaltning.
 
-###### \*\*åligga, det åligger försäkringstagaren\*\*
+* ###### **åligga, det åligger försäkringstagaren**
 
-**​NEJ**
+  ###### **​NEJ**
 
 Skriv istället det är ditt ansvar...
 
-###### \*\*återköp\*\*
+* ###### **återköp**
 
-**​JA**
+  ###### **JA**
 
 Använd tillsammans med förklaring. Skriv till exempel: *Återköp innebär att sparandet tas ut från försäkringen tidigare än det vi kommit överens om.*
