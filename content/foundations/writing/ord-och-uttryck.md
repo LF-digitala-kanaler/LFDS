@@ -514,91 +514,91 @@ Den som betalar in pengar till försäkringen. Skriv istället*inbetalare* eller
 
 Använd *betalningsbefrielse* istället men gärna tillsammans med en förklaring. Skriv till exempel: *Länsförsäkringar betalar din försäkring om du blir sjuk eller …*
 
-* ##### **PRESKRIPTION, PRESKRIPTIONSTID**
+* **PRESKRIPTION, PRESKRIPTIONSTID**
 
   **NJA**
 
 Använd alltid med en förklaring.
 
-###### \*\*prorata/proratareglering\*\*
+* ###### **prorata/proratareglering**
 
 **NEJ**
 
 Ersättning i förhållande till inbetald premie vid underförsäkring. Använd inte begreppet utan förklara hur vi räknat ut ersättningen.
 
-###### \*\*sambo\*\*
+* ###### **SAMBO**
 
 **JA**
 
 Begrepp som vi använder för sammanboende som inte lever i äktenskap.
 
-###### \*\*sajt\*\*
+* **SAJT**
 
-**JA**
+  **JA**
 
 Skrivs och stavas på svenska.
 
-###### \*\*sak\*\*
+* **SAK**
 
-**NEJ**
+  **NEJ**
 
 Ska alltid benämnas *sakförsäkring.*
 
-###### \*\*självrisk\*\*
+* ###### **SJÄLVRISK**
 
 **JA**
 
 Den del av skadekostnaden som försäkringstagaren själv får stå för. Det finns många begrepp, till exempel: *självrisk, rörlig självrisk, fast självrisk, grundsjälvrisk, förhöjd självrisk, särskild självrisk.*
 
-###### \*\*skattekategori\*\*
+* **SKATTEKATEGORI**
 
-**NEJ**
+  **NEJ**
 
 Skriv istället *din försäkring beskattas som…*
 
-###### \*\*sms\*\*
+* ###### **SMS**
 
 **JA**
 
 Skriv alltid med med små bokstäver.
 
-###### \*\*soliditet\*\*
+* ###### **SOLIDITET**
 
 **NJA**
 
 Ska endast användas i ekonomiska rapporter. Undvik ordet i all kommunikation med kunderna.
 
-###### \*\*solvens\*\*
+* **SOLVENS**
 
-**NJA**
+  **NJA**
 
 Ska endast användas i ekonomiska rapporter och undviks i all kommunikation med kunderna.
 
-###### \*\*stöldbegärlig egendom\*\*
+* ###### **stöldbegärlig egendom**
 
-**NJA**
+  **NJA**
 
 Saker som är särskilt utsatta för för stöld. Till exempel smycken, konst, datorer, kameror, vapen, vin och sprit. När det är möjligt ge gärna exempel.
 
-###### \*\*teckna\*\*
+* ###### **teckna**
 
 **NJA**
 
 Undvik att säga teckna försäkring, skriv istället om meningen för att undvika begreppet. Andra ord kan vara köpa, välja eller ansöka.
 
-###### \*\*Telefonbank\*\*
+* ###### **Telefonbank**
 
-**JA**
+  **JA**
 
 Våra banktjänster på telefon. Skrivs alltid med stort T.
 
-###### \*\*tjänstepension\*\*
+* ###### **tjänstepension**
 
 **JA**
 
 Tjänstepensionen kompletterar den allmänna pensionen och betalas in av arbetsgivaren. Jämför *avtalspension.*
 
-###### \*\*underförsäkrad\*\*
+* ###### **underförsäkrad**
 
 **NJA**
 
@@ -606,21 +606,21 @@ Undvik begreppet eller förklara vad det innebär för kunden att inte ha rätt 
 
 Skriv till exempel:*Om värdet på dina saker i hemmet är 500 000 kronor och du köper en försäkring på 250 000 kronor innebär det att du bara får ut hälften av sakernas värde om du till exempel får ett inbrott.*
 
-###### \*\*utbetala\*\*
+* ###### **utbetala**
 
 **NEJ**
 
 Skriv istället *betala.*
 
-###### \*\*utlåningsränta\*\*
+* ###### **utlåningsränta**
 
 **NJA**
 
 Kan användas när du måste särskilja ut- och inlåningsränta. I andra fall – använd helst ordet*ränta.*
 
-###### \*\*Wasa Kredit\*\*
+* ###### **Wasa Kredit**
 
-**JA**
+  **JA**
 
 skrivs alltid med stort W och stort K. *Wasa Kredit AB*använder du bara när du måste av juridiska skäl.
 
