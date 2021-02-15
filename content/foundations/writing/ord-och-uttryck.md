@@ -13,7 +13,7 @@ description: ""
 contentTop: ""
 lang: true
 ---
-* ###### **Agria Djurförsäkring**
+###### **Agria Djurförsäkring**
 
 ###### **JA**
 
@@ -325,7 +325,7 @@ Undvik helst att använda begreppet kasko. Använd *halvförsäkring* om det är
 
 Den dag insatta pengar finns tillgängliga på kontot.
 
-###### **konsolidering**
+* ###### **konsolidering**
 
 ###### **NJA**
 
@@ -407,7 +407,8 @@ Undvik helst att använda begreppet. Skriv till exempel vilka saker det gäller.
 
 Vi använder make både för män och kvinnor. I plural skriver vi makar. Begreppet maka ska vi inte använda.
 
-* **Mina sidor**\
+* **MINA SIDOR**
+
   **JA**
 
   Våra tjänster på internet som kräver inloggning. Både bank, fond, liv och sak. Skrivs med stort M inne i meningar.
@@ -440,81 +441,82 @@ Skriv alltid *skicka sms* eller *skicka mms*.
 
 En mobil e-legitimation och ett säkert sätt att legitimera dig på internet. Se även *BankID*.
 
-* ###### **mobiltjänst**
+* **MOBILTJÄNST**
 
   **JA**
 
 Internettjänst anpassad för mobiltelefoner, exempel är Iphone-app eller Android-app.
 
-###### \*\*nyteckning\*\*
+* **NYTECKNING**
 
-**NJA**
+  **NJA**
 
 Undvik i kommunikation med kunderna. Skriv istället *Du har köpt en ny försäkring…*
 
-###### \*\*obetald premie\*\*
+* **OBETALD PREMIE**
 
-**NJA**
+  **NJA**
 
 Skriv istället *Fakturan är inte betald*.
 
-###### **partner**\
+* ###### **partner**
 
 **NJA**
 
 Begrepp vi ska undvika att skriva annat än i villkor. Inga nya partnerskap ingås sedan 2009, då äktenskapslagen blev könsneutral.
 
-###### \*\*pensionskapital\*\*
+* **PENSIONSKAPITAL**
 
 **NEJ**
 
 Använd inte ordet. Se *försäkringskapital.*
 
-###### \*\*personal\*\*
+* **PERSONAL**
 
 **JA**
 
 Undvik helst. Skriv istället *medarbetare*.
 
-###### \*\*personbilsförsäkring\*\*
+* **PERSONBILSFÖRSÄKRING**
 
 **NEJ**
 
 Använd bilförsäkring istället. Då blir vi konsekventa och säger samma sak till våra privat- och företagskunder.
 
-###### \*\*personuppgiftslagen\*\*
+* **PERSONUPPGIFTSLAGEN**
 
 **JA**
 
-Lag som reglerar hur personuppgifter får behandlas av företag, organisationer och myndigheter. I en text måste du alltid skriva ut *personuppgiftslagen* första gången. Därefter kan du förkorta till *PuL*.
+Lag som reglerar hur personuppgifter får behandlas av företag, organisationer och myndigheter. I en text måste du alltid skriva ut *personuppgiftslagen* första gången. Därefter kan du förkorta till *PuL*.\
+(DENNA BORDE UPPDATERAS MED GDPR?)
 
-###### \*\*pinkod\*\*
+* **PINKOD**
 
 **JA**
 
 Skrivs med små bokstäver och utan bindestreck.
 
-###### \*\*premie\*\*
+* **PREMIE**
 
 **NJA**
 
 Undvik att använda *premie*om du kan. Skriv hellre *pris, inbetalning, sparande.*
 
-###### \*\*premiebetalare\*\*
+* ###### **PREMIEBETALARE**
 
 **NJA**
 
 Den som betalar in pengar till försäkringen. Skriv istället*inbetalare* eller *betalare.*
 
-###### \*\*premiebefrielse\*\*
+* **PREMIEBEFRIELSE**
 
-**NEJ**
+  **NEJ**
 
 Använd *betalningsbefrielse* istället men gärna tillsammans med en förklaring. Skriv till exempel: *Länsförsäkringar betalar din försäkring om du blir sjuk eller …*
 
-###### \*\*preskription, preskriptionstid\*\*
+* ##### **PRESKRIPTION, PRESKRIPTIONSTID**
 
-**NJA**
+  **NJA**
 
 Använd alltid med en förklaring.
 
