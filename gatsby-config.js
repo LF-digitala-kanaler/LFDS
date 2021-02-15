@@ -163,6 +163,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
 
       options: {
+        pedantic: false,
         plugins: [
           // gatsby-remark-relative-images must
           // go before gatsby-remark-images
