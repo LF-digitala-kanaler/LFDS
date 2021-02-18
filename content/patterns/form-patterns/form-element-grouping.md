@@ -6,10 +6,10 @@ intro: Describes how to group input elements, labels and input descriptions as
   well as how error messages should be handled.
 description: Describes how to group input elements, labels and input
   descriptions as well as how error messages should be handled.
+contentTop: ""
 wide: false
 lang: false
 hidden: false
-contentTop: ""
 ---
 Our various [input elements](/components/web/forms/) (such as [input fields](/components/web/forms/input-field), [dropdowns](/components/web/forms/dropdown), etc) are all grouped together with labels and input descriptions in the same manner. Error messages for forms are also part of the form element grouping and are thus also described on this page. If you're looking for information on how to design a form, please refer to [Form layout](form-layout).
 
@@ -17,7 +17,7 @@ Below is an example of how form elements should be grouped, with the [label](/co
 
 The three form elements should be used as follows:
 
-* The **label** should tell the user what they are expected to enter in the form element at hand. Typical examples are "Personnummer" and "E-post".
+* The **label** should tell the user what they are expected to enter in the form element at hand. Typical examples are "Personnummer" and "E-post". Copy for labels is found under each component under [Forms](https://lf-digitala-kanaler.github.io/components/web/forms).
 * The **input element** can feature a placeholder text. The placeholder text should be used to give an example of expected format if there are limitations on how to write them (examples can be found under the copy-tab of the element, like here on[ input field](/components/web/forms/input-field?copy)).
 * **Input descriptions** are used when we need/want to give further explanation or instructions to the user. They should also be kept short and not span more than two rows. An example is "Lämna fältet tomt om namnet inte är bestämt" from the [purchase flow for kid insurance](https://www.lansforsakringar.se/stockholm/privat/forsakring/personforsakring/gravidforsakring/ansok/).
 

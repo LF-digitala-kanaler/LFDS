@@ -2,11 +2,11 @@
 template: ArticlePage
 category: Form patterns
 title: Form validation
-contentTop: ""
 intro: Initial form validation at Länsförsäkringar is done as the user submits a
   form page. If there are any errors the user is automatically scrolled to the
   topmost error. As the user starts to correct errors they get immediate
   feedback on their progress.
+contentTop: ""
 ---
 The rules for form validation are based on a combination of academic research and our own user testing. Our review of academic research on form validation found that there are two general patterns which outperform others when user experience, completion time and amount of errors. When these two patterns were tested on LFUI-styled design we found that users preferred and expected the following pattern (also see [Technical implementation](#technical-implementation) below if you're a developer):
 
@@ -22,8 +22,6 @@ The rules for form validation are based on a combination of academic research an
 <LfuiWrapper script="var form = document.getElementById('needs-validation');         var pristine = new Pristine(form);      form.addEventListener('submit', function (e) {        e.preventDefault();                       var valid = pristine.validate();       });">
 
 <form id="needs-validation" novalidate>
-
-
 
 <div class="row">
 <div class="col-md-6">
@@ -70,3 +68,7 @@ As the technical implementation of form validation differs a bit from how the us
 * An exception to the two points above is when an input field asks for a value with a specific length (i.e personnummer, registreringsnummer). Upon reaching the specific length, the value can be validated before the user leaves the field. Never before reaching the specific length, though.
 * Seeing if all required input fields have been filled out at all is controlled when clicking the submit button.
 * If a field has a validation error due to the point above (that is, not having a value at all), the validation error message is removed when the user begins to fill out the input field. Validation then follows the "regular" validation.
+
+## Copy
+
+Copy for validation is found under [labels](https://lf-digitala-kanaler.github.io/components/web/forms/input-field?copy)

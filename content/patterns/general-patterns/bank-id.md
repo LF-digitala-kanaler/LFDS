@@ -20,6 +20,8 @@ När BankID-legitimeringen sker för att identifiera användaren använder vi be
 
 Legitimera dig
 
+### Primary button with text beside button
+
 #### BankID behövs senare
 
 Om en legitimering eller signering behövs senare i flödet vill vi förvarna användaren om att BankID kommer att behövas.
@@ -31,6 +33,8 @@ Du kommer att behöva BankID
 **Text i knapp:**
 
 Gå vidare
+
+### Primary button
 
 #### Steget där du signerar
 
