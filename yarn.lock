@@ -10106,7 +10106,7 @@ levn@^0.3.0, levn@~0.3.0:
 
 "lfui-components@git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#release/6.6.0":
   version "6.6.0"
-  resolved "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#f8e3a83d8042a3f01ca5f55d157e3c558102b59a"
+  resolved "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#1bfda3c9acc87a5e6cd55944b99619f44774189e"
   dependencies:
     bootstrap "4.3.1"
     eonasdan-custom-bootstrap-datetimepicker-with-bootstrap-4 "^1.0.0"
