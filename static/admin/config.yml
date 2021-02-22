@@ -580,8 +580,8 @@ collections: # A list of collections the CMS should be able to edi
                 fields:
                 - {label: 'Title', name: 'title', widget: 'string'}
                 - {label: 'Text', name: 'text', widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']}
-                - label: "Roles"
-                  name: "roles"
+                - label: "Tags"
+                  name: "tags"
                   widget: "select"
                   multiple: true
                   min: 1

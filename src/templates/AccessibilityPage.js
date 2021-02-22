@@ -11,7 +11,8 @@ const AccessibilityPage = ({ data: { page }, location }) => {
     title: page.frontmatter.title,
     location: location,
   }
-  
+  const roles = ["All roles", "Art director", "Developer", "Tester", "UX designer"]
+  console.log(page.frontmatter.checklist)
   return (
     <Layout
       description={page.frontmatter.intro || false}
@@ -23,11 +24,10 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         {...page}
         {...page.frontmatter}
         heroBlock={page.frontmatter.heroBlock}
-        bodyHtml={page.htmlAst}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
-        contentTop={page.frontmatter.contentTop
-         }
+        tags = {roles}
+        
       />
     </Layout>
   )
@@ -53,7 +53,7 @@ export const pageQuery = graphql`
           checklistList {
             title
             text
-            roles
+            tags
           }
         }
         heroBlock {

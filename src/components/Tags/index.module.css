@@ -1,0 +1,18 @@
+.Tags {
+  overflow: hidden;
+}
+
+.Tags_list {
+  list-style-type: none;
+  display: flex;
+  margin: 0 -8px;
+  padding: 0;
+}
+
+.Tags_item {
+  color: var(--color-black);
+  background-color: #EFF4F9;
+  padding: 16px 16px;
+  border-radius: 32px;
+  margin: 0 8px;
+}
