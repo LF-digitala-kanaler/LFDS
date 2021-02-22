@@ -12,7 +12,7 @@ const AccessibilityPage = ({ data: { page }, location }) => {
     location: location,
   }
   const roles = ["All roles", "Art director", "Developer", "Tester", "UX designer"]
-  console.log(page.frontmatter.checklist)
+  
   return (
     <Layout
       description={page.frontmatter.intro || false}
@@ -26,7 +26,7 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         heroBlock={page.frontmatter.heroBlock}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
-        tags = {roles}
+        checklist={page.frontmatter.checklist}
         
       />
     </Layout>

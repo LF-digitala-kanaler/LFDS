@@ -19,7 +19,7 @@ checklist:
           diarienummer, blankettnummer eller liknande. Om artikel- eller
           blankettnumren är kända hos användarna bör de dock vara en del av
           filnamnet.
-      - roles:
+      - tags:
           - All roles
         title: Erbjud möjlighet att backa
         text: Hjälp dina användare när det blir fel. Det måste vara tydligt för
