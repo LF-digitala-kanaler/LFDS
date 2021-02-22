@@ -567,6 +567,27 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false} 
+          - name: 'checklist'
+            label: 'Checklist'
+            label_singular: 'item'
+            widget: 'list'
+            fields:
+              - {label: 'Section', name: 'section', widget: 'string'}
+              - name: 'checklistList'
+                label: 'ChecklistList'
+                label_singular: 'item'
+                widget: 'list'
+                fields:
+                - {label: 'Title', name: 'title', widget: 'string'}
+                - {label: 'Text', name: 'text', widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']}
+                - label: "Roles"
+                  name: "roles"
+                  widget: "select"
+                  multiple: true
+                  min: 1
+                  max: 5
+                  options: ["All roles", "Art director", "Developer", "Tester", "UX designer"]
+                  default: ["All roles"]
           - label: Hero block
             name: heroBlock
             widget: object
@@ -583,21 +604,6 @@ collections: # A list of collections the CMS should be able to edi
             - { label: Image, name: image, widget: image, required: false }
             - { label: Quote, name: quote, widget: text, required: false }
             - { label: Cite, name: cite, widget: string, required: false }
-            - name: 'checklist'
-              label: 'Checklist'
-              label_singular: 'item'
-              widget: 'list'
-              fields:
-                - { label: 'Title', name: 'title', widget: 'string'}
-                - { label: 'Text', name: 'text', widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']  }
-                - label: "Roles"
-                  name: "roles"
-                  widget: "select"
-                  multiple: true
-                  min: 1
-                  max: 5
-                  options: ["All roles", "Art director", "Developer", "Tester", "UX designer"]
-                  default: ["All roles"]
             - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block']  }
                 
 

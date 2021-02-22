@@ -49,9 +49,12 @@ export const pageQuery = graphql`
         category
         wide
         checklist {
-          title
-          text
-          roles
+          section
+          checklistList {
+            title
+            text
+            roles
+          }
         }
         heroBlock {
           color

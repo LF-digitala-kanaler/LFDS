@@ -5,9 +5,11 @@ previewImage: /img/accessibility_nobg.svg
 title: Web accessibility guidelines
 description: Här går vi igenom punkt för punkt vad de betyder för Länsförsäkringar att följa checklistorna.
 checklist:
-  - title: tst
-  - text: test
-  - roles: "All Roles"
+  - section: tst
+  - checklistList:
+    - title: test
+    - text: tet
+    - roles: "All Roles"
 ---
 
 
