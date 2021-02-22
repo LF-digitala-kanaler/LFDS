@@ -3,11 +3,31 @@ template: AccessibilityPage
 category: Accessibility
 previewImage: /img/accessibility_nobg.svg
 title: Web accessibility guidelines
-description: Här går vi igenom punkt för punkt vad de betyder för Länsförsäkringar att följa checklistorna.
+intro: Intro
+description: Här går vi igenom punkt för punkt vad de betyder för
+  Länsförsäkringar att följa checklistorna.
 checklist:
   - title: tst
-  - text: test
-  - roles: "All Roles"
+    section: Layout
+    checklistList:
+      - roles:
+          - All roles
+        title: Se till att nedladdningsbara dokument har tydliga filnamn
+        text: Se till att dokument du länkar till har så tydliga filnamn att man förstår
+          av filnamnet vad dokumentet innehåller. Använd inte interna arbetsnamn
+          som filnamn. Undvik att döpa dokument efter artikelnummer,
+          diarienummer, blankettnummer eller liknande. Om artikel- eller
+          blankettnumren är kända hos användarna bör de dock vara en del av
+          filnamnet.
+      - roles:
+          - All roles
+        title: Erbjud möjlighet att backa
+        text: Hjälp dina användare när det blir fel. Det måste vara tydligt för
+          användaren var felet finns och felet behöver beskrivas med text.
+          Välformulerade felmeddelanden ger användarna möjlighet att fylla i så
+          felfria data som möjligt i formulären. De minskar också risken för att
+          användarna ska bli irriterade när systemet inte förstår eller kan
+          tolka den felaktigt inmatade informationen
 ---
 
 
