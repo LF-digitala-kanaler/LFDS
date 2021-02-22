@@ -9,6 +9,7 @@ import ChangelogPageTemplate from '../templates/ChangelogPageTemplate'
 import LandingPageTemplate from '../templates/LandingPageTemplate'
 import ArticlePageTemplate from '../templates/ArticlePageTemplate'
 import IconsTemplate from '../templates/IconsTemplate'
+import AccessibilityPageTemplate from '../templates/AccessibilityPageTemplate'
 
 import LFDSImage from './widgets/image'
 import Callout from './widgets/callout'
@@ -83,6 +84,13 @@ CMS.registerPreviewTemplate('visual-identity-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('changelog-page', ({ entry }) => (
   <ChangelogPageTemplate
+    componentsLinks={null}
+    componentNavigation={null}
+    {...entry.toJS().data}
+  />
+))
+CMS.registerPreviewTemplate('accessibility-page', ({ entry }) => (
+  <AccessibilityPageTemplate
     componentsLinks={null}
     componentNavigation={null}
     {...entry.toJS().data}

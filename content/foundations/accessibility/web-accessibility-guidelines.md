@@ -1,17 +1,11 @@
 ---
-template: ArticlePage
+template: AccessibilityPage
 category: Accessibility
 previewImage: /img/accessibility_nobg.svg
-title: Webbtillgänglighet förklaringar checklistan
-intro: Här går vi igenom punkt för punkt vad de betyder, för Länsförsäkringar,
-  att följa checklistorna.
+title: Web accessibility guidelines
 description: Här går vi igenom punkt för punkt vad de betyder för
   Länsförsäkringar att följa checklistorna.
-lang: true
-contentTop: ""
 ---
-<figure class="Image Image__border Image__wide"><img src="/img/checklistor-wcag.jpg" srcset="/img/checklistor-wcag.jpg 2x" alt="Checklistor för de olika yrkesrollerna"><figcaption><div class="Image__caption"></div></figcaption></figure>
-
 
 
 * [Layout och bilder](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#layout-och-bilder)
