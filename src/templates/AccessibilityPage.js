@@ -48,6 +48,11 @@ export const pageQuery = graphql`
         template
         category
         wide
+        checklist {
+          title
+          text
+          roles
+        }
         heroBlock {
           color
           quote

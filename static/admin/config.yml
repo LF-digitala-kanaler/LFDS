@@ -583,7 +583,22 @@ collections: # A list of collections the CMS should be able to edi
             - { label: Image, name: image, widget: image, required: false }
             - { label: Quote, name: quote, widget: text, required: false }
             - { label: Cite, name: cite, widget: string, required: false }
-          - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
+            - name: 'checklist'
+              label: 'Checklist'
+              label_singular: 'item'
+              widget: 'list'
+              fields:
+                - { label: 'Title', name: 'title', widget: 'string'}
+                - { label: 'Text', name: 'text', widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']  }
+                - label: "Roles"
+                  name: "roles"
+                  widget: "select"
+                  multiple: true
+                  min: 1
+                  max: 5
+                  options: ["All roles", "Art director", "Developer", "Tester", "UX designer"]
+                  default: ["All roles"]
+            - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block']  }
                 
 
   - name: 'settings'
