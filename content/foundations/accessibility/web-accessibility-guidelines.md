@@ -56,10 +56,10 @@ checklist:
           - Developer
         title: 2.01 - Write simple, short and clear copy
         text: >-
-          **Copy should be written in a simple, short and clear manner. All
+          Copy should be written in a simple, short and clear manner. All
           users should be able to understand it, so make sure to check the
           readability of the text. Complement the text with appropriate
-          images.**
+          images.
 
 
           You can also create checklists, bullet points or tables to break up and organize the text.\

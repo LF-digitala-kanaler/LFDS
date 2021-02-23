@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
@@ -7,6 +7,7 @@ import HeroBlock from '../components/HeroBlock'
 
 import Tags from '../components/Tags'
 import Collapse from '../components/Collapse'
+import Filter from '../components/Filter'
 
 const AccessibilityPageTemplate = ({
   title,
@@ -15,20 +16,30 @@ const AccessibilityPageTemplate = ({
   heroBlock,
   wrapperWidth,
   checklist
-}) => (
+}) => {
+  const [list, setList] = useState(checklist)
+  const [activeRole, setRole] = useState('All roles')
+  const roles = ["All roles", "Art director", "Developer", "Tester", "UX designer"]
+  const handleChildClick = (index) => {
+    setList(checklist)
+    setRole(roles[index])
+  }
+  console.log(activeRole, checklist)
+  return (
   <>
+    
     <Wrapper tag="div" menu={true} narrow>
       <Heading tag={1} text={title} align={'left'} />
       <Preamble text={intro} tag="p" align={'left'} />
+      <Filter items={roles} onChildClick={handleChildClick}  />
       {
         checklist.map((item,index) => {
-          console.log(item)
+          
           return (
             <div key={index}>
               <Heading tag={2} text={item.section} align={'left'} />
-              {item.checklistList.map((child) => {
-                console.log(child.tags, 'ch')
-                return (<Collapse title={child.title}>
+              {item.checklistList.map((child, index) => {
+                return (<Collapse key={index} title={child.title}>
                   {child.text}
                   <Tags items={child.tags} />
                 </Collapse> )
@@ -37,7 +48,6 @@ const AccessibilityPageTemplate = ({
           )
         })
       }
-      {/* <Tags items={tags} /> */}
     </Wrapper>
     
     {heroBlock && (
@@ -60,6 +70,8 @@ const AccessibilityPageTemplate = ({
       
     </Wrapper>
   </>
-)
+  )
+}
+
 
 export default AccessibilityPageTemplate

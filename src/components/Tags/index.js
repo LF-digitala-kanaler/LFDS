@@ -4,14 +4,14 @@ import style from './index.module.css'
 const Tags = (items) => {
   
   
-  const listItems = [...items].map((item, index) => <li className={style.Tags_item} key={index}>{item}</li>);
+  const listItems = [...items.items].map((item, index) => <li className={style.Tags__item} key={index}>{item}</li>);
   
   return (
-    <nav className={style.Tags}>
-      <ul className={style.Tags_list}>
+    <div className={style.Tags}>
+      <ul className={style.Tags__list}>
         {listItems}
     </ul>
-    </nav>
+    </div>
   )
 }
 

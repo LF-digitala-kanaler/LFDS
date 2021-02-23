@@ -6,12 +6,15 @@ import AccessibilityPageTemplate from './AccessibilityPageTemplate.js'
 
 
 const AccessibilityPage = ({ data: { page }, location }) => {
+  
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
     location: location,
   }
-  const roles = ["All roles", "Art director", "Developer", "Tester", "UX designer"]
+  
+  
+  
   
   return (
     <Layout
@@ -27,7 +30,6 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
         checklist={page.frontmatter.checklist}
-        
       />
     </Layout>
   )

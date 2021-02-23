@@ -1,15 +1,16 @@
 .Tags {
   overflow: hidden;
+
 }
 
-.Tags_list {
+.Tags__list {
   list-style-type: none;
   display: flex;
   margin: 0 -8px;
-  padding: 0;
+  padding: var(--spacing-vertical--1) 0 0;
 }
 
-.Tags_item {
+.Tags__item {
   color: var(--color-black);
   background-color: #EFF4F9;
   padding: 16px 16px;

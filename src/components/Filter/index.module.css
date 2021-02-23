@@ -1,0 +1,27 @@
+.Filter {
+  overflow: hidden;
+  display: flex;
+  margin: 0;
+}
+
+.Filter__title {
+  font-weight: var(--font-weight-bold);
+}
+
+.Filter__item {
+  margin: 0 var(--spacing-unit) var(--spacing-unit) 0;
+}
+
+.Filter__button {
+  background: transparent;
+  font-weight: var(--font-weight-bold);
+  padding: var(--spacing-sm);
+  border-radius: 0;
+  border: 2px solid transparent;
+  cursor: pointer;
+  outline: 0;
+}
+
+.Filter__button--isActive{
+  border: 2px solid var(--color-black);
+}
