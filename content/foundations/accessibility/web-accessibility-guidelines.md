@@ -396,7 +396,6 @@ checklist:
     checklistList:
       - tags:
           - All roles
-          - Developer
         title: 2.01 - Write simple, short and clear copy
         text: >-
           Copy should be written in a simple, short and clear manner. All users
@@ -407,9 +406,21 @@ checklist:
           You can also create checklists, bullet points or tables to break up and organize the text.\
 
           Use quotes and subheaders to keep the user interested.
+
+
+          **Things to avoid:**\
+
+          Walls of text\
+
+          Too much information\
+
+          Italic text \
+
+          Centered text\
+
+          Writing words in uppercase
       - tags:
           - All roles
-          - Tester
         title: 2.02 - Left-align body text
         text: >-
           To increase readability, body text should always be left-aligned.
@@ -419,6 +430,175 @@ checklist:
 
 
           Left-align also the text in main menus and other vertical menus. It will make it easier for the user to browse the menu items, since the user’s eyes can wander along the left edge of the menu.
+      - tags:
+          - All roles
+        title: 2.03 - Break up large texts with graphic elements, charts, icons and
+          images
+      - tags:
+          - All roles
+        title: 2.04 - Break up large texts with a checklist, bullet points or tables
+      - tags:
+          - All roles
+        title: "2.05 - Use intermediate headlines and quotes to split up content and
+          interest the user  "
+        text: Avoid capitalized headlines. If you have to use them, use them maximum of
+          one or two words. All capitalized headlines and texts decrease
+          readability because we are not used to them. The exception being when
+          caps are used for special purposes such as warning text like “THIN
+          ICE” or acronyms like “CIO” or “EU”.
+      - tags:
+          - All roles
+        title: 2.06 - Page titles should the same as the headline of the page
+      - tags:
+          - All roles
+        title: 2.07 - Use the correct H-element and hierarchy to organize content
+        text: >-
+          Headlines communicate how the content is structured on the page.
+          Browsers, plug-ins and navigation aids use them to navigate through
+          the content. Structure headlines according to their level in the
+          hierarchy. The most important headline is H1 and the least important
+          is H6.  Jumping over levels can be confusing for some navigation aids,
+          so make sure an H1 is followed by and H2. You can jump over levels if
+          the page is divided into sections (see following example).
+
+
+          (missing image)
+      - tags:
+          - All roles
+        title: 2.08 - Avoid directing users by describing spatial directions
+        text: Screen reader users may have trouble following directions such as “click
+          on the button to the right”. In addition, rotating the screen can
+          alter the layout of the page so the spatial directions become
+          incorrect.
+      - tags:
+          - All roles
+        title: "2.09 - Avoid directing users by describing colors "
+        text: Color blind users may have trouble telling the difference between red and
+          green or green and blue. Avoid therefore referring to elements on page
+          by color.
+      - tags:
+          - All roles
+        title: 2.10 - Use shorter words and avoid composite words when possible
+      - tags:
+          - All roles
+        title: 2.11 - Highlight words sparingly
+        text: >-
+          In order to add emphasis to tagline, you can highlight a specific word
+          in an H1 headline with the color red (#E30613). Highlight the word
+          that is most meaningful to the user.
+
+
+          You can also highlight keywords in body text by making it bolder but keep the color the same as the rest of the text. Avoid italicizing text.
+
+
+          Do not underline text that isn’t linked. The user may mistake the text for a link.
+      - tags:
+          - All roles
+        title: 2.12 - Allow for adjustment of spacing between characters, rows,
+          paragraphs and words
+        text: >-
+          Users with dyslexia or of limited vision need to be able to adjust the
+          spacing between paragraphs, rows, words and characters for
+          readability. Make it possible for the user to adjust spacing without
+          content or functionality clashing or hiding behind other content.
+
+
+          The user, at minimum, should be able to increase distance at the following relative thresholds:
+
+
+          * Line spacing to 1,5 times the size of the font
+
+          * Character spacing to 0,12 times the size of the font
+
+          * Word spacing to 0,16 times the size of the font
+
+          * Paragraph spacing to 2 times the size of the font
+
+
+          **Read more:[](https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/)**\
+
+          [Understanding Success Criterion 1.4.12: Text Spacing](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html)\
+
+          [Se till att det går att öka avstånd mellan tecken, rader, stycken och ord](https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/)
+      - tags:
+          - All roles
+        title: 2.13 - Text can be enlarged 200% without issues
+        text: >-
+          Many people with limited vision need to enlarge the text in order to
+          read it. Make it possible \
+
+          to enlarge text to at least double the height and width without hiding text behind images or clashing with other texts.
+
+
+          Some best practices to keep in mind:
+
+
+          * Use relative units, avoid using “px” for texts
+
+          * Avod small text sizes
+
+          * Have generous spacing between columns 
+
+
+          **Read more:** \
+
+          [Understanding Success Criterion 1.4.4: Resize text](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)\
+
+          [Se till att text går att förstora utan problem](https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/)
+      - tags:
+          - All roles
+        title: 2.14 - Downloadable documents should have descriptive file names
+        text: >-
+          Make sure documents have file names that clearly describe the content.
+          Don’t use internal working titles as file names. You should generally
+          avoid naming documents after article numbers, registration numbers,
+          form numbers or other numbers of that nature. Only if the article
+          number or form number is known by the users, should it be part of the
+          file name.  
+
+
+          **Read more:**\
+
+          [Ge dokument tydliga filnamn](https://webbriktlinjer.se/riktlinjer/9-ge-dokument-tydliga-filnamn/)
+      - tags:
+          - All roles
+        title: 2.15 - Downloadable documents are tagged and have the correct structure
+        text: >-
+          When creating accessible PDF:s, do the accessibility adjustments in
+          the original document (perhaps in Microsoft Word or Adobe InDesign).
+          Otherwise you’ll have to adjust the settings in Acrobat Professional,
+          which may not be accessible to you. Here are some basic guidelines:
+
+
+
+
+          * The file should have coded tags in a tag tree. You can create a tag tree in Word by selecting “Document structure tags for accessibility”. You can also do it after the conversion to PDF by selecting “Add tags to document” in Acrobat. 
+
+          * Tag headlines with headline tags (<H1>, <H2>), tables (<table>), table headlines (<TH>), columns (<colgroup>, bullet point lists (<L>) and table of contents (<TOC>).
+
+          * Add alt-text tags to images, diagrams and image-based figures.
+
+          * Define the reading order. Normally it should be set to “Use document structure”.
+
+          * Include the document title and the name of the author. The option is available under “Document properties”. You can also define the language there. Intermixed text written in a different language should have it’s own language code.
+
+          * Create a table of contents for longer documents, preferably in the form of bookmarks in the PDF. Click the bookmark symbol to edit bookmarks in Acrobat.
+
+          * Make sure copying the document is allowed. You can select the option under security settings. If you still need to to lock the document, check the option for making it available to screen readers.
+
+          * If the document becomes too large after adding the settings, you can always compress it later.
+
+
+          **Read more:**
+
+
+          [Create accessible PDFs - Office Support](https://support.microsoft.com/en-us/office/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed) 
+
+
+          [Creating accessible PDFs in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/creating-accessible-pdfs.html)
+
+
+          [Publicera i första hand dokument i html och skapa tillgängliga pdf:er](https://webbriktlinjer.se/riktlinjer/88-publicera-i-forsta-hand-dokument-i-html/)
 ---
 
 
