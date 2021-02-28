@@ -965,6 +965,22 @@ checklist:
 
 
           [Texta inspelad rörlig media (video, ljud, animationer…)](https://webbriktlinjer.se/riktlinjer/117-texta-inspelad-rorlig-media/)
+  - section: Lists
+    checklistList:
+      - tags:
+          - All roles
+        title: 6.01 - Use available formatting to create lists
+      - tags:
+          - All roles
+        title: "6.02 - Use bullet points when order does not matter, numbers when it
+          does "
+      - tags:
+          - All roles
+        title: "6.03 - Avoid using bullet points when they do not fit "
+      - tags:
+          - All roles
+        title: 6.04 - Place a period after the last bullet point if the bullet list is
+          an enumeration
 ---
 
 
