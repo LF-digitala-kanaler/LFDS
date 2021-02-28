@@ -905,6 +905,66 @@ checklist:
 
 
           [Märk upp vanliga formulärfält i koden](https://webbriktlinjer.se/riktlinjer/154-mark-upp-vanliga-formularfalt-i-koden/)
+  - section: Video & animation
+    checklistList:
+      - tags:
+          - All roles
+        title: 5.01 - Complement text with videos and moving media
+        text: Complement text with video or animated material for those that have
+          trouble reading text. Don’t forget to use sound for people with visual
+          impairments.
+      - tags:
+          - All roles
+        title: 5.02 - Allow for pausing, lowering and turning off sound
+        text: >-
+          In general, we avoid automatically playing sound or video.
+
+
+          There should always be ways to pause a video or control its volume. A user that navigates with a screen reader may not hear the content if other sounds are being played simultaneously. Users with a lower ability to focus or filter external stimuli may find it hard to use a service if they cannot turn off the sound easily.
+
+
+          **Read more:** 
+
+
+          [Understanding Success Criterion 1.4.2: Audio Control](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html)
+
+
+          [Ge användaren möjlighet att pausa, stänga av eller sänka ljud](https://webbriktlinjer.se/riktlinjer/125-kunna-pausa-ljud/)
+      - tags:
+          - All roles
+        title: "5.03 - Use animations sparingly "
+        text: >-
+          Before you create an animation, you should define a purpose for it.
+          For example, the animation will guide the user, direct their attention
+          to a piece of information or provide feedback. Animations can also be
+          used to add visual flair to a design. Generally, the animations should
+          be kept short and non-looping. Users with ADHD may find looping
+          animations to be confusing and distracting. Since animations should
+          not be looping, they also should not be critical to functionality.
+
+
+          **\
+
+          Read more:**
+
+
+          [Understanding Success Criterion 2.3.3: Animation from Interactions](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html)
+      - tags:
+          - All roles
+        title: 5.04 Always provide subtitles with video content
+        text: >-
+          There are many reasons why people use subtitles when consuming video
+          content. It ranges from a hearing disability, noisy environment or 
+          the need to watch without disturbing others. Users for whom Swedish
+          isn't their first language sometimes use subtitles as support.
+
+
+          **Read more:**\
+
+          [Understanding Success Criterion 1.2.2: Captions (Prerecorded)](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html)
+
+
+          [Texta inspelad rörlig media (video, ljud, animationer…)](https://webbriktlinjer.se/riktlinjer/117-texta-inspelad-rorlig-media/)
 ---
 
 
