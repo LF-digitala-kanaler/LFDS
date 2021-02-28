@@ -599,6 +599,153 @@ checklist:
 
 
           [Publicera i första hand dokument i html och skapa tillgängliga pdf:er](https://webbriktlinjer.se/riktlinjer/88-publicera-i-forsta-hand-dokument-i-html/)
+  - section: Clickable areas - buttons and links
+    checklistList:
+      - tags:
+          - All roles
+        title: 3.01 - Use only active buttons
+        text: >-
+          Use only active, clickable buttons and support the user with error
+          messages that clarify what the user needs to do. Make sure the user
+          doesn’t miss required input fields by automatically scrolling up to
+          the top input field that needs to be corrected.
+
+
+          In an absolute majority of cases, avoid using greyed-out, unclickable buttons because they make it difficult to explain to the user why they aren’t available.
+
+
+          An exception when a disabled button can be used is during the choice of payment methods in our purchase flows. In this example, the option “Månad” is clickable when the customer chooses “Autogiro”, but not when “Faktura” is chosen.
+
+
+          {missing image}
+      - tags:
+          - All roles
+        title: 3.02 - Place buttons in context
+        text: Place buttons in close proximity to their context, so that the user
+          understands the relationship between the information and the buttons.
+      - tags:
+          - All roles
+        title: "3.03 - Visually highlight links "
+        text: The users should be easily able to distinguish between regular text and
+          linked text. Make sure linked text visually stands out from regular
+          text by using underscores, placement, color or size. Active links can
+          be made to stand out by, for example, changing background color. Avoid
+          only using color to distinguish a link from the rest of the text.
+          Users with colour blindness will have trouble seeing the difference.
+      - tags:
+          - All roles
+        title: 3.04 - A link should be descriptive and able to stand on its own
+        text: >-
+          When using “Show more” links or buttons, make sure to describe the
+          hidden content in the name. For example: “Show more funds”. It makes
+          it easier for users with screen readers to get an idea of the content
+          before they interact with the link or button.
+
+
+          Don’t use the url of the page as a link name. 
+
+
+          **Read more:**
+
+
+          [Understanding Success Criterion 2.4.4: Link Purpose](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html)
+      - tags:
+          - All roles
+        title: 3.05 - Combine color, form and text even with icons and links
+        text: >-
+          Feel free to use colors, but make sure color is not the only way to
+          distinguish objects or pieces of information from each other. Combine
+          color with text, patterns or other visual indicators. Also, check out
+          how we use universal icons like the “x” for close and the “i” for
+          information.
+
+
+          **Read more:**
+
+
+          [Understanding Success Criterion 1.4.1: Use of Color](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)
+      - tags:
+          - All roles
+        title: 3.06 - Link names should be a maximum 100 characters long
+        text: >-
+          Avoid making link and button texts too long. Buttons should contain no
+          more than 2-3 words. We have a two-row button that can be used if
+          necessary, but first, try shortening the text.
+
+
+          Link text should be a maximum of 100 characters long, while clearly telling the user of the link content. For example: ”How to renovate your bathroom with the right waterproofing” (58 characters).
+      - tags:
+          - All roles
+        title: 3.07 -  Make links, clickable areas and menus usable for everyone
+        text: >-
+          All of our users need to easily understand what elements are
+          clickable. Make sure that links have a consistent appearance across
+          the entire web site.
+
+
+          Things to keep in mind:
+
+
+          * Don’t place links too close to each other. Adding a bit of room around them means we don’t ask for unnecessary precision from our users.
+
+          * Add a generous clickable area around the element being linked (see also 4.03)
+
+          * Make a single link (an a-element) when you have two elements like an icon and text.
+
+
+          **Read more:**
+
+
+          [Understanding Success Criterion 3.2.3: Consistent Navigation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html)
+
+
+          [Gör länkar, klickbara ytor och menyer användbara för alla](https://webbriktlinjer.se/riktlinjer/34-gor-lankar-och-klickbara-ytor-enkla-att-anvanda-for-alla/)
+      - tags:
+          - All roles
+        title: 3.08 - Text on buttons matches the machine-readable tags
+        text: >-
+          When users use voice control to operate a button, they usually read
+          out loud the text on the button. Make sure the text on buttons and
+          other UI elements matches the corresponding machine-readable tags used
+          by voice control. This makes for a smoother experience for voice
+          control users.
+
+
+          **Read more:** 
+
+
+          [Understanding Success Criterion 2.5.3: Label in Name](https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html)
+
+
+          [Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter](https://webbriktlinjer.se/riktlinjer/162-mojliggor-roststyrning-av-knappar-och-kontroller/)
+      - tags:
+          - All roles
+        title: 3.09 - Allow for reversal of actions
+        text: >-
+          Occasionally, all of us accidentally press a button we did not intend.
+          People with limited motoric function or impaired vision are especially
+          affected by this. The option to reverse an action is very important
+          because it makes the user feel more secure interacting with a service.
+          The user can confidently take action without fearing doing something
+          that can't be easily reversed.
+
+
+          **Read more:** 
+
+
+          [Understanding Success Criterion 2.5.2: Pointer Cancellation](https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html)
+
+
+          [Gör det möjligt att ångra klick](https://webbriktlinjer.se/riktlinjer/161-gor-det-mojligt-att-angra-klick/)
+      - tags:
+          - All roles
+        title: 3.10 - Make contextual interactions easy to discover
+        text: >-
+          When the user interacts with a button that reveals a new, contextual
+          interaction, place the new
+
+
+          interaction below or next to the previous interaction. The new interaction should directly follow the previous one in the tab order.
 ---
 
 
