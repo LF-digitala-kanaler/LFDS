@@ -1239,6 +1239,25 @@ checklist:
 
 
           [Se till att hjälpmedel kan presentera meddelanden som inte är i fokus ](https://webbriktlinjer.se/riktlinjer/164-meddelanden-som-inte-ar-fokus/)
+  - section: Apps
+    checklistList:
+      - tags:
+          - All roles
+        title: 8.01 - Basic recommendations for apps
+        text: >-
+          
+
+          * Follow the web guidelines as far as they are applicable for apps
+
+          * Follow the platforms own guidelines for accessibility
+
+
+
+
+          iOS guidelines: [Introduction - Accessibility - Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/)
+
+
+          Android app guidelines: [Build more accessible apps](https://developer.android.com/guide/topics/ui/accessibility)
 ---
 
 
