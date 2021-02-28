@@ -746,6 +746,165 @@ checklist:
 
 
           interaction below or next to the previous interaction. The new interaction should directly follow the previous one in the tab order.
+  - section: Forms
+    checklistList:
+      - tags:
+          - All roles
+        title: 4.01 - Write concise, short labels for input fields
+        text: >-
+          Every input field should have a label. Labels are usually placed above
+          the input field, where the user can easily see them. If the design
+          does not have a label, the developer should add a hidden label that
+          can be read by a screen reader.
+
+
+          Avoid making the solution dependent on title-attribute and placeholder texts.
+
+
+          Field label copy should be kept short, preferably not longer than two rows. If you need extra space for more detailed instructions you can add them at the beginning of the form. 
+
+
+          **Read more:** 
+
+
+          [Understanding Success Criterion 2.4.6: Headings and Labels](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html)
+
+
+          [Skriv beskrivande rubriker och etiketter](https://webbriktlinjer.se/riktlinjer/61-skriv-tydliga-och-berattande-rubriker/)
+      - tags:
+          - All roles
+        title: 4.02 - Write clear, actionable error messages
+        text: >-
+          When the user doesn’t fill out input fields in the way we expect them
+          to, or forgets to do it, we should guide them with simply worded,
+          positive and constructive messages. The focus should be on helping the
+          user move forward rather than telling them what they did wrong.
+
+
+          Example 1: 
+
+
+          The user types only 9 digits in the personal number field. Validate the field with “Personal number should contain 10 or 12 digits.” rather than “Incorrect personal number”.
+
+
+          Example 2: \
+
+          \
+
+          The user forgets to fill out a personal number. Validate the field with “Please enter your personal number” instead of “This field is mandatory”.
+
+
+          **\
+
+          Read more:**
+
+
+          [Understanding Success Criterion 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html)
+
+
+          [How to Write Good Error Messages](https://uxplanet.org/how-to-write-good-error-messages-858e4551cd4)
+      - tags:
+          - All roles
+        title: 4.03 - Create large, clickable areas
+        text: >-
+          Make it easier on the user to by making sure clickable areas around
+          objects like checkboxes or radio buttons are sufficiently large. The
+          user should be able to click the area around small objects like
+          checkboxes and not only on the function itself. In the case of radio
+          buttons or checkboxes, you can also make the corresponding text
+          clickable. By doing so, we don’t require fine motor skills
+          unnecessarily from our users. On mobile, an average area for the index
+          finger should be 44x44 pixels. 
+
+
+          **Read more:**
+
+
+          [Understanding Success Criterion 2.5.5: Target Size](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
+      - tags:
+          - All roles
+        title: 4.04 - Give the option to regret, correct or confirm important
+          transactions
+        text: >-
+          Transactions of legal, economical or health-related nature may have
+          large and troublesome consequences for all involved parties.
+          Therefore, help the user avoid making or correcting potential
+          mistakes. 
+
+
+          Avoid creating interactions that don’t allow the user regret, correct or confirm. When the user enters larger amounts of information (think forms), give the user an opportunity to preview the entered information.
+
+
+          **Read more:** 
+
+
+          [Understanding Success Criterion 3.3.4: Error Prevention (Legal, Financial, Data)](https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html)
+
+
+          [Ge möjlighet att ångra, korrigera eller bekräfta vid viktiga transaktioner](https://webbriktlinjer.se/riktlinjer/150-ge-mojlighet-att-angra-korrigera-eller-bekrafta-viktiga-transaktioner/)
+      - tags:
+          - All roles
+        title: "4.05 - Cluster objects that belong together "
+        text: >-
+          Make sure field labels and supporting copy are closer to the field
+          they belong to, than other input fields or text. 
+
+
+          **Read more:**
+
+
+          [Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
+      - tags:
+          - All roles
+        title: "4.06 - Allow for multiple formats in an input field  "
+        text: When we know that there are several ways of writing the same thing,
+          accommodate the users by allowing multiple formats. For example, a
+          personal number could be written with 10 or 12 digits, with or without
+          a dash. Do the same with calendar dates in date pickers, to the extent
+          it is possible.
+      - tags:
+          - All roles
+        title: 4.07 - Create a logical tab order
+        text: >-
+          The user should be able to navigate via all interactive elements on a
+          page, from top down and left to right (for Swedish and English web
+          pages). It is crucial that the focus path is logical in relation to
+          how content is presented on a screen or to a screen reader. When the
+          focus shifts to an unexpected element it can confuse the user and make
+          them more prone to errors. Avoid using tabindex greater than “1” in
+          the code.
+
+
+          **Read more:**
+
+
+          [Understanding Success Criterion 2.4.3: Focus Order](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html)
+
+
+          [Gör en logisk tab-ordning](https://webbriktlinjer.se/riktlinjer/136-gor-en-logisk-tab-ordning/)
+      - tags:
+          - All roles
+        title: 4.08 - Tag input fields in the code
+        text: >-
+          Help the user fill out input fields by defining expected input in the
+          code. This enables browsers or navigation aids automatically suggest
+          input based on examples from other fields with the same definition
+          (for example a street address and zip code). The code can also help by
+          presenting the input field in a manner the user recognises. 
+
+
+          Tagging input fields helps all users, but especially people with cognitive/motoric disabilities or people not familiar with the language. Adding the attribute “autocomplete” on input fields adds another layer of accessibility.  
+
+
+          **\
+
+          Read more:** 
+
+
+          [Understanding Success Criterion 1.3.5: Identify Input Purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html)
+
+
+          [Märk upp vanliga formulärfält i koden](https://webbriktlinjer.se/riktlinjer/154-mark-upp-vanliga-formularfalt-i-koden/)
 ---
 
 
