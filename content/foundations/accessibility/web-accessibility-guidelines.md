@@ -981,6 +981,264 @@ checklist:
           - All roles
         title: 6.04 - Place a period after the last bullet point if the bullet list is
           an enumeration
+  - section: Code & script
+    checklistList:
+      - tags:
+          - All roles
+        title: 7.01 - Follow standards
+        text: >-
+          Structure is everything when you present content to users with
+          navigational aids. Valid and semantic HTML makes the structure of the
+          content presentable in a meaningful way. CSS, written for
+          accessibility makes the web site easier to consume for all users.
+          Correctly written CSS can also be used to provide extra information
+          that isn’t visible to screen readers. 
+
+
+           
+
+
+          * Use HTML5.
+
+          * For presentation and layout with style templates, use CSS. Separate content
+
+
+          from design - use external style sheets to control presentation and layout. 
+
+
+          * Create layouts with h-elements. See [2.07](https://docs.google.com/document/d/1PNRR5bo-1oTHdxEB5_Em9pSiYxWieWlg3RosTJjUfAk/edit#heading=h.b5y55cs9w05c)
+
+          * Use the correct h-element when creating lists.
+
+          * Make sure input fields match their connected label elements. Create clear and clickable field labels. See also [4.01](https://docs.google.com/document/d/1PNRR5bo-1oTHdxEB5_Em9pSiYxWieWlg3RosTJjUfAk/edit#heading=h.q4tgchlrp7bw)
+
+          * Add headings to tables See [1.20](https://docs.google.com/document/d/1PNRR5bo-1oTHdxEB5_Em9pSiYxWieWlg3RosTJjUfAk/edit#heading=h.h3g84f8san64) for more details.
+
+          * Mark mandatory input fields in a form. See also [4.08](https://docs.google.com/document/d/1PNRR5bo-1oTHdxEB5_Em9pSiYxWieWlg3RosTJjUfAk/edit#heading=h.6oh083uibybu)
+
+          * Emphasize content with the element “em” and not just italic, since italics can’t be read by a screen reader. 
+
+          * Use WAI-ARIA for elements that can't be expressed with regular HTML.
+
+          * För subscription services, use RSS eller Atom.Make it possible to subscribe to information.
+
+
+
+
+          **Read more:**
+
+
+          [Using WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/#usage)
+
+
+          [Understanding Success Criterion 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
+
+
+          [Skapa tydliga och klickbara fältetiketter](https://webbriktlinjer.se/riktlinjer/55-skapa-tydliga-och-klickbara-faltetiketter/)
+
+
+          [Gör det möjligt att prenumerera på information](https://webbriktlinjer.se/riktlinjer/87-gor-det-mojligt-att-prenumerera-pa-information/)
+
+
+          [The Atom Syndication Format](https://www.ietf.org/rfc/rfc4287.txt)
+
+
+          [Använd rätt html-element när ni gör listor](https://webbriktlinjer.se/riktlinjer/104-gor-listor-med-de-html-element-som-ar-till-for-att-skapa-listor/)
+      - tags:
+          - All roles
+        title: 7.02 - Offer the possibility to skip repeating content
+        text: >-
+          For users navigating with a screen reader, tabbing, or other aids it
+          may take a while to get through a menu. In addition, when content is
+          repeated on several pages it adds additional  mental strain on the
+          user. Physical pain can become an issue if the same movement needs to
+          be repeated over and over. Therefore, you should always offer the
+          option to skip repeating content.
+
+
+          * Create shortcuts so that users can, for example, skip menus and get to the content immediately.
+
+          * Create headlines with h-elements, since screen readers allow users to navigate faster using headlines. 
+
+          * Use  WAI-ARIA landmark roles, for example main, search, navigation, banner, contentinfo etc. This helps users with screen readers navigate between different sections of the page in a standardized manner.
+
+          * Use structure elements like “main”, “aside”, “header”, “footer” and “nav” to define roles for each section of the page. 
+
+          * R68. Create shortcuts as necessary.
+
+
+
+
+          **Read more:** 
+
+
+          [Understanding Success Criterion 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html)
+
+
+          [Erbjud möjlighet att hoppa förbi återkommande innehåll](https://webbriktlinjer.se/riktlinjer/75-gruppera-och-skapa-mojlighet-att-hoppa-forbi-delar-pa-sidorna/)
+      - tags:
+          - All roles
+        title: 7.03 - Offer the possibility to go back
+        text: The backward-button should always work and let the user return to a
+          previous page. In some cases, when a user is in the process of making
+          a purchase, you may need to inform the user that they’ll lose progress
+          if they go backwards. This is OK, as long as the user understands the
+          consequences. If you’re creating an SPA-app this has to be resolved
+          programmatically.
+      - tags:
+          - All roles
+        title: 7.04 - Create shortcuts with care
+        text: >-
+          Shortcuts can make navigating through a website faster but they should
+          be used with care.
+
+
+          There is a risk that the websites’ short cuts could be confused with the shortcuts of the browser, operative system or navigation aid. In addition, short cuts that consist of only one key press can cause problems for users with limited motoric skills or users using voice navigation.
+
+
+
+
+          * Use shortcuts sparingly. Ask yourself, why do you need them, and what function do they provide that doesn’t already exist?
+
+          * Use well-established key combinations, so long they don’t clash with browser’s shortcuts.
+
+          * Inform the user which shortcuts are available to them.
+
+          * Provide the option to turn off or change shortcuts that consist of only one key press.
+
+
+
+
+          Read more: 
+
+
+          [Understanding Success Criterion 2.1.4: Character Key Shortcuts](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html)
+
+
+          [Skapa kortkommandon med varsamhet ](https://webbriktlinjer.se/riktlinjer/68-skapa-snabbkommandon-for-viktiga-funktioner/)
+      - tags:
+          - All roles
+        title: 7.05 - Make sure the code validates
+        text: >-
+          There are several aids that can make it easier for developers to
+          follow standards.
+
+
+          **Code validation** 
+
+
+          Validating the code helps you find errors that can be hard to discover on your own. It could ID’s with non-unique values, fields with missing labels or errors in the html code.
+
+
+          If you want to validate a local page, you can copy/paste the code or download a plugin for your browser.
+
+
+          [The W3C Markup Validation Service](https://validator.w3.org/)
+
+
+
+
+          **Validate accessibility**
+
+
+          Chrome has a built-in validation for accessibility in its development tools. If you wish to go to a  bit more detailed level, you can download a plugin called “Axe” for Chrome. You can use it straight from the developer tools menu. 
+
+
+          * Verify that your function templates, services and style templates validate in accordance with the HTML 5 standard.
+
+          * Try automating a recurring code validation, or create a validation routine procedure when changes to the website code occur. It is easy for previously correct code to become invalid. This could happen when a plugin is updated, a media player is inserted in a blog post, or when someone creates a post in a comment hosting service. 
+
+
+
+
+          **Read more:**
+
+
+          [Understanding Success Criterion 4.1.1: Parsing](https://www.w3.org/WAI/WCAG21/Understanding/parsing.html)
+
+
+          [Se till att koden validerar](https://webbriktlinjer.se/riktlinjer/84-se-till-att-koden-validerar/)
+      - tags:
+          - All roles
+        title: 7.06 - Make sure page speed is up to standard
+        text: >-
+          A part of great usability is a page that loads quickly, minimising the
+          wait times and avoiding shifting elements as the page loads. Users
+          today expect a page to be loaded and ready for navigation within 3
+          seconds. Some images can be loaded afterwards, but in general it is
+          difficult for the user to navigate a page if the content constantly
+          shifts because of long loading times.
+
+
+
+
+          It’s especially difficult for visually impared users, as they may have a hard time noticing content that is still loading.
+
+
+          #### When is the page speed good enough?
+
+
+          Research has shown that users lose concentration if they have to wait too long. Nielsen-Norman have documented the following [consequences of web response times](http://www.nngroup.com/articles/response-times-3-important-limits/):
+
+
+          * At 0,1 seconds the user no longer feels the system responds instantaneously   
+
+          * At 1 second response time the user’s flow of thought is being hindered by the waiting.
+
+          * At 10 seconds the user finds it very difficult to stay focused on the task and wants to do something else while waiting.
+
+
+
+
+          Test your page here:
+
+
+          Pagespeed insights: 
+
+
+          [Check page speed - Google](https://developers.google.com/speed/pagespeed/insights/?hl=sv&url=lf.se)
+
+
+          [Optimera webbplatsen för bästa prestanda](https://webbriktlinjer.se/riktlinjer/54-optimera-webbplatsen-for-basta-prestanda/)
+      - tags:
+          - All roles
+        title: 7.07 - All actions should be accessible through a keyboard
+        text: >-
+          Verify that all functionality works using a keyboard alone, since many
+          aids in practice function like a keyboard. Users that only use a
+          keyboard or aids that connect to keyboard shortcuts, are dependent on
+          the system not requiring a mouse or a touch screen. 
+
+
+          **Read more:**
+
+
+          [Understanding Guideline 2.1: Keyboard Accessible](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible)
+      - tags:
+          - All roles
+        title: 7.08 - State the language of the content in the code
+        text: In order to facilitate correct hyphenation, automatic translation and
+          increase the likelihood of screen readers presenting content
+          correctly, define the language in the html code. This is done with
+          lang-attribute and language code.
+      - tags:
+          - All roles
+        title: "7.09 - Navigation aids present messages not in focus "
+        text: >-
+          Make sure users with aids like screen readers and magnification
+          software can be alerted to important messages even if they appear
+          outside of where the user has focus. Define where important messages
+          may appear by using role or aria-live attributes. The aids can then
+          recognise them and present them to the user at an appropriate time.
+
+
+          **Read more:** 
+
+
+          [Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html)
+
+
+          [Se till att hjälpmedel kan presentera meddelanden som inte är i fokus ](https://webbriktlinjer.se/riktlinjer/164-meddelanden-som-inte-ar-fokus/)
 ---
 
 
