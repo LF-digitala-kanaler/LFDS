@@ -15,7 +15,6 @@ const AccessibilityPage = ({ data: { page }, location }) => {
   
   
   
-  
   return (
     <Layout
       description={page.frontmatter.intro || false}
@@ -29,7 +28,9 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         heroBlock={page.frontmatter.heroBlock}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
+        // checklist={page.fields.frontmattermd?.checklist || page.frontmatter.checklist}
         checklist={page.frontmatter.checklist}
+        tags={page.frontmatter.checklist}
       />
     </Layout>
   )

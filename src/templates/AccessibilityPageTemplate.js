@@ -1,13 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
 import Content from '../components/Content'
 import HeroBlock from '../components/HeroBlock'
-
 import Tags from '../components/Tags'
-import Collapse from '../components/Collapse'
 import Filter from '../components/Filter'
+import Checkbox from '../components/Checkbox';
+import Collapse from '../components/Collapse'
+
 
 const AccessibilityPageTemplate = ({
   title,
@@ -15,16 +16,30 @@ const AccessibilityPageTemplate = ({
   body,
   heroBlock,
   wrapperWidth,
-  checklist
+  checklist,
+  tags
 }) => {
+  const [checkedItems, setCheckedItems] = useState({});
   const [list, setList] = useState(checklist)
   const [activeRole, setRole] = useState('All roles')
-  const roles = ["All roles", "Art director", "Developer", "Tester", "UX designer"]
+  const roles = ['All roles', 'Art director', 'Developer', 'Tester', 'UX designer']
+  
   const handleChildClick = (index) => {
-    setList(checklist)
     setRole(roles[index])
   }
-  console.log(activeRole, checklist)
+  const handleChange = (event) => {
+    setCheckedItems({...checkedItems, [event.target.name] : event.target.checked });
+  }
+  console.log(checklist, 'first')
+  useEffect(() => {
+     let checklistNew = checklist.map((element) => {
+        return {...element, checklistList: element.checklistList.filter((checklistList) => checklistList.tags.includes(activeRole))}
+      })
+
+    setList(checklistNew)
+    
+  }, [checklist, activeRole])
+  
   return (
   <>
     
@@ -33,16 +48,22 @@ const AccessibilityPageTemplate = ({
       <Preamble text={intro} tag="p" align={'left'} />
       <Filter items={roles} onChildClick={handleChildClick}  />
       {
-        checklist.map((item,index) => {
+        list.map((item,index) => {
           
           return (
             <div key={index}>
-              <Heading tag={2} text={item.section} align={'left'} />
+              {item.checklistList.length > 0 &&  <Heading tag={2} text={item.section} align={'left'} />}
               {item.checklistList.map((child, index) => {
-                return (<Collapse key={index} title={child.title}>
+                
+                return (
+                <div key={index}  style={{position: "relative"}}>
+                <Checkbox label={child.title} name={'name'+index} checked={checkedItems[index]} onChange={handleChange} />
+                <Collapse title={child.title}>
                   {child.text}
                   <Tags items={child.tags} />
-                </Collapse> )
+                </Collapse> 
+                </div>
+                )
               })}
             </div>
           )

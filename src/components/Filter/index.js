@@ -16,7 +16,6 @@ const Filter = ({items, onChildClick}) => {
     return (
       <dd className={style.Filter__item} key={index}>
         <button 
-          className={style.Filter__button}
           onClick={() => handleClick(index, item)}
           className={cx(
             style.Filter__button,
