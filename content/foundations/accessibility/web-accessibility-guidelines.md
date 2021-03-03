@@ -12,6 +12,7 @@ checklist:
     checklistList:
       - tags:
           - All roles
+          - Developer
         title: 1.01 - Arrange content in a clear and meaningful hierarchy
         text: >-
           Think about how you can arrange content in a meaningful order, so that
@@ -1259,4 +1260,3 @@ checklist:
 
           Android app guidelines: [Build more accessible apps](https://developer.android.com/guide/topics/ui/accessibility)
 ---
-
