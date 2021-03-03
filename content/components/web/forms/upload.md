@@ -11,7 +11,7 @@ tabs:
       ## How to use
 
 
-      Our Upload-component is somewhat unique, as it is the only LFUI-component where parts of it don't appear until the user has taken action. The user flow when using the Upload-component is:
+      Our Upload-component is the only LFUI-component where parts of it don't appear until the user has taken action. The user flow when using the Upload-component is:
 
 
       1. The user is presented with a [secondary button ](/components/web/button-and-links/buttons#secondary-buttons)with an attachment icon and the copy "Bifoga fil".
@@ -29,6 +29,17 @@ tabs:
       If you are expecting large files or a slow receiving server you can add a loading state during the upload phase. The upload state fills the filename-field from left to right with a colour change from our "unvalidated" to our "validated and ok"-colours.
 
 
+      #### EPI-version
+
+
+      There exists an old version of the upload component, which still is available in EPI-forms. New forms should use the new version of the component described on this page, with one exception: if you're grouping several different upload fields as part of a form, it looks better to use the old design. This should only be done in cases like in the example image where you want to present the user with categories of files which they can upload files in. If you don't provide (and use in our systems) categories, you should use the standard version of the upload component.
+
+
+      <figure class="Image Image__border "><img src="/img/upload-oldgrouped.png" srcset="/img/upload-oldgrouped.png 2x" alt="Alternative (older) version of upload component with several fields grouped together."><figcaption><div class="Image__caption">Alternative (older) version of upload component with several fields grouped together.</div></figcaption></figure>
+
+
+
+
       ## Please note
 
 
@@ -36,9 +47,6 @@ tabs:
 
         * If there is something wrong with the file, this is always needed.
         * If the error is on our part, with the actual upload failing it depends on the implementation if the user needs to remove and re-add the file or if they can just try to submit it again. Work with your developers and copy to find the right error messages to display for your specific case.
-      * There exists an old version of the upload component, which still is available in EPI-forms. New forms should use the pattern described on this page, but for reference here is an image of the old version: 
-
-        <figure class="Image Image__background "><img src="/img/old-file-upload.png" srcset="/img/old-file-upload.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
       ## Other material
 
