@@ -6,12 +6,12 @@ const LFDSImage = {
     { name: 'alt', label: 'Alt text', widget: 'string', default: '' },
     {
       name: 'type',
-      label: 'Type',
+      label: 'Border style',
       widget: 'select',
       default: 'Image__default',
       options: [
-        { label: 'Border', value: 'Image__border' },
-        { label: 'Background', value: 'Image__background' },
+        { label: 'Thin border', value: 'Image__border' },
+        { label: 'On grey background', value: 'Image__background' },
         {
           label: 'No added style',
           value: 'Image__default',
