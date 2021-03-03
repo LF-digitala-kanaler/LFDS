@@ -590,8 +590,7 @@ collections: # A list of collections the CMS should be able to edi
                   - { label: "Developer", value: "Developer" }
                   - { label: "Tester", value: "Tester" }
                   - { label: "UX designer", value: "UX designer" }
-                 
-                
+           
           - label: Hero block
             name: heroBlock
             widget: object
