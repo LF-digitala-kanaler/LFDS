@@ -9,7 +9,9 @@ description: Här går vi igenom punkt för punkt vad de betyder för
 checklist:
   - title: tst
     section: Layout and images
+    
     checklistList:
       - title: 1.01 - Arrange content in a clear and meaningful hierarchy
-        
+        text: text
+        tags: test
 ---
