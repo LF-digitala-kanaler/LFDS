@@ -3,17 +3,19 @@ import PropTypes from 'prop-types'
 import style from './index.module.css'
 import cx from 'classnames'
 
-export const Heading = ({ text, tag, align, children }) => {
+export const Heading = ({ text, tag, align, children, id }) => {
   const Htag = `h${tag}`
 
   return (
     <Htag
+      id={id}
       className={cx(
         style.Heading,
         style['Heading--' + tag],
         style['Heading--' + align]
       )}
     >
+      
       {text}
       {children}
     </Htag>

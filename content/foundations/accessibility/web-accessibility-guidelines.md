@@ -1260,13 +1260,3 @@ checklist:
           Android app guidelines: [Build more accessible apps](https://developer.android.com/guide/topics/ui/accessibility)
 ---
 
-
-* [Layout och bilder](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#layout-och-bilder)
-* [Text/innehåll](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#textinnehåll)
-* [Klickbara ytor - knappar och länkar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#klickbara-ytor---knappar-och-länkar)
-* [Formulär](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#formulär)
-* [Video & animering](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#video--animering)
-* [Listor](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#listor)
-* [Kod & script](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#kod--script)
-* [Appar](/foundations/accessibility/webbtillganglighet-punkter-i-checklistan#appar)
-

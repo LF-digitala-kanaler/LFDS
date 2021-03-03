@@ -28,9 +28,9 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         heroBlock={page.frontmatter.heroBlock}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
-        // checklist={page.fields.frontmattermd?.checklist || page.frontmatter.checklist}
+        
         checklist={page.frontmatter.checklist}
-        tags={page.frontmatter.checklist}
+        
       />
     </Layout>
   )
@@ -57,6 +57,7 @@ export const pageQuery = graphql`
             title
             text
             tags
+            
           }
         }
         heroBlock {
@@ -67,8 +68,8 @@ export const pageQuery = graphql`
             publicURL
           }
         }
+        
       }
-      
     }
   }
 `

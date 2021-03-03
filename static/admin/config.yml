@@ -580,14 +580,18 @@ collections: # A list of collections the CMS should be able to edi
                 fields:
                 - {label: 'Title', name: 'title', widget: 'string'}
                 - {label: 'Text', name: 'text', widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']}
-                - label: "Tags"
-                  name: "tags"
-                  widget: "select"
+                - label: 'Tags'
+                  name: 'tags'
+                  widget: 'select'
                   multiple: true
-                  min: 1
-                  max: 5
-                  options: ["All roles", "Art director", "Developer", "Tester", "UX designer"]
-                  default: ["All roles"]
+                  options: 
+                  - { label: "All roles", value: "All roles" }
+                  - { label: "Art director", value: "Art director" }
+                  - { label: "Developer", value: "Developer" }
+                  - { label: "Tester", value: "Tester" }
+                  - { label: "UX designer", value: "UX designer" }
+                 
+                
           - label: Hero block
             name: heroBlock
             widget: object

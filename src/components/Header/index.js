@@ -16,7 +16,8 @@ import {isIE} from 'react-device-detect';
 const Header = ({ title, breadcrumb, menu }) => {
   return (
     <>
-      {isIE && <BrowserBanner /> }
+
+     {isIE && <BrowserBanner /> }
       <header className={style.Header}>
         <div className={style.Header__container}>
           <Link

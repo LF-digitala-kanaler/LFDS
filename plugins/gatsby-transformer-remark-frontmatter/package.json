@@ -12,8 +12,8 @@
     "clean": "ts-emit-clean"
   },
   "repository": {
-    "type": "git"
-   
+    "type": "git",
+    "url": "git+https://github.com/ietz/gatsby-transformer-remark-frontmatter.git"
   },
   "keywords": [
     "gatsby",
@@ -36,8 +36,6 @@
   "dependencies": {
     "lodash": "latest",
     "ts-emit-clean": "^1.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
+ 
 }

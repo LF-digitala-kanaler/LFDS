@@ -3,7 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.onCreateNode = void 0;
 const lodash_1 = __importDefault(require("lodash"));
 const index_1 = require("./index");
 // map of node ids to field names to created frontmatter markdown nodes.
@@ -14,18 +13,20 @@ const index_1 = require("./index");
 const node_field_map = {};
 const node_remaining_fields = {};
 const destructureFrontmatter = (frontmatter) => {
+    
     return {
         schema: objectSchema(frontmatter),
         values: objectValues(frontmatter),
     };
 };
 const objectSchema = (obj) => {
+    
     if (Array.isArray(obj)) {
         return obj.map(objectSchema);
     }
     else if ((typeof obj) === 'object') {
         return Object.entries(obj)
-            .reduce((acc, [key, value]) => (Object.assign(Object.assign({}, acc), { [key]: objectSchema(value) })), {});
+            .reduce((acc, [key, value]) => (Object.assign({}, acc, { [key]: objectSchema(value) })), {});
     }
     else {
         return null;
@@ -34,7 +35,7 @@ const objectSchema = (obj) => {
 const objectValues = (obj) => {
     if ((typeof obj) === 'object') {
         return Object.entries(obj)
-            .reduce((acc, [itemKey, item]) => (Object.assign(Object.assign({}, acc), lodash_1.default.mapKeys(objectValues(item), (nestedValue, nestedKey) => `[${JSON.stringify(itemKey)}]${nestedKey}`))), {});
+            .reduce((acc, [itemKey, item]) => (Object.assign({}, acc, lodash_1.default.mapKeys(objectValues(item), (nestedValue, nestedKey) => `[${JSON.stringify(itemKey)}]${nestedKey}`))), {});
     }
     else {
         return { '': obj };
@@ -65,7 +66,7 @@ const shouldUseField = (filter) => ([key, value]) => {
 const createFrontmatterMdFileNode = ({ createNodeId, createContentDigest, getNode, actions: { createNode, createParentChildLink }, }, [field, value], parent) => {
     const parentParent = parent.parent && getNode(parent.parent);
     const fileParent = parentParent && parentParent.internal.type === 'File' ? parentParent : null;
-    const frontmatterMdNode = Object.assign(Object.assign({}, fileParent), { id: createNodeId(`${parent.id}:${field} >>> ${index_1.NODE_TYPE}`), parent: parent.id, children: [], internal: {
+    const frontmatterMdNode = Object.assign({}, fileParent, { id: createNodeId(`${parent.id}:${field} >>> ${index_1.NODE_TYPE}`), parent: parent.id, children: [], internal: {
             content: value,
             contentDigest: createContentDigest(value),
             mediaType: 'text/markdown',

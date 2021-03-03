@@ -2,6 +2,7 @@
   overflow: hidden;
   display: flex;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .Filter__title {
