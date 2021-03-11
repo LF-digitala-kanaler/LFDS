@@ -44,7 +44,7 @@ När BankID-signering används för att godkänna använder vi begreppet Signera
 
 Signera och godkänn
 
-### Web - error messages 
+### Web - error messages
 
 #### bankid_error_expired_transaction:
 
@@ -65,6 +65,12 @@ För många signeringar samtidigt – vänta 5 minuter och testa sen igen.
 #### bankid_error_general:
 
 Tekniken är inte med oss just nu – vi är ledsna för det och jobbar med att lösa felet. Kom gärna tillbaka lite senare.
+
+#### error202_saknaBankid
+
+Du verkar sakna ett Mobilt BankID – du behöver BankID på en mobil enhet.
+
+
 
 ### App - error messages
 
@@ -97,3 +103,13 @@ Det verkar som du har flera signeringar igång. Vänta 5 minuter och testa sen i
 **Tekniken är inte med oss just nu**
 
 Vi är ledsna för det och jobbar med att lösa felet. Kom gärna tillbaka lite senare.
+
+#### error202_saknaBankid
+
+**Du verkar sakna ett Mobilt BankID**
+
+För att signera behöver du ha ett Mobilt BankID på den här enheten.
+
+### Skavi - error message legitimering
+
+**Något gick fel –** försök gärna igen eller testa senare.
