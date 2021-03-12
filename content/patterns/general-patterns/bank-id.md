@@ -107,7 +107,7 @@ Vi är ledsna för det och jobbar med att lösa felet. Kom gärna tillbaka lite 
 
 #### error202_saknaBankid
 
-**Du verkar sakna ett Mobilt BankID**
+**Du verkar sakna BankID här**
 
 För att signera behöver du ha ett Mobilt BankID på den här enheten.
 
