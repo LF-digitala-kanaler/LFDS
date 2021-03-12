@@ -42,7 +42,10 @@ När BankID-signering används för att godkänna använder vi begreppet Signera
 
 **Text i knapp:**
 
-Signera och godkänn
+Godkänn\
+och signera
+
+Om något görs innan signering, i detta fall godkänn, så skriver vi det först. 
 
 ### Web - error messages
 
@@ -69,8 +72,6 @@ Tekniken är inte med oss just nu – vi är ledsna för det och jobbar med att 
 #### error202_saknaBankid
 
 Du verkar sakna ett Mobilt BankID – du behöver BankID på en mobil enhet.
-
-
 
 ### App - error messages
 
