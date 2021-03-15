@@ -586,10 +586,10 @@ collections: # A list of collections the CMS should be able to edi
                   multiple: true
                   options: 
                   - { label: "All roles", value: "All roles" }
-                  - { label: "Art director", value: "Art director" }
+                  - { label: "UX/AD", value: "UX/AD" }
                   - { label: "Developer", value: "Developer" }
                   - { label: "Tester", value: "Tester" }
-                  - { label: "UX designer", value: "UX designer" }
+                  - { label: "Copy", value: "Copy" }
            
           - label: Hero block
             name: heroBlock
