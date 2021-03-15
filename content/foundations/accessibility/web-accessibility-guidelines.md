@@ -30,7 +30,9 @@ checklist:
 
           [Presentera innehållet i en meningsfull ordning för alla](https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/)
       - tags:
-          - All roles
+          - Art director
+          - UX designer
+          - Copy
         title: 1.02 - Be consistent with navigation, structure and design
         text: >-
           Some users memorize the structure in order to understand the content
