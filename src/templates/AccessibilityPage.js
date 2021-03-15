@@ -28,7 +28,6 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         heroBlock={page.frontmatter.heroBlock}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
-        
         checklist={page.frontmatter.checklist}
         
       />

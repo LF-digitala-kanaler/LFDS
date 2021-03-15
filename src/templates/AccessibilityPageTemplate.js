@@ -86,6 +86,7 @@ const AccessibilityPageTemplate = ({
                 
                 return (
                 <div key={index}  style={{position: "relative"}}>
+                
                 <Checkbox label={child.title} name={'name'+index} checked={checkedItems[index]} onChange={handleChange} />
                 <Collapse title={child.title}>
                   {child.text}
