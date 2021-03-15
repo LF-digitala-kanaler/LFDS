@@ -11,7 +11,8 @@ checklist:
     section: Layout and images
     checklistList:
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 1.01 - Arrange content in a clear and meaningful hierarchy
         text: >-
           Think about how you can arrange content in a meaningful order, so that
@@ -114,10 +115,10 @@ checklist:
         text: >-
           Not all people are able or willing to call a company for help. Some
           may have trouble communicating in writing. Reasons for this can range
-          from a physical or cognitive disability to simply being unfamiliar 
-          with the language. Give people the option to choose a method they are
-          comfortable with. Avoid only having a phone number. Always provide a
-          phone number and an email address whenever possible.
+          from a physical or cognitive disability to simply being
+          unfamiliar  with the language. Give people the option to choose a
+          method they are comfortable with. Avoid only having a phone number.
+          Always provide a phone number and an email address whenever possible.
 
 
           In some cases you may only be able to provide one option. In that case, think about how you can reduce the need for contact. One solution could be answering the most common questions in a “frequently asked questions” section.
@@ -954,9 +955,9 @@ checklist:
         title: 5.04 Always provide subtitles with video content
         text: >-
           There are many reasons why people use subtitles when consuming video
-          content. It ranges from a hearing disability, noisy environment or 
-          the need to watch without disturbing others. Users for whom Swedish
-          isn't their first language sometimes use subtitles as support.
+          content. It ranges from a hearing disability, noisy environment
+          or  the need to watch without disturbing others. Users for whom
+          Swedish isn't their first language sometimes use subtitles as support.
 
 
           **Read more:**\
