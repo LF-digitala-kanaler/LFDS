@@ -31,7 +31,7 @@ checklist:
 
           [Presentera innehållet i en meningsfull ordning för alla](https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/)
       - tags:
-          - All roles
+          - UX/AD
         title: 1.02 - Be consistent with navigation, structure and design
         text: >-
           Some users memorize the structure in order to understand the content
@@ -51,7 +51,8 @@ checklist:
 
           [Presentera innehållet i en meningsfull ordning för alla](https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: 1.03 - Present content correctly regardless of screen orientation
         text: >-
           ### For designers 
@@ -78,7 +79,7 @@ checklist:
 
           [Se till att allt innehåll presenteras rätt oavsett skärmens riktning](https://webbriktlinjer.se/riktlinjer/153-fungerar-oavsett-skarmens-riktning/#utdrag-fran-wcag-standarden)
       - tags:
-          - All roles
+          - UX/AD
         title: 1.04 - All important information should be available to all users
         text: >-
           Hiding important information in PDFs decreases searchability and makes
@@ -89,7 +90,7 @@ checklist:
 
           As much as possible, critical information should be available on the web. Make sure to divide the content into relevant pages so you avoid walls of texts.
       - tags:
-          - All roles
+        - UX/AD
         title: 1.05 - Create a flexible layout that works when enlarged or viewed on a
           small screen
         text: >-
@@ -110,7 +111,7 @@ checklist:
 
           [Var konsekvent i navigation, struktur och utformning](https://webbriktlinjer.se/riktlinjer/29-var-konsekvent-i-navigation-struktur-och-utformning/)
       - tags:
-          - All roles
+        - UX/AD
         title: "1.06 - Offer multiple ways to contact "
         text: >-
           Not all people are able or willing to call a company for help. Some
@@ -123,7 +124,7 @@ checklist:
 
           In some cases you may only be able to provide one option. In that case, think about how you can reduce the need for contact. One solution could be answering the most common questions in a “frequently asked questions” section.
       - tags:
-          - All roles
+        - UX/AD
         title: "1.07 - The design should pass contrast 5:1 "
         text: >-
           Contrast varies depending on the size of text and icons. Create
@@ -148,14 +149,15 @@ checklist:
 
           [Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
       - tags:
-          - All roles
+        - UX/AD
         title: "1.08 - Be careful with strong colors, use the red sparingly "
         text: Colors are great for improving usability and aesthetics. Be aware though
           that using strong colors too frequently can steal focus from the most
           important information and interactions. Use our red color (#E30613)
           sparingly, for example when you need a “call-to-action” button.
       - tags:
-          - All roles
+        - UX/AD
+        - Developer
         title: 1.09 - Allow for popup-functionality to be used by all users
         text: >-
           Content that appears when the user focuses on it with the keyboard or
@@ -175,7 +177,8 @@ checklist:
 
           [Popup-funktioner ska kunna hanteras och stängas av alla](https://webbriktlinjer.se/riktlinjer/158-popup-funktioner-ska-kunna-hanteras-och-stangas-av-alla/)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: 1.10 - Help the user in searches
         text: >-
           Support the user in searching on our website by proactively providing
@@ -193,7 +196,8 @@ checklist:
 
           [Ge ordförslag vid sökning och inmatning](https://webbriktlinjer.se/riktlinjer/112-ordforslag/)
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 1.11 - Avoid placing text in images
         text: >-
           You should generally avoid placing text in images as screen readers
@@ -208,7 +212,7 @@ checklist:
 
           [Använd text, inte bilder, för att visa text](https://webbriktlinjer.se/riktlinjer/128-anvand-text-inte-bilder-for-att-visa-text/)
       - tags:
-          - All roles
+          - Copy
         title: 1.12 - Use “alt-text” on images containing important information
         text: >-
           Images included in the design for more than just decoration (graphs or
@@ -229,7 +233,8 @@ checklist:
 
           [Understanding Success Criterion 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content)
       - tags:
-          - All roles
+          - Copy
+          - Tester
         title: 1.13 - Decorative images do not need an “alt-text”
         text: >-
           Decorative images don’t need an alternative text because they don’t
@@ -241,7 +246,7 @@ checklist:
 
           [H67: Using null alt text and no title attribute on img elements for images that AT should ignore](https://www.w3.org/WAI/WCAG21/Techniques/html/H67)
       - tags:
-          - All roles
+          - Copy
         title: 1.14 - If the image is linked, describe the destination as “alt-text”
         text: >-
           If the image or icon is linked, add a description of the destination
@@ -253,7 +258,8 @@ checklist:
 
           [Understanding Success Criterion 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content)
       - tags:
-          - All roles
+        - UX/AD
+        - Developer
         title: 1.15 - Let the user navigate in the way they are most comfortable with
         text: >-
           People prefer to navigate the web differently, based on either
@@ -279,7 +285,7 @@ checklist:
 
           [Erbjud användarna flera olika sätt att navigera](https://webbriktlinjer.se/riktlinjer/32-erbjud-besokaren-alternativa-orienteringsstod/)
       - tags:
-          - All roles
+        - UX/AD
         title: 1.16 - Use sufficient contrast in components and graphics
         text: >-
           Make sure components in the interface and infographics have sufficient
@@ -299,7 +305,7 @@ checklist:
 
           [Använd tillräckliga kontraster i komponenter och grafik](https://webbriktlinjer.se/riktlinjer/156-anvand-tillrackliga-kontraster-i-komponenter-och-grafik/)
       - tags:
-          - All roles
+        - Developer
         title: 1.17 - Highlight the field or element in focus
         text: >-
           Users that navigate with the tab-key need to clearly see which element
@@ -317,7 +323,9 @@ checklist:
 
           [Markera tydligt vilket fält eller element som är i fokus](https://webbriktlinjer.se/riktlinjer/140-markera-element-i-fokus/)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
+          - Tester
         title: 1.18 - Avoid sudden changes when focusing on elements
         text: >-
           To the extent it is possible, make interactions predictable and avoid
@@ -340,7 +348,9 @@ checklist:
 
           [Utför inga oväntade förändringar vid fokusering](https://webbriktlinjer.se/riktlinjer/143-utfor-inga-ovantade-forandringar-vid-fokusering/)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
+          - Tester
         title: 1.19 - Offer alternatives to more complex gestures
         text: >-
           Swiping and gestures that require use of multiple fingers (such as
@@ -359,7 +369,8 @@ checklist:
 
           [Understanding Success Criterion 2.5.1: Pointer Gestures](https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: 1.20 - Make tables easy to understand and navigate
         text: >-
           **Tables can be tricky to read, especially for users with screen
@@ -382,7 +393,7 @@ checklist:
 
           [Skriv rubriker till tabeller](https://webbriktlinjer.se/riktlinjer/98-anvand-tabellrubriker-for-att-hjalpa-anvandaren/)
       - tags:
-          - All roles
+          - UX/AD
         title: 1.21 - Explain icons
         text: >-
           When icons are used to represent buttons, they should be accompanied

@@ -19,26 +19,31 @@ const AccessibilityPageTemplate = ({
   checklist,
   tags
 }) => {
+  
   const [checkedItems, setCheckedItems] = useState({});
-  const [list, setList] = useState(checklist)
+ 
+  const [list, setList] = useState([...checklist])
   const [activeRole, setRole] = useState('All roles')
-  const roles = ['All roles', 'Art director', 'Developer', 'Tester', 'UX designer']
+  const roles = ['All roles', 'UX/AD', 'Developer', 'Tester', 'Copy']
   
   const handleChildClick = (index) => {
     setRole(roles[index])
+    let checklistNew = checklist.map((element) => {
+      return {...element, checklistList: element.checklistList.filter((checklistList) => checklistList.tags.includes(activeRole))}
+    })
+    setList(checklistNew)
   }
   const handleChange = (event) => {
     setCheckedItems({...checkedItems, [event.target.name] : event.target.checked });
   }
-  console.log(checklist, 'first')
+  // add null check on tags
+  
   useEffect(() => {
-     let checklistNew = checklist.map((element) => {
-        return {...element, checklistList: element.checklistList.filter((checklistList) => checklistList.tags.includes(activeRole))}
-      })
-
-    setList(checklistNew)
+     
     
   }, [checklist, activeRole])
+
+  console.log(list, 'list')
   const listStyle = {
     display: 'flex',
     padding: 0,
@@ -69,7 +74,7 @@ const AccessibilityPageTemplate = ({
       <span style={heading}>Go to section:</span>
         <ul style={listStyle}>
         {
-          list.map((item,index) => {
+          list.map((item, index) => {
             return(
               <li key={index}><a style={style} href={"#"+item.section}>{item.section}</a></li>
             )
@@ -77,15 +82,18 @@ const AccessibilityPageTemplate = ({
         }
       </ul>
       {
-        list.map((item,index) => {
+
+        list.map((item, index) => {
           
           return (
             <div key={index}>
-              {item.checklistList.length > 0 &&  <Heading id={item.section} tag={2} text={item.section} align={'left'} />}
-              {item.checklistList.map((child, index) => {
-                
+              
+              {item.checklistList.length > 0 &&  <Heading id={item.section} tag={2} text={item.section} align={'left'} />} 
+              {
+              item.checklistList.map((child, index) => {
+
                 return (
-                <div key={index}  style={{position: "relative"}}>
+                <div key={index} style={{position: "relative"}}>
                 
                 <Checkbox label={child.title} name={'name'+index} checked={checkedItems[index]} onChange={handleChange} />
                 <Collapse title={child.title}>
