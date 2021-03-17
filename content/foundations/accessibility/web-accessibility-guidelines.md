@@ -22,12 +22,14 @@ checklist:
           rest.
 
 
-
           Make sure there is a clear hierarchy and that elements do not compete for attention. By doing so, you help the user to be naturally drawn to important information and interactions.
+
+
 
           **Read more:**
 
-          
+
+
 
           [Understanding Success Criterion 1.3.2: Meaningful Sequence](https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html)
 
@@ -92,7 +94,7 @@ checklist:
 
           As much as possible, critical information should be available on the web. Make sure to divide the content into relevant pages so you avoid walls of texts.
       - tags:
-        - UX/AD
+          - UX/AD
         title: 1.05 - Create a flexible layout that works when enlarged or viewed on a
           small screen
         text: >-
@@ -113,7 +115,7 @@ checklist:
 
           [Var konsekvent i navigation, struktur och utformning](https://webbriktlinjer.se/riktlinjer/29-var-konsekvent-i-navigation-struktur-och-utformning/)
       - tags:
-        - UX/AD
+          - UX/AD
         title: "1.06 - Offer multiple ways to contact "
         text: >-
           Not all people are able or willing to call a company for help. Some
@@ -126,7 +128,7 @@ checklist:
 
           In some cases you may only be able to provide one option. In that case, think about how you can reduce the need for contact. One solution could be answering the most common questions in a “frequently asked questions” section.
       - tags:
-        - UX/AD
+          - UX/AD
         title: "1.07 - The design should pass contrast 5:1 "
         text: >-
           Contrast varies depending on the size of text and icons. Create
@@ -151,15 +153,15 @@ checklist:
 
           [Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
       - tags:
-        - UX/AD
+          - UX/AD
         title: "1.08 - Be careful with strong colors, use the red sparingly "
         text: Colors are great for improving usability and aesthetics. Be aware though
           that using strong colors too frequently can steal focus from the most
           important information and interactions. Use our red color (#E30613)
           sparingly, for example when you need a “call-to-action” button.
       - tags:
-        - UX/AD
-        - Developer
+          - UX/AD
+          - Developer
         title: 1.09 - Allow for popup-functionality to be used by all users
         text: >-
           Content that appears when the user focuses on it with the keyboard or
@@ -260,8 +262,8 @@ checklist:
 
           [Understanding Success Criterion 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content)
       - tags:
-        - UX/AD
-        - Developer
+          - UX/AD
+          - Developer
         title: 1.15 - Let the user navigate in the way they are most comfortable with
         text: >-
           People prefer to navigate the web differently, based on either
@@ -287,7 +289,7 @@ checklist:
 
           [Erbjud användarna flera olika sätt att navigera](https://webbriktlinjer.se/riktlinjer/32-erbjud-besokaren-alternativa-orienteringsstod/)
       - tags:
-        - UX/AD
+          - UX/AD
         title: 1.16 - Use sufficient contrast in components and graphics
         text: >-
           Make sure components in the interface and infographics have sufficient
@@ -307,7 +309,7 @@ checklist:
 
           [Använd tillräckliga kontraster i komponenter och grafik](https://webbriktlinjer.se/riktlinjer/156-anvand-tillrackliga-kontraster-i-komponenter-och-grafik/)
       - tags:
-        - Developer
+          - Developer
         title: 1.17 - Highlight the field or element in focus
         text: >-
           Users that navigate with the tab-key need to clearly see which element
@@ -799,8 +801,8 @@ checklist:
 
           [Skriv beskrivande rubriker och etiketter](https://webbriktlinjer.se/riktlinjer/61-skriv-tydliga-och-berattande-rubriker/)
       - tags:
-        - UX/AD
-        - Copy
+          - UX/AD
+          - Copy
         title: 4.02 - Write clear, actionable error messages
         text: >-
           When the user doesn’t fill out input fields in the way we expect them
@@ -832,8 +834,8 @@ checklist:
 
           [How to Write Good Error Messages](https://uxplanet.org/how-to-write-good-error-messages-858e4551cd4)
       - tags:
-        - UX/AD
-        - Developer
+          - UX/AD
+          - Developer
         title: 4.03 - Create large, clickable areas
         text: >-
           Make it easier on the user to by making sure clickable areas around
@@ -1277,10 +1279,10 @@ checklist:
   - section: Apps
     checklistList:
       - tags:
-        - UX/AD
-        - Copy
-        - Developer
-        - Tester
+          - UX/AD
+          - Copy
+          - Developer
+          - Tester
         title: 8.01 - Basic recommendations for apps
         text: >-
           
