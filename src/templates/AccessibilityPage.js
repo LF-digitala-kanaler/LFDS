@@ -29,7 +29,7 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
         checklist={page.frontmatter.checklist}
-        
+        checklistHtml={page.fields.frontmattermd?.checklist}
       />
     </Layout>
   )
@@ -68,6 +68,17 @@ export const pageQuery = graphql`
           }
         }
         
+      }
+      fields {
+        frontmattermd {
+          checklist {
+            checklistList {
+              text {
+                html
+              }
+            }
+          }
+        }
       }
     }
   }

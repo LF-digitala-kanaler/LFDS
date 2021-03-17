@@ -27,6 +27,8 @@ checklist:
 
           **Read more:**
 
+          
+
           [Understanding Success Criterion 1.3.2: Meaningful Sequence](https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html)
 
           [Presentera innehållet i en meningsfull ordning för alla](https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/)
@@ -407,7 +409,8 @@ checklist:
   - section: Copy and content
     checklistList:
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 2.01 - Write simple, short and clear copy
         text: >-
           Copy should be written in a simple, short and clear manner. All users
@@ -432,7 +435,8 @@ checklist:
 
           Writing words in uppercase
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 2.02 - Left-align body text
         text: >-
           To increase readability, body text should always be left-aligned.
@@ -443,14 +447,17 @@ checklist:
 
           Left-align also the text in main menus and other vertical menus. It will make it easier for the user to browse the menu items, since the user’s eyes can wander along the left edge of the menu.
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 2.03 - Break up large texts with graphic elements, charts, icons and
           images
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 2.04 - Break up large texts with a checklist, bullet points or tables
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: "2.05 - Use intermediate headlines and quotes to split up content and
           interest the user  "
         text: Avoid capitalized headlines. If you have to use them, use them maximum of
@@ -459,10 +466,12 @@ checklist:
           caps are used for special purposes such as warning text like “THIN
           ICE” or acronyms like “CIO” or “EU”.
       - tags:
-          - All roles
+          - Copy
         title: 2.06 - Page titles should the same as the headline of the page
       - tags:
-          - All roles
+          - Copy
+          - Developer
+          - Tester
         title: 2.07 - Use the correct H-element and hierarchy to organize content
         text: >-
           Headlines communicate how the content is structured on the page.
@@ -476,23 +485,23 @@ checklist:
 
           (missing image)
       - tags:
-          - All roles
+          - Copy
         title: 2.08 - Avoid directing users by describing spatial directions
         text: Screen reader users may have trouble following directions such as “click
           on the button to the right”. In addition, rotating the screen can
           alter the layout of the page so the spatial directions become
           incorrect.
       - tags:
-          - All roles
+          - Copy
         title: "2.09 - Avoid directing users by describing colors "
         text: Color blind users may have trouble telling the difference between red and
           green or green and blue. Avoid therefore referring to elements on page
           by color.
       - tags:
-          - All roles
+          - Copy
         title: 2.10 - Use shorter words and avoid composite words when possible
       - tags:
-          - All roles
+          - Copy
         title: 2.11 - Highlight words sparingly
         text: >-
           In order to add emphasis to tagline, you can highlight a specific word
@@ -505,7 +514,7 @@ checklist:
 
           Do not underline text that isn’t linked. The user may mistake the text for a link.
       - tags:
-          - All roles
+          - Developer
         title: 2.12 - Allow for adjustment of spacing between characters, rows,
           paragraphs and words
         text: >-
@@ -533,7 +542,7 @@ checklist:
 
           [Se till att det går att öka avstånd mellan tecken, rader, stycken och ord](https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/)
       - tags:
-          - All roles
+          - Developer
         title: 2.13 - Text can be enlarged 200% without issues
         text: >-
           Many people with limited vision need to enlarge the text in order to
@@ -558,7 +567,7 @@ checklist:
 
           [Se till att text går att förstora utan problem](https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/)
       - tags:
-          - All roles
+          - Developer
         title: 2.14 - Downloadable documents should have descriptive file names
         text: >-
           Make sure documents have file names that clearly describe the content.
@@ -573,7 +582,8 @@ checklist:
 
           [Ge dokument tydliga filnamn](https://webbriktlinjer.se/riktlinjer/9-ge-dokument-tydliga-filnamn/)
       - tags:
-          - All roles
+          - Copy
+          - Tester
         title: 2.15 - Downloadable documents are tagged and have the correct structure
         text: >-
           When creating accessible PDF:s, do the accessibility adjustments in
@@ -614,7 +624,8 @@ checklist:
   - section: Clickable areas - buttons and links
     checklistList:
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: 3.01 - Use only active buttons
         text: >-
           Use only active, clickable buttons and support the user with error
@@ -631,12 +642,12 @@ checklist:
 
           {missing image}
       - tags:
-          - All roles
+          - UX/AD
         title: 3.02 - Place buttons in context
         text: Place buttons in close proximity to their context, so that the user
           understands the relationship between the information and the buttons.
       - tags:
-          - All roles
+          - UX/AD
         title: "3.03 - Visually highlight links "
         text: The users should be easily able to distinguish between regular text and
           linked text. Make sure linked text visually stands out from regular
@@ -645,7 +656,8 @@ checklist:
           only using color to distinguish a link from the rest of the text.
           Users with colour blindness will have trouble seeing the difference.
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 3.04 - A link should be descriptive and able to stand on its own
         text: >-
           When using “Show more” links or buttons, make sure to describe the
@@ -662,7 +674,7 @@ checklist:
 
           [Understanding Success Criterion 2.4.4: Link Purpose](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html)
       - tags:
-          - All roles
+          - UX/AD
         title: 3.05 - Combine color, form and text even with icons and links
         text: >-
           Feel free to use colors, but make sure color is not the only way to
@@ -677,7 +689,7 @@ checklist:
 
           [Understanding Success Criterion 1.4.1: Use of Color](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)
       - tags:
-          - All roles
+          - Copy
         title: 3.06 - Link names should be a maximum 100 characters long
         text: >-
           Avoid making link and button texts too long. Buttons should contain no
@@ -687,7 +699,8 @@ checklist:
 
           Link text should be a maximum of 100 characters long, while clearly telling the user of the link content. For example: ”How to renovate your bathroom with the right waterproofing” (58 characters).
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: 3.07 -  Make links, clickable areas and menus usable for everyone
         text: >-
           All of our users need to easily understand what elements are
@@ -713,7 +726,7 @@ checklist:
 
           [Gör länkar, klickbara ytor och menyer användbara för alla](https://webbriktlinjer.se/riktlinjer/34-gor-lankar-och-klickbara-ytor-enkla-att-anvanda-for-alla/)
       - tags:
-          - All roles
+          - Developer
         title: 3.08 - Text on buttons matches the machine-readable tags
         text: >-
           When users use voice control to operate a button, they usually read
@@ -731,7 +744,8 @@ checklist:
 
           [Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter](https://webbriktlinjer.se/riktlinjer/162-mojliggor-roststyrning-av-knappar-och-kontroller/)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: 3.09 - Allow for reversal of actions
         text: >-
           Occasionally, all of us accidentally press a button we did not intend.
@@ -750,7 +764,7 @@ checklist:
 
           [Gör det möjligt att ångra klick](https://webbriktlinjer.se/riktlinjer/161-gor-det-mojligt-att-angra-klick/)
       - tags:
-          - All roles
+          - UX/AD
         title: 3.10 - Make contextual interactions easy to discover
         text: >-
           When the user interacts with a button that reveals a new, contextual
@@ -761,7 +775,8 @@ checklist:
   - section: Forms
     checklistList:
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 4.01 - Write concise, short labels for input fields
         text: >-
           Every input field should have a label. Labels are usually placed above
@@ -784,7 +799,8 @@ checklist:
 
           [Skriv beskrivande rubriker och etiketter](https://webbriktlinjer.se/riktlinjer/61-skriv-tydliga-och-berattande-rubriker/)
       - tags:
-          - All roles
+        - UX/AD
+        - Copy
         title: 4.02 - Write clear, actionable error messages
         text: >-
           When the user doesn’t fill out input fields in the way we expect them
@@ -816,7 +832,8 @@ checklist:
 
           [How to Write Good Error Messages](https://uxplanet.org/how-to-write-good-error-messages-858e4551cd4)
       - tags:
-          - All roles
+        - UX/AD
+        - Developer
         title: 4.03 - Create large, clickable areas
         text: >-
           Make it easier on the user to by making sure clickable areas around
@@ -834,7 +851,8 @@ checklist:
 
           [Understanding Success Criterion 2.5.5: Target Size](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: 4.04 - Give the option to regret, correct or confirm important
           transactions
         text: >-
@@ -855,7 +873,8 @@ checklist:
 
           [Ge möjlighet att ångra, korrigera eller bekräfta vid viktiga transaktioner](https://webbriktlinjer.se/riktlinjer/150-ge-mojlighet-att-angra-korrigera-eller-bekrafta-viktiga-transaktioner/)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: "4.05 - Cluster objects that belong together "
         text: >-
           Make sure field labels and supporting copy are closer to the field
@@ -867,7 +886,8 @@ checklist:
 
           [Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: "4.06 - Allow for multiple formats in an input field  "
         text: When we know that there are several ways of writing the same thing,
           accommodate the users by allowing multiple formats. For example, a
@@ -875,7 +895,7 @@ checklist:
           a dash. Do the same with calendar dates in date pickers, to the extent
           it is possible.
       - tags:
-          - All roles
+          - Developer
         title: 4.07 - Create a logical tab order
         text: >-
           The user should be able to navigate via all interactive elements on a
@@ -895,7 +915,7 @@ checklist:
 
           [Gör en logisk tab-ordning](https://webbriktlinjer.se/riktlinjer/136-gor-en-logisk-tab-ordning/)
       - tags:
-          - All roles
+          - Developer
         title: 4.08 - Tag input fields in the code
         text: >-
           Help the user fill out input fields by defining expected input in the
@@ -920,13 +940,15 @@ checklist:
   - section: Video & animation
     checklistList:
       - tags:
-          - All roles
+          - UX/AD
+          - Copy
         title: 5.01 - Complement text with videos and moving media
         text: Complement text with video or animated material for those that have
           trouble reading text. Don’t forget to use sound for people with visual
           impairments.
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: 5.02 - Allow for pausing, lowering and turning off sound
         text: >-
           In general, we avoid automatically playing sound or video.
@@ -943,7 +965,8 @@ checklist:
 
           [Ge användaren möjlighet att pausa, stänga av eller sänka ljud](https://webbriktlinjer.se/riktlinjer/125-kunna-pausa-ljud/)
       - tags:
-          - All roles
+          - UX/AD
+          - Developer
         title: "5.03 - Use animations sparingly "
         text: >-
           Before you create an animation, you should define a purpose for it.
@@ -962,7 +985,7 @@ checklist:
 
           [Understanding Success Criterion 2.3.3: Animation from Interactions](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html)
       - tags:
-          - All roles
+          - Copy
         title: 5.04 Always provide subtitles with video content
         text: >-
           There are many reasons why people use subtitles when consuming video
@@ -980,23 +1003,23 @@ checklist:
   - section: Lists
     checklistList:
       - tags:
-          - All roles
+          - Copy
         title: 6.01 - Use available formatting to create lists
       - tags:
-          - All roles
+          - Copy
         title: "6.02 - Use bullet points when order does not matter, numbers when it
           does "
       - tags:
-          - All roles
+          - Copy
         title: "6.03 - Avoid using bullet points when they do not fit "
       - tags:
-          - All roles
+          - Copy
         title: 6.04 - Place a period after the last bullet point if the bullet list is
           an enumeration
   - section: Code & script
     checklistList:
       - tags:
-          - All roles
+          - Developer
         title: 7.01 - Follow standards
         text: >-
           Structure is everything when you present content to users with
@@ -1057,7 +1080,7 @@ checklist:
 
           [Använd rätt html-element när ni gör listor](https://webbriktlinjer.se/riktlinjer/104-gor-listor-med-de-html-element-som-ar-till-for-att-skapa-listor/)
       - tags:
-          - All roles
+          - Developer
         title: 7.02 - Offer the possibility to skip repeating content
         text: >-
           For users navigating with a screen reader, tabbing, or other aids it
@@ -1089,7 +1112,7 @@ checklist:
 
           [Erbjud möjlighet att hoppa förbi återkommande innehåll](https://webbriktlinjer.se/riktlinjer/75-gruppera-och-skapa-mojlighet-att-hoppa-forbi-delar-pa-sidorna/)
       - tags:
-          - All roles
+          - Developer
         title: 7.03 - Offer the possibility to go back
         text: The backward-button should always work and let the user return to a
           previous page. In some cases, when a user is in the process of making
@@ -1098,7 +1121,7 @@ checklist:
           consequences. If you’re creating an SPA-app this has to be resolved
           programmatically.
       - tags:
-          - All roles
+          - Developer
         title: 7.04 - Create shortcuts with care
         text: >-
           Shortcuts can make navigating through a website faster but they should
@@ -1129,7 +1152,7 @@ checklist:
 
           [Skapa kortkommandon med varsamhet ](https://webbriktlinjer.se/riktlinjer/68-skapa-snabbkommandon-for-viktiga-funktioner/)
       - tags:
-          - All roles
+          - Developer
         title: 7.05 - Make sure the code validates
         text: >-
           There are several aids that can make it easier for developers to
@@ -1171,7 +1194,7 @@ checklist:
 
           [Se till att koden validerar](https://webbriktlinjer.se/riktlinjer/84-se-till-att-koden-validerar/)
       - tags:
-          - All roles
+          - Developer
         title: 7.06 - Make sure page speed is up to standard
         text: >-
           A part of great usability is a page that loads quickly, minimising the
@@ -1213,7 +1236,7 @@ checklist:
 
           [Optimera webbplatsen för bästa prestanda](https://webbriktlinjer.se/riktlinjer/54-optimera-webbplatsen-for-basta-prestanda/)
       - tags:
-          - All roles
+          - Developer
         title: 7.07 - All actions should be accessible through a keyboard
         text: >-
           Verify that all functionality works using a keyboard alone, since many
@@ -1227,14 +1250,14 @@ checklist:
 
           [Understanding Guideline 2.1: Keyboard Accessible](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible)
       - tags:
-          - All roles
+          - Developer
         title: 7.08 - State the language of the content in the code
         text: In order to facilitate correct hyphenation, automatic translation and
           increase the likelihood of screen readers presenting content
           correctly, define the language in the html code. This is done with
           lang-attribute and language code.
       - tags:
-          - All roles
+          - Developer
         title: "7.09 - Navigation aids present messages not in focus "
         text: >-
           Make sure users with aids like screen readers and magnification
@@ -1254,7 +1277,10 @@ checklist:
   - section: Apps
     checklistList:
       - tags:
-          - All roles
+        - UX/AD
+        - Copy
+        - Developer
+        - Tester
         title: 8.01 - Basic recommendations for apps
         text: >-
           

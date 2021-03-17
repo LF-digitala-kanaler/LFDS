@@ -6,7 +6,7 @@ import Content from '../components/Content'
 import HeroBlock from '../components/HeroBlock'
 import Tags from '../components/Tags'
 import Filter from '../components/Filter'
-import Checkbox from '../components/Checkbox';
+import Checkbox from '../components/Checkbox'
 import Collapse from '../components/Collapse'
 
 
@@ -17,9 +17,9 @@ const AccessibilityPageTemplate = ({
   heroBlock,
   wrapperWidth,
   checklist,
-  tags
+  checklistHtml
 }) => {
-  
+  console.log(checklistHtml, 'html')
   const [checkedItems, setCheckedItems] = useState({});
  
   const [list, setList] = useState([...checklist])
@@ -28,19 +28,22 @@ const AccessibilityPageTemplate = ({
   
   const handleChildClick = (index) => {
     setRole(roles[index])
-    let checklistNew = checklist.map((element) => {
-      return {...element, checklistList: element.checklistList.filter((checklistList) => checklistList.tags.includes(activeRole))}
-    })
-    setList(checklistNew)
   }
+  console.log(activeRole)
   const handleChange = (event) => {
     setCheckedItems({...checkedItems, [event.target.name] : event.target.checked });
   }
   // add null check on tags
   
   useEffect(() => {
-     
-    
+    if(activeRole !== "All roles") {
+    let checklistNew = checklist.map((element) => {
+      return {...element, checklistList: element.checklistList.filter((checklistList) => checklistList.tags.includes(activeRole))}
+    })
+      setList(checklistNew)
+    }else {
+      setList(checklist)
+    }
   }, [checklist, activeRole])
 
   console.log(list, 'list')
@@ -68,8 +71,6 @@ const AccessibilityPageTemplate = ({
     <Wrapper tag="div" menu={true} narrow>
       <Heading tag={1} text={title} align={'left'} />
       <Preamble text={intro} tag="p" align={'left'} />
-      
-        
       <Filter items={roles} onChildClick={handleChildClick}  />
       <span style={heading}>Go to section:</span>
         <ul style={listStyle}>
@@ -82,7 +83,6 @@ const AccessibilityPageTemplate = ({
         }
       </ul>
       {
-
         list.map((item, index) => {
           
           return (
@@ -90,16 +90,16 @@ const AccessibilityPageTemplate = ({
               
               {item.checklistList.length > 0 &&  <Heading id={item.section} tag={2} text={item.section} align={'left'} />} 
               {
-              item.checklistList.map((child, index) => {
+              item.checklistList.map((child, i) => {
 
                 return (
-                <div key={index} style={{position: "relative"}}>
-                
-                <Checkbox label={child.title} name={'name'+index} checked={checkedItems[index]} onChange={handleChange} />
-                <Collapse title={child.title}>
-                  {child.text}
-                  <Tags items={child.tags} />
-                </Collapse> 
+                <div key={i} style={{position: "relative"}}>
+                  {console.log(checklistHtml[index].checklistList[i].text, i, 'index')}
+                  <Checkbox label={child.title} name={'name'+i} checked={checkedItems[i]} onChange={handleChange} />
+                  <Collapse title={child.title}>
+                    <Content className="Content--tight" source={checklistHtml[index].checklistList[i].text?.html} />
+                    <Tags items={child.tags} />
+                  </Collapse> 
                 </div>
                 )
               })}
@@ -133,6 +133,5 @@ const AccessibilityPageTemplate = ({
   </>
   )
 }
-
 
 export default AccessibilityPageTemplate
