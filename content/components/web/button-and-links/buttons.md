@@ -282,7 +282,7 @@ tabs:
         <svg class="icon text-white" width="24" height="24">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-bankid-24"></use>
         </svg>
-        Legitimera dig
+        Identifiera dig
       </button>
 
       ```
