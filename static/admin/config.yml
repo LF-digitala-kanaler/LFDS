@@ -580,6 +580,13 @@ collections: # A list of collections the CMS should be able to edi
                 fields:
                 - {label: 'Title', name: 'title', widget: 'string'}
                 - {label: 'Text', name: 'text', widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']}
+                - label: "Related Links"
+                  name: "relatedLinks"
+                  collapsed: false
+                  widget: "list"
+                  fields:
+                    - {label: Text, name: text, widget: string }
+                    - {label: Url, name: url, widget: string, hint: Use relative links for internal links }
                 - label: 'Tags'
                   name: 'tags'
                   widget: 'select'

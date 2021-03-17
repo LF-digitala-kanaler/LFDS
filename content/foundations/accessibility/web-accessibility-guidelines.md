@@ -42,24 +42,24 @@ checklist:
 
           Functions should be performed the same way regardless of where on the website the user is located. The same rule of consistency applies to names and appearance of functions. For example, a button called “approve” should not be called “OK” on a different page. A “save” icon should have the same appearance everywhere.
 
-
-          **Read more:**
-
-          [Understanding Success Criterion 3.2.3: Consistent Navigation](https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html)
-
-          [Presentera innehållet i en meningsfull ordning för alla](https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 3.2.3: Consistent Navigation"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html
+          - text: Presentera innehållet i en meningsfull ordning för alla
+            url: https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
+          
       - tags:
           - UX/AD
           - Developer
         title: 1.03 - Present content correctly regardless of screen orientation
         text: >-
-          ### For designers 
+          #### For designers 
 
 
           Not all people have the ability or possibility to rotate the screen. Some have to choose between portrait or landscape and stick with it, for example when the screen is mounted on a wheelchair. Therefore, design content and functions that are accessible regardless of screen orientation. The user should be able to choose orientation after personal preference.
 
 
-          ### For testers
+          #### For testers
 
 
           * Test the reading order of the page by going through it on different screen sizes.
@@ -68,14 +68,13 @@ checklist:
 
           * Make sure to test the flow of the page in other documents (pdf, word, etc.). See also section 2.15.
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.3.4: Orientation"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/orientation.html
+          - text: Se till att allt innehåll presenteras rätt oavsett skärmens riktning
+            url: https://webbriktlinjer.se/riktlinjer/153-fungerar-oavsett-skarmens-riktning/#utdrag-fran-wcag-standarden
 
 
-
-          **Read more:** \
-
-          [Understanding Success Criterion 1.3.4: Orientation](https://www.w3.org/WAI/WCAG21/Understanding/orientation.html)\
-
-          [Se till att allt innehåll presenteras rätt oavsett skärmens riktning](https://webbriktlinjer.se/riktlinjer/153-fungerar-oavsett-skarmens-riktning/#utdrag-fran-wcag-standarden)
       - tags:
           - UX/AD
         title: 1.04 - All important information should be available to all users
@@ -102,12 +101,12 @@ checklist:
 
           * PDF:s and other downloadables  should work the same way.
 
-
-          **Read more:**\
-
-          [Understanding Success Criterion 1.4.10: Reflow](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)\
-
-          [Var konsekvent i navigation, struktur och utformning](https://webbriktlinjer.se/riktlinjer/29-var-konsekvent-i-navigation-struktur-och-utformning/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.10: Reflow"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/reflow.html
+          - text: Var konsekvent i navigation, struktur och utformning
+            url: https://webbriktlinjer.se/riktlinjer/29-var-konsekvent-i-navigation-struktur-och-utformning/
+     
       - tags:
           - UX/AD
         title: "1.06 - Offer multiple ways to contact "
@@ -140,12 +139,11 @@ checklist:
 
 
           There are cases where a component could have a contrast above 5:1 but still be illegible or difficult to interpret. Therefore don’t assume automatic tests are 100% correct, use your own judgement.
-
-
-          **Read more:**
-
-
-          [Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+        
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.3: Contrast (Minimum)"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html
+         
       - tags:
           - UX/AD
         title: "1.08 - Be careful with strong colors, use the red sparingly "
@@ -167,13 +165,12 @@ checklist:
 
           Examples of such content can be sub-menus, tool-tips or non-modal pop-ups. 
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.13: Content on Hover or Focus"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html
+          - text: "Popup-funktioner ska kunna hanteras och stängas av alla"
+            url: https://webbriktlinjer.se/riktlinjer/158-popup-funktioner-ska-kunna-hanteras-och-stangas-av-alla/
 
-          **Read more:** 
-
-
-          [Understanding Success Criterion 1.4.13: Content on Hover or Focus](https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html)\
-
-          [Popup-funktioner ska kunna hanteras och stängas av alla](https://webbriktlinjer.se/riktlinjer/158-popup-funktioner-ska-kunna-hanteras-och-stangas-av-alla/)
       - tags:
           - UX/AD
           - Developer
@@ -187,12 +184,10 @@ checklist:
 
           For performance and efficiency reasons, wait until the user enters two characters in the search field before presenting suggestions.
 
-
-          **Read more:**\
-
-          [Understanding Success Criterion 3.3.3: Error Suggestion](https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion)\
-
-          [Ge ordförslag vid sökning och inmatning](https://webbriktlinjer.se/riktlinjer/112-ordforslag/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 3.3.3: Error Suggestion"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion
+          
       - tags:
           - UX/AD
           - Copy
@@ -203,12 +198,12 @@ checklist:
           text is highly relevant to the user, make sure the text is included in
           the alt-text.
 
-
-          **Read more:**\
-
-          [Understanding Success Criterion 1.4.5: Images of Text](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html)\
-
-          [Använd text, inte bilder, för att visa text](https://webbriktlinjer.se/riktlinjer/128-anvand-text-inte-bilder-for-att-visa-text/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.5: Images of Text"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html
+          - text: Använd text, inte bilder, för att visa text
+            url: https://webbriktlinjer.se/riktlinjer/128-anvand-text-inte-bilder-for-att-visa-text/
+        
       - tags:
           - Copy
         title: 1.12 - Use “alt-text” on images containing important information
@@ -217,19 +212,17 @@ checklist:
           diagrams) need to have an alternative-text. The user should be able to
           understand what the image conveys even if the image is not visible
           because of a bad connection, the image link is broken or the user is
-          using a screen reader.\
-
-          \
+          using a screen reader.
 
           One good way of doing this is describing the image the same way you would do it in a phone conversation.
 
 
           If a CMS system is being used, make it easier for the editors by making the alt-text field  mandatory.
-
-
-          **Read more:** \
-
-          [Understanding Success Criterion 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content)
+        
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.1.1: Non-text Content"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content
+          
       - tags:
           - Copy
           - Tester
@@ -239,10 +232,10 @@ checklist:
           communicate important information to the user. However, an empty
           alt-tag is still needed in order for the page to validate.  
 
-
-          **Read more:**\
-
-          [H67: Using null alt text and no title attribute on img elements for images that AT should ignore](https://www.w3.org/WAI/WCAG21/Techniques/html/H67)
+        relatedLinks:
+          - text: "H67: Using null alt text and no title attribute on img elements for images that AT should ignore"
+            url: https://www.w3.org/WAI/WCAG21/Techniques/html/H67
+         
       - tags:
           - Copy
         title: 1.14 - If the image is linked, describe the destination as “alt-text”
@@ -251,10 +244,10 @@ checklist:
           as an alt-text. The description should be short and clearly
           communicate where the user will be taken. 
 
-
-          **Read more:**\
-
-          [Understanding Success Criterion 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.1.1: Non-text Content"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content
+         
       - tags:
           - UX/AD
           - Developer
@@ -276,12 +269,12 @@ checklist:
 
           Some navigation aids use only links or headlines to navigate.
 
-
-          **Read more:**\
-
-          [Understanding Success Criterion 2.4.5: Multiple Ways](https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways)\
-
-          [Erbjud användarna flera olika sätt att navigera](https://webbriktlinjer.se/riktlinjer/32-erbjud-besokaren-alternativa-orienteringsstod/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.4.5: Multiple Ways"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways
+          - text: "Erbjud användarna flera olika sätt att navigera"
+            url: https://webbriktlinjer.se/riktlinjer/32-erbjud-besokaren-alternativa-orienteringsstod/
+        
       - tags:
           - UX/AD
         title: 1.16 - Use sufficient contrast in components and graphics
@@ -296,12 +289,13 @@ checklist:
 
           Check contrast here: [Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.11: Non-text Contrast"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html
+          - text: Använd tillräckliga kontraster i komponenter och grafik
+            url: https://webbriktlinjer.se/riktlinjer/156-anvand-tillrackliga-kontraster-i-komponenter-och-grafik/
 
-          **Read more:**\
-
-          [Understanding Success Criterion 1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)\
-
-          [Använd tillräckliga kontraster i komponenter och grafik](https://webbriktlinjer.se/riktlinjer/156-anvand-tillrackliga-kontraster-i-komponenter-och-grafik/)
+         
       - tags:
           - Developer
         title: 1.17 - Highlight the field or element in focus
@@ -314,12 +308,13 @@ checklist:
 
           Make the border clearly visible by using a CSS-rule.
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.4.7: Focus Visible"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html
+          - text: Markera tydligt vilket fält eller element som är i fokus
+            url: https://webbriktlinjer.se/riktlinjer/140-markera-element-i-fokus/
 
-          **Read more:**\
-
-          [Understanding Success Criterion 2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html)\
-
-          [Markera tydligt vilket fält eller element som är i fokus](https://webbriktlinjer.se/riktlinjer/140-markera-element-i-fokus/)
+       
       - tags:
           - UX/AD
           - Developer
@@ -339,12 +334,13 @@ checklist:
 
           appear. In that case, make sure the user takes notice of the change by having the new question appear in close proximity and directly after the previous question.
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 3.2.1: On Focus"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html
+          - text: Utför inga oväntade förändringar vid fokusering
+            url: https://webbriktlinjer.se/riktlinjer/143-utfor-inga-ovantade-forandringar-vid-fokusering/
 
-          **Read more:**\
-
-          [Understanding Success Criterion 3.2.1: On Focus](https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html)\
-
-          [Utför inga oväntade förändringar vid fokusering](https://webbriktlinjer.se/riktlinjer/143-utfor-inga-ovantade-forandringar-vid-fokusering/)
+   
       - tags:
           - UX/AD
           - Developer
@@ -362,10 +358,10 @@ checklist:
           easy to discover interactions, such as single tap, double tap or
           press.
 
-
-          **Read more:**\
-
-          [Understanding Success Criterion 2.5.1: Pointer Gestures](https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.5.1: Pointer Gestures"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html
+          
       - tags:
           - UX/AD
           - Developer
@@ -377,19 +373,18 @@ checklist:
           cells are rows and which are columns.**
 
 
-          The attribute “scope” on a th-element creates a connection between header cells and data cells.This enables the screen reader to read the associated header before the content in a data cell. Doing so relieves  the user from having to remember the table structure. This is especially important for tables with many columns or with several header levels. \
+          The attribute “scope” on a th-element creates a connection between header cells and data cells.This enables the screen reader to read the associated header before the content in a data cell. Doing so relieves  the user from having to remember the table structure. This is especially important for tables with many columns or with several header levels.
 
-          \
+        relatedLinks:
+          - text: "H51: Using table markup to present tabular information"
+            url: https://www.w3.org/TR/WCAG20-TECHS/H51.html
+          - text: Creating Accessible Tables
+            url: https://webaim.org/techniques/tables/data
+          - text: Tips and Tricks • Tables • WAI Web Accessibility Tutorials
+            url: https://www.w3.org/WAI/tutorials/tables/tips/
+          - text: Skriv rubriker till tabeller
+            url: https://webbriktlinjer.se/riktlinjer/98-anvand-tabellrubriker-for-att-hjalpa-anvandaren/
 
-          **Read more:** \
-
-          [H51: Using table markup to present tabular information](https://www.w3.org/TR/WCAG20-TECHS/H51.html)\
-
-          [Creating Accessible Tables](https://webaim.org/techniques/tables/data)  \
-
-          [Tips and Tricks • Tables • WAI Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/tables/tips/)\
-
-          [Skriv rubriker till tabeller](https://webbriktlinjer.se/riktlinjer/98-anvand-tabellrubriker-for-att-hjalpa-anvandaren/)
       - tags:
           - UX/AD
         title: 1.21 - Explain icons
@@ -398,10 +393,10 @@ checklist:
           by explanatory text. The exceptions to the rule are icons of the
           universal kind, (think “go back” arrow).
 
-
-          **Read more:**\
-
-          [Understanding Success Criterion 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.1.1: Non-text Content"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content
+        
   - section: Copy and content
     checklistList:
       - tags:

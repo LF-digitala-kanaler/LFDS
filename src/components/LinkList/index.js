@@ -3,7 +3,7 @@ import style from './index.module.css'
 import { Link } from 'gatsby'
 const isRelativeUrl = require(`is-relative-url`);
 
-const LinkList = ({ items }) => {
+const LinkList = ({ items , customCss}) => {
   
   
   const links = items.map((item) => {
@@ -28,7 +28,7 @@ const LinkList = ({ items }) => {
   })
   return (
     <>
-      <nav className={style.LinkList}>
+      <nav style={customCss} className={style.LinkList}>
         <ul className={style.LinkList__list}>{links}</ul>
       </nav>
     </>

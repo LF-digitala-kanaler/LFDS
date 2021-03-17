@@ -8,7 +8,7 @@ import Tags from '../components/Tags'
 import Filter from '../components/Filter'
 import Checkbox from '../components/Checkbox'
 import Collapse from '../components/Collapse'
-
+import LinkList from '../components/LinkList'
 
 const AccessibilityPageTemplate = ({
   title,
@@ -19,7 +19,7 @@ const AccessibilityPageTemplate = ({
   checklist,
   checklistHtml
 }) => {
-  console.log(checklistHtml, 'html')
+
   const [checkedItems, setCheckedItems] = useState({});
  
   const [list, setList] = useState([...checklist])
@@ -65,6 +65,14 @@ const AccessibilityPageTemplate = ({
     marginTop: '16px',
     display: 'block'
   }
+  const marginTop = {
+    marginTop: '16px',
+    display: 'block',
+    marginBottom: '4px'
+  }
+  const marginBottom = {
+    marginBottom: '0',
+  }
   return (
   <>
     
@@ -94,10 +102,16 @@ const AccessibilityPageTemplate = ({
 
                 return (
                 <div key={i} style={{position: "relative"}}>
-                  {console.log(checklistHtml[index].checklistList[i].text, i, 'index')}
+                  {console.log(child.relatedLinks, 'child')}
                   <Checkbox label={child.title} name={'name'+i} checked={checkedItems[i]} onChange={handleChange} />
                   <Collapse title={child.title}>
-                    <Content className="Content--tight" source={checklistHtml[index].checklistList[i].text?.html} />
+                    {checklistHtml === undefined ? child.text : <Content className="Content--tight" source={checklistHtml[index].checklistList[i].text?.html} />  }
+                    {child.relatedLinks && 
+                      <>
+                      <strong style={marginTop}>Read more:</strong>
+                      {<LinkList customCss={marginBottom} items={child.relatedLinks} /> }
+                      </>
+                    }
                     <Tags items={child.tags} />
                   </Collapse> 
                 </div>

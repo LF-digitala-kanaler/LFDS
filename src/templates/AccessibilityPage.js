@@ -50,13 +50,17 @@ export const pageQuery = graphql`
         template
         category
         wide
+  
         checklist {
           section
           checklistList {
             title
             text
             tags
-            
+            relatedLinks {
+              text
+              url
+            }          
           }
         }
         heroBlock {
