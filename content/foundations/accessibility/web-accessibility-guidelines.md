@@ -416,15 +416,11 @@ checklist:
 
           **Things to avoid:**\
 
-          Walls of text\
-
-          Too much information\
-
-          Italic text \
-
-          Centered text\
-
-          Writing words in uppercase
+          *Walls of text
+          *Too much information
+          *Italic text 
+          *Centered text
+          *Writing words in uppercase
       - tags:
           - UX/AD
           - Copy
@@ -526,12 +522,12 @@ checklist:
 
           * Paragraph spacing to 2 times the size of the font
 
-
-          **Read more:[](https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/)**\
-
-          [Understanding Success Criterion 1.4.12: Text Spacing](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html)\
-
-          [Se till att det går att öka avstånd mellan tecken, rader, stycken och ord](https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.12: Text Spacing"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html
+          - text: "Se till att det går att öka avstånd mellan tecken, rader, stycken och ord"
+            url: https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/
+         
       - tags:
           - Developer
         title: 2.13 - Text can be enlarged 200% without issues
@@ -551,12 +547,13 @@ checklist:
 
           * Have generous spacing between columns 
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.4: Resize text"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html
+          - text: Se till att text går att förstora utan problem
+            url: https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/
 
-          **Read more:** \
-
-          [Understanding Success Criterion 1.4.4: Resize text](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)\
-
-          [Se till att text går att förstora utan problem](https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/)
+          
       - tags:
           - Developer
         title: 2.14 - Downloadable documents should have descriptive file names
@@ -568,10 +565,10 @@ checklist:
           number or form number is known by the users, should it be part of the
           file name.  
 
-
-          **Read more:**\
-
-          [Ge dokument tydliga filnamn](https://webbriktlinjer.se/riktlinjer/9-ge-dokument-tydliga-filnamn/)
+        relatedLinks:
+          - text: Ge dokument tydliga filnamn
+            url: https://webbriktlinjer.se/riktlinjer/9-ge-dokument-tydliga-filnamn/
+          
       - tags:
           - Copy
           - Tester
@@ -602,16 +599,14 @@ checklist:
           * If the document becomes too large after adding the settings, you can always compress it later.
 
 
-          **Read more:**
+        relatedLinks:
+          - text: Create accessible PDFs - Office Support
+            url: https://support.microsoft.com/en-us/office/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed
+          - text: Creating accessible PDFs in Adobe Acrobat
+            url: https://helpx.adobe.com/acrobat/using/creating-accessible-pdfs.html
+          - text: Publicera i första hand dokument i html och skapa tillgängliga pdf:er
+            url: https://webbriktlinjer.se/riktlinjer/88-publicera-i-forsta-hand-dokument-i-html/
 
-
-          [Create accessible PDFs - Office Support](https://support.microsoft.com/en-us/office/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed) 
-
-
-          [Creating accessible PDFs in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/creating-accessible-pdfs.html)
-
-
-          [Publicera i första hand dokument i html och skapa tillgängliga pdf:er](https://webbriktlinjer.se/riktlinjer/88-publicera-i-forsta-hand-dokument-i-html/)
   - section: Clickable areas - buttons and links
     checklistList:
       - tags:
