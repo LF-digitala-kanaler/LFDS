@@ -12,9 +12,9 @@ contentTop: ""
 
 ### Primary button with BankID icon
 
-#### Legitimering direkt
+#### Identifiering direkt
 
-När BankID-legitimeringen sker för att identifiera användaren använder vi begreppet "legitimera".
+När BankID-identifiering sker för att användaren ska visa att "jag är jag", använder vi begreppet "identifiera".
 
 **Text i knapp:**
 
