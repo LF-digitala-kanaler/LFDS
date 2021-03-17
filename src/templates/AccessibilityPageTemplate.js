@@ -103,7 +103,7 @@ const AccessibilityPageTemplate = ({
                 return (
                 <div key={i} style={{position: "relative"}}>
                   {console.log(child.relatedLinks, 'child')}
-                  <Checkbox label={child.title} name={'name'+i} checked={checkedItems[i]} onChange={handleChange} />
+                  <Checkbox id={'id'+i} label={child.title} name={'name'+i} checked={checkedItems[i]} onChange={handleChange} />
                   <Collapse title={child.title}>
                     {checklistHtml === undefined ? child.text : <Content className="Content--tight" source={checklistHtml[index].checklistList[i].text?.html} />  }
                     {child.relatedLinks && 
