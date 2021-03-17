@@ -59,7 +59,7 @@ Tjänstepension som grundas på kollektivavtal mellan arbetsgivaren och en fackl
 
   ###### **JA**
 
-En form av e-legitimation och ett säkert sätt att legitimera dig på internet. Länsförsäkringar erbjuder BankID. Se även *mobilt BankID.*
+En form av e-legitimation och ett säkert sätt att identifiera dig på internet. Länsförsäkringar erbjuder BankID. Se även *mobilt BankID.*
 
 * ###### **boendeförsäkring**
 
@@ -107,7 +107,7 @@ Faktura som skickas till internetbanken där kontohavaren godkänner den för be
 
   ###### **JA**
 
-En elektronisk legitimation som du använder på internet för att legitimera dig eller underteckna elektroniska dokument. Jämför BankID.
+En elektronisk legitimation som du använder på internet för att identifiera dig eller underteckna elektroniska dokument. Jämför BankID.
 
 * ###### **e-post**
 
@@ -417,8 +417,6 @@ Vi använder make både för män och kvinnor. I plural skriver vi makar. Begrep
   ###### **JA**
 
   Vi har svensk stavning och skriver inte mail.
-
-
 * MINA SIDOR
 
   **JA**
@@ -441,7 +439,7 @@ Skriv alltid *skicka sms* eller *skicka mms*.
 
   ###### **JA**
 
-En mobil e-legitimation och ett säkert sätt att legitimera dig på internet. Se även *BankID*.
+En mobil e-legitimation och ett säkert sätt att identifiera dig på internet. Se även *BankID*.
 
 * **MOBILTJÄNST**
 
