@@ -414,13 +414,18 @@ checklist:
           Use quotes and subheaders to keep the user interested.
 
 
-          **Things to avoid:**\
+          **Things to avoid:**
 
-          *Walls of text
-          *Too much information
-          *Italic text 
-          *Centered text
-          *Writing words in uppercase
+          * Walls of text
+
+          * Too much information
+
+          * Italic text 
+
+          * Centered text
+
+          * Writing words in uppercase
+
       - tags:
           - UX/AD
           - Copy
@@ -584,7 +589,7 @@ checklist:
 
           * The file should have coded tags in a tag tree. You can create a tag tree in Word by selecting “Document structure tags for accessibility”. You can also do it after the conversion to PDF by selecting “Add tags to document” in Acrobat. 
 
-          * Tag headlines with headline tags (<H1>, <H2>), tables (<table>), table headlines (<TH>), columns (<colgroup>, bullet point lists (<L>) and table of contents (<TOC>).
+          * Tag headlines with headline tags `<h1>`, `<h2>`, tables `<table>`, table headlines `<th>`, columns `<colgroup>`, bullet point lists `<l>` and table of contents `<toc>`.
 
           * Add alt-text tags to images, diagrams and image-based figures.
 
@@ -654,11 +659,10 @@ checklist:
 
           Don’t use the url of the page as a link name. 
 
-
-          **Read more:**
-
-
-          [Understanding Success Criterion 2.4.4: Link Purpose](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.4.4: Link Purpose"
+            url: https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html
+         
       - tags:
           - UX/AD
         title: 3.05 - Combine color, form and text even with icons and links
@@ -669,11 +673,10 @@ checklist:
           how we use universal icons like the “x” for close and the “i” for
           information.
 
-
-          **Read more:**
-
-
-          [Understanding Success Criterion 1.4.1: Use of Color](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.1: Use of Color"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html
+         
       - tags:
           - Copy
         title: 3.06 - Link names should be a maximum 100 characters long
@@ -703,14 +706,12 @@ checklist:
 
           * Make a single link (an a-element) when you have two elements like an icon and text.
 
-
-          **Read more:**
-
-
-          [Understanding Success Criterion 3.2.3: Consistent Navigation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html)
-
-
-          [Gör länkar, klickbara ytor och menyer användbara för alla](https://webbriktlinjer.se/riktlinjer/34-gor-lankar-och-klickbara-ytor-enkla-att-anvanda-for-alla/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 3.2.3: Consistent Navigation"
+            url: https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html
+          - text: Gör länkar, klickbara ytor och menyer användbara för alla
+            url: https://webbriktlinjer.se/riktlinjer/34-gor-lankar-och-klickbara-ytor-enkla-att-anvanda-for-alla/
+        
       - tags:
           - Developer
         title: 3.08 - Text on buttons matches the machine-readable tags
@@ -721,14 +722,12 @@ checklist:
           by voice control. This makes for a smoother experience for voice
           control users.
 
-
-          **Read more:** 
-
-
-          [Understanding Success Criterion 2.5.3: Label in Name](https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html)
-
-
-          [Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter](https://webbriktlinjer.se/riktlinjer/162-mojliggor-roststyrning-av-knappar-och-kontroller/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.5.3: Label in Name"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html
+          - text: Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter
+            url: https://webbriktlinjer.se/riktlinjer/162-mojliggor-roststyrning-av-knappar-och-kontroller/
+        
       - tags:
           - UX/AD
           - Developer
@@ -742,13 +741,13 @@ checklist:
           that can't be easily reversed.
 
 
-          **Read more:** 
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.5.2: Pointer Cancellation"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html
+          - text: Gör det möjligt att ångra klick
+            url: https://webbriktlinjer.se/riktlinjer/161-gor-det-mojligt-att-angra-klick/
 
-
-          [Understanding Success Criterion 2.5.2: Pointer Cancellation](https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html)
-
-
-          [Gör det möjligt att ångra klick](https://webbriktlinjer.se/riktlinjer/161-gor-det-mojligt-att-angra-klick/)
+         
       - tags:
           - UX/AD
         title: 3.10 - Make contextual interactions easy to discover
@@ -776,14 +775,12 @@ checklist:
 
           Field label copy should be kept short, preferably not longer than two rows. If you need extra space for more detailed instructions you can add them at the beginning of the form. 
 
-
-          **Read more:** 
-
-
-          [Understanding Success Criterion 2.4.6: Headings and Labels](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html)
-
-
-          [Skriv beskrivande rubriker och etiketter](https://webbriktlinjer.se/riktlinjer/61-skriv-tydliga-och-berattande-rubriker/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.4.6: Headings and Labels"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html
+          - text: Skriv beskrivande rubriker och etiketter
+            url: https://webbriktlinjer.se/riktlinjer/61-skriv-tydliga-och-berattande-rubriker/
+          
       - tags:
           - UX/AD
           - Copy
@@ -810,13 +807,13 @@ checklist:
 
           **\
 
-          Read more:**
+        relatedLinks:
+          - text: "Understanding Success Criterion 3.3.1: Error Identification"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html
+          - text: How to Write Good Error Messages
+            url: https://uxplanet.org/how-to-write-good-error-messages-858e4551cd4
 
 
-          [Understanding Success Criterion 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html)
-
-
-          [How to Write Good Error Messages](https://uxplanet.org/how-to-write-good-error-messages-858e4551cd4)
       - tags:
           - UX/AD
           - Developer
@@ -831,11 +828,10 @@ checklist:
           unnecessarily from our users. On mobile, an average area for the index
           finger should be 44x44 pixels. 
 
-
-          **Read more:**
-
-
-          [Understanding Success Criterion 2.5.5: Target Size](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.5.5: Target Size"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/target-size.html
+          
       - tags:
           - UX/AD
           - Developer
@@ -850,14 +846,12 @@ checklist:
 
           Avoid creating interactions that don’t allow the user regret, correct or confirm. When the user enters larger amounts of information (think forms), give the user an opportunity to preview the entered information.
 
-
-          **Read more:** 
-
-
-          [Understanding Success Criterion 3.3.4: Error Prevention (Legal, Financial, Data)](https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html)
-
-
-          [Ge möjlighet att ångra, korrigera eller bekräfta vid viktiga transaktioner](https://webbriktlinjer.se/riktlinjer/150-ge-mojlighet-att-angra-korrigera-eller-bekrafta-viktiga-transaktioner/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 3.3.4: Error Prevention (Legal, Financial, Data"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html
+          - text: Ge möjlighet att ångra, korrigera eller bekräfta vid viktiga transaktioner
+            url: https://webbriktlinjer.se/riktlinjer/150-ge-mojlighet-att-angra-korrigera-eller-bekrafta-viktiga-transaktioner/
+         
       - tags:
           - UX/AD
           - Developer
@@ -867,10 +861,10 @@ checklist:
           they belong to, than other input fields or text. 
 
 
-          **Read more:**
-
-
-          [Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.3.1: Info and Relationships"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships
+       
       - tags:
           - UX/AD
           - Developer
@@ -892,14 +886,12 @@ checklist:
           them more prone to errors. Avoid using tabindex greater than “1” in
           the code.
 
-
-          **Read more:**
-
-
-          [Understanding Success Criterion 2.4.3: Focus Order](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html)
-
-
-          [Gör en logisk tab-ordning](https://webbriktlinjer.se/riktlinjer/136-gor-en-logisk-tab-ordning/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.4.3: Focus Order"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html
+          - text: Gör en logisk tab-ordning
+            url: https://webbriktlinjer.se/riktlinjer/136-gor-en-logisk-tab-ordning/
+         
       - tags:
           - Developer
         title: 4.08 - Tag input fields in the code
@@ -913,16 +905,12 @@ checklist:
 
           Tagging input fields helps all users, but especially people with cognitive/motoric disabilities or people not familiar with the language. Adding the attribute “autocomplete” on input fields adds another layer of accessibility.  
 
-
-          **\
-
-          Read more:** 
-
-
-          [Understanding Success Criterion 1.3.5: Identify Input Purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html)
-
-
-          [Märk upp vanliga formulärfält i koden](https://webbriktlinjer.se/riktlinjer/154-mark-upp-vanliga-formularfalt-i-koden/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.3.5: Identify Input Purpose"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html
+          - text: Märk upp vanliga formulärfält i koden
+            url: https://webbriktlinjer.se/riktlinjer/154-mark-upp-vanliga-formularfalt-i-koden/
+        
   - section: Video & animation
     checklistList:
       - tags:
@@ -942,14 +930,12 @@ checklist:
 
           There should always be ways to pause a video or control its volume. A user that navigates with a screen reader may not hear the content if other sounds are being played simultaneously. Users with a lower ability to focus or filter external stimuli may find it hard to use a service if they cannot turn off the sound easily.
 
-
-          **Read more:** 
-
-
-          [Understanding Success Criterion 1.4.2: Audio Control](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html)
-
-
-          [Ge användaren möjlighet att pausa, stänga av eller sänka ljud](https://webbriktlinjer.se/riktlinjer/125-kunna-pausa-ljud/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.4.2: Audio Control"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html
+          - text: Ge användaren möjlighet att pausa, stänga av eller sänka ljud
+            url: https://webbriktlinjer.se/riktlinjer/125-kunna-pausa-ljud/
+         
       - tags:
           - UX/AD
           - Developer
@@ -963,13 +949,10 @@ checklist:
           animations to be confusing and distracting. Since animations should
           not be looping, they also should not be critical to functionality.
 
-
-          **\
-
-          Read more:**
-
-
-          [Understanding Success Criterion 2.3.3: Animation from Interactions](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.3.3: Animation from Interactions"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html
+         
       - tags:
           - Copy
         title: 5.04 Always provide subtitles with video content
@@ -979,13 +962,13 @@ checklist:
           or  the need to watch without disturbing others. Users for whom
           Swedish isn't their first language sometimes use subtitles as support.
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.2.2: Captions (Prerecorded)"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html
+          - text: "Texta inspelad rörlig media (video, ljud, animationer…)"
+            url: https://webbriktlinjer.se/riktlinjer/117-texta-inspelad-rorlig-media/
 
-          **Read more:**\
-
-          [Understanding Success Criterion 1.2.2: Captions (Prerecorded)](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html)
-
-
-          [Texta inspelad rörlig media (video, ljud, animationer…)](https://webbriktlinjer.se/riktlinjer/117-texta-inspelad-rorlig-media/)
+         
   - section: Lists
     checklistList:
       - tags:
@@ -1044,27 +1027,21 @@ checklist:
           * För subscription services, use RSS eller Atom.Make it possible to subscribe to information.
 
 
+        relatedLinks:
+          - text: "Using WAI-ARIA"
+            url: https://www.w3.org/TR/wai-aria-1.1/#usage
+          - text: "Understanding Success Criterion 3.3.2: Labels or Instructions"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html
+          - text: "Skapa tydliga och klickbara fältetiketter"
+            url: https://webbriktlinjer.se/riktlinjer/55-skapa-tydliga-och-klickbara-faltetiketter/
+          - text: "Gör det möjligt att prenumerera på information"
+            url: https://webbriktlinjer.se/riktlinjer/87-gor-det-mojligt-att-prenumerera-pa-information/
+          - text: "The Atom Syndication Format"
+            url: https://www.ietf.org/rfc/rfc4287.txt
+          - text: "Använd rätt html-element när ni gör listor"
+            url: https://webbriktlinjer.se/riktlinjer/104-gor-listor-med-de-html-element-som-ar-till-for-att-skapa-listor/
 
-
-          **Read more:**
-
-
-          [Using WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/#usage)
-
-
-          [Understanding Success Criterion 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
-
-
-          [Skapa tydliga och klickbara fältetiketter](https://webbriktlinjer.se/riktlinjer/55-skapa-tydliga-och-klickbara-faltetiketter/)
-
-
-          [Gör det möjligt att prenumerera på information](https://webbriktlinjer.se/riktlinjer/87-gor-det-mojligt-att-prenumerera-pa-information/)
-
-
-          [The Atom Syndication Format](https://www.ietf.org/rfc/rfc4287.txt)
-
-
-          [Använd rätt html-element när ni gör listor](https://webbriktlinjer.se/riktlinjer/104-gor-listor-med-de-html-element-som-ar-till-for-att-skapa-listor/)
+         
       - tags:
           - Developer
         title: 7.02 - Offer the possibility to skip repeating content
@@ -1087,16 +1064,12 @@ checklist:
 
           * R68. Create shortcuts as necessary.
 
-
-
-
-          **Read more:** 
-
-
-          [Understanding Success Criterion 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html)
-
-
-          [Erbjud möjlighet att hoppa förbi återkommande innehåll](https://webbriktlinjer.se/riktlinjer/75-gruppera-och-skapa-mojlighet-att-hoppa-forbi-delar-pa-sidorna/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.4.1: Bypass Blocks"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html
+          - text: "Erbjud möjlighet att hoppa förbi återkommande innehåll"
+            url: https://webbriktlinjer.se/riktlinjer/75-gruppera-och-skapa-mojlighet-att-hoppa-forbi-delar-pa-sidorna/
+          
       - tags:
           - Developer
         title: 7.03 - Offer the possibility to go back
@@ -1128,15 +1101,13 @@ checklist:
           * Provide the option to turn off or change shortcuts that consist of only one key press.
 
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 2.1.4: Character Key Shortcuts"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html
+          - text: "Skapa kortkommandon med varsamhet"
+            url: https://webbriktlinjer.se/riktlinjer/68-skapa-snabbkommandon-for-viktiga-funktioner/
 
-
-          Read more: 
-
-
-          [Understanding Success Criterion 2.1.4: Character Key Shortcuts](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html)
-
-
-          [Skapa kortkommandon med varsamhet ](https://webbriktlinjer.se/riktlinjer/68-skapa-snabbkommandon-for-viktiga-funktioner/)
+        
       - tags:
           - Developer
         title: 7.05 - Make sure the code validates
@@ -1171,14 +1142,12 @@ checklist:
 
 
 
+        relatedLinks:
+          - text: "Understanding Success Criterion 4.1.1: Parsing"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/parsing.html
+          - text: "Se till att koden validerar"
+            url: https://webbriktlinjer.se/riktlinjer/84-se-till-att-koden-validerar/
 
-          **Read more:**
-
-
-          [Understanding Success Criterion 4.1.1: Parsing](https://www.w3.org/WAI/WCAG21/Understanding/parsing.html)
-
-
-          [Se till att koden validerar](https://webbriktlinjer.se/riktlinjer/84-se-till-att-koden-validerar/)
       - tags:
           - Developer
         title: 7.06 - Make sure page speed is up to standard
@@ -1230,11 +1199,10 @@ checklist:
           keyboard or aids that connect to keyboard shortcuts, are dependent on
           the system not requiring a mouse or a touch screen. 
 
-
-          **Read more:**
-
-
-          [Understanding Guideline 2.1: Keyboard Accessible](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible)
+        relatedLinks:
+          - text: "Understanding Guideline 2.1: Keyboard Accessible"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible
+          
       - tags:
           - Developer
         title: 7.08 - State the language of the content in the code
@@ -1252,14 +1220,12 @@ checklist:
           may appear by using role or aria-live attributes. The aids can then
           recognise them and present them to the user at an appropriate time.
 
-
-          **Read more:** 
-
-
-          [Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html)
-
-
-          [Se till att hjälpmedel kan presentera meddelanden som inte är i fokus ](https://webbriktlinjer.se/riktlinjer/164-meddelanden-som-inte-ar-fokus/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 4.1.3: Status Messages"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html
+          - text: "Se till att hjälpmedel kan presentera meddelanden som inte är i fokus"
+            url: https://webbriktlinjer.se/riktlinjer/164-meddelanden-som-inte-ar-fokus/
+          
   - section: Apps
     checklistList:
       - tags:
