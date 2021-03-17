@@ -14,7 +14,7 @@ checklist:
           - UX/AD
           - Copy
         title: 1.01 - Arrange content in a clear and meaningful hierarchy
-        text: >-
+        text: >
           Think about how you can arrange content in a meaningful order, so that
           the user can easily follow the flow through the information. Avoid
           filling all available space. Unused space (white space) is important
@@ -23,17 +23,11 @@ checklist:
 
 
           Make sure there is a clear hierarchy and that elements do not compete for attention. By doing so, you help the user to be naturally drawn to important information and interactions.
-
-
-
-          **Read more:**
-
-
-
-
-          [Understanding Success Criterion 1.3.2: Meaningful Sequence](https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html)
-
-          [Presentera innehållet i en meningsfull ordning för alla](https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/)
+        relatedLinks:
+          - text: "Understanding Success Criterion 1.3.2: Meaningful Sequence"
+            url: https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html
+          - text: Presentera innehållet i en meningsfull ordning för alla
+            url: https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
       - tags:
           - UX/AD
         title: 1.02 - Be consistent with navigation, structure and design
