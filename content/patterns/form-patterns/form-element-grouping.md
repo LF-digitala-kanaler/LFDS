@@ -36,6 +36,8 @@ If an error occurs during the [form validation,](form-validation) the [error mes
 <div class="form-group has-danger">
 <label for="validationCustom01">Label</label>
 <input type="text" class="form-control" id="validationCustom01" placeholder="Something is wrong with this input" required>
+
+<small class="pristine-error form-control-feedback">This is an error message</small>
 </div>
 </div>
 </div>
