@@ -31,7 +31,10 @@ tabs:
       <div class="Callout"><strong class="Callout__title">Sentence-long questions </strong><p class="Callout__text">In some forms (like KYC and "Hälsodeklaration") we need to ask questions in sentence form rather than short and snappy labels. In those cases the boldness of the labels might reduce readability over time, so we recommend using Arial 16 px normal weight in those cases instead.</p></div>
 
 
-      ### Hjälptext under label eller komponenten
+      ### Input description/helptext
+
+
+      At times you might want to give some context to the expected input or provide information on GDPR-compliance of the data provided by the user. Then input description/helptext/meta (same thing, many names) is your friend - read more about how to use it in 
 
 
       Beskrivning av vad användaren förväntas fylla i textfältet skriver du i anslutning till fältet eller komponenten. Ska var max 1 till 2 rader i desktop och mobil. Behöver du mer text kan du använda dig av några olika metoder som finns beskrivna under [General Patterns Read more](../patterns/general-patterns/read-more)  
