@@ -91,6 +91,10 @@ tabs:
 
         * An exception to the normal way of handling [external links](../button-and-links/links#external-links) is when they are in a link list with icons. As the other links have icons in front of them, the external links also have the icon in front of the text to create a more coherent visual experience.
 
+      The above holds even in cases where the lists aren't proper lists (according to normal spoken language), but are just one line with link text coded as a "list". See [links](../button-and-links/links)-page for more on this.
+
+
+
       ### General modifiers
 
 
