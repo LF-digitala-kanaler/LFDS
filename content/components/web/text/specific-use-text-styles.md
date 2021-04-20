@@ -34,28 +34,25 @@ tabs:
       ### Input description/helptext
 
 
-      At times you might want to give some context to the expected input or provide information on GDPR-compliance of the data provided by the user. Then input description/helptext/meta (same thing, many names) is your friend - read more about how to use it in 
+      At times you might want to give some context to the expected input or provide information on GDPR-compliance of the data provided by the user. Then input description/helptext/meta (same thing, many names) is your friend - read more about how to use it in [form element grouping](/patterns/form-patterns/form-element-grouping). 
 
 
-      Beskrivning av vad användaren förväntas fylla i textfältet skriver du i anslutning till fältet eller komponenten. Ska var max 1 till 2 rader i desktop och mobil. Behöver du mer text kan du använda dig av några olika metoder som finns beskrivna under [General Patterns Read more](../patterns/general-patterns/read-more)  
+      The styling of input description is Arial 14px with colour #747578.
 
 
-      Hjälptexter är lite Arial i 14px och grå #747578. Kan även kallas meta.
+      ### Placeholder text
 
 
-      Förklarande texter kan även finnas ovanför ett formulär men då använder vi vanlig brödtext.
+      Placeholder text is the optional text in the input area to help the user see the expected format. Again, the detailed description can be found on the [form element grouping](/patterns/form-patterns/form-element-grouping)-page.
 
 
-      ### Hjälptexter i inputfält
+      Placeholder text is rendered in Arial, 16 px and #8B8B8B.
 
 
-      Även kallad goast text, är i Arial 16 px grå #8B8B8B. Bra exempel på hjälptext i fält är tex. ABC123 eller ååååmmdd-nnnn, en snabb input i vad vi tänker oss var data och antal tecken direkt i fältet. Texten försvinner när man börjar mata in text i fältet.
+      ### Error message
 
 
-      ### Felmeddelanden
-
-
-      Felmeddelanden under formulärs delar använder vi röda texter i Intro Cond Bold 14 px i LF röd #E30613.
+      Error messages are displayed in Intro Cond, bold weight, 14 px and #E30613.
 
 
       ## Other material
