@@ -22,7 +22,7 @@ tabs:
       ### Labels
 
 
-      Labels can be used in [tables](../page-content/tables) as well as [forms](../forms). In tables they are used as a headings for columns, and in forms they help help the user know what to enter in the adjacent form element (please see [form element grouping ](/patterns/form-patterns/form-element-grouping)for a thorough explanation). Labels should not be used for anything except this.
+      Labels can be used in [tables](./page-content/tables) as well as [forms](./forms). In tables they are used as a headings for columns, and in forms they help help the user know what to enter in the adjacent form element (please see [form element grouping ](/patterns/form-patterns/form-element-grouping)for a thorough explanation). Labels should not be used for anything except this.
 
 
       Labels are written in Intro Cond bold, 16px and colour #222222. 
