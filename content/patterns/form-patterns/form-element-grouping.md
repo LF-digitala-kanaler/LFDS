@@ -15,6 +15,8 @@ Our various [input elements](/components/web/forms/) (such as [input fields](/co
 
 Below is an example of how form elements should be grouped, with the [label](/components/web/text/specific-use-text-styles#labels) above the input element. If an [input description](/components/web/text/specific-use-text-styles) is needed, it should be placed below the form element.
 
+<figure class="Image Image__border "><img src="/img/specific-use-text-styles.png" srcset="/img/specific-use-text-styles.png 2x" alt="Example of form elements grouped together"><figcaption><div class="Image__caption">Example of form elements grouped together</div></figcaption></figure>
+
 The three form elements should be used as follows:
 
 * The **label** should tell the user what they are expected to enter in the form element at hand. Typical examples are "Personnummer" and "E-post". Copy for labels is found under each component under [Forms](https://lf-digitala-kanaler.github.io/components/web/forms).
