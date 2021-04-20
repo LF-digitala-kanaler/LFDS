@@ -27,7 +27,7 @@ The three form elements should be used as follows:
 
 ### Error message handling
 
-If an error occurs during the [form validation,](form-validation) the [error message](/components/web/text/specific-use-text-styles) is placed as a part of the form element group where the error occurs as follows: 
+If an error occurs during the [form validation,](form-validation) the [error message](/components/web/text/specific-use-text-styles#error-message) is placed as a part of the form element group where the error occurs as follows: 
 
 <LfuiWrapper script="">
 <form id="needs-validation" novalidate>
