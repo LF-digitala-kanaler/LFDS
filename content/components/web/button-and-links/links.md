@@ -75,6 +75,20 @@ tabs:
       <figure class="Image Image__background "><img src="/img/button_and_text.png" srcset="/img/button_and_text.png 2x" alt="Regular links next to a primary button in a flow where both backwards and cancel-options exist."><figcaption><div class="Image__caption">Regular links next to a primary button in a flow where both backwards and cancel-options exist.</div></figcaption></figure>
 
 
+      #### Links with an icon
+
+
+      In some cases you might want to add an icon to your link to draw more attention to it and ease the user's visual scanning of the page. In that case there are two simple things to remember:
+
+
+      1. The link(s) should be on a row of themselves, with nothing but link(s) on that row
+
+      2. The icon should be to the left of the link
+
+
+      <figure class="Image Image__border "><img src="/img/links-with-icons.png" srcset="/img/links-with-icons.png 2x" alt="Example of links with icons"><figcaption><div class="Image__caption">Example of links with icons</div></figcaption></figure>
+
+
       ## Other material
 
 

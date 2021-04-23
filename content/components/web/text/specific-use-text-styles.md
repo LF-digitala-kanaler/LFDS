@@ -13,42 +13,46 @@ tabs:
       ## How to use
 
 
-      I formulärens alla delar använder vi oss av styling för att visa Labels, beskrivande text och felmeddelanden. Här kommer en beskrivning på dessa.
+      This chapter describes text styles with specific use cases, such as in forms and tables. Below is which you can see the different types of text styles used in forms and the relation to each other and other form elements.
 
 
-      <figure class="Image Image__background "><img src="/img/specific-use-text-styles.png" srcset="/img/specific-use-text-styles.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+      <figure class="Image Image__border "><img src="/img/specific-use-text-styles.png" srcset="/img/specific-use-text-styles.png 2x" alt="Image exemplifying different text styles used in forms and how they relate to each other"><figcaption><div class="Image__caption">Different text styles used in forms and how they relate to each other</div></figcaption></figure>
 
 
       ### Labels
 
-      Som label använder vi alltid Intro Cond bold 16 px LF svart #222222. Gäller både i tabellens labels som formulärs labels. Alla annan text så använder vi Brödtext eller hjälptext.
+
+      Labels can be used in [tables](./page-content/tables) as well as [forms](./forms). In tables they are used as a headings for columns, and in forms they help help the user know what to enter in the adjacent form element (please see [form element grouping ](/patterns/form-patterns/form-element-grouping)for a thorough explanation). Labels should not be used for anything except this.
 
 
-      <div class="Callout"><strong class="Callout__title">Långa frågor med ja och nej </strong><p class="Callout__text">Frågeformulär med jag och nej frågor har ofta långa frågor, här ser vi att vi i framtiden kommer att använda oss av arial 16 px istället för den traditionella Label som blir väldigt svårläst i lång fet Intro cond.</p></div>
+      Labels are written in Intro Cond bold, 16px and colour #222222. 
 
 
-      ### Hjälptext under label eller komponenten
+      <div class="Callout"><strong class="Callout__title">Sentence-long questions </strong><p class="Callout__text">In some forms (like KYC and "Hälsodeklaration") we need to ask questions in sentence form rather than short and snappy labels. In those cases the boldness of the labels might reduce readability over time, so we recommend using Arial 16 px normal weight in those cases instead.</p></div>
 
 
-      Beskrivning av vad användaren förväntas fylla i textfältet skriver du i anslutning till fältet eller komponenten. Ska var max 1 till 2 rader i desktop och mobil. Behöver du mer text kan du använda dig av några olika metoder som finns beskrivna under [General Patterns Read more](../patterns/general-patterns/read-more)  
+      ### Input description/helptext
 
 
-      Hjälptexter är lite Arial i 14px och grå #747578. Kan även kallas meta.
+      At times you might want to give some context to the expected input or provide information on GDPR-compliance of the data provided by the user. Then input description/helptext/meta (same thing, many names) is your friend - read more about how to use it in [form element grouping](/patterns/form-patterns/form-element-grouping). 
 
 
-      Förklarande texter kan även finnas ovanför ett formulär men då använder vi vanlig brödtext.
+      The styling of input description is Arial 14px with colour #747578.
 
 
-      ### Hjälptexter i inputfält
+      ### Placeholder text
 
 
-      Även kallad goast text, är i Arial 16 px grå #8B8B8B. Bra exempel på hjälptext i fält är tex. ABC123 eller ååååmmdd-nnnn, en snabb input i vad vi tänker oss var data och antal tecken direkt i fältet. Texten försvinner när man börjar mata in text i fältet.
+      Placeholder text is the optional text in the input area to help the user see the expected format. Again, the detailed description can be found on the [form element grouping](/patterns/form-patterns/form-element-grouping)-page.
 
 
-      ### Felmeddelanden
+      Placeholder text is rendered in Arial, 16 px and #8B8B8B.
 
 
-      Felmeddelanden under formulärs delar använder vi röda texter i Intro Cond Bold 14 px i LF röd #E30613.
+      ### Error message
+
+
+      Error messages are displayed in Intro Cond, bold weight, 14 px and #E30613.
 
 
       ## Other material
@@ -58,5 +62,4 @@ tabs:
 
 
       LFUXAD Assets/LFUI Commons.sketch (Input/Label Style, Input/Error Style, Meta)
-
 ---
