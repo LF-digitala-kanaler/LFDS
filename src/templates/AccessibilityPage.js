@@ -1,20 +1,18 @@
-
-import React from 'react'
+import AccessibilityPageTemplate from './AccessibilityPageTemplate.js'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
-import AccessibilityPageTemplate from './AccessibilityPageTemplate.js'
-
+import React from 'react'
 
 const AccessibilityPage = ({ data: { page }, location }) => {
-  
+
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
     location: location,
   }
-  
-  
-  
+
+
+
   return (
     <Layout
       description={page.frontmatter.intro || false}

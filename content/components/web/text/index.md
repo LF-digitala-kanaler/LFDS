@@ -1,5 +1,4 @@
 ---
-
 previewImage: /img/headings.svg
 template: CategoryOverview
 title: Typography & text

@@ -1,8 +1,7 @@
-
 .ComponentVersion {
   color: var(--color-grey);
   position: relative;
-  top: calc(-1* var(--spacing-vertical--1));
+  top: calc(-1 * var(--spacing-vertical--1));
 }
 
 .ComponentVersion__button {
@@ -17,7 +16,7 @@
 }
 
 .ComponentVersion__icon {
-  transition:.25s ease;
+  transition: 0.25s ease;
   transform: rotate(0);
 }
 .ComponentVersion__icon--active {
@@ -39,7 +38,6 @@
   display: block;
 }
 .ComponentVersion__aloneLink {
-  
   color: var(--color-body);
   margin-right: var(--spacing-sm);
   display: inline;
@@ -70,4 +68,3 @@
     color: var(--color-black);
   }
 }
-

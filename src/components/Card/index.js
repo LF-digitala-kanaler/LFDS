@@ -1,7 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import style from './index.module.css'
+import * as style from './index.module.css'
+
 import cx from 'classnames'
+import { Link } from 'gatsby'
+import React from 'react'
 
 const Card = ({ title, url, image, description, grid, lang }) => {
   return (
@@ -48,7 +49,7 @@ const Card = ({ title, url, image, description, grid, lang }) => {
             </svg>
           )}
         </div>
-        <div className={style.Card__body}>
+        <div>
           <h2
             className={cx(
               style.Card__title,

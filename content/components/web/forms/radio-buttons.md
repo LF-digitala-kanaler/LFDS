@@ -12,7 +12,7 @@ componentsNavigation:
   - name: Button Group
   - name: Styled Radio Buttons
   - name: Radio Cards
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How (and when) to use

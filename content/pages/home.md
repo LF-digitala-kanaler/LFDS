@@ -35,11 +35,12 @@ shortcutsBottom:
     title: CX-principer
   - icon: /img/user_testing_.svg
     link: /foundations/user-testing
-    text: the use of human animals in experiments that seek to control the variables
+    text:
+      the use of human animals in experiments that seek to control the variables
       that affect the behavior or biological system under study
     title: User testing
 meta:
-  description: ""
+  description: ''
   title: Länsförsäkringar Design System
 shortcutsImage:
   - icon: /img/developer_icon.svg

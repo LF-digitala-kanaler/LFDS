@@ -1,5 +1,5 @@
-import React from 'react'
 import Card from '../Card'
+import React from 'react'
 import { stripTrailingSlash } from '../../utils/RemoveTrailingSlash'
 
 const CardList = ({ list }) => {

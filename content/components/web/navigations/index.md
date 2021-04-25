@@ -1,5 +1,4 @@
 ---
-
 previewImage: /img/nav.svg
 template: CategoryOverview
 title: Navigations

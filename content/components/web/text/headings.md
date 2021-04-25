@@ -4,14 +4,14 @@ title: Headings
 intro: Headings are used to give the reader an instantaneous idea of the subject
   of the following text block. We have two types of headlines - normal headings
   and hero display headings.
-description: "Headings are used to give the reader an instantaneous idea of the
-  subject of the following text block. "
+description: 'Headings are used to give the reader an instantaneous idea of the
+  subject of the following text block. '
 previewImage: /img/headings.svg
 category: Text
 componentsNavigation:
   - name: Default
   - name: Display
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

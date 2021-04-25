@@ -1,27 +1,26 @@
 ---
 template: ArticlePage
 title: Deprecated
-intro: "This page lists components that have been tagged as deprecated in LFUI. What this means is that the component is no longer in use and should be removed and replaced by its substitute (which you can likely find in its respective page)."
-
+intro: 'This page lists components that have been tagged as deprecated in LFUI. What this means is that the component is no longer in use and should be removed and replaced by its substitute (which you can likely find in its respective page).'
 ---
 
 <div class="Callout"><strong class="Callout__title">Note</strong><p class="Callout__text">The elements/components on this page may not have proper styling, should their styling has been removed from LFUI since being added to this page.</p></div>
 
+## Button outline secondary
 
-## Button outline secondary 
 - Marked as deprecated in 6.6.0
 
-`.btn-outline-secondary` was made deprecated in order to simplefy the use of buttons and remove redundant code. Use `'btn-secondary`instead. 
+`.btn-outline-secondary` was made deprecated in order to simplefy the use of buttons and remove redundant code. Use `'btn-secondary`instead.
 
 <Lfuiwrapper>
 <button class="btn btn-outline-secondary">Click me</button>
 </Lfuiwrapper>
 
 ## Pagination-progress
+
 - Marked as deprecated in 5.3.0
 
 This was made deprecated in order for our simple, standard pagination component to be the only one.
-
 
 <Lfuiwrapper>
 <ul class="pagination pagination-progress">
@@ -39,8 +38,9 @@ This was made deprecated in order for our simple, standard pagination component 
   </ul>
 </Lfuiwrapper>
 
-##  Pagination-colored
- - Marked as deprecated in 5.3.0
+## Pagination-colored
+
+- Marked as deprecated in 5.3.0
 
 This was made deprecated in order for our simple, standard pagination component to be the only one.
 
@@ -59,8 +59,9 @@ This was made deprecated in order for our simple, standard pagination component 
 </ul>
 </Lfuiwrapper>
 
-## Paginations-steps 
- - Marked as deprecated in 5.3.0
+## Paginations-steps
+
+- Marked as deprecated in 5.3.0
 
 This was made deprecated in order for our simple, standard pagination component to be the only one.
 
@@ -74,6 +75,7 @@ This was made deprecated in order for our simple, standard pagination component 
 </Lfuiwrapper>
 
 ## Bold links
+
 - Marked as deprecated in 5.2.0
 
 This bold variant of our links has been deprecated as its usage was unclear and unecessary, leading to confusing ux-patterns. Resort to the normal, secondary links.
@@ -85,6 +87,7 @@ This bold variant of our links has been deprecated as its usage was unclear and 
 </Lfuiwrapper>
 
 ## Button outline primary
+
 - Marked as deprecated in 4.2.0
 
 This button has been removed in favor for our secondary buttons btn-secondary, making our primary buttons always btn-primary and without variations.
@@ -94,6 +97,7 @@ This button has been removed in favor for our secondary buttons btn-secondary, m
 </Lfuiwrapper>
 
 ## Disabled buttons
+
 - Marked as a deprecated pattern in 4.2.0
 
 LFUI does not encourage the use of disabled buttons.
@@ -106,9 +110,11 @@ Instead of a disabled button, make the button clickable and give the user a mess
 </Lfuiwrapper>
 
 ## Modal-air
+
 - Marked as deprecated in 5.1.0 The .modal-air class has been deprecated. Its appearance is now the default appearance of any modal.
 
 ## Automatic form validation
+
 - Marked as deprecated in 5.1.0
 
 The previous automatic validation specified below on forms and custom-forms has been removed. You now have to apply valid-classes yourself through Javascript.
@@ -116,4 +122,3 @@ The previous automatic validation specified below on forms and custom-forms has 
 All form elements have their valid state applied when the form element has a valid value (styles do not apply whilst the element has focus). We use the browsers native :valid selector to achieve this, so ensure to implement proper type and pattern attributes. To disable validation add the novalidate property to the enclosing form element.
 
 If you implement custom validation it is recommended that you set the formnovalidate property on the submit button to enjoy the benefits of visual validation without the actual native validation happening.
-

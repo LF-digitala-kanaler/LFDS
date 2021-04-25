@@ -2,16 +2,17 @@
 template: ArticlePage
 previewImage: /img/typo.svg
 title: Typography
-intro: "Our typography is a vital part of Länsförsäkringars visual identity.
+intro: 'Our typography is a vital part of Länsförsäkringars visual identity.
   With two main typefaces – one of them custom made; LF Rubrik – we can create
-  consistent visuals that speaks our brand. "
+  consistent visuals that speaks our brand. '
 wide: false
 lang: false
-contentTop: ""
+contentTop: ''
 ---
+
 <LfuiWrapper script="">
 
-<div class="container  bb-2">	
+<div class="container  bb-2">
 
   <div class="row pt-5 pb-3 text-center text-md-left">	
     <div class="col-md-5">	
@@ -60,7 +61,7 @@ contentTop: ""
 
 ## Use the right type
 
-Our main page headlines are usually set in *LF Rubrik*. The rest of the headlines and most of the typography is set with *Intro cond bold* and in rare cases *Intro Cond Regular*. For paragraps, lists and content in tables use *Arial regular* for optimal readability. 
+Our main page headlines are usually set in _LF Rubrik_. The rest of the headlines and most of the typography is set with _Intro cond bold_ and in rare cases _Intro Cond Regular_. For paragraps, lists and content in tables use _Arial regular_ for optimal readability.
 
 [Typography components in LFUI](/components/web/text)
 

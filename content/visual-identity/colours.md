@@ -7,8 +7,9 @@ intro: Our primary colours are blue, red and white. This colour combination is
   consequently.
 wide: true
 lang: false
-contentTop: ""
+contentTop: ''
 ---
+
 ## Primary Colour
 
 <div class="Colors"><article class="Colors__item Colors__item--primary"><div class="Colors__primary" style="border-color:#005aa0"><div class="Colors__background" style="background-color:#005aa0"></div><h3 class="Colors__title">Länsförsäkringar Blue</h3><p class="Colors__text"><span>RGB</span> 0/90/160</p><p class="Colors__text"><span>HEX</span> #005aa0</p></div></article><article class="Colors__item Colors__item--primary"><div class="Colors__primary" style="border-color:#E30613"><div class="Colors__background" style="background-color:#E30613"></div><h3 class="Colors__title">Länsförsäkringar Red</h3><p class="Colors__text"><span>RGB</span> 227/6/19</p><p class="Colors__text"><span>HEX</span> #E30613</p></div></article></div>

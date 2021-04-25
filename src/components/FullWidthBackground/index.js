@@ -1,21 +1,22 @@
-import React from 'react'
-import style from './index.module.css'
+import * as style from './index.module.css'
+
 import Img from 'gatsby-image'
+import React from 'react'
 
 const FullWidthBackground = ({ image, children, title }) => {
-  console.log(image, 'im')
-  
+
+  console.log(image, 'IMG')
   return (
     <div className={style.FullWidthBackground}>
       {/* if inside netlify cms show regular image */}
       {typeof image === 'string' ? (
-        <img alt="" class="Image" src={image} />
+        <img alt="" className="Image" src={image} />
       ) : (
         <Img fluid={image} />
       )}
-      {title && <h2 className={style.FullWidthBackground__title}>{title}</h2> }
+      {title && <h2 className={style.FullWidthBackground__title}>{title}</h2>}
       <div className={style.FullWidthBackground__container}>
-       {children}
+        {children}
       </div>
     </div>
   )

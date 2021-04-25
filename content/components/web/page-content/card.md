@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
 title: Card
-intro: "The card component is used to inform users about related products or
-  content. "
-description: "The card component is used to inform users about related products
-  or content. "
+intro: 'The card component is used to inform users about related products or
+  content. '
+description: 'The card component is used to inform users about related products
+  or content. '
 previewImage: /img/card.svg
 category: Page content
 tabs:
@@ -80,5 +80,5 @@ tabs:
       </article>
 
       ```
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 ---

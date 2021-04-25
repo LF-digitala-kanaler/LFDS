@@ -15,13 +15,14 @@ description: >-
 wide: false
 lang: false
 ---
+
 [More details about graphic objects at Röda rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/component/default/5122)
 
 <figure class="Image Image__border Image__wide"><img src="/img/graphicobjects_ex.png" srcset="/img/graphicobjects_ex.png 2x" alt="Graphic objects categorized with banking and health."><figcaption><div class="Image__caption">Graphic objects categorized with banking and health.</div></figcaption></figure>
 
 ## Resources
 
-In the LFUI-graphics.sketch document you will find a lot of graphics. These graphics are optimized for digital use with correct RGB values and the original size has a 3px stroke. 
+In the LFUI-graphics.sketch document you will find a lot of graphics. These graphics are optimized for digital use with correct RGB values and the original size has a 3px stroke.
 
 ### Combining objects to illustrations
 

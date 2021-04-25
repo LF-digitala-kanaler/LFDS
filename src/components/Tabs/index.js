@@ -1,8 +1,10 @@
+import * as style from './index.module.css'
+
 import React, { useEffect, useState } from 'react'
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@reach/tabs'
-import style from './index.module.css'
-import Wrapper from '../Wrapper'
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@reach/tabs'
+
 import Content from '../Content'
+import Wrapper from '../Wrapper'
 
 const TabsWrapper = ({ tabs, location, navigate, children }) => {
   const [tabName, setTabName] = useState([])

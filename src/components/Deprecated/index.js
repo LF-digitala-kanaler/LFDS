@@ -1,13 +1,14 @@
-import React from 'react'
-import componentsStatus from '../../data/componentsStatus.json'
+import * as style from './index.module.css'
+
 import _ from 'lodash'
-import Wrapper from '../Wrapper'
-import style from './index.module.css'
+import componentsStatus from '../../data/componentsStatus.json'
 import cx from 'classnames'
+import React from 'react'
+import Wrapper from '../Wrapper'
 
 const Deprecated = ({ componentName, fixed }) => {
   // get current pages object from componentsStatus.json
-  
+
   const currentVersion = _.filter(componentsStatus.components, function (o) {
     return o.component.toLowerCase() === componentName.toLowerCase()
   })

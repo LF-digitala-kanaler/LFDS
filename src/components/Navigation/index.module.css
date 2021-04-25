@@ -3,14 +3,13 @@
   --navigation-color: var(--color-body);
   --navigation-active: var(--color-red);
   --navigation-active-background: var(--color-smoke);
-  
-  @media (--medium-viewport) { 
+
+  @media (--medium-viewport) {
     --navigation-spacing: var(--spacing-xlg) var(--spacing-xxlg);
   }
 }
 
 .Navigation {
-
   @media (--medium-viewport-down) {
     width: 100%;
   }
@@ -21,8 +20,7 @@
   margin: 0;
   position: relative;
   z-index: 1;
-  
-  
+
   @media (--medium-viewport-down) {
     align-items: stretch;
     overflow: -moz-scrollbars-none;
@@ -34,9 +32,8 @@
     white-space: nowrap;
     padding-bottom: 2px;
   }
-
 }
-.Navigation__list::-webkit-scrollbar { 
+.Navigation__list::-webkit-scrollbar {
   @media (--medium-viewport-down) {
     width: 0 !important;
     height: 0;
@@ -58,9 +55,6 @@
   @media (--medium-viewport-down) {
     flex: 1;
   }
-
-  
-
 }
 
 .is__active {

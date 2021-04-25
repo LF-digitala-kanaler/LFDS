@@ -52,5 +52,5 @@ tabs:
       * Ongoing - `.timeline-spacing` should have a class `.is-ongoing` which will make the icon larger in that item.
 
       * Done - `.timeline-icon` should have the class `.is-done`.
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 ---

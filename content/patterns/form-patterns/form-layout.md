@@ -6,19 +6,20 @@ intro: This page describes general rule of thumbs to consider when designing a
   form. However, remember that they are rules of thumb and not strict rules. You
   need to consider how your specific form can be displayed in the best fashion
   possible.
-description: "This page describes general rule of thumbs to consider when
-  designing a form. "
+description: 'This page describes general rule of thumbs to consider when
+  designing a form. '
 wide: false
 lang: false
 hidden: false
-contentTop: ""
+contentTop: ''
 ---
+
 At the bottom of this page you will find an illustrative image which exemplifies all our rules of thumb. The rules of thumb are:
 
-* Use the grid
-* Do not place more than two elements next to each other (neighbouring elements)
-* Size of the element shows the expected length of input
-* Create clusters of related information
+- Use the grid
+- Do not place more than two elements next to each other (neighbouring elements)
+- Size of the element shows the expected length of input
+- Create clusters of related information
 
 Below you can find the rules of thumb explained in greater detail. For information on how to put the various form elements together, refer to [Form element grouping.](form-element-grouping)
 

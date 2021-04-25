@@ -6,8 +6,9 @@ title: BankID
 intro: When we want users to identify themselves BankID is our most common way
   of doing so. Depending on context it varies how we inform the user of the need
   to the identify/sign.
-contentTop: ""
+contentTop: ''
 ---
+
 ## Copy för BankID
 
 ### Primary button with BankID icon
@@ -45,7 +46,7 @@ När BankID-signering används för att godkänna använder vi begreppet Signera
 Godkänn\
 och signera
 
-Om något görs innan signering, i detta fall godkänn, så skriver vi det först. 
+Om något görs innan signering, i detta fall godkänn, så skriver vi det först.
 
 ### Web - error messages
 

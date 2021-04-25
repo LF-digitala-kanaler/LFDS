@@ -9,21 +9,20 @@ intro: Självklart har vi ett mål att alla människor ska kunna komma åt våra
 wide: false
 lang: false
 hidden: false
-contentTop: ""
+contentTop: ''
 ---
+
 <figure class="Image null "><img src="/img/wcag-en-webb-for-alla.png" srcset="/img/wcag-en-webb-for-alla.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 Vision
 
 Direktivet
 
-
-
 Detta lägger vi i teknik sida:
 
 Text om att vi försöker bygga en webb för 80 % av behoven inte 100 % det är omöjligt.
 
-Vi gör en prioritering av de mest frekventa webbläsarna, vi har en 4% regel att stödja alla browsers och devices i senaste och näst senaste versionen av operativsystemet. Utvärderas och förändras ständigt. 
+Vi gör en prioritering av de mest frekventa webbläsarna, vi har en 4% regel att stödja alla browsers och devices i senaste och näst senaste versionen av operativsystemet. Utvärderas och förändras ständigt.
 
 Vi har även browsers vi inte längre stödjer alls som IE11 och Androids gamla inbyggda..
 

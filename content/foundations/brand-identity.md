@@ -15,8 +15,9 @@ description: >-
 
   Det är något vi värnar om tillsammans.
 lang: true
-contentTop: ""
+contentTop: ''
 ---
+
 <figure class="Image Image__background "><img src="/img/favicon.svg" srcset="/img/favicon.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbolagen. Här presenterar vi en fördjupning av det digitala varumärket. Allt kring varumärket generellt finner du under Röda rummet som är våran varumärkesportal.
@@ -28,14 +29,14 @@ Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbol
 ### Kontakter varumärkesfrågor
 
 Varumärkesansvarig kontakta Pär Hjärtström.\
-Manifestet kontakta Lina Kolacz. 
+Manifestet kontakta Lina Kolacz.
 Digitala Designansvarig kontakta Liza Hansson.
 
 Återkommande möten hålls för att synka de olika delarna i vårt varumärket.
 
 ### Introduktion
 
-Som ny på Länsförsäkringar och har roller som webbredaktör, kommunikatör, designer eller marknadschef kan man ta del av en introduktion i varumärket. Utbildning kommer ut på Länet och brukar göras ca 2 gånger per år. 
+Som ny på Länsförsäkringar och har roller som webbredaktör, kommunikatör, designer eller marknadschef kan man ta del av en introduktion i varumärket. Utbildning kommer ut på Länet och brukar göras ca 2 gånger per år.
 
 Just nu finns även utbildning i nya fotomanéret och Manifestet.
 

@@ -1,5 +1,4 @@
 :root {
-  
   --header-background: var(--color-white);
   --header-width: var(--content-width);
   --header-border-color: var(--color-border);
@@ -11,18 +10,16 @@
   margin-bottom: var(--spacing-vertical--3);
   position: relative;
   z-index: 3;
-  
+
   @media (--medium-viewport-down) {
     display: flex;
     flex-direction: column-reverse;
-   
   }
   @media (--medium-viewport) {
     position: fixed;
     top: 0;
     width: 100%;
   }
-  
 }
 .Header::after {
   content: '';
@@ -31,41 +28,37 @@
   height: 2px;
   position: absolute;
   bottom: 0;
-  @media (--medium-viewport) { 
+  @media (--medium-viewport) {
     bottom: -2px;
-   }
+  }
 }
 .Header__wrapper {
-  
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  
- 
-  @media (--medium-viewport) { 
+
+  @media (--medium-viewport) {
     margin-left: calc(26% + var(--spacing-xxlg));
     margin-right: auto;
     max-width: var(--header-width);
-   justify-content: flex-end;
+    justify-content: flex-end;
   }
-
-  
 }
 
 .Header__wrapper--last {
   justify-content: space-between;
- 
-  @media (--large-viewport) {  
+
+  @media (--large-viewport) {
     position: relative;
-    padding: 0 var(--spacing-sm)
+    padding: 0 var(--spacing-sm);
   }
 }
 
 .Header__container {
   display: flex;
 
-  @media (--medium-viewport) {  
+  @media (--medium-viewport) {
     position: relative;
   }
 }
@@ -74,13 +67,12 @@
   justify-content: space-between;
   border-bottom: 2px solid var(--header-border-color);
   min-height: 3.56rem;
-   @media (--medium-viewport) { 
-      border-top: 2px solid var(--header-border-color);
-      border-bottom: 0;
-      min-height: 3rem;
-   }
+  @media (--medium-viewport) {
+    border-top: 2px solid var(--header-border-color);
+    border-bottom: 0;
+    min-height: 3rem;
+  }
 }
-
 
 .Header__title {
   width: 11.825rem;
@@ -90,15 +82,14 @@
   text-decoration: none;
   color: var(--color-black);
   display: flex;
-  
+
   @media (--medium-viewport-down) {
     top: 4px;
   }
 
-  @media (--medium-viewport) { 
+  @media (--medium-viewport) {
     height: 100%;
   }
-
 }
 .Header__title--offset {
   @media (--medium-viewport-down) {
@@ -106,7 +97,7 @@
   }
 }
 
-.Header__headline { 
+.Header__headline {
   line-height: 1.25;
   margin-top: 0.25rem;
 }

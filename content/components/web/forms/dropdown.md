@@ -10,7 +10,7 @@ category: Forms
 componentsNavigation:
   - name: Select one
   - name: Multi select
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

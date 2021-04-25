@@ -1,23 +1,21 @@
 .Preview {
   position: relative;
-  
-  @media (--large-viewport) { 
+
+  @media (--large-viewport) {
     max-width: calc(100% - 20px);
   }
 }
 .Preview--vertical {
   max-width: 100%;
-  
 }
 
 .Preview__resize {
   display: none;
 
   @media (--medium-viewport) {
-    
     position: absolute;
     height: calc(100% - 4px);
-    transition: border .3s ease;
+    transition: border 0.3s ease;
     border: 2px solid #e1e3e6;
     cursor: col-resize;
     top: 0;

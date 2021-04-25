@@ -18,25 +18,31 @@ const LFDSImage = {
         },
       ],
     },
-    {label: "Wide", name: "wide", widget: "boolean", default: false, hint: 'Image will break grid and use full width', required: false},
+    {
+      label: 'Wide',
+      name: 'wide',
+      widget: 'boolean',
+      default: false,
+      hint: 'Image will break grid and use full width',
+      required: false,
+    },
     { name: 'caption', label: 'Caption', widget: 'string', default: '' },
   ],
   pattern: /^<figure class="Image (.*) (.*)"><img src="(.*)" srcset="(.*) 2x" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure>/,
   fromBlock(match) {
-    
     return {
       image: match[3],
       alt: match[5],
       type: match[1],
       caption: match[6],
-      wide: match[2]
+      wide: match[2],
     }
   },
   toBlock(obj) {
-    let wide = obj.wide;
-    if( wide === true) {
+    let wide = obj.wide
+    if (wide === true) {
       wide = 'Image__wide'
-    }else {
+    } else {
       wide = ''
     }
     return `<figure class="Image ${obj.type} ${wide}"><img src="${obj.image}" srcset="${obj.image} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`

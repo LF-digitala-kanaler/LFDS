@@ -1,9 +1,10 @@
-import React from 'react'
-import Wrapper from '../components/Wrapper'
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@reach/tabs'
+
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@reach/tabs'
+import React from 'react'
 import tabStyle from '../components/Tabs/index.module.css'
+import Wrapper from '../components/Wrapper'
 
 const ChangelogPageTemplate = ({
   title,

@@ -1,12 +1,14 @@
-import Wrapper from '../components/Wrapper'
-import Heading from '../components/Heading'
-import Preamble from '../components/Preamble'
-import TabsWrapper from '../components/Tabs'
-import ComponentExample from '../components/ComponentExample'
 import { Location, navigate } from '@reach/router'
+
+import ComponentExample from '../components/ComponentExample'
 import ComponentVersion from '../components/ComponentVersion'
 import Deprecated from '../components/Deprecated'
+import Heading from '../components/Heading'
+import Preamble from '../components/Preamble'
 import React from 'react'
+import TabsWrapper from '../components/Tabs'
+import Wrapper from '../components/Wrapper'
+
 const ComponentPageTemplate = ({
   title,
   intro,
@@ -18,7 +20,7 @@ const ComponentPageTemplate = ({
   verticalResize,
 }) => (
   <>
-    
+
     {currentDirectory && <Deprecated componentName={currentDirectory} />}
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={'left'} />

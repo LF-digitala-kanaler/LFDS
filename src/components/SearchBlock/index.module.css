@@ -41,16 +41,16 @@
 .SearchBlock__list {
   background-color: var(--color-white);
   position: absolute;
-  left:0;
+  left: 0;
   top: 42px;
   width: 100%;
- 
+
   padding-left: 0;
   z-index: 2;
 }
 
 .SearchBlock__list--isVisible {
- display: block; 
+  display: block;
 }
 
 .SearchBlock__item {
@@ -63,8 +63,7 @@
   padding: var(--spacing-xs) var(--spacing-sm);
   display: block;
 }
-.SearchBlock__link--focused{
+.SearchBlock__link--focused {
   background-color: var(--color-smoke);
   color: var(--color-black);
-  
 }

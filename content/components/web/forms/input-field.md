@@ -11,7 +11,7 @@ category: Forms
 componentsNavigation:
   - name: One lined
   - name: Several lines
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

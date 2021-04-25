@@ -11,7 +11,7 @@ category: Page content
 componentsNavigation:
   - name: Always open
   - name: Collapse expand
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
       ## How to use

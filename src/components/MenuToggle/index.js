@@ -1,6 +1,7 @@
-import React from 'react'
-import style from './index.module.css'
+import * as style from './index.module.css'
+
 import cx from 'classnames'
+import React from 'react'
 
 export const MenuToggle = ({ onClick, isOpen }) => {
   return (

@@ -7,8 +7,9 @@ intro: "Generell information about the graphs and some does and don'ts and when
   we prefer the usage of the different graphs. "
 wide: false
 lang: false
-contentTop: ""
+contentTop: ''
 ---
+
 ## How to use
 
 Graphs are used to visualize data and to help people quickly understand and use information that are too numerous or complicated to be described adequately in the text and in less space. Do not, however, use graphs for small amounts of data that could be conveyed succinctly in a sentence.
@@ -21,7 +22,7 @@ There are different kind of graphs to use, here comes some way of thinking wen t
 
 #### . . . a Line Graph
 
-Line graphs are used to track changes over short and long periods of time. 
+Line graphs are used to track changes over short and long periods of time.
 
 [More about line graph](/components/web/data-visualization/line-graph)
 
@@ -53,7 +54,7 @@ More about X-Y Plot
 
 #### . . . a Map Chart.
 
-Use a map if you have data with a geographical component. Maps can shade areas in proportion to mapped values, allowing for visual pop-out of high-value areas. Data for map charts must contain geographical names corresponding to the geographical entities represented on the map. 
+Use a map if you have data with a geographical component. Maps can shade areas in proportion to mapped values, allowing for visual pop-out of high-value areas. Data for map charts must contain geographical names corresponding to the geographical entities represented on the map.
 
 [More about Map Chart](/components/web/data-visualization/map)
 
@@ -77,17 +78,17 @@ We are going to update the colours for better accessibility. \[2019-12-01]
 
 Here are the latest sets of v to use:
 
-* Blue colours - 10 colours
-* Red coloursv - 10 colours
-* Blue to red - 16 colours
-* Red to blue - 16 colours
-* Hybrid - 4 colours
-* Map - 15 colours
-* Disabled / not selected / inactive colour is grey #d9d9d9 (smoke).
+- Blue colours - 10 colours
+- Red coloursv - 10 colours
+- Blue to red - 16 colours
+- Red to blue - 16 colours
+- Hybrid - 4 colours
+- Map - 15 colours
+- Disabled / not selected / inactive colour is grey #d9d9d9 (smoke).
 
 #### Accessibility
 
-Charts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colourblind users and users of screen readers. 
+Charts, graphs and maps use visuals to convey complex images to users. But since they are images, these media provide serious accessibility issues to colourblind users and users of screen readers.
 
 Generally speaking an ALT tag cannot do justice to a complex chart. One way to describe a chart is to provide both a text summary and a properly coded data table near the chart.
 

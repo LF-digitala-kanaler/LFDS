@@ -23,6 +23,6 @@
   outline: 0;
 }
 
-.Filter__button--isActive{
+.Filter__button--isActive {
   border: 2px solid var(--color-black);
 }

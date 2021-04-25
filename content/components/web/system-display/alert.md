@@ -14,7 +14,7 @@ componentsNavigation:
   - name: Warning
   - name: Danger
   - name: Success
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

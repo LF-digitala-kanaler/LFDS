@@ -1,21 +1,22 @@
+import * as style from './index.module.css'
+
 import React, { useState } from 'react'
-import style from './index.module.css'
+
 import cx from 'classnames'
 
-
-const Filter = ({items, onChildClick}) => {
+const Filter = ({ items, onChildClick }) => {
 
   const [active, setActive] = useState(0)
-  
-  const handleClick = (index, item) => {
+
+  const handleClick = (index) => {
     setActive(index)
     onChildClick(index)
   }
-  
+
   const listItems = items.map((item, index) => {
     return (
       <dd className={style.Filter__item} key={index}>
-        <button 
+        <button
           onClick={() => handleClick(index, item)}
           className={cx(
             style.Filter__button,
@@ -23,15 +24,15 @@ const Filter = ({items, onChildClick}) => {
               ? style['Filter__button--isActive']
               : ''
           )}
-          >{item}
+        >{item}
 
         </button>
       </dd>
     )
   })
-  
+
   return (
-    
+
     <dl className={style.Filter}>
       <dt className={style.Filter__title}></dt>
       {listItems}

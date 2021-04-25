@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
 title: Callout
-intro: "The callout is used to highlight information which we want the user to
-  notice in relation to a chunk of text. "
-description: "The callout is used to highlight information which we want the
-  user to notice in relation to a chunk of text. "
+intro: 'The callout is used to highlight information which we want the user to
+  notice in relation to a chunk of text. '
+description: 'The callout is used to highlight information which we want the
+  user to notice in relation to a chunk of text. '
 previewImage: /img/callout.svg
 category: Page content
 tabs:
@@ -53,5 +53,5 @@ tabs:
       });
 
       ```
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

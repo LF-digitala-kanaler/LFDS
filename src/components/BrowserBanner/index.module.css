@@ -1,4 +1,3 @@
-
 .BrowserBanner {
   background-color: #faf4d4;
   padding: 42px;
@@ -23,10 +22,9 @@
 
 .BrowserBanner__icon {
   display: none;
-  
 }
 
-@media (min-width: 48rem) {  
+@media (min-width: 48rem) {
   .BrowserBanner__icon {
     display: block;
     margin-right: 1rem;

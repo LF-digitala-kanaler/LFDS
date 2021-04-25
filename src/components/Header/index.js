@@ -1,15 +1,16 @@
+import * as style from './index.module.css'
+
+import Breadcrumb from '../Breadcrumb'
+import BrowserBanner from '../BrowserBanner'
+import cx from 'classnames'
+import { isIE } from 'react-device-detect';
 import { Link } from 'gatsby'
+import Logotype from '../Logotype'
+import Menu from '../Menu'
+import Navigation from '../Navigation'
 import PropTypes from 'prop-types'
 import React from 'react'
-import style from './index.module.css'
-import Navigation from '../Navigation'
-import Menu from '../Menu'
-import Logotype from '../Logotype'
-import Breadcrumb from '../Breadcrumb'
 import Search from '../Search'
-import cx from 'classnames'
-import BrowserBanner from '../BrowserBanner'
-import {isIE} from 'react-device-detect';
 
 // import ToggleSwitch from '../ToggleSwitch';
 
@@ -17,7 +18,7 @@ const Header = ({ title, breadcrumb, menu }) => {
   return (
     <>
 
-     {isIE && <BrowserBanner /> }
+      {isIE && <BrowserBanner />}
       <header className={style.Header}>
         <div className={style.Header__container}>
           <Link

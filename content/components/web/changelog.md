@@ -1,6 +1,6 @@
 ---
 template: ChangelogPage
 title: Changelog
-intro: ""
+intro: ''
 hidden: true
 ---

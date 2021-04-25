@@ -1,11 +1,12 @@
-import React, { useContext } from 'react'
-import Wrapper from '../components/Wrapper'
 import Blockquote from '../components/Blockquote'
+import CardGrid from '../components/CardGrid'
+import Content from '../components/Content'
+import { GlobalStateContext } from '../context/GlobalContextProvider'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
-import CardGrid from '../components/CardGrid'
-import { GlobalStateContext } from '../context/GlobalContextProvider'
-import Content from '../components/Content'
+import React from 'react'
+import { useContext } from 'react'
+import Wrapper from '../components/Wrapper'
 
 const LandingPageTemplate = ({
   title,

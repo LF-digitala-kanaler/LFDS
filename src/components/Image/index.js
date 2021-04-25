@@ -29,7 +29,7 @@ class Image extends React.Component {
           <img
             className={`${className}`}
             src={src}
-            srcset
+            srcSet
             title={title}
             alt={alt}
           />

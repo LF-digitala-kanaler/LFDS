@@ -1,9 +1,11 @@
-import React, { useState, useRef } from 'react'
-import { Link, navigate } from 'gatsby'
-import style from './index.module.css'
-import cx from 'classnames'
+import * as style from './index.module.css'
+
 import { ArrowNavigation, useArrowNavigation } from 'react-arrow-navigation'
-import { useKeyPressEvent, useClickAway } from 'react-use'
+import { Link, navigate } from 'gatsby'
+import React, { useRef, useState } from 'react'
+import { useClickAway, useKeyPressEvent } from 'react-use'
+
+import cx from 'classnames'
 
 const Search = () => {
   const [query, setQuery] = useState('') // eslint-disable-line no-unused-vars

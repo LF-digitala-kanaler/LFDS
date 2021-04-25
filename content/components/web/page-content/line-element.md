@@ -3,7 +3,7 @@ template: ComponentPage
 title: Line element
 intro: The line element is used to separate parts of the page from each other.
   We use the html-tag hr and style it in the fashion of Länsförsäkringar.
-description: "The line element is used to separate parts of the page from each other. "
+description: 'The line element is used to separate parts of the page from each other. '
 previewImage: /img/line.svg
 category: Page content
 tabs:
@@ -33,5 +33,5 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Line)
     name: Design
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 ---

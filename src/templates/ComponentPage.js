@@ -1,8 +1,8 @@
-import React from 'react'
+import ComponentPageTemplate from './ComponentPageTemplate.js'
+import { globalHistory } from '@reach/router'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
-import { globalHistory } from '@reach/router'
-import ComponentPageTemplate from './ComponentPageTemplate.js'
+import React from 'react'
 
 const ComponentPage = ({
   data: { page, allComponentExample },
@@ -23,13 +23,14 @@ const ComponentPage = ({
       .map((x) => x.toLowerCase())
       .join('-')
   const componentExample = {
-    examples: allComponentExample.hasOwnProperty('edges')
+
+    examples: Object.prototype.hasOwnProperty.call(allComponentExample, 'edges')
       ? allComponentExample.edges.filter(
-          (exemple) =>
-            toKebabCase(
-              exemple.node.relativeDirectory.split('/').pop()
-            ).toLowerCase() === currentDirectory
-        )
+        (exemple) =>
+          toKebabCase(
+            exemple.node.relativeDirectory.split('/').pop()
+          ).toLowerCase() === currentDirectory
+      )
       : false,
   }
 

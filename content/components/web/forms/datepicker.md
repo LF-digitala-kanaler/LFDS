@@ -10,7 +10,7 @@ category: Forms
 componentsNavigation:
   - name: Datepicker
   - name: Timepicker
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
@@ -44,7 +44,8 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Datepicker)
     name: Design
-  - content: Vi fyller i fältet med ååååmmdd eller exempelvis åå-mm-nn beroende på
+  - content:
+      Vi fyller i fältet med ååååmmdd eller exempelvis åå-mm-nn beroende på
       hur man måste skriva datumet.
     name: Copy
   - content: >-

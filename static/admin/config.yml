@@ -1,14 +1,11 @@
-
 backend:
   name: github
   repo: LF-digitala-kanaler/LFUI-website
   branch: develop
 
-
 media_folder: static/img
 public_folder: /img
 collections: # A list of collections the CMS should be able to edi
-
   - name: component-page
     label: Components
     create: true
@@ -16,12 +13,24 @@ collections: # A list of collections the CMS should be able to edi
     path: '{{category}}/{{slug}}'
     media_folder: /static/img
     public_folder: /img
-    filter: {field: "template", value: "ComponentPage"}
+    filter: { field: 'template', value: 'ComponentPage' }
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ComponentPage, value: ComponentPage }
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: ComponentPage,
+          value: ComponentPage
+        }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
+      - {
+          label: Page Description,
+          name: description,
+          widget: text,
+          hint: Will be shown on Overview page,
+          required: false
+        }
       - label: Preview Image
         name: previewImage
         widget: image
@@ -29,46 +38,67 @@ collections: # A list of collections the CMS should be able to edi
       - label: 'Category'
         name: 'category'
         widget: 'select'
-        create: true 
-        options: 
-        - { label: "Button and links", value: "Button and links" }
-        - { label: "Data visualization", value: "Data visualization" }
-        - { label: "Forms", value: "Forms" }
-        - { label: "Motions", value: "Motions" }
-        - { label: "Navigations", value: "Navigations" }
-        - { label: "Page content", value: "Page content" }
-        - { label: "Supportive microinteractions", value: "Supportive microinteractions" }
-        - { label: "System display", value: "System display" }
-        - { label: "Tables", value: "Tables" }
-        - { label: "Text", value: "Text" }
+        create: true
+        options:
+          - { label: 'Button and links', value: 'Button and links' }
+          - { label: 'Data visualization', value: 'Data visualization' }
+          - { label: 'Forms', value: 'Forms' }
+          - { label: 'Motions', value: 'Motions' }
+          - { label: 'Navigations', value: 'Navigations' }
+          - { label: 'Page content', value: 'Page content' }
+          - {
+              label: 'Supportive microinteractions',
+              value: 'Supportive microinteractions'
+            }
+          - { label: 'System display', value: 'System display' }
+          - { label: 'Tables', value: 'Tables' }
+          - { label: 'Text', value: 'Text' }
       - name: 'componentsNavigation'
         label: 'Example Navigation'
         label_singular: 'Example'
         minimize_collapsed: true
         widget: 'list'
         fields:
-          - { label: 'Name', name: 'name', widget: 'string', hint: 'Example name' }
+          - {
+              label: 'Name',
+              name: 'name',
+              widget: 'string',
+              hint: 'Example name'
+            }
       - name: 'tabs'
         label: 'Tabs'
         label_singular: 'Tab'
         widget: 'list'
         fields:
           - { label: 'Name', name: 'name', widget: 'string', hint: 'Tab name' }
-          - { label: 'Content', name: 'content', widget: 'markdown', editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color'] }
-      - label: "Priority"
-        name: "priority"
-        widget: "string"
+          - {
+              label: 'Content',
+              name: 'content',
+              widget: 'markdown',
+              editor_components:
+                [
+                  'callout',
+                  'LFDSImage',
+                  'code',
+                  'collapse',
+                  'code-block',
+                  'color'
+                ]
+            }
+      - label: 'Priority'
+        name: 'priority'
+        widget: 'string'
         required: false
         hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'
-       
+
       - label: 'Vertical resize on iframe'
         name: 'verticalResize'
         widget: 'select'
-        options: 
-          - { label: "No", value: "no" }
-          - { label: "Yes", value: "yes" }
+        options:
+          - { label: 'No', value: 'no' }
+          - { label: 'Yes', value: 'yes' }
         required: false
-    
+
       - label: 'Meta'
         required: false
         collapsed: true
@@ -80,16 +110,15 @@ collections: # A list of collections the CMS should be able to edi
               label: Description,
               name: description,
               widget: text,
-              required: false,
+              required: false
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false,
+              required: false
             }
-      
-    
+
   - name: design-page
     label: Foundations
     media_folder: /static/img
@@ -98,55 +127,114 @@ collections: # A list of collections the CMS should be able to edi
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: ArticlePage,
+          value: ArticlePage
+        }
       - label: 'Category'
         name: 'category'
         widget: 'select'
         required: false
         options:
-          - { label: "Getting started", value: "Getting started" }
-          - { label: "Brand identity", value: "Brand identity" }
-          - { label: "Principles and strategies", value: "Principles and strategies" }
-          - { label: "Process", value: "Process" }
-          - { label: "Accessibility", value: "Accessibility" }
-          - { label: "User testing", value: "User testing" }
-          - { label: "Motion", value: "Motion" }
-          - { label: "Writing", value: "Writing" }
-          - { label: "Customer insights", value: "Customer insights"}
+          - { label: 'Getting started', value: 'Getting started' }
+          - { label: 'Brand identity', value: 'Brand identity' }
+          - {
+              label: 'Principles and strategies',
+              value: 'Principles and strategies'
+            }
+          - { label: 'Process', value: 'Process' }
+          - { label: 'Accessibility', value: 'Accessibility' }
+          - { label: 'User testing', value: 'User testing' }
+          - { label: 'Motion', value: 'Motion' }
+          - { label: 'Writing', value: 'Writing' }
+          - { label: 'Customer insights', value: 'Customer insights' }
       - label: Preview Image
         name: previewImage
         widget: image
         required: false
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
-      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown', minimal: true,  required: false, editor_components: [], hint: 'Only use this if you have a hero image' }
+      - {
+          label: Page Description,
+          name: description,
+          widget: text,
+          hint: Will be shown on Overview page,
+          required: false
+        }
+      - {
+          label: 'Content above Hero image',
+          name: contentTop,
+          widget: 'markdown',
+          minimal: true,
+          required: false,
+          editor_components: [],
+          hint: 'Only use this if you have a hero image'
+        }
       - label: Hero block
         name: heroBlock
         widget: object
         collapsed: true
         fields:
-        - label: 'Color'
-          name: 'color'
-          widget: 'select'
-          required: false
-          hint: 'Background color for hero block'
-          options: 
-            - { label: "Pink", value: "#fcd2d3" }
-            - { label: "Blue", value: "#badaf3" }
-        - { label: Image, name: image, widget: image, required: false }
-        - { label: Quote, name: quote, widget: text, required: false }
-        - { label: Cite, name: cite, widget: string , required: false}
-      
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color', 'ImageAndText']  }
-      - label: "Priority"
-        name: "priority"
-        widget: "string"
+          - label: 'Color'
+            name: 'color'
+            widget: 'select'
+            required: false
+            hint: 'Background color for hero block'
+            options:
+              - { label: 'Pink', value: '#fcd2d3' }
+              - { label: 'Blue', value: '#badaf3' }
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Quote, name: quote, widget: text, required: false }
+          - { label: Cite, name: cite, widget: string, required: false }
+
+      - {
+          label: 'Content',
+          name: body,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            [
+              'callout',
+              'LFDSImage',
+              'code',
+              'collapse',
+              'code-block',
+              'color',
+              'ImageAndText'
+            ]
+        }
+      - label: 'Priority'
+        name: 'priority'
+        widget: 'string'
         required: false
         hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'
-      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
-      - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
+      - {
+          label: 'Wide content area',
+          name: 'wide',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to get a wider content area',
+          required: false
+        }
+      - {
+          label: 'Not yet Translated',
+          name: 'lang',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to mark the page as not yet translated',
+          required: false
+        }
+      - {
+          label: 'Hide on listing page',
+          name: 'hidden',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to hide page from listing page',
+          required: false
+        }
       - label: 'Meta'
         required: false
         collapsed: true
@@ -158,13 +246,13 @@ collections: # A list of collections the CMS should be able to edi
               label: Description,
               name: description,
               widget: text,
-              required: false,
+              required: false
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false,
+              required: false
             }
 
   - name: patterns-page
@@ -175,56 +263,111 @@ collections: # A list of collections the CMS should be able to edi
     path: '{{category}}/{{title}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: ArticlePage,
+          value: ArticlePage
+        }
       - label: 'Category'
         name: 'category'
         widget: 'select'
         required: false
-        options: 
-          - { label: "General patterns", value: "General patterns" }
-          - { label: "Form patterns", value: "Form patterns" }
-          - { label: "Template patterns", value: "Template patterns" }
-          - { label: "Lansforsakringar se", value: "Lansforsakringar se" }
-          - { label: "Mina sidor", value: "Mina sidor" }
-          - { label: "Purchase services", value: "Purchase services" }
-          - { label: "App", value: "App" }
-          - { label: "Marketing", value: "Marketing" }
+        options:
+          - { label: 'General patterns', value: 'General patterns' }
+          - { label: 'Form patterns', value: 'Form patterns' }
+          - { label: 'Template patterns', value: 'Template patterns' }
+          - { label: 'Lansforsakringar se', value: 'Lansforsakringar se' }
+          - { label: 'Mina sidor', value: 'Mina sidor' }
+          - { label: 'Purchase services', value: 'Purchase services' }
+          - { label: 'App', value: 'App' }
+          - { label: 'Marketing', value: 'Marketing' }
       - label: Preview Image
         name: previewImage
         widget: image
         required: false
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false} 
-      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editor_components: [], hint: 'Only use this if you have a hero image' }
+      - {
+          label: Page Description,
+          name: description,
+          widget: text,
+          hint: Will be shown on Overview page,
+          required: false
+        }
+      - {
+          label: 'Content above Hero image',
+          name: contentTop,
+          widget: 'markdown',
+          minimal: true,
+          required: false,
+          editor_components: [],
+          hint: 'Only use this if you have a hero image'
+        }
 
       - label: Hero block
         name: heroBlock
         widget: object
         collapsed: true
         fields:
-        - label: 'Color'
-          name: 'color'
-          widget: 'select'
-          required: false
-          hint: 'Background color for hero block. '
-          options: 
-            - { label: "Pink", value: "#fcd2d3" }
-            - { label: "Blue", value: "#badaf3" }
-        - { label: Image, name: image, widget: image, required: false }
-        - { label: Quote, name: quote, widget: text, required: false }
-        - { label: Cite, name: cite, widget: string, required: false }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
-      
-       
-      - label: "Priority"
-        name: "priority"
-        widget: "string"
+          - label: 'Color'
+            name: 'color'
+            widget: 'select'
+            required: false
+            hint: 'Background color for hero block. '
+            options:
+              - { label: 'Pink', value: '#fcd2d3' }
+              - { label: 'Blue', value: '#badaf3' }
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Quote, name: quote, widget: text, required: false }
+          - { label: Cite, name: cite, widget: string, required: false }
+      - {
+          label: 'Content',
+          name: body,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            [
+              'callout',
+              'LFDSImage',
+              'code',
+              'collapse',
+              'code-block',
+              'color',
+              'lfuiWidget'
+            ]
+        }
+
+      - label: 'Priority'
+        name: 'priority'
+        widget: 'string'
         required: false
         hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'
-      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
-      - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
+      - {
+          label: 'Wide content area',
+          name: 'wide',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to get a wider content area',
+          required: false
+        }
+      - {
+          label: 'Not yet Translated',
+          name: 'lang',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to mark the page as not yet translated',
+          required: false
+        }
+      - {
+          label: 'Hide on listing page',
+          name: 'hidden',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to hide page from listing page',
+          required: false
+        }
       - label: 'Meta'
         required: false
         collapsed: true
@@ -236,13 +379,13 @@ collections: # A list of collections the CMS should be able to edi
               label: Description,
               name: description,
               widget: text,
-              required: false,
+              required: false
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false,
+              required: false
             }
 
   - name: visual-identity-page
@@ -253,70 +396,150 @@ collections: # A list of collections the CMS should be able to edi
     path: '{{category}}/{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArticlePage, value: ArticlePage }
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: ArticlePage,
+          value: ArticlePage
+        }
       - label: 'Category'
         name: 'category'
         widget: 'select'
         required: false
-        options: 
-          - { label: "Graphics", value: "Graphics" }
-          - { label: "Design dimensions", value: "Design dimensions" }
+        options:
+          - { label: 'Graphics', value: 'Graphics' }
+          - { label: 'Design dimensions', value: 'Design dimensions' }
       - label: Preview Image
         name: previewImage
         widget: image
         required: false
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false}
-      - { label: 'Content above Hero image', name: contentTop, widget: 'markdown',minimal: true,  required: false, editor_components: [], hint: 'Only use this if you have a hero image' }
+      - {
+          label: Page Description,
+          name: description,
+          widget: text,
+          hint: Will be shown on Overview page,
+          required: false
+        }
+      - {
+          label: 'Content above Hero image',
+          name: contentTop,
+          widget: 'markdown',
+          minimal: true,
+          required: false,
+          editor_components: [],
+          hint: 'Only use this if you have a hero image'
+        }
 
       - label: Hero block
         name: heroBlock
         widget: object
         collapsed: true
         fields:
-        - label: 'Color'
-          name: 'color'
-          widget: 'select'
-          required: false
-          hint: 'Background color for hero block'
-          options: 
-            - { label: "Pink", value: "#fcd2d3" }
-            - { label: "Blue", value: "#badaf3" }
-        - { label: Image, name: image, widget: image, required: false }
-        - { label: Quote, name: quote, widget: text,  required: false }
-        - { label: Cite, name: cite, widget: string,  required: false }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color', 'lfuiWidget']  }
-       
-      - label: "Priority"
-        name: "priority"
-        widget: "string"
+          - label: 'Color'
+            name: 'color'
+            widget: 'select'
+            required: false
+            hint: 'Background color for hero block'
+            options:
+              - { label: 'Pink', value: '#fcd2d3' }
+              - { label: 'Blue', value: '#badaf3' }
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Quote, name: quote, widget: text, required: false }
+          - { label: Cite, name: cite, widget: string, required: false }
+      - {
+          label: 'Content',
+          name: body,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            [
+              'callout',
+              'LFDSImage',
+              'code',
+              'collapse',
+              'code-block',
+              'color',
+              'lfuiWidget'
+            ]
+        }
+
+      - label: 'Priority'
+        name: 'priority'
+        widget: 'string'
         required: false
         hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'
-      - { label: "Wide content area", name: "wide", widget: "boolean", default: false, hint: 'Toggle this to get a wider content area', required: false}
-      - { label: "Not yet Translated", name: "lang", widget: "boolean", default: false, hint: 'Toggle this to mark the page as not yet translated', required: false}
-      - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
+      - {
+          label: 'Wide content area',
+          name: 'wide',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to get a wider content area',
+          required: false
+        }
+      - {
+          label: 'Not yet Translated',
+          name: 'lang',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to mark the page as not yet translated',
+          required: false
+        }
+      - {
+          label: 'Hide on listing page',
+          name: 'hidden',
+          widget: 'boolean',
+          default: false,
+          hint: 'Toggle this to hide page from listing page',
+          required: false
+        }
 
- 
   - name: 'landing-page'
     label: 'Landing Pages'
     folder: content/
     media_folder: /static/img
     public_folder: /img
     path: 'content/{{slug}}/index'
-    filter: {field: "template", value: "LandingPage"}
-    fields: 
-      - { label: Template, name: template, widget: hidden, default: LandingPage, value: LandingPage }
+    filter: { field: 'template', value: 'LandingPage' }
+    fields:
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: LandingPage,
+          value: LandingPage
+        }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color'] }
-      - { label: 'ContentBottom', name: contentBottom, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color'] }
+      - {
+          label: 'Content',
+          name: body,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color']
+        }
+      - {
+          label: 'ContentBottom',
+          name: contentBottom,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            ['callout', 'LFDSImage', 'code', 'collapse', 'code-block', 'color']
+        }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
-        fields: 
-          - {label: "Text", name: "text", widget: "text", required: false}
-          - {label: "Author", name: "author", widget: "string", required: false}
+        fields:
+          - { label: 'Text', name: 'text', widget: 'text', required: false }
+          - {
+              label: 'Author',
+              name: 'author',
+              widget: 'string',
+              required: false
+            }
       - label: 'Meta'
         required: false
         name: 'meta'
@@ -328,13 +551,13 @@ collections: # A list of collections the CMS should be able to edi
               label: Description,
               name: description,
               widget: text,
-              required: false,
+              required: false
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false,
+              required: false
             }
 
   - name: categoryOverview-page
@@ -345,23 +568,48 @@ collections: # A list of collections the CMS should be able to edi
       preview: true
     folder: content/
     path: 'content/{{slug}}/index'
-    filter: {field: "template", value: "CategoryOverview"}
-    fields: 
+    filter: { field: 'template', value: 'CategoryOverview' }
+    fields:
       - label: Preview Image
         name: previewImage
         widget: image
         required: false
-      - { label: Template, name: template, widget: hidden, default: CategoryOverview, value: CategoryOverview }
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: CategoryOverview,
+          value: CategoryOverview
+        }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'collapse', 'code-block', 'imageAndText']  }
-      - { label: 'Content Above List', name: contentAbove, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'collapse', 'code-block', 'imageAndText']  }
+      - {
+          label: 'Content',
+          name: body,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            ['callout', 'LFDSImage', 'collapse', 'code-block', 'imageAndText']
+        }
+      - {
+          label: 'Content Above List',
+          name: contentAbove,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            ['callout', 'LFDSImage', 'collapse', 'code-block', 'imageAndText']
+        }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
-        fields: 
-          - {label: "Text", name: "text", widget: "text", required: false}
-          - {label: "Author", name: "author", widget: "string", required: false}  
+        fields:
+          - { label: 'Text', name: 'text', widget: 'text', required: false }
+          - {
+              label: 'Author',
+              name: 'author',
+              widget: 'string',
+              required: false
+            }
       - label: 'Meta'
         required: false
         name: 'meta'
@@ -373,14 +621,14 @@ collections: # A list of collections the CMS should be able to edi
               label: Description,
               name: description,
               widget: text,
-              required: false,
+              required: false
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false,
-            }         
+              required: false
+            }
   - name: categoryOverview-comp
     label: Category Overview Comp
     media_folder: /static/img
@@ -389,23 +637,48 @@ collections: # A list of collections the CMS should be able to edi
       preview: true
     folder: content/components/web/
     path: '/{{slug}}/index'
-    filter: {field: "template", value: "CategoryOverview"}
-    fields: 
+    filter: { field: 'template', value: 'CategoryOverview' }
+    fields:
       - label: Preview Image
         name: previewImage
         widget: image
         required: false
-      - { label: Template, name: template, widget: hidden, default: CategoryOverview, value: CategoryOverview }
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: CategoryOverview,
+          value: CategoryOverview
+        }
       - { label: Title, name: title, widget: string }
       - { label: Intro, name: intro, widget: text }
-      - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'collapse', 'code-block', 'imageAndText']  }
-      - { label: 'Content Above List', name: contentAbove, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'collapse', 'code-block', 'imageAndText']  }
+      - {
+          label: 'Content',
+          name: body,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            ['callout', 'LFDSImage', 'collapse', 'code-block', 'imageAndText']
+        }
+      - {
+          label: 'Content Above List',
+          name: contentAbove,
+          widget: 'markdown',
+          required: false,
+          editor_components:
+            ['callout', 'LFDSImage', 'collapse', 'code-block', 'imageAndText']
+        }
       - label: 'Blockquote'
         name: 'blockquote'
         widget: 'object'
-        fields: 
-          - {label: "Text", name: "text", widget: "text", required: false}
-          - {label: "Author", name: "author", widget: "string", required: false}  
+        fields:
+          - { label: 'Text', name: 'text', widget: 'text', required: false }
+          - {
+              label: 'Author',
+              name: 'author',
+              widget: 'string',
+              required: false
+            }
       - label: 'Meta'
         required: false
         collapsed: true
@@ -417,14 +690,14 @@ collections: # A list of collections the CMS should be able to edi
               label: Description,
               name: description,
               widget: text,
-              required: false,
+              required: false
             }
           - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
-              required: false,
-            }     
+              required: false
+            }
   - name: 'changelog'
     label: 'Change Log'
     media_folder: /static/img
@@ -433,12 +706,31 @@ collections: # A list of collections the CMS should be able to edi
       - name: 'changelog-page'
         label: 'Changelog'
         file: 'content/components/web/changelog.md'
-        fields: 
-          - {label: Priority, name: priority, widget: string, required: false, hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'}
-          - { label: Template, name: template, widget: hidden, default: Changelog, value: Changelog }
+        fields:
+          - {
+              label: Priority,
+              name: priority,
+              widget: string,
+              required: false,
+              hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'
+            }
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: Changelog,
+              value: Changelog
+            }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text, required: false }
-          - { label: "Hide on listing page", name: "hidden", widget: "boolean", default: false, hint: 'Toggle this to hide page from listing page', required: false}
+          - {
+              label: 'Hide on listing page',
+              name: 'hidden',
+              widget: 'boolean',
+              default: false,
+              hint: 'Toggle this to hide page from listing page',
+              required: false
+            }
 
   - name: 'icons'
     label: 'Icons'
@@ -448,13 +740,52 @@ collections: # A list of collections the CMS should be able to edi
       - name: 'icons-page'
         label: 'Icons'
         file: 'content/visual-identity/graphics/icons.md'
-        fields: 
-          - { label: Priority, name: priority, widget: string, required: false, hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'}
-          - { label: Template, name: template, widget: hidden, default: IconsPage, value: IconsPage }
+        fields:
+          - {
+              label: Priority,
+              name: priority,
+              widget: string,
+              required: false,
+              hint: 'Navigation structure is based on alphabetical order, If you want to bypass that you can add a priority number. And this Page will be higher up in the structure. Low number higher up'
+            }
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: IconsPage,
+              value: IconsPage
+            }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
-          - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'collapse', 'code-block',  'buttonsBlock', "imageAndText"] }
-          - { label: 'Content', name: specialIconsContent, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage',  'collapse', 'code-block',  'buttonsBlock'] }
+          - {
+              label: 'Content',
+              name: body,
+              widget: 'markdown',
+              required: false,
+              editor_components:
+                [
+                  'callout',
+                  'LFDSImage',
+                  'collapse',
+                  'code-block',
+                  'buttonsBlock',
+                  'imageAndText'
+                ]
+            }
+          - {
+              label: 'Content',
+              name: specialIconsContent,
+              widget: 'markdown',
+              required: false,
+              editor_components:
+                [
+                  'callout',
+                  'LFDSImage',
+                  'collapse',
+                  'code-block',
+                  'buttonsBlock'
+                ]
+            }
           - label: 'Meta'
             required: false
             collapsed: true
@@ -466,22 +797,28 @@ collections: # A list of collections the CMS should be able to edi
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false,
+                  required: false
                 }
               - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
-                  required: false,
-                }    
+                  required: false
+                }
   - name: 'homepage'
     label: 'Home Page'
     files:
       - name: 'home-page'
         label: 'Home Page'
         file: 'content/pages/home.md'
-        fields: 
-          - { label: Template, name: template, widget: hidden, default: HomePage, value: HomePage }
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: HomePage,
+              value: HomePage
+            }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - name: 'shortcuts'
@@ -489,7 +826,12 @@ collections: # A list of collections the CMS should be able to edi
             label_singular: 'Shortcut'
             widget: 'list'
             fields:
-              - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Use a svg image' }
+              - {
+                  label: 'Icon',
+                  name: 'icon',
+                  widget: 'image',
+                  hint: 'Use a svg image'
+                }
               - { label: 'Title', name: 'title', widget: 'string' }
               - { label: 'Text', name: 'text', widget: 'string' }
               - { label: 'Link', name: 'link', widget: 'string' }
@@ -500,15 +842,28 @@ collections: # A list of collections the CMS should be able to edi
             widget: 'object'
             fields:
               - { label: Title, name: title, widget: string, required: false }
-              - { label: 'Full width image desktop', name: fullWidthImageDesktop, widget: 'image' }
-              - { label: 'Full width image mobile', name: fullWidthImageMobile, widget: 'image' }
-          
+              - {
+                  label: 'Full width image desktop',
+                  name: fullWidthImageDesktop,
+                  widget: 'image'
+                }
+              - {
+                  label: 'Full width image mobile',
+                  name: fullWidthImageMobile,
+                  widget: 'image'
+                }
+
           - name: 'ShortcutsImage'
             label: 'Shortcuts on Image'
             label_singular: 'Shortcut'
             widget: 'list'
             fields:
-              - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Use a svg image' }
+              - {
+                  label: 'Icon',
+                  name: 'icon',
+                  widget: 'image',
+                  hint: 'Use a svg image'
+                }
               - { label: 'Title', name: 'title', widget: 'string' }
               - { label: 'Text', name: 'text', widget: 'string' }
               - { label: 'Link', name: 'link', widget: 'string' }
@@ -517,37 +872,47 @@ collections: # A list of collections the CMS should be able to edi
             label_singular: 'Shortcut below image'
             widget: 'list'
             fields:
-              - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Use a svg image' }
+              - {
+                  label: 'Icon',
+                  name: 'icon',
+                  widget: 'image',
+                  hint: 'Use a svg image'
+                }
               - { label: 'Title', name: 'title', widget: 'string' }
               - { label: 'Text', name: 'text', widget: 'string' }
               - { label: 'Link', name: 'link', widget: 'string' }
-          - label: "Related Links"
-            name: "relatedLinks"
+          - label: 'Related Links'
+            name: 'relatedLinks'
             collapsed: false
-            widget: "list"
-           
+            widget: 'list'
+
             fields:
-              - {label: Text, name: text, widget: string }
-              - {label: Url, name: url, widget: string, hint: Use relative links for internal links }
+              - { label: Text, name: text, widget: string }
+              - {
+                  label: Url,
+                  name: url,
+                  widget: string,
+                  hint: Use relative links for internal links
+                }
           - label: 'Meta'
             required: false
             collapsed: true
             name: 'meta'
             widget: 'object'
             fields:
-            - { label: Title, name: title, widget: string, required: false }
-            - {
-                label: Description,
-                name: description,
-                widget: text,
-                required: false,
-              }
-            - {
-                label: Canonical Link,
-                name: canonicalLink,
-                widget: string,
-                required: false,
-              }       
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false
+                }
   - name: 'accessibility'
     label: 'Accessibility checklist'
     media_folder: /static/img
@@ -558,64 +923,100 @@ collections: # A list of collections the CMS should be able to edi
         file: 'content/foundations/accessibility/web-accessibility-guidelines.md'
         create: true # Allow users to create new documents in this collection
         fields: # The fields each document in this collection have
-          - { label: Template, name: template, widget: hidden, default: AccessibilityPage , value: AccessibilityPage }
-          - { label: Category, name: category, widget: hidden, default: Accessibility , value: Accessibility }
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: AccessibilityPage,
+              value: AccessibilityPage
+            }
+          - {
+              label: Category,
+              name: category,
+              widget: hidden,
+              default: Accessibility,
+              value: Accessibility
+            }
           - label: Preview Image
             name: previewImage
             widget: image
             required: false
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
-          - { label: Page Description, name: description, widget: text, hint: Will be shown on Overview page, required: false} 
+          - {
+              label: Page Description,
+              name: description,
+              widget: text,
+              hint: Will be shown on Overview page,
+              required: false
+            }
           - name: 'checklist'
             label: 'Checklist'
             label_singular: 'item'
             widget: 'list'
             fields:
-              - {label: 'Section', name: 'section', widget: 'string'}
+              - { label: 'Section', name: 'section', widget: 'string' }
               - name: 'checklistList'
                 label: 'ChecklistList'
                 label_singular: 'item'
                 widget: 'list'
                 fields:
-                - {label: 'Title', name: 'title', widget: 'string'}
-                - {label: 'Text', name: 'text', widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']}
-                - label: "Related Links"
-                  name: "relatedLinks"
-                  collapsed: false
-                  widget: "list"
-                  fields:
-                    - {label: Text, name: text, widget: string }
-                    - {label: Url, name: url, widget: string, hint: Use relative links for internal links }
-                - label: 'Tags'
-                  name: 'tags'
-                  widget: 'select'
-                  multiple: true
-                  options: 
-                  - { label: "All roles", value: "All roles" }
-                  - { label: "UX/AD", value: "UX/AD" }
-                  - { label: "Developer", value: "Developer" }
-                  - { label: "Tester", value: "Tester" }
-                  - { label: "Copy", value: "Copy" }
-           
+                  - { label: 'Title', name: 'title', widget: 'string' }
+                  - {
+                      label: 'Text',
+                      name: 'text',
+                      widget: 'markdown',
+                      required: false,
+                      editor_components:
+                        ['callout', 'LFDSImage', 'code', 'code-block']
+                    }
+                  - label: 'Related Links'
+                    name: 'relatedLinks'
+                    collapsed: false
+                    widget: 'list'
+                    fields:
+                      - { label: Text, name: text, widget: string }
+                      - {
+                          label: Url,
+                          name: url,
+                          widget: string,
+                          hint: Use relative links for internal links
+                        }
+                  - label: 'Tags'
+                    name: 'tags'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'All roles', value: 'All roles' }
+                      - { label: 'UX/AD', value: 'UX/AD' }
+                      - { label: 'Developer', value: 'Developer' }
+                      - { label: 'Tester', value: 'Tester' }
+                      - { label: 'Copy', value: 'Copy' }
+
           - label: Hero block
             name: heroBlock
             widget: object
             collapsed: true
             fields:
-            - label: 'Color'
-              name: 'color'
-              widget: 'select'
-              required: false
-              hint: 'Background color for hero block. '
-              options: 
-                - { label: "Pink", value: "#fcd2d3" }
-                - { label: "Blue", value: "#badaf3" }
-            - { label: Image, name: image, widget: image, required: false }
-            - { label: Quote, name: quote, widget: text, required: false }
-            - { label: Cite, name: cite, widget: string, required: false }
-            - { label: 'Content', name: body, widget: 'markdown',  required: false, editor_components: ['callout', 'LFDSImage', 'code', 'collapse', 'code-block']  }
-                
+              - label: 'Color'
+                name: 'color'
+                widget: 'select'
+                required: false
+                hint: 'Background color for hero block. '
+                options:
+                  - { label: 'Pink', value: '#fcd2d3' }
+                  - { label: 'Blue', value: '#badaf3' }
+              - { label: Image, name: image, widget: image, required: false }
+              - { label: Quote, name: quote, widget: text, required: false }
+              - { label: Cite, name: cite, widget: string, required: false }
+              - {
+                  label: 'Content',
+                  name: body,
+                  widget: 'markdown',
+                  required: false,
+                  editor_components:
+                    ['callout', 'LFDSImage', 'code', 'collapse', 'code-block']
+                }
 
   - name: 'settings'
     label: 'Settings'
@@ -628,23 +1029,27 @@ collections: # A list of collections the CMS should be able to edi
         name: 'global-settings'
         fields:
           - { label: Site Title, name: siteTitle, widget: string }
-          - {label: Site Title Abbreviation, name: siteTitleAbbreviation, widget: string, required: false}
+          - {
+              label: Site Title Abbreviation,
+              name: siteTitleAbbreviation,
+              widget: string,
+              required: false
+            }
           - { label: Site Url, name: siteUrl, widget: string, required: false }
           - {
               label: Site Description,
               name: siteDescription,
               widget: text,
-              required: false,
+              required: false
             }
           - label: Social Media Card
             name: socialMediaCard
             widget: object
             fields:
-            - { label: Image, name: image, widget: image, required: false }
+              - { label: Image, name: image, widget: image, required: false }
           - {
               label: Old LFUI Url,
               name: oldSiteUrl,
               widget: string,
-              required: false,
+              required: false
             }
- 

@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
 title: Checkbox
-intro: "Well, as Shakespeare (almost) wrote: \"What's in a name? That which we
-  call a checkbox, by any other name would still check a box\". We offer this
+intro: 'Well, as Shakespeare (almost) wrote: "What''s in a name? That which we
+  call a checkbox, by any other name would still check a box". We offer this
   feature in two versions; the web standard and a more adorned versions for
-  primary selections."
+  primary selections.'
 description: We offer checkboxes in two versions; the web standard and a more
   adorned versions for primary selections.
 previewImage: /img/checbox.svg
@@ -12,7 +12,7 @@ category: Forms
 componentsNavigation:
   - name: Styled checkbox
   - name: Checkbox cards
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

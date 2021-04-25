@@ -36,7 +36,7 @@ const CollapseWidget = {
     let matches = match[0].substring(match[0].indexOf('\n') + 1)
     matches = matches.substring(matches.lastIndexOf('\n') + 1, -1)
     const collapseArray = matches.split(/(?=<Collapse)/)
-    const items = collapseArray.map(function (item, index) {
+    const items = collapseArray.map(function (item) {
       return {
         title: item.match(/title="(.*)">/)[1],
         content: item.match(/<div class="content">(.*)<\/div>/s)[1],
@@ -52,12 +52,13 @@ const CollapseWidget = {
 
   toBlock: function (obj) {
     const items = Immutable.fromJS(obj.panels || []).map(function (
-      item,
-      index
+      item
     ) {
       return `<Collapse title="${item.get(
         'title'
-      )}">\n<div class="content">\n\n${item.get('content')}\n\n</div></Collapse>`
+      )}">\n<div class="content">\n\n${item.get(
+        'content'
+      )}\n\n</div></Collapse>`
     })
 
     return '\n<section>\n' + items.join('\n') + '\n</section>\n'

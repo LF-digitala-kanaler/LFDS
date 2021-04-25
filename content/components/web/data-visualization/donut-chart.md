@@ -51,7 +51,6 @@ tabs:
 
       <https://blog.datawrapper.de/pie-charts/>
 
-
     name: Design
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 ---

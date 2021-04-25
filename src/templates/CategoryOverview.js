@@ -1,7 +1,7 @@
-import React from 'react'
+import CategoryOverviewTemplate from './CategoryOverviewTemplate.js'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
-import CategoryOverviewTemplate from './CategoryOverviewTemplate.js'
+import React from 'react'
 
 const CategoryOverviewPage = ({
   data: { page, allPages },
@@ -13,17 +13,17 @@ const CategoryOverviewPage = ({
   }
 
   const children = {
-    links: allPages.hasOwnProperty('edges')
+    links: Object.prototype.hasOwnProperty.call(allPages, 'edges')
       ? allPages.edges.filter((category) => {
-          if (
-            category.node.fields.contentType.includes(currentDirectory) &&
-            category.node.frontmatter.hidden !== true
-          ) {
-            return { ...category.node }
-          } else {
-            return null
-          }
-        })
+        if (
+          category.node.fields.contentType.includes(currentDirectory) &&
+          category.node.frontmatter.hidden !== true
+        ) {
+          return { ...category.node }
+        } else {
+          return null
+        }
+      })
       : false,
   }
 

@@ -1,19 +1,17 @@
 ---
 template: ArticlePage
 category: Writing
-previewImage: ""
+previewImage: ''
 title: Så här skriver vi
 intro: Här kan du läsa om hur vi använder olika tecken och...
-description: ""
-contentTop: ""
+description: ''
+contentTop: ''
 lang: true
 ---
 
 <section>
 <Collapse title="Apostrof( ́)">
 <div class="content">
-
-
 
 Apostrof används ytterst sällan i modern svenska. Undvik den engelska användningen.
 Skriv LFABs utan apostrof före genitiv-s.
@@ -22,15 +20,11 @@ Skriv LFABs utan apostrof före genitiv-s.
 <Collapse title="Avstavningar">
 <div class="content">
 
-
-
 När du avstavar bör du dela upp ordet i sina naturliga delar. Exempelvis försäkrings-bolag, del-aktig. Du bör inte avstava person­ eller firmanamn, korta tvåstaviga ord, årtal, siffergrupper eller webblänkar.
 
 </div></Collapse>
 <Collapse title="Bindestreck(-)">
 <div class="content">
-
-
 
 Använd bindestreck vid sammansättningar och vid avstavningar: 2000-talet. Se även Avstav­ningar och Tankstreck.
 
@@ -38,17 +32,13 @@ Använd bindestreck vid sammansättningar och vid avstavningar: 2000-talet. Se �
 <Collapse title="Citattecken(” ”)">
 <div class="content">
 
-
-
 Använd citattecken runt citat och uttalanden. Det kan också användas vid ovanliga ord eller ironi. Använd tecknet sparsamt.
 
-*När vi hänvisar till en sida försöker vi istället använda stor bokstav istället, exempelvis: "Ändra din adress under Inställningar."*
+_När vi hänvisar till en sida försöker vi istället använda stor bokstav istället, exempelvis: "Ändra din adress under Inställningar."_
 
 </div></Collapse>
 <Collapse title="Datum">
 <div class="content">
-
-
 
 Datum skriver vi den 1 december 2020. I tabeller kan datum skrivas 2010-12-01.
 
@@ -58,33 +48,25 @@ Mer om datum här eller under patterns (ska läggas till).
 <Collapse title="De, dem">
 <div class="content">
 
-
-
 Vi skriver de och dem. Inte de och dom.
 
 </div></Collapse>
 <Collapse title="Du">
 <div class="content">
 
-
-
 När du skriver tilltalsordet du – använd litet d. Använd aldrig ni när du kommunicerar med en enskild person.
 
-*Mer om pronomen och hur vi använder min, din eller inget alls - under patterns (lägg till)*
+_Mer om pronomen och hur vi använder min, din eller inget alls - under patterns (lägg till)_
 
 </div></Collapse>
 <Collapse title="Inte">
 <div class="content">
-
-
 
 Negationerna ej och icke är omoderna och högtravande – använd inte istället.
 
 </div></Collapse>
 <Collapse title="Kolon(:)">
 <div class="content">
-
-
 
 Använd kolon vid:
 
@@ -102,15 +84,11 @@ Använd liten bokstav efter kolon vid uppräkning, förklaringar, sammanfattning
 <Collapse title="Man">
 <div class="content">
 
-
-
 I många texter skrivs ordet man i betydelsen person, vilket ibland är svårt att undvika. Men försök att istället använda jag, vi, eller ni.
 
 </div></Collapse>
 <Collapse title="Mig, dig, sig">
 <div class="content">
-
-
 
 Formerna mej, dej och sej är talspråk. Vi skriver alltid mig, dig och sig.
 
@@ -127,15 +105,11 @@ jan, feb, mars, april, maj, juni, juli, aug, sep, okt, nov, dec
 <Collapse title="Parentes (:)">
 <div class="content">
 
-
-
 Använd parentes sparsamt.
 
 </div></Collapse>
 <Collapse title="Procent (%), Promille (‰)">
 <div class="content">
-
-
 
 Använd bara procenttecknet tillsam­mans med siffror. Det ska vara ett mel­lanslag mellan talet och procenttecknet. Det gäller även för promilletecknet. I löpande text skriver vi ut ordet ”procent”.
 
@@ -143,15 +117,11 @@ Använd bara procenttecknet tillsam­mans med siffror. Det ska vara ett mel­lan
 <Collapse title="Paragraftecken (§)">
 <div class="content">
 
-
-
 Tecknet används i lagtexter efter numret och i stadgar före numret: Enligt 10 § FAL, Försäkringsavtalslagen eller enligt hyresföreningens stadgar § 5.
 
 </div></Collapse>
 <Collapse title="Personnummer">
 <div class="content">
-
-
 
 Vanligtvis grupperas siffrorna i ett personnummer så här:\
 720202-1002
@@ -169,15 +139,11 @@ När en person fyllt hundra år byts strecket (-) mellan födelsetiden och föde
 <Collapse title="Semikolon (;)">
 <div class="content">
 
-
-
 Kan ofta bytas ut mot tankstreck.
 
 </div></Collapse>
 <Collapse title="Siffror och matematiska tecken">
 <div class="content">
-
-
 
 Huvudregeln är att tal till och med tolv i löpande text skrivs med bokstäver. Från och med 13 skriver vi med siffror. Skriver du siffror före en förkortning eller gör en uppräkning ska du alltid använda siffror: 7 km eller 3 blå, 4 röda, 5 gröna.
 
@@ -189,15 +155,11 @@ Markera tusental med mellanslag: 55 000 kronor. Vi använder inte punkter för a
 <Collapse title="Snedstreck (/) ">
 <div class="content">
 
-
-
 Vi använder snedstreck vid betydelsen per: Hastigheten var 50 km/h. Dessutom använder vi snedstreck vid uppgift om tidsperioder: Månadsskiftet mars/april.
 
 </div></Collapse>
 <Collapse title="Ska">
 <div class="content">
-
-
 
 Skriv ska, inte skall.
 
@@ -205,15 +167,11 @@ Skriv ska, inte skall.
 <Collapse title="Svenska, engelska eller svengelska? ">
 <div class="content">
 
-
-
 Globalisering, internet och teknikutveck­ling har gjort att alltfler låneord används i svenskan. Vi skriver till exempel internet med litet i. Även intranät skrivs med litet i. Webb skriver vi med två b. Orden pc, cd-rom och dvd skrivs med små bokstäver. Vi skriver e-post, inte e-mail. Vi mejlar, vi mailar inte.
 
 </div></Collapse>
 <Collapse title="Svenska kronor – så skriver vi ">
 <div class="content">
-
-
 
 • kronor — I löpande text skriver vi alltid ut kronor.
 
@@ -236,27 +194,22 @@ Skrivs alltid före siffran – exempel SEK 500.
 <Collapse title="Tankstreck (–) ">
 <div class="content">
 
-
-
 Tankstreck är dubbelt så långt som ett bindestreck. När vi skriver tankstreck i betydelsen till, skriver vi dem utan mellanslag: Lunch klockan 11.00–12.00. Tankstreck används också kring inskjutna satser, till exempel förklaringar eller jämförelser: Skadan var omfattande – vänster framdörr var intryckt – men bilen gick att köra. Då omges tankstrecket av mellanslag.
 
 </div></Collapse>
 <Collapse title="Telefon- och faxnummer ">
 <div class="content">
 
-
-
 031-44 32 88
 08-588 400 00
 08-560 80 50
 070-964 40 00
-+ 46 8-560 480 50 (internationellt)
+
+- 46 8-560 480 50 (internationellt)
 
 </div></Collapse>
 <Collapse title="Titlar och avdelningar">
 <div class="content">
-
-
 
 Titlar skriver vi alltid med liten bokstav i början. Avdelningar och andra organisatoriska enheter skriver vi med stor bokstav i början.\
 Exempel: Anna Länsman, skadereglerare, Skadeavdelningen
@@ -265,15 +218,11 @@ Exempel: Anna Länsman, skadereglerare, Skadeavdelningen
 <Collapse title="Utropstecken (!) ">
 <div class="content">
 
-
-
 Använd utropstecken sparsamt.
 
 </div></Collapse>
 <Collapse title="Valutabeteckningar">
 <div class="content">
-
-
 
 • DKK danska kronor\
 • NOK norska kronor\
@@ -286,23 +235,17 @@ Använd utropstecken sparsamt.
 <Collapse title="Versaler">
 <div class="content">
 
-
-
 Versaler – stora bokstäver – underlättar inte i skrivna texter. Läsaren läser bokstav för bokstav och orden blir mindre synliga.
 
 </div></Collapse>
 <Collapse title="Vår, er">
 <div class="content">
 
-
-
 Tänk på att det heter vår och er, inte våran eller eran. När du skriver er – använd litet e.
 
 </div></Collapse>
 <Collapse title="​För virrande sär skrivning ">
 <div class="content">
-
-
 
 Ibland blir det riktigt roligt – ibland bara förvirrande. Tumregel: Om ett ord uttalas som ett sammansatt ord ska det också skrivas som ett sammansatt ord.
 
@@ -312,10 +255,11 @@ Ibland blir det riktigt roligt – ibland bara förvirrande. Tumregel: Om ett or
 
 Vi skriver enligt svensk standard. 9.00–18.00. Ingen nolla före ental och tankstreck i tidsspann. Använd punkt, inte kolon mellan siffrorna.
 
-**Tidsspann** 
+**Tidsspann**
 
-Från midnatt till morgon skrivs till exempelvis "lördag från 00.00–4.00" 
+Från midnatt till morgon skrivs till exempelvis "lördag från 00.00–4.00"
 
 Från dag till midnatt skrivs "söndag 15.00–24.00"
+
 </div></Collapse>
 </section>

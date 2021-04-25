@@ -1,13 +1,16 @@
-import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
-import Meta from './Meta'
-import Footer from './Footer'
-import Header from './Header'
-import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
-import { stripTrailingSlash } from '../utils/RemoveTrailingSlash'
 import 'modern-normalize/modern-normalize.css'
 import '../components/_base/index.css'
+
+import { graphql, StaticQuery } from 'gatsby'
+import React, { Fragment } from 'react'
+
+import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
+import Footer from './Footer'
+import Header from './Header'
+import Helmet from 'react-helmet'
+import Meta from './Meta'
+import { stripTrailingSlash } from '../utils/RemoveTrailingSlash'
+
 export default ({
   children,
   title,

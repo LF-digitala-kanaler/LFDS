@@ -1,7 +1,8 @@
-import React from 'react'
-import style from './index.module.css'
-import { Link } from 'gatsby'
+import * as style from './index.module.css'
+
 import { capitalizeFirstLetter } from '../../utils/CapitalizeFirstLetter'
+import { Link } from 'gatsby'
+import React from 'react'
 
 const parentDirectory = (url) => {
   return url.substring(0, url.lastIndexOf('/'))

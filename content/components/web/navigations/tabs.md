@@ -11,7 +11,7 @@ category: Navigations
 componentsNavigation:
   - name: Page level navigation
   - name: In page navigation
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
       ## How to use

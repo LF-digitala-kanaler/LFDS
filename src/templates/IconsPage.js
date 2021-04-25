@@ -1,9 +1,7 @@
-import React from 'react'
 import { graphql } from 'gatsby'
+import IconsPageTemplate from './IconsTemplate.js'
 import Layout from '../components/Layout.js'
-import IconsPageTemplate  from './IconsTemplate.js'
-
-
+import React from 'react'
 
 const IconsPage = ({ data: { page }, location }) => {
   const breadcrumb = {

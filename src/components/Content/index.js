@@ -1,9 +1,9 @@
-import React from 'react'
+import './index.css'
+
+import Image from '../Image'
 import Marked from 'react-markdown'
 import PropTypes from 'prop-types'
-import Image from '../Image'
-
-import './index.css'
+import React from 'react'
 
 const encodeMarkdownURIs = (source = '') => {
   const markdownLinkRegex = /\[(.+)\]\((.+)(".+)\)/g
@@ -14,7 +14,7 @@ const encodeMarkdownURIs = (source = '') => {
   })
 }
 
-const MyImage = ({ nodeKey, src, alt }) => {
+const MyImage = ({ src, alt }) => {
   const decodedSrc = decodeURI(src)
 
   return <Image className={`Content--Image`} src={decodedSrc} alt={alt} />

@@ -6,13 +6,14 @@ title: Navigation page
 intro: För att hjälpa kunden välja rätt när det finns flera liknande produkter
   erbjuder navigationssidan vägledning. En snabb inledande text för att visa att
   man kommit rätt för att leda vidare med snabba puffar till de olika sidorna.
-description: "Hjälper kunden till rätt val när det finns ett flertal liknande
-  produkter och ger snabb vägledning. "
+description: 'Hjälper kunden till rätt val när det finns ett flertal liknande
+  produkter och ger snabb vägledning. '
 wide: false
 lang: false
 hidden: false
-contentTop: ""
+contentTop: ''
 ---
+
 <figure class="Image null Image__wide"><img src="/img/lfse-navsida.jpg" srcset="/img/lfse-navsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte

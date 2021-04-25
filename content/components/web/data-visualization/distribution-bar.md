@@ -135,5 +135,5 @@ tabs:
 
       **NOTE:**This is not a replacement for Legends. Legends should still be visible.
     name: Code
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

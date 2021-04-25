@@ -221,5 +221,5 @@ tabs:
 
       ```
     name: Code
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 ---

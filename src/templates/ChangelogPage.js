@@ -1,9 +1,8 @@
-import React from 'react'
+import ChangelogPageTemplate from './ChangelogPageTemplate.js'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import { navigate } from '@reach/router'
-import ChangelogPageTemplate from './ChangelogPageTemplate.js'
-
+import React from 'react'
 
 // Export Template for use in CMS preview
 

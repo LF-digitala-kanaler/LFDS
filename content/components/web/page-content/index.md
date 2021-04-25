@@ -1,5 +1,4 @@
 ---
-
 previewImage: /img/callout.svg
 template: CategoryOverview
 title: Page content

@@ -3,7 +3,6 @@
 }
 .CardGrid {
   margin: var(--cardGrid-gap);
-  
 }
 
 /* .CardGrid--push {
@@ -25,6 +24,6 @@
   margin: 24px;
 
   @media (--xxlarge-viewport) {
-   flex: 0 1 calc(25% - 48px);
+    flex: 0 1 calc(25% - 48px);
   }
 }

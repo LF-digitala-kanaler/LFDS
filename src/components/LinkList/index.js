@@ -1,11 +1,12 @@
-import React from 'react'
-import style from './index.module.css'
+import * as style from './index.module.css'
+
 import { Link } from 'gatsby'
+import React from 'react'
 const isRelativeUrl = require(`is-relative-url`);
 
-const LinkList = ({ items , customCss}) => {
-  
-  
+const LinkList = ({ items, customCss }) => {
+
+
   const links = items.map((item) => {
     return isRelativeUrl(item.url) ? (
       <li key={item.url} className={style.LinkList__item}>

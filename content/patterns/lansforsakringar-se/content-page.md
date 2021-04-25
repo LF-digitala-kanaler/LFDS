@@ -8,8 +8,9 @@ intro: Kontentmallen används specifikt för att lyfta redaktionellt innehåll s
 wide: false
 lang: false
 hidden: false
-contentTop: ""
+contentTop: ''
 ---
+
 Den nya contentmallen
 
 Vi har fått en ny mall att jobba med i EpiServer. Den är främst till för att ersätta vissa navigationssidor.\

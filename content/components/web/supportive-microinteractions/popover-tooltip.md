@@ -67,5 +67,5 @@ tabs:
 
       There is an option to center the popup box on smaller screens. If you add `popover-sm-center` to both `popover-tooltip-trigger` and `popover-tooltip` the box will be centered on small screens right aligned on wider.
     name: Code
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

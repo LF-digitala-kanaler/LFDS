@@ -14,7 +14,7 @@
     content: '';
     padding-top: 60%;
   }
-  @media (--small-viewport) { 
+  @media (--small-viewport) {
     &:after {
       content: '';
       padding-top: 33%;
@@ -22,14 +22,13 @@
   }
 }
 .HeroBlock__quote {
-  
   font-size: 2rem;
   text-align: left;
   line-height: 1.25;
   color: var(--color-black);
   margin: 0;
 
-  @media (--small-viewport) { 
+  @media (--small-viewport) {
     max-width: 28.75rem;
     font-size: 3.125rem;
     line-height: 1.18;

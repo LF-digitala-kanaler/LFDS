@@ -1,12 +1,12 @@
-import React from 'react'
-import Wrapper from '../components/Wrapper'
+import Blockquote from '../components/Blockquote'
+import CardList from '../components/CardList'
+import Collapse from '../components/Collapse'
+import Content from '../components/Content'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
-import CardList from '../components/CardList'
-import Blockquote from '../components/Blockquote'
-import Content from '../components/Content'
+import React from 'react'
 import rehypeReact from 'rehype-react'
-import Collapse from '../components/Collapse'
+import Wrapper from '../components/Wrapper'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,

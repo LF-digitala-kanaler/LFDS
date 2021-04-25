@@ -2,7 +2,6 @@
   position: absolute;
   left: -32px;
   top: 33px;
-  
 }
 .Checkbox__input {
   position: absolute;
@@ -23,14 +22,14 @@
 .Checkbox__label {
   margin-bottom: 0;
   font-weight: 400;
-  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   display: inline;
   cursor: pointer;
   -webkit-font-smoothing: auto;
-  
+
   &:before {
-    transition: .2s ease;
-    transition-property: box-shadow,background-size;
+    transition: 0.2s ease;
+    transition-property: box-shadow, background-size;
     border: 0;
     box-shadow: inset 0 0 0 2px #b1b3b6;
     position: absolute;
@@ -39,7 +38,7 @@
     display: block;
     width: 1.13rem;
     height: 1.13rem;
-    content: "";
+    content: '';
     pointer-events: none;
     background-color: #fff;
   }
@@ -50,26 +49,24 @@
     display: block;
     width: 1.13rem;
     height: 1.13rem;
-    content: "";
+    content: '';
     background: no-repeat 50%/70% 70%;
   }
 }
 
-.Checkbox .Checkbox__input:not(:checked)~.Checkbox__label:after {
-  transition-property: box-shadow,background-size;
-  transition: .2s ease;
+.Checkbox .Checkbox__input:not(:checked) ~ .Checkbox__label:after {
+  transition-property: box-shadow, background-size;
+  transition: 0.2s ease;
   background-size: 10% 10%;
 }
-.Checkbox .Checkbox__input:checked:not([disabled])~.Checkbox__label:before {
+.Checkbox .Checkbox__input:checked:not([disabled]) ~ .Checkbox__label:before {
   box-shadow: inset 0 0 0 2px #222;
   color: #222;
   border-color: #fff;
   background-color: #fff;
 }
-.Checkbox .Checkbox__input:checked:not([disabled])~.Checkbox__label:after { 
+.Checkbox .Checkbox__input:checked:not([disabled]) ~ .Checkbox__label:after {
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTNweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTMgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+UGFnZSAxPC90aXRsZT4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwb2x5Z29uIGZpbGw9IiMyMjIyMjIiIHBvaW50cz0iMTAuOTA4OTYxOSAwIDQuMzI4MTAzNjQgNi45MTkyNjE1NCAxLjQxMTMxNjYgMy44MDA2NzY5MiAwIDUuMjcwNTIzMDggNC4zMTQyMjgzNCA5Ljg4MzAxNTM4IDEyLjMwNTQxMjEgMS40ODM0NDYxNSI+PC9wb2x5Z29uPgogICAgPC9nPgo8L3N2Zz4=);
   box-shadow: none;
   top: 3px;
 }
-    
-    

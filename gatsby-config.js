@@ -30,10 +30,10 @@ module.exports = {
           skipWaiting: true,
           clientsClaim: true,
         },
-        
+
       },
     },
-    
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -45,24 +45,24 @@ module.exports = {
         background_color: "#F3F3F3",
         icon: `${__dirname}/static/favicons/favicon.svg`, // This path is relative to the root of the site.
         icons: [
-            {
-                "src": "/favicons/android-chrome-192x192.png",
-                "sizes": "192x192",
-                "type": "image/png"
-            },
-            {
-                "src": "/favicons/android-chrome-512x512.png",
-                "sizes": "512x512",
-                "type": "image/png"
-            },
-            {
-              "src": "/favicons/android-chrome-192x192.png",
-              "sizes": "196x196",
-              "type": "image/png",
-              "purpose": "any maskable"
-            }
+          {
+            "src": "/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          },
+          {
+            "src": "/favicons/android-chrome-192x192.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
         ],
-       
+
       },
     },
 
@@ -237,11 +237,11 @@ module.exports = {
           //     duration: 10
           //   }
           // },
-          
+
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
-              
+
               icon: `<svg width="14" height="19"><path d="M2.965 18.293l1.02-4.992h3.68l-1.009 4.992h1.758l1.02-4.992h3.609v-1.746H9.785l.88-4.254h2.378V5.555h-2.027l1.02-5.028h-1.77l-1.02 5.028H5.555L6.575.527H4.815l-1.02 5.028H.247V7.3h3.2l-.868 4.254H.246V13.3h1.98l-1.019 4.992h1.758zm5.05-6.738h-3.68L5.204 7.3h3.692l-.88 4.254z" fill="#E5E5E5" fill-rule="nonzero"/></svg>`,
               className: 'Heading--anchor',
               isIconAfterHeader: true,
@@ -254,7 +254,7 @@ module.exports = {
               destinationDir: 'static',
             },
           },
-         
+
         ],
       },
     },
@@ -309,7 +309,7 @@ module.exports = {
         },
       },
     },
-    
+
     // GA
     {
       resolve: `gatsby-plugin-google-analytics`,

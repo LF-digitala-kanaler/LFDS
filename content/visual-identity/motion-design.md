@@ -9,10 +9,11 @@ intro: >
 
   Designers can use animated icons, illustrations, graphics and guidance animation to communicate with users.
 description: Motion graphics can delight, inspire, and guide your audience to take action
-contentTop: ""
+contentTop: ''
 wide: false
 lang: false
 ---
+
 Här kommer tankar och riktning i hur vi tänker att vi tillsammans ska sträva mot samma känsla när vi animerar. För att vi ska göra det har vi tagit fram några riktlinjer att ta fasta på.
 
 ## Våra riktlinjer för animering
@@ -34,18 +35,18 @@ Länsförsäkringars animerings principer:
 
 #### Hur ska vi upplevas?
 
-* Tydligt
-* Trevligt
-* Funktionellt
-* Ansvarsfull
-* Vägledande
+- Tydligt
+- Trevligt
+- Funktionellt
+- Ansvarsfull
+- Vägledande
 
 #### Vilka känslor vi vill uppnå:
 
-* Trygghet
-* Nu förstår jag
-* Lugn
-* Glad
+- Trygghet
+- Nu förstår jag
+- Lugn
+- Glad
 
 ### Hur animeras ikoner/piktogram?
 
@@ -68,10 +69,10 @@ Att pausa animeringen så det är lugnt ett tag utan animering. Om inte animerin
 
 #### När vill vi använda oss av animerad grafik?
 
-* Success! Vi firar händelser i kundens resa.\
+- Success! Vi firar händelser i kundens resa.\
   Idag används det bara vid genomförd betalning/överföring.
-* Rörelse för att visa vad som är viktigt?
-* Mikroanimeringar på ikoner vi vill ska stå ut?\
+- Rörelse för att visa vad som är viktigt?
+- Mikroanimeringar på ikoner vi vill ska stå ut?\
   Som (Betala/överföra) Nytt meddelande. Ett state som förändrats.
 
 Piktogram/ikoner som animeras kan användas för att introducera en sektion, ett område eller en tjänst, där symbolen är av extra stor betydelse. Animerade piktogram bör användas på platser där de tillför något extra (onboarding t ex).
@@ -85,18 +86,18 @@ Vi avråder dock från att ”strössla” med dessa animationer eller att anvä
 
 **Olika animeringssätt**
 
-* Paralax
-* Grafik
-* Ikoner
-* Notifikationer
-* Success - räkning betalad/försäkring registrerad
+- Paralax
+- Grafik
+- Ikoner
+- Notifikationer
+- Success - räkning betalad/försäkring registrerad
 
 **Undvik**
 
-* Paralax skroll animering som stör i texter. Använd bakgrundsplatta på texten.
-* Fler saker som rör sig samtidigt
-* Saker som hoppar och rör på sig
-* Animeringar som aldrig stannar
+- Paralax skroll animering som stör i texter. Använd bakgrundsplatta på texten.
+- Fler saker som rör sig samtidigt
+- Saker som hoppar och rör på sig
+- Animeringar som aldrig stannar
 
 ## I ditt team
 
@@ -116,13 +117,9 @@ Fundera på hårt, mjukt, snabbt och sakta - vad vill vi säga med animationen o
 
 Ta stöd av de Disneys 12 animeringsprinciper
 
-
-
 ## Exempel på animering
 
 <https://lottiefiles.com/share/akn9fzsa>
-
-
 
 ## Other material
 

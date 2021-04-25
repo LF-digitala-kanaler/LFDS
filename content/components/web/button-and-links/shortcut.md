@@ -12,7 +12,7 @@ componentsNavigation:
   - name: Alerting
   - name: Navigational
   - name: Landing page
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
       ## How to use

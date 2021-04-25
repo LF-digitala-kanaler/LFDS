@@ -3,8 +3,8 @@ template: ComponentPage
 title: Avatar
 intro: Avatars are used to give a visual representations of the various parties
   involved in a conversation.
-description: "Avatars are used to give a visual representations of the various
-  parties involved in a conversation. "
+description: 'Avatars are used to give a visual representations of the various
+  parties involved in a conversation. '
 previewImage: /img/avatar.svg
 category: System display
 tabs:
@@ -66,5 +66,5 @@ tabs:
 
       ```
     name: Code
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

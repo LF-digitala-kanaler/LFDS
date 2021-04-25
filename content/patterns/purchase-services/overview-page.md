@@ -3,7 +3,7 @@ template: ArticlePage
 category: Purchase services
 title: Overview Page
 intro: Overview Page
-contentTop: ""
+contentTop: ''
 wide: false
 lang: false
 hidden: false

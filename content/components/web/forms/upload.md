@@ -188,5 +188,5 @@ tabs:
 
       ```
     name: Code
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

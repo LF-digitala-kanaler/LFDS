@@ -7,12 +7,11 @@ intro: Web accessibility allows everyone, including people with disabilities, to
   Directive in force since 22 December 2016, will provide people with
   disabilities with better access to the websites and mobile apps of public
   services.
-contentTop: ""
+contentTop: ''
 wide: false
 lang: false
 hidden: false
 ---
-
 
 The rules laid down in the Directive reflect the Commission's ongoing work to build a social and inclusive European Union, where all Europeans can take a full and active part in the digital economy and society.
 
@@ -20,8 +19,8 @@ The rules laid down in the Directive reflect the Commission's ongoing work to bu
 
 ## The Directive
 
-* covers websites and apps of public sector bodies, with a limited number of exceptions (e.g. broadcasters, live streaming);
-* refers to specific standards to make websites and mobile apps more accessible. Such standards require for instance that there should be a text description for images, or that users are able to interact with a website without using a mouse, which can be difficult for some people with disabilities;
-* requires the publication of an accessibility statement for each website and mobile app, describing the level of accessibility and indicating any content that is not accessible;
-* calls for a feedback mechanism which the users can use to flag accessibility problems or to ask for the information contained in a non-accessible content;
-* expects regular monitoring of public sector websites and apps by Member States, and that they report on the results of the monitoring. These reports have to be communicated to the Commission and to be made public for the first time by 23 December 2021.
+- covers websites and apps of public sector bodies, with a limited number of exceptions (e.g. broadcasters, live streaming);
+- refers to specific standards to make websites and mobile apps more accessible. Such standards require for instance that there should be a text description for images, or that users are able to interact with a website without using a mouse, which can be difficult for some people with disabilities;
+- requires the publication of an accessibility statement for each website and mobile app, describing the level of accessibility and indicating any content that is not accessible;
+- calls for a feedback mechanism which the users can use to flag accessibility problems or to ask for the information contained in a non-accessible content;
+- expects regular monitoring of public sector websites and apps by Member States, and that they report on the results of the monitoring. These reports have to be communicated to the Commission and to be made public for the first time by 23 December 2021.

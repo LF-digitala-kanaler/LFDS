@@ -219,5 +219,5 @@ tabs:
 
       At the moment navbar is not adjusted to responsive design. That's something you have to build yourself. There is a couple of modifiers available in [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) that can get you started.
     name: Code
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 ---

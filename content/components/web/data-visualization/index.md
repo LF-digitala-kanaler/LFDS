@@ -1,5 +1,4 @@
 ---
-
 previewImage: /img/graphs-and-charts.svg
 template: CategoryOverview
 title: Data visualization

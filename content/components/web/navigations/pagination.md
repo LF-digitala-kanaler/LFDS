@@ -138,5 +138,5 @@ tabs:
 
       Pagination should be stretchy on small screens. There is no built in support in the component for that. However there is a class `pagination-sm-flex` you can add to make it work( see example at the top)
     name: Code
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 ---

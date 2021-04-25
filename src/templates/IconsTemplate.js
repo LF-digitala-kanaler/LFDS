@@ -1,13 +1,14 @@
-import React from 'react'
-import Wrapper from '../components/Wrapper'
+import Collapse from '../components/Collapse'
+import Content from '../components/Content'
 import Heading from '../components/Heading'
-import Preamble from '../components/Preamble'
 import icons from '!!raw-loader!lfui-components/dist/lfui/icons.svg'
 import iconsRegular from '!!raw-loader!lfui-components/dist/docs/icons/regular.md'
 import iconsSpecial from '!!raw-loader!lfui-components/dist/docs/icons/special.md'
-import Content from '../components/Content'
+import Preamble from '../components/Preamble'
+import React from 'react'
 import rehypeReact from 'rehype-react'
-import Collapse from '../components/Collapse'
+import Wrapper from '../components/Wrapper'
+
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {

@@ -1,7 +1,7 @@
-import React from 'react'
 import PropTypes from 'prop-types'
-import style from './index.module.css'
+import React from 'react'
 import cx from 'classnames'
+import style from './index.module.css'
 
 export const Heading = ({ text, tag, align, children, id }) => {
   const Htag = `h${tag}`
@@ -15,7 +15,7 @@ export const Heading = ({ text, tag, align, children, id }) => {
         style['Heading--' + align]
       )}
     >
-      
+
       {text}
       {children}
     </Htag>

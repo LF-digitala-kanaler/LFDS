@@ -92,5 +92,5 @@ tabs:
 
       Skriv hellre: "Mer om helförsäkringen"
     name: Copy
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

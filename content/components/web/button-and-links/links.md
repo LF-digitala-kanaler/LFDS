@@ -4,14 +4,14 @@ title: Links
 intro: Links are used when we want to guide the user to another location
   (usually another page). The link text should clearly describe what the link
   leads to.
-description: "Links are used when we want to guide the user to another location
-  (usually another page). "
+description: 'Links are used when we want to guide the user to another location
+  (usually another page). '
 previewImage: /img/link-primary.svg
 category: Button and links
 componentsNavigation:
   - name: Primary
   - name: Regular
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

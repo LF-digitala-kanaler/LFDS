@@ -39,5 +39,5 @@ tabs:
 
       * Line charts are often used together with a form of [tabs](../navigations/tabs) to change the time frame which is shown in the graph. These tabs aren't part of LFUI yet, but on the todo-list. An example of such tabs can be found on [this page](https://www.lansforsakringar.se/stockholm/privat/bank/spara/fondkurser/jamfor-fonder/?shortcut=1&ids=F00000WYNV,F000014517,F00000VHUL).
     name: Design
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

@@ -1,10 +1,12 @@
-import React, { useState, useRef } from 'react'
-import { Link, navigate } from 'gatsby'
-import style from './index.module.css'
-import cx from 'classnames'
+import * as style from './index.module.css'
+
 import { ArrowNavigation, useArrowNavigation } from 'react-arrow-navigation'
-import { useKeyPressEvent } from 'react-use'
+import { Link, navigate } from 'gatsby'
+import React, { useRef, useState } from 'react'
+
+import cx from 'classnames'
 import Modal from 'react-modal'
+import { useKeyPressEvent } from 'react-use'
 
 // set focus on input when search is open
 const UseFocus = () => {

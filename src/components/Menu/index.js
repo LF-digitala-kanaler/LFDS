@@ -1,21 +1,23 @@
-import React, { useState, useContext } from 'react'
-import MenuItem from './MenuItem'
-import style from './index.module.css'
-import { Location } from '@reach/router'
-import MenuToggle from '../MenuToggle'
-import cx from 'classnames'
-import { createBreakpoint } from 'react-use'
-import AnimationContainer from '../../utils/AnimationCointainer'
-import { useStaticQuery, graphql } from 'gatsby'
-import _ from 'lodash'
-import { globalHistory } from '@reach/router'
+import * as style from './index.module.css'
+
 import {
   GlobalDispatchContext,
   GlobalStateContext,
 } from '../../context/GlobalContextProvider'
+import React, { useContext, useState } from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
 
+import AnimationContainer from '../../utils/AnimationCointainer'
+import { Location } from '@reach/router'
+import MenuItem from './MenuItem'
+import MenuToggle from '../MenuToggle'
+import _ from 'lodash'
+import { createBreakpoint } from 'react-use'
+import cx from 'classnames'
 import flow from 'lodash/fp/flow'
+import { globalHistory } from '@reach/router'
 import groupBy from 'lodash/fp/groupBy'
+
 const map = require('lodash/fp/map').convert({ cap: false })
 
 const Menu = ({ currentDirectory }) => {
@@ -46,18 +48,18 @@ const Menu = ({ currentDirectory }) => {
 
   const location = globalHistory.location.pathname
   const useBreakpoint = createBreakpoint({ M: 1024, S: 768 })
-  
+
   if (typeof window !== `undefined`) {
     currentDirectory = location.split('/')
     currentDirectory = currentDirectory.filter((item) => item)
     currentDirectory = currentDirectory.slice(0, 1).join('/')
   }
-  
+
   const navigationItems = {
     items: data.allPages.hasOwnProperty('edges')
       ? data.allPages.edges.filter((items) =>
-          items.node.fields.contentType.includes(currentDirectory)
-        )
+        items.node.fields.contentType.includes(currentDirectory)
+      )
       : false,
   }
 

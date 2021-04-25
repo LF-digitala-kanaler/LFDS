@@ -1,12 +1,13 @@
-import React from 'react'
+import * as style from './index.module.css'
+
 import Card from '../Card'
-import style from './index.module.css'
+import React from 'react'
 
 const CardGrid = ({ list }) => {
   const cardItems = list.map((item, index) => {
     if (item.category !== 'null') {
       return (
-        <div className={style.CardGrid__item} key={index}>
+        <div key={index}>
           <Card
             grid={true}
             title={item.link[0].node.frontmatter.category}
@@ -20,7 +21,7 @@ const CardGrid = ({ list }) => {
     } else {
       return item.link.map((items) => {
         return (
-          <div className={style.CardGrid__item} key={items.node.id}>
+          <div key={items.node.id}>
             <Card
               grid={true}
               title={items.node.frontmatter.title}

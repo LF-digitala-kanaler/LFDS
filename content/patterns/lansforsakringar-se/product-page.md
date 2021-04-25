@@ -3,17 +3,18 @@ template: ArticlePage
 category: Lansforsakringar se
 previewImage: /img/lf_se-productpage.png
 title: Product page
-intro: "Produktsidan är den plats där kunden kan köpa en produkt eller fördjupa
+intro: 'Produktsidan är den plats där kunden kan köpa en produkt eller fördjupa
   sig i hur den fungerar. För att hjälpa kunden till rätt beslut och information
   som kan vara till nytta är det viktigt att det som finns på sidan är av högsta
-  relevans. "
+  relevans. '
 description: Produktsidan är den plats där kunden kan skaffa sig en produkt
   eller fördjupa sig i hur den fungerar.
 wide: false
 lang: true
 hidden: false
-contentTop: ""
+contentTop: ''
 ---
+
 <figure class="Image null Image__wide"><img src="/img/lfse-produktsida.jpg" srcset="/img/lfse-produktsida.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte
@@ -50,7 +51,7 @@ Läs mer om bildformat
 
 ### Yta med blå bakgrund
 
-Här lyfter vi det som är viktigast för kunden. En tabell med vad som ingår och självrisker eller lyfta det som alla letar efter i just denna produkten. Det kan vara olika på olika produkter. I de flesta ville användarna veta vad som ingår i produkten och om självrisker men på just barnförsäkring så var det istället informationen om varför man behöver en barnförsäkring som var viktigast. Så viktigt att göra kundintervjuer här för att verkligen se vad man undrar över i just din produkt. 
+Här lyfter vi det som är viktigast för kunden. En tabell med vad som ingår och självrisker eller lyfta det som alla letar efter i just denna produkten. Det kan vara olika på olika produkter. I de flesta ville användarna veta vad som ingår i produkten och om självrisker men på just barnförsäkring så var det istället informationen om varför man behöver en barnförsäkring som var viktigast. Så viktigt att göra kundintervjuer här för att verkligen se vad man undrar över i just din produkt.
 
 <figure class="Image Image__background "><img src="/img/lfse-produktsida-03-viktig-info.jpg" srcset="/img/lfse-produktsida-03-viktig-info.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
@@ -68,7 +69,7 @@ Genom att göra en sammanhållande design för villkor och förköp på siten s�
 
 ### Vanliga frågor
 
-Här kan man lista vanliga frågor om produkten som kanske inte får plats i texten. Avvikelser eller kanske vanliga missförstånd. När de listas här så görs de även sökbara i sökmotorerna. 
+Här kan man lista vanliga frågor om produkten som kanske inte får plats i texten. Avvikelser eller kanske vanliga missförstånd. När de listas här så görs de även sökbara i sökmotorerna.
 
 ### Mervärden
 
@@ -96,7 +97,7 @@ S. Skrolldjup
 
 ## Tänk på
 
-Här ska endast information om produkten vara. 
+Här ska endast information om produkten vara.
 
 ## Sidor av denna typ
 

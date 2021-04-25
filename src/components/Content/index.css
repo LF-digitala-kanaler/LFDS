@@ -1,7 +1,7 @@
 /* Netlify wysiwyg styling*/
 
 .Content--tight {
-  @media (--medium-viewport) { 
+  @media (--medium-viewport) {
     max-width: var(--content-width--tight);
   }
 }
@@ -19,53 +19,52 @@
 .Content ul li {
   font-size: var(--font-size-small);
   line-height: 1.429;
-  @media (--small-viewport) { 
+  @media (--small-viewport) {
     font-size: var(--font-size-normal);
     line-height: 1.375;
   }
 }
-.Content h2{
+.Content h2 {
   font-size: 2rem;
   line-height: 1.1667;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
   position: relative;
 
-  @media (--small-viewport) { 
+  @media (--small-viewport) {
     font-size: 2.75rem;
   }
 }
 
-.Content h3{
+.Content h3 {
   font-size: 1.5rem;
   line-height: 1.333;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
   position: relative;
 
-  @media (--small-viewport) { 
+  @media (--small-viewport) {
     font-size: 2rem;
-  
   }
 }
 
-.Content h4{
+.Content h4 {
   font-size: 1.25rem;
   line-height: 1.333;
   margin-bottom: var(--spacing-vertical--05);
   margin-top: var(--spacing-vertical--2);
 
-  @media (--small-viewport) { 
+  @media (--small-viewport) {
     font-size: 1.5rem;
   }
 }
 .Content h5 {
   font-size: 1rem;
   line-height: 1.333;
-  margin-bottom: calc( var(--spacing-vertical--05) / 2);
+  margin-bottom: calc(var(--spacing-vertical--05) / 2);
   margin-top: var(--spacing-vertical--1);
 
-  @media (--small-viewport) { 
+  @media (--small-viewport) {
     font-size: 1.25rem;
   }
 }
@@ -73,9 +72,8 @@
   font-size: 1rem;
   line-height: 1.333;
   text-transform: uppercase;
-  margin-bottom: calc( var(--spacing-vertical--05) / 2);
+  margin-bottom: calc(var(--spacing-vertical--05) / 2);
   margin-top: var(--spacing-vertical--1);
-
 }
 
 .Content img {
@@ -87,7 +85,7 @@
   text-underline-position: under;
 }
 .Content ol li {
-  margin-bottom: var(--spacing-vertical--1)
+  margin-bottom: var(--spacing-vertical--1);
 }
 .Content .lfui-theme ol li {
   margin-bottom: 0;
@@ -106,12 +104,12 @@
 .Content ul li {
   margin-bottom: var(--spacing-vertical--05);
 }
-.Content  ul li::before {
-  content: "\0025A0";  
-  color: var(--color-blue); 
+.Content ul li::before {
+  content: '\0025A0';
+  color: var(--color-blue);
   font-weight: bold;
-  display: inline-block; 
-  width: 1em; 
+  display: inline-block;
+  width: 1em;
   margin-left: -1em;
   font-size: 14px;
   line-height: 1;
@@ -119,12 +117,11 @@
   margin-top: 2px;
   margin-left: -18px;
 }
-.Content .lfui-theme  ul li::before {
+.Content .lfui-theme ul li::before {
   content: none;
 }
 
-.Content table th{
-  
+.Content table th {
   border: 0;
   text-align: left;
   background-color: var(--color-smoke);
@@ -132,20 +129,19 @@
 .Content table th {
   padding: 8px 4px;
 }
-.Content table  td {
+.Content table td {
   padding: 6px 4px;
   width: 50%;
   text-align: left;
 }
-.Content table{
+.Content table {
   width: 100%;
   border: 0;
   border-collapse: collapse;
 }
 .Content table tr:nth-child(even) {
-  background: var(--color-background-light)
+  background: var(--color-background-light);
 }
-
 
 :root {
   --callout-background: var(--color-background-light);
@@ -165,12 +161,11 @@
   &::before {
     content: '';
     width: 2px;
-    height:calc(100% - (var(--spacing-lg) * 2));
+    height: calc(100% - (var(--spacing-lg) * 2));
     position: absolute;
     left: -2px;
     background-color: var(--callout-highlight);
   }
- 
 }
 
 .Callout__title {
@@ -190,28 +185,28 @@ figure {
 
 .Content--tight .Image__wide,
 .Content--tight section {
-  @media (--large-viewport) { 
+  @media (--large-viewport) {
     width: var(--content-width);
   }
-} */
-.Content--wide .Image__wide {
-  @media (--large-viewport) { 
+}
+*/ .Content--wide .Image__wide {
+  @media (--large-viewport) {
     width: var(--content-width--wide);
   }
-} 
+}
 .Content--normal .Image__wide,
 .Content .Image__wide {
-   @media (--xlarge-viewport) { 
+  @media (--xlarge-viewport) {
     width: calc(var(--content-width) - 32px);
-  } 
-} 
+  }
+}
 .Content--normal .Image__wide {
   margin-bottom: 0;
-  margin-top: var(--spacing-vertical--2)
+  margin-top: var(--spacing-vertical--2);
 }
 /* hack to get content inside wide to be narrow */
 
-.Content--normal > div >*:not(section):not('.Colors') {
+.Content--normal > div > *:not(section):not('.Colors') {
   max-width: var(--content-width--tight);
 }
 .Content > div > section {
@@ -228,10 +223,9 @@ figure {
 .Image__border {
   text-align: center;
   margin-bottom: var(--spacing-vertical--2);
-  
 }
 
-.Image__border img{
+.Image__border img {
   border: 2px solid var(--color-border);
   display: inline-block;
   padding: 1rem;
@@ -244,10 +238,8 @@ figure {
   padding: 0;
 } */
 
-
 .Image__background {
   background: var(--color-smoke);
- 
 }
 .Image__background img {
   padding: var(--spacing-unit);
@@ -268,8 +260,6 @@ figure {
   width: 100%;
 }
 
-
-
 /* Color widget */
 
 .Colors {
@@ -285,22 +275,22 @@ figure {
 
 .Colors__item--primary {
   width: 100%;
-  @media (--xsmall-viewport) { 
-   width: 50%;
+  @media (--xsmall-viewport) {
+    width: 50%;
   }
 }
 
 .Colors__item--complimentary {
   width: 50%;
-  @media (--small-viewport) { 
-   width: 25%;
+  @media (--small-viewport) {
+    width: 25%;
   }
 }
 
 .Colors__item--special {
   width: 50%;
-  @media (--small-viewport) { 
-   width: 25%;
+  @media (--small-viewport) {
+    width: 25%;
   }
 }
 
@@ -343,7 +333,7 @@ figure {
 }
 
 .Colors__text span {
-  padding-right: var(--spacing-md)
+  padding-right: var(--spacing-md);
 }
 
 /* Code styling */
@@ -354,8 +344,8 @@ figure {
   font-size: var(--font-size-small);
   font-family: var(--font-family-base);
   padding: var(--spacing-xs);
-  
-  @media (--large-viewport) { 
+
+  @media (--large-viewport) {
     width: var(--content-width--narrow);
   }
 }
@@ -366,7 +356,7 @@ figure {
   display: block;
 }
 
-.Content  code {
+.Content code {
   background-color: var(--color-smoke);
   padding: 0 2px;
   border-radius: 2px;
@@ -382,22 +372,22 @@ figure {
   display: flex;
   flex-wrap: wrap-reverse;
   width: 100%;
-  @media (--xsmall-viewport) { 
+  @media (--xsmall-viewport) {
     flex-wrap: nowrap;
   }
 }
 .ImageBlock__content {
-  max-width: var(--content-width--tight)
+  max-width: var(--content-width--tight);
 }
 .Content .ImageBlock__content > * {
   margin-top: 0;
 }
 
-.ImageBlock__object  {
+.ImageBlock__object {
   width: 300px;
   text-align: center;
   margin: 0 auto var(--spacing-vertical--2);
-  @media (--xsmall-viewport) { 
+  @media (--xsmall-viewport) {
     margin: 0;
   }
 }

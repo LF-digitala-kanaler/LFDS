@@ -9,22 +9,22 @@ intro: Länsförsäkringar User Interface är vår plattform för vårt digitala
   eller hittar vidare länkar till vår Brand portal Röda rummet.
 wide: false
 lang: true
-contentTop: ""
+contentTop: ''
 ---
-<div class="Callout"><strong class="Callout__title">Tone of voice </strong><p class="Callout__text">Länsförsäkringska är vårt språk. Vi skriver på läsarens villkor och som ett samtal. 
+
+<div class="Callout"><strong class="Callout__title">Tone of voice </strong><p class="Callout__text">Länsförsäkringska är vårt språk. Vi skriver på läsarens villkor och som ett samtal.
 
 [Mer om länsförsäkringska](/foundations/tone-of-voice)
 
 </p></div>
 
-<div class="Callout"><strong class="Callout__title">Copy i komponenter </strong><p class="Callout__text">Under respektive komponent finns copy för specifika knappar och fält. Ta mig till 
-
+<div class="Callout"><strong class="Callout__title">Copy i komponenter </strong><p class="Callout__text">Under respektive komponent finns copy för specifika knappar och fält. Ta mig till
 
 [Components](/components)
 
 </p></div>
 
-<div class="Callout"><strong class="Callout__title">Copy patterns </strong><p class="Callout__text">I avsnittet Copy under General Patterns kan du se exempel och principer på hur vi skriver exempelvis felmeddelanden. 
+<div class="Callout"><strong class="Callout__title">Copy patterns </strong><p class="Callout__text">I avsnittet Copy under General Patterns kan du se exempel och principer på hur vi skriver exempelvis felmeddelanden.
 
 [Visa Copy patterns](/patterns/general-patterns/copy)
 

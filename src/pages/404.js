@@ -1,15 +1,15 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 
-import Wrapper from '../components/Wrapper'
 import Heading from '../components/Heading'
+import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
+import React from 'react'
+import Wrapper from '../components/Wrapper'
 
 const center = {
   marginTop: '100px',
 }
-const ErrorPage =  () => (
+const ErrorPage = () => (
   <StaticQuery
     query={graphql`
       query NotFoundPageQuery {
@@ -18,7 +18,7 @@ const ErrorPage =  () => (
         }
       }
     `}
-    render={(data) => (
+    render={() => (
       <Layout backgroundClass={'bg-white'}>
         <Helmet>
           <title>404 – Page Not Found</title>

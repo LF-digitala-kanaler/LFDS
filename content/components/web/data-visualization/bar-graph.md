@@ -5,9 +5,9 @@ intro: Bar charts present data in proportion to its value. You can compare
   either various data sources for the same time period or the same data source
   over time. A typical use case at Länsförsäkringar is to compare the
   development of a fund or stock between various years.
-description: "Bar charts present data in proportion to its value. You can
+description: 'Bar charts present data in proportion to its value. You can
   compare either various data sources for the same time period or the same data
-  source over time. "
+  source over time. '
 previewImage: /img/distribution-bar.svg
 category: Data visualization
 tabs:
@@ -46,5 +46,5 @@ tabs:
 
       **Help in choosing type of chart:** <https://material.io/design/communication/data-visualization.html#selecting-charts>
     name: Design
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

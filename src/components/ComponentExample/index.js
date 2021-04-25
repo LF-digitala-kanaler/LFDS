@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from 'react'
-import Frame from 'react-frame-component'
-import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
-import svg from '!!raw-loader!lfui-components/dist/lfui/icons.svg'
-import Preview from '../Preview'
+import * as style from './index.module.css'
+
+import React, { useEffect, useState } from 'react'
+
+import $ from 'jquery'
 import Actions from '../Actions'
-import Content from '../Content'
 import CodeBlock from '../CodeBlock'
 import ComponentNavigation from '../ComponentNavigation'
-import style from './index.module.css'
-import $ from 'jquery'
+import Content from '../Content'
+import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
+import Frame from 'react-frame-component'
+import Preview from '../Preview'
+import svg from '!!raw-loader!lfui-components/dist/lfui/icons.svg'
 
 const ComponentExample = ({
   variants,

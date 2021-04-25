@@ -1,9 +1,11 @@
-import React from 'react'
-import style from './index.module.css'
-import { StaticQuery, graphql, Link } from 'gatsby'
-import Accordion from '../Accordion'
+import * as style from './index.module.css'
 
-export default () => (
+import { graphql, Link, StaticQuery } from 'gatsby'
+
+import Accordion from '../Accordion'
+import React from 'react'
+
+const Changelog = () => (
   <StaticQuery
     query={graphql`
       query Changelog {
@@ -66,3 +68,5 @@ export default () => (
     }}
   />
 )
+
+export default Changelog

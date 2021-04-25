@@ -10,12 +10,13 @@ contentTop: >-
 
 
   The different components are grouped together based on what they are used for, and you can  will find a visual example of each component on the group page to help you find the right component if you're unfamiliar with LFUI.
-  
+
 heroBlock:
   image: /img/photo_hero.webp
 wide: false
 lang: false
 ---
+
 ## Tonality
 
 We describe our imagery as "cinematic". By this we mean that the images can be perceived as small scenes where each image tells a story and builds a world with a genuine sense of warmth and presence.
@@ -26,14 +27,9 @@ People are often at the center of the images, creating recognition and emotional
 
 One image may not contain every one of these, but common features of our images are that they more or less convey the following emotions:
 
-
-
-
 <section>
 <Collapse title="Humanity and closeness">
 <div class="content">
-
-
 
 A genuine feeling of warmth and closeness, often with the person at the center and situations we can all recognise ourselves in.
 
@@ -41,8 +37,6 @@ Feelings/emotions:\
 Warmth, closeness, recognition.
 
 <figure class="Image Image__default "><img src="/img/skater.webp" srcset="/img/skater.webp 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-
 
 </div></Collapse>
 <Collapse title="Commitment and curiosity">
@@ -68,6 +62,5 @@ People and motives from a modern perspective. Diversity with all that it entails
 
 </div></Collapse>
 </section>
-
 
 [Read all about it at Röda rummet](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)

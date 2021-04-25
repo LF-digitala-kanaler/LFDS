@@ -1,8 +1,6 @@
 ---
-
 template: CategoryOverview
-description: "desc"
+description: 'desc'
 title: Marketing
-intro: "Intro"
-
+intro: 'Intro'
 ---

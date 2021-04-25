@@ -1,12 +1,12 @@
-import React from 'react'
-import Wrapper from '../components/Wrapper'
-import Heading from '../components/Heading'
-import Preamble from '../components/Preamble'
-import Content from '../components/Content'
-import HeroBlock from '../components/HeroBlock'
-import rehypeReact from 'rehype-react'
 import Collapse from '../components/Collapse'
+import Content from '../components/Content'
+import Heading from '../components/Heading'
+import HeroBlock from '../components/HeroBlock'
 import LfuiWrapper from '../components/LfuiWrapper/'
+import Preamble from '../components/Preamble'
+import React from 'react'
+import rehypeReact from 'rehype-react'
+import Wrapper from '../components/Wrapper'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -29,12 +29,12 @@ const ArticlePageTemplate = ({
     <Wrapper tag="div" menu={true} narrow>
       <Heading tag={1} text={title} align={'left'} />
       <Preamble text={intro} tag="p" align={'left'} />
-      
+
       <Wrapper tag="div" narrow>
-        {contentTop && <Content source={contentTop} />}  
+        {contentTop && <Content source={contentTop} />}
       </Wrapper>
     </Wrapper>
-    
+
     {heroBlock && (
       <HeroBlock
         background={heroBlock.color}
@@ -42,22 +42,20 @@ const ArticlePageTemplate = ({
         cite={heroBlock.cite}
         image={heroBlock.image}
       />
-      
+
     )}
     <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
       {bodyHtml ? (
         <div
-          className={`Content  ${
-            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-          }`}
+          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+            }`}
         >
           {renderAst(bodyHtml)}
         </div>
       ) : (
         <Content
-          className={`Content  ${
-            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-          }`}
+          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+            }`}
           source={body}
         />
       )}

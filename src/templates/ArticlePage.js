@@ -1,8 +1,7 @@
-import React from 'react'
+import ArticlePageTemplate from './ArticlePageTemplate.js'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
-import ArticlePageTemplate from './ArticlePageTemplate.js'
-
+import React from 'react'
 
 const ArticlePage = ({ data: { page }, location }) => {
   const breadcrumb = {
@@ -10,7 +9,7 @@ const ArticlePage = ({ data: { page }, location }) => {
     title: page.frontmatter.title,
     location: location,
   }
-  
+
   return (
     <Layout
       description={page.frontmatter.intro || false}
@@ -26,7 +25,7 @@ const ArticlePage = ({ data: { page }, location }) => {
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
         contentTop={page.frontmatter.contentTop
-         }
+        }
       />
     </Layout>
   )

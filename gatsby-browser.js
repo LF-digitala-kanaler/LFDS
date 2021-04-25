@@ -5,7 +5,6 @@ export const wrapRootElement = ({ element }) => {
 }
 export const shouldUpdateScroll = ({
   routerProps: { location },
-  getSavedScrollPosition,
 }) => {
 
   if (location.search) {
@@ -16,7 +15,7 @@ export const shouldUpdateScroll = ({
 }
 
 
-  
+
 
 
 

@@ -26,5 +26,5 @@ tabs:
     name: Design
   - name: Code
     content: code
-backgroundColor: "#ffffff"
+backgroundColor: '#ffffff'
 ---

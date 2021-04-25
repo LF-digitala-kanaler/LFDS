@@ -1,8 +1,10 @@
-import React, { useState, useRef } from 'react'
-import style from './index.module.css'
+import * as style from './index.module.css'
+
+import { graphql, useStaticQuery } from 'gatsby'
+import React, { useRef, useState } from 'react'
+
 import _ from 'lodash'
 import componentsStatus from '../../data/componentsStatus.json'
-import { useStaticQuery, graphql } from 'gatsby'
 import cx from 'classnames'
 
 export const ComponentVersion = ({ version }) => {
@@ -41,7 +43,7 @@ export const ComponentVersion = ({ version }) => {
         .map((item, index) => {
           if (item.split('.').join('') >= data.settingsYaml.firstSavedVersion) {
             return (
-              <li className={style.ComponentVersion__item} key={index}>
+              <li key={index}>
                 <a
                   target="_blank"
                   rel="nofollow noreferrer noopener external"
@@ -55,7 +57,7 @@ export const ComponentVersion = ({ version }) => {
             )
           } else {
             return (
-              <li className={style.ComponentVersion__item} key={index}>
+              <li key={index}>
                 <p className={style.ComponentVersion__noLink}>LFUI {item}</p>
               </li>
             )
@@ -66,7 +68,7 @@ export const ComponentVersion = ({ version }) => {
           <p className={style.ComponentVersion}>
             {' '}
             Version:{' '}
-            <span className={style.ComponentVersion__text}>
+            <span>
               {versions[0].bootstrap.changedInVersion[0]}
             </span>
           </p>

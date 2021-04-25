@@ -1,6 +1,5 @@
 .Tags {
   overflow: hidden;
-
 }
 
 .Tags__list {
@@ -12,7 +11,7 @@
 
 .Tags__item {
   color: var(--color-black);
-  background-color: #EFF4F9;
+  background-color: #eff4f9;
   padding: 16px 16px;
   border-radius: 32px;
   margin: 0 8px;

@@ -1,9 +1,9 @@
 # LF Design System
- 
- This is the LF Design System website. It's built using the [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://github.com/netlify/netlify-cms).
 
+This is the LF Design System website. It's built using the [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://github.com/netlify/netlify-cms).
 
 ## Structure
+
 ```
 src
 ├── cms
@@ -16,24 +16,24 @@ src
 ```
 
 ## Navigation Structure
+
 ## Content and Markdown guidelines
 
 https://lf-digitala-kanaler.github.io/admin/
 
 ## Developing
 
-  * Clone your repo to your local machine
+- Clone your repo to your local machine
 
-  * `yarn install` – install dependencies
-  
-  * `yarn start` - Run the development server
+- `yarn install` – install dependencies
 
-  * `yarn upgrade lfui-components` - Get latest LFUI updates
+- `yarn start` - Run the development server
 
+- `yarn upgrade lfui-components` - Get latest LFUI updates
 
 ## Build
 
-* `yarn build` - Get latest LFUI updates
+- `yarn build` - Get latest LFUI updates
 
 ## Deploy
 
@@ -44,7 +44,6 @@ If you are adding or editing content locally in the CMS, a couple of things to n
 1.  Changes will be pushed to the remote repo.
 
 2.  You will be prompted to enter your site's url, this is necessary for Netlify Identity to manage user login. This is stored in `localStorage`, so you might have to empty your browser cache if you are switching projects but remaining on `localhost:8000`.
-
 
 ## Editing CMS fields
 

@@ -2,7 +2,7 @@
 template: ArticlePage
 category: Graphics
 previewImage: /img/illustration.svg
-contentTop: ""
+contentTop: ''
 description: >-
   With illustrations we can communicate our brand idea. We are local.
 

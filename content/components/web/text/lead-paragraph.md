@@ -3,14 +3,14 @@ template: ComponentPage
 title: Lead paragraph
 intro: The lead paragraph is placed first on a page and is used to summarise the
   contents of a page with the intent of grabbing the user's attention.
-description: "The lead paragraph is placed first on a page and is used to
-  summarise the contents of a page. "
+description: 'The lead paragraph is placed first on a page and is used to
+  summarise the contents of a page. '
 previewImage: /img/preamble.svg
 category: Text
 componentsNavigation:
   - name: Lead paragraph
   - name: Pay off
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

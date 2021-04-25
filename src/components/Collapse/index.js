@@ -1,5 +1,6 @@
-import React, { useState, useRef } from 'react'
-import style from './index.module.css'
+import * as style from './index.module.css'
+
+import React, { useRef, useState } from 'react'
 
 const Collapse = ({ title, children }) => {
   const [active, setActiveState] = useState('')
@@ -17,12 +18,12 @@ const Collapse = ({ title, children }) => {
 
   return (
     <div className={style.Collapse}>
-      <article className={style.Collapse__section}>
+      <article>
         <button
           className={style.Collapse__button + ` ${active}`}
           onClick={toggleCollapse}
         >
-          <span className={style.Collapse__title}>{title}</span>
+          <span>{title}</span>
           <span className={style.Collapse__icon + ` ${active}`}></span>
         </button>
         <div

@@ -1,5 +1,3 @@
-
-
 :root {
   --color-preamble: var(--color-black);
 }
@@ -9,15 +7,14 @@
   font-size: 1.125rem;
   line-height: 1.333;
   margin-bottom: var(--spacing-vertical--2);
-  
-  @media (--small-viewport) { 
+
+  @media (--small-viewport) {
     font-size: 1.5rem;
   }
 
-  @media (--medium-viewport) { 
+  @media (--medium-viewport) {
     max-width: var(--content-width--narrow);
   }
-  
 }
 
 .Preamble--left {
@@ -28,4 +25,3 @@
   text-align: center;
   margin: 0 auto;
 }
-

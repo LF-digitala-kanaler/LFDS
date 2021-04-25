@@ -3,7 +3,7 @@ template: ArticlePage
 category: Mina sidor
 title: Patterns
 intro: Patterns
-contentTop: ""
+contentTop: ''
 wide: false
 lang: false
 hidden: false

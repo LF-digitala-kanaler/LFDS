@@ -33,6 +33,7 @@ blockquote:
   text: Having small touches of colour makes it more colourful than having the
     whole thing in colour.
 ---
+
 LFUI can be described as the lego blocks which form the foundation of all digital interfaces we create at Länsförsäkringar. It is designed based on our [visual identity](/visual-identity), and standardised ways of using different components together can be found in the [patterns-section](/patterns).
 
 If you want a further introduction to our components and how they are displayed, you can find it [at the bottom of this page](#how-components-are-displayed).

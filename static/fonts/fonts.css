@@ -1,9 +1,7 @@
-
-
 @font-face {
   font-family: 'LFRubrik';
-  src: url('lf-rubrik.woff2') format('woff2'), 
-       url('lf-rubrik.woff') format('woff');
+  src: url('lf-rubrik.woff2') format('woff2'),
+    url('lf-rubrik.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

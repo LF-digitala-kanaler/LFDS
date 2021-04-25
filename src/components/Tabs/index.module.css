@@ -3,14 +3,12 @@
   --tabs-background: var(--color-shadow);
   --tabs-active-color: var(--color-black);
   --tabs-active-background: var(--color-white);
-  
 }
 
 .Tabs {
   height: 100%;
   margin-top: var(--spacing-xxlg);
   position: relative;
-
 }
 
 .Tabs__list {
@@ -18,17 +16,15 @@
   list-style-type: none;
   margin-left: var(--spacing-md);
   margin-right: var(--spacing-md);
-  @media (--medium-viewport) { 
+  @media (--medium-viewport) {
     margin-left: calc(26% + var(--spacing-xxlg));
     margin-right: var(--spacing-xxlg);
-    padding-left: var(--spacing-md)
+    padding-left: var(--spacing-md);
   }
- 
-  @media (--xlarge-viewport) { 
+
+  @media (--xlarge-viewport) {
     max-width: var(--wrapper-width);
-    
   }
-  
 }
 
 .Tabs__panels {
@@ -41,19 +37,19 @@
   outline: none;
 }
 
-.Tabs__link { 
+.Tabs__link {
   padding: calc(var(--spacing-vertical--1) / 2) var(--spacing-xxlg);
   text-decoration: none;
   border: 0;
   color: var(--tabs-color);
   background-color: var(--tabs-background);
   display: block;
-  cursor:pointer;
+  cursor: pointer;
   margin-right: 0.25rem;
   line-height: var(--baseline);
   text-transform: capitalize;
 
-  &[aria-selected="true"] {
+  &[aria-selected='true'] {
     background-color: var(--tabs-active-background);
     color: var(--tabs-active-color);
   }

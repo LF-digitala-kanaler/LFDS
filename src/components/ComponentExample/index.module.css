@@ -1,7 +1,5 @@
-
 .ComponentExample__head {
-  
-  @media (--medium-viewport) { 
+  @media (--medium-viewport) {
     display: flex;
     justify-content: space-between;
   }

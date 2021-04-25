@@ -1,7 +1,9 @@
-import React from 'react'
-import styles from './index.module.css'
+import * as styles from './index.module.css'
+
 import { Link, withPrefix } from 'gatsby'
+
 import PropTypes from 'prop-types'
+import React from 'react'
 
 const NavigationItem = ({ path, title, scrollPoition }) => {
   const isHomepage = path === withPrefix('/')

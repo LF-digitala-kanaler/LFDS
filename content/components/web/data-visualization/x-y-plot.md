@@ -1,8 +1,8 @@
 ---
 template: ComponentPage
 title: X-Y plot
-intro: "X-Y plots are used to determine relationships between two different items. "
-description: "X-Y plots are used to determine relationships between two different items. "
+intro: 'X-Y plots are used to determine relationships between two different items. '
+description: 'X-Y plots are used to determine relationships between two different items. '
 category: Data visualization
 tabs:
   - name: Design
@@ -14,5 +14,5 @@ tabs:
 
 
       <div class="Callout"><strong class="Callout__title">Not yet implemented in LFUI </strong><p class="Callout__text">The X-Y-plot will not be implemented in LFUI until a change of framework for charts is completed, but is already in use under the heading "Avkastning och risk i din portfölj" in <a rel="external" target="_blank" href="https://www.lansforsakringar.se/stockholm/privat/bank/spara/fondkurser/portfoljanalys/?shortcut=1&ids=F0GBR04FJO%7C25%2CF0GBR04LF6%7C25%2CF0GBR04LEN%7C25%2CF00000QU29%7C25">Portföljanalys].</a></p></div>
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 ---

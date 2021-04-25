@@ -8,7 +8,6 @@
   display: flex;
   position: relative;
   margin: 0 var(--spacing-unit);
-
 }
 
 .Search > div {
@@ -27,10 +26,10 @@
   outline: 0;
   cursor: pointer;
   top: 5px;
-  @media (--medium-viewport) { 
+  @media (--medium-viewport) {
     top: 0;
   }
-} 
+}
 
 .Search__close {
   position: fixed;
@@ -43,7 +42,7 @@
   outline: 0;
   cursor: pointer;
 
-  @media (--medium-viewport) { 
+  @media (--medium-viewport) {
     right: var(--spacing-lg);
     top: var(--spacing-lg);
   }
@@ -53,7 +52,7 @@
   border-width: 0 0 2px 0;
   border-style: solid;
   border-color: #747578;
-  padding: 1rem 1rem 0.3rem  1rem;
+  padding: 1rem 1rem 0.3rem 1rem;
   color: var(--color-black);
   outline: 0;
   width: 100%;
@@ -62,7 +61,6 @@
 }
 .Search__container {
   position: relative;
-  
 }
 .Search__container .Search__icon {
   position: absolute;
@@ -73,7 +71,7 @@
 .Search__list {
   background-color: var(--color-white);
   position: absolute;
-  left:0;
+  left: 0;
   top: 41px;
   width: 100%;
   max-width: 444px;
@@ -85,7 +83,7 @@
 }
 
 .Search__list--isVisible {
- display: block; 
+  display: block;
 }
 
 .Search__item {
@@ -98,8 +96,7 @@
   padding: var(--spacing-xs) var(--spacing-xxlg);
   display: block;
 }
-.Search__link--focused{
+.Search__link--focused {
   background-color: var(--color-smoke);
   color: var(--color-black);
-  
 }

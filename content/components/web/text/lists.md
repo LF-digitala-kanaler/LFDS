@@ -4,8 +4,8 @@ title: Lists
 intro: Lists can be used to make information stand out in contrast to a text
   block or to group similar information in an accessible way. Depending on use
   case we have different stylings.
-description: "Lists can be used to make information stand out in contrast to a
-  text block or to group similar information in an accessible way. "
+description: 'Lists can be used to make information stand out in contrast to a
+  text block or to group similar information in an accessible way. '
 previewImage: /img/lists.svg
 category: Text
 componentsNavigation:
@@ -13,7 +13,7 @@ componentsNavigation:
   - name: Checkmarks
   - name: Numbers
   - name: Link Lists
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use

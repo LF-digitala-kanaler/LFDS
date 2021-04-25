@@ -1,13 +1,14 @@
-import React from 'react'
-import Wrapper from '../components/Wrapper'
-import Heading from '../components/Heading'
-import Preamble from '../components/Preamble'
-import Shortcut from '../components/Shortcut'
-import FullWidthBackground from '../components/FullWidthBackground'
+import { Col, Row } from 'react-simple-flex-grid'
+
 import Changelog from '../components/Changelog'
+import FullWidthBackground from '../components/FullWidthBackground'
+import Heading from '../components/Heading'
 import LinkList from '../components/LinkList'
+import Preamble from '../components/Preamble'
+import React from 'react'
 import SearchBlock from '../components/SearchBlock'
-import { Row, Col } from 'react-simple-flex-grid'
+import Shortcut from '../components/Shortcut'
+import Wrapper from '../components/Wrapper'
 
 const HomePageTemplate = ({
   title,
@@ -29,7 +30,7 @@ const HomePageTemplate = ({
       <Row gutter={64} justify="center">
         {shortcuts &&
           shortcuts.map((item) => {
-            
+
             return (
               <Col span={12} sm={6} md={4} key={item.title}>
                 <Shortcut
@@ -43,20 +44,20 @@ const HomePageTemplate = ({
           })}
       </Row>
     </Wrapper>
-    {console.log(fullWidthImage.fullWidthImageDesktop)}
+
     {fullWidthImage && (
-      
+
       <FullWidthBackground
         title={fullWidthImage.title}
         image={
-          images   ?  images : fullWidthImage.fullWidthImageDesktop 
+          images ? images : fullWidthImage.fullWidthImageDesktop
         }
       >
         <Row gutter={52} justify="center">
           {shortcutsImage &&
             shortcutsImage.map((item) => {
               return (
-                <Col span={12}  lg={4} key={item.title}>
+                <Col span={12} lg={4} key={item.title}>
                   <Shortcut
                     horizontal
                     title={item.title}
@@ -94,7 +95,7 @@ const HomePageTemplate = ({
         <Col span={12} sm={6}>
           <Heading
             tag={3}
-            text={'Links you cant live without'}
+            text={'Links you can´t live without'}
             align={'left'}
           />
           {relatedLinks && <LinkList items={relatedLinks} />}
