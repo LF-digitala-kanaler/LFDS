@@ -737,7 +737,7 @@ collections: # A list of collections the CMS should be able to edi
                   'buttonsBlock',
                   'imageAndText'
                 ]
-            }v
+            }
           - {
               label: 'Hide on listing page',
               name: 'hidden',

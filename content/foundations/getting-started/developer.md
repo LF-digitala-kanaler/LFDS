@@ -16,9 +16,9 @@ lang: false
 
 ### Installation
 
-`$ npm install --save-dev https://github.com/lf-digitala-kanaler/LFUI.git#release/6.5.0`
+`$ npm install --save-dev https://github.com/lf-digitala-kanaler/LFUI.git#release/6.6.0`
 
-The end of the command above is pointing towards a specific branch, in this case our latest release`6.5.0`-branch. You can alter this number to point at the branch/release of your choice.
+The end of the command above is pointing towards a specific branch, in this case our latest release`6.6.0`-branch. You can alter this number to point at the branch/release of your choice.
 
 When LFUI reaches a new release and you want to update your local installation of LFUI, you can do so by pointing at the new release branch by **editing your package.json** like the example above and running
 
