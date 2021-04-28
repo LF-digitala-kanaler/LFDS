@@ -1,5 +1,6 @@
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@reach/tabs'
 
+import Content from '../components/Content'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
 import React from 'react'
@@ -12,11 +13,13 @@ const ChangelogPageTemplate = ({
   components,
   index,
   onTabsChange,
+  body
 }) => (
   <>
     <Wrapper tag="div" menu={true} narrow>
       <Heading tag={1} text={title} align={'left'} />
       <Preamble text={intro} tag="p" align={'left'} />
+      <Content className="Content Content--tight" source={body} />
     </Wrapper>
     <Tabs
       index={index === -1 ? 0 : index}

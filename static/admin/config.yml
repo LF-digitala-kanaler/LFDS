@@ -724,6 +724,21 @@ collections: # A list of collections the CMS should be able to edi
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text, required: false }
           - {
+              label: 'Content',
+              name: body,
+              widget: 'markdown',
+              required: false,
+              editor_components:
+                [
+                  'callout',
+                  'LFDSImage',
+                  'collapse',
+                  'code-block',
+                  'buttonsBlock',
+                  'imageAndText'
+                ]
+            }v
+          - {
               label: 'Hide on listing page',
               name: 'hidden',
               widget: 'boolean',

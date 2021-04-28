@@ -1,8 +1,8 @@
 import ChangelogPageTemplate from './ChangelogPageTemplate.js'
-import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
-import { navigate } from '@reach/router'
 import React from 'react'
+import { graphql } from 'gatsby'
+import { navigate } from '@reach/router'
 
 // Export Template for use in CMS preview
 
@@ -27,6 +27,7 @@ const ChangelogPage = ({ data: { page, log }, location }) => {
       <ChangelogPageTemplate
         {...page}
         {...page.frontmatter}
+        body={page.html}
         index={index}
         onTabsChange={onTabsChange}
         title={page.frontmatter.title}
@@ -42,6 +43,7 @@ export default ChangelogPage
 export const query = graphql`
   query ChangelogPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         title
         intro
