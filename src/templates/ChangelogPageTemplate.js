@@ -3,8 +3,8 @@ import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@reach/tabs'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
 import React from 'react'
-import tabStyle from '../components/Tabs/index.module.css'
 import Wrapper from '../components/Wrapper'
+import tabStyle from '../components/Tabs/index.module.css'
 
 const ChangelogPageTemplate = ({
   title,
@@ -35,7 +35,7 @@ const ChangelogPageTemplate = ({
                 .filter((item) => item.node.descriptionHTML !== '')
                 .map((item) => {
                   return (
-                    <div key={item.node.id}>
+                    <div key={item.node.tagName}>
                       <h2>{item.node.tagName}</h2>
                       <div
                         dangerouslySetInnerHTML={{
