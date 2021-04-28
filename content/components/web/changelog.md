@@ -1,7 +1,7 @@
 ---
 template: ChangelogPage
 title: Changelog
-intro: Länsförsäkringar design system’s parts are versioned and released using Github. Here you’ll find our change logs — summaries of bug fixes, new features, and other updates introduced in each release.
+intro: Länsförsäkringar design system’s parts are versioned and released using Github. Here you’ll find our changelogs — summaries of bug fixes, new features, and other updates introduced in each release.
 hidden: true
 ---
 
