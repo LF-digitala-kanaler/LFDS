@@ -30,6 +30,12 @@ contentTop: >-
   Texter för bekräfta-att-du-verkligen-vill-göra-det-du-gör kanske bör ligga direkt under komponenten modal?
 
 
+  ### BankID
+
+
+  Felmeddelnaden för BankID finns under [BankID](https://lf-digitala-kanaler.github.io/patterns/general-patterns/bank-id).
+
+
   ## Incident eller systemunderhåll
 
 
