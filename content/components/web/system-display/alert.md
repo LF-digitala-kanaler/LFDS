@@ -14,7 +14,7 @@ componentsNavigation:
   - name: Warning
   - name: Danger
   - name: Success
-backgroundColor: '#fff'
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -108,7 +108,7 @@ tabs:
       ## Så skriver vi
 
 
-      En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Låt rubriken säga något, "inte bara info". Rubriken ska separeras med ett skiljetecken, som tankstreck, frågetecken eller utropstecken. Använd aldrig bindestreck i alerten. Avsluta alltid med punkt. 
+      En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Låt rubriken säga något, inte bara "info" (för det säger redan designen). Om rubrik används ska den separeras med ett skiljetecken, som tankstreck, frågetecken eller utropstecken. Använd aldrig bindestreck i alerten. Avsluta alltid med punkt. 
 
 
       **Exempel:** **Kundkännedom** – vänligen svara på frågorna för att kunna fortsätta använda appen.
