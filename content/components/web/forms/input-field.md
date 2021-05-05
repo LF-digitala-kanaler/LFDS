@@ -256,7 +256,7 @@ tabs:
       ### Typ av konto
 
 
-      Valideringstext: Fyll i typ av konto
+      Valideringstext: Välj typ av konto
     name: Copy
   - content: >-
       ## How to use
