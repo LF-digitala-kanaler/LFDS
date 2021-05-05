@@ -24,6 +24,8 @@ tabs:
 
       In some cases all future states of the timeline might not be known, in that case you can add a wavy line in the timeline with a help text to inform the user that the following steps below are dependent on things which aren't known yet (such as choices made by the user or the results of an investigation).
     name: Design
+  - name: Copy
+    content: copy
   - name: Code
     content: >-
       # How to use
@@ -52,5 +54,5 @@ tabs:
       * Ongoing - `.timeline-spacing` should have a class `.is-ongoing` which will make the icon larger in that item.
 
       * Done - `.timeline-icon` should have the class `.is-done`.
-backgroundColor: '#f3f3f3'
+backgroundColor: "#f3f3f3"
 ---
