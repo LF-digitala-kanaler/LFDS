@@ -25,7 +25,104 @@ tabs:
       In some cases all future states of the timeline might not be known, in that case you can add a wavy line in the timeline with a help text to inform the user that the following steps below are dependent on things which aren't known yet (such as choices made by the user or the results of an investigation).
     name: Design
   - name: Copy
-    content: copy
+    content: >-
+      # Så skriver vi
+
+
+      Tidslinjer används idag på exempelvis Följa skada på appen och Mina sidor. Här är hur vi satt copy för dessa rubriker. De kan skilja sig åt beroende på vad som är viktigt i tidslinjen. 
+
+
+      ## Följa skada motor
+
+
+      Skadeanmälan
+
+
+      Besiktning av skadan
+
+
+      Genomgång av kalkyl
+
+
+      Reparation
+
+
+      Hämta ditt fordon
+
+
+      Avslut
+
+
+      ## Följa skada bygg (bygg och brand)
+
+
+      ### Hantverkare med avtal
+
+
+      Skadeanmälan
+
+
+      Besiktning av skadan
+
+
+      Beslut om ersättning
+
+
+      Hur vill du åtgärda skadan?
+
+
+      Rivning och kalkylering
+
+
+      Godkänn dina kostnader
+
+
+      Avfuktning och sanering
+
+
+      Reparation och återställande
+
+
+      Avslut
+
+
+      ### Egen hantverkare eller kontant ersättning
+
+
+      Skadeanmälan
+
+
+      Besiktning av skadan
+
+
+      Beslut om ersättning
+
+
+      Hur vill du åtgärda skadan?
+
+
+      Beslut om belopp
+
+
+      Vilket konto vill du ha ersättningen på?
+
+
+      Avslut
+
+
+      ### Ingen ersättning
+
+
+      Skadenmälan
+
+
+      Besiktning av skadan
+
+
+      Beslut om ersättning
+
+
+      Ditt ärende är avslutat (borde ändras till Avslut om det inte är gjort?)
   - name: Code
     content: >-
       # How to use
