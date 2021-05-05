@@ -11,7 +11,7 @@ category: Forms
 componentsNavigation:
   - name: One lined
   - name: Several lines
-backgroundColor: '#fff'
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -95,7 +95,10 @@ tabs:
       ## Så skriver vi
 
 
-      Vi skriver så kort som möjligt och skriver inte ut det som är uppenbart. Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska fyllas i. Hjälptext används bara om det inte går att beskriva enkelt nog i labeln, eller om formatet är hårt styrt och vi innan vill berätta hur användaren måste fylla i fältet.
+      Vi skriver så kort som möjligt och skriver inte ut det som är uppenbart. Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska fyllas i. Dock kan fler ord användas om det behövs för att inte blir hårt, det ska fortfarnade vara personligt. Hjälptext används bara om det inte går att beskriva enkelt nog i labeln, eller om formatet är hårt styrt och vi innan vill berätta hur användaren måste fylla i fältet.
+
+
+      Copy för fältvalidering finns under respektive fält. Tänk på att du ibland kan använda dig av glimten i ögat där det passar, och för att lätta upp.
 
 
       ### Vanliga labels
@@ -139,7 +142,7 @@ tabs:
       Placeholder: namn@mejladress.se
 
 
-      Valideringstext: Fyll i e-posadressen
+      Valideringstext: Fyll i e-postadressen
 
 
       ##### Bekräfta e-post
@@ -197,6 +200,9 @@ tabs:
 
 
       Valideringstext: Fyll i kontaktuppgifterna
+
+
+      ## Bolån
 
 
       ### Pris på bostaden
