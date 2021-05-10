@@ -1,10 +1,10 @@
 ---
 template: HomePage
 title: Länsförsäkringar Design System
-intro: >-
-  This is our platform for Länsförsäkringars digital brand. 
-
-  This place can guide you in your role as a copy, UX, AD or frontend developer. Check out our components and visual identity or read more about UX-patterns.
+intro: "Welcome to Länsförsäkringar's design system. The designsystem (known as
+  LFDS) is the heart of digital design at Länsförsäkringar. Here you should be
+  able to find all common resources, no matter whether you are a designer,
+  writer or developer. "
 shortcuts:
   - icon: /img/components.svg
     link: /components
@@ -35,12 +35,11 @@ shortcutsBottom:
     title: CX-principer
   - icon: /img/user_testing_.svg
     link: /foundations/user-testing
-    text:
-      the use of human animals in experiments that seek to control the variables
+    text: the use of human animals in experiments that seek to control the variables
       that affect the behavior or biological system under study
     title: User testing
 meta:
-  description: ''
+  description: ""
   title: Länsförsäkringar Design System
 shortcutsImage:
   - icon: /img/developer_icon.svg
