@@ -56,8 +56,6 @@ shortcutsImage:
     text: Get started with LFUI components, oh yeah!
     title: Developer
 relatedLinks:
-  - text: LFUI
-    url: https://lf-digitala-kanaler.github.io/LFUI-components/6.6.0/
   - text: Prototypes
     url: https://lf-digitala-kanaler.github.io/prototypes/
 ---
