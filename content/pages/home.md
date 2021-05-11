@@ -25,20 +25,20 @@ fullWidthImage:
   fullWidthImageMobile: /img/garage_mobilex2-min.jpg
 shortcutsBottom:
   - icon: /img/design_principer_.svg
-    link: /foundations/principles-and-strategies/design-principles
-    text: För att efterlikna det personliga mötet ska vi använda oss av våra
-      hörnstenar. Expertis, labba och kontroll.
-    title: Designprinciper
+    link: /foundations/principles-and-strategies/
+    text: In this section you'll find our different guiding principles;
+      CX-principles, design corner stones and design principles.
+    title: Guiding principles
   - icon: /img/cx.svg
-    link: /foundations/principles-and-strategies/cx-principer
-    text: …syftar till att skapa förutsättningar för att styra beslut och
-      prioriteringar kopplat till utveckling av kundmötet
-    title: CX-principer
+    link: /foundations/accessibility
+    text: Making sure that our services provide good accessibility isn't only the
+      right thing to do, it's also the law.
+    title: Accessibility
   - icon: /img/user_testing_.svg
-    link: /foundations/user-testing
-    text: the use of human animals in experiments that seek to control the variables
-      that affect the behavior or biological system under study
-    title: User testing
+    link: /foundations//customer-insights
+    text: This section describes how we work with customer insights in various ways,
+      from explanatory interviews to usability testing.
+    title: Customer insights
 meta:
   description: ""
   title: Länsförsäkringar Design System
