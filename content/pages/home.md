@@ -53,7 +53,7 @@ shortcutsImage:
     title: Designer
   - icon: /img/copy_icon.svg
     link: /foundations/getting-started/developer
-    text: To get introduced to what you should know about LFDS as a developer, follow this link.
+    text: To get introduced to what you should know about LFDS as a developer, go here.
     title: Developer
 relatedLinks:
   - text: Prototypes
