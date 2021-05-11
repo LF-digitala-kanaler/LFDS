@@ -45,15 +45,15 @@ meta:
 shortcutsImage:
   - icon: /img/developer_icon.svg
     link: /foundations/getting-started/ux-copy
-    text: Welcome if you are a new copywriter. Heres what you need to know.
-    title: UX-Copy
+    text: Start here to learn what LFDS has in offer for you.
+    title: UX-writer
   - icon: /img/designer_icon.svg
     link: /foundations/getting-started/designer
-    text: Everyone thats new and work with AD/UX stuff, raise your hands.
+    text: You’re just one click away from the starting point for designers!
     title: Designer
   - icon: /img/copy_icon.svg
     link: /foundations/getting-started/developer
-    text: Get started with LFUI components, oh yeah!
+    text: To get introduced to what you should know about LFDS as a developer, follow this link.
     title: Developer
 relatedLinks:
   - text: LFUI
