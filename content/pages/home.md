@@ -20,7 +20,7 @@ shortcuts:
       templates.
     title: Patterns
 fullWidthImage:
-  title: Are you a noob at Länsförsäkringar?
+  title: New to the digital team at Länsförsäkringar?
   fullWidthImageDesktop: /img/garage-min.jpg
   fullWidthImageMobile: /img/garage_mobilex2-min.jpg
 shortcutsBottom:
