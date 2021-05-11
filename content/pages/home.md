@@ -1,22 +1,23 @@
 ---
 template: HomePage
 title: Länsförsäkringar Design System
-intro: "Welcome to Länsförsäkringar's design system. The designsystem (known as
+intro: "Welcome to Länsförsäkringar's design system. The design system (known as
   LFDS) is the heart of digital design at Länsförsäkringar. Here you should be
   able to find all common resources, no matter whether you are a designer,
   writer or developer. "
 shortcuts:
   - icon: /img/components.svg
     link: /components
-    text: Check out our amazing components. Alerts, buttons and what not.
+    text: Our components are the building blocks which we build all design upon.
     title: Components
   - icon: /img/visual.svg
     link: /visual-identity
-    text: Light and digital version of the Länsförsäkringar brand.
+    text: Our digital adaptation of the Länsförsäkringar brand guidelines.
     title: Visual identity
   - icon: /img/globe_black.svg
     link: /patterns
-    text: Learn more about how we work  with UX patterns
+    text: Our most frequent patterns of putting components together as well as
+      templates.
     title: Patterns
 fullWidthImage:
   title: Are you a noob at Länsförsäkringar?
