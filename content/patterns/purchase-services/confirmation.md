@@ -38,13 +38,19 @@ Vi har tagit emot din anmälan. Vi hör av oss till dig, vanligtvis inom en arbe
 
 Om man köpt eller ansökt om något brukar det listas vad man köpt, när det börjar gälla och var bekräftelse är skickad:
 
-**\[Försäkring]**
+**Försäkring**
+
+**Ansökan**
 
 **Gäller från**
 
 **Försäkringsnummer**
 
+**Skadenummer**
+
 **Bekräftelse skickas till**
+
+**Sms skickas till**
 
 ### Skriv ut sammanställning
 
