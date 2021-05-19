@@ -14,13 +14,25 @@ Copyn på kvittosidan ska berätta för kunden vad som är klart och vad som hä
 
 ### H1-rubrik
 
-När något är klart, till exempel ett köp, skriver vi **Klart!.** Vi skriver inte "Försäkrat och klart" eftersom försäkringen kan tecknas framåt i tiden. Vi kan också skriva **Tack!** om det gäller en skadeanmälan eller en ansökan. 
+När något är klart, till exempel ett köp, skriver vi **Klart!.** Vi skriver inte "Försäkrat och klart" eftersom försäkringen kan tecknas framåt i tiden. Vi kan också skriva **Tack!** Eller **Tack för din ansökan** om det gäller en skadeanmälan eller en ansökan. 
 
 ### Ingressen
 
-I ingressen brukar vi skriva vad nästa steg är, vad som händer nu. Till exempel: 
+I ingressen brukar vi skriva vad nästa steg är, vad som händer nu. Exempel på ingresser från olika flöden:
+
+#### Köp
 
 **Ditt försäkringsbrev är på väg till dig. Valde du digitala handlingar hittar du dem genom att logga in på lansforsakringar.se.**
+
+#### Ansökan
+
+**Inom en arbetsdag får du svar på din ansökan via sms.**
+
+#### Skadeanmälan
+
+Vi har tagit emot din anmälan. Vi hör av oss till dig, vanligtvis inom en arbetsdag. Logga in för att följa ditt skadeärende från början till slut.
+
+
 
 ### Lista
 
