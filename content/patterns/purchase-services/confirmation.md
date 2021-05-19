@@ -10,7 +10,7 @@ hidden: false
 ---
 ## Copy kvittosida
 
-Copyn på kvittosidan ska berätta för kunden vad som är klart och vad som händer nu. En bekräftelse. Tänk på att bara skriva det som är viktigt i detta steg.
+Copyn på kvittosidan ska berätta för kunden vad som är klart och vad som händer nu. En bekräftelse. Håll kvittosidan ren och inte för mycket text, för att skapa fokus på det som är viktigt. 
 
 ### H1-rubrik
 
