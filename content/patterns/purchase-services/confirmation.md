@@ -14,7 +14,7 @@ Copyn på kvittosidan ska berätta för kunden vad som är klart och vad som hä
 
 ### H1-rubrik
 
-När något är klart, till exempel ett köp, skriver vi **Klart!.** Vi skriver inte "Försäkrat och klart" eftersom försäkringen kan tecknas framåt i tiden. Vi kan också skriva **Tack!** Eller **Tack för din ansökan** om det gäller en skadeanmälan eller en ansökan. 
+När något är klart, till exempel ett köp, skriver vi **Klart!.** Vi skriver inte "Försäkrat och klart" eftersom försäkringen kan tecknas framåt i tiden. Vi kan också skriva **Tack!** Eller **Tack för din ansökan** om det gäller en skadeanmälan eller en ansökan. För vissa flöden är man inte klar när man kommer till kvittosidan, kanske det krävs att man gör något mer för att försäkringen ska börja gälla eller för att sparandet ska startas. Då skriver vi till exempel **En sak till** eller **Nästan klar**.
 
 ### Ingressen
 
