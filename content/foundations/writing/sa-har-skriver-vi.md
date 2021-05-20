@@ -2,8 +2,9 @@
 template: ArticlePage
 category: Writing
 previewImage: ""
-title: Så här skriver vi
-intro: Här kan du läsa om hur vi använder olika tecken och...
+title: Skrivregler
+intro: En del i länsförsäkringskan är skrivregler. Här kan du läsa om bland
+  annat versalisering, förkortningar och skiljetecken.
 description: ""
 contentTop: ""
 lang: true
