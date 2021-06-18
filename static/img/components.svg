@@ -7,7 +7,7 @@
         <g id="Icons/70px/payment-70">
             <g id="Icons/70px/contentcard-70">
                 <rect id="invisible-70" x="0" y="0" width="70" height="70"></rect>
-                <g id="outlines" transform="translate(10.000000, 14.000000)" fill="#222222">
+                <g id="outlines" transform="translate(10.000000, 14.000000)" fill="#005AA0">
                     <path d="M50,0 L50,42 L0,42 L0,0 L50,0 Z M48,2 L2,2 L2,40 L48,40 L48,2 Z M34,33 L34,35 L7,35 L7,33 L34,33 Z M43,28 L43,30 L7,30 L7,28 L43,28 Z M43,23 L43,25 L7,25 L7,23 L43,23 Z M25,7 C28.3137085,7 31,9.6862915 31,13 L31,13 L29,13 C29,10.790861 27.209139,9 25,9 C22.790861,9 21,10.790861 21,13 C21,15.209139 22.790861,17 25,17 L25,17 L25,19 C21.6862915,19 19,16.3137085 19,13 C19,9.6862915 21.6862915,7 25,7 Z" id="Combined-Shape"></path>
                 </g>
             </g>
