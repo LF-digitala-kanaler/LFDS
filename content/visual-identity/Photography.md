@@ -1,6 +1,6 @@
 ---
 template: ArticlePage
-previewImage: /img/photography.jpg
+previewImage: /img/student.jpg
 title: Photography
 intro: We want to build a visual world where people feel at home. That´s why we
   portray people's everyday lives and the different stages of life. We want our
