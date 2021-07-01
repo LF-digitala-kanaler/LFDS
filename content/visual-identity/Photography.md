@@ -10,7 +10,6 @@ contentTop: >-
 
 
   The different components are grouped together based on what they are used for, and you can  will find a visual example of each component on the group page to help you find the right component if you're unfamiliar with LFUI.
-
 heroBlock:
   image: /img/photo_hero.webp
 wide: false
