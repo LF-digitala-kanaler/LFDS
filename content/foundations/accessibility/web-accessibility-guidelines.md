@@ -270,7 +270,8 @@ checklist:
             url: https://webbriktlinjer.se/riktlinjer/156-anvand-tillrackliga-kontraster-i-komponenter-och-grafik/
       - tags:
           - Developer
-        title: 1.17 - Highlight the field or element in focus when tabbing
+        title: 1.17 - Highlight the field or element in focus when users navigate with
+          the tab key
         text: >-
           Users that navigate with the tab-key need to clearly see which element
           is in focus by seeing a surrounding border. The standard border is
