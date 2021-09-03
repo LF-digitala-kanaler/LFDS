@@ -230,12 +230,12 @@ checklist:
           - Developer
         title: 1.15 - Let the user navigate in the way they are most comfortable with
         text: >-
-          People prefer to navigate the web differently, based on either
-          personal preference or disability. Therefore, we offer several ways to
-          navigate our website.
+          People prefer to navigate the web differently, based on personal
+          preference, physical or mental abilities. Therefore, we offer several
+          ways to navigate our website.
 
 
-          Consider user needs and the complexity of the site when choosing ways to navigate.
+          Consider user needs and the complexity of the site when designing ways to navigate.
 
 
           Possible functions could be a search function, main menu, in-page navigation, support for tab navigation or traversing through links. 
