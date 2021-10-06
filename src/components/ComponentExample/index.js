@@ -7,10 +7,11 @@ import Actions from '../Actions'
 import CodeBlock from '../CodeBlock'
 import ComponentNavigation from '../ComponentNavigation'
 import Content from '../Content'
-import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
 import Frame from 'react-frame-component'
 import Preview from '../Preview'
-import svg from '!!raw-loader!lfui-components/dist/lfui/icons.svg'
+import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
+
+// import svg from '!!raw-loader!lfui-components/dist/lfui/icons.svg'
 
 const ComponentExample = ({
   variants,
@@ -32,7 +33,7 @@ const ComponentExample = ({
   }
   const [backgroundColor, setBackground] = useState(
     background ? background : '#fff'
-  ) // if background is et in Netlify, use that value
+  ) // if background is set in Netlify, use that value
   const [code, setCode] = useState(
     navigation ? nav[0].example[0].node.content : variants[0].node.content
   )
@@ -40,9 +41,7 @@ const ComponentExample = ({
   const [minHeight, setHeight] = useState(300)
   const iframeRef = React.createRef()
 
-  const hidden = {
-    display: 'none',
-  }
+  console.log(source)
   const toggleCode = () => {
     setSource(!source)
   }
@@ -109,6 +108,7 @@ const ComponentExample = ({
 
   return (
     <React.Fragment>
+
       <div className={style.ComponentExample}>
         <div className={style.ComponentExample__head}>
           <div>
@@ -118,6 +118,8 @@ const ComponentExample = ({
                 navigation={nav}
               />
             )}
+
+
           </div>
           <div>
             <Actions
@@ -142,14 +144,17 @@ const ComponentExample = ({
                 <html class="lfui-theme">
                   <head>
                   </head>
-                  
-                  <body class="background-${backgroundColor} style="margin: 0">
+                
+                  <body style="margin: 0">
                     <div class="frame-root"></div>
                     <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
   
   ></script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.bundle.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-geo@3.5.1/build/index.umd.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script>
                     <script id="script" type="text/javascript" src="/lf.js"></script>
                     <script id="script2" type="text/javascript" src="/docs.js"></script>
                   </body>
@@ -221,9 +226,7 @@ const ComponentExample = ({
             }
           >
             <Content source={`${code}`} />
-            <div style={hidden}>
-              <Content source={svg} />
-            </div>
+
           </Frame>
         </Preview>
       </div>

@@ -11,7 +11,6 @@ tabs:
   - content: >-
       ## How to use
 
-
       Line charts are used to display changes over a period of time. As they are the go to charts for showing how value of a fund or stock has changed over time they are the most commonly used charts at Länsförsäkringar.
 
 

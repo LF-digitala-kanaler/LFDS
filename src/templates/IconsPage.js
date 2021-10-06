@@ -1,7 +1,7 @@
-import { graphql } from 'gatsby'
 import IconsPageTemplate from './IconsTemplate.js'
 import Layout from '../components/Layout.js'
 import React from 'react'
+import { graphql } from 'gatsby'
 
 const IconsPage = ({ data: { page }, location }) => {
   const breadcrumb = {
@@ -17,12 +17,12 @@ const IconsPage = ({ data: { page }, location }) => {
       menu={true}
       breadcrumb={breadcrumb}
     >
-      <IconsPageTemplate
+      {/* <IconsPageTemplate
         {...page}
         {...page.frontmatter}
         bodyHtml={page.htmlAst}
         body={page.html}
-      />
+      /> */}
     </Layout>
   )
 }

@@ -1,13 +1,13 @@
 import Collapse from '../components/Collapse'
 import Content from '../components/Content'
 import Heading from '../components/Heading'
-import icons from '!!raw-loader!lfui-components/dist/lfui/icons.svg'
-import iconsRegular from '!!raw-loader!lfui-components/dist/docs/icons/regular.md'
-import iconsSpecial from '!!raw-loader!lfui-components/dist/docs/icons/special.md'
+// import icons from '!!raw-loader!lfui-components/dist/lfui/icons.svg'
+// import iconsRegular from '!!raw-loader!lfui-components/dist/docs/icons/regular.md'
+// import iconsSpecial from '!!raw-loader!lfui-components/dist/docs/icons/special.md'
 import Preamble from '../components/Preamble'
 import React from 'react'
-import rehypeReact from 'rehype-react'
 import Wrapper from '../components/Wrapper'
+import rehypeReact from 'rehype-react'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -35,12 +35,12 @@ const IconsTemplate = ({
 
     <Wrapper tag="div" menu={true}>
       <div className="Icons">
-        <Content source={iconsRegular} />
+        {/* <Content source={iconsRegular} /> */}
 
-        <Content className="Content--tight" source={specialIconsContent} />
+        {/* <Content className="Content--tight" source={specialIconsContent} />
 
         <Content source={iconsSpecial} />
-        <Content source={icons} />
+        <Content source={icons} /> */}
       </div>
     </Wrapper>
   </>

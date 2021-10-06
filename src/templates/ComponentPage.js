@@ -1,8 +1,8 @@
 import ComponentPageTemplate from './ComponentPageTemplate.js'
-import { globalHistory } from '@reach/router'
-import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import React from 'react'
+import { globalHistory } from '@reach/router'
+import { graphql } from 'gatsby'
 
 const ComponentPage = ({
   data: { page, allComponentExample },
@@ -33,7 +33,7 @@ const ComponentPage = ({
       )
       : false,
   }
-
+  console.log(componentExample.examples)
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,

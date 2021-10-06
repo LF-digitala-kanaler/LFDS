@@ -17,7 +17,6 @@ tabs:
   - content: >-
       ## How to use
 
-
       Shortcuts are used to highlight alternative actions from the current flow which we think are important for the user. They are either of a more alerting nature or navigational, and each design only corresponds to one of these two uses. For both use cases the shortcut takes the user into another flow than the one they came from. 
 
 

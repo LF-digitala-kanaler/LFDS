@@ -15,7 +15,6 @@ const Collapse = ({ title, children }) => {
         : `${ref.current.scrollHeight}px`
     )
   }
-
   return (
     <div className={style.Collapse}>
       <article>

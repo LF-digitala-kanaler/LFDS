@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 module.exports = {
   siteMetadata: {
     title: 'LFDS',
@@ -8,12 +11,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
-    `gatsby-plugin-remove-trailing-slashes`,
+    // `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: 'gatsby-plugin-offline',
       options: {
         workboxConfig: {
-          navigateFallbackBlacklist: [/^\/admin.*$/],
+          // navigateFallbackBlacklist: [/^\/admin.*$/],
           runtimeCaching: [
             {
               // Use cacheFirst since these don't need to be revalidated (same RegExp
@@ -79,6 +82,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/img`,
         name: 'images',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/icons`,
+        name: 'icons',
       },
     },
     {
@@ -296,7 +306,7 @@ module.exports = {
         // HTTP headers
         headers: {
           // Learn about environment variables: https://gatsby.dev/env-vars
-          Authorization: `Bearer 970a34d72e11df57dbc7b55b3f6f170cd22c765d`,
+          Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
         },
       },
     },

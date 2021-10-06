@@ -32,6 +32,7 @@ section .Collapse:last-of-type {
   }
 }
 
+
 .Collapse__icon {
   position: absolute;
   height: 20px;
