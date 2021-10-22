@@ -10094,24 +10094,15 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-"lfui-components@git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#release/7.0.0":
-  version "7.0.0"
-  resolved "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#b68989221806f394f6682b817743eccbff769202"
+"lfui-components@git+https://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:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#release/6.7.0":
+  version "6.7.0"
+  resolved "git+https://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:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#8d7fbb9fc98a8ca14b45a4d2504cd6894965f484"
   dependencies:
     bootstrap "4.3.1"
     eonasdan-custom-bootstrap-datetimepicker-with-bootstrap-4 "^1.0.0"
     jquery "^3.4.1"
-    lfui-icons "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/lf-digitala-kanaler/LFUI-icons.git#v1.0.0"
-    popper.js "1.16.1"
-    vivus "0.4.5"
-
-"lfui-icons@git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/lf-digitala-kanaler/LFUI-icons.git#v1.0.0":
-  version "1.0.0"
-  resolved "git+https://24cd72455eb8aea8ea1c796c1421945df20fbe0f:x-oauth-basic@github.com/lf-digitala-kanaler/LFUI-icons.git#aeda5b136a95498884f346ee8baecde75cffa7c3"
-
-"lfui-icons@git+https://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:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-icons.git":
-  version "1.0.0"
-  resolved "git+https://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:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-icons.git#1e247961840b1e13501726ea4c916b800317f96c"
+    popper.js "1.14.7"
+    vivus "0.4.0"
 
 lie@3.1.1:
   version "3.1.1"
@@ -12896,10 +12887,10 @@ pnp-webpack-plugin@^1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-popper.js@1.16.1:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
-  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
+popper.js@1.14.7:
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.7.tgz#e31ec06cfac6a97a53280c3e55e4e0c860e7738e"
+  integrity sha512-4q1hNvoUre/8srWsH7hnoSJ5xVmIL4qgz+s4qf2TnJIMyZFUFMGH+9vE7mXynAlHSZ/NdTmmow86muD0myUkVQ==
 
 portfinder@^1.0.26:
   version "1.0.28"
@@ -17714,10 +17705,10 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vivus@0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/vivus/-/vivus-0.4.5.tgz#61d18c2ac8f48cab5d250fc3df1badfcb32d669a"
-  integrity sha512-dBM5QDcO0JUnoeGUROhMYVBW4Qry637iQ1o6vLDaEVzu0TAQ3tVlzeQlLGYPjegCxcY1nC8FtyTjsZ8rqXVL4Q==
+vivus@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vivus/-/vivus-0.4.0.tgz#7fc46a68565e960dee631ee2ba9e58c617410e0c"
+  integrity sha1-f8RqaFZelg3uYx7iup5YxhdBDgw=
 
 vm-browserify@^1.0.1:
   version "1.1.2"
