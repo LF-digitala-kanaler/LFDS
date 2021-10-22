@@ -24,7 +24,7 @@ checklist:
 
           Make sure there is a clear hierarchy and that elements do not compete for attention. By doing so, you help the user to be naturally drawn to important information and interactions.
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.3.2: Meaningful Sequence'
+          - text: "Understanding Success Criterion 1.3.2: Meaningful Sequence"
             url: https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html
           - text: Presentera innehållet i en meningsfull ordning för alla
             url: https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
@@ -41,13 +41,11 @@ checklist:
 
 
           Functions should be performed the same way regardless of where on the website the user is located. The same rule of consistency applies to names and appearance of functions. For example, a button called “approve” should not be called “OK” on a different page. A “save” icon should have the same appearance everywhere.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 3.2.3: Consistent Navigation'
+          - text: "Understanding Success Criterion 3.2.3: Consistent Navigation"
             url: https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html
           - text: Presentera innehållet i en meningsfull ordning för alla
             url: https://webbriktlinjer.se/riktlinjer/122-meningsfull-ordning/
-
       - tags:
           - UX/AD
           - Developer
@@ -67,13 +65,11 @@ checklist:
           * Also test it with a screen reader, for example VoiceOver on an iPhone.
 
           * Make sure to test the flow of the page in other documents (pdf, word, etc.). See also section 2.15.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.3.4: Orientation'
+          - text: "Understanding Success Criterion 1.3.4: Orientation"
             url: https://www.w3.org/WAI/WCAG21/Understanding/orientation.html
           - text: Se till att allt innehåll presenteras rätt oavsett skärmens riktning
             url: https://webbriktlinjer.se/riktlinjer/153-fungerar-oavsett-skarmens-riktning/#utdrag-fran-wcag-standarden
-
       - tags:
           - UX/AD
         title: 1.04 - All important information should be available to all users
@@ -87,8 +83,7 @@ checklist:
           As much as possible, critical information should be available on the web. Make sure to divide the content into relevant pages so you avoid walls of texts.
       - tags:
           - UX/AD
-        title:
-          1.05 - Create a flexible layout that works when enlarged or viewed on a
+        title: 1.05 - Create a flexible layout that works when enlarged or viewed on a
           small screen
         text: >-
           A screen or a window should be able to present a page at 320 pixels
@@ -100,16 +95,14 @@ checklist:
           * When creating responsive design is not possible, create a custom mobile version. 
 
           * PDF:s and other downloadables  should work the same way.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.10: Reflow'
+          - text: "Understanding Success Criterion 1.4.10: Reflow"
             url: https://www.w3.org/WAI/WCAG21/Understanding/reflow.html
           - text: Var konsekvent i navigation, struktur och utformning
             url: https://webbriktlinjer.se/riktlinjer/29-var-konsekvent-i-navigation-struktur-och-utformning/
-
       - tags:
           - UX/AD
-        title: '1.06 - Offer multiple ways to contact '
+        title: "1.06 - Offer multiple ways to contact "
         text: >-
           Not all people are able or willing to call a company for help. Some
           may have trouble communicating in writing. Reasons for this can range
@@ -122,7 +115,7 @@ checklist:
           In some cases you may only be able to provide one option. In that case, think about how you can reduce the need for contact. One solution could be answering the most common questions in a “frequently asked questions” section.
       - tags:
           - UX/AD
-        title: '1.07 - The design should pass contrast 5:1 '
+        title: "1.07 - The design should pass contrast 5:1 "
         text: >-
           Contrast varies depending on the size of text and icons. Create
           designs the user can zoom in on, in order to see better. Components
@@ -139,16 +132,13 @@ checklist:
 
 
           There are cases where a component could have a contrast above 5:1 but still be illegible or difficult to interpret. Therefore don’t assume automatic tests are 100% correct, use your own judgement.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.3: Contrast (Minimum)'
+          - text: "Understanding Success Criterion 1.4.3: Contrast (Minimum)"
             url: https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html
-
       - tags:
           - UX/AD
-        title: '1.08 - Be careful with strong colors, use the red sparingly '
-        text:
-          Colors are great for improving usability and aesthetics. Be aware though
+        title: "1.08 - Be careful with strong colors, use the red sparingly "
+        text: Colors are great for improving usability and aesthetics. Be aware though
           that using strong colors too frequently can steal focus from the most
           important information and interactions. Use our red color (#E30613)
           sparingly, for example when you need a “call-to-action” button.
@@ -165,13 +155,11 @@ checklist:
 
 
           Examples of such content can be sub-menus, tool-tips or non-modal pop-ups.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.13: Content on Hover or Focus'
+          - text: "Understanding Success Criterion 1.4.13: Content on Hover or Focus"
             url: https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html
-          - text: 'Popup-funktioner ska kunna hanteras och stängas av alla'
+          - text: Popup-funktioner ska kunna hanteras och stängas av alla
             url: https://webbriktlinjer.se/riktlinjer/158-popup-funktioner-ska-kunna-hanteras-och-stangas-av-alla/
-
       - tags:
           - UX/AD
           - Developer
@@ -184,27 +172,22 @@ checklist:
 
 
           For performance and efficiency reasons, wait until the user enters two characters in the search field before presenting suggestions.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 3.3.3: Error Suggestion'
+          - text: "Understanding Success Criterion 3.3.3: Error Suggestion"
             url: https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion
-
       - tags:
           - UX/AD
           - Copy
         title: 1.11 - Avoid placing text in images
-        text: >-
-          You should generally avoid placing text in images as screen readers
-          cannot read text on images. If you do have text in an image and the
-          text is highly relevant to the user, make sure the text is included in
-          the alt-text.
-
+        text: You should generally avoid placing text in images as screen readers cannot
+          read text on images. If you do have text in an image and the text is
+          highly relevant to the user, make sure the text is included in the
+          alt-text.
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.5: Images of Text'
+          - text: "Understanding Success Criterion 1.4.5: Images of Text"
             url: https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html
           - text: Använd text, inte bilder, för att visa text
             url: https://webbriktlinjer.se/riktlinjer/128-anvand-text-inte-bilder-for-att-visa-text/
-
       - tags:
           - Copy
         title: 1.12 - Use “alt-text” on images containing important information
@@ -219,47 +202,40 @@ checklist:
 
 
           If a CMS system is being used, make it easier for the editors by making the alt-text field  mandatory.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.1.1: Non-text Content'
+          - text: "Understanding Success Criterion 1.1.1: Non-text Content"
             url: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content
-
       - tags:
           - Copy
           - Tester
         title: 1.13 - Decorative images do not need an “alt-text”
-        text: >-
-          Decorative images don’t need an alternative text because they don’t
+        text: Decorative images don’t need an alternative text because they don’t
           communicate important information to the user. However, an empty
           alt-tag is still needed in order for the page to validate.
-
         relatedLinks:
-          - text: 'H67: Using null alt text and no title attribute on img elements for images that AT should ignore'
+          - text: "H67: Using null alt text and no title attribute on img elements for
+              images that AT should ignore"
             url: https://www.w3.org/WAI/WCAG21/Techniques/html/H67
-
       - tags:
           - Copy
         title: 1.14 - If the image is linked, describe the destination as “alt-text”
-        text: >-
-          If the image or icon is linked, add a description of the destination
-          as an alt-text. The description should be short and clearly
-          communicate where the user will be taken.
-
+        text: If the image or icon is linked, add a description of the destination as an
+          alt-text. The description should be short and clearly communicate
+          where the user will be taken.
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.1.1: Non-text Content'
+          - text: "Understanding Success Criterion 1.1.1: Non-text Content"
             url: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content
-
       - tags:
           - UX/AD
           - Developer
         title: 1.15 - Let the user navigate in the way they are most comfortable with
         text: >-
-          People prefer to navigate the web differently, based on either
-          personal preference or disability. Therefore, we offer several ways to
-          navigate our website.
+          People prefer to navigate the web differently, based on personal
+          preference, physical or mental abilities. Therefore, we offer several
+          ways to navigate our website.
 
 
-          Consider user needs and the complexity of the site when choosing ways to navigate.
+          Consider user needs and the complexity of the site when designing ways to navigate.
 
 
           Possible functions could be a search function, main menu, in-page navigation, support for tab navigation or traversing through links. 
@@ -269,13 +245,11 @@ checklist:
 
 
           Some navigation aids use only links or headlines to navigate.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.4.5: Multiple Ways'
+          - text: "Understanding Success Criterion 2.4.5: Multiple Ways"
             url: https://www.w3.org/WAI/WCAG21/Understanding/multiple-ways
-          - text: 'Erbjud användarna flera olika sätt att navigera'
+          - text: Erbjud användarna flera olika sätt att navigera
             url: https://webbriktlinjer.se/riktlinjer/32-erbjud-besokaren-alternativa-orienteringsstod/
-
       - tags:
           - UX/AD
         title: 1.16 - Use sufficient contrast in components and graphics
@@ -289,16 +263,15 @@ checklist:
 
 
           Check contrast here: [Contrast Checker](https://webaim.org/resources/contrastchecker/)
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.11: Non-text Contrast'
+          - text: "Understanding Success Criterion 1.4.11: Non-text Contrast"
             url: https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html
           - text: Använd tillräckliga kontraster i komponenter och grafik
             url: https://webbriktlinjer.se/riktlinjer/156-anvand-tillrackliga-kontraster-i-komponenter-och-grafik/
-
       - tags:
           - Developer
-        title: 1.17 - Highlight the field or element in focus
+        title: 1.17 - Highlight the field or element in focus when users navigate with
+          the tab key
         text: >-
           Users that navigate with the tab-key need to clearly see which element
           is in focus by seeing a surrounding border. The standard border is
@@ -307,13 +280,11 @@ checklist:
 
 
           Make the border clearly visible by using a CSS-rule.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.4.7: Focus Visible'
+          - text: "Understanding Success Criterion 2.4.7: Focus Visible"
             url: https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html
           - text: Markera tydligt vilket fält eller element som är i fokus
             url: https://webbriktlinjer.se/riktlinjer/140-markera-element-i-fokus/
-
       - tags:
           - UX/AD
           - Developer
@@ -332,20 +303,17 @@ checklist:
 
 
           appear. In that case, make sure the user takes notice of the change by having the new question appear in close proximity and directly after the previous question.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 3.2.1: On Focus'
+          - text: "Understanding Success Criterion 3.2.1: On Focus"
             url: https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html
           - text: Utför inga oväntade förändringar vid fokusering
             url: https://webbriktlinjer.se/riktlinjer/143-utfor-inga-ovantade-forandringar-vid-fokusering/
-
       - tags:
           - UX/AD
           - Developer
           - Tester
         title: 1.19 - Offer alternatives to more complex gestures
-        text: >-
-          Swiping and gestures that require use of multiple fingers (such as
+        text: Swiping and gestures that require use of multiple fingers (such as
           pinching) can be difficult to perform for people with reduced motor or
           cognitive function. Some users may also be unable to perform them
           because of the navigation aids they’re using or simply because the
@@ -355,11 +323,9 @@ checklist:
           money or cancelling a debit card. They should be doable with simpler,
           easy to discover interactions, such as single tap, double tap or
           press.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.5.1: Pointer Gestures'
+          - text: "Understanding Success Criterion 2.5.1: Pointer Gestures"
             url: https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html
-
       - tags:
           - UX/AD
           - Developer
@@ -372,9 +338,8 @@ checklist:
 
 
           The attribute “scope” on a th-element creates a connection between header cells and data cells.This enables the screen reader to read the associated header before the content in a data cell. Doing so relieves  the user from having to remember the table structure. This is especially important for tables with many columns or with several header levels.
-
         relatedLinks:
-          - text: 'H51: Using table markup to present tabular information'
+          - text: "H51: Using table markup to present tabular information"
             url: https://www.w3.org/TR/WCAG20-TECHS/H51.html
           - text: Creating Accessible Tables
             url: https://webaim.org/techniques/tables/data
@@ -382,19 +347,15 @@ checklist:
             url: https://www.w3.org/WAI/tutorials/tables/tips/
           - text: Skriv rubriker till tabeller
             url: https://webbriktlinjer.se/riktlinjer/98-anvand-tabellrubriker-for-att-hjalpa-anvandaren/
-
       - tags:
           - UX/AD
         title: 1.21 - Explain icons
-        text: >-
-          When icons are used to represent buttons, they should be accompanied
-          by explanatory text. The exceptions to the rule are icons of the
+        text: When icons are used to represent buttons, they should be accompanied by
+          explanatory text. The exceptions to the rule are icons of the
           universal kind, (think “go back” arrow).
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.1.1: Non-text Content'
+          - text: "Understanding Success Criterion 1.1.1: Non-text Content"
             url: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content
-
   - section: Copy and content
     checklistList:
       - tags:
@@ -423,7 +384,6 @@ checklist:
           * Centered text
 
           * Writing words in uppercase
-
       - tags:
           - UX/AD
           - Copy
@@ -439,8 +399,7 @@ checklist:
       - tags:
           - UX/AD
           - Copy
-        title:
-          2.03 - Break up large texts with graphic elements, charts, icons and
+        title: 2.03 - Break up large texts with graphic elements, charts, icons and
           images
       - tags:
           - UX/AD
@@ -449,11 +408,9 @@ checklist:
       - tags:
           - UX/AD
           - Copy
-        title:
-          '2.05 - Use intermediate headlines and quotes to split up content and
-          interest the user  '
-        text:
-          Avoid capitalized headlines. If you have to use them, use them maximum of
+        title: "2.05 - Use intermediate headlines and quotes to split up content and
+          interest the user  "
+        text: Avoid capitalized headlines. If you have to use them, use them maximum of
           one or two words. All capitalized headlines and texts decrease
           readability because we are not used to them. The exception being when
           caps are used for special purposes such as warning text like “THIN
@@ -480,16 +437,14 @@ checklist:
       - tags:
           - Copy
         title: 2.08 - Avoid directing users by describing spatial directions
-        text:
-          Screen reader users may have trouble following directions such as “click
+        text: Screen reader users may have trouble following directions such as “click
           on the button to the right”. In addition, rotating the screen can
           alter the layout of the page so the spatial directions become
           incorrect.
       - tags:
           - Copy
-        title: '2.09 - Avoid directing users by describing colors '
-        text:
-          Color blind users may have trouble telling the difference between red and
+        title: "2.09 - Avoid directing users by describing colors "
+        text: Color blind users may have trouble telling the difference between red and
           green or green and blue. Avoid therefore referring to elements on page
           by color.
       - tags:
@@ -529,13 +484,11 @@ checklist:
           * Word spacing to 0,16 times the size of the font
 
           * Paragraph spacing to 2 times the size of the font
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.12: Text Spacing'
+          - text: "Understanding Success Criterion 1.4.12: Text Spacing"
             url: https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html
-          - text: 'Se till att det går att öka avstånd mellan tecken, rader, stycken och ord'
+          - text: Se till att det går att öka avstånd mellan tecken, rader, stycken och ord
             url: https://webbriktlinjer.se/riktlinjer/157-avstand-mellan-tecken-rader-stycken-och-ord/
-
       - tags:
           - Developer
         title: 2.13 - Text can be enlarged 200% without issues
@@ -554,28 +507,23 @@ checklist:
           * Avod small text sizes
 
           * Have generous spacing between columns
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.4: Resize text'
+          - text: "Understanding Success Criterion 1.4.4: Resize text"
             url: https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html
           - text: Se till att text går att förstora utan problem
             url: https://webbriktlinjer.se/riktlinjer/127-se-till-att-text-gar-att-forstora-utan-problem/
-
       - tags:
           - Developer
         title: 2.14 - Downloadable documents should have descriptive file names
-        text: >-
-          Make sure documents have file names that clearly describe the content.
+        text: Make sure documents have file names that clearly describe the content.
           Don’t use internal working titles as file names. You should generally
           avoid naming documents after article numbers, registration numbers,
           form numbers or other numbers of that nature. Only if the article
           number or form number is known by the users, should it be part of the
           file name.
-
         relatedLinks:
           - text: Ge dokument tydliga filnamn
             url: https://webbriktlinjer.se/riktlinjer/9-ge-dokument-tydliga-filnamn/
-
       - tags:
           - Copy
           - Tester
@@ -604,7 +552,6 @@ checklist:
           * Make sure copying the document is allowed. You can select the option under security settings. If you still need to to lock the document, check the option for making it available to screen readers.
 
           * If the document becomes too large after adding the settings, you can always compress it later.
-
         relatedLinks:
           - text: Create accessible PDFs - Office Support
             url: https://support.microsoft.com/en-us/office/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed
@@ -612,7 +559,6 @@ checklist:
             url: https://helpx.adobe.com/acrobat/using/creating-accessible-pdfs.html
           - text: Publicera i första hand dokument i html och skapa tillgängliga pdf:er
             url: https://webbriktlinjer.se/riktlinjer/88-publicera-i-forsta-hand-dokument-i-html/
-
   - section: Clickable areas - buttons and links
     checklistList:
       - tags:
@@ -636,14 +582,12 @@ checklist:
       - tags:
           - UX/AD
         title: 3.02 - Place buttons in context
-        text:
-          Place buttons in close proximity to their context, so that the user
+        text: Place buttons in close proximity to their context, so that the user
           understands the relationship between the information and the buttons.
       - tags:
           - UX/AD
-        title: '3.03 - Visually highlight links '
-        text:
-          The users should be easily able to distinguish between regular text and
+        title: "3.03 - Visually highlight links "
+        text: The users should be easily able to distinguish between regular text and
           linked text. Make sure linked text visually stands out from regular
           text by using underscores, placement, color or size. Active links can
           be made to stand out by, for example, changing background color. Avoid
@@ -661,25 +605,20 @@ checklist:
 
 
           Don’t use the url of the page as a link name.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.4.4: Link Purpose'
+          - text: "Understanding Success Criterion 2.4.4: Link Purpose"
             url: https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html
-
       - tags:
           - UX/AD
         title: 3.05 - Combine color, form and text even with icons and links
-        text: >-
-          Feel free to use colors, but make sure color is not the only way to
+        text: Feel free to use colors, but make sure color is not the only way to
           distinguish objects or pieces of information from each other. Combine
           color with text, patterns or other visual indicators. Also, check out
           how we use universal icons like the “x” for close and the “i” for
           information.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.1: Use of Color'
+          - text: "Understanding Success Criterion 1.4.1: Use of Color"
             url: https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html
-
       - tags:
           - Copy
         title: 3.06 - Link names should be a maximum 100 characters long
@@ -708,47 +647,40 @@ checklist:
           * Add a generous clickable area around the element being linked (see also 4.03)
 
           * Make a single link (an a-element) when you have two elements like an icon and text.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 3.2.3: Consistent Navigation'
+          - text: "Understanding Success Criterion 3.2.3: Consistent Navigation"
             url: https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html
           - text: Gör länkar, klickbara ytor och menyer användbara för alla
             url: https://webbriktlinjer.se/riktlinjer/34-gor-lankar-och-klickbara-ytor-enkla-att-anvanda-for-alla/
-
       - tags:
           - Developer
         title: 3.08 - Text on buttons matches the machine-readable tags
-        text: >-
-          When users use voice control to operate a button, they usually read
-          out loud the text on the button. Make sure the text on buttons and
-          other UI elements matches the corresponding machine-readable tags used
-          by voice control. This makes for a smoother experience for voice
-          control users.
-
+        text: When users use voice control to operate a button, they usually read out
+          loud the text on the button. Make sure the text on buttons and other
+          UI elements matches the corresponding machine-readable tags used by
+          voice control. This makes for a smoother experience for voice control
+          users.
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.5.3: Label in Name'
+          - text: "Understanding Success Criterion 2.5.3: Label in Name"
             url: https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html
-          - text: Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter
+          - text: Se till att text på knappar och kontroller överensstämmer med
+              maskinläsbara etiketter
             url: https://webbriktlinjer.se/riktlinjer/162-mojliggor-roststyrning-av-knappar-och-kontroller/
-
       - tags:
           - UX/AD
           - Developer
         title: 3.09 - Allow for reversal of actions
-        text: >-
-          Occasionally, all of us accidentally press a button we did not intend.
+        text: Occasionally, all of us accidentally press a button we did not intend.
           People with limited motoric function or impaired vision are especially
           affected by this. The option to reverse an action is very important
           because it makes the user feel more secure interacting with a service.
           The user can confidently take action without fearing doing something
           that can't be easily reversed.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.5.2: Pointer Cancellation'
+          - text: "Understanding Success Criterion 2.5.2: Pointer Cancellation"
             url: https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html
           - text: Gör det möjligt att ångra klick
             url: https://webbriktlinjer.se/riktlinjer/161-gor-det-mojligt-att-angra-klick/
-
       - tags:
           - UX/AD
         title: 3.10 - Make contextual interactions easy to discover
@@ -775,13 +707,11 @@ checklist:
 
 
           Field label copy should be kept short, preferably not longer than two rows. If you need extra space for more detailed instructions you can add them at the beginning of the form.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.4.6: Headings and Labels'
+          - text: "Understanding Success Criterion 2.4.6: Headings and Labels"
             url: https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html
           - text: Skriv beskrivande rubriker och etiketter
             url: https://webbriktlinjer.se/riktlinjer/61-skriv-tydliga-och-berattande-rubriker/
-
       - tags:
           - UX/AD
           - Copy
@@ -807,19 +737,16 @@ checklist:
 
 
           **\
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 3.3.1: Error Identification'
+          - text: "Understanding Success Criterion 3.3.1: Error Identification"
             url: https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html
           - text: How to Write Good Error Messages
             url: https://uxplanet.org/how-to-write-good-error-messages-858e4551cd4
-
       - tags:
           - UX/AD
           - Developer
         title: 4.03 - Create large, clickable areas
-        text: >-
-          Make it easier on the user to by making sure clickable areas around
+        text: Make it easier on the user to by making sure clickable areas around
           objects like checkboxes or radio buttons are sufficiently large. The
           user should be able to click the area around small objects like
           checkboxes and not only on the function itself. In the case of radio
@@ -827,11 +754,9 @@ checklist:
           clickable. By doing so, we don’t require fine motor skills
           unnecessarily from our users. On mobile, an average area for the index
           finger should be 44x44 pixels.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.5.5: Target Size'
+          - text: "Understanding Success Criterion 2.5.5: Target Size"
             url: https://www.w3.org/WAI/WCAG21/Understanding/target-size.html
-
       - tags:
           - UX/AD
           - Developer
@@ -845,31 +770,26 @@ checklist:
 
 
           Avoid creating interactions that don’t allow the user regret, correct or confirm. When the user enters larger amounts of information (think forms), give the user an opportunity to preview the entered information.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 3.3.4: Error Prevention (Legal, Financial, Data'
+          - text: "Understanding Success Criterion 3.3.4: Error Prevention (Legal,
+              Financial, Data"
             url: https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html
           - text: Ge möjlighet att ångra, korrigera eller bekräfta vid viktiga transaktioner
             url: https://webbriktlinjer.se/riktlinjer/150-ge-mojlighet-att-angra-korrigera-eller-bekrafta-viktiga-transaktioner/
-
       - tags:
           - UX/AD
           - Developer
-        title: '4.05 - Cluster objects that belong together '
-        text: >-
-          Make sure field labels and supporting copy are closer to the field
-          they belong to, than other input fields or text.
-
+        title: "4.05 - Cluster objects that belong together "
+        text: Make sure field labels and supporting copy are closer to the field they
+          belong to, than other input fields or text.
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.3.1: Info and Relationships'
+          - text: "Understanding Success Criterion 1.3.1: Info and Relationships"
             url: https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships
-
       - tags:
           - UX/AD
           - Developer
-        title: '4.06 - Allow for multiple formats in an input field  '
-        text:
-          When we know that there are several ways of writing the same thing,
+        title: "4.06 - Allow for multiple formats in an input field  "
+        text: When we know that there are several ways of writing the same thing,
           accommodate the users by allowing multiple formats. For example, a
           personal number could be written with 10 or 12 digits, with or without
           a dash. Do the same with calendar dates in date pickers, to the extent
@@ -877,21 +797,18 @@ checklist:
       - tags:
           - Developer
         title: 4.07 - Create a logical tab order
-        text: >-
-          The user should be able to navigate via all interactive elements on a
+        text: The user should be able to navigate via all interactive elements on a
           page, from top down and left to right (for Swedish and English web
           pages). It is crucial that the focus path is logical in relation to
           how content is presented on a screen or to a screen reader. When the
           focus shifts to an unexpected element it can confuse the user and make
           them more prone to errors. Avoid using tabindex greater than “1” in
           the code.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.4.3: Focus Order'
+          - text: "Understanding Success Criterion 2.4.3: Focus Order"
             url: https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html
           - text: Gör en logisk tab-ordning
             url: https://webbriktlinjer.se/riktlinjer/136-gor-en-logisk-tab-ordning/
-
       - tags:
           - Developer
         title: 4.08 - Tag input fields in the code
@@ -904,21 +821,18 @@ checklist:
 
 
           Tagging input fields helps all users, but especially people with cognitive/motoric disabilities or people not familiar with the language. Adding the attribute “autocomplete” on input fields adds another layer of accessibility.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.3.5: Identify Input Purpose'
+          - text: "Understanding Success Criterion 1.3.5: Identify Input Purpose"
             url: https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html
           - text: Märk upp vanliga formulärfält i koden
             url: https://webbriktlinjer.se/riktlinjer/154-mark-upp-vanliga-formularfalt-i-koden/
-
   - section: Video & animation
     checklistList:
       - tags:
           - UX/AD
           - Copy
         title: 5.01 - Complement text with videos and moving media
-        text:
-          Complement text with video or animated material for those that have
+        text: Complement text with video or animated material for those that have
           trouble reading text. Don’t forget to use sound for people with visual
           impairments.
       - tags:
@@ -930,45 +844,37 @@ checklist:
 
 
           There should always be ways to pause a video or control its volume. A user that navigates with a screen reader may not hear the content if other sounds are being played simultaneously. Users with a lower ability to focus or filter external stimuli may find it hard to use a service if they cannot turn off the sound easily.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.4.2: Audio Control'
+          - text: "Understanding Success Criterion 1.4.2: Audio Control"
             url: https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html
           - text: Ge användaren möjlighet att pausa, stänga av eller sänka ljud
             url: https://webbriktlinjer.se/riktlinjer/125-kunna-pausa-ljud/
-
       - tags:
           - UX/AD
           - Developer
-        title: '5.03 - Use animations sparingly '
-        text: >-
-          Before you create an animation, you should define a purpose for it.
-          For example, the animation will guide the user, direct their attention
-          to a piece of information or provide feedback. Animations can also be
+        title: "5.03 - Use animations sparingly "
+        text: Before you create an animation, you should define a purpose for it. For
+          example, the animation will guide the user, direct their attention to
+          a piece of information or provide feedback. Animations can also be
           used to add visual flair to a design. Generally, the animations should
           be kept short and non-looping. Users with ADHD may find looping
           animations to be confusing and distracting. Since animations should
           not be looping, they also should not be critical to functionality.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.3.3: Animation from Interactions'
+          - text: "Understanding Success Criterion 2.3.3: Animation from Interactions"
             url: https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html
-
       - tags:
           - Copy
         title: 5.04 Always provide subtitles with video content
-        text: >-
-          There are many reasons why people use subtitles when consuming video
+        text: There are many reasons why people use subtitles when consuming video
           content. It ranges from a hearing disability, noisy environment
           or  the need to watch without disturbing others. Users for whom
           Swedish isn't their first language sometimes use subtitles as support.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 1.2.2: Captions (Prerecorded)'
+          - text: "Understanding Success Criterion 1.2.2: Captions (Prerecorded)"
             url: https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html
-          - text: 'Texta inspelad rörlig media (video, ljud, animationer…)'
+          - text: Texta inspelad rörlig media (video, ljud, animationer…)
             url: https://webbriktlinjer.se/riktlinjer/117-texta-inspelad-rorlig-media/
-
   - section: Lists
     checklistList:
       - tags:
@@ -976,16 +882,14 @@ checklist:
         title: 6.01 - Use available formatting to create lists
       - tags:
           - Copy
-        title:
-          '6.02 - Use bullet points when order does not matter, numbers when it
-          does '
+        title: "6.02 - Use bullet points when order does not matter, numbers when it
+          does "
       - tags:
           - Copy
-        title: '6.03 - Avoid using bullet points when they do not fit '
+        title: "6.03 - Avoid using bullet points when they do not fit "
       - tags:
           - Copy
-        title:
-          6.04 - Place a period after the last bullet point if the bullet list is
+        title: 6.04 - Place a period after the last bullet point if the bullet list is
           an enumeration
   - section: Code & script
     checklistList:
@@ -1027,21 +931,19 @@ checklist:
           * Use WAI-ARIA for elements that can't be expressed with regular HTML.
 
           * För subscription services, use RSS eller Atom.Make it possible to subscribe to information.
-
         relatedLinks:
-          - text: 'Using WAI-ARIA'
+          - text: Using WAI-ARIA
             url: https://www.w3.org/TR/wai-aria-1.1/#usage
-          - text: 'Understanding Success Criterion 3.3.2: Labels or Instructions'
+          - text: "Understanding Success Criterion 3.3.2: Labels or Instructions"
             url: https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html
-          - text: 'Skapa tydliga och klickbara fältetiketter'
+          - text: Skapa tydliga och klickbara fältetiketter
             url: https://webbriktlinjer.se/riktlinjer/55-skapa-tydliga-och-klickbara-faltetiketter/
-          - text: 'Gör det möjligt att prenumerera på information'
+          - text: Gör det möjligt att prenumerera på information
             url: https://webbriktlinjer.se/riktlinjer/87-gor-det-mojligt-att-prenumerera-pa-information/
-          - text: 'The Atom Syndication Format'
+          - text: The Atom Syndication Format
             url: https://www.ietf.org/rfc/rfc4287.txt
-          - text: 'Använd rätt html-element när ni gör listor'
+          - text: Använd rätt html-element när ni gör listor
             url: https://webbriktlinjer.se/riktlinjer/104-gor-listor-med-de-html-element-som-ar-till-for-att-skapa-listor/
-
       - tags:
           - Developer
         title: 7.02 - Offer the possibility to skip repeating content
@@ -1063,18 +965,15 @@ checklist:
           * Use structure elements like “main”, “aside”, “header”, “footer” and “nav” to define roles for each section of the page. 
 
           * R68. Create shortcuts as necessary.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.4.1: Bypass Blocks'
+          - text: "Understanding Success Criterion 2.4.1: Bypass Blocks"
             url: https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html
-          - text: 'Erbjud möjlighet att hoppa förbi återkommande innehåll'
+          - text: Erbjud möjlighet att hoppa förbi återkommande innehåll
             url: https://webbriktlinjer.se/riktlinjer/75-gruppera-och-skapa-mojlighet-att-hoppa-forbi-delar-pa-sidorna/
-
       - tags:
           - Developer
         title: 7.03 - Offer the possibility to go back
-        text:
-          The backward-button should always work and let the user return to a
+        text: The backward-button should always work and let the user return to a
           previous page. In some cases, when a user is in the process of making
           a purchase, you may need to inform the user that they’ll lose progress
           if they go backwards. This is OK, as long as the user understands the
@@ -1100,13 +999,11 @@ checklist:
           * Inform the user which shortcuts are available to them.
 
           * Provide the option to turn off or change shortcuts that consist of only one key press.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 2.1.4: Character Key Shortcuts'
+          - text: "Understanding Success Criterion 2.1.4: Character Key Shortcuts"
             url: https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html
-          - text: 'Skapa kortkommandon med varsamhet'
+          - text: Skapa kortkommandon med varsamhet
             url: https://webbriktlinjer.se/riktlinjer/68-skapa-snabbkommandon-for-viktiga-funktioner/
-
       - tags:
           - Developer
         title: 7.05 - Make sure the code validates
@@ -1138,13 +1035,11 @@ checklist:
           * Verify that your function templates, services and style templates validate in accordance with the HTML 5 standard.
 
           * Try automating a recurring code validation, or create a validation routine procedure when changes to the website code occur. It is easy for previously correct code to become invalid. This could happen when a plugin is updated, a media player is inserted in a blog post, or when someone creates a post in a comment hosting service.
-
         relatedLinks:
-          - text: 'Understanding Success Criterion 4.1.1: Parsing'
+          - text: "Understanding Success Criterion 4.1.1: Parsing"
             url: https://www.w3.org/WAI/WCAG21/Understanding/parsing.html
-          - text: 'Se till att koden validerar'
+          - text: Se till att koden validerar
             url: https://webbriktlinjer.se/riktlinjer/84-se-till-att-koden-validerar/
-
       - tags:
           - Developer
         title: 7.06 - Make sure page speed is up to standard
@@ -1190,40 +1085,33 @@ checklist:
       - tags:
           - Developer
         title: 7.07 - All actions should be accessible through a keyboard
-        text: >-
-          Verify that all functionality works using a keyboard alone, since many
+        text: Verify that all functionality works using a keyboard alone, since many
           aids in practice function like a keyboard. Users that only use a
           keyboard or aids that connect to keyboard shortcuts, are dependent on
           the system not requiring a mouse or a touch screen.
-
         relatedLinks:
-          - text: 'Understanding Guideline 2.1: Keyboard Accessible'
+          - text: "Understanding Guideline 2.1: Keyboard Accessible"
             url: https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible
-
       - tags:
           - Developer
         title: 7.08 - State the language of the content in the code
-        text:
-          In order to facilitate correct hyphenation, automatic translation and
+        text: In order to facilitate correct hyphenation, automatic translation and
           increase the likelihood of screen readers presenting content
           correctly, define the language in the html code. This is done with
           lang-attribute and language code.
       - tags:
           - Developer
-        title: '7.09 - Navigation aids present messages not in focus '
-        text: >-
-          Make sure users with aids like screen readers and magnification
-          software can be alerted to important messages even if they appear
-          outside of where the user has focus. Define where important messages
-          may appear by using role or aria-live attributes. The aids can then
-          recognise them and present them to the user at an appropriate time.
-
+        title: "7.09 - Navigation aids present messages not in focus "
+        text: Make sure users with aids like screen readers and magnification software
+          can be alerted to important messages even if they appear outside of
+          where the user has focus. Define where important messages may appear
+          by using role or aria-live attributes. The aids can then recognise
+          them and present them to the user at an appropriate time.
         relatedLinks:
-          - text: 'Understanding Success Criterion 4.1.3: Status Messages'
+          - text: "Understanding Success Criterion 4.1.3: Status Messages"
             url: https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html
-          - text: 'Se till att hjälpmedel kan presentera meddelanden som inte är i fokus'
+          - text: Se till att hjälpmedel kan presentera meddelanden som inte är i fokus
             url: https://webbriktlinjer.se/riktlinjer/164-meddelanden-som-inte-ar-fokus/
-
   - section: Apps
     checklistList:
       - tags:
@@ -1233,7 +1121,7 @@ checklist:
           - Tester
         title: 8.01 - Basic recommendations for apps
         text: >-
-
+          
 
           * Follow the web guidelines as far as they are applicable for apps
 
