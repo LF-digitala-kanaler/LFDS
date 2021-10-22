@@ -306,7 +306,7 @@ module.exports = {
         // HTTP headers
         headers: {
           // Learn about environment variables: https://gatsby.dev/env-vars
-          Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+          Authorization: `Bearer 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`,
         },
 
       },
