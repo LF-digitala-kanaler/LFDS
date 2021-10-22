@@ -120,3 +120,5 @@ build-timestamp
 
 .env.development
 .env.production
+
+.env*.env.development
