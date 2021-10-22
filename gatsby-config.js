@@ -319,7 +319,6 @@ module.exports = {
         },
       },
     },
-
     // GA
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
