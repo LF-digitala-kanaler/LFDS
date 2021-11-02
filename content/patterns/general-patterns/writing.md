@@ -1,15 +1,14 @@
 ---
 template: ArticlePage
 category: General patterns
-title: Writing
+title: Felmeddelanden
 intro: "Här kan du läsa om hur vi generellt skriver felmeddelanden i tjänster
   och informationstexter vid till exempel incidenter eller systemunderhåll. "
 description: ""
 contentTop: >-
-  ## Felmeddelanden
-
-
-  Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig, var vänlig och framförallt när det är vårt fel – var ödmjuk.
+  Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har
+  hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig,
+  var vänlig och framförallt när det är vårt fel – var ödmjuk.
 
 
   Felmeddelanden visas ofta i form av text under det aktuella fältet när det kommer till validering, eller som ett modalfönster (även kallat dialologruta eller pop-up) vid andra fel. Inloggat så visas de ofta som så kallade [Alerts](https://lf-digitala-kanaler.github.io/components/web/system-display/alert?copy).
