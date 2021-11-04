@@ -61,6 +61,12 @@ contentTop: >-
   Observera att 100 tecken är max i appen. Samma meddelande kan användas på Mina sidor. \
 
   På öppna sidorna kan 120 tecken användas. Där är Rubriken alltid Viktigt meddelande.
+
+
+  #### Exempel på felmeddelanden vi använt
+
+
+  "Just nu är det systemunderhåll i appen och det kan därför upplevas lite svajigt, 7.00 är vi klara!"
 wide: false
 lang: false
 ---
