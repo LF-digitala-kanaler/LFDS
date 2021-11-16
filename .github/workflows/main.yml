@@ -14,7 +14,8 @@ jobs:
           persist-credentials: false
      
       - uses: GuillaumeFalourd/SSH-to-HTTPS@v1     
-     
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
       - uses: enriikke/gatsby-gh-pages-action@v2.2.0
 
         with:
