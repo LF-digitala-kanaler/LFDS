@@ -1,15 +1,14 @@
 ---
 template: ArticlePage
 category: General patterns
-title: Writing
+title: Felmeddelanden
 intro: "Här kan du läsa om hur vi generellt skriver felmeddelanden i tjänster
   och informationstexter vid till exempel incidenter eller systemunderhåll. "
 description: ""
 contentTop: >-
-  ## Felmeddelanden
-
-
-  Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig, var vänlig och framförallt när det är vårt fel – var ödmjuk.
+  Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har
+  hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig,
+  var vänlig och framförallt när det är vårt fel – var ödmjuk.
 
 
   Felmeddelanden visas ofta i form av text under det aktuella fältet när det kommer till validering, eller som ett modalfönster (även kallat dialologruta eller pop-up) vid andra fel. Inloggat så visas de ofta som så kallade [Alerts](https://lf-digitala-kanaler.github.io/components/web/system-display/alert?copy).
@@ -62,6 +61,12 @@ contentTop: >-
   Observera att 100 tecken är max i appen. Samma meddelande kan användas på Mina sidor. \
 
   På öppna sidorna kan 120 tecken användas. Där är Rubriken alltid Viktigt meddelande.
+
+
+  #### Exempel på felmeddelanden vi använt
+
+
+  "Just nu är det systemunderhåll i appen och det kan därför upplevas lite svajigt, 7.00 är vi klara!"
 wide: false
 lang: false
 ---
