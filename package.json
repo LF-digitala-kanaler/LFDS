@@ -79,14 +79,14 @@
     "serve": "copy-files-from-to gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "copy:icons": "copyfiles -u 4 node_modules/lfui-icons/dist/sprite/**/* static/icons"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
     "gh-pages": "^3.1.0",
     "is-relative-url": "^3.0.0",
-    "lfui-components": "git+https://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:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#release/6.7.0",
+    "lfui-components": "https://github.com/LF-digitala-kanaler/LFUI-components.git#release/7.0.2",
+    "lfui-icons": "git+https://github.com/LF-digitala-kanaler/LFUI-icons.git",
     "prettier": "^2.1.1",
     "react-device-detect": "^1.15.0",
     "react-use": "^17.1.0"

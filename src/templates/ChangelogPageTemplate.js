@@ -10,7 +10,7 @@ import tabStyle from '../components/Tabs/index.module.css'
 const ChangelogPageTemplate = ({
   title,
   intro,
-  components,
+  versions,
   index,
   onTabsChange,
   body
@@ -21,6 +21,7 @@ const ChangelogPageTemplate = ({
       <Preamble text={intro} tag="p" align={'left'} />
       <Content className="Content Content--tight" source={body} />
     </Wrapper>
+
     <Tabs
       index={index === -1 ? 0 : index}
       onChange={onTabsChange}
@@ -29,14 +30,16 @@ const ChangelogPageTemplate = ({
       <TabList className={tabStyle.Tabs__list}>
         <Tab className={tabStyle.Tabs__link}>Components</Tab>
       </TabList>
+
       <TabPanels className={tabStyle.Tabs__panels}>
         {/* Get component release list from github */}
         <TabPanel className={tabStyle.Tabs__panel}>
           <Wrapper menu={true} tag="div" narrow>
             <div className="Content">
-              {components
-                .filter((item) => item.node.descriptionHTML !== '')
+
+              {versions.lfuiComponents
                 .map((item) => {
+
                   return (
                     <div key={item.node.tagName}>
                       <h2>{item.node.tagName}</h2>
@@ -47,7 +50,27 @@ const ChangelogPageTemplate = ({
                       />
                     </div>
                   )
-                })}
+
+                })
+              }
+              {versions.lfui
+                .map((item) => {
+
+                  { console.log(item, 'i') }
+                  return (
+                    <div key={item.node.tagName}>
+                      <h2>{item.node.tagName}</h2>
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: item.node.descriptionHTML,
+                        }}
+                      />
+                    </div>
+                  )
+
+                })
+              }
+
             </div>
           </Wrapper>
         </TabPanel>

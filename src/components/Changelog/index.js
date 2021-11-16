@@ -11,7 +11,7 @@ const Changelog = () => (
       query Changelog {
         log: github {
           organization(login: "LF-digitala-kanaler") {
-            repository(name: "LFUI") {
+            repository(name: "LFUI-components") {
               releases(
                 first: 3
                 orderBy: { field: CREATED_AT, direction: DESC }
@@ -32,7 +32,7 @@ const Changelog = () => (
       }
     `}
     render={(data) => {
-      console.log(data.log.organization.repository.releases)
+
       //get 3 latest lfui releases
       const latestVersions = data.log.organization.repository.releases.edges.map(
         (version) => {
