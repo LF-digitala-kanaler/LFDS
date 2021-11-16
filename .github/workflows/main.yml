@@ -12,11 +12,9 @@ jobs:
       - uses: actions/checkout@v2.4.0
         with:
           persist-credentials: false
-          
-      - name: Reconfigure git to use HTTP authentication
-        run: >
-          git config --global url."https://github.com/".insteadOf
-          ssh://git@github.com/
+     
+      - uses: GuillaumeFalourd/SSH-to-HTTPS@v1     
+     
       - uses: enriikke/gatsby-gh-pages-action@v2.2.0
 
         with:
