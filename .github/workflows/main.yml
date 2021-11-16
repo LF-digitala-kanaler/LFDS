@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:  
+          token: ${{ secrets.CHECKOUT_TOKEN }}
       - uses: enriikke/gatsby-gh-pages-action@v2.2.0
 
         with:
-          access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
+          access-token: ${{ secrets.CHECKOUT_TOKEN }}
           deploy-repo: lf-digitala-kanaler.github.io
           deploy-branch: master
