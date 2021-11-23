@@ -23,7 +23,7 @@ https://lf-digitala-kanaler.github.io/admin/
 
 ## Developing
 
-- Clone your repo to your local machine
+- Clone  repo to your local machine
 
 - `yarn install` – install dependencies
 
@@ -33,7 +33,7 @@ https://lf-digitala-kanaler.github.io/admin/
 
 ## Build
 
-- `yarn build` - Get latest LFUI updates
+- `yarn build` 
 
 ## Deploy
 
