@@ -6,7 +6,7 @@ intro: Tillsammans på Kund och kanalstöd har vi en målbild som vi strävar ef
 heroBlock:
   color: "#badaf3"
   quote: Med god insikt om kunderna ska vi skapa marknadens mest uppskattade
-    tjänster inom bank, försäkring, pension och fastighetsförmedling.
+    tjänster inom bank, försäkring, pension.
   cite: Susanne Bergh
 wide: false
 lang: false
