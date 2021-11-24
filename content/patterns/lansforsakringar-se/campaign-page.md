@@ -33,7 +33,9 @@ Det ska vara korta sidor med ett tydligt budskap och en tydlig väg till hur man
 
 ### Inledning
 
-Varje sida börjar med rubrik, ingress och dela. Bilden är valbar och kan ändras till en video.
+Varje sida börjar med rubrik och ingress. Bilden är valbar och finns i helskärm eller hela contentytan.
+
+<figure class="Image Image__default "><img src="/img/kampanj-toppbild.png" srcset="/img/kampanj-toppbild.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Content area
 
