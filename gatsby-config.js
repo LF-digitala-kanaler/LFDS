@@ -288,6 +288,7 @@ module.exports = {
           // Learn about environment variables: https://gatsby.dev/env-vars
           Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
         },
+
       },
     },
     {
