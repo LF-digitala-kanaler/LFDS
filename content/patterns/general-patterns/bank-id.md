@@ -6,9 +6,8 @@ title: BankID
 intro: When we want users to identify themselves BankID is our most common way
   of doing so. Depending on context it varies how we inform the user of the need
   to the identify/sign.
-contentTop: ''
+contentTop: ""
 ---
-
 ## Copy för BankID
 
 ### Primary button with BankID icon
@@ -52,7 +51,7 @@ Om något görs innan signering, i detta fall godkänn, så skriver vi det förs
 
 #### bankid_error_expired_transaction:
 
-Tiden rann ut – det tog för lång tid att öppna BankID-appen. Försök igen.
+Tiden rann ut – det tog för lång tid att signera. Försök igen.
 
 #### bankid_error_user_cancel:
 
@@ -60,7 +59,7 @@ Du valde att avbryta signeringen – det kanske var ett misstag? Försök igen e
 
 #### bankid_error_start_failed:
 
-Tiden rann ut – det tog för lång tid att signera. Försök igen.
+Tiden rann ut – det tog för lång tid att öppna BankID-appen. Försök igen.
 
 #### bankid_error_already_in_progress:
 
@@ -80,7 +79,7 @@ Du verkar sakna ett Mobilt BankID – du behöver BankID på en mobil enhet.
 
 **Tiden rann ut**
 
-Det tog för lång tid att öppna BankID-appen. Försök igen.
+Det tog för lång tid att signera. Försök igen.
 
 #### bankid_error_user_cancel:
 
@@ -92,7 +91,7 @@ Det kanske var ett misstag? Försök igen eller välkommen tillbaka en annan gå
 
 **Tiden rann ut**
 
-Det tog för lång tid att signera. Försök igen.
+Det tog för lång tid att öppna BankID-appen. Försök igen.
 
 #### bankid_error_already_in_progress:
 
