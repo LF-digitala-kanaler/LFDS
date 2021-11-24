@@ -39,4 +39,6 @@ Varje sida börjar med rubrik och ingress. Bilden är valbar och finns i helskä
 
 ### Content area
 
-Under bilden bygger du upp din text med brödtext och mellanrubriker. Länka gärna vidare i texten m
+Under din inledning kan du egentligen bygga upp din sida precis hur du vill. Här kommer lite exempel:
+
+<figure class="Image Image__default "><img src="/img/delar-på-sidan-1.jpg" srcset="/img/delar-på-sidan-1.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
