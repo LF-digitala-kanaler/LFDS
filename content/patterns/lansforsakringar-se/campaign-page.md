@@ -15,4 +15,6 @@ wide: false
 lang: false
 hidden: false
 ---
+<figure class="Image Image__border "><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
 Här komemr text
