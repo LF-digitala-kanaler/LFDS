@@ -15,13 +15,11 @@ wide: false
 lang: false
 hidden: false
 ---
-<figure class="Image Image__default Image__wide"><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__default "><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
-**Primärt syfte:** Att ge kunden ett kampanjerbjudande.
-
-
+**Primärt syfte:** Att ge kunden ett erbjudande med en tydlig väg till konvertering.
 
 ## Beskrivning
 
@@ -42,8 +40,6 @@ Varje sida börjar med rubrik och ingress. Bilden är valbar och finns i helskä
 I content area kan du egentligen bygga upp din sida precis hur du vill. Här kommer lite exempel:
 
 <figure class="Image Image__default "><img src="/img/delar-på-sidan-1.jpg" srcset="/img/delar-på-sidan-1.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-
 
 <figure class="Image Image__default "><img src="/img/delar-på-sidan-2.jpg" srcset="/img/delar-på-sidan-2.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
