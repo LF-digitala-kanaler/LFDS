@@ -286,7 +286,7 @@ module.exports = {
         // HTTP headers
         headers: {
           // Learn about environment variables: https://gatsby.dev/env-vars
-          Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+          Authorization: `Bearer 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`,
         },
 
       },
