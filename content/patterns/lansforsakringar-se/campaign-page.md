@@ -10,7 +10,7 @@ description: "Kampanjsidan används för att göra kampanjer på lf.se. Den finn
   flera olika format och många valmöjligheter. "
 contentTop: ""
 heroBlock:
-  image: /img/olika-kampanjsidor.png
+  image: ""
 wide: false
 lang: false
 hidden: false
