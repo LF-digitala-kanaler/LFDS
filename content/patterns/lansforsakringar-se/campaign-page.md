@@ -15,13 +15,15 @@ wide: false
 lang: false
 hidden: false
 ---
-<figure class="Image Image__background Image__wide"><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background "><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-# Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
+## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
 **Primärt syfte:** Att ge kunden ett kampanjerbjudande.
 
-# Beskrivning
+
+
+## Beskrivning
 
 Vi skapar kampanjsidor där det finns ett erbjudande för en specifik produkt eller en samling av produkter. Här kan vi isolera oss till erbjudandet och inte fördjupa oss i produkt och villkor. Vi har en tydlig koppling till både produktsidor och köptjjänster från denna sida för att man lätt ska kunna läsa mer eller teckna/köpa produkten direkt.
 
