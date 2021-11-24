@@ -2,11 +2,10 @@
 template: ArticlePage
 category: Principles and strategies
 title: Vår målbild
-intro: Tillsammans på Kund och kanalstöd har vi en målbild som vi strävar efter
+intro: På LFAB och Kund- och kanalstöd har vi en målbild som vi strävar efter
   att uppfylla.
 description: ""
-contentTop: "Med god insikt om kunderna ska vi skapa marknadens bästa och mest
-  uppskattade tjänster inom bank, försäkring, pension och fastighetsförmedling."
+contentTop: ""
 heroBlock:
   quote: ""
   cite: ""
@@ -14,6 +13,8 @@ wide: false
 lang: false
 hidden: false
 ---
+<div class="Callout"><strong class="Callout__title">Målbild </strong><p class="Callout__text">Med god insikt om kunderna ska vi skapa marknadens bästa och mest uppskattade tjänster inom bank, försäkring, pension och fastighetsförmedling.</p></div>
+
 **Med god insikt** - Vi behöver veta vad kunderna vill ex intervjuer, användningstester och analys - kan vara bra här.
 
 **Marknadens bästa** - Vi behöver ha time-to-market, vi behöver kämpa lite extra och pusha för att våra primära användare i olika situationer får en riktigt bra upplevelse och till och med ibland överträffar kundens förväntningar.
