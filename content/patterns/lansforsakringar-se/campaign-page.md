@@ -15,7 +15,7 @@ wide: false
 lang: false
 hidden: false
 ---
-<figure class="Image Image__background "><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__background Image__wide"><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
