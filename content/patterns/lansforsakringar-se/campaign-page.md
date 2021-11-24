@@ -3,10 +3,16 @@ template: ArticlePage
 category: Lansforsakringar se
 previewImage: /img/lf_se-campangepage.png
 title: Campaign page
-intro: Kampanjsidan
-description: Kampanjsidan
+intro: Kampanjsidan används för att göra kampanjer på lf.se. Den finns i flera
+  olika format och många valmöjligheter. Du får en kampanjsidan som också följer
+  alla regelverk - riktigt bra kan man säga!
+description: "Kampanjsidan används för att göra kampanjer på lf.se. Den finns i
+  flera olika format och många valmöjligheter. "
+contentTop: ""
+heroBlock:
+  image: /img/olika-kampanjsidor.png
 wide: false
 lang: false
 hidden: false
-contentTop: ''
 ---
+Här komemr text
