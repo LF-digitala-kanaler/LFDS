@@ -19,13 +19,13 @@ hidden: false
 
 # Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
-**Primärt syfte:** Ge djupare information om ett ämne
+**Primärt syfte:** Att ge kunden ett kampanjerbjudande.
 
 # Beskrivning
 
-Vi skapar informationssidor där det behövs en fördjupning i ett ämne som kunden vill veta mer om. Viktigt är att inte jobba med textväggar här utan att göra en redaktionellt bra text med mellan rubriker och visuella delar som användaren kan vila ögonen på och förstå textens innehåll.
+Vi skapar kampanjsidor där det finns ett erbjudande för en specifik produkt eller en samling av produkter. Här kan vi isolera oss till erbjudandet och inte fördjupa oss i produkt och villkor. Vi har en tydlig koppling till både produktsidor och köptjjänster från denna sida för att man lätt ska kunna läsa mer eller teckna/köpa produkten direkt.
 
-Läs mer om hur du bygger upp text på ett bra sätt
+Det ska vara korta sidor med ett tydligt budskap och en tydlig väg till hur man skaffar produkter eller erbjudandet.
 
 ## Delar på sida[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#delar-p%C3%A5-sida)
 
