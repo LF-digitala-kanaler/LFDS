@@ -35,7 +35,7 @@ Det ska vara korta sidor med ett tydligt budskap och en tydlig väg till hur man
 
 Varje sida börjar med rubrik och ingress. Bilden är valbar och finns i helskärm eller hela contentytan.
 
-<figure class="Image Image__default "><img src="/img/kampanj-toppbild.png" srcset="/img/kampanj-toppbild.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__default "><img src="/img/kampanj-toppbild2.png" srcset="/img/kampanj-toppbild2.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ### Content area
 
