@@ -5,15 +5,13 @@ title: Vår målbild
 intro: Tillsammans på Kund och kanalstöd har vi en målbild som vi strävar efter
   att uppfylla.
 description: ""
-contentTop: "> Med god insikt om kunderna ska vi skapa marknadens bästa och mest
+contentTop: "Med god insikt om kunderna ska vi skapa marknadens bästa och mest
   uppskattade tjänster inom bank, försäkring, pension och fastighetsförmedling."
 heroBlock:
   color: null
   quote: ""
   cite: ""
 wide: false
-lang: false
-hidden: false
 ---
 **Med god insikt** - Vi behöver veta vad kunderna vill ex intervjuer, användningstester och analys - kan vara bra här.
 
