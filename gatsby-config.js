@@ -142,18 +142,6 @@ module.exports = {
             },
             store: true,
           },
-          // {
-          //   name: 'heading',
-          //   indexed: false,
-          //   resolver: 'fields.frontmattermd.tabs', // not a frontmatter field
-          //   store: true,
-          // },
-          // {
-          //   name: 'heading',
-          //   indexed: false,
-          //   resolver: 'headings.value', // all headings outside of tabs not working. Try to create a node in fields with these values
-          //   store: true,
-          // },
           {
             name: 'url',
             indexed: false,
@@ -169,8 +157,6 @@ module.exports = {
       options: {
         pedantic: false,
         plugins: [
-          // gatsby-remark-relative-images must
-          // go before gatsby-remark-images
           {
             resolve: 'gatsby-remark-component',
             options: { components: ['Collapse'] },
@@ -300,9 +286,8 @@ module.exports = {
         // HTTP headers
         headers: {
           // Learn about environment variables: https://gatsby.dev/env-vars
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
         },
-
       },
     },
     {

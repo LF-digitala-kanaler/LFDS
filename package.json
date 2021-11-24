@@ -85,7 +85,7 @@
     "copyfiles": "^2.4.1",
     "gh-pages": "^3.1.0",
     "is-relative-url": "^3.0.0",
-    "lfui-components": "https://${ACCESS_TOKEN}:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#release/7.0.2",
+    "lfui-components": "https://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:x-oauth-basic@github.com/LF-digitala-kanaler/LFUI-components.git#release/7.0.2",
     "prettier": "^2.1.1",
     "react-device-detect": "^1.15.0",
     "react-use": "^17.1.0"

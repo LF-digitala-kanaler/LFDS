@@ -31,11 +31,10 @@ const AccessibilityPageTemplate = ({
   const handleChildClick = (index) => {
     setRole(roles[index])
   }
-  console.log(activeRole)
+
   const handleChange = (event) => {
     setCheckedItems({ ...checkedItems, [event.target.name]: event.target.checked });
   }
-  // add null check on tags
 
   useEffect(() => {
     if (activeRole !== "All roles") {
@@ -48,7 +47,6 @@ const AccessibilityPageTemplate = ({
     }
   }, [checklist, activeRole])
 
-  console.log(list, 'list')
   const listStyle = {
     display: 'flex',
     padding: 0,
@@ -57,21 +55,25 @@ const AccessibilityPageTemplate = ({
     flexWrap: 'wrap',
     alignImtes: 'baseline'
   }
+
   const style = {
     textUnderlinePosition: 'under',
     color: "#222",
     padding: '8px',
     display: 'block'
   }
+
   const heading = {
     marginTop: '16px',
     display: 'block'
   }
+
   const marginTop = {
     marginTop: '16px',
     display: 'block',
     marginBottom: '4px'
   }
+
   const marginBottom = {
     marginBottom: '0',
   }
