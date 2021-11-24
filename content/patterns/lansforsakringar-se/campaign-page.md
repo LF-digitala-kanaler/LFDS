@@ -42,3 +42,11 @@ Varje sida börjar med rubrik och ingress. Bilden är valbar och finns i helskä
 Under din inledning kan du egentligen bygga upp din sida precis hur du vill. Här kommer lite exempel:
 
 <figure class="Image Image__default "><img src="/img/delar-på-sidan-1.jpg" srcset="/img/delar-på-sidan-1.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+
+#### Grid
+
+<figure class="Image Image__default "><img src="/img/kampanj-grid.png" srcset="/img/kampanj-grid.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+Du kan stoppa in alla delar i en grid som gör att du kan lägga vad som helst bredvid varandra.
