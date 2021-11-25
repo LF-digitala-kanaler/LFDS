@@ -83,12 +83,11 @@ Här samlar vi det som du kanske söker efter men som du inte hittar i direkt na
 Krav från juridik är att dessa länkar alltid finns närvarande på lf.se. 
 
 * Personuppgifter
+* Cookies
+* Användarvillkor
+* Resdens in the U.S
 
-  Cookies
 
-  Användarvillkor
-
-  Resdens in the U.S
 
 #### Desktop version
 
