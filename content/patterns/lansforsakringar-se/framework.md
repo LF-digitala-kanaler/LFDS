@@ -89,10 +89,8 @@ Krav från juridik är att dessa länkar alltid finns närvarande på lf.se.
 
 
 
-#### Desktop version
-
-Här skriver jag
-
 #### Mobile version
 
-Här skriver jag
+Alla menyval som inte får plats i toppen fäller vi in under hamburgaren. Här hittar du segment, kontakta oss och sök .
+
+Footern fäller vi ihop sendan några år tillbaka för att inte sidorna ska upplevas så långa och att man förstår vad som är content sida vs footer. Tidigare år hade vi alla menyval utfällda men det blev inte en bra upplevelse.
