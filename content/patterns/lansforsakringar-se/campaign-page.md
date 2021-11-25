@@ -15,7 +15,7 @@ wide: false
 lang: false
 hidden: false
 ---
-<figure class="Image Image__default Image__wide"><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__default "><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
@@ -64,3 +64,13 @@ Vi har även tagit fram lite bilder för att förtydliga flödena till kampanjsi
 ### Externa kampanjer
 
 <figure class="Image Image__default "><img src="/img/kampanjflöde-extern-site.jpg" srcset="/img/kampanjflöde-extern-site.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+
+### Kampanjsida fullbreddsmall 
+
+Fullbreddsmallen kan med hjälp av en inlänkning integrera en extern sida att ta över hela ytan. Finns såklart för och nackdelar med detta. En är att vi inte riktigt kan mäta i google analytics vad som händer inne i den siten. Vi  har inte samma säkerhet och vet inte om vi följer lagar och regler på rätt sätt med cookies, lagring av data osv.
+
+Här minimerar vi också footern så vi låter fönstret falla ut i ramverket bättre.
+
+<figure class="Image Image__default "><img src="/img/fullbreddsmall-kampanj.png" srcset="/img/fullbreddsmall-kampanj.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
