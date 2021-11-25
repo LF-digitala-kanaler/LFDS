@@ -34,25 +34,35 @@ Huvudet på sidan är viktigt, det första jag ser och det som gör att jag kän
 
 Logotypen är alltid ett Länsbolags logotyp, det styrs av GPS eller ett val första gången du kommer in på sidan. 
 
+##### Byte av Länsförsäkringsbolag
+
+Du kan alltid byta länsbolag fortsatt genom att gå längst ner på sidan och välja "Välj annat länsförsäkringsbolag". På många sidor finns även ett val under huvudrubriken där det står, denna text "Informationen gäller för Länsförsäkringar XXX - Ändra" Här kan du också alltid justera vilket bolag du är inne på.
+
 ##### Val av segment
 
 Privat eller Företag & lantbruk - för att nå rätt information och få de olika produkterna de söker behöver kunden också välja mellan privat och företag & lantbruk. Företag och Lantbruk slogs ihop 2017 (typ) För att vi märkte att det var så otroligt många dubbletter och google gillar inte dubbletter. Vi testade även på våra lantbrukskunder om de såg sig som företagare eller lantbrukare. Här kände de att värdet var större att slå ihop dem båda så de lättare kom åt all information de behövde.
 
 Lantbruk finns dock kvar för att lyft vårt ursprung och att vi värnar extra starkt om lantbrukarna.
 
-##### Other languages 
+##### Other languages
 
 2018 gjorde vi även ett försök att se till att vi får ut mer information på flera olika språk. Man kan alltid som kund såklart använda sig av google translate men det blir inte alltid rätt att översätta en hel site. Här har vi nu samlat de prioriterade delarna
 
-##### Byte av Länsförsäkringsbolag
+##### Logga in
 
-Du kan alltid byta länsbolag fortsatt genom att gå längst ner på sidan och välja "Välj annat länsförsäkringsbolag". På många sidor finns även ett val under huvudrubriken där det står, denna text "Informationen gäller för Länsförsäkringar XXX - Ändra" Här kan du också alltid justera vilket bolag du är inne på.
+Logga in knappen är i en egen unik blå färg. Vi vill bara ha ett primärt val på varje sida - primärvalsknappen som konverterar på sidorna eller ta mig framåt i content på sidan, så valde vi att sätta Logg in i en egen färg.
+
+[Läs mer om knappar](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons)
 
 
 
 #### Top menu
 
-Här skriver jag
+Topp menyn tar användaren vidare till våra produkter inom Försäkring, bank och pension men även en tydlig väg till Om oss, kontakta oss och sök.
+
+Vi har valt att använda oss av en toppmeny som fälls ner. 
+
+Du kan läsa mer om hur vi kom fram till menyns utformande  och meny val i sammanställningen här:
 
 ### Footer
 
