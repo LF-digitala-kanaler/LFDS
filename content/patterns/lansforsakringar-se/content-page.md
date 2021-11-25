@@ -18,3 +18,5 @@ Tanken är att navigationssidor som har mycket innehåll under sitt paraply, som
 Kontentsidan länkar alltid till informationssidor. Alla komponenter som finns i den nya kontentmallen finns också i [kampanjsida ](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/campaign-page)(mallen) ska användas vid kampanjer. 
 
 Hör gärna av dig till Isabell om du har frågor eller känner att det finns en navigationssida som skulle må bra av den nya mallen.
+
+<figure class="Image Image__default "><img src="/img/kontentmall.png" srcset="/img/kontentmall.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
