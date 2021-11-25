@@ -11,6 +11,12 @@ wide: false
 lang: false
 hidden: false
 ---
+## Syfte
+
+**Primärt:** Vara en navigationssida men lyfta upp artiklar på ett bättre sätt.
+
+## Beskrivning
+
 Vi har fått en ny mall att jobba med i EpiServer. Den är främst till för att ersätta vissa navigationssidor.\
 De sidor som kommer få den nya mallen i dagsläget är [Skadeförebygg](https://www.lansforsakringar.se/stockholm/privat/forsakring/skadeanmalan/), Hållbarhetssidorna och Häsoportalen.\
 Tanken är att navigationssidor som har mycket innehåll under sitt paraply, som kanske presenteras bättre med en bild och text ska kunna använda mallen. Men de vanliga navigationssidorna fungerar som de tidigare har gjort.
