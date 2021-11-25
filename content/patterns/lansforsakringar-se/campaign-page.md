@@ -15,7 +15,7 @@ wide: false
 lang: false
 hidden: false
 ---
-<figure class="Image Image__default "><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image Image__default Image__wide"><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
@@ -47,8 +47,6 @@ I content area kan du egentligen bygga upp din sida precis hur du vill. Här kom
 
 <figure class="Image Image__default "><img src="/img/delar-på-sidan-4.jpg" srcset="/img/delar-på-sidan-4.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-
-
 Har du några problem med kampanjsidorna så kontaktar du redaktionen så hjälper de dig.
 
 ## Kampanjflöden
@@ -58,8 +56,6 @@ Vi har även tagit fram lite bilder för att förtydliga flödena till kampanjsi
 ### Kampanj med erbjudande
 
 <figure class="Image Image__default "><img src="/img/kampanjflöde-erbjudande-01.jpg" srcset="/img/kampanjflöde-erbjudande-01.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
-
-
 
 ### Varumärkes kampanj
 
