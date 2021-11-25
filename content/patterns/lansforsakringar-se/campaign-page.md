@@ -46,3 +46,25 @@ I content area kan du egentligen bygga upp din sida precis hur du vill. Här kom
 <figure class="Image Image__default "><img src="/img/delar-på-sidan-3.jpg" srcset="/img/delar-på-sidan-3.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 <figure class="Image Image__default "><img src="/img/delar-på-sidan-4.jpg" srcset="/img/delar-på-sidan-4.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+
+Har du några problem med kampanjsidorna så kontaktar du redaktionen så hjälper de dig.
+
+## Kampanjflöden
+
+Vi har även tagit fram lite bilder för att förtydliga flödena till kampanjsidan och hur vi leder fler vägar till kampanjen.
+
+### Kampanj med erbjudande
+
+<figure class="Image Image__default "><img src="/img/kampanjflöde-erbjudande-01.jpg" srcset="/img/kampanjflöde-erbjudande-01.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+
+### Varumärkes kampanj
+
+<figure class="Image Image__default "><img src="/img/kampanjflöde-varumärkesbyggande-01.jpg" srcset="/img/kampanjflöde-varumärkesbyggande-01.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+### Externa kampanjer
+
+<figure class="Image Image__default "><img src="/img/kampanjflöde-extern-site.jpg" srcset="/img/kampanjflöde-extern-site.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
