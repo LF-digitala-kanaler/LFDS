@@ -17,6 +17,8 @@ hidden: false
 ---
 <figure class="Image Image__default "><img src="/img/olika-kampanjsidor.png" srcset="/img/olika-kampanjsidor.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
+
+
 ## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
 **Primärt syfte:** Att ge kunden ett erbjudande med en tydlig väg till konvertering.
@@ -74,3 +76,11 @@ Fullbreddsmallen kan med hjälp av en inlänkning integrera en extern sida att t
 Här minimerar vi också footern så vi låter fönstret falla ut i ramverket bättre.
 
 <figure class="Image Image__default "><img src="/img/fullbreddsmall-kampanj.png" srcset="/img/fullbreddsmall-kampanj.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+
+
+
+### Integration av en extern funktion
+
+Det finns också möjlighet att integrera en extern funktion i sidan som tar en minimerad yta i content delen. Det kan både vara en video eller en webblänk till extern funktion.
+
+<figure class="Image Image__default "><img src="/img/iframa-liten-extern.png" srcset="/img/iframa-liten-extern.png 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
