@@ -54,8 +54,6 @@ Logga in knappen är i en egen unik blå färg. Vi vill bara ha ett primärt val
 
 [Läs mer om knappar](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons)
 
-
-
 #### Top menu
 
 Topp menyn tar användaren vidare till våra produkter inom Försäkring, bank och pension men även en tydlig väg till Om oss, kontakta oss och sök.
@@ -66,7 +64,31 @@ Du kan läsa mer om hur vi kom fram till menyns utformande  och meny val i samma
 
 ### Footer
 
-Här skriver jag
+Här samlar vi det som du kanske söker efter men som du inte hittar i direkt navigeringen eller som är tillräckligt viktigt, återkommande för kunderna att leta efter:
+
+**Hjälp mig att** - Våra vanligast tjänster och saker kunderna litar efter.
+
+**Läs mer om** - samlat innehåll/produkter mot en viss kundgrupp, familjeekonomi eller förebygg skada.
+
+**Om oss** - här lyfter vi ut vanligt återkommande material om företaget i footern som press och media och lediga jobb.
+
+**Kundservice** - Har man missat kontakta oss i toppen eller på sidan så ska man hitta det igen i footern.
+
+**Följ oss** - de sociala medier du kan följa oss i per länsbolag.
+
+**Tyck till** - finns alltid med i footern för att få kundernas inspel vad de tycker och vad vi kan förbättra.
+
+##### Länkar
+
+Krav från juridik är att dessa länkar alltid finns närvarande på lf.se. 
+
+* Personuppgifter
+
+  Cookies
+
+  Användarvillkor
+
+  Resdens in the U.S
 
 #### Desktop version
 
