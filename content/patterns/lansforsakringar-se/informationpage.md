@@ -3,16 +3,15 @@ template: ArticlePage
 category: Lansforsakringar se
 previewImage: /img/lf_se-informationpage.png
 title: Information page
-intro: 'Informationssidan ska ge kunden mer och djupare information om ett ämne.
-  Viktigt att bygga upp texten på ett sätt så den är lätt att ta in. '
+intro: "Informationssidan ska ge kunden mer och djupare information om ett ämne.
+  Viktigt att bygga upp texten på ett sätt så den är lätt att ta in. "
 description: The information page should do just that - give some more information.
+contentTop: ""
 wide: false
 lang: true
 hidden: false
-contentTop: ''
 ---
-
-<figure class="Image null Image__wide"><img src="/img/lfse-informationssidan.jpg" srcset="/img/lfse-informationssidan.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
+<figure class="Image null "><img src="/img/lfse-informationssidan.jpg" srcset="/img/lfse-informationssidan.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
 
@@ -36,7 +35,11 @@ Under bilden bygger du upp din text med brödtext och mellanrubriker. Länka gä
 
 Glöm inte att använda punkter, bockar eller grafik för att förenkla texten. Men gör inte allt på en gång. Faktarutor och informationsrutor kan också användas längst ner under texten med något man vill lyfta eller visa legal text. Men använd inte alla samtidigt.
 
-Bild, grafik och filmer kan du placera över hela ytan 100%, 50% eller som 33%
+Bild, grafik och filmer kan du placera över hela ytan 100%, 50% eller som 33%.
+
+[Du kan använda alla olika funktioner som vi listar även på kampanjsidan](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/campaign-page)
+
+
 
 ### Relaterad information
 
