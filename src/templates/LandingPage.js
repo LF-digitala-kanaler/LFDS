@@ -1,10 +1,10 @@
+import LandingPageTemplate from './LandingPageTemplate.js'
+import Layout from '../components/Layout.js'
+import React from 'react'
 import _ from 'lodash'
 import flow from 'lodash/fp/flow'
 import { graphql } from 'gatsby'
 import groupBy from 'lodash/fp/groupBy'
-import LandingPageTemplate from './LandingPageTemplate.js'
-import Layout from '../components/Layout.js'
-import React from 'react'
 
 const map = require('lodash/fp/map').convert({ cap: false })
 

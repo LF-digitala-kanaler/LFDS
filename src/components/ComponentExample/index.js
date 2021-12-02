@@ -33,7 +33,7 @@ const ComponentExample = ({
   }
   const [backgroundColor, setBackground] = useState(
     background ? background : '#fff'
-  ) // if background is set in Netlify, use that value
+  ) // if background is set in cms, use that value
   const [code, setCode] = useState(
     navigation ? nav[0].example[0].node.content : variants[0].node.content
   )

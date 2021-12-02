@@ -2,7 +2,7 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
-
+const fse = require('fs-extra')
 const cssLoaderRe = /\/css-loader\//
 const targetFile = `.module.css`
 
@@ -194,4 +194,25 @@ exports.onCreateNode = async ({
     const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta)
     createNode(htmlNode)
   }
+}
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createFieldExtension, createTypes } = actions
+  createFieldExtension({
+    name: "svgData",
+    extend(options, prevFieldConfig) {
+      return {
+        async resolve(source) {
+          if (source.extension === "svg" && source.sourceInstanceName === "icons") {
+            return fse.readFile(source.absolutePath, 'utf8')
+          }
+          return null
+        },
+      }
+    },
+  })
+  createTypes(`
+    type File implements Node {
+      svgData: String @svgData
+    }
+  `)
 }

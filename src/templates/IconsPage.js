@@ -1,13 +1,46 @@
 import IconsPageTemplate from './IconsTemplate.js'
 import Layout from '../components/Layout.js'
 import React from 'react'
+import _ from 'lodash'
+import flow from 'lodash/fp/flow'
 import { graphql } from 'gatsby'
-const IconsPage = ({ data: { page }, location }) => {
+import groupBy from 'lodash/fp/groupBy'
+
+const map = require('lodash/fp/map').convert({ cap: false })
+
+const IconsPage = ({ data: { page, icons }, location }) => {
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
     location: location,
   }
+
+  // group icons by directory
+  const iconList = flow(
+    groupBy('node.relativeDirectory'),
+    map((icon, group) => {
+      const icons = icon.map(icon => icon.node);
+      return ({
+        group,
+        icons,
+      })
+    }),
+
+  )(icons.edges)
+
+  // split into 2, one for "normal icons" and one for "special"
+
+  let iconsRegular = iconList.filter((item) => !item.group.includes('special/'))
+  let iconsSpecial = iconList.filter((item) => item.group.includes('special/'))
+
+
+
+  // sort them 
+  iconsRegular = _.orderBy(iconsRegular, ['group'], ['asc'])
+  iconsSpecial = _.orderBy(iconsSpecial, ['group'], ['asc'])
+
+  // const sortedIconListSpecial = _.orderBy(iconListSpecial, ['group'], ['asc'])
+  //console.log(sortedIconList)
   return (
     <Layout
       description={page.frontmatter.intro || false}
@@ -22,6 +55,8 @@ const IconsPage = ({ data: { page }, location }) => {
         {...page.frontmatter}
         bodyHtml={page.htmlAst}
         body={page.html}
+        iconsRegular={iconsRegular}
+        iconsSpecial={iconsSpecial}
       />
     </Layout>
   )
@@ -43,6 +78,15 @@ export const pageQuery = graphql`
         intro
         specialIconsContent
       }
+    }
+    icons: allFile(filter: { sourceInstanceName: { eq: "icons" } }) {
+      edges {
+        node {
+          svgData
+          name
+          relativeDirectory
+        }
+      } 
     }
   }
 `

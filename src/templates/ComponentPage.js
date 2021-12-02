@@ -22,6 +22,7 @@ const ComponentPage = ({
       )
       .map((x) => x.toLowerCase())
       .join('-')
+
   const componentExample = {
 
     examples: Object.prototype.hasOwnProperty.call(allComponentExample, 'edges')
@@ -33,7 +34,7 @@ const ComponentPage = ({
       )
       : false,
   }
-  console.log(componentExample.examples)
+
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,

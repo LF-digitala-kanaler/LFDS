@@ -55,8 +55,6 @@ const ChangelogPageTemplate = ({
               }
               {versions.lfui
                 .map((item) => {
-
-                  { console.log(item, 'i') }
                   return (
                     <div key={item.node.tagName}>
                       <h2>{item.node.tagName}</h2>

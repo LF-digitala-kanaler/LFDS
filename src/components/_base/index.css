@@ -219,23 +219,19 @@ a[href*='lfnet.se'] {
   }
 }
 
-/* icons grid remove when icons move to it's own repo */
-.Icons .row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.Icons .col-4 {
-  flex: 0 1 calc(50%);
-  @media (--small-viewport) {
-    flex: 0 1 calc(25%);
-  }
-}
 
 .CardGrid__grid {
   display: flex;
   flex-wrap: wrap;
   margin: var(--spacing-vertical--2) 0;
 }
+
+.Icons .icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start
+}
+
 .Icons .icon {
   color: #005aa0;
   display: inline-block;
@@ -251,7 +247,8 @@ a[href*='lfnet.se'] {
 .Icons .mb-2 {
   margin-bottom: 2rem !important;
 }
-.Icons .Content h3 {
+.Icons .Content h3,
+.Icons h3 {
   font-size: 1.5rem;
   line-height: 1.333;
   margin-bottom: var(--spacing-vertical--05);
@@ -267,3 +264,6 @@ a[href*='lfnet.se'] {
 .Position-relative {
   position: relative;
 }
+
+/* utils */
+

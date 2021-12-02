@@ -1,7 +1,6 @@
 import ChangelogPageTemplate from './ChangelogPageTemplate.js'
 import Layout from '../components/Layout.js'
 import React from 'react'
-import _ from 'lodash'
 import { graphql } from 'gatsby'
 import { navigate } from '@reach/router'
 
