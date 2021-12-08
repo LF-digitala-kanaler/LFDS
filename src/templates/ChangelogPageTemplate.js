@@ -13,7 +13,7 @@ const ChangelogPageTemplate = ({
   versions,
   index,
   onTabsChange,
-  body
+  body,
 }) => (
   <>
     <Wrapper tag="div" menu={true} narrow>
@@ -36,39 +36,30 @@ const ChangelogPageTemplate = ({
         <TabPanel className={tabStyle.Tabs__panel}>
           <Wrapper menu={true} tag="div" narrow>
             <div className="Content">
-
-              {versions.lfuiComponents
-                .map((item) => {
-
-                  return (
-                    <div key={item.node.tagName}>
-                      <h2>{item.node.tagName}</h2>
-                      <div
-                        dangerouslySetInnerHTML={{
-                          __html: item.node.descriptionHTML,
-                        }}
-                      />
-                    </div>
-                  )
-
-                })
-              }
-              {versions.lfui
-                .map((item) => {
-                  return (
-                    <div key={item.node.tagName}>
-                      <h2>{item.node.tagName}</h2>
-                      <div
-                        dangerouslySetInnerHTML={{
-                          __html: item.node.descriptionHTML,
-                        }}
-                      />
-                    </div>
-                  )
-
-                })
-              }
-
+              {versions.lfuiComponents.map((item) => {
+                return (
+                  <div key={item.node.tagName}>
+                    <h2>{item.node.tagName}</h2>
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: item.node.descriptionHTML,
+                      }}
+                    />
+                  </div>
+                )
+              })}
+              {versions.lfui.map((item) => {
+                return (
+                  <div key={item.node.tagName}>
+                    <h2>{item.node.tagName}</h2>
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: item.node.descriptionHTML,
+                      }}
+                    />
+                  </div>
+                )
+              })}
             </div>
           </Wrapper>
         </TabPanel>

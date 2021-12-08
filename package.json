@@ -16,7 +16,7 @@
     "date-fns": "^2.17.0",
     "del-cli": "^3.0.1",
     "downshift": "^6.1.0",
-    "gatsby": "^2.32.3",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-catch-links": "^2.10.0",
@@ -78,7 +78,8 @@
     "clean": "rm -rf .cache public",
     "serve": "copy-files-from-to gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "copy:icons": "copyfiles -u 4 node_modules/lfui-icons/dist/svg/**/* src/icons && copyfiles -u 4 node_modules/lfui-icons/dist/svg/**/**/* src/icons"
+    "copy:icons": "copyfiles -u 4 node_modules/lfui-icons/dist/svg/**/* src/icons && copyfiles -u 4 node_modules/lfui-icons/dist/svg/**/**/* src/icons",
+    "deploy": "yarn build && gh-pages -d public -r https://github.com/LF-digitala-kanaler/LFDS.git -b master"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",

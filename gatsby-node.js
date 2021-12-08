@@ -198,11 +198,14 @@ exports.onCreateNode = async ({
 exports.createSchemaCustomization = ({ actions }) => {
   const { createFieldExtension, createTypes } = actions
   createFieldExtension({
-    name: "svgData",
+    name: 'svgData',
     extend(options, prevFieldConfig) {
       return {
         async resolve(source) {
-          if (source.extension === "svg" && source.sourceInstanceName === "icons") {
+          if (
+            source.extension === 'svg' &&
+            source.sourceInstanceName === 'icons'
+          ) {
             return fse.readFile(source.absolutePath, 'utf8')
           }
           return null

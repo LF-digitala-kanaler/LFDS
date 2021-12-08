@@ -15,7 +15,6 @@ export const Heading = ({ text, tag, align, children, id }) => {
         style['Heading--' + align]
       )}
     >
-
       {text}
       {children}
     </Htag>

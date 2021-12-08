@@ -19,13 +19,12 @@ const IconsPage = ({ data: { page, icons }, location }) => {
   const iconList = flow(
     groupBy('node.relativeDirectory'),
     map((icon, group) => {
-      const icons = icon.map(icon => icon.node);
-      return ({
+      const icons = icon.map((icon) => icon.node)
+      return {
         group,
         icons,
-      })
-    }),
-
+      }
+    })
   )(icons.edges)
 
   // split into 2, one for "normal icons" and one for "special"
@@ -33,9 +32,7 @@ const IconsPage = ({ data: { page, icons }, location }) => {
   let iconsRegular = iconList.filter((item) => !item.group.includes('special/'))
   let iconsSpecial = iconList.filter((item) => item.group.includes('special/'))
 
-
-
-  // sort them 
+  // sort them
   iconsRegular = _.orderBy(iconsRegular, ['group'], ['asc'])
   iconsSpecial = _.orderBy(iconsSpecial, ['group'], ['asc'])
 
@@ -49,7 +46,6 @@ const IconsPage = ({ data: { page, icons }, location }) => {
       menu={true}
       breadcrumb={breadcrumb}
     >
-
       <IconsPageTemplate
         {...page}
         {...page.frontmatter}
@@ -86,7 +82,7 @@ export const pageQuery = graphql`
           name
           relativeDirectory
         }
-      } 
+      }
     }
   }
 `

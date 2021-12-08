@@ -24,15 +24,13 @@ const ArticlePage = ({ data: { page }, location }) => {
         bodyHtml={page.htmlAst}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
-        contentTop={page.frontmatter.contentTop
-        }
+        contentTop={page.frontmatter.contentTop}
       />
     </Layout>
   )
 }
 
 export default ArticlePage
-
 
 // Get data from GraphiQL
 
@@ -58,7 +56,6 @@ export const pageQuery = graphql`
           }
         }
       }
-      
     }
   }
 `

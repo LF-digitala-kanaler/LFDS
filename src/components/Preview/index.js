@@ -1,5 +1,5 @@
 import cx from 'classnames'
-import React from 'react';
+import React from 'react'
 import { Resizable } from 're-resizable'
 import style from './index.module.css'
 
@@ -7,7 +7,12 @@ const Preview = ({ children, resize }) => {
   const verticalResize = resize === 'yes' ? true : false
 
   return (
-    <div className={cx(style.Preview, verticalResize ? style['Preview--vertical'] : '')}>
+    <div
+      className={cx(
+        style.Preview,
+        verticalResize ? style['Preview--vertical'] : ''
+      )}
+    >
       <Resizable
         id="resizable"
         enable={{
@@ -22,7 +27,6 @@ const Preview = ({ children, resize }) => {
         minWidth={300}
         maxWidth="100%"
         minHeight="300"
-
         defaultSize={{
           height: verticalResize ? '300px' : '100%',
         }}
@@ -31,7 +35,6 @@ const Preview = ({ children, resize }) => {
           bottomRight: <PreviewhandleCorner />,
         }}
       >
-
         <div className={style.Preview__box}>{children}</div>
       </Resizable>
     </div>
@@ -43,7 +46,10 @@ const Previewhandle = () => (
 )
 
 const PreviewhandleCorner = () => (
-  <div className={cx(style.Preview__resize, style['Preview__resize--corner'])} draggable="true"></div>
+  <div
+    className={cx(style.Preview__resize, style['Preview__resize--corner'])}
+    draggable="true"
+  ></div>
 )
 
 export default Preview

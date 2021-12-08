@@ -4,13 +4,9 @@ import React from 'react'
 import Wrapper from '../Wrapper'
 
 const BrowserBanner = () => {
-
   return (
     <>
-
-      <article
-        className={style.BrowserBanner}
-      >
+      <article className={style.BrowserBanner}>
         <div className={style['BrowserBanner__content']}>
           <Wrapper wide center tag="div" menu={true}>
             <div className={style.BrowserBanner__container}>
@@ -32,15 +28,14 @@ const BrowserBanner = () => {
               <div>
                 <strong>We´re sorry, but</strong>
                 <p className={style.BrowserBanner__text}>
-                  your browser isn´t supported. To enjoy our site, try using a newer browser like Edge, Chrome, Firefox or Safari.
-                    </p>
+                  your browser isn´t supported. To enjoy our site, try using a
+                  newer browser like Edge, Chrome, Firefox or Safari.
+                </p>
               </div>
             </div>
           </Wrapper>
-
         </div>
       </article>
-
     </>
   )
 }

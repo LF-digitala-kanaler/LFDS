@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 export const query = graphql`
   fragment Meta on MarkdownRemark {
@@ -29,8 +29,6 @@ export default class Meta extends Component {
 
     return (
       <Helmet>
-        {/* {console.log(description, 'desc')} */}
-
         {title && <meta name="title" content={title} />}
         {description && <meta name="description" content={description} />}
 

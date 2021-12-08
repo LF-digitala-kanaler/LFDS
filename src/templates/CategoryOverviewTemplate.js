@@ -41,4 +41,4 @@ const CategoryOverviewTemplate = ({
   </>
 )
 
-export default CategoryOverviewTemplate;
+export default CategoryOverviewTemplate

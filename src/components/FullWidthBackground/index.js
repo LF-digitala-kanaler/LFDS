@@ -4,8 +4,6 @@ import Img from 'gatsby-image'
 import React from 'react'
 
 const FullWidthBackground = ({ image, children, title }) => {
-
-  console.log(image, 'IMG')
   return (
     <div className={style.FullWidthBackground}>
       {/* if inside netlify cms show regular image */}
@@ -15,9 +13,7 @@ const FullWidthBackground = ({ image, children, title }) => {
         <Img fluid={image} />
       )}
       {title && <h2 className={style.FullWidthBackground__title}>{title}</h2>}
-      <div className={style.FullWidthBackground__container}>
-        {children}
-      </div>
+      <div className={style.FullWidthBackground__container}>{children}</div>
     </div>
   )
 }

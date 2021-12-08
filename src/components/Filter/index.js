@@ -5,7 +5,6 @@ import React, { useState } from 'react'
 import cx from 'classnames'
 
 const Filter = ({ items, onChildClick }) => {
-
   const [active, setActive] = useState(0)
 
   const handleClick = (index) => {
@@ -20,19 +19,16 @@ const Filter = ({ items, onChildClick }) => {
           onClick={() => handleClick(index, item)}
           className={cx(
             style.Filter__button,
-            active === index
-              ? style['Filter__button--isActive']
-              : ''
+            active === index ? style['Filter__button--isActive'] : ''
           )}
-        >{item}
-
+        >
+          {item}
         </button>
       </dd>
     )
   })
 
   return (
-
     <dl className={style.Filter}>
       <dt className={style.Filter__title}></dt>
       {listItems}
@@ -41,4 +37,3 @@ const Filter = ({ items, onChildClick }) => {
 }
 
 export default Filter
-

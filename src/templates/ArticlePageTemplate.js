@@ -23,7 +23,7 @@ const ArticlePageTemplate = ({
   bodyHtml,
   heroBlock,
   wrapperWidth,
-  contentTop
+  contentTop,
 }) => (
   <>
     <Wrapper tag="div" menu={true} narrow>
@@ -42,20 +42,21 @@ const ArticlePageTemplate = ({
         cite={heroBlock.cite}
         image={heroBlock.image}
       />
-
     )}
     <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
       {bodyHtml ? (
         <div
-          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-            }`}
+          className={`Content  ${
+            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+          }`}
         >
           {renderAst(bodyHtml)}
         </div>
       ) : (
         <Content
-          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-            }`}
+          className={`Content  ${
+            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+          }`}
           source={body}
         />
       )}

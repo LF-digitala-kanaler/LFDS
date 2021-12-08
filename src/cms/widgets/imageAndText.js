@@ -21,7 +21,8 @@ const ImageAndText = {
       hint: 'Leave image field empty if you just want a narrow text column',
     },
   ],
-  pattern: /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">\n\n(.*)<\/div><div class="ImageBlock__object"><img class="ImageBlock__image" src="(.*)" alt="" \/><\/div><\/div>/,
+  pattern:
+    /^<div class="ImageBlock (.*)"><div class="ImageBlock__content">\n\n(.*)<\/div><div class="ImageBlock__object"><img class="ImageBlock__image" src="(.*)" alt="" \/><\/div><\/div>/,
   fromBlock(match) {
     return {
       position: match[1],

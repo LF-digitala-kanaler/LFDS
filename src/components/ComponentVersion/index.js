@@ -67,10 +67,7 @@ export const ComponentVersion = ({ version }) => {
         return (
           <p className={style.ComponentVersion}>
             {' '}
-            Version:{' '}
-            <span>
-              {versions[0].bootstrap.changedInVersion[0]}
-            </span>
+            Version: <span>{versions[0].bootstrap.changedInVersion[0]}</span>
           </p>
         )
       } else {

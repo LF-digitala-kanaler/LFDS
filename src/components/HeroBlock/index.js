@@ -5,7 +5,6 @@ import React from 'react'
 import Wrapper from '../Wrapper'
 
 const HeroBlock = ({ background, quote, cite, image }) => {
-
   const backgroundStyle = {
     backgroundColor: background,
     backgroundImage: image ? `url(${image.publicURL})` : 'none',
@@ -14,20 +13,21 @@ const HeroBlock = ({ background, quote, cite, image }) => {
   return (
     <>
       {(image != null || background != null) && (
-        <article className={cx(
-          style.HeroBlock,
-          image ? style['HeroBlock--image'] : ' '
-        )}
+        <article
+          className={cx(
+            style.HeroBlock,
+            image ? style['HeroBlock--image'] : ' '
+          )}
           style={backgroundStyle}
         >
           <Wrapper tag="div" menu={true} narrow>
             <div>
-              {quote &&
+              {quote && (
                 <blockquote className={style.HeroBlock__quote}>
                   <p className={style.HeroBlock__text}>{quote}</p>
                   <footer className={style.HeroBlock__cite}>{cite}</footer>
                 </blockquote>
-              }
+              )}
             </div>
           </Wrapper>
         </article>

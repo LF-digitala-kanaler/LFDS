@@ -41,7 +41,6 @@ const ComponentExample = ({
   const [minHeight, setHeight] = useState(300)
   const iframeRef = React.createRef()
 
-  console.log(source)
   const toggleCode = () => {
     setSource(!source)
   }
@@ -108,7 +107,6 @@ const ComponentExample = ({
 
   return (
     <React.Fragment>
-
       <div className={style.ComponentExample}>
         <div className={style.ComponentExample__head}>
           <div>
@@ -118,8 +116,6 @@ const ComponentExample = ({
                 navigation={nav}
               />
             )}
-
-
           </div>
           <div>
             <Actions
@@ -226,7 +222,6 @@ const ComponentExample = ({
             }
           >
             <Content source={`${code}`} />
-
           </Frame>
         </Preview>
       </div>

@@ -24,7 +24,8 @@ const ColorWidget = {
       ],
     },
   ],
-  pattern: /^<article class="Colors__item Colors__item--(.*)" style="border-color:(.*)"><div class="Colors__(.*)"><div class="Colors__background" style={background-color:"(.*)">(.*)<\/div><h3 class="Colors__title">(.*)<\/h3><p class="Colors__text"><span>RGB<\/span> (.*)<\/p><p class="Colors__text"><span>HEX<\/span> (.*)<\/p><\/div><\/article>/,
+  pattern:
+    /^<article class="Colors__item Colors__item--(.*)" style="border-color:(.*)"><div class="Colors__(.*)"><div class="Colors__background" style={background-color:"(.*)">(.*)<\/div><h3 class="Colors__title">(.*)<\/h3><p class="Colors__text"><span>RGB<\/span> (.*)<\/p><p class="Colors__text"><span>HEX<\/span> (.*)<\/p><\/div><\/article>/,
   fromBlock: (match) => {
     return {
       id: match[1],

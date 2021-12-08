@@ -4,14 +4,11 @@ import Layout from '../components/Layout.js'
 import React from 'react'
 
 const AccessibilityPage = ({ data: { page }, location }) => {
-
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
     location: location,
   }
-
-
 
   return (
     <Layout
@@ -35,7 +32,6 @@ const AccessibilityPage = ({ data: { page }, location }) => {
 
 export default AccessibilityPage
 
-
 // Get data from GraphiQL
 
 export const pageQuery = graphql`
@@ -48,7 +44,7 @@ export const pageQuery = graphql`
         template
         category
         wide
-  
+
         checklist {
           section
           checklistList {
@@ -58,7 +54,7 @@ export const pageQuery = graphql`
             relatedLinks {
               text
               url
-            }          
+            }
           }
         }
         heroBlock {
@@ -69,7 +65,6 @@ export const pageQuery = graphql`
             publicURL
           }
         }
-        
       }
       fields {
         frontmattermd {

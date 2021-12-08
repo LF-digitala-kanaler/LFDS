@@ -6,11 +6,11 @@ import Layout from '../components/Layout.js'
 import React from 'react'
 
 const HomePage = ({ data: { page } }) => {
-
   const sources = [
     page.frontmatter.fullWidthImage.fullWidthImageDesktop.childImageSharp.fluid,
     {
-      ...page.frontmatter.fullWidthImage.fullWidthImageMobile.childImageSharp.fluid,
+      ...page.frontmatter.fullWidthImage.fullWidthImageMobile.childImageSharp
+        .fluid,
       media: `(max-width: 820px)`,
     },
   ]
@@ -95,7 +95,6 @@ export const query = graphql`
             }
           }
         }
-        
       }
     }
   }

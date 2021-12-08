@@ -18,7 +18,7 @@ const HomePageTemplate = ({
   shortcutsImage,
   fullWidthImage,
   relatedLinks,
-  images
+  images,
 }) => (
   <>
     <Wrapper wide center tag="div">
@@ -30,7 +30,6 @@ const HomePageTemplate = ({
       <Row gutter={64} justify="center">
         {shortcuts &&
           shortcuts.map((item) => {
-
             return (
               <Col span={12} sm={6} md={4} key={item.title}>
                 <Shortcut
@@ -46,12 +45,9 @@ const HomePageTemplate = ({
     </Wrapper>
 
     {fullWidthImage && (
-
       <FullWidthBackground
         title={fullWidthImage.title}
-        image={
-          images ? images : fullWidthImage.fullWidthImageDesktop
-        }
+        image={images ? images : fullWidthImage.fullWidthImageDesktop}
       >
         <Row gutter={52} justify="center">
           {shortcutsImage &&
@@ -105,4 +101,4 @@ const HomePageTemplate = ({
   </>
 )
 
-export default HomePageTemplate;
+export default HomePageTemplate

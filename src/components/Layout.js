@@ -52,8 +52,16 @@ export default ({
               }}
             >
               {title}
-              <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
-              <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#00427a" />
+              <link
+                rel="apple-touch-icon"
+                sizes="180x180"
+                href="/favicons/apple-touch-icon.png"
+              />
+              <link
+                rel="mask-icon"
+                href="/favicons/safari-pinned-tab.svg"
+                color="#00427a"
+              />
               <meta name="msapplication-TileColor" content="#2b5797" />
               <meta name="robots" content="noindex" />
             </Helmet>

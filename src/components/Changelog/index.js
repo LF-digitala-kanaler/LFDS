@@ -32,13 +32,11 @@ const Changelog = () => (
       }
     `}
     render={(data) => {
-
       //get 3 latest lfui releases
-      const latestVersions = data.log.organization.repository.releases.edges.map(
-        (version) => {
+      const latestVersions =
+        data.log.organization.repository.releases.edges.map((version) => {
           return version.node
-        }
-      )
+        })
 
       const formatDate = (date) => {
         const event = new Date(date)

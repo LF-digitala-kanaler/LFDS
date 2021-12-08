@@ -46,9 +46,7 @@ const ButtonsBlock = {
   },
 
   toBlock: (obj) => {
-    const items = Immutable.fromJS(obj.buttons || []).map(function (
-      item
-    ) {
+    const items = Immutable.fromJS(obj.buttons || []).map(function (item) {
       return `<div class="ButtonContent__item"><a class="button">href="${item.get(
         'href'
       )}">${item.get('text')}</a></div>`

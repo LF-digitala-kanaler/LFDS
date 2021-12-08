@@ -19,10 +19,9 @@ const AccessibilityPageTemplate = ({
   heroBlock,
   wrapperWidth,
   checklist,
-  checklistHtml
+  checklistHtml,
 }) => {
-
-  const [checkedItems, setCheckedItems] = useState({});
+  const [checkedItems, setCheckedItems] = useState({})
 
   const [list, setList] = useState([...checklist])
   const [activeRole, setRole] = useState('All roles')
@@ -33,13 +32,21 @@ const AccessibilityPageTemplate = ({
   }
 
   const handleChange = (event) => {
-    setCheckedItems({ ...checkedItems, [event.target.name]: event.target.checked });
+    setCheckedItems({
+      ...checkedItems,
+      [event.target.name]: event.target.checked,
+    })
   }
 
   useEffect(() => {
-    if (activeRole !== "All roles") {
+    if (activeRole !== 'All roles') {
       let checklistNew = checklist.map((element) => {
-        return { ...element, checklistList: element.checklistList.filter((checklistList) => checklistList.tags.includes(activeRole)) }
+        return {
+          ...element,
+          checklistList: element.checklistList.filter((checklistList) =>
+            checklistList.tags.includes(activeRole)
+          ),
+        }
       })
       setList(checklistNew)
     } else {
@@ -53,25 +60,25 @@ const AccessibilityPageTemplate = ({
     margin: '0 -8px 32px -8px',
     listStyleType: 'none',
     flexWrap: 'wrap',
-    alignImtes: 'baseline'
+    alignImtes: 'baseline',
   }
 
   const style = {
     textUnderlinePosition: 'under',
-    color: "#222",
+    color: '#222',
     padding: '8px',
-    display: 'block'
+    display: 'block',
   }
 
   const heading = {
     marginTop: '16px',
-    display: 'block'
+    display: 'block',
   }
 
   const marginTop = {
     marginTop: '16px',
     display: 'block',
-    marginBottom: '4px'
+    marginBottom: '4px',
   }
 
   const marginBottom = {
@@ -79,54 +86,73 @@ const AccessibilityPageTemplate = ({
   }
   return (
     <>
-
       <Wrapper tag="div" menu={true} narrow>
         <Heading tag={1} text={title} align={'left'} />
         <Preamble text={intro} tag="p" align={'left'} />
         <Filter items={roles} onChildClick={handleChildClick} />
         <span style={heading}>Go to section:</span>
         <ul style={listStyle}>
-          {
-            list.map((item, index) => {
-              return (
-                <li key={index}><a style={style} href={"#" + item.section}>{item.section}</a></li>
-              )
-            })
-          }
-        </ul>
-        {
-          list.map((item, index) => {
-
+          {list.map((item, index) => {
             return (
-              <div key={index}>
-
-                {item.checklistList.length > 0 && <Heading id={item.section} tag={2} text={item.section} align={'left'} />}
-                {
-                  item.checklistList.map((child, i) => {
-
-                    return (
-                      <div key={i} style={{ position: "relative" }}>
-                        {console.log(child.relatedLinks, 'child')}
-                        <Checkbox id={'id' + i} label={child.title} name={'name' + i} checked={checkedItems[i]} onChange={handleChange} />
-                        <Collapse title={child.title}>
-                          {checklistHtml === undefined ? child.text : <Content className="Content--tight" source={checklistHtml[index].checklistList[i].text?.html} />}
-                          {child.relatedLinks &&
-                            <>
-                              <strong style={marginTop}>Read more:</strong>
-                              {<LinkList customCss={marginBottom} items={child.relatedLinks} />}
-                            </>
-                          }
-                          <Tags items={child.tags} />
-                        </Collapse>
-                      </div>
-                    )
-                  })}
-              </div>
+              <li key={index}>
+                <a style={style} href={'#' + item.section}>
+                  {item.section}
+                </a>
+              </li>
             )
-          })
-
-        }
-
+          })}
+        </ul>
+        {list.map((item, index) => {
+          return (
+            <div key={index}>
+              {item.checklistList.length > 0 && (
+                <Heading
+                  id={item.section}
+                  tag={2}
+                  text={item.section}
+                  align={'left'}
+                />
+              )}
+              {item.checklistList.map((child, i) => {
+                return (
+                  <div key={i} style={{ position: 'relative' }}>
+                    <Checkbox
+                      id={'id' + i}
+                      label={child.title}
+                      name={'name' + i}
+                      checked={checkedItems[i]}
+                      onChange={handleChange}
+                    />
+                    <Collapse title={child.title}>
+                      {checklistHtml === undefined ? (
+                        child.text
+                      ) : (
+                        <Content
+                          className="Content--tight"
+                          source={
+                            checklistHtml[index].checklistList[i].text?.html
+                          }
+                        />
+                      )}
+                      {child.relatedLinks && (
+                        <>
+                          <strong style={marginTop}>Read more:</strong>
+                          {
+                            <LinkList
+                              customCss={marginBottom}
+                              items={child.relatedLinks}
+                            />
+                          }
+                        </>
+                      )}
+                      <Tags items={child.tags} />
+                    </Collapse>
+                  </div>
+                )
+              })}
+            </div>
+          )
+        })}
       </Wrapper>
 
       {heroBlock && (
@@ -136,16 +162,14 @@ const AccessibilityPageTemplate = ({
           cite={heroBlock.cite}
           image={heroBlock.image}
         />
-
       )}
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
-
         <Content
-          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-            }`}
+          className={`Content  ${
+            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+          }`}
           source={body}
         />
-
       </Wrapper>
     </>
   )

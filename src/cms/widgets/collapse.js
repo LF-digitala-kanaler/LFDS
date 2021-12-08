@@ -51,14 +51,10 @@ const CollapseWidget = {
   },
 
   toBlock: function (obj) {
-    const items = Immutable.fromJS(obj.panels || []).map(function (
-      item
-    ) {
+    const items = Immutable.fromJS(obj.panels || []).map(function (item) {
       return `<Collapse title="${item.get(
         'title'
-      )}">\n<div class="content">\n\n${item.get(
-        'content'
-      )}\n\n</div></Collapse>`
+      )}">\n<div class="content">\n\n${item.get('content')}\n\n</div></Collapse>`
     })
 
     return '\n<section>\n' + items.join('\n') + '\n</section>\n'

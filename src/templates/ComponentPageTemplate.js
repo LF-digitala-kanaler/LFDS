@@ -20,7 +20,6 @@ const ComponentPageTemplate = ({
   verticalResize,
 }) => (
   <>
-
     {currentDirectory && <Deprecated componentName={currentDirectory} />}
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={'left'} />

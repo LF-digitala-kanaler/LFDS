@@ -3,7 +3,7 @@ import * as style from './index.module.css'
 import Breadcrumb from '../Breadcrumb'
 import BrowserBanner from '../BrowserBanner'
 import cx from 'classnames'
-import { isIE } from 'react-device-detect';
+import { isIE } from 'react-device-detect'
 import { Link } from 'gatsby'
 import Logotype from '../Logotype'
 import Menu from '../Menu'
@@ -17,7 +17,6 @@ import Search from '../Search'
 const Header = ({ title, breadcrumb, menu }) => {
   return (
     <>
-
       {isIE && <BrowserBanner />}
       <header className={style.Header}>
         <div className={style.Header__container}>
@@ -44,7 +43,10 @@ const Header = ({ title, breadcrumb, menu }) => {
         >
           {menu && <Menu />}
           <div
-            className={cx(style.Header__wrapper, style['Header__wrapper--last'])}
+            className={cx(
+              style.Header__wrapper,
+              style['Header__wrapper--last']
+            )}
           >
             {breadcrumb && <Breadcrumb location={breadcrumb} />}
             <Search />

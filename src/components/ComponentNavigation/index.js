@@ -5,21 +5,15 @@ import React, { useState } from 'react'
 import cx from 'classnames'
 
 const ComponentNavigation = ({ onChildClick, navigation }) => {
-
-
   const [active, setActive] = useState(navigation[0].example[0].node.id)
   const handleClick = (variants, active) => {
     setActive(active)
     onChildClick(variants)
   }
 
-
   const listItem = navigation.map((item) => {
-
     return item.example.map((items) => (
-
       <li key={items.node.id}>
-
         <button
           onClick={() => handleClick(items.node, items.node.id)}
           className={cx(

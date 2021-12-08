@@ -58,8 +58,8 @@ const Menu = ({ currentDirectory }) => {
   const navigationItems = {
     items: data.allPages.hasOwnProperty('edges')
       ? data.allPages.edges.filter((items) =>
-        items.node.fields.contentType.includes(currentDirectory)
-      )
+          items.node.fields.contentType.includes(currentDirectory)
+        )
       : false,
   }
 

@@ -18,7 +18,8 @@ const Callout = {
       ],
     },
   ],
-  pattern: /^<div class="Callout"><strong class="Callout__title">(.*) <\/strong><p class="Callout__text">(.*)<\/p><\/div>/,
+  pattern:
+    /^<div class="Callout"><strong class="Callout__title">(.*) <\/strong><p class="Callout__text">(.*)<\/p><\/div>/,
   fromBlock(match) {
     return {
       title: match[1],

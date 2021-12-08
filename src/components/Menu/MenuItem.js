@@ -7,7 +7,6 @@ import style from './index.module.css'
 let cx = classNames.bind(style)
 
 const MenuItem = ({ item, location }) => {
-
   const [open, setOpen] = useState(false)
   useLayoutEffect(() => {
     let url = location.pathname.replace(/\/$/, '')
