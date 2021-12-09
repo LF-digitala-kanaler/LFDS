@@ -1,10 +1,10 @@
 import * as style from './index.module.css'
 
+import React from 'react'
+import Wrapper from '../Wrapper'
 import _ from 'lodash'
 import componentsStatus from '../../data/componentsStatus.json'
 import cx from 'classnames'
-import React from 'react'
-import Wrapper from '../Wrapper'
 
 const Deprecated = ({ componentName, fixed }) => {
   // get current pages object from componentsStatus.json

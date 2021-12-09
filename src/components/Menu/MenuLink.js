@@ -1,6 +1,7 @@
+import * as style from './index.module.css'
+
 import { Link } from 'gatsby'
 import React from 'react'
-import style from './index.module.css'
 
 const MenuLink = ({ path, title, parent, collapse }) => {
   return (

@@ -2,10 +2,11 @@ import * as styles from './index.module.css'
 
 import React, { useLayoutEffect, useRef } from 'react'
 
+import NavigationItem from './NavigationItem.js'
 import { globalHistory } from '@reach/router'
 import navigation from '../../data/navigation'
-import NavigationItem from './NavigationItem.js'
 import { useScroll } from 'react-use'
+
 const Navigation = () => {
   useLayoutEffect(() => {
     if (globalHistory.location.state !== null) {

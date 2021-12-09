@@ -23,8 +23,8 @@ const LandingPage = ({
   const overviewPages = {
     items: Object.prototype.hasOwnProperty.call(allOverviewPages, 'edges')
       ? allOverviewPages.edges.filter((items) =>
-          items.node.fields.contentType.includes(currentDirectory)
-        )
+        items.node.fields.contentType.includes(currentDirectory)
+      )
       : false,
   }
 
@@ -44,10 +44,10 @@ const LandingPage = ({
   const children = {
     items: Object.prototype.hasOwnProperty.call(allPages, 'edges')
       ? allPages.edges.filter(
-          (items) =>
-            items.node.fields.contentType.includes(currentDirectory) &&
-            items.node.frontmatter.hidden !== true
-        )
+        (items) =>
+          items.node.fields.contentType.includes(currentDirectory) &&
+          items.node.frontmatter.hidden !== true
+      )
       : false,
   }
   const groups = flow(
@@ -120,14 +120,7 @@ export const pageQuery = graphql`
           author
         }
       }
-      fields {
-        frontmattermd {
-          contentBottom {
-            rawMarkdownBody
-            html
-          }
-        }
-      }
+      
     }
 
     allPages: allMarkdownRemark(

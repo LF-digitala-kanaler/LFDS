@@ -165,9 +165,8 @@ const AccessibilityPageTemplate = ({
       )}
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
         <Content
-          className={`Content  ${
-            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-          }`}
+          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+            }`}
           source={body}
         />
       </Wrapper>

@@ -7,7 +7,6 @@ module.exports = {
     headline: 'Länsförsäkringar Design System',
     siteUrl: 'https://lf-digitala-kanaler.github.io/',
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
@@ -158,10 +157,12 @@ module.exports = {
     },
     {
       resolve: 'gatsby-transformer-remark',
-
       options: {
         pedantic: false,
         plugins: [
+          {
+            resolve: 'gatsby-transformer-remark-frontmatter',
+          },
           {
             resolve: 'gatsby-remark-component',
             options: { components: ['Collapse'] },
@@ -205,35 +206,6 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-transformer-remark-frontmatter', // Local modified plugin see ./plugin for source code
-            // default: { blacklist: [] }
-            options: {
-              // frontmatter fields to exclude, including all others
-              blacklist: [
-                'template',
-                'previewImage',
-                'description',
-                'category',
-                'excerpt',
-                'backgroundColor',
-                'intro',
-                'tabs.content',
-                'verticalResize',
-                'hidden',
-              ],
-              // frontmatter fields to include, excluding all others
-              //whitelist: ['tabs']
-            },
-          },
-          // {
-          //   resolve: `gatsby-plugin-anchor-links`,
-          //   options: {
-          //     offset: -140,
-          //     duration: 10
-          //   }
-          // },
-
-          {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
               icon: `<svg width="14" height="19"><path d="M2.965 18.293l1.02-4.992h3.68l-1.009 4.992h1.758l1.02-4.992h3.609v-1.746H9.785l.88-4.254h2.378V5.555h-2.027l1.02-5.028h-1.77l-1.02 5.028H5.555L6.575.527H4.815l-1.02 5.028H.247V7.3h3.2l-.868 4.254H.246V13.3h1.98l-1.019 4.992h1.758zm5.05-6.738h-3.68L5.204 7.3h3.692l-.88 4.254z" fill="#E5E5E5" fill-rule="nonzero"/></svg>`,
@@ -249,7 +221,9 @@ module.exports = {
             },
           },
         ],
+
       },
+
     },
 
     'gatsby-transformer-sharp',
@@ -258,6 +232,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
+        cssLoaderOptions: {
+          esModule: false,
+          modules: {
+            namedExport: false,
+            exportLocalsConvention: 'asIs',
+          },
+        },
         postCssPlugins: [
           require(`postcss-preset-env`)({
             browsers: '> 0.5%, last 2 versions, ie 11',

@@ -1,8 +1,8 @@
 import * as style from './index.module.css'
 
-import cx from 'classnames'
 import React from 'react'
 import Wrapper from '../Wrapper'
+import cx from 'classnames'
 
 const HeroBlock = ({ background, quote, cite, image }) => {
   const backgroundStyle = {

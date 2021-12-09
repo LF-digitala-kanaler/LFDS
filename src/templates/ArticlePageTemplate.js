@@ -5,8 +5,8 @@ import HeroBlock from '../components/HeroBlock'
 import LfuiWrapper from '../components/LfuiWrapper/'
 import Preamble from '../components/Preamble'
 import React from 'react'
-import rehypeReact from 'rehype-react'
 import Wrapper from '../components/Wrapper'
+import rehypeReact from 'rehype-react'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -46,17 +46,15 @@ const ArticlePageTemplate = ({
     <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
       {bodyHtml ? (
         <div
-          className={`Content  ${
-            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-          }`}
+          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+            }`}
         >
           {renderAst(bodyHtml)}
         </div>
       ) : (
         <Content
-          className={`Content  ${
-            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-          }`}
+          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+            }`}
           source={body}
         />
       )}

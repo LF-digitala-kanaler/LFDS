@@ -1,7 +1,7 @@
 import * as style from './index.module.css'
 
-import cx from 'classnames'
 import React from 'react'
+import cx from 'classnames'
 
 const Actions = ({ grey, white, toggleCode }) => {
   return (
@@ -20,7 +20,7 @@ const Actions = ({ grey, white, toggleCode }) => {
             className={cx(
               style.Actions__button,
               style.Actions__circle,
-              style['Actions__circle--grey']
+              style.Actions__circle__grey
             )}
             onClick={grey}
           >

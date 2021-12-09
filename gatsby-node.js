@@ -3,50 +3,6 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 const fse = require('fs-extra')
-const cssLoaderRe = /\/css-loader\//
-const targetFile = `.module.css`
-
-const processRule = (rule) => {
-  if (rule.oneOf) {
-    return {
-      ...rule,
-      oneOf: rule.oneOf.map(processRule),
-    }
-  }
-  // if (!rule.test.test(targetFile)) {
-  //   return rule
-  // }
-  if (Array.isArray(rule.use)) {
-    return {
-      ...rule,
-      use: rule.use.map((use) => {
-        if (!cssLoaderRe.test(use.loader)) {
-          return use
-        }
-        // adjust css-loader options
-        return {
-          ...use,
-          options: {
-            ...use.options,
-            camelCase: false,
-          },
-        }
-      }),
-    }
-  }
-  return rule
-}
-exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
-  const config = getConfig()
-  const newConfig = {
-    ...config,
-    module: {
-      ...config.module,
-      rules: config.module.rules.map(processRule),
-    },
-  }
-  actions.replaceWebpackConfig(newConfig)
-}
 
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
@@ -92,7 +48,7 @@ exports.createPages = async ({ actions, graphql }) => {
         // get pages with template field
         _.get(page, `node.frontmatter.template`)
       )
-      if (!pagesToCreate.length) return console.log(`Skipping ${contentType}`)
+      if (!pagesToCreate.length) return
 
       pagesToCreate.forEach((page) => {
         const id = page.node.id
@@ -213,9 +169,24 @@ exports.createSchemaCustomization = ({ actions }) => {
       }
     },
   })
+
   createTypes(`
     type File implements Node {
       svgData: String @svgData
+    }
+    
+    
+    type MarkdownRemark implements Node @infer {
+      frontmatter: Frontmatter!
+    }
+    type Frontmatter @infer {
+      checklist: [Checklist!]
+    }
+    type Checklist @infer {
+      checklistList: [ChecklistList!]
+    }
+    type ChecklistList @infer {
+      text: String @md
     }
   `)
 }

@@ -1,7 +1,7 @@
 import * as style from './index.module.css'
 
-import { createBreakpoint } from 'react-use'
 import React from 'react'
+import { createBreakpoint } from 'react-use'
 
 export const Logotype = () => {
   const useBreakpoint = createBreakpoint({ M: 1024, S: 768 })

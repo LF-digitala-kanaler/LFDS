@@ -1,9 +1,9 @@
 import 'react-simple-flex-grid/lib/main.css'
 
-import { graphql } from 'gatsby'
 import HomePageTemplate from './HomePageTemplate.js'
 import Layout from '../components/Layout.js'
 import React from 'react'
+import { graphql } from 'gatsby'
 
 const HomePage = ({ data: { page } }) => {
   const sources = [

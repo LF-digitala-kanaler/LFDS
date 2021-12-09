@@ -1,7 +1,7 @@
 import AccessibilityPageTemplate from './AccessibilityPageTemplate.js'
-import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import React from 'react'
+import { graphql } from 'gatsby'
 
 const AccessibilityPage = ({ data: { page }, location }) => {
   const breadcrumb = {
@@ -24,7 +24,7 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
         checklist={page.frontmatter.checklist}
-        checklistHtml={page.fields.frontmattermd?.checklist}
+        checklistHtml={page.fields.checklist.text.html}
       />
     </Layout>
   )
@@ -49,7 +49,9 @@ export const pageQuery = graphql`
           section
           checklistList {
             title
-            text
+            text {
+              html
+            }
             tags
             relatedLinks {
               text
@@ -66,17 +68,8 @@ export const pageQuery = graphql`
           }
         }
       }
-      fields {
-        frontmattermd {
-          checklist {
-            checklistList {
-              text {
-                html
-              }
-            }
-          }
-        }
-      }
+      
+     
     }
   }
 `

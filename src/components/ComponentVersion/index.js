@@ -1,7 +1,7 @@
 import * as style from './index.module.css'
 
-import { graphql, useStaticQuery } from 'gatsby'
 import React, { useRef, useState } from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
 
 import _ from 'lodash'
 import componentsStatus from '../../data/componentsStatus.json'

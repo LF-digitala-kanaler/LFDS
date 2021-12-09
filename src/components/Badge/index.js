@@ -1,7 +1,7 @@
 import * as style from './index.module.css'
 
-import cx from 'classnames'
 import React from 'react'
+import cx from 'classnames'
 
 const Badge = ({ status }) => {
   return (

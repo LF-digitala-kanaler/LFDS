@@ -1,8 +1,9 @@
+import * as style from './index.module.css'
+
 import React, { useLayoutEffect, useState } from 'react'
 
 import MenuLink from './MenuLink'
 import classNames from 'classnames/bind'
-import style from './index.module.css'
 
 let cx = classNames.bind(style)
 

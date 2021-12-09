@@ -1,8 +1,8 @@
 import * as style from './index.module.css'
 
-import cx from 'classnames'
 import PropTypes from 'prop-types'
 import React from 'react'
+import cx from 'classnames'
 
 const Preamble = ({ text, tag, align }) => {
   let Tag = tag

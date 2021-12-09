@@ -4,8 +4,8 @@ import { ArrowNavigation, useArrowNavigation } from 'react-arrow-navigation'
 import { Link, navigate } from 'gatsby'
 import React, { useRef, useState } from 'react'
 
-import cx from 'classnames'
 import Modal from 'react-modal'
+import cx from 'classnames'
 import { useKeyPressEvent } from 'react-use'
 
 // set focus on input when search is open
