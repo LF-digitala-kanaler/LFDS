@@ -49,6 +49,7 @@ checklist:
       - tags:
           - UX/AD
           - Developer
+          - Tester
         title: 1.03 - Present content correctly regardless of screen orientation
         text: >-
           #### For designers 
@@ -81,7 +82,6 @@ checklist:
 
 
           As much as possible, critical information should be available on the web. Make sure to divide the content into relevant pages so you avoid walls of texts.
-
       - tags:
           - UX/AD
         title: 1.05 - Create a flexible layout that works when enlarged or viewed on a
@@ -330,6 +330,7 @@ checklist:
       - tags:
           - UX/AD
           - Developer
+          - Tester
         title: 1.20 - Make tables easy to understand and navigate
         text: >-
           **Tables can be tricky to read, especially for users with screen
@@ -947,6 +948,7 @@ checklist:
             url: https://webbriktlinjer.se/riktlinjer/104-gor-listor-med-de-html-element-som-ar-till-for-att-skapa-listor/
       - tags:
           - Developer
+          - Tester
         title: 7.02 - Offer the possibility to skip repeating content
         text: >-
           For users navigating with a screen reader, tabbing, or other aids it
@@ -1007,6 +1009,7 @@ checklist:
             url: https://webbriktlinjer.se/riktlinjer/68-skapa-snabbkommandon-for-viktiga-funktioner/
       - tags:
           - Developer
+          - Tester
         title: 7.05 - Make sure the code validates
         text: >-
           There are several aids that can make it easier for developers to
