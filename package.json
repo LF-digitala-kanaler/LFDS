@@ -79,7 +79,7 @@
     "serve": "copy-files-from-to gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "copy:icons": "copyfiles -u 4 node_modules/lfui-icons/dist/svg/**/* static/icons && copyfiles -u 4 node_modules/lfui-icons/dist/svg/**/**/* static/icons && copyfiles -u 4 node_modules/lfui-icons/dist/sprite/**/* static/icons && copyfiles -u 3 node_modules/lfui-icons/dist/sprite/**/**/* static/icons",
-    "deploy": "yarn build && gh-pages -d public -r https://github.com/LF-digitala-kanaler/LFDS.git -b master"
+    "deploy": "yarn build && gh-pages -d public -r https://github.com/LF-digitala-kanaler/lf-digitala-kanaler.github.io.git -b master"
   },
   "devDependencies": {
     "babel-plugin-prismjs": "^2.1.0",

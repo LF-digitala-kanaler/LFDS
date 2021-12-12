@@ -968,6 +968,23 @@ collections: # A list of collections the CMS should be able to edi
               hint: Will be shown on Overview page,
               required: false
             }
+          - name: 'roleInformation'
+            label: 'RoleInformation'
+            hint: 'Visible above the checklist for general information depending on role'
+            label_singular: 'item'
+            widget: 'list'
+            fields:
+              - { label: 'Content', name: 'content', widget: 'markdown' }
+              - label: 'Tags'
+                    name: 'tags'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'All roles', value: 'All roles' }
+                      - { label: 'UX/AD', value: 'UX/AD' }
+                      - { label: 'Developer', value: 'Developer' }
+                      - { label: 'Tester', value: 'Tester' }
+                      - { label: 'Copy', value: 'Copy' }
           - name: 'checklist'
             label: 'Checklist'
             label_singular: 'item'

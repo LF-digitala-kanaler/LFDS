@@ -58,6 +58,10 @@ export const pageQuery = graphql`
           }
         }
         
+        roleInformation {
+          section
+          tags
+        }
       }
       
      

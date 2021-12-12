@@ -6,8 +6,13 @@ title: Web accessibility guidelines
 intro: Intro
 description: Här går vi igenom punkt för punkt vad de betyder för
   Länsförsäkringar att följa checklistorna.
+roleInformation:
+  - content: >
+    Test
+  - tags:
+    - Tester
 checklist:
-  - title: tst
+  - title: test
     section: Layout and images
     checklistList:
       - tags:
