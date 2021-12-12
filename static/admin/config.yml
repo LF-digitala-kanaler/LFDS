@@ -968,23 +968,21 @@ collections: # A list of collections the CMS should be able to edi
               hint: Will be shown on Overview page,
               required: false
             }
-          - label: 'Role Information'
-            name: 'roleInformation'
-            hint: 'Visible above the checklist for general information depending on role'
-            label_singular: 'item'
-            widget: 'list'
-            fields:
-              - { label: 'Content', name: 'content', widget: 'markdown', required: false }
-              - label: 'Tags'
-                name: 'tags'
-                widget: 'select'
-                multiple: true
-                options:
-                  - { label: 'All roles', value: 'All roles' }
-                  - { label: 'UX/AD', value: 'UX/AD' }
-                  - { label: 'Developer', value: 'Developer' }
-                  - { label: 'Tester', value: 'Tester' }
-                  - { label: 'Copy', value: 'Copy' }
+          - {
+              label: 'Role information', 
+              name: 'roleInformation', 
+              widget: list,
+              hint: Display Role specifik information above checklist,
+              field: 
+              - {
+                  label: 'Text',
+                  name: 'text',
+                  widget: 'markdown',
+                  required: false,
+                  editor_components:
+                    ['callout', 'LFDSImage', 'code', 'code-block']
+                }
+            }
           - name: 'checklist'
             label: 'Checklist'
             label_singular: 'item'
@@ -1004,6 +1002,19 @@ collections: # A list of collections the CMS should be able to edi
                       required: false,
                       editor_components:
                         ['callout', 'LFDSImage', 'code', 'code-block']
+                    }
+
+                  - {
+                      label: 'Tags',
+                      name: 'tags',
+                      widget: 'select',
+                      multiple: true,
+                      options:
+                        - { label: 'All roles', value: 'All roles' }
+                        - { label: 'UX/AD', value: 'UX/AD' }
+                        - { label: 'Developer', value: 'Developer' }
+                        - { label: 'Tester', value: 'Tester' }
+                        - { label: 'Copy', value: 'Copy' }
                     }
                   - label: 'Related Links'
                     name: 'relatedLinks'

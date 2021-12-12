@@ -23,6 +23,7 @@ const AccessibilityPage = ({ data: { page }, location }) => {
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
         checklist={page.frontmatter.checklist}
+        roleInformation={page.frontmatter.roleInformation}
       />
     </Layout>
   )
@@ -42,6 +43,10 @@ export const pageQuery = graphql`
         template
         category
         wide
+        roleInformation {
+          text
+          tags
+        }
 
         checklist {
           section
@@ -55,12 +60,6 @@ export const pageQuery = graphql`
               text
               url
             }
-          }
-        }
-        roleInformataionList {
-          roleInformation {
-            section
-            tags
           }
         }
         

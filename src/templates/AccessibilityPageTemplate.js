@@ -17,6 +17,7 @@ const AccessibilityPageTemplate = ({
   body,
   wrapperWidth,
   checklist,
+  roleInformation
 }) => {
   const [checkedItems, setCheckedItems] = useState({})
 
@@ -99,6 +100,17 @@ const AccessibilityPageTemplate = ({
             )
           })}
         </ul>
+        {
+          roleInformation.map((item, index) => {
+            return (
+              <div key={index}>
+                <Content source={item.text} />
+              </div>
+            )
+          })
+        }
+
+
         {list.map((item, index) => {
           return (
             <div key={index}>
