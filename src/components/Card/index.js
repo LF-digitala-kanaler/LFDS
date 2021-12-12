@@ -1,20 +1,19 @@
-import * as style from './index.module.css'
-
-import cx from 'classnames'
 import { Link } from 'gatsby'
 import React from 'react'
+import cx from 'classnames'
+import style from './index.module.css'
 
 const Card = ({ title, url, image, description, grid, lang }) => {
   return (
     <Link
-      className={cx(style.Card, grid ? '' : style['Card--list'])}
+      className={cx(style.Card, grid ? '' : style.Card__list)}
       to={`${url}`}
     >
       <article className={cx(!grid ? style.Card__wrapper : '')}>
         <div
           className={cx(
             style.Card__image,
-            grid ? '' : style['Card__image--spacing']
+            grid ? '' : style.Card__image__spacing
           )}
         >
           {image != null ? (
@@ -53,7 +52,7 @@ const Card = ({ title, url, image, description, grid, lang }) => {
           <h2
             className={cx(
               style.Card__title,
-              grid ? style['Card__title--small'] : ''
+              grid ? style.Card__title__small : ''
             )}
           >
             {title}

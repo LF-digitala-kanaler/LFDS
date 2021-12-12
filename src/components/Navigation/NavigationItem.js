@@ -1,21 +1,20 @@
-import * as styles from './index.module.css'
-
 import { Link, withPrefix } from 'gatsby'
 
 import PropTypes from 'prop-types'
 import React from 'react'
+import style from './index.module.css'
 
 const NavigationItem = ({ path, title, scrollPoition }) => {
   const isHomepage = path === withPrefix('/')
   return (
-    <li className={styles.Navigation__item}>
+    <li className={style.Navigation__item}>
       <Link
         state={{ scroll: scrollPoition }}
         partiallyActive={isHomepage ? false : true}
         to={`/${path}`}
         title={title}
-        className={styles.Navigation__link}
-        activeClassName={styles.is__active}
+        className={style.Navigation__link}
+        activeClassName={style.is__active}
       >
         {title}
       </Link>

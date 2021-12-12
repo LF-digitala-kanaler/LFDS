@@ -1,20 +1,17 @@
 import 'react-simple-flex-grid/lib/main.css'
 
-import { graphql } from 'gatsby'
 import HomePageTemplate from './HomePageTemplate.js'
 import Layout from '../components/Layout.js'
 import React from 'react'
+import { graphql } from 'gatsby'
 
 const HomePage = ({ data: { page } }) => {
-  const sources = [
-    page.frontmatter.fullWidthImage.fullWidthImageDesktop.childImageSharp.fluid,
-    {
-      ...page.frontmatter.fullWidthImage.fullWidthImageMobile.childImageSharp
-        .fluid,
-      media: `(max-width: 820px)`,
-    },
-  ]
 
+  const sources = [
+    page.frontmatter.fullWidthImage.fullWidthImageDesktop.childImageSharp.desktopImage,
+    page.frontmatter.fullWidthImage.fullWidthImageMobile.childImageSharp.mobileImage,
+  ]
+  console.log(sources[0], 'sås')
   return (
     <Layout
       meta={page.frontmatter.meta || false}
@@ -30,7 +27,7 @@ const HomePage = ({ data: { page } }) => {
         fullWidthImage={page.frontmatter.fullWidthImage}
         relatedLinks={page.frontmatter.relatedLinks}
         body={page.html}
-        images={sources}
+        imageSource={sources}
       />
     </Layout>
   )
@@ -82,16 +79,18 @@ export const query = graphql`
           title
           fullWidthImageDesktop {
             childImageSharp {
-              fluid(maxWidth: 1500, quality: 84, maxHeight: 493) {
-                ...GatsbyImageSharpFluid
-              }
+              desktopImage: gatsbyImageData(
+                layout: FULL_WIDTH
+                quality: 70
+              )
             }
           }
           fullWidthImageMobile {
             childImageSharp {
-              fluid(maxWidth: 1000, quality: 84) {
-                ...GatsbyImageSharpFluid
-              }
+              mobileImage: gatsbyImageData(
+                quality: 70
+                aspectRatio: 1.333
+              )
             }
           }
         }

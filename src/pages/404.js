@@ -1,4 +1,4 @@
-import { graphql, StaticQuery } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
 import Heading from '../components/Heading'
 import Helmet from 'react-helmet'

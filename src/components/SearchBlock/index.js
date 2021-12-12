@@ -1,11 +1,10 @@
-import * as style from './index.module.css'
-
 import { ArrowNavigation, useArrowNavigation } from 'react-arrow-navigation'
 import { Link, navigate } from 'gatsby'
 import React, { useRef, useState } from 'react'
 import { useClickAway, useKeyPressEvent } from 'react-use'
 
 import cx from 'classnames'
+import style from './index.module.css'
 
 const Search = () => {
   const [query, setQuery] = useState('') // eslint-disable-line no-unused-vars

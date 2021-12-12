@@ -26,11 +26,11 @@ const ComponentPage = ({
   const componentExample = {
     examples: Object.prototype.hasOwnProperty.call(allComponentExample, 'edges')
       ? allComponentExample.edges.filter(
-          (exemple) =>
-            toKebabCase(
-              exemple.node.relativeDirectory.split('/').pop()
-            ).toLowerCase() === currentDirectory
-        )
+        (exemple) =>
+          toKebabCase(
+            exemple.node.relativeDirectory.split('/').pop()
+          ).toLowerCase() === currentDirectory
+      )
       : false,
   }
 
@@ -54,7 +54,7 @@ const ComponentPage = ({
         {...page.frontmatter}
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
-        tabs={page.fields.frontmattermd?.tabs || page.frontmatter.tabs}
+        tabs={page.frontmatter.tabs}
         category={page.frontmatter.category}
         componentsExample={componentExample.examples}
         componentsNavigation={page.frontmatter.componentsNavigation}
@@ -92,24 +92,12 @@ export const pageQuery = graphql`
         backgroundColor
         tabs {
           name
-          content
-        }
-      }
-      fields {
-        frontmattermd {
-          tabs {
-            content {
-              html
-              headings {
-                value
-              }
-            }
-            name {
-              rawMarkdownBody
-            }
+          content {
+            html
           }
         }
       }
+     
     }
     allComponentExample: allHtmlContent {
       edges {

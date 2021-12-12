@@ -11,8 +11,8 @@ export const Heading = ({ text, tag, align, children, id }) => {
       id={id}
       className={cx(
         style.Heading,
-        style['Heading--' + tag],
-        style['Heading--' + align]
+        style['Heading__' + tag],
+        style['Heading__' + align]
       )}
     >
       {text}

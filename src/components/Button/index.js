@@ -1,6 +1,5 @@
-import * as style from './index.module.css'
-
 import React from 'react'
+import style from './index.module.css'
 
 const Button = ({ href, text }) => {
   return (

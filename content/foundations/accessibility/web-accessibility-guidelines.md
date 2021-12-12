@@ -81,6 +81,7 @@ checklist:
 
 
           As much as possible, critical information should be available on the web. Make sure to divide the content into relevant pages so you avoid walls of texts.
+
       - tags:
           - UX/AD
         title: 1.05 - Create a flexible layout that works when enlarged or viewed on a

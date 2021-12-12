@@ -5,8 +5,8 @@ import { GlobalStateContext } from '../context/GlobalContextProvider'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
 import React from 'react'
-import { useContext } from 'react'
 import Wrapper from '../components/Wrapper'
+import { useContext } from 'react'
 
 const LandingPageTemplate = ({
   title,

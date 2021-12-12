@@ -55,9 +55,6 @@
 }
 .Shortcut--horizontal .Shortcut__icon {
   margin-bottom: 0;
-  /* position: absolute;
-  top: 50%;
-  transform: translateY(-50%); */
 }
 
 .Shortcut--horizontal .Shortcut__link {

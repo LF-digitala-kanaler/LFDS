@@ -1,7 +1,6 @@
-import * as style from './index.module.css'
-
 import React from 'react'
 import Wrapper from '../Wrapper'
+import style from './index.module.css'
 
 const BrowserBanner = () => {
   return (

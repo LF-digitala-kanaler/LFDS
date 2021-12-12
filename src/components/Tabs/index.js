@@ -1,10 +1,9 @@
-import * as style from './index.module.css'
-
 import React, { useEffect, useState } from 'react'
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@reach/tabs'
 
 import Content from '../Content'
 import Wrapper from '../Wrapper'
+import style from './index.module.css'
 
 const TabsWrapper = ({ tabs, location, navigate, children }) => {
   const [tabName, setTabName] = useState([])
@@ -16,8 +15,7 @@ const TabsWrapper = ({ tabs, location, navigate, children }) => {
       setTabName(
         tabs.map((item) => {
           return (
-            item.name?.rawMarkdownBody?.toLowerCase() ||
-            item.name?.toLowerCase()
+            item.name
           )
         })
       )
@@ -28,13 +26,12 @@ const TabsWrapper = ({ tabs, location, navigate, children }) => {
       )
     }
   }, [tabs])
-  // Needed for the cms to update the tabs
+
   useEffect(() => {
     if (tabs && tabs.length > 0) {
       setTabName(
         tabs.map((item) => {
           return (
-            item.name?.rawMarkdownBody?.toLowerCase() ||
             item.name?.toLowerCase()
           )
         })

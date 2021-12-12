@@ -77,8 +77,6 @@
   max-width: 444px;
   left: 50%;
   transform: translateX(-50%);
-  /* border: 2px solid var(--color-border);
-  border-width: 0 2px 2px 2px; */
   padding-left: 0;
 }
 

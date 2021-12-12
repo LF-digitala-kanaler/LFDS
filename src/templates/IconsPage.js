@@ -15,18 +15,29 @@ const IconsPage = ({ data: { page, icons }, location }) => {
     location: location,
   }
 
-  // group icons by directory
+  // transorm icon data to something we can use in tempalte
   const iconList = flow(
     groupBy('node.relativeDirectory'),
+
     map((icon, group) => {
-      const icons = icon.map((icon) => icon.node)
+      let icons = icon.filter(icon => icon.node.name !== 'icons')
+      icons = icons.map((icon) => {
+        let widthStr = icon.node.svgData.match(/"([^width"=]+)"/)[1];
+        let heightStr = icon.node.svgData.match(/"([^height"=]+)"/)[1]
+        icon.node.width = widthStr;
+        icon.node.height = heightStr;
+        return (
+          icon.node
+        )
+
+      })
       return {
         group,
         icons,
       }
-    })
-  )(icons.edges)
+    }),
 
+  )(icons.edges)
   // split into 2, one for "normal icons" and one for "special"
 
   let iconsRegular = iconList.filter((item) => !item.group.includes('special/'))
@@ -36,8 +47,6 @@ const IconsPage = ({ data: { page, icons }, location }) => {
   iconsRegular = _.orderBy(iconsRegular, ['group'], ['asc'])
   iconsSpecial = _.orderBy(iconsSpecial, ['group'], ['asc'])
 
-  // const sortedIconListSpecial = _.orderBy(iconListSpecial, ['group'], ['asc'])
-  //console.log(sortedIconList)
   return (
     <Layout
       description={page.frontmatter.intro || false}

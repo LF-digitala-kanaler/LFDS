@@ -5,8 +5,8 @@ import Content from '../components/Content'
 import Heading from '../components/Heading'
 import Preamble from '../components/Preamble'
 import React from 'react'
-import rehypeReact from 'rehype-react'
 import Wrapper from '../components/Wrapper'
+import rehypeReact from 'rehype-react'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,

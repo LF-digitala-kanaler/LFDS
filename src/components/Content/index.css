@@ -189,7 +189,7 @@ figure {
     width: var(--content-width);
   }
 }
-*/ .Content--wide .Image__wide {
+.Content--wide .Image__wide {
   @media (--large-viewport) {
     width: var(--content-width--wide);
   }
@@ -231,12 +231,6 @@ figure {
   padding: 1rem;
   width: 100%;
 }
-
-/* .Image__border--noPadding img {
-  border: 2px solid var(--color-border);
-  display: inline-block;
-  padding: 0;
-} */
 
 .Image__background {
   background: var(--color-smoke);
@@ -363,10 +357,6 @@ figure {
   font-size: 87.5%;
 }
 
-/* .Content--normal .content {
-  max-width: var(--content-width--tight);
-} */
-/* Image block styling */
 
 .ImageBlock {
   display: flex;

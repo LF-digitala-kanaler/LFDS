@@ -3,6 +3,7 @@
   position: relative;
   margin-top: var(--spacing-vertical--1);
   margin-bottom: var(--spacing-vertical--3);
+  
 }
 
 .FullWidthBackground__container {
@@ -60,21 +61,10 @@
     top: calc(4 * var(--spacing-xxlg));
   }
 }
-/* .FullWidthBackground__content {
-  background-color: var(--color-white);
-  padding: var(--spacing-md);
-  position: absolute;
-  top: var(--spacing-xxlg);
-  right: var(--spacing-xxlg);
-  max-width: 23.75rem;
-  width: 100%;
-  @media (--small-viewport-down) { 
-    right: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 32px;
-    top: auto;
+
+.FullWidthBackground__object {
+  @media (--large-viewport-down) {
+    height: 412px;
   }
-
-
-} */
+  
+}

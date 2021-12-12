@@ -1,5 +1,3 @@
-import * as style from './index.module.css'
-
 import React, { useEffect, useState } from 'react'
 
 import $ from 'jquery'
@@ -10,8 +8,7 @@ import Content from '../Content'
 import Frame from 'react-frame-component'
 import Preview from '../Preview'
 import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
-
-// import svg from '!!raw-loader!lfui-components/dist/lfui/icons.svg'
+import style from './index.module.css'
 
 const ComponentExample = ({
   variants,
@@ -37,6 +34,7 @@ const ComponentExample = ({
   const [code, setCode] = useState(
     navigation ? nav[0].example[0].node.content : variants[0].node.content
   )
+  console.log(code, 'kod')
   const [source, setSource] = useState(false)
   const [minHeight, setHeight] = useState(300)
   const iframeRef = React.createRef()
@@ -88,7 +86,6 @@ const ComponentExample = ({
   useEffect(() => {
     let timer = setTimeout(() => handleResize(iframeRef), 300)
 
-    // this will clear Timeout when component unmont like in willComponentUnmount
     return () => {
       clearTimeout(timer)
     }
@@ -143,12 +140,9 @@ const ComponentExample = ({
                 
                   <body style="margin: 0">
                     <div class="frame-root"></div>
-                    <script
-  src="https://code.jquery.com/jquery-3.5.1.min.js"
-  
-  ></script>
+                    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.bundle.min.js"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-geo@3.5.1/build/index.umd.min.js"></script>
+                    <script src="https://unpkg.com/chartjs-chart-geo@2.1.0"></script>   
                     <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
                     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script>
                     <script id="script" type="text/javascript" src="/lf.js"></script>

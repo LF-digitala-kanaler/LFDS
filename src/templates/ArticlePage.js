@@ -1,7 +1,7 @@
 import ArticlePageTemplate from './ArticlePageTemplate.js'
-import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
 import React from 'react'
+import { graphql } from 'gatsby'
 
 const ArticlePage = ({ data: { page }, location }) => {
   const breadcrumb = {

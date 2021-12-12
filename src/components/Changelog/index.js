@@ -1,9 +1,8 @@
-import * as style from './index.module.css'
-
 import { Link, StaticQuery, graphql } from 'gatsby'
 
 import Accordion from '../Accordion'
 import React from 'react'
+import style from './index.module.css'
 
 const Changelog = () => (
   <StaticQuery
@@ -32,6 +31,7 @@ const Changelog = () => (
       }
     `}
     render={(data) => {
+
       //get 3 latest lfui releases
       const latestVersions =
         data.log.organization.repository.releases.edges.map((version) => {

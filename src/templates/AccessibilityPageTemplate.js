@@ -5,7 +5,6 @@ import Collapse from '../components/Collapse'
 import Content from '../components/Content'
 import Filter from '../components/Filter'
 import Heading from '../components/Heading'
-import HeroBlock from '../components/HeroBlock'
 import LinkList from '../components/LinkList'
 import Preamble from '../components/Preamble'
 import React from 'react'
@@ -16,10 +15,8 @@ const AccessibilityPageTemplate = ({
   title,
   intro,
   body,
-  heroBlock,
   wrapperWidth,
   checklist,
-  checklistHtml,
 }) => {
   const [checkedItems, setCheckedItems] = useState({})
 
@@ -124,16 +121,18 @@ const AccessibilityPageTemplate = ({
                       onChange={handleChange}
                     />
                     <Collapse title={child.title}>
-                      {checklistHtml === undefined ? (
-                        child.text
-                      ) : (
-                        <Content
+
+                      {/* ...text.html is not avalible in cms so to make the preview work */}
+
+                      {(typeof checklist[index].checklistList[i].text != 'object')
+                        ? child.text
+                        : <Content
                           className="Content--tight"
                           source={
-                            checklistHtml[index].checklistList[i].text?.html
+                            checklist[index].checklistList[i].text?.html
                           }
                         />
-                      )}
+                      }
                       {child.relatedLinks && (
                         <>
                           <strong style={marginTop}>Read more:</strong>
@@ -154,20 +153,10 @@ const AccessibilityPageTemplate = ({
           )
         })}
       </Wrapper>
-
-      {heroBlock && (
-        <HeroBlock
-          background={heroBlock.color}
-          quote={heroBlock.quote}
-          cite={heroBlock.cite}
-          image={heroBlock.image}
-        />
-      )}
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
         <Content
-          className={`Content  ${
-            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-          }`}
+          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+            }`}
           source={body}
         />
       </Wrapper>

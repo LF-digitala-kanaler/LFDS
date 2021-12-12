@@ -1,5 +1,3 @@
-import * as style from './index.module.css'
-
 import {
   GlobalDispatchContext,
   GlobalStateContext,
@@ -17,6 +15,7 @@ import cx from 'classnames'
 import flow from 'lodash/fp/flow'
 import { globalHistory } from '@reach/router'
 import groupBy from 'lodash/fp/groupBy'
+import style from './index.module.css'
 
 const map = require('lodash/fp/map').convert({ cap: false })
 
@@ -58,8 +57,8 @@ const Menu = ({ currentDirectory }) => {
   const navigationItems = {
     items: data.allPages.hasOwnProperty('edges')
       ? data.allPages.edges.filter((items) =>
-          items.node.fields.contentType.includes(currentDirectory)
-        )
+        items.node.fields.contentType.includes(currentDirectory)
+      )
       : false,
   }
 

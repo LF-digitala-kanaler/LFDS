@@ -3,50 +3,6 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 const fse = require('fs-extra')
-const cssLoaderRe = /\/css-loader\//
-const targetFile = `.module.css`
-
-const processRule = (rule) => {
-  if (rule.oneOf) {
-    return {
-      ...rule,
-      oneOf: rule.oneOf.map(processRule),
-    }
-  }
-  // if (!rule.test.test(targetFile)) {
-  //   return rule
-  // }
-  if (Array.isArray(rule.use)) {
-    return {
-      ...rule,
-      use: rule.use.map((use) => {
-        if (!cssLoaderRe.test(use.loader)) {
-          return use
-        }
-        // adjust css-loader options
-        return {
-          ...use,
-          options: {
-            ...use.options,
-            camelCase: false,
-          },
-        }
-      }),
-    }
-  }
-  return rule
-}
-exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
-  const config = getConfig()
-  const newConfig = {
-    ...config,
-    module: {
-      ...config.module,
-      rules: config.module.rules.map(processRule),
-    },
-  }
-  actions.replaceWebpackConfig(newConfig)
-}
 
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
@@ -92,7 +48,7 @@ exports.createPages = async ({ actions, graphql }) => {
         // get pages with template field
         _.get(page, `node.frontmatter.template`)
       )
-      if (!pagesToCreate.length) return console.log(`Skipping ${contentType}`)
+      if (!pagesToCreate.length) return
 
       pagesToCreate.forEach((page) => {
         const id = page.node.id
@@ -133,7 +89,7 @@ exports.onCreateNode = async ({
   const { createNodeField, createNode } = actions
 
   // convert frontmatter images
-  fmImagesToRelative(node)
+
 
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent)
@@ -168,14 +124,21 @@ exports.onCreateNode = async ({
         .replace(/([A-Z])/g, ' $1'),
     })
   }
+  // convert frontmatter images
+  fmImagesToRelative(node)
   // setup html file nodes
   if (
     node.internal.type === `File` &&
     node.internal.mediaType === `text/html`
   ) {
-    const nodeContent = await loadNodeContent(node)
+    let nodeContent = await loadNodeContent(node)
+    // quick fix to get icons to work n LFDS( and not break LFUI-components)
+    const find = '../../icons/';
+    const replace = new RegExp(find, 'g');
 
-    const htmlNodeContent = {
+    nodeContent = nodeContent.replace(replace, '/icons/');
+
+    let htmlNodeContent = {
       content: nodeContent,
       name: node.name,
       slug: `example/${node.name}`,
@@ -191,10 +154,12 @@ exports.onCreateNode = async ({
         contentDigest: createContentDigest(htmlNodeContent),
       },
     }
+
     const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta)
     createNode(htmlNode)
   }
 }
+// add icons to graphql
 exports.createSchemaCustomization = ({ actions }) => {
   const { createFieldExtension, createTypes } = actions
   createFieldExtension({
@@ -202,9 +167,11 @@ exports.createSchemaCustomization = ({ actions }) => {
     extend(options, prevFieldConfig) {
       return {
         async resolve(source) {
+
           if (
             source.extension === 'svg' &&
             source.sourceInstanceName === 'icons'
+
           ) {
             return fse.readFile(source.absolutePath, 'utf8')
           }
@@ -213,9 +180,45 @@ exports.createSchemaCustomization = ({ actions }) => {
       }
     },
   })
+  // since we can't put html in frontmatter out of the box except for in body we have to create
+  // those data types by ourself 
   createTypes(`
     type File implements Node {
       svgData: String @svgData
     }
+    
+    type MarkdownRemark implements Node @infer {
+      frontmatter: Frontmatter!
+    }
+    type Frontmatter @infer {
+      checklist: [Checklist!]
+    }
+    type Checklist @infer {
+      checklistList: [ChecklistList!]
+    }
+    type ChecklistList @infer {
+      text: String @md
+    }
+    type Frontmatter @infer {
+      tabs: [Tabs!]
+    }
+    type Tabs @infer {
+      content: String @md
+    }
+    
   `)
+}
+// Hides chunk commons [mini-css-extract-plugin] Conflicting order warning
+
+exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
+  if (stage === 'develop') {
+    const config = getConfig()
+    const miniCssExtractPlugin = config.plugins.find(
+      plugin => plugin.constructor.name === 'MiniCssExtractPlugin'
+    )
+    if (miniCssExtractPlugin) {
+      miniCssExtractPlugin.options.ignoreOrder = true
+    }
+    actions.replaceWebpackConfig(config)
+  }
 }

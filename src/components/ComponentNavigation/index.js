@@ -1,8 +1,7 @@
-import * as style from './index.module.css'
-
 import React, { useState } from 'react'
 
 import cx from 'classnames'
+import style from './index.module.css'
 
 const ComponentNavigation = ({ onChildClick, navigation }) => {
   const [active, setActive] = useState(navigation[0].example[0].node.id)
