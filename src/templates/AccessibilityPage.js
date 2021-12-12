@@ -57,11 +57,13 @@ export const pageQuery = graphql`
             }
           }
         }
-        
-        roleInformation {
-          section
-          tags
+        roleInformataionList {
+          roleInformation {
+            section
+            tags
+          }
         }
+        
       }
       
      

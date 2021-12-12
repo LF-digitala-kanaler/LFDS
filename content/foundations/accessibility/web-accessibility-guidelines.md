@@ -7,12 +7,14 @@ intro: Intro
 description: Här går vi igenom punkt för punkt vad de betyder för
   Länsförsäkringar att följa checklistorna.
 roleInformation:
-  - content: >
-    Test
-  - tags:
-    - Tester
+  - title : title
+    roleInformataionList:
+      content: >-
+        Test fefefe
+      - tags:
+        - Tester
 checklist:
-  - title: test
+  - title: title
     section: Layout and images
     checklistList:
       - tags:
