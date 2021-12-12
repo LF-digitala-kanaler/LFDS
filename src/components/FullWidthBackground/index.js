@@ -13,7 +13,7 @@ const FullWidthBackground = ({ imageSource, children, title }) => {
       image: getImage(imageSource[1])
     },
   ]);
-  console.log(images, 'first')
+
   return (
     <div className={style.FullWidthBackground}>
       {/* if inside netlify cms show regular image */}
@@ -22,7 +22,7 @@ const FullWidthBackground = ({ imageSource, children, title }) => {
         <p>0</p>
       ) : (
         <>
-          {console.log(images)}
+
           <GatsbyImage className={style.FullWidthBackground__object} alt="" image={images} />
         </>
       )}

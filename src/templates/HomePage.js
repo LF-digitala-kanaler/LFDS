@@ -11,7 +11,7 @@ const HomePage = ({ data: { page } }) => {
     page.frontmatter.fullWidthImage.fullWidthImageDesktop.childImageSharp.desktopImage,
     page.frontmatter.fullWidthImage.fullWidthImageMobile.childImageSharp.mobileImage,
   ]
-  console.log(sources[0], 'sås')
+
   return (
     <Layout
       meta={page.frontmatter.meta || false}

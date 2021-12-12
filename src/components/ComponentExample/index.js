@@ -34,7 +34,7 @@ const ComponentExample = ({
   const [code, setCode] = useState(
     navigation ? nav[0].example[0].node.content : variants[0].node.content
   )
-  console.log(code, 'kod')
+
   const [source, setSource] = useState(false)
   const [minHeight, setHeight] = useState(300)
   const iframeRef = React.createRef()

@@ -22,6 +22,7 @@ const AccessibilityPageTemplate = ({
   const [checkedItems, setCheckedItems] = useState({})
 
   const [list, setList] = useState([...checklist])
+  const [roleInformationList, setRoleInformationList] = useState([...roleInformation])
   const [activeRole, setRole] = useState('All roles')
   const roles = ['All roles', 'UX/AD', 'Developer', 'Tester', 'Copy']
 
@@ -38,7 +39,7 @@ const AccessibilityPageTemplate = ({
 
   useEffect(() => {
     if (activeRole !== 'All roles') {
-      let checklistNew = checklist.map((element) => {
+      let checklistFiltred = checklist.map((element) => {
         return {
           ...element,
           checklistList: element.checklistList.filter((checklistList) =>
@@ -46,10 +47,12 @@ const AccessibilityPageTemplate = ({
           ),
         }
       })
-      setList(checklistNew)
+      setList(checklistFiltred)
     } else {
       setList(checklist)
     }
+    let roleInformationFiltred = roleInformation.filter((element) => element.tags.includes(activeRole))
+    setRoleInformationList(roleInformationFiltred)
   }, [checklist, activeRole])
 
   const listStyle = {
@@ -101,7 +104,7 @@ const AccessibilityPageTemplate = ({
           })}
         </ul>
         {
-          roleInformation.map((item, index) => {
+          roleInformationList.map((item, index) => {
             return (
               <div key={index}>
                 <Content source={item.text} />
