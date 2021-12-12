@@ -6,12 +6,77 @@ title: Web accessibility guidelines
 intro: Intro
 description: Här går vi igenom punkt för punkt vad de betyder för
   Länsförsäkringar att följa checklistorna.
-roleInformation: 
-  - tags: 
-    - Tester
-    text: >
-      dummy text
-      
+roleInformation:
+  - tags:
+      - Tester
+    text: >-
+      ### Browsers and units
+
+
+      Conduct the following tests with the latest version of browsers and units
+
+
+      Automatic test\
+
+      You can perform automatic web site tests that will catch basic errors such missing alt-tags and contrast issues. Be aware though that these tests catch only about 30% of errors.\
+
+      \
+
+      For example: \
+
+      [https://wave.webaim.org](https://wave.webaim.org/)
+
+
+      ### Most important base functionality
+
+
+      Test all the way from the main page to the listed destination.
+
+
+      #### My Pages (MiS) 
+
+
+      * Accessing and navigating account overview 
+
+      * Making payments
+
+      * Transferring money
+
+
+      #### The app
+
+
+      * Accessing and navigating account overview 
+
+      * Making payments
+
+      * Transferring money
+
+
+      #### Public web and purchase flows 
+
+
+      * Navigate from the main page to purchase flows from the main menu 
+
+      * Applying for a housing loa
+
+      * Get a loan promise
+
+      * Purchasing a car insurance
+
+
+      #### Test with a screen reader
+
+
+      * Test navigating with the Voiceover on iOS devices
+
+      * Test navigating with TalkBack on Android devices
+
+
+      #### Test navigating with the keyboard 
+
+
+      Navigate through the site or service using the TAB, SPACE, UP, DOWN, ENTER keys. Make sure all important links and elements can be reached and that the user can use the options presented to them. Also check the following:
 checklist:
   - title: tst
     section: Layout and images
