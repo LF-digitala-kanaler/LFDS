@@ -6,7 +6,6 @@
 
 .Header {
   background-color: var(--header-background);
-  /* box-shadow: 0 2px 0 0 var(--header-border-color); */
   margin-bottom: var(--spacing-vertical--3);
   position: relative;
   z-index: 3;

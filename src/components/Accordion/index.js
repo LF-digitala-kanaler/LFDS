@@ -1,6 +1,6 @@
-import * as style from './index.module.css'
-
 import React, { useRef, useState } from 'react'
+
+import style from './index.module.css'
 
 const Accordion = ({ title, date, text }) => {
   const [setActive, setActiveState] = useState('')

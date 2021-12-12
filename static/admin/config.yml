@@ -28,16 +28,18 @@ collections: # A list of collections the CMS should be able to edi
           label: Page Description,
           name: description,
           widget: text,
-          hint: Will be shown on Overview page,
+          hint: Will be displayed on Overview page,
           required: false
         }
       - label: Preview Image
         name: previewImage
         widget: image
         required: false
+        hint: Will be displayed on Overview page
       - label: 'Category'
         name: 'category'
         widget: 'select'
+        hint: Where in the navigation will the component be visible? 
         create: true
         options:
           - { label: 'Button and links', value: 'Button and links' }
@@ -55,6 +57,7 @@ collections: # A list of collections the CMS should be able to edi
           - { label: 'Text', value: 'Text' }
       - name: 'componentsNavigation'
         label: 'Example Navigation'
+        hint: Need to match the html example files name from LFUI-components
         label_singular: 'Example'
         minimize_collapsed: true
         widget: 'list'
@@ -1007,23 +1010,6 @@ collections: # A list of collections the CMS should be able to edi
                       - { label: 'Developer', value: 'Developer' }
                       - { label: 'Tester', value: 'Tester' }
                       - { label: 'Copy', value: 'Copy' }
-
-          - label: Hero block
-            name: heroBlock
-            widget: object
-            collapsed: true
-            fields:
-              - label: 'Color'
-                name: 'color'
-                widget: 'select'
-                required: false
-                hint: 'Background color for hero block. '
-                options:
-                  - { label: 'Pink', value: '#fcd2d3' }
-                  - { label: 'Blue', value: '#badaf3' }
-              - { label: Image, name: image, widget: image, required: false }
-              - { label: Quote, name: quote, widget: text, required: false }
-              - { label: Cite, name: cite, widget: string, required: false }
               - {
                   label: 'Content',
                   name: body,

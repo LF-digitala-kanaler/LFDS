@@ -35,26 +35,28 @@ const IconsTemplate = ({
 
       <div className="Icons">
         {iconsRegular.map((item, i) => {
+
           return (
             <span key={i}>
               <h3 className="mb-2">{item.group} pixels icons</h3>
               <Row gutter={32}>
                 {item.icons.map((icon) => {
+
                   return (
                     <Col span={12} sm={6} md={4} key={icon.name}>
+
                       <div className="icon-container mb-2">
                         {
-                          <div
-                            className="icon"
-                            dangerouslySetInnerHTML={{
-                              __html: icon.svgData,
-                            }}
-                          />
+                          <svg width={icon.width} height={icon.height} className="icon">
+                            <use xlinkHref={'/icons/' + icon.relativeDirectory + '/icons.svg#' + icon.name} />
+                          </svg>
+
                         }
                         <div className="text-sm">{icon.name}</div>
                       </div>
                     </Col>
                   )
+
                 })}
               </Row>
             </span>
@@ -67,23 +69,22 @@ const IconsTemplate = ({
               <h3 className="mb-2">
                 {item.group.replace('special/', '')} pixels icons
               </h3>
-              <Row gutter={32}>
+              <Row gutter={4}>
                 {item.icons.map((icon) => {
+
                   return (
                     <Col span={12} sm={6} md={4} key={icon.name}>
                       <div className="icon-container mb-2">
                         {
-                          <div
-                            className="icon"
-                            dangerouslySetInnerHTML={{
-                              __html: icon.svgData,
-                            }}
-                          />
+                          <svg className="icon" width={icon.width} height={icon.height}>
+                            <use xlinkHref={'/icons/special/icons.svg#' + icon.name} />
+                          </svg>
                         }
                         <div className="text-sm">{icon.name}</div>
                       </div>
                     </Col>
                   )
+
                 })}
               </Row>
             </span>

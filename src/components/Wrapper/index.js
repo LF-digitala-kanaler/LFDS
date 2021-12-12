@@ -1,7 +1,6 @@
-import * as style from './index.module.css'
-
 import React from 'react'
 import cx from 'classnames'
+import style from './index.module.css'
 
 const Wrapper = ({ tag, menu, children, narrow, wide, tight, center }) => {
   let Tag = tag

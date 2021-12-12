@@ -40,7 +40,8 @@ const LandingPage = ({
       }
     })
   )(overviewPages.items)
-  // get all article pages on current page that does not have a category
+
+  // get all  pages on current page that does not have a category
   const children = {
     items: Object.prototype.hasOwnProperty.call(allPages, 'edges')
       ? allPages.edges.filter(
@@ -95,7 +96,7 @@ const LandingPage = ({
         intro={page.frontmatter.intro}
         body={page.html}
         contentBottom={
-          page.fields.frontmattermd?.contentBottom?.html ||
+
           page.frontmatter.contentBottom
         }
         blockquote={page.frontmatter.blockquote}
@@ -114,7 +115,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        contentBottom
+        contentBottom 
         blockquote {
           text
           author

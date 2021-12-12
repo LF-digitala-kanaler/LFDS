@@ -1,5 +1,3 @@
-import * as style from './index.module.css'
-
 import Breadcrumb from '../Breadcrumb'
 import BrowserBanner from '../BrowserBanner'
 import { Link } from 'gatsby'
@@ -11,6 +9,7 @@ import React from 'react'
 import Search from '../Search'
 import cx from 'classnames'
 import { isIE } from 'react-device-detect'
+import style from './index.module.css'
 
 // import ToggleSwitch from '../ToggleSwitch';
 

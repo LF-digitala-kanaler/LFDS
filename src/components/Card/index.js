@@ -1,8 +1,7 @@
-import * as style from './index.module.css'
-
 import { Link } from 'gatsby'
 import React from 'react'
 import cx from 'classnames'
+import style from './index.module.css'
 
 const Card = ({ title, url, image, description, grid, lang }) => {
   return (

@@ -1,7 +1,6 @@
-import * as style from './index.module.css'
-
 import Card from '../Card'
 import React from 'react'
+import style from './index.module.css'
 
 const CardGrid = ({ list }) => {
   const cardItems = list.map((item, index) => {

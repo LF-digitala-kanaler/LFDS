@@ -1,8 +1,7 @@
-import * as style from './index.module.css'
-
-import cx from 'classnames'
 import { Link } from 'gatsby'
 import React from 'react'
+import cx from 'classnames'
+import style from './index.module.css'
 
 const Shortcut = ({ text, path, icon, title, horizontal }) => {
   return (

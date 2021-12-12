@@ -20,11 +20,9 @@ const AccessibilityPage = ({ data: { page }, location }) => {
       <AccessibilityPageTemplate
         {...page}
         {...page.frontmatter}
-        heroBlock={page.frontmatter.heroBlock}
         body={page.html}
         wrapperWidth={page.frontmatter.wide}
         checklist={page.frontmatter.checklist}
-        checklistHtml={page.fields.checklist.text.html}
       />
     </Layout>
   )
@@ -51,7 +49,7 @@ export const pageQuery = graphql`
             title
             text {
               html
-            }
+            } 
             tags
             relatedLinks {
               text
@@ -59,14 +57,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        heroBlock {
-          color
-          quote
-          cite
-          image {
-            publicURL
-          }
-        }
+        
       }
       
      

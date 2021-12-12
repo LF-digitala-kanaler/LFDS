@@ -1,8 +1,7 @@
-import * as style from './index.module.css'
-
 import React from 'react'
 import { Resizable } from 're-resizable'
 import cx from 'classnames'
+import style from './index.module.css'
 
 const Preview = ({ children, resize }) => {
   const verticalResize = resize === 'yes' ? true : false

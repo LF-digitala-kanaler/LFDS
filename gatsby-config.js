@@ -85,7 +85,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/icons`,
+        path: `${__dirname}/static/icons`,
         name: 'icons',
       },
     },
@@ -111,7 +111,6 @@ module.exports = {
       },
     },
 
-    // images
     {
       resolve: 'gatsby-plugin-flexsearch',
       options: {
@@ -225,7 +224,7 @@ module.exports = {
       },
 
     },
-
+    'gatsby-plugin-image',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     `gatsby-plugin-catch-links`,
@@ -241,7 +240,7 @@ module.exports = {
         },
         postCssPlugins: [
           require(`postcss-preset-env`)({
-            browsers: '> 0.5%, last 2 versions, ie 11',
+            browsers: '> 0.5%, last 2 versions',
             features: {
               'nesting-rules': true,
               'postcss-custom-media': true,
@@ -257,7 +256,8 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: true,
+        enableIdentityWidget: false,
+
       },
     },
 
@@ -270,8 +270,9 @@ module.exports = {
         // HTTP headers
         headers: {
           // Learn about environment variables: https://gatsby.dev/env-vars
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
         },
+
       },
     },
     {
@@ -283,24 +284,6 @@ module.exports = {
         },
       },
     },
-    // GA
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     // The property ID; the tracking code won't be generated without it
-    //     trackingId: 'UA-16369289-32',
-    //     // Defines where to place the tracking script - `true` in the head and `false` in the body
-    //     head: false,
-    //     // Setting this parameter is optional
-    //     anonymize: true,
-    //     // Setting this parameter is also optional
-    //     respectDNT: true,
-    //     // Avoids sending pageview hits from custom paths
-    //     exclude: ['/admin/'],
-    //     // Delays sending pageview hits on route update (in milliseconds)
-    //     pageTransitionDelay: 0,
-    //   },
-    // },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

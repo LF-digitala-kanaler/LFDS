@@ -89,7 +89,7 @@ exports.onCreateNode = async ({
   const { createNodeField, createNode } = actions
 
   // convert frontmatter images
-  fmImagesToRelative(node)
+
 
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent)
@@ -124,14 +124,21 @@ exports.onCreateNode = async ({
         .replace(/([A-Z])/g, ' $1'),
     })
   }
+  // convert frontmatter images
+  fmImagesToRelative(node)
   // setup html file nodes
   if (
     node.internal.type === `File` &&
     node.internal.mediaType === `text/html`
   ) {
-    const nodeContent = await loadNodeContent(node)
+    let nodeContent = await loadNodeContent(node)
+    // quick fix to get icons to work n LFDS( and not break LFUI-components)
+    const find = '../../icons/';
+    const replace = new RegExp(find, 'g');
 
-    const htmlNodeContent = {
+    nodeContent = nodeContent.replace(replace, '/icons/');
+
+    let htmlNodeContent = {
       content: nodeContent,
       name: node.name,
       slug: `example/${node.name}`,
@@ -147,10 +154,12 @@ exports.onCreateNode = async ({
         contentDigest: createContentDigest(htmlNodeContent),
       },
     }
+
     const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta)
     createNode(htmlNode)
   }
 }
+// add icons to graphql
 exports.createSchemaCustomization = ({ actions }) => {
   const { createFieldExtension, createTypes } = actions
   createFieldExtension({
@@ -158,9 +167,11 @@ exports.createSchemaCustomization = ({ actions }) => {
     extend(options, prevFieldConfig) {
       return {
         async resolve(source) {
+
           if (
             source.extension === 'svg' &&
             source.sourceInstanceName === 'icons'
+
           ) {
             return fse.readFile(source.absolutePath, 'utf8')
           }
@@ -169,12 +180,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       }
     },
   })
-
+  // since we can't put html in frontmatter out of the box except for in body we have to create
+  // those data types by ourself 
   createTypes(`
     type File implements Node {
       svgData: String @svgData
     }
-    
     
     type MarkdownRemark implements Node @infer {
       frontmatter: Frontmatter!
@@ -188,5 +199,26 @@ exports.createSchemaCustomization = ({ actions }) => {
     type ChecklistList @infer {
       text: String @md
     }
+    type Frontmatter @infer {
+      tabs: [Tabs!]
+    }
+    type Tabs @infer {
+      content: String @md
+    }
+    
   `)
+}
+// Hides chunk commons [mini-css-extract-plugin] Conflicting order warning
+
+exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
+  if (stage === 'develop') {
+    const config = getConfig()
+    const miniCssExtractPlugin = config.plugins.find(
+      plugin => plugin.constructor.name === 'MiniCssExtractPlugin'
+    )
+    if (miniCssExtractPlugin) {
+      miniCssExtractPlugin.options.ignoreOrder = true
+    }
+    actions.replaceWebpackConfig(config)
+  }
 }
