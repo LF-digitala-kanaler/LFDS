@@ -17,6 +17,6 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2.2.0
 
         with:
-          access-token: ${{ secrets.GITHUB_TOKEN }}
+          access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
           deploy-repo: lf-digitala-kanaler.github.io
           deploy-branch: master
