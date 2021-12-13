@@ -2,7 +2,7 @@
 template: ArticlePage
 category: Getting started
 previewImage: /img/copy.svg
-title: UX-copy
+title: UX Writing
 intro: Länsförsäkringar User Interface är vår plattform för vårt digitala
   varumärke. Här guidar vi dig hur du kommer igång som en Writer, UX, AD eller
   frontend-utvecklare hos Länsförsäkringar. Du kan gå in på våra komponenter
