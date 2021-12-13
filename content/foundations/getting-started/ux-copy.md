@@ -23,8 +23,8 @@ lang: true
 
 </p></div>
 
-<div class="Callout"><strong class="Callout__title">Copy patterns </strong><p class="Callout__text">I avsnittet Copy under General Patterns kan du se exempel och principer på hur vi skriver exempelvis felmeddelanden.
+<div class="Callout"><strong class="Callout__title">Copy patterns </strong><p class="Callout__text">I avsnittet Felmeddelanden under General Patterns kan du se exempel och principer på hur vi skriver felmeddelanden.
 
-[Visa Copy patterns](https://lf-digitala-kanaler.github.io/patterns/general-patterns/writing)
+[Visa Felmeddelanden](https://lf-digitala-kanaler.github.io/patterns/general-patterns/writing)
 
 [](https://lf-digitala-kanaler.github.io/patterns/general-patterns/writing)</p></div>
