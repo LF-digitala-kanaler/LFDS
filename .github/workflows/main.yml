@@ -14,10 +14,10 @@ jobs:
         with:
           persist-credentials: false
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+      - run: yarn build
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.ACCESS_TOKEN }}
-          external_repository: lf-digitala-kanaler.github.io
+          external_repository: LF-digitala-kanaler/lf-digitala-kanaler.github.io
           publish_branch: master
