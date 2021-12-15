@@ -1,3 +1,7 @@
+# Länsförsäkringar Design System
+
+Welcome to Länsförsäkringar's design system. The design system (known as LFDS) is the heart of digital design at Länsförsäkringar.
+
 # Installation
 
 Clone the repo
