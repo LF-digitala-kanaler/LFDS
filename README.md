@@ -28,7 +28,7 @@ GITHUB_TOKEN=your_token
 When you have your .env files and your token added it's time to install packages
 
 ```bash
- yarn Install
+ yarn install
 ```
 
 You should now be able to run the site
