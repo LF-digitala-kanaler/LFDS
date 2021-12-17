@@ -61,7 +61,7 @@ And run `yarn copy:icons` to copy icons from node_modules
 --------- 
 * Deploy
 * Add content 
-
+* component structure naming and navigation
 * cms basics
 
 ## Structure
@@ -117,10 +117,6 @@ If you are adding or editing content locally in the CMS, a couple of things to n
 1.  Changes will be pushed to the remote repo.
 
 2.  You will be prompted to enter your site's url, this is necessary for Netlify Identity to manage user login. This is stored in `localStorage`, so you might have to empty your browser cache if you are switching projects but remaining on `localhost:8000`.
-3.  
-
-
-
 
 
 ## Editing CMS fields
