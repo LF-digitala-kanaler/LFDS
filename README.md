@@ -63,7 +63,7 @@ And run `yarn copy:icons` to copy icons from node_modules
 * Add content 
 * component structure naming and navigation
 * cms basics
-
+* access to cms
 ## Structure
 
 The project is structured as such:
