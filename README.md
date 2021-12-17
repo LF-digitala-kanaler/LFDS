@@ -46,7 +46,6 @@ You should now be able to run the site
 * Add content 
 * Update icons
 * Update LFUi-componens
-* file structure
 * cms basics
 
 ## Structure
