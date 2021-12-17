@@ -51,7 +51,43 @@ You should now be able to run the site
 
 ## Structure
 
+The project is structured as such:
+
 ```
+LFDS/
+├── .github/
+│    **Github action workflow**
+├── content/
+│   ** Markdown files from netlifyCMS **
+├── public/
+└── src/
+    ├── cms/ 
+    │    ** custom widgets for netlifyCMS **
+    ├── components/ 
+    │    ** site components **
+    ├── context/
+    │   ** Context API for Gatsby **
+    ├── data/
+    │   ** Main navigation structure and component status(component status will be copied from node_modules at each `yarn start` **
+    ├── img/
+    ├── pages/
+    ├── templates/
+    │   ** Templates for every page type in LFDS **
+    ├── utils/
+    └── static/
+         ** Asset outside of the module system **
+         ├── admin/
+         │    ** Configuration options for Netlify CMS**
+         ├── favicons/
+         ├── fonts/
+         ├── icons/ 
+         │    ** Icons from lfui-icons to update run `yarn copy:icons` **
+         ├── img/
+         │    ** Images uploaded in Netlify CMS **
+         ├── docs.js ** Copied from lfui-components and used in iframe to show examples **
+         └── lf.js ** Copied from lfui-components and used in iframe to show examples **
+
+    
 
 ```
 
