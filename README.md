@@ -40,12 +40,28 @@ You should now be able to run the site
 ```bash
  yarn start
 ```
+## Update LFUI-components and LFUI-icons 
+
+If there is a new version of LFUI-components or LFUI-icons avalible you need to update version in package.json, build and deploy LFDS to make them visible in LFDS. 
+
+To update LFUI-components change version number in package.json:
+
+```bash
+  "lfui-components": "https://github.com/LF-digitala-kanaler/LFUI-components.git#release/7.1.0",
+```
+
+To update LFUI-icons do the same but for lfui-icons: 
+
+```bash
+  "lfui-icons": "https://github.com/LF-digitala-kanaler/LFUI-icons.git#v1.1.2",
+```
+
+And run `yarn copy:icons` to copy icons from node_modules
 
 --------- 
 * Deploy
 * Add content 
-* Update icons
-* Update LFUi-componens
+
 * cms basics
 
 ## Structure
