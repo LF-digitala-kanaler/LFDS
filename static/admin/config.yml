@@ -5,7 +5,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-collections: # A list of collections the CMS should be able to edi
+collections: # A list of collections the CMS should be able to edit
   - name: component-page
     label: Components
     create: true
