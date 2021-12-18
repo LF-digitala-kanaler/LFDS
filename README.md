@@ -64,6 +64,7 @@ And run `yarn copy:icons` to copy icons from node_modules
 Each component from `lfui-compoents/dist/docs/html` will be imported to Graphql and queried in `ComponentPage.js`.
 To determine which component to show on which page it will compare the folder name from `lfui-components` with `location.pathname` for each page.
 Make sure to use `PascalCase`for folder name in lfui-compoents. 
+
 --------- 
 * Deploy
 * Add content 
