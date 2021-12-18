@@ -53,7 +53,7 @@ const AccessibilityPageTemplate = ({
     }
     let roleInformationFiltred = roleInformation.filter((element) => element.tags.includes(activeRole))
     setRoleInformationList(roleInformationFiltred)
-  }, [checklist, activeRole])
+  }, [checklist, activeRole, roleInformation])
 
   const listStyle = {
     display: 'flex',

@@ -6,17 +6,17 @@ import { graphql } from 'gatsby'
 const CategoryOverviewPage = ({
   data: { page, allPages },
   location,
-  currentDirectory,
+  currentPage,
 }) => {
   if (typeof window !== `undefined`) {
-    currentDirectory = location.href.split('/').filter(Boolean).pop()
+    currentPage = location.href.split('/').filter(Boolean).pop()
   }
 
   const children = {
     links: Object.prototype.hasOwnProperty.call(allPages, 'edges')
       ? allPages.edges.filter((category) => {
         if (
-          category.node.fields.contentType.includes(currentDirectory) &&
+          category.node.fields.contentType.includes(currentPage) &&
           category.node.frontmatter.hidden !== true
         ) {
           return { ...category.node }

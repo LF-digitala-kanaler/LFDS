@@ -12,18 +12,18 @@ const map = require('lodash/fp/map').convert({ cap: false })
 
 const LandingPage = ({
   data: { page, allPages, allOverviewPages },
-  currentDirectory,
+  currentPage,
   location,
 }) => {
   if (typeof window !== `undefined`) {
-    currentDirectory = location.pathname.split('/').filter(Boolean).pop()
+    currentPage = location.pathname.split('/').filter(Boolean).pop()
   }
   // get all overview pages on current page
 
   const overviewPages = {
     items: Object.prototype.hasOwnProperty.call(allOverviewPages, 'edges')
       ? allOverviewPages.edges.filter((items) =>
-        items.node.fields.contentType.includes(currentDirectory)
+        items.node.fields.contentType.includes(currentPage)
       )
       : false,
   }
@@ -46,7 +46,7 @@ const LandingPage = ({
     items: Object.prototype.hasOwnProperty.call(allPages, 'edges')
       ? allPages.edges.filter(
         (items) =>
-          items.node.fields.contentType.includes(currentDirectory) &&
+          items.node.fields.contentType.includes(currentPage) &&
           items.node.frontmatter.hidden !== true
       )
       : false,

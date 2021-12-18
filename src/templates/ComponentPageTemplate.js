@@ -12,27 +12,27 @@ import Wrapper from '../components/Wrapper'
 const ComponentPageTemplate = ({
   title,
   intro,
-  componentsExample,
+  componentForCurrentPage,
   componentsNavigation,
   backgroundColor,
   tabs,
-  currentDirectory,
+  currentPage,
   verticalResize,
 }) => (
   <>
-    {currentDirectory && <Deprecated componentName={currentDirectory} />}
+    {currentPage && <Deprecated componentName={currentPage} />}
     <Wrapper tag="div" menu={true}>
       <Heading tag={1} text={title} align={'left'} />
-      {currentDirectory && <ComponentVersion version={currentDirectory} />}
+      {currentPage && <ComponentVersion version={currentPage} />}
     </Wrapper>
     <Wrapper tag="div" menu={true} narrow>
       <Preamble text={intro} tag="p" align={'left'} />
     </Wrapper>
     <Wrapper tag="div" menu={true}>
-      {componentsExample && componentsExample.length > 0 && (
+      {componentForCurrentPage && componentForCurrentPage.length > 0 && (
         <ComponentExample
           verticalResize={verticalResize}
-          variants={componentsExample}
+          variants={componentForCurrentPage}
           navigation={componentsNavigation}
           background={backgroundColor}
         />
@@ -42,8 +42,8 @@ const ComponentPageTemplate = ({
     <Location>
       {({ location }) => (
         <TabsWrapper tabs={tabs} location={location} navigate={navigate}>
-          {currentDirectory && (
-            <Deprecated fixed={true} componentName={currentDirectory} />
+          {currentPage && (
+            <Deprecated fixed={true} componentName={currentPage} />
           )}
         </TabsWrapper>
       )}

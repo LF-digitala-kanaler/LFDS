@@ -5,14 +5,16 @@ import { globalHistory } from '@reach/router'
 import { graphql } from 'gatsby'
 
 const ComponentPage = ({
-  data: { page, allComponentExample },
+  data: { page, allComponents },
   location,
-  currentDirectory,
+  currentPage
 }) => {
+
   // window is not avalible during gatsby build
   if (typeof window !== `undefined`) {
     const path = globalHistory.location.pathname
-    currentDirectory = path.split('/').filter(Boolean).pop()
+    currentPage = path.split('/').filter(Boolean).pop()
+
   }
   const toKebabCase = (str) =>
     str &&
@@ -23,13 +25,14 @@ const ComponentPage = ({
       .map((x) => x.toLowerCase())
       .join('-')
 
-  const componentExample = {
-    examples: Object.prototype.hasOwnProperty.call(allComponentExample, 'edges')
-      ? allComponentExample.edges.filter(
-        (exemple) =>
+  // Find components for current page. 
+  const componentsForCurrentPage = {
+    components: Object.prototype.hasOwnProperty.call(allComponents, 'edges')
+      ? allComponents.edges.filter(
+        (item) =>
           toKebabCase(
-            exemple.node.relativeDirectory.split('/').pop()
-          ).toLowerCase() === currentDirectory
+            item.node.relativeDirectory.split('/').pop()
+          ).toLowerCase() === currentPage
       )
       : false,
   }
@@ -56,10 +59,10 @@ const ComponentPage = ({
         intro={page.frontmatter.intro}
         tabs={page.frontmatter.tabs}
         category={page.frontmatter.category}
-        componentsExample={componentExample.examples}
+        componentForCurrentPage={componentsForCurrentPage.components}
         componentsNavigation={page.frontmatter.componentsNavigation}
         backgroundColor={page.frontmatter.backgroundColor}
-        currentDirectory={currentDirectory}
+        currentPage={currentPage}
         priority={page.frontmatter.priority}
         verticalResize={page.frontmatter.verticalResize}
       />
@@ -99,7 +102,7 @@ export const pageQuery = graphql`
       }
      
     }
-    allComponentExample: allHtmlContent {
+    allComponents: allHtmlContent {
       edges {
         node {
           slug
