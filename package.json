@@ -87,8 +87,8 @@
     "fs-extra": "^10.0.0",
     "gh-pages": "^3.1.0",
     "is-relative-url": "^3.0.0",
-    "lfui-components": "https://github.com/LF-digitala-kanaler/LFUI-components.git#release/7.1.0",
-    "lfui-icons": "https://github.com/LF-digitala-kanaler/LFUI-icons.git#v1.1.2",
+    "lfui-components": "git+https://github.com/LF-digitala-kanaler/LFUI-components.git#release/7.1.0",
+    "lfui-icons": "git+https://github.com/LF-digitala-kanaler/LFUI-icons.git#v1.1.2",
     "prettier": "^2.1.1",
     "react-device-detect": "^1.15.0",
     "react-use": "^17.1.0"
