@@ -84,12 +84,6 @@
   color: var(--color-black);
   text-underline-position: under;
 }
-.Content ol li {
-  margin-bottom: var(--spacing-vertical--1);
-}
-.Content .lfui-theme ol li {
-  margin-bottom: 0;
-}
 
 .Content ul {
   list-style-type: none;
@@ -104,13 +98,18 @@
 .Content ul li {
   margin-bottom: var(--spacing-vertical--05);
 }
+.Content ol li {
+  margin-bottom: var(--spacing-vertical--1);
+}
+.Content .lfui-theme ol li {
+  margin-bottom: 0;
+}
 .Content ul li::before {
   content: '\0025A0';
   color: var(--color-blue);
   font-weight: bold;
   display: inline-block;
   width: 1em;
-  margin-left: -1em;
   font-size: 14px;
   line-height: 1;
   position: absolute;
@@ -123,11 +122,9 @@
 
 .Content table th {
   border: 0;
+  padding: 8px 4px;
   text-align: left;
   background-color: var(--color-smoke);
-}
-.Content table th {
-  padding: 8px 4px;
 }
 .Content table td {
   padding: 6px 4px;
@@ -181,6 +178,33 @@
 
 figure {
   margin: 0;
+}
+
+.ImageBlock {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  @media (--xsmall-viewport) {
+    flex-wrap: nowrap;
+  }
+}
+.ImageBlock__content {
+  max-width: var(--content-width--tight);
+}
+.Content .ImageBlock__content > * {
+  margin-top: 0;
+}
+
+.ImageBlock__object {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto var(--spacing-vertical--2);
+  @media (--xsmall-viewport) {
+    margin: 0;
+  }
+}
+.ImageBlock__image {
+  margin-top: 0;
 }
 
 .Content--tight .Image__wide,
@@ -344,12 +368,6 @@ figure {
   }
 }
 
-.Content pre code {
-  white-space: pre;
-  overflow-x: scroll;
-  display: block;
-}
-
 .Content code {
   background-color: var(--color-smoke);
   padding: 0 2px;
@@ -357,30 +375,8 @@ figure {
   font-size: 87.5%;
 }
 
-
-.ImageBlock {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  width: 100%;
-  @media (--xsmall-viewport) {
-    flex-wrap: nowrap;
-  }
-}
-.ImageBlock__content {
-  max-width: var(--content-width--tight);
-}
-.Content .ImageBlock__content > * {
-  margin-top: 0;
-}
-
-.ImageBlock__object {
-  width: 300px;
-  text-align: center;
-  margin: 0 auto var(--spacing-vertical--2);
-  @media (--xsmall-viewport) {
-    margin: 0;
-  }
-}
-.ImageBlock__image {
-  margin-top: 0;
+.Content pre code {
+  white-space: pre;
+  overflow-x: scroll;
+  display: block;
 }

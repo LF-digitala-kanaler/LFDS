@@ -63,10 +63,6 @@
   padding: var(--spacing-xxlg) var(--spacing-xxlg);
 }
 
-.Shortcut--horizontal .Shortcut__link:hover .Shortcut__arrow {
-  transform: translateX(8px);
-}
-
 .Shortcut--horizontal .Shortcut__body {
   text-align: left;
   margin-left: 5.5rem;
@@ -79,4 +75,8 @@
   bottom: var(--spacing-xxlg);
   right: var(--spacing-xxlg);
   transition: transform 0.2s ease-out;
+}
+
+.Shortcut--horizontal .Shortcut__link:hover .Shortcut__arrow {
+  transform: translateX(8px);
 }

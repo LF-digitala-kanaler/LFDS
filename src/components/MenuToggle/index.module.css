@@ -39,15 +39,12 @@
     position: absolute;
     height: 100%;
   }
-  @media (--large-viewport) {
-  }
 }
 .MenuToggle--isActive {
   @media (--medium-viewport-down) {
     &:after {
       background: var(--menuToggle-active-background);
       position: absolute;
-      width: 2.5rem;
       top: 0;
       left: 0;
       z-index: -1;

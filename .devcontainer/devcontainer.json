@@ -1,6 +1,9 @@
 {
 	"name": "LFDS",
 	"settings": {
+		"files.associations": {
+			"*.css": "scss"
+		}
   },
 	"extensions": [
 		"github.copilot",

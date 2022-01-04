@@ -55,8 +55,8 @@
 }
 
 .Checkbox .Checkbox__input:not(:checked) ~ .Checkbox__label:after {
-  transition-property: box-shadow, background-size;
   transition: 0.2s ease;
+  transition-property: box-shadow, background-size;
   background-size: 10% 10%;
 }
 .Checkbox .Checkbox__input:checked:not([disabled]) ~ .Checkbox__label:before {

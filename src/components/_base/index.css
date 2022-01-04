@@ -237,8 +237,8 @@ a[href*='lfnet.se'] {
 .Icons .mb-2 {
   margin-bottom: 2rem !important;
 }
-.Icons .Content h3,
-.Icons h3 {
+.Icons h3,
+.Icons .Content h3 {
   font-size: 1.5rem;
   line-height: 1.333;
   margin-bottom: var(--spacing-vertical--05);

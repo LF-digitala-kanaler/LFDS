@@ -71,7 +71,6 @@
 .Search__list {
   background-color: var(--color-white);
   position: absolute;
-  left: 0;
   top: 41px;
   width: 100%;
   max-width: 444px;

@@ -16,6 +16,7 @@
 }
 
 .ComponentVersion__icon {
+  margin-left: 4px;
   transition: 0.25s ease;
   transform: rotate(0);
 }
@@ -28,14 +29,17 @@
   transition: max-height 0.3s ease;
 }
 
-.ComponentVersion__icon {
-  margin-left: 4px;
-}
-
 .ComponentVersion__link {
-  color: var(--color-body);
+  color: var(--color-black);
+  margin-top: 5px;
+  margin-bottom: 2px;
   margin-right: var(--spacing-sm);
-  display: block;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  &:hover {
+    color: var(--color-black);
+  }
 }
 .ComponentVersion__aloneLink {
   color: var(--color-body);
@@ -57,14 +61,3 @@
   margin: 0;
 }
 
-.ComponentVersion__link {
-  color: var(--color-black);
-  margin-top: 5px;
-  margin-bottom: 2px;
-  display: inline-block;
-  width: 100%;
-  vertical-align: middle;
-  &:hover {
-    color: var(--color-black);
-  }
-}

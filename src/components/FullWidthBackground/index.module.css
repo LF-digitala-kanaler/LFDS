@@ -3,7 +3,7 @@
   position: relative;
   margin-top: var(--spacing-vertical--1);
   margin-bottom: var(--spacing-vertical--3);
-  
+
 }
 
 .FullWidthBackground__container {
@@ -42,7 +42,7 @@
   font-size: 2.5rem;
   line-height: 1.2;
 
-  font-family: 'LFRubrik';
+  font-family: 'LFRubrik', serif;
   z-index: 1;
   left: 50%;
   transform: translateX(-50%);
@@ -66,5 +66,4 @@
   @media (--large-viewport-down) {
     height: 412px;
   }
-  
 }

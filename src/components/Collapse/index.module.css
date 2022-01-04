@@ -1,8 +1,9 @@
-section .Collapse:last-of-type {
-  margin-bottom: var(--spacing-vertical--3);
-}
 .Collapse {
   border-bottom: 2px solid var(--color-border);
+}
+
+section .Collapse:last-of-type {
+  margin-bottom: var(--spacing-vertical--3);
 }
 
 .Collapse__button {
