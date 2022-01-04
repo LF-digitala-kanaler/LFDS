@@ -4,18 +4,26 @@ Welcome to Länsförsäkringar's design system. The design system (known as LFDS
 is the heart of digital design at Länsförsäkringar.
 
 # Getting started
+
 First you'll need to authenticate with [GitHub Packages][github-packages]. The
 easiest way is by logging in with npm. You'll need to [generate a personal
-access token][personal-access-token] which you use as your password.
+access token][personal-access-token] which you use as your password. The token
+should have access rights to the `repo` and `read:packages` scopes.
 
 ```
 npm login --scope=@lf-digitala-kanaler --registry=https://npm.pkg.github.com
 ```
 
-Add an `.npmrc` file to your project root folder.
+Add an `.npmrc` file in your project root folder.
 
 ```
 @lf-digitala-kanaler:registry=https://npm.pkg.github.com
+```
+
+Add an `.env` file in your project root folder.
+
+```
+GITHUB_TOKEN=<INSERT_PERSONAL_ACCESS_TOKEN>
 ```
 
 Install the dependencies as you normally would.
