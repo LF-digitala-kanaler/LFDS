@@ -31,5 +31,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.8
         with:
-          branch: gh-pages
+          branch: main
           folder: public
+          token: ${{ secrets.ACCESS_TOKEN }}
+          repository-name: LF-digitala-kanaler/lf-digitala-kanaler.github.io
