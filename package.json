@@ -74,6 +74,7 @@
     "clean": "rm -rf .cache public",
     "serve": "gatsby serve",
     "format": "prettier -w \"{gatsby-*.js,src/**/*.js}\"",
+    "test": "prettier -c \"{gatsby-*.js,src/**/*.js}\"",
     "copy": "npm run copy:status && npm run copy:js &&  npm run copy:docs && npm run copy:icons",
     "copy:js": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/lfui/lfui.js\" static",
     "copy:docs": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/docs.js\" static",
