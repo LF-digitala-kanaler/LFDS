@@ -1,0 +1,15 @@
+{
+	"name": "LFDS",
+	"settings": {
+  },
+	"extensions": [
+		"github.copilot",
+		"esbenp.prettier-vscode"
+	],
+	"forwardPorts": [8000],
+	"postCreateCommand": "npm install",
+  "features": {
+    "git": "latest",
+    "homebrew": "latest"
+  }
+}
