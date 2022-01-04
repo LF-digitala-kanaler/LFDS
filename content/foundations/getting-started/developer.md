@@ -13,43 +13,44 @@ lang: false
 ---
 ## Getting started
 
-### Installation
+LFUI is divided into separate packages for easier distribution. They are published as GitHub Packages and can be installed as any other node module with npm or your favorite node package manager.
 
-`$ npm install --save-dev https://github.com/lf-digitala-kanaler/LFUI.git#release/6.7.0`
+To install any of the LFUI building blocks, you will need to configure your environment for GitHub Packages.
 
-The end of the command above is pointing towards a specific branch, in this case our latest release`6.7.0`-branch. You can alter this number to point at the branch/release of your choice.
+First you'll need to [authenticate with GitHub Packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages). The easiest way is by logging in with npm. You'll need to [generate a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) which you use as your password.
 
-When LFUI reaches a new release and you want to update your local installation of LFUI, you can do so by pointing at the new release branch by **editing your package.json** like the example above and running
+```
+npm login --scope=@lf-digitala-kanaler --registry=https://npm.pkg.github.com
+```
 
-### Updates
+Add an .npmrc file to your project root folder.
 
-When LFUI reaches a new release and you want to update your local installation of LFUI, you can do so by pointing at the new release branch by **editing your package.json** like the example above and running
+```
+@lf-digitala-kanaler:registry=https://npm.pkg.github.com
+```
 
-`$ npm install lfui`
+### LFUI-components
 
-### Releases
+The `lfui-components` package contains all the JavaScript, CSS, Fonts, and HTML samples you need. Some of the components are dependent on icons available in the [lfui-icons](#lfui-icons) package.
 
-LFUI is in constant development, hence new releases are scheduled on continuous basis.
+```
+npm install @lf-digitala-kanaler/lfui-components
+```
 
-## LFUI usage
+In the `dist` folder you can find the compiled JavaScript and CSS files as well as fonts. The source files are also included in the package. This allows you to selectively import only the required modules.
 
-In the /dist folder you will find:
+### LFUI-icons
 
-* lf.css
-* lf.js
-* Icons
-* Fonts
+The `lfui-icons` package includes the individual icons and a sprite for each icon size set (20, 24, 32 pixels etc).
 
-These files are built/compiled from the project's source files and assets. They can be used as is. Simply add jQuery, `lf.js` and `lf.css` to your document.
+```
+npm install @lf-digitala-kanaler/lfui-icons
+```
 
-### In your build
+It is not advised to include or reference the individual icons separately, but instead use the sprite to pick the desired icon from any given set.
 
-If you, however, wish to include LFUI in you build, take note to:
-
-* Use your preferred task runner (such as[](https://github.com/nDmitry/grunt-postcss) [Gulp](https://github.com/postcss/gulp-postcss) or plain [npm scripts](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/))
-
-  * See [package.json](https://lf-digitala-kanaler.github.io/LFUI/650/package.json) for an example how the dist files are built
-* Add prefixes using a library such as [autoprefixer](https://github.com/postcss/autoprefixer)
-* Take appropriate measures to ensure that no SCSS-file is imported more than once, we recommend [node-sass-import-once](https://github.com/at-import/node-sass-import-once)
-
-Import [LFUI.scss](https://lf-digitala-kanaler.github.io/LFUI/650/src/scss/LFUI.scss) in the very beginning of your main SCSS file (often index.scss or main.scss):
+```
+<svg role="presentation" class="icon" width="20" height="20">
+  <use xlink:href="/assets/icons/20/sprite/icons.svg#icon-wallet-20"></use>
+</svg>
+```

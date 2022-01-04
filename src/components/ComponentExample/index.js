@@ -7,7 +7,7 @@ import ComponentNavigation from '../ComponentNavigation'
 import Content from '../Content'
 import Frame from 'react-frame-component'
 import Preview from '../Preview'
-import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
+import css from '!!raw-loader!@lf-digitala-kanaler/lfui-components/dist/docs/docs.css'
 import style from './index.module.css'
 
 const ComponentExample = ({
@@ -65,7 +65,7 @@ const ComponentExample = ({
     function reload() {
       let script = document.createElement('script')
       script.type = 'text/javascript'
-      script.src = '/lf.js'
+      script.src = '/lfui.js'
       body.appendChild(script)
 
       let script2 = document.createElement('script')
@@ -137,15 +137,15 @@ const ComponentExample = ({
                 <html class="lfui-theme">
                   <head>
                   </head>
-                
+
                   <body style="margin: 0">
                     <div class="frame-root"></div>
                     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.bundle.min.js"></script>
-                    <script src="https://unpkg.com/chartjs-chart-geo@2.1.0"></script>   
+                    <script src="https://unpkg.com/chartjs-chart-geo@2.1.0"></script>
                     <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
                     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script>
-                    <script id="script" type="text/javascript" src="/lf.js"></script>
+                    <script id="script" type="text/javascript" src="/lfui.js"></script>
                     <script id="script2" type="text/javascript" src="/docs.js"></script>
                   </body>
                 </html>`}
@@ -159,7 +159,7 @@ const ComponentExample = ({
                       font-weight: 400;
                       line-height: 1.45;
                       color: #222;
-                     
+
                     }
                     @font-face {
                       font-family: 'LF Rubrik';

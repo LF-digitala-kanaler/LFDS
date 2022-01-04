@@ -132,11 +132,9 @@ exports.onCreateNode = async ({
     node.internal.mediaType === `text/html`
   ) {
     let nodeContent = await loadNodeContent(node)
-    // quick fix to get icons to work n LFDS( and not break LFUI-components)
-    const find = '../../icons/';
-    const replace = new RegExp(find, 'g');
 
-    nodeContent = nodeContent.replace(replace, '/icons/');
+    // quick fix to get icons to work n LFDS( and not break LFUI-components)
+    nodeContent = nodeContent.replace(/href="lf-icons/g, 'href="/lf-icons');
 
     let htmlNodeContent = {
       content: nodeContent,
@@ -181,12 +179,11 @@ exports.createSchemaCustomization = ({ actions }) => {
     },
   })
   // since we can't put html in frontmatter out of the box except for in body we have to create
-  // those data types by ourself 
+  // those data types by ourself
   createTypes(`
     type File implements Node {
       svgData: String @svgData
     }
-    
     type MarkdownRemark implements Node @infer {
       frontmatter: Frontmatter!
     }
@@ -205,7 +202,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Tabs @infer {
       content: String @md
     }
-    
+
   `)
 }
 // Hides chunk commons [mini-css-extract-plugin] Conflicting order warning

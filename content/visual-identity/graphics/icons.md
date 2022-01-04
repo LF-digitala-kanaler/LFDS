@@ -38,12 +38,14 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 
 <div class="ImageBlock ImageBlock__right"><div class="ImageBlock__content">
 
-The raw exported files are located in the `icon/src/svg` directory but they are not intended to be used as is. Instead we generate a sprite map and append it to the DOM on page load. If you include `lf.js`you'll get that for free.
+The SVG icons are published to GitHub Packages and are available in the [@lf-digitala-kanaler/lf-icons repository](https://github.com/LF-digitala-kanaler/LFUI-icons). The package includes the individual icons and a sprite for each icon size set (20, 24, 32 pixels etc).
 
-We can then have an icon show up anywhere on the page with the svg `<use>.`
+It is not advised to include or reference the individual icons separately, but instead use the sprite to pick the desired icon from any given set.
 
 ```
-<svg role="presentation" class="icon" width="20" height="20"><use xlink:href="#icon-wallet-20"></use></svg>
+<svg role="presentation" class="icon" width="20" height="20">
+  <use xlink:href="/assets/icons/20/sprite/icons.svg#icon-wallet-20"></use>
+</svg>
 ```
 
 Our `.icon` class helps with alignment. Note that most icons inherits the `color` CSS property from the parent element in the DOM (using [currentColor](https://developer.mozilla.org/en/docs/Web/CSS/color_value#currentColor_keyword)).

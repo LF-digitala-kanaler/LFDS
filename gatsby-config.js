@@ -85,7 +85,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/icons`,
+        path: `${__dirname}/static/lf-icons/svg`,
         name: 'icons',
       },
     },
@@ -106,7 +106,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/node_modules/lfui-components/dist/docs/html`,
+        path: `${__dirname}/node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/html`,
         name: 'componentExample',
       },
     },

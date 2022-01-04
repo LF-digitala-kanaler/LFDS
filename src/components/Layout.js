@@ -8,7 +8,7 @@ import Footer from './Footer'
 import Header from './Header'
 import Helmet from 'react-helmet'
 import Meta from './Meta'
-import css from '!!raw-loader!lfui-components/dist/docs/docs.css'
+import css from '!!raw-loader!@lf-digitala-kanaler/lfui-components/dist/docs/docs.css'
 import { stripTrailingSlash } from '../utils/RemoveTrailingSlash'
 
 const App = ({

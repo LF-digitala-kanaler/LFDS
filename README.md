@@ -1,76 +1,54 @@
 # Länsförsäkringar Design System
 
-Welcome to Länsförsäkringar's design system. The design system (known as LFDS) is the heart of digital design at Länsförsäkringar.
+Welcome to Länsförsäkringar's design system. The design system (known as LFDS)
+is the heart of digital design at Länsförsäkringar.
 
-# Installation
+# Getting started
+First you'll need to authenticate with [GitHub Packages][github-packages]. The
+easiest way is by logging in with npm. You'll need to [generate a personal
+access token][personal-access-token] which you use as your password.
 
-Clone the repo
-
-```bash
-  git clone https://github.com/LF-digitala-kanaler/LFDS.git
+```
+npm login --scope=@lf-digitala-kanaler --registry=https://npm.pkg.github.com
 ```
 
-## Environment Variables
+Add an `.npmrc` file to your project root folder.
 
-To run this project, you need to add 2 files in the root of the project. 
-
-`.env.development` and `.env.production` with the key `GITHUB_TOKEN`. This is needed so we can fetch data from Github for changelog component and changelog page.  
-
-### Generate a personal access token
-
-A personal access token gives access to our app so it can make requests to our Github.
-
-To get a personal access token, login to your Github account and click your avatar and choose "Settings". After that navigate to Developer Settings and Personal access tokens and generate a new token with repo scope selected. 
-Copy the personal access token since it will disappear next time you go to this page.
-
-When that done add it to both `.env.development` and `.env.production`.
-
-```bash
-GITHUB_TOKEN=your_token
+```
+@lf-digitala-kanaler:registry=https://npm.pkg.github.com
 ```
 
-When you have your .env files and your token added it's time to install packages
+Install the dependencies as you normally would.
 
-```bash
- yarn install
+```
+npm install
 ```
 
-You should now be able to run the site
+You should now be able to run the app
 
 ```bash
- yarn start
-```
-## Update LFUI-components and LFUI-icons 
-
-If there is a new version of LFUI-components or LFUI-icons avalible you need to update version in package.json, build and deploy LFDS to make them visible in LFDS. 
-
-To update LFUI-components change version number in package.json:
-
-```bash
-  "lfui-components": "https://github.com/LF-digitala-kanaler/LFUI-components.git#release/7.1.0",
+npm start
 ```
 
-To update LFUI-icons do the same but for lfui-icons: 
+## Update LFUI-components and LFUI-icons
 
-```bash
-  "lfui-icons": "https://github.com/LF-digitala-kanaler/LFUI-icons.git#v1.1.2",
+Whenever new version of [lfui-components][lfui-components] or
+[lfui-icons][lfui-icons] are released they should be updated and the app needs
+to be built and deployed for them to be visible in LFDS.
+
 ```
-
-And run `yarn copy:icons` to copy icons from node_modules
-
+npm install -D @lf-digitala-kanaler/lfui-components@latest
+npm install -D @lf-digitala-kanaler/lfui-icons@latest
+```
 
 ## LFUI-components in LFDS
 
-Each component from `lfui-compoents/dist/docs/html` will be imported to Graphql and queried in `ComponentPage.js`.
-To determine which component to show on which page it will compare the folder name from `lfui-components` with `location.pathname` for each page.
-Make sure to use `PascalCase`for folder name in lfui-compoents. 
+Each component from `lfui-compoents/dist/docs/html` will be imported to Graphql
+and queried in `ComponentPage.js`.
+To determine which component to show on which page it will compare the folder
+name from `lfui-components` with `location.pathname` for each page.
+Make sure to use `PascalCase`for folder name in lfui-compoents.
 
---------- 
-* Deploy
-* Add content 
-
-* cms basics
-* access to cms
 ## Structure
 
 The project is structured as such:
@@ -83,9 +61,9 @@ LFDS/
 │   ** Markdown files from netlifyCMS **
 ├── public/
 └── src/
-    ├── cms/ 
+    ├── cms/
     │    ** custom widgets for netlifyCMS **
-    ├── components/ 
+    ├── components/
     │    ** site components **
     ├── context/
     │   ** Context API for Gatsby **
@@ -97,37 +75,39 @@ LFDS/
     │   ** Templates for every page type in LFDS **
     ├── utils/
     └── static/
-         ** Asset outside of the module system **
-         ├── admin/
-         │    ** Configuration options for Netlify CMS**
-         ├── favicons/
-         ├── fonts/
-         ├── icons/ 
-         │    ** Icons from lfui-icons to update run `yarn copy:icons` **
-         ├── img/
-         │    ** Images uploaded in Netlify CMS **
-         ├── docs.js ** Copied from lfui-components and used in iframe to show examples **
-         └── lf.js ** Copied from lfui-components and used in iframe to show examples **
-
-    
-
+        ** Asset outside of the module system **
+        ├── admin/
+        │   ** Configuration options for Netlify CMS**
+        ├── favicons/
+        ├── fonts/
+        └── img/
+            ** Images uploaded in Netlify CMS **
 ```
-
-## Navigation Structure
 
 ## Content and Markdown guidelines
 
 https://lf-digitala-kanaler.github.io/admin/
 
-If you are adding or editing content locally in the CMS, a couple of things to note:
+If you are adding or editing content locally in the CMS, a couple of things to
+note:
 
 1.  Changes will be pushed to the remote repo.
 
-2.  You will be prompted to enter your site's url, this is necessary for Netlify Identity to manage user login. This is stored in `localStorage`, so you might have to empty your browser cache if you are switching projects but remaining on `localhost:8000`.
-
+2.  You will be prompted to enter your site's url, this is necessary for Netlify
+Identity to manage user login. This is stored in `localStorage`, so you might
+have to empty your browser cache if you are switching projects but remaining on
+`localhost:8000`.
 
 ## Editing CMS fields
 
-The Netlify CMS configuration is located in `static/admin/config.yml`. This is where you will configure the pages, fields, posts and settings that are editable by the CMS.
+The Netlify CMS configuration is located in `static/admin/config.yml`. This is
+where you will configure the pages, fields, posts and settings that are editable
+by the CMS.
 
-Find out more in the [Netlify CMS Docs](https://www.netlifycms.org/docs/#configuration).
+Find out more in the [Netlify CMS Docs][netlify-cms-docs].
+
+[github-packages]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages
+[personal-access-token]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+[lfui-components]: https://github.com/LF-digitala-kanaler/LFUI-components
+[lfui-icons]: https://github.com/LF-digitala-kanaler/LFUI-icons
+[netlify-cms-docs]: https://www.netlifycms.org/docs/#configuration

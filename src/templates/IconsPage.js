@@ -18,34 +18,32 @@ const IconsPage = ({ data: { page, icons }, location }) => {
   // transorm icon data to something we can use in tempalte
   const iconList = flow(
     groupBy('node.relativeDirectory'),
-
     map((icon, group) => {
-      let icons = icon.filter(icon => icon.node.name !== 'icons')
-      icons = icons.map((icon) => {
-        let widthStr = icon.node.svgData.match(/"([^width"=]+)"/)[1];
-        let heightStr = icon.node.svgData.match(/"([^height"=]+)"/)[1]
-        icon.node.width = widthStr;
-        icon.node.height = heightStr;
-        return (
-          icon.node
-        )
+      let [, name] = group.match(/^(?:special\/)?(\w+)(?:-color)?/)
+      if (/\d+(x\d+)?/.test(name)) name = `${name} pixels`
 
-      })
       return {
-        group,
-        icons,
+        name: name,
+        variant: group.includes('special/') ? 'special' : 'regular',
+        color: /-color/.test(group),
+        icons: icon
+          .filter((icon) => icon.node.name !== 'icons')
+          .map((icon) => {
+            const [, width] = icon.node.svgData.match(/width="(\d+)"/)
+            const [, height] = icon.node.svgData.match(/height="(\d+)"/)
+            return { ...icon.node, width, height }
+          })
       }
-    }),
-
+    })
   )(icons.edges)
   // split into 2, one for "normal icons" and one for "special"
 
-  let iconsRegular = iconList.filter((item) => !item.group.includes('special/'))
-  let iconsSpecial = iconList.filter((item) => item.group.includes('special/'))
+  let iconsRegular = iconList.filter((item) => item.variant === 'regular')
+  let iconsSpecial = iconList.filter((item) => item.variant === 'special')
 
   // sort them
-  iconsRegular = _.orderBy(iconsRegular, ['group'], ['asc'])
-  iconsSpecial = _.orderBy(iconsSpecial, ['group'], ['asc'])
+  iconsRegular = _.orderBy(iconsRegular, ['name'], ['asc'])
+  iconsSpecial = _.orderBy(iconsSpecial, ['name'], ['asc'])
 
   return (
     <Layout
