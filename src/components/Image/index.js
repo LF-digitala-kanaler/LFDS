@@ -17,7 +17,7 @@ class Image extends React.Component {
     '1200',
     '1500',
     '1600',
-    '2000',
+    '2000'
   ] // image sizes used for image source sets
 
   render() {

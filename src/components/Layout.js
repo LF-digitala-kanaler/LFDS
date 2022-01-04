@@ -18,7 +18,7 @@ const App = ({
   breadcrumb,
   backgroundClass,
   menu,
-  meta,
+  meta
 }) => {
   return (
     <StaticQuery
@@ -45,10 +45,10 @@ const App = ({
               titleTemplate={`%s`}
               defaultTitle={`${title} | ${siteTitleAbbreviation}`}
               bodyAttributes={{
-                class: backgroundClass,
+                class: backgroundClass
               }}
               htmlAttributes={{
-                lang: `en`,
+                lang: `en`
               }}
             >
               {title}

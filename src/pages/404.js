@@ -7,7 +7,7 @@ import React from 'react'
 import Wrapper from '../components/Wrapper'
 
 const center = {
-  marginTop: '100px',
+  marginTop: '100px'
 }
 const ErrorPage = () => (
   <StaticQuery

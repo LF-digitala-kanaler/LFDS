@@ -18,7 +18,7 @@ const HomePageTemplate = ({
   shortcutsImage,
   fullWidthImage,
   relatedLinks,
-  imageSource,
+  imageSource
 }) => (
   <>
     <Wrapper wide center tag="div">
@@ -47,7 +47,9 @@ const HomePageTemplate = ({
     {fullWidthImage && (
       <FullWidthBackground
         title={fullWidthImage.title}
-        imageSource={imageSource ? imageSource : fullWidthImage.fullWidthImageDesktop}
+        imageSource={
+          imageSource ? imageSource : fullWidthImage.fullWidthImageDesktop
+        }
       >
         <Row gutter={52} justify="center">
           {shortcutsImage &&

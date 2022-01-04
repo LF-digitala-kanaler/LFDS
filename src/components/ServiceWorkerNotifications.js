@@ -8,11 +8,11 @@ export default class ServiceWorkerNotifications extends Component {
     ready: false,
     updated: false,
     offline: false,
-    reloadOnUpdate: true,
+    reloadOnUpdate: true
   }
 
   state = {
-    message: null,
+    message: null
   }
 
   componentDidMount = () => {

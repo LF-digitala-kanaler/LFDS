@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 const CategoryOverviewPage = ({
   data: { page, allPages },
   location,
-  currentPage,
+  currentPage
 }) => {
   if (typeof window !== `undefined`) {
     currentPage = location.href.split('/').filter(Boolean).pop()
@@ -15,23 +15,23 @@ const CategoryOverviewPage = ({
   const children = {
     links: Object.prototype.hasOwnProperty.call(allPages, 'edges')
       ? allPages.edges.filter((category) => {
-        if (
-          category.node.fields.contentType.includes(currentPage) &&
-          category.node.frontmatter.hidden !== true
-        ) {
-          return { ...category.node }
-        } else {
-          return null
-        }
-      })
-      : false,
+          if (
+            category.node.fields.contentType.includes(currentPage) &&
+            category.node.frontmatter.hidden !== true
+          ) {
+            return { ...category.node }
+          } else {
+            return null
+          }
+        })
+      : false
   }
 
   // Sort and arrange them in categories
 
   const breadcrumb = {
     title: page.frontmatter.title,
-    location: location,
+    location: location
   }
 
   return (

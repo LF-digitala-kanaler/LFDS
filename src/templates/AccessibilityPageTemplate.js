@@ -22,7 +22,9 @@ const AccessibilityPageTemplate = ({
   const [checkedItems, setCheckedItems] = useState({})
 
   const [list, setList] = useState([...checklist])
-  const [roleInformationList, setRoleInformationList] = useState([...roleInformation])
+  const [roleInformationList, setRoleInformationList] = useState([
+    ...roleInformation
+  ])
   const [activeRole, setRole] = useState('All roles')
   const roles = ['All roles', 'UX/AD', 'Developer', 'Tester', 'Copy']
 
@@ -33,7 +35,7 @@ const AccessibilityPageTemplate = ({
   const handleChange = (event) => {
     setCheckedItems({
       ...checkedItems,
-      [event.target.name]: event.target.checked,
+      [event.target.name]: event.target.checked
     })
   }
 
@@ -44,14 +46,16 @@ const AccessibilityPageTemplate = ({
           ...element,
           checklistList: element.checklistList.filter((checklistList) =>
             checklistList.tags.includes(activeRole)
-          ),
+          )
         }
       })
       setList(checklistFiltred)
     } else {
       setList(checklist)
     }
-    let roleInformationFiltred = roleInformation.filter((element) => element.tags.includes(activeRole))
+    let roleInformationFiltred = roleInformation.filter((element) =>
+      element.tags.includes(activeRole)
+    )
     setRoleInformationList(roleInformationFiltred)
   }, [checklist, activeRole, roleInformation])
 
@@ -61,29 +65,29 @@ const AccessibilityPageTemplate = ({
     margin: '0 -8px 32px -8px',
     listStyleType: 'none',
     flexWrap: 'wrap',
-    alignImtes: 'baseline',
+    alignImtes: 'baseline'
   }
 
   const style = {
     textUnderlinePosition: 'under',
     color: '#222',
     padding: '8px',
-    display: 'block',
+    display: 'block'
   }
 
   const heading = {
     marginTop: '16px',
-    display: 'block',
+    display: 'block'
   }
 
   const marginTop = {
     marginTop: '16px',
     display: 'block',
-    marginBottom: '4px',
+    marginBottom: '4px'
   }
 
   const marginBottom = {
-    marginBottom: '0',
+    marginBottom: '0'
   }
   return (
     <>
@@ -103,16 +107,13 @@ const AccessibilityPageTemplate = ({
             )
           })}
         </ul>
-        {
-          roleInformationList.map((item, index) => {
-            return (
-              <div key={index}>
-                <Content source={item.text} />
-              </div>
-            )
-          })
-        }
-
+        {roleInformationList.map((item, index) => {
+          return (
+            <div key={index}>
+              <Content source={item.text} />
+            </div>
+          )
+        })}
 
         {list.map((item, index) => {
           return (
@@ -136,18 +137,17 @@ const AccessibilityPageTemplate = ({
                       onChange={handleChange}
                     />
                     <Collapse title={child.title}>
-
                       {/* ...text.html is not avalible in cms so to make the preview work */}
 
-                      {(typeof checklist[index].checklistList[i].text != 'object')
-                        ? child.text
-                        : <Content
+                      {typeof checklist[index].checklistList[i].text !=
+                      'object' ? (
+                        child.text
+                      ) : (
+                        <Content
                           className="Content--tight"
-                          source={
-                            checklist[index].checklistList[i].text?.html
-                          }
+                          source={checklist[index].checklistList[i].text?.html}
                         />
-                      }
+                      )}
                       {child.relatedLinks && (
                         <>
                           <strong style={marginTop}>Read more:</strong>
@@ -170,8 +170,9 @@ const AccessibilityPageTemplate = ({
       </Wrapper>
       <Wrapper tag="div" menu={true} narrow={wrapperWidth ? false : true}>
         <Content
-          className={`Content  ${wrapperWidth === true ? 'Content--normal' : 'Content--tight'
-            }`}
+          className={`Content  ${
+            wrapperWidth === true ? 'Content--normal' : 'Content--tight'
+          }`}
           source={body}
         />
       </Wrapper>

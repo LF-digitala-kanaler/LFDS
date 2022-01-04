@@ -18,17 +18,17 @@ const ColorWidget = {
           options: [
             { label: 'Primary', value: 'primary' },
             { label: 'Complimentary', value: 'complimentary' },
-            { label: 'Special', value: 'special' },
-          ],
-        },
-      ],
-    },
+            { label: 'Special', value: 'special' }
+          ]
+        }
+      ]
+    }
   ],
   pattern:
     /^<article class="Colors__item Colors__item--(.*)" style="border-color:(.*)"><div class="Colors__(.*)"><div class="Colors__background" style={background-color:"(.*)">(.*)<\/div><h3 class="Colors__title">(.*)<\/h3><p class="Colors__text"><span>RGB<\/span> (.*)<\/p><p class="Colors__text"><span>HEX<\/span> (.*)<\/p><\/div><\/article>/,
   fromBlock: (match) => {
     return {
-      id: match[1],
+      id: match[1]
     }
   },
   toBlock(obj) {
@@ -45,7 +45,7 @@ const ColorWidget = {
       (item) =>
         `<article class="Colors__item Colors__item--${item.type}" style="border-color:${item.hex}"><div class="Colors__${item.type}"><div class="Colors__background" style={background-color:${item.hex}"></div><h3 class="Colors__title">${item.name}</h3><p class="Colors__text"><span>RGB</span> ${item.rgb}</p><p class="Colors__text"><span>HEX</span> ${item.hex}</p></div></article>`
     )
-  },
+  }
 }
 
 export default ColorWidget

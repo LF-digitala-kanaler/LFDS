@@ -14,7 +14,7 @@ const ComponentExample = ({
   variants,
   background,
   verticalResize,
-  navigation,
+  navigation
 }) => {
   if (navigation) {
     var nav = navigation.map((items) => {
@@ -24,7 +24,7 @@ const ComponentExample = ({
           (item) =>
             items.name.replace(/\s/g, '').toLowerCase() ===
             item.node.name.toLowerCase()
-        ),
+        )
       }
     })
   }
@@ -126,7 +126,7 @@ const ComponentExample = ({
         <Preview resize={verticalResize}>
           <Frame
             style={{
-              minHeight,
+              minHeight
             }}
             id={'iframe'}
             ref={iframeRef}

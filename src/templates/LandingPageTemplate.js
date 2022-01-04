@@ -14,7 +14,7 @@ const LandingPageTemplate = ({
   body,
   contentBottom,
   blockquote,
-  categories = [],
+  categories = []
 }) => {
   const state = useContext(GlobalStateContext)
   return (

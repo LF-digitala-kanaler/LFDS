@@ -22,7 +22,7 @@ export const Heading = ({ text, tag, align, children, id }) => {
 }
 
 Heading.prototype = {
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 }
 
 export default Heading

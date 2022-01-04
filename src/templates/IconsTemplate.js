@@ -11,8 +11,8 @@ import rehypeReact from 'rehype-react'
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
-    collapse: Collapse,
-  },
+    collapse: Collapse
+  }
 }).Compiler
 const IconsTemplate = ({
   title,
@@ -21,7 +21,7 @@ const IconsTemplate = ({
   bodyHtml,
   iconsRegular,
   iconsSpecial,
-  specialIconsContent,
+  specialIconsContent
 }) => (
   <>
     <Wrapper tag="div" narrow menu={true}>
@@ -35,17 +35,27 @@ const IconsTemplate = ({
 
       <div className="Icons">
         {iconsRegular.map((item, i) => {
-          const id = `${item.name.replace(/\W+/, '-')}-regular${item.color ? '-color' : ''}`
+          const id = `${item.name.replace(/\W+/, '-')}-regular${
+            item.color ? '-color' : ''
+          }`
           return (
             <div key={id}>
-              <h3 className="mb-2">{item.name} {item.color ? '(color)' : ''}</h3>
+              <h3 className="mb-2">
+                {item.name} {item.color ? '(color)' : ''}
+              </h3>
               <Row gutter={32}>
                 {item.icons.map((icon) => {
                   return (
                     <Col span={12} sm={6} md={4} key={`${id}-${icon.name}`}>
                       <div className="icon-container mb-2">
-                        <svg width={icon.width} height={icon.height} className="icon">
-                          <use xlinkHref={'/lf-icons/sprite/' + icon.relativeDirectory + '/icons.svg#' + icon.name} />
+                        <svg
+                          width={icon.width}
+                          height={icon.height}
+                          className="icon"
+                        >
+                          <use
+                            xlinkHref={`/lf-icons/sprite/${icon.relativeDirectory}/icons.svg#${icon.name}`}
+                          />
                         </svg>
                         <div className="text-sm">{icon.name}</div>
                       </div>
@@ -58,23 +68,32 @@ const IconsTemplate = ({
         })}
         <Content className="Content--tight" source={specialIconsContent} />
         {iconsSpecial.map((item) => {
-          const id = `${item.name.replace(/\W+/, '-')}-special${item.color ? '-color' : ''}`
+          const id = `${item.name.replace(/\W+/, '-')}-special${
+            item.color ? '-color' : ''
+          }`
           return (
             <div key={id}>
-              <h3 className="mb-2">{item.name} {item.color ? '(color)' : ''}</h3>
+              <h3 className="mb-2">
+                {item.name} {item.color ? '(color)' : ''}
+              </h3>
               <Row gutter={4}>
                 {item.icons.map((icon) => {
                   return (
                     <Col span={12} sm={6} md={4} key={`${id}-${icon.name}`}>
                       <div className="icon-container mb-2">
-                        <svg className="icon" width={icon.width} height={icon.height}>
-                          <use xlinkHref={'/lf-icons/sprite/special/icons.svg#' + icon.name} />
+                        <svg
+                          className="icon"
+                          width={icon.width}
+                          height={icon.height}
+                        >
+                          <use
+                            xlinkHref={`/lf-icons/sprite/special/icons.svg#${icon.name}`}
+                          />
                         </svg>
                         <div className="text-sm">{icon.name}</div>
                       </div>
                     </Col>
                   )
-
                 })}
               </Row>
             </div>

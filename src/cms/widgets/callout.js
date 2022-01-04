@@ -14,21 +14,21 @@ const Callout = {
         'code',
         'collapse',
         'code-block',
-        'color',
-      ],
-    },
+        'color'
+      ]
+    }
   ],
   pattern:
     /^<div class="Callout"><strong class="Callout__title">(.*) <\/strong><p class="Callout__text">(.*)<\/p><\/div>/,
   fromBlock(match) {
     return {
       title: match[1],
-      text: match[2],
+      text: match[2]
     }
   },
   toBlock(obj) {
     return `<div class="Callout"><strong class="Callout__title">${obj.title} </strong><p class="Callout__text">${obj.text}</p></div>`
-  },
+  }
 }
 
 export default Callout

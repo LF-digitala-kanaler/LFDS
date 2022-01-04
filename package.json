@@ -73,7 +73,7 @@
     "develop": "gatsby develop",
     "clean": "rm -rf .cache public",
     "serve": "gatsby serve",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
+    "format": "prettier -w \"{gatsby-*.js,src/**/*.js}\"",
     "copy": "npm run copy:status && npm run copy:js &&  npm run copy:docs && npm run copy:icons",
     "copy:js": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/lfui/lfui.js\" static",
     "copy:docs": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/docs.js\" static",
@@ -88,7 +88,7 @@
     "fs-extra": "^10.0.0",
     "gh-pages": "^3.1.0",
     "is-relative-url": "^3.0.0",
-    "prettier": "^2.1.1",
+    "prettier": "^2.5.1",
     "react-device-detect": "^1.15.0",
     "react-use": "^17.1.0"
   }

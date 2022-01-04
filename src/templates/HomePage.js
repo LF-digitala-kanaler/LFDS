@@ -6,10 +6,11 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 const HomePage = ({ data: { page } }) => {
-
   const sources = [
-    page.frontmatter.fullWidthImage.fullWidthImageDesktop.childImageSharp.desktopImage,
-    page.frontmatter.fullWidthImage.fullWidthImageMobile.childImageSharp.mobileImage,
+    page.frontmatter.fullWidthImage.fullWidthImageDesktop.childImageSharp
+      .desktopImage,
+    page.frontmatter.fullWidthImage.fullWidthImageMobile.childImageSharp
+      .mobileImage
   ]
 
   return (
@@ -79,18 +80,12 @@ export const query = graphql`
           title
           fullWidthImageDesktop {
             childImageSharp {
-              desktopImage: gatsbyImageData(
-                layout: FULL_WIDTH
-                quality: 70
-              )
+              desktopImage: gatsbyImageData(layout: FULL_WIDTH, quality: 70)
             }
           }
           fullWidthImageMobile {
             childImageSharp {
-              mobileImage: gatsbyImageData(
-                quality: 70
-                aspectRatio: 1.333
-              )
+              mobileImage: gatsbyImageData(quality: 70, aspectRatio: 1.333)
             }
           }
         }

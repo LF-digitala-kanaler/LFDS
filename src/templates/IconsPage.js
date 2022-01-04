@@ -12,7 +12,7 @@ const IconsPage = ({ data: { page, icons }, location }) => {
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
-    location: location,
+    location: location
   }
 
   // transorm icon data to something we can use in tempalte

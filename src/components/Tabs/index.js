@@ -14,9 +14,7 @@ const TabsWrapper = ({ tabs, location, navigate, children }) => {
     if (tabs && tabs.length > 0) {
       setTabName(
         tabs.map((item) => {
-          return (
-            item.name
-          )
+          return item.name
         })
       )
       setTabContent(
@@ -31,9 +29,7 @@ const TabsWrapper = ({ tabs, location, navigate, children }) => {
     if (tabs && tabs.length > 0) {
       setTabName(
         tabs.map((item) => {
-          return (
-            item.name?.toLowerCase()
-          )
+          return item.name?.toLowerCase()
         })
       )
       setTabContent(

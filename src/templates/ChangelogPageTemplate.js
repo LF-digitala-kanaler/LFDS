@@ -13,7 +13,7 @@ const ChangelogPageTemplate = ({
   versions,
   index,
   onTabsChange,
-  body,
+  body
 }) => (
   <>
     <Wrapper tag="div" menu={true} narrow>
@@ -42,7 +42,7 @@ const ChangelogPageTemplate = ({
                     <h2>{item.node.tagName}</h2>
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: item.node.descriptionHTML,
+                        __html: item.node.descriptionHTML
                       }}
                     />
                   </div>
@@ -54,7 +54,7 @@ const ChangelogPageTemplate = ({
                     <h2>{item.node.tagName}</h2>
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: item.node.descriptionHTML,
+                        __html: item.node.descriptionHTML
                       }}
                     />
                   </div>

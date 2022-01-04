@@ -13,7 +13,7 @@ const map = require('lodash/fp/map').convert({ cap: false })
 const LandingPage = ({
   data: { page, allPages, allOverviewPages },
   currentPage,
-  location,
+  location
 }) => {
   if (typeof window !== `undefined`) {
     currentPage = location.pathname.split('/').filter(Boolean).pop()
@@ -23,9 +23,9 @@ const LandingPage = ({
   const overviewPages = {
     items: Object.prototype.hasOwnProperty.call(allOverviewPages, 'edges')
       ? allOverviewPages.edges.filter((items) =>
-        items.node.fields.contentType.includes(currentPage)
-      )
-      : false,
+          items.node.fields.contentType.includes(currentPage)
+        )
+      : false
   }
 
   const overViewGroups = flow(
@@ -36,7 +36,7 @@ const LandingPage = ({
           .pop()
           .toLowerCase()
           .replace(/-/g, ' '),
-        previewImage: item.node.frontmatter.previewImage,
+        previewImage: item.node.frontmatter.previewImage
       }
     })
   )(overviewPages.items)
@@ -45,18 +45,18 @@ const LandingPage = ({
   const children = {
     items: Object.prototype.hasOwnProperty.call(allPages, 'edges')
       ? allPages.edges.filter(
-        (items) =>
-          items.node.fields.contentType.includes(currentPage) &&
-          items.node.frontmatter.hidden !== true
-      )
-      : false,
+          (items) =>
+            items.node.fields.contentType.includes(currentPage) &&
+            items.node.frontmatter.hidden !== true
+        )
+      : false
   }
   const groups = flow(
     groupBy('node.frontmatter.category'),
     map((value, key) => ({
       category: key.toLowerCase(),
       link: value,
-      previewImage: overViewGroups.previewImage,
+      previewImage: overViewGroups.previewImage
     }))
   )(children.items)
 
@@ -71,7 +71,7 @@ const LandingPage = ({
           ['asc', 'asc']
         )
         return [item.category, item['link']]
-      },
+      }
     ],
     'asc',
     'asc'
@@ -95,10 +95,7 @@ const LandingPage = ({
         title={page.frontmatter.title}
         intro={page.frontmatter.intro}
         body={page.html}
-        contentBottom={
-
-          page.frontmatter.contentBottom
-        }
+        contentBottom={page.frontmatter.contentBottom}
         blockquote={page.frontmatter.blockquote}
         categories={concatCategories}
       />
@@ -115,13 +112,12 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
-        contentBottom 
+        contentBottom
         blockquote {
           text
           author
         }
       }
-      
     }
 
     allPages: allMarkdownRemark(

@@ -6,19 +6,19 @@ const LfuiWidget = {
     {
       label: 'Lfui Html',
       name: 'lfuiCode',
-      widget: 'markdown',
+      widget: 'markdown'
     },
     {
       label: 'Lfui Script',
       name: 'lfuiScript',
       widget: 'string',
-      required: false,
-    },
+      required: false
+    }
   ],
   fromBlock: function (match) {
     return {
       lfuiCode: match[2],
-      lfuiScript: match[1],
+      lfuiScript: match[1]
     }
   },
   toBlock: function (obj) {
@@ -27,6 +27,6 @@ const LfuiWidget = {
       script = obj.lfuiScript.replace(/"/g, "'")
     }
     return `<LfuiWrapper script="${script}">\n\n${obj.lfuiCode}\n</LfuiWrapper>`
-  },
+  }
 }
 export default LfuiWidget

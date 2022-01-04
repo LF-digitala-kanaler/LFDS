@@ -9,12 +9,10 @@ const ComponentPage = ({
   location,
   currentPage
 }) => {
-
   // window is not avalible during gatsby build
   if (typeof window !== `undefined`) {
     const path = globalHistory.location.pathname
     currentPage = path.split('/').filter(Boolean).pop()
-
   }
   const toKebabCase = (str) =>
     str &&
@@ -25,22 +23,22 @@ const ComponentPage = ({
       .map((x) => x.toLowerCase())
       .join('-')
 
-  // Find components for current page. 
+  // Find components for current page.
   const componentsForCurrentPage = {
     components: Object.prototype.hasOwnProperty.call(allComponents, 'edges')
       ? allComponents.edges.filter(
-        (item) =>
-          toKebabCase(
-            item.node.relativeDirectory.split('/').pop()
-          ).toLowerCase() === currentPage
-      )
-      : false,
+          (item) =>
+            toKebabCase(
+              item.node.relativeDirectory.split('/').pop()
+            ).toLowerCase() === currentPage
+        )
+      : false
   }
 
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
-    location: location,
+    location: location
   }
 
   return (
@@ -100,7 +98,6 @@ export const pageQuery = graphql`
           }
         }
       }
-     
     }
     allComponents: allHtmlContent {
       edges {

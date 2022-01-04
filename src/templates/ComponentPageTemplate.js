@@ -17,7 +17,7 @@ const ComponentPageTemplate = ({
   backgroundColor,
   tabs,
   currentPage,
-  verticalResize,
+  verticalResize
 }) => (
   <>
     {currentPage && <Deprecated componentName={currentPage} />}

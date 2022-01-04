@@ -13,15 +13,15 @@ const ButtonsBlock = {
         {
           label: 'Button text',
           name: 'text',
-          widget: 'string',
+          widget: 'string'
         },
         {
           label: 'Button link',
           name: 'href',
-          widget: 'string',
-        },
-      ],
-    },
+          widget: 'string'
+        }
+      ]
+    }
   ],
 
   fromBlock: function (match) {
@@ -34,12 +34,12 @@ const ButtonsBlock = {
     const items = buttonArray.map(function (item) {
       return {
         text: item.match(/text="(.*?)"/)[1],
-        href: item.match(/href="(.*?)"/)[1],
+        href: item.match(/href="(.*?)"/)[1]
       }
     })
 
     const obj = {
-      buttons: Immutable.fromJS(items),
+      buttons: Immutable.fromJS(items)
     }
 
     return obj
@@ -55,6 +55,6 @@ const ButtonsBlock = {
     // const content = Immutable.fromJS(obj.button.content);
 
     return `<div class='ButtonContent'>${items.join('\n')}</div>`
-  },
+  }
 }
 export default ButtonsBlock

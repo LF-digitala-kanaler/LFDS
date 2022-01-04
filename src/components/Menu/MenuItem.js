@@ -28,7 +28,7 @@ const MenuItem = ({ item, location }) => {
   const className = cx({
     Menu__item: true,
     'Menu__item--active': open,
-    '': !open,
+    '': !open
   })
 
   const toggleSubMenu = () => {

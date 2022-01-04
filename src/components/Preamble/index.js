@@ -14,7 +14,7 @@ const Preamble = ({ text, tag, align }) => {
 }
 
 Preamble.prototype = {
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 }
 
 export default Preamble

@@ -60,8 +60,8 @@ exports.createPages = async ({ actions, graphql }) => {
           ),
           // additional data can be passed via context
           context: {
-            id,
-          },
+            id
+          }
         })
       })
     })
@@ -71,8 +71,8 @@ exports.createPages = async ({ actions, graphql }) => {
         path: `example/${node.name}`,
         component: path.resolve(__dirname, 'src/templates/Iframe.js'),
         context: {
-          name: node.name,
-        },
+          name: node.name
+        }
       })
     })
   })
@@ -84,12 +84,11 @@ exports.onCreateNode = async ({
   getNode,
   loadNodeContent,
   createContentDigest,
-  createNodeId,
+  createNodeId
 }) => {
   const { createNodeField, createNode } = actions
 
   // convert frontmatter images
-
 
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent)
@@ -107,13 +106,13 @@ exports.onCreateNode = async ({
     createNodeField({
       node,
       name: 'slug',
-      value: `${slug}`,
+      value: `${slug}`
     })
     // Add contentType to node.fields
     createNodeField({
       node,
       name: 'contentType',
-      value: parsedFilePath.dir,
+      value: parsedFilePath.dir
     })
     createNodeField({
       node,
@@ -121,7 +120,7 @@ exports.onCreateNode = async ({
       value: parsedFilePath.dir
         .split('/')
         .pop()
-        .replace(/([A-Z])/g, ' $1'),
+        .replace(/([A-Z])/g, ' $1')
     })
   }
   // convert frontmatter images
@@ -134,13 +133,13 @@ exports.onCreateNode = async ({
     let nodeContent = await loadNodeContent(node)
 
     // quick fix to get icons to work n LFDS( and not break LFUI-components)
-    nodeContent = nodeContent.replace(/href="lf-icons/g, 'href="/lf-icons');
+    nodeContent = nodeContent.replace(/href="lf-icons/g, 'href="/lf-icons')
 
     let htmlNodeContent = {
       content: nodeContent,
       name: node.name,
       slug: `example/${node.name}`,
-      relativeDirectory: node.dir,
+      relativeDirectory: node.dir
     }
     const htmlNodeMeta = {
       id: createNodeId(`html-${node.id}`),
@@ -149,8 +148,8 @@ exports.onCreateNode = async ({
         type: 'HTMLContent',
         mediaType: 'text/html',
         content: JSON.stringify(htmlNodeContent),
-        contentDigest: createContentDigest(htmlNodeContent),
-      },
+        contentDigest: createContentDigest(htmlNodeContent)
+      }
     }
 
     const htmlNode = Object.assign({}, htmlNodeContent, htmlNodeMeta)
@@ -165,18 +164,16 @@ exports.createSchemaCustomization = ({ actions }) => {
     extend(options, prevFieldConfig) {
       return {
         async resolve(source) {
-
           if (
             source.extension === 'svg' &&
             source.sourceInstanceName === 'icons'
-
           ) {
             return fse.readFile(source.absolutePath, 'utf8')
           }
           return null
-        },
+        }
       }
-    },
+    }
   })
   // since we can't put html in frontmatter out of the box except for in body we have to create
   // those data types by ourself
@@ -211,7 +208,7 @@ exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
   if (stage === 'develop') {
     const config = getConfig()
     const miniCssExtractPlugin = config.plugins.find(
-      plugin => plugin.constructor.name === 'MiniCssExtractPlugin'
+      (plugin) => plugin.constructor.name === 'MiniCssExtractPlugin'
     )
     if (miniCssExtractPlugin) {
       miniCssExtractPlugin.options.ignoreOrder = true

@@ -22,17 +22,17 @@ const Preview = ({ children, resize }) => {
           left: false,
           topRight: false,
           bottomRight: verticalResize,
-          topLeft: false,
+          topLeft: false
         }}
         minWidth={300}
         maxWidth="100%"
         minHeight="300"
         defaultSize={{
-          height: verticalResize ? '300px' : '100%',
+          height: verticalResize ? '300px' : '100%'
         }}
         handleComponent={{
           right: <Previewhandle />,
-          bottomRight: <PreviewhandleCorner />,
+          bottomRight: <PreviewhandleCorner />
         }}
       >
         <div className={style.Preview__box}>{children}</div>

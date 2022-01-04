@@ -23,7 +23,7 @@ const NavigationItem = ({ path, title, scrollPoition }) => {
 }
 
 NavigationItem.propTypes = {
-  title: PropTypes.string,
+  title: PropTypes.string
 }
 
 export default NavigationItem

@@ -7,7 +7,7 @@ const AccessibilityPage = ({ data: { page }, location }) => {
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
-    location: location,
+    location: location
   }
 
   return (
@@ -54,7 +54,7 @@ export const pageQuery = graphql`
             title
             text {
               html
-            } 
+            }
             tags
             relatedLinks {
               text
@@ -62,10 +62,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        
       }
-      
-     
     }
   }
 `

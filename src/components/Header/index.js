@@ -58,12 +58,12 @@ const Header = ({ title, breadcrumb, menu }) => {
 
 Header.propTypes = {
   title: PropTypes.string,
-  headline: PropTypes.string,
+  headline: PropTypes.string
 }
 
 Header.defaultProps = {
   title: '',
-  headline: '',
+  headline: ''
 }
 
 export default Header

@@ -4,7 +4,7 @@ export const GlobalStateContext = React.createContext()
 export const GlobalDispatchContext = React.createContext()
 
 const initialState = {
-  isMenuOpenDesktop: true,
+  isMenuOpenDesktop: true
 }
 
 function reducer(state, action) {
@@ -12,7 +12,7 @@ function reducer(state, action) {
     case 'TOGGLE_SIDENAV': {
       return {
         ...state,
-        isMenuOpenDesktop: state.isMenuOpenDesktop === true ? false : true,
+        isMenuOpenDesktop: state.isMenuOpenDesktop === true ? false : true
       }
     }
     default:

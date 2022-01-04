@@ -1,6 +1,6 @@
 import {
   GlobalDispatchContext,
-  GlobalStateContext,
+  GlobalStateContext
 } from '../../context/GlobalContextProvider'
 import React, { useContext, useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
@@ -57,16 +57,16 @@ const Menu = ({ currentDirectory }) => {
   const navigationItems = {
     items: data.allPages.hasOwnProperty('edges')
       ? data.allPages.edges.filter((items) =>
-        items.node.fields.contentType.includes(currentDirectory)
-      )
-      : false,
+          items.node.fields.contentType.includes(currentDirectory)
+        )
+      : false
   }
 
   const navigationStructure = flow(
     groupBy('node.frontmatter.category'),
     map((value, key) => ({
       parentLink: key,
-      childLink: value,
+      childLink: value
     }))
   )(navigationItems.items)
 
@@ -81,7 +81,7 @@ const Menu = ({ currentDirectory }) => {
           ['asc', 'asc']
         )
         return [item.parentLink, item['childLink']]
-      },
+      }
     ],
     'asc',
     'asc'

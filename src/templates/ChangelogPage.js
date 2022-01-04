@@ -9,12 +9,12 @@ import { navigate } from '@reach/router'
 const ChangelogPage = ({ data: { page, lfui, lfuiComponents }, location }) => {
   const breadcrumb = {
     title: page.frontmatter.title,
-    location: location,
+    location: location
   }
 
   const versions = {
     lfui: lfui.organization.repository.releases.edges,
-    lfuiComponents: lfuiComponents.organization.repository.releases.edges,
+    lfuiComponents: lfuiComponents.organization.repository.releases.edges
   }
 
   const tabs = ['Components']

@@ -14,9 +14,9 @@ const LFDSImage = {
         { label: 'On grey background', value: 'Image__background' },
         {
           label: 'No added style',
-          value: 'Image__default',
-        },
-      ],
+          value: 'Image__default'
+        }
+      ]
     },
     {
       label: 'Wide',
@@ -24,9 +24,9 @@ const LFDSImage = {
       widget: 'boolean',
       default: false,
       hint: 'Image will break grid and use full width',
-      required: false,
+      required: false
     },
-    { name: 'caption', label: 'Caption', widget: 'string', default: '' },
+    { name: 'caption', label: 'Caption', widget: 'string', default: '' }
   ],
   pattern:
     /^<figure class="Image (.*) (.*)"><img src="(.*)" srcset="(.*) 2x" alt="(.*)"><figcaption><div class="Image__caption">(.*)<\/div><\/figcaption><\/figure>/,
@@ -36,7 +36,7 @@ const LFDSImage = {
       alt: match[5],
       type: match[1],
       caption: match[6],
-      wide: match[2],
+      wide: match[2]
     }
   },
   toBlock(obj) {
@@ -47,7 +47,7 @@ const LFDSImage = {
       wide = ''
     }
     return `<figure class="Image ${obj.type} ${wide}"><img src="${obj.image}" srcset="${obj.image} 2x" alt="${obj.alt}"><figcaption><div class="Image__caption">${obj.caption}</div></figcaption></figure>`
-  },
+  }
 }
 
 export default LFDSImage

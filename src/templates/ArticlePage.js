@@ -7,7 +7,7 @@ const ArticlePage = ({ data: { page }, location }) => {
   const breadcrumb = {
     category: page.frontmatter.category,
     title: page.frontmatter.title,
-    location: location,
+    location: location
   }
 
   return (

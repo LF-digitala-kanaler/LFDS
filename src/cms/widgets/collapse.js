@@ -14,7 +14,7 @@ const CollapseWidget = {
         {
           label: 'Title',
           name: 'title',
-          widget: 'string',
+          widget: 'string'
         },
         {
           label: 'Content',
@@ -25,11 +25,11 @@ const CollapseWidget = {
             'LFDSImage',
             'code-block',
             'color',
-            'imageAndText',
-          ],
-        },
-      ],
-    },
+            'imageAndText'
+          ]
+        }
+      ]
+    }
   ],
 
   fromBlock: function (match) {
@@ -39,12 +39,12 @@ const CollapseWidget = {
     const items = collapseArray.map(function (item) {
       return {
         title: item.match(/title="(.*)">/)[1],
-        content: item.match(/<div class="content">(.*)<\/div>/s)[1],
+        content: item.match(/<div class="content">(.*)<\/div>/s)[1]
       }
     })
 
     const obj = {
-      panels: Immutable.fromJS(items),
+      panels: Immutable.fromJS(items)
     }
 
     return obj
@@ -58,6 +58,6 @@ const CollapseWidget = {
     })
 
     return '\n<section>\n' + items.join('\n') + '\n</section>\n'
-  },
+  }
 }
 export default CollapseWidget

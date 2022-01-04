@@ -10,7 +10,7 @@ import rehypeReact from 'rehype-react'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
-  components: { collapse: Collapse },
+  components: { collapse: Collapse }
 }).Compiler
 // Export Template for use in CMS preview
 const CategoryOverviewTemplate = ({
@@ -20,7 +20,7 @@ const CategoryOverviewTemplate = ({
   contentAbove,
   categoryPages,
   body,
-  bodyHtml,
+  bodyHtml
 }) => (
   <>
     <Wrapper tag="div" menu={true}>

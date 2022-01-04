@@ -1,18 +1,15 @@
-import { GatsbyImage, getImage, withArtDirection } from "gatsby-plugin-image"
+import { GatsbyImage, getImage, withArtDirection } from 'gatsby-plugin-image'
 
 import React from 'react'
 import style from './index.module.css'
 
 const FullWidthBackground = ({ imageSource, children, title }) => {
-
-
   const images = withArtDirection(getImage(imageSource[0]), [
-
     {
-      media: "(max-width: 820px)",
+      media: '(max-width: 820px)',
       image: getImage(imageSource[1])
-    },
-  ]);
+    }
+  ])
 
   return (
     <div className={style.FullWidthBackground}>
@@ -22,8 +19,11 @@ const FullWidthBackground = ({ imageSource, children, title }) => {
         <p>0</p>
       ) : (
         <>
-
-          <GatsbyImage className={style.FullWidthBackground__object} alt="" image={images} />
+          <GatsbyImage
+            className={style.FullWidthBackground__object}
+            alt=""
+            image={images}
+          />
         </>
       )}
       {title && <h2 className={style.FullWidthBackground__title}>{title}</h2>}
