@@ -6,18 +6,26 @@ import { navigate } from '@reach/router'
 
 // Export Template for use in CMS preview
 
-const ChangelogPage = ({ data: { page, lfui, lfuiComponents }, location }) => {
+const ChangelogPage = ({
+  data: { page, lfuiIcons, lfuiComponents },
+  location
+}) => {
   const breadcrumb = {
     title: page.frontmatter.title,
     location: location
   }
 
   const versions = {
-    lfui: lfui.organization.repository.releases.edges,
-    lfuiComponents: lfuiComponents.organization.repository.releases.edges
+    lfuiIcons: lfuiIcons.organization.repository.releases.edges.filter(
+      ({ node }) => !node.isPrerelease
+    ),
+    lfuiComponents:
+      lfuiComponents.organization.repository.releases.edges.filter(
+        ({ node }) => !node.isPrerelease
+      )
   }
 
-  const tabs = ['Components']
+  const tabs = ['Components', 'Icons']
   const index = tabs.indexOf(location.search.substr(1))
   const onTabsChange = (index) =>
     navigate(`?${tabs[index]}`, { replace: false })
@@ -54,13 +62,14 @@ export const query = graphql`
         intro
       }
     }
-    lfui: github {
+    lfuiIcons: github {
       organization(login: "LF-digitala-kanaler") {
-        repository(name: "LFUI") {
+        repository(name: "LFUI-icons") {
           releases(last: 60, orderBy: { field: CREATED_AT, direction: DESC }) {
             edges {
               node {
                 tagName
+                isPrerelease
                 descriptionHTML
               }
             }
@@ -75,6 +84,7 @@ export const query = graphql`
             edges {
               node {
                 tagName
+                isPrerelease
                 descriptionHTML
               }
             }

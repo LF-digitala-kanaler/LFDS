@@ -29,10 +29,10 @@ const ChangelogPageTemplate = ({
     >
       <TabList className={tabStyle.Tabs__list}>
         <Tab className={tabStyle.Tabs__link}>Components</Tab>
+        <Tab className={tabStyle.Tabs__link}>Icons</Tab>
       </TabList>
 
       <TabPanels className={tabStyle.Tabs__panels}>
-        {/* Get component release list from github */}
         <TabPanel className={tabStyle.Tabs__panel}>
           <Wrapper menu={true} tag="div" narrow>
             <div className="Content">
@@ -48,7 +48,13 @@ const ChangelogPageTemplate = ({
                   </div>
                 )
               })}
-              {versions.lfui.map((item) => {
+            </div>
+          </Wrapper>
+        </TabPanel>
+        <TabPanel className={tabStyle.Tabs__panel}>
+          <Wrapper menu={true} tag="div" narrow>
+            <div className="Content">
+              {versions.lfuiIcons.map((item) => {
                 return (
                   <div key={item.node.tagName}>
                     <h2>{item.node.tagName}</h2>

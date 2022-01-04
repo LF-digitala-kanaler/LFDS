@@ -12,13 +12,14 @@ const Changelog = () => (
           organization(login: "LF-digitala-kanaler") {
             repository(name: "LFUI-components") {
               releases(
-                first: 3
+                first: 10
                 orderBy: { field: CREATED_AT, direction: DESC }
               ) {
                 edges {
                   node {
                     name
                     createdAt
+                    isPrerelease
                     descriptionHTML
                     publishedAt
                     shortDescriptionHTML(limit: 100)
@@ -32,10 +33,10 @@ const Changelog = () => (
     `}
     render={(data) => {
       //get 3 latest lfui releases
-      const latestVersions =
-        data.log.organization.repository.releases.edges.map((version) => {
-          return version.node
-        })
+      const latestVersions = data.log.organization.repository.releases.edges
+        .map((version) => version.node)
+        .filter((node) => !node.isPrerelease)
+        .slice(0, 3)
 
       const formatDate = (date) => {
         const event = new Date(date)

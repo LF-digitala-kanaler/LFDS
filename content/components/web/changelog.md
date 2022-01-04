@@ -5,4 +5,4 @@ intro: Länsförsäkringar design system’s parts are versioned and released us
 hidden: true
 ---
 
-Missing something? Or want to have a sneak peek what's coming in the next release? Have a look in our [repo](https://github.com/LF-digitala-kanaler/LFUI/issues) 
+Missing something? Or want to have a sneak peek what's coming in the next release? Have a look in our [repo](https://github.com/LF-digitala-kanaler/LFUI-components/issues)
