@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: LF-digitala-kanaler/LFUI-website
-  branch: develop
+  repo: LF-digitala-kanaler/LFDS
+  branch: main
 
 media_folder: static/img
 public_folder: /img
@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: 'Category'
         name: 'category'
         widget: 'select'
-        hint: Where in the navigation will the component be visible? 
+        hint: Where in the navigation will the component be visible?
         create: true
         options:
           - { label: 'Button and links', value: 'Button and links' }
@@ -968,12 +968,12 @@ collections: # A list of collections the CMS should be able to edit
               hint: Will be shown on Overview page,
               required: false
             }
-         
+
           - label: 'Role information'
             name: 'roleInformation'
             widget: list
             hint: Display Role specifik information above checklist
-            fields: 
+            fields:
             - { label: 'Text', name: 'text', widget: 'markdown', required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']}
             - label: 'Tags'
               name: 'tags'
@@ -985,8 +985,8 @@ collections: # A list of collections the CMS should be able to edit
                 - { label: 'Developer', value: 'Developer' }
                 - { label: 'Tester', value: 'Tester' }
                 - { label: 'Copy', value: 'Copy' }
-                  
-          
+
+
           - name: 'checklist'
             label: 'Checklist'
             label_singular: 'item'
