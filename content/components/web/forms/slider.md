@@ -10,6 +10,7 @@ category: Forms
 componentsNavigation:
   - name: Value
   - name: Intervall
+backgroundColor: "#fff"
 tabs:
   - content: >-
       ## How to use
@@ -77,17 +78,24 @@ tabs:
       ## How to use
 
 
-      LFUI has restyled the HTML5-element `input[type="range"]` which is useable in browsers later than IE9. The `input[type="range"]`, or Slider, is a tool to control a value by adjusting the thumb along its track. The value range of the track is assigned by `min` and `max` html attributes, and the `step` attribute is used to control how big leaps the slider value takes for each movement.
+      LFUI has restyled the HTML5-element `input[type="range"]` which is useable in all modern browsers. The `input[type="range"]`, or Slider, is a tool to control a value by adjusting the thumb along its track. The value range of the track is assigned by `min` and `max` html attributes, and the `step` attribute is used to control how big leaps the slider value takes for each movement.
 
 
-      Only IE has browser support for coloring the left side of the thumb upon slider interaction. But, with some JS we can make it work in all browsers by adding a linear-gradient corresponding to % of the chosen value, like so(you have to add this to your code):
+      Browsers have varying support for styling the slider track so in order to get the proper visual effect one has to set the custom property `--progress` on the element. When the value changes, one has to update the custom property on the element. This functionality is not built in and needs to be handled in your code base.
 
+
+      ```html
+
+      <input type="range" class="lf-slider" value="50" min="0" max="100" style="--progress: 50;">
 
       ```
 
+
+      ```javascript
+
       $('.lf-slider').on('input', function () {
         var percent = Math.ceil(((this.value - this.min) / (this.max - this.min)) * 100);
-        $(this).css('background', '-webkit-linear-gradient(left, #005aa0 0%, #005aa0 ' + percent + '%, #d9d9d9 ' + percent + '%)');
+        $(this).css('--progress', percent);
       });
 
       ```
@@ -105,7 +113,7 @@ tabs:
       The slider is created by using the `<input type="range">` element together with the `.lf-slider` class. Note that this slider *only works on white backgrounds*.
 
 
-      ```
+      ```html
 
       <div class="row">
         <label for="lf-slider" class="col-12">Ange procent av lön</label>
@@ -132,7 +140,7 @@ tabs:
       The native `input[type="range"]` HTML element unfortunately does not support the ability to have more than one range-thumb (the button you move back and forth). Use-cases have begun appearing where such a feature is requested in order for a user to select a span inside the range. To achieve you can use jQuery UI. LFUI provide you with css to make sure that the range slider is working properly. Here is an example of jQuery UI with two sliding buttons. This example is built with [jQuery UI 1.12](https://jqueryui.com/slider/).
 
 
-      ```
+      ```javascript
 
       $('#year-slider-range').slider({
          range: true,
@@ -167,7 +175,7 @@ tabs:
       Create a `.slider-wrapper` wrapping element, with a `.slider-label-left` and `.slider-label-right` element on each corresponding side of the slider. The wrapper will add a padding of`60px`of either side of the component and then absolute-position the labels in the padding gap. Should your labels require increased space (with really large numbers, etc), simply overwrite the padding on the `.slider-wrapper` with a custom padding and increase the width of the `slider-label-*` to match.
 
 
-      ```
+      ```html
 
       <div class="row">
         <label for="lf-slider" class="col-12">Ange procent av lön</label>
@@ -188,15 +196,13 @@ tabs:
       ```
 
 
-
-
       ##### Distribution label
 
 
       It is also possible to utilize the `distribution-label` from [distribution bar](components/web/data-visualization/distribution-bar) component. Append the `.distribution-label` to the `slider-label-*` classes.
 
 
-      ```
+      ```html
 
       <div class="distribution-label slider-label-left">0 %</div>
 
@@ -213,11 +219,10 @@ tabs:
       If you want to place the slider on grey background you can change `.lf-slider` to `.lf-slider-gray`.
 
 
-      ```
+      ```html
 
       <input id="lf-slider-2" type="range" name="lf-slider" class="lf-slider-gray" value="500000" min="0" max="10">
 
       ```
     name: Code
-backgroundColor: '#fff'
 ---
