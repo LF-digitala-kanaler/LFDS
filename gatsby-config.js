@@ -274,7 +274,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         custom: {
-          families: ['LFRubrik'],
+          families: ['LF Rubrik', 'Intro Cond'],
           urls: ['/fonts/fonts.css']
         }
       }

@@ -42,7 +42,7 @@
   font-size: 2.5rem;
   line-height: 1.2;
 
-  font-family: 'LFRubrik', serif;
+  font-family: 'LF Rubrik', georgia, 'Times New Roman', times, serif;
   z-index: 1;
   left: 50%;
   transform: translateX(-50%);
