@@ -349,6 +349,7 @@ figure {
 .Colors__text {
   margin: 0;
   font-family: var(--font-family-monospace);
+  font-size: 0.75rem !important;
 }
 
 .Colors__text span {

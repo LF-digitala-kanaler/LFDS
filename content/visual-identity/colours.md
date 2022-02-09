@@ -2,27 +2,26 @@
 template: ArticlePage
 previewImage: /img/color_v2.svg
 title: Colours
-intro: Our primary colours are blue, red and white. This colour combination is
-  very recognisable for our customers. It's important that we use our colours
-  consequently.
+intro: Our primary colours are blue, red and white. This combination is highly
+  recognisable for our customers. We use them consequently and with care.
 wide: true
 lang: false
 contentTop: ''
 ---
 
-## Primary Colour
+## Primary
 
 <div class="Colors"><article class="Colors__item Colors__item--primary"><div class="Colors__primary" style="border-color: #005aa0"><div class="Colors__background" style="background-color: #005aa0"></div><h3 class="Colors__title">Länsförsäkringar Blue</h3><p class="Colors__text"><span>RGB</span> 0 90 160</p><p class="Colors__text"><span>HEX</span> #005aa0</p><p class="Colors__text"><span>CSS</span> --color-blue</p></div></article><article class="Colors__item Colors__item--primary"><div class="Colors__primary" style="border-color: #E30613"><div class="Colors__background" style="background-color: #E30613"></div><h3 class="Colors__title">Länsförsäkringar Red</h3><p class="Colors__text"><span>RGB</span> 227 6 19</p><p class="Colors__text"><span>HEX</span> #E30613</p><p class="Colors__text"><span>CSS</span> --color-red</p></div></article></div>
 
-### Colour balance
+### Balance
 
-We strive to design with a consistent colour balance. A lot of white, blue as a primary colour and red as an accent colour.
+We strive to use a consistent colour balance. A white base, blue as a primary and red as an accent.
 
 <figure class="Image Image__border "><img src="/img/colors.jpg" srcset="/img/colors.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-## Complimentary colour
+## Complimentary
 
-Our complimentary colours are hues based on our primary colour.
+Complimentary colours that match and work well with our primary colours.
 
 <div class="Colors">
     <article class="Colors__item Colors__item--complimentary">
@@ -81,7 +80,9 @@ Our complimentary colours are hues based on our primary colour.
     </article>
 </div>
 
-## Black, white and shades of grey
+## Greyscale
+
+This set of black, white and grays has been selected over the years and covers most of our needs.
 
 <div class="Colors">
     <article class="Colors__item Colors__item--complimentary">
@@ -96,7 +97,7 @@ Our complimentary colours are hues based on our primary colour.
     <article class="Colors__item Colors__item--complimentary">
       <div class="Colors__complimentary" style="border-color: #F3F3F3">
         <div class="Colors__background" style="background-color: #F3F3F3"></div>
-        <h3 class="Colors__title">Body background</h3>
+        <h3 class="Colors__title">Background</h3>
         <p class="Colors__text"><span>RGB</span> 243 243 243</p>
         <p class="Colors__text"><span>HEX</span> #F3F3F3</p>
         <p class="Colors__text"><span>CSS</span> --color-tint</p>
@@ -151,9 +152,9 @@ Our complimentary colours are hues based on our primary colour.
 
 ## Special
 
-These colours are for specific. usage. Use with care.
+For specific cases, use with care.
 
-### Info colours
+### Notify and inform
 
 <div class="Colors">
     <article class="Colors__item Colors__item--special">
