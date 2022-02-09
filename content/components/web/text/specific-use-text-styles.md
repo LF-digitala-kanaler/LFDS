@@ -25,7 +25,7 @@ tabs:
       Labels can be used in [tables](./page-content/tables) as well as [forms](./forms). In tables they are used as a headings for columns, and in forms they help help the user know what to enter in the adjacent form element (please see [form element grouping ](/patterns/form-patterns/form-element-grouping)for a thorough explanation). Labels should not be used for anything except this.
 
 
-      Labels are written in Intro Cond bold, 16px and colour #222222. 
+      Labels are written in Intro Cond bold, 16px and colour #222222.
 
 
       <div class="Callout"><strong class="Callout__title">Sentence-long questions </strong><p class="Callout__text">In some forms (like KYC and "Hälsodeklaration") we need to ask questions in sentence form rather than short and snappy labels. In those cases the boldness of the labels might reduce readability over time, so we recommend using Arial 16 px normal weight in those cases instead.</p></div>
@@ -34,10 +34,10 @@ tabs:
       ### Input description/helptext
 
 
-      At times you might want to give some context to the expected input or provide information on GDPR-compliance of the data provided by the user. Then input description/helptext/meta (same thing, many names) is your friend - read more about how to use it in [form element grouping](/patterns/form-patterns/form-element-grouping). 
+      At times you might want to give some context to the expected input or provide information on GDPR-compliance of the data provided by the user. Then input description/helptext/meta (same thing, many names) is your friend - read more about how to use it in [form element grouping](/patterns/form-patterns/form-element-grouping).
 
 
-      The styling of input description is Arial 14px with colour #747578.
+      The styling of input description is Arial 14px with colour #6B7070.
 
 
       ### Placeholder text
@@ -58,7 +58,7 @@ tabs:
       ## Other material
 
 
-      **Sketch file:** 
+      **Sketch file:**
 
 
       LFUXAD Assets/LFUI Commons.sketch (Input/Label Style, Input/Error Style, Meta)

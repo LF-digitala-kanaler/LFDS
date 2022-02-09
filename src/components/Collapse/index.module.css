@@ -44,7 +44,7 @@ section .Collapse:last-of-type {
   &:after {
     content: '';
     position: absolute;
-    background-color: #747578;
+    background-color: #6B7070;
     transition: transform 0.25s ease-out;
   }
   &:before {

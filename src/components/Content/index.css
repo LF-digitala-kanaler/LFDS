@@ -348,10 +348,12 @@ figure {
 
 .Colors__text {
   margin: 0;
+  font-family: var(--font-family-monospace);
 }
 
 .Colors__text span {
   padding-right: var(--spacing-md);
+  font-family: var(--font-family-base);
 }
 
 /* Code styling */

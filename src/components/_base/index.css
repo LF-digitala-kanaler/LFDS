@@ -16,7 +16,8 @@
 @custom-media --large-viewport-bootstrap-down (width < 1200px);
 
 :root {
-  --font-family-base: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  --font-family-base: arial, 'Helvetica Neue', helvetica, sans-serif;
+  --font-family-monospace: menlo, monaco, consolas, 'Liberation Mono', 'Courier New', monospace;
 
   --font-weight-bold: 700;
   --font-weight-normal: normal;
@@ -30,7 +31,7 @@
   --color-navy: #00427a;
   --color-blue: #005aa0;
   --color-smoke: #f3f3f3;
-  --color-grey: #747578;
+  --color-grey: #6B7070;
   --color-black: #222;
   --color-red: #e30613;
   --color-shadow: #e5e5e5;

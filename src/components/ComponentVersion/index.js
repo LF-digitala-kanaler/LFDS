@@ -95,7 +95,7 @@ export const ComponentVersion = ({ version }) => {
                     />
                   </defs>
                   <use
-                    fill="#747578"
+                    fill="#6B7070"
                     xlinkHref="#compver"
                     transform="matrix(1 0 0 -1 0 9)"
                     fillRule="evenodd"
