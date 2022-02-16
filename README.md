@@ -1,20 +1,20 @@
-# Länsförsäkringar Design System
+# <img src="https://github.com/LF-digitala-kanaler/favicon/blob/master/icon.svg" width="24"> Länsförsäkringar Design System
 
-Welcome to Länsförsäkringar's design system. The design system (known as LFDS)
-is the heart of digital design at Länsförsäkringar.
+[LFDS](https://lf-digitala-kanaler.github.io/) · [CMS](https://lf-digitala-kanaler.github.io/admin/)
+
+**The website and content for our design system, that is the heart of digital design at Länsförsäkringar.**
 
 # Getting started
 
-First you'll need to authenticate with [GitHub Packages][github-packages]. The
-easiest way is by logging in with npm. You'll need to [generate a personal
-access token][personal-access-token] which you use as your password. The token
-should have access rights to the `repo` and `read:packages` scopes.
+First, you'll need to authenticate with [GitHub Packages][github-packages]. The easiest way is by logging in with npm. To do that, [generate a personal
+access token][personal-access-token] which you use as your password. Make sure to give it access rights to the `repo` and `read:packages` scopes.
+
 
 ```
 npm login --scope=@lf-digitala-kanaler --registry=https://npm.pkg.github.com
 ```
 
-Add an `.npmrc` file in your project root folder.
+Add a `.npmrc` file in your project root folder.
 
 ```
 @lf-digitala-kanaler:registry=https://npm.pkg.github.com
@@ -26,96 +26,76 @@ Add an `.env` file in your project root folder.
 GITHUB_TOKEN=<INSERT_PERSONAL_ACCESS_TOKEN>
 ```
 
-Install the dependencies as you normally would.
+Install the dependencies as you normally would with npm.
 
 ```
 npm install
 ```
 
-You should now be able to run the app
+You should now be able to start the app.
 
-```bash
+```
 npm start
 ```
 
-## Update LFUI-components and LFUI-icons
+## Project structure
 
-Whenever new version of [lfui-components][lfui-components] or
-[lfui-icons][lfui-icons] are released they should be updated and the app needs
-to be built and deployed for them to be visible in LFDS.
+```
+.
+├── .github           # Github Action workflow
+├── content           # Markdown files, often updated or created via Netlify CMS
+├── public
+└── src
+    ├── cms           # Custom widgets for Netlify CMS
+    ├── components    # LFDS website components
+    ├── context       # Context API for Gatsby
+    ├── data/         # Nav structure and component status (updated on `yarn start`)
+    ├── img
+    ├── pages
+    ├── templates     # Template files for the LFDS pages
+    ├── utils
+    └── static        # Asset outside of the module system
+        ├── admin     # Netlify CMS config
+        ├── favicons
+        ├── fonts
+        └── img       # Uploaded via Netlify CMS
+```
+
+## Components in LFDS
+
+Each component from `lfui-compoents/dist/docs/html` are imported to Graphql and queried in `ComponentPage.js`.
+
+To determine which component to display on a specific LFDS page, we match component folder names (`PascalCase`) with `location.pathname` (specified in the page views).
+
+# Bumping Components and Icons
+
+Whenever new version of [Components][lfui-components] or [Icons][lfui-icons] are released, LDFS will need to be updated and rebuilt.
 
 ```
 npm install -D @lf-digitala-kanaler/lfui-components@latest
 npm install -D @lf-digitala-kanaler/lfui-icons@latest
 ```
 
-## LFUI-components in LFDS
+# Editing content
 
-Each component from `lfui-compoents/dist/docs/html` will be imported to Graphql
-and queried in `ComponentPage.js`.
-To determine which component to show on which page it will compare the folder
-name from `lfui-components` with `location.pathname` for each page.
-Make sure to use `PascalCase`for folder name in lfui-compoents.
+The content within the repo can be modified via the [LFDS CMS][cms], an instance of [Netlify CMS](https://www.netlifycms.org).
 
-## Structure
+## Making changes locally
 
-The project is structured as such:
+Content can also be edited locally in the markdown files or via a locally served instance of the CMS.
 
-```
-LFDS/
-├── .github/
-│    **Github action workflow**
-├── content/
-│   ** Markdown files from netlifyCMS **
-├── public/
-└── src/
-    ├── cms/
-    │    ** custom widgets for netlifyCMS **
-    ├── components/
-    │    ** site components **
-    ├── context/
-    │   ** Context API for Gatsby **
-    ├── data/
-    │   ** Main navigation structure and component status(component status will be copied from node_modules at each `yarn start` **
-    ├── img/
-    ├── pages/
-    ├── templates/
-    │   ** Templates for every page type in LFDS **
-    ├── utils/
-    └── static/
-        ** Asset outside of the module system **
-        ├── admin/
-        │   ** Configuration options for Netlify CMS**
-        ├── favicons/
-        ├── fonts/
-        └── img/
-            ** Images uploaded in Netlify CMS **
-```
+This works well, but a couple of things to note:
 
-## Content and Markdown guidelines
+1. Changes in CMS served locally will still push updates to the remote branch on Github.
+2. You will be prompted to enter your site's URL, this is necessary for Netlify CMS to manage user identity. This will be stored in `localstorage` on `localhost:8000`.
 
-https://lf-digitala-kanaler.github.io/admin/
+## Configuring the CMS
 
-If you are adding or editing content locally in the CMS, a couple of things to
-note:
+Netlify CMS allows for configuring of pages, fields, posts, and settings. See the [Netlify CMS documentation][netlify-cms-docs] and apply via `static/admin/config.yml`. 
 
-1.  Changes will be pushed to the remote repo.
-
-2.  You will be prompted to enter your site's url, this is necessary for Netlify
-Identity to manage user login. This is stored in `localStorage`, so you might
-have to empty your browser cache if you are switching projects but remaining on
-`localhost:8000`.
-
-## Editing CMS fields
-
-The Netlify CMS configuration is located in `static/admin/config.yml`. This is
-where you will configure the pages, fields, posts and settings that are editable
-by the CMS.
-
-Find out more in the [Netlify CMS Docs][netlify-cms-docs].
-
+[cms]: https://lf-digitala-kanaler.github.io/admin/
 [github-packages]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages
-[personal-access-token]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 [lfui-components]: https://github.com/LF-digitala-kanaler/LFUI-components
 [lfui-icons]: https://github.com/LF-digitala-kanaler/LFUI-icons
 [netlify-cms-docs]: https://www.netlifycms.org/docs/#configuration
+[personal-access-token]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
