@@ -1,8 +1,8 @@
 # <img src="https://github.com/LF-digitala-kanaler/favicon/blob/master/icon.svg" width="24"> Länsförsäkringar Design System
 
-[LFDS](https://lf-digitala-kanaler.github.io/) · [CMS](https://lf-digitala-kanaler.github.io/admin/)
+The website and content for our design system – the heart of digital design at Länsförsäkringar.
 
-**The website and content for our design system, that is the heart of digital design at Länsförsäkringar.**
+[Design system →](https://lf-digitala-kanaler.github.io/) &nbsp;&nbsp;&nbsp;&nbsp; [CMS →](https://lf-digitala-kanaler.github.io/admin/)
 
 # Getting started
 
