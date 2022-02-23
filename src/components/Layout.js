@@ -52,18 +52,9 @@ const App = ({
               }}
             >
               {title}
-              <link
-                rel="apple-touch-icon"
-                sizes="180x180"
-                href="/favicons/apple-touch-icon.png"
-              />
-              <link
-                rel="mask-icon"
-                href="/favicons/safari-pinned-tab.svg"
-                color="#00427a"
-              />
-              <meta name="msapplication-TileColor" content="#2b5797" />
-              <meta name="robots" content="noindex" />
+              <link rel="icon" href="/favicon.ico" sizes="any">
+              <link rel="icon" href="/icon.svg" type="image/svg+xml">
+              <link rel="apple-touch-icon" href="/apple-touch-icon.png">
             </Helmet>
 
             <Meta

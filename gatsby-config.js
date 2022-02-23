@@ -38,29 +38,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'LFDS',
+        name: 'Länsförsäkringar Design System',
         short_name: 'LFDS',
-        start_url: '/',
-        display: 'standalone',
         theme_color: '#005aa0',
-        background_color: '#F3F3F3',
-        icon: `${__dirname}/static/favicons/favicon.svg`, // This path is relative to the root of the site.
+        background_color: '#f3f3f3',
+        display: 'standalone',
         icons: [
           {
-            src: '/favicons/android-chrome-192x192.png',
-            sizes: '192x192',
-            type: 'image/png'
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
           },
           {
-            src: '/favicons/android-chrome-512x512.png',
-            sizes: '512x512',
-            type: 'image/png'
-          },
-          {
-            src: '/favicons/android-chrome-192x192.png',
-            sizes: '196x196',
-            type: 'image/png',
-            purpose: 'any maskable'
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
           }
         ]
       }
