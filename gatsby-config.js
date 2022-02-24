@@ -261,15 +261,6 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        custom: {
-          families: ['LF Rubrik', 'Intro Cond'],
-          urls: ['/fonts/fonts.css']
-        }
-      }
-    },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }

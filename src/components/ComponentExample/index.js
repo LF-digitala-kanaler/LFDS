@@ -8,6 +8,7 @@ import Content from '../Content'
 import Frame from 'react-frame-component'
 import Preview from '../Preview'
 import css from '!!raw-loader!@lf-digitala-kanaler/lfui-components/dist/docs/docs.css'
+import fonts from '!!css-loader!@lf-digitala-kanaler/fonts/index.css'
 import style from './index.module.css'
 
 const ComponentExample = ({
@@ -152,65 +153,13 @@ const ComponentExample = ({
             head={
               <>
                 <style>
-                  {`
-                    body {
-                      font-family: arial;
-                      font-size: 1rem;
-                      font-weight: 400;
-                      line-height: 1.45;
-                      color: #222;
-
-                    }
-                    @font-face {
-                      font-family: 'LF Rubrik';
-                      src:
-                        url('/fonts/lf-rubrik.woff2') format('woff2'),
-                        url('/fonts/lf-rubrik.woff') format('woff');
-                      font-weight: normal;
-                      font-style: normal;
-                      font-kerning: normal;
-                    }
-
-                    @font-face {
-                      font-family: 'Intro Cond';
-                      src:
-                        url('/fonts/intro-cond-regular.woff2') format('woff2'),
-                        url('/fonts/intro-cond-regularwoff') format('woff');
-                      font-weight: normal;
-                      font-style: normal;
-                    }
-
-                    @font-face {
-                      font-family: 'Intro Cond';
-                      src:
-                        url('/fonts/intro-cond-regular-italic.woff2') format('woff2'),
-                        url('/fonts/intro-cond-regular-italic.woff') format('woff');
-                      font-weight: normal;
-                      font-style: italic;
-                    }
-
-                    @font-face {
-                      font-family: 'Intro Cond';
-                      src:
-                        url('/fonts/intro-cond-bold.woff2') format('woff2'),
-                        url('/fonts/intro-cond-bold.woff') format('woff');
-                      font-weight: bold;
-                      font-style: normal;
-                    }
-
-                    @font-face {
-                      font-family: 'Intro Cond';
-                      src:
-                        url('/fonts/intro-cond-bold-italic.woff2') format('woff2'),
-                        url('/fonts/intro-cond-bold-italic.woff') format('woff');
-                      font-weight: bold;
-                      font-style: italic;
-                    }
-                    `}
+                  {fonts.toString()}
                   {css}
-                  {'.lfui-theme body{padding:16px; overflow-y: auto; background-color:' +
-                    backgroundColor +
-                    '} '}
+                  {`.lfui-theme body {
+                    padding: 16px;
+                    overflow-y: auto;
+                    background-color: ${backgroundColor};
+                  }`}
                 </style>
               </>
             }
