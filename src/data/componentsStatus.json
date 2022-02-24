@@ -6,24 +6,11 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "8.0.0",
           "6.5.0",
           "5.2.0",
           "4.2.0",
           "3.4.0"
-        ],
-        "examples": [
-          {
-            "name": "Danger"
-          },
-          {
-            "name": "Info"
-          },
-          {
-            "name": "Success"
-          },
-          {
-            "name": "Warning"
-          }
         ]
       }
     },
@@ -33,6 +20,7 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "8.0.0",
           "4.2.0"
         ]
       }
@@ -109,6 +97,7 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "8.0.0",
           "6.5.0",
           "6.4.0",
           "6.3.0",
@@ -193,8 +182,9 @@
       "component": "Dropdown",
       "bootstrap": {
         "new": false,
-        "deprecated": false,
+        "deprecated": true,
         "changedInVersion": [
+          "8.0.0",
           "7.0.0",
           "6.5.0",
           "6.4.0",
@@ -335,6 +325,7 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "8.0.0",
           "5.4.0",
           "5.1.0",
           "4.2.0",
@@ -480,11 +471,30 @@
       }
     },
     {
+      "component": "Select",
+      "bootstrap": {
+        "new": false,
+        "deprecated": false,
+        "changedInVersion": [
+          "8.0.0"
+        ],
+        "examples": [
+          {
+            "name": "Select Single"
+          },
+          {
+            "name": "Select Multiple"
+          }
+        ]
+      }
+    },
+    {
       "component": "Shortcut",
       "bootstrap": {
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "8.0.0",
           "6.7.0",
           "6.5.0",
           "3.3.0"
@@ -508,6 +518,7 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "8.0.0",
           "6.4.0",
           "5.3.0"
         ],
@@ -600,6 +611,7 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "8.0.0",
           "7.0.0"
         ],
         "examples": [
