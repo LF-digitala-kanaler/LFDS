@@ -10,10 +10,8 @@ description: Alerts are used to provide contextual messages for typical user
 previewImage: /img/alert.svg
 category: System display
 componentsNavigation:
-  - name: Info
-  - name: Warning
-  - name: Danger
-  - name: Success
+    - name: Default
+    - name: Banner
 backgroundColor: "#fff"
 tabs:
   - content: >-
@@ -23,7 +21,7 @@ tabs:
       All alerts are contextual and temporary system messages for typical user actions and notifications. An inline-heading can be set in the beginning of alerts to give a brief idea of the contents. The heading should always be separated from the content with some form of punctation (i.e. .,!?- ). Never use line breaks inside the alerts.
 
 
-      The alert should be shown as locally as possible, without having to be repeated. That is, don’t display an alert on top of a page if only parts of the page's content is affected but do not put it so far down that the user gets several alerts for the same error. 
+      The alert should be shown as locally as possible, without having to be repeated. That is, don’t display an alert on top of a page if only parts of the page's content is affected but do not put it so far down that the user gets several alerts for the same error.
 
 
       ### Four main variations
@@ -35,7 +33,7 @@ tabs:
       #### Info
 
 
-      The info alert is the most commonly used one, simply delivering a message with information that is relevant to the user in the current view. 
+      The info alert is the most commonly used one, simply delivering a message with information that is relevant to the user in the current view.
 
 
       #### Warning
@@ -71,7 +69,7 @@ tabs:
       #### Alert with button
 
 
-      If you need to put a button inside the alert, there is a special version of the [secondary buttons](/components/web/button-and-links/buttons#secondary-buttons) for this. Use the outlined button in the same colour as your alert. The button should be placed on the right hand side of the alert. 
+      If you need to put a button inside the alert, there is a special version of the [secondary buttons](/components/web/button-and-links/buttons#secondary-buttons) for this. Use the outlined button in the same colour as your alert. The button should be placed on the right hand side of the alert.
 
 
       Only use the button for confirmation-message like "I understand" or "Okey", with a closing of the alert as a result. If you want the user to go somewhere else, add a link inside the alert (following recommendations for a [link in a list item](../text/lists), with the link at the end of the message).
@@ -86,7 +84,7 @@ tabs:
       ## Please consider
 
 
-      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut ](/components/web/button-and-links/shortcut#alerting-glasspinne)(monocolour background and arrow with commercial content) 
+      * Don’t confuse alerts (striped background) with [“glasspinnar” shortcut ](/components/web/button-and-links/shortcut#alerting-glasspinne)(monocolour background and arrow with commercial content)
 
       * If you want to use a link create a new page and link to it from the alert if you can’t get all your information across on one line as the text should be kept short.
 
@@ -108,16 +106,16 @@ tabs:
       ## Så skriver vi
 
 
-      En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Låt rubriken säga något, inte bara "info" (för det säger redan designen). Om rubrik används ska den separeras med ett skiljetecken, som tankstreck, frågetecken eller utropstecken. Använd aldrig bindestreck i alerten. Avsluta alltid med punkt. 
+      En rubrik kan användas i början av alerten som ger användaren en hint om vad det handlar om. Låt rubriken säga något, inte bara "info" (för det säger redan designen). Om rubrik används ska den separeras med ett skiljetecken, som tankstreck, frågetecken eller utropstecken. Använd aldrig bindestreck i alerten. Avsluta alltid med punkt.
 
 
       **Exempel:** **Kundkännedom** – vänligen svara på frågorna för att kunna fortsätta använda appen.
 
 
-      **Exempel: Stämmer uppgifterna?** Uppdatera dina kontaktuppgifter så vi kan nå dig. 
+      **Exempel: Stämmer uppgifterna?** Uppdatera dina kontaktuppgifter så vi kan nå dig.
 
 
-      **Exempel:** Vi har uppdaterat dina inställningar för notiser. 
+      **Exempel:** Vi har uppdaterat dina inställningar för notiser.
 
 
       <div class="Callout"><strong class="Callout__title">Alert är inte samma som glasspinnen </strong><p class="Callout__text">Blanda inte ihop dessa med “glasspinnar”/shortcuts som t.ex. visas på startsidan av Mina sidor.</p></div>
@@ -132,7 +130,7 @@ tabs:
       Never use line breaks inside the alerts.
 
 
-      The base HTML is same for each variants. 
+      The base HTML is same for each variants.
 
 
       ```
@@ -183,7 +181,7 @@ tabs:
       ```
 
 
-      Since we use Bootstrap's alert component there is a couple of methods and event avalible for you. You can read more about them [here](https://getbootstrap.com/docs/4.0/components/alerts/) 
+      Since we use Bootstrap's alert component there is a couple of methods and event avalible for you. You can read more about them [here](https://getbootstrap.com/docs/4.0/components/alerts/)
 
 
       #### Alert with button
