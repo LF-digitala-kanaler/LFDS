@@ -1,96 +1,57 @@
 ---
 template: ArticlePage
 title: Deprecated
-intro: 'This page lists components that have been tagged as deprecated in LFUI. What this means is that the component is no longer in use and should be removed and replaced by its substitute (which you can likely find in its respective page).'
+intro: 'Components that have been marked as no longer in use.  Deprecation can happen because of changes to our UX principles, the scope of LFDS, or when a component has been replaced by a superior alternative.'
 ---
 
-<div class="Callout"><strong class="Callout__title">Note</strong><p class="Callout__text">The elements/components on this page may not have proper styling, should their styling has been removed from LFUI since being added to this page.</p></div>
+<div class="Callout"><strong class="Callout__title">Note</strong><p class="Callout__text">Elements and components on this page may not have proper styling as the code might have been removed.</p></div>
+
+## Dropdown
+
+- Marked as deprecated in 8.0.0
+
+The [Dropdown](components/web/forms/dropdown) component was marked as deprecated in favor of the newly introduced [Select](components/web/forms/select) component. Select inherits the same functionality as Dropdown, but adds a few key features:
+
+- Keyboard navigation
+- Screen reader support
+- Semantic markup
+- Automatic mobile vs desktop detection
+- Alternative layout with the label inside
 
 ## Button outline secondary
 
 - Marked as deprecated in 6.6.0
 
-`.btn-outline-secondary` was made deprecated in order to simplefy the use of buttons and remove redundant code. Use `'btn-secondary`instead.
+This button variation, `.btn-outline-secondary`, was removed in favor of our secondary buttons, `btn-secondary`, making our buttons default to primary.
 
 <Lfuiwrapper>
 <button class="btn btn-outline-secondary">Click me</button>
 </Lfuiwrapper>
 
-## Pagination-progress
+## Pagination progress, colored and steps
 
 - Marked as deprecated in 5.3.0
 
-This was made deprecated in order for our simple, standard pagination component to be the only one.
+This alternatives to our pagination component was mark as deprecated to simplify – having only one standard pagination component.
 
-<Lfuiwrapper>
-<ul class="pagination pagination-progress">
-    <li class="page-item "><a href="#" class="page-link">1. <span class="page-link-description">Logga in med BankID</span></a></li>
-    <li class="page-item"><a href="#" class="page-link">2. <span class="page-link-description">Beskriv olyckshändelsen</span></a></li>
-    <li class="page-item"><a href="#" class="page-link">3. <span class="page-link-description">Var det någon mer där?</span></a></li>
-    <li class="page-item"><a href="#" class="page-link">4. <span class="page-link-description">Dina kontaktuppgifter</span></a></li>
-  </ul>
-  <br />
-  <ul class="pagination pagination-progress">
-    <li class="page-item"><a href="#" class="page-link">1. <span class="page-link-description">Logga in med BankID</span></a></li>
-    <li class="page-item"><a href="#" class="page-link">2. <span class="page-link-description">Beskriv olyckshändelsen</span></a></li>
-    <li class="page-item "><a href="#" class="page-link">3. <span class="page-link-description">Var det någon mer där?</span></a></li>
-    <li class="page-item"><a href="#" class="page-link">4. <span class="page-link-description">Dina kontaktuppgifter</span></a></li>
-  </ul>
-</Lfuiwrapper>
-
-## Pagination-colored
-
-- Marked as deprecated in 5.3.0
-
-This was made deprecated in order for our simple, standard pagination component to be the only one.
-
-<Lfuiwrapper>
-<ul class="pagination pagination-colored">
-  <li class="page-item"><span class="page-link">1</span></li>
-  <li class="page-item"><span class="page-link">2</span></li>
-  <li class="page-item "><span class="page-link">3</span></li>
-  <li class="page-item"><span class="page-link">4</span></li>
-</ul>
-<ul class="pagination pagination-flex pagination-colored">
-  <li class="page-item"><span class="page-link">1</span></li>
-  <li class="page-item"><span class="page-link">2</span></li>
-  <li class="page-item "><span class="page-link">3</span></li>
-  <li class="page-item"><span class="page-link">4</span></li>
-</ul>
-</Lfuiwrapper>
-
-## Paginations-steps
-
-- Marked as deprecated in 5.3.0
-
-This was made deprecated in order for our simple, standard pagination component to be the only one.
-
-<Lfuiwrapper>
-<ol class="pagination-steps">
-  <li class="page-item"><strong>Pick insurance</strong></li>
-  <li class="page-item"><strong>Enter credentials</strong></li>
-  <li class="page-item "><strong>Summary</strong></li>
-  <li class="page-item"><strong>Receipt</strong></li>
-</ol>
-</Lfuiwrapper>
+Effected classes are: `pagination-progress`, `pagination-colored` and
+`pagination-steps`
 
 ## Bold links
 
 - Marked as deprecated in 5.2.0
 
-This bold variant of our links has been deprecated as its usage was unclear and unecessary, leading to confusing ux-patterns. Resort to the normal, secondary links.
+The bold variant of our links was marked as deprecated because they were unclear and unnecessary which lead to confusing UX patterns. Resort to the normal, secondary links instead.
 
 <Lfuiwrapper>
-<button type="button" class="btn btn-link-bold" tabindex="-1">
-  Secondary link bold
-</button>
+<button type="button" class="btn btn-link-bold" tabindex="-1">Deprecated bold link</button>
 </Lfuiwrapper>
 
 ## Button outline primary
 
 - Marked as deprecated in 4.2.0
 
-This button has been removed in favor for our secondary buttons btn-secondary, making our primary buttons always btn-primary and without variations.
+This button variation, `.btn-outline-primary`, was removed in favor of our secondary buttons, `btn-secondary`, making our buttons default to primary.
 
 <Lfuiwrapper>
 <button class="btn btn-outline-primary">Click me</button>
@@ -100,9 +61,9 @@ This button has been removed in favor for our secondary buttons btn-secondary, m
 
 - Marked as a deprecated pattern in 4.2.0
 
-LFUI does not encourage the use of disabled buttons.
+Länsförsäkringar does no longer encourages the use of disabled buttons.
 
-Instead of a disabled button, make the button clickable and give the user a message on why it does not function, and what the user is needed to do in order to make it function. If the button is never intended to function, do not include the button at all to begin with.
+Instead, keep buttons clickable and display a message on why it does not function when it's clicked, along with what the user should do to make it function. If a button is never intended to be functional, do not include it, to begin with.
 
 <Lfuiwrapper>
 <button class="btn btn-primary disabled">Don't click me</button>
@@ -111,14 +72,16 @@ Instead of a disabled button, make the button clickable and give the user a mess
 
 ## Modal-air
 
-- Marked as deprecated in 5.1.0 The .modal-air class has been deprecated. Its appearance is now the default appearance of any modal.
+- Marked as deprecated in 5.1.0
+
+The `.modal-air` appearance was made the default look for modals.
 
 ## Automatic form validation
 
 - Marked as deprecated in 5.1.0
 
-The previous automatic validation specified below on forms and custom-forms has been removed. You now have to apply valid-classes yourself through Javascript.
+Automatic validation, specified below, is no longer included. You now have to apply the correct classes yourself with JavaScript.
 
-All form elements have their valid state applied when the form element has a valid value (styles do not apply whilst the element has focus). We use the browsers native :valid selector to achieve this, so ensure to implement proper type and pattern attributes. To disable validation add the novalidate property to the enclosing form element.
+All form elements have their valid state applied when it has a valid value. The styles do not apply whilst the element has focus. The native `:valid` selector is used to achieve this, so ensure to implement proper type and pattern attributes. To disable validation, add the `novalidate` property to the enclosing form element.
 
-If you implement custom validation it is recommended that you set the formnovalidate property on the submit button to enjoy the benefits of visual validation without the actual native validation happening.
+If you implement custom validation, we recommend that you set the `formnovalidate` property on the submit button, to enjoy the benefits of visual validation without the actual native validation logic being triggered.

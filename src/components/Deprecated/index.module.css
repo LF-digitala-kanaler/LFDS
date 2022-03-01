@@ -1,8 +1,9 @@
 .Deprecated {
   background-color: var(--color-yellow);
-  padding: var(--spacing-vertical--2) 0;
-  margin-top: calc(-1 * var(--spacing-vertical--2));
+  padding: var(--spacing-vertical--1) 0;
   border-bottom: 2px solid var(--color-border);
+  margin-top: calc(-1 * var(--spacing-vertical--2));
+  margin-bottom: var(--spacing-vertical--2);
 }
 
 .Deprecated--position {
@@ -56,6 +57,7 @@
 .Deprecated__bubble > div {
   max-width: auto;
   margin: 0;
+  padding: 0;
 }
 
 .Deprecated__text {
@@ -63,9 +65,4 @@
 }
 .Deprecated__container {
   display: flex;
-}
-
-.Deprecated__icon {
-  margin-right: var(--spacing-unit);
-  margin-top: -9px;
 }

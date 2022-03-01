@@ -9,7 +9,7 @@
   line-height: 1;
   margin: var(--spacing-vertical--3) auto;
   @media (--small-viewport) {
-    max-width: 22.25rem;
+    max-width: 29rem;
   }
 }
 .Blockquote__icon {
