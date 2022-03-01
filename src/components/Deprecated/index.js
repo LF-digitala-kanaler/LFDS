@@ -33,7 +33,7 @@ const Deprecated = ({ componentName, fixed }) => {
                     <strong>This component is deprecated</strong>
                     <p className={style.Deprecated__text}>
                       This component has been deprecated and will be removed in
-                      future versions.
+                      a future version.
                     </p>
                   </div>
                 </div>
