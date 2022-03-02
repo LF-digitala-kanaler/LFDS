@@ -10,7 +10,7 @@ intro: 'Components that have been marked as no longer in use.  Deprecation can h
 
 - Marked as deprecated in 8.0.0
 
-The [Dropdown](components/web/forms/dropdown) component was marked as deprecated in favor of the newly introduced [Select](components/web/forms/select) component. Select inherits the same functionality as Dropdown, but adds a few key features:
+The [Dropdown](/components/web/forms/dropdown) component was marked as deprecated in favor of the newly introduced [Select](/components/web/forms/select) component. Select inherits the same functionality as Dropdown, but adds a few key features:
 
 - Keyboard navigation
 - Screen reader support
