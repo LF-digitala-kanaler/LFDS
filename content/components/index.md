@@ -40,6 +40,6 @@ Our components, or LFUI as sometimes called, can be described as the lego blocks
 
 The design is in sync with our [visual identity](/visual-identity), and standardised ways of using these components together can be found in the [patterns-section](/patterns).
 
-For further information on how our components are presented, see the [Anatomy of a component page](#the-anatomy-of-a-component-page).
+For further information on how our components are presented, see the [Anatomy of a component](#the-anatomy-of-a-component-page).
 
 Ready to get going? [Get started](/foundations/getting-started/developer).
