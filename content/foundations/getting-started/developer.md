@@ -12,7 +12,7 @@ lang: false
 
 To install Components in your project, you will need to configure your environment for [GitHub Packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages).
 
-<div class="Callout"><strong class="Callout__title">Getting access</strong><p class="Callout__text">Please reach out to the Länsförsäkringar design team to get full access to the [Github organisation](https://github.com/LF-digitala-kanaler).</p></div>
+<div class="Callout"><strong class="Callout__title">Getting access</strong><p class="Callout__text">Please reach out to the Länsförsäkringar design team to get full access to the <a href="https://github.com/LF-digitala-kanaler">Github organisation</a>.</p></div>
 
 First, authenticate npm with GitHub Packages. To do that, generate a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) which you use as your password. Make sure to give the token access rights to both `repo` and `read:packages` scopes.
 

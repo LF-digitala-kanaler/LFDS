@@ -157,12 +157,16 @@ a[rel*='external']::after {
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
-  margin-left: 0.5rem;
+  margin-left: 0.1rem;
   vertical-align: middle;
   display: inline-block;
   background-position-y: 50%;
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxOHB4IiBoZWlnaHQ9IjE4cHgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5JY29ucy8yMHB4L2V4dGVybmFsLWxpbmstMjA8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGRlZnM+ICAgICAgICA8cGF0aCBkPSJNOSwzIEw5LDUgTDMsNSBMMywxNyBMMTUsMTcgTDE1LDExIEwxNywxMSBMMTcsMTkgTDEsMTkgTDEsMyBMOSwzIFogTTE5LDEgTDE5LDggTDE3LDggTDE3LDQuNDE0IEwxMC43MDcxMDY4LDEwLjcwNzEwNjggTDkuMjkyODkzMjIsOS4yOTI4OTMyMiBMMTUuNTg0LDMgTDEyLDMgTDEyLDEgTDE5LDEgWiIgaWQ9InBhdGgtMSI+PC9wYXRoPiAgICA8L2RlZnM+ICAgIDxnIGlkPSJBbGxhLXNpZG9yIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4gICAgICAgIDxnIGlkPSJMw6Ruay1leHRlcm4iIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNjcuMDAwMDAwLCAtMy4wMDAwMDApIj4gICAgICAgICAgICA8ZyBpZD0iSWNvbnMvMjBweC9leHRlcm5hbC1saW5rLTIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjYuMDAwMDAwLCAyLjAwMDAwMCkiPiAgICAgICAgICAgICAgICA8ZyBpZD0ib3V0bGluZXMiPiAgICAgICAgICAgICAgICAgICAgPGc+ICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9ImludmlzaWJsZS0yMCIgeD0iMCIgeT0iMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48L3JlY3Q+ICAgICAgICAgICAgICAgICAgICAgICAgPG1hc2sgaWQ9Im1hc2stMiIgZmlsbD0id2hpdGUiPiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPiAgICAgICAgICAgICAgICAgICAgICAgIDwvbWFzaz4gICAgICAgICAgICAgICAgICAgICAgICA8dXNlIGlkPSJDb21iaW5lZC1TaGFwZSIgZmlsbD0iIzRBNEE0QSIgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+ICAgICAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgICAgIDwvZz4gICAgICAgICAgICA8L2c+ICAgICAgICA8L2c+ICAgIDwvZz48L3N2Zz4=);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' id='external-link-inline-20'%3E%3Cg fill='%23222' fill-rule='evenodd'%3E%3Cpath d='M10.005 4L10 5.75h2.84L8.1 10.5l1.4 1.4 4.75-4.74v2.835H16V4z'/%3E%3Cpath d='M4 5v11h11v-4h-2v2H6V7h2V5z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 20px;
+  top: -0.1em;
+  position: relative;
 }
+
 a[href*='lansforsakringar.se'],
 a[href*='lfnet.se'] {
   &:after {
