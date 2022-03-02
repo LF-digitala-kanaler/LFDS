@@ -336,13 +336,13 @@ tabs:
       ### API
 
 
-      There is no programatic API for interacting with the select, instead we rely on regular DOM events which work just as you'd expect with any `select` element.
+      There is no programmatic API for interacting with the select, instead, **we rely on regular DOM events** which work just as you'd expect with any `select` element.
 
 
-      The standard [`onchange`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onchange) event handler can be used to listen for selections made by the user.
+      The standard [`onchange`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onchange) event handler can be used to listen for any selections made by the user.
 
 
-      If there is need to programatically update the options on an already initialized element, make sure to trigger the `change` event afterwards so that the DOM is updated. A react example is provided bellow but the same applies for any framework.
+      If there is a need to programmatically update the options on an already initialized element, make sure to trigger the `change` event afterward so that the DOM is updated. A react example is provided below but the same applies to any framework.
 
 
       ```js
@@ -370,7 +370,7 @@ tabs:
           <form>
             <div class="select" ref={ref}>
               <label class="select-label" for="colors">Colors</label>
-              <select class="select-options" name="colors" id="colors" onChangC={onChange}>
+              <select class="select-options" name="colors" id="colors" onChange={onChange}>
                 {items.map((color) => <option key={color}>{color}</option>)}
               </select>
             </div>
