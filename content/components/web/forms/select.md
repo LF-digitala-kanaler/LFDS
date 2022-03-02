@@ -1,10 +1,10 @@
 ---
 template: ComponentPage
-title: Select
-intro: The select component is an enhancement of the native HTML form element
-  select. It provides the user with a list of options from which one or more can
-  be selected.
-description: An enhanced HTML select element for presenting options.
+title: Dropdown Select
+intro: The dropdown select provides the user with given options in a list which expands
+  over the webpage when the user interacts with it.
+description: The dropdown select provides the user with given options in a list which
+  expands over the webpage when the user interacts with it.
 previewImage: /img/dropdown.svg
 category: Forms
 componentsNavigation:
@@ -16,21 +16,26 @@ tabs:
     content: >-
       ## How to use
 
-
-      Select is a form element which provides the user with a number of options from which they are to choose one or several, just like [radio buttons](../forms/radio-buttons) and [checkboxes](../forms/checkbox). That means that you as a designer need to decide whether to use a select or radio buttons/checkboxes. As a rule of thumb, use radio buttons/checkboxes if you a have five or fewer options and select if you have six or more. There are however also other considerations which can come into play (here is a good and brief [article on considerations](https://blog.prototypr.io/7-rules-of-using-radio-buttons-vs-drop-down-menus-fddf50d312d1) you should take into account).
-
-
-      The select component is an extension of the native HTML form element `select`. The extension allows for custom styling and different behavior depending on the device used. Only when using a pointer device such as a mouse or trackpad is the custom design used. In other cases (i.e. touch based devices) the native `select` element is used.
+      The Dropdown Select is a form element that provides the user with a number of options from which they are to choose one or several, just like [radio buttons](../forms/radio-buttons) and [checkboxes](../forms/checkbox). That means that you as a designer need to decide whether to use a dropdown or radio buttons/checkboxes. As a rule of thumb, use radio buttons/checkboxes if you have five or fewer options, and a dropdown if you have six or more. There are however also other considerations that can come into play (here is a good and brief [article on considerations](https://blog.prototypr.io/7-rules-of-using-radio-buttons-vs-drop-down-menus-fddf50d312d1) you should take into account).
 
 
-      The select component has two variations with some common traits:
+      The dropdown select component is an extension of the native HTML form element `select`. The extension allows for custom styling and different behavior depending on the device used. Only when using a pointer device, such as a mouse or trackpad, is the custom-designed dropdown list visible. In other cases, i.e. touch-based devices, the native `select` element is used that often displays as a native menu.
 
 
-      * They expand upward if the clicked on when and the dropdown won't fit downwards.
+      The select component has **two variations** that both share the bellow traits:
 
-      * You can choose to add (non-selectable) headings to your dropdown, using `optgroup`.
 
-      * The headings can be sued to toggle their respective options.
+      * They expand upward instead of downward if the dropdown won't fit downwards on the screen.
+
+
+      * The dropdown list will be scrollable if more than 10 items are in the list, or when the screen sizes is particularly short.
+
+
+      * You can choose to add headings to your dropdown to group options. These are (non-selectable) and rely on the `optgroup` element.
+
+
+      * The headings can optionally also work as toggles, for expanding/collapsing respective groups of options.
+
 
       * A short secondary text can be added to help the user make their choice (e.g. showing the price for a listed option). This text is in a smaller typeface and grey.
 
@@ -41,34 +46,37 @@ tabs:
       #### Select single option
 
 
-      The standard version, which pretty much follows the common traits. The only thing to add that this version works like a radio button in that it only allows the user to select one option. If you want users to be able to choose several options, please use a multi-select dropbox instead.
+      The standard alternative pretty much follows the common traits. It's a select one and only one option setup, much like a radio button.
 
 
-      #### Multi-select
+      #### Select multiple options
 
 
-      This version allowes for selecting several options, which means it works like checkboxes. Note that the user doesn't have to choose multiple options.
+      This multi-select alternative allows for selecting one or several options, which means it works like checkboxes.
 
 
       ### Modifiers
 
 
-      To further customize the  dropdown to your needs you can use any combination of the vailable modifiers.
+      To further customize the dropdown to your needs, you can use any combination of the available modifiers.
 
 
-      **Secondary text** - Adds a smaller text used to aid the user in selection an option.
+      **Secondary text:** Adds a smaller text used to aid the user in selecting an option.
 
 
-      **Option groups** - Group the options to convey a hierarchical categorization.
+      **Option groups:** Group the options to convey a hierarchical categorization.
 
 
-      **Toggle groups** - Allow for toggling (expanding/collapsing) the option groups for easier navigation.
+      **Toggle groups:** Allow for toggling (expanding/collapsing) the option groups for easier navigation.
 
 
       ### Device agnostic
 
 
-      Only on devices with a primary pointing device such as a mouse or trackpad will the custom select list be shown. On devices with touch being the primary pointing device, the native browser `select` element is used which offers better afforances and tighter integrations with the devices operating system.
+      Only on devices with a primary pointing device such as a mouse or trackpad will the custom select list be shown. On devices with touch being the primary pointing device, the native browser `select` element is used which offers better affordances and tighter integrations with the device operating system.
+
+
+      **This switch now happens automatically**, unlike the old dropdown component.
 
 
       ## Other material
@@ -77,43 +85,45 @@ tabs:
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Dropdown)
   - name: Copy
     content: >-
-      ## Så skriver vi
+      ## How to write
 
 
-      **Label:** Välj \[label] (till exempel "Välj belopp") alternativt bara \[label]l (till exempel "Belopp")
+      **Label:** "Välj \[label]", for example "Välj belopp". Alternatvly the simpler "\[label]", for example "Belopp"
 
 
-      **Förvald text i dropdown:** Välj
+      **Placeholder:** "Välj"
 
 
-      Sekundära text i dropdown kan användas för att hjälpa användaren göra sitt val. Kan till exempel visa pris för olika val. Förkortningar ok. Till exempel: 250 kr/år
+      **Validation text, no option selected:** "Välj ett alternativ" or "Välj \[label]"
 
 
-      Om man kan välja alla alternativ skriver vi: Välj alla
+      **Secondary smaller text**:
 
 
-      **Valideringstext vi ej valt:** Välj ett alternativ eller Välj \[label]
+      Used as a guide for users. For example, showing the prices for each option. Here, abbreviations are fine to use, for example "250 kr/år".
 
 
-      #### Exempel från Bolån
+      **Select all buttons:** "Välj alla"
 
 
-      **Var ligger bostaden?**
+      #### Example from Bolån
 
 
-      **Valideringstext:** Välj kommun
+      **Label:** "Var ligger bostaden?"
+
+
+      **Validation text:** "Välj kommun"
   - name: Code
     content: >-
-      ## How to use
+      ## How to implement
 
 
-      The select component is imported and  initialized with the given element.
+      The select component is imported and initialized with a given element.
 
 
       ```js
 
       import select from '@lf-digitala-kanaler/lfui-components/select'
-
 
       const mySelectElement = document.querySelector('#my-select')
 
@@ -123,7 +133,7 @@ tabs:
       ```
 
 
-      It is also avalable as an export of the main lfui bundle.
+      It is also available as an export of the main js bundle.
 
 
       ```js
@@ -135,7 +145,7 @@ tabs:
       ### Markup
 
 
-      The module expects a `div` element wrapping a `select` element with an accompanying `label` element.
+      The module expects a `div` element that is wrapping a `select` element, with an accompanying `label` element.
 
 
       ```html
@@ -150,17 +160,13 @@ tabs:
         </select>
       </div>
 
-
       ```
 
 
-      ### Default option
+      ### Placeholder
 
 
-      It is common practice to define a default option to not leave a select element completely blank before the user has made a choice.
-
-
-      The best practice for adding a default option is to add an option element with an empty `value` and the attributes `disabled`, `hidden` and  `selected`. This will display the otion before the user selects another option but prevents the user from selecting the default option.
+      We don't want to leave the dropdown completely blank before the user has made a choice.  The best practice is adding a default option element with an empty `value` and the attributes `disabled`, `hidden`, and `selected`. This will work as a placeholder but prevents the user from selecting it as an option.
 
 
       ```html
@@ -176,22 +182,10 @@ tabs:
       We have two different variants of the select component. One which lets the user pick one option and one when the user can pick more than one option.
 
 
-      Using `optgroup` to group the options is supported out of the box and.
+      #### Single select
 
 
-      ```
-
-      <optgroup label="Header text">
-        <option>Some option</option>
-      </optgroup>
-
-      ```
-
-
-      #### Select one option
-
-
-      This is the most common type of `select` element, allowing thw user to select on option, just like how radio buttons work.
+      This is the most common type of `select` element, allowing the user to select only one option, much like radio buttons.
 
 
       ```
@@ -210,7 +204,7 @@ tabs:
       ```
 
 
-      #### Select multiple options
+      #### Multiple select
 
 
       Adding the attribute `multiple` to the `select` element will allow for selecting more than one option, much like how checkboxes work.
@@ -233,10 +227,26 @@ tabs:
       ```
 
 
+      ### Grouping options
+
+
+      The `optgroup` element  is supported out of the box.
+
+
+      ```
+
+      <optgroup label="Header text">
+        <option>Some option</option>
+        <option>Another option</option>
+      </optgroup>
+
+      ```
+
+
       ### Options
 
 
-      Options can be provided when intializing the element.
+      Options can be provided when initializing the element.
 
 
       ```js
@@ -246,10 +256,11 @@ tabs:
 
       const element = document.querySelector('#my-select')
 
+
       const options = {
-         allLabel: 'All the things',
-         groupToggle: true,
-         smallPattern: /\((.+?)\)/
+        allLabel: 'All the things',
+        groupToggle: true,
+        smallPattern: /\((.+?)\)/
       }
 
 
@@ -257,7 +268,9 @@ tabs:
 
       ```
 
+
       Options may also be declared as inline `data-`-attributes
+
 
       ```html
 
@@ -267,31 +280,41 @@ tabs:
 
       ```
 
-      #### `allLabel`
+
+      #### Select all
 
 
-      A `string` which is the label for an option which toggles all the available options.
+      `allLabel`
 
 
-      <div class="Callout"><strong class="Callout__title">Only for <code>multiple</code></strong><p class="Callout__text">The <code>allLabel</code> is only applicable for <code>select</code> elements with the <code>multiple</code> attribute.</p></div>
+      String that enables the select all actions and sets the text for the button.
 
 
-      #### `groupToggle`
+      <div class="Callout"><strong class="Callout__title">Only for multiple select</strong><p class="Callout__text">The <code>allLabel</code> is only applicable for <code>select</code> elements with the <code>multiple</code> attribute.</p></div>
 
 
-      A `boolean` which, when `true`, enables toggling of the `optgroup` elements for easier navigaion in a long list of options.
+      #### Expandable groups
 
 
-      #### `smallPattern`
+      `groupToggle`
 
 
-      A `RegExp` or `string` with a regexp pattern which will be used to extract a part of the `option` and `optgroup` labels and display it in a smaller font face.
+      Boolean that when `true` enables toggling of the `optgroup` elements for easier navigation in a long list of options.
+
+
+      #### Gray labels
+
+
+      `smallPattern`
+
+
+      RegExp, or string with a regexp pattern, to be used to extract a part of the `option` and `optgroup` labels and display it in a smaller font face.
 
 
       This is typically used to provide extra information regarding the option, e.g. price.
 
 
-      In the bellow example, the text in parenthesis will be rended as `small` text in a tinted color.
+      In the below example, the text in parenthesis will be displayed as `small` text in a muted color.
 
 
       ```html
