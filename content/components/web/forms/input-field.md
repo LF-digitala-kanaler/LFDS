@@ -95,7 +95,7 @@ tabs:
       ## Så skriver vi
 
 
-      Vi skriver kort och skriver inte ut det som är uppenbart, inga onödiga ord som inte behövs för att förstå vad som ska fyllas i. Dock kan fler ord användas om det behövs för att undvika en för hård tonalitet, det ska fortfarande vara personligt. "Ange" använder vi inte i labels eftersom designen redan visar att användaren ska fylla i något, det är uppenbart att man ska "ange" något.
+      **Labels** skriver vi kort och skriver inte ut det som är uppenbart, inga onödiga ord som inte behövs för att förstå vad som ska fyllas i. Dock kan fler ord användas om det behövs för att undvika en för hård tonalitet, det ska fortfarande vara personligt. "Ange" använder vi inte i labels eftersom designen redan visar att användaren ska fylla i något, det är uppenbart att man ska "ange" något.
 
 
       **Hjälptexter** under fältet används bara om det inte går att beskriva enkelt nog i labeln vad som ska fyllas i. 
