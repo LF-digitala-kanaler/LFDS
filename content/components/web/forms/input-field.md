@@ -95,7 +95,10 @@ tabs:
       ## Så skriver vi
 
 
-      Vi skriver kort och skriver inte ut det som är uppenbart. Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska fyllas i. Dock kan fler ord användas om det behövs för att inte blir hårt, det ska fortfarnade vara personligt. Hjälptext används bara om det inte går att beskriva enkelt nog i labeln, eller om formatet är hårt styrt och vi innan vill berätta hur användaren måste fylla i fältet.
+      Vi skriver kort och skriver inte ut det som är uppenbart. Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska fyllas i. "Ange" skriver vi inte ut i labels eftersom designen visar att användaren ska fylla i något. 
+
+
+      Dock kan fler ord användas om det behövs för att undvika en för hård tonalitet, det ska fortfarande vara personligt. Hjälptexter under fältet används bara om det inte går att beskriva enkelt nog i labeln vad som ska fyllas i. Placeholder-text behöver bara användas om formatet är hårt styrt och det är stor risk att  användaren fyller i fel. 
 
 
       Copy för fältvalidering finns under respektive fält. Tänk på att du ibland kan använda dig av glimten i ögat där det passar, och för att lätta upp.
@@ -105,9 +108,6 @@ tabs:
 
 
       #### Personnummer
-
-
-      <figure class="Image Image__background"><img src="/img/skärmavbild-2020-03-19-kl.-09.29.20.png" srcset="/img/skärmavbild-2020-03-19-kl.-09.29.20.png 2x" alt="Exempel på ett korrekt formaterat personnummersfält (inklusive länk till info om personuppgifter)"><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 
       Placeholder: ååååmmdd-nnnn\
@@ -166,7 +166,7 @@ tabs:
       #### Person-/organisationsnummer
 
 
-      Placeholder: 19800101-0101
+      Placeholder: ååååmmdd-nnnn eller xxxxxx-xxxx
 
 
       Valideringstext: Fyll i person- eller organisationsnummer
