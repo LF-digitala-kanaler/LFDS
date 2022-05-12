@@ -95,13 +95,16 @@ tabs:
       ## Så skriver vi
 
 
-      Vi skriver kort och skriver inte ut det som är uppenbart. Skriv inte ut onödiga ord som inte behövs för att förstå vad som ska fyllas i. "Ange" skriver vi inte ut i labels eftersom designen visar att användaren ska fylla i något. 
+      Vi skriver kort och skriver inte ut det som är uppenbart, inga onödiga ord som inte behövs för att förstå vad som ska fyllas i. Dock kan fler ord användas om det behövs för att undvika en för hård tonalitet, det ska fortfarande vara personligt. "Ange" använder vi inte i labels eftersom designen redan visar att användaren ska fylla i något, det är uppenbart att man ska "ange" något.
 
 
-      Dock kan fler ord användas om det behövs för att undvika en för hård tonalitet, det ska fortfarande vara personligt. Hjälptexter under fältet används bara om det inte går att beskriva enkelt nog i labeln vad som ska fyllas i. Placeholder-text behöver bara användas om formatet är hårt styrt och det är stor risk att  användaren fyller i fel. 
+      **Hjälptexter** under fältet används bara om det inte går att beskriva enkelt nog i labeln vad som ska fyllas i. 
 
 
-      Copy för fältvalidering finns under respektive fält. Tänk på att du ibland kan använda dig av glimten i ögat där det passar, och för att lätta upp.
+      **Placeholder-text** behöver bara användas om formatet är hårt styrt och det är stor risk att  användaren fyller i fel. 
+
+
+      **Fältvalidering** har vi som princip att vi berättar vad användaren ska göra "Fyll i" eller "Välj" + label. Tänk på att du ibland kan använda dig av glimten i ögat där det passar, och för att lätta upp.
 
 
       ### Vanliga labels
