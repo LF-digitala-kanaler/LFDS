@@ -26,7 +26,12 @@ contentTop: >-
   ### Tekniskt fel
 
 
-  Texter för bekräfta-att-du-verkligen-vill-göra-det-du-gör kanske bör ligga direkt under komponenten modal?
+  #### **När felet ligger hos oss:**
+
+
+  **Tekniken är inte med oss just nu**\
+
+  Vi är ledsna för det och jobbar med att lösa felet. Kom gärna tillbaka lite senare.
 
 
   ### BankID
