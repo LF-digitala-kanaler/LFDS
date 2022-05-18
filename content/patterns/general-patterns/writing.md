@@ -26,12 +26,40 @@ contentTop: >-
   ### Tekniskt fel
 
 
-  #### **När felet ligger hos oss:**
+  Olika felmeddelanden visas på olika sätt. Ibland är det en modal och då behövs både rubrik, brödtext och knapp.
+
+
+  #### **Exempel:**
+
+
+  **Felet ligger hos oss:**
 
 
   **Tekniken är inte med oss just nu**\
 
-  Vi är ledsna för det och jobbar med att lösa felet. Kom gärna tillbaka lite senare.
+  Vi är ledsna för det och jobbar med att lösa felet. Kom gärna tillbaka lite senare.\
+
+  Knapp: Okej, stäng
+
+
+  **Felet ligger hos användaren – inget internet:**
+
+
+  **Inget internet?**\
+
+  Det verkar som du saknar internet just nu. Kolla uppkopplingen och försök igen. \
+
+  Knapp: Okej, stäng
+
+
+  **Okänt fel:**
+
+
+  **Vi är ledsna men något gick fel**\
+
+  Det gick inte att \[göra det man skulle göra]. Försök gärna igen, eller testa senare.\
+
+  Knapp: Okej, stäng
 
 
   ### BankID
