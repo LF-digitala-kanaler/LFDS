@@ -4,7 +4,8 @@ title: Datepicker
 intro: The datepicker is the input field used when a date is the expected input.
   It is designed in such a way that the user can either choose the date from a
   calendar or enter it manually.
-description: The datepicker is the input field used when a date is the expected input.
+description: The datepicker is the input field used when a date is the expected
+  input.
 previewImage: /img/datepicker.svg
 category: Forms
 componentsNavigation:
@@ -16,27 +17,38 @@ tabs:
       ## How to use
 
 
-      Use the datepicker when you want the user to enter a date or time in another manner.
+      Use the datepicker when you want the user to enter a date or time.
 
 
-      Visually the datepicker looks like a normal input field with a calendar icon in right part of the field. Interaction-wise a calendar is expanded when the user clicks anywhere in the input field (including on the calendar icon) - in the calendar the user can select the date they wish to choose. If they prefer, the input field can also be used to enter the date with the keyboard.
+      ### Dates and times
 
 
-      ### Variations
+      There are two main variants of the datepicker, one for dates and one for
+      times.
 
 
-      There are a few variations available for the datepicker:
+      #### Datepicker
 
 
-      * There is as a variation called **timepicker**, which works like the datepicker but lets the user choose a time rather than a day
-
-      * You can choose to disable dates if needed. Examples of use case for this are selecting from when an insurance is valid (not possible earlier than today) or doing an injury claim (had to happen today or earlier). You can also choose to disable a specific time span.
-
-
-      ## Please consider
+      As per best practices, the datepicker is a plain input field with an
+      accompanying icon which, when clicked, opens a calendar widget. This
+      allows for both keyboard input as well as usage of the interactive widget.
 
 
-      For accessibility reasons the datepicker should be replaced with the native solution for date selection in mobile devices. Make sure your developers are aware!
+      #### Timepicker
+
+
+      The timepicker has some slightly different charactersitics. It'll open
+      the widget once the input field receives focus and the icon is merely
+      decorational.
+
+
+      ##### On mobile devices
+
+
+      The timepicker is not well suited for mobile devices and hence it is
+      adviced that the timepicker be repalced with a native input control on
+      mobile devices.
 
 
       ## Other material
@@ -44,21 +56,103 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Datepicker)
     name: Design
-  - content:
-      Vi fyller i fältet med ååååmmdd eller exempelvis åå-mm-nn beroende på
-      hur man måste skriva datumet.
+  - content: Vi fyller i fältet med dd-mm-åååå.
     name: Copy
   - content: >-
       ## How to use
 
 
-      LFUI uses the `eonasdan-bootstrap-datetimepicker` package. It has plenty of options and functions. Refer to the official website for a [complete documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
+      ### Datepicker
 
 
-      The datepicker is fully responsive. Do note that the dropdown stretches with a `width: 100%` of its parent input field which might disrupt its styling. Its preferred width is`336px`.
+      The datepicker uses [`@duetds/date-picker](https://duetds.github.io/date-picker/).
+      The datepicker is a progressively enhanced input field which is upgraded
+      to a custom element once initalized.
 
 
-      **In order for screen readers to not get disrupted by the datepicker and its complex html structure**, we disable the datepicker dropdown completely for screen readers by adding the following script to the`dp.show` event:
+      The datepicker respects native input attributes for controlling e.g.
+      minimum or maximum dates one can select.
+
+
+      The datepicker can be customized further either by providing an options
+      object on initialization or by defining `data-` attributes on the input
+      field. Refer to the [offical documentation](https://github.com/duetds/date-picker)
+      for configutation options.
+
+
+      #### The Markup
+
+
+      ```
+
+      <div class="form-group">
+        <label for="my-date">Choose a date</label>
+        <div class="input-group">
+          <input type="date" id="my-date" name="date" class="form-control" required>
+          <span class="input-group-append">
+            <button class="btn" type="button" aria-controls="my-date" title="Välj datum">
+              <svg class="icon" width="26" height="26">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#calendar-26"></use>
+              </svg>
+            </button>
+          </span>
+        </div>
+      </div>
+
+      ```
+
+
+      #### Initialization
+
+
+      ```
+
+      import { datepicker } from '@lf-digitala-kanaler/lfui'
+
+
+      datepicker(document.getElementById('my-date'))
+
+      ```
+
+
+
+      The default configuration for the datepicker is available as a named
+      export, `DEFAULTS`. These can be extended upon to selectively override
+      certain options.
+
+
+      ```
+
+      import { datepicker, DEFAULTS } from '@lf-digitala-kanaler/lfui'
+
+
+      datepicker(document.getElementById('my-date'), {
+        localization: {
+          ...DEFAULTS.localization,
+          closeLabel: 'Abort'
+        }
+      })
+
+      ```
+
+
+      ### Timepicker
+
+
+      The timepicker uses the `eonasdan-bootstrap-datetimepicker` package. It
+      has plenty of options and functions. Refer to the official website for a
+      [complete documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
+
+
+      The timepicker is fully responsive. Do note that the dropdown stretches
+      with a `width: 100%` of its parent input field which might disrupt its
+      styling. Its preferred width is`336px`.
+
+
+      **In order for screen readers to not get disrupted by the timepicker and
+      its complex html structure**, we disable the timepicker dropdown
+      completely for screen readers by adding the following script to
+      the `dp.show` event:
 
 
       ```
@@ -68,7 +162,10 @@ tabs:
       ```
 
 
-      **In mobile devices** it is important to utilize the native solution for date selection on the device, hence we hide the datepicker dropdown and change the input to type="date" and for time type="time". An example to this with javascript is:
+      **In mobile devices** it is important to utilize the native solution for
+      date selection on the device, hence we hide the timepicker dropdown and
+      change the input to type="date" and for time type="time". An example to
+      this with javascript is:
 
 
       ```
@@ -91,50 +188,7 @@ tabs:
 
       ```
 
-
-      ### Variants
-
-
-      There is two different variants of datepicker. One which let the user pick a date and one that let the user pick a time. 
-
-
-      #### Date
-
-
-      ```
-
-      <div class="form-group" style="width: 336px;">
-        <div class="input-group datepicker" id="datetimepicker">
-          <input type="text" id="datetimepicker-input" class="form-control" placeholder="åååå-mm-dd" required/>
-          <span class="input-group-append">
-            <button class="btn" type="button" tabIndex="-1">
-              <svg class="icon" width="26" height="26">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-calendar-26"></use>
-              </svg>
-            </button>
-          </span>
-        </div>
-      </div>
-
-      ```
-
-
-      There is a lot of options you can use when initialize the datepicker. See to the official website for a [complete documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
-
-
-      ```
-
-      $('#datetimepicker').datetimepicker({
-        format: 'YYYY-MM-DD',
-        locale: 'sv',
-        allowInputToggle: true,
-        defaultDate: '2017/06/02'
-      });
-
-      ```
-
-
-      #### Time
+      #### The Markup
 
 
       ```
@@ -151,73 +205,6 @@ tabs:
           </span>
         </div>
       </div>
-
-      ```
-
-
-      Initialize it: 
-
-
-      ```
-
-      $('#timepicker').datetimepicker({
-        format: 'LT',
-        locale: 'sv',
-        allowInputToggle: true,
-        icons: {
-          up: 'next',
-          down: 'prev',
-        }
-      });
-
-      ```
-
-
-      ### Modifiers
-
-
-      As mention before there is a lot of customisation you can do. One that we use regular is to disabled dates. 
-
-
-      ##### Disabled dates
-
-
-      ```
-
-      ('#datetimepicker-disabled').datetimepicker({
-        format: 'YYYY-MM-DD',
-        locale: 'sv',
-        allowInputToggle: true,
-        defaultDate: '2017/06/02',
-        disabledDates: [
-          '2017/06/04',
-          '2017/06/05',
-          '2017/06/06'
-        ]
-      });
-
-      ```
-
-
-      ### Please note
-
-
-      When used with an icon as in the examples on this page you will have to toggle the `active`-state by yourself. it could look look something like this. 
-
-
-      ```
-
-      // Set a correct active state for the button
-
-      $('.datepicker').on('dp.show', function(){
-        $('#datetimepicker .bootstrap-datetimepicker-widget').attr('aria-hidden', 'true');
-        $('.datepicker button').addClass('active');
-      });
-
-
-      $('.datepicker').on('dp.hide', function(){
-        $('.datepicker button').removeClass('active');
-      });
 
       ```
     name: Code
