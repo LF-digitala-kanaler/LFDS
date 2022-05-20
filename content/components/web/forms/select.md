@@ -1,9 +1,11 @@
 ---
 template: ComponentPage
 title: Dropdown Select
-intro: The dropdown select provides the user with given options in a list which expands
+intro:
+  The dropdown select provides the user with given options in a list which expands
   over the webpage when the user interacts with it.
-description: The dropdown select provides the user with given options in a list which
+description:
+  The dropdown select provides the user with given options in a list which
   expands over the webpage when the user interacts with it.
 previewImage: /img/dropdown.svg
 category: Forms
@@ -331,6 +333,34 @@ tabs:
       </div>
 
       ```
+
+
+      #### Label inside
+
+
+      The label can also be placed *inside* the select element, taking the place of the currently selected value(s).
+
+
+      <div class="Callout"><strong class="Callout__title">Use with caution</strong><p class="Callout__text">Only use the inside label when the number of selected options can sufficiently convey semantic meaning. Placing the label inside the select element is only appropiate for <code>select</code> elements with the <code>multiple</code> attribute.</p></div>
+
+
+      ````
+
+      <div class="form-group">
+        <div class="select inside">
+          <label class="select-label" for="my-select">Berries</label>
+          <select multiple class="select-options" name="berries" id="my-select">
+            <option value="" disabled selected hidden>Select Berries</option>
+            <option>Raspberry</option>
+            <option>Blueberry</option>
+            <option>Blackberry</option>
+            <option>Strawberry</option>
+            <option>Cranberry</option>
+          </select>
+        </div>
+      </div>
+
+      ````
 
 
       ### API
