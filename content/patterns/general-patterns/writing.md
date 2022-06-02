@@ -118,11 +118,6 @@ contentTop: >-
 
 
   "På fredag kväll har vi systemunderhåll, då kan företagstjänster vara lite sega. Klart lördag kl. 7."
-
-
-
-
-  ![](https://ca.slack-edge.com/T3FN1AXMH-U3WS5SEMD-0024622d420f-48)
 wide: false
 lang: false
 ---
