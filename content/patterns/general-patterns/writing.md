@@ -99,22 +99,30 @@ contentTop: >-
   #### Exempel på felmeddelanden vi använt
 
 
-  ##### Vissa störningar
+  ##### Vissa störningar:
 
 
   "Just nu är det systemunderhåll i appen och det kan därför upplevas lite svajigt, 7.00 är vi klara!"
 
 
-  ##### Kanal helt stängd
+  ##### Kanal helt stängd:
 
 
   "På söndag morgon uppdaterar vi våra system – då är appen avstängd i ungefär en timme."
 
 
-  ##### Tjänst ligger nere
+  ##### Tjänst ligger nere:
 
 
   ”Fram till midnatt kan du inte se eller ändra din fordonsförsäkring, pga systemunderhåll.”
+
+
+  "På fredag kväll har vi systemunderhåll, då kan företagstjänster vara lite sega. Klart lördag kl. 7."
+
+
+
+
+  ![](https://ca.slack-edge.com/T3FN1AXMH-U3WS5SEMD-0024622d420f-48)
 wide: false
 lang: false
 ---
