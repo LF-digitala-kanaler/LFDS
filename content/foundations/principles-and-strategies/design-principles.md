@@ -6,17 +6,16 @@ title: Design principles
 intro: Our design principles guide us in what qualities we should strive for in
   our interfaces, whereas our  components and design patterns help us in how to
   reach those qualities.
+contentTop: ""
 heroBlock:
-  color: '#fcd2d3'
+  color: "#fcd2d3"
   quote: Hjälp mig göra det jag kom för att göra
   cite: Vår främsta uppgift
-  image: ''
-priority: '1'
+  image: ""
+priority: "1"
 wide: true
 lang: true
-contentTop: ''
 ---
-
 ### Principerna
 
 <section>
@@ -31,11 +30,11 @@ Om vi inte kan/vill erbjuda den kontaktväg som kunden föredrar behöver vi tyd
 
 #### Exempel
 
-Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss, dels två responsiva exempel från Mina Sidor och dels ett exempel på hur motsvarande vyer har anpassats till Android resp iOS.
+Nedan tre exempel på hur upplevelsen är anpassad efter hur kunden besöker oss, dels två responsiva exempel från Mina sidor och dels ett exempel på hur motsvarande vyer har anpassats till Android resp iOS.
 
-<figure class="Image Image__border "><img src="/img/mis-startsida-responsiv.jpg" srcset="/img/mis-startsida-responsiv.jpg 2x" alt="Exempel 1: Mina Sidors startsida i desktop, tablet och mobilläge"><figcaption><div class="Image__caption">Exempel 1: Mina Sidors startsida i desktop, tablet och mobilläge</div></figcaption></figure>
+<figure class="Image Image__border "><img src="/img/mis-startsida-responsiv.jpg" srcset="/img/mis-startsida-responsiv.jpg 2x" alt="Exempel 1: Mina sidors startsida i desktop, tablet och mobilläge"><figcaption><div class="Image__caption">Exempel 1: Mina sidors startsida i desktop, tablet och mobilläge</div></figcaption></figure>
 
-<figure class="Image Image__border "><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption">Exempel 2: Mina Sidors betalaflöde i desktop, table och mobil</div></figcaption></figure>
+<figure class="Image Image__border "><img src="/img/mis-betala-mvp-responsiv.jpg" srcset="/img/mis-betala-mvp-responsiv.jpg 2x" alt="Exempel 2: Mina sidors betalaflöde i desktop, table och mobil"><figcaption><div class="Image__caption">Exempel 2: Mina sidors betalaflöde i desktop, table och mobil</div></figcaption></figure>
 
 <figure class="Image Image__border "><img src="/img/samma-flode-ios-vs-android.jpg" srcset="/img/samma-flode-ios-vs-android.jpg 2x" alt="Exempel 3: Samma vyer ur betalaflödet anpassade till Android resp iOS"><figcaption><div class="Image__caption">Exempel 3: Samma vyer ur betalaflödet anpassade till Android resp iOS</div></figcaption></figure>
 
@@ -74,7 +73,7 @@ Vid implementation är det viktigt att tänka på de som använder olika tillgä
 
 #### Exempel
 
-För att visa på principen finns nedan exempel på olika sätt att nå skadeanmälan utan att ha loggat in. Notera att via inloggat läge (Mina Sidor, appen) finns ytterligare sätt att hitta till skadeanmälan, så det är inte ens alla vägar som visas här.
+För att visa på principen finns nedan exempel på olika sätt att nå skadeanmälan utan att ha loggat in. Notera att via inloggat läge (Mina sidor, appen) finns ytterligare sätt att hitta till skadeanmälan, så det är inte ens alla vägar som visas här.
 
 <figure class="Image Image__border "><img src="/img/till-skadeanmalan-startsidan.gif" srcset="/img/till-skadeanmalan-startsidan.gif 2x" alt="Exempel 1: Navigering till Skadeanmälan via knapp på startsidan"><figcaption><div class="Image__caption">Exempel 1: Navigering till Skadeanmälan via knapp på startsidan</div></figcaption></figure>
 
@@ -104,7 +103,7 @@ Internet svällar över av annonser och banner blindness är etablerat fenomen �
 
 Vi vet en hel del om kunden, och kunden förutsätter att det de berättat för Länsförsäkringar vet Länsförsäkringar. Vi bör därför ge kunden möjlighet att identifiera sig istället för att fylla i kontaktuppgifter igen och kunna få eventuella rabatter avdragna där det är möjligt.
 
-_(Tyvärr kommer banksekretess och andra regelverk ofta hindra oss från att dela fritt mellan juridiska enheter)_
+*(Tyvärr kommer banksekretess och andra regelverk ofta hindra oss från att dela fritt mellan juridiska enheter)*
 
 </div></Collapse>
 <Collapse title="Personalisering är alltid kundens val">
