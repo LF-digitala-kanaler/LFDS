@@ -95,7 +95,7 @@ En av Länsförsäkringars stora fördelar är att vi finns lokalt på många or
 <Collapse title="Relevanta, men få, erbjudanden i en naturlig kontext">
 <div class="content">
 
-Internet svällar över av annonser och banner blindness är etablerat fenomen – om något ser ut och känns som en annons sorterar folk bort det (o)medvetet. Samtidigt vet vi att våra kunder är öppna för att ta emot vad tycker är relevanta erbjudanden kopplat till sitt innehav. Här blir det viktigt att balansera de två och ha en 'less is more'-inställning till de erbjudanden vi vill visa upp.<
+Internet svällar över av annonser och banner blindness är ett etablerat fenomen – om något ser ut och känns som en annons sorterar folk bort det (o)medvetet. Samtidigt vet vi att våra kunder är öppna för att ta emot vad tycker är relevanta erbjudanden kopplat till sitt innehav. Här blir det viktigt att balansera de två och ha en 'less is more'-inställning till de erbjudanden vi vill visa upp.
 
 </div></Collapse>
 <Collapse title="Kunden möts utifrån det Länsförsäkringar vet, eller borde veta, om kunden">
