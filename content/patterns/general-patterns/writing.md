@@ -118,6 +118,12 @@ contentTop: >-
 
 
   "På fredag kväll har vi systemunderhåll, då kan företagstjänster vara lite sega. Klart lördag kl. 7."
+
+
+  ##### Telefoni nere, öppna sidor:
+
+
+  "Just nu kan telefonköerna vara långa, pga tekniska problem. Vi jobbar för fullt med att lösa problemet."
 wide: false
 lang: false
 ---
