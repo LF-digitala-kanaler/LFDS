@@ -15,7 +15,7 @@ componentsNavigation:
 backgroundColor: '#fff'
 tabs:
   - content: >-
-      ## How (and when) to use
+      ## How to use
 
 
       There are several components in LFUI based on standard radio button behaviour (choose one and only one option), all with their specific behaviour:
@@ -77,13 +77,13 @@ tabs:
       ### Radio cards
 
 
-      Radio cards are our most visual way of showing options and should only be used once per flow. Like other radio buttons, you need to use several next to each other for them to function as intended. 
+      Radio cards are our most visual way of showing options and should only be used once per flow. Like other radio buttons, you need to use several next to each other for them to function as intended.
 
 
       #### Specific modifiers
 
 
-      There are two modifiers for radio card: 
+      There are two modifiers for radio card:
 
 
       * **Radio cards for selecting products**: The larger of the two, mainly  used in purchase flows to distinguish between versions of an insurance (or other product)
@@ -100,7 +100,7 @@ tabs:
       In theory the card can be populated as you wish, but in practice a standard has evolved for how it is used in purchase flows. In purchase flows, the card consists of a header with a radio button in front of it, a short description and some of the USPs for that option with a footer consisting of an optional "read more"-button to the left and the the price of that option to the right. The content of the cards should be chosen as to help the user in choosing between the options they have.
 
 
-      In smaller devices/screens, the boxes are piled on top of each other, spanning across the full width. 
+      In smaller devices/screens, the boxes are piled on top of each other, spanning across the full width.
 
 
       ##### Radio card for primary choice
@@ -124,25 +124,23 @@ tabs:
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Radio buttons)
     name: Design
   - content: |-
-      ## Så skriver vi
+      ## How to write
 
-      Exempel på copy för Button group:
+      Example copy for button groups
 
       * Betalsätt
       * Jag vill betala varje
       * Har du barn som bor hemma?
 
-      **Valideringstext:** Välj ett betalsätt
+      Example validation copy
 
-      **Valideringstext:** Välj ett alternativ
-
-      **Valideringstext:** Oj, du glömde visst svara
-
-      - - -
+      * Välj ett betalsätt
+      * Välj ett alternativ
+      * Oj, du glömde visst svara
     name: Copy
   - name: Code
     content: >-
-      ## Variations
+      ## How to implement
 
 
       There is three different variation of radio buttons in LFUI. Styled radio buttons, Button group and radio cards.
@@ -167,10 +165,7 @@ tabs:
       ### Button group
 
 
-      Only the plain `btn` is supported by the `btn-group`. Other than that, no changes has been made to the default [Bootstrap button group](https://getbootstrap.com/docs/4.0/components/button-group/).
-
-
-      The btn-group supports different types of functionality, although in LFUI it is important that they are *solely used with radio button functionality, never as checkboxes.*
+      While the `btn-group` supports different types of elements, it is important that they are *solely used with radio button functionality, never as checkboxes.*
 
 
       The Button-group variant is the primary look and feel of our radio buttons, and it is the styling you should use when:
@@ -187,18 +182,20 @@ tabs:
       ```
 
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn active">
+        <label class="btn active" data-text="Radio 1">
           <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Radio 1
         </label>
-        <label class="btn">
+        <label class="btn" data-text="Radio 2">
           <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
         </label>
-        <label class="btn">
+        <label class="btn" data-text="Radio 3">
           <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
         </label>
       </div>
 
       ```
+
+      Please note the `data-text` attribute. It's being used to allow for bolding text without impact on the width of the element.
 
 
       #### Modifiers
@@ -208,6 +205,8 @@ tabs:
 
 
       The button group may also stretch to fill its containing element by appending the class `btn-group-stretch`. Consider not stretching the button-group if there are only two btn's (the common example is "Ja / Nej"). This will result in a lot of empty, unused space inside the buttons which does not look right. A rule of thumb would be: **Only use btn-group-stretch when there's more than two btn's, if inside a larger (< 260px) container.**
+
+      Note, the `data-text` attribute is not needed for stretched buttons
 
 
       ```
