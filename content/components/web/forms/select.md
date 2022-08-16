@@ -1,6 +1,6 @@
 ---
 template: ComponentPage
-title: Dropdown Select
+title: Dropdown select
 intro:
   The dropdown select provides the user with given options in a list which expands
   over the webpage when the user interacts with it.
@@ -18,7 +18,7 @@ tabs:
     content: >-
       ## How to use
 
-      The Dropdown Select is a form element that provides the user with a number of options from which they are to choose one or several, just like [radio buttons](../forms/radio-buttons) and [checkboxes](../forms/checkbox). That means that you as a designer need to decide whether to use a dropdown or radio buttons/checkboxes. As a rule of thumb, use radio buttons/checkboxes if you have five or fewer options, and a dropdown if you have six or more. There are however also other considerations that can come into play (here is a good and brief [article on considerations](https://blog.prototypr.io/7-rules-of-using-radio-buttons-vs-drop-down-menus-fddf50d312d1) you should take into account).
+      The Dropdown select is a form element that provides the user with a number of options from which they are to choose one or several, just like [radio buttons](../forms/radio-buttons) and [checkboxes](../forms/checkbox). That means that you as a designer need to decide whether to use a dropdown or radio buttons/checkboxes. As a rule of thumb, use radio buttons/checkboxes if you have five or fewer options, and a dropdown if you have six or more. There are however also other considerations that can come into play (here is a good and brief [article on considerations](https://blog.prototypr.io/7-rules-of-using-radio-buttons-vs-drop-down-menus-fddf50d312d1) you should take into account).
 
 
       The dropdown select component is an extension of the native HTML form element `select`. The extension allows for custom styling and different behavior depending on the device used. Only when using a pointer device, such as a mouse or trackpad, is the custom-designed dropdown list visible. In other cases, i.e. touch-based devices, the native `select` element is used that often displays as a native menu.

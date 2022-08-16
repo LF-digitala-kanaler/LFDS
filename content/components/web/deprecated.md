@@ -6,11 +6,21 @@ intro: 'Components that have been marked as no longer in use.  Deprecation can h
 
 <div class="Callout"><strong class="Callout__title">Note</strong><p class="Callout__text">Elements and components on this page may not have proper styling as the code might have been removed.</p></div>
 
+## Charts
+
+- Marked as deprecated in 10.0.0
+
+The below statistical components are now deprecated. The charts in LFDU were mostly examples of d3.js implementation and had been neglected for years. The code has been kept for backward compatibility but is now being dropped as it slowed down progress on build scripts and structural improvements.
+
+Distribution Bar, XY-plot Chart, Map Chart, Line Chart, Donut Chart, Bar Chart
+
+**We might reintroduce various charts in upcoming releases, with a fresh and serious take on it, together with the broader design team.**
+
 ## Dropdown
 
 - Marked as deprecated in 8.0.0
 
-The [Dropdown](/components/web/forms/dropdown) component was marked as deprecated in favor of the newly introduced [Select](/components/web/forms/select) component. Select inherits the same functionality as Dropdown, but adds a few key features:
+The [Dropdown](/components/web/forms/dropdown) component was marked as deprecated in favor of the newly introduced [Dropdown select](/components/web/forms/select) component. Select inherits the same functionality as Dropdown, but adds a few key features:
 
 - Keyboard navigation
 - Screen reader support

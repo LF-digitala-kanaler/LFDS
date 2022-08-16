@@ -16,7 +16,7 @@ tabs:
       ## How to use
 
 
-      A slider lets the user use a visual aid in choosing a value. 
+      A slider lets the user use a visual aid in choosing a value.
 
 
       ### Variations
@@ -104,7 +104,7 @@ tabs:
       ### Variations
 
 
-      There is two different variations of the slider, one which let the user select an intervall and one which let the user select a single value. 
+      There is two different variations of the slider, one which let the user select an intervall and one which let the user select a single value.
 
 
       #### Value
@@ -197,10 +197,6 @@ tabs:
 
 
       ##### Distribution label
-
-
-      It is also possible to utilize the `distribution-label` from [distribution bar](components/web/data-visualization/distribution-bar) component. Append the `.distribution-label` to the `slider-label-*` classes.
-
 
       ```html
 
