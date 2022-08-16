@@ -341,7 +341,9 @@ tabs:
       The label can also be placed *inside* the select element, taking the place of the currently selected value(s).
 
 
-      <div class="Callout"><strong class="Callout__title">Use with caution</strong><p class="Callout__text">Only use the inside label when the number of selected options can sufficiently convey semantic meaning. Placing the label inside the select element is only appropiate for <code>select</code> elements with the <code>multiple</code> attribute.</p></div>
+      <div class="Callout"><strong class="Callout__title">Use with caution</strong><p class="Callout__text">Only use the inside label when the number of selected options can sufficiently convey semantic meaning.</p></div>
+
+      Placing the label inside the select only has a function impact for <code>select</code> elements with the <code>multiple</code> attribute. For regular selects, the `inside` class simply makes the option that might be selected by default ("Select Berries" in below example) mimic the design of a label.
 
 
       ````
