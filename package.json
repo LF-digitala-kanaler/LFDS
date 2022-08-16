@@ -7,9 +7,6 @@
     "type": "git",
     "url": ""
   },
-  "engines": {
-    "npm": "7"
-  },
   "dependencies": {
     "@lf-digitala-kanaler/fonts": "^1.0.3",
     "@lf-digitala-kanaler/lfui-components": "^9.0.0",
