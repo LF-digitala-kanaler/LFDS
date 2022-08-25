@@ -76,7 +76,7 @@
     "develop": "gatsby develop",
     "clean": "rm -rf .cache public",
     "serve": "gatsby serve",
-    "format": "prettier -w \"{gatsby-*.js,src/**/*.js}\"",
+    "format": "prettier -w \"{gatsby-*.js,src/**/*.js}\" && stylelint src/**/*.css --fix",
     "test": "prettier -c \"{gatsby-*.js,src/**/*.js}\" && stylelint src/**/*.css",
     "copy": "npm run copy:status && npm run copy:docs && npm run copy:icons",
     "copy:docs": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/main.umd.js\" static/docs",
