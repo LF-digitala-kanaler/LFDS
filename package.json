@@ -1,11 +1,10 @@
 {
   "name": "lfds",
-  "HomePage": "",
   "description": "",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/LF-digitala-kanaler/LFDS"
   },
   "dependencies": {
     "@lf-digitala-kanaler/fonts": "^1.0.3",
@@ -78,7 +77,7 @@
     "format": "prettier -w \"{gatsby-*.js,src/**/*.js}\"",
     "test": "prettier -c \"{gatsby-*.js,src/**/*.js}\" && stylelint src/**/*.css",
     "copy": "npm run copy:status && npm run copy:docs && npm run copy:icons",
-    "copy:docs": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/docs.js\" static",
+    "copy:docs": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/main.umd.js\" static/docs",
     "copy:icons": "copyfiles -u 4 \"node_modules/@lf-digitala-kanaler/lfui-icons/dist/@(svg|sprite)/**/**/*\" static/lf-icons",
     "copy:status": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/data/componentsStatus.json\" src/data"
   },

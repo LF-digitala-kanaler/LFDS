@@ -78,7 +78,7 @@ tabs:
       Only on devices with a primary pointing device such as a mouse or trackpad will the custom select list be shown. On devices with touch being the primary pointing device, the native browser `select` element is used which offers better affordances and tighter integrations with the device operating system.
 
 
-      **This switch now happens automatically**, unlike the old dropdown component.
+      **This switch happens automatically**, there is no need to feature detect touch devices.
 
 
       ## Other material
