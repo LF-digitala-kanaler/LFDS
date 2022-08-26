@@ -29,10 +29,10 @@ tabs:
       #### Primary links
 
 
-      Primary links are used for highlighting a link which you want to put extra emphasis on. Examples include repeating the message of a [primary button](buttons#primary-buttons) further down in the page (a pattern which can often be seen on product pages on lansforsakringar.se) or as part of a [call out](../page-content/callout). 
+      Primary links are used for highlighting a link which you want to put extra emphasis on. Examples include repeating the message of a [primary button](buttons#primary-buttons) further down in the page (a pattern which can often be seen on product pages on lansforsakringar.se) or as part of a [call out](../page-content/callout).
 
 
-      As with all things labeled primary there should only be one primary item (link/button) per block (and preferably page). Layout-wise the primary link is rather "heavy" with an arrow after the text, meaning it should be used sparsely. 
+      As with all things labeled primary there should only be one primary item (link/button) per block (and preferably page). Layout-wise the primary link is rather "heavy" with an arrow after the text, meaning it should be used sparsely.
 
 
       <div class="Callout"><strong class="Callout__title">Link or button? </strong><p class="Callout__text">The first time you show a link in a page you might want to use a primary button instead to give extra emphasis to the link, especially at the top of pages. The further down you are, the better it is to use link-styling.</p></div>
@@ -50,7 +50,7 @@ tabs:
       How to place a link depends on which kind of text you use it conjuction with. We have placed our recommendations on the pages of the various text types:
 
 
-      * If you want to use a link in relation to body text, read about how to do it on the [body text-page](../text/body-text#links-in-body-text). 
+      * If you want to use a link in relation to body text, read about how to do it on the [body text-page](../text/body-text#links-in-body-text).
 
       * If you want to place a link in a bullet list, you want to head over to [lists](../text/lists).
 
@@ -104,7 +104,7 @@ tabs:
       ### PDF
 
 
-      Länken bör heta det som dokumentet heter. För villkor döper vi dem till: 
+      Länken bör heta det som dokumentet heter. För villkor döper vi dem till:
 
 
       Typ av dokument - Produkt - Version/Årtal (om det finns fler)
@@ -118,19 +118,16 @@ tabs:
     name: Copy
   - name: Code
     content: >-
-      ## Primary
+      ## How to implement
 
+      ### Primary
 
       ```
         <a class="primary-link" href="#">Primary link</a>
       ```
 
 
-      ## Regular
-
-
-      LFUI uses a custom link design where the *underline* is in fact a background-image, placed below the text. The link styling is added when an anchor tag has a `href`-value. 
-
+      ### Regular
 
       ```
         <a href="#">Regular link</a>
@@ -140,7 +137,7 @@ tabs:
       ### Link list
 
 
-      A collection or list of links can be used together with the `nav` class on their parent to gather the links in a list for easy overview. Use the `<nav>` html element where the links are a part of the main navigation.
+      A collection or list of links can be used together with the `nav` class on their parent to gather the links in a list for easy overview. Use the `<nav>` html element when the links are a part of the main navigation.
 
 
       You can also add icons(32px) to links in a link list.
@@ -169,28 +166,24 @@ tabs:
       ### External links
 
 
-      External links should always be accompanied with an icon(icon-external-link-20) after it, except in Link list then it should be placed before the link and icon-external-link-32 should be used.
+      External links should always be accompanied by an appended icon (icon-external-link-20). External links in Link lists should use the external icon (icon-external-link-32) on the left side.
 
 
-      External links should be opened in another tab/window so they should have the target attribute set to **_blank.**
+      It goes without saying, but external links should be opened in a new tab using the `rel` and `target` attributes.
 
 
       ```
-        <a href="#" target="_blank">Regular link</a><svg role="presentation" class="text-blue icon-right icon  icon-nudge-up-01" width="20" height="20"><use xlink:href="#icon-external-link-20"></use></svg>
+        <a href="#" target="_blank" rel="noopener noreferrer">External link</a><svg role="presentation" class="text-blue icon-right icon  icon-nudge-up-01" width="20" height="20"><use xlink:href="#icon-external-link-20"></use></svg>
       ```
 
 
       #### Modifiers
 
+      * `link-no-underline` removes text decoration from links.
 
-      There are several helper classes to your disposal to work with this link styling.
+      * `link-adaptive` inherits text color and hides underline until hovered.
 
+      * `link-complex` and `link-complex-target`. Used to wrap a link around a larger block of content, and you want the correct link behavior (hover styles, for example) on a targeted element within the container. Popular in clickable cards with "Read more" links.
 
-      * `link-no-underline` can be used when you do not want the underline.
-
-      * `link-adaptive` does not show the underline until the anchor is interacted with.
-
-      * `link-complex` can be used when the link is wrapped around a container and you want the correct link behavior on a targeted element within the container.
-
-      * `link-complex-adaptive-target` is like `link-complex`(& `link-complex-target`), but the link does not get the default link styling, and instead gets the adaptive, inherit styling. Used mainly in the header and footer components.
+      * `link-complex-adaptive-target`, alternative to `link-complex-target` with the adaprive treatment.
 ---
