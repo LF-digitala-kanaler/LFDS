@@ -56,8 +56,7 @@ tabs:
 
       **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Datepicker)
     name: Design
-  - content: Vi fyller i fältet med dd-mm-åååå.
-    name: Copy
+
   - content: >-
       ## How to use
 
@@ -139,70 +138,14 @@ tabs:
       ### Timepicker
 
 
-      The timepicker uses the `eonasdan-bootstrap-datetimepicker` package. It
-      has plenty of options and functions. Refer to the official website for a
-      [complete documentation](http://eonasdan.github.io/bootstrap-datetimepicker/Options/).
-
-
-      The timepicker is fully responsive. Do note that the dropdown stretches
-      with a `width: 100%` of its parent input field which might disrupt its
-      styling. Its preferred width is`336px`.
-
-
-      **In order for screen readers to not get disrupted by the timepicker and
-      its complex html structure**, we disable the timepicker dropdown
-      completely for screen readers by adding the following script to
-      the `dp.show` event:
-
-
-      ```
-
-      $('.datetimepicker .bootstrap-datetimepicker-widget').attr('aria-hidden', 'true');
-
-      ```
-
-
-      **In mobile devices** it is important to utilize the native solution for
-      date selection on the device, hence we hide the timepicker dropdown and
-      change the input to type="date" and for time type="time". An example to
-      this with javascript is:
-
-
-      ```
-
-      //Change the input type to date
-
-      if (/Mobi/.test(navigator.userAgent)) {
-        $('datetimepickerinput').type='date';
-        $('datetimepickertimeinput').type='time';
-      }
-
-
-      //Hide the datepicker dropdown, called on 'dp.show' event.
-
-      $('.datepicker').on('dp.show', function(){
-        if (/Mobi/.test(navigator.userAgent)) {
-          $('.datepicker .bootstrap-datetimepicker-widget').css('display', 'none');
-        });
-      }
-
-      ```
-
-      #### The Markup
+      The timepicker is the system default `input[type=time]` element.
 
 
       ```
 
       <div class="form-group" style="width: 336px;">
         <div class="input-group datepicker" id="timepicker">
-          <input type="text" id="timepicker-input" class="form-control" placeholder="hh:mm" required/>
-          <span class="input-group-append">
-            <button class="btn" type="button" tabIndex="-1">
-              <svg class="icon" width="26" height="26">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock-24"></use>
-              </svg>
-            </button>
-          </span>
+          <input type="time" id="timepicker-input" class="form-control" placeholder="hh:mm" required/>
         </div>
       </div>
 

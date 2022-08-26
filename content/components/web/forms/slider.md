@@ -10,7 +10,7 @@ category: Forms
 componentsNavigation:
   - name: Value
   - name: Intervall
-backgroundColor: "#fff"
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
@@ -93,10 +93,12 @@ tabs:
 
       ```javascript
 
-      $('.lf-slider').on('input', function () {
-        var percent = Math.ceil(((this.value - this.min) / (this.max - this.min)) * 100);
-        $(this).css('--progress', percent);
-      });
+      for (const slider of document.querySelectorAll('.lf-slider')) {
+        slider.addEventListener('input', () => {
+          const percent = Math.ceil(((slider.value - slider.min) / (slider.max - slider.min)) * 100);
+          slider.style.setProperty('--progress', percent);
+        });
+      }
 
       ```
 
@@ -127,7 +129,7 @@ tabs:
 
       <div class="row">
         <div class="col-12 mt-1">
-          <input id="lf-slider-1" type="range" name="lf-slider" class="lf-slider" list="tickmarks" value="50" min="0" max="100">
+          <input id="lf-slider-1" type="range" name="lf-slider" class="lf-slider" value="50" min="0" max="100">
         </div>
       </div>
 
@@ -137,29 +139,32 @@ tabs:
       ### Interval
 
 
-      The native `input[type="range"]` HTML element unfortunately does not support the ability to have more than one range-thumb (the button you move back and forth). Use-cases have begun appearing where such a feature is requested in order for a user to select a span inside the range. To achieve you can use jQuery UI. LFUI provide you with css to make sure that the range slider is working properly. Here is an example of jQuery UI with two sliding buttons. This example is built with [jQuery UI 1.12](https://jqueryui.com/slider/).
+      The native `input[type="range"]` HTML element unfortunately does not support the ability to have more than one range-thumb (the button you move back and forth). Use-cases have begun appearing where such a feature is requested in order for a user to select a span inside the range. To achieve this, we have created a custom element which is a wrapper around the native `input[type="range"]` element.
+
+
+      The `interval` function can be imported from `@lf-digitala-kanaler/lfui-components` and takes a range input element as its only argument. The range input element will be extended with the custom properties `valueLow` and `valueHigh` which can be used to get and set the values of the range input. The `value` property is a comma delimited string with the low and high values.
 
 
       ```javascript
 
-      $('#year-slider-range').slider({
-         range: true,
-         min: 18,
-         max: 110,
-         values: [ 35, 50 ],
-         slide: function( event, ui ) {
-           $('#year-slider-range-from').val(ui.values[0]);
-           $('#year-slider-range-to').val(ui.values[1]);
-         }
-       });
+      import { interval } from '@lf-digitala-kanaler/lfui-components'
 
-       $('#year-slider-range-from').change(function() {
-         $('#year-slider-range').slider('values', 0, $('#year-slider-range-from').val());
-       });
 
-       $('#year-slider-range-to').change(function() {
-         $('#year-slider-range').slider('values', 1, $('#year-slider-range-to').val());
-       });
+      const low = document.getElementById('my-slider-low')
+
+      const high = document.getElementById('my-slider-high')
+
+      const mySlider = document.getElementById('my-slider')
+
+
+      interval(mySlider)
+
+
+      mySlider.addEventListener('input', () => {
+        low.value = mySlider.valueLow
+        high.value = mySlider.valueHigh
+      });
+
       ```
 
 

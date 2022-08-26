@@ -4,8 +4,7 @@ node_modules
 .vscode
 static/admin/*.bundle.*
 static/lf-icons
-static/docs.js
-static/lfui.js
+static/docs
 src/data/componentsStatus.json
 public
 .env*

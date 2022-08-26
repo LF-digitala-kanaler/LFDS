@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Frame from 'react-frame-component'
-import css from '!!raw-loader!@lf-digitala-kanaler/lfui-components/dist/docs/docs.css'
+import css from '!!raw-loader!@lf-digitala-kanaler/lfui-components/dist/docs/style.css'
 import fonts from '!!css-loader!@lf-digitala-kanaler/fonts/index.css'
 import Actions from '../Actions'
 import Content from '../Content'
@@ -65,7 +65,7 @@ const ComponentExample = ({
 
   const init = () => {
     const window = iframe.current?.contentWindow
-    window.LFUI?.DOCS?.initialize()
+    window.DOCS?.initialize(window.document)
     onUpdate()
   }
 
@@ -112,12 +112,7 @@ const ComponentExample = ({
               <html class="lfui-theme">
                 <body style="margin: 0">
                   <div id="frame-root"></div>
-                  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-                  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.bundle.min.js"></script>
-                  <script src="https://unpkg.com/chartjs-chart-geo@2.1.0"></script>
-                  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
-                  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script>
-                  <script src="/docs.js"></script>
+                  <script src="/docs/main.umd.js"></script>
                 </body>
               </html>
             `}

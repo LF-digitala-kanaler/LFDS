@@ -19,8 +19,9 @@ Distribution Bar, XY-plot Chart, Map Chart, Line Chart, Donut Chart, Bar Chart
 ## Dropdown
 
 - Marked as deprecated in 8.0.0
+- Removed in 10.0.0
 
-The [Dropdown](/components/web/forms/dropdown) component was marked as deprecated in favor of the newly introduced [Dropdown select](/components/web/forms/select) component. Select inherits the same functionality as Dropdown, but adds a few key features:
+The Dropdown component was marked as deprecated in favor of the newly introduced [Dropdown select](/components/web/forms/select) component. Select inherits the same functionality as Dropdown, but adds a few key features:
 
 - Keyboard navigation
 - Screen reader support

@@ -47,7 +47,7 @@ tabs:
       ## Please consider
 
 
-      If you have more than five options you are probably better off using a [multi-select dropdown](../dropdown#multi-select).
+      If you have more than five options you are probably better off using a [doprdown multi-select](../select#multiple).
 
 
       ## Other material
@@ -67,7 +67,7 @@ tabs:
 
       **Exempel från skadeanmälan (ej motor)**\
 
-      Jag intygar att de uppgifter jag angivit är korrekta och att jag inte undanhåller någon information som är av betydelse för bedömningen av skadan. Jag är medveten om att oriktiga eller ofullständiga uppgifter kan göra att försäkringen inte gäller. Jag har också tagit del av Behandling av personuppgifter. 
+      Jag intygar att de uppgifter jag angivit är korrekta och att jag inte undanhåller någon information som är av betydelse för bedömningen av skadan. Jag är medveten om att oriktiga eller ofullständiga uppgifter kan göra att försäkringen inte gäller. Jag har också tagit del av Behandling av personuppgifter.
 
 
       **Exempel från skadeanmälan (motor)**\
@@ -95,7 +95,7 @@ tabs:
       ## How to use
 
 
-      Since the default checkbox design is not customizable, we will hide it visually and add a pseudo element which we style with css to get the desired look. By visually, I mean to hide it from the UI and keep it in the DOM for screen reader and keyboard users. You shouldn't need to do anything else then use the code posted below. 
+      Since the default checkbox design is not customizable, we will hide it visually and add a pseudo element which we style with css to get the desired look. By visually, I mean to hide it from the UI and keep it in the DOM for screen reader and keyboard users. You shouldn't need to do anything else then use the code posted below.
 
 
       ```
