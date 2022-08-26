@@ -23,12 +23,12 @@ tabs:
       ### Variations
 
 
-      Panels have two main variations; 
+      Panels have two main variations;
 
 
-      * Always open 
+      * Always open
 
-      * Collapsible/expandable. 
+      * Collapsible/expandable.
 
 
       #### Always open
@@ -43,7 +43,7 @@ tabs:
       The collapsible/expandable container adds a chevron in the top right corner of the header-section, for expanding or collapsing the panel.  When collapsed, only the header of the panel is shown.
 
 
-      There are no set rules for when to use collapsed or expanded, but a rule of thumb is to have cards with the most important information expanded by default and the ones with secondary information collapsed. 
+      There are no set rules for when to use collapsed or expanded, but a rule of thumb is to have cards with the most important information expanded by default and the ones with secondary information collapsed.
 
 
       ##### Specific modifiers
@@ -52,7 +52,7 @@ tabs:
       Collapsible/expandable panels have a two specific modifiers:
 
 
-      * Collapsible cards can be either collapsed or expanded by default. 
+      * Collapsible cards can be either collapsed or expanded by default.
 
       * If a card fetches information from a backend system there is a version of the panel which has a *lazy load* function which allows for the data to first be fetched if/when a user expands that specific panel. Great for slow backend systems!
 
@@ -80,7 +80,7 @@ tabs:
       ## How to use
 
 
-      The Component name **Panel** is new to LFUI, it was previously part of [Cards](/components/web/page-content/card/). Since LFUI is built on top of Bootstrap all classes in this component still use class names from the card component. 
+      The Component name **Panel** is new to LFUI, it was previously part of [Cards](/components/web/page-content/card/). Since LFUI is built on top of Bootstrap all classes in this component still use class names from the card component.
 
       ### Variations
 
@@ -112,7 +112,7 @@ tabs:
 
       <p class="text-sm mt-15 mb-05 text-muted">Expanded</p>
 
-      <button class="collapse-toggle" role="button" type="button" aria-controls="collapsible1" data-toggle="collapse" data-target="#collapsible1" aria-expanded="true">
+      <button class="collapse-toggle" role="button" type="button" aria-controls="collapsible1" data-bs-toggle="collapse" data-bs-target="#collapsible1" aria-expanded="true">
         Section heading
       </button>
 
@@ -151,7 +151,7 @@ tabs:
       When your content has been loaded and added to the expandable panel, simply notify the trigger by triggering a `done` event on it.
 
 
-      Functionality for this is not part of LFUI(only styling). An implementation could look something like this. 
+      Functionality for this is not part of LFUI(only styling). An implementation could look something like this.
 
 
       ```

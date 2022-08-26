@@ -19,7 +19,7 @@ tabs:
       Buttons are in their essence a form of link which helps the user through a specific flow, typical examples are progressing to the next page and to submit something. They are also used as a way of entering a specific flow. Through their visual presence they give the users queues on what expected actions exist.
 
 
-      The responsive rules for our buttons transform them the full row-width in smaller screens. This should be your default design, but feel free to put two buttons next to each other even in smaller screens if the context makes it a better choice. 
+      The responsive rules for our buttons transform them the full row-width in smaller screens. This should be your default design, but feel free to put two buttons next to each other even in smaller screens if the context makes it a better choice.
 
 
       <figure class="Image Image__background "><img src="/img/responsive-button.jpg" srcset="/img/responsive-button.jpg 2x" alt="Example of button in desktop and responsive web-states"><figcaption><div class="Image__caption">Example of button in desktop and responsive web-states</div></figcaption></figure>
@@ -53,7 +53,7 @@ tabs:
       ##### Modifier for primary buttons
 
 
-      On top of the [general modifiers](#modifiers) for buttons, the primary button has two distinct modifiers not available for the other types of buttons: two-rowed button and with BankID-icon. 
+      On top of the [general modifiers](#modifiers) for buttons, the primary button has two distinct modifiers not available for the other types of buttons: two-rowed button and with BankID-icon.
 
 
       **The two-rowed button** is used in flows where the user buys/signs up for something (*köptjänster*). The two-rowed button is used to continue between pages. Both rows have text in them, with the first one being in a larger font. The first row signals what will happen ("Gå vidare", "Godkänn") and the second gives more detail ("Ange uppgifter", "Köp försäkring"); see under [copy](?copy#buttons-with-double-row) for more information.
@@ -103,7 +103,7 @@ tabs:
       #### Different sizes
 
 
-      Our buttons come in three sizes: default, smaller and larger. 
+      Our buttons come in three sizes: default, smaller and larger.
 
 
       * The default is as the name suggests the default version.
@@ -140,22 +140,16 @@ tabs:
       As the question of **disabled buttons** is one which regularly pops up, our design rationale from discouraging from the use of disabled buttons can be found below.
 
 
-      In designing our general patterns for [form validation](/patterns/general-patterns/form-validation) and [required fields](/patterns/general-patterns/required-fields) we have been informed by academic research as well as our own user testing (we have even had a bachelor thesis looking at our error message handling!). What we found is that as disabled buttons can't give users feedback on what is missing for them to become enabled, it is from a user perspective much better to have buttons which are enabled and when clicked can give users feedback on what has to be corrected before they can progress in the flow. 
+      In designing our general patterns for [form validation](/patterns/general-patterns/form-validation) and [required fields](/patterns/general-patterns/required-fields) we have been informed by academic research as well as our own user testing (we have even had a bachelor thesis looking at our error message handling!). What we found is that as disabled buttons can't give users feedback on what is missing for them to become enabled, it is from a user perspective much better to have buttons which are enabled and when clicked can give users feedback on what has to be corrected before they can progress in the flow.
 
 
-      For users who have missed some part of a form, a disabled button forces the user to search for the error themselves (leading to longer completion times and frustration). In comparison an enabled button can provide an error message and in our pattern also auto-scrolls the user to the (first) error, making the completion of the form an easier task.    
+      For users who have missed some part of a form, a disabled button forces the user to search for the error themselves (leading to longer completion times and frustration). In comparison an enabled button can provide an error message and in our pattern also auto-scrolls the user to the (first) error, making the completion of the form an easier task.
 
 
       If you are designing a button which is never meant to be enabled, you shouldn't have the button there at all.
 
 
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/ "Primary button", "Secondary button" and "Login & Logout")
-
-
-      **Live example:** 
+      **Live example:**
 
       Loan product page have primary button for the "Calculate mortgages" and you have always the login button on the top right: <https://www.lansforsakringar.se/privat/bank/lana/bolan/>
     name: Design
@@ -199,7 +193,7 @@ tabs:
       ### Button alerts
 
 
-      De här knappen används som ett godkännande. Används idag för Cookie-godkännande och till exempel på på kvittosidan för hemförsäkring. 
+      De här knappen används som ett godkännande. Används idag för Cookie-godkännande och till exempel på på kvittosidan för hemförsäkring.
 
 
       **Text i cookie-knapp:** Jag förstår
@@ -327,7 +321,7 @@ tabs:
       ### Shared modifiers
 
 
-      Primary and Secondary button share some common modifiers between them. You have the option to change size, add arrows, loading state or change how the button displays on smaller screens. 
+      Primary and Secondary button share some common modifiers between them. You have the option to change size, add arrows, loading state or change how the button displays on smaller screens.
 
 
       #### With arrow

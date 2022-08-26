@@ -17,7 +17,7 @@ tabs:
   - content: >-
       ## How to use
 
-      Shortcuts are used to highlight alternative actions from the current flow which we think are important for the user. They are either of a more alerting nature or navigational, and each design only corresponds to one of these two uses. For both use cases the shortcut takes the user into another flow than the one they came from. 
+      Shortcuts are used to highlight alternative actions from the current flow which we think are important for the user. They are either of a more alerting nature or navigational, and each design only corresponds to one of these two uses. For both use cases the shortcut takes the user into another flow than the one they came from.
 
 
       Shortcuts are normally spanning the whole row, except for [multiple-lined shortcuts](#multiple-lined-shortcut) which may have two next to each other. They also feature a 2px shadow on the bottom to highlight that they can be clicked.
@@ -63,7 +63,7 @@ tabs:
       ##### Multiple-lined shortcut
 
 
-      Multiple-lined shortcuts consists of a header row (larger type, bold) which communicates the main action and a textarea below to give more detail in. The textarea can span one or several rows andea you need to choose between one of the two modifiers for the styling: 
+      Multiple-lined shortcuts consists of a header row (larger type, bold) which communicates the main action and a textarea below to give more detail in. The textarea can span one or several rows andea you need to choose between one of the two modifiers for the styling:
 
 
       * **Blue text in Intro Cond**; used when you wish to add extra details in short form, e.g. the organisational number in the company switcher in Mina Sidor (with the company name being the header).
@@ -84,12 +84,6 @@ tabs:
 
 
       One modifier exists for shortcuts and it is available for "glasspinnar" and navigational shortcuts; you can opt to put an icon in your shortcut. If so it is placed to the left of the text in the shortcut. Just make sure that you're consistent if you have several shortcuts grouped together.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Button and Links/Shortcut)
     name: Design
   - content: >-
       ## Så skriver vi
@@ -98,7 +92,7 @@ tabs:
       Glasspinnar är bara en rad och skrivs i fet. Texten måste därför vara kort och koncis.
     name: Copy
   - content: >-
-      ## Alerting 
+      ## Alerting
 
 
       With the modifier `.shortcut-important` the shortcut is decorated with a background colour to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example, `.shortcut-info-ice`.
@@ -142,13 +136,13 @@ tabs:
       The navigational shortcut is somewhat bigger than alerting and it's always white. Note that in all variations of the `.shortcut` the text is always bold.
 
 
-      There is two  different variations of navigational shortcut included in LFUI. 
+      There is two  different variations of navigational shortcut included in LFUI.
 
 
       ### One-lined shortcut
 
 
-      This is the default navigational shortcut. 
+      This is the default navigational shortcut.
 
 
       ```
@@ -159,7 +153,7 @@ tabs:
       ```
 
 
-      ### Modifier 
+      ### Modifier
 
 
       You have the option to add an icon to the one-lined shortcut as well. Simple add `.shortcut-icon` and properly insert a 20px icon.
@@ -168,7 +162,7 @@ tabs:
       ### Multiple-lined shortcut
 
 
-      There is also an option to extend the shortcut to add more content if you need. As seen in the examples below you can add `.shortcut-two-lines` or `.shortcut-multi-lines` to create a shortcut with more content. If you use the later one, beware it changes icons between breakpoints so you will have to define two icons. 
+      There is also an option to extend the shortcut to add more content if you need. As seen in the examples below you can add `.shortcut-two-lines` or `.shortcut-multi-lines` to create a shortcut with more content. If you use the later one, beware it changes icons between breakpoints so you will have to define two icons.
 
 
       ```
@@ -202,10 +196,10 @@ tabs:
       You can build landing page shortcuts by adding `.shortcut-landing-page` to your shortcut. See the example below.
 
 
-      Since LFUI dosen't scale icons Landing page shortcut will need two icons defined, one for screens smaller than 768px and one for screens larger than 768px. Which one that will be display is controlled with [bootstraps display classes ](https://getbootstrap.com/docs/4.0/utilities/display/).  
+      Since LFUI dosen't scale icons Landing page shortcut will need two icons defined, one for screens smaller than 768px and one for screens larger than 768px. Which one that will be display is controlled with [bootstraps display classes ](https://getbootstrap.com/docs/4.0/utilities/display/).
 
 
-      Use a 24px icon for small screens and a 40px icon for larger screens. 
+      Use a 24px icon for small screens and a 40px icon for larger screens.
 
 
       ```
@@ -213,7 +207,7 @@ tabs:
       <a href="#foo" class="shortcut shortcut-landing-page">
         <svg class="icon d-md-none" width="24" height="24"><use xlink:href="#icon-wallet-24"></use></svg>
         <svg class="icon d-none d-md-block mx-auto mb-05" width="40" height="40"><use xlink:href="#icon-wallet-40"></use></svg>
-        Account 
+        Account
       </a>
 
       ```

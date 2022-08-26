@@ -31,7 +31,7 @@ tabs:
       It is important not to over-use this functionality. Information not crucial to the view should be weighted if it is relevant to print out at all. If information is considered crucial, it should not be hidden and require an action (collapse) to begin with. But take into consideration which channel you’re in as well:
 
 
-      * If you are on lansforsakringar.se without having logged in, a new page with editorial text is often a good option if you can’t keep it short and snappy. 
+      * If you are on lansforsakringar.se without having logged in, a new page with editorial text is often a good option if you can’t keep it short and snappy.
 
       * If you’re logged in or in the process of buying something you want to keep the user in the main flow which leads to longer texts in collapsible mode being acceptable (but still not preferred). Please consider [modals](modal) as an alternative if the text can’t be kept short.
 
@@ -45,13 +45,13 @@ tabs:
       ## How to use
 
 
-      Collapse uses the built in collapse functionality from Bootstrap. You can use a link with the `href` attribute, or a button with the `data-target` attribute. In both cases, the `data-toggle="collapse"` is required.
+      Collapse uses the built in collapse functionality from Bootstrap. You can use a link with the `href` attribute, or a button with the `data-target` attribute. In both cases, the `data-bs-toggle="collapse"` is required.
 
 
       Your hidden container will need an ID that matches that `that-target` or `href,`
 
 
-      ### Variants 
+      ### Variants
 
 
       There is 2 different versions of collapse, one where the expanded area have a white background and one with grey background.
@@ -62,7 +62,7 @@ tabs:
 
       ```
 
-      <button type="button" id="collapse" data-toggle="collapse" href="#collapse" aria-expanded="false" aria-controls="collapseExample">Läs mer</button>
+      <button type="button" id="collapse" data-bs-toggle="collapse" href="#collapse" aria-expanded="false" aria-controls="collapseExample">Läs mer</button>
 
       <div class="collapse bg-body-bg" id="collapse"></div>
 
@@ -72,7 +72,7 @@ tabs:
       ## Accessibility
 
 
-      Be sure to add `aria-expanded` to the control element. This attribute explicitly conveys the current state of the collapsible element tied to the control to screen readers and similar assistive technologies. If the collapsible element is closed by default, the attribute on the control element should have a value of `aria-expanded="false"`. 
+      Be sure to add `aria-expanded` to the control element. This attribute explicitly conveys the current state of the collapsible element tied to the control to screen readers and similar assistive technologies. If the collapsible element is closed by default, the attribute on the control element should have a value of `aria-expanded="false"`.
 
 
       If you’ve set the collapsible element to be open by default using the `show` class, set `aria-expanded="true"` on the control instead. The plugin will automatically toggle this attribute on the control based on whether or not the collapsible element has been opened or closed (via JavaScript, or because the user triggered another control element also tied to the same collapsible element). If the control element’s HTML element is not a button (e.g., an `<a>`or `<div>`), the attribute `role="button"` should be added to the element.
@@ -87,7 +87,7 @@ tabs:
       Skriv inte "Läs mer".
 
 
-      Beskriv gärna vad det är som finns i innehållet, både ur ett SEO- och tillgänglighetsperspektiv. 
+      Beskriv gärna vad det är som finns i innehållet, både ur ett SEO- och tillgänglighetsperspektiv.
 
 
       Skriv hellre: "Mer om helförsäkringen"

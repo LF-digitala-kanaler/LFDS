@@ -332,16 +332,16 @@ tabs:
               </ul>
               <div class="radio-card-footer">
                 <div class="d-none d-xl-inline-block">
-                  <button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                  <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
                 </div>
                 <div class="d-lg-none d-inline-block">
-                  <button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                  <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
                 </div>
                 <div class="price-container">
                   <span class="price">1&nbsp;420</span>
                   &nbsp;kr/mån
                 </div>
-                <button class="btn btn-sm btn-block btn-outline-secondary d-none d-lg-inline-block d-xl-none" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                <button class="btn btn-sm btn-block btn-outline-secondary d-none d-lg-inline-block d-xl-none" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
               </div>
             </label>
           </div>
@@ -359,16 +359,16 @@ tabs:
               </ul>
               <div class="radio-card-footer">
                 <div class="d-none d-xl-inline-block">
-                  <button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                  <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
                 </div>
                 <div class="d-lg-none d-inline-block">
-                  <button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                  <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
                 </div>
                 <div class="price-container">
                   <span class="price">825</span>
                   &nbsp;kr/mån
                 </div>
-                <button class="btn btn-sm btn-block btn-outline-secondary d-none d-lg-inline-block d-xl-none" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                <button class="btn btn-sm btn-block btn-outline-secondary d-none d-lg-inline-block d-xl-none" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
               </div>
             </label>
           </div>
@@ -384,16 +384,16 @@ tabs:
               </ul>
               <div class="radio-card-footer">
                 <div class="d-none d-xl-inline-block">
-                  <button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                  <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
                 </div>
                 <div class="d-lg-none d-inline-block">
-                  <button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                  <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
                 </div>
                 <div class="price-container">
                   <span class="price">250</span>
                   &nbsp;kr/mån
                 </div>
-                <button class="btn btn-sm btn-block btn-outline-secondary d-none d-lg-inline-block d-xl-none" data-toggle="modal" data-target="#myModal">Läs mer</button>
+                <button class="btn btn-sm btn-block btn-outline-secondary d-none d-lg-inline-block d-xl-none" data-bs-toggle="modal" data-bs-target="#myModal">Läs mer</button>
               </div>
             </label>
           </div>

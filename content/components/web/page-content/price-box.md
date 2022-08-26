@@ -35,7 +35,7 @@ tabs:
 
       * In desktop: The price box should always be visible for the user, and thus is sticky to the top when the user starts scrolling. This means that you need to try to keep the right column short to avoid that the price box is pushed out of the screen when the right column hits the bottom.
 
-      * Accesibility-wise it is important that pricebox is before the primary button in the main flow so that people who use screen readers get access to the information.  
+      * Accesibility-wise it is important that pricebox is before the primary button in the main flow so that people who use screen readers get access to the information.
 
       * As price box, [value box ](value-box)and [callout](callout) all are various ways of highlighting information you should avoid mixing them in one view.
 
@@ -64,162 +64,17 @@ tabs:
       ### Variations
 
 
-      The price box(desktop variant) is *not* suitable for smaller views. Because of this there is two different variation you will have to show/hide depending on the screen width(screen width less than 768px show responsive variation).
-
-
-      #### Desktop
-
-
-      ```
-
-      <aside class="price-box">
-        <div class="price-box-header">
-          <span class="your-price">
-            Ditt pris
-          </span>
-          <div class="price-container">
-            <p class="price">
-            1&nbsp;245
-            </p>
-            <div class="price-secondary">
-              <p class="month">kr/månad</p>
-              <p class="year">18&nbsp;274&nbsp;kr/år</p>
-            </div>
-          </div>
-          <div class="wave-pattern">
-          </div>
-        </div>
-        <div class="price-box-content container">
-          <div class="row">
-            <div class="col-6">
-              <p class="price-box-content-text ">Personskydd</p>
-            </div>
-            <div class="col-6">
-              <p class="price-box-content-text float-right">220&nbsp;kr/mån</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <p class="price-box-content-text ">Tilläggsskydd</p>
-            </div>
-            <div class="col-6">
-              <p class="price-box-content-text float-right">310&nbsp;kr/mån</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <h6 class="mt-05 mb-0">Avdragen rabatt</h6>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <p class="price-box-content-text ">Internetrabatt</p>
-            </div>
-            <div class="col-6">
-              <p class="price-box-content-text float-right">50&nbsp;kr</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <p class="price-box-content-text ">Guldmedlem</p>
-            </div>
-            <div class="col-6">
-              <p class="price-box-content-text float-right">301&nbsp;kr</p>
-            </div>
-          </div>
-        </div>
-      </aside>
-
-      ```
+      The price box (desktop variant) is *not* suitable for smaller views. Because of this there is two different variation you will have to show/hide depending on the screen width(screen width less than 768px show responsive variation).
 
 
       #### Responsive
 
+      In smaller devices we use a `position: fixed`-oriented, collapsible price box instead to save space but still keep the easily overviewed component close at hand for the user. The `.price-box-bottom` is positioned in the bottom of the window **so that only the header is visible**, and on click it toggles upwards, showing the main content.
 
-      In smaller devices we use a `position: fixed`-oriented, collapsible price box instead to save space but still keep the easily overviewed component close at hand for the user. The `.price-box-bottom` is positioned in the bottom of the window **so that only the `.price-box-header` is visible**, and on click it toggles upwards, showing the `.price-box-content`.
+      #### Getting it interactive
 
+      We don't provide any specific Javascript for toggeling the responsive version, instead, we rely on the Bootstrap ´data-bs-toggle="collapse"´. Please see the example implementations.
 
-      ```
-
-      <aside class="price-box price-box-bottom" style="position: relative;">
-          <div class="price-box-header">
-            <span class="your-price">
-              Ditt pris
-            </span>
-            <div class="price-container">
-              <p class="price">
-              1&nbsp;245
-              </p>
-              <div class="price-secondary">
-                <p class="month">kr/mån<span class="d-none d-md-inline">ad</span></p>
-                <p class="year">18&nbsp;274&nbsp;kr/år</p>
-              </div>
-            </div>
-            <div class="price-box-chevron">
-              <!-- <svg class="icon icon-blue" width="60" height="60">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-chevron-up-32"></use>
-              </svg> -->
-            </div>
-          </div>
-          <div class="wave-pattern">
-          </div>
-          <div class="price-box-content container">
-            <div class="row">
-              <div class="col-6">
-                <p class="price-box-content-text ">Personskydd</p>
-              </div>
-              <div class="col-6">
-                <p class="price-box-content-text float-right">220&nbsp;kr/mån</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <p class="price-box-content-text ">Tilläggsskydd</p>
-              </div>
-              <div class="col-6">
-                <p class="price-box-content-text float-right">310&nbsp;kr/mån</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <h6 class="mt-05 mb-0">Avdragen rabatt</h6>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <p class="price-box-content-text ">Internetrabatt</p>
-              </div>
-              <div class="col-6">
-                <p class="price-box-content-text float-right">50&nbsp;kr</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <p class="price-box-content-text ">Guldmedlem</p>
-              </div>
-              <div class="col-6">
-                <p class="price-box-content-text float-right">301&nbsp;kr</p>
-              </div>
-            </div>
-          </div>
-      </aside>
-
-      ```
-
-
-      Add some relevant JS to make the box move upwards on click, easily attached to the `.price-box-bottom .active`-class.
-
-
-      ```
-
-      var priceBoxBottom = document.getElementsByClassName("price-box-bottom")[0];
-
-
-      priceBoxBottom.addEventListener("click", function() {
-        priceBoxBottom.classList.toggle('active');
-      })
-
-      ```
     name: Code
 backgroundColor: '#f3f3f3'
 ---

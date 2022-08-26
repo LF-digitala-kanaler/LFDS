@@ -37,7 +37,7 @@ tabs:
       ### Present data
 
 
-      Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns, as in the example image above. 
+      Use this type of table when you want to present data or information. In most cases you will find that you want to mix text in one or two columns with numbers in the other columns, as in the example image above.
 
 
       #### Modifiers
@@ -55,7 +55,7 @@ tabs:
       ##### Summary row
 
 
-      If you're displaying content in which it makes sense to add everything up (like a list of your accounts) you can add a summary row at the bottom of your table. The summary row has a grey background colour with bold text. The label is left-aligned and the summarised value is right-aligned. This means that you should place the amounts you want to add in the rightmost column to align individual values and the summarised value. 
+      If you're displaying content in which it makes sense to add everything up (like a list of your accounts) you can add a summary row at the bottom of your table. The summary row has a grey background colour with bold text. The label is left-aligned and the summarised value is right-aligned. This means that you should place the amounts you want to add in the rightmost column to align individual values and the summarised value.
 
 
       ##### Banded rows
@@ -64,7 +64,7 @@ tabs:
       If the contents of your table is such that you expect the user to want to focus on rows primarily you can help them by adding banded rows. This gives every second row a light grey background designed to discretely help the user follow the contents of a row.
 
 
-      If used together with a summary row, the summary row will have a darker nuance of grey than normally. 
+      If used together with a summary row, the summary row will have a darker nuance of grey than normally.
 
 
       ##### In-table grouping
@@ -132,13 +132,13 @@ tabs:
       ### Variations
 
 
-      If we don't count the endless modifiers you have at your disposal there is two different variations of tables, one that **present data** and one that **compare data.** 
+      If we don't count the endless modifiers you have at your disposal there is two different variations of tables, one that **present data** and one that **compare data.**
 
 
       #### Present data
 
 
-      This is the "normal" table in LFUI. Use semantic  markup as in the example below and add `.table` and you are good to go. 
+      This is the "normal" table in LFUI. Use semantic  markup as in the example below and add `.table` and you are good to go.
 
 
       ```
@@ -166,7 +166,7 @@ tabs:
       ##### Modifiers
 
 
-      There is several modifiers available for tables. You can mix and match after what you need. 
+      There is several modifiers available for tables. You can mix and match after what you need.
 
 
       ###### Sizing
@@ -185,7 +185,7 @@ tabs:
       ###### Summary row
 
 
-      Quite often you will be calculating the total sum of data in table cell's. In the example below you can see appropriate markup to use. Don't forget to add the  `<tfoot>`-element since LFUI will add use this to add the right styling.    
+      Quite often you will be calculating the total sum of data in table cell's. In the example below you can see appropriate markup to use. Don't forget to add the  `<tfoot>`-element since LFUI will add use this to add the right styling.
 
 
       ```
@@ -237,7 +237,7 @@ tabs:
       ###### In-table grouping
 
 
-      If you wish to create a sub-header apply the `.th-sub` and `colspan="3"`(value should be equal to the total number of cells in a row). In the same respect, you can use `.th-main` to enforce its styling on a cell that isn't a really a th. 
+      If you wish to create a sub-header apply the `.th-sub` and `colspan="3"`(value should be equal to the total number of cells in a row). In the same respect, you can use `.th-main` to enforce its styling on a cell that isn't a really a th.
 
 
       ```
@@ -342,7 +342,7 @@ tabs:
       ###### Expandable rows
 
 
-      Sometimes a table row simply isn't enough for all that rich data. To have a table row expand and show additional data, there's the expandable row. The expandable table row builds upon [Bootstrap collapse](https://getbootstrap.com/docs/4.0/components/collapse/). To make a table row expandable, add the `data-toggle` attribute and set it to `collapse:table-row` and have the `data-target` attribute point to the ID of the row that you'd like to expand (the next row). Also, please make sure to set the appropriate aria attributes `aria-expanded` and `aria-controls`.
+      Sometimes a table row simply isn't enough for all that rich data. To have a table row expand and show additional data, there's the expandable row. The expandable table row builds upon [Bootstrap collapse](https://getbootstrap.com/docs/4.0/components/collapse/). To make a table row expandable, add the `data-bs-toggle` attribute and set it to `collapse:table-row` and have the `data-target` attribute point to the ID of the row that you'd like to expand (the next row). Also, please make sure to set the appropriate aria attributes `aria-expanded` and `aria-controls`.
 
 
       To have a certain element within the clickable row not trigger the expand, add the `data-no-expand` attribute.
@@ -355,7 +355,7 @@ tabs:
 
       <table class="table table-clickable mb-0">
         <tbody>
-          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-1" data-toggle="collapse:table-row" data-target="#table-row-1">
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-1" data-bs-toggle="collapse:table-row" data-bs-target="#table-row-1">
             <td class="text-nowrap"><button role="button">Billys bucks</button></td>
             <td class="table-cell-number">-250</td>
           </tr>
@@ -370,7 +370,7 @@ tabs:
               </div>
             </td>
           </tr>
-          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-2" data-toggle="collapse:table-row" data-target="#table-row-2">
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-2" data-bs-toggle="collapse:table-row" data-bs-target="#table-row-2">
             <td class="text-nowrap"><button role="button">Donnas dollars</button>
             <button class="reset-button" data-no-expand="" role="button">I'm untouchable!</button></td>
             <td class="table-cell-number">12 000</td>
@@ -386,7 +386,7 @@ tabs:
               </div>
             </td>
           </tr>
-          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-3" data-toggle="collapse:table-row" data-target="#table-row-3">
+          <tr aria-haspopup="true" aria-expanded="false" aria-controls="table-row-3" data-bs-toggle="collapse:table-row" data-bs-target="#table-row-3">
             <td class="text-nowrap">
               <button role="button">Show me the money</button>
               <br>
@@ -474,7 +474,7 @@ tabs:
       ### Comparative tables
 
 
-      Comparative table may look at a table but it's built  with div's instead of table markup. It was not possible to get the desire layout work with table markup. It's responsive out of the box but you might need to tweak the behaviour to match your needs (read below how to adjust table's to work on smaller screens). 
+      Comparative table may look at a table but it's built  with div's instead of table markup. It was not possible to get the desire layout work with table markup. It's responsive out of the box but you might need to tweak the behaviour to match your needs (read below how to adjust table's to work on smaller screens).
 
 
       ```
@@ -489,7 +489,7 @@ tabs:
         <div class="table-comparative-body">
           <div class="table-comparative-row">
             <div class="table-comparative-cell">
-              <button type="button" id="readMoreCollapse" class="btn btn-more" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Medicinsk invaliditet vid olycksfall</button>
+              <button type="button" id="readMoreCollapse" class="btn btn-more" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Medicinsk invaliditet vid olycksfall</button>
             </div>
             <div class="table-comparative-cell table-comparative-cell-hidden d-flex d-md-none"></div>
             <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
@@ -503,7 +503,7 @@ tabs:
           </div>
           <div class="table-comparative-row">
             <div class="table-comparative-cell">
-              <button type="button" id="readMoreCollapse2" class="btn btn-more" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Medicinsk invaliditet vid olycksfall</button>
+              <button type="button" id="readMoreCollapse2" class="btn btn-more" data-bs-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Medicinsk invaliditet vid olycksfall</button>
             </div>
             <div class="table-comparative-cell table-comparative-cell-hidden d-flex d-md-none"></div>
             <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
@@ -517,7 +517,7 @@ tabs:
           </div>
           <div class="table-comparative-row">
             <div class="table-comparative-cell">
-              <button type="button" id="readMoreCollapse3" class="btn btn-more" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">Medicinsk invaliditet vid olycksfall</button>
+              <button type="button" id="readMoreCollapse3" class="btn btn-more" data-bs-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">Medicinsk invaliditet vid olycksfall</button>
             </div>
             <div class="table-comparative-cell table-comparative-cell-hidden d-flex d-md-none"></div>
             <div class="table-comparative-cell"><svg aria-hidden="true" class="icon icon-green" width="20" height="20"><use xlink:href="#icon-check-20"></use></svg></div>
@@ -534,20 +534,20 @@ tabs:
 
       ```
 
-       
-
-      ## Responsive 
 
 
-      As in at the top of the page when it comes to handle table's on smaller screens we hide columns to make the table fit. We use helper classes from Bootstrap to make it work. In the examples at the top we hide cells with `d-none` and display them on wider screens with `d-md-table-cell` . 
+      ## Responsive
+
+
+      As in at the top of the page when it comes to handle table's on smaller screens we hide columns to make the table fit. We use helper classes from Bootstrap to make it work. In the examples at the top we hide cells with `d-none` and display them on wider screens with `d-md-table-cell` .
 
 
       ## Good to know
 
 
-      * You can add a caption to your table which will have the same design as the [panel](/components/web/page-content/panel) header. 
+      * You can add a caption to your table which will have the same design as the [panel](/components/web/page-content/panel) header.
 
-      * If you have numbers in the last cell on each row add `.table-cell-number` to right align the text and give it the right styling. 
+      * If you have numbers in the last cell on each row add `.table-cell-number` to right align the text and give it the right styling.
 
       * Text in table cell's can be tricky to style. If you want to keep the text from breaking into two rows consider adding `.text-nowrap` to each cell to keep the text on the one row.
 backgroundColor: '#f3f3f3'

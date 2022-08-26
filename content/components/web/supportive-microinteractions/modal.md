@@ -13,7 +13,7 @@ tabs:
       ## How to use
 
 
-      A modal takes over the view and pops up a box with content on top of the normal page. The rest of the page becomes unavailable until the modal is closed, and this is shown by adding an a blur outside the modal-content. A modal is not intended to take up the full width and height of a page, even less so forcing the user to scroll to read its entirety. In that case, a separate page might be a better choice. 
+      A modal takes over the view and pops up a box with content on top of the normal page. The rest of the page becomes unavailable until the modal is closed, and this is shown by adding an a blur outside the modal-content. A modal is not intended to take up the full width and height of a page, even less so forcing the user to scroll to read its entirety. In that case, a separate page might be a better choice.
 
 
       Modals can be closed by pressing outside the modal (on the shadowy background), using the X in top right corner or by pressing ESC on the keyboard.
@@ -45,7 +45,7 @@ tabs:
       ## Please consider
 
 
-      Modals are great in a desktop or tablet-context but can easily become troublesome in a mobile context. As mobile usage has increased, the use of modals in our designs for “[read more](/patterns/general-patterns/read-more)” has decreased. Take expected mobile usage into consideration when choosing whether to use a modal or another solution for “read more”.  
+      Modals are great in a desktop or tablet-context but can easily become troublesome in a mobile context. As mobile usage has increased, the use of modals in our designs for “[read more](/patterns/general-patterns/read-more)” has decreased. Take expected mobile usage into consideration when choosing whether to use a modal or another solution for “read more”.
 
 
       ## Other material
@@ -57,16 +57,16 @@ tabs:
       ## How to use
 
 
-      LFUI uses bootstraps and it's API to create modals. If there is any functionality you need and we haven't documented here head over to their site since we support all the included options. 
+      LFUI uses bootstraps and it's API to create modals. If there is any functionality you need and we haven't documented here head over to their site since we support all the included options.
 
 
-      But let's have a look at the basics. 
+      But let's have a look at the basics.
 
 
       ### Template
 
 
-      Every Modal share the same base template. In this example we have added the optional .modal-footer which is a where you but you buttons and other actions. 
+      Every Modal share the same base template. In this example we have added the optional .modal-footer which is a where you but you buttons and other actions.
 
 
       ```html
@@ -95,20 +95,20 @@ tabs:
       ### Trigger
 
 
-      How do you trigger a modal you might ask. Easiest way is to use to built in data-attribute from Bootstrap. 
+      How do you trigger a modal you might ask. Easiest way is to use to built in data-attribute from Bootstrap.
 
 
-      Notice the `data-toggle="modal"` and `data-target="exampleModal"` in the code snippet below. 
+      Notice the `data-bs-toggle="modal"` and `data-bs-target="exampleModal"` in the code snippet below.
 
 
-      * `data-toggle="modal"` opens the modal window
+      * `data-bs-toggle="modal"` opens the modal window
 
-      * `data-target="#myModal"` points to the id of the modal
+      * `data-bs-target="#myModal"` points to the id of the modal
 
 
       ```html
 
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Launch demo modal
       </button>
 
@@ -118,7 +118,7 @@ tabs:
       The parent `<div>` of the modal must have an ID that is the same as the value of the data-target attribute used to trigger the modal ("exampleModal").
 
 
-      Notice the `data-dismiss="modal"` in the first example. This will close the modal and can be used on more than one element. 
+      Notice the `data-dismiss="modal"` in the first example. This will close the modal and can be used on more than one element.
 
 
       That's it!
@@ -127,10 +127,10 @@ tabs:
       ### Options
 
 
-      By default autofocus will not work in a modal so you will have to do it yourself. We always want to add focus to an element in the modal when we open it. If there is no input you might focus the close button. 
+      By default autofocus will not work in a modal so you will have to do it yourself. We always want to add focus to an element in the modal when we open it. If there is no input you might focus the close button.
 
 
-      You can achieve this by using a built in event. 
+      You can achieve this by using a built in event.
 
 
       ```
@@ -142,7 +142,7 @@ tabs:
       ```
 
 
-      And when we close the modal focus should go back to the element that triggered it. 
+      And when we close the modal focus should go back to the element that triggered it.
 
 
       ## Accessibility

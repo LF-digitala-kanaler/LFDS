@@ -31,7 +31,7 @@ tabs:
       ## How to use
 
 
-      The value box is intended to draw the users attention and for them to at-a-glance see the total value of the related content. 
+      The value box is intended to draw the users attention and for them to at-a-glance see the total value of the related content.
 
 
       ```
@@ -68,7 +68,7 @@ tabs:
 
       ```
        <div class="value-box">
-        <button class="value-box-heading collapsed" type="button" data-target="#value-box-info" aria-controls="value-box-info" data-toggle="collapse" aria-expanded="false">
+        <button class="value-box-heading collapsed" type="button" data-bs-target="#value-box-info" aria-controls="value-box-info" data-bs-toggle="collapse" aria-expanded="false">
           Account summary<span class="value-box-toggle"></span>
         </button>
         <div class="value-box-collapse collapse" id="value-box-info" aria-expanded="false">

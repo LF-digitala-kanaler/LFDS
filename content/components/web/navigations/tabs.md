@@ -55,7 +55,7 @@ tabs:
       ### Modifiers
 
 
-      There are two modifiers for tabs, and they both work with all types of tabs. 
+      There are two modifiers for tabs, and they both work with all types of tabs.
 
 
       #### Styling based on background
@@ -67,7 +67,7 @@ tabs:
       #### Responsive sidescroll
 
 
-      If you want you can add some responsiveness to your tabs. With this modifier activated the user will be able to sidescroll between the tabs if they don't fit on one row. Otherwise the tabs will flow over several rows. 
+      If you want you can add some responsiveness to your tabs. With this modifier activated the user will be able to sidescroll between the tabs if they don't fit on one row. Otherwise the tabs will flow over several rows.
 
 
       *Note: it has been suggested to make responsive sidescroll a standard feature of the component, meaning that it will be always on.*
@@ -97,7 +97,7 @@ tabs:
       ### Page-level navigation
 
 
-      Page-level tabs dosen't make use of the tabbed region In-page tabs does. It's basically a common navigation used when fetching content dynamically inside your app. 
+      Page-level tabs dosen't make use of the tabbed region In-page tabs does. It's basically a common navigation used when fetching content dynamically inside your app.
 
 
       ```
@@ -119,7 +119,7 @@ tabs:
       ```
 
 
-      You can use the built in `data-toggle="tab"` on each `.nav-link` to activate the tab.
+      You can use the built in `data-bs-toggle="tab"` on each `.nav-link` to activate the tab.
 
 
       ```
@@ -127,13 +127,13 @@ tabs:
       <nav role="navigation">
         <ul class="nav nav-page" id="navPage">
           <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#">Fondförvaltning</a>
+            <a class="nav-link active" data-bs-toggle="tab" href="#">Fondförvaltning</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#">Traditionell förvaltning</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#">Traditionell förvaltning</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#">Försäkringsskydd</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#">Försäkringsskydd</a>
           </li>
         </ul>
       </nav>
@@ -144,20 +144,20 @@ tabs:
       ### In-page navigation
 
 
-      In-page navigation is our "normal" tab component. It uses Bootstrap's tab JavaScript plugin to create tabbable regions. 
+      In-page navigation is our "normal" tab component. It uses Bootstrap's tab JavaScript plugin to create tabbable regions.
 
 
       ```
 
       <ul class="nav nav-tabs" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#tab1a" role="tab">Tabby</a>
+          <a class="nav-link active" data-bs-toggle="tab" href="#tab1a" role="tab">Tabby</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#tab2a" role="tab">Tubby</a>
+          <a class="nav-link" data-bs-toggle="tab" href="#tab2a" role="tab">Tubby</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#tab3a" role="tab">Trip</a>
+          <a class="nav-link" data-bs-toggle="tab" href="#tab3a" role="tab">Trip</a>
         </li>
       </ul>
 
@@ -170,15 +170,15 @@ tabs:
       ```
 
 
-      Make sure the href of  `.nav-link` and id of the `.tab-pane` match and use `data-toggle="tab"` to activate the navigation tab. 
+      Make sure the href of  `.nav-link` and id of the `.tab-pane` match and use `data-bs-toggle="tab"` to activate the navigation tab.
 
 
-      There is a couple of classes you can add to `.nav` that modify the tab design: 
+      There is a couple of classes you can add to `.nav` that modify the tab design:
 
 
-      * .nav-small - less x and y tab padding 
+      * .nav-small - less x and y tab padding
 
-      * .nav-tight - less x tab padding 
+      * .nav-tight - less x tab padding
 
       * .nav-tabs-gray - for use on white background
 
