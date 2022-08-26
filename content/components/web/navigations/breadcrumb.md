@@ -15,19 +15,13 @@ tabs:
       Breadcrumbs are a part of the page templates on lansforsakringar.se and Mina sidor and are generated automatically, so there isn't much to think about regarding breadcrumbs for you as a designer of customer facing web applications.
 
 
-      If you are designing an internal system you should consider whether breadcrumbs are of benefit for your users. In a smaller, flat system you might not see the need, but the larger the system, the bigger the need probably is (especially as the navigation structure gets deeper and deeper). 
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Breadcrumbs)
+      If you are designing an internal system you should consider whether breadcrumbs are of benefit for your users. In a smaller, flat system you might not see the need, but the larger the system, the bigger the need probably is (especially as the navigation structure gets deeper and deeper).
     name: Design
   - content: >-
       ## How to use
 
 
-      Breadcrumb is a simple navigation component that only requires a `nav` container and a `ol` list. The dividers are automatically created in the content of the `::before` pseudo-element of`li` tags. 
+      Breadcrumb is a simple navigation component that only requires a `nav` container and a `ol` list. The dividers are automatically created in the content of the `::before` pseudo-element of`li` tags.
 
 
       You can inform the current page using the `active` modifier on a `li` tag

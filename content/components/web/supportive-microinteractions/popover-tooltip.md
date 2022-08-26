@@ -30,12 +30,6 @@ tabs:
 
 
       A not yet implemented vision for the component is to have a “dictionary” in a database and an on/off-switch for editors. If the editor turns on the dictionary on a page all words which could need explanation (=are in the dictionary) are automatically given a pop-over tooltip on their first occurrence on the page.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Supportive Microinteractions/Popover/)
     name: Design
   - content: >-
       # How to use

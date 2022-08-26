@@ -43,12 +43,6 @@ tabs:
       * Don't use CAPS for anything except first letters of sentences and names.
 
       * Do not use bold to highlight words, find ways of getting your point across which are more accessible.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Body")
     name: Design
 backgroundColor: '#fff'
 ---

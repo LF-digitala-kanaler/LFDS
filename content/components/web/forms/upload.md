@@ -21,7 +21,7 @@ tabs:
       3. When the user submits their file(s) to us one or several fields appear above the button. The file name is presented in the main field and cannot be edited. The basic styling follows the look of other form items, but adds two additional details:
 
          * To the left of the text a visual display of the file uploaded is displayed. In its default look a small preview of the image is shown (without consideration of image dimensions). If the file is either a pdf or word-document a corresponding icon is shown. If the file type is neither an image nor pdf/word a grey box appears.
-         * In the far right of the field an "x" is shown. An alt text appears on hover informing the user that a click will remove the file. 
+         * In the far right of the field an "x" is shown. An alt text appears on hover informing the user that a click will remove the file.
 
       ### Modifier
 
@@ -47,11 +47,6 @@ tabs:
 
         * If there is something wrong with the file, this is always needed.
         * If the error is on our part, with the actual upload failing it depends on the implementation if the user needs to remove and re-add the file or if they can just try to submit it again. Work with your developers and copy to find the right error messages to display for your specific case.
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Upload)
     name: Design
   - content: |-
       ## Så skriver vi
@@ -62,10 +57,10 @@ tabs:
       ## How to use
 
 
-      LFUI's upload components contains HTML and CSS to help you build a a file upload component. It does not contain any javascript functionality to handle the uploaded file or display the preview pane. 
+      LFUI's upload components contains HTML and CSS to help you build a a file upload component. It does not contain any javascript functionality to handle the uploaded file or display the preview pane.
 
 
-      But let's have a look how you can use this component to build your own upload functionality. 
+      But let's have a look how you can use this component to build your own upload functionality.
 
 
       In the example above we only allow an image to be uploaded and we only allow one at the time. If you need to support multiple uploads the functionality should work the same, just add the multiple attribute to the input.
@@ -80,7 +75,7 @@ tabs:
       The base HTML structure is nothing new. It's a secondary button with an icon. Don't forget to add a for-attribute to the label that's equal to the id attribute of the input.
 
 
-      Note the empty `.upload-placeholder` this is where our preview panes will be places. 
+      Note the empty `.upload-placeholder` this is where our preview panes will be places.
 
 
       ```
@@ -97,19 +92,19 @@ tabs:
       ```
 
 
-      After the user clicks on the button and have chosen a file we want to show a preview pane containing a smaller version of the image, file name and the possibility for the user to hover over the image to see a larger version of it. 
+      After the user clicks on the button and have chosen a file we want to show a preview pane containing a smaller version of the image, file name and the possibility for the user to hover over the image to see a larger version of it.
 
 
-      The functionality to add the preview pane and validation is not included in LFUI.  
+      The functionality to add the preview pane and validation is not included in LFUI.
 
 
       ### Template preview
 
 
-      This is the preview template we use to display each uploaded file with.  In our example we use the File reader API to get the file name and the image src. It's advisable to resize the the thumbnail image to 35x35 and not just scale it down. 
+      This is the preview template we use to display each uploaded file with.  In our example we use the File reader API to get the file name and the image src. It's advisable to resize the the thumbnail image to 35x35 and not just scale it down.
 
 
-      We will  use this template for each uploaded file and place it inside the `.upload-placeholder.`  
+      We will  use this template for each uploaded file and place it inside the `.upload-placeholder.`
 
 
       Note, if you are uploading anything that's not an image change remove the `<img>` element and replace it with `<div class="upload-image mr-05"></div>`
@@ -125,7 +120,7 @@ tabs:
             <button type="button" class="close ml-auto upload-remove">
               Close
             </button>
-          </div> 
+          </div>
         </div>
       </div>
 
@@ -135,16 +130,16 @@ tabs:
       #### Validation
 
 
-      Notice the `${validation}` above.  In our example we will do validation as soon as a file is selected and add either `.has-valid` or `.has-danger` depending on the validation status of the file. If you want to validate your file when for example  a form is posting you can add these classes then instead.  
+      Notice the `${validation}` above.  In our example we will do validation as soon as a file is selected and add either `.has-valid` or `.has-danger` depending on the validation status of the file. If you want to validate your file when for example  a form is posting you can add these classes then instead.
 
 
       #### Thumbnails
 
 
-      If the file is an image it should be possible to hover over the image to show a larger version of it. This is should only be added if the file is an image. 
+      If the file is an image it should be possible to hover over the image to show a larger version of it. This is should only be added if the file is an image.
 
 
-      So if the file is an image we want to replace `${popover}` in the template preview section above with a popover template. Again don't just scale the image done, if possible resize the image on the server before adding it. 
+      So if the file is an image we want to replace `${popover}` in the template preview section above with a popover template. Again don't just scale the image done, if possible resize the image on the server before adding it.
 
 
       ```

@@ -34,12 +34,6 @@ tabs:
       * If you are on lansforsakringar.se without having logged in, a new page with editorial text is often a good option if you can’t keep it short and snappy.
 
       * If you’re logged in or in the process of buying something you want to keep the user in the main flow which leads to longer texts in collapsible mode being acceptable (but still not preferred). Please consider [modals](modal) as an alternative if the text can’t be kept short.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Supportive Microinteractions/Collapse)
     name: Design
   - content: >-
       ## How to use

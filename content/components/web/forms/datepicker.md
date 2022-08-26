@@ -49,12 +49,6 @@ tabs:
       The timepicker is not well suited for mobile devices and hence it is
       adviced that the timepicker be repalced with a native input control on
       mobile devices.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Datepicker)
     name: Design
 
   - content: >-

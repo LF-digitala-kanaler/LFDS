@@ -19,12 +19,6 @@ tabs:
 
 
       * Avatars are currently only in use in secure messages.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (System Display/Avatar)
     name: Design
   - content: >-
       ## Versions
@@ -55,7 +49,7 @@ tabs:
       ### Initials
 
 
-      Depending on your needs there is two different versions of this one. One with a background colour and one with only a border. 
+      Depending on your needs there is two different versions of this one. One with a background colour and one with only a border.
 
 
       ```

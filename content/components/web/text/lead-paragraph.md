@@ -31,7 +31,7 @@ tabs:
       ### Ingress (lansforsakringar.se)
 
 
-      In product pages (like [Villaförsäkring](https://www.lansforsakringar.se/privat/forsakring/hemforsakring/villa/)), try to keep the lead paragraph to two or three sentences and follow the sentences by presenting the USPs in a short format. 
+      In product pages (like [Villaförsäkring](https://www.lansforsakringar.se/privat/forsakring/hemforsakring/villa/)), try to keep the lead paragraph to two or three sentences and follow the sentences by presenting the USPs in a short format.
 
 
       * Do not use links in the lead paragraph.
@@ -42,7 +42,7 @@ tabs:
       *Use the text style called "Ingress" in the Sketch library when designing for lansforsakringar.se.*
 
 
-      ### Pay-off (Mina sidor) 
+      ### Pay-off (Mina sidor)
 
 
       The lead paragraph in Mina Sidor has been used in more diverse ways - preferably it should highlight some details about what is presented on the page. It is more closely linked to the heading than its lansforsakringar.se sibling and also has a smaller font size. The lead paragraph shouldn't span more than two rows on desktop - keeping the text on one row is preferred.
@@ -54,11 +54,5 @@ tabs:
 
 
       *Use the text style called "payoff" in the Sketch library when designing for Mina sidor.*
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Ingress" and "Payoff")
     name: Design
 ---

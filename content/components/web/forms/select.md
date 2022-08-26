@@ -79,12 +79,6 @@ tabs:
 
 
       **This switch happens automatically**, there is no need to feature detect touch devices.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Dropdown)
   - name: Copy
     content: >-
       ## How to write

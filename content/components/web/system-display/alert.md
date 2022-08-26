@@ -95,12 +95,6 @@ tabs:
 
 
       Want to see examples? Due to their temporary nature we can't provide links to live examples. The best way to see examples is to go to the doc site for Mina Sidor, and on the landing page click "dependencies" in the page (not in the top bar). There you can choose to generate an error message, which will be shown further down on the dependencies page. Or, you're lucky and lansforsakringar.se has an alert about corona or scams open.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (System Display/Alert)
     name: Design
   - content: >-
       ## Så skriver vi

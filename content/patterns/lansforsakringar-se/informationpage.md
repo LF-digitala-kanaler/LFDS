@@ -71,5 +71,3 @@ Bygg upp din text med mellanrubriker, grafer, tabeller och grafiska element, men
 [www.lansforsakringar.se/privat/bank/kort--betalningar/sparra-kort/](https://www.lansforsakringar.se/privat/bank/kort--betalningar/sparra-kort/)
 
 ## Other material[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons#other-material)
-
-**Sketch file:** LFUXAD Assets/Templates/Templates - Öppna sidor.sketch (nformationssida/ "Desktop" och "Mobile")

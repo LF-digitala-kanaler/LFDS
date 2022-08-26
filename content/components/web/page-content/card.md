@@ -22,22 +22,16 @@ tabs:
 
 
       Cards have historically been a part of page templates in both lansforsakringar.se and Mina sidor, but their future usage is under consideration as page templates are being redesigned so please check if the component still should be used before using it!
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Card)
     name: Design
   - name: Code
     content: >-
       ## How to use
 
 
-      It's not much to say about our Card component. It's built using Bootstrap's card component. Please see [Bootstrap card](https://getbootstrap.com/docs/4.0/components/card/) for full details on this use of the component. 
+      It's not much to say about our Card component. It's built using Bootstrap's card component. Please see [Bootstrap card](https://getbootstrap.com/docs/4.0/components/card/) for full details on this use of the component.
 
 
-      You can basically put anything you want inside `.card-block`. We do have some classes to help you with the styling, `.card-title` will give you the heading look, you can use  `.card-text` if you don't want the text to fill the card's width( it has a max-width on it).  
+      You can basically put anything you want inside `.card-block`. We do have some classes to help you with the styling, `.card-title` will give you the heading look, you can use  `.card-text` if you don't want the text to fill the card's width( it has a max-width on it).
 
 
       ```
@@ -54,7 +48,7 @@ tabs:
       ```
 
 
-      There is a couple of helpers classes to keep in mind. If you have cards in a row and you want them to have equal height you can wrap them with `.card-deck` 
+      There is a couple of helpers classes to keep in mind. If you have cards in a row and you want them to have equal height you can wrap them with `.card-deck`
 
 
       ```

@@ -65,7 +65,7 @@ tabs:
       ##### Prefix
 
 
-      If you need to put a label of sorts prior to the actual input area you can add the modifier "prefix". It might be usable in a context where the user has to enter a twitter handle or URL, but no actual uses of prefix with text are known at time of writing. It is however a technical prerequisite for the more common "prefix as image". 
+      If you need to put a label of sorts prior to the actual input area you can add the modifier "prefix". It might be usable in a context where the user has to enter a twitter handle or URL, but no actual uses of prefix with text are known at time of writing. It is however a technical prerequisite for the more common "prefix as image".
 
 
       ##### Prefix as image
@@ -77,19 +77,13 @@ tabs:
       ##### Suffix
 
 
-      Adds a label to the end of the input field, most commonly the unit (e.g. "kr", "years" and "m²"). 
+      Adds a label to the end of the input field, most commonly the unit (e.g. "kr", "years" and "m²").
 
 
       #### Text input with several lines (Textarea)
 
 
       If you need a text input field which spans several rows you should use the textarea-component. It is typically (perhaps exclusively) used for message text when the user can write a message to us. Although we set a height when the textarea the user can change the height of the textarea within its column as is web standard - we have however disabled horisontal resizing.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Input/ and Form/Input set/)
     name: Design
   - content: >-
       ## Så skriver vi
@@ -98,10 +92,10 @@ tabs:
       **Labels** skriver vi kort och skriver inte ut det som är uppenbart, inga onödiga ord som inte behövs för att förstå vad som ska fyllas i. Dock kan fler ord användas om det behövs för att undvika en för hård tonalitet, det ska fortfarande vara personligt. "Ange" använder vi inte i labels eftersom designen redan visar att användaren ska fylla i något, det är uppenbart att man ska "ange" något.
 
 
-      **Hjälptexter** under fältet används bara om det inte går att beskriva enkelt nog i labeln vad som ska fyllas i. 
+      **Hjälptexter** under fältet används bara om det inte går att beskriva enkelt nog i labeln vad som ska fyllas i.
 
 
-      **Placeholder-text** behöver bara användas om formatet är hårt styrt och det är stor risk att  användaren fyller i fel. 
+      **Placeholder-text** behöver bara användas om formatet är hårt styrt och det är stor risk att  användaren fyller i fel.
 
 
       **Fältvalidering** har vi som princip att vi berättar vad användaren ska göra "Fyll i" eller "Välj" + label. Tänk på att du ibland kan använda dig av glimten i ögat där det passar, och för att lätta upp.
@@ -130,7 +124,7 @@ tabs:
       #### Telefonnummer/Mobilnummer
 
 
-      Använd rätt begrepp beroende på vad som tillåts. För alla nummer, skriv Telefonnummer. För enbart mobilnummer, skriv Mobilnummer. 
+      Använd rätt begrepp beroende på vad som tillåts. För alla nummer, skriv Telefonnummer. För enbart mobilnummer, skriv Mobilnummer.
 
 
       Placeholder (om det måste skrivas med ett speciellt format): 070-xxxxxxx
@@ -268,12 +262,12 @@ tabs:
       All Input elements are "rebooted" by [Bootstrap reboot](https://getbootstrap.com/docs/4.0/content/reboot/#forms) for a more unified look. Using the class `.form-control` one can extend on those base styles.
 
 
-      The form control is only intended to be used with textual inputs such as email, textarea or passwords. 
+      The form control is only intended to be used with textual inputs such as email, textarea or passwords.
 
 
-      We will only focus on the `<input>` here but remember to always have a label with a for attribute that's  equal to the id attribute of the related element to bind them together. This will give screen reader users a better experience. 
+      We will only focus on the `<input>` here but remember to always have a label with a for attribute that's  equal to the id attribute of the related element to bind them together. This will give screen reader users a better experience.
 
-       
+
 
       <div class="Callout"><strong class="Callout__title">Your design friend don't want a label? </strong><p class="Callout__text">If you add an input of any sort you need a label to bind them together. However it is possible to hide it visually but still have it available for screen readers. Since LFUI is based on Bootstrap we have their helper class available for this. `.sr-only` will hide the element but keep it for screen readers to use.</p></div>
 
@@ -281,13 +275,13 @@ tabs:
       ### Variations
 
 
-      There are two main variations of input fields, the one-lined input and textarea. 
+      There are two main variations of input fields, the one-lined input and textarea.
 
 
       #### One-lined text input
 
 
-      All one-lined inputs needs  share the same base seen below. 
+      All one-lined inputs needs  share the same base seen below.
 
 
       ```
@@ -317,7 +311,7 @@ tabs:
       To give users a hint of what to enter in an input  it's always a good idea to att a **placeholder** attribute.
 
 
-      Placeholder text disappears after the user begins entering data into the Input and should not contain crucial information. 
+      Placeholder text disappears after the user begins entering data into the Input and should not contain crucial information.
 
 
       ```
@@ -329,7 +323,7 @@ tabs:
       #### Modifiers
 
 
-      The one-lined text input has several modifiers, all described below. Read more when to use them under the design tab. You can see all of these modifiers above in the example pane. 
+      The one-lined text input has several modifiers, all described below. Read more when to use them under the design tab. You can see all of these modifiers above in the example pane.
 
 
       ##### Prefix

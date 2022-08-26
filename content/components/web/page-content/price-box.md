@@ -38,12 +38,6 @@ tabs:
       * Accesibility-wise it is important that pricebox is before the primary button in the main flow so that people who use screen readers get access to the information.
 
       * As price box, [value box ](value-box)and [callout](callout) all are various ways of highlighting information you should avoid mixing them in one view.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Price box)
     name: Design
   - content: >-
       ## How to use

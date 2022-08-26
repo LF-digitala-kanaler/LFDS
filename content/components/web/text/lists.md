@@ -19,7 +19,7 @@ tabs:
       ## How to use
 
 
-      Users prefer copy formatted for ease of scanning, which allows them to easily skip through chunks of text to get to areas of interest. List elements helps to break up large blocks of text, make complex articles and product information easier to grasp, and make key information stand out. 
+      Users prefer copy formatted for ease of scanning, which allows them to easily skip through chunks of text to get to areas of interest. List elements helps to break up large blocks of text, make complex articles and product information easier to grasp, and make key information stand out.
 
 
       However, a page which is filled with bullet lists becomes difficult to read as well. For that reason we recommend that you only use one bullet list per page, and a have a rule of no more than one bullet list per section. For optimal reading experience, a bullet list should contain 3-5 items.
@@ -117,10 +117,6 @@ tabs:
 
       ## Other material
 
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Typography/Lists)
-
-
       **External link:** <https://www.nngroup.com/articles/presenting-bulleted-lists/>
     name: Design
   - name: Copy
@@ -128,7 +124,7 @@ tabs:
       ### To break down long sentences
 
 
-      You should always strive for having short items in the lists but sometimes it is harder to do. Here are some help. 
+      You should always strive for having short items in the lists but sometimes it is harder to do. Here are some help.
 
 
       **Do sections instead**\

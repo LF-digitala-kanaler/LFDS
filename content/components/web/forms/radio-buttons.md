@@ -116,12 +116,6 @@ tabs:
 
 
       If you have more than five options you are probably better off using a [dropdown select](./select).
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Radio buttons)
     name: Design
   - content: |-
       ## How to write

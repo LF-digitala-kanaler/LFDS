@@ -53,13 +53,4 @@ tabs:
 
 
       Error messages are displayed in Intro Cond, bold weight, 14 px and #E30613.
-
-
-      ## Other material
-
-
-      **Sketch file:**
-
-
-      LFUXAD Assets/LFUI Commons.sketch (Input/Label Style, Input/Error Style, Meta)
 ---

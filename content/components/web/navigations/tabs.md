@@ -71,12 +71,6 @@ tabs:
 
 
       *Note: it has been suggested to make responsive sidescroll a standard feature of the component, meaning that it will be always on.*
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Tabs)
     name: Design
   - content: >-
       ## How to use

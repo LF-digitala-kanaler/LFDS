@@ -22,19 +22,13 @@ tabs:
 
 
       As [price box](price-box), [value box](value-box) and callout all are various ways of highlighting information you should avoid mixing them in one view.
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Page Content/Callout)
     name: Design
   - name: Code
     content: >-
       ## How to use
 
 
-      Callout uses [Vivus](https://github.com/maxwellito/vivus) for the animation of the SVG. Animation initialise is not part of LFUI and something you have to do yourself. The animation should autostart when the component is in view. This is an example how the initialise script could look like. 
+      Callout uses [Vivus](https://github.com/maxwellito/vivus) for the animation of the SVG. Animation initialise is not part of LFUI and something you have to do yourself. The animation should autostart when the component is in view. This is an example how the initialise script could look like.
 
 
       ```

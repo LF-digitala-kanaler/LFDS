@@ -49,11 +49,6 @@ tabs:
 
       If you have more than five options you are probably better off using a [doprdown multi-select](../select#multiple).
 
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Form/Checkbox)
     name: Design
   - content: >-
       ## Så skriver vi

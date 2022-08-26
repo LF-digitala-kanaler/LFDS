@@ -37,7 +37,7 @@ tabs:
       ### Standard headings (h1-h6)
 
 
-      All normal headlines are set in Intro Cond Bold. The headings have margin spacing rules depending on their position in a section. 
+      All normal headlines are set in Intro Cond Bold. The headings have margin spacing rules depending on their position in a section.
 
 
       **H1-H5** have the text-colour "[Navy](/visual-identity/colours#complimentary-colours)" and only vary in size.\
@@ -78,7 +78,7 @@ tabs:
       ###### Red words in headings
 
 
-      If you want to emphasize some part of the heading you can choose to make that part "[Länsförsäkringar red](/visual-identity/colours#primary-colours)". The interplay between a blue heading with an emphasis on certain words with red colour is prominent in our ads and analog communication, and thus should be used in brand-bearing digital communication as well. As the red colour can disrupt the flow for certain users (like those with ADHD) we use it with caution in a digital context. 
+      If you want to emphasize some part of the heading you can choose to make that part "[Länsförsäkringar red](/visual-identity/colours#primary-colours)". The interplay between a blue heading with an emphasis on certain words with red colour is prominent in our ads and analog communication, and thus should be used in brand-bearing digital communication as well. As the red colour can disrupt the flow for certain users (like those with ADHD) we use it with caution in a digital context.
 
 
       If you see fit to highlight certain words in red, you should consider the following:
@@ -91,11 +91,5 @@ tabs:
       * Do not highlight more than three words
 
       * Make sure that most of the headline is in blue
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Commons.sketch (Text Style/ "Display" and "Heading")
     name: Design
 ---

@@ -80,5 +80,3 @@ För dig som ska försäkra din bil
 [www.lansforsakringar.se/privat/bank/lana/](https://www.lansforsakringar.se/blekinge/privat/bank/lana/)
 
 ## Other material[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons#other-material)
-
-**Sketch file:** LFUXAD Assets/Templates/Templates - Öppna sidor.sketch (Full page templates/Navigationssida/ "Desktop" och "Mobile")

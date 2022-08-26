@@ -104,5 +104,3 @@ Här ska endast information om produkten vara.
 <https://www.lansforsakringar.se/blekinge/privat/bank/lana/bolan/>
 
 ## Other material[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons#other-material)
-
-**Sketch file:** LFUXAD Assets/Templates/Templates - Öppna sidor.sketch (Full page templates/Produktsida/ "Desktop" och "Mobile")

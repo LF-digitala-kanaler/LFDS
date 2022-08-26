@@ -59,7 +59,7 @@ tabs:
 
       **Qualitative**\
 
-      When the current version of pagination was designed there was a lot of discussion in the design team as whether to use it or a more explanatory version. A number of sketches of different alternatives were tested, and the current design was chosen as the winner after a number of discussions and user tests. 
+      When the current version of pagination was designed there was a lot of discussion in the design team as whether to use it or a more explanatory version. A number of sketches of different alternatives were tested, and the current design was chosen as the winner after a number of discussions and user tests.
 
 
       <figure class="Image Image__border "><img src="/img/pagination-old.jpg" srcset="/img/pagination-old.jpg 2x" alt=""><figcaption><div class="Image__caption">Old version of pagination which didn't pass through user testing</div></figcaption></figure>
@@ -69,24 +69,18 @@ tabs:
 
 
       <figure class="Image Image__border "><img src="/img/pagination-old-number-and-label.jpg" srcset="/img/pagination-old-number-and-label.jpg 2x" alt="Old sketch of pagination with step number and label"><figcaption><div class="Image__caption">Old sketch of pagination with step number and label</div></figcaption></figure>
-
-
-      ## Other material
-
-
-      **Sketch file:** LFUXAD Assets/LFUI Web.sketch (Navigations/Pagination)
     name: Design
   - content: >-
       ## How to use
 
 
-      Pagination is built with list HTML elements so screen readers can announce the number of available links. 
+      Pagination is built with list HTML elements so screen readers can announce the number of available links.
 
 
       ### Variations
 
 
-      There is two variations of pagination. One built with links which you can navigate back in and one built without links which you can't navigate in. 
+      There is two variations of pagination. One built with links which you can navigate back in and one built without links which you can't navigate in.
 
 
       #### Links
@@ -127,7 +121,7 @@ tabs:
       ### Accessibility(Link variation)
 
 
-      For sighted users, it’s clear that the numbers will help him navigating different pages. But for an AT user, it’s completely different. By using `aria-label`, we can add a label to each link, so instead of hearing the screen reader saying `Link, 1` it will be `Link, Goto Page 1` . 
+      For sighted users, it’s clear that the numbers will help him navigating different pages. But for an AT user, it’s completely different. By using `aria-label`, we can add a label to each link, so instead of hearing the screen reader saying `Link, 1` it will be `Link, Goto Page 1` .
 
 
       To indicate which element is active, we need to tweak the value of `aria-label` by something like `Page 3, Current page` . Also, we will use `aria-current=true` for that.
