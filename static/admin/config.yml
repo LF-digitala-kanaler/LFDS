@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: LF-digitala-kanaler/LFDS
   branch: main
 
@@ -974,18 +974,24 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             hint: Display Role specifik information above checklist
             fields:
-            - { label: 'Text', name: 'text', widget: 'markdown', required: false, editor_components: ['callout', 'LFDSImage', 'code', 'code-block']}
-            - label: 'Tags'
-              name: 'tags'
-              widget: 'select'
-              multiple: true
-              options:
-                - { label: 'All roles', value: 'All roles' }
-                - { label: 'UX/AD', value: 'UX/AD' }
-                - { label: 'Developer', value: 'Developer' }
-                - { label: 'Tester', value: 'Tester' }
-                - { label: 'Copy', value: 'Copy' }
-
+              - {
+                  label: 'Text',
+                  name: 'text',
+                  widget: 'markdown',
+                  required: false,
+                  editor_components:
+                    ['callout', 'LFDSImage', 'code', 'code-block']
+                }
+              - label: 'Tags'
+                name: 'tags'
+                widget: 'select'
+                multiple: true
+                options:
+                  - { label: 'All roles', value: 'All roles' }
+                  - { label: 'UX/AD', value: 'UX/AD' }
+                  - { label: 'Developer', value: 'Developer' }
+                  - { label: 'Tester', value: 'Tester' }
+                  - { label: 'Copy', value: 'Copy' }
 
           - name: 'checklist'
             label: 'Checklist'
