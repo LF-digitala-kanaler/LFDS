@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   repo: LF-digitala-kanaler/LFDS
   branch: main
+  site_url: https://lf-digitala-kanaler.github.io
 
 media_folder: static/img
 public_folder: /img
