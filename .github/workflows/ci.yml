@@ -16,7 +16,7 @@ jobs:
       - name: Install
         run: npm ci
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Test
         run: npm test
