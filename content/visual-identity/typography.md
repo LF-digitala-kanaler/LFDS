@@ -2,12 +2,12 @@
 template: ArticlePage
 previewImage: /img/typo.svg
 title: Typography
-intro: 'Our typography is a vital part of Länsförsäkringars visual identity.
+intro: "Our typography is a vital part of Länsförsäkringars visual identity.
   With two main typefaces – one of them custom made; LF Rubrik – we can create
-  consistent visuals that speaks our brand. '
+  consistent visuals that speaks our brand. "
+contentTop: ""
 wide: false
 lang: false
-contentTop: ''
 ---
 
 <LfuiWrapper script="">
@@ -66,4 +66,4 @@ Our main page headlines are usually set in _LF Rubrik_. The rest of the headline
 
 ### Variations
 
-For Android and iOS we use Roboto and SFUIDisplay instead of Arial.
+For Android and iOS we use Roboto and SF Pro instead of Arial for main text.
