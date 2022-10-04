@@ -5,11 +5,7 @@ title: Photography
 intro: We want to build a visual world where people feel at home. That´s why we
   portray people's everyday lives and the different stages of life. We want our
   images to communicate the brand in a appealing and consistent way.
-contentTop: >-
-  ## How components are displayed
-
-
-  The different components are grouped together based on what they are used for, and you can  will find a visual example of each component on the group page to help you find the right component if you're unfamiliar with LFUI.
+contentTop: ""
 heroBlock:
   image: /img/photo_hero.webp
 wide: false
