@@ -11,7 +11,6 @@ description: >-
   With graphic objects we can communicate more complex messages.
 
   The graphic objects relates to our illustration but are often one single object. We can explain events, products, situations and environments.
-
 wide: false
 lang: false
 ---
@@ -22,7 +21,7 @@ lang: false
 
 ## Resources
 
-In the LFUI-graphics.sketch document you will find a lot of graphics. These graphics are optimized for digital use with correct RGB values and the original size has a 3px stroke.
+In the Figmafile WIP_Commons you will find a lot of graphics. These graphics are optimized for digital use with correct RGB values and the original size has a 3px stroke.
 
 ### Combining objects to illustrations
 
