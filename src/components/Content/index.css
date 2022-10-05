@@ -82,7 +82,8 @@
 
 .Content a {
   color: var(--color-black);
-  text-underline-position: under;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.1em;
 }
 
 .Content ul {

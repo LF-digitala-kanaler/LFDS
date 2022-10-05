@@ -12,16 +12,14 @@ componentsNavigation:
   - name: Alerting
   - name: Navigational
   - name: Landing page
-backgroundColor: "#f3f3f3"
+backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
       ## How to use
 
       Shortcuts are used to highlight alternative actions from the current flow which we think are important for the user. They are either of a more alerting nature or navigational, and each design only corresponds to one of these two uses. For both use cases the shortcut takes the user into another flow than the one they came from.
 
-
       Shortcuts are normally spanning the whole row, except for [multiple-lined shortcuts](#multiple-lined-shortcut) which may have two next to each other. They also feature a 2px shadow on the bottom to highlight that they can be clicked.
-
 
       ## Variations
 
