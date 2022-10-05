@@ -12,7 +12,7 @@ componentsNavigation:
   - name: Alerting
   - name: Navigational
   - name: Landing page
-backgroundColor: '#f3f3f3'
+backgroundColor: "#f3f3f3"
 tabs:
   - content: >-
       ## How to use
@@ -149,20 +149,7 @@ tabs:
 
       <a href="#foo" class="shortcut">Digital guide</a>
 
-
       ```
-
-
-      ### Modifier
-
-
-      You have the option to add an icon to the one-lined shortcut as well. Simple add `.shortcut-icon` and properly insert a 20px icon.
-
-
-      ### Multiple-lined shortcut
-
-
-      There is also an option to extend the shortcut to add more content if you need. As seen in the examples below you can add `.shortcut-two-lines` or `.shortcut-multi-lines` to create a shortcut with more content. If you use the later one, beware it changes icons between breakpoints so you will have to define two icons.
 
 
       ```
@@ -190,13 +177,13 @@ tabs:
       ```
 
 
-      ## Landing page shortcuts
+      ## Box shortcut
 
 
-      You can build landing page shortcuts by adding `.shortcut-landing-page` to your shortcut. See the example below.
+      You can build landing page shortcuts by adding `.shortcut-box` to your shortcut. See the example below.
 
 
-      Since LFUI dosen't scale icons Landing page shortcut will need two icons defined, one for screens smaller than 768px and one for screens larger than 768px. Which one that will be display is controlled with [bootstraps display classes ](https://getbootstrap.com/docs/4.0/utilities/display/).
+      Since LFUI dosen't scale icons, Landing page shortcut will need two icons defined, one for screens smaller than 768px and one for screens larger than 768px. Which one that will be display is controlled with [bootstraps display classes ](https://getbootstrap.com/docs/4.0/utilities/display/).
 
 
       Use a 24px icon for small screens and a 40px icon for larger screens.
