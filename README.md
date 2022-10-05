@@ -2,13 +2,12 @@
 
 The website and content for our design system – the heart of digital design at Länsförsäkringar.
 
-[Design system →](https://lf-digitala-kanaler.github.io/) &nbsp;&nbsp;&nbsp;&nbsp; [CMS →](https://lf-digitala-kanaler.github.io/admin/)
+[Design system →](https://lfds.netlify.app/) &nbsp;&nbsp;&nbsp;&nbsp; [CMS →](https://lfds.netlify.app/admin/)
 
 # Getting started
 
 First, you'll need to authenticate with [GitHub Packages][github-packages]. The easiest way is by logging in with npm. To do that, [generate a personal
 access token][personal-access-token] which you use as your password. Make sure to give it access rights to the `repo` and `read:packages` scopes.
-
 
 ```
 npm login --scope=@lf-digitala-kanaler --registry=https://npm.pkg.github.com
@@ -91,7 +90,7 @@ This works well, but a couple of things to note:
 
 ## Configuring the CMS
 
-Netlify CMS allows for configuring of pages, fields, posts, and settings. See the [Netlify CMS documentation][netlify-cms-docs] and apply via `static/admin/config.yml`. 
+Netlify CMS allows for configuring of pages, fields, posts, and settings. See the [Netlify CMS documentation][netlify-cms-docs] and apply via `static/admin/config.yml`.
 
 [cms]: https://lf-digitala-kanaler.github.io/admin/
 [github-packages]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages

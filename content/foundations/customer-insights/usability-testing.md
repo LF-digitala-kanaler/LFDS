@@ -20,6 +20,6 @@ Ansvarig för användningstester är UX designer Emma Nilsson. Att vara ansvarig
 
 <div class="Callout"><strong class="Callout__title">Tänk på att </strong><p class="Callout__text">Testa från första skiss till fullfjädrad prototyp och glöm inte få med design och copy i några av testerna så du testar i sin helhet.</p></div>
 
-[LFUI](https://lf-digitala-kanaler.github.io/LFUI-components/)
+[LFUI](https://lfds.netlify.app/LFUI-components/)
 
-[Prototypes](https://lf-digitala-kanaler.github.io/Prototypes)
+[Prototypes](https://lfds.netlify.app/Prototypes)

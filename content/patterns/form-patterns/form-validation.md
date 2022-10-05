@@ -73,4 +73,4 @@ As the technical implementation of form validation differs a bit from how the us
 
 ## Copy
 
-Copy for validation is found under [labels](https://lf-digitala-kanaler.github.io/components/web/forms/input-field?copy)
+Copy for validation is found under [labels](https://lfds.netlify.app/components/web/forms/input-field?copy)

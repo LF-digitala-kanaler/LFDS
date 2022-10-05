@@ -5,14 +5,7 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": [
-          "10.0.0",
-          "8.0.0",
-          "6.5.0",
-          "5.2.0",
-          "4.2.0",
-          "3.4.0"
-        ]
+        "changedInVersion": ["8.0.0", "6.5.0", "5.2.0", "4.2.0", "3.4.0"]
       }
     },
     {
@@ -124,7 +117,6 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
-          "10.0.0",
           "9.0.0",
           "6.5.0",
           "6.1.0",
@@ -147,12 +139,27 @@
       }
     },
     {
+      "component": "distribution-bar",
+      "bootstrap": {
+        "new": false,
+        "deprecated": false,
+        "changedInVersion": ["6.5.0"],
+        "examples": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Progress Bar"
+          }
+        ]
+      }
+    },
+    {
       "component": "Dropdown",
       "bootstrap": {
         "new": false,
         "deprecated": true,
         "changedInVersion": [
-          "10.0.0",
           "8.0.0",
           "7.0.0",
           "6.5.0",
@@ -187,7 +194,6 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
-          "10.0.0",
           "5.3.0",
           "5.2.0",
           "5.1.0",
@@ -242,7 +248,6 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
-          "10.0.0",
           "6.6.0",
           "6.4.0",
           "5.4.0",
@@ -391,7 +396,6 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
-          "9.0.0",
           "6.5.0",
           "6.1.0",
           "5.4.0",
@@ -420,7 +424,7 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["9.0.0"],
+        "changedInVersion": ["8.0.0"],
         "examples": [
           {
             "name": "Select Single"
@@ -436,7 +440,7 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["10.0.0", "8.0.0", "6.7.0", "6.5.0", "3.3.0"],
+        "changedInVersion": ["8.0.0", "6.7.0", "6.5.0", "3.3.0"],
         "examples": [
           {
             "name": "Alerting"
@@ -455,7 +459,7 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["10.0.0", "8.0.0", "6.4.0", "5.3.0"],
+        "changedInVersion": ["8.0.0", "6.4.0", "5.3.0"],
         "examples": [
           {
             "name": "Value"

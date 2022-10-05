@@ -20,7 +20,7 @@ Below is an example of how form elements should be grouped, with the [label](/co
 
 The three form elements should be used as follows:
 
-- The **label** should tell the user what they are expected to enter in the form element at hand. Typical examples are "Personnummer" and "E-post". Copy for labels is found under each component under [Forms](https://lf-digitala-kanaler.github.io/components/web/forms).
+- The **label** should tell the user what they are expected to enter in the form element at hand. Typical examples are "Personnummer" and "E-post". Copy for labels is found under each component under [Forms](https://lfds.netlify.app/components/web/forms).
 - The **input element** can feature a placeholder text. The placeholder text should be used to give an example of expected format if there are limitations on how to write them (examples can be found under the copy-tab of the element, like here on[ input field](/components/web/forms/input-field?copy)). Important! As the text disappears as soon as the user enters any information, the information shouldn't be necessary to be able to fill in the input element.
 - **Input descriptions** are used when we need/want to give further explanation or instructions to the user. They should also be kept short and not span more than two rows - if you can't keep it that short you should instead use a "[read more](../patterns/general-patterns/read-more)". An example is "Lämna fältet tomt om namnet inte är bestämt" from the [purchase flow for kid insurance](https://www.lansforsakringar.se/stockholm/privat/forsakring/personforsakring/gravidforsakring/ansok/).
 

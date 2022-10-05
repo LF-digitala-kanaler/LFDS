@@ -103,4 +103,4 @@ Här ska endast information om produkten vara.
 
 <https://www.lansforsakringar.se/blekinge/privat/bank/lana/bolan/>
 
-## Other material[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons#other-material)
+## Other material[](https://lfds.netlify.app/components/web/button-and-links/buttons#other-material)

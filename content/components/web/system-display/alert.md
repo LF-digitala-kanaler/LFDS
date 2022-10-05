@@ -10,9 +10,9 @@ description: Alerts are used to provide contextual messages for typical user
 previewImage: /img/alert.svg
 category: System display
 componentsNavigation:
-    - name: Default
-    - name: Banner
-backgroundColor: "#fff"
+  - name: Default
+  - name: Banner
+backgroundColor: '#fff'
 tabs:
   - content: >-
       ## How to use
@@ -54,7 +54,7 @@ tabs:
       Confirmation on changes to settings or updated information can see a success alert appearing in order to tell the user that the changes were successful upon clicking a confirm button but staying on the same page. It is however very rarely used in the public web.
 
 
-      ### Modifiers[](https://lf-digitala-kanaler.github.io/components/web/system-display/alert#modifiers)
+      ### Modifiers[](https://lfds.netlify.app/components/web/system-display/alert#modifiers)
 
 
       There are several modifiers available for the alerts, with corresponding styling for all four versions.

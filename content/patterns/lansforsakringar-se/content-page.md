@@ -6,11 +6,12 @@ intro: Kontentmallen används specifikt för att lyfta redaktionellt innehåll s
   informationssidor. Bra tips där kontentmallen kan bidra är just
   skadeförebyggssamlingssidorna och även för hållbarhet och hälsa med mycket
   artiklar.
-contentTop: ""
+contentTop: ''
 wide: false
 lang: false
 hidden: false
 ---
+
 ## Syfte
 
 **Primärt:** Vara en navigationssida men lyfta upp artiklar på ett bättre sätt.
@@ -21,7 +22,7 @@ Vi har fått en ny mall att jobba med i EpiServer. Den är främst till för att
 De sidor som kommer få den nya mallen i dagsläget är [Skadeförebygg](https://www.lansforsakringar.se/stockholm/privat/forsakring/skadeanmalan/), Hållbarhetssidorna och Häsoportalen.\
 Tanken är att navigationssidor som har mycket innehåll under sitt paraply, som kanske presenteras bättre med en bild och text ska kunna använda mallen. Men de vanliga navigationssidorna fungerar som de tidigare har gjort.
 
-Kontentsidan länkar alltid till informationssidor. Alla komponenter som finns i den nya kontentmallen finns också i [kampanjsida ](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/campaign-page)(mallen) ska användas vid kampanjer. 
+Kontentsidan länkar alltid till informationssidor. Alla komponenter som finns i den nya kontentmallen finns också i [kampanjsida ](https://lfds.netlify.app/patterns/lansforsakringar-se/campaign-page)(mallen) ska användas vid kampanjer.
 
 Hör gärna av dig till Isabell om du har frågor eller känner att det finns en navigationssida som skulle må bra av den nya mallen.
 

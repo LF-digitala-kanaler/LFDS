@@ -178,10 +178,10 @@ tabs:
       ### Primary with BankID icon
 
 
-      [Gå till BankID under Patterns ](https://lf-digitala-kanaler.github.io/patterns/general-patterns/bank-id)
+      [Gå till BankID under Patterns ](https://lfds.netlify.app/patterns/general-patterns/bank-id)
 
 
-      ### [](https://lf-digitala-kanaler.github.io/patterns/general-patterns/bank-id)Primärknapp med autogiro
+      ### [](https://lfds.netlify.app/patterns/general-patterns/bank-id)Primärknapp med autogiro
 
 
       På kvittosidan i köptjänster finns ibland en primärknapp med länk till digital ansökan om autogiro.

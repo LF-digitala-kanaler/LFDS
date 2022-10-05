@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'LFDS',
     headline: 'Länsförsäkringar Design System',
-    siteUrl: 'https://lf-digitala-kanaler.github.io/'
+    siteUrl: 'https://lfds.netlify.app/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -170,10 +170,7 @@ module.exports = {
             options: {
               absoluteUrls: [
                 //Here I am using pretty much every protocol combination you could expect for a www... site
-                'https://lf-digitala-kanaler.github.io',
-                'https://www.lf-digitala-kanaler.github.io',
-                'http://lf-digitala-kanaler.github.io',
-                'http://www.lf-digitala-kanaler.github.io'
+                'https://lfds.netlify.app/'
               ],
               developmentLocation: `http://localhost:8000` //optional, defaults to http://localhost:8000
             }

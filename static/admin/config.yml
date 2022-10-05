@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   repo: LF-digitala-kanaler/LFDS
   branch: main
-  site_url: https://lf-digitala-kanaler.github.io
+  site_url: https://lfds.netlify.app/
 
 media_folder: static/img
 public_folder: /img

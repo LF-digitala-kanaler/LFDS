@@ -77,7 +77,7 @@ tabs:
 
       * You may also repeat the styling of the label-row, and this should thus primarily be used for labels.
 
-      * If you want to show more detailed information in just one cell and using sub-headers doesn't work well you could opt for a **sub-group**. Sub-groups show the first line as a normal cell, and then intendent the remain rows of the cell to give them a feeling of being a sub-group. The main use case for this is to show what is included in a part of an insurance, like "delkasko" in this [car insurance prototype](https://lf-digitala-kanaler.github.io/prototypes/koptjanst-motor/#/Page3?_k=c1fm2b).
+      * If you want to show more detailed information in just one cell and using sub-headers doesn't work well you could opt for a **sub-group**. Sub-groups show the first line as a normal cell, and then intendent the remain rows of the cell to give them a feeling of being a sub-group. The main use case for this is to show what is included in a part of an insurance, like "delkasko" in this [car insurance prototype](https://lfds.netlify.app/prototypes/koptjanst-motor/#/Page3?_k=c1fm2b).
 
 
       ##### Expandable rows

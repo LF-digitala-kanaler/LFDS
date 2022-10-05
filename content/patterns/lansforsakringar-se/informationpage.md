@@ -3,17 +3,18 @@ template: ArticlePage
 category: Lansforsakringar se
 previewImage: /img/lf_se-informationpage.png
 title: Information page
-intro: "Informationssidan ska ge kunden mer och djupare information om ett ämne.
-  Viktigt att bygga upp texten på ett sätt så den är lätt att ta in. "
+intro: 'Informationssidan ska ge kunden mer och djupare information om ett ämne.
+  Viktigt att bygga upp texten på ett sätt så den är lätt att ta in. '
 description: The information page should do just that - give some more information.
-contentTop: ""
+contentTop: ''
 wide: false
 lang: true
 hidden: false
 ---
+
 <figure class="Image null "><img src="/img/lfse-informationssidan.jpg" srcset="/img/lfse-informationssidan.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-## Syfte[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#syfte)
+## Syfte[](https://lfds.netlify.app/patterns/lansforsakringar-se/product-page#syfte)
 
 **Primärt syfte:** Ge djupare information om ett ämne
 
@@ -23,7 +24,7 @@ Vi skapar informationssidor där det behövs en fördjupning i ett ämne som kun
 
 Läs mer om hur du bygger upp text på ett bra sätt
 
-## Delar på sida[](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/product-page#delar-p%C3%A5-sida)
+## Delar på sida[](https://lfds.netlify.app/patterns/lansforsakringar-se/product-page#delar-p%C3%A5-sida)
 
 ### Inledning
 
@@ -37,9 +38,7 @@ Glöm inte att använda punkter, bockar eller grafik för att förenkla texten. 
 
 Bild, grafik och filmer kan du placera över hela ytan 100%, 50% eller som 33%.
 
-[Du kan använda alla olika funktioner som vi listar även på kampanjsidan](https://lf-digitala-kanaler.github.io/patterns/lansforsakringar-se/campaign-page)
-
-
+[Du kan använda alla olika funktioner som vi listar även på kampanjsidan](https://lfds.netlify.app/patterns/lansforsakringar-se/campaign-page)
 
 ### Relaterad information
 
@@ -70,4 +69,4 @@ Bygg upp din text med mellanrubriker, grafer, tabeller och grafiska element, men
 
 [www.lansforsakringar.se/privat/bank/kort--betalningar/sparra-kort/](https://www.lansforsakringar.se/privat/bank/kort--betalningar/sparra-kort/)
 
-## Other material[](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons#other-material)
+## Other material[](https://lfds.netlify.app/components/web/button-and-links/buttons#other-material)

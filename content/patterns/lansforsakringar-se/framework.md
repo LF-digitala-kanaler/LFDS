@@ -8,12 +8,13 @@ intro: Ramar in länsförsäkringar.se med en bra struktur så att användaren k
 description: Ramar in länsförsäkringar.se med en bra struktur så att användaren
   känner sig trygg och att hen ska hitta det hen söker efter. Vi går igenom de
   olika delarna i huvudet och i footern.
-contentTop: ""
-priority: "1"
+contentTop: ''
+priority: '1'
 wide: false
 lang: false
 hidden: false
 ---
+
 <figure class="Image Image__border "><img src="/img/lfse-ramverk.jpg" srcset="/img/lfse-ramverk.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
 ## Syfte
@@ -26,13 +27,13 @@ Ramverket ska ta hand om användaren och klara av att ge användaren en bra uppl
 
 ### Header
 
-Huvudet på sidan är viktigt, det första jag ser och det som gör att jag känner att jag kommit rätt.. 
+Huvudet på sidan är viktigt, det första jag ser och det som gör att jag känner att jag kommit rätt..
 
 #### Top header
 
 ##### Logotype
 
-Logotypen är alltid ett Länsbolags logotyp, det styrs av GPS eller ett val första gången du kommer in på sidan. 
+Logotypen är alltid ett Länsbolags logotyp, det styrs av GPS eller ett val första gången du kommer in på sidan.
 
 ##### Byte av Länsförsäkringsbolag
 
@@ -52,15 +53,15 @@ Lantbruk finns dock kvar för att lyft vårt ursprung och att vi värnar extra s
 
 Logga in knappen är i en egen unik blå färg. Vi vill bara ha ett primärt val på varje sida - primärvalsknappen som konverterar på sidorna eller ta mig framåt i content på sidan, så valde vi att sätta Logg in i en egen färg.
 
-[Läs mer om knappar](https://lf-digitala-kanaler.github.io/components/web/button-and-links/buttons)
+[Läs mer om knappar](https://lfds.netlify.app/components/web/button-and-links/buttons)
 
 #### Top menu
 
 Topp menyn tar användaren vidare till våra produkter inom Försäkring, bank och pension men även en tydlig väg till Om oss, kontakta oss och sök.
 
-Vi har valt att använda oss av en toppmeny som fälls ner. 
+Vi har valt att använda oss av en toppmeny som fälls ner.
 
-Du kan läsa mer om hur vi kom fram till menyns utformande  och meny val i sammanställningen här:
+Du kan läsa mer om hur vi kom fram till menyns utformande och meny val i sammanställningen här:
 
 ### Footer
 
@@ -80,14 +81,12 @@ Här samlar vi det som du kanske söker efter men som du inte hittar i direkt na
 
 ##### Länkar
 
-Krav från juridik är att dessa länkar alltid finns närvarande på lf.se. 
+Krav från juridik är att dessa länkar alltid finns närvarande på lf.se.
 
-* Personuppgifter
-* Cookies
-* Användarvillkor
-* Resdens in the U.S
-
-
+- Personuppgifter
+- Cookies
+- Användarvillkor
+- Resdens in the U.S
 
 #### Mobile version
 

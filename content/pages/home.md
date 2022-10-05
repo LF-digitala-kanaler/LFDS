@@ -31,16 +31,18 @@ shortcutsBottom:
     title: Guiding principles
   - icon: /img/cx.svg
     link: /foundations/accessibility
-    text: Making sure that our services provide good accessibility isn't only the
+    text:
+      Making sure that our services provide good accessibility isn't only the
       right thing to do, it's also the law.
     title: Accessibility
   - icon: /img/user_testing_.svg
     link: /foundations//customer-insights
-    text: This section describes how we work with customer insights in various ways,
+    text:
+      This section describes how we work with customer insights in various ways,
       from explanatory interviews to usability testing.
     title: Customer insights
 meta:
-  description: ""
+  description: ''
   title: Länsförsäkringar Design System
 shortcutsImage:
   - icon: /img/developer_icon.svg
@@ -57,5 +59,5 @@ shortcutsImage:
     title: Developer
 relatedLinks:
   - text: Prototypes
-    url: https://lf-digitala-kanaler.github.io/prototypes/
+    url: https://lfds.netlify.app/prototypes/
 ---
