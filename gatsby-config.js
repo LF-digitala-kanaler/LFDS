@@ -96,7 +96,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/html`,
+        path: `${__dirname}/node_modules/@lansforsakringar/components/dist/docs/html`,
         name: 'componentExample'
       }
     },

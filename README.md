@@ -6,26 +6,7 @@ The website and content for our design system – the heart of digital design at
 
 # Getting started
 
-First, you'll need to authenticate with [GitHub Packages][github-packages]. The easiest way is by logging in with npm. To do that, [generate a personal
-access token][personal-access-token] which you use as your password. Make sure to give it access rights to the `repo` and `read:packages` scopes.
-
-```
-npm login --scope=@lf-digitala-kanaler --registry=https://npm.pkg.github.com
-```
-
-Add a `.npmrc` file in your project root folder.
-
-```
-@lf-digitala-kanaler:registry=https://npm.pkg.github.com
-```
-
-Add an `.env` file in your project root folder.
-
-```
-GITHUB_TOKEN=<INSERT_PERSONAL_ACCESS_TOKEN>
-```
-
-Install the dependencies as you normally would with npm.
+Clone the repo and run;
 
 ```
 npm install
@@ -71,8 +52,8 @@ To determine which component to display on a specific LFDS page, we match compon
 Whenever new version of [Components][lfui-components] or [Icons][lfui-icons] are released, LDFS will need to be updated and rebuilt.
 
 ```
-npm install -D @lf-digitala-kanaler/lfui-components@latest
-npm install -D @lf-digitala-kanaler/lfui-icons@latest
+npm install -D @lansforsakringar/components@latest
+npm install -D @lansforsakringar/icons@latest
 ```
 
 # Editing content

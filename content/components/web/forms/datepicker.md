@@ -100,7 +100,7 @@ tabs:
 
       ```
 
-      import { datepicker } from '@lf-digitala-kanaler/lfui'
+      import { datepicker } from '@lansforsakringar/components'
 
 
       datepicker(document.getElementById('my-date'))
@@ -116,7 +116,7 @@ tabs:
 
       ```
 
-      import { datepicker, DEFAULTS } from '@lf-digitala-kanaler/lfui'
+      import { datepicker, DEFAULTS } from '@lansforsakringar/components'
 
 
       datepicker(document.getElementById('my-date'), {

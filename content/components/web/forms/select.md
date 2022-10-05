@@ -119,7 +119,7 @@ tabs:
 
       ```js
 
-      import select from '@lf-digitala-kanaler/lfui-components/select'
+      import select from '@lansforsakringar/components/select'
 
       const mySelectElement = document.querySelector('#my-select')
 
@@ -134,7 +134,7 @@ tabs:
 
       ```js
 
-      import { select } from '@lf-digitala-kanaler/lfui-components'
+      import { select } from '@lansforsakringar/components'
 
       ```
 
@@ -247,7 +247,7 @@ tabs:
 
       ```js
 
-      import select from '@lf-digitala-kanaler/lfui-components/select'
+      import select from '@lansforsakringar/components/select'
 
 
       const element = document.querySelector('#my-select')
@@ -375,7 +375,7 @@ tabs:
 
       import React from 'react'
 
-      import { select } from '@lf-digitala-kanaler/lfui-components/select'
+      import { select } from '@lansforsakringar/components/select'
 
 
       export function MyList () {

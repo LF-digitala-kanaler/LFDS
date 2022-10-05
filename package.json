@@ -12,9 +12,9 @@
     "format": "prettier -w \"{gatsby-*.js,src/**/*.js}\" && stylelint src/**/*.css --fix",
     "test": "prettier -c \"{gatsby-*.js,src/**/*.js}\" && stylelint src/**/*.css",
     "copy": "npm run copy:status && npm run copy:docs && npm run copy:icons",
-    "copy:docs": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/main.umd.js\" static/docs",
-    "copy:icons": "copyfiles -u 4 \"node_modules/@lf-digitala-kanaler/lfui-icons/dist/@(svg|sprite)/**/**/*\" static/lf-icons",
-    "copy:status": "copyfiles -f \"node_modules/@lf-digitala-kanaler/lfui-components/dist/docs/data/componentsStatus.json\" src/data"
+    "copy:docs": "copyfiles -f \"node_modules/@lansforsakringar/components/dist/docs/main.umd.js\" static/docs",
+    "copy:icons": "copyfiles -u 4 \"node_modules/@lansforsakringar/icons/dist/@(svg|sprite)/**/**/*\" static/lf-icons",
+    "copy:status": "copyfiles -f \"node_modules/@lansforsakringar/components/dist/docs/data/componentsStatus.json\" src/data"
   },
   "engines": {
     "node": "16.x"
@@ -24,9 +24,9 @@
     "url": "https://github.com/LF-digitala-kanaler/LFDS"
   },
   "dependencies": {
-    "@lf-digitala-kanaler/fonts": "^1.0.3",
-    "@lf-digitala-kanaler/lfui-components": "^10.1.0",
-    "@lf-digitala-kanaler/lfui-icons": "^2.2.0",
+    "@lansforsakringar/fonts": "^1.0.3",
+    "@lansforsakringar/components": "^10.1.0",
+    "@lansforsakringar/icons": "^2.2.0",
     "@reach/router": "^1.3.4",
     "@reach/tabs": "^0.17.0",
     "babel-preset-gatsby": "^1.14.0",

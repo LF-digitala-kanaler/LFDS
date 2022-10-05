@@ -142,12 +142,12 @@ tabs:
       The native `input[type="range"]` HTML element unfortunately does not support the ability to have more than one range-thumb (the button you move back and forth). Use-cases have begun appearing where such a feature is requested in order for a user to select a span inside the range. To achieve this, we have created a custom element which is a wrapper around the native `input[type="range"]` element.
 
 
-      The `interval` function can be imported from `@lf-digitala-kanaler/lfui-components` and takes a range input element as its only argument. The range input element will be extended with the custom properties `valueLow` and `valueHigh` which can be used to get and set the values of the range input. The `value` property is a comma delimited string with the low and high values.
+      The `interval` function can be imported from `@lansforsakringar/components` and takes a range input element as its only argument. The range input element will be extended with the custom properties `valueLow` and `valueHigh` which can be used to get and set the values of the range input. The `value` property is a comma delimited string with the low and high values.
 
 
       ```javascript
 
-      import { interval } from '@lf-digitala-kanaler/lfui-components'
+      import { interval } from '@lansforsakringar/components'
 
 
       const low = document.getElementById('my-slider-low')

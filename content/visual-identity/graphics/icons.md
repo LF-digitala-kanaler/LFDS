@@ -17,7 +17,7 @@ description: >-
   The icons are less abstract and more specific then the graphic objects. They should support the textual information or cluster information.
 
   The icons come in various sizes, Each size with variations of details.
-contentTop: ""
+contentTop: ''
 ---
 
 <figure class="Image Image__border Image__wide"><img src="/img/icons.jpg" srcset="/img/icons.jpg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
@@ -38,7 +38,7 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 
 <div class="ImageBlock ImageBlock__right"><div class="ImageBlock__content">
 
-The SVG icons are published to GitHub Packages and are available in the [@lf-digitala-kanaler/lf-icons repository](https://github.com/LF-digitala-kanaler/LFUI-icons). The package includes the individual icons and a sprite for each icon size set (20, 24, 32 pixels etc).
+The SVG icons are published to GitHub Packages and are available in the [lf-icons repository](https://github.com/LF-digitala-kanaler/LFUI-icons). The package includes the individual icons and a sprite for each icon size set (20, 24, 32 pixels etc).
 
 It is not advised to include or reference the individual icons separately, but instead use the sprite to pick the desired icon from any given set.
 

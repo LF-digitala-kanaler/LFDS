@@ -1,4 +1,4 @@
-@import "~@lf-digitala-kanaler/fonts/index.css";
+@import '~@lansforsakringar/fonts/index.css';
 
 @custom-media --xsmall-viewport (width > 37.5rem);
 @custom-media --small-viewport (width > 48rem);
@@ -19,7 +19,8 @@
 
 :root {
   --font-family-base: arial, 'Helvetica Neue', helvetica, sans-serif;
-  --font-family-monospace: menlo, monaco, consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-family-monospace: menlo, monaco, consolas, 'Liberation Mono',
+    'Courier New', monospace;
 
   --font-weight-bold: 700;
   --font-weight-normal: normal;
@@ -33,7 +34,7 @@
   --color-navy: #00427a;
   --color-blue: #005aa0;
   --color-smoke: #f3f3f3;
-  --color-grey: #6B7070;
+  --color-grey: #6b7070;
   --color-black: #222;
   --color-red: #e30613;
   --color-shadow: #e5e5e5;
@@ -216,7 +217,6 @@ a[href*='lfnet.se'] {
   }
 }
 
-
 .CardGrid__grid {
   display: flex;
   flex-wrap: wrap;
@@ -257,9 +257,6 @@ a[href*='lfnet.se'] {
   }
 }
 
-
 .Position-relative {
   position: relative;
 }
-
-
