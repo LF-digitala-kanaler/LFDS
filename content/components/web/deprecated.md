@@ -4,7 +4,11 @@ title: Deprecated
 intro: 'Components that have been marked as no longer in use.  Deprecation can happen because of changes to our UX principles, the scope of LFDS, or when a component has been replaced by a superior alternative.'
 ---
 
-<div class="Callout"><strong class="Callout__title">Note</strong><p class="Callout__text">Elements and components on this page may not have proper styling as the code might have been removed.</p></div>
+## Navbar
+
+- Marked as deprecated in 10.1.0
+
+The vertical and horizontal navigation bars implemented in LFUI was old and out of sync with reality. This might be brought back (likely in collaboration with Mina Sidor team), but as for now – it is no more.
 
 ## Charts
 
@@ -14,7 +18,7 @@ The below statistical components are now deprecated. The charts in LFDU were mos
 
 Distribution Bar, XY-plot Chart, Map Chart, Line Chart, Donut Chart, Bar Chart
 
-**We might reintroduce various charts in upcoming releases, with a fresh and serious take on it, together with the broader design team.**
+We might reintroduce various charts in upcoming releases, with a fresh and serious take on it, together with the broader design team.
 
 ## Dropdown
 
@@ -35,10 +39,6 @@ The Dropdown component was marked as deprecated in favor of the newly introduced
 
 This button variation, `.btn-outline-secondary`, was removed in favor of our secondary buttons, `btn-secondary`, making our buttons default to primary.
 
-<Lfuiwrapper>
-<button class="btn btn-outline-secondary">Click me</button>
-</Lfuiwrapper>
-
 ## Pagination progress, colored and steps
 
 - Marked as deprecated in 5.3.0
@@ -54,19 +54,11 @@ Effected classes are: `pagination-progress`, `pagination-colored` and
 
 The bold variant of our links was marked as deprecated because they were unclear and unnecessary which lead to confusing UX patterns. Resort to the normal, secondary links instead.
 
-<Lfuiwrapper>
-<button type="button" class="btn btn-link-bold" tabindex="-1">Deprecated bold link</button>
-</Lfuiwrapper>
-
 ## Button outline primary
 
 - Marked as deprecated in 4.2.0
 
 This button variation, `.btn-outline-primary`, was removed in favor of our secondary buttons, `btn-secondary`, making our buttons default to primary.
-
-<Lfuiwrapper>
-<button class="btn btn-outline-primary">Click me</button>
-</Lfuiwrapper>
 
 ## Disabled buttons
 
@@ -75,11 +67,6 @@ This button variation, `.btn-outline-primary`, was removed in favor of our secon
 Länsförsäkringar does no longer encourages the use of disabled buttons.
 
 Instead, keep buttons clickable and display a message on why it does not function when it's clicked, along with what the user should do to make it function. If a button is never intended to be functional, do not include it, to begin with.
-
-<Lfuiwrapper>
-<button class="btn btn-primary disabled">Don't click me</button>
-<button class="btn btn-outline-secondary disabled">Don't click me</button>
-</Lfuiwrapper>
 
 ## Modal-air
 
