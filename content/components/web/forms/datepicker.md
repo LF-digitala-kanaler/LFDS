@@ -100,8 +100,7 @@ tabs:
 
       ```
 
-      import { datepicker } from '@lansforsakringar/components'
-
+      import { datepicker } from '@lansforsakringar/components/datepicker'
 
       datepicker(document.getElementById('my-date'))
 

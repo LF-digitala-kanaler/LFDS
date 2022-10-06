@@ -147,7 +147,7 @@ tabs:
 
       ```javascript
 
-      import { interval } from '@lansforsakringar/components'
+      import { interval } from '@lansforsakringar/components/interval'
 
 
       const low = document.getElementById('my-slider-low')
