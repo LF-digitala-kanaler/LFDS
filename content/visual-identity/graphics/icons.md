@@ -38,13 +38,13 @@ If you cant find the right icon for your use case, check out "Röda rummet" for 
 
 <div class="ImageBlock ImageBlock__right"><div class="ImageBlock__content">
 
-The SVG icons are published to GitHub Packages and are available in the [lf-icons repository](https://github.com/LF-digitala-kanaler/LFUI-icons). The package includes the individual icons and a sprite for each icon size set (20, 24, 32 pixels etc).
+The SVG icons are published to GitHub Packages and are available in the [lf-icons repository](https://github.com/LF-digitala-kanaler/LFUI-icons). The package includes the individual icons and a sprite for each icon size set (24, 32, 40 pixels etc).
 
 It is not advised to include or reference the individual icons separately, but instead use the sprite to pick the desired icon from any given set.
 
 ```
-<svg role="presentation" class="icon" width="20" height="20">
-  <use xlink:href="/assets/icons/20/sprite/icons.svg#icon-wallet-20"></use>
+<svg role="presentation" class="icon" width="24" height="24">
+  <use xlink:href="/assets/icons/24/sprite/icons.svg#icon-wallet-24"></use>
 </svg>
 ```
 

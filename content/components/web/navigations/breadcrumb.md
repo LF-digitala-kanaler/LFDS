@@ -43,5 +43,5 @@ tabs:
 
       Breadcrumbs ska spegla sidan användaren är på. Kort och koncist, tänk som i menyn.
     name: Copy
-backgroundColor: '#fff'
+backgroundColor: '#f3f3f3'
 ---

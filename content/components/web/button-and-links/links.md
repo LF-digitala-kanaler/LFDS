@@ -8,9 +8,6 @@ description: 'Links are used when we want to guide the user to another location
   (usually another page). '
 previewImage: /img/link-primary.svg
 category: Button and links
-componentsNavigation:
-  - name: Primary
-  - name: Regular
 backgroundColor: '#fff'
 tabs:
   - content: >-

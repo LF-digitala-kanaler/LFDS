@@ -102,7 +102,7 @@ const ComponentExample = ({
         {source && <CodeBlock code={`${code}`} />}
         <Preview resize={verticalResize}>
           <Frame
-            style={{ minHeight }}
+            style={{ minHeight: Math.max(minHeight, 300) }}
             ref={iframe}
             mountTarget={'#frame-root'}
             contentDidUpdate={onUpdate}

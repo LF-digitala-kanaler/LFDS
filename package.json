@@ -7,6 +7,7 @@
     "start": "npm run copy && npm run develop",
     "build": "npm run clean && npm run copy && gatsby build",
     "develop": "gatsby develop",
+    "dev": "npm run develop",
     "clean": "rm -rf .cache public",
     "serve": "gatsby serve",
     "format": "prettier -w \"{gatsby-*.js,src/**/*.js}\" && stylelint src/**/*.css --fix",
@@ -84,7 +85,7 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "devDependencies": {
-    "@lansforsakringar/components": "^10.1.7",
+    "@lansforsakringar/components": "^10.1.8",
     "@lansforsakringar/icons": "^2.2.3",
     "babel-plugin-prismjs": "^2.1.0",
     "copyfiles": "^2.4.1",

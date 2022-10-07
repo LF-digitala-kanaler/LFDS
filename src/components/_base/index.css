@@ -99,7 +99,7 @@ iframe {
   width: 100%;
   height: 100%;
   border: 2px solid var(--color-border);
-  transition: min-height 0.25s;
+  min-height: 300px;
 }
 
 h1,

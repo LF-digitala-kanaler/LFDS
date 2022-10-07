@@ -8,10 +8,6 @@ description: Shortcuts are as a way of providing a quick and easy way to access
   popular pages.
 previewImage: /img/shortcut.svg
 category: Button and links
-componentsNavigation:
-  - name: Alerting
-  - name: Navigational
-  - name: Landing page
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
