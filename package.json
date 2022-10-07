@@ -11,9 +11,10 @@
     "serve": "gatsby serve",
     "format": "prettier -w \"{gatsby-*.js,src/**/*.js}\" && stylelint src/**/*.css --fix",
     "test": "prettier -c \"{gatsby-*.js,src/**/*.js}\" && stylelint src/**/*.css",
-    "copy": "npm run copy:status && npm run copy:docs && npm run copy:icons",
+    "copy": "npm run copy:status && npm run copy:docs && npm run copy:icons && npm run copy:fonts",
     "copy:docs": "copyfiles -f \"node_modules/@lansforsakringar/components/dist/docs/main.umd.js\" static/docs",
     "copy:icons": "copyfiles -u 4 \"node_modules/@lansforsakringar/icons/dist/@(svg|sprite)/**/**/*\" static/lf-icons",
+    "copy:fonts": "copyfiles -f \"node_modules/@lansforsakringar/fonts/*.woff2\" static/fonts",
     "copy:status": "copyfiles -f \"node_modules/@lansforsakringar/components/dist/docs/data/componentsStatus.json\" src/data"
   },
   "engines": {
