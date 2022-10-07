@@ -76,6 +76,15 @@
   margin-top: var(--spacing-vertical--1);
 }
 
+.Content h1:first-child,
+.Content h2:first-child,
+.Content h3:first-child,
+.Content h4:first-child,
+.Content h5:first-child,
+.Content h6:first-child {
+  margin-top: 0;
+}
+
 .Content img {
   max-width: 100%;
 }
@@ -353,6 +362,10 @@ figure {
   margin: 0;
   font-family: var(--font-family-monospace);
   font-size: 0.75rem !important;
+}
+
+.Colors__text--hex {
+  text-transform: uppercase;
 }
 
 .Colors__text span {

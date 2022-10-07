@@ -2,7 +2,8 @@
 template: ArticlePage
 category: Purchase services
 title: Framework
-intro: Framework
+intro: Add intro here…
+description: 'Add description here…'
 contentTop: ''
 wide: false
 lang: false

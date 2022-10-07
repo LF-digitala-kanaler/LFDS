@@ -36,9 +36,10 @@ const ChangelogPageTemplate = ({
         <TabPanel className={tabStyle.Tabs__panel}>
           <Wrapper menu={true} tag="div" narrow>
             <div className="Content">
-              {versions.lfuiComponents.map((item) => {
+              {versions.lfuiComponents.map((item, index) => {
                 return (
                   <div key={item.node.tagName}>
+                    {index > 0 ? <hr /> : null}
                     <h2>{item.node.tagName}</h2>
                     <div
                       dangerouslySetInnerHTML={{

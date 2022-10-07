@@ -2,8 +2,8 @@
 template: ArticlePage
 category: Marketing
 title: Banners
-intro: 'Intro'
-description: 'desc'
+intro: Add intro here…
+description: 'Add description here…'
 wide: false
 lang: false
 hidden: false

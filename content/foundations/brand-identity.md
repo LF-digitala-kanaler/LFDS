@@ -5,13 +5,13 @@ title: Brand
 intro: >-
   Länsförsäkringar är ett av Sveriges mest kända varumärken. Vår symbol ritades
   1969 av den grafiska formgivaren Hans Hug och är idag en av Sveriges mest
-  kända företagssymboler. 
+  kända företagssymboler.
 
   Det är något vi värnar om tillsammans.
 description: >-
   Länsförsäkringar är ett av Sveriges mest kända varumärken. Vår symbol ritades
   1969 av den grafiska formgivaren Hans Hug och är idag en av Sveriges mest
-  kända företagssymboler. 
+  kända företagssymboler.
 
   Det är något vi värnar om tillsammans.
 lang: true
@@ -22,7 +22,7 @@ contentTop: ''
 
 Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbolagen. Här presenterar vi en fördjupning av det digitala varumärket. Allt kring varumärket generellt finner du under Röda rummet som är våran varumärkesportal.
 
-[A short version of our Visual Identity](https://lfui-beta-aedd0a.netlify.com/visual-identity)
+[A short version of our Visual Identity](/visual-identity)
 
 [The Brandportal](https://cloud.brandmaster.com/brandcenter/se/lansforsakringar/)
 

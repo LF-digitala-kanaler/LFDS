@@ -176,13 +176,6 @@ module.exports = {
             }
           },
           {
-            resolve: 'gatsby-remark-external-links',
-            options: {
-              rel: 'external nofollow noreferrer noopener'
-            }
-          },
-
-          {
             resolve: 'gatsby-remark-images',
             options: {
               // It's important to specify the maxWidth (in pixels) of

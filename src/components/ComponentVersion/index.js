@@ -45,7 +45,7 @@ export const ComponentVersion = ({ version }) => {
               <li key={index}>
                 <a
                   target="_blank"
-                  rel="nofollow noreferrer noopener external"
+                  rel="noopener noreferrer"
                   className={style.ComponentVersion__link}
                   href={data.settingsYaml.oldSiteUrl + item.split('.').join('')}
                   aria-label="This is an external link (opens in a new tab)"

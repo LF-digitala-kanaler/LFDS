@@ -102,19 +102,19 @@ Här jobbar UX-designern på tillsammans med teamet och stämmer av hela tiden m
 <Collapse title="Användningstester">
 <div class="content">
 
-Text
+Add text here…
 
 </div></Collapse>
 <Collapse title="Implementera">
 <div class="content">
 
-Text
+Add text here…
 
 </div></Collapse>
 <Collapse title="Följ upp">
 <div class="content">
 
-Text
+Add text here…
 
 </div></Collapse>
 </section>

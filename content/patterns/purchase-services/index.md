@@ -2,5 +2,6 @@
 previewImage: /img/koptjanst.png
 template: CategoryOverview
 title: Purchase services
-intro: Text
+intro: Add intro here…
+description: 'Add description here…'
 ---

@@ -2,15 +2,17 @@
 template: ArticlePage
 category: Purchase services
 title: Confirmation
-intro: Confirmation
-contentTop: ""
+intro: Add intro here…
+description: 'Add description here…'
+contentTop: ''
 wide: false
 lang: false
 hidden: false
 ---
+
 ## Copy kvittosida
 
-Copyn på kvittosidan ska berätta för kunden vad som är klart och vad som händer nu. En bekräftelse. Håll kvittosidan ren och inte för mycket text, för att skapa fokus på det som är viktigt. 
+Copyn på kvittosidan ska berätta för kunden vad som är klart och vad som händer nu. En bekräftelse. Håll kvittosidan ren och inte för mycket text, för att skapa fokus på det som är viktigt.
 
 ### H1-rubrik
 
@@ -31,8 +33,6 @@ I ingressen brukar vi skriva vad nästa steg är, vad som händer nu. Exempel p�
 #### Skadeanmälan
 
 Vi har tagit emot din anmälan. Vi hör av oss till dig, vanligtvis inom en arbetsdag. Logga in för att följa ditt skadeärende från början till slut.
-
-
 
 ### Lista
 
@@ -58,9 +58,9 @@ Ofta finns en länk till att spara eller skriva ut en sammanställning. Vi skriv
 
 **Skriv ut eller spara sammanställning**
 
-### Autogiro 
+### Autogiro
 
-Om det finns rubrik, text och länk till ansökan om autogiro: 
+Om det finns rubrik, text och länk till ansökan om autogiro:
 
 Rubrik: Vill du betala med autogiro?
 

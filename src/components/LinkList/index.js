@@ -15,7 +15,7 @@ const LinkList = ({ items, customCss }) => {
     ) : (
       <li key={item.url} className={style.LinkList__item}>
         <a
-          rel="external nofollow noreferrer noopener"
+          rel="noopener noreferrer"
           className={style.LinkList__link}
           href={item.url}
           target="_blank"

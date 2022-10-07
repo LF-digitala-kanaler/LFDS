@@ -29,25 +29,25 @@ När du börjar som UX eller AD så börjar vi alltid med en dragning om vad det
 <Collapse title="Användningstester">
 <div class="content">
 
-hej
+Add text here…
 
 </div></Collapse>
 <Collapse title="Webbtillgänglighet">
 <div class="content">
 
-hej
+Add text here…
 
 </div></Collapse>
 <Collapse title="Varumärkesstrategi och vårt digitala varumärke">
 <div class="content">
 
-hej
+Add text here…
 
 </div></Collapse>
 <Collapse title="Marknads och IT strategin">
 <div class="content">
 
-h
+Add text here…
 
 </div></Collapse>
 </section>

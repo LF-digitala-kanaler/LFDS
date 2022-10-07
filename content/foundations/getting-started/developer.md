@@ -10,8 +10,11 @@ lang: false
 
 ## Getting started
 
+Both our components and icons are available on npm.
+
 ```
 npm install @lansforsakringar/components
+npm install @lansforsakringar/icons
 ```
 
 ## Usage
@@ -66,7 +69,7 @@ See the designated [Länsförsäkringar Favicon](https://github.com/LF-digitala-
 
 ## Documentation
 
-Each component is documented, with examples, on the [LFDS](https://getbootstrap.com/docs/5.0/getting-started/introduction/) website. This is our go-to for documentation.
+Each component is documented, with examples, on [LFDS components page](https://lfds.netlify.app/components/). This is our go-to for documentation.
 
 Along with that, because our code is based on Bootstrap, the documentation from Bootstrap version [four](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and [five](https://getbootstrap.com/docs/5.0/getting-started/introduction/) does provide a good overview of how components are structured, along with listing all the available [utility classes](https://getbootstrap.com/docs/5.0/utilities/api/).
 
