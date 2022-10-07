@@ -261,7 +261,7 @@ tabs:
 
       <button class="btn btn-primary btn-arrow">
         Next page
-        <span class="d-block text-sm font-weight-normal font-base"> &amp; fyll i dina uppgifter</span>
+        <span class="d-block text-sm font-weight-normal font-base"> and enter your details</span>
       </button>
 
       ```

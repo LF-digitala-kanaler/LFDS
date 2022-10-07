@@ -86,114 +86,59 @@ tabs:
       Glasspinnar är bara en rad och skrivs i fet. Texten måste därför vara kort och koncis.
     name: Copy
   - content: >-
-      ## Alerting
+
+      Shortcuts are highly flexible. They can go with our without icons, and contain pretty much any type of content – such as a paragraph in above examples.
+
+      ### Configuration
+
+      Three options, with their default values.
 
 
-      With the modifier `.shortcut-important` the shortcut is decorated with a background colour to make it stand out. These are also called "glasspinnar" by LF terminology. The variations come in the same styles as [Alerts](/components/web/system-display/alert) and are used by appending the class, for example, `.shortcut-info-ice`.
+      ```css
 
+      --shortcut-text-color: var(--color-body);
 
-      ```
+      --shortcut-border-color: var(--smoke);
 
-      <a href="#foo" class="shortcut shortcut-important shortcut-info-ice">Info</a>
-
-      <a href="#foo" class="shortcut shortcut-important shortcut-success-ice">Success</a>
-
-      <a href="#foo" class="shortcut shortcut-important shortcut-warning-ice">Warning</a>
-
-      <a href="#foo" class="shortcut shortcut-important shortcut-danger-ice">Danger</a>
-
-      <a href="#foo" class="shortcut shortcut-important shortcut-ice-ice-baby">Cool</a>
+      --shortcut-border-accent-color: var(--blue);
 
       ```
 
 
-      ### Modifier
-
-
-      There is only one modifier available  and that's to add an icon. Simple add `.shortcut-icon` and properly insert a 20px icon.
-
-
-      ```
-
-      <a href="#foo" class="shortcut shortcut-icon shortcut-important shortcut-success-ice">
-        <svg class="icon" width="20" height="20">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-flag-20"></use>
-        </svg>Good job!
-      </a>
-
-      ```
-
-
-      ## Navigational shortcuts
-
-
-      The navigational shortcut is somewhat bigger than alerting and it's always white. Note that in all variations of the `.shortcut` the text is always bold.
-
-
-      There is two  different variations of navigational shortcut included in LFUI.
-
-
-      ### One-lined shortcut
-
-
-      This is the default navigational shortcut.
-
-
-      ```
-
-      <a href="#foo" class="shortcut">Digital guide</a>
-
-      ```
-
-
-      ```
-
-      <a href="#foo" class="shortcut shortcut-two-lines shortcut-icon shortcut-important shortcut-ice-ice-baby">
-        <svg class="icon" width="20" height="20">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user-20"></use>
-        </svg>
-        <div>
-          <div class="text-lg">Company AB</div>
-          <div class="text-sm font-weight-normal">89276289-5279</div>
-        </div>
-      </a>
-
-
-      <a href="#foo" class="shortcut shortcut-multi-lines">
-        <svg class="icon d-md-none" width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-contract-24"></use></svg>
-        <svg class="icon d-none d-md-block" width="40" height="40"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-contract-40"></use></svg>
-        <div>
-          <h3 class="shortcut-title">För det nystartade småföretaget</h3>
-          <p class="font-weight-normal font-base text-body d-none d-md-block">Har du nyligen startat eget? Du får en företagsförsäkring med fast pris som.</p>
-        </div>
-      </a>
-
-      ```
-
-
-      ## Box shortcut
-
+      ### Modifiers
 
       You can build landing page shortcuts by adding `.shortcut-box` to your shortcut. See the example below.
 
 
-      Since LFUI dosen't scale icons, Landing page shortcut will need two icons defined, one for screens smaller than 768px and one for screens larger than 768px. Which one that will be display is controlled with [bootstraps display classes ](https://getbootstrap.com/docs/4.0/utilities/display/).
+      ```html
 
-
-      Use a 24px icon for small screens and a 40px icon for larger screens.
-
-
-      ```
-
-      <a href="#foo" class="shortcut shortcut-landing-page">
-        <svg class="icon d-md-none" width="24" height="24"><use xlink:href="#icon-wallet-24"></use></svg>
-        <svg class="icon d-none d-md-block mx-auto mb-05" width="40" height="40"><use xlink:href="#icon-wallet-40"></use></svg>
-        Account
+      <a href="#" class="shortcut shortcut-box">
+        <svg class="icon" width="40" height="40">
+          <use xlink:href="/lf-icons/sprite/40/icons.svg#house-40"></use>
+        </svg>
+        <strong class="shortcut-title">Loans</strong>
       </a>
 
       ```
 
+      If you would like for the box shortcuts to go horizontal and stacked on narrow viewpoints, consider the `shortcut-md-box` modifier instead. In this case, icon size needs to be taken into account. Since LFUI dosen't scale icons, two different icons will need to be defined. The visibility of the icons can then be controlled with [bootstraps display classes ](https://getbootstrap.com/docs/5.2/utilities/display/).
 
-      <div class="Callout"><strong class="Callout__title">Equal height shortcuts </strong><p class="Callout__text">If your shortcuts contains words that might break into 2 lines you should consider adding `.h-100` to each `shortcut-landing-page` to create equal height shortcuts.</p></div>
+      Use a 24px icon for small screens and a 40px icon for larger screens.
+
+
+      ```html
+
+      <a href="#" onclick="return false" class="shortcut shortcut-md-box">
+        <svg class="icon d-md-none" width="24" height="24">
+          <use xlink:href="lf-icons/sprite/24/icons.svg#house-24"></use>
+        </svg>
+        <svg class="icon d-none d-md-block mb-05" width="40" height="40">
+          <use xlink:href="lf-icons/sprite/40/icons.svg#house-40"></use>
+        </svg>
+        <strong class="shortcut-title">Loans</strong>
+      </a>
+
+      ```
+
     name: Code
 ---

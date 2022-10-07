@@ -170,7 +170,10 @@ tabs:
 
 
       ```
-        <a href="#" target="_blank" rel="noopener noreferrer">External link</a><svg role="presentation" class="text-blue icon-right icon  icon-nudge-up-01" width="20" height="20"><use xlink:href="#icon-external-link-20"></use></svg>
+        <a href="#" rel="noopener noreferrer" target="_blank" >Read the full article</a>
+        <svg role="presentation" class="text-blue icon icon-nudge-up" width="20" height="20">
+          <use href="/lf-icons/sprite/special/icons.svg#arrow_external_link_inline"></use>
+        </svg>
       ```
 
 
@@ -182,5 +185,5 @@ tabs:
 
       * `link-complex` and `link-complex-target`. Used to wrap a link around a larger block of content, and you want the correct link behavior (hover styles, for example) on a targeted element within the container. Popular in clickable cards with "Read more" links.
 
-      * `link-complex-adaptive-target`, alternative to `link-complex-target` with the adaprive treatment.
+      * `link-complex-adaptive-target`, alternative to `link-complex-target` with the adaptive treatment.
 ---

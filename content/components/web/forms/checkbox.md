@@ -41,7 +41,7 @@ tabs:
       ### Checkbox cards
 
 
-      The checkbox card is a version of the [radio card for primary choice](radio-buttons#radio-card-for-primary-choice), which allows for multiple items to be selected. Although called a card, it looks more like a button and which visually is dominated by an icon and label explaining the choice, with a small checkbox in the top left corner. The checkbox card was first created for internal systems where to be used for main choices in an input field-heavy flow, to give it an heightened importance compared to normal checkboxes. As possible uses in other contexts (such as filters on a table) could easily be imagined it was integrated into LFDS/LFUI although it at the time of writing wasn't in use any customer facing interface.
+      The checkbox card is a version of the [radio card for primary choice](radio-buttons#radio-cards), which allows for multiple items to be selected. Although called a card, it looks more like a button and which visually is dominated by an icon and label explaining the choice, with a small checkbox in the top left corner. The checkbox card was first created for internal systems where to be used for main choices in an input field-heavy flow, to give it an heightened importance compared to normal checkboxes. As possible uses in other contexts (such as filters on a table) could easily be imagined it was integrated into LFDS/LFUI although it at the time of writing wasn't in use any customer facing interface.
 
 
       ## Please consider

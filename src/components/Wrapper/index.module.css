@@ -2,7 +2,7 @@
   --wrapper-width: var(--content-width);
   --wrapper-width--narrow: var(--content-width--narrow);
   --wrapper-width--wide: var(--content-width--wide);
-  --wrapper-spacing: var(--spacing-unit);
+  --wrapper-spacing: var(--spacing-xlg);
 }
 
 .Wrapper {
@@ -10,6 +10,7 @@
   position: relative;
   padding-left: var(--wrapper-spacing);
   padding-right: var(--wrapper-spacing);
+  padding-top: var(--wrapper-spacing);
   display: flex;
   flex-direction: column;
 
