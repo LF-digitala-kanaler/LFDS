@@ -122,7 +122,7 @@ const ComponentExample = ({
                   {fonts.toString()}
                   {css}
                   {`.lfui-theme body {
-                    padding: 16px;
+                    padding: 1rem;
                     overflow-y: auto;
                     background-color: ${backgroundColor};
                   }`}

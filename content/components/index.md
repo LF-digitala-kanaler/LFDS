@@ -36,7 +36,7 @@ blockquote:
     whole thing in colour.
 ---
 
-Our components, or LFUI as sometimes called, can be described as the lego blocks which form the foundation of all digital interfaces we create at Länsförsäkringar.
+Our components, or LFUI, can be described as the lego blocks which form the foundation of all digital interfaces we create at Länsförsäkringar.
 
 The design is in sync with our [visual identity](/visual-identity), and standardised ways of using these components together can be found in the [patterns-section](/patterns).
 
