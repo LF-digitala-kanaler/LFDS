@@ -228,7 +228,7 @@ module.exports = {
             browsers: '> 0.5%, last 2 versions',
             features: {
               'nesting-rules': true,
-              'postcss-custom-media': true
+              'custom-media': true
             },
             stage: 1
           })
