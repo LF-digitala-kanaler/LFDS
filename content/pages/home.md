@@ -59,5 +59,5 @@ shortcutsImage:
     title: Developer
 relatedLinks:
   - text: Prototypes
-    url: https://lfds.netlify.app/prototypes/
+    url: https://lf-digitala-kanaler.github.io/prototypes
 ---
