@@ -150,11 +150,9 @@ This set of black, white and grays has been selected over the years and covers m
     </article>
 </div>
 
-## Special
+## Contextual colours
 
-For specific cases, use with care.
-
-### Notify and inform
+To notify and inform in specific cases, use with care.
 
 <div class="Colors">
     <article class="Colors__item Colors__item--special">
@@ -227,83 +225,6 @@ For specific cases, use with care.
         <p class="Colors__text"><span>RGB</span> 173 16 21</p>
         <p class="Colors__text Colors__text--hex"><span>HEX</span> #AD1015</p>
         <p class="Colors__text"><span>CSS</span> --color-danger</p>
-      </div>
-    </article>
-</div>
-
-### Risk scale
-
-<div class="Colors">
-    <article class="Colors__item Colors__item--special">
-      <div class="Colors__special" style="border-color: #515151">
-        <div class="Colors__background" style="background-color: #515151"></div>
-        <h3 class="Colors__title">Risk 00</h3>
-        <p class="Colors__text"><span>RGB</span> 81 81 81</p>
-        <p class="Colors__text Colors__text--hex"><span>HEX</span> #515151</p>
-        <p class="Colors__text"><span>CSS</span> --color-risk-0</p>
-      </div>
-    </article>
-    <article class="Colors__item Colors__item--special">
-      <div class="Colors__special" style="border-color: #2A7FD4">
-        <div class="Colors__background" style="background-color: #2A7FD4"></div>
-        <h3 class="Colors__title">Risk 01</h3>
-        <p class="Colors__text"><span>RGB</span> 42 127 212</p>
-        <p class="Colors__text Colors__text--hex"><span>HEX</span> #2A7FD4</p>
-        <p class="Colors__text"><span>CSS</span> --color-risk-1</p>
-      </div>
-    </article>
-    <article class="Colors__item Colors__item--special">
-      <div class="Colors__special" style="border-color: #389FB9">
-        <div class="Colors__background" style="background-color: #389FB9"></div>
-        <h3 class="Colors__title">Risk 02</h3>
-        <p class="Colors__text"><span>RGB</span> 56 159 185</p>
-        <p class="Colors__text Colors__text--hex"><span>HEX</span> #389FB9</p>
-        <p class="Colors__text"><span>CSS</span> --color-risk-2</p>
-      </div>
-    </article>
-     <article class="Colors__item Colors__item--special">
-      <div class="Colors__special" style="border-color: #8DBA84">
-        <div class="Colors__background" style="background-color: #8DBA84"></div>
-        <h3 class="Colors__title">Risk 03</h3>
-        <p class="Colors__text"><span>RGB</span> 141 186 132</p>
-        <p class="Colors__text Colors__text--hex"><span>HEX</span> #8DBA84</p>
-        <p class="Colors__text"><span>CSS</span> --color-risk-3</p>
-      </div>
-    </article>
-    <article class="Colors__item Colors__item--special">
-      <div class="Colors__special" style="border-color: #B8BE34">
-        <div class="Colors__background" style="background-color: #B8BE34"></div>
-        <h3 class="Colors__title">Risk 04</h3>
-        <p class="Colors__text"><span>RGB</span> 184 190 52</p>
-        <p class="Colors__text Colors__text--hex"><span>HEX</span> #B8BE34</p>
-        <p class="Colors__text"><span>CSS</span> --color-risk-4</p>
-      </div>
-    </article>
-     <article class="Colors__item Colors__item--special">
-      <div class="Colors__special" style="border-color: #FDB514">
-        <div class="Colors__background" style="background-color: #FDB514"></div>
-        <h3 class="Colors__title">Risk 05</h3>
-        <p class="Colors__text"><span>RGB</span> 253 181 20</p>
-        <p class="Colors__text Colors__text--hex"><span>HEX</span> #FDB514</p>
-        <p class="Colors__text"><span>CSS</span> --color-risk-5</p>
-      </div>
-    </article>
-    <article class="Colors__item Colors__item--special">
-      <div class="Colors__special" style="border-color: #ED7721">
-        <div class="Colors__background" style="background-color: #ED7721"></div>
-        <h3 class="Colors__title">Risk 06</h3>
-        <p class="Colors__text"><span>RGB</span> 237 119 33</p>
-        <p class="Colors__text Colors__text--hex"><span>HEX</span> #ED7721</p>
-        <p class="Colors__text"><span>CSS</span> --color-risk-6</p>
-      </div>
-    </article>
-    <article class="Colors__item Colors__item--special">
-      <div class="Colors__special" style="border-color: #CE161D">
-        <div class="Colors__background" style="background-color: #CE161D"></div>
-        <h3 class="Colors__title">Risk 07</h3>
-        <p class="Colors__text"><span>RGB</span> 206 22 29</p>
-        <p class="Colors__text Colors__text--hex"><span>HEX</span> #CE161D</p>
-        <p class="Colors__text"><span>CSS</span> --color-risk-6</p>
       </div>
     </article>
 </div>
