@@ -4,7 +4,9 @@ category: General patterns
 title: Felmeddelanden
 intro: Här kan du läsa om hur vi generellt skriver felmeddelanden i tjänster och
   informationstexter vid till exempel incidenter eller systemunderhåll.
-description: ""
+description: "Här kan du läsa om hur vi generellt skriver felmeddelanden i
+  tjänster och informationstexter vid till exempel incidenter eller
+  systemunderhåll. Än så länge endast UX writing på denna sida. "
 contentTop: ""
 ---
 Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har
