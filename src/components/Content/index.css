@@ -142,6 +142,7 @@
   text-align: left;
 }
 .Content table {
+  table-layout: fixed;
   width: 100%;
   border: 0;
   border-collapse: collapse;
