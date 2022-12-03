@@ -10,10 +10,12 @@ previewImage: /img/datepicker.svg
 category: Forms
 componentsNavigation:
   - name: Datepicker
+  - name: Monthpicker
   - name: Timepicker
 backgroundColor: '#fff'
 tabs:
-  - content: >-
+  - name: Design
+    content: >-
       ## How to use
 
 
@@ -35,23 +37,21 @@ tabs:
       allows for both keyboard input as well as usage of the interactive widget.
 
 
+      #### Monthpicker
+
+
+      The monthpicker is a variant of the date picker with the same
+      characteristics and functionality.
+
+
       #### Timepicker
 
 
-      The timepicker has some slightly different charactersitics. It'll open
-      the widget once the input field receives focus and the icon is merely
-      decorational.
+      The time picker relies on the native browser time picker which supports
+      all the behaviour you would expect from a time picker.
 
-
-      ##### On mobile devices
-
-
-      The timepicker is not well suited for mobile devices and hence it is
-      adviced that the timepicker be repalced with a native input control on
-      mobile devices.
-    name: Design
-
-  - content: >-
+  - name: Code
+    content: >-
       ## How to use
 
 
@@ -100,7 +100,8 @@ tabs:
 
       ```
 
-      import { datepicker } from '@lansforsakringar/components/datepicker'
+      import { datepicker } from '@lansforsakringar/components'
+
 
       datepicker(document.getElementById('my-date'))
 
@@ -115,7 +116,7 @@ tabs:
 
       ```
 
-      import { datepicker, DEFAULTS } from '@lansforsakringar/components'
+      import { datepicker, DEFAULTS } from '@lansforsakringar/components/datepicker'
 
 
       datepicker(document.getElementById('my-date'), {
@@ -126,6 +127,245 @@ tabs:
       })
 
       ```
+
+
+      ### Monthpicker
+
+
+      The monthpicker borrows most of its appearence and functionality from the
+      datepicker. And just as the datepicker, the monthpicker exposes a function
+      for intializing an input (`type="month"`) field. The initialization
+      function returns a container `div` element which has replaced the `input`
+      element. To react to changes in the monthpicker, listen to the `change`
+      event triggered on the returned `div` element.
+
+
+
+      ```
+
+      <div class="form-group">
+        <label for="my-month">Choose a month</label>
+        <div class="input-group">
+          <input type="month" id="my-month" name="month" class="form-control" required />
+          <span class="input-group-append">
+            <button class="btn" type="button" aria-controls="my-month" title="Välj månad">
+              <svg class="icon" width="26" height="26">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#calendar-26"></use>
+              </svg>
+            </button>
+          </span>
+        </div>
+      </div>
+
+      ```
+
+
+
+      ```
+
+      import { monthpicker } from '@lansforsakringar/components'
+
+
+      const container = monthpicker(document.getElementById('my-month'))
+
+
+      container.addEventListener('change', ({ value }) => {
+        console.log(value)
+      })
+
+      ```
+
+
+
+      The default configuration for the datepicker is available as a named
+      export, `DEFAULTS`. These can be extended upon to selectively override
+      certain options.
+
+
+      ```
+
+      import { monthpicker, DEFAULTS } from '@lansforsakringar/components/monthpicker'
+
+
+      datepicker(document.getElementById('my-month'), {
+        localization: {
+          ...DEFAULTS.localization,
+          closeLabel: 'Abort'
+        }
+      })
+
+      ```
+
+
+
+      #### Implementations
+
+
+
+      Other than the default initialization function the month picker is also
+      exposed as both a Web Component and as a Preact component. Preact is
+      really an implementation detail but exposing the component should allow
+      for easier use in an JSX environment, with some configuration.
+
+
+
+      ##### Properties
+
+
+
+      Both alternate implemnations support the same set of properties which
+      allows for interacting with the monthpicker.
+
+
+
+      | Property | Type | Description |
+
+      | --- | --- | --- |
+
+      | `open` | `boolean` | Whether the monthpicker widget is open |
+
+      | `value` | `string` | The value of the monthpicker (`YYYY-MM`) |
+
+      | `onchange`/`onChange` | `function` | Callback function for when the value changes |
+
+      | `onfocus`/`onFocus` | `function` | Callback function for when the input element gains focus |
+
+      | `onblur`/`onBlur` | `function` | Callback function for when focus leaves the input element |
+
+      | `onclose`/`onClose` | `function` | Callback function for when the widget is closed |
+
+
+
+      ##### Web Component
+
+
+
+      Other than the default initialization function the monthpicker is exposed
+      as standalone [Web Component](https://developer.mozilla.org/en-US/docs/Web/Web_Components).
+      When using the Web Component you have to manually hook up the controls
+      which e.g. toggle the calendar widget.
+
+
+
+      ```
+
+      <div class="form-group">
+        <label for="my-month">Choose a month</label>
+        <div class="input-group">
+          <duet-month-picker id="my-month" name="month" required></duet-month-picker>
+          <span class="input-group-append">
+            <button class="btn" type="button" aria-controls="my-month" title="Välj månad">
+              <svg class="icon" width="26" height="26">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#calendar-26"></use>
+              </svg>
+            </button>
+          </span>
+        </div>
+      </div>
+
+      ```
+
+
+
+      ```
+
+      let open = false
+
+
+      const button = document.querySelector('[aria-controls="my-month"]')
+
+      const monthpicker = document.getElementById('my-month')
+
+      const toggle = (next = !open) => {
+        monthpicker.open = open = next
+        button.classList.toggle('active', open)
+      }
+
+
+      monthpicker.onclose = () => toggle(false)
+
+      monthpicker.onchange = ({ value }) => console.log(value)
+
+
+      button.addEventListener('click', () => toggle())
+
+      ```
+
+
+
+      ##### Preact Component
+
+
+
+      The underlying implementation uses [Preact](https://preactjs.com/) and is
+      hence compatible with React which could ease the implementation if used
+      directly. When using the Preact component you have to manually hook up the
+      controls which e.g. toggle the calendar widget.
+
+
+
+
+      ```
+
+      import { Monthpicker } from '@lansforsakringar/components/monthpicker'
+
+
+      function App() {
+        const [open, setOpen] = useState(false)
+
+        return (
+          <div class="input-group">
+            <div class="duet-month-picker">
+              <Monthpicker
+                open={open}
+                id="my-monthpicker"
+                onChange={({ value }) => console.log(value)}
+                onClose={() => setOpen(false)}
+              />
+            </div>
+            <span class="input-group-append">
+              <button
+                type="button"
+                title="Välj månad"
+                aria-controls="my-monthpicker"
+                class={`btn ${open ? 'active' : ''}`}
+                onClick={() => setOpen(!open)}>
+                <svg class="icon" width="26" height="26">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#calendar-26"></use>
+                </svg>
+              </button>
+            </span>
+          </div>
+        )
+      }
+
+      ```
+
+
+
+      For use with React you will have to alias `preact/hooks` to `react` and
+      inject the react `import` statement into the Preact component. Consult
+      your build tool docs for how to do this. Here's how it'd be done with e.g.
+      [Vite](https://vitejs.dev/).
+
+
+
+
+      ```
+
+      export default {
+        esbuild: {
+          jsxInject: "import React from 'react'"
+        },
+        resolve: {
+          alias: {
+            'preact/hooks': 'react'
+          }
+        }
+      }
+
+      ```
+
 
 
       ### Timepicker
@@ -143,5 +383,4 @@ tabs:
       </div>
 
       ```
-    name: Code
 ---
