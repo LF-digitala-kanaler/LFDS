@@ -9,6 +9,8 @@ import CodeBlock from '../CodeBlock'
 import style from './index.module.css'
 import ComponentNavigation from '../ComponentNavigation'
 
+const DEFAULT_BACKGROUND_COLOR = '#fff'
+
 const ComponentExample = ({
   variants,
   background,
@@ -29,7 +31,9 @@ const ComponentExample = ({
   }
 
   // if background is set in cms, use that value
-  const [backgroundColor, setBackground] = useState(background ?? '#fff')
+  const [backgroundColor, setBackground] = useState(
+    background ?? DEFAULT_BACKGROUND_COLOR
+  )
   const [code, setCode] = useState(
     navigation ? nav[0].example[0].node.content : variants[0].node.content
   )
@@ -130,7 +134,25 @@ const ComponentExample = ({
               </>
             }
           >
-            <Content source={`${code}`} />
+            <Content
+              source={
+                backgroundColor === DEFAULT_BACKGROUND_COLOR
+                  ? code
+                  : code
+                    .replaceAll(
+                      '"form-control"',
+                      '"form-control form-control-white"'
+                    )
+                    .replaceAll(
+                      '"custom-file"',
+                      '"custom-file custom-file-white"'
+                    )
+                    .replaceAll(
+                      '"input-group"',
+                      '"input-group input-group-white"'
+                    )
+              }
+            />
           </Frame>
         </Preview>
       </div>
