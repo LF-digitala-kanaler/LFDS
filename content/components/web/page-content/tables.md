@@ -11,6 +11,7 @@ category: Page content
 componentsNavigation:
   - name: Present
   - name: Comparative
+backgroundColor: "#f3f3f3"
 tabs:
   - name: Design
     content: >-
@@ -44,6 +45,9 @@ tabs:
 
 
       There are quite a few modifiers available for tables which present data. They can all be used in conjunction which each other if you wish to - with the exception for expandable and clickable rows.
+
+
+      <div class="Callout"><strong class="Callout__title">Bonus option: highlighting a column </strong><p class="Callout__text">A﻿lthough not technically a modifier, it is possible and even encouraged to highlight the most important column by bolding it. A good example of this would be the amount in a transaction list. Please note that only one column should be highlighted in this way per table.</p></div>
 
 
       ##### Sizing
@@ -544,5 +548,4 @@ tabs:
       * If you have numbers in the last cell on each row add `.table-cell-number` to right align the text and give it the right styling.
 
       * Text in table cell's can be tricky to style. If you want to keep the text from breaking into two rows consider adding `.text-nowrap` to each cell to keep the text on the one row.
-backgroundColor: '#f3f3f3'
 ---

@@ -2,17 +2,20 @@
 template: ArticlePage
 category: General patterns
 title: Felmeddelanden
-intro: 'Här kan du läsa om hur vi generellt skriver felmeddelanden i tjänster
-  och informationstexter vid till exempel incidenter eller systemunderhåll. '
-description: ''
-contentTop: ''
+intro: Här kan du läsa om hur vi generellt skriver felmeddelanden i tjänster och
+  informationstexter vid till exempel incidenter eller systemunderhåll.
+description: "Här kan du läsa om hur vi generellt skriver felmeddelanden i
+  tjänster och informationstexter vid till exempel incidenter eller
+  systemunderhåll. Än så länge endast UX writing på denna sida. "
+contentTop: ""
 ---
-
 Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har
 hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig,
 var vänlig och framförallt när det är vårt fel – var ödmjuk.
 
-Felmeddelanden visas ofta i form av text under det aktuella fältet när det kommer till validering, eller som ett modalfönster (även kallat dialologruta eller pop-up) vid andra fel. Inloggat så visas de ofta som så kallade [Alerts](https://lfds.netlify.app/components/web/system-display/alert?copy).
+Felmeddelanden visas ofta i form av text under det aktuella fältet när det kommer till validering, eller som ett modalfönster (även kallat dialologruta eller pop-up) vid andra fel. Inloggat så visas de ofta i komponenten [Alerts](https://lfds.netlify.app/components/web/system-display/alert?copy).
+
+Kom ihåg i vilken kontext felmeddelandet ligger. Tonen i felmeddelandet sätts utifrån var användaren är och vad som har hänt. Vid en inloggning ska det kännas säkert, där ska felmeddelanden inte vara skojfriska. Om felet ligger hos oss – var ödmjuk. Viktigt att tänka på att bara använda "Hoppsan" och liknande felmeddelanden där det passar. Om man t.ex. missar ett fält i ett långt flöde kan ett "Hoppsan" kanske passa (när användaren har missat något), men vid BankID eller inloggning så passar det kanske inte, speciellt inte om felet ligger hos oss. 
 
 ### Validering av fält
 
@@ -60,15 +63,11 @@ Denna typ av text ska uppmärksamma kunden på något som tillfälligt inte fung
 
 #### Vad bör finnas med i felmeddelandet?
 
-- När sker det? "Just nu kan du inte" eller "Fram till 6.00 kan du inte" (om meddelande publiceras när det sker) eller "På lördag 18-24" (om det publiceras efter)
-
-- Vad är det kunden inte kan göra eller se? "se dina försäkringar"
-
-- Varför? (om relevant för kunden) "pga systemunderhåll"
-
-- Är det kanalspecifikt eller kan de göra det i någon annan kanal?
-
-- När fungerar det igen?
+* När sker det? "Just nu kan du inte" eller "Fram till 6.00 kan du inte" (om meddelande publiceras när det sker) eller "På lördag 18-24" (om det publiceras efter)
+* Vad är det kunden inte kan göra eller se? "se dina försäkringar"
+* Varför? (om relevant för kunden) "pga systemunderhåll"
+* Är det kanalspecifikt eller kan de göra det i någon annan kanal?
+* När fungerar det igen?
 
 #### Antal tecken
 
@@ -98,4 +97,4 @@ På öppna sidorna kan 120 tecken användas. Där är Rubriken alltid Viktigt me
 wide: false
 lang: false
 
----
+- - -
