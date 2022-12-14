@@ -139,18 +139,18 @@ const ComponentExample = ({
                 backgroundColor === DEFAULT_BACKGROUND_COLOR
                   ? code
                   : code
-                    .replaceAll(
-                      '"form-control"',
-                      '"form-control form-control-white"'
-                    )
-                    .replaceAll(
-                      '"custom-file"',
-                      '"custom-file custom-file-white"'
-                    )
-                    .replaceAll(
-                      '"input-group"',
-                      '"input-group input-group-white"'
-                    )
+                      .replaceAll(
+                        '"form-control"',
+                        '"form-control form-control-white"'
+                      )
+                      .replaceAll(
+                        '"custom-file"',
+                        '"custom-file custom-file-white"'
+                      )
+                      .replaceAll(
+                        '"input-group"',
+                        '"input-group input-group-white"'
+                      )
               }
             />
           </Frame>
