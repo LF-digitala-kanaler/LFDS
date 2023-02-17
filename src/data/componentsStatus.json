@@ -5,7 +5,15 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["8.0.0", "6.5.0", "5.2.0", "4.2.0", "3.4.0"]
+        "changedInVersion": [
+          "10.1.0",
+          "10.0.0",
+          "8.0.0",
+          "6.5.0",
+          "5.2.0",
+          "4.2.0",
+          "3.4.0"
+        ]
       }
     },
     {
@@ -13,7 +21,10 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["8.0.0", "4.2.0"]
+        "changedInVersion": [
+          "8.0.0",
+          "4.2.0"
+        ]
       }
     },
     {
@@ -21,7 +32,11 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["6.6.0", "4.2.0", "3.4.0"]
+        "changedInVersion": [
+          "6.6.0",
+          "4.2.0",
+          "3.4.0"
+        ]
       }
     },
     {
@@ -59,7 +74,11 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["6.0.0", "5.2.0", "4.1.0"]
+        "changedInVersion": [
+          "6.0.0",
+          "5.2.0",
+          "4.1.0"
+        ]
       }
     },
     {
@@ -67,7 +86,11 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["5.3.0", "5.2.0", "3.0.0"]
+        "changedInVersion": [
+          "5.3.0",
+          "5.2.0",
+          "3.0.0"
+        ]
       }
     },
     {
@@ -76,6 +99,7 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "10.1.0",
           "8.0.0",
           "6.5.0",
           "6.4.0",
@@ -100,7 +124,9 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["5.2.0"],
+        "changedInVersion": [
+          "5.2.0"
+        ],
         "examples": [
           {
             "name": "White"
@@ -117,6 +143,8 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "10.2.0",
+          "10.0.0",
           "9.0.0",
           "6.5.0",
           "6.1.0",
@@ -134,22 +162,9 @@
           },
           {
             "name": "Timepicker"
-          }
-        ]
-      }
-    },
-    {
-      "component": "distribution-bar",
-      "bootstrap": {
-        "new": false,
-        "deprecated": false,
-        "changedInVersion": ["6.5.0"],
-        "examples": [
-          {
-            "name": "Default"
           },
           {
-            "name": "Progress Bar"
+            "name": "Monthpicker"
           }
         ]
       }
@@ -160,6 +175,7 @@
         "new": false,
         "deprecated": true,
         "changedInVersion": [
+          "10.0.0",
           "8.0.0",
           "7.0.0",
           "6.5.0",
@@ -194,6 +210,7 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "10.0.0",
           "5.3.0",
           "5.2.0",
           "5.1.0",
@@ -248,20 +265,14 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "10.1.0",
+          "10.0.0",
           "6.6.0",
           "6.4.0",
           "5.4.0",
           "5.3.0",
           "5.2.0",
           "5.1.0"
-        ],
-        "examples": [
-          {
-            "name": "Primary"
-          },
-          {
-            "name": "Regular"
-          }
         ]
       }
     },
@@ -271,6 +282,7 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "10.1.0",
           "5.3.0",
           "5.2.0",
           "5.1.0",
@@ -315,8 +327,13 @@
       "component": "Navbar",
       "bootstrap": {
         "new": false,
-        "deprecated": false,
-        "changedInVersion": ["5.3.0", "4.2.0", "4.1.0", "3.1.0"],
+        "deprecated": true,
+        "changedInVersion": [
+          "5.3.0",
+          "4.2.0",
+          "4.1.0",
+          "3.1.0"
+        ],
         "examples": [
           {
             "name": "Blue"
@@ -332,7 +349,13 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["5.3.0", "5.2.0", "5.1.0", "4.2.0", "4.1.0"]
+        "changedInVersion": [
+          "5.3.0",
+          "5.2.0",
+          "5.1.0",
+          "4.2.0",
+          "4.1.0"
+        ]
       }
     },
     {
@@ -340,7 +363,11 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["5.3.0", "5.2.0", "3.0.0"],
+        "changedInVersion": [
+          "5.3.0",
+          "5.2.0",
+          "3.0.0"
+        ],
         "examples": [
           {
             "name": "Always Open"
@@ -363,7 +390,11 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["5.2.0", "5.1.0", "4.2.0"]
+        "changedInVersion": [
+          "5.2.0",
+          "5.1.0",
+          "4.2.0"
+        ]
       }
     },
     {
@@ -371,7 +402,14 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["6.5.0", "5.4.0", "5.3.0", "5.2.0", "4.2.0"],
+        "changedInVersion": [
+          "10.1.0",
+          "6.5.0",
+          "5.4.0",
+          "5.3.0",
+          "5.2.0",
+          "4.2.0"
+        ],
         "examples": [
           {
             "name": "Desktop"
@@ -387,7 +425,9 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["3.1.0"]
+        "changedInVersion": [
+          "3.1.0"
+        ]
       }
     },
     {
@@ -396,6 +436,8 @@
         "new": false,
         "deprecated": false,
         "changedInVersion": [
+          "10.1.0",
+          "9.0.0",
           "6.5.0",
           "6.1.0",
           "5.4.0",
@@ -424,7 +466,9 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["8.0.0"],
+        "changedInVersion": [
+          "9.0.0"
+        ],
         "examples": [
           {
             "name": "Select Single"
@@ -440,16 +484,17 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["8.0.0", "6.7.0", "6.5.0", "3.3.0"],
+        "changedInVersion": [
+          "10.1.0",
+          "8.0.0",
+          "6.7.0",
+          "6.5.0",
+          "3.3.0",
+          "10.1.0"
+        ],
         "examples": [
           {
-            "name": "Alerting"
-          },
-          {
             "name": "Navigational"
-          },
-          {
-            "name": "Landing page"
           }
         ]
       }
@@ -459,7 +504,12 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["8.0.0", "6.4.0", "5.3.0"],
+        "changedInVersion": [
+          "10.0.0",
+          "8.0.0",
+          "6.4.0",
+          "5.3.0"
+        ],
         "examples": [
           {
             "name": "Value"
@@ -531,7 +581,8 @@
           "5.2.0",
           "4.2.0",
           "3.4.0",
-          "3.1.0"
+          "3.1.0",
+          "10.3.0"
         ],
         "examples": [
           {
@@ -548,7 +599,10 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["8.0.0", "7.0.0"],
+        "changedInVersion": [
+          "8.0.0",
+          "7.0.0"
+        ],
         "examples": [
           {
             "name": "Default"
@@ -561,7 +615,11 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["6.5.0", "6.4.0", "6.3.0"]
+        "changedInVersion": [
+          "6.5.0",
+          "6.4.0",
+          "6.3.0"
+        ]
       }
     },
     {
@@ -569,7 +627,10 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["6.5.0", "6.2.0"]
+        "changedInVersion": [
+          "6.5.0",
+          "6.2.0"
+        ]
       }
     },
     {
@@ -577,7 +638,10 @@
       "bootstrap": {
         "new": false,
         "deprecated": false,
-        "changedInVersion": ["6.5.0", "3.0.0"]
+        "changedInVersion": [
+          "6.5.0",
+          "3.0.0"
+        ]
       }
     }
   ]

@@ -10,6 +10,7 @@ import style from './index.module.css'
 import ComponentNavigation from '../ComponentNavigation'
 
 const DEFAULT_BACKGROUND_COLOR = '#fff'
+const DEFAULT_THEME = 'on-gray'
 
 const ComponentExample = ({
   variants,
@@ -34,6 +35,9 @@ const ComponentExample = ({
   const [backgroundColor, setBackground] = useState(
     background ?? DEFAULT_BACKGROUND_COLOR
   )
+  const [themeColor, setTheme] = useState(
+    background ?? DEFAULT_THEME
+  )
   const [code, setCode] = useState(
     navigation ? nav[0].example[0].node.content : variants[0].node.content
   )
@@ -46,12 +50,14 @@ const ComponentExample = ({
     setSource(!source)
   }
 
-  const handleSetBackgroundToWhite = () => {
+  const handleToWhite = () => {
     setBackground('#fff')
+    setTheme('on-white')
   }
 
-  const handleSetBackgroundToGrey = () => {
+  const handleToGrey = () => {
     setBackground('#f3f3f3')
+    setTheme('on-gray')
   }
 
   const handleChildClick = (nav) => {
@@ -97,8 +103,8 @@ const ComponentExample = ({
           </div>
           <div>
             <Actions
-              white={handleSetBackgroundToWhite}
-              grey={handleSetBackgroundToGrey}
+              white={handleToWhite}
+              grey={handleToGrey}
               toggleCode={toggleCode}
             />
           </div>
@@ -135,22 +141,23 @@ const ComponentExample = ({
             }
           >
             <Content
+              theme={themeColor}
               source={
                 backgroundColor === DEFAULT_BACKGROUND_COLOR
                   ? code
                   : code
-                      .replaceAll(
-                        '"form-control"',
-                        '"form-control form-control-white"'
-                      )
-                      .replaceAll(
-                        '"custom-file"',
-                        '"custom-file custom-file-white"'
-                      )
-                      .replaceAll(
-                        '"input-group"',
-                        '"input-group input-group-white"'
-                      )
+                    .replaceAll(
+                      '"form-control"',
+                      '"form-control form-control-white"'
+                    )
+                    .replaceAll(
+                      '"custom-file"',
+                      '"custom-file custom-file-white"'
+                    )
+                    .replaceAll(
+                      '"input-group"',
+                      '"input-group input-group-white"'
+                    )
               }
             />
           </Frame>

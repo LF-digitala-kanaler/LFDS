@@ -32,7 +32,7 @@ const HtmlBlock = ({ value }) => {
   )
 }
 
-const Content = ({ source, src, className = '' }) => {
+const Content = ({ source, src, className = '', theme = '' }) => {
   // accepts either html or markdown
   source = source || src || ''
   if (source.match(/^</)) {
@@ -41,6 +41,7 @@ const Content = ({ source, src, className = '' }) => {
     return (
       <div
         className={`Content ${className}`}
+        data-bs-theme={`${theme}`}
         dangerouslySetInnerHTML={{ __html: source }}
       />
     )
@@ -61,7 +62,8 @@ const Content = ({ source, src, className = '' }) => {
 Content.propTypes = {
   source: PropTypes.string,
   src: PropTypes.string,
-  className: PropTypes.string
+  className: PropTypes.string,
+  theme: PropTypes.string
 }
 
 export default Content

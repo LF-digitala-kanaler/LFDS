@@ -9,8 +9,8 @@ description: Tabs are used as contextual navigation when the user has landed on
 previewImage: /img/nav.svg
 category: Navigations
 componentsNavigation:
-  - name: Page level navigation
-  - name: In page navigation
+  - name: Line tabs
+  - name: Contained tabs
 backgroundColor: '#f3f3f3'
 tabs:
   - content: >-
@@ -75,116 +75,35 @@ tabs:
   - content: >-
       ## How to use
 
+      Please see [Bootstrap Navs and tabs](https://getbootstrap.com/docs/5.3/components/navs-tabs/) for instructions.
 
-      Classes are used throughout, so your markup can be super flexible. Use `<ul>`'s like above, or roll your own with say a `<nav>` element. Because the `.nav` uses `display: flex`, the nav links behave the same as nav items would, but without the extra markup.
+      ### Variations
 
+      We offer three varieties: standard tabs (`.nav-tabs`), line tabs (`.nav-lines`) and sub nav (`.nav-sub`). line tabs and sub nav are custom and not part of Bootstrap.
 
-      The nav has not been altered in any way that affects implementation or semantics, please see [Bootstrap nav](https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior).
+      ### Setting theme
 
-
-      ## Variations
-
-
-      The LFUI navs come in two different variants, mainly dependant on which background colour they are to be placed upon, the number of tabs expected to be present and if the tabs have more than one level of navigation.
+      Themes are used to modify Nav styles for a desired background color. See how the hover color for Line Tabs changes from white to blue on a white background.
 
 
-      ### Page-level navigation
-
-
-      Page-level tabs dosen't make use of the tabbed region In-page tabs does. It's basically a common navigation used when fetching content dynamically inside your app.
+      The theme is best applied to a containing element – likely the same element that applies the background color – with the `data-bs-theme="on-gray"` class. Tabs currently support `on-gray` and `on-white`.
 
 
       ```
 
-      <nav role="navigation">
-        <ul class="nav nav-page" id="navPage">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Fondförvaltning</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Traditionell förvaltning</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Försäkringsskydd</a>
-          </li>
-        </ul>
-      </nav>
-
-      ```
-
-
-      You can use the built in `data-bs-toggle="tab"` on each `.nav-link` to activate the tab.
-
-
-      ```
-
-      <nav role="navigation">
-        <ul class="nav nav-page" id="navPage">
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" href="#">Fondförvaltning</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#">Traditionell förvaltning</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#">Försäkringsskydd</a>
-          </li>
-        </ul>
-      </nav>
-
-      ```
-
-
-      ### In-page navigation
-
-
-      In-page navigation is our "normal" tab component. It uses Bootstrap's tab JavaScript plugin to create tabbable regions.
-
-
-      ```
-
-      <ul class="nav nav-tabs" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" data-bs-toggle="tab" href="#tab1a" role="tab">Tabby</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" href="#tab2a" role="tab">Tubby</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" href="#tab3a" role="tab">Trip</a>
-        </li>
-      </ul>
-
-      <div class="tab-content">
-        <div class="tab-pane active" id="tab1a" role="tabpanel"></div>
-        <div class="tab-pane" id="tab2a" role="tabpanel"></div>
-        <div class="tab-pane" id="tab3a" role="tabpanel"></div>
+      <div class="bg-body-bg" data-bs-theme="on-gray">
+        <div class="nav-tabs">…</div>
       </div>
 
       ```
 
 
-      Make sure the href of  `.nav-link` and id of the `.tab-pane` match and use `data-bs-toggle="tab"` to activate the navigation tab.
+      ### Accessibility
 
 
-      There is a couple of classes you can add to `.nav` that modify the tab design:
+      If using a nav bar, add a `role="navigation"` to the most logical parent container of the `<ul>` or wrap a `<nav>` element around the navigation. Don't add the role to the `<ul>` as this will prevent it from being announced as a list by assistive technologies.
 
 
-      * .nav-small - less x and y tab padding
-
-      * .nav-tight - less x tab padding
-
-      * .nav-tabs-gray - for use on white background
-
-
-
-
-      ## Accessibility
-
-
-      If you’re using navs to provide a navigation bar, be sure to add a `role="navigation"` to the most logical parent container of the `<ul>`, or wrap a `<nav>` element around the whole navigation. Do not add the role to the `<ul>` itself, as this would prevent it from being announced as an actual list by assistive technologies.
-
-
-      Note that navigation bars, even if visually styled as tabs with the `.nav-tabs` class, should **not** be given `role="tablist"`, `role="tab"` or `role="tabpanel"` attributes. ([soruce](https://getbootstrap.com/docs/4.0/components/navs/#regarding-accessibility))
+      Note that navigation bars - even if styled as tabs with the `.nav-tabs` class - should not have `role="tablist"`, `role="tab"`, or `role="tabpanel"` attributes. See ([this soruce](https://getbootstrap.com/docs/5.3/components/navs-tabs/#regarding-accessibility)) for more information.
     name: Code
 ---
