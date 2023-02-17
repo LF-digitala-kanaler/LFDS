@@ -35,9 +35,7 @@ const ComponentExample = ({
   const [backgroundColor, setBackground] = useState(
     background ?? DEFAULT_BACKGROUND_COLOR
   )
-  const [themeColor, setTheme] = useState(
-    background ?? DEFAULT_THEME
-  )
+  const [themeColor, setTheme] = useState(background ?? DEFAULT_THEME)
   const [code, setCode] = useState(
     navigation ? nav[0].example[0].node.content : variants[0].node.content
   )
@@ -146,18 +144,18 @@ const ComponentExample = ({
                 backgroundColor === DEFAULT_BACKGROUND_COLOR
                   ? code
                   : code
-                    .replaceAll(
-                      '"form-control"',
-                      '"form-control form-control-white"'
-                    )
-                    .replaceAll(
-                      '"custom-file"',
-                      '"custom-file custom-file-white"'
-                    )
-                    .replaceAll(
-                      '"input-group"',
-                      '"input-group input-group-white"'
-                    )
+                      .replaceAll(
+                        '"form-control"',
+                        '"form-control form-control-white"'
+                      )
+                      .replaceAll(
+                        '"custom-file"',
+                        '"custom-file custom-file-white"'
+                      )
+                      .replaceAll(
+                        '"input-group"',
+                        '"input-group input-group-white"'
+                      )
               }
             />
           </Frame>
