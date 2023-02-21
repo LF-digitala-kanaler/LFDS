@@ -2,25 +2,31 @@
 template: ComponentPage
 title: Tabs
 intro: Tabs are used as contextual navigation when the user has landed on a page
-  which hasn't any submenues in the main navigation. We have two main variations
-  of tabs; page-level navigation and in-page navigation.
+  which hasn't any submenues in the main navigation. We have two variations of
+  tabs; Line tabs and Contained tabs. They can work in a page-level (everything
+  below the tabs) or a in-page level (a specific area controlled by the tabs)
+  navigation.
 description: Tabs are used as contextual navigation when the user has landed on
-  a page which hasn't any submenues in the main navigation.
+  a page which hasn't any submenues in the main navigation. We have two
+  variations of tabs; Line tabs and Contained tabs. They can work in a
+  page-level (everything below the tabs) or a in-page level (a specific area
+  controlled by the tabs) navigation.
 previewImage: /img/nav.svg
 category: Navigations
 componentsNavigation:
   - name: Line tabs
   - name: Contained tabs
-backgroundColor: '#f3f3f3'
+backgroundColor: "#f3f3f3"
 tabs:
   - content: >-
       ## How to use
 
 
-      Tabs should be used for navigation inside a page. This means that tabs are the most local way of navigating, and should only be used for when it doesn't make sense to divide the content into several pages/views. Tabs are primarily used in "closed environments" such as Mina Sidor and internal systems. Good examples of tab use include settings-pages and navigation within one instance of a product of which a customer may have many (such as occupational pension).
+      Tabs should be used for navigation inside a page. This means that tabs are the most local way of navigating, and should only be used for when it doesn't make sense to divide the content into several pages/views. They always contain at least two items and one tab is active at a time. Tabs can be used on full page layouts or in components such as modals, cards, or side panels.\
 
+      \
 
-      Changing a tab should affect everything below it within the container/page and nothing above it.
+      Changing a tab should affect everything below it within the containe or page and nothing above it.
 
 
       ### Variations
@@ -29,9 +35,12 @@ tabs:
       We have two main variations of tabs;
 
 
-      * **Page-level navigation** are tabs which control the whole page.
+      * **Line tabs:** A standalone tab that can also be nested within components. It is commonly used within components or for content using the entire page for layout, not connected to any other components. Modifiers for this tab include icon support.
 
-      * **In-page navigation** are tabs which only control the container they are in.
+      * **Contained tabs:** An emphasized tab that is always attached to a background container. It is commonly used for defined content areas, like sub-pages or attached to cards..
+
+
+      ### U﻿sage
 
 
       #### Page-level navigation
@@ -49,7 +58,7 @@ tabs:
       A great example is if you enter a specific occupational pension in Mina Sidor; the value is displayed prominently and then there are in-page navigational tabs separating the savings-related parts and insurance-related parts into different views.
 
 
-      <div class="Callout"><strong class="Callout__title">A third variation is coming! </strong><p class="Callout__text">We are currently designing a third variation, for when you want to do even more local adaptations - like changing the style of a graph or what to display in said graph.</p></div>
+      <div class="Callout"><strong class="Callout__title">The one that defys the rule </strong><p class="Callout__text">We have a version of Line tab that control content above. Commonly used to change the data in a graph.</p></div>
 
 
       ### Modifiers
