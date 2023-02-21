@@ -26,7 +26,7 @@ tabs:
 
       \
 
-      Changing a tab should affect everything below it within the containe or page and nothing above it.
+      Changing a tab should affect everything below it within the container or page and nothing above it.
 
 
       ### Variations
