@@ -19,7 +19,7 @@ lang: true
 ---
 <figure class="Image Image__background "><img src="/img/favicon.svg" srcset="/img/favicon.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbolagen. Här presenterar vi en fördjupning av det digitala varumärket. Allt kring varumärket generellt finner du under LF Mediebank som är våran varumärkesportal.
+Vårt varumärke har flera olika dialekter med de 23 olika länsförsäkringsbolagen. Här presenterar vi en fördjupning av det digitala varumärket. Allt kring varumärket generellt finner du under LF Mediebank som är vår varumärkesportal.
 
 [A short version of our Visual Identity](/visual-identity)
 
