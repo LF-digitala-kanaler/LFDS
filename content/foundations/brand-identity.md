@@ -28,6 +28,7 @@ Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbol
 ### Kontakter varumärkesfrågor
 
 Varumärkesansvarig – Lina Kolacz
+
 Digitalt varumärke – Leonhard Rauch
 
 ### Introduktion
