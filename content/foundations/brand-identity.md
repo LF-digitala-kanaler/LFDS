@@ -14,13 +14,12 @@ description: >-
   kända företagssymboler.
 
   Det är något vi värnar om tillsammans.
+contentTop: ""
 lang: true
-contentTop: ''
 ---
-
 <figure class="Image Image__background "><img src="/img/favicon.svg" srcset="/img/favicon.svg 2x" alt=""><figcaption><div class="Image__caption"></div></figcaption></figure>
 
-Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbolagen. Här presenterar vi en fördjupning av det digitala varumärket. Allt kring varumärket generellt finner du under Röda rummet som är våran varumärkesportal.
+Vårt varumärke har flera olika dialekter med de 23 olika länsförsäkringsbolagen. Här presenterar vi en fördjupning av det digitala varumärket. Allt kring varumärket generellt finner du under LF Mediebank som är vår varumärkesportal.
 
 [A short version of our Visual Identity](/visual-identity)
 
@@ -28,16 +27,10 @@ Vårt varumärke har flera olika dialekter med de 23 olika Länsförsäkringsbol
 
 ### Kontakter varumärkesfrågor
 
-Varumärkesansvarig kontakta Pär Hjärtström.\
-Manifestet kontakta Lina Kolacz.
-Digitala Designansvarig kontakta Liza Hansson.
+Varumärkesansvarig – Lina Kolacz
 
-Återkommande möten hålls för att synka de olika delarna i vårt varumärket.
+Digitalt varumärke – Leonhard Rauch
 
 ### Introduktion
 
 Som ny på Länsförsäkringar och har roller som webbredaktör, kommunikatör, designer eller marknadschef kan man ta del av en introduktion i varumärket. Utbildning kommer ut på Länet och brukar göras ca 2 gånger per år.
-
-Just nu finns även utbildning i nya fotomanéret och Manifestet.
-
-Som ny UX designer eller UI designer får man en intro av Liza så fort som möjligt.
