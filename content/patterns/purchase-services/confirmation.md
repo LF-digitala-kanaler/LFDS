@@ -3,16 +3,19 @@ template: ArticlePage
 category: Purchase services
 title: Confirmation
 intro: Add intro here…
-description: 'Add description here…'
-contentTop: ''
+description: Add description here…
+contentTop: ""
 wide: false
 lang: false
 hidden: false
 ---
-
 ## Copy kvittosida
 
 Copyn på kvittosidan ska berätta för kunden vad som är klart och vad som händer nu. En bekräftelse. Håll kvittosidan ren och inte för mycket text, för att skapa fokus på det som är viktigt.
+
+* En bekräftelse på vad som är klart
+* Vad händer nu? Behöver användaren göra något eller ska LF göra något?
+* M﻿ervärde om det passar
 
 ### H1-rubrik
 
