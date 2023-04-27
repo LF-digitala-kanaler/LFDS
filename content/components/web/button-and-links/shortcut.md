@@ -8,38 +8,26 @@ description: Shortcuts are as a way of providing a quick and easy way to access
   popular pages.
 previewImage: /img/shortcut.svg
 category: Button and links
-backgroundColor: '#f3f3f3'
+backgroundColor: "#f3f3f3"
 tabs:
   - content: >-
       ## How to use
+
 
       Shortcuts are used to highlight alternative actions from the current flow which we think are important for the user. They are either of a more alerting nature or navigational, and each design only corresponds to one of these two uses. For both use cases the shortcut takes the user into another flow than the one they came from.
 
       Shortcuts are normally spanning the whole row, except for [multiple-lined shortcuts](#multiple-lined-shortcut) which may have two next to each other. They also feature a 2px shadow on the bottom to highlight that they can be clicked.
 
+
       ## Variations
 
 
-      There are three main variations of the shortcut:
+      There are two main variations of the shortcut:
 
-
-      * **Alerting** (more known as "**Glasspinne**"), which are used to highlight important actions which the user needs to act on.
 
       * **Navigational** shortcuts exist in two different styles, but all with the main purpose of highlighting alternative ways forward from the current view.
 
       * **Landing page** shortcuts are only used on landing pages and are used for helping users find the most common tasks/pages.
-
-
-      #### Alerting (Glasspinne)
-
-
-      "Glasspinne" is the shortcut we use when we want to make users aware of an action they need/are recommended to take, but probably isn't not why they arrived at the page (in contrast, alerts are for when we want to broadcast something to the user but they do not need to take any action). "Glasspinnar" use the same colors with the same meaning as regular [alerts](../system-display/alert), meaning that they are available in all four colours - however it is (almost) exclusively the blue neutral one which is in use. "Glasspinnar" are always just one row high, meaning the text should be kept short and snappy. The text is written in bold.
-
-
-      The most prominent usage of the "glasspinne" is on the landing page of Mina Sidor where we use it for things like asking the customer to fill out our their "kundkännedomsfrågor" (KYC, Know Your Customer) and providing relevant offers ("your car turns 3 years old, you might want to change type of insurance"). It is however used on several other pages within Mina Sidor as well, such as product pages.
-
-
-      <div class="Callout"><strong class="Callout__title">Trivia </strong><p class="Callout__text">The name comes from the need for a name to describe them with and someone thinking they resembled ice cream sticks (which is what "glasspinne" means in Swedish).</p></div>
 
 
       #### Navigational shortcuts
@@ -86,7 +74,7 @@ tabs:
       Glasspinnar är bara en rad och skrivs i fet. Texten måste därför vara kort och koncis.
     name: Copy
   - content: >-
-
+      
       Shortcuts are highly flexible. They can go with our without icons, and contain pretty much any type of content – such as a paragraph in above examples.
 
       ### Configuration
@@ -139,6 +127,5 @@ tabs:
       </a>
 
       ```
-
     name: Code
 ---
