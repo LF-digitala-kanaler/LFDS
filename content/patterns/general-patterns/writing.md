@@ -7,9 +7,9 @@ intro: "Här kan du läsa om mönster för felmeddelanden. Än så länge endast
 description: ""
 contentTop: ""
 ---
-## Writing
+### Writing
 
-### Hur vi generellt skriver felmeddelanden i tjänster och informationstexter vid till exempel incidenter eller systemunderhåll.
+#### Hur vi generellt skriver felmeddelanden i tjänster och informationstexter vid till exempel incidenter eller systemunderhåll.
 
 Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har
 hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig,
