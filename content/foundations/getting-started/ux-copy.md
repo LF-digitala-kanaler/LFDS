@@ -3,14 +3,13 @@ template: ArticlePage
 category: Getting started
 previewImage: /img/copy.svg
 title: UX Writing
-intro: 'Här guidar vi dig hur du kommer igång som en Writer. Du kan läsa
+intro: "Här guidar vi dig hur du kommer igång som en Writer. Du kan läsa
   övergripande om vår tonalitet, lära dig hur vi skriver våra felmeddelanden. Vi
-  har också copy för våra vanligaste komponenter. '
-contentTop: ''
+  har också copy för våra vanligaste komponenter. "
+contentTop: ""
 wide: false
 lang: true
 ---
-
 <div class="Callout"><strong class="Callout__title">Tone of voice </strong><p class="Callout__text">
 
 Länsförsäkringska är vårt språk. Vi skriver på läsarens villkor och som ett samtal.
@@ -33,3 +32,12 @@ I avsnittet Felmeddelanden under General Patterns kan du se exempel och principe
 <br>
 
 [Visa hur vi skriver felmeddelanden](https://lfds.netlify.app/patterns/general-patterns/writing)</p></div>
+
+<div class="Callout"><strong class="Callout__title">Accessibility </strong><p class="Callout__text">
+
+Under Web accessibility guidelines finns riktlinjer om hur vi skriver copy och content tillgängligt.\
+<﻿br>
+
+[Web accessibility guidelines for copy and content](/foundations/accessibility/web-accessibility-guidelines#Copy%20and%20content)
+
+</p></div>
