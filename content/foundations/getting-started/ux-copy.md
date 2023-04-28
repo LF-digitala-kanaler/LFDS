@@ -15,14 +15,16 @@ lang: true
 Länsförsäkringska är vårt språk. Vi skriver på läsarens villkor och som ett samtal.
 <br>
 
-[Mer om länsförsäkringska](https://lfds.netlify.app/foundations/writing)</p></div>
+[About länsförsäkringska](/foundations/writing)
+
+</p></div>
 
 <div class="Callout"><strong class="Callout__title">Copy i komponenter </strong><p class="Callout__text">
 
 Under respektive komponent finns copy för specifika knappar och fält.
 <br>
 
-[Copy i komponenter](/components)
+[Copy for components](/components)
 
 </p></div>
 
@@ -31,7 +33,9 @@ Under respektive komponent finns copy för specifika knappar och fält.
 I avsnittet Felmeddelanden under General Patterns kan du se exempel och principer på hur vi skriver felmeddelanden.
 <br>
 
-[Visa hur vi skriver felmeddelanden](https://lfds.netlify.app/patterns/general-patterns/writing)</p></div>
+[Visa hur vi skriver felmeddelanden](/patterns/general-patterns/writing)
+
+</p></div>
 
 <div class="Callout"><strong class="Callout__title">Accessibility </strong><p class="Callout__text">
 
