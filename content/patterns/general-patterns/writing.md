@@ -2,13 +2,15 @@
 template: ArticlePage
 category: General patterns
 title: Felmeddelanden
-intro: Här kan du läsa om hur vi generellt skriver felmeddelanden i tjänster och
-  informationstexter vid till exempel incidenter eller systemunderhåll.
-description: "Här kan du läsa om hur vi generellt skriver felmeddelanden i
-  tjänster och informationstexter vid till exempel incidenter eller
-  systemunderhåll. Än så länge endast UX writing på denna sida. "
+intro: "Här kan du läsa om mönster för felmeddelanden. Än så länge endast UX
+  writing på denna sida.  "
+description: ""
 contentTop: ""
 ---
+## Writing
+
+### Hur vi generellt skriver felmeddelanden i tjänster och informationstexter vid till exempel incidenter eller systemunderhåll.
+
 Ett felmeddelande ska hjälpa användaren att göra rätt eller vägleda. Vad har
 hänt? Och vad kan användaren göra nu? Guida, hjälp och tipsa! Tonen är viktig,
 var vänlig och framförallt när det är vårt fel – var ödmjuk.
