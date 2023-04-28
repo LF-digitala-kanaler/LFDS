@@ -26,4 +26,4 @@ Skriv på läsarens villkor innebär i korthet att vi skriver rakt, aktivt och e
 
 Skriv som ett samtal innebär i korthet att vi skriver personligt och vänligt. Ungefär som ett samtal mellan två personer.
 
-<div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Skriv alltid tillgängligt och inkluderande.</p></div>
+<div class="Callout"><strong class="Callout__title">Kom ihåg! </strong><p class="Callout__text">Skriv alltid tillgängligt och inkluderande. Läs mer om [tillgänglighet](foundations/accessibility/web-accessibility-guidelines)</p></div>
